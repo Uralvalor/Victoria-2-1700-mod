@@ -1,0 +1,43 @@
+country_event = {
+    id = 99991
+    title = "EVTNAME99991"
+    desc = "EVTDESC99991"
+    picture = "Administration"
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = "EVTOPTA99991"
+        1909 = {
+            secede_province = ENG
+        }
+        prestige = 50
+        ATJ = {
+            add_casus_belli = {
+                target = NET
+                type = conquest
+                months = 1000
+            }
+        }
+        money = -50000
+        ENG = {
+            money = 50000
+        }
+        ai_chance = {
+            factor = 80
+        }
+    }
+    
+    option = {
+        name = "EVTOPTB99991"
+        prestige = -50
+                add_casus_belli = {
+                    target = ENG
+            type = place_in_the_sun
+            months = 1000
+        }
+        ai_chance = {
+            factor = 20
+        }
+    }
+}

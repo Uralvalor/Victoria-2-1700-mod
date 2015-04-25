@@ -1,0 +1,350 @@
+country_event = {
+
+	id = 111000
+
+	trigger = {		
+		tag = ROM
+		revolution_n_counterrevolution = 1
+		is_ideology_enabled = fascist
+		year = 1927
+		NOT = {
+			government = proletarian_dictatorship
+			government = fascist_dictatorship
+		}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen =  {
+		months = 10
+	}
+	
+	title = "EVTNAME111000"
+	desc = "EVTDESC111000"
+	
+	option = {
+		name = "EVTOPTA111000"
+		any_pop = {
+			ideology = {
+				value = fascist
+				factor = 0.15
+			}
+		}
+		set_country_flag = iron_guard_active
+		add_country_modifier = {
+			name = iron_guard_terror
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+
+	id = 111001
+
+	trigger = {		
+		tag = ROM
+		year = 1930
+		has_country_flag = iron_guard_active
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen =  {
+		months = 24
+	}
+	
+	title = "EVTNAME111001"
+	desc = "EVTDESC111001"
+	
+	option = {
+		name = "EVTOPTA111001"
+		prestige = -5
+		any_pop = {
+			ideology = {
+				value = fascist
+				factor = 0.15
+			}
+		}
+		set_country_flag = ion_duca_killed
+	}
+}
+
+country_event = {
+
+	id = 111002
+
+	trigger = {		
+		tag = ROM
+		year = 1936
+		has_country_flag = ion_duca_killed		
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen =  {
+		months = 10
+	}
+	
+	title = "EVTNAME111002"
+	desc = "EVTDESC111002"
+	
+	option = {
+		name = "EVTOPTA111002"
+		any_pop = {
+			scaled_militancy = {
+				ideology = fascist
+				factor = 4
+			}
+		}
+		set_country_flag = codreanu_killed
+		clr_country_flag = ion_duca_killed
+	}
+}
+
+country_event = {
+
+	id = 111003
+
+	trigger = {
+		tag = ROM
+		AUS_647 = {
+			owned_by = ROM
+		}
+		AUS_654 = {
+			owned_by = ROM
+		}
+		AUS_657 = {
+			owned_by = ROM
+		}
+		exists = GER
+		exists = HUN
+		has_country_flag = codreanu_killed
+		NOT = { exists = AUS }
+		NOT = { exists = SIE }
+		NOT = {
+			government = proletarian_dictatorship
+			government = fascist_dictatorship
+		}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen =  {
+		months = 5
+	}
+	
+	title = "EVTNAME111003"
+	desc = "EVTDESC111003"
+	
+	option = {
+		name = "EVTOPTA111003"
+		pestige = -25
+		AUS_661 = {			
+			secede_province = HUN			
+		}
+		set_country_flag = second_vienna_award		
+	}
+}
+
+country_event = {
+
+	id = 111004
+
+	trigger = {		
+		tag = ROM
+		has_country_flag = codreanu_killed
+		has_country_flag = second_vienna_award
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen =  {
+		months = 18
+	}
+	
+	title = "EVTNAME111004"
+	desc = "EVTDESC111004"
+	
+	option = {
+		name = "EVTOPTA111004"
+		diplomatic_influence = {
+			who = GER
+			value = 200
+		}
+		diplomatic_influence = {
+			who = ITA
+			value = 200
+		}
+		diplomatic_influence = {
+			who = ENG
+			value = -200
+		}
+		diplomatic_influence = {
+			who = FRA
+			value = -200
+		}
+		diplomatic_influence = {
+			who = SOV
+			value = -200
+		}
+		any_pop = {
+			militancy = -3
+		}
+		government = presidential_dictatorship
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = no_meeting
+		political_reform = state_press
+		political_reform = state_controlled
+		political_reform = underground_parties
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist		
+		clr_country_flag = second_vienna_award
+		set_country_flag = september_revolt_ok
+		ai_chance = {
+			factor = 80
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB111004"
+		any_pop = {
+			militancy = 5
+		}
+		remove_country_flag = second_vienna_award
+		set_country_flag = september_revolt_ok
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = {
+
+	id = 111005
+
+	trigger = {		
+		tag = ROM
+		has_country_flag = codreanu_killed
+		has_country_flag = september_revolt_ok
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen =  {
+		months = 12
+	}
+	
+	title = "EVTNAME111005"
+	desc = "EVTDESC111005"
+	
+	option = {
+		name = "EVTOPTA111005"
+		diplomatic_influence = {
+			who = GER
+			value = -400
+		}
+		diplomatic_influence = {
+			who = ITA
+			value = -200
+		}
+		diplomatic_influence = {
+			who = ENG
+			value = 400
+		}
+		diplomatic_influence = {
+			who = FRA
+			value = 200
+		}
+		diplomatic_influence = {
+			who = SOV
+			value = -400
+		}
+		any_pop = {
+			scaled_militancy = {
+				ideology = fascist
+				factor = -4
+			}
+		}
+		government = fascist_dictatorship
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = no_meeting
+		political_reform = state_press
+		political_reform = state_controlled
+		political_reform = underground_parties
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		clr_country_flag = codreanu_killed
+		clr_country_flag = iron_guard_active
+		clr_country_flag = september_revolt_ok
+		set_country_flag = legionara_revolt_ok
+		remove_country_modifier = iron_guard_terror
+		ai_chance = {
+			factor = 10
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB111005"
+		prestige = 5
+		any_pop = {
+			militancy = -3
+		}
+		any_pop = {
+			scaled_militancy = {
+				ideology = fascist
+				factor = 6
+			}
+		}
+		clr_country_flag = codreanu_killed
+		clr_country_flag = iron_guard_active
+		clr_country_flag = september_revolt_ok
+		set_country_flag = legionara_revolt_ok
+		remove_country_modifier = iron_guard_terror
+		ai_chance = {
+			factor = 90
+		}
+	}
+}

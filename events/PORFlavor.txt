@@ -1,0 +1,204 @@
+country_event = {
+
+	id = 95290
+
+	trigger = {
+		tag = POR
+		OR = {
+			government = hms_government
+			government = prussian_constitutionalism
+			government = absolute_monarchy
+		}
+		year = 1906
+		NOT = {
+			year = 1910
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 7
+
+		modifier = {
+			factor = 0.75
+			year = 1907
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1909
+		}
+	}
+
+	title = "EVTNAME95290"
+	desc = "EVTDESC95290"
+	picture = "lisboa_murder"
+
+	option = {
+		name = "EVTOPTA95290"
+		prestige = -5
+		any_pop = {
+			ideology = {
+				value = liberal
+				factor = 0.2
+			}
+		}
+		set_country_flag = kings_are_murdered
+	}
+}
+country_event = {
+
+	id = 95291
+
+	trigger = {
+		tag = POR
+		OR = {
+			government = hms_government
+			government = prussian_constitutionalism
+			government = absolute_monarchy
+		}
+		has_country_flag = kings_are_murdered
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 10
+	}
+
+	title = "EVTNAME95291"
+	desc = "EVTDESC95291"
+	picture = "portugese_republik"
+
+	option = {
+		name = "EVTOPTA95291" 
+		government = democracy
+		political_reform = landed_voting
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+				name = provisional_government
+				duration = -1
+		}
+		clr_country_flag = kings_are_murdered
+		ai_chance = {
+			factor = 80
+		}
+	}
+	option = {
+		name = "EVTOPTB95291" 
+		any_pop = {
+			consciousness = 3
+			militancy = 6
+		}
+		clr_country_flag = kings_are_murdered
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+country_event = {
+
+	id = 95292
+
+	trigger = {
+		tag = POR
+		has_country_modifier = provisional_government
+	}
+	
+	fire_only_once = yes
+	major = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+	}
+
+	title = "EVTNAME95292"
+	desc = "EVTDESC95292"
+
+	option = {
+		name = "EVTOPTA95292" 
+		prestige = 10
+		political_reform = free_press
+		political_reform = all_trade_unions
+		social_reform = eight_hours
+		remove_country_modifier = provisional_government
+		set_country_flag = fall_of_portugal_monarchy
+	}
+}
+country_event = {
+
+	id = 95293
+
+	trigger = {
+		tag = POR
+		government = democracy
+		has_country_flag = fall_of_portugal_monarchy
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 20
+	}
+
+	title = "EVTNAME95293"
+	desc = "EVTDESC95293"
+	picture = "olivera_salazar"
+
+	option = {
+		name = "EVTOPTA95293" 
+		government = presidential_dictatorship
+		political_reform = none_voting
+		political_reform = no_meeting
+		political_reform = state_press
+		political_reform = no_trade_unions
+		political_reform = underground_parties
+		political_reform = party_appointed
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		clr_country_flag = fall_of_portugal_monarchy
+	}
+	
+}

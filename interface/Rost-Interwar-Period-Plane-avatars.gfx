@@ -1,0 +1,226 @@
+
+objectTypes = {	
+	
+	
+	EMFXActorType = {
+		name = "PrussianGCPlane3"
+		actorfile = "gfx\anims\GermanPlane_Interwar.xac"
+		
+		idle   = "gfx\anims\InterwarPlaneIdle.xsm"
+		move   = "gfx\anims\InterwarPlaneMove.xsm"
+		attack = "gfx\anims\InterwarPlaneAttack.xsm"
+		scale = 6.3
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}		
+		
+	}
+
+
+	EMFXActorType = {
+		name = "AustriaHungaryGCPlane3"
+		actorfile = "gfx\anims\AustrianPlane_Interwar.xac"
+		
+		idle   = "gfx\anims\InterwarPlaneIdle.xsm"
+		move   = "gfx\anims\InterwarPlaneMove.xsm"
+		attack = "gfx\anims\InterwarPlaneAttack.xsm"
+		scale = 6.3
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}		
+		
+	}
+
+
+	EMFXActorType = {
+		name = "UsGCPlane3"
+		actorfile = "gfx\anims\USPlane_Interwar.xac"
+		
+		idle   = "gfx\anims\InterwarPlaneIdle.xsm"
+		move   = "gfx\anims\InterwarPlaneMove.xsm"
+		attack = "gfx\anims\InterwarPlaneAttack.xsm"
+		scale = 6.3
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}		
+		
+	}
+
+
+	EMFXActorType = {
+		name = "BritishGCPlane3"
+		actorfile = "gfx\anims\BritishPlane_Interwar.xac"
+		
+		idle   = "gfx\anims\InterwarPlaneIdle.xsm"
+		move   = "gfx\anims\InterwarPlaneMove.xsm"
+		attack = "gfx\anims\InterwarPlaneAttack.xsm"
+		scale = 6.3
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}		
+		
+	}
+
+
+	EMFXActorType = {
+		name = "ChineseGCPlane3"
+		actorfile = "gfx\anims\ChinesePlane_Interwar.xac"
+		
+		idle   = "gfx\anims\InterwarPlaneIdle.xsm"
+		move   = "gfx\anims\InterwarPlaneMove.xsm"
+		attack = "gfx\anims\InterwarPlaneAttack.xsm"
+		scale = 6.3
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}		
+		
+	}
+
+
+	EMFXActorType = {
+		name = "JapaneseGCPlane3"
+		actorfile = "gfx\anims\JapanesePlane_Interwar.xac"
+		
+		idle   = "gfx\anims\InterwarPlaneIdle.xsm"
+		move   = "gfx\anims\InterwarPlaneMove.xsm"
+		attack = "gfx\anims\InterwarPlaneAttack.xsm"
+		scale = 6.3
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}		
+		
+	}
+
+
+	EMFXActorType = {
+		name = "RussianGCPlane3"
+		actorfile = "gfx\anims\RussianPlane_Interwar.xac"
+		
+		idle   = "gfx\anims\InterwarPlaneIdle.xsm"
+		move   = "gfx\anims\InterwarPlaneMove.xsm"
+		attack = "gfx\anims\InterwarPlaneAttack.xsm"
+		scale = 6.3
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}		
+		
+	}
+
+
+	EMFXActorType = {
+		name = "ItalianGCPlane3"
+		actorfile = "gfx\anims\ItalianPlane_Interwar.xac"
+		
+		idle   = "gfx\anims\InterwarPlaneIdle.xsm"
+		move   = "gfx\anims\InterwarPlaneMove.xsm"
+		attack = "gfx\anims\InterwarPlaneAttack.xsm"
+		scale = 6.3
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}		
+		
+	}
+
+
+	EMFXActorType = {
+		name = "SwedishGCPlane3"
+		actorfile = "gfx\anims\SwedishPlane_Interwar.xac"
+		
+		idle   = "gfx\anims\InterwarPlaneIdle.xsm"
+		move   = "gfx\anims\InterwarPlaneMove.xsm"
+		attack = "gfx\anims\InterwarPlaneAttack.xsm"
+		scale = 6.3
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}		
+		
+	}
+
+
+	EMFXActorType = {
+		name = "FrenchGCPlane3"
+		actorfile = "gfx\anims\FrenchPlane_Interwar.xac"
+		
+		idle   = "gfx\anims\InterwarPlaneIdle.xsm"
+		move   = "gfx\anims\InterwarPlaneMove.xsm"
+		attack = "gfx\anims\InterwarPlaneAttack.xsm"
+		scale = 6.3
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}		
+		
+	}
+
+	EMFXActorType = {
+		name = "SpanishGCPlane3"
+		actorfile = "gfx\anims\SpanishPlane_Interwar.xac"
+		
+		idle   = "gfx\anims\InterwarPlaneIdle.xsm"
+		move   = "gfx\anims\InterwarPlaneMove.xsm"
+		attack = "gfx\anims\InterwarPlaneAttack.xsm"
+		scale = 6.3
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}		
+		
+	}
+
+	EMFXActorType = {
+		name = "OttomanGCPlane3"
+		actorfile = "gfx\anims\TurkishPlane_Interwar.xac"
+		
+		idle   = "gfx\anims\InterwarPlaneIdle.xsm"
+		move   = "gfx\anims\InterwarPlaneMove.xsm"
+		attack = "gfx\anims\InterwarPlaneAttack.xsm"
+		scale = 6.3
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}		
+		
+	}
+}
+
+
+
+
+
+
+
+
+

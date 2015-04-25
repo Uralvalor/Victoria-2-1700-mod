@@ -1,0 +1,793 @@
+country_event = {
+
+	id = 99857
+
+	trigger = {
+		any_owned_province = {
+				is_core = EST
+			}
+		NOT = {
+			exists = EST
+			primary_culture = estonian
+			has_global_flag = estonian_problem
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 3
+	}
+	
+	title = "EVTNAME99851"
+	desc = "EVTDESC99851"
+	picture = "polrebel"
+
+	option = {
+		name = "EVTOPTA99851"
+		set_global_flag = estonian_problem
+		any_owned = {
+			limit = {
+				is_core = EST
+			}
+			add_province_modifier = {
+						name = separatist
+						duration = -1
+			}
+		}
+		
+	}
+}
+
+country_event = {
+
+	id = 99858
+
+	trigger = {
+		any_owned_province = {
+				is_core = LAT
+			}
+		NOT = {
+			exists = LAT
+			primary_culture = latvian
+			has_global_flag = latvian_problem
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 3
+	}
+	
+	title = "EVTNAME99851"
+	desc = "EVTDESC99851"
+	picture = "polrebel"
+
+	option = {
+		name = "EVTOPTA99851"
+		set_global_flag = latvian_problem
+		any_owned = {
+			limit = {
+				is_core = LAT
+			}
+			add_province_modifier = {
+						name = separatist
+						duration = -1
+			}
+		}
+		
+	}
+}
+
+country_event = {
+
+	id = 99859
+
+	trigger = {
+		any_owned_province = {
+				is_core = LIT
+			}
+		NOT = {
+			exists = LIT
+			primary_culture = lithuanian
+			has_global_flag = lithuanian_problem
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 3
+	}
+	
+	title = "EVTNAME99851"
+	desc = "EVTDESC99851"
+	picture = "polrebel"
+
+	option = {
+		name = "EVTOPTA99851"
+		set_global_flag = lithuanian_problem
+		any_owned = {
+			limit = {
+				is_core = LIT
+			}
+			add_province_modifier = {
+						name = separatist
+						duration = -1
+			}
+		}
+		
+	}
+}
+
+country_event = {
+
+	id = 99860
+
+	trigger = {
+		any_owned_province = {
+				is_core = SLV
+			}
+		NOT = {
+			exists = SLV
+			primary_culture = slovak
+			has_global_flag = slovak_problem
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 3
+	}
+	
+	title = "EVTNAME99854"
+	desc = "EVTDESC99854"
+	picture = "polrebel"
+
+	option = {
+		name = "EVTOPTA99854"
+		set_global_flag = slovak_problem
+		any_owned = {
+			limit = {
+				is_core = SLV
+			}
+			add_province_modifier = {
+						name = separatist
+						duration = -1
+			}
+		}
+		
+	}
+}
+
+country_event = {
+
+	id = 99861
+
+	trigger = {
+		any_owned_province = {
+				is_core = SLO
+			}
+		NOT = {
+			exists = SLO
+			primary_culture = slovene
+			has_global_flag = slovene_problem
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 3
+	}
+	
+	title = "EVTNAME99854"
+	desc = "EVTDESC99854"
+	picture = "polrebel"
+
+	option = {
+		name = "EVTOPTA99854"
+		set_global_flag = slovene_problem
+		any_owned = {
+			limit = {
+				is_core = SLO
+			}
+			add_province_modifier = {
+						name = separatist
+						duration = -1
+			}
+		}
+		
+	}
+}
+
+country_event = {
+
+	id = 99862
+
+	trigger = {
+		any_owned_province = {
+				is_core = CRO
+			}
+		NOT = {
+			exists = CRO
+			primary_culture = croat
+			has_global_flag = croat_problem
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 3
+	}
+	
+	title = "EVTNAME99854"
+	desc = "EVTDESC99854"
+	picture = "polrebel"
+
+	option = {
+		name = "EVTOPTA99854"
+		set_global_flag = croat_problem
+		any_owned = {
+			limit = {
+				is_core = CRO
+			}
+			add_province_modifier = {
+						name = separatist
+						duration = -1
+			}
+		}
+		
+	}
+}
+
+country_event = {
+
+	id = 99863
+
+	trigger = {
+		any_owned_province = {
+				is_core = BOS
+			}
+		NOT = {
+			exists = BOS
+			primary_culture = bosniak
+			has_global_flag = bosniak_problem
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 3
+	}
+	
+	title = "EVTNAME99854"
+	desc = "EVTDESC99854"
+	picture = "polrebel"
+
+	option = {
+		name = "EVTOPTA99854"
+		set_global_flag = bosniak_problem
+		any_owned = {
+			limit = {
+				is_core = BOS
+			}
+			add_province_modifier = {
+						name = separatist
+						duration = -1
+			}
+		}
+		
+	}
+}
+
+country_event = {
+
+	id = 99864
+
+	trigger = {
+		any_owned_province = {
+				is_core = RUT
+			}
+		NOT = {
+			exists = RUT
+			primary_culture = ukrainian
+			has_global_flag = RUT_problem
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 3
+	}
+	
+	title = "EVTNAME99854"
+	desc = "EVTDESC99854"
+	picture = "polrebel"
+
+	option = {
+		name = "EVTOPTA99854"
+		set_global_flag = RUT_problem
+		any_owned = {
+			limit = {
+				is_core = RUT
+			}
+			add_province_modifier = {
+						name = separatist
+						duration = -1
+			}
+		}
+		
+	}
+}
+
+country_event = {
+
+	id = 99865
+
+	trigger = {
+		any_owned_province = {
+				is_core = SER
+			}
+		NOT = {
+			primary_culture = serb
+			has_global_flag = serb_problem
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 3
+	}
+	
+	title = "EVTNAME99854"
+	desc = "EVTDESC99854"
+	picture = "polrebel"
+
+	option = {
+		name = "EVTOPTA99854"
+		set_global_flag = serb_problem
+		any_owned = {
+			limit = {
+				is_core = SER
+			}
+			add_province_modifier = {
+						name = separatist
+						duration = -1
+			}
+		}
+		
+	}
+}
+
+country_event = {
+
+	id = 99866
+
+	trigger = {
+		any_owned_province = {
+				is_core = MON
+			}
+		NOT = {
+			primary_culture = serb
+			has_global_flag = MON_problem
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 3
+	}
+	
+	title = "EVTNAME99854"
+	desc = "EVTDESC99854"
+	picture = "polrebel"
+
+	option = {
+		name = "EVTOPTA99854"
+		set_global_flag = MON_problem
+		any_owned = {
+			limit = {
+				is_core = MON
+			}
+			add_province_modifier = {
+						name = separatist
+						duration = -1
+			}
+		}
+		
+	}
+}
+
+country_event = {
+
+	id = 99867
+
+	trigger = {
+		any_owned_province = {
+				is_core = BUL
+			}
+		NOT = {
+			exists = BUL
+			primary_culture = bulgarian
+			has_global_flag = bulgarian_problem
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 3
+	}
+	
+	title = "EVTNAME99854"
+	desc = "EVTDESC99854"
+	picture = "polrebel"
+
+	option = {
+		name = "EVTOPTA99854"
+		set_global_flag = bulgarian_problem
+		any_owned = {
+			limit = {
+				is_core = BUL
+			}
+			add_province_modifier = {
+						name = separatist
+						duration = -1
+			}
+		}
+		
+	}
+}
+
+country_event = {
+
+	id = 99868
+
+	trigger = {
+		any_owned_province = {
+				is_core = ERM
+			}
+		NOT = {
+			exists = ERM
+			primary_culture = bulgarian
+			has_global_flag = bulgarian2_problem
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 3
+	}
+	
+	title = "EVTNAME99854"
+	desc = "EVTDESC99854"
+	picture = "polrebel"
+
+	option = {
+		name = "EVTOPTA99854"
+		set_global_flag = bulgarian2_problem
+		any_owned = {
+			limit = {
+				is_core = ERM
+			}
+			add_province_modifier = {
+						name = separatist
+						duration = -1
+			}
+		}
+		
+	}
+}
+
+country_event = {
+
+	id = 99869
+
+	trigger = {
+		any_owned_province = {
+				is_core = HUN
+			}
+		NOT = {
+			exists = HUN
+			primary_culture = hungarian
+			has_global_flag = hungarian_problem
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 3
+	}
+	
+	title = "EVTNAME99863"
+	desc = "EVTDESC99863"
+	picture = "polrebel"
+
+	option = {
+		name = "EVTOPTA99863"
+		set_global_flag = hungarian_problem
+		any_owned = {
+			limit = {
+				is_core = HUN
+			}
+			add_province_modifier = {
+						name = separatist
+						duration = -1
+			}
+		}
+		
+	}
+}
+
+country_event = {
+
+	id = 99870
+
+	trigger = {
+		any_owned_province = {
+				is_core = GRE
+			}
+		NOT = {
+			exists = GRE
+			primary_culture = greek
+			has_global_flag = greek_problem
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 3
+	}
+	
+	title = "EVTNAME99864"
+	desc = "EVTDESC99864"
+	picture = "polrebel"
+
+	option = {
+		name = "EVTOPTA99864"
+		set_global_flag = greek_problem
+		any_owned = {
+			limit = {
+				is_core = GRE
+			}
+			add_province_modifier = {
+						name = separatist
+						duration = -1
+			}
+		}
+		
+	}
+}
+
+country_event = {
+
+	id = 99871
+
+	trigger = {
+		any_owned_province = {
+				is_core = ALB
+			}
+		NOT = {
+			exists = ALB
+			primary_culture = albanian
+			has_global_flag = albanian_problem
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 3
+	}
+	
+	title = "EVTNAME99865"
+	desc = "EVTDESC99865"
+	picture = "polrebel"
+
+	option = {
+		name = "EVTOPTA99865"
+		set_global_flag = albanian_problem
+		any_owned = {
+			limit = {
+				is_core = ALB
+			}
+			add_province_modifier = {
+						name = separatist
+						duration = -1
+			}
+		}
+		
+	}
+}
+
+country_event = {
+
+	id = 99872
+
+	trigger = {
+		any_owned_province = {
+				is_core = IRE
+			}
+		NOT = {
+			exists = IRE
+			primary_culture = irish
+			has_global_flag = irish_problem
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 3
+	}
+	
+	title = "EVTNAME99866"
+	desc = "EVTDESC99866"
+	picture = "polrebel"
+
+	option = {
+		name = "EVTOPTA99866"
+		set_global_flag = irish_problem
+		any_owned = {
+			limit = {
+				is_core = IRE
+			}
+			add_province_modifier = {
+						name = separatist
+						duration = -1
+			}
+		}
+		
+	}
+}
+country_event = {
+
+	id = 99873
+
+	trigger = {
+                tag = RUS
+			has_country_flag = the_holy_russian_empire
+		NOT = {
+			has_country_flag = now_not_rus_problem
+		}
+	}
+
+	mean_time_to_happen =  {
+                  days=1
+	}
+	
+	title = "EVTNAME99873"
+	desc = "EVTDESC99873"
+	picture = "Monarchy"
+
+	option = {
+		name = "EVTOPTA99873"
+		set_country_flag = now_not_rus_problem
+		set_global_flag = bulgarian_problem
+		set_global_flag = bulgarian2_problem
+		set_global_flag = slovak_problem
+		set_global_flag = slovene_problem
+		set_global_flag = croat_problem
+		set_global_flag = bosniak_problem
+		set_global_flag = RUT_problem
+		set_global_flag = serb_problem
+		set_global_flag = MON_problem
+		any_owned = {
+			limit = {
+				is_core = ERM
+				is_core = BUL
+				is_core = MON
+				is_core = SER
+				is_core = RUT
+				is_core = BOS
+				is_core = CRO
+				is_core = SLO
+				is_core = SLV
+			}
+			remove_province_modifier = {
+						name = separatist
+			}
+		}
+		
+	}
+}
+country_event = {
+
+	id = 99874
+
+	trigger = {
+                tag = KUK
+		NOT = {
+			has_country_flag = now_not_KUK_problem
+		}
+	}
+
+	mean_time_to_happen =  {
+                  days=1
+	}
+	
+	title = "EVTNAME99874"
+	desc = "EVTDESC99874"
+	picture = "Monarchy"
+
+	option = {
+		name = "EVTOPTA99874"
+		set_country_flag = now_not_KUK_problem
+		set_global_flag = hungarian_problem
+		any_owned = {
+			limit = {
+				is_core = HUN
+			}
+			remove_province_modifier = {
+						name = separatist
+			}
+		}
+		
+	}
+}
+country_event = {
+
+	id = 99875
+
+	trigger = {
+                tag = CZH
+		NOT = {
+			has_country_flag = now_not_CZH_problem
+		}
+	}
+
+	mean_time_to_happen =  {
+                  days=1
+	}
+	
+	title = "EVTNAME99875"
+	desc = "EVTDESC99875"
+	picture = "Monarchy"
+
+	option = {
+		name = "EVTOPTA99875"
+		set_country_flag = now_not_CZH_problem
+		set_global_flag = slovak_problem
+		set_global_flag = croat_problem
+		any_owned = {
+			limit = {
+				is_core = CRO
+				is_core = SLO
+			}
+			remove_province_modifier = {
+						name = separatist
+			}
+		}
+		
+	}
+}
+country_event = {
+
+	id = 99876
+
+	trigger = {
+                tag = SOV
+			has_country_flag = the_holy_russian_empire_USSR
+		NOT = {
+			has_country_flag = now_not_rus_problem
+		}
+	}
+
+	mean_time_to_happen =  {
+                  days=1
+	}
+	
+	title = "EVTNAME99876"
+	desc = "EVTDESC99876"
+	picture = "Monarchy"
+
+	option = {
+		name = "EVTOPTA99876"
+		set_country_flag = now_not_rus_problem
+		set_global_flag = bulgarian_problem
+		set_global_flag = bulgarian2_problem
+		set_global_flag = slovak_problem
+		set_global_flag = slovene_problem
+		set_global_flag = croat_problem
+		set_global_flag = bosniak_problem
+		set_global_flag = RUT_problem
+		set_global_flag = serb_problem
+		set_global_flag = MON_problem
+		any_owned = {
+			limit = {
+				is_core = ERM
+				is_core = BUL
+				is_core = MON
+				is_core = SER
+				is_core = RUT
+				is_core = BOS
+				is_core = CRO
+				is_core = SLO
+				is_core = SLV
+			}
+			remove_province_modifier = {
+						name = separatist
+			}
+		}
+		
+	}
+}

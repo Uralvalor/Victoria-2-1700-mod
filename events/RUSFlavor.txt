@@ -1,0 +1,4799 @@
+country_event = {
+
+	id = 32500
+	news = yes
+	news_desc_long = "EVTDESC32500_NEWS_LONG"
+	news_desc_medium = "EVTDESC32500_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC32500_NEWS_SHORT"
+
+
+	trigger = {
+		tag = RUS
+		year = 1837
+		war = no
+		NOT = {
+			year = 1840
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1838
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1839
+		}
+	}
+
+	title = "EVTNAME32500"
+	desc = "EVTDESC32500"
+	picture = "Pushkin"
+
+	option = {
+		name = "EVTOPTA32500" 
+		prestige = 3
+	}
+}
+
+country_event = {
+
+	id = 32502
+
+	trigger = {
+		tag = RUS
+		year = 1849
+		war = no
+		NOT = {
+			year = 1852
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1850
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1851
+		}
+	}
+
+	title = "EVTNAME32502"
+	desc = "EVTDESC32502"
+	picture = "Execution"
+
+	option = {
+		name = "EVTOPTA32502"
+		plurality = -2 
+		capitalists = {
+			consciousness = -1
+		}	
+		aristocrats = {
+			consciousness = -1
+		}	
+		bureaucrats = {
+			consciousness = -1
+		}	
+	}
+}
+
+country_event = {
+
+	id = 32503
+
+	trigger = {
+		tag = RUS
+		year = 1852
+		NOT = {
+			year = 1855
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1853
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1854
+		}
+	}
+
+	title = "EVTNAME32503"
+	desc = "EVTDESC32503"
+	picture = "hermitage"
+
+	option = {
+		name = "EVTOPTA32503" 
+		prestige = 5
+	}
+}
+
+country_event = {
+
+	id = 32504
+
+	trigger = {
+		tag = RUS
+		year = 1874
+		NOT = {
+			year = 1877
+			}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1875
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1876
+		}
+	}
+
+	title = "EVTNAME32504"
+	desc = "EVTDESC32504"
+	picture = "Godunov"
+
+	option = {
+		name = "EVTOPTA32504" 
+		prestige = 5
+		any_pop = {
+			limit = { has_pop_culture = russian }
+			consciousness = 1
+		}	
+	}
+}
+
+country_event = {
+
+	id = 32505
+	news = yes
+	news_desc_long = "EVTDESC32505_NEWS_LONG"
+	news_desc_medium = "EVTDESC32505_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC32505_NEWS_SHORT"
+
+	trigger = {
+		tag = RUS
+		year = 1880
+		NOT = {
+			year = 1883
+			}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1881
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1882
+		}
+	}
+
+	title = "EVTNAME32505"
+	desc = "EVTDESC32505"
+	picture = "Dostoevsky"
+
+	option = {
+		name = "EVTOPTA32505" 
+		prestige = 5
+		any_pop = {
+			limit = { has_pop_culture = russian }
+			consciousness = 1
+		}	
+	}
+}
+
+country_event = {
+
+	id = 32506
+	trigger = {
+		tag = RUS
+		year = 1837
+		experimental_railroad = 1
+		994 = {
+			has_building = railroad
+		}
+		NOT = {
+			year = 1850
+		}
+		
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1839
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1842
+		}
+	}
+
+	title = "EVTNAME32506"
+	desc = "EVTDESC32506"
+	picture = "train"
+
+	option = {
+		name = "EVTOPTA32506" 
+		prestige = 2
+	}
+}
+
+country_event = {
+
+	id = 32507
+
+	trigger = {
+		tag = RUS
+		year = 1855
+		owns = 1072 #Okhotsk
+		NOT = {
+			year = 1858
+			war_with = JAP
+			JAP = {
+				part_of_sphere = no
+				is_independant = yes
+			}
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1856
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1857
+		}
+	}
+
+	title = "EVTNAME32507"
+	desc = "EVTDESC32507"
+	picture = "kurils"
+
+	option = {
+		name = "EVTOPTA32506" 
+		relation = { who = JAP value = 50 }
+	}
+}
+
+country_event = {
+
+	id = 32508
+
+	trigger = {
+		tag = RUS
+		year = 1899
+		NOT = {
+			year = 1902
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1900
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1901
+		}
+	}
+
+	title = "EVTNAME32508"
+	desc = "EVTDESC32508"
+	picture = "theatre"
+
+	option = {
+		name = "EVTOPTA32508" 
+		prestige = 5
+	}
+}
+
+# Alaska Purchase 1/3
+country_event = {
+	id = 32509
+	title = "EVTNAME32509"
+	desc = "EVTDESC32509"
+	picture = "alaska"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA32509"
+		USA = {
+			country_event = 32510
+		}
+		USA_1 = {
+			secede_province = USA
+			remove_core = RUS
+		}
+		any_owned = {
+			limit = {
+				continent = north_america
+			}
+			secede_province = USA
+			remove_core = RUS
+		}
+		USA = {
+			1 = {
+				change_province_name = "Ситка"
+			}
+			2 = {
+				change_province_name = "Якутат"
+			}
+			3 = {
+				change_province_name = "Кенаи"
+			}
+		}
+		ai_chance = {
+			factor = 95
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB32509"
+		USA = {
+			set_country_flag = you_did_try
+			country_event = 32511
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+# Alaska Purchase 2/3 Russia Accepts 
+country_event = {
+	id = 32510
+	title = "EVTNAME32510"
+	desc = "EVTDESC32510"
+	picture = "alaska"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA32510"
+		money = -72000
+		any_pop = {
+				consciousness = -1
+		}
+		RUS = {
+			money = 72000
+		}
+	}
+}
+
+# Alaska Purchase 3/3 Russia Denies
+country_event = {
+	id = 32511
+	title = "EVTNAME32511"
+	desc = "EVTDESC32511"
+	picture = "alaska"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA32511"
+		relation = {
+			who = FROM
+			value = -100
+		}
+	}
+}
+
+# Convention of Peking
+country_event = {
+	id = 80000
+	title = "EVTNAME80000"
+	desc = "EVTDESC80000"
+	picture = "expansion"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA80000"
+		CHI_1082 = {
+			secede_province = RUS
+		}
+		ai_chance = {
+			factor = 95
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB80000"
+		RUS = {
+			country_event = 80001
+		}
+		add_casus_belli = {
+				target = RUS
+				type = acquire_core_state
+				months = 60
+		}		
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+# China refuses
+country_event = {
+	id = 80001
+	title = "EVTNAME80001"
+	desc = "EVTDESC80000"
+	picture = "expansion"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA80001"
+		relation = { who = MCK value = -200 }
+		release_vassal = MCK
+		diplomatic_influence = {
+			who = MCK
+			value = -200
+		}
+	}
+}
+
+# Chronologymod
+
+country_event = {
+
+	id = 95150
+	trigger = {
+		OR = {
+			tag = RUS
+			tag = SOV
+		}
+		NOT = {
+			year = 1914
+		}
+		integral_rail_system = 1
+		owns = 1083
+		1008 = {
+			has_building = railroad
+		}
+		1011 = {
+			has_building = railroad
+		}
+		1012 = {
+			has_building = railroad
+		}
+		1021 = {
+			has_building = railroad
+		}
+		1025 = {
+			has_building = railroad
+		}
+		1034 = {
+			has_building = railroad
+		}
+		1035 = {
+			has_building = railroad
+		}
+		1042 = {
+			has_building = railroad
+		}
+		1059 = {
+			has_building = railroad
+		}
+		1061 = {
+			has_building = railroad
+		}
+		1064 = {
+			has_building = railroad
+		}
+		1067 = {
+			has_building = railroad
+		}
+		1077 = {
+			has_building = railroad
+		}
+		1075 = {
+			has_building = railroad
+		}
+		1078 = {
+			has_building = railroad
+		}
+		1079 = {
+			has_building = railroad
+		}
+		1081 = {
+			has_building = railroad
+		}
+		2697 = {
+			has_building = railroad
+		}
+		1082 = {
+			has_building = railroad
+		}
+		1083 = {
+			has_building = railroad
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME95150"
+	desc = "EVTDESC95150"
+	picture = "transib"
+
+	option = {
+		name = "EVTOPTA95150" 
+		prestige = 5
+	}
+}
+country_event = {
+
+	id = 95151
+
+	trigger = {
+		tag = RUS
+		owns = 706
+		year = 1841
+		NOT = {
+			year = 1844
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1842
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1843
+		}
+	}
+
+	title = "EVTNAME95151"
+	desc = "EVTDESC95151"
+	picture = "sevengenerals"
+
+	option = {
+		name = "EVTOPTA95151" 
+		prestige = 5
+		706 = {
+			any_pop = {
+				militancy = 2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 95152
+
+	trigger = {
+		tag = RUS
+		owns = 715
+		year = 1874
+		NOT = {
+			year = 1877
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1875
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1876
+		}
+	}
+
+	title = "EVTNAME95152"
+	desc = "EVTDESC95152"
+	picture = "pratulin"
+
+	option = {
+		name = "EVTOPTA95152" 
+		any_pop = { 
+			limit = {
+				has_pop_religion = catholic
+				}
+			militancy = 2
+			}
+	}
+}
+country_event = {
+
+	id = 95153
+
+	trigger = {
+		tag = RUS
+		owns = 715
+		year = 1879
+		NOT = {
+			year = 1882
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1880
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1881
+		}
+	}
+
+	title = "EVTNAME95153"
+	desc = "EVTDESC95153"
+	picture = "volia"
+
+	option = {
+		name = "EVTOPTA95153" 
+		any_pop = {
+			consciousness = 1
+		}
+	}
+}
+country_event = {
+
+	id = 95154
+
+	trigger = {
+		tag = RUS
+		year = 1868
+		NOT = {
+			year = 1871
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1869
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1870
+		}
+	}
+	title = "EVTNAME95154"
+	desc = "EVTDESC95154"
+	picture = "warpeace"
+
+	option = {
+		name = "EVTOPTA95154"
+		prestige = 5
+	}
+}
+country_event = {
+
+	id = 95155
+
+	trigger = {
+		tag = RUS
+		year = 1862
+		NOT = {
+			year = 1865
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1863
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1864
+		}
+	}
+	title = "EVTNAME95155"
+	desc = "EVTDESC95155"
+	picture = "thosandyear"
+
+	option = {
+		name = "EVTOPTA95155"
+		prestige = 5
+	}
+}
+#Tuva Protectorat
+country_event = {
+
+	id = 95156
+
+	trigger = {
+		OR = {
+			tag = RUS
+			tag = SOV
+		}
+		1469 = {
+			owned_by = MCK
+		}
+		MCK = {
+			OR = {
+				has_country_flag = xinhai_revolution
+				has_country_flag = the_new_army
+			}
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 2
+	}
+
+	title = "EVTNAME95156"
+	desc = "EVTDESC95156"
+	picture = "tuva"
+
+	option = {
+		name = "EVTOPTA95156"
+		1469 = {
+			secede_province = THIS
+			add_core = THIS
+		}
+		prestige = 5
+		ai_chance = {
+			factor = 95
+		}
+	}
+	option = {
+		name = "EVTOPTB95156"
+		MCK = {
+			release = TNT
+		}
+		1469 = {
+			remove_core = THIS
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+country_event = {
+
+	id = 95157
+
+	trigger = {
+		tag = RUS
+		exists = BUK
+		exists = KHI
+		exists = KOK
+		nationalism_n_imperialism = 1
+		BUK = {
+			civilized = no
+		}
+		KHI = {
+			civilized = no
+		}
+		KOK = {
+			civilized = no
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME95157"
+	desc = "EVTDESC95157"
+	picture = "russian_central_asia"
+
+	option = {
+		name = "EVTOPTA95157"
+		prestige = 3
+		BUK = {
+        		add_casus_belli = {
+	        		target = RUS
+				type = establish_protectorate_casus_belli
+				months = 1000
+			}
+		}
+		KHI = {
+        		add_casus_belli = {
+	        		target = RUS
+				type = establish_protectorate_casus_belli
+				months = 1000
+			}
+		}
+		KOK = {
+        		add_casus_belli = {
+	        		target = RUS
+				type = establish_protectorate_casus_belli
+				months = 1000
+			}
+		}
+		}
+		set_country_flag = centralasia_cb_received
+	}
+}
+country_event = {
+
+	id = 95158
+
+	trigger = {
+		tag = RUS
+		owns = 994
+		year = 1900
+		NOT = {
+			year = 1914
+		}
+		OR = {
+			AND = {
+				exists = PRU
+				NOT = {
+					relation = { who = PRU value = 0}
+				}
+			}
+			AND = {
+				exists = NGF
+				NOT = {
+					relation = { who = NGF value = 0}
+				}
+			}
+			AND = {
+				exists = GER
+				NOT = {
+					relation = { who = GER value = 0}
+				}
+			}
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 3
+	}
+
+	title = "EVTNAME95158"
+	desc = "EVTDESC95158"
+	picture = "petrograd"
+
+	option = {
+		name = "EVTOPTA95158"
+		994 = {
+			change_province_name = "Петроград"
+		}
+	}
+}
+
+#Caucasian War
+country_event = {
+
+	id = 95160
+
+	trigger = {
+		tag = RUS
+		owns = 3249
+		NOT = {
+			OR = {
+				exists = NCI
+				year = 1914
+			}
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME95160"
+	desc = "EVTDESC95160"
+	picture = "shamil"
+
+	option = {
+		name = "EVTOPTA95160"
+		any_owned = {
+			limit = {
+				is_core = NCI
+			}
+			remove_core = NCI
+		}
+	}
+}
+country_event = {
+
+	id = 95161
+
+	trigger = {
+		tag = RUS
+		RUS_1048 = {
+			owned_by = THIS
+		}
+		NOT = {
+			OR = {
+				exists = CRC
+				year = 1914
+			}
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 10
+	}
+
+	title = "EVTNAME95161"
+	desc = "EVTDESC95161"
+	picture = "cherkes"
+
+	option = {
+		name = "EVTOPTA95161"
+		RUS_1048 = {
+			poor_strata = {
+				limit = {
+					has_pop_culture = circassian
+				}
+				reduce_pop = 0.80
+				move_pop = 860
+			}
+			add_province_modifier = {
+					name = influx_of_population
+					duration = 1825
+			}
+		}
+		CRC = {
+			all_core = {
+				remove_core = CRC
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 95162
+
+	trigger = {
+		tag = RUS
+		owns = 1049
+		owns = 3254
+		owns = 3255
+		owns = 3256
+		owns = 3257
+		NOT = {
+			OR = {
+				exists = CRC
+				year = 1914
+			}
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 10
+	}
+
+	title = "EVTNAME95162"
+	desc = "EVTDESC95162"
+	picture = "armavir"
+
+	option = {
+		name = "EVTOPTA95162"
+		1049 = {
+			any_pop = {
+				limit = {
+					has_pop_culture = armenian
+					type = farmers
+				}
+				move_pop = 1051
+			}
+		}
+		3254 = {
+			any_pop = {
+				limit = {
+					has_pop_culture = armenian
+					type = farmers
+				}
+				move_pop = 1051
+			}
+		}
+		3255 = {
+			any_pop = {
+				limit = {
+					has_pop_culture = armenian
+					type = farmers
+				}
+				move_pop = 1051
+			}
+		}
+		3256 = {
+			any_pop = {
+				limit = {
+					has_pop_culture = armenian
+					type = farmers
+				}
+				move_pop = 1051
+			}
+		}
+		3257 = {
+			any_pop = {
+				limit = {
+					has_pop_culture = armenian
+					type = farmers
+				}
+				move_pop = 1051
+			}
+		}
+		1051 = {
+			any_pop = {
+				limit = {
+					has_pop_culture = armenian
+				}
+				reduce_pop = 3
+				militancy = -1
+			}
+			change_province_name = "Армавир"
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+	option = {
+		name = "EVTOPTB95162"
+		any_pop = {
+			limit = {
+				has_pop_culture = armenian
+			}
+				militancy = 3
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+
+#Communism
+country_event = {
+
+	id = 95163
+
+	trigger = {
+		OR = {
+			tag = RSR
+			tag = SOV
+		}
+		year = 1925
+		government = proletarian_dictatorship
+		NOT = {
+			year = 1930
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1827
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1828
+		}
+	}
+
+	title = "EVTNAME95163"
+	desc = "EVTDESC95163"
+	picture = "potemkin"
+
+	option = {
+		name = "EVTOPTA95163" 
+		prestige = 5
+	}
+}
+
+country_event = {
+
+	id = 95164
+
+	trigger = {
+		tag = RSR
+		NOT = {
+			government = proletarian_dictatorship
+			exists = RUS
+		}
+	}
+	
+	fire_only_once = yes
+
+	title = "EVTNAME95164"
+	desc = "EVTDESC95164"
+	picture = "ilich"
+
+	option = {
+		name = "EVTOPTA95164"
+		prestige = -20
+		change_tag = RUS
+		inherit = CSK
+		RSR = {
+			all_core = {
+				add_core = RUS
+				remove_core = RSR
+			}
+		}
+		clr_global_flag = communist_russia_created
+	}
+	
+}
+
+country_event = {
+
+	id = 95165
+
+	trigger = {
+		tag = RUS
+		exists = RSR
+		RSR = {
+			NOT = {
+				government = proletarian_dictatorship
+			}
+		}
+	}
+	
+	fire_only_once = yes
+
+	title = "EVTNAME95165"
+	desc = "EVTDESC95165"
+	picture = "ilich"
+
+	option = {
+		name = "EVTOPTA95165"
+		prestige = 20
+		inherit = RSR
+		inherit = CSK
+		capital = 994
+		RSR = {
+			all_core = {
+				add_core = RUS
+				remove_core = RSR
+			}
+		}
+		clr_global_flag = communist_russia_created
+	}
+	
+}
+
+country_event = {
+
+	id = 95166
+
+	trigger = {
+		tag = SOV
+		OR = {
+			NOT = {
+				government = proletarian_dictatorship
+			}
+			NOT = {
+				owns = 958
+				owns = 718
+				owns = 1090
+				owns = 1098
+				owns = 1102
+			}
+		}
+	}
+	
+	fire_only_once = yes
+
+	title = "EVTNAME95166"
+	desc = "EVTDESC95166"
+	picture = "ilich"
+
+	option = {
+		name = "EVTOPTA95166"
+		prestige = -20
+		change_tag = RUS
+		release = UKR
+		release = BYE
+		release = EST
+		release = LAT
+		release = LIT
+		release = POL
+		release = ARM
+		release = AZB
+		release = GEO
+		release = KAZ
+		release = KYR
+		release = TAJ
+		release = TKM
+		release = UZB
+		release = FIN
+		release_vassal = FIN
+                RUS = { country_event=999991 }
+		SOV = {
+			all_core = {
+				remove_core = SOV
+			}
+		}
+		any_owned = {
+			add_core = RUS
+		}
+		clr_global_flag = communist_russia_created
+	}
+	
+}
+
+country_event = {
+
+	id = 95167
+
+	trigger = {
+		OR = {
+			tag = RSR
+			tag = SOV
+		}
+		year = 1924
+		government = proletarian_dictatorship
+		NOT = {
+			year = 1927
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1925
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1926
+		}
+	}
+	title = "EVTNAME95167"
+	desc = "EVTDESC95167"
+	picture = "lenindead"
+
+	option = {
+		name = "EVTOPTA95167"
+		prestige = 5
+		1008 = {
+				add_province_modifier = {
+					name = mavzoley
+					duration = -1
+			}
+		}
+		994 = {
+				change_province_name = "Ленинград"
+		}
+		1033 = {
+				change_province_name = "Ульяновск"
+		}
+		set_country_flag = lenin_is_dead
+	}
+}
+
+
+country_event = {
+
+	id = 95168
+
+	trigger = {
+		tag = SOV
+		NOT = {
+			exists = BUK
+			exists = KHI
+			exists = KOK
+		}
+		owns = 1191
+		owns = 1198
+		owns = 1202
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME95168"
+	desc = "EVTDESC95168"
+	picture = "russian_central_asia"
+
+	option = {
+		name = "EVTOPTA95168"
+		RUS_1184 = {
+			add_core = KAZ
+		}
+		RUS_1182 = {
+			add_core = KAZ
+		}
+		RUS_1185 = {
+			add_core = KAZ
+		}
+		RUS_1187 = {
+			add_core = KAZ
+		}
+		1189 = {
+			add_core = KYR
+		}
+		1190 = {
+			add_core = KYR
+		}
+		1202 = {
+			add_core = KYR
+		}
+		1203 = {
+			add_core = KYR
+		}
+		BUK_1207 = {
+			add_core = TAJ
+		}
+		RUS_1196 = {
+			add_core = TKM
+		}
+		KHI_1191 = {
+			add_core = UZB
+		}
+		1195 = {
+			add_core = UZB
+		}
+		1202 = {
+			add_core = UZB
+		}
+		1191 = {
+			add_core = KRK
+		}
+		1192 = {
+			add_core = KRK
+		}
+		BUK = {
+			all_core = {
+				remove_core = BUK
+			}
+		}
+		KHI = {
+			all_core = {
+				remove_core = KHI
+			}
+		}
+		KOK = {
+			all_core = {
+				remove_core = KOK
+			}
+		}
+	}
+}
+
+
+#russian_revolutions
+
+country_event = {
+
+	id = 95400
+
+	trigger = {
+		ai = yes
+		NOT = {
+			tag = RUS
+		}
+		RUS = {
+			has_country_flag = serfdom_not_abolished
+		}
+		
+	}
+	
+	fire_only_once = yes
+
+	title = "EVTNAME95400"
+	desc = "EVTDESC95400"
+
+	option = {
+		name = "EVTOPTA95400"
+		RUS = {
+			RUS_943 = {
+				add_province_modifier = {
+					name = serfdom_province
+					duration = -1
+				}
+			}
+			RUS_1008 = {
+				add_province_modifier = {
+					name = serfdom_province
+					duration = -1
+				}
+			}
+			RUS_947 = {
+				add_province_modifier = {
+					name = serfdom_province
+					duration = -1
+				}
+			}
+			RUS_1009 = {
+				add_province_modifier = {
+					name = serfdom_province
+					duration = -1
+				}
+			}
+			RUS_718 = {
+				add_province_modifier = {
+					name = serfdom_province
+					duration = -1
+				}
+			}
+			RUS_1090 = {
+				add_province_modifier = {
+					name = serfdom_province
+					duration = -1
+				}
+			}
+			RUS_1020 = {
+				add_province_modifier = {
+					name = serfdom_province
+					duration = -1
+				}
+			}
+			RUS_958 = {
+				add_province_modifier = {
+					name = serfdom_province
+					duration = -1
+				}
+			}
+			RUS_990 = {
+				add_province_modifier = {
+					name = serfdom_province
+					duration = -1
+				}
+			}
+			RUS_998 = {
+				add_province_modifier = {
+					name = serfdom_province
+					duration = -1
+				}
+			}
+			RUS_994 = {
+				add_province_modifier = {
+					name = serfdom_province
+					duration = -1
+				}
+			}
+			RUS_977 = {
+				add_province_modifier = {
+					name = serfdom_province
+					duration = -1
+				}
+			}
+			RUS_1037 = {
+				add_province_modifier = {
+					name = serfdom_province
+					duration = -1
+				}
+			}
+			RUS_360 = {
+				add_province_modifier = {
+					name = serfdom_province
+					duration = -1
+				}
+			}
+			RUS_1003 = {
+				add_province_modifier = {
+					name = serfdom_province
+					duration = -1
+				}
+			}
+			RUS_707 = {
+				add_province_modifier = {
+					name = serfdom_province
+					duration = -1
+				}
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 95401
+
+	trigger = {
+		year = 1810
+		tag = RUS
+		has_country_flag = serfdom_not_abolished
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 15
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 4
+		}
+		modifier = {
+			factor = 0.7
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.5
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 0.3
+			average_consciousness = 7
+		}
+	}
+
+	title = "EVTNAME95401"
+	desc = "EVTDESC95401"
+	picture = "krepostnye"
+
+	option = {
+		name = "EVTOPTA95401"
+		add_country_modifier = {
+			name = serfdom_crisis
+			duration = -1
+		}
+	}
+}
+
+
+#revolution1905
+
+
+country_event = {
+
+	id = 95406
+
+	trigger = {
+		tag = RUS
+		year = 1900
+		NOT = {
+			has_global_flag = scenario_1914_activated
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 15
+
+		modifier = {
+			factor = 0.5
+			year = 1905
+		}
+		modifier = {
+			factor = 0.3
+			year = 1910
+		}
+	}
+
+	title = "EVTNAME95406"
+	desc = "EVTDESC95406"
+	picture = "parisconfer"
+
+	option = {
+		name = "EVTOPTA95406"
+		any_pop = {
+			scaled_consciousness = {
+				ideology = socialist
+				factor = 2
+			}
+			scaled_consciousness = {
+				ideology = communist
+				factor = 2
+			}
+			scaled_consciousness = {
+				ideology = liberal
+				factor = 2
+			}
+		}
+		set_country_flag = paris_revolution_conference
+	}
+}
+country_event = {
+
+	id = 95407
+
+	trigger = {
+		tag = RUS
+                government = absolute_monarchy
+                NOT = { OR = { ruling_party_ideology = socialist
+                               ruling_party_ideology = communist  
+                               ruling_party_ideology = anarcho_liberal } 
+                      }
+		has_country_flag = paris_revolution_conference
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 15
+
+		modifier = {
+			factor = 0.5
+			year = 1908
+		}
+		modifier = {
+			factor = 0.3
+			year = 1913
+		}
+	}
+
+	title = "EVTNAME95407"
+	desc = "EVTDESC95407"
+	picture = "gapon"
+
+	option = {
+		name = "EVTOPTA95407"
+		artisans = {
+			limit = {
+				location = {
+					province_id = 994
+				}
+			}
+			consciousness = 2
+		}
+		artisans = {
+			limit = {
+				NOT = {
+					location = {
+						province_id = 994
+					}
+				}
+			}
+			consciousness = 1
+		}
+		set_country_flag = putilovfactory_strike_soon
+		ai_chance = {
+			factor = 95
+		}
+	}
+	option = {
+		name = "EVTOPTB95407"
+		artisans = {
+			limit = {
+				location = {
+					province_id = 994
+				}
+			}
+			militancy = 2
+		}
+		artisans = {
+			limit = {
+				NOT = {
+					location = {
+						province_id = 994
+					}
+				}
+			}
+			militancy = 1
+		}
+		set_country_flag = putilovfactory_strike_soon
+		ai_chance = {
+			factor = 3
+		}
+		
+	}
+	option = {
+		name = "EVTOPTC95407"
+		any_pop = {
+				militancy = 2
+		}
+		ai_chance = {
+			factor = 2
+		}
+	}
+}
+country_event = {
+
+	id = 95408
+
+	trigger = {
+		tag = RUS
+		has_country_flag = putilovfactory_strike_soon
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 10
+	}
+	title = "EVTNAME95408"
+	desc = "EVTDESC95408"
+	picture = "putilovstrike"
+
+	option = {
+		name = "EVTOPTA95408"
+		RUS_994 = {
+			add_province_modifier = {
+					name = factory_strikes
+					duration = -1
+			}
+		}
+		clr_country_flag = putilovfactory_strike_soon
+		set_country_flag = putilovfactory_strike_now
+	}
+}
+country_event = {
+
+	id = 95409
+
+	trigger = {
+		tag = RUS
+		has_country_flag = putilovfactory_strike_now
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 10
+	}
+	title = "EVTNAME95409"
+	desc = "EVTDESC95409"
+	picture = "bloodsunday"
+
+	option = {
+		name = "EVTOPTA95409"
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = 2
+			}
+		}
+		994 = {
+			craftsmen = {
+				militancy = -1
+				consciousness = 3
+			}
+		}
+		set_country_flag = revolution_1905_now
+		clr_country_flag = putilovfactory_strike_now
+		ai_chance = {
+			factor = 70
+		}
+	}
+	option = {
+		name = "EVTOPTB95409"
+		prestige = -20
+		RUS_994 = {
+			remove_province_modifier = factory_strikes
+		}
+		government = hms_government
+		political_reform = wealth_voting
+		political_reform = population_equal_weight
+		political_reform = yes_meeting
+		political_reform = free_press
+		political_reform = non_socialist
+		political_reform = secret_ballots
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		remove_country_modifier = serfdom_crisis
+		set_country_flag = revolution_1905_is_over
+		clr_country_flag = putilovfactory_strike_now
+		ai_chance = {
+			factor = 30
+		}
+	}
+}
+#Province Strike 1905 year
+province_event = {
+	id = 95410
+	title = "EVTNAME95410"
+	desc = "EVTDESC95410"
+
+	trigger = {
+		owner = {
+			tag = RUS
+			has_country_flag = revolution_1905_now
+		}
+		NOT = { has_province_modifier = factory_strikes }
+	}
+	
+	mean_time_to_happen = {
+		months = 100
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 8
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 5
+			owner = {
+				has_country_flag = october_manifest_ok
+			}
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				is_core = POL
+				is_core = LIT
+				is_core = LAT
+				is_core = EST
+				is_core = FIN
+			}
+		}
+		modifier = {
+			factor = 0.8
+			OR = {
+				is_core = UKR
+				is_core = BYE
+				is_core = ARM
+				is_core = AZB
+				is_core = GEO
+			}
+		}
+		modifier = {
+			factor = 0.7
+			any_neighbor_province = {
+				has_province_modifier = factory_strikes
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA95410"
+		state_scope = {
+			any_owned = {
+				add_province_modifier = {
+					name = factory_strikes
+					duration = -1
+				}
+				any_pop = {
+					militancy = 4
+				}
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 95411
+
+	trigger = {
+		tag = RUS
+		has_country_flag = revolution_1905_now
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+	title = "EVTNAME95411"
+	desc = "EVTDESC95411"
+	picture = "azerarmian"
+
+	option = {
+		name = "EVTOPTA95411"
+		1101 = {
+		
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = armenian
+						has_pop_culture = azerbaijani
+					}
+				}
+			reduce_pop = 0.9
+			militancy = 2
+			}
+		}
+		1102 = {
+		
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = armenian
+						has_pop_culture = azerbaijani
+					}
+				}
+			reduce_pop = 0.9
+			militancy = 2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 95412
+
+	trigger = {
+		tag = RUS
+		has_country_flag = revolution_1905_now
+		has_country_flag = october_manifest_ok
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 10
+	}
+	title = "EVTNAME95412"
+	desc = "EVTDESC95412"
+	picture = "evrpogr"
+
+	option = {
+		name = "EVTOPTA95412"
+		any_owned = {
+			limit = {
+				is_core = UKR
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = ashkenazi
+				}
+				reduce_pop = 0.9
+				consciousness = 2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 95413
+
+	trigger = {
+		tag = RUS
+		has_country_flag = revolution_1905_now
+		OR = {
+			average_militancy = 6
+			has_country_flag = october_manifest_ok
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 1
+
+		modifier = {
+			factor = 0.2
+			has_country_flag = october_manifest_ok
+		}
+	}
+	title = "EVTNAME95413"
+	desc = "EVTDESC95413"
+	picture = "petrograd"
+
+	option = {
+		name = "EVTOPTA95413"
+		any_owned = {
+			remove_province_modifier = factory_strikes
+		}
+		any_pop = {
+			militancy = -1
+		}
+		remove_country_modifier = serfdom_crisis
+		clr_country_flag = revolution_1905_now
+		set_country_flag = revolution_1905_is_over
+	}
+}
+country_event = {
+
+	id = 95414
+
+	trigger = {
+		tag = RUS
+		NOT = {
+			OR = {
+				government = hms_government
+				government = prussian_constitutionalism
+				government = absolute_monarchy
+			}
+		}
+		has_country_flag = revolution_1905_now
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 10
+	}
+	title = "EVTNAME95414"
+	desc = "EVTDESC95414"
+	picture = "putilovstrike"
+
+	option = {
+		name = "EVTOPTA95414"
+		any_owned = {
+			remove_province_modifier = factory_strikes
+		}
+		any_pop = {
+			militancy = -3
+		}
+		remove_country_modifier = serfdom_crisis
+		clr_country_flag = revolution_1905_now
+		set_country_flag = revolution_1905_is_over
+	}
+}
+#revolution1917
+country_event = {
+
+	id = 95415
+
+	trigger = {
+		tag = RUS
+		OR = {
+			government = hms_government
+			government = prussian_constitutionalism
+			government = absolute_monarchy
+		}
+		has_country_flag = revolution_1905_is_over
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 20
+		
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 8
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.5
+			year = 1910
+		}
+		modifier = {
+			factor = 0.3
+			year = 1915
+		}
+	}
+	title = "EVTNAME95415"
+	desc = "EVTDESC95415"
+	picture = "lenpriisk"
+
+	option = {
+		name = "EVTOPTA95415"
+		any_pop = {
+			militancy = 1
+		}
+		add_country_modifier = {
+				name = political_crisis
+				duration = -1
+		}
+	}
+}
+
+country_event = {
+
+	id = 95416
+
+	trigger = {
+		tag = RUS
+		has_country_modifier = political_crisis
+		OR = {
+			government = hms_government
+			government = prussian_constitutionalism
+			government = absolute_monarchy
+		}
+		OR = {
+			NOT = {
+				has_global_flag = scenario_1914_activated
+			}
+			AND = {
+				has_global_flag = scenario_1914_activated
+				has_global_flag = world_war_one_is_now
+			}
+				
+		}
+	}
+	
+	fire_only_once = yes
+	major = yes
+
+	mean_time_to_happen =  {
+		months = 20
+		
+		modifier = {
+			factor = 0.9
+			average_militancy = 3
+		}
+		modifier = {
+			factor = 0.7
+			average_militancy = 5
+		}
+		modifier = {
+			factor = 0.2
+			average_militancy = 7
+		}
+		modifier = {
+			factor = 0.6
+			war = yes
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.5
+			year = 1917
+		}
+		modifier = {
+			factor = 0.3
+			year = 1922
+		}
+		modifier = {
+			factor = 0.5
+			AND = {
+				year = 1916
+				has_global_flag = world_war_one_is_now
+			}
+		}
+		modifier = {
+			factor = 0.5
+			AND = {
+				year = 1917
+				has_global_flag = world_war_one_is_now
+			}
+		}
+	}
+	title = "EVTNAME95416"
+	desc = "EVTDESC95416"
+	picture = "putilovsrtike2"
+
+	option = {
+		name = "EVTOPTA95416"
+		994 = {
+			any_pop = {
+				militancy = -1
+				consciousness = -1
+			}
+		}
+		remove_country_modifier = political_crisis
+		set_country_flag = febrary_revolution_in_progress
+		ai_chance = {
+			factor = 95
+		}
+	}
+	option = {
+		name = "EVTOPTB95416"
+		994 = {
+			any_pop = {
+				militancy = 2
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = 2
+			}
+			ideology = {
+				value = conservative
+				factor = 0.1
+			}
+		}
+		upper_house = {
+			ideology = conservative
+			value = 0.1
+		}
+		remove_country_modifier = political_crisis
+		ai_chance = {
+			factor = 3
+		}
+	}
+	option = {
+		name = "EVTOPTC95416"
+		994 = {
+			any_pop = {
+				militancy = -2
+				consciousness = 2
+				reduce_pop = 0.95
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = 4
+			}
+			ideology = {
+				value = conservative
+				factor = 0.3
+			}
+		}
+		upper_house = {
+			ideology = conservative
+			value = 0.3
+		}
+		any_country ={
+			limit = {
+				OR = {
+					government = democracy
+					ruling_party_ideology = liberal
+				}
+			}
+			relation = { who = THIS value = -50 }
+		}
+		remove_country_modifier = political_crisis
+		ai_chance = {
+			factor = 2
+		}
+	}
+}
+country_event = {
+
+	id = 95417
+
+	trigger = {
+		tag = RUS
+		has_country_flag = febrary_revolution_in_progress
+	}
+	
+	fire_only_once = yes
+	major = yes
+
+	title = "EVTNAME95417"
+	desc = "EVTDESC95417"
+
+	option = {
+		name = "EVTOPTA95417"
+		government = democracy
+		political_reform = landed_voting
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+				name = provisional_government
+				duration = 365
+		}
+		remove_country_modifier = serfdom_crisis
+		remove_country_modifier = zemstva
+		remove_country_modifier = protector_of_eastern_christendom
+		clr_country_flag = febrary_revolution_in_progress
+		set_country_flag = febrary_revolution_is_ok
+	}
+}
+country_event = {
+
+	id = 95418
+
+	trigger = {
+		tag = RUS
+		has_country_flag = febrary_revolution_is_ok
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME95418"
+	desc = "EVTDESC95418"
+	picture = "apriltesises"
+
+	option = {
+		name = "EVTOPTA95418"
+		any_pop = {
+			ideology = {
+				value = communist
+				factor = 0.3
+			}
+			scaled_consciousness = {
+				ideology = communist
+				factor = 2
+			}
+		}
+		set_country_flag = april_lenin_tesises
+	}
+}
+country_event = {
+
+	id = 95419
+
+	trigger = {
+		tag = RUS
+		has_country_flag = febrary_revolution_is_ok
+		has_country_flag = april_lenin_tesises
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME95419"
+	desc = "EVTDESC95419"
+	picture = "juledays"
+
+	option = {
+		name = "EVTOPTA95419"
+		any_pop = {
+			scaled_militancy = {
+				ideology = communist
+				factor = 2
+			}
+		}
+		set_country_flag = kornilov_revolt_soon
+		ai_chance = {
+			factor = 95
+		}
+	}
+	option = {
+		name = "EVTOPTB95419"
+		change_tag = RSR
+		government = proletarian_dictatorship
+		political_reform = none_voting
+		political_reform = no_meeting
+		political_reform = state_press
+		political_reform = no_trade_unions
+		political_reform = underground_parties
+		political_reform = party_appointed
+		social_reform = eight_hours
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		remove_country_modifier = provisional_government
+		clr_country_flag = febrary_revolution_is_ok
+		clr_country_flag = kornilov_revolt_soon
+		clr_country_flag = commy_revolution_coming_soon
+		clr_country_flag = april_lenin_tesises
+		set_country_flag = october_revolution_is_ok
+		set_global_flag = communist_russia_created
+		any_pop = {
+			ideology = {
+				value = communist
+				factor = 0.2
+			}
+		}
+		ai_chance = {
+			factor = 3
+		}
+	}
+	option = {
+		name = "EVTOPTC95419"
+		any_pop = {
+			ideology = {
+				value = communist
+				factor = -0.2
+			}
+			scaled_consciousness = {
+				ideology = communist
+				factor = 1
+			}
+			scaled_militancy = {
+				ideology = communist
+				factor = -2
+			}
+		}
+		any_country ={
+			limit = {
+				OR = {
+					government = proletarian_dictatorship
+					ruling_party_ideology = communist
+				}
+			}
+			relation = { who = THIS value = -100 }
+		}
+		set_country_flag = commy_was_destroyed
+		set_country_flag = kornilov_revolt_soon
+		ai_chance = {
+			factor = 2
+		}
+	}
+}
+country_event = {
+
+	id = 95420
+
+	trigger = {
+		tag = RUS
+		has_country_flag = febrary_revolution_is_ok
+		has_country_flag = kornilov_revolt_soon
+		NOT = {
+			has_country_flag = commy_was_destroyed
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME95420"
+	desc = "EVTDESC95420"
+	picture = "kornilovrevolt"
+
+	option = {
+		name = "EVTOPTA95420"
+		upper_house = {
+			ideology = communist
+			value = 0.2
+		}
+		soldiers = {
+			militancy = 2
+		}
+		officers = {
+			militancy = 4
+		}
+		set_country_flag = commy_revolution_coming_soon
+		ai_chance = {
+			factor = 95
+		}
+	}
+	option = {
+		name = "EVTOPTB95420"
+		government = presidential_dictatorship
+		political_reform = none_voting
+		political_reform = no_meeting
+		political_reform = state_press
+		political_reform = no_trade_unions
+		political_reform = underground_parties
+		political_reform = party_appointed
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		remove_country_modifier = provisional_government
+		clr_country_flag = febrary_revolution_is_ok
+		clr_country_flag = kornilov_revolt_soon
+		clr_country_flag = commy_revolution_coming_soon
+		clr_country_flag = april_lenin_tesises
+		any_pop = {
+			ideology = {
+				value = communist
+				factor = -0.2
+			}
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+country_event = {
+
+	id = 95421
+
+	trigger = {
+		tag = RUS
+		has_country_flag = febrary_revolution_is_ok
+		has_country_flag = commy_was_destroyed
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME95421"
+	desc = "EVTDESC95421"
+	picture = "kornilovrevolt"
+
+	option = {
+		name = "EVTOPTA95421"
+		upper_house = {
+			ideology = communist
+			value = 0.2
+		}
+		soldiers = {
+			militancy = 2
+		}
+		officers = {
+			militancy = 4
+		}
+		ai_chance = {
+			factor = 95
+		}
+	}
+	option = {
+		name = "EVTOPTB95421"
+		government = presidential_dictatorship
+		political_reform = none_voting
+		political_reform = no_meeting
+		political_reform = state_press
+		political_reform = no_trade_unions
+		political_reform = underground_parties
+		political_reform = party_appointed
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		remove_country_modifier = provisional_government
+		clr_country_flag = febrary_revolution_is_ok
+		clr_country_flag = kornilov_revolt_soon
+		clr_country_flag = commy_revolution_coming_soon
+		clr_country_flag = april_lenin_tesises
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+country_event = {
+
+	id = 95422
+
+	trigger = {
+		tag = RUS
+		OR = {
+			AND = {
+				has_country_flag = febrary_revolution_is_ok
+				has_country_flag = commy_revolution_coming_soon
+				NOT = {
+					has_country_flag = commy_was_destroyed
+				}
+			}
+			government = proletarian_dictatorship
+		}
+	}
+	
+	major = yes
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME95422"
+	desc = "EVTDESC95422"
+
+	option = {
+		name = "EVTOPTA95422"
+		change_tag = RSR
+		RUS = {
+			all_core = {
+				add_core = RSR
+				remove_core = RUS
+			}
+		}
+		any_pop = {
+			consciousness = 2
+			militancy = 2
+		}
+		government = proletarian_dictatorship
+		political_reform = none_voting
+		political_reform = no_meeting
+		political_reform = state_press
+		political_reform = no_trade_unions
+		political_reform = underground_parties
+		political_reform = party_appointed
+		social_reform = eight_hours
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		remove_country_modifier = provisional_government
+		capital = 1008
+		clr_country_flag = febrary_revolution_is_ok
+		clr_country_flag = kornilov_revolt_soon
+		clr_country_flag = commy_revolution_coming_soon
+		clr_country_flag = april_lenin_tesises
+		set_country_flag = october_revolution_is_ok
+		set_global_flag = communist_russia_created
+	}
+}
+#Independence of Soviet Nations
+country_event = {
+
+	id = 95423
+
+	trigger = {
+		OR = {
+			tag = RUS
+			tag = RSR
+		}
+		owns = 343
+		OR = {
+			has_country_flag = febrary_revolution_is_ok
+			has_country_flag = october_revolution_is_ok
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+	title = "EVTNAME95423"
+	desc = "EVTDESC95423"
+	picture = "svinhuvuld"
+
+	option = {
+		name = "EVTOPTA95423"
+		release_vassal = FIN
+		FIN = {
+			any_owned = {
+				remove_core = RSR
+				remove_core = RUS
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 95424
+
+	trigger = {
+		OR = {
+			tag = RUS
+			tag = RSR
+		}
+		owns = 706
+		has_country_flag = october_revolution_is_ok
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME95424"
+	desc = "EVTDESC95424"
+	picture = "polishregents"
+
+	option = {
+		name = "EVTOPTA95424"
+		RUS_706 = {
+			secede_province = POL
+		}
+		RUS_710 = {
+			secede_province = POL
+		}
+		707 = {
+			secede_province = POL
+		}
+		719 = {
+			secede_province = POL
+		}
+		AUS_702 = {
+			secede_province = POL
+		}
+		POL = {
+			capital = 706
+			any_owned = {
+				remove_core = RSR
+				remove_core = RUS
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 95425
+
+	trigger = {
+		tag = RSR
+		owns = 718
+		OR = {
+			AND = {
+				has_country_flag = october_revolution_is_ok
+				NOT = {
+					has_global_flag = scenario_1914_activated
+				}
+			}
+			AND = {
+				has_global_flag = scenario_1914_activated
+				has_global_flag = russian_civil_war_has_happened
+			}
+		}
+		706 = {
+			owned_by = POL
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+	title = "EVTNAME95425"
+	desc = "EVTDESC95425"
+	picture = "belarus"
+
+	option = {
+		name = "EVTOPTA95425"
+		release = BYE
+		BYE = {
+			government = democracy
+			political_reform = landed_voting
+			any_owned = {
+				remove_core = RSR
+				remove_core = RUS
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 95426
+
+	trigger = {
+		tag = RSR
+		owns = 958
+		OR = {
+			AND = {
+				has_country_flag = october_revolution_is_ok
+				NOT = {
+					has_global_flag = scenario_1914_activated
+				}
+			}
+			AND = {
+				has_global_flag = scenario_1914_activated
+				has_global_flag = russian_civil_war_has_happened
+			}
+		}
+		706 = {
+			owned_by = POL
+		}
+		NOT = {
+			has_global_flag = scenario_1914_activated
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+	title = "EVTNAME95426"
+	desc = "EVTDESC95426"
+	picture = "unr"
+
+	option = {
+		name = "EVTOPTA95426"
+		release = UKR
+		UKR = {
+			government = democracy
+			political_reform = landed_voting
+			any_owned = {
+				remove_core = RSR
+				remove_core = RUS
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 95427
+
+	trigger = {
+		tag = RSR
+		owns = 958
+		has_country_flag = october_revolution_is_ok
+		706 = {
+			owned_by = POL
+		}
+		NOT = {
+			has_global_flag = scenario_1914_activated
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+	title = "EVTNAME95427"
+	desc = "EVTDESC95427"
+	picture = "pribaltic"
+
+	option = {
+		name = "EVTOPTA95427"
+		release = LIT
+		LIT = {
+			government = democracy
+			political_reform = landed_voting
+			any_owned = {
+				remove_core = RSR
+				remove_core = RUS
+			}
+		}
+		release = LAT
+		LAT = {
+			government = democracy
+			political_reform = landed_voting
+			any_owned = {
+				remove_core = RSR
+				remove_core = RUS
+			}
+		}
+		release = EST
+		EST = {
+			government = democracy
+			political_reform = landed_voting
+			any_owned = {
+				remove_core = RSR
+				remove_core = RUS
+			}
+		}
+	}
+}
+#Civil War
+country_event = {
+
+	id = 95430
+
+	trigger = {
+		tag = RSR
+		has_country_flag = october_revolution_is_ok
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+	title = "EVTNAME95430"
+	desc = "EVTDESC95430"
+	picture = "chehoslovackorp"
+
+	option = {
+		name = "EVTOPTA95430"
+		RSR = {
+			all_core = {
+				remove_core = RUS
+			}
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					state_id = 1
+					state_id = 1065
+					state_id = 2685
+					state_id = 1060
+					state_id = 1194
+					state_id = 1191
+					state_id = 1196
+					state_id = 1190
+					state_id = 1187
+					state_id = 1184
+					state_id = 1064
+					state_id = 1070
+					state_id = 2615
+					state_id = 1469
+					state_id = 2653
+					state_id = 1069
+					state_id = 1075
+					state_id = 1079
+					state_id = 1071
+					state_id = 2643
+					state_id = 1072
+					state_id = 2618
+					state_id = 2621
+					state_id = 2590
+					state_id = 1074
+					state_id = 1207
+					state_id = 2694
+					state_id = 1082
+					state_id = 2668
+					state_id = 1182
+					state_id = 1205
+					state_id = 1077
+					is_core = MCK
+					is_core = JAP
+				}
+			}
+			add_province_modifier = {
+					name = antibolshevik_sentiments
+					duration = -1
+			}
+		}
+		set_country_flag = ufa_directoria
+	}
+}
+country_event = {
+
+	id = 95431
+
+	trigger = {
+		tag = RSR
+		has_country_flag = october_revolution_is_ok
+		has_country_flag = ufa_directoria
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+	title = "EVTNAME95431"
+	desc = "EVTDESC95431"
+	picture = "ufagovernment"
+
+	option = {
+		name = "EVTOPTA95431"
+		any_owned = {
+			limit = {
+				has_province_modifier = antibolshevik_sentiments
+			}
+			secede_province = RUS
+		}
+		any_country = {
+			limit = {
+				alliance_with = RSR
+			}
+			leave_alliance = RSR
+		}
+		RUS = {
+			government = democracy
+			political_reform = landed_voting
+			capital = 1042
+			leadership = 80
+			war = {
+				target = RSR
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				defender_goal = {
+					casus_belli = civil_war
+				}
+			}
+			set_country_flag = court_reform_ok
+		}
+		RSR = {
+			all_core = {
+				add_core = RUS
+			}
+		}
+		1042 = {
+			fort = 4
+		}
+		1064 = {
+			fort = 4
+		}
+		war_exhaustion = -30
+		set_global_flag = russian_civil_war_has_happened
+		clr_country_flag = ufa_directoria
+		
+	}
+	option = {
+		name = "EVTOPTB95431"
+		any_owned = {
+			limit = {
+				has_province_modifier = antibolshevik_sentiments
+			}
+			secede_province = RUS
+		}
+		any_country = {
+			limit = {
+				alliance_with = RSR
+			}
+			leave_alliance = RSR
+		}
+		RUS = {
+			government = democracy
+			political_reform = landed_voting
+			capital = 1042
+			leadership = 80
+			war = {
+				target = RSR
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				defender_goal = {
+					casus_belli = civil_war
+				}
+			}
+			set_country_flag = court_reform_ok
+		}
+		RSR = {
+			all_core = {
+				add_core = RUS
+			}
+		}
+		1042 = {
+			fort = 4
+		}
+		1064 = {
+			fort = 4
+		}
+		war_exhaustion = -30
+		set_global_flag = russian_civil_war_has_happened
+		clr_country_flag = ufa_directoria
+		change_tag_no_core_switch = RUS
+		
+	}
+}
+country_event = {
+
+	id = 95432
+
+	trigger = {
+		ai = yes
+		has_global_flag = russian_civil_war_has_happened
+		RUS = {
+			any_owned_province = {
+				is_capital = no
+				controlled_by = RSR
+			}
+		}
+	}
+
+	title = "EVTNAME95432"
+	desc = "EVTDESC95432"
+
+	option = {
+		name = "EVTOPTA95432"
+		RUS = {
+			any_owned = {
+				limit = {
+					AND = {
+						controlled_by = RSR
+						NOT = {
+							province_id = 1042
+							province_id = 1064
+						}
+					}
+				}
+				secede_province = RSR
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 95433
+
+	trigger = {
+		ai = yes
+		has_global_flag = russian_civil_war_has_happened
+		RSR = {
+			any_owned_province = {
+				is_capital = no
+				controlled_by = RUS
+			}
+		}
+	}
+
+	title = "EVTNAME95433"
+	desc = "EVTDESC95433"
+
+	option = {
+		name = "EVTOPTA95433"
+		RSR = {
+			any_owned = {
+				limit = {
+					AND = {
+						controlled_by = RUS
+						is_capital = no
+					}
+				}
+				secede_province = RUS
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 95434
+
+	trigger = {
+		tag = RSR
+		has_global_flag = russian_civil_war_has_happened
+		capital = 1008
+		OR = {
+			1008 = { controlled_by = RUS }
+			1008 = { controlled_by = CSK }
+		}
+		994 = {
+			controlled_by = THIS
+		}
+	}
+	
+	fire_only_once = yes
+
+	title = "EVTNAME95434"
+	desc = "EVTDESC95434"
+	picture = "moscow"
+
+	option = {
+		name = "EVTOPTA95434"
+		capital = 994
+		RUS_1008 = {
+			secede_province = RUS
+		}
+		RUS = {
+			country_event = 95435
+		}
+	}
+}
+country_event = {
+	id = 95435
+	title = "EVTNAME95435"
+	desc = "EVTDESC95435"
+	picture = "moscow"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	option = {
+		name = "EVTOPTA95435"
+		prestige = 5
+	}
+}
+country_event = {
+
+	id = 95436
+
+	trigger = {
+		tag = RUS
+		has_global_flag = russian_civil_war_has_happened
+		OR = {
+			1008 = { controlled_by = THIS }
+			1008 = { controlled_by = CSK}
+		}
+		NOT = {
+			994 = { controlled_by = RSR }
+		}
+	}
+	
+	fire_only_once = yes
+
+	title = "EVTNAME95436"
+	desc = "EVTDESC95436"
+	picture = "russia"
+
+	option = {
+		name = "EVTOPTA95436"
+		inherit = RSR
+		inherit = CSK
+		capital = 994
+		any_owned = {
+			remove_core = RSR
+		}
+		prestige = 100
+		clr_global_flag = russian_civil_war_has_happened
+		set_global_flag = russian_civil_war_is_over
+		clr_global_flag = communist_russia_created
+	}
+}
+country_event = {
+
+	id = 95437
+
+	trigger = {
+		tag = RUS
+		has_global_flag = russian_civil_war_has_happened
+		capital = 1042
+		1042 = {
+			controlled_by = RSR
+		}
+		1064 = {
+			controlled_by = THIS
+		}
+	}
+	
+	fire_only_once = yes
+
+	title = "EVTNAME95437"
+	desc = "EVTDESC95437"
+	picture = "kolchak"
+
+	option = {
+		name = "EVTOPTA95437"
+		capital = 1064
+		RUS_1060 = {
+			secede_province = RSR
+		}
+		RSR = {
+			country_event = 95438
+		}
+	}
+}
+country_event = {
+	id = 95438
+	title = "EVTNAME95437"
+	desc = "EVTDESC95437"
+	picture = "kolchak"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA95438"
+		prestige = 5
+	}
+}
+country_event = {
+
+	id = 95439
+
+	trigger = {
+		tag = RSR
+		OR = {
+			THIS = { ai = no }
+			RUS = { ai = no }
+		}
+		has_global_flag = russian_civil_war_has_happened
+		1042 = {
+			controlled_by = THIS
+		}
+		1064 = {
+			controlled_by = THIS
+		}
+	}
+	
+	fire_only_once = yes
+
+	title = "EVTNAME95439"
+	desc = "EVTDESC95439"
+	picture = "omsk"
+
+	option = {
+		name = "EVTOPTA95439"
+		
+	}
+}
+country_event = {
+
+	id = 95440
+
+	trigger = {
+		tag = RSR
+		has_global_flag = russian_civil_war_has_happened
+		1042 = {
+			owned_by = THIS
+		}
+		1064 = {
+			controlled_by = THIS
+		}
+		1075 = {
+			owned_by = THIS
+		}
+		1077 = {
+			owned_by = THIS
+		}
+		1078 = {
+			owned_by = THIS
+		}
+		1079 = {
+			owned_by = THIS
+		}
+	}
+	
+	fire_only_once = yes
+
+	title = "EVTNAME95440"
+	desc = "EVTDESC95440"
+	picture = "bolshevik"
+
+	option = {
+		name = "EVTOPTA95440"
+		inherit = RUS
+		prestige = 100
+		any_owned = {
+			remove_core = RUS
+		}
+		UKR = {
+			add_casus_belli = {
+	        		target = THIS
+				type = install_communist_gov_cb
+				months = 1000
+			}
+			
+		}
+		BYE = {
+			add_casus_belli = {
+	        		target = THIS
+				type = install_communist_gov_cb
+				months = 1000
+			}
+			
+		}
+		TCR = {
+			add_casus_belli = {
+	        		target = THIS
+				type = install_communist_gov_cb
+				months = 1000
+			}
+			
+		}
+		ARM = {
+			add_casus_belli = {
+	        		target = THIS
+				type = install_communist_gov_cb
+				months = 1000
+			}
+			
+		}
+		GEO = {
+			add_casus_belli = {
+	        		target = THIS
+				type = install_communist_gov_cb
+				months = 1000
+			}
+			
+		}
+		AZB = {
+			add_casus_belli = {
+	        		target = THIS
+				type = install_communist_gov_cb
+				months = 1000
+			}
+			
+		}
+		clr_global_flag = russian_civil_war_has_happened
+		set_global_flag = russian_civil_war_is_over
+	}
+}
+country_event = {
+
+	id = 95441
+	trigger = {
+		ai = yes
+		has_global_flag = russian_civil_war_has_happened
+		exists = RUS
+		exists = RSR
+		NOT = {
+			RSR = {
+				war_with = RUS
+			}
+		}
+	}
+
+	title = "EVTNAME95440"
+	desc = "EVTDESC95440"
+
+	option = {
+		name = "EVTOPTA95440"
+		RUS = {
+			war = {
+				target = RSR
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				defender_goal = {
+					casus_belli = civil_war
+				}
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 95442
+	trigger = {
+		tag = RSR
+		exists = RUS
+		has_global_flag = russian_civil_war_has_happened
+	}
+
+	fire_only_once = yes
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME95442"
+	desc = "EVTDESC95442"
+	picture = "whitecossacs"
+
+	option = {
+		name = "EVTOPTA95442"
+		release = TCR
+		RUS_979 = {
+			add_core = CSK
+		}
+		RUS_1048 = {
+			add_core = CSK
+		}
+		RUS_1050 = {
+			add_core = CSK
+		}
+		1040 = {
+			add_core = CSK
+		}
+		1041 = {
+			add_core = CSK
+		}
+		release = CSK
+		CSK = {
+			war = {
+				target = RSR
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				defender_goal = {
+					casus_belli = civil_war
+				}
+			}
+			create_alliance = RUS
+		}
+		TCR = {
+			any_owned = {
+				remove_core = RSR
+			}
+		}
+	}
+	
+}
+country_event = {
+
+	id = 95443
+
+	trigger = {
+		ai = yes
+		has_global_flag = russian_civil_war_has_happened
+		CSK = {
+			any_owned_province = {
+				is_capital = no
+				controlled_by = RSR
+			}
+		}
+	}
+
+	title = "EVTNAME95443"
+	desc = "EVTDESC95443"
+
+	option = {
+		name = "EVTOPTA95443"
+		CSK = {
+			any_owned = {
+				limit = {
+					AND = {
+						controlled_by = RSR
+						NOT = {
+							province_id = 1042
+							province_id = 1064
+						}
+					}
+				}
+				secede_province = RSR
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 95444
+
+	trigger = {
+		ai = yes
+		has_global_flag = russian_civil_war_has_happened
+		RSR = {
+			any_owned_province = {
+				is_capital = no
+				controlled_by = CSK
+			}
+		}
+	}
+
+	title = "EVTNAME95444"
+	desc = "EVTDESC95444"
+
+	option = {
+		name = "EVTOPTA95444"
+		RSR = {
+			any_owned = {
+				limit = {
+					AND = {
+						controlled_by = CSK
+						is_capital = no
+					}
+				}
+				secede_province = CSK
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 95445
+
+	trigger = {
+		tag = RSR
+		THIS = {
+			ai = yes
+		}
+		RUS = {
+			ai = yes
+		}
+		has_global_flag = russian_civil_war_has_happened
+		1042 = {
+			controlled_by = THIS
+		}
+		1064 = {
+			controlled_by = THIS
+		}
+	}
+	
+	fire_only_once = yes
+
+	title = "EVTNAME95439"
+	desc = "EVTDESC95439"
+	picture = "omsk"
+
+	option = {
+		name = "EVTOPTA95439"
+		THIS = {
+			country_event = 95440
+		}
+		
+	}
+}
+country_event = {
+
+	id = 95446
+
+	trigger = {
+		tag = RUS
+		has_global_flag = russian_civil_war_is_over
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME95446"
+	desc = "EVTDESC95446"
+	picture = "russia"
+
+	option = {
+		name = "EVTOPTA95446"
+		UKR = {
+			all_core = {
+				add_core = RUS
+			}
+		}
+		BYE = {
+			all_core = {
+				add_core = RUS
+			}
+		}
+		LAT = {
+			all_core = {
+				add_core = RUS
+			}
+		}
+		LIT = {
+			all_core = {
+				add_core = RUS
+			}
+		}
+		EST = {
+			all_core = {
+				add_core = RUS
+			}
+		}
+		TCR = {
+			all_core = {
+				add_core = RUS
+			}
+		}
+	}
+}
+#AIhelp
+country_event = {
+
+	id = 95447
+
+	trigger = {
+		tag = RUS
+		ai = yes
+		ai = no
+		war = no
+		has_country_flag = centralasia_cb_received
+		exists = BUK
+		BUK = {
+			civilized = no
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 5
+	}
+
+	title = "EVTNAME95447"
+	desc = "EVTDESC95447"
+
+	option = {
+		name = "EVTOPTA95447"
+		war = {
+			target = BUK
+			attacker_goal = {
+				casus_belli = establish_protectorate_casus_belli
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 95448
+
+	trigger = {
+		tag = RUS
+		ai = yes
+		ai = no
+		war = no
+		has_country_flag = centralasia_cb_received
+		exists = KHI
+		KHI = {
+			civilized = no
+		}
+		
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 5
+	}
+
+	title = "EVTNAME95448"
+	desc = "EVTDESC95448"
+
+	option = {
+		name = "EVTOPTA95438"
+		war = {
+			target = KHI
+			attacker_goal = {
+				casus_belli = establish_protectorate_casus_belli
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 95449
+
+	trigger = {
+		tag = RUS
+		ai = yes
+		ai = no
+		war = no
+		has_country_flag = centralasia_cb_received
+		exists = KOK
+		KOK = {
+			civilized = no
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 5
+	}
+
+	title = "EVTNAME95449"
+	desc = "EVTDESC95449"
+
+	option = {
+		name = "EVTOPTA95449"
+		war = {
+			target = KOK
+			attacker_goal = {
+				casus_belli = establish_protectorate_casus_belli
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 95450
+
+	trigger = {
+		tag = RSR
+		ai = yes
+		war = no
+		has_global_flag = russian_civil_war_is_over
+		exists = UKR
+		UKR = {
+			NOT = {
+				government = proletarian_dictatorship
+			}
+			part_of_sphere = no
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 2
+	}
+
+	title = "EVTNAME95449"
+	desc = "EVTDESC95449"
+
+	option = {
+		name = "EVTOPTA95449"
+		war = {
+			target = UKR
+			attacker_goal = {
+				casus_belli = install_communist_gov_cb
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 95451
+
+	trigger = {
+		tag = RSR
+		ai = yes
+		war = no
+		has_global_flag = russian_civil_war_is_over
+		exists = BYE
+		BYE = {
+			NOT = {
+				government = proletarian_dictatorship
+			}
+			part_of_sphere = no
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 2
+	}
+
+	title = "EVTNAME95441"
+	desc = "EVTDESC95441"
+
+	option = {
+		name = "EVTOPTA95441"
+		war = {
+			target = BYE
+			attacker_goal = {
+				casus_belli = install_communist_gov_cb
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	}
+}
+#Stalin Industrialisation
+country_event = {
+
+	id = 95452
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	title = "EVTNAME95452"
+	desc = "EVTDESC95452"
+	picture = "stalinidustry"
+
+	option = {
+		name = "EVTOPTA95452"
+		set_country_flag = first_plan_flag
+		add_country_modifier = {
+				name = first_five_year_plan
+				duration = 1825
+		}
+	}
+}
+country_event = {
+
+	id = 95453
+
+	trigger = {
+		tag = SOV
+		has_country_flag = industrialisation_begins
+		NOT = {
+			has_country_modifier = soviet_collectivization
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME95453"
+	desc = "EVTDESC95453"
+	picture = "collectivisation"
+
+	option = {
+		name = "EVTOPTA95453"
+		add_country_modifier = {
+				name = soviet_collectivization
+				duration = -1
+		}
+		any_pop = {
+			limit = {
+				type = aristocrats
+			}
+			pop_type = farmers
+		}
+		any_pop = {
+			limit = {
+				type = capitalists
+			}
+			pop_type = craftsmen
+		}
+		set_country_flag = collectivization_begins
+	}
+}
+country_event = {
+
+	id = 95454
+
+	trigger = {
+		tag = SOV
+		has_country_flag = industrialisation_begins
+		NOT = {
+			education = public
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 3
+	}
+
+	title = "EVTNAME95454"
+	desc = "EVTDESC95454"
+	picture = "collectivisation"
+
+	option = {
+		name = "EVTOPTA95454"
+		social_reform = public
+	}
+}
+province_event = {
+	id = 95455
+	title = "EVTNAME95455"
+	desc = "EVTDESC95455"
+
+	trigger = {
+		NOT = {
+			has_province_modifier = soviet_famine
+		}
+		OR = {
+			produces = grain
+			produces = fruit
+			produces = cattle
+		}
+		owner = {
+			has_country_modifier = soviet_collectivization
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 900
+	}
+
+	option = {
+		name = "EVTOPTA95455"
+		add_province_modifier = {
+			name = soviet_famine
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVTOPTB95455"
+		money = -5000
+	}
+}
+province_event = {
+	id = 95456
+	title = "EVTNAME95456"
+	desc = "EVTDESC95456"
+
+	trigger = {
+		OR = {
+			produces = grain
+			produces = fruit
+			produces = cattle
+		}
+		owner = {
+			has_country_modifier = soviet_collectivization
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 900
+		
+	}
+
+	option = {
+		name = "EVTOPTA95456"
+		any_pop = {
+			militancy = 5
+		}
+	}
+}
+country_event = {
+
+	id = 95457
+
+	trigger = {
+		tag = SOV
+		has_country_flag = first_plan_flag
+		NOT = {
+			has_country_modifier = first_five_year_plan
+		}
+	}
+	
+	fire_only_once = yes
+
+	title = "EVTNAME95457"
+	desc = "EVTDESC95457"
+	picture = "stalinidustry"
+
+	option = {
+		name = "EVTOPTA95457"
+		add_country_modifier = {
+				name = second_five_year_plan
+				duration = 1825
+		}
+		clr_country_flag = first_plan_flag
+	}
+}
+#ai help#2
+country_event = {
+
+	id = 95458
+	trigger = {
+		ai = yes
+		has_global_flag = russian_civil_war_has_happened
+		exists = CSK
+		exists = RSR
+		NOT = {
+			RSR = {
+				war_with = CSK
+			}
+		}
+	}
+
+	title = "EVTNAME95458"
+	desc = "EVTDESC95458"
+
+	option = {
+		name = "EVTOPTA95458"
+		CSK = {
+			war = {
+				target = RSR
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				defender_goal = {
+					casus_belli = civil_war
+				}
+			}
+		}
+	}
+}
+#Decabrist
+country_event = {
+
+	id = 95480
+	trigger = {
+		tag = RUS
+		government = absolute_monarchy
+			year = 1810		
+		NOT = {
+			year = 1836
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	title = "EVTNAME95480"
+	desc = "EVTDESC95480"
+	picture = "soyuz_spasenya"
+
+	option = {
+		name = "EVTOPTA95480"
+		any_pop = {
+			limit = {
+				OR = {	
+					type = officers
+					type = aristocrats
+				}
+			}
+			ideology = {
+				value = liberal
+				factor = 0.05
+			}
+		}
+		add_country_modifier = {
+				name = union_of_salvation
+				duration = -1
+		}
+	}
+}
+country_event = {
+
+	id = 95481
+	trigger = {
+		tag = RUS
+		government = absolute_monarchy
+		year = 1818
+		NOT = {
+			year = 1836
+		}
+		has_country_modifier = union_of_salvation
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	title = "EVTNAME95481"
+	desc = "EVTDESC95481"
+	picture = "soyuz_blagodenstvya"
+
+	option = {
+		name = "EVTOPTA95481"
+		any_pop = {
+			limit = {
+				OR = {	
+					type = officers
+					type = aristocrats
+				}
+			}
+			ideology = {
+				value = liberal
+				factor = 0.1
+			}
+		}
+		add_country_modifier = {
+				name = union_of_prosperity
+				duration = -1
+		}
+		remove_country_modifier = union_of_salvation
+	}
+}
+country_event = {
+
+	id = 95482
+	trigger = {
+		tag = RUS
+		government = absolute_monarchy
+		year = 1821
+		NOT = {
+			year = 1836
+		}
+		has_country_modifier = union_of_prosperity
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	title = "EVTNAME95482"
+	desc = "EVTDESC95482"
+	picture = "soyuz_blagodenstvya"
+
+	option = {
+		name = "EVTOPTA95482"
+		any_pop = {
+			limit = {
+				OR = {	
+					type = officers
+					type = aristocrats
+				}
+			}
+			militancy = 3
+		}
+		add_country_modifier = {
+				name = north_i_south_organisations
+				duration = -1
+		}
+		remove_country_modifier = union_of_prosperity
+	}
+}
+country_event = {
+
+	id = 95483
+	trigger = {
+		tag = RUS
+		government = absolute_monarchy
+		year = 1823
+		NOT = {
+			year = 1836
+		}
+		has_country_modifier = north_i_south_organisations
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 20
+	
+		modifier = {
+			factor = 0.7
+			year = 1824
+		}
+		modifier = {
+			factor = 0.7
+			year = 1825
+		}
+		modifier = {
+			factor = 0.6
+			year = 1826
+		}
+		modifier = {
+			factor = 0.5
+			year = 1827
+		}
+		modifier = {
+			factor = 0.5
+			year = 1828
+		}
+	}
+
+	title = "EVTNAME95483"
+	desc = "EVTDESC95483"
+	picture = "decabrist"
+
+	option = {
+		name = "EVTOPTA95483"
+		any_pop = {
+			limit = {
+				OR = {	
+					type = officers
+					type = aristocrats
+				}
+			}
+			militancy = 2
+			consciousness = -2
+			reduce_pop = 0.95
+		}
+		remove_country_modifier = north_i_south_organisations
+		set_country_flag = decabrist_fail
+	}
+	option = {
+		name = "EVTOPTB95483"
+		any_pop = {
+			limit = {
+				OR = {	
+					type = officers
+					type = aristocrats
+				}
+			}
+			militancy = -2
+			consciousness = 2
+		}
+		random_list = {
+			50 = {
+				country_event = 95484
+			}
+			50 = {
+				country_event = 95485
+			}
+		}
+		remove_country_modifier = north_i_south_organisations
+	}
+}
+country_event = {
+
+	id = 95484
+	is_triggered_only = yes
+
+	title = "EVTNAME95484"
+	desc = "EVTDESC95484"
+	picture = "decabrist"
+
+	option = {
+		name = "EVTOPTA95484"
+	}
+}
+country_event = {
+
+	id = 95485
+	is_triggered_only = yes
+
+	title = "EVTNAME95485"
+	desc = "EVTDESC95485"
+	picture = "decabrist"
+
+	option = {
+		name = "EVTOPTA95485"
+		government = hms_government
+		political_reform = landed_voting
+	}
+	option = {
+		name = "EVTOPTB95485"
+		government = democracy
+		political_reform = landed_voting
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+	}
+}
+#Kavkaz
+country_event = {
+
+	id = 95486
+	trigger = {
+		tag = RUS
+		year = 1828
+		NOT = {
+			year = 1836
+		}
+		is_greater_power = yes
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	title = "EVTNAME95486"
+	desc = "EVTDESC95486"
+	picture = "cherkes"
+
+	option = {
+		name = "EVTOPTA95486"
+		CRC = {
+			all_core = {
+				add_core = RUS
+			}
+		}
+		NCI = {
+			all_core = {
+				add_core = RUS
+			}
+		}
+		diplomatic_influence = { who = CRC value = -200 }
+		diplomatic_influence = { who = NCI value = -200 }
+	}
+	option = {
+		name = "EVTOPTB95486"
+		prestige = -5
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+country_event = {
+
+	id = 954861
+	trigger = {
+		tag = RUS
+		war_with = TUR
+		has_global_flag = scenario_1816_activated
+		is_greater_power = yes
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	title = "EVTNAME954861"
+	desc = "EVTDESC954861"
+	picture = "cherkes"
+
+	option = {
+		name = "EVTOPTA954861"
+		1049 = {
+			add_core = RUS
+		}
+		1094 = {
+			add_core = RUS
+		}
+		1095 = {
+			add_core = RUS
+		}
+		RUS_1098 = {
+			add_core = RUS
+		}
+	}
+}
+#Tuva
+country_event = {
+
+	id = 95487
+	trigger = {
+		tag = RUS
+		1469 = {
+			owned_by = MCK
+		}
+		CHI_2608 = {
+			owned_by = THIS
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	title = "EVTNAME95487"
+	desc = "EVTDESC95487"
+	picture = "tuva"
+
+	option = {
+		name = "EVTOPTA95487"
+		1469 = {
+			secede_province = THIS
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+	option = {
+		name = "EVTOPTB95487"
+		MCK = {
+			release = TNT
+		}
+		create_vassal = TNT
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+#Finland
+country_event = {
+
+	id = 95488
+	trigger = {
+		tag = RUS
+		NOT = {
+			has_country_modifier = finland_integrate
+		}
+		has_country_flag = finland_integrate_in_progress
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	title = "EVTNAME95488"
+	desc = "EVTDESC95488"
+	picture = "Monarchy"
+
+	option = {
+		name = "EVTOPTA95488"
+		inherit = FIN
+		add_accepted_culture = finnish
+		any_owned = {
+			limit = {
+				is_core = FIN
+			}
+			any_pop = {
+				limit = {
+					culture = finnish
+				}
+				militancy = 5
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 95489
+	trigger = {
+		tag = RUS
+		owns = 1049
+		has_global_flag = scenario_1816_activated
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "EVTNAME95489"
+	desc = "EVTDESC95489"
+	picture = "Solvay"
+
+	option = {
+		name = "EVTOPTA95489"
+		1049 = {
+			change_province_name = "Новороссийск"
+		}
+	}
+}
+#
+country_event = {
+
+	id = 95490
+	trigger = {
+		tag = RUS
+		year = 1817
+		war = no
+		NOT = {
+			year = 1821
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1819
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1820
+		}
+	}
+
+	title = "EVTNAME95490"
+	desc = "EVTDESC95490"
+	picture = "sudebnik"
+
+	option = {
+		name = "EVTOPTA95490"
+		prestige = 5
+	}
+}
+#Russian Hawaii
+country_event = {
+
+	id = 95491
+	trigger = {
+		tag = RUS
+		war = no
+		is_greater_power = yes
+		NOT = {
+			year = 1825
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1819
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1820
+		}
+	}
+
+	title = "EVTNAME95491"
+	desc = "EVTDESC95491"
+	picture = "hawaii"
+
+	option = {
+		name = "EVTOPTA95491"
+		money = -30000
+		relation = { who = USA value = -50 }
+		diplomatic_influence = { who = HAW value = 50 }
+		set_country_flag = russian_fort_in_hawaii
+		ai_chance = {
+			factor = 70
+		}
+	}
+	option = {
+		name = "EVTOPTB95491"
+		ai_chance = {
+			factor = 30
+		}
+	}
+}
+country_event = {
+
+	id = 95492
+	trigger = {
+		tag = RUS
+		HAW = {
+			in_sphere = RUS
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "EVTNAME95492"
+	desc = "EVTDESC95492"
+	picture = "hawaii"
+
+	option = {
+		name = "EVTOPTA95492"
+		inherit = HAW
+	}
+}
+
+country_event = {
+
+	id = 95493
+	trigger = {
+		tag = RUS
+		HAW = {
+			part_of_sphere = yes
+			NOT = {
+				in_sphere = RUS
+			}
+		}
+		has_country_flag = russian_fort_in_hawaii
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "EVTNAME95493"
+	desc = "EVTDESC95493"
+	picture = "hawaii"
+
+	option = {
+		name = "EVTOPTA95493"
+		prestige = -3
+		diplomatic_influence = { who = HAW value = -50 }
+		clr_country_flag = russian_fort_in_hawaii
+	}
+}

@@ -1,0 +1,10866 @@
+country_event = {
+	id = 95360
+	trigger = {
+		tag = USA
+		is_greater_power = yes
+		2222 = {
+				owned_by = SPA
+		}
+		2222 = {
+				controlled_by = THIS
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 15
+	}
+
+	title = "EVTNAME95360"
+	desc = "EVTDESC95360"
+	picture = "puertorico"
+
+	option = {
+		name = "EVTOPTA95360"
+		prestige = 5
+		2222 = {
+			secede_province = THIS
+		}
+		release_vassal = PUE
+		ai_chance = {
+			factor = 90
+		}
+	}
+	option = {
+		name = "EVTOPTB95360"
+		badboy = -1
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+country_event = {
+	id = 95361
+	trigger = {
+		tag = USA
+		is_greater_power = yes
+		SPA_1455 = {
+				owned_by = SPA
+		}
+		SPA_1459 = {
+				owned_by = SPA
+		}
+		SPA_1463 = {
+				owned_by = SPA
+		}
+		SPA_1455 = {
+				controlled_by = THIS
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 15
+	}
+
+	title = "EVTNAME95361"
+	desc = "EVTDESC95361"
+	picture = "phillipines"
+
+	option = {
+		name = "EVTOPTA95361"
+		prestige = 5
+		SPA_1455 = {
+				secede_province = THIS
+		}
+		SPA_1459 = {
+				secede_province = THIS
+		}
+		SPA_1463 = {
+				secede_province = THIS
+		}
+		release_vassal = PHI
+		ai_chance = {
+			factor = 90
+		}
+	}
+	option = {
+		name = "EVTOPTB95361"
+		badboy = -1
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+country_event = {
+	id = 95362
+	trigger = {
+		tag = ENG
+		year = 1871
+		NOT = {
+			exists = CAN
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 10
+	}
+
+	title = "EVTNAME95362"
+	desc = "EVTDESC95362"
+	picture = "colonialseparatism"
+
+	option = {
+		name = "EVTOPTA95362"
+		any_owned = {
+			limit = {
+				AND = {
+					is_core = CAN
+					NOT = {
+						province_id = 74
+						province_id = 75
+						province_id = 76
+						province_id = 2625
+					}
+				}
+				NOT = {has_province_modifier = colonial_separatism_1}
+				NOT = {has_province_modifier = colonial_separatism_2}
+				NOT = {has_province_modifier = colonial_separatism_3}
+				NOT = {has_province_modifier = colonial_separatism_4}
+				NOT = {has_province_modifier = colonial_separatism_5}	
+			}
+			add_province_modifier = {
+				name = colonial_separatism_1
+				duration = -1
+			}
+		}
+	}
+}
+country_event = {
+	id = 95363
+	trigger = {
+		tag = ENG
+		year = 1905
+		NOT = {
+			exists = AST
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 10
+	}
+
+	title = "EVTNAME95362"
+	desc = "EVTDESC95363"
+	picture = "colonialseparatism"
+
+	option = {
+		name = "EVTOPTA95363"
+		any_owned = {
+			limit = {
+				is_core = AST
+				NOT = {has_province_modifier = colonial_separatism_1}
+				NOT = {has_province_modifier = colonial_separatism_2}
+				NOT = {has_province_modifier = colonial_separatism_3}
+				NOT = {has_province_modifier = colonial_separatism_4}
+				NOT = {has_province_modifier = colonial_separatism_5}
+			}
+			add_province_modifier = {
+				name = colonial_separatism_1
+				duration = -1
+			}
+		}
+	}
+}
+country_event = {
+	id = 95364
+	trigger = {
+		tag = ENG
+		year = 1912
+		NOT = {
+			exists = NZL
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 10
+	}
+
+	title = "EVTNAME95362"
+	desc = "EVTDESC95364"
+	picture = "colonialseparatism"
+
+	option = {
+		name = "EVTOPTA95364"
+		any_owned = {
+			limit = {
+				is_core = NZL
+				NOT = {has_province_modifier = colonial_separatism_1}
+				NOT = {has_province_modifier = colonial_separatism_2}
+				NOT = {has_province_modifier = colonial_separatism_3}
+				NOT = {has_province_modifier = colonial_separatism_4}
+				NOT = {has_province_modifier = colonial_separatism_5}
+			}
+			add_province_modifier = {
+				name = colonial_separatism_1
+				duration = -1
+			}
+		}
+	}
+}
+country_event = {
+	id = 95365
+	trigger = {
+		tag = ENG
+		year = 1925
+		NOT = {
+			exists = IRE
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 10
+	}
+
+	title = "EVTNAME95362"
+	desc = "EVTDESC95365"
+	picture = "colonialseparatism"
+
+	option = {
+		name = "EVTOPTA95365"
+		any_owned = {
+			limit = {
+				is_core = IRE
+				NOT = {has_province_modifier = colonial_separatism_1}
+				NOT = {has_province_modifier = colonial_separatism_2}
+				NOT = {has_province_modifier = colonial_separatism_3}
+				NOT = {has_province_modifier = colonial_separatism_4}
+				NOT = {has_province_modifier = colonial_separatism_5}
+			}
+			add_province_modifier = {
+				name = colonial_separatism_1
+				duration = -1
+			}
+		}
+	}
+}
+country_event = {
+	id = 95366
+	trigger = {
+		tag = ENG
+		year = 1912
+		NOT = {
+			exists = NEW
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 10
+	}
+
+	title = "EVTNAME95362"
+	desc = "EVTDESC95366"
+	picture = "colonialseparatism"
+
+	option = {
+		name = "EVTOPTA95366"
+		any_owned = {
+			limit = {
+				is_core = NEW
+				NOT = {has_province_modifier = colonial_separatism_1}
+				NOT = {has_province_modifier = colonial_separatism_2}
+				NOT = {has_province_modifier = colonial_separatism_3}
+				NOT = {has_province_modifier = colonial_separatism_4}
+				NOT = {has_province_modifier = colonial_separatism_5}
+			}
+			add_province_modifier = {
+				name = colonial_separatism_1
+				duration = -1
+			}
+		}
+	}
+}
+country_event = {
+	id = 95367
+	trigger = {
+		colonial_nation = yes
+		any_owned_province = {
+			AND = {
+				is_colonial = yes
+				NOT = {has_province_modifier = colonial_separatism_1}
+				NOT = {has_province_modifier = colonial_separatism_2}
+				NOT = {has_province_modifier = colonial_separatism_3}
+				NOT = {has_province_modifier = colonial_separatism_4}
+				NOT = {has_province_modifier = colonial_separatism_5} 
+			}
+		}
+		any_greater_power = {
+			invention = national_identity
+		}
+		NOT = {tag = SOV}
+		NOT = {has_country_modifier = third_world}
+	}
+	
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME95367"
+	desc = "EVTDESC95367"
+	picture = "colonialseparatism"
+
+	option = {
+		name = "EVTOPTA95367"
+		set_global_flag = colonial_independence
+		any_owned = {
+			limit = {
+				is_colonial = yes
+				NOT = {has_province_modifier = colonial_separatism_1}
+				NOT = {has_province_modifier = colonial_separatism_2}
+				NOT = {has_province_modifier = colonial_separatism_3}
+				NOT = {has_province_modifier = colonial_separatism_4}
+				NOT = {has_province_modifier = colonial_separatism_5}
+				NOT = {is_core = THIS}
+			}
+			add_province_modifier = {
+				name = colonial_separatism_1
+				duration = -1
+			}
+		}
+	}
+}
+country_event = {
+	id = 95368
+	trigger = {
+		colonial_nation = yes
+		any_owned_province = {
+			AND = {
+				is_colonial = yes
+				has_province_modifier = colonial_separatism_1
+			}
+		}
+		NOT = {tag = SOV}
+		year = 1915
+	}
+	
+	mean_time_to_happen =  {
+		months = 60
+	}
+
+	title = "EVTNAME95368"
+	desc = "EVTDESC95368"
+	picture = "colonialseparatism"
+
+	option = {
+		name = "EVTOPTA95368"
+		set_global_flag = colonial_independence
+		any_owned = {
+			limit = {
+				is_colonial = yes
+				has_province_modifier = colonial_separatism_1
+				NOT = {is_core = THIS}
+			}
+			remove_province_modifier = colonial_separatism_1
+			add_province_modifier = {
+				name = colonial_separatism_2
+				duration = -1
+			}
+		}
+	}
+}
+country_event = {
+	id = 95369
+	trigger = {
+		colonial_nation = yes
+		any_owned_province = {
+			AND = {
+				is_colonial = yes
+				OR = {
+					has_province_modifier = colonial_separatism_1
+					has_province_modifier = colonial_separatism_2
+				}
+			}
+		}
+		NOT = {tag = SOV}
+		year = 1925
+	}
+	
+	mean_time_to_happen =  {
+		months = 60
+	}
+
+	title = "EVTNAME95368"
+	desc = "EVTDESC95368"
+	picture = "colonialseparatism"
+
+	option = {
+		name = "EVTOPTA95368"
+		set_global_flag = colonial_independence
+		any_owned = {
+			limit = {
+				is_colonial = yes
+				OR = {
+					has_province_modifier = colonial_separatism_1
+					has_province_modifier = colonial_separatism_2
+				}
+				NOT = {is_core = THIS}
+			}
+			remove_province_modifier = colonial_separatism_1
+			remove_province_modifier = colonial_separatism_2
+			add_province_modifier = {
+				name = colonial_separatism_3
+				duration = -1
+			}
+		}
+	}
+}
+country_event = {
+	id = 953691
+	trigger = {
+		colonial_nation = yes
+		any_owned_province = {
+			AND = {
+				is_colonial = yes
+				OR = {
+					has_province_modifier = colonial_separatism_1
+					has_province_modifier = colonial_separatism_2
+					has_province_modifier = colonial_separatism_3
+				}
+			}
+		}
+		NOT = {tag = SOV}
+		year = 1935
+	}
+	
+	mean_time_to_happen =  {
+		months = 60
+	}
+
+	title = "EVTNAME95368"
+	desc = "EVTDESC95368"
+	picture = "colonialseparatism"
+
+	option = {
+		name = "EVTOPTA95368"
+		set_global_flag = colonial_independence
+		any_owned = {
+			limit = {
+				is_colonial = yes
+				OR = {
+					has_province_modifier = colonial_separatism_1
+					has_province_modifier = colonial_separatism_2
+					has_province_modifier = colonial_separatism_3
+				}
+				NOT = {is_core = THIS}
+			}
+			remove_province_modifier = colonial_separatism_1
+			remove_province_modifier = colonial_separatism_2
+			remove_province_modifier = colonial_separatism_3
+			add_province_modifier = {
+				name = colonial_separatism_4
+				duration = -1
+			}
+		}
+	}
+}
+country_event = {
+	id = 953692
+	trigger = {
+		colonial_nation = yes
+		any_owned_province = {
+			AND = {
+				is_colonial = yes
+				OR = {
+					has_province_modifier = colonial_separatism_1
+					has_province_modifier = colonial_separatism_2
+					has_province_modifier = colonial_separatism_3
+					has_province_modifier = colonial_separatism_4
+				}
+			}
+		}
+		NOT = {tag = SOV}
+		year = 1945
+	}
+	
+	mean_time_to_happen =  {
+		months = 60
+	}
+
+	title = "EVTNAME95368"
+	desc = "EVTDESC95368"
+	picture = "colonialseparatism"
+
+	option = {
+		name = "EVTOPTA95368"
+		set_global_flag = colonial_independence
+		any_owned = {
+			limit = {
+				is_colonial = yes
+				OR = {
+					has_province_modifier = colonial_separatism_1
+					has_province_modifier = colonial_separatism_2
+					has_province_modifier = colonial_separatism_3
+					has_province_modifier = colonial_separatism_4
+				}
+				NOT = {is_core = THIS}
+			}
+			remove_province_modifier = colonial_separatism_1
+			remove_province_modifier = colonial_separatism_2
+			remove_province_modifier = colonial_separatism_3
+			remove_province_modifier = colonial_separatism_4
+			add_province_modifier = {
+				name = colonial_separatism_5
+				duration = -1
+			}
+		}
+	}
+}
+#African countries independence
+country_event = {
+
+	id = 100000
+
+	title = "EVTNAME100000" #Aldjazair
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1708 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = ALD }
+			ALD = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = ALD
+			}
+			#secede_province = ALD
+			remove_core = THIS
+		}
+		release = ALD
+		diplomatic_influence = {
+			who = ALD
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = ALD
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		ALD = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = ALD
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100001
+
+	title = "EVTNAME100000" #Benin
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1928 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = BEN }
+			BEN = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = BEN
+			}
+			#secede_province = BEN
+			remove_core = THIS
+		}
+		release = BEN
+		diplomatic_influence = {
+			who = BEN
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = BEN
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		BEN = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = BEN
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100003
+
+	title = "EVTNAME100000" #Urundi
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		2035 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = BRD }
+			BRD = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = BRD
+			}
+			#secede_province = BRD
+			remove_core = THIS
+		}
+		release = BRD
+		diplomatic_influence = {
+			who = BRD
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = BRD
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		BRD = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = BRD
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100004
+
+	title = "EVTNAME100000" #Uganda
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		2019 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = UGA }
+			UGA = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = UGA
+			}
+			#secede_province = UGA
+			remove_core = THIS
+		}
+		release = UGA
+		diplomatic_influence = {
+			who = UGA
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = UGA
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		UGA = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = UGA
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100005
+
+	title = "EVTNAME100000" #Central African Republic
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1965 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = CAR }
+			CAR = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = CAR
+			}
+			#secede_province = CAR
+			remove_core = THIS
+		}
+		release = CAR
+		diplomatic_influence = {
+			who = CAR
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = CAR
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		CAR = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = CAR
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100006
+
+	title = "EVTNAME100000" #Congo-Brazzaville
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1977 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = CGO }
+			CGO = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = CGO
+			}
+			#secede_province = CGO
+			remove_core = THIS
+		}
+		release = CGO
+		diplomatic_influence = {
+			who = CGO
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = CGO
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		CGO = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = CGO
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100007
+
+	title = "EVTNAME100000" #Chad
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1818 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = CHD }
+			CHD = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = CHD
+			}
+			#secede_province = CHD
+			remove_core = THIS
+		}
+		release = CHD
+		diplomatic_influence = {
+			who = CHD
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = CHD
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		CHD = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = CHD
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100008
+
+	title = "EVTNAME100000" #Cameroon
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1959 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = CMR }
+			CMR = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = CMR
+			}
+			#secede_province = CMR
+			remove_core = THIS
+		}
+		release = CMR
+		diplomatic_influence = {
+			who = CMR
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = CMR
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		CMR = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = CMR
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100009
+
+	title = "EVTNAME100000" #Congo Free State
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1982 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = CNG }
+			CNG = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = CNG
+			}
+			#secede_province = CNG
+			remove_core = THIS
+		}
+		release = CNG
+		diplomatic_influence = {
+			who = CNG
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = CNG
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		CNG = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = CNG
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100010
+
+	title = "EVTNAME100000" #Egypt
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1745 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = EGY }
+			EGY = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = EGY
+			}
+			#secede_province = EGY
+			remove_core = THIS
+		}
+		release = EGY
+		diplomatic_influence = {
+			who = EGY
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = EGY
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		EGY = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = EGY
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100011
+
+	title = "EVTNAME100000" #Eritrea
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1848 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = ERT }
+			ERT = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = ERT
+			}
+			#secede_province = ERT
+			remove_core = THIS
+		}
+		release = ERT
+		diplomatic_influence = {
+			who = ERT
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = ERT
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		ERT = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = ERT
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100012
+
+	title = "EVTNAME100000" #Ethiopia
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1852 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = ETH }
+			ETH = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = ETH
+			}
+			#secede_province = ETH
+			remove_core = THIS
+		}
+		release = ETH
+		diplomatic_influence = {
+			who = ETH
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = ETH
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		ETH = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = ETH
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100013
+
+	title = "EVTNAME100000" #Gabon
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1972 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = GAB }
+			GAB = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = GAB
+			}
+			#secede_province = GAB
+			remove_core = THIS
+		}
+		release = GAB
+		diplomatic_influence = {
+			who = GAB
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = GAB
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		GAB = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = GAB
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100014
+
+	title = "EVTNAME100000" #Gambia
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1785 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = GMB }
+			GMB = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = GMB
+			}
+			#secede_province = GMB
+			remove_core = THIS
+		}
+		release = GMB
+		diplomatic_influence = {
+			who = GMB
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = GMB
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		GMB = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = GMB
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100015
+
+	title = "EVTNAME100000" #Guinea
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1879 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = GNE }
+			GNE = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = GNE
+			}
+			#secede_province = GNE
+			remove_core = THIS
+		}
+		release = GNE
+		diplomatic_influence = {
+			who = GNE
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = GNE
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		GNE = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = GNE
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100016
+
+	title = "EVTNAME100000" #Ivory Coast
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1892 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = IVC }
+			IVC = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = IVC
+			}
+			#secede_province = IVC
+			remove_core = THIS
+		}
+		release = IVC
+		diplomatic_influence = {
+			who = IVC
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = IVC
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		IVC = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = IVC
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100017
+
+	title = "EVTNAME100000" #Kenya
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		2024 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = KNY }
+			KNY = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = KNY
+			}
+			#secede_province = KNY
+			remove_core = THIS
+		}
+		release = KNY
+		diplomatic_influence = {
+			who = KNY
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = KNY
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		KNY = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = KNY
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100018
+
+	title = "EVTNAME100000" #Madagascar
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		2115 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = MAD }
+			MAD = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = MAD
+			}
+			#secede_province = MAD
+			remove_core = THIS
+		}
+		release = MAD
+		diplomatic_influence = {
+			who = MAD
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = MAD
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		MAD = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = MAD
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100019
+
+	title = "EVTNAME100000" #Mali
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1794 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = MLI }
+			MLI = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = MLI
+			}
+			#secede_province = MLI
+			remove_core = THIS
+		}
+		release = MLI
+		diplomatic_influence = {
+			who = MLI
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = MLI
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		MLI = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = MLI
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100020
+
+	title = "EVTNAME100000" #Malawi
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		2067 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = MLW }
+			MLW = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = MLW
+			}
+			#secede_province = MLW
+			remove_core = THIS
+		}
+		release = MLW
+		diplomatic_influence = {
+			who = MLW
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = MLW
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		MLW = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = MLW
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100021
+
+	title = "EVTNAME100000" #Mozambique
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		2049 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = MOZ }
+			MOZ = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = MOZ
+			}
+			#secede_province = MOZ
+			remove_core = THIS
+		}
+		release = MOZ
+		diplomatic_influence = {
+			who = MOZ
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = MOZ
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		MOZ = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = MOZ
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100022
+
+	title = "EVTNAME100000" #Liberia
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1887 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = LIB }
+			LIB = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = LIB
+			}
+			#secede_province = LIB
+			remove_core = THIS
+		}
+		release = LIB
+		diplomatic_influence = {
+			who = LIB
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = LIB
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		LIB = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = LIB
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100023
+
+	title = "EVTNAME100000" #Morocco
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1680 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = MOR }
+			MOR = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = MOR
+			}
+			#secede_province = MOR
+			remove_core = THIS
+		}
+		release = MOR
+		diplomatic_influence = {
+			who = MOR
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = MOR
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		MOR = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = MOR
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100024
+
+	title = "EVTNAME100000" #Nigeria
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1923 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = NGR }
+			NGR = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = NGR
+			}
+			#secede_province = NGR
+			remove_core = THIS
+		}
+		release = NGR
+		diplomatic_influence = {
+			who = NGR
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = NGR
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		NGR = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = NGR
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100025
+
+	title = "EVTNAME100000" #Niger
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1812 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = NIG }
+			NIG = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = NIG
+			}
+			#secede_province = NIG
+			remove_core = THIS
+		}
+		release = NIG
+		diplomatic_influence = {
+			who = NIG
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = NIG
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		NIG = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = NIG
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100026
+
+	title = "EVTNAME100000" #Ruanda
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		2034 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = RWA }
+			RWA = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = RWA
+			}
+			#secede_province = RWA
+			remove_core = THIS
+		}
+		release = RWA
+		diplomatic_influence = {
+			who = RWA
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = RWA
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		RWA = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = RWA
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100027
+
+	title = "EVTNAME100000" #Sierra Leone
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1884 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = SLE }
+			SLE = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = SLE
+			}
+			#secede_province = SLE
+			remove_core = THIS
+		}
+		release = SLE
+		diplomatic_influence = {
+			who = SLE
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = SLE
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		SLE = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = SLE
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100028
+
+	title = "EVTNAME100000" #Senegal
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1783 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = SNG }
+			SNG = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = SNG
+			}
+			#secede_province = SNG
+			remove_core = THIS
+		}
+		release = SNG
+		diplomatic_influence = {
+			who = SNG
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = SNG
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		SNG = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = SNG
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100029
+
+	title = "EVTNAME100000" #Somalia
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1868 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = SOM }
+			SOM = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = SOM
+			}
+			#secede_province = SOM
+			remove_core = THIS
+		}
+		release = SOM
+		diplomatic_influence = {
+			who = SOM
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = SOM
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		SOM = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = SOM
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100030
+
+	title = "EVTNAME100000" #Southern Rhodesia
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		2068 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = RHO }
+			RHO = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = RHO
+			}
+			#secede_province = RHO
+			remove_core = THIS
+		}
+		release = RHO
+		diplomatic_influence = {
+			who = RHO
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = RHO
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		RHO = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = RHO
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100031
+
+	title = "EVTNAME100000" #Tanzania
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		2044 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = TNZ }
+			TNZ = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = TNZ
+			}
+			#secede_province = TNZ
+			remove_core = THIS
+		}
+		release = TNZ
+		diplomatic_influence = {
+			who = TNZ
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = TNZ
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		TNZ = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = TNZ
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100032
+
+	title = "EVTNAME100000" #Togo
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1914 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = TOG }
+			TOG = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = TOG
+			}
+			#secede_province = TOG
+			remove_core = THIS
+		}
+		release = TOG
+		diplomatic_influence = {
+			who = TOG
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = TOG
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		TOG = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = TOG
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100033
+
+	title = "EVTNAME100000" #Tunis
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1725 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = TUN }
+			TUN = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = TUN
+			}
+			#secede_province = TUN
+			remove_core = THIS
+		}
+		release = TUN
+		diplomatic_influence = {
+			who = TUN
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = TUN
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		TUN = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = TUN
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100034
+
+	title = "EVTNAME100000" #Botswana
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		2074 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = TSW }
+			TSW = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = TSW
+			}
+			#secede_province = TSW
+			remove_core = THIS
+		}
+		release = TSW
+		diplomatic_influence = {
+			who = TSW
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = TSW
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		TSW = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = TSW
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100035
+
+	title = "EVTNAME100000" #Zambia
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		2012 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = ZAM }
+			ZAM = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = ZAM
+			}
+			#secede_province = ZAM
+			remove_core = THIS
+		}
+		release = ZAM
+		diplomatic_influence = {
+			who = ZAM
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = ZAM
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		ZAM = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = ZAM
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100036
+
+	title = "EVTNAME100000" #Zanzibar
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		2048 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = ZAN }
+			ZAN = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = ZAN
+			}
+			#secede_province = ZAN
+			remove_core = THIS
+		}
+		release = ZAN
+		diplomatic_influence = {
+			who = ZAN
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = ZAN
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		ZAN = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = ZAN
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100037
+
+	title = "EVTNAME100000" #Mauretania
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1775 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = MAU }
+			MAU = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = MAU
+			}
+			#secede_province = MAU
+			remove_core = THIS
+		}
+		release = MAU
+		diplomatic_influence = {
+			who = MAU
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = MAU
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		MAU = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = MAU
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100038
+
+	title = "EVTNAME100000" #Namibia
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		2078 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = NAM }
+			NAM = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = NAM
+			}
+			#secede_province = NAM
+			remove_core = THIS
+		}
+		release = NAM
+		diplomatic_influence = {
+			who = NAM
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = NAM
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		NAM = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = NAM
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100039
+
+	title = "EVTNAME100000" #Haute-Volta
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1901 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = RHV }
+			RHV = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = RHV
+			}
+			#secede_province = RHV
+			remove_core = THIS
+		}
+		release = RHV
+		diplomatic_influence = {
+			who = RHV
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = RHV
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		RHV = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = RHV
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100040
+
+	title = "EVTNAME100000" #Gana
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1910 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = GAN }
+			GAN = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = GAN
+			}
+			#secede_province = GAN
+			remove_core = THIS
+		}
+		release = GAN
+		diplomatic_influence = {
+			who = GAN
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = GAN
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		GAN = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = GAN
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100041
+
+	title = "EVTNAME100000" #Equatorial Guinea
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1973 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = EQG }
+			EQG = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = EQG
+			}
+			#secede_province = EQG
+			remove_core = THIS
+		}
+		release = EQG
+		diplomatic_influence = {
+			who = EQG
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = EQG
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		EQG = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = EQG
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100042
+
+	title = "EVTNAME100000" #Guinea Bissau
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1877 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = GBS }
+			GBS = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = GBS
+			}
+			#secede_province = GBS
+			remove_core = THIS
+		}
+		release = GBS
+		diplomatic_influence = {
+			who = GBS
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = GBS
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		GBS = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = GBS
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100043
+
+	title = "EVTNAME100000" #Djibuti
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1875 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		OR = {
+			NOT = { exists = DJI }
+			DJI = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = DJI
+			}
+			#secede_province = DJI
+			remove_core = THIS
+		}
+		release = DJI
+		diplomatic_influence = {
+			who = DJI
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = DJI
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		DJI = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = DJI
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100044
+
+	title = "EVTNAME100000" #South Africa
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		2087 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		NOT = { exists = SAF }
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = SAF
+			}
+			#secede_province = SAF
+			remove_core = THIS
+		}
+		release = SAF
+		diplomatic_influence = {
+			who = SAF
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = SAF
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		SAF = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = SAF
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100045
+
+	title = "EVTNAME100000" #Angola
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1999 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		NOT = { exists = ANG }
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = ANG
+			}
+			#secede_province = ANG
+			remove_core = THIS
+		}
+		release = ANG
+		diplomatic_influence = {
+			who = ANG
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = ANG
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		ANG = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = ANG
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100046
+
+	title = "EVTNAME100000" #Libya
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1731 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = africa
+			}
+		}
+		NOT = { exists = LIV }
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = LIV
+			}
+			#secede_province = LIV
+			remove_core = THIS
+		}
+		release = LIV
+		diplomatic_influence = {
+			who = LIV
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = LIV
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		LIV = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = LIV
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+#Central Asian countries independence
+country_event = {
+
+	id = 100050
+
+	title = "EVTNAME100000" #Syria
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		902 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = asia
+			}
+		}
+		OR = {
+			NOT = { exists = SYR }
+			SYR = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 150
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = SYR
+			}
+			#secede_province = SYR
+			remove_core = THIS
+		}
+		release = SYR
+		diplomatic_influence = {
+			who = SYR
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = SYR
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		SYR = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = SYR
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100051
+
+	title = "EVTNAME100000" #Jordan
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		908 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = asia
+			}
+		}
+		OR = {
+			NOT = { exists = JOR }
+			JOR = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 150
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = JOR
+			}
+			#secede_province = JOR
+			remove_core = THIS
+		}
+		release = JOR
+		diplomatic_influence = {
+			who = JOR
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = JOR
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		JOR = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = JOR
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100052
+
+	title = "EVTNAME100000" #Lebanon
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		913 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = asia
+			}
+		}
+		OR = {
+			NOT = { exists = LBN }
+			LBN = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 150
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = LBN
+			}
+			#secede_province = LBN
+			remove_core = THIS
+		}
+		release = LBN
+		diplomatic_influence = {
+			who = LBN
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = LBN
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		LBN = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = LBN
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100053
+
+	title = "EVTNAME100000" #Palestine
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		917 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = asia
+			}
+		}
+		OR = {
+			NOT = { exists = PLS }
+			PLS = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 150
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = PLS
+			}
+			#secede_province = PLS
+			remove_core = THIS
+		}
+		release = PLS
+		diplomatic_influence = {
+			who = PLS
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = PLS
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		PLS = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = PLS
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100054
+
+	title = "EVTNAME100000" #Bahrain
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1162 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = asia
+			}
+		}
+		OR = {
+			NOT = { exists = BHR }
+			BHR = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 150
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = BHR
+			}
+			#secede_province = BHR
+			remove_core = THIS
+		}
+		release = BHR
+		diplomatic_influence = {
+			who = BHR
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = BHR
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		BHR = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = BHR
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100055
+
+	title = "EVTNAME100000" #Qatar
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1165 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = asia
+			}
+		}
+		OR = {
+			NOT = { exists = QAT }
+			QAT = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 150
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = QAT
+			}
+			#secede_province = QAT
+			remove_core = THIS
+		}
+		release = QAT
+		diplomatic_influence = {
+			who = QAT
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = QAT
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		QAT = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = QAT
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 100070
+
+	title = "EVTNAME100000" #Tailand
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1346 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = asia
+			}
+		}
+		OR = {
+			NOT = { exists = SIA }
+			SIA = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = SIA
+			}
+			#secede_province = SIA
+			remove_core = THIS
+		}
+		release = SIA
+		diplomatic_influence = {
+			who = SIA
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = SIA
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		SIA = {
+			country_event = 100500
+			government = presidential_dictatorship
+		}
+		random_country = {
+			limit = {
+				tag = SIA
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100071
+
+	title = "EVTNAME100000" #Laos
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1356 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = asia
+			}
+		}
+		OR = {
+			NOT = { exists = LUA }
+			LUA = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = LUA
+			}
+			#secede_province = LUA
+			remove_core = THIS
+		}
+		release = LUA
+		diplomatic_influence = {
+			who = LUA
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = LUA
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		LUA = {
+			country_event = 100500
+			government = presidential_dictatorship
+		}
+		random_country = {
+			limit = {
+				tag = LUA
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100072
+
+	title = "EVTNAME100000" #Vietnam
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1369 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = asia
+			}
+		}
+		OR = {
+			NOT = { exists = DAI }
+			DAI = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = DAI
+			}
+			#secede_province = DAI
+			remove_core = THIS
+		}
+		release = DAI
+		diplomatic_influence = {
+			who = DAI
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = DAI
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		DAI = {
+			country_event = 100500
+			government = presidential_dictatorship
+		}
+		random_country = {
+			limit = {
+				tag = DAI
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100073
+
+	title = "EVTNAME100000" #Cambodia
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1364 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = asia
+			}
+		}
+		OR = {
+			NOT = { exists = CAM }
+			CAM = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = CAM
+			}
+			#secede_province = CAM
+			remove_core = THIS
+		}
+		release = CAM
+		diplomatic_influence = {
+			who = CAM
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = CAM
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		CAM = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = CAM
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100074
+
+	title = "EVTNAME100000" #Indonesia
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1413 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = asia
+			}
+		}
+		OR = {
+			NOT = { exists = INO }
+			INO = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = INO
+			}
+			#secede_province = INO
+			remove_core = THIS
+		}
+		release = INO
+		diplomatic_influence = {
+			who = INO
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = INO
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		INO = {
+			country_event = 100500
+			government = presidential_dictatorship
+		}
+		random_country = {
+			limit = {
+				tag = INO
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100075
+
+	title = "EVTNAME100000" #Malasya
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1387 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = asia
+			}
+		}
+		OR = {
+			NOT = { exists = MLY }
+			MLY = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = MLY
+			}
+			#secede_province = MLY
+			remove_core = THIS
+		}
+		release = MLY
+		diplomatic_influence = {
+			who = MLY
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = MLY
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		MLY = {
+			country_event = 100500
+			government = presidential_dictatorship
+			any_owned = {
+				limit = {
+					is_core = BRU
+				}
+				remove_core = BRU
+			}
+		}
+		random_country = {
+			limit = {
+				tag = MLY
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100076
+
+	title = "EVTNAME100000" #Brunei
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1393 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = asia
+			}
+		}
+		OR = {
+			NOT = { exists = BRU }
+			BRU = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		NOT = {tag = MLY}
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = BRU
+			}
+			#secede_province = BRU
+			remove_core = THIS
+		}
+		release = BRU
+		diplomatic_influence = {
+			who = BRU
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = BRU
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		BRU = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = BRU
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100077
+
+	title = "EVTNAME100000" #Philippines
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1455 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = asia
+			}
+		}
+		OR = {
+			NOT = { exists = PHI }
+			PHI = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = PHI
+			}
+			#secede_province = PHI
+			remove_core = THIS
+		}
+		release = PHI
+		diplomatic_influence = {
+			who = PHI
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = PHI
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		PHI = {
+			country_event = 100500
+			government = presidential_dictatorship
+		}
+		random_country = {
+			limit = {
+				tag = PHI
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100078
+
+	title = "EVTNAME100000" #Afganistan
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1209 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = asia
+			}
+		}
+		OR = {
+			NOT = { exists = AFG }
+			AFG = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = AFG
+			}
+			#secede_province = AFG
+			remove_core = THIS
+		}
+		release = AFG
+		diplomatic_influence = {
+			who = AFG
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = AFG
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		AFG = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = AFG
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 100079
+
+	title = "EVTNAME100000" #Nepal
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1326 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = asia
+			}
+		}
+		OR = {
+			NOT = { exists = NEP }
+			NEP = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = NEP
+			}
+			#secede_province = NEP
+			remove_core = THIS
+		}
+		release = NEP
+		diplomatic_influence = {
+			who = NEP
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = NEP
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		NEP = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = NEP
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 100080
+
+	title = "EVTNAME100000" #Tibet
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1587 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = asia
+			}
+		}
+		OR = {
+			NOT = { exists = TIB }
+			TIB = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = TIB
+			}
+			#secede_province = TIB
+			remove_core = THIS
+		}
+		release = TIB
+		diplomatic_influence = {
+			who = TIB
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = TIB
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		TIB = {
+			country_event = 100500
+		}
+		random_country = {
+			limit = {
+				tag = TIB
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 100081
+
+	title = "EVTNAME100000" #Burma
+	desc = "EVTDESC100000"
+	picture = "colonialseparatism"
+
+	trigger = {
+		1334 = {
+			OR = {
+				owned_by = THIS
+				owner = {
+					vassal_of = THIS
+				}
+			}
+		}
+		capital_scope = {
+			NOT = {
+				continent = asia
+			}
+		}
+		OR = {
+			NOT = { exists = BUR }
+			BUR = { vassal_of = THIS }
+		}
+		any_greater_power = {
+			invention = anticolonialism
+		}
+		
+		
+	}
+
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			check_variable = {
+				which = colony_released
+				value = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			check_variable = {
+				which = colony_released
+				value = 5
+			}
+		}
+		modifier = {
+			factor = 0.7
+			check_variable = {
+				which = colony_released
+				value = 8
+			}
+		}
+		modifier = {
+			factor = 0.6
+			check_variable = {
+				which = colony_released
+				value = 12
+			}
+		}
+		modifier = {
+			factor = 0.5
+			check_variable = {
+				which = colony_released
+				value = 15
+			}
+		}
+		modifier = {
+			factor = 0.7
+			has_global_flag = united_nations_established
+		}
+	}
+
+	option = {
+		name = "EVTOPTA100000"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = BUR
+			}
+			#secede_province = BUR
+			remove_core = THIS
+		}
+		release = BUR
+		diplomatic_influence = {
+			who = BUR
+			value = 200
+		}
+		random_country = {
+			limit = {
+				tag = THIS
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = BUR
+					value = 200
+				}
+			}
+		}
+		set_variable = {
+			which = colony_released
+			value = 1
+		}
+		BUR = {
+			country_event = 100500
+			government = presidential_dictatorship
+		}
+		random_country = {
+			limit = {
+				tag = BUR
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTB100000"
+		badboy = 5
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 100500
+	title = "EVTNAME100500"
+	desc = "EVTDESC100500"
+	picture = "colonialseparatism"
+	
+	trigger = {
+		OR = {
+			tag = ALD
+			tag = ANG
+			tag = BEN
+			tag = BRD
+			tag = UGA
+			tag = CAR
+			tag = CGO
+			tag = CHD
+			tag = CMR
+			tag = CNG
+			tag = EGY
+			tag = ERT
+			tag = ETH
+			tag = GAB
+			tag = GMB
+			tag = GNE
+			tag = IVC
+			tag = KNY
+			tag = MAD
+			tag = MLI
+			tag = MLW
+			tag = MOZ
+			tag = LIB
+			tag = MOR
+			tag = NGR
+			tag = NIG
+			tag = RWA
+			tag = SLE
+			tag = SNG
+			tag = SOM
+			tag = RHO
+			tag = TNZ
+			tag = TOG
+			tag = TUN
+			tag = TSW
+			tag = ZAM
+			tag = ZAN
+			tag = MAU
+			tag = NAM
+			tag = RHV
+			tag = GAN
+			tag = EQG
+			tag = GBS
+			tag = DJI
+			tag = SYR
+			tag = JOR
+			tag = LBN
+			tag = PLS
+			tag = BHR
+			tag = QAT
+			tag = SIA
+			tag = LUA
+			tag = DAI
+			tag = CAM
+			tag = INO
+			tag = MLY
+			tag = BRU
+			tag = PHI
+			tag = HND
+			tag = PAK
+			tag = SUD
+		}
+		has_global_flag = colonial_independence
+		has_country_flag = former_colony
+		NOT = { has_country_modifier = third_world }
+		is_greater_power = no
+	}
+	
+	option = {
+		name = "EVTOPTA100500"
+		civilized = yes
+		prestige = -2000
+		activate_technology = napoleonic_thought
+		activate_technology = post_napoleonic_thought
+		activate_technology = strategic_mobility
+		activate_technology = flintlock_rifles
+		activate_technology = muzzle_loaded_rifles
+		activate_technology = bronze_muzzle_loaded_artillery
+		activate_technology = iron_muzzle_loaded_artillery
+		activate_technology = military_staff_system
+		activate_technology = improved_communication_systems
+		activate_technology = military_plans
+		activate_technology = army_command_principle
+		activate_technology = army_professionalism
+		activate_technology = military_academies
+		activate_technology = joint-stock_companies
+		activate_technology = private_banks
+		activate_technology = stock_exchange
+		activate_technology = no_standard
+		activate_technology = bimetallism
+		activate_technology = ad_hoc_money_bill_printing
+		activate_technology = physiocracy
+		activate_technology = early_classical_theory_and_critique
+		activate_technology = late_classical_theory
+		activate_technology = state_mercantilism
+		activate_technology = freedom_of_trade
+		activate_technology = market_structure
+		activate_technology = division_of_labour
+		activate_technology = guild_based_production
+		activate_technology = organized_factories
+		activate_technology = sentimentalism
+		activate_technology = classicism_n_early_romanticism
+		activate_technology = romanticism
+		activate_technology = late_enlightenment_philosophy
+		activate_technology = idealism
+		activate_technology = malthusian_thought
+		activate_technology = nihilism_i_anarchism
+		activate_technology = positivism
+		activate_technology = enlightenment_thought
+		activate_technology = ideological_thought
+		activate_technology = fundamentals_of_psychology
+		activate_technology = introspectionism
+		activate_technology = associationism
+		activate_technology = water_wheel_power
+		activate_technology = experimental_steam_engine
+		activate_technology = practical_steam_engine
+		activate_technology = manufactories
+		activate_technology = publishing_industry
+		activate_technology = mechanical_production
+		activate_technology = mechanized_mining
+		activate_technology = clean_coal
+		activate_technology = ferrous_metallurgy
+		activate_technology = animal-powered_railroad
+		activate_technology = experimental_railroad
+		activate_technology = early_railroad
+		activate_technology = basic_chemistry
+		activate_technology = thermodynamics
+		activate_technology = medicine
+		activate_technology = nelsonian_thought
+		activate_technology = post_nelsonian_thought
+		activate_technology = battleship_column_doctrine
+		activate_technology = clipper_design
+		activate_technology = steamers_with_paddle_wheel
+		activate_technology = steamers
+		activate_technology = marine_engineering_basics
+		activate_technology = naval_design_bureaus
+		activate_technology = fire_control_systems
+		activate_technology = marine_chronometers
+		activate_technology = alphabetic_flag_signaling
+		activate_technology = naval_plans
+		activate_technology = the_command_principle
+		activate_technology = naval_professionalism
+		activate_technology = naval_academies
+		add_country_modifier = {
+			name = third_world
+			duration = -1
+		}
+		any_owned = {
+			limit = {
+				is_core = THIS
+			}
+			remove_province_modifier = colonial_separatism_1
+			remove_province_modifier = colonial_separatism_2
+			remove_province_modifier = colonial_separatism_3
+			remove_province_modifier = colonial_separatism_4
+			remove_province_modifier = colonial_separatism_5
+		}
+		any_country = {
+			limit = {
+				any_owned_province = {
+					is_core = THIS
+				}
+				THIS = {NOT = {tag = BRU}}
+			}
+			country_event = 100501
+		}
+	}
+}
+country_event = {
+	id = 100501
+	title = "EVTNAME100501"
+	desc = "EVTDESC100501"
+	picture = "colonialseparatism"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA100501"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = FROM
+			}
+			remove_province_modifier = colonial_separatism_1
+			remove_province_modifier = colonial_separatism_2
+			remove_province_modifier = colonial_separatism_3
+			remove_province_modifier = colonial_separatism_4
+			remove_province_modifier = colonial_separatism_5
+			remove_core = THIS
+			secede_province = FROM
+		}
+		diplomatic_influence = {
+			who = FROM
+			value = 100
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = "EVTOPTB100501"
+		badboy = 5
+		ai_chance = {
+			factor = 0
+		}
+	}
+}

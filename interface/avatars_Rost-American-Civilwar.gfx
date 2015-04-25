@@ -1,0 +1,204 @@
+######		  Victoria 2		######
+
+######   American Civil War Spritepack	######
+
+
+
+
+######     	   designed by		######
+
+######     	  Sebastian Rost      	######
+
+######     	       and		######
+
+######     	   Pierre Rost		######
+
+
+
+
+objectTypes = {	
+	
+	
+	EMFXActorType = {
+		name = "UsGCInfantry"
+		actorfile = "gfx\anims\USInf_Civilwar.xac"
+		
+		idle   = "gfx\anims\CivilwarInfantryIdle.xsm"
+		move   = "gfx\anims\CivilwarInfantryMove.xsm"
+		attack = "gfx\anims\CivilwarInfantryAttack.xsm"
+		scale = 6.3
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}
+		
+	}
+
+	EMFXActorType = {
+		name = "ConfederateGCInfantry"
+		actorfile = "gfx\anims\CSAInf_Civilwar.xac"
+		
+		idle   = "gfx\anims\CivilwarInfantryIdle.xsm"
+		move   = "gfx\anims\CivilwarInfantryMove.xsm"
+		attack = "gfx\anims\CivilwarInfantryAttack.xsm"
+		scale = 6.3
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}
+		
+	}
+
+	EMFXActorType = {
+		name = "UsGCEngineer"
+		actorfile = "gfx\anims\USEng_Civilwar.xac"
+		
+		idle   = "gfx\anims\CivilwarEngineerIdle.xsm"
+		move   = "gfx\anims\CivilwarEngineerMove.xsm"
+		attack = "gfx\anims\CivilwarEngineerAttack.xsm"
+		scale = 6.3
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}
+		
+	}
+
+	EMFXActorType = {
+		name = "ConfederateGCEngineer"
+		actorfile = "gfx\anims\CSAEng_Civilwar.xac"
+		
+		idle   = "gfx\anims\CivilwarEngineerIdle.xsm"
+		move   = "gfx\anims\CivilwarEngineerMove.xsm"
+		attack = "gfx\anims\CivilwarEngineerAttack.xsm"
+		scale = 6.3
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}
+		
+	}
+
+	EMFXActorType = {
+		name = "UsGCGuard"
+		actorfile = "gfx\anims\USGua_Civilwar.xac"
+		
+		idle   = "gfx\anims\CivilwarGuardIdle.xsm"
+		move   = "gfx\anims\CivilwarGuardMove.xsm"
+		attack = "gfx\anims\CivilwarGuardAttack.xsm"
+		scale = 6.3
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}
+		
+	}
+
+	EMFXActorType = {
+		name = "ConfederateGCGuard"
+		actorfile = "gfx\anims\CSAGua_Civilwar.xac"
+		
+		idle   = "gfx\anims\CivilwarGuardIdle.xsm"
+		move   = "gfx\anims\CivilwarGuardMove.xsm"
+		attack = "gfx\anims\CivilwarGuardAttack.xsm"
+		scale = 6.3
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}
+		
+	}
+
+	EMFXActorType = {
+		name = "UsGCArtillery"
+		actorfile = "gfx\anims\USArt_Civilwar.xac"
+		
+		idle   = "gfx\anims\CivilwarArtilleryIdle.xsm"
+		move   = "gfx\anims\CivilwarArtilleryMove.xsm"
+		attack = "gfx\anims\CivilwarArtilleryAttack.xsm"
+		scale = 6.3
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}
+		
+	}
+
+	EMFXActorType = {
+		name = "ConfederateGCArtillery"
+		actorfile = "gfx\anims\CSAArt_Civilwar.xac"
+		
+		idle   = "gfx\anims\CivilwarArtilleryIdle.xsm"
+		move   = "gfx\anims\CivilwarArtilleryMove.xsm"
+		attack = "gfx\anims\CivilwarArtilleryAttack.xsm"
+		scale = 6.3
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}
+		
+	}
+
+	EMFXActorType = {
+		name = "UsGCIrregular"
+		actorfile = "gfx\anims\USIrr_Civilwar.xac"
+		
+		idle   = "gfx\anims\CivilwarInfantryIdle.xsm"
+		move   = "gfx\anims\CivilwarInfantryMove.xsm"
+		attack = "gfx\anims\CivilwarInfantryAttack.xsm"
+		scale = 6.3
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}
+		
+	}
+
+	EMFXActorType = {
+		name = "ConfederateGCIrregular"
+		actorfile = "gfx\anims\CSAIrr_Civilwar.xac"
+		
+		idle   = "gfx\anims\CivilwarInfantryIdle.xsm"
+		move   = "gfx\anims\CivilwarInfantryMove.xsm"
+		attack = "gfx\anims\CivilwarInfantryAttack.xsm"
+		scale = 6.3
+		
+		attach = {
+			name = "InfantryShadowblob"
+			node = "Root"
+			attachId = 2
+		}
+		
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+

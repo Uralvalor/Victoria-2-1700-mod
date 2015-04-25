@@ -1,0 +1,456 @@
+country_event = {
+	id = 18299
+	trigger = {
+		tag = PRU
+		year = 1813
+		NOT = {
+			has_global_flag = taurogen_convention_ok
+			has_global_flag = napoleonica_ended
+			year = 1816
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	title = "EVTNAME18299"
+	desc = "EVTDESC18299"
+	picture = "Taurogen"
+
+	option = {
+		name = "EVTOPTA18299"
+		set_global_flag = taurogen_convention_ok
+		any_country = {
+			limit = {
+				war_with = THIS
+			}
+			end_war = THIS
+		}
+		leave_alliance	= FRA
+		create_alliance	= RUS
+		casus_belli = {
+			target = FRA
+			type = cut_down_to_size
+			months = 12
+		}
+		RUS = {
+			country_event = 3333
+		}
+		ai_chance = {
+			factor = 90
+		}	
+	}
+
+	option = {
+		name = "EVTOPTB18299"
+		relations = {
+			who = FRA
+			value = 100
+		}
+		prestige = -10
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = {
+	id = 18139
+	trigger = {
+		tag = AUS
+		year = 1813
+		NOT = {	
+			has_global_flag = reichenbach_convention_ok
+			has_global_flag = napoleonica_ended
+			year = 1816
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	title = "EVTNAME18139"
+	desc = "EVTDESC18139"
+	picture = "europa"
+
+	option = {
+		name = "EVTOPTA18139"
+		set_global_flag = reichenbach_convention_ok
+		any_country = {
+			limit = {
+				war_with = THIS
+			}
+			end_war = THIS
+		}
+		leave_alliance	= FRA
+		create_alliance	= RUS
+		create_alliance	= PRU
+		FRA = {
+			set_country_flag = austro_fra_ultimatum
+			country_event = 18309
+		}
+		RUS = {
+			country_event = 3333
+		}
+		ai_chance = {
+			factor = 90
+		}	
+	}
+
+	option = {
+		name = "EVTOPTB18139"
+		relations = {
+			who = FRA
+			value = 100
+		}
+		prestige = -20
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+country_event = {
+	id = 18309
+	title = "EVTNAME18309"
+	desc = "EVTDESC18309"
+	picture = "europa"
+
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = austro_fra_ultimatum
+	}
+
+	option = {
+		name = "EVTOPTA18309"
+		RUS = {
+			country_event = 3333
+		}
+		ai_chance = {
+			factor = 95
+		}
+	}
+	option = {
+		name = "EVTOPTB18309"
+		prestige = -40
+		set_global_flag = napoleonica_ended
+		RUS = {
+			inherit = POL
+		}
+		PRU = {
+			inherit = DZG
+		}
+		PRU = {
+			inherit = BRG
+		}
+		AUS_780 = {
+			secede_province = AUS
+		}
+		AUS_736 = {
+			secede_province = AUS
+		}
+		NET_375 = {
+			secede_province = NET
+		}
+		NET_385 = {
+			secede_province = NET
+		}
+		SPA_498 = {
+			secede_province = SPA
+		}
+		SAR_720 = {
+			secede_province = SAR
+		}
+		SAR_724 = {
+			secede_province = SAR
+		}
+		581 = {
+			secede_province = PRU
+		}
+		378 = {
+			secede_province = NET
+		}
+		379 = {
+			secede_province = NET
+		}
+		380 = {
+			secede_province = NET
+		}
+		768 = {
+			secede_province = AUS
+		}
+		773 = {
+			secede_province = AUS
+		}
+		774 = {
+			secede_province = AUS
+		}
+		615 = {
+			secede_province = AUS
+		}
+		618 = {
+			secede_province = AUS
+		}
+		554 = {
+			secede_province = PRU
+		}
+		609 = {
+			secede_province = SWI
+		}
+		release = SLB
+		release = HAM
+		release = LUB
+		release = PAR
+		release = BRE
+		release = OLD
+		release = PAP
+		release = TUS
+		release = HAN
+		any_country = {
+			limit = {
+				war_with = THIS
+			}
+			end_war = THIS
+		}
+		any_country = {
+			limit = {
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		diplomatic_influence = { who = BAV value = -200 }
+		diplomatic_influence = { who = WUR value = -200 }
+		diplomatic_influence = { who = BAD value = -200 }
+		diplomatic_influence = { who = DEN value = -200 }
+		diplomatic_influence = { who = SAX value = -200 }
+		diplomatic_influence = { who = NAS value = -200 }
+		diplomatic_influence = { who = FRM value = -200 }
+		diplomatic_influence = { who = DZG value = -200 }
+		diplomatic_influence = { who = WAR value = -200 }
+		diplomatic_influence = { who = HES value = -200 }
+		diplomatic_influence = { who = WES value = -200 }
+		diplomatic_influence = { who = WRZ value = -200 }
+		diplomatic_influence = { who = SGM value = -200 }
+		diplomatic_influence = { who = COB value = -200 }
+		diplomatic_influence = { who = MEI value = -200 }
+		diplomatic_influence = { who = WEI value = -200 }
+		diplomatic_influence = { who = LIP value = -200 }
+		diplomatic_influence = { who = ANH value = -200 }
+		diplomatic_influence = { who = MEC value = -200 }
+		diplomatic_influence = { who = MST value = -200 }
+		diplomatic_influence = { who = SWI value = -200 }
+		diplomatic_influence = { who = NEU value = -200 }
+		diplomatic_influence = { who = LUC value = -200 }
+		diplomatic_influence = { who = MNP value = -200 }
+		diplomatic_influence = { who = NEA value = -200 }
+		leave_alliance	= BAV
+		leave_alliance	= WUR
+		leave_alliance	= WAR
+		leave_alliance	= SAX
+		leave_alliance	= SGM
+		leave_alliance	= LUC
+		leave_alliance	= MNP
+		leave_alliance	= MEC
+		leave_alliance	= MST
+		leave_alliance	= WES
+		leave_alliance	= MEI
+		leave_alliance	= WEI
+		leave_alliance	= COB
+		leave_alliance	= LIP
+		leave_alliance	= SWI
+		leave_alliance	= BAD
+		leave_alliance	= ANH
+		leave_alliance	= NET
+		leave_alliance	= NAS
+		leave_alliance	= HES
+		leave_alliance	= NEU
+		leave_alliance	= FRM
+		leave_alliance	= WRZ
+		leave_alliance	= DEN
+		leave_alliance	= NEA
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+country_event = {
+	id = 18249
+	trigger = {
+		tag = FRA
+		has_global_flag = revolution
+		war_with = RUS
+		war_with = SPA
+		RUS = {
+			any_owned_province = {
+					controlled_by = FRA
+			}
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 30
+
+		modifier = {
+			factor = 5
+			NOT = {
+				year = 1813
+			}
+		}
+
+		modifier = {
+			factor = 0.9
+			year = 1812
+		}
+		
+		modifier = {
+			factor = 0.9
+			year = 1812
+		}
+
+		modifier = {
+			factor = 0.9
+			year = 1813
+		}
+
+		modifier = {
+			factor = 0.9
+			year = 1813
+		}
+	
+	}
+
+	title = "EVTNAME18249"
+	desc = "EVTDESC18249"
+	picture = "retreat"
+
+	option = {
+		name = "EVTOPTA18249"
+		war_exhaustion = 40
+		set_country_flag = political_crisis
+		add_country_modifier = {
+				name = political_crisis
+				duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = 18259
+	trigger = {
+		tag = FRA
+		has_global_flag = revolution
+		has_country_flag = political_crisis
+		war_with = RUS
+		war_with = SPA
+		}
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	
+	}
+
+	title = "EVTNAME18259"
+	desc = "EVTDESC18259"
+	picture = "malet"
+
+	option = {
+		name = "EVTOPTA18259"
+		any_pop = {
+			limit = { has_pop_culture = french }
+			consciousness = 3
+			militancy = -2
+		}
+		any_pop = {
+			scaled_consciousness = {
+				ideology = socialist
+				factor = 2
+			}
+			scaled_consciousness = {
+				ideology = anarcho_liberal
+				factor = 2
+			}
+			scaled_militancy = {
+				ideology = socialist
+				factor = 2
+			}
+			scaled_militancy = {
+				ideology = anarcho_liberal
+				factor = 2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 18109
+
+	trigger = {
+               has_global_flag = revolution
+		OR = {
+		tag = RUS
+		tag = AUS
+		tag = PRU
+		tag = SPA
+		tag = POR
+		tag = SAR
+		tag = SIC
+		tag = SWE
+		tag = NET
+		}
+		year = 1789
+		war_with = FRA
+		NOT = {	
+			has_global_flag = napoleonica_ended
+			year = 1816
+		}
+                NOT = { alliance_with = ENG }
+	}
+
+	picture = "Alliance"
+
+	mean_time_to_happen = {
+		days = 1
+	
+	}
+	title = "EVTNAME18109"
+	desc = "EVTDESC18109"
+
+	option = {
+		name = "EVTOPTA18109"
+			create_alliance = ENG
+			relations = {
+				who = ENG
+				value = 10
+			}
+		}
+}
+country_event = {
+	id = 18319
+	title = "EVTNAME18319"
+	desc = "EVTDESC18319"
+	picture = "europa"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA18319"
+		war = {
+			target = FRA
+			attacker_goal = {
+				casus_belli = cut_down_to_size
+			}
+			call_ally = yes
+		}
+		create_alliance = ENG
+	}
+}

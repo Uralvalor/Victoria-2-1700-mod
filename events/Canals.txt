@@ -1,0 +1,1285 @@
+#### Kiel Canal ####
+
+country_event = {
+
+	id = 18871895
+	
+	trigger = {
+		369 = { has_province_modifier = kiel_canal }
+		NOT = { has_country_modifier = kiel_canal_dividend }
+		NOT = { month = 1 }
+		NOT = { is_canal_enabled = 1 }
+		owns = 369
+		}
+		
+	mean_time_to_happen = {
+		months = 0.1
+	}
+	
+	title = "Необходимость строительства канала"
+	desc = ""
+	picture = "Kiel"
+
+	option = {
+		name = "До следующего года"	
+		random_list = {
+		25 = { treasury = 2000 }
+		25 = { treasury = 1000}
+		25 = { treasury = 0 }
+		25 = { treasury = -1000 }
+		}
+		add_country_modifier = {
+		name = kiel_canal_dividend
+		duration = 31
+		}
+	}
+}
+
+country_event = {
+
+	id = 188718950
+	
+	trigger = {
+		has_global_flag = building_kiel_canal_phase0
+		has_country_modifier = building_kiel_canal
+		}
+		
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	title = "Проект канала завершен"
+	desc = "Карта Кильского канала"
+	picture = "Kiel0"
+
+	option = {
+		name = "Начинайте строительство"
+		treasury = -35000	
+		clr_global_flag = building_kiel_canal_phase0
+		set_global_flag = building_kiel_canal_phase1
+	}
+}
+
+country_event = {
+
+	id = 188718951
+	
+	trigger = {
+		has_global_flag = building_kiel_canal_phase1
+		has_country_modifier = building_kiel_canal
+		}
+		
+	mean_time_to_happen = {
+		months = 32
+		
+		modifier = {
+		factor = 1
+		prestige = 10
+		}
+	}
+	
+	title = "Кильский канал: первая фаза завершена!"
+	desc = "Первая фаза строительства завершена. Канал прорыт до Грюнентальского моста"
+	picture = "Kiel1"
+
+	option = {
+		name = "Переходим во вторую фазу"
+		treasury = -35000	
+		clr_global_flag = building_kiel_canal_phase1
+		set_global_flag = building_kiel_canal_phase2
+	}
+}
+
+country_event = {
+	id = 188718952
+	
+	trigger = {
+		has_global_flag = building_kiel_canal_phase2
+		has_country_modifier = building_kiel_canal
+		}
+		
+	mean_time_to_happen = {
+		months = 32
+		
+		modifier = {
+		factor = 1
+		prestige = 10
+		}
+	}
+	
+	title = "Кильский канал: вторая фаза завершена!"
+	desc = "Строительные работы на шлюзах в Киле-Хольтенау в сентябре 1893 года."
+	picture = "Kiel2"
+
+	option = {
+		name = "Переходим в третью фазу"
+		treasury = -35000	
+		clr_global_flag = building_kiel_canal_phase2
+		set_global_flag = building_kiel_canal_phase3
+	}
+}
+
+country_event = {
+	id = 188718953
+	
+	trigger = {
+		has_global_flag = building_kiel_canal_phase3
+		has_country_modifier = building_kiel_canal
+		}
+		
+	mean_time_to_happen = {
+		months = 32
+		
+		modifier = {
+		factor = 1
+		prestige = 10
+		}
+	}
+	
+	title = "Кильский канал: строительство завершено!"
+	desc = "EVTDESC188718953"
+	picture = "Kiel3"
+
+	option = {
+		name = "Ура!"
+		prestige = 40
+		research_points = 120
+		enable_canal = 1
+		369 = { set_province_flag = kiel_canal }
+		369= { add_province_modifier = {
+				name = kiel_canal
+				duration = -1
+				}
+		}
+		clr_global_flag = building_kiel_canal_phase3
+		remove_country_modifier = building_kiel_canal
+		}
+}
+
+country_event = {
+	id = 188718954
+	
+	trigger = {
+		has_country_modifier = building_kiel_canal
+		NOT = { owns = 369 }
+		}
+		
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	title = "Мы потеряли Киль"
+	desc = "Работы по строительству канала остановились. Чтобы возобновить строительство нам надо вернуть Киль под свой контроль"
+	picture = ""
+
+	option = {
+		name = "Плохо"
+		prestige = -10
+		clr_global_flag = building_kiel_canal_phase1
+		clr_global_flag = building_kiel_canal_phase2
+		clr_global_flag = building_kiel_canal_phase3
+		remove_country_modifier = building_kiel_canal
+		}
+}
+
+country_event = {
+
+	id = 188718955
+	
+	trigger = {
+		NOT = { ai = yes }
+		NOT = { has_global_flag = scenario_1914_activated }
+		NOT = { has_global_flag = scenario_1923_activated }
+		is_canal_enabled = 1
+		}
+		
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	title = "Кильский канал"
+	desc = "EVTDESC188718955"
+	picture = "Kiel5"
+
+	option = {
+		name = "Отлично!"	
+	}
+}
+
+
+#### Suez Canal ####
+
+country_event = {
+
+	id = 18591869
+	
+	trigger = {
+		1755 = { has_province_modifier = suez_canal }
+		NOT = { is_canal_enabled = 2 }
+		NOT = { has_country_modifier = suez_canal_dividend }
+		NOT = { month = 1 }
+		owns = 1755
+		}
+		
+	mean_time_to_happen = {
+		months = 0.1
+	}
+	
+	title = "Необходимость строительства канала"
+	desc = "$$$"
+	picture = "Suez"
+
+	option = {
+		name = "До следующего года"	
+		random_list = {
+		30 = { treasury = 15000 } # Avg 19000
+		20 = { treasury = 25000 }
+		10 = { treasury = 50000 }
+		5 = { treasury = 75000 }
+		20 = { treasury = 5000 }
+		10 = { treasury = 0 }
+		5 = { treasury = -5000 }
+		}
+		add_country_modifier = {
+		name = suez_canal_dividend
+		duration = 31
+		}
+	}
+}
+	
+country_event = {
+
+	id = 185918690
+	
+	trigger = {
+		has_global_flag = building_suez_canal_phase0
+		has_country_modifier = building_suez_canal
+		}
+		
+	mean_time_to_happen = {
+		months = 12		
+	}
+	
+	title = "Проект канала завершен"
+	desc = "Карта Суэцкого канала"
+	picture = "Suez0"
+
+	option = {
+		name = "Начинайте строительство"
+		treasury = -75000
+		clr_global_flag = building_suez_canal_phase0
+		set_global_flag = building_suez_canal_phase1
+	}
+}
+
+country_event = {
+
+	id = 185918691
+	
+	trigger = {
+		has_global_flag = building_suez_canal_phase1
+		has_country_modifier = building_suez_canal
+		}
+		
+	mean_time_to_happen = {
+		months = 20
+		
+		modifier = {
+		factor = 0.8
+		has_global_flag = building_suez_canal_dredges
+		}
+				
+		modifier = {
+		factor = 100
+		has_country_modifier = building_suez_canal_revolt
+		}
+		
+	}
+	
+	title = "Суэцкий канал: первая фаза завершена!"
+	desc = "Южная часть завершена."
+	picture = "Suez1"
+
+	option = {
+		name = "Переходим во вторую фазу"
+		treasury = -75000
+		clr_global_flag = building_suez_canal_phase1
+		set_global_flag = building_suez_canal_phase2
+	}
+}
+
+country_event = {
+	id = 185918692
+	
+	trigger = {
+		has_global_flag = building_suez_canal_phase2
+		has_country_modifier = building_suez_canal
+		}
+		
+	mean_time_to_happen = {
+		months = 20
+		
+		modifier = {
+		factor = 0.8
+		has_global_flag = building_suez_canal_dredges
+		}
+		
+		modifier = {
+		factor = 100
+		has_country_modifier = building_suez_canal_revolt
+		}
+		
+	}
+	
+	title = "Суэцкий канал: вторая фаза завершена!"
+	desc = "EVTDESC185918692"
+	picture = "Suez2"
+
+	option = {
+		name = "Переходим в третью фазу"
+		treasury = -75000
+		clr_global_flag = building_suez_canal_phase2
+		set_global_flag = building_suez_canal_phase3
+	}
+}
+
+country_event = {
+	id = 185918693
+	
+	trigger = {
+		has_global_flag = building_suez_canal_phase3
+		has_country_modifier = building_suez_canal
+		}
+		
+	mean_time_to_happen = {
+		months = 20
+		
+		modifier = {
+		factor = 0.8
+		has_global_flag = building_suez_canal_dredges
+		}
+				
+		modifier = {
+		factor = 100
+		has_country_modifier = building_suez_canal_revolt
+		}
+		
+	}
+	
+	title = "Суэцкий канал: строительство завершено!"
+	desc = "По каналу проплыл первый корабль."
+	picture = "Suez3"
+
+	option = {
+		name = "Huzza!"
+		prestige = 100
+		research_points = 300
+		1755 = { secede_province = THIS }
+		enable_canal = 2
+		1755 = { set_province_flag = suez_canal }
+		1755 = { add_province_modifier = {
+				name = suez_canal
+				duration = -1
+				}
+		}
+		clr_global_flag = building_suez_canal_phase3
+		remove_country_modifier = building_suez_canal
+		}
+}
+
+country_event = {
+	id = 185918694
+	
+	trigger = {
+		has_country_modifier = building_suez_canal
+		NOT = { has_global_flag = building_suez_canal_phase0 }
+		}
+		
+	fire_only_once = yes
+		
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	title = "Использование экскаваторов"
+	desc = "EVTDESC185918694"
+	picture = "Suez4"
+
+	option = {
+		name = "Строительство будет идти быстрее!"
+		research_points = 100
+		set_global_flag = building_suez_canal_dredges
+		}
+}
+
+country_event = {
+	id = 185918695
+	
+	trigger = {
+		has_country_modifier = building_suez_canal
+		NOT = { has_global_flag = building_suez_canal_phase0 }
+		NOT = { tag = ENG }
+		}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	title = "Суэцкий канал: недовольства рабочих!"
+	desc = "EVTDESC185918695"
+	picture = "Suez5"
+
+	option = {
+		name = "Отменить Corvйе"
+		treasury = -50000
+		add_country_modifier = {
+		name = building_suez_canal_revolt
+		duration = 365
+		}
+		}
+}
+
+country_event = {
+	id = 185918696
+	
+	trigger = {
+		has_country_modifier = building_suez_canal
+		NOT = { owns = 1755 }
+		}
+	
+	fire_only_once = yes
+		
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	title = "Договор по Суэцкому каналу"
+	desc = "EVTDESC185918696"
+	picture = "Administration"
+
+	option = {
+		name = "Подписать!"
+		treasury = -30000		
+	}
+}
+
+country_event = {
+	id = 185918697
+	
+	trigger = {
+		has_global_flag = suez_canal_global
+		NOT = { has_country_modifier = building_suez_canal }
+		owns = 1755
+		}
+		
+	fire_only_once = yes
+		
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	title = "Договор по Суэцкому каналу"
+	desc = "EVTDESC185918697"
+	picture = "Administration"
+
+	option = {
+		name = "У меня такое чувство будто нас ограбили..."
+		treasury = 30000
+		add_country_modifier = {
+				name = suez_canal_treaty
+				duration = -1
+			}
+		}
+}
+
+country_event = {
+
+	id = 185918698
+	
+	trigger = {
+		has_country_modifier = suez_canal_treaty
+		NOT = { has_country_modifier = suez_canal_treaty_annuity }
+		NOT = { month = 1 }
+		}
+		
+	mean_time_to_happen = {
+		months = 0.1
+	}
+	
+	title = "Договор по Суэцкому каналу"
+	desc = "EVTDESC185918698"
+	picture = "Suez8"
+
+	option = {
+		name = "До следующего года"	
+		treasury = 750
+		add_country_modifier = {
+		name = suez_canal_treaty_annuity
+		duration = 31
+		}
+	}
+}
+
+country_event = {
+
+	id = 185918699
+	
+	trigger = {
+		NOT = { ai = yes }
+		is_canal_enabled = 2
+		NOT = { has_global_flag = scenario_1914_activated }
+		NOT = { has_global_flag = scenario_1923_activated }
+		}
+		
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	title = "Герои Суэца"
+	desc = "EVTDESC185918699"
+	picture = "Suez9"
+
+	option = {
+		name = "Кто это придумал?"	
+		treasury = -1
+	}
+		option = {
+		name = "Напечатать почтовую марку"	
+		treasury = -1
+		set_country_flag = stamp
+	}
+}
+
+country_event = {
+
+	id = 1859186910
+	
+	trigger = {
+		has_country_flag = stamp
+		NOT = { has_global_flag = scenario_1914_activated }
+		NOT = { has_global_flag = scenario_1923_activated }
+		}
+		
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	title = "Почтовая марка в честь строительства канала"
+	desc = "EVTDESC1859186910"
+	picture = "Suez10"
+
+	option = {
+		name = "Здорово"	
+		treasury = 1
+	}
+}
+
+
+#### Panama Canal ####
+
+country_event = {
+
+	id = 19041914
+	
+	trigger = {
+		1723 = { has_province_modifier = panama_canal }
+		NOT = { is_canal_enabled = 3 }
+		NOT = { has_country_modifier = panama_canal_dividend }
+		NOT = { month = 1 }
+		owns = 1723
+		}
+		
+	mean_time_to_happen = {
+		months = 0.1
+	}
+	
+	title = "Необходимость строительства канала"
+	desc = ""
+	picture = "Panama"
+
+	option = {
+		name = "До следующего года"	
+		random_list = {
+		30 = { treasury = 10000 } # Avg 10000
+		20 = { treasury = 15000 }
+		10 = { treasury = 20000 }
+		5 = { treasury = 25000 }
+		20 = { treasury = 5000 }
+		10 = { treasury = 0 }
+		5 = { treasury = -5000 }
+		}
+		add_country_modifier = {
+		name = panama_canal_dividend
+		duration = 31
+		}
+	}
+}
+
+country_event = {
+
+	id = 190419140
+	
+	trigger = {
+		has_country_modifier = building_panama_canal
+		}
+		
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	fire_only_once = yes
+	
+	title = "Проект канала завершен"
+	desc = "Карта Панамского канала."
+	picture = "Panama0"
+
+	option = {
+		name = "Начинайте строительство"
+		treasury = -500000
+		set_global_flag = building_panama_canal_phase1
+	}
+}
+
+country_event = {
+
+	id = 190419141
+	
+	trigger = {
+		has_global_flag = building_panama_canal_phase1
+		has_country_modifier = building_panama_canal
+		}
+		
+	mean_time_to_happen = {
+		months = 20
+		
+		modifier = {
+		factor = 2
+		has_global_flag = building_panama_canal_malaria
+		}
+		
+		modifier = {
+		factor = 0.5
+		has_global_flag = building_panama_canal_antimalaria
+		}
+
+		modifier = {
+		factor = 0.95
+		has_global_flag = building_panama_canal_shovel
+		}
+		
+		modifier = {
+		factor = 0.95
+		has_global_flag = building_panama_canal_dynamite
+		}
+		
+		modifier = {
+		factor = 1.2
+		has_global_flag = building_panama_canal_slide
+		}
+		
+		modifier = {
+		factor = 0.95
+		steel_railroad = 1
+		}
+		
+		modifier = {
+		factor = 0.95
+		steam_turbine = 1
+		}
+		
+		modifier = {
+		factor = 0.95
+		semi_automatization = 1
+		}	
+	}
+	
+	title = "Панамский канал: первая фаза завершена!"
+	desc = "Разлом Кулетра в 1904 году после передачи французами проекта канала. К окончанию работ в общей сложности было раскопано 76 млн. кубометров земли, уровень канала относительно моря снизился с 59 до 12 метров."
+	picture = "Panama1"
+
+	option = {
+		name = "Переходим во вторую фазу"
+		treasury = -500000
+		clr_global_flag = building_panama_canal_phase1
+		set_global_flag = building_panama_canal_phase2
+	}
+}
+
+country_event = {
+	id = 190419142
+	
+	trigger = {
+		has_global_flag = building_panama_canal_phase2
+		has_country_modifier = building_panama_canal
+		}
+		
+	mean_time_to_happen = {
+		months = 20
+		
+		modifier = {
+		factor = 2
+		has_global_flag = building_panama_canal_malaria
+		}
+		
+		modifier = {
+		factor = 0.5
+		has_global_flag = building_panama_canal_antimalaria
+		}
+
+		modifier = {
+		factor = 0.95
+		has_global_flag = building_panama_canal_shovel
+		}
+		
+		modifier = {
+		factor = 0.95
+		has_global_flag = building_panama_canal_dynamite
+		}
+		
+		modifier = {
+		factor = 1.2
+		has_global_flag = building_panama_canal_slide
+		}
+		
+		modifier = {
+		factor = 0.95
+		steel_railroad = 1
+		}
+		
+		modifier = {
+		factor = 0.95
+		steam_turbine = 1
+		}
+		
+		modifier = {
+		factor = 0.95
+		semi_automatization = 1
+		}	
+	}
+	
+	title = "Панамский канал: вторая фаза завершена!"
+	desc = "Строительство под руководством Педро Мигеля завершено, 1911."
+	picture = "Panama2"
+
+	option = {
+		name = "Переходим во третью фазу"
+		treasury = -500000
+		clr_global_flag = building_panama_canal_phase2
+		set_global_flag = building_panama_canal_phase3
+	}
+}
+
+country_event = {
+	id = 190419143
+	
+	trigger = {
+		has_global_flag = building_panama_canal_phase3
+		has_country_modifier = building_panama_canal
+		}
+		
+	mean_time_to_happen = {
+		months = 20
+		
+		modifier = {
+		factor = 2
+		has_global_flag = building_panama_canal_malaria
+		}
+		
+		modifier = {
+		factor = 0.5
+		has_global_flag = building_panama_canal_antimalaria
+		}
+
+		modifier = {
+		factor = 0.95
+		has_global_flag = building_panama_canal_shovel
+		}
+		
+		modifier = {
+		factor = 0.95
+		has_global_flag = building_panama_canal_dynamite
+		}
+		
+		modifier = {
+		factor = 1.2
+		has_global_flag = building_panama_canal_slide
+		}
+		
+		modifier = {
+		factor = 0.95
+		steel_railroad = 1
+		}
+		
+		modifier = {
+		factor = 0.95
+		steam_turbine = 1
+		}
+		
+		modifier = {
+		factor = 0.95
+		semi_automatization = 1
+		}	
+	}
+	
+	title = "Панамский канал: строительство завершено!"
+	desc = "Первое судно по нитке канала прошло 15 августа 1914 года."
+	picture = "Panama3"
+
+	option = {
+		name = "Ура!"
+		prestige = 200
+		research_points = 1200
+		1723 = { secede_province = THIS }
+		enable_canal = 3
+		1723 = { set_province_flag = panama_canal } # canal sprite
+		1723 = { add_province_modifier = {
+				name = panama_canal
+				duration = -1
+				}
+		}
+		clr_global_flag = building_panama_canal_phase3
+		remove_country_modifier = building_panama_canal
+		}
+}
+
+country_event = {
+	id = 190419144
+	
+	trigger = {
+		has_country_modifier = building_panama_canal
+		NOT = { owns = 1723 }
+		}
+	
+	fire_only_once = yes
+		
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	title = "Договор Хэя — Бунау Варильи"
+	desc = "EVTDESC190419144"
+	picture = "Panama4"
+
+	option = {
+		name = "Принято"
+		treasury = -30000		
+	}
+}
+
+country_event = {
+	id = 190419145
+	
+	trigger = {
+		has_global_flag = panama_canal_global
+		NOT = { has_country_modifier = building_panama_canal }
+		owns = 1723
+		}
+		
+	fire_only_once = yes
+		
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	title = "Договор Хэя — Бунау Варильи"
+	desc = "EVTDESC190419145"
+	picture = "Panama5"
+
+	option = {
+		name = "Спасибо янки"
+		treasury = 30000
+		add_country_modifier = {
+				name = panama_canal_treaty
+				duration = -1
+			}
+		}
+}
+
+country_event = {
+
+	id = 190419146
+	
+	trigger = {
+		has_country_modifier = panama_canal_treaty
+		NOT = { has_country_modifier = panama_canal_treaty_annuity }
+		NOT = { month = 1 }
+		}
+		
+	mean_time_to_happen = {
+		months = 0.1
+	}
+	
+	title = "Договор Хэя — Бунау Варильи"
+	desc = "EVTDESC190419146"
+	picture = "Panama6"
+
+	option = {
+		name = "До следующего года"	
+		treasury = 750
+		add_country_modifier = {
+		name = panama_canal_treaty_annuity
+		duration = 31
+		}
+	}
+}
+
+country_event = {
+
+	id = 190419147
+	
+	trigger = {
+		NOT = { ai = yes }
+		is_canal_enabled = 3
+		NOT = { has_global_flag = scenario_1914_activated }
+		NOT = { has_global_flag = scenario_1923_activated }
+		}
+		
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	title = "Привет из Панамы"
+	desc = "EVTDESC190419147"
+	picture = "Panama7"
+
+	option = {
+		name = "Недостаточно почтовых"	
+		treasury = -1
+	}
+}
+
+country_event = {
+
+	id = 190419148
+	
+	trigger = {
+		has_country_modifier = building_panama_canal
+		OR = {
+		has_global_flag = building_panama_canal_phase1
+		has_global_flag = building_panama_canal_phase2	
+		has_global_flag = building_panama_canal_phase3
+		}
+	}
+		
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	title = "Малярия"
+	desc = "EVTDESC190419148"
+	picture = "Panama8"
+
+	option = {
+		name = "Что это за неприятный запах?"	
+		set_global_flag = building_panama_canal_malaria
+	}
+}
+
+country_event = {
+
+	id = 190419149
+	
+	trigger = {
+		has_country_modifier = building_panama_canal
+		OR = {
+		has_global_flag = building_panama_canal_phase1
+		has_global_flag = building_panama_canal_phase2	
+		has_global_flag = building_panama_canal_phase3
+		}
+		has_global_flag = building_panama_canal_malaria
+		invention = prophylaxis_against_malaria
+		}
+		
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+		modifier = {
+		factor = 0.5
+		year = 1880
+		}
+		
+		modifier = {
+		factor = 0.5
+		year = 1890
+		}
+		
+		modifier = {
+		factor = 0.5
+		year = 1900
+		}
+		
+	title = "Профилактические меры"
+	desc = "EVTDESC190419149"
+	picture = "Panama9"
+
+	option = {
+		name = "Лекарства и молитвы"	
+		research_points = 100
+		set_global_flag = building_panama_canal_antimalaria
+	}
+}
+
+country_event = {
+
+	id = 1904191410
+	
+	trigger = {
+		has_country_modifier = building_panama_canal
+		OR = {
+		has_global_flag = building_panama_canal_phase1
+		has_global_flag = building_panama_canal_phase2	
+		has_global_flag = building_panama_canal_phase3
+		}
+		high_n_low_pressure_steam_engines = 1
+		interchangeable_parts = 1
+		}
+		
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	title = "Механическая лопата"
+	desc = "EVTDESC1904191410"
+	picture = "Panama10"
+
+	option = {
+		name = "Продолжайте"	
+		research_points = 100
+		set_global_flag = building_panama_canal_shovel
+	}
+}
+
+country_event = {
+
+	id = 1904191411
+	
+	trigger = {
+		has_country_modifier = building_panama_canal
+		OR = {
+		has_global_flag = building_panama_canal_phase1
+		has_global_flag = building_panama_canal_phase2	
+		has_global_flag = building_panama_canal_phase3
+		}
+		invention = nitroglycerin
+		}
+		
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	title = "Использование динамита"
+	desc = "EVTDESC1904191411"
+	picture = "Panama11"
+
+	option = {
+		name = "Бу-бум!"	
+		research_points = 100
+		set_global_flag = building_panama_canal_dynamite
+	}
+}
+
+country_event = {
+
+	id = 1904191412
+	
+	trigger = {
+		has_country_modifier = building_panama_canal
+		OR = {
+		has_global_flag = building_panama_canal_phase1
+		has_global_flag = building_panama_canal_phase2	
+		has_global_flag = building_panama_canal_phase3
+		}
+		}
+		
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 18
+	}
+	
+	title = "Оползент в Кукараче"
+	desc = "EVTDESC1904191412"
+	picture = "Panama12"
+
+	option = {
+		name = "Новая проблема"	
+		set_global_flag = building_panama_canal_slide
+	}
+}
+
+country_event = {
+
+	id = 1904191413
+	
+	trigger = {
+		has_country_modifier = building_panama_canal
+		OR = {
+		has_global_flag = building_panama_canal_phase1
+		has_global_flag = building_panama_canal_phase2	
+		has_global_flag = building_panama_canal_phase3
+		}
+		NOT = { has_country_flag = building_panama_canal_scandal }
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+		modifier = {
+		factor = 1.2
+		invention = limited_partnership_company
+		}	
+		
+		modifier = {
+		factor = 1.2
+		invention = joint_stock_company
+		}
+		
+		modifier = {
+		factor = 1.2
+		invention = anti_trust_laws
+		}
+		
+		modifier = {
+		factor = 1.2
+		invention = financial_regulations
+		}
+		
+		modifier = {
+		factor = 1.2
+		invention = banking_regulations
+		}
+	
+	title = "Коррупционный скандал!"
+	desc = "EVTDESC1904191413"
+	picture = "Panama13"
+
+	option = {
+		name = "Начало официального расследования (понижает шансы банкротства)"
+		ai_chance = { factor = 35 }
+		prestige = -25
+		treasury = -300000	
+		any_pop = {
+			limit = {
+			is_primary_culture = yes
+			is_accepted_culture = yes
+			}
+				militancy = 1
+				consciousness = 0.5
+		}	
+		set_country_flag = building_panama_canal_scandal
+		set_country_flag = building_panama_canal_scandal_investigation
+	}
+	option = {
+		name = "Не поднимать шумиху!"
+		ai_chance = { factor = 60 }
+		treasury = -300000
+		any_pop = {
+			limit = {
+			is_primary_culture = yes
+			is_accepted_culture = yes
+			}
+				militancy = 0.2
+				consciousness = 0.1
+		}
+		set_country_flag = building_panama_canal_scandal
+	}
+	option = {
+		name = "Отмена строительства"
+		ai_chance = { factor = 5 }
+		prestige = -50
+		set_country_flag = building_panama_canal_scandal
+		remove_country_modifier = building_panama_canal
+		clr_global_flag = panama_canal_global
+	}
+}
+
+country_event = {
+
+	id = 1904191414
+	
+	trigger = {
+		has_country_modifier = building_panama_canal
+		has_country_flag = building_panama_canal_scandal
+		}
+	
+	mean_time_to_happen = {
+		months = 100
+	}
+	
+		modifier = {
+		factor = 1.5
+		has_country_flag = building_panama_canal_scandal_investigation
+		}
+		
+	title = "Банкротство Компании Панамского Канала"
+	desc = "EVTDESC1904191414"
+	picture = "Panama14"
+
+	option = {
+		name = "Строительство канала будет отменено (перезапуск возможен в течение 10 лет)"	
+		prestige = -30
+		any_pop = {
+			limit = {
+			is_primary_culture = yes
+			is_accepted_culture = yes
+			}
+				militancy = 1
+				consciousness = 0.5
+		}
+		remove_country_modifier = building_panama_canal
+		clr_country_flag = building_panama_canal_scandal_investigation
+		clr_global_flag = panama_canal_global
+		add_country_modifier = {
+		name = building_panama_canal_scandal
+		duration = 3650
+		}
+	}
+}
+
+country_event = {
+
+	id = 1904191415
+	
+	trigger = {
+		NOT = { has_country_modifier = building_panama_canal }
+		has_global_flag = panama_canal_global
+		has_country_flag = building_panama_canal_scandal
+		}
+		
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+		
+	title = "Продажа оборудования"
+	desc = "EVTDESC1904191415"
+	picture = "Panama15"
+
+	option = {
+		name = "Лучше, чем ничего"	
+		treasury = 120000 # French got 40 million for their equipment
+	}
+}
+	
+		

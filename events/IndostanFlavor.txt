@@ -1,0 +1,1402 @@
+#Пакистан
+country_event = {
+
+	id = 95800
+
+	trigger = {
+		year = 1880
+		tag = ENG
+		NOT = {
+			year = 1898
+		}
+		is_greater_power = yes
+		owns = 1236
+		NOT = { has_global_flag = scenario_1914_activated }
+		NOT = { has_global_flag = scenario_1923_activated }
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 8
+	}
+
+	title = "EVTNAME95800"
+	desc = "EVTDESC95800"
+	picture = "syed_ahmad_khan"
+
+	option = {
+		name = "EVTOPTA95800"
+		any_owned = {
+			limit = {
+				is_core = HND
+			}
+			any_pop = {
+				limit = {
+					has_pop_religion = sunni
+				}
+				consciousness = 2
+				militancy = -2
+			}
+		}
+		any_owned = {
+			limit = {
+				is_core = HND
+			}
+			any_pop = {
+				limit = {
+					has_pop_religion = catholic
+				}
+				militancy = -1
+			}
+		}
+		set_global_flag = syed_ahmad_khan
+	}
+}
+country_event = {
+
+	id = 95801
+
+	trigger = {
+		tag = ENG
+		is_greater_power = yes
+		any_owned_province = {
+			is_core = HND
+			OR = {
+				culture = panjabi
+				culture = pashtun
+				culture = sindi
+			}
+		}
+		has_global_flag = syed_ahmad_khan
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 25
+	}
+
+	title = "EVTNAME95801"
+	desc = "EVTDESC95801"
+	picture = "muslim_ligue"
+
+	option = {
+		name = "EVTOPTA95801"
+		any_owned = {
+			limit = {
+				is_core = HND
+			}
+			any_pop = {
+				limit = {
+					has_pop_religion = sunni
+				}
+				consciousness = 1
+			}
+		}
+		set_global_flag = two_nation_theory_supported
+	}
+
+	option = {
+		name = "EVTOPTB95801"
+		any_owned = {
+			limit = {
+				is_core = HND
+			}
+			any_pop = {
+				limit = {
+					has_pop_religion = sunni
+				}
+				militancy = 2
+			}
+		}
+		set_global_flag = two_nation_theory_convicted
+	}
+}
+country_event = {
+
+	id = 95802
+
+	trigger = {
+		tag = ENG
+		year = 1900
+		is_greater_power = yes
+		any_owned_province = {
+			is_core = HND
+			OR = {
+				culture = panjabi
+				culture = pashtun
+				culture = sindi
+			}
+		}
+		OR = {
+			has_global_flag = two_nation_theory_supported
+			has_global_flag = two_nation_theory_convicted
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 60
+
+		modifier = {
+			factor = 0.7
+			has_global_flag = two_nation_theory_supported
+		}
+	
+		modifier = {
+			factor = 1.5
+			has_global_flag = two_nation_theory_convicted
+		}
+
+		modifier = {
+			factor = 0.9
+			any_state = {
+				any_owned_province = { is_core = NEW }
+				average_consciousness = 3
+			}
+		}
+
+		modifier = {
+			factor = 0.8
+			has_global_flag = two_nation_theory_convicted
+			any_state = {
+				any_owned_province = { is_core = NEW }
+				average_consciousness = 5
+			}
+		}
+	}
+
+	title = "EVTNAME95802"
+	desc = "EVTDESC95802"
+	picture = "muslim_ligue"
+
+	option = {
+		name = "EVTOPTA95802"
+		any_owned = {
+			limit = {
+				is_core = HND
+			}
+			any_pop = {
+				limit = {
+					has_pop_religion = sunni
+				}
+				consciousness = 2
+			}
+		}
+		set_country_flag = muslim_ligue
+		clr_global_flag = two_nation_theory_supported
+		clr_global_flag = two_nation_theory_convicted
+	}
+}
+
+country_event = {
+
+	id = 95803
+
+	trigger = {
+		tag = ENG
+		is_greater_power = yes
+		any_owned_province = {
+			is_core = HND
+			OR = {
+				culture = panjabi
+				culture = pashtun
+				culture = sindi
+			}
+		}
+		has_country_flag = muslim_ligue
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 25
+
+		modifier = {
+			factor = 0.9
+			any_state = {
+				any_owned_province = { is_core = NEW }
+				average_consciousness = 3
+			}
+		}
+
+		modifier = {
+			factor = 0.8
+			has_global_flag = two_nation_theory_convicted
+			any_state = {
+				any_owned_province = { is_core = NEW }
+				average_consciousness = 5
+			}
+		}
+	}
+
+	title = "EVTNAME95803"
+	desc = "EVTDESC95803"
+	picture = "sultan"
+
+	option = {
+		name = "EVTOPTA95803"
+		prestige = 10
+		country_event = 95804
+	}
+
+	option = {
+		name = "EVTOPTB95803"
+		any_owned = {
+			limit = {
+				is_core = HND
+			}
+			any_pop = {
+				limit = {
+					has_pop_religion = sunni
+				}
+				militancy = 5
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+
+	id = 95804
+
+	is_triggered_only = yes
+	major = yes
+
+	title = "EVTNAME95804"
+	desc = "EVTDESC95804"
+
+	option = {
+		name = "EVTOPTA95804"
+		prestige = 10
+		any_owned = {
+			limit = {
+				is_core = HND
+			}
+			any_pop = {
+				limit = {
+					has_pop_religion = sunni
+				}
+				militancy = -3
+			}
+		}
+		any_country = {
+			KAL_1221 = {
+				add_core = PAK
+			}
+			SIN_1288 = {
+				add_core = PAK
+			}
+			PAN_1224 = {
+				add_core = PAK
+			}
+			1227 = {
+				add_core = PAK
+			}
+			1228 = {
+				add_core = PAK
+			}
+			1229 = {
+				add_core = PAK
+			}
+			1230 = {
+				add_core = PAK
+			}
+			1231 = {
+				add_core = PAK
+			}
+			1232 = {
+				add_core = PAK
+			}
+			1254 = {
+				add_core = PAK
+			}
+			1255 = {
+				add_core = PAK
+			}
+			1256 = {
+				add_core = PAK
+			}
+			1257 = {
+				add_core = PAK
+			}
+		}
+		PAK = {
+			all_core = {
+				remove_core = HND
+			}
+		}
+		clr_country_flag = muslim_ligue
+		set_global_flag =  india_is_partitioned
+	}
+}
+
+#Сипаи
+
+country_event = {
+
+	id = 95810
+
+	title = "EVTNAME95810"
+	desc = "EVTDESC95810"
+	picture = "sepoy"
+
+	trigger = {
+		OR = {
+			tag = ENG
+			tag = ENL
+		}
+		year = 1857
+		OR = {
+			owns = 1236 #Delhi
+			owns = 1251 #Calcutta
+			owns = 1304 #Madras
+			owns = 1297 #Bombay
+			owns = 1247 #Patna
+			owns = 1227 #Lahore
+		}
+		NOT = { has_global_flag = scenario_1914_activated }
+		NOT = { has_global_flag = scenario_1923_activated }
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "EVTOPTA95810"
+		set_country_flag = sepoy_rebellion
+		any_owned = {
+			limit = { is_core = HND }
+			random_list = {
+				25 = {
+					poor_strata = {
+						limit = {
+							is_culture_group = south_asian
+						}
+						militancy = 6
+					}
+					add_province_modifier = {
+						name = nationalist_agitation
+						duration = 1095
+					}
+				}
+				50 = {
+					poor_strata = {
+						limit = {
+							is_culture_group = south_asian
+						}
+						militancy = 3
+					}
+					add_province_modifier = {
+						name = nationalist_agitation
+						duration = 730
+					}
+				}
+				25 = {
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				is_culture_group = south_asian
+				vassal_of = THIS
+			}
+			random_list = {
+				25 = {
+					poor_strata = {
+						limit = {
+							is_culture_group = south_asian
+						}
+						militancy = 6
+					}
+					any_owned = {
+						add_province_modifier = {
+							name = nationalist_agitation
+							duration = 730
+						}
+					}						
+				}
+				50 = {
+					poor_strata = {
+						limit = {
+							is_culture_group = south_asian
+						}
+						militancy = 3
+					}
+				}
+				25 = {
+				}
+			}
+		}										
+	}
+}
+
+province_event = {
+	
+	id = 95811
+	title = "EVTNAME95811" #Rebellion in Indian State
+	desc = "EVTDESC95811"
+	
+	trigger = {
+		is_core = HND
+		controlled_by = THIS
+		OR = {
+			culture = assamese
+			culture = bengali
+			culture = bihari
+			culture = nepali
+			culture = oriya
+			culture = avadhi
+			culture = kanauji
+			culture = panjabi
+			culture = kashmiri
+			culture = gujarati
+			culture = marathi
+			culture = sindi
+			culture = rajput
+			culture = kannada
+			culture = malayalam
+			culture = tamil
+			culture = telegu
+		}
+		NOT = { has_province_modifier = nationalist_agitation }
+		owner = {
+			NOT = { is_culture_group = south_asian }
+			OR = {
+				has_country_flag = sepoy_rebellion
+				has_global_flag = indian_call_to_union
+			}
+		}
+		NOT = { poor_strata_everyday_needs = 0.9 }
+	}
+	
+	mean_time_to_happen = {
+		months = 600
+		modifier = {
+			factor = 0.8
+			any_neighbor_province = {
+				is_core = HND
+				has_province_modifier = nationalist_agitation
+			}
+		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = {
+				is_core = HND
+				controlled_by = REB
+			}
+		}
+		modifier = {
+			factor = 1.5
+			poor_strata_everyday_needs = 0.7
+		}
+		modifier = {
+			factor = 2
+			poor_strata_luxury_needs = 0.5
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { poor_strata_everyday_needs = 0.5 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { poor_strata_everyday_needs = 0.3 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { poor_strata_everyday_needs = 0.1 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { poor_strata_life_needs = 0.8 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { average_consciousness = 3 }
+		}
+		modifier = {
+			factor = 3
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 1.2
+			owner = { war = yes }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA95811"
+		state_scope = {
+			any_pop = {
+				limit = {
+					is_culture_group = south_asian
+					location = { is_core = HND }
+				}
+				militancy = 6
+			}
+			any_owned = {
+				limit = {
+					is_core = HND
+					OR = {
+						culture = assamese
+						culture = bengali
+						culture = bihari
+						culture = nepali
+						culture = oriya
+						culture = avadhi
+						culture = kanauji
+						culture = panjabi
+						culture = kashmiri
+						culture = gujarati
+						culture = marathi
+						culture = sindi
+						culture = rajput
+						culture = kannada
+						culture = malayalam
+						culture = tamil
+						culture = telegu
+					}
+				}
+				add_province_modifier = {
+					name = nationalist_agitation
+					duration = 365
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	
+	id = 95812
+	title = "EVTNAME95812" #Rebellion Agaist Foreign Rule
+	desc = "EVTDESC95812"
+	picture = "sepoy"
+	
+	trigger = {
+		is_culture_group = south_asian
+		is_vassal = yes
+		war = no
+		OR = {
+			any_greater_power = {
+				is_our_vassal = THIS
+				has_country_flag = sepoy_rebellion
+			}
+			has_global_flag = indian_call_to_union
+		}
+		NOT = {
+			any_owned_province = { has_province_modifier = nationalist_agitation }
+		}
+		NOT = { poor_strata_everyday_needs = 0.7 }
+	}
+	
+	mean_time_to_happen = {
+		months = 150
+		modifier = {
+			factor = 2
+			poor_strata_luxury_needs = 0.5
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { poor_strata_everyday_needs = 0.5 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { poor_strata_everyday_needs = 0.3 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { poor_strata_everyday_needs = 0.1 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { poor_strata_life_needs = 0.8 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA95812"
+		random_state = {
+			limit = { any_owned_province = { is_core = HND } }
+			any_pop = {
+				limit = { is_culture_group = south_asian }
+				militancy = 4
+			}
+			any_owned = {
+				limit = { is_core = HND }
+				add_province_modifier = {
+					name = nationalist_agitation
+					duration = 365
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 95813
+	title = "EVTNAME95813" #Sepoys Victorious
+	desc = "EVTDESC95813"
+	picture = "rebellion"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA95813"
+		set_global_flag = british_dismantled
+		any_pop = {
+			limit = {
+				location = { is_core = HND }
+			}
+			militancy = -4
+		}
+		any_country = {
+			limit = {
+				is_culture_group = south_asian
+				exists = yes
+			}
+			country_event = 95814
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = ASM }
+			}
+			owner = {
+				release = ASM
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = AWA }
+			}
+			owner = {
+				release = AWA
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = BAS }
+			}
+			owner = {
+				release = BAS
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = BER }
+			}
+			owner = {
+				release = BER
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = BHO }
+			}
+			owner = {
+				release = BHO
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = BIH }
+			}
+			owner = {
+				release = BIH
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = BIK }
+			}
+			owner = {
+				release = BIK
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = BNG }
+			}
+			owner = {
+				release = BNG
+				prestige = -10
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = BUN }
+			}
+			owner = {
+				release = BUN
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = GWA }
+			}
+			owner = {
+				release = GWA
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = IND }
+			}
+			owner = {
+				release = IND
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = JAI }
+			}
+			owner = {
+				release = JAI
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = JAS }
+			}
+			owner = {
+				release = JAS
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = JOD }
+			}
+			owner = {
+				release = JOD
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = KAL }
+			}
+			owner = {
+				release = KAL
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = KUT }
+			}
+			owner = {
+				release = KUT
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = MAH }
+			}
+			owner = {
+				release = MAH
+				prestige = -10
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = MAK }
+			}
+			owner = {
+				release = MAK
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = MEW }
+			}
+			owner = {
+				release = MEW
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = MUG }
+			}
+			owner = {
+				release = MUG
+				prestige = -10
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = MYS }
+			}
+			owner = {
+				release = MYS
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = NAG }
+			}
+			owner = {
+				release = NAG
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = NEP }
+			}
+			owner = {
+				release = NEP
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = ORI }
+			}
+			owner = {
+				release = ORI
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = PAN }
+			}
+			owner = {
+				release = PAN
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = SHI }
+			}
+			owner = {
+				release = SHI
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = SIN }
+			}
+			owner = {
+				release = SIN
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = SIK }
+			}
+			owner = {
+				release = SIK
+				prestige = -5
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { is_possible_vassal = SRI }
+			}
+			owner = {
+				release = SRI
+				prestige = -5
+			}
+		}
+	}		
+}
+
+country_event = {
+	id = 95814
+	title = "EVTNAME95814" # Response in Indian Minors to Sepoy Rebellion
+	desc = "EVTDESC95814"
+	picture = "rebellion"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA95814"
+		any_pop = {
+			militancy = -4
+		}
+		relation = {
+			who = FROM
+			value = -50 
+		}
+		leave_alliance = FROM
+		random_owned = {
+			limit = {
+				owner = { is_vassal = yes }
+			}
+			owner = { release_vassal = THIS }
+		}
+		FROM = {
+			any_owned = {
+				limit = { is_core = THIS }
+				secede_province = THIS
+			}
+			diplomatic_influence = {
+				who = THIS
+				value = -100
+			}
+		}
+
+	}
+}
+#India Independence
+country_event = {
+	id = 95815
+	title = "EVTNAME95815" 
+	desc = "EVTDESC95815"
+	picture = "rebellion"
+
+	trigger = {
+		tag = ENG
+		year = 1925
+		any_owned_province = {
+			is_core = HND
+		}
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA95815"
+		any_pop = {
+			limit = {
+				OR = {
+					culture = bengali
+					culture = bihari
+					culture = avadhi
+					culture = kanauji
+					culture = tamil
+				}
+			}
+			consciousness = 5
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = HND
+					is_core = PAK
+				}
+				NOT = {has_province_modifier = colonial_separatism_1}
+				NOT = {has_province_modifier = colonial_separatism_2}
+				NOT = {has_province_modifier = colonial_separatism_3}
+				NOT = {has_province_modifier = colonial_separatism_4}
+				NOT = {has_province_modifier = colonial_separatism_5}
+			}
+			add_province_modifier = {
+					name = colonial_separatism_1
+					duration = -1
+				}
+		}
+	}
+}
+country_event = {
+	id = 95816
+	title = "EVTNAME95816" 
+	desc = "EVTDESC95816"
+	picture = "rebellion"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA95815"
+		release_vassal = BHU
+		BHU = {
+			all_core = {
+				remove_core = HND
+			}
+			country_event = 100500
+		}
+		release_vassal = HND
+		release_vassal = PAK
+		HND = {
+			country_event = 100500
+		}
+		PAK = {
+			country_event = 100500
+		}
+	}
+}
+#Britain Expansion
+country_event = {
+	id = 95817
+	title = "EVTNAME95817" 
+	desc = "EVTDESC95817"
+	picture = "colonial_uprising"
+
+	trigger = {
+		tag = ENG
+		NOT = {
+			year = 1836
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA95817"
+		any_country = {
+			limit = {
+				OR = {
+					tag = BHU
+					tag = SIK
+					tag = BUN
+					tag = BAS
+					tag = BHO
+					tag = GWA
+					tag = JAI
+					tag = MEW
+					tag = IND
+					tag = JOD
+					tag = BIK
+					tag = JAS
+					tag = PAN
+					tag = KAL
+					tag = SIN
+					tag = KUT
+					tag = MAK
+				}
+			}
+			add_casus_belli = {
+	        		target = THIS
+				type = make_puppet
+				months = 1000
+			}
+			
+		}
+		any_country = {
+			limit = {
+				OR = {
+					tag = ASM
+					tag = MRT
+				}
+			}
+			add_casus_belli = {
+	        		target = THIS
+				type = conquest
+				months = 1000
+			}
+			
+		}
+		set_country_flag = british_indian_cb_added
+	}
+}
+country_event = {
+	id = 95818
+	title = "EVTNAME95818" 
+	desc = "EVTDESC95818"
+
+	trigger = {
+		tag = ENG
+		ai = yes
+		war = no
+		NOT = {exists = MRT}
+		OR = {
+			BHU = {NOT = {vassal_of = THIS}}
+			SIK = {NOT = {vassal_of = THIS}}
+			BUN = {NOT = {vassal_of = THIS}}
+			BAS = {NOT = {vassal_of = THIS}}
+			BHO = {NOT = {vassal_of = THIS}}
+			GWA = {NOT = {vassal_of = THIS}}
+			JAI = {NOT = {vassal_of = THIS}}
+			MEW = {NOT = {vassal_of = THIS}}
+			IND = {NOT = {vassal_of = THIS}}
+			JOD = {NOT = {vassal_of = THIS}}
+			BIK = {NOT = {vassal_of = THIS}}
+			JAS = {NOT = {vassal_of = THIS}}
+			PAN = {NOT = {vassal_of = THIS}}
+			KAL = {NOT = {vassal_of = THIS}}
+			SIN = {NOT = {vassal_of = THIS}}
+			KUT = {NOT = {vassal_of = THIS}}
+			MAK = {NOT = {vassal_of = THIS}}
+		}
+		has_country_flag = british_indian_cb_added
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = "EVTOPTA95818"
+		random_country = {
+			limit = {
+				OR = {
+					tag = BHU
+					tag = SIK
+					tag = BUN
+					tag = BAS
+					tag = BHO
+					tag = GWA
+					tag = JAI
+					tag = MEW
+					tag = IND
+					tag = JOD
+					tag = BIK
+					tag = JAS
+					tag = PAN
+					tag = KAL
+					tag = SIN
+					tag = KUT
+					tag = MAK
+				}
+				NOT = {
+					vassal_of = THIS
+					truce_with = THIS
+				}
+				ai = yes
+			}
+			country_event = 95819
+		}
+	}
+}
+country_event = {
+	id = 95819
+	title = "EVTNAME95819" 
+	desc = "EVTDESC95819"
+	picture = "colonial_uprising"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA95818"
+		FROM = {
+			war = {
+				target = THIS
+				attacker_goal = {
+					casus_belli = make_puppet
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 95820
+	title = "EVTNAME95820" 
+	desc = "EVTDESC95820"
+
+	trigger = {
+		ai = yes
+		
+		OR = {
+			1422 = { 
+				empty = no 
+				is_core = NET 
+			}
+			1423 = { 
+				empty = no 
+				is_core = NET 
+			}
+			1424 = { 
+				empty = no 
+				is_core = NET 
+			}
+			1425 = { 
+				empty = no 
+				is_core = NET 
+			}
+			1426 = { 
+				empty = no 
+				is_core = NET 
+			}
+			1427 = { 
+				empty = no 
+				is_core = NET 
+			}
+			1428 = { 
+				empty = no 
+				is_core = NET 
+			}
+			1429 = { 
+				empty = no 
+				is_core = NET 
+			}
+			1432 = { 
+				empty = no 
+				is_core = NET 
+			}
+			1434 = { 
+				empty = no 
+				is_core = NET 
+			}
+			1435 = { 
+				empty = no 
+				is_core = NET 
+			}
+			1440 = { 
+				empty = no 
+				is_core = NET 
+			}
+			1441 = { 
+				empty = no 
+				is_core = NET 
+			}
+			1448 = { 
+				empty = no 
+				is_core = NET 
+			}
+			1453 = { 
+				empty = no 
+				is_core = NET 
+			}
+			1454 = { 
+				empty = no 
+				is_core = NET 
+			}
+			1560 = { 
+				empty = no 
+				is_core = NET 
+			}
+			1560 = { 
+				empty = no 
+				is_core = NET 
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA95818"
+		any_country = {
+			any_owned = {
+				limit = {
+					OR = {
+						province_id = 1422
+						province_id = 1423
+						province_id = 1424
+						province_id = 1425
+						province_id = 1426
+						province_id = 1427
+						province_id = 1428
+						province_id = 1429
+						province_id = 1432
+						province_id = 1434
+						province_id = 1435
+						province_id = 1440
+						province_id = 1441
+						province_id = 1448
+						province_id = 1453
+						province_id = 1454
+						province_id = 1560
+
+					}
+					is_core = NET
+				}
+				remove_core = NET
+			}
+		}
+	}
+}
+country_event = {
+	id = 95821
+	title = "EVTNAME95821" 
+	desc = "EVTDESC95821"
+
+	trigger = {
+		tag = ENG
+		NOT = {exists = HND}
+		nationalism_n_imperialism = 1
+		HND = {
+			all_core = {
+				OR = {
+					AND = {
+						owned_by = ENG
+						controlled_by_rebels = yes
+					}
+					NOT = { 
+					owned_by = ENG 
+					}
+					
+				}
+				
+				
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA95821"
+		prestige = -20
+		release = HND
+		HND = {
+			country_event = 100500
+		}
+	}
+}
+country_event = {
+	id = 95822
+	title = "EVTNAME95822" 
+	desc = "EVTDESC95822"
+
+	trigger = {
+		tag = ENG
+		any_owned_province = {
+			is_core = PAK
+		}
+		NOT = {exists = PAK}
+		PAK = {
+			all_core = {
+				OR = {
+					AND = {
+						owned_by = ENG
+						controlled_by_rebels = yes
+					}
+					NOT = {owned_by = ENG}
+					
+				}
+				
+				
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA95822"
+		prestige = -20
+		release = PAK
+		PAK = {
+			country_event = 100500
+		}
+	}
+}

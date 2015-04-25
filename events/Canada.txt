@@ -1,0 +1,68 @@
+#Yukon
+country_event = {
+
+	id = 99800
+
+	trigger = {
+		tag = CAN
+		owns = 10
+		owns = 17
+		owns = 2598
+		owns = 2629
+		OR = {
+			6 = { empty = yes}
+			7 = { empty = yes}
+			8 = { empty = yes}
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 5
+	}
+
+	title = "EVTNAME99800"
+	desc = "EVTDESC99800"
+	picture = "romnegotations"
+
+	option = {
+		name = "EVTOPTA99800" 
+		money = -5000
+		set_country_flag = canada_yukon_expedition
+	}
+	option = {
+		name = "EVTOPTB99800" 
+		prestige = -5
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+country_event = {
+
+	id = 99801
+
+	trigger = {
+		tag = CAN
+		has_country_flag = canada_yukon_expedition
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 20
+	}
+
+	title = "EVTNAME99801"
+	desc = "EVTDESC99801"
+	picture = "romnegotations"
+
+	option = {
+		name = "EVTOPTA99801" 
+		prestige = 5
+		ENG_6 = {
+			secede_province = THIS
+		}
+	}
+}

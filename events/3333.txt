@@ -1,0 +1,19 @@
+# Call Ally
+country_event = {
+    id = 3333
+    title = "EVTNAME3333"
+    desc = "EVTDESC3333"
+    picture = "europa"
+
+    is_triggered_only = yes
+
+    option = {
+	name = "DIPLO_CALL_ALLIES"
+	war = {
+	    call_ally = yes
+	}
+	ai_chance = {
+		factor = 80
+	}
+    }
+}

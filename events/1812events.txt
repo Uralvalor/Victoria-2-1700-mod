@@ -1,0 +1,745 @@
+country_event = {
+	id = 18179
+	title = "EVTNAME18179"
+	desc = "EVTDESC18179"
+	picture = "NapoleonElbe"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "DIPLO_CALL_ALLIES"
+		relations = {
+			who = FRA
+			value = -200
+		}
+		casus_belli = {
+			target = FRA
+			type = cut_down_to_size
+			months = 12
+		}
+		war = {
+			target = FRA
+			attacker_goal = {
+				casus_belli = cut_down_to_size
+			}
+			call_ally = yes
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = french
+			}
+			militancy = 2
+		}
+		ai_chance = {
+			factor = 80
+		}
+		
+	}
+	
+	option = {
+		name = "EVTOPTB18179"
+		relations = {
+			who = FRA
+			value = -80
+		}
+		prestige = -20
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = {
+	id = 18189
+
+	is_triggered_only = yes	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	title = "EVTNAME18189"
+	desc = "EVTDESC18189"
+	picture = "NapoleonElbe"	
+	option = {
+		name = "EVTOPTA18189"
+		government = absolute_monarchy
+		political_reform = none_voting
+		set_global_flag = napoleonica_ended
+		any_country = {
+			limit = {
+				war_with = THIS
+			}
+			end_war = THIS
+		}
+		573 = {
+			secede_province = PRU
+		}
+		465 = {
+			secede_province = SAR
+		}
+		466 = {
+			secede_province = SAR
+		}
+		472 = {
+			secede_province = SAR
+		}
+		TUS = {	inherit = ELB	}
+		SIC = {	inherit = NEA	}
+	}
+}
+
+country_event = {
+	id = 18169
+	trigger = {
+		tag = FRA
+		has_global_flag = fontainblo_treaty_ok
+		has_global_flag = paris_treaty_ok
+		year = 1812
+		NOT = {
+			has_global_flag = napoleonica_ended
+			has_global_flag = napoleon_returns
+			year = 1820
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	title = "EVTNAME18169"
+	desc = "EVTDESC18169"
+	picture = "NapoleonElbe"
+
+	option = {
+		name = "EVTOPTA18169"
+		government = prussian_constitutionalism
+		political_reform = landed_voting
+		AUS = {
+			create_alliance = ENG
+		}
+		BRA = {
+			create_alliance = ENG
+		}
+		NAS = {
+			create_alliance = ENG
+		}
+		NET = {
+			create_alliance = ENG
+		}
+		PRU = {
+			create_alliance = ENG
+		}
+		POR = {
+			create_alliance = ENG
+		}
+		RUS = {
+			create_alliance = ENG
+		}
+		SWE = {
+			create_alliance = ENG
+		}
+		SPA = {
+			create_alliance = ENG
+		}
+		SAR = {
+			create_alliance = ENG
+		}
+		SIC = {
+			create_alliance = ENG
+		}
+		SWI = {
+			create_alliance = ENG
+		}
+		TUS = {
+			create_alliance = ENG
+		}
+		ENG = {
+			country_event = 18179
+		}
+		set_global_flag = napoleon_returns		
+	}
+}
+
+country_event = {
+	id = 18149
+
+	is_triggered_only = yes	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	title = "EVTNAME18149"
+	desc = "EVTDESC18149"
+	picture = "Fontaineblo"
+	is_triggered_only = yes	
+	option = {
+		name = "EVTOPTA18149"
+		set_global_flag = fontainblo_treaty_ok
+		government = absolute_monarchy
+		political_reform = none_voting
+		any_country = {
+			limit = {
+				war_with = THIS
+			}
+			end_war = THIS
+		}
+		prestige = -15
+		release = ELB
+		any_country = {
+			limit = {
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		diplomatic_influence = { who = BAV value = -200 }
+		diplomatic_influence = { who = WUR value = -200 }
+		diplomatic_influence = { who = BAD value = -200 }
+		diplomatic_influence = { who = DEN value = -200 }
+		diplomatic_influence = { who = SAX value = -200 }
+		diplomatic_influence = { who = NAS value = -200 }
+		diplomatic_influence = { who = FRM value = -200 }
+		diplomatic_influence = { who = DZG value = -200 }
+		diplomatic_influence = { who = POL value = -200 }
+		diplomatic_influence = { who = HES value = -200 }
+		diplomatic_influence = { who = WES value = -200 }
+		diplomatic_influence = { who = WRZ value = -200 }
+		diplomatic_influence = { who = SGM value = -200 }
+		diplomatic_influence = { who = COB value = -200 }
+		diplomatic_influence = { who = MEI value = -200 }
+		diplomatic_influence = { who = WEI value = -200 }
+		diplomatic_influence = { who = LIP value = -200 }
+		diplomatic_influence = { who = ANH value = -200 }
+		diplomatic_influence = { who = MEC value = -200 }
+		diplomatic_influence = { who = MST value = -200 }
+		diplomatic_influence = { who = SWI value = -200 }
+		diplomatic_influence = { who = NEU value = -200 }
+		diplomatic_influence = { who = LUC value = -200 }
+		diplomatic_influence = { who = MNP value = -200 }
+		diplomatic_influence = { who = LIE value = -200 }
+		any_country = {
+			limit = {
+				alliance = FRA
+			}
+			leave_alliance = FRA
+		}
+		AUS = {
+			create_alliance = ENG
+		}
+		BRA = {
+			create_alliance = ENG
+		}
+		NAS = {
+			create_alliance = ENG
+		}
+		NET = {
+			create_alliance = ENG
+		}
+		PRU = {
+			create_alliance = ENG
+		}
+		POR = {
+			create_alliance = ENG
+		}
+		RUS = {
+			create_alliance = ENG
+		}
+		SWE = {
+			create_alliance = ENG
+		}
+		SPA = {
+			create_alliance = ENG
+		}
+		SAR = {
+			create_alliance = ENG
+		}
+		SIC = {
+			create_alliance = ENG
+		}
+		SWI = {
+			create_alliance = ENG
+		}
+		TUS = {
+			create_alliance = ENG
+		}									
+	}
+}
+
+country_event = {
+	id = 18159
+	trigger = {
+		tag = FRA
+		has_global_flag = fontainblo_treaty_ok
+		NOT = {
+			has_global_flag = paris_treaty_ok
+			has_global_flag = napoleonica_ended
+			year = 1816
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	title = "EVTNAME18159"
+	desc = "EVTDESC18159"
+	picture = "Paris1814"
+
+	option = {
+		name = "EVTOPTA18159"
+		set_global_flag = paris_treaty_ok
+		prestige = -25
+		any_owned ={
+			limit = {
+				is_core = LUX
+			}
+			remove_core = FRA
+		}
+		any_owned ={
+			limit = {
+				is_core = BEL
+			}
+			remove_core = FRA
+		}
+		any_owned ={
+			limit = {
+				is_core = NET
+			}
+			remove_core = FRA
+		}
+		release = LUB
+		release = HAM
+		release = BRE
+		release = OLD
+		release = SLB
+		release = PAR
+		release = LUX
+		release = ION
+		release = MNC
+		release = YUG
+		release = BEL
+		any_owned ={
+			limit = {
+				is_core = NET
+			}
+			secede_province = NET
+		}
+		any_owned ={
+			limit = {
+				is_core = GER
+			}
+			remove_core = FRA
+		}
+		any_owned ={
+			limit = {
+				is_core = SAR
+			}
+			remove_core = FRA
+		}
+		any_owned ={
+			limit = {
+				is_core = SPA
+			}
+			secede_province = SPA
+		}
+		MNP = {
+			release = PAP
+		}
+		any_owned ={
+			limit = {
+				is_core = PAP
+			}
+			secede_province = PAP
+		}		
+		any_owned ={
+			limit = {
+				is_core = TUS
+			}
+			secede_province = TUS
+		}
+		PRU_575 = {
+			secede_province = PRU
+		}
+		SAR_720 = {
+			secede_province = SAR
+		}
+		SAR_724 = {
+			secede_province = SAR
+		}
+		2231 = {
+			secede_province = ENG
+		}
+		2125 = {
+			secede_province = ENG
+		}
+		2127 = {
+			secede_province = ENG
+		}
+		572 = {
+			secede_province = PRU
+		}
+		574 = {
+			secede_province = PRU
+		}
+		579 = {
+			secede_province = PRU
+		}
+		554 = {
+			secede_province = PRU
+		}
+		609 = {
+			secede_province = SWI
+		}
+		607 = {
+			secede_province = SWI
+		}
+		604 = {
+			secede_province = SWI
+		}
+		581 = {
+			secede_province = PRU
+		}
+		570 = {
+			secede_province = HES
+		}
+		571 = {
+			secede_province = BAV
+		}
+		WES = {
+			release = HAN
+		}
+		543 = {
+			secede_province = HAN
+		}
+		542 = {
+			secede_province = HAN
+		}
+		538 = {
+			secede_province = HAN
+		}
+		535 = {
+			secede_province = HAN
+		}
+		531 = {
+			secede_province = HAN
+		}
+		2238 = {
+			secede_province = ENG
+		}
+		ENG = {
+			release_vassal = ION
+		}
+		BAV = {
+			release = TIR
+		}
+		SAR = {
+			inherit = MNC
+		}
+		SAR = {
+			release_vassal = MNC
+		}
+		AUS = {
+			inherit = TIR
+		}
+		SAX = {
+			release = LUZ
+		}
+		PRU = {
+			inherit = LUZ
+		}
+		WES = {
+			release = BRA
+		}
+		BAV = {
+			inherit = WRZ
+		}
+		SWI = {
+			inherit = NEU
+		}
+		NET = {
+			inherit = BEL
+		}
+		PRU = {
+			inherit = NAS
+		}
+		PRU = {
+			release = NAS
+		}
+		PRU = {
+			inherit = DZG
+		}
+		PRU = {
+			inherit = BRG
+		}
+		PRU = {
+			inherit = WES
+		}
+		PRU = {
+			release = HEK
+		}
+		AUS = {
+			inherit = MNP
+		}
+		AUS = {
+			inherit = YUG
+		}
+		PRU = {
+			inherit = HES
+		}
+		PRU = {
+			release = HES
+		}
+		AUS = {
+			release = MOD
+		}
+		MOD = {
+			inherit = LUC
+		}
+		MOD = {
+			release = LUC
+		}
+		RUS = {
+			inherit = POL
+		}
+		RUS = {
+			release = KRA
+		}
+		RUS = {
+			release = PZN
+		}
+		RUS = {
+			release_vassal = POL
+		}
+		PRU = {
+			inherit = PZN
+		}
+		RUS = {
+			release = RUT
+		}
+		AUS = {
+			inherit = RUT
+		}
+		SAX = {
+			release = RHE
+		}
+		PRU = {
+			inherit = RHE
+		}
+		BAV = {
+			inherit = FRM
+		}
+		BAV = {
+			inherit = HEK
+		}
+		BAV = {
+			release = FRM
+		}
+		BAV = {
+			release = HEK
+		}
+		SWE = {
+			release = PMR
+		}
+		PRU = {
+			inherit = PMR
+		}
+		NET = {
+			inherit = LUX
+		}
+		NET = {
+			release_vassal = LUX
+		}
+		DEN = {
+			release = NOR
+		}
+		SWE = {
+			inherit = NOR
+		}
+		NET = {
+			release = SAF
+		}
+		ENG = {
+			inherit = SAF
+		}
+		NET = {
+			release = GUY
+		}
+		FRA = {
+			inherit = GUY
+		}
+		NET = {
+			release = LIM
+		}
+		NET_2240 = {
+			secede_province = NET
+		}
+		ENG_1979 = {
+			secede_province = ENG
+		}
+		409 = {
+			add_core = FRA
+		}
+		410 = {
+			add_core = FRA
+		}
+		412 = {
+			add_core = FRA
+		}
+		FRA = {
+			release = MLT
+		}
+		ENG = {
+			inherit = MLT
+		}
+		NET = {
+			inherit = LIM
+		}
+		AUS = {
+		  diplomatic_influence = { who = BAV value = 200 }
+		  diplomatic_influence = { who = WUR value = 200 }
+		  diplomatic_influence = { who = BAD value = 200 }
+		  diplomatic_influence = { who = LIE value = 200 }
+		  diplomatic_influence = { who = SAX value = 200 }
+		  diplomatic_influence = { who = PAR value = 200 }
+		  diplomatic_influence = { who = MOD value = 200 }
+		  diplomatic_influence = { who = TUS value = 200 }
+		  diplomatic_influence = { who = MSA value = 200 }
+		  diplomatic_influence = { who = LUC value = 200 }
+		  diplomatic_influence = { who = KRA value = 150 }
+		}
+		PRU = {
+		  diplomatic_influence = { who = MEC value = 200 }
+		  diplomatic_influence = { who = MST value = 200 }
+		  diplomatic_influence = { who = ANH value = 200 }
+		  diplomatic_influence = { who = WEI value = 200 }
+		  diplomatic_influence = { who = MEI value = 200 }
+		  diplomatic_influence = { who = COB value = 200 }
+		  diplomatic_influence = { who = NAS value = 200 }
+		  diplomatic_influence = { who = LIP value = 200 }
+		  diplomatic_influence = { who = HES value = 200 }
+		  diplomatic_influence = { who = HEK value = 200 }
+		  diplomatic_influence = { who = FRM value = 200 }
+		  diplomatic_influence = { who = BRA value = 200 }
+		  diplomatic_influence = { who = LUB value = 200 }
+		  diplomatic_influence = { who = HAM value = 200 }
+		  diplomatic_influence = { who = SGM value = 200 }
+		  diplomatic_influence = { who = OLD value = 200 }
+		  diplomatic_influence = { who = BRE value = 200 }
+		  diplomatic_influence = { who = SLB value = 200 }
+		  diplomatic_influence = { who = LUX value = 200 }
+		}
+		RUS = {
+		  diplomatic_influence = { who = POL value = 200 }
+		  diplomatic_influence = { who = KRA value = 50 }
+		}
+		ENG = {
+		  diplomatic_influence = { who = ION value = 200 }
+		  diplomatic_influence = { who = NET value = 200 }
+		  diplomatic_influence = { who = SPA value = 200 }
+		}
+		any_pop = {
+			dominant_issue = {
+				factor = 0.5
+				value = jingoism
+			}
+		}
+		war_exhaustion = -30
+	}
+		
+	}
+}
+
+country_event = {
+	id = 18179
+	title = "EVTNAME18179"
+	desc = "EVTDESC18179"
+	picture = "NapoleonElbe"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA18179"
+		relations = {
+			who = FRA
+			value = -200
+		}
+		casus_belli = {
+			target = FRA
+			type = cut_down_to_size
+			months = 12
+		}
+		war = {
+			target = FRA
+			attacker_goal = {
+				casus_belli = cut_down_to_size
+			}
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = french
+			}
+			militancy = 2
+		}
+		ai_chance = {
+			factor = 80
+		}
+		
+	}
+	
+	option = {
+		name = "EVTOPTB18179"
+		relations = {
+			who = FRA
+			value = -80
+		}
+		prestige = -20
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = {
+	id = 18189
+	title = "EVTNAME18189"
+	desc = "EVTDESC18189"
+	picture = "NapoleonElbe"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA18189"
+		political_reform = none_voting
+		government = absolute_monarchy
+		political_reform = none_voting
+		set_global_flag = napoleonica_ended
+		any_country = {
+			limit = {
+				war_with = THIS
+			}
+			end_war = THIS
+		}
+		573 = {
+			secede_province = PRU
+		}
+		465 = {
+			secede_province = SAR
+		}
+		466 = {
+			secede_province = SAR
+		}
+		472 = {
+			secede_province = SAR
+		}
+		TUS = {
+			inherit = ELB
+		}
+	}
+}

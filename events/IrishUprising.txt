@@ -1,0 +1,108 @@
+#1789-1812
+country_event = {
+
+	id = 17978
+
+	trigger = {
+		tag = IRE
+		substate_of = ENG
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+	}
+	
+	title = "EVTNAME17978"
+	desc = "EVTDESC17978"
+	picture = "flagstaffwar"
+
+	option = {
+		name = "EVTOPTA17978"
+		set_country_flag = irish_substate_trouble
+		any_pop = {
+			limit = {
+				culture = irish
+			}
+			consciousness = 3
+		}
+	}
+}
+country_event = {
+
+	id = 17979
+
+	trigger = {
+		tag = IRE
+		substate_of = ENG
+		has_country_flag = irish_substate_trouble
+		year = 1790
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+
+		modifier = {
+			factor = 0.9
+			average_militancy = 2
+		}
+
+		modifier = {
+			factor = 0.9
+			average_militancy = 4
+		}
+
+		modifier = {
+			factor = 0.9
+			average_militancy = 6
+		}
+
+		modifier = {
+			factor = 0.5
+			year = 1798
+		}
+	}
+	
+	title = "EVTNAME17979"
+	desc = "EVTDESC17979"
+	picture = "flagstaffwar"
+
+	option = {
+		name = "EVTOPTA17979"
+		war = {
+			target = ENG
+			attacker_goal = {
+				casus_belli = become_independent
+			}
+		}
+		ENG = {country_event = 17980}
+		set_global_flag = irish_independence_war
+	}
+	option = {
+		name = "EVTOPTB17979"
+		clr_country_flag = irish_problem
+		any_pop = {
+			limit = {
+				culture = irish
+			}
+			militancy = 3
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+country_event = {
+
+	id = 17980
+
+	is_triggered_only = yes
+	
+	title = "EVTNAME17980"
+	desc = "EVTDESC17980"
+	picture = "flagstaffwar"
+
+	option = {
+		name = "EVTOPTA17980"
+		prestige = -5
+	}
+}

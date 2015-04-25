@@ -1,0 +1,149 @@
+
+#First warning against the player
+country_event = {
+
+	id = 96130
+	title = "EVTNAME96130" #The Price of Infamy
+	desc = "EVTDESC96130"
+	picture = "greatpowers"
+
+	trigger = {
+		ai = no
+		badboy = 0.8
+		is_disarmed = no
+		NOT = {
+			has_country_modifier = international_pariah
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "EVTOPTA96130" #Let them come!
+		prestige = -20
+		add_country_modifier = {
+			name = international_pariah
+			duration = -1
+		}
+		any_country = {
+			limit = {
+				ai = yes
+				rank = 16
+				NOT = {
+					alliance_with = THIS
+					in_sphere = THIS
+					vassal_of = THIS
+				}
+			}
+			relation = {
+				who = THIS
+				value = -100
+			}
+		}
+	}
+}
+
+#Removes the pariah modifier if the player has low enough Infamy
+country_event = {
+	
+	id = 96131
+	title = "EVTNAME96131" #An Ease in Tensions
+	desc = "EVTDESC96131"
+	picture = "greatpowers"
+
+	trigger = {
+		has_country_modifier = international_pariah
+		NOT = { has_country_modifier = punitive_effects }
+		NOT = { badboy = 0.8 }
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "EVTOPTA96131" #Thanks for the vote of confidence.
+		remove_country_modifier = international_pariah
+	}
+}
+
+#Check, Infany player do some wars?
+country_event = {
+
+	id = 96149
+	title = "EVTNAME96149"
+	desc = "EVTDESC96149"
+	picture = "Unite"
+
+	trigger = {
+		badboy = 1
+		has_country_modifier = international_pariah
+		is_disarmed = no
+		war = yes
+	}
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	option = {
+		name = "EVTOPTA96149" #Excellent
+                set_country_flag = Infany_war_going
+	}
+}
+
+#If the Infamy player defeats the coalition, and is at peace for an extended period, reset his infamy
+country_event = {
+
+	id = 96150
+	title = "EVTNAME96150" #$COUNTRY$ Stands Triumphant
+	desc = "EVTDESC96150"
+	picture = "Unite"
+
+	trigger = {
+                has_country_flag = Infany_war_going
+		has_country_modifier = international_pariah
+		is_disarmed = no
+		war = no
+	}
+
+	mean_time_to_happen = {
+		days=1
+	}
+
+	option = {
+		name = "EVTOPTA96150" #Excellent
+		remove_country_modifier = international_pariah
+                clr_country_flag = Infany_war_going
+		prestige = 250
+		badboy = -1000
+	}
+}
+#If the coalition win
+country_event = {
+
+	id = 96147
+	title = "EVTNAME96147"
+	desc = "EVTDESC96147"
+	picture = "greatpowers"
+
+	trigger = {
+		has_global_flag = ultimatum_refused
+		is_disarmed = yes
+	}
+
+	mean_time_to_happen = {
+		days=1
+	}
+
+	option = {
+		name = "EVTOPTA96147"
+		remove_country_modifier = international_pariah
+                clr_country_flag = Infany_war_going
+		prestige = -250
+		badboy = -1000
+		badboy = 24.99
+	}
+}

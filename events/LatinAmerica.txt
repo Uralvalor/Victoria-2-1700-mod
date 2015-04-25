@@ -1,0 +1,2480 @@
+country_event = {
+
+	id = 95320
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	major = yes
+
+	title = "EVTNAME95320"
+	desc = "EVTDESC95320"
+
+	option = {
+		name = "EVTOPTA95320" 
+		release = NIC
+		release = HON
+		release = COS
+		release = ELS
+		release = LAL
+		UCA = {
+			all_core = {
+				remove_core = UCA
+			}
+		}
+		government = presidential_dictatorship
+		political_reform = none_voting
+		political_reform = underground_parties
+		political_reform = party_appointed
+	}
+}
+country_event = {
+
+	id = 95321
+
+	trigger = {
+		tag = GUA
+		OR = {
+			ruling_party_ideology = reactionary
+			ruling_party_ideology = conservative
+			government = presidential_dictatorship
+		}
+		average_consciousness = 5
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 10
+
+		modifier = {
+			factor = 0.75
+			average_militancy = 2
+		}
+
+		modifier = {
+			factor = 0.75
+			average_militancy = 5
+		}
+	}
+
+	title = "EVTNAME95321"
+	desc = "EVTDESC95321"
+	picture = "barillos"
+
+	option = {
+		name = "EVTOPTA95321" 
+		government = democracy
+		political_reform = landed_voting
+		remove_country_modifier = political_instability
+		any_pop = {
+			ideology = {
+				value = liberal
+				factor = 0.2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 95322
+
+	trigger = {
+		tag = GUA
+		ruling_party_ideology = liberal
+		USA = {
+			government = democracy
+			is_sphere_leader_of = GUA
+			invention = capital_for_investors
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 10
+	}
+
+	title = "EVTNAME95322"
+	desc = "EVTDESC95322"
+	picture = "unitedfruit"
+
+	option = {
+		name = "EVTOPTA95322"
+		relation = { who = USA value = 50 }
+		any_owned = {
+			limit = {
+				trade_goods= fruit
+			}
+			add_province_modifier = {
+					name = united_fruit
+					duration = -1
+			}
+		}
+		2186 = {
+			naval_base = 1
+		}
+		2187 = {
+			naval_base = 1
+		}
+		2188 = {
+			naval_base = 1
+		}
+			
+	}
+	option = {
+		name = "EVTOPTB95322"
+		relation = { who = USA value = -100 }
+	}
+}
+country_event = {
+
+	id = 95323
+
+	trigger = {
+		tag = COS
+		ruling_party_ideology = liberal
+		USA = {
+			government = democracy
+			is_sphere_leader_of = GUA
+			invention = capital_for_investors
+		}
+		NOT = {
+			government = proletarian_dictatorship
+			government = fascist_dictatorship
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 10
+	}
+
+	title = "EVTNAME95323"
+	desc = "EVTDESC95323"
+	picture = "unitedfruit"
+
+	option = {
+		name = "EVTOPTA95323"
+		relation = { who = USA value = 50 }
+		any_owned = {
+			limit = {
+				trade_goods= fruit
+			}
+			add_province_modifier = {
+					name = united_fruit
+					duration = -1
+			}
+		}
+		any_owned = {
+			infrastructure = 1
+		}
+			
+	}
+	option = {
+		name = "EVTOPTB95323"
+		relation = { who = USA value = -100 }
+	}
+}
+country_event = {
+
+	id = 95324
+
+	trigger = {
+		any_owned_province = {
+			trade_goods= rubber
+		}
+		OR = {
+			high_n_low_pressure_steam_engines = 1
+			has_global_flag = world_rubber_boom	
+		}
+		NOT = {
+			has_country_flag = rubber_boom_ok
+		}
+	}
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1865
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1867
+		}
+	}
+
+	title = "EVTNAME95324"
+	desc = "EVTDESC95324"
+	picture = "rubberfarm"
+
+	option = {
+		name = "EVTOPTA95324" 
+		any_owned = {
+			limit = {
+				trade_goods= rubber
+			}
+			add_province_modifier = {
+					name = rubber_boom
+					duration = 10000
+			}
+		}
+	set_country_flag = rubber_boom_ok
+	set_global_flag = world_rubber_boom
+	}
+}
+country_event = {
+
+	id = 95325
+
+	trigger = {
+		OR = {
+			tag = CLM
+			tag = ECU
+			tag = VNZ
+			tag = HAI	
+		}
+		NOT = {
+			has_country_flag = latin_civil_war
+		}
+		year = 1836
+	}
+ 
+	mean_time_to_happen =  {
+		months = 15
+	}
+
+	title = "EVTNAME95325"
+	desc = "EVTDESC95325"
+	picture = "anarchism"
+
+	option = {
+		name = "EVTOPTA95325" 
+		add_country_modifier = {
+				name = political_instability
+				duration = -1
+		}
+	set_country_flag = latin_civil_war
+	}
+}
+country_event = {
+
+	id = 95326
+
+	trigger = {
+		has_country_modifier = political_instability
+		has_country_flag = latin_civil_war
+		OR = {
+			is_greater_power = yes
+			is_secondary_power = yes
+		}
+	}
+ 
+	mean_time_to_happen =  {
+		months = 5
+	}
+
+	title = "EVTNAME95326"
+	desc = "EVTDESC95326"
+	picture = "Administration"
+
+	option = {
+		name = "EVTOPTA95326"
+		remove_country_modifier = political_instability
+	}
+}
+country_event = {
+
+	id = 95327
+
+	trigger = {
+		tag = SPA
+		is_greater_power = no
+		average_consciousness = 4
+		SPA_2209 = {
+				owned_by = SPA
+		}
+	}
+
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+	}
+
+	title = "EVTNAME95327"
+	desc = "EVTDESC95327"
+	picture = "cubamap"
+
+	option = {
+		name = "EVTOPTA95327"
+		SPA_2209 = {
+				add_province_modifier = {
+					name = struggle_for_independence
+					duration = -1
+				}
+		}
+		set_country_flag = cuban_war
+	}
+}
+country_event = {
+
+	id = 95328
+
+	trigger = {
+		tag = SPA
+		is_greater_power = no
+		SPA_2209 = {
+				owned_by = SPA
+		}
+		has_country_flag = cuban_war
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 30
+		modifier = {
+			factor = 0.8
+			average_militancy = 2
+		}
+		modifier = {
+			factor = 0.7
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 0.6
+			average_militancy = 5
+		}
+		modifier = {
+			factor = 0.5
+			average_militancy = 6
+		}
+	}
+
+	title = "EVTNAME95328"
+	desc = "EVTDESC95328"
+	picture = "cubamap"
+
+	option = {
+		name = "EVTOPTA95328"
+		release = CUB
+		war = {
+			target = CUB
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+		USA = {
+			diplomatic_influence = {
+				who = CUB
+				value = 100
+			}
+		}
+		ai_chance = {
+			factor = 80
+		}
+	}
+	option = {
+		name = "EVTOPTB95328"
+		badboy = -3
+		release = CUB
+		SPA_2209 = {
+				remove_core = SPA
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+country_event = {
+
+	id = 95329
+
+	trigger = {
+		tag = HAI
+		has_country_modifier = political_instability
+		owns = 2214
+		owns = 2216
+		NOT = {
+			exists = DOM
+			2214 = {
+				controlled_by = HAI
+			}
+			2216 = {
+				controlled_by = HAI
+			}
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 5
+	}
+
+	title = "EVTNAME95329"
+	desc = "EVTDESC95329"
+	picture = "hispaniola"
+
+	option = {
+		name = "EVTOPTA95329"
+		prestige = -3
+		release = DOM
+		remove_country_modifier = political_instability
+	}
+}
+country_event = {
+
+	id = 95330
+
+	trigger = {
+		tag = UCA
+		year = 1836
+		NOT = {
+			year = 1856
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 15
+
+		modifier = {
+			factor = 0.75
+			year = 1840
+		}
+
+		modifier = {
+			factor = 0.5
+			average_militancy = 2
+		}
+	}
+
+	title = "EVTNAME95330"
+	desc = "EVTDESC95330"
+	picture = "unitedfruit"
+
+	option = {
+		name = "EVTOPTA95330"
+		country_event = 95320
+		any_pop = {
+			militancy = -4
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "EVTOPTC95330"
+		any_pop = {
+			militancy = 2
+		}
+		add_country_modifier = {
+				name = political_instability
+				duration = 14600
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+#1816 Independence
+#Mexico
+country_event = {
+
+	id = 97700
+
+	trigger = {
+		tag = SPA
+		has_country_flag = mex_independence_war
+		has_global_flag = scenario_1816_activated
+		exists = MEX
+		NOT = { war_with = MEX }
+	}
+	
+	fire_only_once = yes
+	major = yes
+
+	title = "EVTNAME97700"
+	desc = "EVTDESC97700"
+
+	option = {
+		name = "EVTOPTA97700"
+		MEX = {
+			all_core = {
+				remove_core = SPA
+			}
+		}
+		any_pop = {
+			militancy = 1
+		}
+		#war_exhaustion = -25
+		clr_country_flag = mex_independence_war
+	}
+}
+country_event = {
+
+	id = 97701
+
+	trigger = {
+		tag = SPA
+		has_country_flag = mex_independence_war
+		NOT = { exists = MEX }
+		NOT = { war_with = MEX }
+	}
+	
+	fire_only_once = yes
+
+	title = "EVTNAME97701"
+	desc = "EVTDESC97701"
+	picture = "mexico_soldiers"
+
+	option = {
+		name = "EVTOPTA97701"
+		prestige = 5
+		any_owned = {
+			limit = { is_core = MEX }
+			add_province_modifier = {
+				name = struggle_for_independence
+				duration = -1
+			}
+			colonial = 3
+		}
+		clr_country_flag = mex_independence_war
+		set_country_flag = mex_independence_win
+	}
+}
+country_event = {
+
+	id = 97702
+
+	trigger = {
+		tag = SPA
+		has_country_flag = mex_independence_win
+		NOT = {exists = MEX}
+	}
+
+	mean_time_to_happen =  {
+		months = 40
+
+		modifier = {
+			factor = 0.95
+			plurality = 5
+		}
+		modifier = {
+			factor = 0.95
+			plurality = 15
+		}
+		modifier = {
+			factor = 0.95
+			plurality = 25
+		}
+		modifier = {
+			factor = 0.9
+			plurality = 35
+		}
+		modifier = {
+			factor = 0.9
+			plurality = 45
+		}
+		modifier = {
+			factor = 0.9
+			plurality = 55
+		}
+		modifier = {
+			factor = 0.85
+			plurality = 65
+		}
+		modifier = {
+			factor = 0.85
+			plurality = 75
+		}
+		modifier = {
+			factor = 0.85
+			plurality = 85
+		}
+		modifier = {
+			factor = 0.8
+			plurality = 95
+		}
+		modifier = {
+			factor = 0.8
+			plurality = 100
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+	}
+
+	title = "EVTNAME97702"
+	desc = "EVTDESC97702"
+	picture = "mexico_soldiers"
+
+	option = {
+		name = "EVTOPTA97702"
+		release = MEX
+		MEX = {
+			war = {
+				target = THIS
+				attacker_goal = {
+					casus_belli = become_independent
+				}
+			
+				defender_goal = {
+					casus_belli = conquest
+				}
+			}
+			any_owned = {
+				limit = { is_core = MEX }
+				colonial = no
+			}
+		}
+		set_country_flag = second_mex_independence_war
+		ai_chance = {
+			factor = 70
+		}	
+	}
+	option = {
+		name = "EVTOPTB97702"
+		release_vassal = MEX
+		MEX = {
+			all_core = {
+				remove_core = SPA
+			}
+			any_owned = {
+				limit = { is_core = MEX }
+				colonial = no
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+	option = {
+		name = "EVTOPTC97702"
+		release = MEX
+		MEX = {
+			all_core = {
+				remove_core = SPA
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+country_event = {
+
+	id = 97703
+
+	trigger = {
+		tag = SPA
+		has_country_flag = second_mex_independence_war
+		exists = MEX
+		NOT = { war_with = MEX }
+	}
+	
+	fire_only_once = yes
+	major = yes
+
+	title = "EVTNAME97703"
+	desc = "EVTDESC97703"
+	picture = "mexico_soldiers"
+
+	option = {
+		name = "EVTOPTA97703"
+		MEX = {
+			all_core = {
+				remove_core = SPA
+			}
+		}
+		any_pop = {
+			militancy = 1
+		}
+		clr_country_flag = second_mex_independence_war
+	}
+}
+country_event = {
+
+	id = 97704
+
+	trigger = {
+		tag = SPA
+		has_country_flag = second_mex_independence_war
+		NOT = { exists = MEX }
+		NOT = { war_with = MEX }
+	}
+	
+	fire_only_once = yes
+
+	title = "EVTNAME97701"
+	desc = "EVTDESC97701"
+	picture = "mexico_soldiers"
+
+	option = {
+		name = "EVTOPTA97701"
+		prestige = 5
+		any_owned = {
+			limit = { is_core = MEX }
+			add_province_modifier = {
+				name = struggle_for_independence
+				duration = -1
+			}
+			colonial = 3
+		}
+		clr_country_flag = second_mex_independence_war
+		set_country_flag = second_mex_independence_win
+	}
+}
+country_event = {
+
+	id = 97705
+
+	trigger = {
+		tag = MEX
+		vassal_of = SPA
+	}
+
+	mean_time_to_happen =  {
+		months = 100
+		modifier = {
+			factor = 0.95
+			plurality = 5
+		}
+		modifier = {
+			factor = 0.95
+			plurality = 15
+		}
+		modifier = {
+			factor = 0.95
+			plurality = 25
+		}
+		modifier = {
+			factor = 0.9
+			plurality = 35
+		}
+		modifier = {
+			factor = 0.9
+			plurality = 45
+		}
+		modifier = {
+			factor = 0.9
+			plurality = 55
+		}
+		modifier = {
+			factor = 0.85
+			plurality = 65
+		}
+		modifier = {
+			factor = 0.85
+			plurality = 75
+		}
+		modifier = {
+			factor = 0.85
+			plurality = 85
+		}
+		modifier = {
+			factor = 0.8
+			plurality = 95
+		}
+		modifier = {
+			factor = 0.8
+			plurality = 100
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+	}
+
+	title = "EVTNAME97705"
+	desc = "EVTDESC97705"
+	picture = "mexico_soldiers"
+
+	option = {
+		name = "EVTOPTA97705"
+		SPA = {country_event = 97706}
+		ai_chance = {
+			factor = 80
+		}
+	}
+	option = {
+		name = "EVTOPTB97705"
+		prestige = -5
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+country_event = {
+
+	id = 97706
+
+	is_triggered_only = yes
+
+	title = "EVTNAME97706"
+	desc = "EVTDESC97706"
+	picture = "mexico_soldiers"
+
+	option = {
+		name = "EVTOPTA97706"
+		release_vassal = MEX
+		MEX = {
+			war = {
+				target = THIS
+				attacker_goal = {
+					casus_belli = become_independent
+				}
+			
+				defender_goal = {
+					casus_belli = make_puppet
+				}
+			}
+			any_owned = {
+				limit = { is_core = MEX }
+				colonial = no
+			}
+		}
+		set_country_flag = third_mex_independence_war
+		ai_chance = {
+			factor = 80
+		}
+	}
+	option = {
+		name = "EVTOPTB97706"
+		release_vassal = MEX
+		MEX = {
+			all_core = {
+				remove_core = SPA
+			}
+			any_owned = {
+				limit = { is_core = MEX }
+				colonial = no
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+#Bolivar
+country_event = {
+
+	id = 97710
+
+	trigger = {
+		tag = VNZ
+		NOT = {year = 1836}
+	}
+	
+	fire_only_once = yes
+	picture = "bolivar1"
+
+	mean_time_to_happen =  {
+		days = 20
+	}
+
+	title = "EVTNAME97710"
+	desc = "EVTDESC97710"
+
+	option = {
+		name = "EVTOPTA97710"
+		set_country_flag = bolivar_war_soon
+		dominant_issue = {
+			factor = 0.15
+			value = jingoism
+		}
+		
+	}
+}
+country_event = {
+
+	id = 97711
+
+	trigger = {
+		tag = VNZ
+		has_country_flag = bolivar_war_soon
+	}
+	
+	fire_only_once = yes
+	picture = "Alliance"
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME97711"
+	desc = "EVTDESC97711"
+
+	option = {
+		name = "EVTOPTA97711"
+		ENG = {country_event = 97712}
+		
+	}
+	option = {
+		name = "EVTOPTB97711"
+		ai_chance = {
+			factor = 0
+		}
+		
+	}
+}
+country_event = {
+
+	id = 97712
+
+	is_triggered_only = yes
+	picture = "Alliance"
+
+	title = "EVTNAME97712"
+	desc = "EVTDESC97712"
+
+	option = {
+		name = "EVTOPTA97712"
+		money = -100000
+		FROM = {money = 100000}
+		diplomatic_influence = { who = FROM value = 200 }
+		relation = { who = FROM value = 200 }
+		create_alliance	= FROM
+		set_global_flag = bolivar_britain_agreed
+	}
+	option = {
+		name = "EVTOPTB97712"
+		diplomatic_influence = { who = FROM value = -100 }
+		relation = { who = FROM value = -100 }
+		set_global_flag = bolivar_britain_refused
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+country_event = {
+
+	id = 97713
+
+	trigger = {
+		tag = VNZ
+		has_global_flag = bolivar_britain_agreed
+	}
+
+	fire_only_once = yes
+	picture = "Alliance"
+
+	title = "EVTNAME97713"
+	desc = "EVTDESC97713"
+
+	option = {
+		name = "EVTOPTA97713"
+		activate_technology = military_staff_system
+		activate_technology = basic_chemistry
+		activate_technology = thermodynamics
+	}
+}
+country_event = {
+
+	id = 97714
+
+	trigger = {
+		tag = GCO
+		has_global_flag = bolivar_britain_refused
+	}
+
+	fire_only_once = yes
+	picture = "Alliance"
+
+	title = "EVTNAME97714"
+	desc = "EVTDESC97714"
+
+	option = {
+		name = "EVTOPTA97713"
+	}
+}
+country_event = {
+
+	id = 97715
+
+	trigger = {
+		tag = GCO
+		has_global_flag = per_bolivar_independence_war
+		ECU_2279 = {
+			owned_by = THIS
+		}
+		PEU_2289 = {∏
+			owned_by = THIS
+		}
+	}
+
+	fire_only_once = yes
+	picture = "bolivar2"
+
+	title = "EVTNAME97715"
+	desc = "EVTDESC97715"
+
+	option = {
+		name = "EVTOPTA97715"
+		badboy = -10
+		any_owned = {
+			limit = {
+				is_core = THIS
+			}
+			remove_core = SPA
+			colonial = no
+		}
+	}
+}
+country_event = {
+
+	id = 97716
+
+	trigger = {
+		tag = GCO
+		exists = ECU
+		has_global_flag = ecu_bolivar_independence_war
+		has_global_flag = scenario_1816_activated
+		#NOT = { war_with = SPA }
+		war = no
+	}
+
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "EVTNAME97716"
+	desc = "EVTDESC97716"
+	picture = "bolivar2"
+
+	option = {
+		name = "EVTOPTA97716"
+		inherit = ECU
+		war_exhaustion = -25
+		badboy = -10
+	}
+}
+country_event = {
+
+	id = 97717
+
+	trigger = {
+		tag = VNZ
+		has_global_flag = col_bolivar_independence_war
+		NOT = { war_with = SPA }
+		war = no
+	}
+
+	mean_time_to_happen =  {
+		months = 10
+	}
+
+	title = "EVTNAME97718"
+	desc = "EVTDESC97718"
+	picture = "bolivar2"
+
+	option = {
+		name = "EVTOPTA97718"
+		clr_global_flag = col_bolivar_independence_war
+		war_exhaustion = -25
+	}
+}
+country_event = {
+
+	id = 97718
+
+	trigger = {
+		tag = GCO
+		NOT = { exists = ECU }
+		has_global_flag = ecu_bolivar_independence_war
+		NOT = { war_with = SPA }
+		war = no
+	}
+
+	mean_time_to_happen =  {
+		months = 10
+	}
+
+	title = "EVTNAME97718"
+	desc = "EVTDESC97718"
+	picture = "bolivar2"
+
+	option = {
+		name = "EVTOPTA97718"
+		clr_global_flag = ecu_bolivar_independence_war
+		war_exhaustion = -25
+	}
+}
+country_event = {
+
+	id = 97719
+
+	trigger = {
+		tag = GCO
+		NOT = { exists = PEU }
+		has_global_flag = per_bolivar_independence_war
+		NOT = { war_with = SPA }
+		war = no
+	}
+
+	mean_time_to_happen =  {
+		months = 10
+	}
+
+	title = "EVTNAME97718"
+	desc = "EVTDESC97718"
+	picture = "bolivar2"
+
+	option = {
+		name = "EVTOPTA97718"
+		clr_global_flag = per_bolivar_independence_war
+		war_exhaustion = -25
+	}
+}
+
+country_event = {
+
+	id = 97720
+
+	trigger = {
+		tag = SPA
+		owns = 2264
+		NOT = {
+			exists = GCO
+		}
+			year = 1800
+	}
+
+	mean_time_to_happen =  {
+		months = 40
+
+		modifier = {
+			factor = 0.95
+			plurality = 5
+		}
+		modifier = {
+			factor = 0.95
+			plurality = 15
+		}
+		modifier = {
+			factor = 0.95
+			plurality = 25
+		}
+		modifier = {
+			factor = 0.9
+			plurality = 35
+		}
+		modifier = {
+			factor = 0.9
+			plurality = 45
+		}
+		modifier = {
+			factor = 0.9
+			plurality = 55
+		}
+		modifier = {
+			factor = 0.85
+			plurality = 65
+		}
+		modifier = {
+			factor = 0.85
+			plurality = 75
+		}
+		modifier = {
+			factor = 0.85
+			plurality = 85
+		}
+		modifier = {
+			factor = 0.8
+			plurality = 95
+		}
+		modifier = {
+			factor = 0.8
+			plurality = 100
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+	}
+
+	title = "EVTNAME97720"
+	desc = "EVTDESC97720"
+	picture = "colonial_uprising"
+
+	immediate = {
+		GCO = {
+			all_core = {
+				secede_province = GCO
+			}
+		}
+		GCO = {
+			any_owned = {
+				colonial = no
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTA97720"
+		GCO = {
+			war = {
+				target = SPA
+				attacker_goal = {
+					casus_belli = become_independent
+					country = CLM
+				}
+		
+				defender_goal = {
+					casus_belli = conquest
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB97720"
+		
+	}
+	option = {
+		name = "EVTOPTC97720"
+		GCO = {
+			all_core = {
+				remove_core = SPA
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 97721
+
+	trigger = {
+		tag = SPA
+		owns = 2295
+		war = no
+		NOT = {
+			exists = PEU
+		}
+		year = 1800
+	}
+
+	mean_time_to_happen =  {
+		months = 40
+
+		modifier = {
+			factor = 0.95
+			plurality = 5
+		}
+		modifier = {
+			factor = 0.95
+			plurality = 15
+		}
+		modifier = {
+			factor = 0.95
+			plurality = 25
+		}
+		modifier = {
+			factor = 0.9
+			plurality = 35
+		}
+		modifier = {
+			factor = 0.9
+			plurality = 45
+		}
+		modifier = {
+			factor = 0.9
+			plurality = 55
+		}
+		modifier = {
+			factor = 0.85
+			plurality = 65
+		}
+		modifier = {
+			factor = 0.85
+			plurality = 75
+		}
+		modifier = {
+			factor = 0.85
+			plurality = 85
+		}
+		modifier = {
+			factor = 0.8
+			plurality = 95
+		}
+		modifier = {
+			factor = 0.8
+			plurality = 100
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+	}
+
+	title = "EVTNAME97721"
+	desc = "EVTDESC97721"
+	picture = "colonial_uprising"
+
+	immediate = {
+		PEU = {
+			all_core = {
+				secede_province = PEU
+			}
+		}
+		PEU = {
+			any_owned = {
+				colonial = no
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTA97721"
+		PEU = {
+			war = {
+				target = SPA
+				attacker_goal = {
+					casus_belli = become_independent
+					country = PEU
+				}
+		
+				defender_goal = {
+					casus_belli = conquest
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB97720"
+	}
+	option = {
+		name = "EVTOPTC97720"
+		PEU = {
+			all_core = {
+				remove_core = SPA
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 97722
+
+	trigger = {
+		tag = GCO
+		war_with = SPA
+		has_global_flag = per_bolivar_independence_war
+		NOT = {
+			exists = PEU
+		}
+		OR = {
+			2290 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+			2291 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+			2292 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+			2294 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+		}
+		OR = {
+			2293 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+			2295 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+			2296 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+			2298 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+			2300 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+		}
+		OR = {
+			2297 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+			2299 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+			2301 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+			2302 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+		}
+		OR = {
+			2303 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+			2304 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+			2578 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+		}
+		OR = {
+			2319 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+			2320 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+			2321 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+			2310 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+			2311 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+		}
+		OR = {
+			2313 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+			2316 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+			2317 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+			2318 = {
+				owned_by = SPA
+				controlled_by = THIS
+			}
+		}
+
+	}
+
+	title = "EVTNAME97722"
+	desc = "EVTDESC97722"
+	picture = "bolivar2"
+
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA97722"
+		SPA = { country_event = 97723 }
+	}
+}
+country_event = {
+
+	id = 97723
+
+	trigger = {
+		tag = SPA
+		NOT = {war_with = GCO}
+		has_global_flag = per_bolivar_independence_war
+		exists = PEU
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "EVTNAME97723"
+	desc = "EVTDESC97723"
+	picture = "bolivar2"
+
+	option = {
+		name = "EVTOPTA97723"
+		end_war = FROM
+		any_owned = {
+			limit = {
+				is_core = PEU
+			}
+			#secede_province = PEU
+			remove_core = SPA
+		}
+		release = PEU
+		GCO = {
+			war_exhaustion = -25
+			badboy = -10
+			country_event = { id=97724 days=10 }
+		}
+		2305 = {
+			add_core = PEU
+		}
+		2315 = {
+			add_core = PEU
+		}
+		2370 = {
+			add_core = PEU
+		}
+		2368 = {
+			add_core = PEU
+		}
+		2375 = {
+			add_core = PEU
+		}
+		PRG_2338 = {
+			add_core = PEU
+		}
+	}
+}
+country_event = {
+
+	id = 97724
+
+	is_triggered_only = yes
+
+	title = "EVTNAME97724"
+	desc = "EVTDESC97724"
+	picture = "bolivar2"
+
+	option = {
+		name = "EVTOPTA97724"
+		inherit = PEU
+	}
+}
+country_event = {
+
+	id = 97725
+
+	trigger = {
+		tag = SPA
+		war = no
+		NOT = {
+			any_owned_province = {
+				NOT = {
+					is_core = CUB
+					is_core = HAI
+					is_core = PUE
+				}
+				continent = south_america
+			}
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "EVTNAME97725"
+	desc = "EVTDESC97725"
+	picture = "Unite"
+
+	option = {
+		name = "EVTOPTA97725"
+		any_country = {
+			any_owned = {
+				limit = {
+					continent = south_america
+				}
+				remove_core = THIS
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 97726
+
+	trigger = {
+		tag = GCO
+		ai = yes
+		OR = {
+			exists = ECU
+			exists = CLM
+			exists = VNZ
+		}
+		NOT = {
+			has_country_modifier = political_instability
+		}
+		set_global_flag = scenario_1816_activated
+	}
+
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "EVTNAME97726"
+	desc = "EVTDESC97726"
+	picture = "bolivar2"
+
+	option = {
+		name = "EVTOPTA97726"
+		inherit = ECU
+		inherit = CLM
+		inherit = VNZ
+	}
+}
+
+#Fall of Gran Colombia
+country_event = {
+
+	id = 97730
+
+	trigger = {
+		tag = GCO
+		has_global_flag = independence_of_south_america
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 1.5
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 4
+			is_greater_power = yes
+		}
+	}
+
+	title = "EVTNAME97730"
+	desc = "EVTDESC97730"
+	picture = "Parade"
+
+	option = {
+		name = "EVTOPTA97720"
+		add_country_modifier = {
+				name = political_instability
+				duration = -1
+		}
+	}
+}
+country_event = {
+
+	id = 97731
+
+	trigger = {
+		tag = GCO
+		is_greater_power = no
+		OR = {
+			AND = {
+				has_global_flag = independence_of_south_america
+				has_country_modifier = political_instability
+			}
+			exists = CLM
+		}
+		
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 8
+		modifier = {
+			factor = 1.5
+			is_secondary_power = yes
+		}
+	}
+
+	title = "EVTNAME97731"
+	desc = "EVTDESC97731"
+	picture = "Celebration"
+
+	option = {
+		name = "EVTOPTA97731"
+		release = PEU
+		release = BOL
+		
+	}
+}
+country_event = {
+
+	id = 97732
+
+	trigger = {
+		tag = GCO
+		has_global_flag = independence_of_south_america
+		has_country_modifier = political_instability
+		is_greater_power = no
+		OR = {
+			PEU = {exists = yes}
+			PBC = {exists = yes}
+		}
+		#NOT = {
+		#	PEU = {
+		#		vassal_of = THIS
+		#	}
+		#}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 1.5
+			is_secondary_power = yes
+		}
+	}
+
+	title = "EVTNAME97732"
+	desc = "EVTDESC97732"
+	picture = "Celebration"
+
+	option = {
+		name = "EVTOPTA97732"
+		GCO = {
+			all_core = {
+				remove_core = GCO
+			}
+		}
+		release = VNZ
+		release = ECU
+		change_tag = CLM
+		any_owned = {
+			limit = {
+				is_core = PEU
+			}
+			secede_province = PEU
+		}
+		any_owned = {
+			limit = {
+				state_id = 2291
+			}
+			secede_province = ECU
+		}
+		set_global_flag = gran_colombia_collapsed
+	}
+}
+#Rio de la Plata
+country_event = {
+
+	id = 97740
+
+	trigger = {
+		tag = BRZ
+		owns = 2344
+		war = no
+		exists = ARG
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "EVTNAME97740"
+	desc = "EVTDESC97740"
+	picture = "Administration"
+
+	option = {
+		name = "EVTOPTA97740"
+		ARG = {
+			country_event =  97741
+		}
+	}
+	option = {
+		name = "EVTOPTB97740"
+		any_owned = {
+			limit = {
+				is_core = URU
+			}
+			add_province_modifier = {
+				name = struggle_for_independence
+				duration = -1
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+country_event = {
+
+	id = 97741
+
+	is_triggered_only = yes
+
+	title = "EVTNAME97741"
+	desc = "EVTDESC97741"
+	picture = "Administration"
+
+	option = {
+		name = "EVTOPTA97741"
+		BRZ = {
+			country_event = 97742
+		}
+	}
+	option = {
+		name = "EVTOPTB97741"
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+country_event = {
+
+	id = 97742
+
+	is_triggered_only = yes
+	major = yes
+
+	title = "EVTNAME97741"
+	desc = "EVTDESC97741"
+
+	option = {
+		name = "EVTOPTA97741"
+		prestige = 5
+		badboy = -10
+		release = URU
+		URU = {
+			all_core = {
+				remove_core = BRZ
+				remove_core = ARG
+			}
+		}
+		2344 = {
+			state_scope = {
+				change_region_name = "”Û„‚‡È"
+			}
+		}
+	}
+}
+#Chili
+country_event = {
+
+	id = 97750
+
+	trigger = {
+		tag = SPA
+		has_country_flag = chl_independence_war
+		exists = CHL
+		NOT = { war_with = CHL }
+	}
+	
+	fire_only_once = yes
+
+	title = "EVTNAME97750"
+	desc = "EVTDESC97750"
+	picture = "Unite"
+
+	option = {
+		name = "EVTOPTA97750"
+		CHL = {
+			all_core = {
+				remove_core = SPA
+			}
+		}
+		any_pop = {
+			militancy = 1
+		}
+		#war_exhaustion = -25
+		clr_country_flag = chl_independence_war
+	}
+}
+country_event = {
+
+	id = 97751
+
+	trigger = {
+		tag = SPA
+		has_country_flag = chl_independence_war
+		NOT = { exists = CHL }
+		NOT = { war_with = CHL }
+	}
+	
+	fire_only_once = yes
+
+	title = "EVTNAME97751"
+	desc = "EVTDESC97751"
+	picture = "Unite"
+
+	option = {
+		name = "EVTOPTA97751"
+		prestige = 5
+		any_owned = {
+			limit = { is_core = CHL }
+			add_province_modifier = {
+				name = struggle_for_independence
+				duration = -1
+			}
+			colonial = 3
+		}
+		clr_country_flag = chl_independence_war
+		set_country_flag = chl_independence_win
+	}
+}
+country_event = {
+
+	id = 97752
+
+	trigger = {
+		tag = SPA
+		has_country_flag = chl_independence_win
+		NOT = {exists = CHL}
+	}
+
+	mean_time_to_happen =  {
+		months = 40
+
+		modifier = {
+			factor = 0.95
+			plurality = 5
+		}
+		modifier = {
+			factor = 0.95
+			plurality = 15
+		}
+		modifier = {
+			factor = 0.95
+			plurality = 25
+		}
+		modifier = {
+			factor = 0.9
+			plurality = 35
+		}
+		modifier = {
+			factor = 0.9
+			plurality = 45
+		}
+		modifier = {
+			factor = 0.9
+			plurality = 55
+		}
+		modifier = {
+			factor = 0.85
+			plurality = 65
+		}
+		modifier = {
+			factor = 0.85
+			plurality = 75
+		}
+		modifier = {
+			factor = 0.85
+			plurality = 85
+		}
+		modifier = {
+			factor = 0.8
+			plurality = 95
+		}
+		modifier = {
+			factor = 0.8
+			plurality = 100
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+	}
+
+	title = "EVTNAME97752"
+	desc = "EVTDESC97752"
+	picture = "Unite"
+
+	option = {
+		name = "EVTOPTA97752"
+		release = CHL
+		CHL = {
+			war = {
+				target = THIS
+				attacker_goal = {
+					casus_belli = become_independent
+				}
+			
+				defender_goal = {
+					casus_belli = conquest
+				}
+			}
+			any_owned = {
+				limit = { is_core = CHL }
+				colonial = no
+			}
+		}
+		set_country_flag = second_chl_independence_war
+		ai_chance = {
+			factor = 70
+		}	
+	}
+	option = {
+		name = "EVTOPTB97752"
+		release_vassal = CHL
+		CHL = {
+			all_core = {
+				remove_core = SPA
+			}
+			any_owned = {
+				limit = { is_core = CHL }
+				colonial = no
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+	option = {
+		name = "EVTOPTC97752"
+		release = CHL
+		CHL = {
+			all_core = {
+				remove_core = SPA
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+country_event = {
+
+	id = 97753
+
+	trigger = {
+		tag = SPA
+		has_country_flag = second_chl_independence_war
+		exists = CHL
+		NOT = { war_with = CHL }
+	}
+	
+	fire_only_once = yes
+
+	title = "EVTNAME97753"
+	desc = "EVTDESC97753"
+	picture = "Unite"
+
+	option = {
+		name = "EVTOPTA97753"
+		CHL = {
+			all_core = {
+				remove_core = SPA
+			}
+		}
+		any_pop = {
+			militancy = 1
+		}
+		clr_country_flag = second_chl_independence_war
+	}
+}
+country_event = {
+
+	id = 97754
+
+	trigger = {
+		tag = SPA
+		has_country_flag = second_chl_independence_war
+		NOT = { exists = CHL }
+		NOT = { war_with = CHL }
+	}
+	
+	fire_only_once = yes
+
+	title = "EVTNAME97751"
+	desc = "EVTDESC97751"
+	picture = "Unite"
+
+	option = {
+		name = "EVTOPTA97751"
+		prestige = 5
+		any_owned = {
+			limit = { is_core = CHL }
+			add_province_modifier = {
+				name = struggle_for_independence
+				duration = -1
+			}
+			colonial = 3
+		}
+		clr_country_flag = second_chl_independence_war
+		set_country_flag = second_chl_independence_win
+	}
+}
+country_event = {
+
+	id = 97755
+
+	trigger = {
+		tag = CHL
+		vassal_of = SPA
+	}
+
+	mean_time_to_happen =  {
+		months = 100
+		modifier = {
+			factor = 0.95
+			plurality = 5
+		}
+		modifier = {
+			factor = 0.95
+			plurality = 15
+		}
+		modifier = {
+			factor = 0.95
+			plurality = 25
+		}
+		modifier = {
+			factor = 0.9
+			plurality = 35
+		}
+		modifier = {
+			factor = 0.9
+			plurality = 45
+		}
+		modifier = {
+			factor = 0.9
+			plurality = 55
+		}
+		modifier = {
+			factor = 0.85
+			plurality = 65
+		}
+		modifier = {
+			factor = 0.85
+			plurality = 75
+		}
+		modifier = {
+			factor = 0.85
+			plurality = 85
+		}
+		modifier = {
+			factor = 0.8
+			plurality = 95
+		}
+		modifier = {
+			factor = 0.8
+			plurality = 100
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+	}
+
+	title = "EVTNAME97755"
+	desc = "EVTDESC97755"
+	picture = "Unite"
+
+	option = {
+		name = "EVTOPTA97755"
+		SPA = {country_event = 97756}
+		ai_chance = {
+			factor = 80
+		}
+	}
+	option = {
+		name = "EVTOPTB97755"
+		prestige = -5
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+country_event = {
+
+	id = 97756
+
+	is_triggered_only = yes
+
+	title = "EVTNAME97756"
+	desc = "EVTDESC97756"
+	picture = "Unite"
+
+	option = {
+		name = "EVTOPTA97756"
+		release_vassal = CHL
+		CHL = {
+			war = {
+				target = THIS
+				attacker_goal = {
+					casus_belli = become_independent
+				}
+			
+				defender_goal = {
+					casus_belli = make_puppet
+				}
+			}
+			any_owned = {
+				limit = { is_core = CHL }
+				colonial = no
+			}
+		}
+		set_country_flag = third_chl_independence_war
+		ai_chance = {
+			factor = 80
+		}
+	}
+	option = {
+		name = "EVTOPTB97756"
+		release_vassal = CHL
+		CHL = {
+			all_core = {
+				remove_core = SPA
+			}
+			any_owned = {
+				limit = { is_core = CHL }
+				colonial = no
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+#Haiti
+country_event = {
+
+	id = 97760
+
+	trigger = {
+		tag = SPA
+		owns = 2214
+		owns = 2216
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 90
+		modifier = {
+			factor = 0.9
+			has_global_flag = ecu_bolivar_independence_war
+		}
+		modifier = {
+			factor = 0.9
+			has_global_flag = per_bolivar_independence_war
+		}
+		modifier = {
+			factor = 0.9
+			has_global_flag = independence_of_south_america
+		}
+		modifier = {
+			factor = 0.9
+			exists = MEX
+			MEX = {vassal_of = SPA}
+			
+		}
+		modifier = {
+			factor = 0.9
+			exists = CHL
+			CHL = {vassal_of = SPA}
+		}
+	}
+
+	title = "EVTNAME97760"
+	desc = "EVTDESC97760"
+	picture = "hispaniola"
+
+	option = {
+		name = "EVTOPTA97760"
+		2214 = {
+			secede_province = HAI
+		}
+		2216 = {
+			secede_province = HAI
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+	option = {
+		name = "EVTOPTB97760"
+		2214 = {
+			secede_province = DOM
+		}
+		2216 = {
+			secede_province = DOM
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+	option = {
+		name = "EVTOPTC97760"
+		2214 = {
+			add_province_modifier = {
+				name = struggle_for_independence
+				duration = -1
+			}
+		}
+		2216 = {
+			add_province_modifier = {
+				name = struggle_for_independence
+				duration = -1
+			}
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+#Peru-Bolivia
+country_event = {
+
+	id = 97770
+
+	is_triggered_only = yes
+
+	title = "EVTNAME97770"
+	desc = "EVTDESC97770"
+	picture = "peru-bolivia"
+
+	option = {
+		name = "EVTOPTA97770"
+		FROM = {
+			country_event = 97771
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = "EVTOPTB97770"
+		relation = {who = FROM value = -100}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+country_event = {
+
+	id = 97771
+
+	is_triggered_only = yes
+
+	title = "EVTNAME97771"
+	desc = "EVTDESC97771"
+	picture = "peru-bolivia"
+
+	option = {
+		name = "EVTOPTA97771"
+		prestige = 10
+		inherit = FROM
+		change_tag = PBC
+		capital = 2578
+		PEU = {
+			all_core = {
+				add_core = PBC
+			}
+		}
+		BOL = {
+			all_core = {
+				add_core = PBC
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 97772
+
+	trigger = {
+		tag = PBC
+		has_recently_lost_war = yes
+		is_greater_power = no
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME97772"
+	desc = "EVTDESC97772"
+	picture = "Unite"
+
+	option = {
+		name = "EVTOPTA97772"
+		release = BOL
+		change_tag = PEU
+		PBC = {
+			all_core = {
+				remove_core = PBC
+			}
+		}
+		BOL = {
+			all_core = {
+				remove_core = PEU
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB97772"
+		release = PEU
+		change_tag = BOL
+		PBC = {
+			all_core = {
+				remove_core = PBC
+			}
+		}
+		PEU = {
+			all_core = {
+				remove_core = BOL
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+#Los Altos
+country_event = {
+
+	id = 97780
+
+	trigger = {
+		tag = GUA
+		exists = LAL
+		NOT = { year = 1860 }
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 30
+	}
+
+	title = "EVTNAME97780"
+	desc = "EVTDESC97780"
+	picture = "Unite"
+
+	option = {
+		name = "EVTOPTA97780"
+		2187 = {
+			add_core = THIS
+		}
+	}
+}

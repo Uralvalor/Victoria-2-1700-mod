@@ -1,0 +1,63 @@
+# CSA Alaska Purchase 1/3
+country_event = {
+	id = 732509
+	title = "EVTNAME32509"
+	desc = "EVTDESC32509"
+	picture = "alaska"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA32509"
+		CSA = {
+			country_event = 732510
+		}
+		USA_1 = {
+			secede_province = CSA
+			remove_core = RUS
+		}
+		any_owned = {
+			limit = {
+				continent = north_america
+			}
+			secede_province = CSA
+			remove_core = RUS
+		}
+		ai_chance = {
+			factor = 80
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB32509"
+		CSA = {
+			set_global_flag = you_did_try
+			country_event = 32511
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+# CSA Alaska Purchase 2/3 Russia Accepts 
+country_event = {
+	id = 732510
+	title = "EVTNAME32510"
+	desc = "EVTDESC32510"
+	picture = "alaska"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA32510"
+		money = -72000
+		any_pop = {
+				consciousness = -1
+		}
+		RUS = {
+			money = 72000
+		}
+	}
+}
+

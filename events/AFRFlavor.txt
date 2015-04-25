@@ -1,0 +1,534 @@
+#Mahdist War in the Sudan
+country_event = {
+
+	id = 95900
+
+	title = "EVTNAME95900"
+	desc = "EVTDESC95900"
+	picture = "mahdi"
+
+	trigger = {
+		year = 1870
+		owns = 1827
+		NOT = {
+			exists = SUD
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 10
+		
+		modifier = {
+			factor = 1.5
+			civilized = no
+		}
+		modifier = {
+			factor = 0.9
+			invention = separatism
+		}
+		modifier = {
+			factor = 0.8
+			any_state = {
+				any_owned_province = { is_core = SUD }
+				average_militancy = 3
+			}
+		}
+		modifier = {
+			factor = 0.8
+			any_state = {
+				any_owned_province = { is_core = SUD }
+				average_militancy = 4
+			}
+		}
+		modifier = {
+			factor = 0.8
+			any_state = {
+				any_owned_province = { is_core = SUD }
+				average_militancy = 5
+			}
+		}
+		modifier = {
+			factor = 0.8
+			any_state = {
+				any_owned_province = { is_core = SUD }
+				average_militancy = 6
+			}
+		}
+		modifier = {
+			factor = 0.5
+			part_of_sphere = yes
+		}
+	}
+
+	option = {
+		name = "EVTOPTA95900"
+		set_country_flag = mahdist_rebellion
+		any_owned = {
+			limit = { is_core = SUD }
+			random_list = {
+				25 = {
+					poor_strata = {
+						limit = {
+							culture = sudanese
+						}
+						militancy = 6
+					}
+					add_province_modifier = {
+						name = nationalist_agitation
+						duration = 1095
+					}
+				}
+				50 = {
+					poor_strata = {
+						limit = {
+							culture = sudanese
+						}
+						militancy = 3
+					}
+					add_province_modifier = {
+						name = nationalist_agitation
+						duration = 730
+					}
+				}
+				25 = {
+				}
+			}
+		}									
+	}
+}
+
+country_event = {
+	id = 95901
+	title = "EVTNAME95901" #Mahdist Victorious
+	desc = "EVTDESC95901"
+	major = yes
+
+	trigger = {
+		owns = 1827
+		1827 = {
+			has_province_modifier = mahdist_control
+		}
+	}
+
+	option = {
+		name = "EVTOPTA95901"
+		set_global_flag = british_dismantled
+		any_pop = {
+			limit = {
+				location = { is_core = SUD }
+			}
+			militancy = -4
+		}
+		release = SUD
+		SUD = {
+			government = presidential_dictatorship
+		}
+		clr_country_flag = mahdist_rebellion
+		set_global_flag = mahdist_rebellion_win
+	}		
+}
+
+country_event = {
+
+	id = 95902
+
+	title = "EVTNAME95902"
+	desc = "EVTDESC95902"
+	picture = "mahdi"
+
+	trigger = {
+		tag = SUD
+		has_global_flag = mahdist_rebellion_win
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 4
+	}
+
+	option = {
+		name = "EVTOPTA95901"
+		clr_country_flag = mahdist_rebellion
+		any_pop = {
+			militancy = 1
+		}
+		1827 = {
+			add_province_modifier = {
+				name = mahdi_tomb
+				duration = -1
+			}
+		}						
+	}
+}
+country_event = {
+
+	id = 95903
+
+	title = "EVTNAME95902"
+	desc = "EVTDESC95902"
+
+	trigger = {
+		ai = yes
+		NOT = { exists = SNR }
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA95901"
+		SNR = {
+			all_core = {
+				add_core = SUD
+				remove_core = SNR
+				remove_core = EGY
+			}
+		}					
+	}
+}
+
+country_event = {
+
+	id = 95910
+
+	title = "EVTNAME95910"
+	desc = "EVTDESC95910"
+	picture = "unitedfruit"
+
+	trigger = {
+		any_owned_province = {
+			continent = africa
+			is_colonial = yes
+		}
+		invention = national_identity
+		
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 4
+	}
+
+	option = {
+		name = "EVTOPTA95910"
+		ALD_1714 = {
+			add_core = ALD
+		}
+		ALD_1718 = {
+			add_core = ALD
+		}
+		ENG_2074 = {
+			add_core = TSW
+		}
+		ENG_2068 = {
+			add_core = RHO
+		}
+		ENG_2014 = {
+			add_core = ZAM
+		}
+		ENG_2016 = {
+			add_core = ZAM
+		}
+		POR_2049 = {
+			add_core = MOZ
+		}
+		POR_2060 = {
+			add_core = MOZ
+		}
+		POR_2053 = {
+			add_core = MOZ
+		}
+		POR_1999 = {
+			add_core = ANG
+		}
+		POR_2003 = {
+			add_core = ANG
+		}
+		POR_2006 = {
+			add_core = ANG
+		}
+		ENG_2039 = {
+			add_core = TNZ
+		}
+		ENG_2034 = {
+			add_core = TNZ
+		}
+		ENG_2029 = {
+			add_core = TNZ
+		}
+		ENG_2024 = {
+			add_core = KNY
+		}
+		ENG_2026 = {
+			add_core = KNY
+		}
+		ENG_2019 = {
+			add_core = UGA
+		}
+		ENG_1868 = {
+			add_core = SOM
+		}
+		ENG_1848 = {
+			add_core = ERT
+		}
+		ENG_1825 = {
+			add_core = CHD
+		}
+		ENG_1818 = {
+			add_core = CHD
+		}
+		FRA_1965 = {
+			add_core = CAR
+		}
+		FRA_1978 = {
+			add_core = CGO
+		}
+		FRA_1972 = {
+			add_core = GAB
+		}
+		ENG_1956 = {
+			add_core = CMR
+		}
+		ENG_1960 = {
+			add_core = CMR
+		}
+		FRA_1808 = {
+			add_core = NIG
+		}
+		FRA_1813 = {
+			add_core = NIG
+		}
+		FRA_1816 = {
+			add_core = NGR
+		}
+		FRA_1937 = {
+			add_core = NGR
+		}
+		FRA_1939 = {
+			add_core = NGR
+		}
+		FRA_1927 = {
+			add_core = NGR
+		}
+		FRA_1930 = {
+			add_core = NGR
+		}
+		FRA_1923 = {
+			add_core = NGR
+		}
+		FRA_1931 = {
+			add_core = NGR
+		}
+		FRA_1919 = {
+			add_core = BEN
+		}
+		FRA_1914 = {
+			add_core = TOG
+		}
+		FRA_1803 = {
+			add_core = MLI
+		}
+		FRA_1798 = {
+			add_core = MLI
+		}
+		FRA_1801 = {
+			add_core = MLI
+		}
+		FRA_1780 = {
+			add_core = MAU
+		}
+		FRA_1775 = {
+			add_core = MAU
+		}
+		FRA_1783 = {
+			add_core = SNG
+		}
+		FRA_1788 = {
+			add_core = SNG
+		}
+		FRA_1879 = {
+			add_core = GNE
+		}
+		FRA_1892 = {
+			add_core = IVC
+		}
+		FRA_1893 = {
+			add_core = IVC
+		}
+		FRA_1884 = {
+			add_core = SLE
+		}
+		ENG_2083 = {
+			add_core = NAM
+		}
+		ENG_2078 = {
+			add_core = NAM
+		}
+		FRA_1901 = {
+			add_core = RHV
+		}
+		FRA_1907 = {
+			add_core = GAN
+		}
+		BEL_1977 = {
+			add_core = CNG
+		}
+		BEL_1984 = {
+			add_core = CNG
+		}
+		BEL_1987 = {
+			add_core = CNG
+		}
+		BEL_1990 = {
+			add_core = CNG
+		}
+		BEL_1992 = {
+			add_core = CNG
+		}
+		EGY_1842 = {
+			add_core = SUD
+		}
+		ENG_1843 = {
+			add_core = SUD
+		}
+		ENG_1887 = {
+			add_core = LIB
+		}
+		2066 = {
+			add_core = MLW
+			remove_core = MOZ
+		}
+		2067 = {
+			add_core = MLW
+			remove_core = ZAM
+		}
+		2034 = {
+			add_core = RWA
+			remove_core = TNZ
+		}
+		2035 = {
+			add_core = BRD
+			remove_core = TNZ
+		}
+		1785 = {
+			add_core = GMB
+			remove_core = SNG
+		}
+		1877 = {
+			add_core = GBS
+			remove_core = SNG
+		}
+		1878 = {
+			add_core = GBS
+			remove_core = SNG
+		}
+		1973 = {
+			add_core = EQG
+			remove_core = GAB
+		}
+		1875 = {
+			add_core = DJI
+			remove_core = ERT
+		}						
+	}
+}
+#Cores
+country_event = {
+
+	id = 95920
+
+	title = "EVTNAME95910"
+	desc = "EVTDESC95910"
+	picture = "unitedfruit"
+
+	trigger = {
+		ai = yes
+		OR = {
+			1714 = { 
+				empty = no 
+				NOT = {is_core = ALD}
+			}
+			1716 = { 
+				empty = no 
+				NOT = {is_core = ALD}
+			}
+			1717 = { 
+				empty = no 
+				NOT = {is_core = ALD}
+			}
+			1718 = { 
+				empty = no 
+				NOT = {is_core = ALD}
+			}
+			1719 = { 
+				empty = no 
+				NOT = {is_core = ALD}
+			}
+			1720 = { 
+				empty = no 
+				NOT = {is_core = ALD}
+			}
+			1721 = { 
+				empty = no 
+				NOT = {is_core = ALD}
+			}
+			1722 = { 
+				empty = no 
+				NOT = {is_core = ALD}
+			}
+			1724 = { 
+				empty = no 
+				NOT = {is_core = ALD}
+			}
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA95910"
+		any_country = {
+			limit = {
+				OR = {
+					owns = 1714
+					owns = 1716
+					owns = 1717
+					owns = 1718
+					owns = 1719
+					owns = 1720
+					owns = 1721
+					owns = 1722
+					owns = 1724
+				}
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						province_id = 1714
+						province_id = 1716
+						province_id = 1717
+						province_id = 1718
+						province_id = 1719
+						province_id = 1720
+						province_id = 1721
+						province_id = 1722
+						province_id = 1724
+					}
+					NOT = {is_core = ALD}
+				}
+				add_core = ALD
+			}	
+		}						
+	}
+}

@@ -1,0 +1,315 @@
+# Pan-Nationalist
+country_event = {
+	title = "EVTNAME11100"
+	desc = "EVTDESC11100"
+	picture = "Celebration"
+
+	id = 11100
+
+	is_triggered_only = yes
+
+	option = {				# Accept inheritance
+		name = "EVTOPTA11100"
+		change_tag = culture
+		any_country = {
+			limit = {
+				NOT = {
+					tag = THIS
+				}
+				is_culture_group = THIS
+				is_greater_power = no
+				OR = {
+					in_sphere = THIS
+					AND = {
+						part_of_sphere = no
+						NOT = {
+							OR = {
+								tag = AUS
+								tag = KUK
+								}
+							}
+						}
+					tag = WAL
+					tag = MOL
+					tag = MON
+					tag = BOS
+					tag = SER
+					tag = SLO
+					AND = {
+						OR = {
+							tag = AUS
+							tag = KUK
+						}
+						exists = HUN
+						part_of_sphere = no
+					}
+				}
+				num_of_cities = 1
+			}
+			country_event = 11101
+		}
+		political_reform = wealth_voting
+		political_reform = population_equal_weight
+		political_reform = yes_meeting
+		political_reform = free_press
+		political_reform = non_socialist
+		political_reform = secret_ballots
+		government = hms_government
+		add_accepted_culture = union
+		prestige = -15
+		badboy = 10
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 200
+				OR = {
+					tag = MOL
+					tag = WAL
+				}
+			}
+			modifier = {
+				factor = 5
+				government = hms_government
+			}
+			modifier = {
+				factor = 10
+				government = democracy
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = liberal
+			}
+			modifier = {
+				factor = 3
+				upper_house = {
+					ideology = liberal
+					value = 0.5
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTB11100"
+		prestige = 2
+		ai_chance = {
+			factor = 95
+			modifier = {
+				factor = 1.5
+				government = absolute_monarchy
+			}
+		}
+		any_pop = {
+			militancy = 1
+		}
+	}
+}
+
+# Event to Inherit
+country_event = {
+	id = 11101
+	title = "EVTNAME11101"
+	desc = "EVTDESC11101"
+	picture = "Celebration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA11101"
+		FROM = {
+			inherit = THIS
+		}
+		ai_chance = {
+			factor = 99
+		}
+	}
+
+	option = {
+		name = "EVTOPTB11101"
+		prestige = 1
+		relation = {
+			who = FROM
+			value = -100
+		}
+		any_pop = {
+			militancy = 3
+			consciousness = 2
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Italian Red Shirt Unification
+country_event = {
+	title = "EVTNAME11103"
+	desc = "EVTDESC11103"
+	picture = "Celebration"
+
+	id = 11103
+
+	is_triggered_only = yes
+
+	option = {				# Accept inheritance
+		name = "EVTOPTA11103"
+		change_tag = culture
+		add_accepted_culture = north_italian
+		add_accepted_culture = south_italian
+		any_country = {
+			limit = {
+				NOT = {
+					tag = THIS
+				}
+				is_culture_group = THIS
+				#is_greater_power = no
+				num_of_cities = 1
+			}
+			country_event = 11101
+		}
+		prestige = 10
+		capital = 749
+		ai_chance = {
+			factor = 99
+		}
+	}
+
+	option = {
+		name = "EVTOPTB11103"
+		prestige = 5
+		set_country_flag = does_not_want_to_be_unified
+		ai_chance = {
+			factor = 1
+		}
+		any_pop = {
+			militancy = 2
+		}
+	}
+}
+
+
+# Generic Event to Inherit
+country_event = {
+	id = 98650
+	title = "EVTNAME98650" #Unification
+	desc = "EVTDESC98650"
+	picture = "Celebration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We will accept the union."
+		any_country = {
+			limit = {
+				OR = {
+					is_sphere_leader_of = THIS
+					is_our_vassal = THIS
+				}
+				NOT = { tag = FROM }
+			}
+			relation = {
+				who = FROM
+				value = -50
+			}
+			casus_belli = {
+				target = FROM
+				type = humiliate
+				months = 12
+			}
+		}
+		FROM = { inherit = THIS }	
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0
+				is_greater_power = yes
+				NOT = { has_country_flag = wants_to_unify }
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					alliance_with = FROM
+					relation = { who = FROM value = 100 }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				government = fascist_dictatorship
+				FROM = { government = proletarian_dictatorship }
+			}
+			modifier = {
+				factor = 0.1
+				government = proletarian_dictatorship
+				FROM = { government = fascist_dictatorship }
+			}
+		}
+	}
+	
+	option = {
+		name = "We have no interest in becoming part of $FROMCOUNTRY$."
+		clr_country_flag = wants_to_unify
+		prestige = 1
+		leave_alliance = FROM
+		relation = {
+			who = FROM
+			value = -200
+		}
+		FROM = {
+			diplomatic_influence = {
+				who = THIS
+				value = -200
+			}
+		}
+		any_pop = {
+			limit = { is_primary_culture = yes }
+			militancy = 3
+			consciousness = 2
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				has_country_flag = wants_to_unify
+			}
+			modifier = {
+				factor = 3
+				truce_with = FROM
+			}
+			modifier = {
+				factor = 1.5
+				NOT = {
+					relation = { who = FROM value = 0 }
+				}
+			}
+			modifier = {
+				factor = 0.25
+				in_sphere = FROM
+			} 
+			modifier = {
+				factor = 0.25
+				government = fascist_dictatorship
+				FROM = { government = fascist_dictatorship }
+			}
+			modifier = {
+				factor = 0.25
+				government = proletarian_dictatorship
+				FROM = { government = proletarian_dictatorship }
+			}
+			modifier = {
+				factor = 0.25
+				OR = {
+					government = democracy
+					government = prussian_constitutionalism
+					government = hms_government
+				}
+				FROM = {
+					OR = {
+						government = democracy
+						government = prussian_constitutionalism
+						government = hms_government
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,444 @@
+country_event = {
+
+	id = 36700
+	news = yes
+	news_title = "EVTNAME36700_NEWS_TITLE"
+	news_desc_long = "EVTDESC36700_NEWS_LONG"
+	news_desc_medium = "EVTDESC36700_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC36700_NEWS_SHORT"
+
+	trigger = {
+		tag = BEL 
+		year = 1837
+		NOT = {
+			year = 1840
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1838
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1839
+		}
+	}
+
+	title = "EVTNAME36700"
+	desc = "EVTDESC36700"
+	picture = "lion"
+
+	option = {
+		name = "EVTOPTA36700" 
+		prestige = 5
+		any_pop = {
+			limit = {
+				has_pop_culture = flemish
+			}
+			consciousness = 2
+		}
+	}
+}
+
+country_event = {
+
+	id = 36701
+	news = yes
+	news_desc_long = "EVTDESC36701_NEWS_LONG"
+	news_desc_medium = "EVTDESC36701_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC36701_NEWS_SHORT"
+
+	trigger = {
+		tag = BEL 
+		year = 1846
+		NOT = {
+			year = 1850
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1847
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1848
+		}
+	}
+
+	title = "EVTNAME36701"
+	desc = "EVTDESC36701"
+	picture = "Administration"
+
+	option = {
+		name = "EVTOPTA36701" 
+		any_pop = {
+			limit = {
+				has_pop_culture = flemish
+			}
+			consciousness = 3
+			militancy = 1
+		}
+	}
+}
+
+country_event = {
+
+	id = 36704
+	news = yes
+	news_desc_long = "EVTDESC36704_NEWS_LONG"
+	news_desc_medium = "EVTDESC36704_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC36704_NEWS_SHORT"
+
+	trigger = {
+		tag = BEL 
+		year = 1845
+		NOT = {
+			year = 1848
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1846
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1847
+		}
+	}
+
+	title = "EVTNAME36704"
+	desc = "EVTDESC36704"
+	picture = "sax"
+
+	
+	option = {
+		name = "EVTOPTA36704" 
+		prestige = 2
+	}
+}
+
+country_event = {
+
+	id = 36705
+	news = yes
+	news_desc_long = "EVTDESC36705_NEWS_LONG"
+	news_desc_medium = "EVTDESC36705_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC36705_NEWS_SHORT"
+
+	trigger = {
+		tag = BEL 
+		year = 1861
+		NOT = {
+			year = 1864
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1862
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1863
+		}
+	}
+
+	title = "EVTNAME36705"
+	desc = "EVTDESC36705"
+	picture = "Solvay"
+
+	option = {
+		name = "EVTOPTA36705" 
+		prestige = 5
+		years_of_research = 0.4
+	}
+}
+
+country_event = {
+
+	id = 36706
+	news = yes
+	news_desc_long = "EVTDESC36706_NEWS_LONG"
+	news_desc_medium = "EVTDESC36706_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC36706_NEWS_SHORT"
+
+	trigger = {
+		tag = BEL 
+		year = 1861
+		NOT = {
+			year = 1864
+			has_global_flag = FatherDamien #global flag to set event for Hawaii
+		}
+	}
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1862
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1863
+		}
+	}
+
+	title = "EVTNAME36706"
+	desc = "EVTDESC36706"
+	picture = "leper"
+
+	option = {
+		name = "EVTOPTA36706" 
+		set_global_flag = FatherDamien
+		prestige = 2
+	}
+}
+#ChronologyMod
+country_event = {
+
+	id = 36707
+
+	trigger = {
+		tag = NET
+		NOT = {
+			year = 1836
+		}
+	}
+
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME36707"
+	desc = "EVTDESC36707"
+	picture = "belgium_revolution"
+
+	option = {
+		name = "EVTOPTA36707" 
+		any_pop = {
+			limit = {
+				OR = {
+					culture = flemish
+					culture = wallonian
+				}
+			}
+			militancy = 4
+		}
+		any_owned = {
+			limit = {
+				is_core = BEL
+			}
+			add_province_modifier = {
+				name = separatist
+				duration = -1
+			}
+		}
+		set_country_flag = belgian_rebels
+	}
+}
+country_event = {
+
+	id = 36708
+
+	trigger = {
+		tag = NET
+		has_country_flag = belgian_rebels
+	}
+
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 60
+		
+		modifier = {
+			factor = 0.9
+			year = 1820
+		}
+		modifier = {
+			factor = 0.8
+			year = 1824
+		}
+		modifier = {
+			factor = 0.75
+			year = 1828
+		}
+		modifier = {
+			factor = 0.7
+			year = 1832
+		}
+		modifier = {
+			factor = 0.7
+			year = 1836
+		}
+		modifier = {
+			factor = 0.65
+			year = 1840
+		}
+		modifier = {
+			factor = 0.6
+			year = 1844
+		}
+		modifier = {
+			factor = 0.55
+			year = 1848
+		}
+		modifier = {
+			factor = 0.5
+			year = 1852
+		}
+		modifier = {
+			factor = 0.5
+			FRA = {
+				NOT = {
+					government = absolute_monarchy
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = liberal_revolution_somewhere
+		}
+		modifier = {
+			factor = 0.1
+			has_country_flag = liberal_revolution_in_progress
+		}
+	}
+
+	title = "EVTNAME36708"
+	desc = "EVTDESC36708"
+	picture = "belgium_revolution"
+
+	option = {
+		name = "EVTOPTA36708" 
+		release = BEL
+		war = {
+			target = BEL
+			attacker_goal = {
+				casus_belli = conquest
+			}
+		}
+		clr_country_flag = belgian_rebels
+		set_global_flag = belgian_revolution
+		ai_chance = {
+			factor = 80
+		}
+	}
+
+	option = {
+		name = "EVTOPTB36708" 
+		release = BEL
+		BEL = {
+			all_core = {
+				remove_core = THIS
+			}
+		}
+		clr_country_flag = belgian_rebels
+		set_country_flag = signed_treay_of_london
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+country_event = {
+
+	id = 36709
+
+	trigger = {
+		tag = FRA
+		has_global_flag = belgian_revolution
+	}
+
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 1
+		
+	}
+
+	title = "EVTNAME36709"
+	desc = "EVTDESC36709"
+	picture = "belgium_revolution"
+
+	option = {
+		name = "EVTOPTA36709" 
+		diplomatic_influence = { who = BEL value = 200 }
+		relation = { who = NET value = -200 }
+		leave_alliance = NET
+		clr_country_flag = belgian_rebels
+	}
+
+	option = {
+		name = "EVTOPTB36709" 
+		relation = { who = NET value = 100 }
+		relation = { who = BEL value = -100 }
+		clr_country_flag = belgian_rebels
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+country_event = {
+
+	id = 36710
+
+	trigger = {
+		OR = {
+			tag = BEL
+			tag = WLL
+		}
+		war = no
+		LUX = { owns = 398 }
+		LUX = { ai = yes }
+	}
+
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 1
+		
+	}
+
+	title = "EVTNAME36710"
+	desc = "EVTDESC36710"
+	picture = "belgium_revolution"
+
+	option = {
+		name = "EVTOPTA36710" 
+		398 = {
+			secede_province = THIS
+		}
+	}
+}

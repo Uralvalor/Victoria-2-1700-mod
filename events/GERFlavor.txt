@@ -1,0 +1,1199 @@
+
+country_event = {
+
+	id = 33003 #parallel event is BAY 33403
+	news = yes
+	news_desc_long = "EVTDESC33403_NEWS_LONG"
+	news_desc_medium = "EVTDESC33403_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC33403_NEWS_SHORT"
+
+	trigger = {
+		tag = GER
+		year = 1875
+		nationalism_n_imperialism = 1 #has the nationalism tech
+		owns = 598 #Bayreuth
+		NOT = {
+			exists = BAV
+			year = 1885
+			has_global_flag = RichardWagner
+		}
+	}
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1876
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1877
+		}
+	}
+
+	title = "EVTNAME33403"
+	desc = "EVTDESC33403"
+	picture = "wagner"
+
+	option = {
+		name = "EVTOPTA33403" 
+		prestige = 10
+		treasury = -200
+		set_global_flag = RichardWagner
+	}
+}
+
+province_event = {
+
+	id = 33004 #will set up DAN36206
+	news = yes
+	news_desc_long = "EVTDESC33004_NEWS_LONG"
+	news_desc_medium = "EVTDESC33004_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC33004_NEWS_SHORT"
+
+	trigger = {
+		province_id = 371 #Aabenra/North Schleswig
+		owned_by = GER
+		year = 1896
+		culture = danish
+		NOT = {
+			year = 1899
+			has_global_flag = GermanizeSchlewsigDanes
+			has_global_flag = NOGermanizeSchlewsigDanes
+			}
+		}
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1897
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1898
+		}
+	}
+
+	title = "EVTNAME33004"
+	desc = "EVTDESC33004"
+
+	option = {
+		name = "EVTOPTA33004" 
+		any_pop = {
+			limit = {
+				has_pop_culture = danish
+			}
+			militancy = 2
+		}
+		relation = { who = DEN value = -100 }
+		set_global_flag = GermanizeSchlewsigDanes
+	}
+
+	option = {
+		name = "EVTOPTB33004" 
+		any_pop = {
+			dominant_issue = {
+				value = jingoism
+				factor = 0.1
+			}
+		}
+		relation = { who = DEN value = 100 }
+		set_global_flag = NOGermanizeSchlewsigDanes
+	}
+}
+
+country_event = {
+
+	id = 33000
+	news = yes
+	news_desc_long = "EVTDESC33000_NEWS_LONG"
+	news_desc_medium = "EVTDESC33000_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC33000_NEWS_SHORT"
+
+	trigger = {
+		tag = GER
+		year = 1916
+		NOT = {
+			year = 1920
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1917
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1918
+		}
+	}
+
+	title = "EVTNAME33000"
+	desc = "EVTDESC33000"
+	picture = "theatre"
+
+	option = {
+		name = "EVTOPTA33000" 
+		prestige = 1
+	}
+
+}
+
+country_event = {
+
+	id = 33001
+	news = yes
+	news_desc_long = "EVTDESC33001_NEWS_LONG"
+	news_desc_medium = "EVTDESC33001_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC33001_NEWS_SHORT"
+
+	trigger = {
+		tag = GER
+		year = 1874
+		NOT = {
+			year = 1877
+			}	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1875
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1876
+		}
+	}
+
+	title = "EVTNAME33001"
+	desc = "EVTDESC33001"
+	picture = "Circus"
+
+	option = {
+		name = "EVTOPTA33001" 
+		prestige = 1
+		any_pop = {
+			consciousness = 1
+		}
+	}
+}
+
+country_event = {
+
+	id = 33002
+	news = yes
+	news_desc_long = "EVTDESC33002_NEWS_LONG"
+	news_desc_medium = "EVTDESC33002_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC33002_NEWS_SHORT"
+
+	trigger = {
+		tag = GER
+		year = 1880
+		NOT = {
+			year = 1883
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1881
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1882
+		}
+	}
+
+	title = "EVTNAME33002"
+	desc = "EVTDESC33002"
+	picture = "School"
+
+	option = {
+		name = "EVTOPTA33002" 
+		prestige = 5
+	}
+
+}
+
+country_event = {
+
+	id = 33005
+	news = yes
+	news_desc_long = "EVTDESC33005_NEWS_LONG"
+	news_desc_medium = "EVTDESC33005_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC33005_NEWS_SHORT"
+
+	trigger = {
+		tag = GER
+		year = 1903
+		is_greater_power = yes
+		TUR = {
+			war = no
+			owns = 926 #Baghdad
+			is_vassal = no
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+				}
+			NOT = {
+				alliance_with = ENG
+				alliance_with = FRA
+				alliance_with = RUS
+				}
+		}
+		NOT = {
+			year = 1910
+			alliance_with = TUR
+			has_global_flag = BerlinBaghdadRail
+		}
+	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1904
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1908
+		}
+	}
+
+	title = "EVTNAME33005"
+	desc = "EVTDESC33005"
+	picture = "bagdadrailway"
+	
+
+	option = {
+		name = "EVTOPTA33005" 
+		prestige = 10
+		set_global_flag = BerlinBaghdadRail
+		relation = { who = TUR value = 100 }
+		relation = { who = ENG value = -75 }
+		relation = { who = RUS value = -75 }
+	}
+
+	option = {
+		name = "EVTOPTB33005" 
+		relation = { who = TUR value = -50 }
+		relation = { who = ENG value = 75 }
+		relation = { who = RUS value = 75 }
+		officers = {
+			consciousness = 2
+			}
+		capitalists = {
+			consciousness = 2
+			}
+	}
+
+}
+
+# ChronologyMod
+
+#GER for AI
+
+country_event = {
+
+	id = 99700
+
+	trigger = {
+		tag = PRU
+		ai = yes
+		state_n_government = 1
+		NOT = {
+			GER = {
+				all_core = {
+					OR = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								OR = {
+									in_sphere = THIS
+									sphere_owner = {
+										ai = no
+									}
+								}
+							}
+						}
+						NOT = {
+							culture = north_german
+						}
+					}
+				}
+			}
+		}
+	}
+	
+ 
+	mean_time_to_happen =  {
+		months = 10
+	}
+
+	title = "EVTNAME99700"
+	desc = "EVTDESC99700"
+
+	option = {
+		name = "EVTOPTA99700"
+		random_country = {
+			limit = {
+				primary_culture = north_german
+				ai = yes
+				NOT = { in_sphere = THIS }
+				OR = {
+					sphere_owner = { ai = yes }
+					part_of_sphere = no
+				}
+			}
+			country_event = 99702
+		}
+	}
+}
+country_event = {
+
+	id = 99701
+
+	trigger = {
+		tag = NGF
+		ai = yes
+		nationalism_n_imperialism = 1
+		NOT = {
+			GER = {
+				all_core = {
+					OR = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								OR = {
+									in_sphere = THIS
+									sphere_owner = {
+										ai = no
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		BAV = {is_greater_power = no}
+	}
+	
+ 
+	mean_time_to_happen =  {
+		months = 10
+	}
+
+	title = "EVTNAME99701"
+	desc = "EVTDESC99701"
+
+	option = {
+		name = "EVTOPTA99701"
+		random_country = {
+			limit = {
+				NOT = { tag = THIS }
+				capital_scope = {is_core = GER}
+				ai = yes
+				NOT = { in_sphere = THIS }
+				OR = {
+					sphere_owner = { ai = yes }
+					part_of_sphere = no
+				}
+			}
+			country_event = 99702
+		}
+	}
+}
+country_event = {
+
+	id = 99702
+
+	is_triggered_only = yes
+ 
+	title = "EVTNAME99702"
+	desc = "EVTDESC99702"
+
+	option = {
+		name = "EVTOPTA99702"
+		sphere_owner = {
+			diplomatic_influence = {
+				who = THIS
+				value = -100
+			}
+		}
+		FROM = {
+			diplomatic_influence = {
+				who = THIS
+				value = 200
+			}
+		}
+	}
+}
+
+
+
+country_event = {
+
+	id = 95221
+
+	trigger = {
+		tag = GER
+		year = 1875
+		NOT = {
+			year = 1883
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1878
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1881
+		}
+	}
+
+	title = "EVTNAME95221"
+	desc = "EVTDESC95221"
+	picture = "Socialism"
+
+	option = {
+		name = "EVTOPTA95221"
+		any_pop = {
+			ideology = {
+				value = socialist
+				factor = 0.02
+			}
+			consciousness = 0.5
+		}
+	}
+
+}
+country_event = {
+
+	id = 95222
+
+	trigger = {
+		tag = GER
+		year = 1878
+		NOT = {
+			year = 1890
+			ruling_party_ideology = socialist
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1882
+		}
+
+
+		modifier = {
+			factor = 0.95
+			year = 1884
+		}
+	}
+
+	title = "EVTNAME95222"
+	desc = "EVTDESC95222"
+	picture = "antisocial"
+
+	option = {
+		name = "EVTOPTA95222"
+		any_pop = {
+			scaled_militancy = {
+				ideology = socialist
+				factor = 1
+			}
+		}
+	}
+
+}
+country_event = {
+
+	id = 95223
+
+	trigger = {
+		tag = GER
+		revolution_n_counterrevolution = 1
+		is_ideology_enabled = fascist
+		OR = {
+			government = absolute_monarchy
+			government = hms_government
+			government = prussian_constitutionalism
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 70
+		modifier = {
+			factor = 0.5
+			average_militancy = 7
+		}
+		modifier = {
+			factor = 0.5
+			year = 1920
+		}	
+		modifier = {
+			factor = 0.7
+			average_consciousness = 9
+		}
+		modifier = {
+			factor = 0.7
+			war_exhaustion = 6
+		}
+		modifier = {
+			factor = 0.5
+			war = yes
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 7
+		}
+		modifier = {
+			factor = 0.8
+			war_exhaustion = 4
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.8
+			average_militancy = 3
+		}
+		modifier = {
+			factor = 0.8
+			average_militancy = 5
+		}
+		modifier = {
+			factor = 5
+			NOT = {
+				year = 1910
+			}
+		}
+		modifier = {
+			factor = 0.001
+			OR = {
+				has_country_flag = world_war_loser
+				AND = {
+					has_global_flag = world_war_one_is_over
+					NOT = {
+						ENG = {
+							has_country_flag = world_war_loser
+						}
+						FRA = {
+							has_country_flag = world_war_loser
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 5
+			has_global_flag = world_war_one_is_now
+		}
+	}
+
+	title = "EVTNAME95223"
+	desc = "EVTDESC95223"
+	picture = "novgerrev"
+
+	option = {
+		name = "EVTOPTA95223"
+		government = democracy
+		political_reform = landed_voting
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+				name = provisional_government
+				duration = 365
+		}
+		ai_chance = {
+			factor = 85
+		}
+		set_country_flag = november_revolution
+	}
+	option = {
+		name = "EVTOPTB95223"
+		any_pop = {
+			consciousness = 5
+			militancy = 5
+		}
+		ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 0
+				has_country_flag = world_war_loser
+			}
+		}
+	}
+
+}
+country_event = {
+
+	id = 95224
+
+	trigger = {
+		tag = GER
+		has_country_modifier = provisional_government
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 4
+
+		modifier = {
+			factor = 0.5
+			upper_house = {
+				ideology = communist
+				value = 0.2
+			}
+		}
+
+
+		modifier = {
+			factor = 0.5
+			upper_house = {
+				ideology = communist
+				value = 0.4
+			}
+		}
+	}
+
+	title = "EVTNAME95224"
+	desc = "EVTDESC95224"
+	picture = "libnehtburg"
+
+	option = {
+		name = "EVTOPTA95224"
+		any_pop = {
+			scaled_militancy = {
+				ideology = communist
+				factor = 4
+			}
+		}
+		ai_chance = {
+			factor = 85
+		}
+	}
+	option = {
+		name = "EVTOPTB95224"
+		government = proletarian_dictatorship
+		political_reform = none_voting
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		remove_country_modifier = provisional_government
+		any_country = {
+			limit = {
+				government = proletarian_dictatorship
+			}
+			end_war = THIS
+			create_alliance	 = THIS
+			relation = { who = THIS value = 400 }
+		}
+		ai_chance = {
+			factor = 15
+		}
+		clr_country_flag = november_revolution
+		clr_global_flag = brest_negotiations_drag_on
+		clr_global_flag = treaty_of_brest_1
+		clr_global_flag = treaty_of_brest_2
+		clr_global_flag = treaty_of_brest_3
+		
+	}
+
+}
+country_event = {
+
+	id = 95225
+
+	trigger = {
+		tag = GER
+		has_country_flag = november_revolution
+	}
+	
+	fire_only_once = yes
+	major = yes
+ 
+	mean_time_to_happen =  {
+		months = 4
+
+		modifier = {
+			factor = 0.25
+			NOT = {
+				has_country_modifier = provisional_government
+			}
+		}
+	}
+
+	title = "EVTNAME95225"
+	desc = "EVTDESC95225"
+	picture = "veimar"
+
+	option = {
+		name = "EVTOPTA95225"
+		any_pop = {
+			scaled_militancy = {
+				ideology = communist
+				factor = 4
+			}
+		}
+		remove_country_modifier = provisional_government
+		clr_country_flag = november_revolution
+	}
+}
+country_event = {
+
+	id = 95226
+
+	trigger = {
+		tag = GER
+		year = 1919
+		NOT = {
+			year = 1922
+			government = fascist_dictatorship
+		}
+		OR = {
+			NOT = { 
+				has_global_flag = scenario_1914_activated 
+				has_global_flag = scenario_1923_activated 
+			}
+			AND = {
+				has_global_flag = scenario_1914_activated
+				has_country_flag = world_war_loser
+			}
+		}
+	}
+	
+	fire_only_once = yes
+	major = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1920
+		}
+		modifier = {
+			factor = 0.95
+			year = 1921
+		}
+	}
+
+	title = "EVTNAME95226"
+	desc = "EVTDESC95226"
+	picture = "hitler1"
+
+	option = {
+		name = "EVTOPTA95226"
+		any_pop = {
+			ideology = {
+				value = fascist
+				factor = 0.1
+			}
+		}
+		set_country_flag = rise_of_hitler
+	}
+}
+country_event = {
+
+	id = 95227
+	trigger = {
+		tag = GER
+		year = 1923
+		NOT = {
+			year = 1926
+			government = fascist_dictatorship
+		}
+		has_country_flag = rise_of_hitler
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1924
+		}
+		modifier = {
+			factor = 0.95
+			year = 1925
+		}
+	}
+
+	title = "EVTNAME95227"
+	desc = "EVTDESC95227"
+	picture = "beerputch"
+
+	option = {
+		name = "EVTOPTA95227"
+		any_pop = {
+			ideology = {
+				value = fascist
+				factor = 0.1
+			}
+		}
+		set_country_flag = hitler_arrested
+		ai_chance = {
+			factor = 80
+		}
+	}
+	option = {
+		name = "EVTOPTB95227"
+		government = fascist_dictatorship
+		political_reform = underground_parties
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = nobody_gets_out
+		political_reform = mandatory_service
+		political_reform = apartheid
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		ai_chance = {
+			factor = 20
+
+			modifier = {
+				factor = 0
+				has_global_flag = scenario_1923_activated
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 95228
+	trigger = {
+		tag = GER
+		NOT = {
+			year = 1936
+			government = fascist_dictatorship
+		}
+		has_country_flag = hitler_arrested
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.7
+			year = 1924
+		}
+		modifier = {
+			factor = 0.5
+			year = 1928
+		}
+	}
+
+	title = "EVTNAME95228"
+	desc = "EVTDESC95228"
+	picture = "hitler2"
+
+	option = {
+		name = "EVTOPTA95228"
+		any_pop = {
+			ideology = {
+				value = fascist
+				factor = 0.1
+			}
+		}
+		any_pop = {
+			dominant_issue = {
+				value = jingoism
+				factor = 0.1
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 95229
+	trigger = {
+		tag = GER
+		year = 1925
+		NOT = {
+			year = 1928
+			government = fascist_dictatorship
+		}
+		has_country_flag = hitler_arrested
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 20
+
+		modifier = {
+			factor = 0.7
+			year = 1928
+		}
+		modifier = {
+			factor = 0.7
+			year = 1930
+		}
+		modifier = {
+			factor = 0.7
+			average_militancy = 3
+		}
+		modifier = {
+			factor = 0.7
+			average_militancy = 5
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 5
+		}
+	}
+
+	title = "EVTNAME95229"
+	desc = "EVTDESC95229"
+	picture = "hitler2"
+
+	option = {
+		name = "EVTOPTA95229"
+		any_pop = {
+			ideology = {
+				value = fascist
+				factor = 0.1
+			}
+		}
+		upper_house = {
+			ideology = fascist
+			value = 0.05
+		}
+		clr_country_flag = hitler_arrested
+		set_country_flag = nazi_legalized
+		ai_chance = {
+			factor = 95
+		}
+	}
+	option = {
+		name = "EVTOPTB95229"
+		any_pop = {
+			scaled_militancy = {
+				ideology = fascist
+				factor = 4
+			}
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+country_event = {
+
+	id = 95230
+	trigger = {
+		tag = GER
+		has_country_flag = nazi_legalized
+		ruling_party_ideology = fascist
+	}
+	
+	fire_only_once = yes
+	major = yes
+
+	title = "EVTNAME95230"
+	desc = "EVTDESC95230"
+
+	option = {
+		name = "EVTOPTA95230"
+		government = fascist_dictatorship
+		political_reform = underground_parties
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = nobody_gets_out
+		political_reform = mandatory_service
+		political_reform = apartheid
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		clr_country_flag = hitler_arrested
+		clr_country_flag = nazi_legalized
+		clr_country_flag = rise_of_hitler
+	}
+}
+#Hohenzollern-Sigmaringen
+country_event = {
+	id = 95235
+	title = "EVTNAME95235"
+	desc = "EVTDESC95235"
+	picture = "Administration"
+
+	trigger = {
+		tag = SIG
+		vassal_of = PRU
+		has_global_flag = liberal_revolutions_should_now_fire
+		AUS = { ai = yes }
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 5
+	}
+	
+	option = {
+		name = "EVTOPTA95235"
+		PRU = {country_event = 95236}
+	}
+}
+country_event = {
+	id = 95236
+	title = "EVTNAME95236"
+	desc = "EVTDESC95236"
+	picture = "Administration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA95236"
+		inherit = FROM
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = "EVTOPTB95236"
+		release_vassal = FROM
+		diplomatic_influence = { who = FROM value = -50 }
+		ai_chance = {
+			factor = 0
+		}
+	}
+}

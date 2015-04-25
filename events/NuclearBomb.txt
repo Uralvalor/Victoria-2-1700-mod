@@ -1,0 +1,53 @@
+country_event = {
+
+	id = 195000
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	major = yes
+
+	title = "EVTNAME195000"
+	desc = "EVTDESC195000"
+
+	option = {
+		name = "EVTOPTA195000"
+		war_exhaustion = 10
+		add_country_modifier = {
+				name = nuclear_bomb_demoralisation
+				duration = 365
+			}
+		random_owned = {
+			limit = {
+				overseas = no
+			}
+			add_province_modifier = {
+				name = province_nuclear_attaked
+				duration = 60
+			}
+		}
+	}
+}
+province_event = {
+	id = 195001
+	title = "EVTNAME195001"
+	desc = "EVTDESC195001"
+
+	trigger = {
+		has_province_modifier = province_nuclear_attaked
+		NOT = {
+			has_province_modifier = nuclear_contamination
+		}
+	}
+
+	option = {
+		name = "EVTOPTA195001"
+		any_pop = {
+			reduce_pop = 0.8
+		}
+		add_province_modifier = {
+			name = nuclear_contamination
+			duration = 1825
+		}
+	}
+}

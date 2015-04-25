@@ -1,0 +1,2027 @@
+#####################################################################################
+#																					#
+#         					Uncivilized Japan Events								#
+#																					#
+#####################################################################################
+
+#Initialization Events
+country_event = {
+	id = 95700
+	title = "EVTNAME95700" #Sakoku
+	desc = "EVTDESC95700"
+	picture = "rangoku"
+	
+	trigger = {
+		OR = {
+			tag = TKG
+			has_country_flag = fudai_daimyo
+		}
+		NOT = { has_country_flag = sakoku_applied }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVTOPTA95700"
+		set_country_flag = sakoku_applied
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+			name = imperious_autocrat
+			duration = -1
+		}
+		any_pop = {
+			ideology = {
+				value = conservative
+				factor = 0.6
+			}
+			ideology = {
+				value = reactionary
+				factor = 0.4
+			}
+		}
+		aristocrats = {
+			ideology = {
+				value = reactionary
+				factor = 0.4
+			}
+		}
+		add_country_modifier = {
+			name = sakoku
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = 95701
+	title = "EVTNAME95701" #Rangaku
+	desc = "EVTDESC95701"
+	picture = "rangoku"
+	
+	trigger = {
+		has_country_flag = tozama_daimyo
+		NOT = { has_country_flag = rangaku_applied }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVTOPTA95701"
+		set_country_flag = rangaku_applied
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		random_owned = {
+			limit = {
+				owner = { tag = SAT }
+			}
+			owner = {		
+				add_country_modifier = {
+					name = visionary_thinker
+					duration = -1
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { NOT = { tag = SAT } }
+			}
+			owner = {		
+				add_country_modifier = {
+					name = military_man
+					duration = -1
+				}
+			}
+		}
+		any_pop = {
+			ideology = {
+				value = conservative
+				factor = 0.5
+			}
+			ideology = {
+				value = reactionary
+				factor = 0.1
+			}
+		}
+		add_country_modifier = {
+			name = sayings_of_the_dutch
+			duration = -1
+		}
+		random_owned = {
+			limit = { province_id = 1661 }
+			any_pop = {
+				ideology = {
+					value = liberal
+					factor = 0.2
+				}
+			}
+			add_province_modifier = {
+				name = foreign_trading_post
+				duration = -1
+			}
+		}
+	}
+}
+
+#Commodore Perry's Expedition events
+country_event = {
+	id = 95705
+	title = "EVTNAME95705" #Kurofune
+	desc = "EVTDESC95705"
+	picture = "commodore_perry"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA95705"
+		set_country_flag = caved_to_commodore_perry
+		prestige = -10
+		random_owned = {
+			limit = {
+				owner = { diplomatic_reform = isolationism }
+			}
+			owner = {
+				economic_reform = interactive
+				activate_technology = early_classical_theory_and_critique
+				any_pop = {
+					scaled_militancy = {
+						ideology = liberal
+						factor = -10
+					}
+					scaled_militancy = {
+						ideology = conservative
+						factor = 3
+					}
+					scaled_militancy = {
+						ideology = reactionary
+						factor = 6
+					}
+				}
+			}
+		}
+		remove_country_modifier = sakoku
+		remove_country_modifier = uncivilized_isolationism
+		add_country_modifier = {
+			name = "western_influences"
+			duration = -1
+		}
+		FROM = { country_event = 95706 }
+	}
+	
+	option = {
+		name = "EVTOPTB95705"
+		set_country_flag = rejected_commodore_perry
+		leave_alliance = USA
+		relation = { who = USA value = -200 }
+		add_casus_belli = {
+			target = USA
+			type = add_to_sphere
+			months = 12
+		}
+		add_casus_belli = {
+			target = USA
+			type = humiliate
+			months = 12
+		}
+		FROM = { country_event = 95707 }
+	}
+}
+
+country_event = {
+	id = 95706
+	title = "EVTNAME95706" #Commodore Perry Successful
+	desc = "EVTDESC95706"
+	picture = "commodore_perry"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA95706"
+		prestige = 20
+		random_country = {
+			limit = {
+				is_sphere_leader_of = TKG
+				NOT = { tag = THIS }
+			}
+			diplomatic_influence = { who = TKG value = -100 }
+		}
+		diplomatic_influence = { who = TKG value = 100 }
+		relation = { who = TKG value = 100 }
+	}
+}
+
+country_event = {
+	id = 95707
+	title = "EVTNAME95707" #The Japanese Are Defiant
+	desc = "EVTDESC95707"
+	picture = "commodore_perry"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA95707"
+		any_pop = {
+			dominant_issue = {
+				factor = 0.05
+				value = jingoism
+			}
+		}
+		diplomatic_influence = { who = TKG value = -200 }
+		war = {
+			target = TKG
+			attacker_goal = {
+				casus_belli = add_to_sphere
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB95707"
+		prestige = -20
+		any_pop = {
+			dominant_issue = {
+				factor = 0.05
+				value = pacifism
+			}
+		}		
+	}
+}
+
+country_event = {
+	id = 95708
+	title = "EVTNAME95708" #Japanese Surrender
+	desc = "EVTDESC95708"
+	picture = "treaty"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA95708"
+		clr_country_flag = rejected_commodore_perry
+		set_country_flag = surrendered_to_perry
+		prestige = -10
+		treasury = -100000
+		FROM = { country_event = 95709 }
+		remove_country_modifier = uncivilized_isolationism
+		add_country_modifier = {
+			name = "western_influences"
+			duration = -1
+		}
+		random_owned = {
+			limit = {
+				owner = { diplomatic_reform = isolationism }
+			}
+			owner = {
+				economic_reform = interactive
+				activate_technology = early_classical_theory_and_critique
+				any_pop = {
+					scaled_militancy = {
+						ideology = liberal
+						factor = -10
+					}
+					scaled_militancy = {
+						ideology = conservative
+						factor = 3
+					}
+					scaled_militancy = {
+						ideology = reactionary
+						factor = 6
+					}
+				}
+			}
+		}
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPTB95708"
+		war_exhaustion = 20
+		FROM = { country_event = 95710 }
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 95709
+	title = "EVTNAME95709" #The Japanese Have Surrendered
+	desc = "EVTDESC95709"
+	picture = "treaty"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA95709"
+		clr_country_flag = negotiate_unequal_treaty_TKG
+		FROM = { clr_country_flag = negotiate_unequal_treaty_TKG }
+		prestige = 10
+		end_war = FROM
+		treasury = 100000
+		relation = { who = FROM value = 300 }
+		diplomatic_influence = { who = FROM value = 200 }
+	}
+}
+
+country_event = {
+	id = 95710
+	title = "EVTNAME95710" #The Japanese Have Refused!
+	desc = "EVTDESC95710"
+	picture = "treaty"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA95710"
+		prestige = -5
+		FROM = { clr_country_flag = negotiate_unequal_treaty_TKG }
+	}
+}
+
+#####################################################################################
+#																					#
+#         					Lead-Up to the Boshin War								#
+#																					#
+#####################################################################################
+
+#Sonno Joi event chain
+country_event = {
+	id = 95715
+	title = "EVTNAME95715" #Sonno Joi
+	desc = "EVTDESC95715"
+	picture = "sonno_joi"
+
+	trigger = {
+		OR = {
+			tag = TKG
+			substate_of = TKG
+		}
+		TKG = {
+			OR = {
+				diplomatic_reform = interactive
+				civilized = yes
+			}
+		}
+		NOT = { has_country_flag = sonno_joi }
+		NOT = { has_global_flag = boshin_war }
+		NOT = { has_global_flag = boshin_war_has_happened }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA95715"
+		set_country_flag = sonno_joi
+		remove_country_modifier = sakoku
+		aristocrats = {
+			consciousness = 2
+			ideology = {
+				value = reactionary
+				factor = 0.2
+			}
+		}
+		any_pop = {
+			militancy = 2
+		}
+	}
+}
+
+province_event = {
+	id = 95716
+	title = "EVTNAME95716" #Rebellion against foreigners
+	desc = "EVTDESC95716"
+
+	trigger = {
+		owner = {
+			has_country_flag = sonno_joi
+			war = no
+		}
+		TKG = { exists = yes }
+		controlled_by = THIS
+		OR = {
+			has_province_modifier = western_presence
+			has_province_modifier = foreign_smugglers
+			has_province_modifier = foreign_trading_post
+			has_province_modifier = local_opium_habit
+			has_province_modifier = european_military_mission
+			has_province_modifier = extraterritoriality_granted
+			has_province_modifier = legation_quarter
+			any_neighbor_province = { has_province_modifier = peasant_revolt }
+			AND = {
+				owner = { has_global_flag = order_to_expel_barbarians }
+				port = yes
+			}
+			owner = { civilized = yes }
+		}
+		NOT = {
+			owner = { has_global_flag = boshin_war }
+			owner = { has_global_flag = boshin_war_has_happened }
+			has_province_modifier = peasant_revolt
+			average_militancy = 6
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 250
+		modifier = {
+			factor = 0.75
+			owner = { has_global_flag = order_to_expel_barbarians }
+		}
+		modifier = {
+			factor = 0.75
+			owner = { has_country_flag = supports_imperial_edict }
+		}
+		modifier = {
+			factor = 0.75
+			owner = { part_of_sphere = yes }
+		}
+		modifier = {
+			factor = 2
+			owner = { has_country_flag = opposes_imperial_edict }
+		}
+		modifier = {
+			factor = 0.9
+			reactionary = 5
+		}
+		modifier = {
+			factor = 0.9
+			reactionary = 10
+		}
+		modifier = {
+			factor = 0.9
+			reactionary = 15
+		}
+		modifier = {
+			factor = 4
+			owner = { average_militancy = 4 }
+		}
+		modifier = {
+			factor = 2
+			owner = { average_militancy = 6 }
+		}
+		modifier = {
+			factor = 0.75
+			owner = { NOT = { average_militancy = 2 } }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA95716"
+		owner = { prestige = -2 }
+		any_pop = {
+			ideology = {
+				value = reactionary
+				factor = 0.1
+			}
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 4
+			}
+		}
+		add_province_modifier = {
+			name = peasant_revolt
+			duration = 365
+		}
+		random_country = {
+			limit = { is_greater_power = yes }
+			relation = { who = TKG value = -20 }
+		}
+	}
+}
+
+country_event = {
+	id = 95717
+	title = "EVTNAME95717" #Order to Expel the Barbarians
+	desc = "EVTDESC95717"
+	picture = "imperormeiji2"
+
+	trigger = {
+		tag = TKG
+		war = no
+		year = 1855
+		has_country_flag = sonno_joi
+		NOT = { has_global_flag = order_to_expel_barbarians }
+		NOT = { has_global_flag = boshin_war }
+		NOT = { has_global_flag = boshin_war_has_happened }
+	}
+	
+	mean_time_to_happen = {
+		months = 100
+		modifier = {
+			factor = 0.5
+			OR = {
+				has_country_modifier = western_influences
+				civilized = yes
+			}
+		}
+		modifier = {
+			factor = 0.8
+			has_recently_lost_war = yes
+		}
+		modifier = {
+			factor = 0.5
+			year = 1860
+		}
+		modifier = {
+			factor = 0.5
+			year = 1865
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA95717"
+		set_global_flag = order_to_expel_barbarians
+		prestige = -5
+		any_country = {
+			limit = { substate_of = TKG }
+			country_event = 95718
+		}
+	}
+}
+
+country_event = {
+	id = 95718
+	title = "EVTNAME95717" #Order to Expel the Barbarians - Response from Substates
+	desc = "EVTDESC95718"
+	picture = "imperormeiji2"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA95718"
+		set_country_flag = supports_imperial_edict
+		ruling_party_ideology = conservative
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				TKG = { has_recently_lost_war = yes }
+			}
+			modifier = {
+				factor = 1.5
+				civilized = yes
+			}
+			modifier = {
+				factor = 1.5
+				has_country_flag = tozama_daimyo
+				ruling_party_ideology = conservative
+			}
+			modifier = {
+				factor = 0.5
+				has_country_flag = fudai_daimyo
+				ruling_party_ideology = reactionary
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB95718"
+		set_country_flag = opposes_imperial_edict
+		ruling_party_ideology = reactionary
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				TKG = { has_country_flag = rejected_commodore_perry }
+			}
+			modifier = {
+				factor = 0.5
+				has_country_flag = tozama_daimyo
+				ruling_party_ideology = conservative
+			}
+			modifier = {
+				factor = 1.5
+				has_country_flag = fudai_daimyo
+				ruling_party_ideology = reactionary
+			}
+		}		
+	}
+}
+
+#Death of the Shogun
+country_event = {
+	id = 95720
+	title = "EVTNAME95720" #The Death of Iesada
+	desc = "EVTDESC95720"
+	picture = "emperor_funeral"
+
+	trigger = {
+		tag = TKG
+		year = 1858
+		government = absolute_monarchy
+		NOT = { has_global_flag = yoshinobu_shogun }
+		NOT = { has_global_flag = iemochi_shogun }
+		NOT = { has_global_flag = boshin_war }
+		NOT = { has_global_flag = boshin_war_has_happened }
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "EVTOPTA95720"
+		set_global_flag = yoshinobu_shogun
+		any_pop = {
+			scaled_militancy = {
+				ideology = conservative
+				factor = -3
+			}
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 3
+			}
+		}
+		any_country = {
+			limit = {
+				substate_of = TKG
+				has_country_flag = tozama_daimyo
+			}
+			country_event = 95721
+		}
+		any_country = {
+			limit = {
+				substate_of = TKG
+				has_country_flag = fudai_daimyo
+			}
+			country_event = 95722
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 2
+				has_country_flag = consulted_tozama
+			}
+			modifier = {
+				factor = 0.2
+				has_country_flag = consulted_fudai
+			}
+			modifier = {
+				factor = 0.1
+				NOT = { has_country_flag = consulted_tozama }
+				NOT = { has_country_flag = consulted_fudai }
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB95720"
+		set_global_flag = iemochi_shogun
+		any_pop = {
+			scaled_militancy = {
+				ideology = conservative
+				factor = 3
+			}
+			scaled_militancy = {
+				ideology = reactionary
+				factor = -3
+			}
+		}
+		any_country = {
+			limit = {
+				substate_of = TKG
+				has_country_flag = tozama_daimyo
+			}
+			country_event = 95723
+		}
+		any_country = {
+			limit = {
+				substate_of = TKG
+				has_country_flag = fudai_daimyo
+			}
+			country_event = 95724
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.2
+				has_country_flag = consulted_tozama
+			}
+			modifier = {
+				factor = 2
+				has_country_flag = consulted_fudai
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 95721
+	title = "EVTNAME95721" #Tokugawa Yoshinobu is Shogun - Tozama
+	desc = "EVTDESC95721"
+	picture = "emperor_funeral"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA95721"
+		relation = { who = TKG value = 50 }
+		any_pop = {
+			scaled_militancy = {
+				ideology = conservative
+				factor = -3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 95722
+	title = "EVTNAME95721" #Tokugawa Yoshinobu is Shogun - Fudai
+	desc = "EVTDESC95722"
+	picture = "emperor_funeral"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA95722"
+		set_country_flag = angered_by_bakufu
+		relation = { who = TKG value = -50 }
+		any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 95723
+	title = "EVTNAME95723" #Tokugawa Iemochi is Shogun - Tozama
+	desc = "EVTDESC95723"
+	picture = "emperor_funeral"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA95723"
+		set_country_flag = angered_by_bakufu
+		relation = { who = TKG value = -50 }
+		any_pop = {
+			scaled_militancy = {
+				ideology = conservative
+				factor = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 95724
+	title = "EVTNAME95723" #Tokugawa Iemochi is Shogun - Fudai
+	desc = "EVTDESC95724"
+	picture = "emperor_funeral"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA95724"
+		relation = { who = TKG value = 50 }
+		any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = -3
+			}
+		}
+	}
+}
+
+#Sakuradamon Incident (reaction to Ansei Purge)
+country_event = {
+	id = 95725
+	title = "EVTNAME95725" #Sakuradamon Incident
+	desc = "EVTDESC95725"
+	picture = "sakuradamon"
+
+	trigger = {
+		tag = TKG
+		has_country_modifier = ansei_purge
+		OR = {
+			year = 1862
+			average_militancy = 2
+			CHO = { average_militancy = 4 }
+			SAT = { average_militancy = 4 }
+			TOS = { average_militancy = 4 }
+			KAG = { average_militancy = 4 }
+			SEN = { average_militancy = 4 }
+			YZW = { average_militancy = 4 }
+		}
+		NOT = { has_country_flag = sakuradamon_incident }
+		NOT = { has_country_flag = emperor_meiji }
+		NOT = { has_global_flag = boshin_war }
+		NOT = { has_global_flag = boshin_war_has_happened }
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+		modifier = {
+			factor = 0.8
+			average_militancy = 3
+		}
+		modifier = {
+			factor = 0.8
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 0.8
+			average_militancy = 5
+		}
+		modifier = {
+			factor = 0.8
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 0.5
+			year = 1865
+		}
+		modifier = {
+			factor = 0.5
+			year = 1870
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA95725"
+		set_country_flag = sakuradamon_incident
+		prestige = -10
+		remove_country_modifier = ansei_purge
+		add_country_modifier = {
+			name = kobu_gattai
+			duration = -1
+		}
+		any_country = {
+			limit = {
+				NOT = { tag = TKG }
+				has_country_modifier = ansei_purge
+			}
+			country_event = 95726
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB95725"
+		set_country_flag = sakuradamon_incident
+		any_country = {
+			limit = {
+				NOT = { tag = TKG }
+				has_country_modifier = ansei_purge
+			}
+			country_event = 95727
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = {
+	id = 95726
+	title = "EVTNAME95725" #Sakuradamon Incident
+	desc = "EVTDESC95726"
+	picture = "sakuradamon"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA95726"
+		remove_country_modifier = ansei_purge
+		add_country_modifier = {
+			name = kobu_gattai
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = 95727
+	title = "EVTNAME95725" #Sakuradamon Incident
+	desc = "EVTDESC95727"
+	picture = "sakuradamon"
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA95727"
+	}
+}
+
+#The Death of Komei
+country_event = {
+	id = 95730
+	title = "EVTNAME95730" #The Death of Emperor Komei
+	desc = "EVTDESC95730"
+	picture = "imperormeiji"
+
+	trigger = {
+		tag = TKG
+		year = 1860
+		government = absolute_monarchy
+		OR = {
+			has_country_modifier = kobu_gattai
+			has_country_flag = sakuradamon_incident
+			has_global_flag = order_to_expel_barbarians
+		}	
+		NOT = { has_country_flag = emperor_meiji }
+		NOT = { has_global_flag = boshin_war }
+		NOT = { has_global_flag = boshin_war_has_happened }
+	}
+	
+	mean_time_to_happen = {
+		months = 20
+		modifier = {
+			factor = 0.5
+			year = 1865
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA95730"
+		set_country_flag = emperor_meiji
+		remove_country_modifier = kobu_gattai
+		any_country = {
+			limit = { substate_of = TKG }
+			country_event = 95731
+		}
+	}
+}
+
+country_event = {
+	id = 95731
+	title = "EVTNAME95730" #The Death of Emperor Komei
+	desc = "EVTDESC95730"
+	picture = "imperormeiji"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA95731"
+		set_country_flag = emperor_meiji
+		remove_country_modifier = kobu_gattai
+	}
+}
+
+#Opposition to the Bakufu
+country_event = {
+	id = 95735
+	title = "EVTNAME95735" #Opposition to the Bakufu
+	desc = "EVTDESC95735"
+	picture = "meiji_parliament"
+
+	trigger = {
+		tag = TKG
+		government = absolute_monarchy
+		OR = {
+			has_country_flag = caved_to_commodore_perry
+			has_country_flag = surrendered_to_perry
+			has_recently_lost_war = yes
+			any_core = {
+				empty = no
+				owner = {
+					NOT = { is_culture_group = far_east_asian }
+				}
+			}
+		}
+		NOT = { has_country_flag = consulted_fudai }
+		NOT = { has_country_flag = consulted_tozama }
+		NOT = { has_global_flag = boshin_war }
+		NOT = { has_global_flag = boshin_war_has_happened }
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "EVTOPTA95735"
+		set_country_flag = consulted_tozama
+		any_country = {
+			limit = {
+				substate_of = TKG
+				has_country_flag = fudai_daimyo
+			}
+			country_event = 95736
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 2
+				has_global_flag = yoshinobu_shogun
+			}
+			modifier = {
+				factor = 0.2
+				has_global_flag = iemochi_shogun
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB95735"
+		set_country_flag = consulted_fudai
+		any_country = {
+			limit = {
+				substate_of = TKG
+				has_country_flag = tozama_daimyo
+			}
+			country_event = 95737
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.2
+				has_global_flag = yoshinobu_shogun
+			}
+			modifier = {
+				factor = 2
+				has_global_flag = iemochi_shogun
+			}
+			modifier = {
+				factor = 0.1
+				NOT = { has_global_flag = yoshinobu_shogun }
+				NOT = { has_global_flag = iemochi_shogun }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 95736
+	title = "EVTNAME95735" #Opposition to the Bakufu - Fudai
+	desc = "EVTDESC95736"
+	picture = "meiji_parliament"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA95736"
+		set_country_flag = angered_by_bakufu
+		relation = { who = FROM value = -50 }
+	}
+}
+
+country_event = {
+	id = 95737
+	title = "EVTNAME95735" #Opposition to the Bakufu - Tozama
+	desc = "EVTDESC95735"
+	picture = "meiji_parliament"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA95736"
+		set_country_flag = angered_by_bakufu
+		relation = { who = FROM value = -50 }
+	}
+}
+
+#####################################################################################
+#																					#
+#         						Boshin War Events									#
+#																					#
+#####################################################################################
+
+#The Meiji Restoration	
+country_event = {
+	id = 95740
+	title = "EVTNAME95740" #The Meiji Rebellion - Other Substates
+	desc = "EVTDESC95740"
+	picture = "boshin_war"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA95740"
+		set_country_flag = supports_emperor
+		remove_country_modifier = sakoku
+		remove_country_modifier = ansei_purge
+		random_owned = {
+			limit = {
+				owner = { civilized = no }
+			}
+			owner = {
+				add_country_modifier = {
+					name = taiping_draft
+					duration = 365
+				}
+			}
+		}
+		any_owned = {
+			remove_province_modifier = peasant_revolt
+			any_pop = { militancy = -6 }
+		}
+		leave_alliance = TKG
+		relation = { who = FROM value = 100 }
+		FROM = {
+			create_vassal = THIS
+			create_alliance = THIS
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				has_country_flag = angered_by_bakufu
+			}
+			modifier = {
+				factor = 0.5
+				has_country_flag = tozama_daimyo
+				TKG = { has_country_flag = consulted_tozama }
+			}
+			modifier = {
+				factor = 0.5
+				has_country_flag = fudai_daimyo
+				TKG = { has_country_flag = consulted_fudai }
+			}
+			modifier = {
+				factor = 1.25
+				has_country_modifier = ansei_purge
+			}
+			modifier = {
+				factor = 0.5
+				has_global_flag = iemochi_shogun
+				has_country_flag = fudai_daimyo
+			}
+			modifier = {
+				factor = 0.5
+				has_global_flag = yoshinobu_shogun
+				has_country_flag = tozama_daimyo
+			}
+			modifier = {
+				factor = 1.5
+				has_country_flag = supports_imperial_edict
+			}
+			modifier = {
+				factor = 1.2
+				TKG = { has_country_flag = caved_to_commodore_perry }
+			}
+			modifier = {
+				factor = 0.8
+				has_country_flag = fudai_daimyo
+			}
+			modifier = {
+				factor = 1.2
+				has_country_flag = tozama_daimyo
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB95740"
+		set_country_flag = supports_shogun
+		remove_country_modifier = sakoku
+		remove_country_modifier = ansei_purge
+		leave_alliance = FROM
+		create_alliance = TKG
+		relation = { who = TKG value = 100 }
+		any_owned = {
+			remove_province_modifier = peasant_revolt
+			any_pop = { militancy = -6 }
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				has_country_flag = angered_by_bakufu
+			}
+			modifier = {
+				factor = 1.5
+				has_country_flag = tozama_daimyo
+				TKG = { has_country_flag = consulted_tozama }
+			}
+			modifier = {
+				factor = 1.5
+				has_country_flag = fudai_daimyo
+				TKG = { has_country_flag = consulted_fudai }
+			}
+			modifier = {
+				factor = 1.5
+				has_global_flag = iemochi_shogun
+				has_country_flag = fudai_daimyo
+			}
+			modifier = {
+				factor = 1.5
+				has_global_flag = yoshinobu_shogun
+				has_country_flag = tozama_daimyo
+			}
+			modifier = {
+				factor = 1.5
+				has_country_flag = opposes_imperial_edict
+			}
+			modifier = {
+				factor = 1.2
+				TKG = { has_country_flag = rejected_commodore_perry }
+			}
+			modifier = {
+				factor = 1.2
+				has_country_flag = fudai_daimyo
+			}
+			modifier = {
+				factor = 0.8
+				has_country_flag = tozama_daimyo
+			}
+		}		
+	}
+}
+
+country_event = {
+	id = 95741
+	title = "EVTNAME95740" #The Meiji Rebellion - Shogunate
+	desc = "EVTDESC95741"
+	picture = "boshin_war"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA95741"
+		random_owned = {
+			limit = {
+				owner = { civilized = no }
+				FROM = { civilized = yes }
+			}
+			owner = {
+				add_country_modifier = {
+					name = taiping_draft
+					duration = 365
+				}
+			}
+		}
+		war = {
+			target = FROM
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			defender_goal = {
+				casus_belli = civil_war
+			}
+			call_ally = yes
+		}
+	}
+}
+
+#Shogun Surrender Event
+country_event = {
+	id = 95745
+	title = "EVTNAME95745" #We Are Defeated
+	desc = "EVTDESC95745"
+	picture = "boshin_war"
+
+	trigger = {
+		tag = TKG
+		has_global_flag = boshin_war
+		war = yes
+		1649 = {
+			owned_by = TKG
+			NOT = { controlled_by = TKG }
+			NOT = { controlled_by = REB }
+			province_control_days = 90
+		}
+		1657 = {
+			NOT = {
+				controlled_by = TKG
+				controller = { alliance_with = TKG }
+			}
+		}
+		war_exhaustion = 20
+	}
+	
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	option = {
+		name = "EVTOPTA95745"
+		random_country = {
+			limit = {
+				has_country_flag = imperial_war_leader
+				war_with = THIS
+			}
+			country_event = 95746
+		}
+	}
+}
+
+country_event = {
+	id = 95746
+	title = "EVTNAME95746" #The Meiji Restoration
+	desc = "EVTDESC95746"
+	major = yes
+	
+	trigger = {
+		has_country_flag = imperial_war_leader
+		has_global_flag = boshin_war
+		owns = 1649
+		owns = 1657
+	}
+	
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	option = {
+		name = "EVTOPTA95746"
+		clr_global_flag = boshin_war
+		set_global_flag = boshin_war_has_happened
+		prestige = 20
+		inherit = TKG
+		TKG = {
+			all_core = {
+				add_core = JAP
+				remove_core = TKG
+			}
+		}
+		change_tag = JAP
+		capital = 1657
+		any_country = {
+			limit = {
+				OR = {
+					tag = SEN
+					tag = YZW
+					tag = CHO
+					tag = SAT
+					tag = TOS
+					tag = KAG
+				}
+				exists = yes
+			}
+			end_war = THIS
+			country_event = 95747
+		}
+	}
+}
+
+country_event = {
+	id = 95747
+	title = "EVTNAME95746" #The Meiji Restoration - Substates
+	desc = "EVTDESC95747"
+	picture = "imperormeiji3"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA95747"
+		FROM = { inherit = THIS }
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB95747"
+		release_vassal = THIS
+		leave_alliance = FROM
+		relation = { who = FROM value = -200 }
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 95748
+	title = "EVTNAME95748" #A New Capital in the East?
+	desc = "EVTDESC95748"
+	picture = "imperormeiji2"
+	
+	trigger = {
+		tag = JAP
+		war = no
+		owns = 1649
+		capital = 1657
+		NOT = { has_country_flag = capital_in_the_east }
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "EVTOPTA95748"
+		set_country_flag = capital_in_the_east
+		prestige = 5
+		capital = 1649
+		1649 = {
+			life_rating = 10
+			add_province_modifier = {
+				name = gateway_to_harbor
+				duration = -1
+			}
+			change_province_name = "Токио"
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB95748"
+		set_country_flag = capital_in_the_east
+		1657 = {
+			life_rating = 10
+			add_province_modifier = {
+				name = gateway_to_harbor
+				duration = -1
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Imperial Surrender Event
+country_event = {
+	id = 95750
+	title = "EVTNAME95750" #We Are Defeated
+	desc = "EVTDESC95750"
+	picture = "boshin_war"
+
+	trigger = {
+		has_country_flag = imperial_war_leader
+		has_global_flag = boshin_war
+		war = yes
+		capital_scope = {
+			NOT = { controlled_by = THIS }
+			NOT = { controlled_by = REB }
+			province_control_days = 90
+		}
+		1657 = {
+			NOT = { controlled_by = THIS }
+			NOT = { controlled_by = REB }
+			province_control_days = 90
+		}
+		war_exhaustion = 20
+	}
+	
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	option = {
+		name = "EVTOPTA95750"
+		TKG = { country_event = 95751 }
+	}
+}
+
+country_event = {
+	id = 95751
+	title = "EVTNAME95751" #Tokugawa Victory
+	desc = "EVTDESC95751"
+	major = yes
+	
+	trigger = {
+		tag = TKG
+		has_global_flag = boshin_war
+		owns = 1657
+	}
+	
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	option = {
+		name = "EVTOPTA95751"
+		clr_global_flag = boshin_war
+		set_global_flag = boshin_war_has_happened
+		prestige = 20
+		1649 = {
+			life_rating = 10
+			add_province_modifier = {
+				name = gateway_to_harbor
+				duration = -1
+			}
+			change_province_name = "Токио"
+		}
+		random_country = {
+			limit = { has_country_flag = imperial_war_leader }
+			annex_to = THIS
+		}
+		any_country = {
+			limit = {
+				OR = {
+					tag = SEN
+					tag = YZW
+					tag = CHO
+					tag = SAT
+					tag = TOS
+					tag = KAG
+				}
+				exists = yes
+			}
+			end_war = THIS
+			country_event = 95752
+		}
+	}
+}
+
+country_event = {
+	id = 95752
+	title = "EVTNAME95751" #Tokugawa Victory - Substates
+	desc = "EVTDESC95752"
+	picture = "meiji_parliament"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA95752"
+		FROM = { inherit = THIS }
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB95752"
+		release_vassal = THIS
+		leave_alliance = FROM
+		relation = { who = FROM value = -200 }
+		add_country_modifier = {
+			name = taiping_draft
+			duration = 365
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#####################################################################################
+#																					#
+#         					Civilized Japan Events									#
+#																					#
+#####################################################################################
+
+country_event = {
+	id = 95760
+	title = "EVTNAME95760" #The Taisho Era
+	desc = "EVTDESC95760"
+	picture = "demonstration"
+	
+	trigger = {
+		tag = JAP
+		war = no
+		OR = {
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+		OR = {
+			liberal = 10
+			socialist = 10
+			#social_liberal = 10
+		}
+		revolution_n_counterrevolution = 1
+		NOT = {
+			has_country_flag = taisho_democracy
+			num_of_revolts = 1
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = "EVTOPTA95760"
+		set_country_flag = taisho_democracy
+		prestige = -10
+		soldiers = {
+			militancy = 3
+			ideology = {
+				value = reactionary
+				factor = 0.1
+			}
+		}
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+				is_primary_culture = yes
+			}
+			consciousness = 5
+			ideology = {
+				value = liberal
+				factor = 0.2
+			}
+			scaled_militancy = {
+				ideology = liberal
+				factor = -5
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB95760"
+		set_country_flag = taisho_democracy
+		prestige = 10
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+				is_primary_culture = yes
+			}
+			ideology = {
+				value = reactionary
+				factor = 0.2
+			}
+			scaled_militancy = {
+				ideology = liberal
+				factor = 5
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 95761
+	title = "The Shogunate Westernizes"
+	desc = "A great change has taken place within the Tokugawa Shogunate, and now $COUNTRY$ must keep pace."
+	picture = "asian_administration"
+	
+	trigger = {
+		civilized = no
+		OR = {
+			tag = KAG
+			tag = SEN
+			tag = YZW
+			tag = CHO
+			tag = TOS
+			tag = SAT
+		}
+		substate_of = TKG
+		TKG = { civilized = yes }
+		NOT = { has_country_flag = shogunate_westernizes }
+	}
+	
+	mean_time_to_happen = {
+		days = 3
+	}
+	
+	option = {
+		name = "EVTOPTA95761"
+		set_country_flag = shogunate_westernizes
+		civilized = yes
+	}
+}
+
+country_event = {
+	id = 95765
+	title = "EVTNAME95765" #The Satsuma Rebellion
+	desc = "EVTDESC95765"
+	picture = "satsuma_rebellion"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		war = no
+		OR = {
+			tag = TKG
+			tag = JAP
+		}
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+		has_country_flag = han_system_abolished
+		owns = 1662
+		SAT = { exists = no }
+		NOT = { year = 1914 }
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+		modifier = {
+			factor = 0.5
+			average_militancy = 3
+		}
+		modifier = {
+			factor = 0.5
+			government = prussian_constitutionalism
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA95765"
+		prestige = -20
+		aristocrats = {
+			ideology = {
+				value = reactionary
+				factor = 0.4
+			}
+		}
+		officers = {
+			ideology = {
+				value = reactionary
+				factor = 0.4
+			}
+		}
+		soldiers = {
+			ideology = {
+				value = reactionary
+				factor = 0.2
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 6
+			}
+		}
+		JAP_1660 = { add_core = SAT }
+		SAT = { civilized = yes }
+		release = SAT
+		relation = { who = SAT value = -200 }
+	}
+}
+
+country_event = {
+	
+	id = 95770
+	title = "EVTNAME95770" #The Northern Islands
+	desc = "EVTDESC95770"
+	picture = "Southpole3"
+	
+	trigger = {
+		OR = {
+			tag = TKG
+			tag = JAP
+		}
+		war = no
+		has_country_modifier = fukoku_kyohei
+		OR = {
+			AND = {
+				owns = 1643
+				OR = {
+					1087 = { empty = yes } #Ootomari
+					1086 = { empty = yes } #Pogobi
+				}
+			}
+			AND = {
+				owns = 1644
+				OR = {
+					1089 = { empty = yes } #Etorufu
+					1088 = { empty = yes } #Shumshu
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = "EVTOPTA95770"
+		treasury = -10000
+		random_owned = {
+			limit = {
+				1087 = { empty = no }
+				1086 = { empty = no }
+				1089 = { empty = no }
+				1088 = { empty = yes }
+				1644 = { owned_by = THIS }
+			}
+			1088 = {
+				life_rating = 5
+				secede_province = THIS
+			}
+		}
+		random_owned = {
+			limit = {
+				1087 = { empty = no }
+				1086 = { empty = no }
+				1089 = { empty = yes }
+				1644 = { owned_by = THIS }
+			}
+			1089 = {
+				life_rating = 5
+				secede_province = THIS
+			}
+		}
+		random_owned = {
+			limit = {
+				1087 = { empty = no }
+				1086 = { empty = yes }
+				1643 = { owned_by = THIS }
+			}
+			1086 = {
+				life_rating = 5
+				secede_province = THIS
+			}
+		}
+		random_owned = {
+			limit = {
+				1087 = { empty = yes }
+				1643 = { owned_by = THIS }
+			}
+			1087 = {
+				life_rating = 5
+				secede_province = THIS
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 95775
+	title = "EVTNAME95775" #The Line of Advantage
+	desc = "EVTDESC95775"
+	picture = "asian_administration"
+	
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = TKG
+		}
+		war = no
+		has_global_flag = warlord_era_has_begun
+		OR = {
+			any_neighbor_country = {
+				is_culture_group = east_asian
+				part_of_sphere = no
+				NOT = { truce_with = THIS }
+			}
+			MCK = {
+				any_owned_province = { port = yes }
+				part_of_sphere = no
+				NOT = { truce_with = THIS }
+			}
+		}
+		NOT = {
+			badboy = 0.8
+			num_of_revolts = 1
+			constructing_cb_progress = 1
+			war_policy = pacifism
+			war_policy = anti_military
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 10
+			has_country_flag = line_of_advantage
+			ai = no
+		}
+		modifier = {
+			factor = 3
+			has_country_flag = line_of_advantage
+			ai = yes
+		}
+		modifier = {
+			factor = 2
+			war_policy = pro_military
+		} 
+	}
+	
+	option = {
+		name = "EVTOPTA95775"
+		set_country_flag = line_of_advantage
+		badboy = 3
+		random_country = {
+			limit = {
+				tag = MCK
+				part_of_sphere = no
+				number_of_states = 2
+				NOT = { truce_with = THIS }
+				OR = {
+					neighbour = THIS
+					any_owned_province = { port = yes }
+				}
+			}
+			relation = { who = THIS value = -100 }
+			leave_alliance = THIS
+			add_casus_belli = {
+				target = THIS
+				type = acquire_state
+				months = 24
+			}
+		}
+		random_country = {
+			limit = {
+				tag = MCK
+				part_of_sphere = no
+				NOT = { number_of_states = 2 }
+				NOT = { truce_with = THIS }
+				OR = {
+					neighbour = THIS
+					any_owned_province = { port = yes }
+				}
+			}
+			relation = { who = THIS value = -100 }
+			leave_alliance = THIS
+			add_casus_belli = {
+				target = THIS
+				type = conquest
+				months = 24
+			}
+		}
+		random_country = {
+			limit = {
+				is_culture_group = east_asian
+				part_of_sphere = no
+				number_of_states = 2
+				neighbour = THIS
+				NOT = { truce_with = THIS }
+				MCK = {
+					OR = {
+						exists = no
+						part_of_sphere = yes
+						AND = {
+							NOT = { neighbour = THIS }
+							NOT = { any_owned_province = { port = yes } }
+						}
+					}
+				}
+			}
+			relation = { who = THIS value = -100 }
+			leave_alliance = THIS
+			add_casus_belli = {
+				target = THIS
+				type = acquire_state
+				months = 24
+			}
+		}
+		random_country = {
+			limit = {
+				is_culture_group = east_asian
+				NOT = { number_of_states = 2 }
+				OR = {
+					neighbour = THIS
+					any_owned_province = { port = yes }
+				}
+				NOT = { truce_with = THIS }
+				MCK = {
+					OR = {
+						exists = no
+						AND = {
+							NOT = { neighbour = THIS }
+							NOT = { any_owned_province = { port = yes } }
+						}
+					}
+				}
+			}
+			relation = { who = THIS value = -100 }
+			leave_alliance = THIS
+			add_casus_belli = {
+				target = THIS
+				type = conquest
+				months = 24
+			}
+		}
+		ai_chance = {
+			factor = 90	
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB95775"
+		set_country_flag = line_of_advantage
+		prestige = -5
+		ai_chance = {
+			factor = 10
+		}
+	}
+}

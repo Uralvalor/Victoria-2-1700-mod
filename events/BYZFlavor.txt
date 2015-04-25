@@ -1,0 +1,122 @@
+country_event = {
+
+	id = 95110
+
+	trigger = {
+		tag = BYZ
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME46300"
+	desc = "EVTDESC46300"
+	picture = "Administration"
+
+	option = {
+		name = "EVTOPTA95110" 
+		any_pop = {
+			limit = {
+				NOT = {
+					has_pop_culture = greek
+				}
+			}
+			militancy = 3
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = greek
+			}
+			militancy = -3
+		}
+		add_country_modifier = {
+				name = hellenistic_politic
+				duration = -1
+		}
+		858 = {
+			change_province_name = "Лозенград"
+		}
+		861 = {
+			change_province_name = "Халкидон"
+		}
+		862 = {
+			change_province_name = "Никомедия"
+			state_scope = {
+				change_region_name = "Мизия"
+			}
+		}
+		863 = {
+			change_province_name = "Пруса"
+		}
+		864 = {
+			change_province_name = "Палеокастрон"
+			state_scope = {
+				change_region_name = "Смирна"
+			}
+		}
+		865 = {
+			change_province_name = "Дарданелла"
+		}
+		866 = {
+			change_province_name = "Никополь"
+		}
+		867 = {
+			change_province_name = "Котайон"
+		}
+		868 = {
+			change_province_name = "Дорилей"
+		}
+		869 = {
+			change_province_name = "Смирна"
+		}
+		871 = {
+			change_province_name = "Лаодикея"
+		}
+		872 = {
+			change_province_name = "Кария"
+		}
+		873 = {
+			change_province_name = "Иконий"
+			state_scope = {
+				change_region_name = "Икониум"
+			}
+		}
+		875 = {
+			change_province_name = "Атталия"
+		}
+		878 = {
+			change_province_name = "Цезарея"
+		}
+		880 = {
+			change_province_name = "Кастамон"
+			state_scope = {
+				change_region_name = "Вифиния"
+			}
+		}
+		881 = {
+			change_province_name = "Вифиний"
+		}
+	}
+	option = {
+		name = "EVTOPTB95110"
+		add_accepted_culture = turkish
+		political_reform = protected
+		any_pop = {
+			limit = {
+				NOT = {
+					has_pop_culture = greek
+				}
+			}
+			militancy = -3
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = greek
+			}
+			militancy = 3
+		}
+	}
+}

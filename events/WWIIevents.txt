@@ -1,0 +1,90 @@
+country_event = {
+	id = 99200
+	title = "EVTNAME99200"
+	desc = "EVTDESC99200"
+	picture = "mol-rib"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA99200"
+		relation = { who = FROM value = 100 }
+		FROM = { country_event = 99201 }
+		ai_chance = {
+			factor = 70
+		}
+		
+	}
+	option = {
+		name = "EVTOPTB99200"
+		relation = { who = FROM value = -100 }
+		ai_chance = {
+			factor = 30
+		}
+	}
+}
+country_event = {
+	id = 99201
+	title = "EVTNAME99201"
+	desc = "EVTDESC99201"
+	picture = "mol-rib"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA99201"
+		RUS_349 = {
+			add_core = SOV
+		}
+		RUS_354 = {
+			add_core = SOV
+		}
+		RUS_360 = {
+			add_core = SOV
+		}
+		RUS_947 = {
+			add_core = SOV
+		}
+		RUS_718 = {
+			add_core = SOV
+		}
+		RUS_707 = {
+			add_core = SOV
+		}
+		RUS_955 = {
+			add_core = SOV
+		}
+		RUS_676 = {
+			add_core = SOV
+		}
+		AUS_662 = {
+			add_core = SOV
+		}
+		RUS_707 = {
+			add_core = SOV
+		}
+		AUS_702 = {
+			add_core = SOV
+		}
+		FIN = {
+			all_core = {
+				add_core = SOV
+			}
+		}
+		PRU_701 = {
+			add_core = GER
+		}
+		PRU_690 = {
+			add_core = GER
+		}
+		RUS_706 = {
+			add_core = GER
+		}
+		RUS_710 = {
+			add_core = GER
+		}
+		AUS_702 = {
+			add_core = GER
+		}
+	}
+}

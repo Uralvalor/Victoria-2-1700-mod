@@ -1,0 +1,187 @@
+country_event = {
+	id = 19500
+	title = "EVTNAME19500"
+	desc  = "EVTDESC19500"
+	news = yes
+	news_desc_long = "EVTDESC19500_NEWS_LONG"
+	news_desc_medium = "EVTDESC19500_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC19500_NEWS_SHORT"
+	picture = "zulu"
+	
+	trigger = {
+		OR = {
+			tag = ORA
+			tag = TRN
+		}
+		exists = ZUL
+		has_global_flag = piet_retief_massacre
+		NOT = { has_country_flag = zul_cb_taken }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA19500"
+		casus_belli = {
+			target = ZUL
+			type = cut_down_to_size
+		}
+		set_country_flag = zul_cb_taken
+	}
+}
+
+# Witwatersrand Goldrush
+country_event = {
+	id = 19501
+	title = "EVTNAME19501"
+	desc = "EVTDESC19501"
+	news = yes
+	news_desc_long = "EVTDESC19501_NEWS_LONG"
+	news_desc_medium = "EVTDESC19501_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC19501_NEWS_SHORT"
+	picture = "goldrush"
+	
+	trigger = {
+		is_greater_power = yes
+		any_neighbor_country = {
+			has_country_modifier = witwatersrand_gold_rush
+			is_greater_power = no
+			NOT = {
+				num_of_cities = 10
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "EVTOPTA19501"
+		any_country = {
+			limit = {
+				has_country_modifier = witwatersrand_gold_rush
+			}
+			add_casus_belli = {
+				target = THIS
+				type = conquest
+			}
+			remove_country_modifier = witwatersrand_gold_rush
+		}
+	}
+}
+country_event = {
+	id = 19502
+	title = "EVTNAME19502"
+	desc  = "EVTDESC19502"
+	picture = "zulu"
+	
+	trigger = {
+		year = 1830
+		OR = {
+			owns = 2101
+			owns = 2105
+		}
+	}
+
+	
+	fire_only_once = yes
+	major = yes
+	
+	mean_time_to_happen = {
+		months = 10
+	}
+	
+	option = {
+		name = "EVTOPTA19502"
+		set_global_flag = the_great_trek
+		any_country = {
+			limit = {
+				owns = 2108
+			}
+			any_owned = {
+				limit = {
+					state_id = 2108
+				}
+				add_province_modifier = {
+					name = trek_boers
+					duration = 3650
+				}
+				add_core = TRN
+			}
+		}
+		any_country = {
+			limit = {
+				owns = 2103
+			}
+			any_owned = {
+				limit = {
+					state_id = 2103
+				}
+				add_province_modifier = {
+					name = trek_boers
+					duration = 3650
+				}
+				add_core = ORA
+			}
+		}
+		any_country = {	
+			any_owned = {
+				limit = {	
+					has_pop_culture = boer
+					continent = africa
+				}
+				any_pop = {
+					limit = {
+						culture = boer
+					}
+					consciousness = 6
+				}
+				add_province_modifier = {
+						name = boer_exodus
+						duration = 3650
+				}
+			}
+		}
+	}
+}
+#Inhetit ORA TRN
+country_event = {
+	id = 19503
+	title = "EVTNAME19503"
+	desc  = "EVTDESC19503"
+	picture = "zulu"
+	
+	trigger = {
+		tag = SAF
+		OR = {
+			exists = ORA
+			exists = TRN
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA19503"
+		any_country = {
+			limit = {
+				OR = {
+					tag = ORA
+					tag = TRN
+				}
+			}
+			country_event = 98650
+		}
+	}
+	option = {
+		name = "EVTOPTB19503"
+		ai_chance = {
+			factor = 0
+		}
+	}
+}

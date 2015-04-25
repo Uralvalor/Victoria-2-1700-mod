@@ -1,0 +1,2132 @@
+country_event = {
+
+	id = 99500
+
+	trigger = {
+		tag = SAX
+		year = 1816
+		NOT = {
+			year = 1824
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1819
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1822
+		}
+	}
+
+	title = "EVTNAME99500"
+	desc = "EVTDESC99500"
+	picture = "Botanic_expedition"
+
+	option = {
+		name = "Королевским указом запретить,это шарлатанство" 
+		prestige = 3
+		ai_chance = {
+			factor = 40
+		}
+	}
+	option = {
+		name = "Пусть практикует" 
+		prestige = -1
+		set_country_flag = hahnemann_homeopathy_research
+		ai_chance = {
+			factor = 60
+		}
+	}
+}
+country_event = {
+
+	id = 99501
+
+	trigger = {
+		has_country_flag = hahnemann_homeopathy_research
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1819
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1822
+		}
+	}
+
+	title = "EVTNAME99501"
+	desc = "EVTDESC99501"
+	picture = "Botanic_expedition"
+
+	option = {
+		name = "Отлично" 
+		research_points = 100
+		clr_country_flag = hahnemann_homeopathy_research
+	}
+}
+country_event = {
+
+	id = 99502
+
+	trigger = {
+		tag = RUS
+		year = 1824
+		owns = 994
+		NOT = {
+			year = 1830
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1826
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1828
+		}
+	}
+
+	title = "EVTNAME99502"
+	desc = "EVTDESC99502"
+	picture = "telegraph"
+
+	option = {
+		name = "Отлично" 
+		prestige = 1
+		994 = {life_rating = 2}
+	}
+}
+country_event = {
+
+	id = 99503
+
+	trigger = {
+		tag = AUS
+		year = 1824
+		month = 5
+		owns = 619
+		NOT = {
+			year = 1830
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "EVTNAME99503"
+	desc = "EVTDESC99503"
+	picture = "theatre"
+
+	option = {
+		name = "Отлично" 
+		prestige = 1
+	}
+}
+country_event = {
+
+	id = 99504
+
+	trigger = {
+		tag = RUS
+		year = 1824
+		owns = 994
+		NOT = {
+			year = 1830
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1826
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1828
+		}
+	}
+
+	title = "EVTNAME99504"
+	desc = "EVTDESC99504"
+	picture = "destroyed_forest"
+
+	option = {
+		name = "Бедствие" 
+		994 = {life_rating = -1}
+	}
+}
+country_event = {
+
+	id = 99505
+
+	trigger = {
+		tag = FRA
+		year = 1825
+		owns = 994
+		NOT = {
+			year = 1830
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1826
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1828
+		}
+	}
+
+	title = "EVTNAME99505"
+	desc = "EVTDESC99505"
+	picture = "census"
+
+	option = {
+		name = "Принять закон о компенсации"
+		prestige = 5
+		any_pop = {
+			limit = {
+				OR = {
+					type = aristocrats
+					type = capitalists
+				}
+			}
+			militancy = -2
+		}
+		money = -100000
+		ai_chance = {
+			factor = 70
+		}
+	}
+	option = {
+		name = "Отказаться от планов конпенсации"
+		prestige = -10
+		any_pop = {
+			limit = {
+				OR = {
+					type = aristocrats
+					type = capitalists
+				}
+			}
+			militancy = 2
+		}
+		any_pop = {
+			scaled_consciousness = {
+				ideology = conservative
+				factor = 1
+			}
+		}
+		ai_chance = {
+			factor = 30
+		}
+	}
+}
+country_event = {
+
+	id = 99506
+
+	trigger = {
+		tag = PRU
+		year = 1826
+		NOT = {
+			year = 1830
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1828
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1829
+		}
+	}
+
+	title = "EVTNAME99506"
+	desc = "EVTDESC99506"
+	picture = "Prosper"
+
+	option = {
+		name = "Закон электрической цепи" 
+		prestige = 1
+	}
+}
+country_event = {
+
+	id = 99507
+
+	trigger = {
+		tag = ENG
+		year = 1827
+		NOT = {
+			year = 1831
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1829
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1830
+		}
+	}
+
+	title = "EVTNAME99507"
+	desc = "EVTDESC99507"
+	picture = "Prosper"
+
+	option = {
+		name = "Отлично" 
+		prestige = 1
+	}
+}
+country_event = {
+
+	id = 99508
+
+	trigger = {
+		tag = RUS
+		year = 1829
+		NOT = {
+			year = 1833
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1830
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1832
+		}
+	}
+
+	title = "EVTNAME99508"
+	desc = "EVTDESC99508"
+	picture = "disease"
+
+	option = {
+		name = "Отлично" 
+		prestige = 1
+		research_points = 50
+	}
+}
+country_event = {
+
+	id = 99509
+
+	trigger = {
+		tag = GRE
+		war = no
+		year = 1831
+		NOT = {
+			year = 1836
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1832
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1834
+		}
+	}
+
+	title = "EVTNAME99509"
+	desc = "EVTDESC99509"
+	picture = "Celebration"
+
+	option = {
+		name = "Отлично" 
+		prestige = -1
+	}
+}
+country_event = {
+
+	id = 99510
+
+	trigger = {
+		tag = RUS
+		year = 1832
+		NOT = {
+			year = 1836
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1833
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1835
+		}
+	}
+
+	title = "EVTNAME99510"
+	desc = "EVTDESC99510"
+	picture = "Administration"
+
+	option = {
+		name = "Отлично" 
+		prestige = 1
+	}
+}
+country_event = {
+
+	id = 99511
+
+	trigger = {
+		tag = UCA
+		year = 1832
+		NOT = {
+			year = 1836
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1833
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1835
+		}
+	}
+
+	title = "EVTNAME99511"
+	desc = "EVTDESC99511"
+	picture = "Celebration"
+
+	option = {
+		name = "Отлично"
+		any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 2
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = 1
+			}
+			scaled_militancy = {
+				ideology = liberal
+				factor = -2
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 99512
+
+	trigger = {
+		tag = RUS
+		year = 1832
+		NOT = {
+			year = 1836
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1833
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1835
+		}
+	}
+
+	title = "EVTNAME99512"
+	desc = "EVTDESC99512"
+	picture = "Glyptoteket"
+
+	option = {
+		name = "Отлично" 
+		prestige = 1
+	}
+}
+country_event = {
+
+	id = 99513
+
+	trigger = {
+		tag = RUS
+		year = 1834
+		NOT = {
+			year = 1838
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1835
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1837
+		}
+	}
+
+	title = "EVTNAME99513"
+	desc = "EVTNAME99513"
+	picture = "SeaPower"
+
+	option = {
+		name = "Отлично" 
+		prestige = 1
+	}
+}
+country_event = {
+
+	id = 99514
+
+	trigger = {
+		tag = RUS
+		year = 1835
+		NOT = {
+			year = 1839
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1837
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1838
+		}
+	}
+
+	title = "EVTNAME99514"
+	desc = "EVTDESC99514"
+	picture = "Clerks"
+
+	option = {
+		name = "Принять закон" 
+		any_pop = {
+			limit = {
+				OR = {
+					type = craftsmen
+					type = clerks
+				}
+			}
+			consciousness = 1
+			militancy = -1
+		}
+		money = -5000
+		ai_chance = {
+			factor = 70
+		}
+	}
+	
+	option = {
+		name = "Обойдемся без него"
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = 2
+			}
+		}
+		ai_chance = {
+			factor = 30
+		}
+	}
+}
+country_event = {
+
+	id = 99515
+
+	trigger = {
+		tag = FRA
+		year = 1835
+		NOT = {
+			year = 1839
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1836
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1838
+		}
+	}
+
+	title = "EVTNAME99515"
+	desc = "EVTDESC99515"
+	picture = "Botanic_expedition"
+
+	option = {
+		name = "Отлично" 
+		research_points = 50
+	}
+}
+country_event = {
+
+	id = 99516
+
+	trigger = {
+		tag = RUS
+		year = 1836
+		NOT = {
+			year = 1840
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1837
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1839
+		}
+	}
+
+	title = "EVTNAME99516"
+	desc = "EVTDESC99516"
+	picture = "Revolution"
+
+	option = {
+		name = "Да он сумашедший!" 
+		any_pop = {
+			limit = {
+				type = aristocrats
+			}
+			consciousness = 1
+		}
+	}
+}
+country_event = {
+
+	id = 99517
+
+	trigger = {
+		tag = RUS
+		994 = {
+			has_building = railroad
+		}
+		NOT = {
+			year = 1836
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		days = 1
+
+	}
+
+	title = "EVTNAME99517"
+	desc = "EVTDESC99517"
+	picture = "train"
+
+	option = {
+		name = "Постройка Царскосельской ж.д" 
+		prestige = 1
+	}
+}
+country_event = {
+
+	id = 99518
+
+	trigger = {
+		tag = RUS
+		year = 1836
+		NOT = {
+			year = 1840
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1837
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1839
+		}
+	}
+
+	title = "EVTNAME99518"
+	desc = "EVTDESC99518"
+	picture = "penal_colony"
+
+	option = {
+		name = "Оставить все как есть" 
+		any_pop = {
+			limit = {
+				OR = {
+					type = farmers
+					type = soldiers
+				}
+			}
+			consciousness = -1
+			militancy = 1
+		}
+		ai_chance = {
+			factor = 25
+		}
+	}
+	option = {
+		name = "Отказаться от практики военных поселений" 
+		prestige = -4
+		any_pop = {
+			limit = {
+				type = farmers
+			}
+			militancy = -1
+		}
+		ai_chance = {
+			factor = 35
+		}
+	}
+	option = {
+		name = "Создать поселения пахотных солдат"
+		prestige = -2
+		any_pop = {
+			limit = {
+				type = soldiers
+			}
+			militancy = -1
+		}
+		ai_chance = {
+			factor = 40
+		}
+	}
+}
+country_event = {
+
+	id = 99519
+
+	trigger = {
+		tag = ENG
+		year = 1836
+		NOT = {
+			year = 1840
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1837
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1839
+		}
+	}
+
+	title = "EVTNAME99519"
+	desc = "EVTDESC99519"
+	picture = "Administration"
+
+	option = {
+		name = "Вот это политик!" 
+		prestige = 1
+		any_pop = {
+			scaled_consciousness = {
+				ideology = conservative
+				factor = -1
+			}
+			ideology = {
+				value = conservative
+				factor = 0.1
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 99520
+
+	trigger = {
+		tag = RUS
+		year = 1837
+		NOT = {
+			year = 1841
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1839
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1840
+		}
+	}
+
+	title = "EVTNAME99520"
+	desc = "EVTDESC99520"
+	picture = "Upperhouse"
+
+	option = {
+		name = "Это необходимо" 
+		prestige = -5
+		any_pop = {
+			limit = {
+				type = farmers
+			}
+			militancy = -1
+		}
+		ai_chance = {
+			factor = 75
+		}
+		
+	}
+	option = {
+		name = "Отказаться от этого"
+		prestige = -2
+		any_pop = {
+			limit = {
+				type = farmers
+			}
+			militancy = 1
+		}
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+country_event = {
+
+	id = 99521
+
+	trigger = {
+		tag = RUS
+		year = 1837
+		exists = AFG
+		NOT = {
+			year = 1841
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1839
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1840
+		}
+	}
+
+	title = "EVTNAME99521"
+	desc = "EVTDESC99521"
+	picture = "Administration"
+
+	option = {
+		name = "Предложить покровительство России" 
+		prestige = 5
+		relation = { who = ENG value = -50 }
+		relation = { who = AFG value = 50 }
+		AFG = {country_event = 99522}
+		ai_chance = {
+			factor = 75
+		}
+		
+	}
+	option = {
+		name = "Отказаться от этой затеи"
+		prestige = -5
+		diplomatic_influence = { who = AFG value = 50 }
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+country_event = {
+
+	id = 99522
+
+	is_triggered_only = yes
+
+	title = "EVTNAME99522"
+	desc = "EVTDESC99522"
+	picture = "Administration"
+
+	option = {
+		name = "Согласиться" 
+		relation = { who = ENG value = -50 }
+		relation = { who = RUS value = 50 }
+		FROM = { diplomatic_influence = { who = THIS value = 50 } }
+		ai_chance = {
+			factor = 75
+		}
+		
+	}
+	option = {
+		name = "Отказаться"
+		relation = { who = RUS value = -50 }
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+country_event = {
+
+	id = 99523
+
+	trigger = {
+		tag = FRA
+		year = 1837
+		NOT = {
+			year = 1841
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1839
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1840
+		}
+	}
+
+	title = "EVTNAME99523"
+	desc = "EVTDESC99523"
+	picture = "stocks"
+
+	option = {
+		name = "Принять закон" 
+		any_pop = {
+			limit = {
+				type = capitalists
+			}
+			militancy = -1
+			consciousness = -1
+		}
+		any_pop = {
+			ideology = {
+				value = liberal
+				factor = 0.15
+			}
+		}
+		ai_chance = {
+			factor = 99
+		}
+		
+	}
+	option = {
+		name = "Отклонить закон"
+		any_pop = {
+			limit = {
+				type = capitalists
+			}
+			militancy = 1
+			consciousness = 1
+		}
+		any_pop = {
+			ideology = {
+				value = conservative
+				factor = 0.15
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+country_event = {
+
+	id = 99524
+
+	trigger = {
+		tag = ENG
+		year = 1838
+		exists = PAN
+		NOT = {
+			year = 1842
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1840
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1841
+		}
+	}
+
+	title = "EVTNAME99524"
+	desc = "EVTDESC99524"
+	picture = "Administration"
+
+	option = {
+		name = "Отправить миссию" 
+		money = -1000
+		relation = { who = PAN value = 50 }
+		PAN = {country_event = 99525}
+	}
+	option = {
+		name = "Нет"
+		prestige = -5
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+country_event = {
+
+	id = 99525
+
+	is_triggered_only = yes
+
+	title = "EVTNAME99525"
+	desc = "EVTDESC99525"
+	picture = "Administration"
+
+	option = {
+		name = "Соглашение с англичанами нам выгодно" 
+		relation = { who = ENG value = 50 }
+		FROM = { diplomatic_influence = { who = THIS value = 50 } }
+		ai_chance = {
+			factor = 75
+		}
+		
+	}
+	option = {
+		name = "Нет"
+		prestige = -5
+		relation = { who = ENG value = -50 }
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+country_event = {
+
+	id = 99526
+
+	trigger = {
+		tag = ENG
+		year = 1838
+		NOT = {
+			year = 1842
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1840
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1841
+		}
+	}
+
+	title = "EVTNAME99526"
+	desc = "EVTDESC99526"
+	picture = "stocks"
+
+	option = {
+		name = "Отвергнуть законопроект" 
+		prestige = -5
+		any_pop = {
+			limit = {
+				type = capitalists
+			}
+			consciousness = -1
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+	option = {
+		name = "Принять законопроект"
+		prestige = 5
+		money = 10000
+		any_pop = {
+			limit = {
+				type = capitalists
+			}
+			militancy = 1
+		}
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+country_event = {
+
+	id = 99527
+
+	trigger = {
+		tag = FRA
+		year = 1839
+		NOT = {
+			year = 1843
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1841
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1842
+		}
+	}
+
+	title = "EVTNAME99527"
+	desc = "EVTDESC99527"
+	picture = "picaso"
+
+	option = {
+		name = "Оригинальная камера Дагера" 
+		prestige = 1
+	}
+}
+country_event = {
+
+	id = 99528
+
+	trigger = {
+		tag = RUS
+		owns = 1093
+		1093 = {
+			average_militancy = 3
+		}
+		year = 1841
+		NOT = {
+			year = 1845
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1843
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1844
+		}
+	}
+
+	title = "EVTNAME99528"
+	desc = "EVTDESC99528"
+	picture = "colonial_uprising"
+
+	option = {
+		name = "К оружию!"
+		prestige = -1
+		1093 = {
+			any_pop = {
+				limit = {
+					type = farmers
+				}
+				militancy = 6
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 99529
+
+	trigger = {
+		tag = FRA
+		year = 1841
+		NOT = {
+			year = 1845
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1843
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1844
+		}
+	}
+
+	title = "EVTNAME99529"
+	desc = "EVTDESC99529"
+	picture = "Nobel_Literature"
+
+	option = {
+		name = "Наконец то!"
+		prestige = 1
+	}
+}
+country_event = {
+
+	id = 99530
+
+	trigger = {
+		tag = RUS
+		year = 1842
+		NOT = {
+			year = 1846
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1844
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1845
+		}
+	}
+
+	title = "EVTNAME99530"
+	desc = "EVTDESC99530"
+	picture = "Nobel_Literature"
+
+	option = {
+		name = "Выходит 1-й том Мёртвых душ"
+		prestige = 1
+		any_pop = {
+			limit = {
+				type = aristocrats
+			}
+			militancy = -1
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					type = craftsmen
+					type = farmers
+				}
+			}
+			consciousness = 1
+		}
+		ai_chance = {
+			factor = 97
+		}
+	}
+	option = {
+		name = "Сделать книгу общедоступной"
+		prestige = 2
+		money = -500
+		any_pop = {
+			limit = {
+				OR = {
+					type = aristocrats
+					type = farmers
+				}
+			}
+			militancy = -1
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					type = craftsmen
+					type = farmers
+				}
+			}
+			consciousness = 1
+		}
+		ai_chance = {
+			factor = 3
+		}
+	}
+}
+country_event = {
+
+	id = 99531
+
+	trigger = {
+		tag = ENG
+		year = 1845
+		NOT = {
+			year = 1849
+		}
+		owns = 2512
+		NOT = { exists = NWZ }
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1847
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1848
+		}
+	}
+
+	title = "EVTNAME99531"
+	desc = "EVTDESC99531"
+	picture = "colonial_uprising"
+
+	option = {
+		name = "Подавить!"
+		prestige = -1
+		any_owned = {
+			limit = {
+				is_core = NZL
+			}
+			any_pop = {
+				limit = {
+					culture = maori
+				}
+				militancy = 6
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 99532
+
+	trigger = {
+		tag = RUS
+		year = 1845
+		NOT = {
+			year = 1849
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1847
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1848
+		}
+	}
+
+	title = "EVTNAME99532"
+	desc = "EVTDESC99532"
+	picture = "Administration"
+
+	option = {
+		name = "Принять указ"
+		prestige = 5
+		money = 1000
+		any_pop = {
+			limit = {
+				type = aristocrats
+			}
+			militancy = 1
+			consciousness = 1
+		}
+	}
+	option = {
+		name = "Нет"
+		prestige = -5
+		any_pop = {
+			limit = {
+				type = aristocrats
+			}
+			militancy = -1
+			consciousness = -1
+		}
+	}
+}
+country_event = {
+
+	id = 99533
+
+	trigger = {
+		tag = PRU
+		year = 1847
+		NOT = {
+			year = 1851
+		}
+		government = absolute_monarchy
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1849
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1850
+		}
+	}
+
+	title = "EVTNAME99533"
+	desc = "EVTDESC99533"
+	picture = "Upperhouse"
+
+	option = {
+		name = "Конституция? Зачем нам этот исписанный листок бумаги?"
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = 1
+			}
+			ideology = {
+				value = conservative
+				factor = 0.1
+			}
+		}
+		ai_chance = {
+			factor = 97
+		}
+	}
+	option = {
+		name = "Дать им парламент!"
+		prestige = -5
+		money = 1000
+		political_reform = landed_voting
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = -1
+			}
+		}
+		ai_chance = {
+			factor = 3
+		}
+	}
+}
+country_event = {
+
+	id = 99534
+
+	trigger = {
+		tag = ENG
+		year = 1849
+		NOT = {
+			year = 1853
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1851
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1852
+		}
+	}
+
+	title = "EVTNAME99534"
+	desc = "EVTDESC99534"
+	picture = "ssgreatbritan"
+
+	option = {
+		name = "Отменить отжившие свой век правила!"
+		prestige = 5
+		any_pop = {
+			dominant_issue = {
+				factor = 0.30
+				value = free_trade
+			}
+		}
+		ai_chance = {
+			factor = 60
+		}
+	}
+	option = {
+		name = "Мы должны защищать наши торговые интересы!"
+		prestige = -5
+		any_pop = {
+			dominant_issue = {
+				factor = 0.30
+				value = protectionism
+			}
+		}
+		ai_chance = {
+			factor = 40
+		}
+	}
+}
+country_event = {
+
+	id = 99535
+
+	trigger = {
+		tag = RUS
+		year = 1856
+		NOT = {
+			year = 1860
+		}
+		has_country_flag = decabrist_fail
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1857
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1858
+		}
+	}
+
+	title = "EVTNAME99535"
+	desc = "EVTDESC99535"
+	picture = "Administration"
+
+	option = {
+		name = "Простить их великой милостью..."
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = -1
+			}
+		}
+		ai_chance = {
+			factor = 70
+		}
+	}
+	option = {
+		name = "Им нет пощады!"
+		prestige = -3
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = 1
+			}
+		}
+		ai_chance = {
+			factor = 30
+		}
+	}
+}
+country_event = {
+
+	id = 99536
+
+	trigger = {
+		tag = RUS
+		year = 1887
+		NOT = {
+			year = 1892
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1889
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1890
+		}
+	}
+
+	title = "EVTNAME99536"
+	desc = "EVTDESC99536"
+	picture = "School"
+
+	option = {
+		name = "Нечего им учиться!"
+		any_pop = {
+			limit = {
+				OR = {
+					type = craftsmen
+					type = farmers
+					type = labourers
+				}
+			}
+			consciousness = -1
+			literacy = -0.1
+		}
+	}
+}
+country_event = {
+
+	id = 99537
+
+	trigger = {
+		tag = SWE
+		year = 1891
+		NOT = {
+			year = 1895
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1893
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1894
+		}
+	}
+
+	title = "EVTNAME99537"
+	desc = "EVTDESC99537"
+	picture = "market"
+
+	option = {
+		name = "Скансен"
+		prestige = 3
+	}
+}
+country_event = {
+
+	id = 99538
+
+	trigger = {
+		tag = ENG
+		year = 1893
+		NOT = {
+			year = 1897
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1895
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1896
+		}
+	}
+
+	title = "EVTNAME99538"
+	desc = "EVTDESC99538"
+	picture = "Nobel_Chemistry"
+
+	option = {
+		name = "Отлично"
+		prestige = 3
+	}
+}
+country_event = {
+
+	id = 99539
+
+	trigger = {
+		tag = RUS
+		year = 1897
+		NOT = {
+			year = 1901
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1899
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1900
+		}
+	}
+
+	title = "EVTNAME99539"
+	desc = "EVTDESC99539"
+	picture = "Administration"
+
+	option = {
+		name = "Отлично"
+		prestige = 3
+	}
+}
+country_event = {
+
+	id = 99540
+
+	trigger = {
+		tag = KUK
+		year = 1897
+		NOT = {
+			year = 1901
+		}
+		any_owned_province = {
+			is_core = BOH
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1899
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1900
+		}
+	}
+
+	title = "EVTNAME99540"
+	desc = "EVTDESC99540"
+	picture = "Administration"
+
+	option = {
+		name = "Отлично"
+		any_pop = {
+			limit = {
+				culture = czech
+			}
+			militancy = -1
+		}
+	}
+}
+country_event = {
+
+	id = 99541
+
+	trigger = {
+		tag = MON
+		year = 1898
+		NOT = {
+			year = 1902
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1900
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1901
+		}
+	}
+
+	title = "EVTNAME99541"
+	desc = "EVTDESC99541"
+	picture = "Budapest"
+
+	option = {
+		name = "Отлично"
+		prestige = 1
+	}
+}
+country_event = {
+
+	id = 99542
+
+	trigger = {
+		tag = BRZ
+		year = 1898
+		NOT = {
+			year = 1902
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1900
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1901
+		}
+	}
+
+	title = "EVTNAME99542"
+	desc = "EVTDESC99542"
+	picture = "theatre"
+
+	option = {
+		name = "Отлично"
+		prestige = 1
+	}
+}
+country_event = {
+
+	id = 99543
+
+	trigger = {
+		tag = SWI
+		year = 1898
+		NOT = {
+			year = 1902
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1900
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1901
+		}
+	}
+
+	title = "EVTNAME99543"
+	desc = "EVTDESC99543"
+	picture = "bayern"
+
+	option = {
+		name = "Отлично"
+		prestige = 1
+	}
+}
+country_event = {
+
+	id = 99544
+
+	trigger = {
+		tag = DEN
+		year = 1898
+		NOT = {
+			year = 1902
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1900
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1901
+		}
+	}
+
+	title = "EVTNAME99544"
+	desc = "EVTDESC99544"
+	picture = "football"
+
+	option = {
+		name = "Отлично"
+		prestige = 1
+	}
+}
+country_event = {
+
+	id = 99545
+
+	trigger = {
+		tag = FRA
+		year = 1903
+		NOT = {
+			year = 1907
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1905
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1906
+		}
+	}
+
+	title = "EVTNAME99545"
+	desc = "EVTDESC99545"
+	picture = "Olympics"
+
+	option = {
+		name = "Отлично"
+		prestige = 1
+	}
+}
+country_event = {
+
+	id = 99546
+
+	trigger = {
+		tag = FRA
+		year = 1912
+		NOT = {
+			year = 1916
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75
+			year = 1914
+		}
+
+		modifier = {
+			factor = 0.95
+			year = 1915
+		}
+	}
+
+	title = "EVTNAME99546"
+	desc = "EVTDESC99546"
+	picture = "sinkingship"
+
+	option = {
+		name = "Отлично"
+		prestige = -1
+	}
+}

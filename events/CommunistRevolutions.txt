@@ -1,0 +1,351 @@
+country_event = {
+	id = 95500
+	title = "EVTNAME95500"
+	desc = "EVTDESC95500"
+	picture = "ilich2"
+	
+	trigger = {
+		civilized = yes
+		literacy = 0.3
+		has_global_flag = communist_russia_created
+		NOT = {
+			has_country_flag = communist_is_active
+			government = proletarian_dictatorship
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "EVTOPTA95500"
+		any_pop = {
+			limit = {
+				location = {
+					is_colonial = no
+				}
+			}
+			ideology = {
+				value = communist
+				factor = 0.05
+			}
+			consciousness = 1
+		}
+		set_country_flag = communist_is_active
+	}
+}
+country_event = {
+	id = 95501
+	title = "EVTNAME95501"
+	desc = "EVTDESC95501"
+	picture = "ilich2"
+	
+	trigger = {
+		NOT = {
+			government = proletarian_dictatorship
+			has_country_flag = communist_spies_eliminated
+		}
+		sphere_owner = {
+			government = proletarian_dictatorship
+		}
+		has_global_flag = komintern_is_worked
+	}
+	
+	mean_time_to_happen = {
+		months = 15
+
+		modifier = {
+			factor = 0.5
+			civilized = no
+		}
+		modifier = {
+			factor = 1.2
+			is_secondary_power = yes
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA95501"
+		government = proletarian_dictatorship
+		political_reform = none_voting
+		political_reform = no_meeting
+		political_reform = state_press
+		political_reform = no_trade_unions
+		political_reform = underground_parties
+		political_reform = party_appointed
+		social_reform = eight_hours
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		set_country_flag = communist_revolution_was_happened
+		sphere_owner = { 
+			relation = { who = THIS value = 100 }
+			country_event = 95502
+		}
+	}
+	option = {
+		name = "EVTOPTB95501"
+		any_pop = {
+			scaled_militancy = {
+				ideology = communist
+				factor = 2
+			}
+		}
+		sphere_owner = { 
+			country_event = 95503
+		}
+		set_country_flag = communist_spies_eliminated
+	}
+}
+country_event = {
+	id = 95502
+	title = "EVTNAME95502"
+	desc = "EVTDESC95502"
+	picture = "ilich2"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA95502"
+		prestige = 10
+	}
+}
+country_event = {
+	id = 95503
+	title = "EVTNAME95503"
+	desc = "EVTDESC95503"
+	picture = "Administration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA95503"
+		casus_belli = {
+			target = FROM
+			type = install_communist_gov_cb
+			months = 12
+		}
+		war = {
+			target = FROM
+			call_ally = no
+			attacker_goal = {
+				casus_belli = install_communist_gov_cb
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB95503"
+		prestige = -5
+	}
+}
+country_event = {
+	id = 95504
+	title = "EVTNAME95504"
+	desc = "EVTDESC95504"
+	picture = "ilich2"
+	
+	trigger = {
+		NOT = {
+			government = proletarian_dictatorship
+		}
+		has_global_flag = komintern_is_worked
+	}
+	
+	mean_time_to_happen = {
+		months = 100
+
+		modifier = {
+			factor = 0.9
+			average_consciousness = 4
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 0.9
+			average_militancy = 5
+		}
+		modifier = {
+			factor = 0.9
+			social_reform_want = 0.07
+		}
+		modifier = {
+			factor = 0.9
+			social_reform_want = 0.09
+		}
+		modifier = {
+			factor = 0.9
+			num_of_revolts = 1
+		}
+		modifier = {
+			factor = 0.8
+			num_of_revolts = 5
+		}
+		modifier = {
+			factor = 0.8
+			num_of_revolts = 10
+		}
+		modifier = {
+			factor = 0.4
+			num_of_revolts = 15
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA95504"
+		any_pop = {
+			limit = {
+				location = {
+					is_colonial = no
+				}
+			}
+			ideology = {
+				value = communist
+				factor = 0.15
+			}
+		}
+		any_pop = {
+			scaled_consciousness = {
+				ideology = communist
+				factor = 8
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB95504"
+		any_pop = {
+			limit = {
+				location = {
+					is_colonial = no
+				}
+			}
+			ideology = {
+				value = communist
+				factor = 0.1
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				ideology = communist
+				factor = 8
+			}
+		}
+	}
+}
+#USSR Expansion
+country_event = {
+	id = 95505
+	title = "EVTNAME95505"
+	desc = "EVTDESC95505"
+	picture = "ilich2"
+	
+	trigger = {
+		government = proletarian_dictatorship
+		ai = yes
+		in_sphere = SOV
+		any_neighbor_country = {
+			tag = SOV
+		}
+		has_global_flag = komintern_is_worked
+		#NOT = {
+		#	has_country_flag = join_ussr
+		#}
+	}
+	
+	mean_time_to_happen = {
+		months = 50
+
+		modifier = {
+			factor = 0.5
+			civilized = no
+		}
+		modifier = {
+			factor = 2
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 0.2
+			OR = {
+				tag = EST
+				tag = LAT
+				tag = LIT
+				tag = FIN
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA95505"
+		sphere_owner = { 
+			country_event = 95506
+		}
+		set_country_flag = join_ussr
+	}
+	
+}
+country_event = {
+	id = 95506
+	title = "EVTNAME95506"
+	desc = "EVTDESC95506"
+	picture = "ilich2"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA95506"
+		inherit = FROM
+		badboy = 15
+		FROM = {
+			all_core = {
+				add_core = SOV
+			}
+		}
+		any_country ={
+			limit = {
+				NOT = {
+					OR = {
+						government = proletarian_dictatorship
+						ruling_party_ideology = communist
+					}
+				}
+			}
+			relation = { who = THIS value = -100 }
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				badboy = 0.2
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTA95506"
+		badboy = -2
+	}
+}

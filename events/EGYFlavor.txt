@@ -1,0 +1,96 @@
+country_event = {
+
+	id = 99400
+
+	trigger = {
+		tag = EGY
+		civilization_progress = 0.5
+		has_global_flag = scenario_1816_activated
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "EVTNAME99400"
+	desc = "EVTDESC99400"
+	picture = "Administration"
+
+	option = {
+		name = "EVTOPTA99400"
+		prestige = -15
+		TUR = {
+			release_vassal = THIS
+		}
+		#SNR = {
+		#	add_casus_belli = {
+	        #		target = THIS
+		#		type = conquest
+		#		months = 1000
+		#	}
+		#}
+		#any_country = {
+		#	any_owned = {
+		#		limit = {
+		#			OR = {
+		#				state_id = 894
+		#				state_id = 897
+		#				state_id = 903
+		#				state_id = 910
+		#				state_id = 915
+		#				state_id = 921	
+		#			}
+		#		}
+		#		add_core = THIS
+		#	}
+		#}
+		SNR = {
+			all_core = {
+				add_core = EGY
+			}
+		}
+		set_country_flag = egypt_cb_recieved
+	}
+}
+country_event = {
+
+	id = 99401
+
+	trigger = {
+		tag = EGY
+		ai = yes
+		war = no
+		war = yes
+		NOT = {truce_with = SNR}
+		has_country_flag = egypt_cb_recieved
+		any_neighbor_country = {
+			tag = SNR
+		}
+	}
+ 
+	mean_time_to_happen =  {
+		months = 20
+	}
+
+	title = "EVTNAME99401"
+	desc = "EVTDESC99401"
+
+	option = {
+		name = "EVTOPTA99401"
+		SNR = {
+			add_casus_belli = {
+	        		target = THIS
+				type = conquest
+				months = 1000
+			}
+		}
+		war = {
+			target = SNR
+			attacker_goal = {
+				casus_belli = conquest
+			}
+		}
+	}
+}

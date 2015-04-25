@@ -1,0 +1,1127 @@
+# 99850 - Appointed A
+country_event = {
+	id = 99850
+	title = "EVTNAME99850"
+	desc = "EVTDESC99850"
+	picture = "Monarchy"
+    trigger = {
+                civilized = yes
+                upper_house_composition = appointed
+		not = { is_ideology_enabled = anarcho_liberal }
+		not = { is_ideology_enabled = socialist }
+		not = { is_ideology_enabled = communist }
+		not = { is_ideology_enabled = fascist }
+               }
+    mean_time_to_happen =  {
+        months = 72
+                           }
+	option = {
+		name = "EVTOPTA99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = conservative
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = conservative
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = conservative
+                              value = 2
+                       } 
+	}
+	
+	option = {
+		name = "EVTOPTB99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = reactionary
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = -4
+			}
+                        scaled_militancy = {
+				ideology = reactionary
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = reactionary
+                              value = 2
+                       } 
+	}
+	
+	option = {
+		name = "EVTOPTC99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = liberal
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = liberal
+				factor = -4
+			}
+                        scaled_militancy = {
+				ideology = liberal
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = liberal
+                              value = 2
+                       } 
+	}
+
+	option = {
+		name = "EVTOPTD99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = liberal
+				factor = 0.05
+			}
+			ideology = {
+				value = reactionary
+				factor = 0.05
+			}
+                        scaled_militancy = {
+				ideology = reactionary
+				factor = 4
+			}
+                        scaled_militancy = {
+				ideology = conservative
+				factor = 2
+			}
+			scaled_consciousness = {
+				ideology = liberal
+				factor = 2
+			}
+		}
+		upper_house = {
+                           ideology = socialist
+                              value = 2
+                       } 
+	}	
+
+	option = {
+		name = "EVTOPTE99850"
+		any_pop = {
+                consciousness = -0.5
+                militancy = -0.5
+                       }
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+# 99851 - Appointed B
+country_event = {
+	id = 99851
+	title = "EVTNAME99850"
+	desc = "EVTDESC99850"
+	picture = "Monarchy"
+trigger = {
+any_country = {
+                civilized = yes
+                upper_house_composition = appointed
+		is_ideology_enabled = anarcho_liberal
+		not = { is_ideology_enabled = socialist }
+		not = { is_ideology_enabled = communist }
+		not = { is_ideology_enabled = fascist }
+               }
+    mean_time_to_happen =  {
+        months = 72
+                           }
+	option = {
+		name = "EVTOPTA99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = conservative
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = conservative
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = conservative
+                              value = 2
+                       } 
+	}
+	
+	option = {
+		name = "EVTOPTB99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = reactionary
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = -4
+			}
+                        scaled_militancy = {
+				ideology = reactionary
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = reactionary
+                              value = 2
+                       } 
+	}
+	
+	option = {
+		name = "EVTOPTC99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = liberal
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = liberal
+				factor = -4
+			}
+                        scaled_militancy = {
+				ideology = liberal
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = liberal
+                              value = 2
+                       } 
+	}
+	option = {
+		name = "EVTOPTD99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = liberal
+				factor = 0.05
+			}
+			ideology = {
+				value = anarcho_liberal
+				factor = 0.05
+			}
+                        scaled_militancy = {
+				ideology = reactionary
+				factor = 2
+			}
+                        scaled_militancy = {
+				ideology = conservative
+				factor = 2
+			}
+			scaled_consciousness = {
+				ideology = liberal
+				factor = 2
+			}
+                        scaled_militancy = {
+				ideology = anarcho_liberal
+				factor = 2
+			}
+		} 
+		upper_house = {
+                           ideology = socialist
+                              value = 2
+                       } 
+	}
+	option = {
+		name = "EVTOPTF99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = reactionary
+				factor = 0.05
+			}
+			ideology = {
+				value = anarcho_liberal
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = anarcho_liberal
+				factor = 2
+			}
+		}
+		upper_house = {
+                           ideology = anarcho_liberal
+                              value = 2
+                       } 
+	}	
+	option = {
+		name = "EVTOPTE99850"
+		any_pop = {
+                consciousness = -0.5
+                militancy = -0.5
+                       }
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+# 99852 - Appointed Ñ
+country_event = {
+	id = 99852
+	title = "EVTNAME99850"
+	desc = "EVTDESC99850"
+	picture = "Monarchy"
+trigger = {
+any_country = {
+                civilized = yes
+                upper_house_composition = appointed
+		not = { is_ideology_enabled = anarcho_liberal }
+		is_ideology_enabled = socialist
+		not = { is_ideology_enabled = communist }
+		not = { is_ideology_enabled = fascist }
+               }
+    mean_time_to_happen =  {
+        months = 72
+                           }
+	option = {
+		name = "EVTOPTA99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = conservative
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = conservative
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = conservative
+                              value = 2
+                       } 
+	}
+	
+	option = {
+		name = "EVTOPTB99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = reactionary
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = -4
+			}
+                        scaled_militancy = {
+				ideology = reactionary
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = reactionary
+                              value = 2
+                       } 
+	}
+	
+	option = {
+		name = "EVTOPTC99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = liberal
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = liberal
+				factor = 2
+			}
+                        scaled_militancy = {
+				ideology = liberal
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = liberal
+                              value = 2
+                       } 
+	}
+	option = {
+		name = "EVTOPTG99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = socialist
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = socialist
+				factor = 2
+			}
+                        scaled_militancy = {
+				ideology = socialist
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = socialist
+                              value = 2
+                       } 
+	}	
+	option = {
+		name = "EVTOPTE99850"
+		any_pop = {
+                consciousness = -0.5
+                militancy = -0.5
+                       }
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+# 99853 - Appointed D
+country_event = {
+	id = 99853
+	title = "EVTNAME99850"
+	desc = "EVTDESC99850"
+	picture = "Monarchy"
+trigger = {
+any_country = {
+                civilized = yes
+                upper_house_composition = appointed
+		is_ideology_enabled = anarcho_liberal
+		is_ideology_enabled = socialist
+		not = { is_ideology_enabled = communist }
+		not = { is_ideology_enabled = fascist }
+               }
+    mean_time_to_happen =  {
+        months = 72
+                           }
+	option = {
+		name = "EVTOPTA99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = conservative
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = conservative
+				factor = -2
+			}
+		}
+		upper_house = {
+                           ideology = conservative
+                              value = 2
+                       } 
+	}
+	
+	option = {
+		name = "EVTOPTB99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = reactionary
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = -4
+			}
+                        scaled_militancy = {
+				ideology = reactionary
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = reactionary
+                              value = 2
+                       } 
+	}
+	
+	option = {
+		name = "EVTOPTC99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = liberal
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = liberal
+				factor = 2
+			}
+                        scaled_militancy = {
+				ideology = liberal
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = liberal
+                              value = 2
+                       } 
+	}
+	option = {
+		name = "EVTOPTG99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = socialist
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = socialist
+				factor = 2
+			}
+                        scaled_militancy = {
+				ideology = socialist
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = socialist
+                              value = 2
+                       } 
+	}
+	option = {
+		name = "EVTOPTF99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = anarcho_liberal
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = anarcho_liberal
+				factor = 2
+			}
+                        scaled_militancy = {
+				ideology = anarcho_liberal
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = anarcho_liberal
+                              value = 2
+                       } 
+	}	
+	option = {
+		name = "EVTOPTE99850"
+		any_pop = {
+                consciousness = -0.5
+                militancy = -0.5
+                       }
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+# 99854 - Appointed E
+country_event = {
+	id = 99854
+	title = "EVTNAME99850"
+	desc = "EVTDESC99850"
+	picture = "Monarchy"
+trigger = {
+any_country = {
+                civilized = yes
+                upper_house_composition = appointed
+		is_ideology_enabled = anarcho_liberal
+		is_ideology_enabled = socialist
+		is_ideology_enabled = communist
+		not = { is_ideology_enabled = fascist }
+               }
+    mean_time_to_happen =  {
+        months = 72
+                           }
+	option = {
+		name = "EVTOPTA99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = conservative
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = conservative
+				factor = -2
+			}
+		}
+		upper_house = {
+                           ideology = conservative
+                              value = 2
+                       } 
+	}
+	
+	option = {
+		name = "EVTOPTB99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = reactionary
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = -4
+			}
+                        scaled_militancy = {
+				ideology = reactionary
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = reactionary
+                              value = 2
+                       } 
+	}
+	
+	option = {
+		name = "EVTOPTC99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = liberal
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = liberal
+				factor = 2
+			}
+                        scaled_militancy = {
+				ideology = liberal
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = liberal
+                              value = 2
+                       } 
+	}
+	option = {
+		name = "EVTOPTG99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = socialist
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = socialist
+				factor = 2
+			}
+                        scaled_militancy = {
+				ideology = socialist
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = socialist
+                              value = 2
+                       } 
+	}
+	option = {
+		name = "EVTOPTF99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = anarcho_liberal
+				factor = 0.02
+			}
+			scaled_consciousness = {
+				ideology = anarcho_liberal
+				factor = 2
+			}
+                        scaled_militancy = {
+				ideology = anarcho_liberal
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = anarcho_liberal
+                              value = 2
+                       } 
+	}	
+	option = {
+		name = "EVTOPTH99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = communist
+				factor = 0.05
+			}
+			ideology = {
+				value = socialist
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = communist
+				factor = 4
+			}
+                        scaled_militancy = {
+				ideology = communist
+				factor = 2
+			}
+                        scaled_militancy = {
+				ideology = socialist
+				factor = 2
+			}
+                        scaled_consciousness = {
+				ideology = socialist
+				factor = 4
+			}
+		}
+		upper_house = {
+                           ideology = communist
+                              value = 2
+                       } 
+		}
+	option = {
+		name = "EVTOPTE99850"
+		any_pop = {
+                consciousness = -0.5
+                militancy = -0.5
+                       }
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+# 99855 - Appointed F
+country_event = {
+	id = 99855
+	title = "EVTNAME99850"
+	desc = "EVTDESC99850"
+	picture = "Monarchy"
+trigger = {
+any_country = {
+                civilized = yes
+                upper_house_composition = appointed
+		is_ideology_enabled = anarcho_liberal
+		is_ideology_enabled = socialist
+		is_ideology_enabled = communist
+		is_ideology_enabled = fascist
+               }
+    mean_time_to_happen =  {
+        months = 72
+                           }
+	option = {
+		name = "EVTOPTA99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = conservative
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = conservative
+				factor = -2
+			}
+		}
+		upper_house = {
+                           ideology = conservative
+                              value = 2
+                       } 
+	}
+	
+	option = {
+		name = "EVTOPTB99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = reactionary
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = -4
+			}
+                        scaled_militancy = {
+				ideology = reactionary
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = reactionary
+                              value = 2
+                       } 
+	}
+	
+	option = {
+		name = "EVTOPTC99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = liberal
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = liberal
+				factor = 2
+			}
+                        scaled_militancy = {
+				ideology = liberal
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = liberal
+                              value = 2
+                       } 
+	}
+	option = {
+		name = "EVTOPTG99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = socialist
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = socialist
+				factor = 2
+			}
+                        scaled_militancy = {
+				ideology = socialist
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = socialist
+                              value = 2
+                       } 
+	}
+	option = {
+		name = "EVTOPTF99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = anarcho_liberal
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = anarcho_liberal
+				factor = 2
+			}
+                        scaled_militancy = {
+				ideology = anarcho_liberal
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = anarcho_liberal
+                              value = 2
+                       } 
+	}	
+	option = {
+		name = "EVTOPTH99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = communist
+				factor = 0.05
+			}
+			ideology = {
+				value = socialist
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = communist
+				factor = 4
+			}
+                        scaled_militancy = {
+				ideology = communist
+				factor = 2
+			}
+                        scaled_militancy = {
+				ideology = socialist
+				factor = 2
+			}
+			scaled_consciousness = {
+				ideology = socialist
+				factor = 4
+			}
+		}
+		upper_house = {
+                           ideology = communist
+                              value = 2
+                       } 
+		}
+	option = {
+		name = "EVTOPTI99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = fascist
+				factor = 0.05
+			}
+			ideology = {
+				value = socialist
+				factor = 0.01
+			}
+			ideology = {
+				value = communist
+				factor = 0.01
+			}
+			scaled_consciousness = {
+				ideology = fascist
+				factor = 5
+			}
+			scaled_consciousness = {
+				ideology = communist
+				factor = 2
+			}
+                        scaled_militancy = {
+				ideology = fascist
+				factor = 3
+			}
+                        scaled_militancy = {
+				ideology = socialist
+				factor = 1
+			}
+			scaled_consciousness = {
+				ideology = communist
+				factor = 2
+			}
+		}
+		upper_house = {
+                           ideology = fascist
+                              value = 2
+                       } 
+		}
+	option = {
+		name = "EVTOPTE99850"
+		any_pop = {
+                consciousness = -0.5
+                militancy = -0.5
+                       }
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+# 99856 - Appointed G
+country_event = {
+	id = 99856
+	title = "EVTNAME99850"
+	desc = "EVTDESC99850"
+	picture = "Monarchy"
+trigger = {
+any_country = {
+                civilized = yes
+                upper_house_composition = appointed
+				not = { is_ideology_enabled = anarcho_liberal }
+		is_ideology_enabled = socialist
+		is_ideology_enabled = communist
+				not = { is_ideology_enabled = fascist }
+               }
+    mean_time_to_happen =  {
+        months = 72
+                           }
+	option = {
+		name = "EVTOPTA99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = conservative
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = conservative
+				factor = -2
+			}
+		}
+		upper_house = {
+                           ideology = conservative
+                              value = 2
+                       } 
+	}
+	
+	option = {
+		name = "EVTOPTB99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = reactionary
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = -4
+			}
+                        scaled_militancy = {
+				ideology = reactionary
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = reactionary
+                              value = 2
+                       } 
+	}
+	
+	option = {
+		name = "EVTOPTC99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = liberal
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = liberal
+				factor = 2
+			}
+                        scaled_militancy = {
+				ideology = liberal
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = liberal
+                              value = 2
+                       } 
+	}
+	option = {
+		name = "EVTOPTG99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = socialist
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = socialist
+				factor = 2
+			}
+                        scaled_militancy = {
+				ideology = socialist
+				factor = -4
+			}
+		}
+		upper_house = {
+                           ideology = socialist
+                              value = 2
+                       } 
+	}	
+	option = {
+		name = "EVTOPTH99850"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = communist
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = communist
+				factor = 4
+			}
+                        scaled_militancy = {
+				ideology = communist
+				factor = 2
+			}
+                        scaled_militancy = {
+				ideology = socialist
+				factor = 2
+			}
+			scaled_consciousness = {
+				ideology = socialist
+				factor = 2
+			}
+		}
+		upper_house = {
+                           ideology = communist
+                              value = 2
+                       } 
+		}
+	option = {
+		name = "EVTOPTE99850"
+		any_pop = {
+                consciousness = -0.5
+                militancy = -0.5
+                       }
+		ai_chance = {
+			factor = 100
+		}
+	}
+}

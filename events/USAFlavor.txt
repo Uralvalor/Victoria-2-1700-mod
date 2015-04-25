@@ -1,0 +1,1098 @@
+country_event = {
+
+	id = 44100
+	news = yes
+	news_desc_long = "EVTDESC44100_NEWS_LONG"
+	news_desc_medium = "EVTDESC44100_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44100_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1885
+		NOT = {
+			year = 1888
+			}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1886
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1887
+		}
+	}
+
+	title = "EVTNAME44100"
+	desc = "EVTDESC44100"
+	picture = "HuckleberryFinn"
+
+	option = {
+		name = "EVTOPTA44100" 
+		prestige = 5
+	}
+
+}
+
+country_event = {
+
+	id = 44101
+	news = yes
+	news_desc_long = "EVTDESC44101_NEWS_LONG"
+	news_desc_medium = "EVTDESC44101_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44101_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1893
+		NOT = {
+			year = 1896
+		}
+	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1886
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1887
+		}
+	}
+
+	title = "EVTNAME44101"
+	desc = "EVTDESC44101"
+	picture = "speedrecord"
+
+	option = {
+		name = "EVTOPTA44101" 
+		prestige = 3
+	}
+
+}
+
+country_event = {
+
+	id = 44102
+	news = yes
+	news_desc_long = "EVTDESC44102_NEWS_LONG"
+	news_desc_medium = "EVTDESC44102_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44102_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		government = democracy
+		invention = double_standard 
+		year = 1895
+		NOT = {
+			year = 1898
+			}
+	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1896
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1897
+		}
+	}
+
+	title = "EVTNAME44102"
+	desc = "EVTDESC44102"
+	picture = "CrossofGold"
+
+	option = {
+		name = "EVTOPTA44102" 
+		plurality = 3
+		any_pop = {
+			consciousness = 1
+		}
+	}
+
+}
+
+country_event = {
+
+	id = 44103
+	news = yes
+	news_desc_long = "EVTDESC44103_NEWS_LONG"
+	news_desc_medium = "EVTDESC44103_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44103_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1856
+		war = no
+		NOT = {
+			year = 1859
+		}	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1857
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1858
+		}
+	}
+
+	title = "EVTNAME44103"
+	desc = "EVTDESC44103"
+	picture = "HMS_Resolute"
+
+	option = {
+		name = "EVTOPTA44103" 
+		prestige = 3
+		relation = { who = ENG value = 100 }
+	}
+
+}
+
+country_event = {
+
+	id = 44104
+	news = yes
+	news_desc_long = "EVTDESC44104_NEWS_LONG"
+	news_desc_medium = "EVTDESC44104_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44104_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		government = democracy
+		year = 1838
+		NOT = {
+			year = 1842
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1839
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1840
+		}
+	}
+
+	title = "EVTNAME44104"
+	desc = "EVTDESC44104"
+	picture = "HoraceMann"
+
+	option = {
+		name = "EVTOPTA44104" 
+		prestige = 2
+		plurality = 1
+		years_of_research = 0.5
+	}
+
+}
+
+country_event = {
+
+	id = 44105
+	news = yes
+	news_desc_long = "EVTDESC44105_NEWS_LONG"
+	news_desc_medium = "EVTDESC44105_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44105_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1846
+		NOT = {
+			year = 1849
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1847
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1848
+		}
+	}
+
+	title = "EVTNAME44105"
+	desc = "EVTDESC44105"
+	picture = "Smithsonian"
+
+	option = {
+		name = "EVTOPTA44105" 
+		prestige = 5
+		years_of_research = 0.5
+	}
+
+}
+
+country_event = {
+
+	id = 44106
+	news = yes
+	news_desc_long = "EVTDESC44106_NEWS_LONG"
+	news_desc_medium = "EVTDESC44106_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44106_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1841
+		NOT = {
+			year = 1844
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1842
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1843
+		}
+	}
+
+	title = "EVTNAME44106"
+	desc = "EVTDESC44106"
+	picture = "Emerson"
+
+	option = {
+		name = "EVTOPTA44106" 
+		prestige = 2
+		any_pop = {
+			dominant_issue = { 
+				factor = 0.10
+				value = moralism
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 44107
+	news = yes
+	news_desc_long = "EVTDESC44107_NEWS_LONG"
+	news_desc_medium = "EVTDESC44107_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44107_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		government = democracy
+		year = 1861
+		NOT = {
+			year = 1864
+		}	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1862
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1863
+		}
+	}
+
+	title = "EVTNAME44107"
+	desc = "EVTDESC44107"
+	picture = "CommonLaw"
+
+	option = {
+		name = "EVTOPTA44107" 
+		prestige = 1
+		plurality = 2
+	}
+}
+
+country_event = {
+
+	id = 44108
+	news = yes
+	news_desc_long = "EVTDESC44108_NEWS_LONG"
+	news_desc_medium = "EVTDESC44108_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44108_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1885
+		has_global_flag = american_civil_war_has_happened
+		NOT = {
+			exists = CSA
+			year = 1888
+		}
+	}
+		
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1886
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1887
+		}
+	}
+
+	title = "EVTNAME44108"
+	desc = "EVTDESC44108"
+	picture = "Grant"
+
+	option = {
+		name = "EVTOPTA44108" 
+		prestige = 1
+	}
+}
+
+country_event = {
+
+	id = 44109
+	news = yes
+	news_desc_long = "EVTDESC44109_NEWS_LONG"
+	news_desc_medium = "EVTDESC44109_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44109_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1890
+		is_greater_power = yes
+		NOT = {
+			exists = CSA
+			year = 1893
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1891
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1892
+		}
+	}
+
+	title = "EVTNAME44109"
+	desc = "EVTDESC44109"
+	picture = "SeaPower"
+
+	option = {
+		name = "EVTOPTA44109" 
+		prestige = 2
+	}
+}
+
+country_event = {
+
+	id = 44110
+	news = yes
+	news_desc_long = "EVTDESC44110_NEWS_LONG"
+	news_desc_medium = "EVTDESC44110_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44110_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1916
+		government = democracy
+		is_greater_power = yes
+		war = yes
+		NOT = {
+			exists = CSA
+			year = 1930
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1917
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1920
+		}
+	}
+
+	title = "EVTNAME44110"
+	desc = "EVTDESC44110"
+	picture = "Spies"
+
+	option = {
+		name = "EVTOPTA44110" 
+		prestige = -10
+		any_pop = {
+			militancy = -2
+			consciousness = -2
+			}
+		political_reform = censored_press
+		political_reform = non_socialist
+		plurality = -10
+	}
+
+
+	option = {
+		name = "EVTOPTB44110" 
+		prestige = 25
+		political_reform = free_press
+		political_reform = all_trade_unions
+		plurality = 10
+		craftsmen = {
+			ideology = {
+				factor = 0.15
+				value = socialist
+				}
+			}
+		labourers = {
+			ideology = {
+				factor = 0.20
+				value = socialist
+				}
+			}
+		soldiers = {
+			ideology = {
+				factor = 0.05
+				value = socialist
+				}
+			}
+	}
+}
+
+country_event = {
+
+	id = 44111
+	news = yes
+	news_desc_long = "EVTDESC44111_NEWS_LONG"
+	news_desc_medium = "EVTDESC44111_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44111_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1865
+		war = no
+		NOT = {
+			year = 1868
+			}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1866
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1867
+		}
+	}
+
+	title = "EVTNAME44111"
+	desc = "EVTDESC44111"
+	picture = "pinkertons"
+
+	option = {
+		name = "EVTOPTA44111" 
+		prestige = 1
+		
+	}
+}
+
+country_event = {
+
+	id = 44112
+	news = yes
+	news_desc_long = "EVTDESC44112_NEWS_LONG"
+	news_desc_medium = "EVTDESC44112_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44112_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1876
+		war = no
+		NOT = {
+			year = 1880
+			}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1877
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1878
+		}
+	}
+
+	title = "EVTNAME44112"
+	desc = "EVTDESC44112"
+	picture = "baseball"
+
+	option = {
+		name = "EVTOPTA44112" 
+		prestige = 1
+		farmers = {
+			consciousness = -1
+			}
+		labourers = {
+			consciousness = -1
+			}
+		soldiers = {
+			consciousness = -1
+			}
+		artisans = {
+			consciousness = -1
+			}
+		craftsmen = {
+			consciousness = -1
+			}
+		clerks = {
+			consciousness = -1
+			}
+		clergymen = {
+			consciousness = -1
+			}
+	}
+}
+
+country_event = {
+
+	id = 44113
+	news = yes
+	news_desc_long = "EVTDESC44113_NEWS_LONG"
+	news_desc_medium = "EVTDESC44113_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44113_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1871
+		owns = 163 #Chicago
+		NOT = {
+			year = 1874
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1872
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1873
+		}
+	}
+
+	title = "EVTNAME44113"
+	desc = "EVTDESC44113"
+	picture = "chicagofire"
+
+	option = {
+		name = "EVTOPTA44113" 
+		treasury = -25
+	}
+}
+
+country_event = {
+
+	id = 44114
+	news = yes
+	news_desc_long = "EVTDESC44114_NEWS_LONG"
+	news_desc_medium = "EVTDESC44114_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44114_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1881
+		owns = 102 #S Arizona
+		NOT = {
+			year = 1884
+		}	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1882
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1883
+		}
+	}
+
+	title = "EVTNAME44114"
+	desc = "EVTDESC44114"
+	picture = "WyattEarp"
+
+	option = {
+		name = "EVTOPTA44114" 
+		prestige = 1
+	}
+}
+
+
+country_event = {
+
+	id = 44115
+
+	trigger = {
+		tag = USA
+		year = 1846
+		NOT = {
+			year = 1850
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1847
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1848
+		}
+	}
+
+	title = "EVTNAME44115"
+	desc = "EVTDESC44115"
+	picture = "baseball"
+
+	option = {
+		name = "EVTOPTA44114" 
+		prestige = 3
+	}
+}
+
+#Second Great Awakening
+country_event = {
+
+	id = 44116
+	news = yes
+	news_desc_long = "EVTDESC44116_NEWS_LONG"
+	news_desc_medium = "EVTDESC44116_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44116_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1836
+		NOT = {
+			year = 1840
+			}
+	}
+		
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1837
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1838
+		}
+	}
+
+	title = "EVTNAME44116"
+	desc = "EVTDESC44116"
+	picture = "secondawakening"
+
+	option = {
+		name = "EVTOPTA44116"
+		any_pop = {
+			consciousness = 0.3
+		}
+		farmers = { 
+			dominant_issue = {
+				factor = 0.40
+				value = moralism
+				}
+			}		
+		labourers = { 
+			dominant_issue = {
+				factor = 0.40
+				value = moralism
+				}
+			}		
+		soldiers = { 
+			dominant_issue = {
+				factor = 0.25
+				value = moralism
+				}
+			}		
+		artisans = { 
+			dominant_issue = {
+				factor = 0.30
+				value = moralism
+				}
+		}
+	}
+}
+
+country_event = {
+
+	id = 44117
+	news = yes
+	news_desc_long = "EVTDESC44117_NEWS_LONG"
+	news_desc_medium = "EVTDESC44117_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44117_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1837
+		NOT = {
+			year = 1840
+			}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1838
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1839
+		}
+	}
+
+	title = "EVTNAME44117"
+	desc = "EVTDESC44117"
+	picture = "christ"
+
+	option = {
+		name = "EVTOPTA44117" 
+		any_pop = { 
+			scaled_consciousness = {
+				factor = 1
+				ideology = liberal
+				}
+			}		
+	}
+}
+
+country_event = {
+
+	id = 44118
+	news = yes
+	news_desc_long = "EVTDESC44118_NEWS_LONG"
+	news_desc_medium = "EVTDESC44118_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44118_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1837
+		NOT = {
+			year = 1840
+			}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1838
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1839
+		}
+	}
+
+	title = "EVTNAME44118"
+	desc = "EVTDESC44118"
+	picture = "charity"
+
+	option = {
+		name = "EVTOPTA44118" 
+		plurality = 1
+		farmers = { 
+			militancy = -1
+			}		
+		labourers = { 
+			militancy = -1
+			}		
+		soldiers = { 
+			militancy = -1
+			}		
+		artisans = { 
+			militancy = -1
+			}		
+	}
+}
+
+country_event = {
+
+	id = 44119
+	news = yes
+	news_desc_long = "EVTDESC44119_NEWS_LONG"
+	news_desc_medium = "EVTDESC44119_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44119_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1848
+		NOT = {
+			year = 1852
+			}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1849
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1850
+		}
+	}
+
+	title = "EVTNAME44119"
+	desc = "EVTDESC44119"
+	picture = "JJHughes"
+
+	option = {
+		name = "EVTOPTA44119" 
+		any_pop = { 
+			limit = {
+				has_pop_religion = catholic
+				}
+			consciousness = 1
+			}		
+	}
+}
+
+
+# Moral Crusaders
+province_event = {
+
+	id = 44120
+	news = yes
+	news_desc_long = "EVTDESC44120_NEWS_LONG"
+	news_desc_medium = "EVTDESC44120_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44120_NEWS_SHORT"
+
+	trigger = {
+		owned_by = USA  #can fire in any US-owned province
+		moralism = 5
+		year = 1838
+		NOT = {
+			year = 1930
+		}
+	}
+	
+	fire_only_once = no
+ 
+	mean_time_to_happen =  {
+		months = 360
+
+		modifier = {
+			factor = 0.9 #increase likelihood to happen
+			year = 1885
+		}
+
+
+		modifier = {
+			factor = 0.9 #increase likelihood to happen
+			year = 1910
+		}
+	}
+
+	title = "EVTNAME44120"
+	desc = "EVTDESC44120"
+	picture = "saloon"
+
+	option = {
+		name = "EVTOPTA44120" 
+		any_pop = { 
+			limit = {
+				has_pop_religion = protestant
+			}
+			consciousness = 0.2
+			dominant_issue = {
+				factor = 0.02
+				value = moralism
+			}		
+			dominant_issue = {
+				factor = 0.04
+				value = secularized
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 44121
+	news = yes
+	news_desc_long = "EVTDESC44121_NEWS_LONG"
+	news_desc_medium = "EVTDESC44121_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44121_NEWS_SHORT"
+
+	trigger = {
+		tag = USA   
+		year = 1838
+		NOT = {
+			year = 1842
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.25 #increase likelihood to happen
+			year = 1839
+		}
+
+
+		modifier = {
+			factor = 0.25 #increase likelihood to happen
+			year = 1840
+		}
+	}
+
+	title = "EVTNAME44121"
+	desc = "EVTDESC44121"
+	picture = "christ"
+
+	option = {
+		name = "EVTOPTA44121" 
+		any_pop = { 
+			limit = {
+				has_pop_culture = afro_american
+				}
+			consciousness = 1
+				}
+		}
+}

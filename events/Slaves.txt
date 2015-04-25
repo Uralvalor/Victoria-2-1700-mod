@@ -1,0 +1,427 @@
+country_event = {
+	id = 91000
+	title = "EVTNAME91000"
+	desc = "EVTDESC91000"
+	fire_only_once = yes
+	picture = "flag_csa"	
+
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA91000"
+		any_pop = {
+			limit = {
+				has_pop_culture = dixie
+			}
+			militancy = -2
+			consciousness = 2
+		}
+		prestige = 15
+	}
+}
+
+country_event = {
+	id = 91001
+	title = "EVTNAME91001"
+	desc = "EVTDESC91001"
+	fire_only_once = yes
+	picture = "hymn_csa"	
+
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA91001"
+		any_pop = {
+			limit = {
+				has_pop_culture = dixie
+			}
+			militancy = -1
+			consciousness = -1
+		}
+		prestige = 10
+	}
+}
+
+country_event = {
+	id = 91003
+	title = "EVTNAME91003"
+	desc = "EVTDESC91003"
+	fire_only_once = yes
+	picture = "dollar_csa"	
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA91003"
+		any_pop = {
+			limit = {
+				has_pop_culture = dixie
+				}
+			consciousness = 1
+		}
+		prestige = 25
+	}
+}
+
+country_event = {
+
+	id = 91004 
+
+	trigger = {
+		tag = CSA 
+		war_with = USA
+		relation = {
+			with = ENG
+			value = 200
+		}
+		blockade = 0.9
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		days = 2
+
+		modifier = {
+			factor = 0.5 #increase likelihood to happen
+			year = 1855
+		}
+
+		modifier = {
+			factor = 0.5 #increase likelihood to happen
+			year = 1861
+		}
+	}
+
+	title = "EVTNAME91004"
+	desc = "EVTDESC91004"
+	picture = "ship_attacked"
+
+	option = {
+		name = "EVTOPTA91004" 
+		any_pop = {
+			consciousness = 1
+			militancy = -1
+		}
+		USA = {
+			country_event = 91006
+		}
+	}
+}
+
+country_event = {
+
+	id = 91005 
+
+	fire_only_once = yes
+
+	title = "EVTNAME91005"
+	desc = "EVTDESC91005"
+	picture = "ship_attacked"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA91005" 
+		war = {
+			target = USA
+			attacker_goal = {
+				casus_belli = rude_boy
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+		create_alliance = CSA
+	}
+}
+
+country_event = {
+
+	id = 91006 
+
+	fire_only_once = yes
+
+	title = "EVTNAME91006"
+	desc = "EVTDESC91006"
+	picture = "ship_attacked"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA91006" 
+		badboy = 16
+		any_pop = {
+			limit = {
+				has_pop_culture = yankee
+			}
+			consciousness = 2
+			}
+		relation = {
+			with = ENG
+			value = -200
+		}
+		ENG = {
+			country_event = 91005
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+
+	option = {
+		name = "EVTOPTB91006" 
+		badboy = 8
+		any_pop = {
+			limit = {
+				has_pop_culture = yankee
+			}
+			militancy = 8
+			consciousness = 8
+			}
+		relation = {
+			with = ENG
+			value = 100
+		}
+		prestige = -50
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+
+	id = 91002 
+
+	trigger = {
+		tag = CSA 
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "EVTNAME91002"
+	desc = "EVTDESC91002"
+	picture = "csa_constitution"
+
+	option = {
+		name = "EVTOPTA91002"
+		prestige = 10
+		set_country_flag = constitution_accepted
+	}
+}
+
+country_event = {
+
+	id = 91007 
+
+	trigger = {
+		tag = CSA 
+		has_country_flag = constitution_accepted
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		days = 1
+
+		modifier = {
+			factor = 0.8 #increase likelihood to happen
+			year = 1850
+		}
+	}
+
+	title = "EVTNAME91007"
+	desc = "EVTDESC91007"
+	picture = "csa_government"
+
+	option = {
+		name = "EVTOPTA91007"
+		prestige = 5
+		any_greater_power = {
+			limit = {
+				NOT = {
+					tag = USA
+				}
+			}
+			relation = {
+				with = CSA
+				value = 100
+			}
+			
+		}
+		set_country_flag = government_accepted
+	}
+}
+
+country_event = {
+	id = 91008
+	title = "EVTNAME91008"
+	desc = "EVTDESC91008"
+	fire_only_once = yes
+	picture = "csa_debat"
+	
+	trigger = {
+		tag = CSA
+		slavery = yes_slavery
+		has_global_flag = has_vopros_o_popravke
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+		modifier = {
+			factor = 0.5
+			year = 1865
+		}
+		modifier = {
+			factor = 0.2
+			year = 1870
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA91008"
+		remove_country_modifier =  csa_debaty
+		clr_country_flag = has_vopros_o_popravke
+		political_reform = no_slavery
+		any_greater_power = {
+			relation = {
+				who = CSA
+				value = 100
+			}
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = dixie
+			}
+			militancy = 6
+			consciousness = 2
+		}
+		add_country_modifier = {
+			name = slave_declined
+			duration = -1
+		}
+		add_country_modifier = {
+			name = nedovolstvo_arist
+			duration = 3650
+		}
+	}
+
+	option = {
+		name = "EVTOPTB91008"
+		remove_country_modifier =  csa_debaty
+		clr_country_flag = has_vopros_o_popravke
+		any_pop = {
+			limit = {
+				has_pop_culture = dixie
+			}
+			militancy = -4
+			consciousness = -6
+		}
+		add_country_modifier = {
+			name = slave_remained
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = 91010
+	title = "EVTNAME91010"
+	desc = "EVTDESC91010"
+	fire_only_once = yes
+	picture = "csa_regain"
+
+	trigger = {
+		tag = CSA
+		146 = {
+			controlled_by = CSA
+		}
+		147 = {
+			controlled_by = CSA
+		}
+		148 = {
+			controlled_by = CSA
+		}
+		149 = {
+			controlled_by = CSA
+		}
+		150 = {
+			controlled_by = CSA
+		}
+		217 = {
+			controlled_by = CSA
+		}
+		218 = {
+			controlled_by = CSA
+		}
+		219 = {
+			controlled_by = CSA
+		}
+		221 = {
+			controlled_by = CSA
+		}
+		222 = {
+			controlled_by = CSA
+		}
+		USA = {
+			war_exhaustion = 10
+		}
+	}
+
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA91010"
+		prestige = 20
+		any_pop = {
+			limit = {
+				has_pop_culture = dixie
+			}
+			militancy = -1
+			consciousness = -2
+		}
+		146 = {
+			secede_province = CSA
+		}
+		147 = {
+			secede_province = CSA
+		}
+		148 = {
+			secede_province = CSA
+		}
+		149 = {
+			secede_province = CSA
+		}
+		150 = {
+			secede_province= CSA
+		}
+		217 = {
+			secede_province = CSA
+		}
+		218 = {
+			secede_province = CSA
+		}
+		219 = {
+			secede_province = CSA
+		}
+		221 = {
+			secede_province = CSA
+		}
+		222 = {
+			secede_province = CSA
+		}
+		USA = {
+			prestige = -10
+			any_pop = {
+				limit = {
+					has_pop_culture = yankee
+				}
+			militancy = 2
+			consciousness = 2
+			}
+		}
+	}
+}

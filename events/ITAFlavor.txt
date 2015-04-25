@@ -1,0 +1,326 @@
+country_event = {
+
+	id = 35300
+
+	trigger = {
+		tag = ITA
+		year = 1910
+		NOT = {
+			year = 1913
+		}
+		
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1911
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1912
+		}
+	}
+
+	title = "EVTNAME35300"
+	desc = "EVTDESC35300"
+	picture = "theatre"
+
+	option = {
+		name = "EVTOPTA35300" 
+		prestige = 2
+	}
+}
+
+country_event = {
+
+	id = 35301
+
+	trigger = {
+		tag = ITA
+		year = 1902
+		NOT = {
+			year = 1905
+			}
+		
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1903
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1904
+		}
+	}
+
+	title = "EVTNAME35301"
+	desc = "EVTDESC35301"
+	picture = "theatre"
+
+	option = {
+		name = "EVTOPTA35301" 
+		prestige = 3
+	}
+}
+
+country_event = {
+
+	id = 35302 #Parallel to PAP35700
+	title = "EVTNAME35700"
+	desc = "EVTDESC35700"
+	picture = "pope"
+	
+	trigger = {
+		tag = ITA
+		year = 1891
+		NOT = {
+			year = 1894
+			exists = PAP
+			has_global_flag = RerumNovarum
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1892
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1893
+		}
+	}
+
+	option = {
+		name = "EVTOPTA35700" 
+		prestige = 5
+		labourers = {
+			consciousness = 1
+		}
+		craftsmen = {
+			consciousness = 1
+		}
+		artisans = {
+			consciousness = 1
+		}
+		soldiers = {
+			consciousness = 1
+		}
+		set_global_flag = RerumNovarum		
+	}
+}
+
+#ChronologyMod
+
+country_event = {
+
+	id = 95240
+
+	trigger = {
+		tag = ITA
+		year = 1919
+		exists = SOV
+		NOT = {
+			government = proletarian_dictatorship
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+	}
+
+	title = "EVTNAME95240"
+	desc = "EVTDESC95240"
+	picture = "redyear"
+
+	option = {
+		name = "EVTOPTA95240"
+		add_country_modifier = {
+				name = red_doubleyear
+				duration = 730
+		}
+		any_pop = {
+			ideology = {
+				value = communist
+				factor = 0.1
+			}
+		}
+	}
+}
+country_event = {
+
+	id = 95241
+
+	trigger = {
+		tag = ITA
+		has_country_modifier = red_doubleyear
+		is_ideology_enabled = fascist
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.8
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 5
+		}
+	}
+
+	title = "EVTNAME95241"
+	desc = "EVTDESC95241"
+	picture = "mussolini"
+
+	option = {
+		name = "EVTOPTA95241" 
+		any_pop = {
+			ideology = {
+				value = fascist
+				factor = 0.1
+			}
+		}
+		set_country_flag = mussolini_party
+	}
+}
+country_event = {
+
+	id = 95242
+
+	trigger = {
+		tag = ITA
+		has_country_flag = mussolini_party
+		NOT = {
+			government = proletarian_dictatorship
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+	}
+
+	title = "EVTNAME95242"
+	desc = "EVTDESC95242"
+	picture = "marshrome"
+
+	option = {
+		name = "EVTOPTA95242" 
+		government = fascist_dictatorship
+		political_reform = underground_parties
+		political_reform = none_voting
+		political_reform = party_appointed
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		ai_chance = {
+			factor = 80
+		}
+	}
+	option = {
+		name = "EVTOPTB95242" 
+		any_pop = {
+			militancy = 3
+			consciousness = 3
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+#Unite Italy ai
+country_event = {
+
+	id = 95243
+
+	trigger = {
+		OR = {
+			tag = SAR
+			tag = PAR
+			tag = MOD
+			tag = PAP
+			tag = LUC
+			tag = SIC
+			tag = LOM
+			tag = VEN
+		}
+		NOT = { exists = ITA }
+		invention = national_fraternity
+		ai = yes
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME95241"
+	desc = "EVTDESC95241"
+
+	option = {
+		name = "EVTOPTA95241" 
+		random_country = {
+			limit = {
+				is_culture_group = THIS
+				OR = {
+					is_greater_power = yes
+					tag = SAR
+				}
+				NOT = {
+					is_cultural_union = yes
+					has_country_flag = does_not_want_to_be_unified
+					tag = SMR
+				}
+			}
+			country_event = { id=11103 days=0 }
+		}
+	}
+}

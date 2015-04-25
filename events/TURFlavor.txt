@@ -1,0 +1,518 @@
+country_event = {
+
+	id = 31100
+
+	trigger = {
+		tag = TUR
+		year = 1872
+		owns = 865 #Canakkale, where Troy is located
+		NOT = {
+			year = 1875
+		}	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1873
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1874
+		}
+	}
+
+	title = "EVTNAME31100"
+	desc = "EVTDESC31100"
+	picture = "troy"
+
+	option = {
+		name = "EVTOPTA31100" 
+		prestige = 15
+	}
+}
+
+country_event = {
+	id = 31101 #setup by GER33005
+	trigger = {
+		tag = TUR 
+		war = no
+		year = 1903
+		owns = 926 #Baghdad
+		is_vassal = no
+		has_global_flag = BerlinBaghdadRail
+		OR = {
+			government = absolute_monarchy
+			government = hms_government
+			}
+		NOT = {
+			year = 1910
+			alliance_with = ENG
+			alliance_with = FRA
+			alliance_with = RUS
+			alliance_with = GER
+			has_country_flag = BerlinBaghdadRail
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1904
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1908
+		}
+	}
+
+	title = "EVTNAME33005"
+	desc = "EVTDESC33005"
+	picture = "bagdadrailway"
+
+	option = {
+		name = "EVTOPTA31101" 
+		prestige = 10
+		set_country_flag = BerlinBaghdadRail
+		relation = { who = GER value = 100 }
+		relation = { who = ENG value = -75 }
+		relation = { who = RUS value = -75 }
+	}
+}
+
+# ChronologyMod
+
+country_event = {
+	id = 95180
+	trigger = {
+		tag = TUR
+		NOT = { is_greater_power = yes }
+		owns = 876
+		capital = 860
+		NOT = { owns = 817 }
+		NOT = { owns = 816 }
+		NOT = { owns = 830 }
+		NOT = {
+			has_global_flag = scenario_1914_activated
+		}
+		NOT = {
+			has_global_flag = scenario_1923_activated
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+ 
+	title = "EVTNAME95180"
+	desc = "EVTDESC95180"
+	picture = "turkishrep"
+
+	option = {
+		name = "EVTOPTA95180"
+		prestige = -10
+		government = democracy
+		political_reform = landed_voting
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		capital = 876
+		release = IRQ
+		IRQ = {
+			all_core = {
+				remove_core = TUR
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 95181
+
+	trigger = {
+		tag = TUR
+		NOT = {
+			is_greater_power = yes
+			809 = {
+				has_province_modifier = separatist
+			}
+		}
+		any_owned_province = {
+				is_core = BUL
+			}
+	}
+
+	mean_time_to_happen =  {
+		months = 20
+	}
+	
+	title = "EVTNAME95181"
+	desc = "EVTDESC95181"
+	picture = "balkan"
+
+	option = {
+		name = "EVTOPTA95181"
+		any_owned = {
+			limit = {
+				is_core = BUL
+			}
+			add_province_modifier = {
+						name = separatist
+						duration = -1
+			}
+		}
+		any_owned = {
+			limit = {
+				is_core = GRE
+			}
+			add_province_modifier = {
+						name = separatist
+						duration = -1
+			}
+		}
+		any_owned = {
+			limit = {
+				is_core = YUG
+			}
+			add_province_modifier = {
+						name = separatist
+						duration = -1
+			}
+		}
+		
+	}
+}
+country_event = {
+	id = 95182
+	trigger = {
+		tag = TUR
+		is_greater_power = no
+		TUR_806 = {
+				owned_by = TUR
+		}
+		TUR_809 = {
+				owned_by = TUR
+		}
+		TUR_810 = {
+				owned_by = TUR
+		}
+		809 = {
+				has_province_modifier = separatist
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 50
+		modifier = {
+			factor = 20
+			NOT = {
+				year = 1845
+			}
+		}
+		modifier = {
+			factor = 10
+			year = 1845
+			NOT = {
+				year = 1855
+			}
+		}
+		modifier = {
+			factor = 5
+			year = 1855
+			NOT = {
+				year = 1870
+			}
+		}
+		modifier = {
+			factor = 0.5
+			year = 1870
+		}
+	}
+
+	title = "EVTNAME95182"
+	desc = "EVTDESC95182"
+	picture = "revoltbulgar"
+
+	option = {
+		name = "EVTOPTA95182"
+		TUR_806 = {
+				secede_province = BUL
+		}
+		TUR_809 = {
+				secede_province = BUL
+		}
+		TUR_810 = {
+				secede_province = BUL
+		}
+		BUL = {
+			create_alliance = SER
+			create_alliance = MON
+			create_alliance = GRE
+			create_alliance = ROM
+		}
+		war = {
+			target = BUL
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+		RUS = {
+			diplomatic_influence = {
+				who = BUL
+				value = 100
+			}
+		}
+		relation = { who = RUS value = -200 }
+		set_global_flag = bulgarian_revolt_ok
+		ai_chance = {
+			factor = 80
+		}
+	}
+	option = {
+		name = "EVTOPTB95182"
+		badboy = -3
+		TUR_806 = {
+				secede_province = BUL
+		}
+		TUR_810 = {
+				secede_province = BUL
+		}
+		808 = {
+				secede_province = BUL
+		}
+		809 = {
+				secede_province = BUL
+		}
+		BUL = {
+			create_alliance = SER
+			create_alliance = MON
+			create_alliance = GRE
+			create_alliance = ROM
+			any_owned = {
+					remove_core = TUR
+			}
+		}
+		815 = {
+			add_core = ERM
+		}
+		816 = {
+			add_core = ERM
+		}
+		817 = {
+			add_core = ERM
+		}
+		release_vassal = ERM
+		RUS = {
+			diplomatic_influence = {
+				who = BUL
+				value = 100
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+country_event = {
+
+	id = 95183
+	title = "EVTNAME95183"
+	desc = "EVTDESC95183"
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+
+	option = {
+		name = "EVTOPTA95183"
+		MON_2582 = {
+			secede_province = MON
+		}
+		
+	}
+}
+country_event = {
+	id = 95184
+	trigger = {
+		tag = TUR
+		TUR_674 = {
+			owned_by = TUR
+		}
+		exists = ROM
+		ROM = {
+			vassal_of = TUR
+		}
+		OR = {
+			AND = {
+				NOT = {
+					WAL_665 = {
+						controlled_by = TUR
+					}
+				}
+				NOT = {
+					MOL_673 = {
+						controlled_by = TUR
+					}
+				}
+				NOT = {
+					TUR_674 = {
+						controlled_by = TUR
+					}
+				}
+			}
+			AND = {
+				is_greater_power = no
+				ROM = {
+					is_secondary_power = yes
+					average_consciousness = 5
+				}
+			}
+		}
+		
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 5
+		modifier = {
+			factor = 0.2
+			AND = {
+				is_greater_power = no
+				is_secondary_power = no
+			}
+		}
+		modifier = {
+			factor = 0.8
+			ROM = {
+				average_consciousness = 6
+			}	
+		}
+		modifier = {
+			factor = 0.8
+			year = 1855
+			ROM = {
+				average_consciousness = 7
+			}
+		}
+	}
+
+	title = "EVTNAME95184"
+	desc = "EVTDESC95184"
+	picture = "romtroops"
+
+	option = {
+		name = "EVTOPTA95184"
+		release_vassal = ROM
+		any_greater_power = {
+				limit = {
+					capital_scope = {
+						continent = europe
+					}
+				}
+				diplomatic_influence = {
+						who = ROM
+						value = 100
+				}
+		}
+		TUR_674 = {
+				remove_core = TUR
+		}
+	}
+}
+country_event = {
+	id = 95185
+	trigger = {
+		tag = TUR
+		is_greater_power = no
+		has_global_flag = bulgarian_revolt_ok
+		NOT = {
+			war_with = BUL
+		}
+		exists = BUL
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME95185"
+	desc = "EVTDESC95185"
+	picture = "revoltbulgar"
+
+	option = {
+		name = "EVTOPTA95185"
+		BUL = {
+			any_owned = {
+				remove_core = TUR
+			}
+		}
+	}
+}
+#Tripoli
+country_event = {
+	id = 95186
+	trigger = {
+		tag = TUR
+		military_staff_system = 1
+		exists = TRI
+	}
+
+	mean_time_to_happen =  {
+		months = 3
+	}
+	
+	title = "EVTNAME95186"
+	desc = "EVTDESC95186"
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA95186"
+		TRI = {
+			all_core = {
+				add_core = TUR
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+country_event = {
+    id = 99992
+    title = "EVTNAME99991"
+    desc = "EVTDESC99991"
+    picture = "Administration"
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = "EVTOPTA99991"
+		prestige = -5
+		BEL = {
+			relation = {
+				who = THIS
+				value = -25
+			}
+		}
+        398 = {
+            secede_province = BEL
+        }       
+    }    
+}

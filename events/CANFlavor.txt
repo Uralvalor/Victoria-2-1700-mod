@@ -1,0 +1,202 @@
+country_event = {
+
+	id = 44300
+	trigger = {
+		tag = CAN 
+		year = 1872
+		owns = 13 #Vancouver BC
+		owns = 57 #Ottawa ON
+		NOT = {
+			year = 1878
+		}
+	}
+ 
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 12
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1873
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1875
+		}
+	}
+
+	title = "EVTNAME44300"
+	desc = "EVTDESC44300"
+	picture = "train"
+
+	option = {
+		name = "EVTOPTA44300" 
+		any_pop = {
+			ideology = {
+				factor = 0.1
+				value = liberal
+			}
+			scaled_militancy = {
+				factor = 2
+				ideology = liberal
+			}
+			scaled_consciousness = {
+				factor = 2
+				ideology = liberal
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTB44300" 
+		any_pop = {
+			ideology = {
+				factor = 0.25
+				value = liberal
+			}
+			scaled_militancy = {
+				factor = 2
+				ideology = liberal
+			}
+			scaled_consciousness = {
+				factor = 3
+				ideology = liberal
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 44301
+	trigger = {
+		tag = CAN 
+		year = 1868
+		owns = 36 #Winnipeg MB
+		owns = 57 #Ottawa ON
+		NOT = {
+			year = 1872
+			has_country_flag = RielRebellion
+			has_country_flag = RielRebellionIgnored
+			}
+		}
+ 
+	mean_time_to_happen =  {
+		months = 8
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1869
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1871
+		}
+	}
+
+	title = "EVTNAME44301"
+	desc = "EVTDESC44301"
+	picture = "Metis"
+
+	option = {
+		name = "EVTOPTA44301" 
+		set_country_flag = RielRebellion
+		set_country_flag = RielRebellionIgnored
+		any_pop = {
+			limit = {
+				has_pop_culture = french_canadian
+			}
+			militancy = 1
+			consciousness = 1
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = anglo_canadian
+			}
+			militancy = 1
+			consciousness = 2
+		}
+	}
+
+	option = {
+		name = "EVTOPTB44301" 
+		set_country_flag = RielRebellion
+		any_pop = {
+			limit = {
+				has_pop_culture = french_canadian
+			}
+			militancy = 1
+			consciousness = 3
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = metis
+			}
+			militancy = 10
+			consciousness = 5
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = anglo_canadian
+			}
+			militancy = -1
+			consciousness = 1
+		}
+	}
+}
+
+country_event = {
+
+	id = 44302
+	trigger = {
+		tag = CAN 
+		year = 1884
+		owns = 57 #Ottawa ON
+		OR = {
+			has_country_flag = RielRebellionIgnored
+			owns = 30 #Saskatchewan 
+			owns = 34  
+			owns = 38 #Western Manitoba 
+			owns = 39  
+			owns = 40 
+			owns = 41
+			} 
+		NOT = {
+			year = 1888
+			has_country_flag = NorthwestRebellion
+			}
+		}
+ 
+	mean_time_to_happen =  {
+		months = 8
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1885
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1886
+		}
+	}
+
+	title = "EVTNAME44302"
+	desc = "EVTDESC44302"
+	picture = "Rebellion"
+
+	option = {
+		name = "EVTOPTA44302" 
+		set_country_flag = NorthwestRebellion
+		any_pop = {
+			limit = {
+				has_pop_culture = metis
+			}
+			militancy = 7
+			consciousness = 5
+		}
+	}
+}

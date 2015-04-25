@@ -1,0 +1,220 @@
+#1710
+country_event = {
+	id = 1100101
+	title = "Русско-турецкая война"
+	desc = "Турки объявили нам войну, кровопролития ещё можно избежать, но не территориальных изменений. Мы должны освободить православную Молдавию, которая давно взывает к нам..."
+	picture = "Celebration"	
+	
+	trigger = {
+		tag = RUS
+                  CSK = {
+				vassal_of = RUS
+			}
+                not = { has_country_flag = turkey_war_1710 }
+		year = 1705
+			NOT = {
+				year = 1714
+			}
+                   }
+
+	fire_only_once = yes
+	mean_time_to_happen = {
+		months = 3
+		modifier = {
+			factor = 15
+			NOT = {
+				year = 1708
+			}
+		}
+		modifier = {
+			factor = 3
+			year = 1708
+			NOT = {
+				year = 1710
+			}
+		}
+		modifier = {
+			factor = 1
+			year = 1710
+		}
+	}
+
+	option = {
+		name = "Они заплатят за свою дерзость!"
+		ai_chance = {
+			factor = 80
+		}
+                set_country_flag = turkey_war_1710
+		any_pop = {
+			consciousness = 1
+			militancy = -3
+		}
+CRI = {
+war = {
+	target = CSK
+	attacker_goal = {
+		casus_belli = acquire_core_state
+                state_province_id = 1047
+	}
+	defender_goal = {
+		casus_belli = acquire_state
+                state_province_id = 1048
+	}
+	defender_goal = {
+		target = TUR
+		casus_belli = release_puppet
+		country = MOL
+	}
+        call_ally = yes
+
+} }
+
+}
+
+	option = {
+		name = "У нас и так проблемы, отдайте им что они хотят!"
+		ai_chance = {
+			factor = 20
+		}
+		any_pop = {
+			consciousness = 3
+			militancy = 1
+		}
+                prestige = -30
+                CSK = {
+                1047 = { secede_province = RUS }
+                979 = { secede_province = RUS }
+                975 = { secede_province = RUS }  }
+                975 = { secede_province = CRI }
+                979 = { secede_province = CRI }
+                1047 = { secede_province = CRI } 
+                set_country_flag = turkey_war_1710
+                set_country_flag = turkey_war_1710_Tur_win
+             }
+}
+
+
+country_event = {
+	id = 1100104
+	title = "Взятие Азова"
+	desc = "Мы проигрываем и турки предлагаю нам мир."
+	
+	trigger = {
+		tag = RUS
+                not = { has_country_flag = turkey_war_1710_Tur_win }
+                CRI = { controls = 967 }
+                has_country_flag = turkey_war_1710
+		not = { year = 1725 }
+                OR = {
+                CRI = { controls = 1047 }
+                TUR = { controls = 1047 }
+}
+                war = yes
+                   }
+
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+				months = 1
+	}
+
+	option = {
+		name = "Мы продолжим сражаться!"
+		ai_chance = {
+			factor = 30
+		}
+                war_exhaustion = 10
+		any_pop = {
+			consciousness = 1
+			militancy = 1
+                  }
+                set_country_flag = turkey_war_1710_Tur_win_2
+
+}
+	option = {
+		name = "Малая потеря для нашего народа..."
+		ai_chance = {
+			factor = 70
+		}
+                war_exhaustion = 10
+                TUR = { prestige = 10 }
+                prestige = -10
+                CSK = {
+                1047 = { secede_province = RUS }
+                979 = { secede_province = RUS }
+                975 = { secede_province = RUS }  }
+                975 = { secede_province = CRI }
+                979 = { secede_province = CRI }
+                1047 = { secede_province = CRI } 
+                end_war = TUR
+                end_war = CRI
+                set_country_flag = turkey_war_1710_Tur_win_2
+
+}
+}
+
+# Крым Присоединение
+country_event = {
+
+	id = 1100114
+	trigger = {
+		tag = RUS
+		CRI  = {
+						in_sphere = RUS
+					}
+		war = no
+not = { has_country_flag = cri_in }
+					}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	title = "Присоединение Крым"
+	desc = "Крым полностью под нашим влиянием, что позволяет нам безболезненно присоедить эти земли."
+	picture = "Monarchy"
+
+	option = {
+		name = "Крым наш!"
+                set_country_flag = cri_in
+        TUR = { release_vassal = CRI }
+		inherit = CRI
+	}
+}
+
+# Грузия Присоединение
+country_event = {
+
+	id = 1100113
+	trigger = {
+		tag = RUS
+not = { has_country_flag = geo_in }
+                  GEO  = {
+						in_sphere = RUS
+					}
+					}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	title = "Присоединение Грузии"
+	desc = "Грузии православная держава, которая долгое время находилась под властью мусульман, теперь наше влияние и прошение самого народа позволяют нам безболезненно присоедить Грузию в виде губернии."
+	picture = "Monarchy"
+
+	option = {
+		name = "Новые православные братья!"
+		ai_chance = {
+			factor = 100
+		}
+                set_country_flag = geo_in
+        TUR = { release_vassal = GEO }
+        PER = { release_vassal = GEO }
+		inherit = GEO
+	}
+}

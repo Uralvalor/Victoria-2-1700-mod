@@ -1,0 +1,39 @@
+country_event = {
+
+	id = 96148
+
+	is_triggered_only = yes
+
+	title = "EVTNAME96148"
+	desc = "EVTDESC96148"
+	picture = "florida"
+
+	option = {
+		name = "EVTOPTA96148"
+		1321 = { secede_province = POR }
+		1322 = { secede_province = POR }
+		1323 = { secede_province = POR }
+		1324 = { secede_province = POR }
+		1310 = { secede_province = POR }
+		1303 = { secede_province = ENG }
+		POR = {
+			money = -250000
+		}
+		money = 250000
+		ai_chance = {
+			factor = 95
+		}
+	}
+	option = {
+		name = "EVTOPTB96148"
+		relation = { who = FROM value = -400 }
+		1321 = { add_core = POR }
+		1322 = { add_core = POR }
+		1323 = { add_core = POR }
+		1324 = { add_core = POR }
+		ai_chance = {
+			factor = 5
+		}
+	}
+
+}

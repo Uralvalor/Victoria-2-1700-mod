@@ -1,0 +1,1081 @@
+country_event = {
+
+	id = 31501
+
+	trigger = {
+		OR = {
+			tag = AUS
+			tag = KUK
+		}
+		year = 1836
+		tobacco = 100
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1837
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1838
+		}
+	}
+
+	title = "EVTNAME31501"
+	desc = "EVTDESC31501"
+	picture = "smoking"
+
+	option = {
+		name = "EVTOPTA31501" 
+		tobacco = -100
+	}
+}
+
+country_event = {
+
+	id = 31502
+	news = yes
+	news_desc_long = "EVTDESC31502_NEWS_LONG"
+	news_desc_medium = "EVTDESC31502_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC31502_NEWS_SHORT"
+
+	trigger = {
+		OR = {
+			tag = AUS
+			tag = KUK
+		}
+		year = 1842
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+			}
+		NOT = {
+			year = 1845		
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1843
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1844
+		}
+	}
+
+	title = "EVTNAME31502"
+	desc = "EVTDESC31502"
+	picture = "Ferdinand"
+
+	option = {
+		name = "EVTOPTA31502" 
+		any_pop = {
+			scaled_consciousness = {
+				factor = 2
+				ideology = conservative
+			}
+			scaled_consciousness = {
+				factor = 3
+				ideology = liberal
+			}
+		}
+	}
+}
+
+
+country_event = {
+
+	id = 31503
+
+	trigger = {
+		OR = {
+			tag = AUS
+			tag = KUK
+		}
+		year = 1842
+		NOT = {
+			exists = HUN
+			year = 1845
+			has_country_flag = HungarianLanguage
+			}
+		}
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1843
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1844
+		}
+	}
+
+	title = "EVTNAME31503"
+	desc = "EVTDESC31503"
+	picture = "Budapest"
+
+	option = {
+		name = "EVTOPTA31503" 
+		set_country_flag = HungarianLanguage
+		any_pop = {
+			limit = {
+				has_pop_culture = hungarian
+			}
+			militancy = -1
+			consciousness = 1
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = slovak
+					has_pop_culture = croat
+					has_pop_culture = romanian
+				}
+			}
+			consciousness = 2
+		}
+	}
+}
+
+country_event = {
+
+	id = 31504
+	news = yes
+	news_desc_long = "EVTDESC31504_NEWS_LONG"
+	news_desc_medium = "EVTDESC31504_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC31504_NEWS_SHORT"
+
+	trigger = {
+		OR = {
+			tag = AUS
+			tag = KUK
+		}
+		year = 1843
+		OR = {
+			ruling_party_ideology = reactionary
+			ruling_party_ideology = conservative
+			}
+		NOT = {
+			exists = CRO
+			exists = SLO #Slovenia
+			year = 1846
+			has_country_flag = IlyaGarashinin
+			}
+	}
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1844
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1845
+		}
+	}
+
+	title = "EVTNAME31504"
+	desc = "EVTDESC31504"
+	picture = "Ilija"
+
+	option = {
+		name = "EVTOPTA31504" 
+		set_country_flag = IlyaGarashinin
+		any_pop = {
+			limit = {
+				has_pop_culture = serb
+			}
+			militancy = 1
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = croat
+					has_pop_culture = serb
+					has_pop_culture = slovene
+				}
+			}
+			consciousness  =1
+		}
+	}
+}
+
+country_event = {
+
+	id = 31505
+	news = yes
+	news_desc_long = "EVTDESC31505_NEWS_LONG"
+	news_desc_medium = "EVTDESC31505_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC31505_NEWS_SHORT"
+
+	trigger = {
+		OR = {
+			tag = AUS
+			tag = KUK
+		}
+		year = 1897
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+			}
+		NOT = {
+			year = 1900
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1898
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1899
+		}
+	}
+
+	title = "EVTNAME31505"
+	desc = "EVTDESC31505"
+	picture = "Sisi"
+
+	option = {
+		name = "EVTOPTA31505" 
+		any_pop = {
+			scaled_consciousness = {
+				factor = 2
+				ideology = conservative
+			}
+			scaled_consciousness = {
+				factor = 2
+				ideology = reactionary
+			}
+			militancy = -1
+		}
+	}
+}
+
+country_event = {
+
+	id = 31506
+
+	trigger = {
+		OR = {
+			tag = AUS
+			tag = KUK
+		}
+		year = 1911
+		expressionism = 1 #has the expressionism tech
+		NOT = {
+			year = 1914
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1912
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1913
+		}
+	}
+
+	title = "EVTNAME31506"
+	desc = "EVTDESC31506"
+	picture = "theatre"
+
+	option = {
+		name = "EVTOPTA31502" 
+		prestige = 3
+	}
+}
+
+country_event = {
+
+	id = 31507 #see 35400 for LOM parallel event
+
+	trigger = {
+		tag = AUS
+		year = 1842
+		NOT = {
+			year = 1845
+			exists = LOM
+			has_global_flag = Nabucco
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1843
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1844
+		}
+	}
+
+	title = "EVTNAME35400"
+	desc = "EVTDESC35400"
+	picture = "Verdi"
+
+	option = {
+		name = "EVTOPTA35400" 
+		prestige = 3
+		any_pop = { 
+			limit = { 
+				has_pop_culture = north_italian 
+			} 
+			consciousness = 1 
+		}
+		set_global_flag = Nabucco
+	}
+}
+
+country_event = {
+
+	id = 31508 #see PRU34610 and RUS32501 for parallel events
+
+	trigger = {
+		OR = {
+			owns = 699 # Posen - PRU
+			owns = 706 # Warsaw - RUS
+			owns = 714 # Tarnow - AUS
+		}
+		year = 1846
+		war = no
+		NOT = {
+			year = 1849
+			exists = POL
+		}	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1847
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1848
+		}
+	}
+
+	title = "EVTNAME32501"
+	desc = "EVTDESC32501"
+	picture = "PopeLeo"
+
+	option = {
+		name = "EVTOPTA32501" 
+		any_pop = {
+			limit = { has_pop_culture = polish }
+			militancy = 2
+		}	
+	}
+}
+
+#ChronologyMod
+
+country_event = {
+
+	id = 95250
+
+	trigger = {
+		tag = AUS
+		has_country_modifier = springtime_of_nations
+		average_militancy = 4
+		war = no
+	}
+	
+	fire_only_once = yes
+	major = yes
+ 
+	mean_time_to_happen =  {
+		months = 3
+
+		modifier = {
+			factor = 0.5
+			has_country_flag = italian_revolution_1848
+		}
+
+	}
+
+	title = "EVTNAME95250"
+	desc = "EVTDESC95250"
+	picture = "hungrev"
+
+	option = {
+		name = "EVTOPTA95250" 
+		AUS_633 = {
+				secede_province = HUN
+		}
+		AUS_647 = {
+				secede_province = HUN
+		}
+		AUS_623 = {
+				secede_province = HUN
+		}
+		AUS_641 = {
+				secede_province = HUN
+		}
+		AUS_777 = {
+				secede_province = HUN
+		}
+		war = {
+			target = HUN
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			
+			defender_goal = {
+				casus_belli = status_quo
+			}
+			call_ally = yes
+		}
+		set_country_flag = hungarian_revolution_1848
+	}
+}
+country_event = {
+
+	id = 95251
+
+	trigger = {
+		tag = AUS
+		has_country_modifier = springtime_of_nations
+		average_militancy = 4
+		war = no
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 3
+	}
+
+	title = "EVTNAME95251"
+	desc = "EVTDESC95251"
+	picture = "lombardiarev"
+
+	option = {
+		name = "EVTOPTA95251" 
+		release = LOM
+		war = {
+			target = VEN
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+		release = VEN
+		war = {
+			target = LOM
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+		any_greater_power = {
+				limit = {
+					OR = {
+						pop_majority_culture = north_italian
+						pop_majority_culture = south_italian
+					} 
+				}
+				diplomatic_influence = {
+						who = LOM
+						value = 200
+				}
+				diplomatic_influence = {
+						who = VEN
+						value = 200
+				}
+		}	
+		set_country_flag = italian_revolution_1848
+		ai_chance = {
+			factor = 90
+		}
+	}
+	option = {
+		name = "EVTOPTB95251" 
+		release = LOM
+		release = VEN
+		badboy = -3
+		set_country_flag = italian_revolution_1848
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+country_event = {
+
+	id = 95252
+
+	trigger = {
+		tag = AUS
+		owns = AUS_702
+		owns = AUS_662
+		has_global_flag = krakov_revolution_ok	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 2
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1848
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1849
+		}
+	}
+
+	title = "EVTNAME95252"
+	desc = "EVTDESC95252"
+	picture = "galicekill"
+
+	option = {
+		name = "EVTOPTA95252"
+		AUS_702 = {
+			aristocrats = {
+				reduce_pop = 0.8
+			}
+			bureaucrats = {
+				reduce_pop = 0.8
+			}
+			clergymen = {
+				reduce_pop = 0.9
+			}
+			any_pop = {
+				consciousness = -2
+			}
+		}
+		AUS_662 = {
+			aristocrats = {
+				reduce_pop = 0.8
+			}
+			bureaucrats = {
+				reduce_pop = 0.8
+			}
+			clergymen = {
+				reduce_pop = 0.9
+			}
+			any_pop = {
+				consciousness = -2
+			}
+		}
+		
+	}
+}
+country_event = {
+
+	id = 95253
+
+	trigger = {
+		OR = {
+			tag = AUS
+			tag = KUK
+		}
+		has_country_flag = world_war_loser
+		NOT = {
+			exists = HUN
+		}
+		war = no
+		year = 1910
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		days = 5
+
+		modifier = {
+			factor = 0.6 
+			war_exhaustion = 4
+		}
+
+
+		modifier = {
+			factor = 0.6 
+			war_exhaustion = 6
+		}
+	}
+
+	title = "EVTNAME95253"
+	desc = "EVTDESC95253"
+	picture = "pesht"
+
+	option = {
+		name = "EVTOPTA95253"
+		release = HUN
+		#HUN = {
+		#	government = proletarian_dictatorship
+		#	political_reform = none_voting
+		#	political_reform = underground_parties
+		#	political_reform = party_appointed
+		#}
+		any_greater_power = {
+				limit = {
+					capital_scope = {
+						continent = europe
+					}
+				}
+				diplomatic_influence = {
+						who = HUN
+						value = 100
+				}
+		}
+		set_global_flag = hungarian_independence
+	}
+}
+country_event = {
+
+	id = 95254
+
+	trigger = {
+		OR = {
+			tag = KUK
+			tag = AUS
+		}
+		has_global_flag = hungarian_independence
+		NOT = {
+			exists = CZH
+		}
+		any_owned_province = {
+				is_core = CZH
+			}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		days = 5
+	}
+
+	title = "EVTNAME95254"
+	desc = "EVTDESC95254"
+	picture = "praga"
+
+	option = {
+		name = "EVTOPTA95254"
+		release = CZH
+		CZH = {
+			government = democracy
+			political_reform = landed_voting
+		}
+		any_greater_power = {
+				limit = {
+					capital_scope = {
+						continent = europe
+					}
+				}
+				diplomatic_influence = {
+						who = CZH
+						value = 100
+				}
+		}
+		set_global_flag = czechoslovakia_independence
+	}
+}
+country_event = {
+
+	id = 95255
+
+	trigger = {
+		tag = KUK
+		has_global_flag = hungarian_independence
+		NOT = { owns = 641 }
+	}
+	
+	fire_only_once = yes
+
+	title = "EVTNAME95255"
+	desc = "EVTDESC95255"
+	picture = "Administration"
+
+	option = {
+		name = "EVTOPTA95255"
+		KUK = {
+			all_core = {
+				remove_core = KUK
+			}
+		}
+		change_tag = AUS
+		government = democracy
+		political_reform = landed_voting
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		prestige = -5
+		set_global_flag = KUK_is_destroyed
+	}
+}
+country_event = {
+
+	id = 95256
+
+	trigger = {
+		tag = HUN
+		has_global_flag = czechoslovakia_independence
+	}
+	fire_only_once = yes
+
+	title = "EVTNAME95256"
+	desc = "EVTDESC95256"
+	picture = "praga"
+
+	option = {
+		name = "EVTOPTA95256"
+		CZH = {
+			all_core = {
+				secede_province = CZH
+				remove_core = HUN
+			}
+		}
+		clr_global_flag = czechoslovakia_independence
+	}
+}
+country_event = {
+
+	id = 95257
+
+	trigger = {
+		OR = {
+			tag = AUS
+			tag = KUK
+		}
+		OR = {
+			any_owned_province = {
+					is_core = RUT
+			}
+			any_owned_province = {
+					is_core = POL
+			}
+		}
+		has_global_flag = hungarian_independence
+	}
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		days = 5
+	}
+
+	title = "EVTNAME95257"
+	desc = "EVTDESC95257"
+	picture = "polisharmy"
+
+	option = {
+		name = "EVTOPTA95257"
+		release = RUT
+		RUT = {
+			government = democracy
+			political_reform = landed_voting
+			casus_belli = {
+					target = POL
+					type = conquest
+			}
+		}
+		POL = {
+			all_core = {
+				secede_province = POL
+			}
+			casus_belli = {
+					target = RUT
+					type = conquest
+			}
+		}
+		
+		any_greater_power = {
+				limit = {
+					capital_scope = {
+						continent = europe
+					}
+				}
+				diplomatic_influence = {
+						who = RUT
+						value = 100
+				}
+		}
+		any_greater_power = {
+				limit = {
+					capital_scope = {
+						continent = europe
+					}
+				}
+				diplomatic_influence = {
+						who = POL
+						value = 100
+				}
+		}
+	}
+}
+country_event = {
+
+	id = 95258
+
+	trigger = {
+		tag = HUN
+		any_owned_province = {
+				is_core = CRO
+		}
+		NOT = {
+			exists = CRO
+		}
+		NOT = {
+			TUR_788 = {
+				owned_by = AUS
+			}
+		}
+		has_global_flag = hungarian_independence
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		days = 5
+	}
+
+	title = "EVTNAME95258"
+	desc = "EVTDESC95258"
+	picture = "belgrad"
+
+	option = {
+		name = "EVTOPTA95258"
+		release = CRO
+		CZH = {
+			government = democracy
+			political_reform = landed_voting
+		}
+		any_greater_power = {
+				limit = {
+					capital_scope = {
+						continent = europe
+					}
+				}
+				diplomatic_influence = {
+						who = CRO
+						value = 100
+				}
+		}
+		set_global_flag = croatia_independence
+	}
+}
+country_event = {
+
+	id = 95259
+	trigger = {
+		OR = {
+			tag = KUK
+			tag = AUS
+		}	
+		has_global_flag = croatia_independence
+	}
+
+	fire_only_once = yes
+
+	title = "EVTNAME95259"
+	desc = "EVTDESC95259"
+	picture = "belgrad"
+
+	option = {
+		name = "EVTOPTA95259"
+		CRO = {
+			all_core = {
+				secede_province = CRO
+			}
+		}
+		clr_global_flag = croatia_independence
+	}
+}
+country_event = {
+
+	id = 95260
+
+	trigger = {
+		tag = HUN
+		any_owned_province = {
+				is_core = YUG
+		}
+		TUR_788 = {
+			owned_by = AUS
+		}
+		NOT = {
+			exists = YUG
+		}
+		has_global_flag = hungarian_independence
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		days = 5
+	}
+
+	title = "EVTNAME95260"
+	desc = "EVTDESC95260"
+	picture = "belgrad"
+
+	option = {
+		name = "EVTOPTA95260"
+		release = YUG
+		CZH = {
+			government = democracy
+			political_reform = landed_voting
+		}
+		any_greater_power = {
+				limit = {
+					capital_scope = {
+						continent = europe
+					}
+				}
+				diplomatic_influence = {
+						who = YUG
+						value = 100
+				}
+		}
+		set_global_flag = yugoslavia_independence
+	}
+}
+country_event = {
+
+	id = 95261
+	trigger = {
+		OR = {
+			tag = KUK
+			tag = AUS
+		}	
+		has_global_flag = yugoslavia_independence
+	}
+
+	fire_only_once = yes
+
+	title = "EVTNAME95261"
+	desc = "EVTDESC95261"
+	picture = "belgrad"
+
+	option = {
+		name = "EVTOPTA95261"
+		YUG = {
+			all_core = {
+				secede_province = YUG
+			}
+		}
+		clr_global_flag = yugoslavia_independence
+		set_global_flag = yugoslavia_independence_aus
+	}
+}
+country_event = {
+
+	id = 95262
+	trigger = {
+		tag = HUN
+		AUS_654 = {
+			owned_by = HUN
+		}
+		AUS_657 = {
+			owned_by = HUN
+		}
+		exists = ROM
+		NOT = {
+			ROM = {
+				vassal_of = TUR
+			}
+		}	
+		has_global_flag = hungarian_independence
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 5
+	}
+
+	title = "EVTNAME95262"
+	desc = "EVTDESC95262"
+	picture = "romtroops"
+
+	option = {
+		name = "EVTOPTA95262"
+		release = SIE
+	}
+}

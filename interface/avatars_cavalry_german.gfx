@@ -1,0 +1,50 @@
+######		  Victoria 2		######
+
+######      The Germans Spritepack	######
+
+
+
+
+######     	   designed by		######
+
+######     	  Sebastian Rost      	######
+
+######     	       and		######
+
+######     	   Pierre Rost		######
+
+
+
+
+objectTypes = {	
+
+
+	EMFXActorType = {	
+		name = "PrussianGCCavalry"	
+		actorfile = "gfx\anims\GermanCav_Pre-war.xac"
+		idle   = "gfx\anims\Pre-warCavalryIdle.xsm"
+		move   = "gfx\anims\Pre-warCavalryMove.xsm"
+		attack = "gfx\anims\Pre-warCavalryAttack.xsm"
+		scale = 4.1
+	}
+
+	EMFXActorType = {	
+		name = "PrussianGCCavalry2"	
+		actorfile = "gfx\anims\GermanCav_Worldwar.xac"
+		idle   = "gfx\anims\WorldwarCavalryIdle.xsm"
+		move   = "gfx\anims\WorldwarCavalryMove.xsm"
+		attack = "gfx\anims\WorldwarCavalryAttack.xsm"
+		scale = 4.1
+	}
+
+}
+
+
+
+
+
+
+
+
+
+

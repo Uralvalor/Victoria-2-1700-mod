@@ -1,0 +1,331 @@
+#####################
+# Enable Socialists
+#####################
+country_event = {
+	id = 1000
+	title = "EVTNAME1000"
+	desc = "EVTDESC1000"
+	news = yes
+	news_desc_long = "EVTDESC1000_NEWS_LONG"
+	news_desc_medium = "EVTDESC1000_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC1000_NEWS_SHORT"
+	picture = "Socialism"
+	
+	trigger = {
+		NOT = {
+			is_ideology_enabled = socialist 
+		}
+		year = 1860
+		civilized = yes
+		literacy = 0.4
+		OR = {
+			unemployment = 0.2
+			NOT = {
+				poor_strata_life_needs = 0.8
+			}
+			NOT = {
+				poor_strata_everyday_needs = 0.5
+			}
+			NOT = {
+				middle_strata_everyday_needs = 0.5
+			}
+		}
+	}
+	major = yes
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 250
+		
+		modifier = {
+			factor = 0.5
+			invention = pierre_joseph_proudhon
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+			unemployment = 0.2
+			NOT = {
+				poor_strata_life_needs = 0.5
+				}
+			NOT = {
+				poor_strata_everyday_needs = 0.25
+				}
+			NOT = {
+				middle_strata_everyday_needs = 0.25
+				}
+			}
+		}
+		modifier = {
+			factor = 1.5
+			poor_strata_life_needs = 0.95
+			}
+	}
+
+	option = {
+		name = "EVTOPTA1000"
+		enable_ideology = socialist
+	}
+}
+
+#####################
+# Enable Communists
+#####################
+country_event = {
+	id = 1001
+	title = "EVTNAME1001"
+	desc = "EVTDESC1001"
+	news = yes
+	news_desc_long = "EVTDESC1001_NEWS_LONG"
+	news_desc_medium = "EVTDESC1001_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC1001_NEWS_SHORT"
+	picture = "Socialism"
+	
+	trigger = {
+		NOT = {
+			is_ideology_enabled = communist 
+		}
+		year = 1870
+		civilized = yes
+		literacy = 0.5
+		OR = {
+			planned_economy = 10
+			pro_atheism = 10
+			pro_military = 15
+			unemployment = 0.2
+			AND = {
+				NOT = {
+					poor_strata_life_needs = 0.9
+					}
+				average_militancy = 3
+			}
+		}
+	}
+	
+	major = yes
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 300
+		
+		modifier = {
+			factor = 0.5
+			invention = karl_marx
+		}
+		modifier = {
+			factor = 0.8
+			invention = friedrich_engels
+		}
+		modifier = {
+			factor = 1.5
+			poor_strata_life_needs = 0.95
+		}
+	}
+
+	option = {
+		name = "EVTOPTA1001"
+		enable_ideology = communist
+	}
+}
+
+##########################
+# Enable Anarcho-Liberal
+##########################
+country_event = {
+	id = 1002
+	title = "EVTNAME1002"
+	desc = "EVTDESC1002"
+	news = yes
+	news_desc_long = "EVTDESC1002_NEWS_LONG"
+	news_desc_medium = "EVTDESC1002_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC1002_NEWS_SHORT"
+	picture = "AnarchoLiberals"
+	
+	trigger = {
+		NOT = {
+			is_ideology_enabled = anarcho_liberal 
+		}
+		year = 1789
+		civilized = yes
+		literacy = 0.65
+		OR = {
+			laissez_faire = 15
+			pluralism = 10
+			anti_military = 20
+			political_reform_want = 0.5
+			unemployment = 0.2
+		}
+	}
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	option = {
+		name = "EVTOPTA1002"
+		enable_ideology = anarcho_liberal
+	}
+}
+
+##################
+# Enable Fascist
+##################
+country_event = {
+	id = 1003
+	title = "EVTNAME1003"
+	desc = "EVTDESC1003"
+	news = yes
+	news_desc_long = "EVTDESC1003_NEWS_LONG"
+	news_desc_medium = "EVTDESC1003_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC1003_NEWS_SHORT"
+	picture = "Fascist"
+	
+	trigger = {
+		NOT = {
+			is_ideology_enabled = fascist 
+		}
+		
+		year = 1905 
+		literacy = 0.65
+		civilized = yes
+		OR = {
+			interventionism = 25
+			secularized = 25
+			jingoism = 5
+			residency = 5
+			social_reform_want = 0.5
+			unemployment = 0.2
+		}
+	}
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen =  {
+		months = 300
+		
+		modifier = {
+			factor = 0.5
+			invention = karl_marx
+		}
+		modifier = {
+			factor = 0.9
+			war_exhaustion = 4
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 4
+		}
+		modifier = {
+			factor = 1.2
+			NOT = {
+				average_consciousness = 3
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTA1003"
+		enable_ideology = fascist
+	}
+}
+
+
+##########################
+# Enable Liberal
+##########################
+country_event = {
+	id = 1008
+	title = "EVTNAME1008"
+	desc = "EVTDESC1008"
+	picture = "AnarchoLiberals"
+	
+	trigger = {
+	 OR  = {	AND = { exists = USA 
+                                USA = { is_vassal = no }
+	                        USA = { war = no }
+                        }
+                        AND = { exists = LOU
+                          LOU = { is_vassal = no }
+	                  LOU = { war = no }
+                        }
+               }
+		NOT = {
+			is_ideology_enabled = liberal 
+		}
+		year = 1730
+		civilized = yes
+		literacy = 0.4
+		OR = {
+			pluralism = 10
+			political_reform_want = 0.5
+			unemployment = 0.1
+		}
+	}
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	option = {
+		name = "EVTOPTA1008"
+		enable_ideology = liberal
+	}
+}
+
+##################
+# Enable Conservative
+##################
+country_event = {
+	id = 1009
+	title = "EVTNAME1009"
+	desc = "EVTDESC1009"
+	picture = "Fascist"
+	
+	trigger = {
+		NOT = {
+			is_ideology_enabled = conservative
+		}
+		is_ideology_enabled = liberal 
+		year = 1765 
+		literacy = 0.3
+		civilized = yes
+		OR = {
+			political_reform_want = 0.3
+			unemployment = 0.1
+		}
+	}
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen =  {
+		months = 300
+		
+		modifier = {
+			factor = 0.9
+			war_exhaustion = 4
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 4
+		}
+		modifier = {
+			factor = 1.2
+			NOT = {
+				average_consciousness = 3
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTA1009"
+		enable_ideology = conservative
+	}
+}

@@ -1,0 +1,104 @@
+country_event = {
+	id = 990008
+	title = "EVTNAME990008"
+	desc = "EVTDESC990008"
+	picture = "Celebration"
+	#major = yes
+	trigger = {
+		ai = yes	
+		OR = {
+			tag = ENG
+			tag = RUS
+			tag = SOV
+			tag = USA
+			tag = CSA
+		}
+	}
+	mean_time_to_happen = 
+	{
+		days=30		
+	}
+	
+	
+	#is_triggered_only = yes
+	option = {
+		name = "Хорошо"
+#Размножение рабов
+		any_country={
+			limit={
+				slavery = yes_slavery				
+			}
+			any_pop ={
+				limit = {
+					pop_type = slaves				
+				}				
+			reduce_pop =1.0008
+			}
+		}
+	}
+}
+#Новые рабы
+country_event = {
+	id = 990009
+	title = "EVTNAME990009"
+	desc = "EVTDESC990009"
+	picture = "Celebration"
+	#major = yes
+	trigger = {
+		ai = yes	
+		OR = {
+			tag = ENG
+			tag = RUS
+			tag = SOV
+			tag = USA
+			tag = CSA
+		}
+	}
+	mean_time_to_happen = 
+	{
+		days=365	
+	}
+	
+	
+	#is_triggered_only = yes
+	option = {
+		name = "Хорошо"
+		any_country={
+			limit={
+					slavery = yes_slavery
+			}
+			any_pop =
+			{
+				limit = 
+				{
+					AND={
+						#OR = {
+							state_scope  = {is_slave = yes}
+						#	state_scope  = {is_colonial = yes}
+						#}
+						OR={
+					AND={
+                                                 OR={ pop_type = farmers
+                                                      pop_type = craftsmen
+                                                      pop_type = labourers }
+                                                        is_primary_culture = no
+                                                        is_accepted_culture = no
+							is_state_religion = no
+}
+has_pop_culture = afro_american
+has_pop_culture = afro_caribbean 
+has_pop_culture = afro_caribeno 
+has_pop_culture = afro_brazilian
+has_pop_culture = afro_antillean
+						}
+	
+					}
+					
+				}
+				pop_type = slaves
+				consciousness = 10
+			  	militancy = 10
+			}
+		}
+	}
+}

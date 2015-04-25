@@ -1,0 +1,2473 @@
+#Начало войны
+#Америка
+
+country_event = {
+	id = 95604
+	title = "EVTNAME95604"
+	desc = "EVTDESC95604"
+	picture = "lusitania"
+	
+	trigger = {
+		tag = USA
+		has_global_flag = world_war_one_is_now
+		NOT = {
+			war_with = RUS
+			war_with = SER
+			war_with = KUK
+			war_with = GER
+		}
+		year = 1915
+	}
+
+	mean_time_to_happen =  {
+		months = 3
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA95604"
+		relation = { who = GER value = -50 }
+		ai_chance = {
+			factor = 70
+		}
+		
+	}
+	option = {
+		name = "EVTOPTB95604"
+		any_pop = {
+			militancy = 1
+		}
+		ai_chance = {
+			factor = 30
+		}
+	}
+}
+country_event = {
+	id = 95605
+	title = "EVTNAME95605"
+	desc = "EVTDESC95605"
+	picture = "Dreyfus"
+	
+	trigger = {
+		tag = GER
+		has_global_flag = world_war_one_is_now
+		MEX = {
+			NOT = {
+				war_with = RUS
+				war_with = SER
+				war_with = KUK
+				war_with = GER
+			}
+		}
+		year = 1915
+	}
+
+	mean_time_to_happen =  {
+		months = 3
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA95605"
+		MEX = {
+			set_country_flag = germany_mex_union
+		}
+		set_global_flag = ger_mex_negotiation
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = "EVTOPTB95605"
+		ai_chance = {
+			factor = 0
+		}
+		
+	}
+}
+country_event = {
+	id = 95606
+	title = "EVTNAME95606"
+	desc = "EVTDESC95606"
+	picture = "Dreyfus"
+	
+	trigger = {
+		has_country_flag = germany_mex_union
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA95606"
+		relation = { who = GER value = 400 }
+		create_alliance = GER
+		relation = { who = USA value = -300 }
+		ai_chance = {
+			factor = 20
+		}
+	}
+	option = {
+		name = "EVTOPTB95606"
+		ai_chance = {
+			factor = 80
+		}
+		
+	}
+}
+country_event = {
+	id = 95607
+	title = "EVTNAME95607"
+	desc = "EVTDESC95607"
+	picture = "Dreyfus"
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = USA
+		has_global_flag = world_war_one_is_now
+		has_global_flag = ger_mex_negotiation
+		NOT = {
+			war_with = RUS
+			war_with = SER
+			war_with = KUK
+			war_with = GER
+		}
+	}
+	mean_time_to_happen =  {
+		months = 3
+
+		modifier = {
+			factor = 0.3 
+			MEX = {
+				alliance_with = GER
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTA95607"
+		relation = { who = ENG value = 400 }
+		relation = { who = FRA value = 400 }
+		relation = { who = RUS value = 400 }
+		relation = { who = SER value = 400 }
+		relation = { who = GER value = -400 }
+		relation = { who = KUK value = -400 }
+		create_alliance = ENG
+		create_alliance = FRA
+		create_alliance = RUS
+		leave_alliance = GER
+		leave_alliance = KUK
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = "EVTOPTB95607"
+		prestige = -10
+		ai_chance = {
+			factor = 0
+		}
+		
+	}
+}
+
+#Италия
+
+country_event = {
+	id = 95608
+	title = "EVTNAME95608"
+	desc = "EVTDESC95608"
+	picture = "europa"
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ITA
+		has_global_flag = world_war_one_is_now
+		NOT = {
+			war_with = RUS
+			war_with = SER
+			war_with = KUK
+			war_with = GER
+		}
+	}
+	mean_time_to_happen =  {
+		months = 5
+	}
+
+	option = {
+		name = "EVTOPTA95608"
+		relation = { who = ENG value = 400 }
+		relation = { who = FRA value = 400 }
+		relation = { who = RUS value = 400 }
+		relation = { who = SER value = 400 }
+		relation = { who = GER value = -400 }
+		relation = { who = KUK value = -400 }
+		create_alliance = ENG
+		create_alliance = FRA
+		create_alliance = RUS
+		leave_alliance = GER
+		leave_alliance = KUK
+		ai_chance = {
+			factor = 70
+		}
+	}
+	option = {
+		name = "EVTOPTB95608"
+		ai_chance = {
+			factor = 0
+		}
+		
+	}
+	option = {
+		name = "EVTOPTС95608"
+		relation = { who = ENG value = -400 }
+		relation = { who = FRA value = -400 }
+		relation = { who = RUS value = -400 }
+		relation = { who = SER value = -400 }
+		relation = { who = GER value = 400 }
+		relation = { who = KUK value = 400 }
+		create_alliance = GER
+		create_alliance = KUK
+		leave_alliance = ENG
+		leave_alliance = FRA
+		leave_alliance = RUS
+		leave_alliance = SER
+		ai_chance = {
+			factor = 30
+		}
+		
+	}
+}
+#Япония
+
+country_event = {
+	id = 95609
+	title = "EVTNAME95609"
+	desc = "EVTDESC95609"
+	picture = "europa"
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = JAP
+		has_global_flag = world_war_one_is_now
+		NOT = {
+			war_with = RUS
+			war_with = SER
+			war_with = KUK
+			war_with = GER
+		}
+	}
+	mean_time_to_happen =  {
+		months = 3
+	}
+
+	option = {
+		name = "EVTOPTA95609"
+		GER = {
+			set_country_flag = japan_ger_ultimatum
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = "EVTOPTB95609"
+		relation = { who = ENG value = -100 }
+		ai_chance = {
+			factor = 0
+		}
+		
+	}
+}
+country_event = {
+	id = 95610
+	title = "EVTNAME95610"
+	desc = "EVTDESC95610"
+	picture = "japan"
+
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = japan_ger_ultimatum
+	}
+
+	option = {
+		name = "EVTOPTA95610"
+		JAP = {
+			country_event = 95611
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = "EVTOPTB95610"
+		prestige = -50
+		1566 = {
+			secede_province = JAP
+		}
+		2530 = {
+			secede_province = JAP
+		}
+		2531 = {
+			secede_province = JAP
+		}
+		2537 = {
+			secede_province = JAP
+		}
+		2519 = {
+			secede_province = JAP
+		}
+		2579 = {
+			secede_province = JAP
+		}
+		610 = {
+			secede_province = JAP
+		}
+		2522 = {
+			secede_province = JAP
+		}
+		2523 = {
+			secede_province = JAP
+		}
+		2543 = {
+			secede_province = JAP
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+country_event = {
+	id = 95611
+	title = "EVTNAME95611"
+	desc = "EVTDESC95611"
+	picture = "europa"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA95611"
+		relation = { who = ENG value = 400 }
+		relation = { who = FRA value = 400 }
+		relation = { who = RUS value = 400 }
+		relation = { who = SER value = 400 }
+		relation = { who = GER value = -400 }
+		relation = { who = KUK value = -400 }
+		create_alliance = ENG
+		create_alliance = FRA
+		create_alliance = RUS
+	}
+}
+country_event = {
+	id = 95612
+	title = "EVTNAME95612"
+	desc = "EVTDESC95612"
+	picture = "europa"
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA95612"
+		leave_alliance = USA
+		leave_alliance = JAP
+		#SER = {
+        	#	add_casus_belli = {
+	        #		target = GER
+		#		type = conquest
+		#		months = 1
+		#	}
+		#}
+		war = {
+			target = SER
+			attacker_goal = {
+				casus_belli = conquest
+			}
+			call_ally = yes
+		}
+		set_country_flag = world_war_activated
+		set_global_flag = world_war_one_is_now
+		RUS = {
+			set_country_flag = world_war_activated
+		}
+		GER = {
+			set_country_flag = world_war_activated
+		}
+	}
+}
+
+country_event = {
+	id = 95613
+	trigger = {
+		tag = TUR
+		is_greater_power = no
+		war_with = ENG
+		war_with = FRA
+		NOT = {
+			exists = HDJ
+		}
+		has_global_flag = world_war_one_is_now
+		national_provinces_occupied = .40
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME95613"
+	desc = "EVTDESC95613"
+	picture = "saud"
+
+	option = {
+		name = "EVTOPTA95613"
+		release = HDJ
+		HDJ = {
+			all_core = {
+				remove_core = TUR
+			}
+			civilized = no
+		}
+		set_global_flag = hejaz_wwi_independence
+	}
+}
+
+country_event = {
+	id = 95614
+	trigger = {
+		tag = NEJ
+		exists = HDJ
+		has_global_flag = hejaz_wwi_independence
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		months = 20
+	}
+
+	title = "EVTNAME95614"
+	desc = "EVTDESC95614"
+	picture = "saud"
+
+	option = {
+		name = "EVTOPTA95614"
+		HDJ = {
+        		add_casus_belli = {
+	        		target = THIS
+				type = conquest
+				months = 24
+			}
+		}
+		badboy = 2
+	}
+	option = {
+		name = "EVTOPTB95614"
+		relation = { who = HDJ value = 200 }
+	}
+}
+
+country_event = {
+	id = 95615
+	trigger = {
+		tag = GER
+		361 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		362 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		363 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		364 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		365 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		NOT = {
+			exists = LIT
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 5
+	}
+
+	title = "EVTNAME95615"
+	desc = "EVTDESC95615"
+	picture = "oberost"
+
+	option = {
+		name = "EVTOPTA95615"
+		RUS = {
+			release = LIT
+		}
+		create_vassal = LIT
+	}
+	option = {
+		name = "EVTOPTB95615"
+		
+	}
+}
+
+country_event = {
+	id = 95616
+	trigger = {
+		tag = GER
+		354 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		355 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		356 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		357 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		358 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		359 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		NOT = {
+			exists = LAT
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 5
+	}
+
+	title = "EVTNAME95615"
+	desc = "EVTDESC95615"
+	picture = "oberost"
+
+	option = {
+		name = "EVTOPTA95615"
+		RUS = {
+			release = LAT
+		}
+		create_vassal = LAT
+	}
+	option = {
+		name = "EVTOPTB95615"
+		
+	}
+}
+
+country_event = {
+	id = 95617
+	trigger = {
+		tag = GER
+		349 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		350 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		351 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		352 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		353 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		NOT = {
+			exists = EST
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 5
+	}
+
+	title = "EVTNAME95615"
+	desc = "EVTDESC95615"
+	picture = "oberost"
+
+	option = {
+		name = "EVTOPTA95615"
+		RUS = {
+			release = EST
+		}
+		create_vassal = EST
+	}
+	option = {
+		name = "EVTOPTB95615"
+		
+	}
+}
+
+
+country_event = {
+	id = 95618
+	trigger = {
+		tag = GER
+		706 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		708 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		709 = {
+			owned_by = RUS
+			controlled_by = THIS
+			}
+		710 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		711 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		712 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		713 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		715 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		716 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		717 = {
+			owned_by = RUS
+			controlled_by = THIS
+		}
+		NOT = {
+			exists = POL
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 5
+	}
+
+	title = "EVTNAME95618"
+	desc = "EVTDESC95618"
+	picture = "polishregents"
+
+	option = {
+		name = "EVTOPTA95618"
+		RUS = {
+			release = POL
+		}
+		create_vassal = POL
+	}
+	option = {
+		name = "EVTOPTB95618"
+		
+	}
+}
+country_event = {
+	id = 95619
+	trigger = {
+		tag = OBO
+		NOT = {
+			OBO = {
+				vassal_of = GER
+			}
+		}
+	}
+	
+	fire_only_once = yes
+
+	title = "EVTNAME95619"
+	desc = "EVTDESC95619"
+	picture = "oberost"
+
+	option = {
+		name = "EVTOPTA95619"
+		change_tag = POL
+		release = LIT
+		release = LAT
+		release = EST
+	}
+}
+
+#Брестский мир
+country_event = {
+	id = 95620
+	trigger = {
+		tag = RSR
+		has_country_flag = october_revolution_is_ok
+		war_with = GER
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 5
+	}
+
+	title = "EVTNAME95620"
+	desc = "EVTDESC95620"
+	picture = "brestpeace"
+
+	option = {
+		name = "EVTOPTA95620"
+		GER = {
+			country_event = 95621
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = "EVTOPTB95620"
+		war_exhaustion = 40
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+country_event = {
+	id = 95621
+	title = "EVTNAME95621"
+	desc = "EVTDESC95621"
+	picture = "brestpeace"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA95621"
+		badboy = 6
+		set_global_flag = treaty_of_brest_1
+		ai_chance = {
+			factor = 80
+		}
+	}
+
+	option = {
+		name = "EVTOPTB95621"
+		badboy = 3
+		set_global_flag = treaty_of_brest_2
+		ai_chance = {
+			factor = 20
+		}
+	}
+
+	option = {
+		name = "EVTOPTC95621"
+		set_global_flag = treaty_of_brest_3
+		ai_chance = {
+			factor = 0
+		}
+		
+	}
+
+	option = {
+		name = "EVTOPTD95621"
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+country_event = {
+	id = 95622
+	trigger = {
+		tag = RSR
+		has_country_flag = october_revolution_is_ok
+		has_global_flag = treaty_of_brest_1
+		war_with = GER
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 5
+	}
+
+	title = "EVTNAME95622"
+	desc = "EVTDESC95622"
+	picture = "brestpeace"
+
+	option = {
+		name = "EVTOPTA95622"
+		RSR = {
+			country_event = 95628
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = "EVTOPTB95622"
+		set_global_flag = brest_negotiations_drag_on
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+country_event = {
+	id = 95623
+	trigger = {
+		tag = RSR
+		has_country_flag = october_revolution_is_ok
+		has_global_flag = treaty_of_brest_2
+		NOT = {
+			has_global_flag = brest_negotiations_drag_on
+		}
+		war_with = GER
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 5
+	}
+
+	title = "EVTNAME95623"
+	desc = "EVTDESC95623"
+	picture = "brestpeace"
+
+	option = {
+		name = "EVTOPTA95623"
+		RSR = {
+			country_event = 95627
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = "EVTOPTB95623"
+		set_global_flag = brest_negotiations_drag_on
+		ai_chance = {
+			factor = 0
+		}
+		
+	}
+}
+country_event = {
+	id = 95624
+	trigger = {
+		tag = RSR
+		has_country_flag = october_revolution_is_ok
+		has_global_flag = treaty_of_brest_3
+		NOT = {
+			has_global_flag = brest_negotiations_drag_on
+		}
+		war_with = GER
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 5
+	}
+
+	title = "EVTNAME95624"
+	desc = "EVTDESC95624"
+	picture = "brestpeace"
+
+	option = {
+		name = "EVTOPTA95624"
+		any_country = {
+			limit = {
+				war_with = THIS
+			}
+			end_war = THIS
+		}
+		leave_alliance	= ENG
+		leave_alliance	= FRA
+		war_exhaustion = -30
+	}
+}
+country_event = {
+	id = 95625
+	trigger = {
+		tag = GER
+		has_global_flag = brest_negotiations_drag_on
+		war_with = RSR
+	}
+	
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME95625"
+	desc = "EVTDESC95625"
+	picture = "brestpeace"
+
+	option = {
+		name = "EVTOPTA95625"
+		RSR = {
+			country_event = 95626
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = "EVTOPTB95625"
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+country_event = {
+	id = 95626
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	title = "EVTNAME95626"
+	desc = "EVTDESC95626"
+	picture = "brestpeace"
+
+	option = {
+		name = "EVTOPTA95626"
+		country_event = 95628
+	}
+}
+country_event = {
+	id = 95627
+	title = "EVTNAME95627"
+	desc = "EVTDESC95627"
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = "EVTOPTA95627"
+		RSR = {
+			prestige = -30
+			release = EST
+			release = LAT
+			release = LIT
+			release = POL
+			release_vassal = FIN
+			GER = {
+				prestige = 50
+				diplomatic_influence = { who = EST value = 200 }
+				diplomatic_influence = { who = LAT value = 200 }
+				diplomatic_influence = { who = LIT value = 200 }
+				diplomatic_influence = { who = POL value = 200 }
+				diplomatic_influence = { who = FIN value = 200 }
+			}
+			any_country = {
+				limit = {
+					war_with = THIS
+				}
+				end_war = THIS
+			}
+			relation = { who = ENG value = -400 }
+			relation = { who = FRA value = -400 }
+			leave_alliance	= ENG
+			leave_alliance	= FRA
+			war_exhaustion = -30
+			set_country_flag = brest_pease_is_ok
+			set_country_flag = world_war_loser
+		}
+	}
+}
+country_event = {
+	id = 95628
+	title = "EVTNAME95628"
+	desc = "EVTDESC95628"
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = "EVTOPTA95628"
+		RSR = {
+			prestige = -30
+			release = UKR
+			release = BYE
+			release = EST
+			release = LAT
+			release = LIT
+			release = POL
+			release_vassal = FIN
+			TUR_885 = {
+				secede_province = TUR
+			}
+			GER = {
+				prestige = 50
+				diplomatic_influence = { who = EST value = 200 }
+				diplomatic_influence = { who = LAT value = 200 }
+				diplomatic_influence = { who = LIT value = 200 }
+				diplomatic_influence = { who = POL value = 200 }
+				diplomatic_influence = { who = FIN value = 200 }
+				diplomatic_influence = { who = UKR value = 200 }
+				diplomatic_influence = { who = BYE value = 200 }
+			}
+			any_country = {
+				limit = {
+					war_with = THIS
+				}
+				end_war = THIS
+			}
+			relation = { who = ENG value = -400 }
+			relation = { who = FRA value = -400 }
+			leave_alliance	= ENG
+			leave_alliance	= FRA
+			war_exhaustion = -30
+			set_country_flag = brest_pease_is_ok
+			set_country_flag = world_war_loser
+		}
+	}
+}
+
+country_event = {
+	id = 95629
+	trigger = {
+		tag = RUS
+		has_global_flag = world_war_one_is_now
+		war_with = GER
+		war_with = KUK
+		GER = {
+			any_owned_province = {
+				NOT = {
+					controlled_by = RUS
+				}
+			}
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 40
+
+		modifier = {
+			factor = 5
+			NOT = {
+				year = 1915
+			}
+		}
+
+		modifier = {
+			factor = 0.9
+			year = 1917
+		}
+		
+		modifier = {
+			factor = 0.9
+			year = 1918
+		}
+
+		modifier = {
+			factor = 0.9
+			year = 1919
+		}
+
+		modifier = {
+			factor = 0.9
+			year = 1920
+		}
+
+		modifier = {
+			factor = 0.7
+			national_provinces_occupied = .01
+		}
+		
+		modifier = {
+			factor = 0.6
+			national_provinces_occupied = .02
+		}
+
+		modifier = {
+			factor = 0.5
+			national_provinces_occupied = .03
+		}
+
+		modifier = {
+			factor = 0.5
+			national_provinces_occupied = .04
+		}
+
+		modifier = {
+			factor = 0.4
+			national_provinces_occupied = .05
+		}
+
+		modifier = {
+			factor = 0.4
+			national_provinces_occupied = .06
+		}
+
+		modifier = {
+			factor = 0.4
+			national_provinces_occupied = .07
+		}
+
+		modifier = {
+			factor = 0.6
+			exists = EST
+		}
+
+		modifier = {
+			factor = 0.6
+			exists = LAT
+		}
+
+		modifier = {
+			factor = 0.6
+			exists = LIT
+		}
+
+		modifier = {
+			factor = 0.1
+			exists = POL
+		}
+
+	
+	}
+
+	title = "EVTNAME95629"
+	desc = "EVTDESC95629"
+	picture = "lenpriisk"
+
+	option = {
+		name = "EVTOPTA95624"
+		war_exhaustion = 30
+		add_country_modifier = {
+				name = political_crisis
+				duration = -1
+		}
+	}
+}
+
+#Последствия поражения
+country_event = {
+	id = 95630
+	trigger = {
+		tag = GER
+		has_country_flag = world_war_loser
+		has_global_flag = world_war_one_is_over
+		has_global_flag = scenario_1914_activated
+		ENG = {
+			NOT = {
+				has_country_flag = world_war_loser
+			}
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	title = "EVTNAME95630"
+	desc = "EVTDESC95630"
+	picture = "Rebellion"
+
+	option = {
+		name = "EVTOPTA95630"
+		release = LAT
+		release = LIT
+		release = EST
+		release = SER
+		release_vassal = OBO
+		any_owned ={
+			limit = {
+				is_core = POL
+			}
+			secede_province = POL
+		}
+		ENG_2029 = {
+			secede_province = ENG
+		}
+		ENG_2034 = {
+			secede_province = ENG
+		}
+		ENG_2039 = {
+			secede_province = ENG
+		}
+		ENG_2078 = {
+			secede_province = SAF
+		}
+		ENG_2083 = {
+			secede_province = SAF
+		}
+		GER_2530 = {
+			secede_province = AST
+		}
+		1957 = {
+			secede_province = ENG
+		}
+		1961 = {
+			secede_province = ENG
+		}
+		1916 = {
+			secede_province = ENG
+		}
+		1915 = {
+			secede_province = FRA
+		}
+		1958 = {
+			secede_province = FRA
+		}
+		1959 = {
+			secede_province = FRA
+		}
+		1962 = {
+			secede_province = FRA
+		}
+		1966 = {
+			secede_province = FRA
+		}
+		3267 = {
+			secede_province = FRA
+		}
+		3268 = {
+			secede_province = FRA
+		}
+		3269 = {
+			secede_province = FRA
+		}
+		3270 = {
+			secede_province = FRA
+		}
+		1963 = {
+			secede_province = FRA
+		}
+		1967 = {
+			secede_province = FRA
+		}
+		1964 = {
+			secede_province = FRA
+		}
+		1819 = {
+			secede_province = FRA
+		}
+		3271 = {
+			secede_province = FRA
+		}
+		1972 = {
+			secede_province = FRA
+		}
+		1956 = {
+			secede_province = FRA
+		}
+		1960 = {
+			secede_province = FRA
+		}
+		1566 = {
+			secede_province = JAP
+		}
+		ENG = {
+			2034 = {
+				secede_province = BEL
+			}
+			2035 = {
+				secede_province = BEL
+			}
+		}
+		1914 = {
+			secede_province = FRA
+		}
+		1917 = {
+			secede_province = FRA
+		}
+		1918 = {
+			secede_province = FRA
+		}
+		diplomatic_influence = { who = EST value = -200 }
+		diplomatic_influence = { who = LAT value = -200 }
+		diplomatic_influence = { who = LIT value = -200 }
+		diplomatic_influence = { who = POL value = -200 }
+		diplomatic_influence = { who = FIN value = -200 }
+		diplomatic_influence = { who = UKR value = -200 }
+		diplomatic_influence = { who = BYE value = -200 }
+		any_pop = {
+			dominant_issue = {
+				factor = 0.5
+				value = jingoism
+			}
+		}
+		any_country = {
+			limit = {
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		random_country = {
+			limit = {
+				tag = RUS
+				NOT = { has_country_flag = world_war_loser }
+			}
+			country_event = 95640
+		}
+		
+	}
+}
+country_event = {
+	id = 95631
+	trigger = {
+		tag = ENG
+		has_country_flag = world_war_loser
+		has_global_flag = world_war_one_is_over
+		has_global_flag = scenario_1914_activated
+	}
+	
+	fire_only_once = yes
+
+	title = "EVTNAME95630"
+	desc = "EVTDESC95630"
+	picture = "Rebellion"
+
+	option = {
+		name = "EVTOPTA95630"
+		release = SAF
+		release = AST
+		release = CAN
+		release = NZL
+		release = PAK
+		release = HND
+		release = IRE
+		release = EGY
+		release = SUD
+		release = KWT
+		release = JAM
+		release = TDT
+		release = GRN
+		release = STV
+		release = STL
+		release = BAR
+		release = COD
+		release = MSR
+		release = ANT
+		release = STK
+		release = BUR
+		any_country = {
+			limit = {
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					continent = asia
+					continent = africa
+					continent = oceania
+				}
+			}
+			secede_province = GER
+		}
+		any_pop = {
+			dominant_issue = {
+				factor = 0.3
+				value = jingoism
+			}
+		}
+	}
+}
+country_event = {
+	id = 95632
+	is_triggered_only = yes
+	title = "EVTNAME95632"
+	desc = "EVTDESC95632"
+	option = {
+		name = "EVTOPTA95632"
+		FROM = {
+			release_vassal = THIS
+		}
+	}
+}
+country_event = {
+	id = 95633
+	trigger = {
+		tag = FRA
+		has_country_flag = world_war_loser
+		has_global_flag = scenario_1914_activated
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	title = "EVTNAME95630"
+	desc = "EVTDESC95630"
+	picture = "Rebellion"
+
+	option = {
+		name = "EVTOPTA95630"
+		release = DAI
+		release = SIA
+		release = CAM
+		release = MAR
+		release = GDL
+		release = MAD
+		release = TUN
+		release = ALD
+		release = MOR
+		release = LUA
+		any_country = {
+			limit = {
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					continent = asia
+					continent = africa
+					continent = oceania
+				}
+			}
+			secede_province = GER
+		}
+		any_pop = {
+			dominant_issue = {
+				factor = 0.3
+				value = jingoism
+			}
+		}
+	}
+}
+country_event = {
+	id = 95634
+	trigger = {
+		tag = TUR
+		has_country_flag = world_war_loser
+		has_global_flag = scenario_1914_activated
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	title = "EVTNAME95630"
+	desc = "EVTDESC95630"
+	picture = "Rebellion"
+
+	option = {
+		name = "EVTOPTA95630"
+		government = democracy
+		political_reform = landed_voting
+		capital = 876
+		release = IRQ
+		IRQ = {
+			all_core = {
+				remove_core = TUR
+			}
+		}
+		release = HDJ
+		HDJ = {
+			all_core = {
+				remove_core = TUR
+			}
+		}
+		release = SYR
+		SYR = {
+			all_core = {
+				remove_core = TUR
+			}
+		}
+		any_country = {
+			limit = {
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+		any_pop = {
+			dominant_issue = {
+				factor = 0.3
+				value = jingoism
+			}
+		}
+		EGY_921 = {
+			secede_province = ENG
+		}
+		EGY_910 = {
+			secede_province = ENG
+		}
+		EGY_915 = {
+			secede_province = ENG
+		}
+		EGY_903 = {
+			secede_province = FRA
+		}
+		EGY_897 = {
+			secede_province = FRA
+		}
+		
+	}
+}
+country_event = {
+	id = 95635
+	trigger = {
+		tag = ITA
+		has_country_flag = world_war_loser
+		has_global_flag = scenario_1914_activated
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	title = "EVTNAME95630"
+	desc = "EVTDESC95630"
+	picture = "Rebellion"
+
+	option = {
+		name = "EVTOPTA95630"
+		release = LIV
+		any_pop = {
+			dominant_issue = {
+				factor = 0.3
+				value = jingoism
+			}
+		}
+		any_country = {
+			limit = {
+				vassal_of = THIS
+			}
+			country_event = 95632
+		}
+	}
+}
+country_event = {
+	id = 95636
+	trigger = {
+		OR = {
+			tag = RUS
+			tag = RSR
+		}
+		has_country_flag = world_war_loser
+		has_global_flag = scenario_1914_activated
+		NOT = {
+			has_country_flag = brest_pease_is_ok
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	title = "EVTNAME95630"
+	desc = "EVTDESC95630"
+	picture = "Rebellion"
+
+	option = {
+		name = "EVTOPTA95630"
+		release = UKR
+		release = BYE
+		release = EST
+		release = LAT
+		release = LIT
+		release = POL
+		release_vassal = FIN
+		TUR_885 = {
+			secede_province = TUR
+		}
+		any_pop = {
+			dominant_issue = {
+				factor = 0.3
+				value = jingoism
+			}
+		}
+	}
+}
+country_event = {
+	id = 95637
+	trigger = {
+		tag = BEL
+		has_country_flag = world_war_loser
+		has_global_flag = scenario_1914_activated
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	title = "EVTNAME95630"
+	desc = "EVTDESC95630"
+	picture = "Rebellion"
+
+	option = {
+		name = "EVTOPTA95630"
+		release = CNG
+		any_pop = {
+			dominant_issue = {
+				factor = 0.3
+				value = jingoism
+			}
+		}
+	}
+}
+country_event = {
+	id = 95638
+	trigger = {
+		tag = ROM
+		has_country_flag = world_war_loser
+		has_global_flag = scenario_1914_activated
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	title = "EVTNAME95630"
+	desc = "EVTDESC95630"
+	picture = "Rebellion"
+
+	option = {
+		name = "EVTOPTA95630"
+		any_owned = {
+			limit = {
+				is_core = BUL
+			}
+			remove_core = THIS
+			secede_province = BUL
+		}
+	}
+}
+country_event = {
+	id = 95639
+	trigger = {
+		tag = BUL
+		has_country_flag = world_war_loser
+		has_global_flag = scenario_1914_activated
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	title = "EVTNAME95630"
+	desc = "EVTDESC95630"
+	picture = "Rebellion"
+
+	option = {
+		name = "EVTOPTA95630"
+		any_owned = {
+			limit = {
+				is_core = ROM
+			}
+			remove_core = THIS
+			secede_province = ROM
+		}
+		any_owned = {
+			limit = {
+				is_core = GRE
+			}
+			remove_core = THIS
+			secede_province = GRE
+		}
+	}
+}
+country_event = {
+	id = 95640
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	title = "EVTNAME95640"
+	desc = "EVTDESC95640"
+	picture = "Rebellion"
+
+	option = {
+		name = "EVTOPTA95640"
+		GER = {
+			PRU_690 = {
+				secede_province = THIS
+			}
+			PRU_695 = {
+				secede_province = THIS
+			}
+		}
+		KUK = {
+			AUS_702 = {
+				secede_province = THIS
+			}
+			AUS_662 = {
+				secede_province = THIS
+			}
+		}
+		TUR = {
+			TUR_885 = {
+				secede_province = THIS
+			}
+		}
+	}
+}
+
+###Костыли для AI###
+
+country_event = {
+	id = 95650
+	title = "Call Allies"
+	desc = "This should call any allies into the Great War."
+
+	trigger = {
+		ai = yes
+		war = yes
+		has_global_flag = world_war_one_is_now
+		NOT = { has_country_flag = calling_all_allies }
+		OR = {
+			is_greater_power = yes
+			is_secondary_power = yes
+		}
+		OR = {
+			AND = {
+				is_greater_power = yes
+				has_country_flag = world_war_activated
+			}
+			AND = {
+				any_greater_power = {
+					has_country_flag = world_war_activated
+					alliance_with = THIS
+				}
+				any_greater_power = {
+					has_country_flag = world_war_activated
+					war_with = THIS
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "Let's make sure we have everyone."
+		any_country = {
+			limit = {
+				alliance_with = THIS
+				war = no
+				NOT = {
+					substate_of = THIS
+					vassal_of = THIS
+					is_greater_power = yes
+					has_country_flag = world_war_loser
+					tag = RUS
+				}
+			}
+			country_event = 95654
+			country_event = { id=95655 days=6 }
+		}
+		country_event = { id=95651 days=3 }
+	}
+}
+
+country_event = {
+	id = 95651
+	title = "Call Allies"
+	desc = "This should call any allies into the Great War."
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Let's make sure we have everyone."
+		set_country_flag = calling_all_allies
+		random_country = {
+			limit = {
+				alliance_with = THIS
+				war = no
+			}
+			THIS = {
+				war = {
+					attacker_goal = {
+						casus_belli = great_war_penalty_cb
+					}
+					call_ally = yes
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 95652
+	title = "Call Allies Cleanup"
+	desc = "This removes the flag once peace is achieved."
+
+	trigger = {
+		ai = yes
+		war = no
+		has_country_flag = calling_all_allies
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "Let's keep this clean."
+		clr_country_flag = calling_all_allies
+	}
+}
+
+country_event = {
+	id = 95653
+	title = "Call Allies Refresh"
+	desc = "Gives the AI the chance to call new allies into the war."
+
+	trigger = {
+		ai = yes
+		war = yes
+		has_country_flag = calling_all_allies
+	}
+
+	mean_time_to_happen = {
+		months = 100
+	}
+
+	option = {
+		name = "Is anyone out there?"
+		clr_country_flag = calling_all_allies
+	}
+}
+
+country_event = {
+	id = 95654
+	title = "EVTNAME95654"
+	desc = "EVTDESC95654"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA95654"
+		FROM = {
+			create_vassal = THIS
+			create_alliance = THIS
+		}
+	}
+}
+
+
+country_event = {
+	id = 95655
+	title = "EVTNAME95655"
+	desc = "EVTDESC95655"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA95655"
+		FROM = {
+			release_vassal = THIS
+		}
+	}
+}
+#КБ
+country_event = {
+	id = 95656
+	title = "EVTNAME95656"
+	desc = "EVTDESC95656"
+	picture = "krakovrevolt"
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ENG
+		ai = yes
+		war_with = GER
+		war_with = KUK
+		has_global_flag = world_war_one_is_now
+	}
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	option = {
+		name = "EVTOPTA95656"
+		ENG_2029 = {
+			add_core = ENG
+		}
+		ENG_2034 = {
+			add_core = ENG
+		}
+		ENG_2039 = {
+			add_core = ENG
+		}
+		ENG_2078 = {
+			add_core = ENG
+		}
+		ENG_2083 = {
+			add_core = ENG
+		}
+		FRA_1914 = {
+			add_core = ENG
+		}
+		EGY_921 = {
+			add_core = ENG
+		}
+		EGY_910 = {
+			add_core = ENG
+		}
+		EGY_915 = {
+			add_core = ENG
+		}
+		set_country_flag = world_war_cb_added
+	}
+}
+country_event = {
+	id = 95657
+	title = "EVTNAME95657"
+	desc = "EVTDESC95657"
+	picture = "krakovrevolt"
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = FRA
+		ai = yes
+		has_global_flag = world_war_one_is_now
+		war_with = GER
+		war_with = KUK
+	}
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	option = {
+		name = "EVTOPTA95657"
+		FRA_412 = {
+			add_core = FRA
+			}
+		EGY_903 = {
+			add_core = FRA
+		}
+		EGY_897 = {
+			add_core = FRA
+		}
+		set_country_flag = world_war_cb_added
+	}
+}
+country_event = {
+	id = 95658
+	title = "EVTNAME95658"
+	desc = "EVTDESC95658"
+	picture = "krakovrevolt"
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ITA
+		ai = yes
+		has_global_flag = world_war_one_is_now
+		war_with = GER
+		war_with = KUK
+	}
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	option = {
+		name = "EVTOPTA95658"
+		AUS_734 = {
+			add_core = ITA
+		}
+		set_country_flag = world_war_cb_added
+	}
+}
+country_event = {
+	id = 95659
+	title = "EVTNAME95659"
+	desc = "EVTDESC95659"
+	picture = "krakovrevolt"
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GRE
+		ai = yes
+		has_global_flag = world_war_one_is_now
+		war_with = GER
+		war_with = KUK
+	}
+
+	option = {
+		name = "EVTOPTA95659"
+		TUR_805 = {
+			add_core = GRE
+		}
+		set_country_flag = world_war_cb_added
+		
+	}
+}
+country_event = {
+	id = 95660
+	title = "EVTNAME95660"
+	desc = "EVTDESC95660"
+	picture = "krakovrevolt"
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ENG
+		ai = yes
+		NOT = {
+			war_with = GER
+			war_with = KUK
+		}
+		has_country_flag = world_war_cb_added
+	}
+
+	option = {
+		name = "EVTOPTA95660"
+		ENG_2029 = {
+			remove_core = ENG
+		}
+		ENG_2034 = {
+			remove_core = ENG
+		}
+		ENG_2039 = {
+			remove_core = ENG
+		}
+		ENG_2078 = {
+			remove_core = ENG
+		}
+		ENG_2083 = {
+			remove_core = ENG
+		}
+		FRA_1914 = {
+			remove_core = ENG
+		}
+		EGY_921 = {
+			remove_core = ENG
+		}
+		EGY_910 = {
+			remove_core = ENG
+		}
+		EGY_915 = {
+			remove_core = ENG
+		}
+	}
+}
+country_event = {
+	id = 95661
+	title = "EVTNAME95661"
+	desc = "EVTDESC95661"
+	picture = "krakovrevolt"
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = FRA
+		ai = yes
+		NOT = {
+			war_with = GER
+			war_with = KUK
+		}
+		has_country_flag = world_war_cb_added
+	}
+	option = {
+		name = "EVTOPTA95661"
+		EGY_903 = {
+			remove_core = FRA
+		}
+		EGY_897 = {
+			remove_core = FRA
+		}
+	}
+}
+country_event = {
+	id = 95662
+	title = "EVTNAME95662"
+	desc = "EVTDESC95662"
+	picture = "krakovrevolt"
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GER
+		ai = yes
+		has_global_flag = world_war_one_is_now
+		war_with = RUS
+		war_with = ENG
+		war_with = FRA
+	}
+	option = {
+		name = "EVTOPTA95662"
+		ENG = {
+        		add_casus_belli = {
+	        		target = THIS
+				type = place_in_the_sun
+				months = 24
+			}
+		}
+		ENG = {
+        		add_casus_belli = {
+	        		target = THIS
+				type = place_in_the_sun
+				months = 24
+			}
+		}
+		ENG = {
+        		add_casus_belli = {
+	        		target = THIS
+				type = place_in_the_sun
+				months = 24
+			}
+		}
+		FRA = {
+        		add_casus_belli = {
+	        		target = THIS
+				type = place_in_the_sun
+				months = 24
+			}
+		}
+		FRA = {
+        		add_casus_belli = {
+	        		target = THIS
+				type = place_in_the_sun
+				months = 24
+			}
+		}
+		FRA = {
+        		add_casus_belli = {
+	        		target = THIS
+				type = place_in_the_sun
+				months = 24
+			}
+		}
+		RUS = {
+        		add_casus_belli = {
+	        		target = THIS
+				type = free_peoples
+				months = 24
+			}
+		}
+		RUS = {
+        		add_casus_belli = {
+	        		target = THIS
+				type = free_peoples
+				months = 24
+			}
+		}
+		RUS = {
+        		add_casus_belli = {
+	        		target = THIS
+				type = free_peoples
+				months = 24
+			}
+		}
+		set_country_flag = world_war_cb_added
+	}
+}
+country_event = {
+	id = 95663
+	title = "EVTNAME95663"
+	desc = "EVTDESC95663"
+	picture = "krakovrevolt"
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = KUK
+		ai = yes
+		has_global_flag = world_war_one_is_now
+		war_with = RUS
+		war_with = ENG
+		war_with = FRA
+	}
+	option = {
+		name = "EVTOPTA95663"
+		MON = {
+        		add_casus_belli = {
+	        		target = THIS
+				type = conquest
+				months = 12
+			}
+		}
+		GRE = {
+        		add_casus_belli = {
+	        		target = THIS
+				type = conquest
+				months = 12
+			}
+		}
+		ALB = {
+        		add_casus_belli = {
+	        		target = THIS
+				type = conquest
+				months = 12
+			}
+		}
+	}
+}
+country_event = {
+	id = 95664
+	title = "EVTNAME95664"
+	desc = "EVTDESC95664"
+	picture = "krakovrevolt"
+
+	fire_only_once = yes
+	
+	trigger = {
+		ai = yes
+		FRA = {
+			ai = no
+		}
+		has_global_flag = scenario_1914_activated
+	}
+	option = {
+		name = "EVTOPTA95664"
+		FRA_412 = {
+			add_core = FRA
+		}
+	}
+}
+country_event = {
+	id = 95665
+	title = "EVTNAME95665"
+	desc = "EVTDESC95665"
+	picture = "krakovrevolt"
+
+	fire_only_once = yes
+	
+	trigger = {
+		ai = yes
+		BUL = {
+			ai = no
+		}
+		has_global_flag = scenario_1914_activated
+	}
+	option = {
+		name = "EVTOPTA95665"
+		823 = {
+			add_core = BUL
+		}
+	}
+}
+country_event = {
+	id = 95666
+	title = "EVTNAME95666"
+	desc = "EVTDESC95666"
+	picture = "krakovrevolt"
+
+	fire_only_once = yes
+	
+	trigger = {
+		ai = yes
+		GRE = {
+			ai = no
+		}
+		has_global_flag = scenario_1914_activated
+	}
+	option = {
+		name = "EVTOPTA95666"
+		TUR_805 = {
+			add_core = GRE
+		}
+	}
+}
+
+country_event = {
+	id = 95670
+	title = "EVTNAME95670"
+	desc = "EVTDESC95670"
+	
+	trigger = {
+		tag = FRA
+		ai = yes
+		NOT = {
+			war_with = GER
+		}
+		has_global_flag = world_war_one_is_now
+	}
+
+	mean_time_to_happen =  {
+		days = 30
+	}
+
+	option = {
+		name = "EVTOPTA95670"
+		relation = { who = ENG value = 400 }
+		relation = { who = RUS value = 400 }
+		relation = { who = SER value = 400 }
+		relation = { who = GER value = -400 }
+		relation = { who = KUK value = -400 }
+		create_alliance = ENG
+		create_alliance = SER
+		create_alliance = RUS
+		leave_alliance = GER
+		leave_alliance = KUK
+	}
+}
+country_event = {
+	id = 95671
+	title = "EVTNAME95671"
+	desc = "EVTDESC95671"
+	
+	trigger = {
+		tag = ENG
+		ai = yes
+		NOT = {
+			war_with = GER
+		}
+		has_global_flag = world_war_one_is_now
+	}
+
+	mean_time_to_happen =  {
+		days = 30
+	}
+
+	option = {
+		name = "EVTOPTA95671"
+		relation = { who = FRA value = 400 }
+		relation = { who = RUS value = 400 }
+		relation = { who = SER value = 400 }
+		relation = { who = GER value = -400 }
+		relation = { who = KUK value = -400 }
+		create_alliance = ENG
+		create_alliance = SER
+		create_alliance = RUS
+		leave_alliance = GER
+		leave_alliance = KUK
+	
+	}
+}
+country_event = {
+	id = 95672
+	title = "EndWar"
+	desc = "EVTDESC95672"
+
+	fire_only_once = yes
+	
+	trigger = {
+		ai = yes
+		GER = {
+			NOT = {
+				war_with = FRA
+				war_with = ENG
+			}
+		}
+		has_global_flag = world_war_one_is_now
+	}
+
+	option = {
+		name = "EVTOPTA95672"
+		clr_global_flag = world_war_one_is_now
+		set_global_flag = world_war_one_is_over
+		any_country = {
+			war_exhaustion = -50
+		}
+	
+	}
+}
+country_event = {
+	id = 95673
+	title = "EVTNAME95673"
+	desc = "EVTDESC95673"
+	
+	trigger = {
+		ai = yes
+		any_neighbor_country = {
+			badboy = 0.9
+		}
+		has_global_flag = world_war_one_is_now
+	}
+
+	option = {
+		name = "EVTOPTA95673"
+		any_country = {
+			limit = {
+				badboy = 0.9
+			}
+			badboy = -100
+		}
+	
+	}
+}
+country_event = {
+	id = 95674
+	title = "EVTNAME95674"
+	desc = "EVTDESC95674"
+	
+	trigger = {
+		ai = yes
+		any_neighbor_country = {
+			has_country_flag = world_war_loser
+		}
+	}
+
+	mean_time_to_happen =  {
+		days = 30
+	}
+
+	option = {
+		name = "EVTOPTA95674"
+		any_country = {
+			limit = {
+				has_country_flag = world_war_loser
+			}
+			clr_country_flag = world_war_loser
+		}
+	
+	}
+}

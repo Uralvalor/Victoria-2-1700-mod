@@ -1,0 +1,1085 @@
+country_event = {
+    id = 999998
+    title = "EVTNAME999998"
+    desc = "EVTDESC999998"
+    picture = "Celebration"
+    is_triggered_only = yes
+
+
+option = {
+    
+    }
+
+option = {
+        name = " All to one"
+        any_country = 
+        { 
+
+            annex_to = THIS
+        }
+    
+    }    
+
+}
+
+country_event = {
+    id = 780000
+    title = "EVTNAME780000"
+    desc = "EVTDESC780000"
+    picture = "Celebration"
+    is_triggered_only = yes
+	major = yes
+
+option = {
+        name = "Sanction"
+		FROM = { diplomatic_influence = {
+			who = THIS
+			value = -400
+		}
+		}
+    	add_country_modifier = {
+			name = sanction 
+			duration = 730 
+		}
+    }    
+
+}
+
+country_event = {
+	id = 1099994
+	title = "EVTNAME1099994"
+	desc = "EVTDESC1099994"
+	picture = "greatpowers"	
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = "Великолепно"
+		1060 = {
+			life_rating = 5
+			secede_province = RUS
+			add_core = RUS
+			remove_core = BSK
+			add_province_modifier = {
+					name = influx_of_population
+					duration = 1825
+			        }
+		    change_province_name = "Оренбург" 			
+		}
+		1059 = {
+			secede_province = RUS
+			add_core = RUS
+			remove_core = BSK
+		}
+		1043 = {
+			secede_province = RUS
+			add_core = RUS
+		}		
+		1044 = {
+			secede_province = RUS
+			add_core = RUS
+			remove_core = BSK
+		    change_province_name = "Илецк" 
+		}
+		1042 = {
+			add_core = RUS
+			remove_core = BSK
+			any_pop = {
+				limit = {
+					has_pop_religion = orthodox
+				}
+				move_pop = 1060
+			}
+		}		
+		prestige = 10
+	}
+	
+}
+country_event = {
+	id = 1099995
+	title = "EVTNAME1099995"
+	desc = "EVTDESC1099995"
+	picture = "angry_natives"	
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "Уничтожить предателей"
+		1060 = {
+			secede_province = RUS
+		}
+		1059 = {
+			secede_province = RUS
+		}
+		1043 = {
+			secede_province = RUS
+		}		
+		1044 = {
+			secede_province = RUS
+		}
+		release = BSK
+			war = {
+				target = BSK
+				attacker_goal = {
+					casus_belli = annex_core_country
+				}
+				defender_goal = {
+					casus_belli = become_independent
+				}
+			}
+		BSK = { is_mobilised = yes }
+	}
+	
+}
+country_event = {
+	id = 1099996
+	title = "EVTNAME1099996"
+	desc = "EVTDESC1099996"
+	picture = "angry_natives"	
+	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "Их надо усмирить"
+		1060 = {
+			secede_province = RUS
+			add_core = RUS
+			remove_core = BSK
+		}
+		1044 = {
+			secede_province = RUS
+			add_core = RUS
+			remove_core = BSK
+		}
+		1059 = {
+			secede_province = RUS
+			add_core = RUS
+			remove_core = BSK
+		}
+		1042 = {
+			add_core = RUS
+		}
+		1043 = {
+			secede_province = RUS
+			add_core = RUS
+		}
+			any_pop = {
+				limit = {
+					has_pop_culture = bashkir
+				}
+				militancy = 8
+			}
+	}
+	
+}
+
+
+country_event = {
+	id = 1100001
+	title = "Американская революция"
+	desc = "Жители колоний в Америке недовольны и востали против нас, мы должны сокрушить их !"
+	picture = "Celebration"	
+	
+	trigger = {
+		tag = ENG
+		NOT = { exists = USA }
+		trade_policy = protectionism
+		freedom_of_trade = 1
+		any_owned_province = {
+				continent = north_america
+			        average_militancy = 4
+			        average_consciousness = 7
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.5
+			average_militancy = 8
+		}
+		modifier = {
+			factor = 0.5
+            war = yes
+		}
+	}
+	
+	fire_only_once = yes
+	major = yes
+	
+	option = {
+		name = "Уничтожить их"
+		any_owned = {
+			limit = {
+				continent = north_america
+				not = { is_core = CAN }
+				not = { is_core = MEX }
+				not = { is_core = FWI }
+			}
+		        add_core = USA 
+		            }
+		prestige = -10
+		war_exhaustion = 1
+		release = USA
+	   USA = {
+		government = democracy
+		any_pop = { militancy = -10 consciousness = 10 }
+	   }
+		any_greater_power = {
+				limit = {
+					NOT = {
+						tag = ENG
+					}
+					capital_scope = {
+						continent = europe
+					}
+				}
+				country_event = 1200001
+			}
+		
+		country_event = 1200004
+	}
+	
+}
+
+
+country_event = {
+	id = 1100002
+	title = "Луизианская революция"
+	desc = "Жители колоний в америке недовольны и востали против нас, мы должны сокрушить их !"
+	picture = "Celebration"	
+	
+	trigger = {
+		tag = FRA
+		NOT = { exists = LOU }
+                enlightenment_thought = 1
+		any_owned_province = {
+				continent = north_america
+			average_militancy = 6
+			average_consciousness = 4
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.5
+			average_militancy = 8
+		}
+		modifier = {
+			factor = 0.5
+            war = yes
+		}
+	}
+	
+	fire_only_once = yes
+	major = yes
+	
+	option = {
+		name = "Уничтожить их"
+		any_owned = {
+			limit = {
+				continent = north_america
+				not = { is_core = HAI }
+				not = { is_core = FWI }
+			}
+		        add_core = LOU 
+		            }
+		prestige = -10
+		war_exhaustion = 1
+		release = LOU
+	   LOU = {
+		any_pop = { militancy = -10 consciousness = 10 }
+	   }
+			139 = { add_core = LOU }
+			141 = { add_core = LOU }
+			140 = { add_core = LOU }
+			142 = { add_core = LOU  }
+			144 = { add_core = LOU  }
+			143 = { add_core = LOU  }
+			145 = { add_core = LOU  }
+			148 = { add_core = LOU  }
+			147 = { add_core = LOU  }
+			149 = { add_core = LOU  }
+			146 = { add_core = LOU  }
+			150 = { add_core = LOU  }
+			152 = { add_core = LOU  }
+			151 = { add_core = LOU  }
+			153 = { add_core = LOU  }
+			154 = { add_core = LOU  }
+			155 = { add_core = LOU  }
+			156 = { add_core = LOU  }
+			158 = { add_core = LOU  }
+			157 = { add_core = LOU  }
+			117 = { add_core = LOU  }
+			119 = { add_core = LOU  }
+			116 = { add_core = LOU  }
+			115 = { add_core = LOU  }
+			114 = { add_core = LOU  }
+			113 = { add_core = LOU  }
+			110 = { add_core = LOU  }
+			112 = { add_core = LOU  }
+			121 = { add_core = LOU  }
+			120 = { add_core = LOU  }
+			122 = { add_core = LOU  }
+			107 = { add_core = LOU  }
+			106 = { add_core = LOU  }
+			108 = { add_core = LOU  }
+			109 = { add_core = LOU  }
+			124 = { add_core = LOU  }
+			130 = { add_core = LOU  }
+			131 = { add_core = LOU  }
+			128 = { add_core = LOU  }
+			127 = { add_core = LOU  }
+			126 = { add_core = LOU  }
+			125 = { add_core = LOU  }
+			123 = { add_core = LOU  }
+			121 = { add_core = LOU  }
+		any_greater_power = {
+				limit = {
+					NOT = {
+						tag = FRA
+					}
+					capital_scope = {
+						continent = europe
+					}
+				}
+				country_event = 1200002
+			}
+		
+		country_event = 1200003
+	}
+	
+}
+
+
+country_event = {
+	id = 1200001
+	title = "Поддержка американской революции"
+	desc = "У наших давних конкурентов востали колонии в Америке. Мы можем поддержать американскую борьбу за независимость."
+	picture = "colonial_uprising"	
+	
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = "Поддержим американцев"
+		create_alliance = USA
+		relation = { who = ENG value = -155 }
+		diplomatic_influence = {	who = USA	value = 300 }
+	}
+
+	option = {
+			name = "Не стоит"
+		}
+}
+country_event = {
+	id = 1200002
+	title = "Поддержка американской революции"
+	desc = "У наших давних конкурентов восстали колонии в Америке. Мы можем поддержать американскую борьбу за независимость."
+	picture = "colonial_uprising"	
+	
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = "Поддержим американцев"
+		create_alliance = LOU
+		relation = { who = FRA value = -155 }
+		diplomatic_influence = {	who = LOU	value = 300 }
+	}
+
+	option = {
+			name = "Не стоит"
+		}
+	
+}
+
+
+country_event = {
+	id = 1200003
+	title = "Луизиана в огне"
+	desc = "Начинается война с нашей колонией Лузианой"
+	picture = "colonial_uprising"	
+	
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Война !"
+		war = {
+			target = LOU
+			attacker_goal = {
+				casus_belli = establish_protectorate_casus_belli
+			}
+			
+			defender_goal = {
+				casus_belli = become_independent
+			}
+		}
+	}
+}
+country_event = {
+	id = 1200004
+	title = "Америка в огне"
+	desc = "Начинается война с тринадцатью колониями в Америке"
+	picture = "colonial_uprising"	
+	
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Война !"
+		war = {
+			target = USA
+			attacker_goal = {
+				casus_belli = establish_protectorate_casus_belli
+			}
+			
+			defender_goal = {
+				casus_belli = become_independent
+			}
+		}
+	}
+}
+
+
+country_event = {
+	id = 1300001
+	title = "Мексиканская революция"
+	desc = "Жители колоний в Америке недовольны и востали против нас, мы должны сокрушить их !"
+	picture = "Celebration"	
+	
+	trigger = {
+		tag = SPA
+		NOT = { exists = MEX }
+		is_ideology_enabled = liberal 
+		any_owned_province = {
+				is_core = MEX 
+			        average_militancy = 5
+			        average_consciousness = 7
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.5
+            war = yes
+		}
+	}
+	
+	fire_only_once = yes
+	major = yes
+	
+	option = {
+		name = "Уничтожить их"
+		any_owned = {
+			limit = {
+				continent = north_america
+				not = { is_core = CAN }
+				not = { is_core = FWI }
+				not = { is_core = CUB }
+				not = { is_core = HAI }
+				not = { is_core = XFL }
+				not = { is_core = XGA }
+			}
+		        add_core = MEX 
+		            }
+		prestige = -10
+		war_exhaustion = 1
+		release = MEX
+	   MEX = {
+		any_pop = { militancy = -10 consciousness = 10 }
+	   }
+		war = {
+			target = MEX
+			attacker_goal = {
+				casus_belli = establish_protectorate_casus_belli
+			}
+			
+			defender_goal = {
+				casus_belli = become_independent
+			}
+		}
+	}
+	
+}
+
+
+
+country_event = {
+
+	id = 170700
+
+	trigger = {
+		tag = CSK
+		substate_of = RUS
+		in_sphere = SWE 
+		SWE = {
+					war_with = RUS
+				}
+	}
+
+	fire_only_once = yes
+	mean_time_to_happen =  {
+		months = 12
+
+		modifier = {
+			factor = 0.6
+			average_militancy = 6
+		}
+	}
+	
+	title = "EVTNAME170700"
+	desc = "EVTDESC170700"
+	picture = "polrebel"
+
+	option = {
+		name = "EVTOPTA170700"
+		war = {
+			target = RUS
+			attacker_goal = {
+				casus_belli = become_independent
+			}
+		}
+		set_country_flag = bulavin_rebellion
+	}
+}
+
+country_event = {
+
+	id = 170800
+
+	trigger = {
+		tag = UKR
+		substate_of = RUS
+		in_sphere = SWE 
+		SWE = {
+					war_with = RUS
+				}
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+		}
+		
+	fire_only_once = yes
+	title = "EVTNAME170800"
+	desc = "EVTDESC170800"
+	picture = "polrebel"
+
+	option = {
+		name = "EVTOPTA170800"
+			war = {
+				target = RUS
+			attacker_goal = {
+					casus_belli = become_independent
+				}
+			defender_goal = {
+				casus_belli = make_puppet 
+		     	} 
+			}
+			any_country = {
+				limit = {
+					war_with = THIS
+				}
+				end_war = THIS
+			}
+			create_alliance	= SWE
+			SWE = {
+		  	diplomatic_influence = { who = UKR value = 200 }
+				}
+		set_country_flag = mazepa
+	}
+}
+
+
+
+country_event = {
+
+	id = 170711
+
+	trigger = {
+		tag = AUS
+		year = 1701
+	}
+	
+	fire_only_once = yes
+	mean_time_to_happen =  {
+		months = 12
+	}
+	
+	title = "EVTNAME170711"
+	desc = "EVTDESC170711"
+	picture = "polrebel"
+
+	option = {
+		name = "EVTOPTA170711"
+		release = SIE
+		release_vassal = SIE
+		war = {
+			target = SIE
+			attacker_goal = {
+				casus_belli = establish_protectorate_casus_belli
+			}
+			
+			defender_goal = {
+				casus_belli = become_independent
+			}
+			defender_goal = {
+		casus_belli = acquire_state
+		state_province_id = 641
+			}
+		}
+
+		SIE = {
+		set_country_flag = rakoczi_rebellion
+		}
+	}
+}
+
+country_event = {
+	id = 18049
+	trigger = {
+		tag = FRA
+		has_global_flag = revolution
+		government = democracy
+		NOT = {
+			has_country_flag = emperornapoleon
+			year = 1804
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 50
+	}
+
+	title = "EVTNAME18049"
+	desc = "EVTDESC18049"
+	picture = "administration"
+
+	option = {
+		name = "EVTOPTA18049"
+		set_country_flag = emperornapoleon
+		prestige = 10
+				}
+}
+
+#универсальный распад
+country_event = {
+	id = 999991
+	title = "EVTNAME999991"
+	desc = "EVTDESC999991"
+	picture = "Celebration"
+	#major = yes
+	
+	
+	is_triggered_only = yes
+	option = {
+		name = "Ok"		
+		all_core={
+			limit =	{
+				is_core = THIS
+				owned_by = FROM	
+				OR={
+					NOT={is_core = FROM}
+					is_core=IRE
+					AND={
+						is_core=POL
+						THIS={tag=POL}
+					}
+					AND={								
+						is_core=KUK
+						NOT={is_core = TIR}	
+					}
+					AND={								
+						is_core=AUS
+						NOT={is_core = TIR}	
+					}
+			
+				}
+					
+			}
+			secede_province = THIS
+		}	
+	}
+	
+}
+	
+#leave  pupet
+country_event = {
+	id = 999993
+	title = "EVTNAME999993"
+	desc = "EVTDESC999993"
+	picture = "Celebration"
+	#major = yes	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ok"	
+		
+		
+		all_core={
+			limit = {FROM ={is_our_vassal = THIS}}
+			release_vassal = THIS	
+		}
+		
+	}
+	
+	
+}
+	
+country_event = {
+    id = 143333
+    title = "EVTNAME143333"
+    desc = "EVTDESC143333"
+    picture = "europa"
+	major = yes
+
+	trigger = {
+		OR = {
+		tag = NET
+		tag = FRA
+		tag = SPA
+		tag = POR
+		tag = ENL
+		tag = ENG
+		tag = RUS
+		tag = TUR
+		tag = PRU
+		tag = AUS
+		}
+		NOT = {
+			has_country_flag = leave_europe
+		}
+		NOT = {
+				capital_scope = {
+					continent = europe
+				}
+	              }
+	}
+	option = {
+		name = "Ok"
+		# потеря сателитов
+		any_country= {
+			limit={	
+				OR={
+					vassal_of=THIS
+					substate_of=THIS
+				}			
+				
+			}
+			country_event = 999993
+		}	
+		set_country_flag = leave_europe
+		
+		any_country={	
+			limit ={				
+				OR = {				
+					exists = yes						
+					NOT = {
+						OR = {
+							tag = GER
+							tag = SCA
+							tag = ITA
+							tag = YUG
+							tag = ROM
+							tag = CZH
+							tag = KUK
+							tag = AUS
+							tag = HND
+						}
+					}
+					AND = {
+						tag = AUS
+						KUK = {NOT = {exists = yes}}					
+				      	}
+					AND = {
+						tag = KUK
+						AUS = {NOT = {exists = yes}}					
+				      	}
+				}
+			}	
+			
+			country_event=999991
+			
+
+		}
+		# no core found
+		any_owned ={
+			limit = {
+				NOT={
+					any_core={					
+						OR={
+							exists = no
+							exists = yes	
+						}
+					}
+				}
+			}
+		secede_province = FROM
+		}
+		
+	}
+	
+}
+
+country_event = {
+
+	id = 88160
+
+	trigger = {
+		tag = RUS
+		NOT = {
+				exists = CRI
+		}
+		RUS_968 = {
+			owned_by = THIS
+		}
+		RUS_964 = {
+			owned_by = THIS
+		}
+
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 10
+	}
+
+	title = "EVTNAME88160"
+	desc = "EVTDESC88160"
+	picture = "cherkes"
+
+	option = {
+		name = "EVTOPTA95161"
+		RUS_968 = {
+			poor_strata = {
+				limit = {
+                                        pop_type = farmers
+					has_pop_culture = tatar
+				}
+				reduce_pop = 0.90
+				move_pop = 1042
+			}
+			add_province_modifier = {
+					name = influx_of_population
+					duration = 1825
+			}
+		}
+		RUS_964 = {
+			poor_strata = {
+				limit = {
+                                        pop_type = farmers
+					has_pop_culture = tatar
+				}
+				reduce_pop = 0.90
+				move_pop = 1030
+			}
+			add_province_modifier = {
+					name = influx_of_population
+					duration = 1825
+			}
+		}
+		CRI = {
+			all_core = {
+				remove_core = CRI
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 88161
+
+	trigger = {
+		tag = RUS
+		exists = XIN
+		RUS_1036 = {
+			owned_by = THIS
+		}
+		CHI_1600 = {
+			owned_by = XIN
+		}
+		year = 1770
+
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 100
+	}
+
+	title = "EVTNAME88161"
+	desc = "EVTDESC88161"
+	picture = "cherkes"
+
+	option = {
+		name = "EVTOPTA95161"
+			any_pop = {
+				limit = {
+                    pop_type = farmers
+					has_pop_culture = kalmyk
+				}
+				reduce_pop = 0.95
+				move_pop = 1600
+			
+		}
+	}
+}
+
+
+country_event = {
+	id = 88200
+	fire_only_once = yes
+    is_triggered_only = yes
+
+
+	title = "Польский национализм"
+	desc = "Нашу страну делят крупные державы словно праздниный пирог ! Это немыслимо для великого народа !"
+	picture = "malet"
+
+	option = {
+		name = "Курва!"
+		any_pop = {
+			limit = { has_pop_culture = polish }
+			consciousness = 5
+			militancy = 5
+		}
+	}
+}
+
+country_event = {
+	id = 88300
+	fire_only_once = yes
+
+		trigger = {
+		tag = PER
+		NOT = { exists = AFG }
+		any_owned_province = {
+				is_core = AFG 
+			        average_militancy = 5
+			        average_consciousness = 5
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.5
+            war = yes
+		}
+	}
+	immediate = { 
+1215 = {
+secede_province = AFG
+}
+MUG = { 
+		release = AFG }
+1209 = {
+secede_province = AFG
+}
+1219 = {
+secede_province = AFG
+}
+ }
+	
+	title = "Гильзайское ханство"
+	desc = "Племена афганцев начали борьбу за свою независимость, они убили нашего ставленика. Наша держава в сложной ситуации. Сокрушим ли их ?"
+	picture = "malet"
+
+	option = {
+		name = "Эти земли наши"
+war = {
+	target = AFG
+	attacker_goal = {
+		casus_belli = acquire_state
+                state_province_id = 1215
+	}
+	attacker_goal = {
+		casus_belli = acquire_state
+                state_province_id = 1217
+	}
+	attacker_goal = {
+		casus_belli = acquire_state
+                state_province_id = 1219
+	}
+	defender_goal = {
+		casus_belli = acquire_state
+                state_province_id = 1212
+	}
+}
+		set_country_flag = afgani_war
+	}
+	option = {
+		name = "Заключим перемирие"
+	}
+	
+}
+
+country_event = {
+	id = 88301
+	fire_only_once = yes
+
+		trigger = {
+		
+		has_country_flag = afgani_war
+		tag = PER
+        war = yes
+		any_owned_province = {
+				is_core = AFG 
+			        average_militancy = 3
+			        average_consciousness = 3
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	immediate = { 
+		release = AFG
+		
+1220 = {
+secede_province = AFG
+}
+1221 = {
+secede_province = AFG
+}
+ }
+	
+	title = "Дурранийская держава"
+	desc = "Племена афганцев ведут борьбу за свою независимость. Наша держава в сложной ситуации. Сокрушим ли их ?"
+	picture = "malet"
+
+	option = {
+		name = "Эти земли наши"
+			war = {
+				target = AFG
+				attacker_goal = {
+					casus_belli = annex_core_country
+				}
+				defender_goal = {
+					casus_belli = become_independent
+				}
+			}
+	}
+	option = {
+		name = "Заключим перемирие"
+	}
+	
+}
