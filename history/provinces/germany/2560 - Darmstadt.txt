@@ -1,0 +1,29 @@
+owner = HES
+controller = HES
+add_core = HES
+add_core = GER
+trade_goods = fruit
+life_rating = 35
+terrain = deciduous_forest_hills
+#state_building = {
+#	level = 1
+#	building = fabric_factory
+#	upgrade = yes
+#}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	owner = GER
+	controller = GER
+	railroad = 5
+	fort = 2
+	state_building = {
+		level = 20
+		building = fabric_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 20
+		building = fertilizer_factory
+		upgrade = yes
+	}
+}

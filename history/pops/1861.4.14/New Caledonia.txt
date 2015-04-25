@@ -1,0 +1,33 @@
+#Southern Melanesia (28000) #see Vanuatu.txt for balance of region
+#New Caledonia (28000/7000 POPS) 
+1097 = {
+	aristocrats = {
+		culture = melanesian
+		religion = animist
+		size = 100
+	}
+
+	clergymen = {
+		culture = melanesian
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = melanesian
+		religion = animist
+		size = 500
+	}
+
+	soldiers = {
+		culture = melanesian
+		religion = animist
+		size = 125
+	}
+
+	farmers = {
+		culture = melanesian
+		religion = animist
+		size = 6200
+	}
+}

@@ -1,0 +1,963 @@
+#Sphere of Influence
+
+NET = {
+	value = 150
+}
+
+DEN = {
+	value = 125
+}
+SWE = {
+	value = 0
+}
+SWI = {
+	value = 125
+	influence_value = 35
+}
+BEL = {
+	value = 100
+}
+SER = {
+	value = 200
+	level = 3
+	influence_value = 17
+}
+MON = {
+	value = 200
+	level = 3
+	influence_value = 2
+}
+ETH = {
+	value = 100
+	level = 4
+	influence_value = 24
+}
+JAP = {
+	value = 100
+}
+POR = {
+	value = 200
+}
+ROM = {
+	value = 200
+	level = 3
+	influence_value = 9
+}
+USA = {
+	value = 150
+}
+GRE= {
+	value = 200
+	level = 3
+	influence_value = 23
+}
+SMR = {
+	value = 100
+	level = 5
+	influence_value = 28
+}
+GER = {
+	value = -100
+}
+KUK = {
+	value = -100
+}
+BUL = {
+	value = 0
+	influence_value = 21
+}
+TUR = {
+	value = 0
+	influence_value = 29
+}
+
+leader = {
+	name = "Луиджи Кадорна"
+	type = land
+	date="1914.1.1"
+	personality = merciless
+	background = armchair_general
+	picture="personal_luigi_cadorna"
+}
+
+leader = {
+	name = "Армандо Диаз"
+	type = land
+	date="1914.1.1"
+	personality = efficient
+	background = exranker
+	picture="personal_armando_diaz"
+}
+
+leader = {
+	name = "Эммануил Филиберт"
+	type = land
+	date="1914.1.1"
+	personality = vicious
+	background = powerful_friends
+	picture="personal_emanuele_filiberto"
+}
+
+leader = {
+	name = "Пьетро Бадольо"
+	type = land
+	date="1914.1.1"
+	personality = clever
+	background = generals_aide
+	picture="personal_piietro_badoglio"
+}
+
+leader = {
+	name = "Луиджи Капелло"
+	type = land
+	date="1914.1.1"
+	personality = maladroit
+	background = old_school
+	picture="personal_luigi capello"
+}
+
+leader = {
+	name = "Альберто Кавачоччи"
+	type = land
+	date="1914.1.1"
+	personality = cautious
+	background = megalomaniac
+	picture="personal_alberto_cavaciocchi"
+}
+
+leader = {
+	name = "Луиджи Амедео"
+	type = sea
+	date="1914.1.1"
+	personality = confident
+	background = war_college
+	picture="personal_luigi_amedeoi"
+}
+
+leader = {
+	name = "Паоло ди Ревель"
+	type = sea
+	date="1914.1.1"
+	personality = aweless
+	background = politician
+	picture="personal_paolo_revel"
+}
+
+army = {
+	name = "1a Armata"
+	location = 726
+	regiment = {
+		name= "1.1a Bersaglieri"
+		type = guard
+		home = 742
+	}
+
+	regiment = {
+		name= "2.1a Bersaglieri"
+		type = guard
+		home = 743
+	}
+
+	regiment = {
+		name= "3.1a Bersaglieri"
+		type = guard
+		home = 744
+	}
+
+	regiment = {
+		name= "1.2a Bersaglieri"
+		type = infantry
+		home = 744
+	}
+
+	regiment = {
+		name= "2.2a Bersaglieri"
+		type = infantry
+		home = 744
+	}
+
+	regiment = {
+		name= "3.2a Bersaglieri"
+		type = infantry
+		home = 745
+	}
+
+	regiment = {
+		name= "1.1a Granatieri"
+		type = infantry
+		home = 745
+	}
+
+	regiment = {
+		name= "2.1a Granatieri"
+		type = infantry
+		home = 746
+	}
+
+	regiment = {
+		name= "3.1a Granatieri"
+		type = infantry
+		home = 747
+	}
+
+	regiment = {
+		name= "4.1a Granatieri"
+		type = infantry
+		home = 747
+	}
+
+	regiment = {
+		name= "1.1a Divisione"
+		type = cuirassier
+		home = 748
+	}
+
+	regiment = {
+		name= "2.1a Divisione"
+		type = cuirassier
+		home = 749
+	}
+
+	regiment = {
+		name= "3.1a Divisione"
+		type = cuirassier
+		home = 749
+	}
+
+	regiment = {
+		name= "1.2a Divisione"
+		type = artillery
+		home = 749
+	}
+
+	regiment = {
+		name= "2.2a Divisione"
+		type = artillery
+		home = 749
+	}
+
+	regiment = {
+		name= "3.2a Divisione"
+		type = artillery
+		home = 750
+	}
+
+	regiment = {
+		name= "1.1a Divisione Cavallero "
+		type = artillery
+		home = 752
+	}
+
+	regiment = {
+		name= "2.1a Divisione Cavallero "
+		type = artillery
+		home = 753
+	}
+
+	regiment = {
+		name= "3.1a Divisione Cavallero "
+		type = engineer
+		home = 753
+	}
+
+}
+
+army = {
+	name = "2a Armata"
+	location = 738
+	regiment = {
+		name= "1.9 a Divisione"
+		type = guard
+		home = 753
+	}
+
+	regiment = {
+		name= "2.9 a Divisione"
+		type = guard
+		home = 755
+	}
+
+	regiment = {
+		name= "3.9 a Divisione"
+		type = guard
+		home = 755
+	}
+
+	regiment = {
+		name= "1.10a Divisione"
+		type = infantry
+		home = 755
+	}
+
+	regiment = {
+		name= "2.10a Divisione"
+		type = infantry
+		home = 757
+	}
+
+	regiment = {
+		name= "3.10a Divisione"
+		type = infantry
+		home = 757
+	}
+
+	regiment = {
+		name= "1.11a Divisione"
+		type = infantry
+		home = 757
+	}
+
+	regiment = {
+		name= "2.11a Divisione"
+		type = infantry
+		home = 758
+	}
+
+	regiment = {
+		name= "3.11a Divisione"
+		type = infantry
+		home = 760
+	}
+
+	regiment = {
+		name= "1.12a Divisione"
+		type = cuirassier
+		home = 760
+	}
+
+	regiment = {
+		name= "2.12a Divisione"
+		type = cuirassier
+		home = 761
+	}
+
+	regiment = {
+		name= "3.12a Divisione"
+		type = cuirassier
+		home = 761
+	}
+
+	regiment = {
+		name= "1.13a Divisione"
+		type = artillery
+		home = 761
+	}
+
+	regiment = {
+		name= "2.13a Divisione"
+		type = artillery
+		home = 762
+	}
+
+	regiment = {
+		name= "3.13a Divisione"
+		type = artillery
+		home = 762
+	}
+
+	regiment = {
+		name= "1.14a Divisione"
+		type = artillery
+		home = 762
+	}
+
+	regiment = {
+		name= "2.14a Divisione"
+		type = artillery
+		home = 762
+	}
+
+	regiment = {
+		name= "3.14a Divisione"
+		type = engineer
+		home = 764
+	}
+
+}
+
+army = {
+	name = "3a Armata"
+	location = 732
+	regiment = {
+		name= "1.9 a Divisione"
+		type = guard
+		home = 764
+	}
+
+	regiment = {
+		name= "2.9 a Divisione"
+		type = guard
+		home = 764
+	}
+
+	regiment = {
+		name= "3.9 a Divisione"
+		type = guard
+		home = 764
+	}
+
+	regiment = {
+		name= "1.10a Divisione"
+		type = infantry
+		home = 765
+	}
+
+	regiment = {
+		name= "2.10a Divisione"
+		type = infantry
+		home = 765
+	}
+
+	regiment = {
+		name= "3.10a Divisione"
+		type = infantry
+		home = 766
+	}
+
+	regiment = {
+		name= "1.11a Divisione"
+		type = infantry
+		home = 725
+	}
+
+	regiment = {
+		name= "2.11a Divisione"
+		type = infantry
+		home = 725
+	}
+
+	regiment = {
+		name= "3.11a Divisione"
+		type = infantry
+		home = 729
+	}
+
+	regiment = {
+		name= "1.12a Divisione"
+		type = cuirassier
+		home = 729
+	}
+
+	regiment = {
+		name= "2.12a Divisione"
+		type = cuirassier
+		home = 730
+	}
+
+	regiment = {
+		name= "3.12a Divisione"
+		type = cuirassier
+		home = 730
+	}
+
+	regiment = {
+		name= "1.13a Divisione"
+		type = artillery
+		home = 730
+	}
+
+	regiment = {
+		name= "2.13a Divisione"
+		type = artillery
+		home = 731
+	}
+
+	regiment = {
+		name= "3.13a Divisione"
+		type = artillery
+		home = 731
+	}
+
+	regiment = {
+		name= "1.14a Divisione"
+		type = artillery
+		home = 732
+	}
+
+	regiment = {
+		name= "2.14a Divisione"
+		type = artillery
+		home = 733
+	}
+
+	regiment = {
+		name= "3.14a Divisione"
+		type = engineer
+		home = 733
+	}
+
+}
+
+army = {
+	name = "1a Corpo "
+	location = 754
+	regiment = {
+		name= "1.15a Divisione"
+		type = infantry
+		home = 722
+	}
+
+	regiment = {
+		name= "2.15a Divisione"
+		type = infantry
+		home = 722
+	}
+
+	regiment = {
+		name= "3.15a Divisione"
+		type = infantry
+		home = 723
+	}
+
+	regiment = {
+		name= "1.16a Divisione"
+		type = infantry
+		home = 723
+	}
+
+	regiment = {
+		name= "2.16a Divisione"
+		type = infantry
+		home = 723
+	}
+
+	regiment = {
+		name= "3.16a Divisione"
+		type = infantry
+		home = 724
+	}
+
+	regiment = {
+		name= "1.17a Divisione"
+		type = infantry
+		home = 724
+	}
+
+	regiment = {
+		name= "2.17a Divisione"
+		type = infantry
+		home = 724
+	}
+
+	regiment = {
+		name= "3.17a Divisione"
+		type = infantry
+		home = 724
+	}
+	regiment = {
+		name= "1.3a Divisione"
+		type = infantry
+		home = 726
+	}
+
+	regiment = {
+		name= "2.3a Divisione"
+		type = infantry
+		home = 726
+	}
+
+	regiment = {
+		name= "3.3a Divisione"
+		type = infantry
+		home = 726
+	}
+
+	regiment = {
+		name= "1.4a Divisione"
+		type = infantry
+		home = 726
+	}
+
+	regiment = {
+		name= "2.4a Divisione"
+		type = infantry
+		home = 726
+	}
+
+}
+
+army = {
+	name = "2a Corpo "
+	location = 762
+	regiment = {
+		name= "1.18a Divisione"
+		type = infantry
+		home = 726
+	}
+
+	regiment = {
+		name= "2.18a Divisione"
+		type = infantry
+		home = 727
+	}
+
+	regiment = {
+		name= "3.18a Divisione"
+		type = infantry
+		home = 727
+	}
+
+	regiment = {
+		name= "1.19a Divisione"
+		type = infantry
+		home = 738
+	}
+
+	regiment = {
+		name= "2.19a Divisione"
+		type = infantry
+		home = 738
+	}
+
+	regiment = {
+		name= "3.19a Divisione"
+		type = infantry
+		home = 738
+	}
+
+	regiment = {
+		name= "1.20a Divisione"
+		type = infantry
+		home = 739
+	}
+
+	regiment = {
+		name= "2.20a Divisione"
+		type = infantry
+		home = 739
+	}
+
+	regiment = {
+		name= "3.20a Divisione"
+		type = infantry
+		home = 739
+	}
+
+}
+
+army = {
+	name = "2a Corpo "
+	location = 749
+	regiment = {
+		name= "1.18a Divisione"
+		type = infantry
+		home = 740
+	}
+
+	regiment = {
+		name= "2.18a Divisione"
+		type = infantry
+		home = 741
+	}
+
+	regiment = {
+		name= "3.18a Divisione"
+		type = infantry
+		home = 751
+	}
+
+	regiment = {
+		name= "1.19a Divisione"
+		type = infantry
+		home = 754
+	}
+
+	regiment = {
+		name= "2.19a Divisione"
+		type = infantry
+		home = 754
+	}
+
+	regiment = {
+		name= "3.19a Divisione"
+		type = infantry
+		home = 754
+	}
+
+	regiment = {
+		name= "1.20a Divisione"
+		type = infantry
+		home = 754
+	}
+
+	regiment = {
+		name= "2.20a Divisione"
+		type = infantry
+		home = 2567
+	}
+
+	regiment = {
+		name= "3.20a Divisione"
+		type = infantry
+		home = 2567
+	}
+
+}
+
+army = {
+	name = "3a Corpo "
+	location = 1734
+	regiment = {
+		name= "1.18a Divisione"
+		type = infantry
+		home = 1731
+	}
+
+	regiment = {
+		name= "2.18a Divisione"
+		type = infantry
+		home = 1732
+	}
+
+	regiment = {
+		name= "3.18a Divisione"
+		type = infantry
+		home = 1733
+	}
+
+	regiment = {
+		name= "1.19a Divisione"
+		type = infantry
+		home = 1734
+	}
+
+	regiment = {
+		name= "2.19a Divisione"
+		type = infantry
+		home = 1735
+	}
+
+	regiment = {
+		name= "3.19a Divisione"
+		type = infantry
+		home = 1743
+	}
+
+	regiment = {
+		name= "1.20a Divisione"
+		type = infantry
+		home = 1744
+	}
+
+}
+
+navy = {
+	name = "Italian Fleet"
+	location = 746
+	ship = {
+		name= "Эммануил Филиберт"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Италия"
+		type = ironclad
+	}
+	
+	ship = {
+		name= "Кастельфиджаро"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Реджина Мариа Пиа"
+		type = ironclad
+	}
+	
+	ship = {
+		name= "Карло Альберто"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Нино Биксио"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Гарибальди"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Мария Аделаида"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Витторио Эммануеле"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Фиуме"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Герина"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Сан Мишель"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Карло Альберто"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Бриндизи"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Дженераль Пуэйрредон"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Maria Adelaide"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Vittorio Emanuele"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Гориция"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Больцано"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Сан-Марко"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Архимед"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Конституционе"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Эрколь"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Этторе Фиамоска"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Фульминанте"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Говерноло"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Гискардо"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Роберто"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Риггиеро"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Танкреди"
+		type = commerce_raider
+	}
+
+}
+
+navy = {
+	name = "1st Transport Squadron"
+	location = 746
+	ship = {
+		name= "1st Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "3st Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "4nd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "5st Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "6nd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "7st Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "8nd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "9st Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "10nd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "11st Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "12nd Transport Flotilla"
+		type = steam_transport
+	}
+
+}
+

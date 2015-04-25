@@ -1,0 +1,13 @@
+owner = NET
+controller = NET
+add_core = TRA
+add_core = HND
+colonial = 2
+trade_goods = fruit
+life_rating = 35
+terrain = seasonal_jungle
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 3
+}

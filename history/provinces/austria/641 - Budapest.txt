@@ -1,0 +1,42 @@
+owner = AUS
+controller = AUS
+ 
+add_core = HUN
+terrain = city_641
+trade_goods = cattle
+life_rating = 35
+fort = 1
+#state_building = {
+#	level = 1
+#	building = canned_food_factory
+#	upgrade = yes
+#}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	owner = KUK
+	controller = KUK
+	add_core = KUK
+	remove_core = AUS
+	railroad = 4
+	fort = 2
+	state_building = {
+		level = 3
+		building = canned_food_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = furniture_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = luxury_clothes_factory
+		upgrade = yes
+	}
+}
+1923.1.1 = {
+	owner = HUN
+	controller = HUN
+	remove_core = KUK
+}

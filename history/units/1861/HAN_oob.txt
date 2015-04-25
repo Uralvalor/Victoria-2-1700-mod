@@ -1,0 +1,41 @@
+army = {
+	name = "Hannoversche Armee"
+	location = 534
+	regiment = {
+		name= "1. Infanteriebrigade"
+		type = infantry
+		home = 534
+	}
+
+	regiment = {
+		name= "2. Infanteriebrigade"
+		type = infantry
+		home = 535
+	}
+
+	regiment = {
+		name= "3. Infanteriebrigade"
+		type = infantry
+		home = 538
+	}
+	
+	regiment = {
+		name= "4. Infanteriebrigade"
+		type = infantry
+		home = 531
+	}
+
+	regiment = {
+		name= "1. Kavalleriebrigade"
+		type = dragoon
+		home = 532
+	}
+	
+	regiment = {
+		name= "1. Artilleriebrigade"
+		type = artillery
+		home = 534
+	}
+
+}
+

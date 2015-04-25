@@ -1,0 +1,744 @@
+leader = {
+	name = "Duc de Villars"
+	date = 1700.1.1
+	type = land
+	personality = stouthearted
+	background = bootlicker
+}
+
+leader = {
+	name = "Duc de Vendôme"
+	date = 1700.1.1
+	type = land
+	personality = heroic
+	background = aristocrat
+}
+
+leader = {
+	name = "Duc de Boufflers"
+	date = 1700.1.1
+	type = land
+	personality = unflinching
+	background = aristocrat
+}
+
+leader = {
+	name = "François de Neufville duc de Villeroi"
+	date = 1700.1.1
+	type = land
+	personality = vicious
+	background = aristocrat
+}
+
+leader = {
+	name = "René de Froulay Comte de Tessé"
+	date = 1700.1.1
+	type = land
+	personality = brutish
+	background = aristocrat
+}
+
+army = {
+	name = "Paris Guard"
+	location = 425
+	regiment = {
+		name= "French Guard"
+		type = guard
+		home = 425
+	}
+	regiment = {
+		name= "Swiss Guard"
+		type = guard
+		home = 432
+	}
+	regiment = {
+		name= "1st Musketeer Guard"
+		type = guard
+		home = 425
+	}
+	regiment = {
+		name= "2nd Musketeer Guard"
+		type = guard
+		home = 425
+	}           
+}
+
+army = {
+	name = "Gardes du Corps"
+	location = 410
+	regiment = {
+		name= "1st 'Scottish' Guards"
+		type = cuirassier
+		home = 454
+	}
+	regiment = {
+		name= "2nd 'French' Guards"
+		type = cuirassier
+		home = 454
+	}
+	regiment = {
+		name= "3rd Guards"
+		type = cuirassier
+		home = 454
+	}
+	regiment = {
+		name= "4th Guards"
+		type = cuirassier
+		home = 454
+	}
+	regiment = {
+		name= "5th Guards"
+		type = cuirassier
+		home = 454
+	}
+	regiment = {
+		name= "Horse Grenadiers"
+		type = hussar
+		home = 454
+	}
+	regiment = {
+		name= "Gendarmes de le Garde"
+		type = hussar
+		home = 454
+	}     
+}
+
+army = {
+	name = "1st 'Paris' Army"
+	location = 2570
+	regiment = {
+		name= "1st Artillery"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "2nd Artillery"
+		type = artillery
+		home = 2570
+	}
+	regiment = {
+		name= "3rd Artillery"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "4th Artillery"
+		type = artillery
+		home = 2570
+	}
+	regiment = {
+		name= "6th Fusiliers"
+		type = engineer
+		home = 425
+	}
+	regiment = {
+		name= "1st 'Picardie' Line"
+		type = infantry
+		home = 425
+	}
+	regiment = {
+		name= "2nd 'Piemont' Line"
+		type = infantry
+		home = 2570
+	}
+	regiment = {
+		name= "3rd 'Navarre' Line"
+		type = infantry
+		home = 425
+	}
+	regiment = {
+		name= "4th 'Champagne' Line"
+		type = infantry
+		home = 2570
+	}
+	regiment = {
+		name= "5th 'Normandie' Line"
+		type = infantry
+		home = 425
+	}
+	regiment = {
+		name= "6th 'La Marine' Line"
+		type = infantry
+		home = 2570
+	}
+	regiment = {
+		name= "7th 'Leuville' Line"
+		type = infantry
+		home = 425
+	}
+	regiment = {
+		name= "8th 'Bourbonnais' Line"
+		type = infantry
+		home = 2570
+	}
+	regiment = {
+		name= "9th 'Auvergne' Line"
+		type = infantry
+		home = 425
+	}
+	regiment = {
+		name= "10th 'De Sault' Line"
+		type = infantry
+		home = 2570
+	}
+}
+
+army = {
+	name = "6th 'Toulouse' Army"
+	location = 455
+	regiment = {
+		name= "9th Artillery"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "10th Artillery"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "4th Fusiliers"
+		type = engineer
+		home = 425
+	}
+	regiment = {
+		name= "21st 'De charost' Line"
+		type = infantry
+		home = 455
+	}
+	regiment = {
+		name= "22nd 'De Coetquen' Line"
+		type = infantry
+		home = 455
+	}
+	regiment = {
+		name= "23rd 'De Grancy' Line"
+		type = infantry
+		home = 455
+	}
+	regiment = {
+		name= "24th 'De la Reine' Line"
+		type = infantry
+		home = 455
+	}
+	regiment = {
+		name= "25th 'Limousin' Line"
+		type = infantry
+		home = 455
+	}
+	regiment = {
+		name= "26th 'Royal-Vaisseaux' Line"
+		type = infantry
+		home = 455
+	}
+	regiment = {
+		name= "27th 'Orleans' Line"
+		type = infantry
+		home = 455
+	}
+	regiment = {
+		name= "28th 'La Couronne' Line"
+		type = infantry
+		home = 455
+	}
+	regiment = {
+		name= "29th 'Bretagne' Line"
+		type = infantry
+		home = 455
+	}
+	regiment = {
+		name= "30th 'De Perche' Line"
+		type = infantry
+		home = 455
+	}    
+}
+
+army = {
+	name = "2nd 'Arras' Army"
+	location = 401
+	regiment = {
+		name= "13th Artillery"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "14th Artillery"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "41st Line"
+		type = infantry
+		home = 401
+	}
+	regiment = {
+		name= "42nd Line"
+		type = infantry
+		home = 401
+	}
+	regiment = {
+		name= "43rd Line"
+		type = infantry
+		home = 401
+	}
+	regiment = {
+		name= "44th Line"
+		type = infantry
+		home = 401
+	}
+	regiment = {
+		name= "45th Line"
+		type = infantry
+		home = 401
+	}
+	regiment = {
+		name= "46th Line"
+		type = infantry
+		home = 401
+	}
+	regiment = {
+		name= "47th Line"
+		type = infantry
+		home = 401
+	}
+	regiment = {
+		name= "48th Line"
+		type = infantry
+		home = 401
+	}
+	regiment = {
+		name= "49th Line"
+		type = infantry
+		home = 401
+	}
+	regiment = {
+		name= "50th Line"
+		type = infantry
+		home = 401
+	}
+	regiment = {
+		name= "51st Line"
+		type = infantry
+		home = 401
+	}
+}
+
+army = {
+	name = "3rd 'Lille' Army"
+	location = 399
+	regiment = {
+		name= "17th Artillery"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "18th Artillery"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "61st Line"
+		type = infantry
+		home = 399
+	}
+	regiment = {
+		name= "62nd Line"
+		type = infantry
+		home = 399
+	}
+	regiment = {
+		name= "63rd Line"
+		type = infantry
+		home = 399
+	}
+	regiment = {
+		name= "64th Line"
+		type = infantry
+		home = 399
+	}
+	regiment = {
+		name= "65th Line"
+		type = infantry
+		home = 399
+	}
+	regiment = {
+		name= "66th Line"
+		type = infantry
+		home = 399
+	}
+	regiment = {
+		name= "67th Line"
+		type = infantry
+		home = 399
+	}
+	regiment = {
+		name= "68th Line"
+		type = infantry
+		home = 399
+	}
+	regiment = {
+		name= "69th Line"
+		type = infantry
+		home = 399
+	}
+	regiment = {
+		name= "70th Line"
+		type = infantry
+		home = 399
+	}
+}
+
+army = {
+	name = "4th 'Pays de la Loire' Army"
+	location = 434
+	regiment = {
+		name= "21st Artillery"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "22nd Artillery"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "81st Line"
+		type = infantry
+		home = 434
+	}
+	regiment = {
+		name= "82nd Line"
+		type = infantry
+		home = 434
+	}
+	regiment = {
+		name= "83rd Line"
+		type = infantry
+		home = 434
+	}
+	regiment = {
+		name= "84th Line"
+		type = infantry
+		home = 434
+	}
+	regiment = {
+		name= "85th Line"
+		type = infantry
+		home = 434
+	}
+	regiment = {
+		name= "86th Line"
+		type = infantry
+		home = 434
+	}
+	regiment = {
+		name= "87th Line"
+		type = infantry
+		home = 434
+	}
+	regiment = {
+		name= "88th Line"
+		type = infantry
+		home = 434
+	}
+	regiment = {
+		name= "89th Line"
+		type = infantry
+		home = 434
+	}
+	regiment = {
+		name= "90th Line"
+		type = infantry
+		home = 434
+	}
+}
+army = {
+	name = "New France Army"
+	location = 71
+	regiment = {
+		name= "1st Fusiliers"
+		type = engineer
+		home = 425
+	}
+}
+army = {
+	name = "5th 'Lyonnais-Dauphine' Army"
+	location = 451
+	regiment = {
+		name= "25th Artillery"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "26th Artillery"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "1st Fusiliers"
+		type = engineer
+		home = 425
+	}
+	regiment = {
+		name= "3rd Fusiliers"
+		type = engineer
+		home = 425
+	}
+	regiment = {
+		name= "101st Line"
+		type = infantry
+		home = 451
+	}
+	regiment = {
+		name= "102nd Line"
+		type = infantry
+		home = 451
+	}
+	regiment = {
+		name= "103rd Line"
+		type = infantry
+		home = 451
+	}
+	regiment = {
+		name= "104th Line"
+		type = infantry
+		home = 451
+	}
+	regiment = {
+		name= "105th Line"
+		type = infantry
+		home = 451
+	}
+	regiment = {
+		name= "106th Line"
+		type = infantry
+		home = 451
+	}
+	regiment = {
+		name= "107th Line"
+		type = infantry
+		home = 451
+	}
+	regiment = {
+		name= "108th Line"
+		type = infantry
+		home = 451
+	}
+	regiment = {
+		name= "109th Line"
+		type = infantry
+		home = 451
+	}
+	regiment = {
+		name= "110th Line"
+		type = infantry
+		home = 451
+	}
+}
+
+navy = {
+	name = "Mediterranean Fleet"
+	location = 467
+
+	ship = {
+		name= "le Majestueux"
+		type = manowar
+	}
+
+	ship = {
+		name= "l'Actionnaire"
+		type = manowar
+	}
+
+	ship = {
+		name= "la Thérèse"
+		type = manowar
+	}
+
+	ship = {
+		name= "le Royal Louis"
+		type = manowar
+	}
+
+	ship = {
+		name= "le Triton"
+		type = manowar
+	}
+
+	ship = {
+		name= "le Sceptre"
+		type = manowar
+	}
+
+	ship = {
+		name= "le Saint Michel"
+		type = frigate
+	}
+
+	ship = {
+		name= "l'Hermione"
+		type = frigate
+	}
+
+	ship = {
+		name= "la Grande Hermine"
+		type = frigate
+	}
+
+	ship = {
+		name= "le Téméraire"
+		type = frigate
+	}
+
+	ship = {
+		name= "le Destin"
+		type = frigate
+	}
+
+	ship = {
+		name= "l'Alexandre"
+		type = frigate
+	}
+
+	ship = {
+		name= "le Lys"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "Atlantic Fleet"
+	location = 420
+	ship = {
+		name= "le Dauphin Royal"
+		type = manowar
+	}
+
+	ship = {
+		name= "le Conquérant"
+		type = manowar
+	}
+
+	ship = {
+		name= "le Bourbon"
+		type = manowar
+	}
+
+	ship = {
+		name= "le Caton"
+		type = manowar
+	}
+
+	ship = {
+		name= "la Belle Poule"
+		type = manowar
+	}
+
+	ship = {
+		name= "l'Invincible"
+		type = manowar
+	}
+
+	ship = {
+		name= "la Fleur de Lis"
+		type = manowar
+	}
+
+	ship = {
+		name= "le Mars"
+		type = manowar
+	}
+
+	ship = {
+		name= "le Saint Esprit"
+		type = manowar
+	}
+
+	ship = {
+		name= "le Protecteur"
+		type = manowar
+	}
+
+	ship = {
+		name= "le Redoutable"
+		type = manowar
+	}
+
+	ship = {
+		name= "le Glorieux"
+		type = manowar
+	}
+
+	ship = {
+		name= "le Marquis"
+		type = manowar
+	}
+
+	ship = {
+		name= "la Marie-Catherine"
+		type = manowar
+	}
+
+	ship = {
+		name= "le Héros"
+		type = manowar
+	}
+
+
+	ship = {
+		name= "Ville de Paris"
+		type = frigate
+	}
+
+	ship = {
+		name= "le Pélican"
+		type = frigate
+	}
+
+	ship = {
+		name= "le Zélé"
+		type = frigate
+	}
+
+	ship = {
+		name= "le Lys"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Gloucester"
+		type = frigate
+	}
+
+	ship = {
+		name= "le Zodiaque"
+		type = frigate
+	}
+
+	ship = {
+		name= "l'Amphion"
+		type = frigate
+	}
+
+	ship = {
+		name= "le Marseillais"
+		type = frigate
+	}
+
+	ship = {
+		name= "le Paris"
+		type = frigate
+	}
+
+	ship = {
+		name= "l'Orient"
+		type = frigate
+	}
+
+	ship = {
+		name= "le Orleans"
+		type = frigate
+	}
+
+}

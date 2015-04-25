@@ -1,0 +1,23 @@
+owner = SPA
+controller = SPA
+add_core = UCA
+add_core = ELS
+colonial = 2
+add_core = MEX
+trade_goods = tropical_wood
+life_rating = 30
+terrain = good_farmland
+1836.1.1 = {
+	owner = UCA
+	controller = UCA
+	remove_core = SPA
+	remove_core = MEX
+}
+1861.1.1 = {
+	owner = ELS
+	controller = ELS
+	remove_core = UCA
+}
+1914.1.1 = {
+	trade_goods = rubber
+}

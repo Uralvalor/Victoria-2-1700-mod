@@ -1,0 +1,11 @@
+owner = WOL
+controller = WOL
+add_core = WOL
+trade_goods = grain
+life_rating = 15
+terrain = marginal_farmland
+1914.1.1 = {
+	owner = FRA
+	controller = FRA
+	colonial = 3
+}

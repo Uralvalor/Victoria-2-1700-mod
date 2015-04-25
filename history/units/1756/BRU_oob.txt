@@ -1,0 +1,10 @@
+army = {
+	name = "Армия Султана"
+	location = 1394
+	regiment = {
+		name= "Гвардия Султана"
+		type = irregular
+		home = 1394
+	}
+}
+

@@ -1,0 +1,78 @@
+PLC = {
+
+	value = 200
+	level = 5
+	influence_value = 200
+
+}
+
+
+
+
+army = {
+
+	name = "Саксонская армия"
+
+	location = 558
+
+	regiment = {
+
+		name= "1-я пехотная бригада"
+
+		type = infantry
+
+		home = 558
+
+	}
+
+
+	regiment = {
+
+		name= "2-я пехотная бригада"
+
+		type = infantry
+
+		home = 559
+
+	}
+
+
+	regiment = {
+
+		name= "3-я пехотная бригада"
+
+		type = infantry
+
+		home = 560
+
+	}
+
+
+	regiment = {
+
+		name= "4-я пехотная бригада"
+
+		type = infantry
+
+		home = 558
+	}
+
+
+	regiment = {
+
+		name= "5-я пехотная бригада"
+
+		type = cavalry
+		home = 558
+	}
+
+
+	regiment = {
+
+		name= "6-я пехотная бригада"
+
+		type = artillery
+		home = 558
+	}
+
+}

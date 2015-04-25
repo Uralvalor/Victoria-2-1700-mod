@@ -1,0 +1,32 @@
+army = {
+	name = "Бедуины"
+	location = 1153
+	regiment = {
+		name= "1-я бригада Бени-Атия"
+		type = irregular
+		home = 1153
+	}
+
+	regiment = {
+		name= "2-я бригада Бени-Атия"
+		type = irregular
+		home = 1152
+	}
+}
+
+army = {
+	name = "Бедуины"
+	location = 1151
+	regiment = {
+		name= "1-я бригада Харба"
+		type = irregular
+		home = 1151
+	}
+
+	regiment = {
+		name= "2-я бригада Харба"
+		type = irregular
+		home = 1155
+	}
+}
+

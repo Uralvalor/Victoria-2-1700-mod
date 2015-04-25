@@ -1,0 +1,8 @@
+trade_goods = grain
+life_rating = 15
+terrain = dry_grassland
+1914.1.1 = {
+	owner = POR
+	controller = POR
+	colonial = 3
+}

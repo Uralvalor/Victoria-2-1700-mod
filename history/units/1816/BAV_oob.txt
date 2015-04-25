@@ -1,0 +1,30 @@
+leader = {
+	name = "Карл Паппехеим"
+	picture = bay_gen_pappenheim
+	date = 1815.1.1
+	type = land
+	personality = careful
+	background = elderly
+}
+
+army = {
+	name = "I. Korps"
+	location = 599
+	regiment = {
+		name= "1. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 595
+	}
+
+	regiment = {
+		name= "2. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 595
+	}
+
+	regiment = {
+		name= "3. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 599
+	}
+}

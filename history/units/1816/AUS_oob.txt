@@ -1,0 +1,287 @@
+#Sphere of Influence
+
+BAD = {	
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+BAV = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+WUR = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+SAX = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+KRA = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+SER = {
+	value = 75
+	level = 2
+	influence_value = 25
+}
+
+SAR = {
+	value = 50
+	level = 2
+	influence_value = 25
+}
+
+PAP = {
+	value = 125
+	level = 3
+	influence_value = 25
+}
+
+SWI = {
+	value = 125
+	level = 3
+	influence_value = 25
+}
+
+PAR = {
+	value = 100
+	level = 5
+}
+
+MOD = {
+	value = 100
+	level = 5
+	influence_value = 25
+}
+
+TUS = {
+	value = 75
+	level = 5
+	influence_value = 25
+}
+
+LUC = {
+	value = 75
+	level = 5
+	influence_value = 25
+}
+
+DEN = {
+	value = 55
+} 
+
+PRU = {
+	value = 80
+}
+
+RUS = {
+	value = 80
+}
+SIG = {
+	value = 10
+	level = 1
+	influence_value = 10
+}
+
+#Army
+
+leader = {
+	name = "Йозеф Радецкий"
+	picture = aus_gen_radetzky
+	date = 1805.1.1
+	type = land
+	personality = au_fait
+	background = elderly
+}
+leader = {
+	name = "Лаваль Нугент"
+	picture = aus_gen_nugent
+	date = 1815.1.1
+	type = land
+	personality = able
+	background = generals_aide
+}
+leader = {
+	name = "Игнац цу Гардегг"
+	picture = aus_gen_hardegg
+	date = 1809.1.1
+	type = land
+	personality = gutsy
+	background = generals_aide
+}
+leader = {
+	name = "Карл фон Фикельмон"
+	picture = aus_gen_ficquelmont
+	date = 1814.1.1
+	type = land
+	personality = clever
+	background = diplomat
+}
+leader = {
+	name = "Теодор Байе"
+	picture = aus_gen_baillet
+	date = 1815.1.1
+	type = land
+	personality = bigoted
+	background = politician
+}
+
+army = {
+	name = "I. Армия"
+	location = 726
+	regiment = {
+		name= "1.1. Kavalleriedivision"
+		type = cavalry
+		home = 619
+	}
+
+	regiment = {
+		name= "2.1. Kavalleriedivision"
+		type = cavalry
+		home = 622
+	}
+
+	regiment = {
+		name= "3.1. Kavalleriedivision"
+		type = cavalry
+		home = 625
+	}
+
+	regiment = {
+		name= "2.2. Infanteriedivision"
+		type = infantry
+		home = 625
+	}
+
+	regiment = {
+		name= "3.2. Infanteriedivision"
+		type = infantry
+		home = 627
+	}
+
+	regiment = {
+		name= "1.3. Infanteriedivision"
+		type = infantry
+		home = 631
+	}
+
+	regiment = {
+		name= "2.3. Infanteriedivision"
+		type = infantry
+		home = 633
+	}
+
+	regiment = {
+		name= "3.3. Infanteriedivision"
+		type = infantry
+		home = 639
+	}
+}
+
+army = {
+	name = "II. Армия"
+	location = 702
+	regiment = {
+		name= "1.6. Infanteriedivision"
+		type = infantry
+		home = 647
+	}
+
+	regiment = {
+		name= "2.6. Infanteriedivision"
+		type = infantry
+		home = 704
+	}
+
+	regiment = {
+		name= "3.6. Infanteriedivision"
+		type = infantry
+		home = 705
+	}
+
+	regiment = {
+		name= "1.7. Infanteriedivision"
+		type = infantry
+		home = 714
+	}
+
+	regiment = {
+		name= "2.7. Infanteriedivision"
+		type = infantry
+		home = 726
+	}
+
+	regiment = {
+		name= "3.7. Infanteriedivision"
+		type = infantry
+		home = 727
+	}
+
+}
+
+army = {
+	name = "III. Армия"
+	location = 619
+	regiment = {
+		name= "1.8. Infanteriedivision"
+		type = infantry
+		home = 728
+	}
+
+	regiment = {
+		name= "2.8. Infanteriedivision"
+		type = infantry
+		home = 729
+	}
+
+	regiment = {
+		name= "3.8. Infanteriedivision"
+		type = infantry
+		home = 730
+	}
+
+	regiment = {
+		name= "1.9. Infanteriedivision"
+		type = infantry
+		home = 731
+	}
+
+	regiment = {
+		name= "2.9. Infanteriedivision"
+		type = infantry
+		home = 952
+	}
+
+}
+
+navy = {
+	name = "Австрийский императорский флот"
+	location = 729
+	ship = {
+		name= "1. Klipperflottille"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2. Klipperflottille"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3. Klipperflottille"
+		type = clipper_transport
+	}
+
+}
+

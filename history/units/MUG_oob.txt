@@ -1,0 +1,67 @@
+
+
+
+army = {
+	name = "Cavalry of Mughal"
+	location = 1236
+	regiment = {
+		name= "7th Line"
+		type = cavalry
+		home = 1236
+	}
+		regiment = {
+		name= "8th Line"
+		type = cavalry
+		home = 1236
+	}
+	regiment = {
+		name= "9th Line"
+		type = cavalry
+		home = 1236
+	}
+	regiment = {
+		name= "10th Line"
+		type = cavalry
+		home = 1236
+	}
+		regiment = {
+		name= "11th Line"
+		type = cavalry
+		home = 1236
+	}
+	regiment = {
+		name= "12th Line"
+		type = infantry
+		home = 1236
+	}    
+	regiment = {
+		name= "13th Line"
+		type = infantry
+		home = 1236
+	}
+ 	regiment = {
+		name= "14th Line"
+		type = cavalry
+		home = 1236
+	}
+ 	regiment = {
+		name= "15th Line"
+		type = cavalry
+		home = 1236
+	}
+ 	regiment = {
+		name= "16th Line"
+		type = cavalry
+		home = 1236
+	}
+ 	regiment = {
+		name= "17th Line"
+		type = cavalry
+		home = 1236
+	}
+ 	regiment = {
+		name= "18th Line"
+		type = cavalry
+		home = 1236
+	}
+}

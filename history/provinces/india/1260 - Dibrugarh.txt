@@ -1,0 +1,17 @@
+owner = ASM 
+controller = ASM 
+add_core = BNG 
+add_core = ASM
+add_core = HND
+trade_goods = tea
+life_rating = 35
+terrain = floodplain_farmland
+1836.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 2
+}
+1914.1.1 = {
+	trade_goods = oil
+	colonial = 3
+}

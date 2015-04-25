@@ -1,0 +1,88 @@
+capital = 300
+primary_culture = english
+religion = protestant
+government = hms_government
+plurality = 5
+nationalvalue = nv_order
+literacy = 0.5
+civilized = yes
+
+#GreaterPowers = prestige
+prestige = 60
+
+
+oob = "ENL_oob.txt"
+
+# Political reforms
+slavery = yes_slavery
+upper_house_composition = appointed
+vote_franschise = wealth_weighted_voting
+public_meetings = yes_meeting
+press_rights = censored_press
+trade_unions = non_socialist
+voting_system = first_past_the_post
+political_parties = gerrymandering
+minorities = apartheid 
+
+# Social Reforms
+wage_reform = trinket_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = trinket_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+school_reforms = no_schools
+arts_endowment = small_endowment
+finance_regulation = medium_interest 
+
+water_wheel_power = 1	
+nelsonian_thought = 1
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+military_staff_system = 1
+clipper_design = 1
+mechanized_mining = 1
+
+	
+	
+# Starting Consciousness
+consciousness = 3
+nonstate_consciousness = 5
+
+ruling_party = ENG_reactionary
+last_election = 1700.2.6
+upper_house = {
+	fascist = 0
+	reactionary = 100
+	 
+	socialist = 0
+	communist = 0
+}
+
+schools = naval_tech_school
+
+
+1861.1.1 = {
+	oob = "/1861/ENG_oob.txt"
+
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = wealth_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = non_socialist
+voting_system = first_past_the_post
+political_parties = non_secret_ballots	
+	
+# Social Reforms
+wage_reform = trinket_wage
+work_hours = fourteen_hours
+safety_regulations = trinket_safety
+health_care = low_health_care
+unemployment_subsidies = trinket_subsidies
+pensions = no_pensions 
+school_reforms = low_schools	
+	
+}

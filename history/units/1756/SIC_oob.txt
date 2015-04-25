@@ -1,0 +1,144 @@
+army = {
+	name = "Армия Обеих Сицилий"
+	location = 754
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 754
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 757
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 755
+	}
+
+	regiment = {
+		name= "1-я артиллерийская бригада"
+		type = artillery
+		home = 2567
+	}
+
+	regiment = {
+		name= "1-я кавалерийская бригада"
+		type = cavalry
+		home = 754
+	}
+
+	regiment = {
+		name= "2-я кавалерийская бригада"
+		type = cavalry
+		home = 753
+	}
+
+	regiment = {
+		name= "3-я кавалерийская бригада"
+		type = cavalry
+		home = 756
+	}
+
+}
+
+army = {
+	name = "Королевская гвардия"
+	location = 762
+	regiment = {
+		name= "1-я гвардейская бригада"
+		type = infantry
+		home = 762
+	}
+
+	regiment = {
+		name= "2-я гвардейская бригада"
+		type = infantry
+		home = 764
+	}
+
+	regiment = {
+		name= "3-я гвардейская бригада"
+		type = infantry
+		home = 759
+	}
+
+	regiment = {
+		name= "1-я швейцарская бригада"
+		type = infantry
+		home = 760
+	}
+
+	regiment = {
+		name= "2-я швейцарская бригада"
+		type = infantry
+		home = 761
+	}
+
+	regiment = {
+		name= "3-я швейцарская бригада"
+		type = infantry
+		home = 758
+	}
+
+	regiment = {
+		name= "4-я швейцарская бригада"
+		type = artillery
+		home = 763
+	}
+
+}
+
+navy = {
+	name = "Королевский флот"
+	location = 754
+	ship = {
+		name= "Фердинандо III"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Кристина"
+		type = frigate
+	}
+
+	ship = {
+		name= "Реджина Изабелла"
+		type = frigate
+	}
+
+	ship = {
+		name= "Принсипе Карло"
+		type = frigate
+	}
+
+	ship = {
+		name= "Партенопе"
+		type = frigate
+	}
+
+	ship = {
+		name= "Караччиоло"
+		type = frigate
+	}
+
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}
+

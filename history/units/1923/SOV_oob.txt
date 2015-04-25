@@ -1,0 +1,2490 @@
+#Sphere of Influence
+
+MGL = {
+	value = 200
+	level = 5
+	influence_value = 17
+}
+
+
+
+army = {
+	name = "1-й Пехотный Корпус"
+	location = 1049
+	regiment = {
+		name= "1-й пех. Невский полк"
+		type = infantry
+		home = 976
+	}
+
+	regiment = {
+		name= "2-й пех. Софийский полк"
+		type = infantry
+		home = 976
+	}
+
+	regiment = {
+		name= "3-й пех. Нарвский полк"
+		type = infantry
+		home = 977
+	}
+
+	regiment = {
+		name= "4-й пех. Копорский полк"
+		type = infantry
+		home = 977
+	}
+
+	regiment = {
+		name= "5-й пех. Калужский полк"
+		type = infantry
+		home = 977
+	}
+
+	regiment = {
+		name= "6-й пех. Либавский полк"
+		type = infantry
+		home = 978
+	}
+
+	regiment = {
+		name= "7-й пех. Ревельский полк"
+		type = infantry
+		home = 978
+	}
+
+	regiment = {
+		name= "8-й пех. Эстляндский полк"
+		type = infantry
+		home = 979
+	}
+
+	regiment = {
+		name= "10-й пех. Новоингерманландский полк"
+		type = infantry
+		home = 979
+	}
+	regiment = {
+		name= "11-й пех. Невский полк"
+		type = infantry
+		home = 979
+	}
+
+	regiment = {
+		name= "12-й пех. Софийский полк"
+		type = infantry
+		home = 979
+	}
+
+	regiment = {
+		name= "13-й пех. Нарвский полк"
+		type = infantry
+		home = 979
+	}
+
+	regiment = {
+		name= "14-й пех. Копорский полк"
+		type = infantry
+		home = 980
+	}
+
+	regiment = {
+		name= "15-й пех. Калужский полк"
+		type = infantry
+		home = 980
+	}
+
+	regiment = {
+		name= "16-й пех. Либавский полк"
+		type = infantry
+		home = 981
+	}
+
+	regiment = {
+		name= "17-й пех. Тихвинский полк"
+		type = infantry
+		home = 981
+	}
+
+	regiment = {
+		name= "18-й пех. Тихвинский полк"
+		type = infantry
+		home = 989
+	}
+
+	regiment = {
+		name= "19-й пех. Тихвинский полк"
+		type = infantry
+		home = 989
+	}
+
+
+}
+
+army = {
+	name = "2-й Пехотный Корпус"
+	location = 718
+	regiment = {
+		name= "11-й пех. Псковский полк"
+		type = infantry
+		home = 989
+	}
+
+	regiment = {
+		name= "12-й пех. Великолуцкий полк"
+		type = infantry
+		home = 989
+	}
+
+	regiment = {
+		name= "13-й пех. Белозерский полк"
+		type = infantry
+		home = 989
+	}
+
+	regiment = {
+		name= "14-й пех. Олонецкий полк"
+		type = infantry
+		home = 989
+	}
+
+	regiment = {
+		name= "15-й пех. Шлиссельбургский полк"
+		type = infantry
+		home = 991
+	}
+
+	regiment = {
+		name= "16-й пех. Ладожский полк"
+		type = infantry
+		home = 991
+	}
+
+	regiment = {
+		name= "17-й пех. Архангелогородский полк"
+		type = infantry
+		home = 991
+	}
+
+	regiment = {
+		name= "18-й пех. Вологодский полк"
+		type = infantry
+		home = 991
+	}
+
+	regiment = {
+		name= "19-й пех. Костромской полк"
+		type = infantry
+		home = 992
+	}
+	regiment = {
+		name= "11-й пех. Псковский полк"
+		type = infantry
+		home = 992
+	}
+
+	regiment = {
+		name= "12-й пех. Великолуцкий полк"
+		type = infantry
+		home = 992
+	}
+
+	regiment = {
+		name= "13-й пех. Белозерский полк"
+		type = infantry
+		home = 994
+	}
+
+	regiment = {
+		name= "14-й пех. Олонецкий полк"
+		type = infantry
+		home = 994
+	}
+
+	regiment = {
+		name= "15-й пех. Шлиссельбургский полк"
+		type = infantry
+		home = 994
+	}
+
+	regiment = {
+		name= "16-й пех. Ладожский полк"
+		type = infantry
+		home = 994
+	}
+
+	regiment = {
+		name= "17-й пех. Архангелогородский полк"
+		type = infantry
+		home = 994
+	}
+
+	regiment = {
+		name= "18-й пех. Вологодский полк"
+		type = infantry
+		home = 994
+	}
+
+	regiment = {
+		name= "19-й пех. Костромской полк"
+		type = infantry
+		home = 994
+	}
+
+}
+
+army = {
+	name = "3-й Пехотный Корпус"
+	location = 999
+	regiment = {
+		name= "20-й пех. Галицкий полк"
+		type = infantry
+		home = 997
+	}
+
+	regiment = {
+		name= "21-й пех. Муромский полк"
+		type = infantry
+		home = 998
+	}
+
+	regiment = {
+		name= "22-й пех. Нижегородский полк"
+		type = infantry
+		home = 998
+	}
+
+	regiment = {
+		name= "23-й пех. Низовский полк"
+		type = infantry
+		home = 998
+	}
+
+	regiment = {
+		name= "24-й пех. Симбирский полк"
+		type = infantry
+		home = 998
+	}
+
+	regiment = {
+		name= "25-й пех. Смоленский полк"
+		type = infantry
+		home = 998
+	}
+
+	regiment = {
+		name= "26-й пех. Могилевский полк"
+		type = infantry
+		home = 999
+	}
+
+	regiment = {
+		name= "27-й пех. Витебский полк"
+		type = infantry
+		home = 999
+	}
+
+	regiment = {
+		name= "28-й пех. Полоцкий полк"
+		type = infantry
+		home = 999
+	}
+	regiment = {
+		name= "20-й пех. Галицкий полк"
+		type = infantry
+		home = 999
+	}
+
+	regiment = {
+		name= "21-й пех. Муромский полк"
+		type = infantry
+		home = 999
+	}
+
+	regiment = {
+		name= "22-й пех. Нижегородский полк"
+		type = infantry
+		home = 999
+	}
+
+	regiment = {
+		name= "23-й пех. Низовский полк"
+		type = infantry
+		home = 999
+	}
+
+	regiment = {
+		name= "24-й пех. Симбирский полк"
+		type = infantry
+		home = 1000
+	}
+
+	regiment = {
+		name= "25-й пех. Смоленский полк"
+		type = infantry
+		home = 1000
+	}
+
+	regiment = {
+		name= "26-й пех. Могилевский полк"
+		type = infantry
+		home = 1000
+	}
+
+	regiment = {
+		name= "27-й пех. Витебский полк"
+		type = infantry
+		home = 1001
+	}
+
+	regiment = {
+		name= "28-й пех. Полоцкий полк"
+		type = infantry
+		home = 1001
+	}
+
+
+}
+
+army = {
+	name = "4-й Пехотный Корпус"
+	location = 1006
+	regiment = {
+		name= "29-й пех. Черниговский полк"
+		type = infantry
+		home = 1001
+	}
+
+	regiment = {
+		name= "30-й пех. Полтавский полк"
+		type = infantry
+		home = 1001
+	}
+
+	regiment = {
+		name= "31-й пех. Алексеевский полк"
+		type = infantry
+		home = 1003
+	}
+
+	regiment = {
+		name= "32-й пех. Кременчугский полк"
+		type = infantry
+		home = 1004
+	}
+
+	regiment = {
+		name= "33-й пех. Елецкий полк"
+		type = infantry
+		home = 1004
+	}
+
+	regiment = {
+		name= "34-й пех. Севский полк"
+		type = infantry
+		home = 1005
+	}
+
+	regiment = {
+		name= "35-й Брянский кн.Горчакова полк"
+		type = infantry
+		home = 1005
+	}
+
+	regiment = {
+		name= "36-й пех. Орловский полк"
+		type = infantry
+		home = 1005
+	}
+
+	regiment = {
+		name= "37-й пехотный Екатеринбургский полк"
+		type = infantry
+		home = 1005
+	}
+	regiment = {
+		name= "29-й пех. Черниговский полк"
+		type = infantry
+		home = 1006
+	}
+
+	regiment = {
+		name= "30-й пех. Полтавский полк"
+		type = infantry
+		home = 1006
+	}
+
+	regiment = {
+		name= "31-й пех. Алексеевский полк"
+		type = infantry
+		home = 1006
+	}
+
+	regiment = {
+		name= "32-й пех. Кременчугский полк"
+		type = infantry
+		home = 1006
+	}
+
+	regiment = {
+		name= "33-й пех. Елецкий полк"
+		type = infantry
+		home = 1006
+	}
+
+	regiment = {
+		name= "34-й пех. Севский полк"
+		type = infantry
+		home = 1007
+	}
+
+	regiment = {
+		name= "35-й Брянский кн.Горчакова полк"
+		type = infantry
+		home = 1007
+	}
+
+	regiment = {
+		name= "36-й пех. Орловский полк"
+		type = infantry
+		home = 1007
+	}
+
+	regiment = {
+		name= "37-й пехотный Екатеринбургский полк"
+		type = infantry
+		home = 1008
+	}
+
+
+}
+
+army = {
+	name = "5-й Пехотный Корпус"
+	location = 943
+	regiment = {
+		name= "38 пех. Тобольский полк"
+		type = infantry
+		home = 1008
+	}
+
+	regiment = {
+		name= "39-й пех. Томский полк"
+		type = infantry
+		home = 1008
+	}
+
+	regiment = {
+		name= "40-й пех. Колыванский полк"
+		type = infantry
+		home = 1008
+	}
+
+	regiment = {
+		name= "41-й пех. Селенгинский полк"
+		type = infantry
+		home = 1008
+	}
+
+	regiment = {
+		name= "42-й Якутский полк"
+		type = infantry
+		home = 1008
+	}
+
+	regiment = {
+		name= "43-й пех. Охотский полк"
+		type = infantry
+		home = 1009
+	}
+
+	regiment = {
+		name= "44-й пех. Камчатский полк"
+		type = infantry
+		home = 1009
+	}
+
+	regiment = {
+		name= "45-й пех. Азовский полк"
+		type = infantry
+		home = 1009
+	}
+
+	regiment = {
+		name= "46-й пех. Днепровский полк"
+		type = infantry
+		home = 1009
+	}
+
+	regiment = {
+		name= "38 пех. Тобольский полк"
+		type = infantry
+		home = 1009
+	}
+
+	regiment = {
+		name= "39-й пех. Томский полк"
+		type = infantry
+		home = 1010
+	}
+
+	regiment = {
+		name= "40-й пех. Колыванский полк"
+		type = infantry
+		home = 1010
+	}
+
+	regiment = {
+		name= "41-й пех. Селенгинский полк"
+		type = infantry
+		home = 1010
+	}
+
+	regiment = {
+		name= "42-й Якутский полк"
+		type = infantry
+		home = 1010
+	}
+
+	regiment = {
+		name= "43-й пех. Охотский полк"
+		type = infantry
+		home = 1010
+	}
+
+	regiment = {
+		name= "44-й пех. Камчатский полк"
+		type = infantry
+		home = 1010
+	}
+
+	regiment = {
+		name= "45-й пех. Азовский полк"
+		type = infantry
+		home = 1010
+	}
+
+	regiment = {
+		name= "46-й пех. Днепровский полк"
+		type = infantry
+		home = 1010
+	}
+
+}
+
+army = {
+	name = "6-й Пехотный Корпус"
+	location = 958
+	regiment = {
+		name= "47-й Украинский полк"
+		type = infantry
+		home = 1011
+	}
+
+	regiment = {
+		name= "48-й Одесский полк"
+		type = infantry
+		home = 1011
+	}
+
+	regiment = {
+		name= "49-й пех. Брестский полк"
+		type = infantry
+		home = 1011
+	}
+
+	regiment = {
+		name= "50-й пех. Белостокский полк"
+		type = infantry
+		home = 1011
+	}
+
+	regiment = {
+		name= "51-й пех. Литовский Е.И.В. полк"
+		type = infantry
+		home = 1011
+	}
+
+	regiment = {
+		name= "52-й пех. Виленский Е.И.В. полк"
+		type = infantry
+		home = 1011
+	}
+
+	regiment = {
+		name= "53-й пех. Волынский полк"
+		type = infantry
+		home = 1011
+	}
+
+	regiment = {
+		name= "54-й пех. Минский полк"
+		type = infantry
+		home = 1011
+	}
+
+	regiment = {
+		name= "55-й пех. Подольский полк"
+		type = infantry
+		home = 1012
+	}
+	regiment = {
+		name= "47-й Украинский полк"
+		type = infantry
+		home = 1012
+	}
+
+	regiment = {
+		name= "48-й Одесский полк"
+		type = infantry
+		home = 1012
+	}
+
+	regiment = {
+		name= "49-й пех. Брестский полк"
+		type = infantry
+		home = 1012
+	}
+
+	regiment = {
+		name= "50-й пех. Белостокский полк"
+		type = infantry
+		home = 1012
+	}
+
+	regiment = {
+		name= "51-й пех. Литовский Е.И.В. полк"
+		type = infantry
+		home = 1012
+	}
+
+	regiment = {
+		name= "52-й пех. Виленский Е.И.В. полк"
+		type = infantry
+		home = 1012
+	}
+
+	regiment = {
+		name= "53-й пех. Волынский полк"
+		type = infantry
+		home = 1012
+	}
+
+	regiment = {
+		name= "54-й пех. Минский полк"
+		type = infantry
+		home = 1013
+	}
+
+	regiment = {
+		name= "55-й пех. Подольский полк"
+		type = infantry
+		home = 1013
+	}
+
+}
+
+army = {
+	name = "7-й Пехотный Корпус"
+	location = 968
+	regiment = {
+		name= "47-й Украинский полк"
+		type = infantry
+		home = 1014
+	}
+
+	regiment = {
+		name= "48-й Одесский полк"
+		type = infantry
+		home = 1014
+	}
+
+	regiment = {
+		name= "49-й пех. Брестский полк"
+		type = infantry
+		home = 1014
+	}
+
+	regiment = {
+		name= "50-й пех. Белостокский полк"
+		type = infantry
+		home = 1014
+	}
+
+	regiment = {
+		name= "51-й пех. Литовский Е.И.В. полк"
+		type = infantry
+		home = 1015
+	}
+
+	regiment = {
+		name= "52-й пех. Виленский Е.И.В. полк"
+		type = infantry
+		home = 1015
+	}
+
+	regiment = {
+		name= "53-й пех. Волынский полк"
+		type = infantry
+		home = 1015
+	}
+
+	regiment = {
+		name= "54-й пех. Минский полк"
+		type = infantry
+		home = 1015
+	}
+
+	regiment = {
+		name= "55-й пех. Подольский полк"
+		type = infantry
+		home = 1016
+	}
+	regiment = {
+		name= "47-й Украинский полк"
+		type = infantry
+		home = 1016
+	}
+
+	regiment = {
+		name= "48-й Одесский полк"
+		type = infantry
+		home = 1016
+	}
+
+	regiment = {
+		name= "49-й пех. Брестский полк"
+		type = infantry
+		home = 1017
+	}
+
+	regiment = {
+		name= "50-й пех. Белостокский полк"
+		type = infantry
+		home = 1017
+	}
+
+	regiment = {
+		name= "51-й пех. Литовский Е.И.В. полк"
+		type = infantry
+		home = 1017
+	}
+
+	regiment = {
+		name= "52-й пех. Виленский Е.И.В. полк"
+		type = infantry
+		home = 1018
+	}
+
+	regiment = {
+		name= "53-й пех. Волынский полк"
+		type = infantry
+		home = 1018
+	}
+
+	regiment = {
+		name= "54-й пех. Минский полк"
+		type = infantry
+		home = 1018
+	}
+
+	regiment = {
+		name= "55-й пех. Подольский полк"
+		type = infantry
+		home = 1018
+	}
+
+}
+army = {
+	name = "8-й Пехотный Корпус"
+	location = 954
+	regiment = {
+		name= "47-й Украинский полк"
+		type = infantry
+		home = 1018
+	}
+
+	regiment = {
+		name= "48-й Одесский полк"
+		type = infantry
+		home = 1018
+	}
+
+	regiment = {
+		name= "49-й пех. Брестский полк"
+		type = infantry
+		home = 1018
+	}
+
+	regiment = {
+		name= "50-й пех. Белостокский полк"
+		type = infantry
+		home = 1019
+	}
+
+	regiment = {
+		name= "51-й пех. Литовский Е.И.В. полк"
+		type = infantry
+		home = 1019
+	}
+
+	regiment = {
+		name= "52-й пех. Виленский Е.И.В. полк"
+		type = infantry
+		home = 1019
+	}
+
+	regiment = {
+		name= "53-й пех. Волынский полк"
+		type = infantry
+		home = 1019
+	}
+
+	regiment = {
+		name= "54-й пех. Минский полк"
+		type = infantry
+		home = 1019
+	}
+
+	regiment = {
+		name= "55-й пех. Подольский полк"
+		type = infantry
+		home = 1019
+	}
+
+	regiment = {
+		name= "47-й Украинский полк"
+		type = infantry
+		home = 1019
+	}
+
+	regiment = {
+		name= "48-й Одесский полк"
+		type = infantry
+		home = 1019
+	}
+
+	regiment = {
+		name= "49-й пех. Брестский полк"
+		type = infantry
+		home = 1019
+	}
+
+	regiment = {
+		name= "50-й пех. Белостокский полк"
+		type = infantry
+		home = 1020
+	}
+
+	regiment = {
+		name= "51-й пех. Литовский Е.И.В. полк"
+		type = infantry
+		home = 1020
+	}
+
+	regiment = {
+		name= "52-й пех. Виленский Е.И.В. полк"
+		type = infantry
+		home = 1020
+	}
+
+	regiment = {
+		name= "53-й пех. Волынский полк"
+		type = infantry
+		home = 1020
+	}
+
+	regiment = {
+		name= "54-й пех. Минский полк"
+		type = infantry
+		home = 1020
+	}
+
+	regiment = {
+		name= "55-й пех. Подольский полк"
+		type = infantry
+		home = 1021
+	}
+
+}
+army = {
+	name = "9-й Пехотный Корпус"
+	location = 1098
+	regiment = {
+		name= "47-й Украинский полк"
+		type = infantry
+		home = 1021
+	}
+
+	regiment = {
+		name= "48-й Одесский полк"
+		type = infantry
+		home = 1021
+	}
+
+	regiment = {
+		name= "49-й пех. Брестский полк"
+		type = infantry
+		home = 1021
+	}
+
+	regiment = {
+		name= "50-й пех. Белостокский полк"
+		type = infantry
+		home = 1021
+	}
+
+	regiment = {
+		name= "51-й пех. Литовский Е.И.В. полк"
+		type = infantry
+		home = 1021
+	}
+
+	regiment = {
+		name= "52-й пех. Виленский Е.И.В. полк"
+		type = infantry
+		home = 1022
+	}
+
+	regiment = {
+		name= "53-й пех. Волынский полк"
+		type = infantry
+		home = 1023
+	}
+
+	regiment = {
+		name= "54-й пех. Минский полк"
+		type = infantry
+		home = 1024
+	}
+
+	regiment = {
+		name= "55-й пех. Подольский полк"
+		type = infantry
+		home = 1025
+	}
+
+	regiment = {
+		name= "47-й Украинский полк"
+		type = infantry
+		home = 1025
+	}
+
+	regiment = {
+		name= "48-й Одесский полк"
+		type = infantry
+		home = 1025
+	}
+
+	regiment = {
+		name= "49-й пех. Брестский полк"
+		type = infantry
+		home = 1025
+	}
+
+	regiment = {
+		name= "50-й пех. Белостокский полк"
+		type = infantry
+		home = 1025
+	}
+
+	regiment = {
+		name= "51-й пех. Литовский Е.И.В. полк"
+		type = infantry
+		home = 1026
+	}
+
+	regiment = {
+		name= "52-й пех. Виленский Е.И.В. полк"
+		type = infantry
+		home = 1026
+	}
+
+	regiment = {
+		name= "53-й пех. Волынский полк"
+		type = infantry
+		home = 1026
+	}
+
+	regiment = {
+		name= "54-й пех. Минский полк"
+		type = infantry
+		home = 1026
+	}
+
+	regiment = {
+		name= "55-й пех. Подольский полк"
+		type = infantry
+		home = 1026
+	}
+
+}
+army = {
+	name = "10-й Пехотный Корпус"
+	location = 1007
+	regiment = {
+		name= "47-й Украинский полк"
+		type = infantry
+		home = 1027
+	}
+
+	regiment = {
+		name= "48-й Одесский полк"
+		type = infantry
+		home = 1027
+	}
+
+	regiment = {
+		name= "49-й пех. Брестский полк"
+		type = infantry
+		home = 1028
+	}
+
+	regiment = {
+		name= "50-й пех. Белостокский полк"
+		type = infantry
+		home = 1028
+	}
+
+	regiment = {
+		name= "51-й пех. Литовский Е.И.В. полк"
+		type = infantry
+		home = 1028
+	}
+
+	regiment = {
+		name= "52-й пех. Виленский Е.И.В. полк"
+		type = infantry
+		home = 1028
+	}
+
+	regiment = {
+		name= "53-й пех. Волынский полк"
+		type = infantry
+		home = 1029
+	}
+
+	regiment = {
+		name= "54-й пех. Минский полк"
+		type = infantry
+		home = 1029
+	}
+
+	regiment = {
+		name= "55-й пех. Подольский полк"
+		type = infantry
+		home = 1029
+	}
+
+	regiment = {
+		name= "47-й Украинский полк"
+		type = infantry
+		home = 1030
+	}
+
+	regiment = {
+		name= "48-й Одесский полк"
+		type = infantry
+		home = 1030
+	}
+
+	regiment = {
+		name= "49-й пех. Брестский полк"
+		type = infantry
+		home = 1030
+	}
+
+	regiment = {
+		name= "50-й пех. Белостокский полк"
+		type = infantry
+		home = 1031
+	}
+
+	regiment = {
+		name= "51-й пех. Литовский Е.И.В. полк"
+		type = infantry
+		home = 1031
+	}
+
+	regiment = {
+		name= "52-й пех. Виленский Е.И.В. полк"
+		type = infantry
+		home = 1031
+	}
+
+	regiment = {
+		name= "53-й пех. Волынский полк"
+		type = infantry
+		home = 1031
+	}
+
+	regiment = {
+		name= "54-й пех. Минский полк"
+		type = infantry
+		home = 1031
+	}
+
+	regiment = {
+		name= "55-й пех. Подольский полк"
+		type = infantry
+		home = 1031
+	}
+
+}
+army = {
+	name = "1-й Стрелковый Корпус"
+	location = 1016
+	regiment = {
+		name= "38 пех. Тобольский полк"
+		type = infantry
+		home = 1032
+	}
+
+	regiment = {
+		name= "39-й пех. Томский полк"
+		type = infantry
+		home = 1032
+	}
+
+	regiment = {
+		name= "40-й пех. Колыванский полк"
+		type = infantry
+		home = 1032
+	}
+
+	regiment = {
+		name= "41-й пех. Селенгинский полк"
+		type = infantry
+		home = 1032
+	}
+
+	regiment = {
+		name= "42-й Якутский полк"
+		type = infantry
+		home = 1032
+	}
+
+	regiment = {
+		name= "43-й пех. Охотский полк"
+		type = infantry
+		home = 1032
+	}
+
+	regiment = {
+		name= "44-й пех. Камчатский полк"
+		type = infantry
+		home = 1033
+	}
+
+	regiment = {
+		name= "45-й пех. Азовский полк"
+		type = infantry
+		home = 1033
+	}
+
+	regiment = {
+		name= "46-й пех. Днепровский полк"
+		type = cuirassier
+		home = 1033
+	}
+
+	regiment = {
+		name= "38 пех. Тобольский полк"
+		type = cuirassier
+		home = 1034
+	}
+
+	regiment = {
+		name= "39-й пех. Томский полк"
+		type = cuirassier
+		home = 1035
+	}
+
+	regiment = {
+		name= "40-й пех. Колыванский полк"
+		type = cuirassier
+		home = 1035
+	}
+
+	regiment = {
+		name= "41-й пех. Селенгинский полк"
+		type = artillery
+		home = 1035
+	}
+
+	regiment = {
+		name= "42-й Якутский полк"
+		type = artillery
+		home = 1035
+	}
+
+	regiment = {
+		name= "43-й пех. Охотский полк"
+		type = artillery
+		home = 1037
+	}
+
+	regiment = {
+		name= "44-й пех. Камчатский полк"
+		type = engineer
+		home = 1038
+	}
+
+	regiment = {
+		name= "45-й пех. Азовский полк"
+		type = engineer
+		home = 1038
+	}
+
+	regiment = {
+		name= "46-й пех. Днепровский полк"
+		type = engineer
+		home = 1039
+	}
+
+}
+army = {
+	name = "2-й Стрелковый Корпус"
+	location = 963
+	regiment = {
+		name= "38 пех. Тобольский полк"
+		type = infantry
+		home = 1039
+	}
+
+	regiment = {
+		name= "39-й пех. Томский полк"
+		type = infantry
+		home = 1039
+	}
+
+	regiment = {
+		name= "40-й пех. Колыванский полк"
+		type = infantry
+		home = 1039
+	}
+
+	regiment = {
+		name= "41-й пех. Селенгинский полк"
+		type = infantry
+		home = 1039
+	}
+
+	regiment = {
+		name= "42-й Якутский полк"
+		type = infantry
+		home = 1039
+	}
+
+	regiment = {
+		name= "43-й пех. Охотский полк"
+		type = infantry
+		home = 1040
+	}
+
+	regiment = {
+		name= "44-й пех. Камчатский полк"
+		type = infantry
+		home = 1041
+	}
+
+	regiment = {
+		name= "45-й пех. Азовский полк"
+		type = infantry
+		home = 1042
+	}
+
+	regiment = {
+		name= "46-й пех. Днепровский полк"
+		type = cuirassier
+		home = 1042
+	}
+	regiment = {
+		name= "38 пех. Тобольский полк"
+		type = cuirassier
+		home = 1042
+	}
+
+	regiment = {
+		name= "39-й пех. Томский полк"
+		type = cuirassier
+		home = 1042
+	}
+
+	regiment = {
+		name= "40-й пех. Колыванский полк"
+		type = cuirassier
+		home = 1042
+	}
+
+	regiment = {
+		name= "41-й пех. Селенгинский полк"
+		type = artillery
+		home = 1042
+	}
+
+	regiment = {
+		name= "42-й Якутский полк"
+		type = artillery
+		home = 1043
+	}
+
+	regiment = {
+		name= "43-й пех. Охотский полк"
+		type = artillery
+		home = 1044
+	}
+
+	regiment = {
+		name= "44-й пех. Камчатский полк"
+		type = engineer
+		home = 1045
+	}
+
+	regiment = {
+		name= "45-й пех. Азовский полк"
+		type = engineer
+		home = 1047
+	}
+
+	regiment = {
+		name= "46-й пех. Днепровский полк"
+		type = engineer
+		home = 1047
+	}
+
+}
+army = {
+	name = "3-й Стрелковый Корпус"
+	location = 1012
+	regiment = {
+		name= "38 пех. Тобольский полк"
+		type = infantry
+		home = 1049
+	}
+
+	regiment = {
+		name= "39-й пех. Томский полк"
+		type = infantry
+		home = 1049
+	}
+
+	regiment = {
+		name= "40-й пех. Колыванский полк"
+		type = infantry
+		home = 1050
+	}
+
+	regiment = {
+		name= "41-й пех. Селенгинский полк"
+		type = infantry
+		home = 1050
+	}
+
+	regiment = {
+		name= "42-й Якутский полк"
+		type = infantry
+		home = 1053
+	}
+
+	regiment = {
+		name= "43-й пех. Охотский полк"
+		type = infantry
+		home = 1053
+	}
+
+	regiment = {
+		name= "44-й пех. Камчатский полк"
+		type = infantry
+		home = 1054
+	}
+
+	regiment = {
+		name= "45-й пех. Азовский полк"
+		type = infantry
+		home = 1054
+	}
+
+	regiment = {
+		name= "46-й пех. Днепровский полк"
+		type = cuirassier
+		home = 718
+	}
+	regiment = {
+		name= "38 пех. Тобольский полк"
+		type = cuirassier
+		home = 718
+	}
+
+	regiment = {
+		name= "39-й пех. Томский полк"
+		type = cuirassier
+		home = 941
+	}
+
+	regiment = {
+		name= "40-й пех. Колыванский полк"
+		type = cuirassier
+		home = 942
+	}
+
+	regiment = {
+		name= "41-й пех. Селенгинский полк"
+		type = artillery
+		home = 942
+	}
+
+	regiment = {
+		name= "42-й Якутский полк"
+		type = artillery
+		home = 942
+	}
+
+	regiment = {
+		name= "43-й пех. Охотский полк"
+		type = artillery
+		home = 943
+	}
+
+	regiment = {
+		name= "44-й пех. Камчатский полк"
+		type = engineer
+		home = 943
+	}
+
+	regiment = {
+		name= "45-й пех. Азовский полк"
+		type = engineer
+		home = 943
+	}
+
+	regiment = {
+		name= "46-й пех. Днепровский полк"
+		type = engineer
+		home = 944
+	}
+
+}
+army = {
+	name = "4-й Стрелковый Корпус"
+	location = 946
+	regiment = {
+		name= "38 пех. Тобольский полк"
+		type = infantry
+		home = 944
+	}
+
+	regiment = {
+		name= "39-й пех. Томский полк"
+		type = infantry
+		home = 944
+	}
+
+	regiment = {
+		name= "40-й пех. Колыванский полк"
+		type = infantry
+		home = 944
+	}
+
+	regiment = {
+		name= "41-й пех. Селенгинский полк"
+		type = infantry
+		home = 945
+	}
+
+	regiment = {
+		name= "42-й Якутский полк"
+		type = infantry
+		home = 945
+	}
+
+	regiment = {
+		name= "43-й пех. Охотский полк"
+		type = infantry
+		home = 946
+	}
+
+	regiment = {
+		name= "44-й пех. Камчатский полк"
+		type = infantry
+		home = 946
+	}
+
+	regiment = {
+		name= "45-й пех. Азовский полк"
+		type = infantry
+		home = 946
+	}
+
+	regiment = {
+		name= "46-й пех. Днепровский полк"
+		type = cuirassier
+		home = 946
+	}
+
+	regiment = {
+		name= "38 пех. Тобольский полк"
+		type = cuirassier
+		home = 946
+	}
+
+	regiment = {
+		name= "39-й пех. Томский полк"
+		type = cuirassier
+		home = 948
+	}
+
+	regiment = {
+		name= "40-й пех. Колыванский полк"
+		type = cuirassier
+		home = 1090
+	}
+
+	regiment = {
+		name= "41-й пех. Селенгинский полк"
+		type = artillery
+		home = 1090
+	}
+
+	regiment = {
+		name= "42-й Якутский полк"
+		type = artillery
+		home = 1090
+	}
+
+	regiment = {
+		name= "43-й пех. Охотский полк"
+		type = artillery
+		home = 1092
+	}
+
+	regiment = {
+		name= "44-й пех. Камчатский полк"
+		type = engineer
+		home = 1092
+	}
+
+	regiment = {
+		name= "45-й пех. Азовский полк"
+		type = engineer
+		home = 1094
+	}
+
+	regiment = {
+		name= "46-й пех. Днепровский полк"
+		type = engineer
+		home = 1094
+	}
+
+}
+army = {
+	name = "5-й Стрелковый Корпус"
+	location = 1079
+	regiment = {
+		name= "38 пех. Тобольский полк"
+		type = infantry
+		home = 949
+	}
+
+	regiment = {
+		name= "39-й пех. Томский полк"
+		type = infantry
+		home = 949
+	}
+
+	regiment = {
+		name= "40-й пех. Колыванский полк"
+		type = infantry
+		home = 949
+	}
+
+	regiment = {
+		name= "41-й пех. Селенгинский полк"
+		type = infantry
+		home = 949
+	}
+
+	regiment = {
+		name= "42-й Якутский полк"
+		type = infantry
+		home = 1101
+	}
+
+	regiment = {
+		name= "43-й пех. Охотский полк"
+		type = infantry
+		home = 1102
+	}
+
+	regiment = {
+		name= "44-й пех. Камчатский полк"
+		type = infantry
+		home = 1105
+	}
+
+	regiment = {
+		name= "45-й пех. Азовский полк"
+		type = infantry
+		home = 1107
+	}
+
+	regiment = {
+		name= "46-й пех. Днепровский полк"
+		type = cuirassier
+		home = 954
+	}
+	regiment = {
+		name= "38 пех. Тобольский полк"
+		type = cuirassier
+		home = 954
+	}
+
+	regiment = {
+		name= "39-й пех. Томский полк"
+		type = cuirassier
+		home = 954
+	}
+
+	regiment = {
+		name= "40-й пех. Колыванский полк"
+		type = cuirassier
+		home = 955
+	}
+
+	regiment = {
+		name= "41-й пех. Селенгинский полк"
+		type = artillery
+		home = 955
+	}
+
+	regiment = {
+		name= "42-й Якутский полк"
+		type = artillery
+		home = 955
+	}
+
+	regiment = {
+		name= "43-й пех. Охотский полк"
+		type = artillery
+		home = 958
+	}
+
+	regiment = {
+		name= "44-й пех. Камчатский полк"
+		type = engineer
+		home = 958
+	}
+
+	regiment = {
+		name= "45-й пех. Азовский полк"
+		type = engineer
+		home = 958
+	}
+
+	regiment = {
+		name= "46-й пех. Днепровский полк"
+		type = engineer
+		home = 959
+	}
+
+}
+army = {
+	name = "6-й Стрелковый Корпус"
+	location = 1082
+	regiment = {
+		name= "38 пех. Тобольский полк"
+		type = infantry
+		home = 959
+	}
+
+	regiment = {
+		name= "39-й пех. Томский полк"
+		type = infantry
+		home = 959
+	}
+
+	regiment = {
+		name= "40-й пех. Колыванский полк"
+		type = infantry
+		home = 959
+	}
+
+	regiment = {
+		name= "41-й пех. Селенгинский полк"
+		type = infantry
+		home = 960
+	}
+
+	regiment = {
+		name= "42-й Якутский полк"
+		type = infantry
+		home = 960
+	}
+
+	regiment = {
+		name= "43-й пех. Охотский полк"
+		type = infantry
+		home = 960
+	}
+
+	regiment = {
+		name= "44-й пех. Камчатский полк"
+		type = infantry
+		home = 961
+	}
+
+	regiment = {
+		name= "45-й пех. Азовский полк"
+		type = infantry
+		home = 961
+	}
+
+	regiment = {
+		name= "46-й пех. Днепровский полк"
+		type = cuirassier
+		home = 961
+	}
+	regiment = {
+		name= "38 пех. Тобольский полк"
+		type = cuirassier
+		home = 962
+	}
+
+	regiment = {
+		name= "39-й пех. Томский полк"
+		type = cuirassier
+		home = 962
+	}
+
+	regiment = {
+		name= "40-й пех. Колыванский полк"
+		type = cuirassier
+		home = 962
+	}
+
+	regiment = {
+		name= "41-й пех. Селенгинский полк"
+		type = artillery
+		home = 962
+	}
+
+	regiment = {
+		name= "42-й Якутский полк"
+		type = artillery
+		home = 963
+	}
+
+	regiment = {
+		name= "43-й пех. Охотский полк"
+		type = artillery
+		home = 963
+	}
+
+	regiment = {
+		name= "44-й пех. Камчатский полк"
+		type = engineer
+		home = 963
+	}
+
+	regiment = {
+		name= "45-й пех. Азовский полк"
+		type = engineer
+		home = 963
+	}
+
+	regiment = {
+		name= "46-й пех. Днепровский полк"
+		type = engineer
+		home = 963
+	}
+
+}
+
+army = {
+	name = "Украинский Корпус"
+	location = 1101
+	regiment = {
+		name= "Крымский полк"
+		type = infantry
+		home = 964
+	}
+
+	regiment = {
+		name= "Одесский полк"
+		type = infantry
+		home = 968
+	}
+
+	regiment = {
+		name= "Татарский полк"
+		type = infantry
+		home = 969
+	}
+
+	regiment = {
+		name= "Ольвипольский полк"
+		type = infantry
+		home = 969
+	}
+
+	regiment = {
+		name= "Криворожский полк"
+		type = infantry
+		home = 971
+	}
+
+	regiment = {
+		name= "Екатеринославский полк"
+		type = infantry
+		home = 972
+	}
+
+	regiment = {
+		name= "Краматорский полк"
+		type = infantry
+		home = 974
+	}
+
+}
+army = {
+	name = "Кавказская Дивизия"
+	location = 1075
+	regiment = {
+		name= "1-й Кавказский полк"
+		type = infantry
+		home = 3249
+	}
+
+	regiment = {
+		name= "2-й Кавказский полк"
+		type = infantry
+		home = 3249
+	}
+
+	regiment = {
+		name= "3-й Кавказский полк"
+		type = infantry
+		home = 3249
+	}
+	regiment = {
+		name= "4-й Кавказский полк"
+		type = infantry
+		home = 3249
+	}
+
+	regiment = {
+		name= "5-й Кавказский полк"
+		type = infantry
+		home = 3250
+	}
+
+	regiment = {
+		name= "6-й Кавказский полк"
+		type = infantry
+		home = 3250
+	}
+
+	regiment = {
+		name= "7-й Кавказский полк"
+		type = infantry
+		home = 3250
+	}
+
+}
+army = {
+	name = "1-я кавалерийская дивизия"
+	location = 973
+	regiment = {
+		name= "1-й гусарский Сумской полк"
+		type = dragoon
+		home = 3251
+	}
+
+	regiment = {
+		name= "2-й лейб-гусарский полк"
+		type = dragoon
+		home = 3251
+	}
+
+	regiment = {
+		name= "3-й лейб-уланский полк"
+		type = dragoon
+		home = 3253
+	}
+
+	regiment = {
+		name= "Гв. запаса кав. полк"
+		type = dragoon
+		home = 3255
+	}
+
+	regiment = {
+		name= "4-й драг. Новороссийский Е.И.В. полк"
+		type = dragoon
+		home = 3256
+	}
+
+	regiment = {
+		name= "5-й улан. Смоленский полк"
+		type = cuirassier
+		home = 3257
+	}
+
+	regiment = {
+		name= "6-й Донской казачий полк"
+		type = cuirassier
+		home = 3258
+	}
+
+	regiment = {
+		name= "7-й уланский Харьковский полк"
+		type = cuirassier
+		home = 3259
+	}
+
+	regiment = {
+		name= "8-й гусарский Мариупольский полк"
+		type = cuirassier
+		home = 3259
+	}
+
+	regiment = {
+		name= "9-й Донской казачий полк"
+		type = cuirassier
+		home = 3259
+	}
+
+}
+army = {
+	name = "2-я кавалерийская дивизия"
+	location = 961
+	regiment = {
+		name= "1-й гусарский Сумской полк"
+		type = cavalry
+		home = 3259
+	}
+
+	regiment = {
+		name= "2-й лейб-гусарский полк"
+		type = cavalry
+		home = 3259
+	}
+
+	regiment = {
+		name= "3-й лейб-уланский полк"
+		type = cavalry
+		home = 3259
+	}
+
+	regiment = {
+		name= "Гв. запаса кав. полк"
+		type = cavalry
+		home = 3259
+	}
+
+	regiment = {
+		name= "4-й драг. Новороссийский Е.И.В. полк"
+		type = cavalry
+		home = 3260
+	}
+
+	regiment = {
+		name= "5-й улан. Смоленский полк"
+		type = cuirassier
+		home = 3260
+	}
+
+	regiment = {
+		name= "6-й Донской казачий полк"
+		type = cuirassier
+		home = 3261
+	}
+
+	regiment = {
+		name= "7-й уланский Харьковский полк"
+		type = cuirassier
+		home = 3261
+	}
+
+	regiment = {
+		name= "8-й гусарский Мариупольский полк"
+		type = cuirassier
+		home = 3261
+	}
+
+	regiment = {
+		name= "9-й Донской казачий полк"
+		type = cuirassier
+		home = 3262
+	}
+
+}
+army = {
+	name = "Сибирский Кавалерийский Корпус"
+	location = 1009
+	regiment = {
+		name= "10-й драг. Каргопольский полк"
+		type = cavalry
+		home = 1058
+	}
+
+	regiment = {
+		name= "11-й уланский Литовский полк"
+		type = cavalry
+		home = 1060
+	}
+
+	regiment = {
+		name= "12-й гусарский Белорусский полк"
+		type = cavalry
+		home = 1063
+	}
+
+	regiment = {
+		name= "13-й гус. Лубенский полк"
+		type = cavalry
+		home = 1063
+	}
+
+	regiment = {
+		name= "14-й улан. Вознесенский полк"
+		type = cavalry
+		home = 1064
+	}
+
+	regiment = {
+		name= "15-й драг. Казанский полк"
+		type = cavalry
+		home = 1075
+	}
+
+	regiment = {
+		name= "16-й Донской казачий полк"
+		type = cavalry
+		home = 1077
+	}
+
+	regiment = {
+		name= "17-й улан. Бугский полк"
+		type = cavalry
+		home = 1082
+	}
+
+	regiment = {
+		name= "18-й драг. Астраханский полк"
+		type = cavalry
+		home = 1083
+	}
+
+}
+
+army = {
+	name = "2-я Сибирская Стр. Дивизия "
+	location = 1044
+	regiment = {
+		name= "4-й Сибирский стр. полк"
+		type = infantry
+		home = 1085
+	}
+
+	regiment = {
+		name= "5-й Сибирский стр. полк"
+		type = infantry
+		home = 1181
+	}
+
+	regiment = {
+		name= "6-й Сибирский стр. полк"
+		type = infantry
+		home = 1185
+	}
+	regiment = {
+		name= "4-й Сибирский стр. полк"
+		type = infantry
+		home = 1191
+	}
+
+	regiment = {
+		name= "5-й Сибирский стр. полк"
+		type = infantry
+		home = 1191
+	}
+
+	regiment = {
+		name= "6-й Сибирский стр. полк"
+		type = infantry
+		home = 1191
+	}
+
+}
+
+navy = {
+	name = "Балтийский Флот"
+	location = 994
+	ship = {
+		name= "Новик"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Храбрый"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Петропавловск"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Стерегущий"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Орлица"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Синоп"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Цесаревич"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Выборг"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Варяг"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Рюрик"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Дмитрий Донской"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Громобой"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Илья Муромец"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Олег"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Светлана"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Грозный"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Невозмутимый"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Бесстрашный"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Дмитрий Донской"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Громобой"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Илья Муромец"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Олег"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Светлана"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Грозный"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Невозмутимый"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Бесстрашный"
+		type = cruiser
+	}
+
+}
+navy = {
+	name = "Черноморский Флот"
+	location = 967
+	ship = {
+		name= "Новик"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Храбрый"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Петропавловск"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Стерегущий"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Орлица"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Синоп"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Цесаревич"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Выборг"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Варяг"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Рюрик"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Дмитрий Донской"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Громобой"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Илья Муромец"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Олег"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Светлана"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Грозный"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Невозмутимый"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Бесстрашный"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Смелый"
+		type = commerce_raider
+	}
+	ship = {
+		name= "Дмитрий Донской"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Громобой"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Илья Муромец"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Олег"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Светлана"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Грозный"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Невозмутимый"
+		type = cruiser
+	}
+}
+navy = {
+	name = "Тихоокеанский флот"
+	location = 1082
+	ship = {
+		name= "Новик"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Храбрый"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Петропавловск"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Стерегущий"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Орлица"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Синоп"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Цесаревич"
+		type = cruiser
+	}
+}
+
+navy = {
+	name = "1-я Транспортная Эскадра"
+	location = 994
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "3-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "4-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "5-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "6-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "7-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "8-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "9-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "10-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "11-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "12-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "13-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "14-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "15-я транспортная флотилия"
+		type = steam_transport
+	}
+}
+

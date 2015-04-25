@@ -1,0 +1,63 @@
+owner = SWE
+controller = SWE
+add_core = FIN
+trade_goods = grain
+terrain = city_994
+life_rating = 32
+1836.1.1 = {
+naval_base = 2
+railroad = 1
+}
+1861.1.1 = { 
+	state_building = {
+		level = 1
+		building = steamer_shipyard
+		upgrade = yes
+	} 
+	state_building = {
+		level = 1
+		building = ammunition_factory
+		upgrade = yes
+	} 
+	state_building = {
+		level = 1
+		building = small_arms_factory
+		upgrade = yes
+	} 
+}
+1861.1.1 = { railroad = 2 }
+1914.1.1 = {
+	railroad = 5
+	fort = 4
+	naval_base = 4
+	state_building = {
+		level = 2
+		building = steamer_shipyard
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = ammunition_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = small_arms_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = canned_food_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = fabric_factory
+		upgrade = yes
+	}
+}
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

@@ -1,0 +1,58 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+trade_goods = coal
+life_rating = 35
+terrain = marginal_farmland
+#state_building = {
+#	level = 1
+#	building = explosives_factory
+#	upgrade = yes
+#}
+#state_building = {
+#	level = 1
+#	building = artillery_factory
+#	upgrade = yes
+#}
+1861.1.1 = {
+	state_building = {
+		level = 1
+		building = paper_mill
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = regular_clothes_factory
+		upgrade = yes
+	}
+}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	railroad = 5
+	fort = 2
+	state_building = {
+		level = 2
+		building = paper_mill
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = regular_clothes_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = fabric_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = cement_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = glass_factory
+		upgrade = yes
+	}
+}

@@ -1,0 +1,9 @@
+trade_goods = cattle
+life_rating = 15
+terrain = semi_desert_hills
+1914.1.1 = {
+	owner = FRA
+	controller = FRA
+	colonial = 3
+	naval_base = 3
+}

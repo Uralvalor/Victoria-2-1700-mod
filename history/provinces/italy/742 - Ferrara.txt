@@ -1,0 +1,17 @@
+owner = MNT
+controller = MNT
+add_core = MNT
+add_core = ITA
+trade_goods = grain
+life_rating = 35
+terrain = floodplain_farmland
+1750.1.1 = {
+	owner = PAP
+	controller = PAP
+}
+1861.1.1 = {
+	controller = ITA
+	owner = ITA
+	add_core = ITA
+}
+1914.1.1 = { railroad = 4 naval_base = 4 }

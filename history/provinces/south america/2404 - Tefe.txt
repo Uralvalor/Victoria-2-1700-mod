@@ -1,0 +1,14 @@
+
+add_core = BRZ
+trade_goods = tropical_wood
+life_rating = 25
+terrain = swamp_jungle
+1836.1.1 = {
+	owner = BRZ
+	controller = BRZ
+	remove_core = POR
+	colonial = no
+}
+1914.1.1 = {
+	trade_goods = rubber
+}

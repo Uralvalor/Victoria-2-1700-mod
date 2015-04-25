@@ -1,0 +1,20 @@
+owner = CRC
+controller = CRC
+
+add_core = CRC
+trade_goods = grain
+life_rating = 35
+terrain = good_farmland
+1836.1.1 = {
+	add_core = RUS
+}
+1914.1.1 = {
+	owner = RUS
+	controller = RUS
+	remove_core = CRC
+}
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

@@ -1,0 +1,230 @@
+army = {
+	name = "1-я Югославская армия"
+	location = 794
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 767
+	}
+
+	regiment = {
+		name= "2-я дивизия"
+		type = infantry
+		home = 767
+	}
+
+	regiment = {
+		name= "3-я дивизия"
+		type = infantry
+		home = 768
+	}
+
+	regiment = {
+		name= "4-я дивизия"
+		type = infantry
+		home = 768
+	}
+	
+	regiment = {
+		name= "5-я дивизия"
+		type = infantry
+		home = 768
+	}
+
+	regiment = {
+		name= "6-я дивизия"
+		type = infantry
+		home = 771
+	}
+	
+	regiment = {
+		name= "7-я дивизия"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name= "8-я дивизия"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name= "9-я дивизия"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name= "10-я дивизия"
+		type = infantry
+		home = 772
+	}
+
+	regiment = {
+		name= "11-я дивизия"
+		type = infantry
+		home = 772
+	}
+
+	regiment = {
+		name= "12-я дивизия"
+		type = infantry
+		home = 773
+	}
+
+}
+
+army = {
+	name = "2-я Югославская армия"
+	location = 771
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 773
+	}
+
+	regiment = {
+		name= "2-я дивизия"
+		type = infantry
+		home = 773
+	}
+
+	regiment = {
+		name= "3-я дивизия"
+		type = infantry
+		home = 773
+	}
+
+	regiment = {
+		name= "4-я дивизия"
+		type = infantry
+		home = 774
+	}
+	
+	regiment = {
+		name= "5-я дивизия"
+		type = infantry
+		home = 774
+	}
+
+	regiment = {
+		name= "6-я дивизия"
+		type = infantry
+		home = 775
+	}
+	
+	regiment = {
+		name= "7-я дивизия"
+		type = infantry
+		home = 776
+	}
+
+	regiment = {
+		name= "8-я дивизия"
+		type = infantry
+		home = 777
+	}
+
+	regiment = {
+		name= "9-я дивизия"
+		type = infantry
+		home = 777
+	}
+
+	regiment = {
+		name= "10-я дивизия"
+		type = infantry
+		home = 779
+	}
+
+	regiment = {
+		name= "11-я дивизия"
+		type = infantry
+		home = 779
+	}
+
+	regiment = {
+		name= "12-я дивизия"
+		type = infantry
+		home = 779
+	}
+
+}
+
+army = {
+	name = "3-я Югославская армия"
+	location = 783
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 780
+	}
+
+	regiment = {
+		name= "2-я дивизия"
+		type = infantry
+		home = 780
+	}
+
+	regiment = {
+		name= "3-я дивизия"
+		type = infantry
+		home = 780
+	}
+
+	regiment = {
+		name= "4-я дивизия"
+		type = infantry
+		home = 781
+	}
+	
+	regiment = {
+		name= "5-я дивизия"
+		type = infantry
+		home = 781
+	}
+
+	regiment = {
+		name= "6-я дивизия"
+		type = infantry
+		home = 781
+	}
+	
+	regiment = {
+		name= "7-я дивизия"
+		type = infantry
+		home = 781
+	}
+
+	regiment = {
+		name= "8-я дивизия"
+		type = infantry
+		home = 782
+	}
+
+	regiment = {
+		name= "9-я дивизия"
+		type = infantry
+		home = 783
+	}
+
+	regiment = {
+		name= "10-я дивизия"
+		type = infantry
+		home = 784
+	}
+
+	regiment = {
+		name= "11-я дивизия"
+		type = infantry
+		home = 786
+	}
+
+	regiment = {
+		name= "12-я дивизия"
+		type = infantry
+		home = 788
+	}
+
+}

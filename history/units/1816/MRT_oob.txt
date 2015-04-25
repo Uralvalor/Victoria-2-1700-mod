@@ -1,0 +1,45 @@
+army = {
+	name = "Армия Маратхи"
+	location = 1227
+	regiment = {
+		name= "1. Maratha Infantry"
+		type = infantry
+		home = 1276
+	}
+
+	regiment = {
+		name= "2. Maratha Infantry"
+		type = infantry
+		home = 1296
+	}
+
+	regiment = {
+		name= "3. Maratha Infantry"
+		type = infantry
+		home = 1298
+	}
+
+	regiment = {
+		name= "4. Maratha Infantry"
+		type = infantry
+		home = 1299
+	}
+
+	regiment = {
+		name= "5. Maratha Infantry"
+		type = infantry
+		home = 1300
+	}
+
+	regiment = {
+		name= "6. Maratha Infantry"
+		type = infantry
+		home = 1301
+	}
+
+	regiment = {
+		name= "1. Maratha Cavalry"
+		type = cavalry
+		home = 1302
+	}
+}

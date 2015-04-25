@@ -1,0 +1,18 @@
+owner = SPA
+controller = SPA
+add_core = SPA
+trade_goods = fish
+life_rating = 35
+fort = 1
+naval_base = 1
+terrain = dry_forest_hills
+1750.1.1 = {
+	owner = ENG
+	controller = ENG
+}
+1914.1.1 = {
+	railroad = 3
+	naval_base = 3
+	add_core = SPA
+	remove_core = ENL
+}

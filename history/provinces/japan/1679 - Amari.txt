@@ -1,0 +1,13 @@
+owner = RYU
+controller = RYU
+add_core = RYU
+trade_goods = iron
+life_rating = 35
+terrain = seasonal_jungle_hills
+1914.1.1 = {
+	railroad = 2
+	remove_core = RYU
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}

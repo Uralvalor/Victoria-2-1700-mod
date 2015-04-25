@@ -1,0 +1,17 @@
+owner = EGY
+controller = EGY
+add_core = EGY
+trade_goods = cotton
+life_rating = 30
+terrain = good_farmland
+1861.1.1 = { railroad = 2 }
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 3
+}
+1923.1.1 = {
+	owner = EGY
+	controller = EGY
+	colonial = no
+}

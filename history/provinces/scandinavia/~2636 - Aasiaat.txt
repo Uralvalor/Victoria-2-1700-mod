@@ -1,0 +1,12 @@
+add_core = DEN
+add_core = GRL
+add_core = SCA
+trade_goods = fish
+life_rating = 15
+terrain = tundra_mountains
+1914.1.1 = {
+	owner = DEN
+	controller = DEN
+	railroad = 1
+	colonial = 2
+}

@@ -1,0 +1,43 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+trade_goods = fish
+life_rating = 35
+naval_base = 1
+terrain = good_farmland
+1836.1.1 = {
+naval_base = 2
+}
+1861.1.1 = {
+	state_building = {
+		level = 1
+		building = fabric_factory
+		upgrade = yes
+	}
+}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	railroad = 5
+	fort = 2
+	naval_base = 4
+	state_building = {
+		level = 2
+		building = fabric_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = regular_clothes_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = ammunition_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = canned_food_factory
+		upgrade = yes
+	}
+}

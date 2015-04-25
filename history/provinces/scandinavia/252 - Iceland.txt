@@ -1,0 +1,18 @@
+owner = DEN
+controller = DEN
+add_core = DEN
+add_core = ICL
+add_core = SCA
+trade_goods = fish
+life_rating = 35
+terrain = tundra_hills
+colonial = 2
+naval_base = 1
+1914.1.1 = {
+	naval_base = 3
+	colonial = no
+}
+1923.1.1 = {
+	owner = ICL
+	controller = ICL
+}

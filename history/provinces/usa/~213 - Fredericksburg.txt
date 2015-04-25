@@ -1,0 +1,20 @@
+owner = ENL
+controller = ENL
+colonial = 2  
+terrain = forested_farmland
+
+add_core = XVA
+trade_goods = tobacco
+life_rating = 35
+1861.1.1 = {
+	owner = CSA
+	controller = CSA
+	add_core = CSA
+}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	railroad = 5
+	 
+	 
+	remove_core = CSA
+}

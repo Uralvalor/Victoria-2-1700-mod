@@ -1,0 +1,10 @@
+owner = SPA
+controller = SPA
+colonial = 2
+add_core = CHL
+trade_goods = iron
+life_rating = 35
+terrain = marginal_farmland
+1836.1.1 = {
+	remove_core = SPA
+}

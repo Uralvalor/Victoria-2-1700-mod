@@ -1,0 +1,25 @@
+army = {
+	name = "Army of the Sultan of Brunei"
+	location = 1394
+	regiment = {
+		name= "1.Sultan's Guard"
+		type = irregular
+		home = 1394
+	}
+	regiment = {
+		name= "2.Sultan's Legions"
+		type = irregular
+		home = 1394
+	}
+	
+}
+	
+navy = {
+	name = "Navy of the Sultan of Brunei"
+	location = 1394
+	ship = {
+		name= "1.Sultan's Fleet"
+		type = clipper_transport
+	}
+
+}

@@ -1,0 +1,23 @@
+army = {
+	name = "Армия махараджи Траванакора"
+	location = 1319
+	regiment = {
+		name= "1-я керальская бригада"
+		type = irregular
+		home = 1319
+	}
+
+	regiment = {
+		name= "2-я керальская бригада"
+		type = irregular
+		home = 1319
+	}
+
+	regiment = {
+		name= "3-я керальская бригада"
+		type = irregular
+		home = 1319
+	}
+
+}
+

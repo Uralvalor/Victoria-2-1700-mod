@@ -1,0 +1,15 @@
+owner = MAR
+controller = MAR
+add_core = MAR
+add_core = MAH
+add_core = HND
+trade_goods = grain
+life_rating = 35
+fort = 1
+terrain = hilly_farmland
+1861.1.1 = { railroad = 3 }
+
+1914.1.1 = {
+	naval_base = 4
+	colonial = 3
+}

@@ -1,0 +1,130 @@
+leader = {
+	name = "Генри Лукин"
+	type = land
+	date="1914.1.1"
+	personality = romantic
+	background = innovative_tactician
+	picture="personal_henry_lukin"
+}
+
+leader = {
+	name = "Якоб Ван Девентер"
+	type = land
+	date="1914.1.1"
+	personality = irate
+	background = drillmaster
+	picture="personal_jacob_deventer"
+}
+
+army = {
+	name = "Регулярная армия"
+	location = 2087
+	regiment = {
+		name= "1-я пех. дивизия"
+		type = infantry
+		home = 2087
+	}
+
+	regiment = {
+		name= "2-я пех. дивизия"
+		type = infantry
+		home = 2097
+	}
+
+	regiment = {
+		name= "3-я пех. дивизия"
+		type = infantry
+		home = 2102
+	}
+
+	regiment = {
+		name= "4-я пех. дивизия"
+		type = infantry
+		home = 2105
+	}
+
+	regiment = {
+		name= "5-я пех. дивизия"
+		type = infantry
+		home = 2112
+	}
+
+	regiment = {
+		name= "6-я пех. дивизия"
+		type = infantry
+		home = 2112
+	}
+
+	regiment = {
+		name= "7-я пех. дивизия"
+		type = infantry
+		home = 2112
+	}
+
+	regiment = {
+		name= "8-я пех. дивизия"
+		type = infantry
+		home = 2112
+	}
+
+	regiment = {
+		name= "9-я пех. дивизия"
+		type = infantry
+		home = 2113
+	}
+
+	regiment = {
+		name= "10-я пех. дивизия"
+		type = infantry
+		home = 2113
+	}
+
+	regiment = {
+		name= "11-я пех. дивизия"
+		type = infantry
+		home = 2113
+	}
+
+	regiment = {
+		name= "12-я пех. дивизия"
+		type = infantry
+		home = 2113
+	}
+
+	regiment = {
+		name= "13-я пех. дивизия"
+		type = infantry
+		home = 2113
+	}
+
+	regiment = {
+		name= "14-я пех. дивизия"
+		type = infantry
+		home = 2113
+	}
+
+	regiment = {
+		name= "1-я арт. дивизия"
+		type = artillery
+		home = 2113
+	}
+
+	regiment = {
+		name= "2-я арт. дивизия"
+		type = artillery
+		home = 2491
+	}
+}
+
+navy = {
+	name = "Австралийский флот"
+	location = 2096
+	ship = {
+		name = "Звезда Африки"
+		type = cruiser
+	}
+	ship = {
+		name = "Кейптаун"
+		type = cruiser
+	}
+}

@@ -1,0 +1,23 @@
+army = {
+	name = "Армия Гаити"
+	location = 2215
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = irregular
+		home = 2213
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = irregular
+		home = 2213
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = irregular
+		home = 2215
+	}
+
+}
+

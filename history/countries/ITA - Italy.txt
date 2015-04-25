@@ -1,0 +1,163 @@
+capital = 749
+primary_culture = north_italian
+culture = south_italian
+religion = catholic
+government = hms_government
+plurality = 0.12
+nationalvalue = nv_order
+literacy = 0.28
+
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = wealth_voting
+public_meetings = yes_meeting
+press_rights = censored_press
+trade_unions = non_socialist
+voting_system = first_past_the_post
+political_parties = non_secret_ballots
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = twelve_hours
+safety_regulations = no_safety
+health_care = trinket_health_care
+unemployment_subsidies = no_subsidies
+pensions = trinket_pensions 
+school_reforms = no_schools
+
+ruling_party = ITA_reactionary
+upper_house = {
+	fascist = 0
+	liberal = 50
+	reactionary = 20
+	reactionary = 5
+	anarcho_reactionary = 10
+	socialist = 15
+	communist = 0
+}
+
+1861.1.1 = {
+	oob = "/1861/ITA_oob.txt"
+}
+1861.1.1 = {
+
+	prestige = 75
+	plurality = 60
+	
+# Technologies
+#Inventions
+}
+1914.1.1 = { # russia, war techs not more than 3
+basic_chemistry = 1
+medicine = 1
+inorganic_chemistry = 1
+organic_chemistry = 1
+electricity = 1
+ 
+strategic_mobility = 1
+point_defense_system = 1
+
+flintlock_rifles = 1
+muzzle_loaded_rifles = 1
+breech_loaded_rifles = 1
+
+bronze_muzzle_loaded_artillery = 1
+iron_muzzle_loaded_artillery = 1
+iron_breech_loaded_artillery = 1
+
+military_staff_system = 1
+military_plans = 1
+military_statistics = 1
+
+army_command_principle = 1
+army_professionalism  = 1
+army_decision_making = 1
+
+private_banks = 1
+stock_exchange = 1
+business_banks = 1
+no_standard = 1
+ad_hoc_money_bill_printing = 1
+private_bank_money_bill_printing = 1
+central_bank_money_bill_printing = 1
+modern_central_bank_system = 1
+early_classical_theory_and_critique = 1
+late_classical_theory = 1
+collectivist_theory = 1
+the_historical_theory = 1
+freedom_of_trade = 1
+market_structure = 1
+business_regulations = 1
+market_regulations = 1
+economic_responsibility = 1
+government_interventionism = 1
+guild_based_production = 1
+organized_factories = 1
+scientific_management = 1
+time_saving_measures = 1
+management_strategy = 1
+classicism_n_early_romanticism = 1
+romanticism = 1
+realism = 1
+impressionism = 1
+expressionism = 1
+late_enlightenment_philosophy = 1
+idealism = 1
+empiricism = 1
+malthusian_thought = 1
+positivism = 1
+functionalism = 1
+biologism = 1
+social_science = 1
+enlightenment_thought = 1
+ideological_thought = 1
+state_n_government = 1
+nationalism_n_imperialism = 1
+revolution_n_counterrevolution = 1
+mass_politics = 1
+introspectionism = 1
+associationism = 1
+phenomenalism = 1
+experimental_psychology = 1
+water_wheel_power = 1
+practical_steam_engine = 1
+high_n_low_pressure_steam_engines = 1
+steam_turbine = 1
+
+
+publishing_industry = 1
+mechanical_production = 1
+interchangeable_parts = 1
+semi_automatization = 1
+mechanized_mining = 1
+clean_coal = 1
+cheap_iron = 1
+cheap_steel = 1
+
+
+experimental_railroad = 1
+early_railroad = 1
+iron_railroad = 1
+steel_railroad = 1
+
+ 
+battleship_column_doctrine = 1
+raider_group_doctrine = 1
+clipper_design = 1
+steamers = 1
+iron_steamers = 1
+steel_steamers = 1
+naval_design_bureaus = 1
+fire_control_systems = 1
+weapon_platforms = 1
+
+alphabetic_flag_signaling = 1
+naval_plans = 1
+naval_statistics = 1
+
+the_command_principle = 1
+naval_professionalism = 1
+naval_decision_making = 1
+}

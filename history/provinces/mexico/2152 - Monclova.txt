@@ -1,0 +1,11 @@
+owner = SPA
+controller = SPA
+add_core = MEX
+add_core = RGR
+colonial = 2
+trade_goods = dye
+life_rating = 30
+terrain = desert_hills
+1836.1.1 = {
+	remove_core = SPA
+}

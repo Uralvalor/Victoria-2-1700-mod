@@ -1,0 +1,29 @@
+name = "Иракская война за независимость"
+1700.1.1 = {
+	add_attacker = IRQ
+	add_attacker = NEJ
+	add_defender = TUR
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = become_independent
+		actor = IRQ
+		receiver = TUR
+	}
+	war_goal = {
+		casus_belli = conquest
+		actor = TUR
+		receiver = IRQ
+	}
+
+}
+
+1707.8.24 = {
+	rem_attacker = IRQ
+	rem_attacker = NEJ
+	rem_defender = TUR
+}

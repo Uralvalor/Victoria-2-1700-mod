@@ -1,0 +1,15 @@
+add_core = CAN
+add_core = COL
+trade_goods = grain
+life_rating = 30
+terrain = conifer_forest_mountains
+1861.1.1 = {
+	 
+	 
+	colonial = 2
+}
+1914.1.1 = {
+	owner = CAN
+	controller = CAN
+	colonial = no
+}

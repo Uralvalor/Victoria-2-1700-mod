@@ -1,0 +1,31 @@
+leader = {
+	name = "Сэм Хьюстон"
+	type = land
+	date="1836.1.1"
+	personality = cautious
+	background = school_of_defense
+}
+
+
+army = {
+	name = "Армия Техаса"
+	location = 133
+	regiment = {
+		name= "Отряд Тревиса"
+		type = cavalry
+		home = 133
+	}
+
+	regiment = {
+		name= "Отряд Фаннина"
+		type = guard
+		home = 132
+	}
+	
+	regiment = {
+		name = "Отряд Барлесона"
+		type = artillery
+		home = 137
+	}
+	
+}

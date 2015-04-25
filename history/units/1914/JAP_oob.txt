@@ -1,0 +1,822 @@
+TIB = {
+	value = 100
+	level = 3
+	influence_value = 31
+}
+
+SIA = {
+	value = 100
+	level = 3
+	influence_value = 24
+}
+
+NET = {
+	value = 150
+}
+
+BEL = {
+	value = 200
+}
+
+POR = {
+	value = 100
+}
+ROM = {
+	value = 100
+}
+USA = {
+	value = 150
+}
+PHI = {
+	value = 150
+	level = 4
+	influence_value = 12
+}
+GER = {
+	value = -150
+}
+KUK = {
+	value = -150
+}
+BUL = {
+	value = -150
+}
+TUR = {
+	value = -150
+	influence_value = 43
+}
+AST = {
+	level = 4
+	influence_value = 41
+}
+NZL = {
+	level = 4
+	influence_value = 32
+}
+
+leader = {
+	name = "Камио Мицуоми"
+	type = land
+	date="1914.1.1"
+	personality = romantic
+	background = cavalry_school
+	picture="personal_kamio_mitsuomi"
+}
+
+leader = {
+	name = "Яманаси Хандзо"
+	type = land
+	date="1914.1.1"
+	personality = coolminded
+	background = brownnoser
+	picture="personal_yamanashi_hanzo"
+}
+
+leader = {
+	name = "Отодзо Ямада"
+	type = land
+	date="1914.1.1"
+	personality = gallant
+	background = artillerist
+	picture="personal_otozo_tamada"
+}
+
+leader = {
+	name = "Ямашито Гентаро"
+	type = sea
+	date="1914.1.1"
+	personality = efficient
+	background = school_of_firepower
+	picture="personal_yamashita_gentaro"
+}
+
+leader = {
+	name = "Ямая Танин"
+	type = sea
+	date="1914.1.1"
+	personality = inept
+	background = cartographer
+	picture="personal_yamaya_tanin"
+}
+
+leader = {
+	name = "Яширо Рокуро"
+	type = sea
+	date="1914.1.1"
+	personality = expert
+	background = yesman
+	picture="personal_yashiro_rokuro"
+}
+
+
+army = {
+	name = "Северная армия"
+	location = 1670
+	regiment = {
+		name= "1.1/Imperial Army"
+		type = infantry
+		home = 1638
+	}
+
+	regiment = {
+		name= "2.1/Imperial Army"
+		type = infantry
+		home = 1638
+	}
+
+	regiment = {
+		name= "3.1/Imperial Army"
+		type = infantry
+		home = 1638
+	}
+
+	regiment = {
+		name= "1.2/Imperial Army"
+		type = infantry
+		home = 1639
+	}
+
+	regiment = {
+		name= "2.2/Imperial Army"
+		type = infantry
+		home = 1640
+	}
+
+	regiment = {
+		name= "3.2/Imperial Army"
+		type = infantry
+		home = 1641
+	}
+
+	regiment = {
+		name= "1.3/Imperial Army"
+		type = infantry
+		home = 1643
+	}
+
+	regiment = {
+		name= "2.3/Imperial Army"
+		type = infantry
+		home = 1644
+	}
+
+	regiment = {
+		name= "3.3/Imperial Army"
+		type = infantry
+		home = 1645
+	}
+
+	regiment = {
+		name= "1.4/Imperial Army"
+		type = infantry
+		home = 1645
+	}
+
+	regiment = {
+		name= "2.4/Imperial Army"
+		type = infantry
+		home = 1646
+	}
+
+	regiment = {
+		name= "3.4/Imperial Army"
+		type = infantry
+		home = 1648
+	}
+
+	regiment = {
+		name= "1.5/Imperial Army"
+		type = infantry
+		home = 1649
+	}
+
+	regiment = {
+		name= "2.5/Imperial Army"
+		type = infantry
+		home = 1649
+	}
+
+	regiment = {
+		name= "3.5/Imperial Army"
+		type = engineer
+		home = 1649
+	}
+
+	regiment = {
+		name= "1.6/Imperial Army"
+		type = engineer
+		home = 1650
+	}
+
+	regiment = {
+		name= "2.6/Imperial Army"
+		type = engineer
+		home = 1650
+	}
+
+	regiment = {
+		name= "3.6/Imperial Army"
+		type = artillery
+		home = 1651
+	}
+
+	regiment = {
+		name= "1.7/Imperial Army"
+		type = artillery
+		home = 1651
+	}
+
+	regiment = {
+		name= "2.7/Imperial Army"
+		type = artillery
+		home = 1652
+	}
+
+	regiment = {
+		name= "3.7/Imperial Army"
+		type = artillery
+		home = 1652
+	}
+}
+
+army = {
+	name = "Южная армия"
+	location = 1640
+	regiment = {
+		name= "1.1/Imperial Army"
+		type = infantry
+		home = 1652
+	}
+
+	regiment = {
+		name= "2.1/Imperial Army"
+		type = infantry
+		home = 1653
+	}
+
+	regiment = {
+		name= "3.1/Imperial Army"
+		type = infantry
+		home = 1653
+	}
+
+	regiment = {
+		name= "1.2/Imperial Army"
+		type = infantry
+		home = 1655
+	}
+
+	regiment = {
+		name= "2.2/Imperial Army"
+		type = infantry
+		home = 1655
+	}
+
+	regiment = {
+		name= "3.2/Imperial Army"
+		type = infantry
+		home = 1655
+	}
+
+	regiment = {
+		name= "1.3/Imperial Army"
+		type = infantry
+		home = 1655
+	}
+
+	regiment = {
+		name= "2.3/Imperial Army"
+		type = infantry
+		home = 1656
+	}
+
+	regiment = {
+		name= "3.3/Imperial Army"
+		type = infantry
+		home = 1656
+	}
+
+	regiment = {
+		name= "1.4/Imperial Army"
+		type = infantry
+		home = 1657
+	}
+
+	regiment = {
+		name= "2.4/Imperial Army"
+		type = infantry
+		home = 1657
+	}
+
+	regiment = {
+		name= "3.4/Imperial Army"
+		type = infantry
+		home = 1657
+	}
+
+	regiment = {
+		name= "1.5/Imperial Army"
+		type = infantry
+		home = 1658
+	}
+
+	regiment = {
+		name= "2.5/Imperial Army"
+		type = infantry
+		home = 1658
+	}
+
+	regiment = {
+		name= "3.5/Imperial Army"
+		type = engineer
+		home = 1658
+	}
+
+	regiment = {
+		name= "1.6/Imperial Army"
+		type = engineer
+		home = 1658
+	}
+
+	regiment = {
+		name= "2.6/Imperial Army"
+		type = engineer
+		home = 1659
+	}
+
+	regiment = {
+		name= "3.6/Imperial Army"
+		type = artillery
+		home = 1659
+	}
+
+	regiment = {
+		name= "1.7/Imperial Army"
+		type = artillery
+		home = 1659
+	}
+
+	regiment = {
+		name= "2.7/Imperial Army"
+		type = artillery
+		home = 1660
+	}
+
+	regiment = {
+		name= "3.7/Imperial Army"
+		type = artillery
+		home = 1660
+	}
+}
+
+
+army = {
+	name = "Императорская армия"
+	location = 1649
+	regiment = {
+		name= "1.1/Imperial Army"
+		type = guard
+		home = 1661
+	}
+
+	regiment = {
+		name= "2.1/Imperial Army"
+		type = guard
+		home = 1661
+	}
+
+	regiment = {
+		name= "3.1/Imperial Army"
+		type = guard
+		home = 1661
+	}
+
+	regiment = {
+		name= "1.2/Imperial Army"
+		type = infantry
+		home = 1662
+	}
+
+	regiment = {
+		name= "2.2/Imperial Army"
+		type = infantry
+		home = 1663
+	}
+
+	regiment = {
+		name= "3.2/Imperial Army"
+		type = infantry
+		home = 1664
+	}
+
+	regiment = {
+		name= "1.3/Imperial Army"
+		type = infantry
+		home = 1664
+	}
+
+	regiment = {
+		name= "2.3/Imperial Army"
+		type = infantry
+		home = 1665
+	}
+
+	regiment = {
+		name= "3.3/Imperial Army"
+		type = infantry
+		home = 1666
+	}
+
+	regiment = {
+		name= "1.4/Imperial Army"
+		type = infantry
+		home = 1666
+	}
+
+	regiment = {
+		name= "2.4/Imperial Army"
+		type = infantry
+		home = 1667
+	}
+
+	regiment = {
+		name= "3.4/Imperial Army"
+		type = infantry
+		home = 1668
+	}
+
+	regiment = {
+		name= "1.5/Imperial Army"
+		type = infantry
+		home = 1668
+	}
+
+	regiment = {
+		name= "2.5/Imperial Army"
+		type = infantry
+		home = 1669
+	}
+
+	regiment = {
+		name= "3.5/Imperial Army"
+		type = engineer
+		home = 1669
+	}
+
+	regiment = {
+		name= "1.6/Imperial Army"
+		type = engineer
+		home = 1671
+	}
+
+	regiment = {
+		name= "2.6/Imperial Army"
+		type = engineer
+		home = 1673
+	}
+
+	regiment = {
+		name= "3.6/Imperial Army"
+		type = artillery
+		home = 1675
+	}
+
+	regiment = {
+		name= "1.7/Imperial Army"
+		type = artillery
+		home = 1675
+	}
+
+	regiment = {
+		name= "2.7/Imperial Army"
+		type = artillery
+		home = 1675
+	}
+
+	regiment = {
+		name= "3.7/Imperial Army"
+		type = artillery
+		home = 1676
+	}	
+
+}
+
+army = {
+	name = "Корейская армия"
+	location = 1619
+	regiment = {
+		name= "1.1/Imperial Army"
+		type = engineer
+		home = 1677
+	}
+
+	regiment = {
+		name= "2.1/Imperial Army"
+		type = engineer
+		home = 1677
+	}
+
+	regiment = {
+		name= "3.1/Imperial Army"
+		type = artillery
+		home = 1677
+	}
+
+	regiment = {
+		name= "1.2/Imperial Army"
+		type = artillery
+		home = 1619
+	}
+
+	regiment = {
+		name= "2.2/Imperial Army"
+		type = infantry
+		home = 1620
+	}
+
+	regiment = {
+		name= "3.2/Imperial Army"
+		type = infantry
+		home = 1621
+	}
+
+	regiment = {
+		name= "1.3/Imperial Army"
+		type = infantry
+		home = 1622
+	}
+
+	regiment = {
+		name= "2.3/Imperial Army"
+		type = infantry
+		home = 1623
+	}
+
+	regiment = {
+		name= "3.3/Imperial Army"
+		type = infantry
+		home = 1624
+	}
+
+	regiment = {
+		name= "1.4/Imperial Army"
+		type = infantry
+		home = 1627
+	}
+
+	regiment = {
+		name= "2.4/Imperial Army"
+		type = infantry
+		home = 1628
+	}
+
+	regiment = {
+		name= "3.4/Imperial Army"
+		type = infantry
+		home = 1629
+	}
+
+	regiment = {
+		name= "1.5/Imperial Army"
+		type = infantry
+		home = 1632
+	}
+
+	regiment = {
+		name= "2.5/Imperial Army"
+		type = infantry
+		home = 1633
+	}
+
+	regiment = {
+		name= "3.5/Imperial Army"
+		type = infantry
+		home = 1634
+	}
+
+	regiment = {
+		name= "1.6/Imperial Army"
+		type = infantry
+		home = 1635
+	}
+
+	regiment = {
+		name= "2.6/Imperial Army"
+		type = infantry
+		home = 1636
+	}
+
+	regiment = {
+		name= "3.6/Imperial Army"
+		type = infantry
+		home = 1637
+	}	
+
+}
+army = {
+	name = "Тайваньская армия"
+	location = 1485
+	regiment = {
+		name= "1.23/Imperial Army"
+		type = infantry
+		home = 1485
+	}
+
+	regiment = {
+		name= "2.23/Imperial Army"
+		type = infantry
+		home = 1485
+	}
+
+	regiment = {
+		name= "3.23/Imperial Army"
+		type = infantry
+		home = 2562
+	}
+
+	regiment = {
+		name= "1.24/Imperial Army"
+		type = infantry
+		home = 2562
+	}
+
+}
+
+
+navy = {
+	name = "Имперский флот"
+	location = 1650
+	ship = {
+		name= "Теибо"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Синсоку"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Фусо"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Рюдзо Мару"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Нанива"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Такачихо"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Мацусима"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Ицукусима"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Хасидате"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Тиеда"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Яэяма"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Ёсино"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Хией"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Харуна"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Кирисима"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Читосэ"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Касаги"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Ниитака"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Юра"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Кину"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Вокоу"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Хиэцу"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Дзегадзи"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Ойта"
+		type = commerce_raider
+	}
+
+}
+navy = {
+	name = "1-я Транспортная Эскадра"
+	location = 1650
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "3-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "4-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "5-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "6-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "7-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "8-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "9-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "10-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "11-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "12-я транспортная флотилия"
+		type = steam_transport
+	}
+
+}

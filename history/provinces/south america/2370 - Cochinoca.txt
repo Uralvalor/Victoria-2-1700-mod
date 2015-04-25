@@ -1,0 +1,26 @@
+owner = SPA
+
+controller = SPA
+
+colonial = 2 
+ 
+add_core = ARG
+add_core = LPL
+trade_goods = wool
+life_rating = 30
+terrain = cold_desert_mountains
+1836.1.1 = {
+	owner = PBC
+	controller = PBC
+	add_core = BOL
+	add_core = PBC
+}
+1861.1.1 = {
+	owner = BOL
+	controller = BOL
+	remove_core = PBC
+}
+1914.1.1 = {
+	owner = ARG
+	controller = ARG
+}

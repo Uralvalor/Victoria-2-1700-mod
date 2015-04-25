@@ -1,0 +1,26 @@
+army = {
+	name = "Army of the King of Bali"
+	location = 1438
+	regiment = {
+		name= "1.Karangasem Militia"
+		type = irregular
+		home = 1438
+	}
+	
+	regiment = {
+		name= "2.Karangasem Militia"
+		type = irregular
+		home = 1438
+	}
+	
+}
+
+navy = {
+	name = "Navy of the King of Lombok"
+	location = 1442
+	ship = {
+		name= "1.Navy of the King"
+		type = clipper_transport
+	}
+	
+}

@@ -1,0 +1,19 @@
+leader = {
+	name = "Милослав Здравкович"
+	picture = ser_gen_zdravkovic
+	date = 1815.1.1
+	type = land
+	personality = soldierly
+	background = politician
+}
+
+army = {
+	name = "Армия Сербии"
+	location = 794
+	regiment = {
+		name= "1st Serbian Infantry"
+		type = infantry
+		home = 794
+	}
+}
+

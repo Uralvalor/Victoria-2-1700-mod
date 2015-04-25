@@ -1,0 +1,15 @@
+owner = FRM
+controller = FRM
+add_core = FRM
+add_core = GER
+trade_goods = fruit
+life_rating = 35
+fort = 1
+terrain = hilly_farmland
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	owner = GER
+	controller = GER
+	railroad = 5
+	fort = 2
+}

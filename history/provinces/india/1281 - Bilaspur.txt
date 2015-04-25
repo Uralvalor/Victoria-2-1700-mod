@@ -1,0 +1,17 @@
+owner = NAG
+controller = NAG
+add_core = NAG
+add_core = HND
+trade_goods = grain
+life_rating = 35
+terrain = dry_forest_hills
+1750.1.1 = {
+	owner = MAR
+	controller = MAR
+}
+
+1861.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 2
+}

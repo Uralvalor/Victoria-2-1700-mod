@@ -1,0 +1,14 @@
+
+add_core = MEX
+add_core = DES
+trade_goods = iron
+life_rating = 30
+terrain = hilly_grassland
+1836.1.1 = {
+	remove_core = SPA
+}
+1861.1.1 = {
+	 
+	 
+	add_core = USA
+}

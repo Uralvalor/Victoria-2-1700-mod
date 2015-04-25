@@ -1,0 +1,16 @@
+owner = SPA
+controller = SPA
+colonial = 2
+add_core = GCO
+add_core = ECU
+trade_goods = timber
+life_rating = 30
+colonial = 3
+terrain = jungle_hills
+1836.1.1 = {
+	owner = ECU
+	controller = ECU
+	remove_core = SPA
+	remove_core = GCO
+	colonial = no
+}

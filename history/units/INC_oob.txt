@@ -1,0 +1,19 @@
+army = {
+	name = "First Tanarnka"
+	location = 2302
+	regiment = {
+		name= "Naupa Rak'iy"
+		type = infantry
+		home = 2302
+	}	      
+	regiment = {
+		name= "Iskayñiqi Rak'iy"
+		type = infantry
+		home = 2302
+	}	            
+	regiment = {
+		name= "Kinsañiqi Rak'iy"
+		type = infantry
+		home = 2302
+	}	
+}

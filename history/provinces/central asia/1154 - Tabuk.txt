@@ -1,0 +1,20 @@
+owner = TUR
+controller = TUR  colonial = 2
+add_core = HDJ
+trade_goods = wool
+life_rating = 30
+terrain = desert_hills
+colonial = 2
+1836.1.1 = {
+	owner = EGY
+	controller = EGY
+}
+1861.1.1 = {
+	owner = TUR
+	controller = TUR  colonial = 2
+}
+1923.1.1 = {
+	owner = HDJ
+	controller = HDJ
+	colonial = no
+}

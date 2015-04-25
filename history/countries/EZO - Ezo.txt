@@ -1,0 +1,44 @@
+capital = 1642
+primary_culture = ainu
+religion = mahayana
+government = democracy
+plurality = 1.2
+nationalvalue = nv_liberty
+literacy = 0.3
+ 
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = wealth_voting
+public_meetings = yes_meeting
+press_rights = censored_press
+trade_unions = non_socialist
+voting_system = jefferson_method
+political_parties = gerrymandering
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = trinket_safety
+health_care = trinket_health_care
+unemployment_subsidies = trinket_subsidies
+pensions = no_pensions
+school_reforms = no_schools
+
+ruling_party = NIP_reactionary
+upper_house = {
+	fascist = 0
+	liberal = 47
+	reactionary = 41
+	reactionary = 12
+	 
+	socialist = 0
+	communist = 0
+}
+
+1861.1.1 = {
+# Technologies
+
+#Inventions
+}

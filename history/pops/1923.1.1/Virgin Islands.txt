@@ -1,0 +1,37 @@
+2223 = {
+	aristocrats = {
+		culture = danish
+		religion = protestant
+		size = 220
+	}
+	bureaucrats = {
+		culture = danish
+		religion = protestant
+		size = 40
+	}
+	artisans = {
+		culture = danish
+		religion = protestant
+		size = 618
+	}
+	farmers = {
+		culture = danish
+		religion = protestant
+		size = 660
+	}
+	artisans = {
+		culture = afro_caribbean
+		religion = catholic
+		size = 247
+	}
+	farmers = {
+		culture = afro_caribbean
+		religion = catholic
+		size = 5527
+	}
+	slaves = {
+		culture = afro_caribbean
+		religion = catholic
+		size = 7150
+	}
+}

@@ -1,0 +1,10 @@
+
+trade_goods = coal
+life_rating = 35
+terrain = deciduous_forest_hills
+1750.1.1 = {
+	owner = FRA
+	controller = FRA
+colony = 2
+}
+1914.1.1 = { railroad = 3 }

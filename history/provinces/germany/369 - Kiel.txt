@@ -1,0 +1,38 @@
+owner = HOL
+controller = HOL
+add_core = HOL
+add_core = GER
+trade_goods = cattle
+life_rating = 35
+naval_base = 1
+terrain = marginal_farmland
+1861.1.1 = { railroad = 3 }
+1861.1.1 = {
+	state_building = {
+		level = 1
+		building = steamer_shipyard
+		upgrade = yes
+	}
+}
+1914.1.1 = {
+	owner = GER
+	controller = GER
+	railroad = 5
+	fort = 2
+	naval_base = 4
+	state_building = {
+		level = 2
+		building = steamer_shipyard
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = barrel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = furniture_factory
+		upgrade = yes
+	}
+}

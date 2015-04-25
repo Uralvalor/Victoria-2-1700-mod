@@ -1,0 +1,20 @@
+owner = OMA
+controller = OMA
+add_core = OMA
+add_core = ZAN
+trade_goods = grain
+life_rating = 35
+terrain = jungle_mountains
+1861.1.1 = {
+	owner = ZAN
+	controller = ZAN
+}
+1914.1.1 = {
+	owner = GER
+	controller = GER
+	colonial = 3
+}
+1923.1.1 = {
+	owner = ENG
+	controller = ENG
+}

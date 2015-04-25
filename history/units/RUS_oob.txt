@@ -1,0 +1,170 @@
+CRI = {
+	value = -150
+	last_war="1701.1.1"
+	truce_until="1706.1.1"
+}
+TUR = {
+	value = -185
+	last_war="1701.1.1"
+	truce_until="1706.1.1"
+}
+PER = {
+	value = -125
+}
+MCK = {
+	value = -80
+	last_war="1699.1.1"
+	truce_until="1704.1.1"
+}
+leader = {
+	name = "Peter the Great"
+	date = 1682.1.1
+	type = land
+	personality = openminded
+	background = drillmaster 
+}
+
+leader = {
+	name = "Alexander Menshikov"
+	date = 1693.1.1
+	type = land
+	personality = competent 
+	background = politician 
+}
+
+leader = {
+	name = "Boris Sheremetev"
+	date = 1672.1.1
+	type = land
+	personality = competent
+	background = cavalry_school 
+}
+
+
+army = {
+	name = "Army of Russia"
+	location = 1003
+	regiment = {
+		name= "1st Artillery"
+		type = artillery
+		home = 1008
+	}
+	regiment = {
+		name= "7th Fusiliers"
+		type = engineer
+		home = 1008
+	}
+	regiment = {
+		name= "4th Line"
+		type = cavalry
+		home = 1008
+	}
+	regiment = {
+		name= "5th Line"
+		type = cavalry
+		home = 1008
+	}
+	regiment = {
+		name= "6th Line"
+		type = cavalry
+		home = 1008
+	}
+	regiment = {
+		name= "4th Line"
+		type = cavalry
+		home = 1008
+	}
+
+	regiment = {
+		name= "16th Line"
+		type = infantry
+		home = 1008
+	}    
+		regiment = {
+		name= "14th Line"
+		type = infantry
+		home = 1008
+	}
+	regiment = {
+		name= "15th Line"
+		type = infantry
+		home = 1008
+	}
+	regiment = {
+		name= "16th Line"
+		type = infantry
+		home = 1008
+	}    
+}
+army = {
+	name = "Reserve Army"
+	location = 1008
+	regiment = {
+		name= "5th Line"
+		type = cavalry
+		home = 1008
+	}
+	regiment = {
+		name= "5th Line"
+		type = cavalry
+		home = 1008
+	}
+	regiment = {
+		name= "6th Line"
+		type = cavalry
+		home = 1008
+	}
+	regiment = {
+		name= "4th Line"
+		type = cavalry
+		home = 1008
+	}
+	regiment = {
+		name= "6th Line"
+		type = cavalry
+		home = 1008
+	}
+		regiment = {
+		name= "6th Line"
+		type = cavalry
+		home = 1008
+	}
+	regiment = {
+		name= "14th Line"
+		type = infantry
+		home = 1008
+	}
+	regiment = {
+		name= "15th Line"
+		type = infantry
+		home = 1008
+	}
+ }
+navy = {
+	name = "Azov Fleet"
+	location = 1047
+	ship = {
+		name= "Апостол Пётр"
+		type = frigate
+	}
+
+	ship = {
+		name= "Апостол Павел"
+		type = frigate
+	}
+
+	ship = {
+		name= "Крепость"
+		type = manowar
+	}
+	ship = {
+		name= "Галеры"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Галеры"
+		type = clipper_transport
+	}
+	
+}
+

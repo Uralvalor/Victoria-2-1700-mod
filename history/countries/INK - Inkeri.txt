@@ -1,0 +1,45 @@
+capital = 994
+primary_culture = inkeri
+culture = ugrian
+religion = protestant
+government = democracy
+plurality = 2
+nationalvalue = nv_liberty
+literacy = 0.21
+ 
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = wealth_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = state_controlled
+voting_system = jefferson_method
+political_parties = gerrymandering
+
+# Social Reforms
+wage_reform = low_minimum_wage
+work_hours = ten_hours
+safety_regulations = good_safety
+health_care = good_health_care
+unemployment_subsidies = low_subsidies
+pensions = good_pensions
+school_reforms = low_schools
+
+ruling_party = NRD_reactionary
+upper_house = {
+	fascist = 0
+	liberal = 45
+	reactionary = 39
+	reactionary = 16
+	 
+	socialist = 0
+	communist = 0
+}
+
+1861.1.1 = {
+# Technologies
+
+#Inventions
+}

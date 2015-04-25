@@ -1,0 +1,10 @@
+owner = ENL
+controller = ENL
+trade_goods = fish
+life_rating = 35
+colonial = 2
+naval_base = 1
+terrain = marginal_farmland
+1914.1.1 = {
+	naval_base = 2
+}

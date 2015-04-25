@@ -1,0 +1,50 @@
+add_core = XNC
+trade_goods = tobacco
+life_rating = 35
+terrain = deciduous_forest_mountains
+1750.1.1 = {
+	owner = ENG
+	controller = ENG
+colony = 2
+}
+1861.1.1 = {
+	controller = CSA
+	owner = CSA
+	add_core = CSA
+	state_building = {
+		level = 1
+		building = regular_clothes_factory
+		upgrade = yes
+	}
+}
+1914.1.1 = {
+	 
+	 
+	remove_core = CSA
+	railroad = 4
+	state_building = {
+		level = 10
+		building = machine_parts_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = winery
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = fabric_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = glass_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = cement_factory
+		upgrade = yes
+	}
+}

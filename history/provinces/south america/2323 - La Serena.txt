@@ -1,0 +1,17 @@
+owner = SPA
+controller = SPA
+colonial = 2
+add_core = CHL
+trade_goods = grain
+life_rating = 35
+terrain = semi_desert_mountains
+1836.1.1 = {
+	remove_core = SPA
+}
+1914.1.1 = {
+	state_building = {
+		level = 2
+		building = cement_factory
+		upgrade = yes
+	}
+}

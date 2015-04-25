@@ -1,0 +1,47 @@
+army = {
+	name = "Королевская армия"
+	location = 2115
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = irregular
+		home = 2115
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = irregular
+		home = 2115
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = irregular
+		home = 2115
+	}
+
+	regiment = {
+		name= "4-я пехотная бригада"
+		type = irregular
+		home = 2116
+	}
+
+	regiment = {
+		name= "5-я пехотная бригада"
+		type = irregular
+		home = 2116
+	}
+
+	regiment = {
+		name= "6-я пехотная бригада"
+		type = irregular
+		home = 2117
+	}
+
+	regiment = {
+		name= "7-я пехотная бригада"
+		type = irregular
+		home = 2122
+	}
+}
+
+

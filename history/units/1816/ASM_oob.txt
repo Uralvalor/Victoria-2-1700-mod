@@ -1,0 +1,9 @@
+army = {
+	name = "Армия Ассама"
+	location = 1258
+	regiment = {
+		name= "1. Brigada de Infantaria"
+		type = infantry
+		home = 1258
+	}
+}

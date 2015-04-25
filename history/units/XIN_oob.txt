@@ -1,0 +1,110 @@
+army = {
+	name = "Джунгарские войска"
+	location = 1600
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 1600
+	}
+	regiment = {
+		name= "2-я дивизия"
+		type = cavalry
+		home = 1600
+	}
+	regiment = {
+		name= "3-я дивизия"
+		type = cavalry
+		home = 1600
+	}
+	regiment = {
+		name= "4-я дивизия"
+		type = cavalry
+		home = 1600
+	}
+	regiment = {
+		name= "5-я дивизия"
+		type = cavalry
+		home = 1600
+	}
+	regiment = {
+		name= "6-я дивизия"
+		type = cavalry
+		home = 1600
+	}
+	regiment = {
+		name= "7-я дивизия"
+		type = cavalry
+		home = 1600
+	}
+	regiment = {
+		name= "8-я дивизия"
+		type = cavalry
+		home = 1600
+	}
+	regiment = {
+		name= "9-я дивизия"
+		type = cavalry
+		home = 1600
+	}
+	regiment = {
+		name= "10-я дивизия"
+		type = cavalry
+		home = 1600
+	}
+	regiment = {
+		name= "11-я дивизия"
+		type = cavalry
+		home = 1600
+	}
+	regiment = {
+		name= "12-я дивизия"
+		type = cavalry
+		home = 1600
+	}
+	regiment = {
+		name= "13-я дивизия"
+		type = cavalry
+		home = 1600
+	}
+	regiment = {
+		name= "14-я дивизия"
+		type = cavalry
+		home = 1600
+	}
+	regiment = {
+		name= "15-я дивизия"
+		type = cavalry
+		home = 1600
+	}
+	regiment = {
+		name= "16-я дивизия"
+		type = cavalry
+		home = 1600
+	}
+	regiment = {
+		name= "17-я дивизия"
+		type = cavalry
+		home = 1600
+	}
+	regiment = {
+		name= "18-я дивизия"
+		type = cavalry
+		home = 1600
+	}
+	regiment = {
+		name= "19-я дивизия"
+		type = cavalry
+		home = 1600
+	}
+	regiment = {
+		name= "20-я дивизия"
+		type = cavalry
+		home = 1600
+	}
+	regiment = {
+		name= "21-я дивизия"
+		type = cavalry
+		home = 1600
+	}
+
+}

@@ -1,0 +1,23 @@
+
+add_core = AST
+trade_goods = wool
+life_rating = 30
+colonial = 1
+terrain = dry_grassland
+1861.1.1 = { railroad = 1 }
+1914.1.1 = {
+	owner = AST
+	controller = AST
+	colonial = no
+	state_building = {
+		level = 2
+		building = fabric_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = fertilizer_factory
+		upgrade = yes
+	}
+}
+

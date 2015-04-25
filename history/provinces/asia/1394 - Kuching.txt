@@ -1,0 +1,12 @@
+owner = BRU
+controller = BRU
+add_core = BRU
+add_core = MLY
+trade_goods = coffee
+life_rating = 30
+terrain = jungle_hills
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 3
+}

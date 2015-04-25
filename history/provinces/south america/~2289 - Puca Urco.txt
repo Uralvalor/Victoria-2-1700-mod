@@ -1,0 +1,18 @@
+
+add_core = GCO
+add_core = ECU
+add_core = PEU
+trade_goods = timber
+life_rating = 30
+terrain = jungle
+1836.1.1 = {
+	owner = CLM
+	controller = CLM
+	remove_core = SPA
+	remove_core = GCO
+	colonial = no
+}
+1861.1.1 = {
+	owner = PEU
+	controller = PEU
+}

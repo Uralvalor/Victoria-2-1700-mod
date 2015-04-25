@@ -1,0 +1,15 @@
+army = {
+	name = "Àğìèÿ áåÿ Òóíèñà"
+	location = 1725
+	regiment = {
+		name= "1.Askäris"
+		type = infantry
+		home = 1725
+	}
+
+	regiment = {
+		name= "2.Askäris"
+		type = infantry
+		home = 1725
+	}
+}

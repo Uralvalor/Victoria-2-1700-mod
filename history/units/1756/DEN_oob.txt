@@ -1,0 +1,124 @@
+army = {
+	name = "Армия Дании"
+	location = 372
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 372
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 372
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 372
+	}
+
+	regiment = {
+		name= "4-я пехотная бригада"
+		type = artillery
+		home = 372
+	}
+
+	regiment = {
+		name= "5-я пехотная бригада"
+		type = infantry
+		home = 366
+	}
+
+	regiment = {
+		name= "6-я пехотная бригада"
+		type = infantry
+		home = 366
+	}
+
+	regiment = {
+		name= "7-я пехотная бригада"
+		type = infantry
+		home = 366
+	}
+
+	regiment = {
+		name= "1-я кавалерийская бригада"
+		type = cavalry
+		home = 373
+	}
+
+	regiment = {
+		name= "2-я кавалерийская бригада"
+		type = cavalry
+		home = 373
+	}
+
+	regiment = {
+		name= "3-я кавалерийская бригада"
+		type = cavalry
+		home = 373
+	}
+
+}
+
+navy = {
+	name = "Королевский флот"
+	location = 372
+	ship = {
+		name= "Денмарк"
+		type = manowar
+	}
+
+	ship = {
+		name= "Дроннинг Мари"
+		type = manowar
+	}
+
+	ship = {
+		name= "Фредерик ден Сьетте"
+		type = manowar
+	}
+
+
+	ship = {
+		name= "Беллона"
+		type = frigate
+	}
+
+	ship = {
+		name= "Диана"
+		type = frigate
+	}
+
+	ship = {
+		name= "Фрейя"
+		type = frigate
+	}
+
+	ship = {
+		name= "Фюлла"
+		type = frigate
+	}
+
+
+
+
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}
+

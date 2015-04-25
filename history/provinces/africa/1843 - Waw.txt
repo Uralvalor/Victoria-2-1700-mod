@@ -1,0 +1,11 @@
+trade_goods = grain
+life_rating = 15
+terrain = dry_forest
+1836.1.1 = {
+	add_core = SUD
+}
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 3
+}

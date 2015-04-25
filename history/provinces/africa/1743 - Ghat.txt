@@ -1,0 +1,17 @@
+owner = TRI
+controller = TRI
+add_core = TRI
+add_core = LIV
+trade_goods = wool
+life_rating = 25
+terrain = desert_hills
+1861.1.1 = {
+	owner = TUR
+	controller = TUR  colonial = 2
+	colonial = 2
+}
+1914.1.1 = {
+	owner = ITA
+	controller = ITA
+	colonial = 3
+}

@@ -1,0 +1,13 @@
+owner = BAD
+controller = BAD
+add_core = BAD
+add_core = GER
+trade_goods = timber
+life_rating = 35
+terrain = forested_farmland
+1914.1.1 = {
+	owner = GER
+	controller = GER
+	railroad = 5
+	fort = 3
+}

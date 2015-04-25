@@ -1,0 +1,38 @@
+army = {
+	name = "Армия Ганновера"
+	location = 534
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 534
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 535
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 531
+	}
+
+	regiment = {
+		name= "1-я артиллерийская бригада"
+		type = artillery
+		home = 532
+	}
+}
+
+army = {
+	name = "Корпус Геттингена"
+	location = 537
+	
+	regiment = {
+		name = "4-я пехотная бригада"
+		type = infantry
+		home = 537
+	}	
+}

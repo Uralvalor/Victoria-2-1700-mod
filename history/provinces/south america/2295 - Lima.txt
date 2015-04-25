@@ -1,0 +1,29 @@
+owner = SPA
+controller = SPA
+colonial = 2
+add_core = PEU
+trade_goods = precious_metal
+life_rating = 35
+colonial = 3
+terrain = semi_desert_hills
+1836.1.1 = {
+	owner = PBC
+	controller = PBC
+	add_core = PBC
+	remove_core = SPA
+	colonial = no
+}
+1861.1.1 = {
+	owner = PEU
+	controller = PEU
+	remove_core = PBC
+	railroad = 1
+}
+1914.1.1 = {
+	trade_goods = precious_metal
+	state_building = {
+		level = 2
+		building = steel_factory
+		upgrade = yes
+	}
+}

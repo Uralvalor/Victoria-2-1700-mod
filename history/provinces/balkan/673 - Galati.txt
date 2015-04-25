@@ -1,0 +1,28 @@
+owner = MOL
+controller = MOL
+add_core = MOL
+add_core = ROM
+trade_goods = grain
+life_rating = 35
+terrain = good_farmland
+1861.1.1 = {
+	controller = ROM
+	owner = ROM
+}
+1914.1.1 = {
+	state_building = {
+		level = 1
+		building = regular_clothes_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = cement_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = liquor_distillery
+		upgrade = yes
+	}
+}

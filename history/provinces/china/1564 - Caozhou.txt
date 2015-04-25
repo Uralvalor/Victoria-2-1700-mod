@@ -1,0 +1,8 @@
+owner = MCK
+controller = MCK  add_core = CHI  colonial = 2
+trade_goods = grain
+life_rating = 30
+terrain = good_farmland
+1914.1.1 = {
+	trade_goods = precious_metal
+}

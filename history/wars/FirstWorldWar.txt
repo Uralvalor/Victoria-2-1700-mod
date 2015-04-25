@@ -1,0 +1,81 @@
+name = "Первая Мировая Война"
+
+1914.8.12 = {
+	add_attacker = GER
+	add_attacker = KUK
+	add_defender = ENG
+	add_defender = FRA
+	add_defender = RUS
+	add_defender = SER
+	add_defender = MON
+	add_defender = BEL
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = add_to_sphere
+		actor = KUK
+		receiver = SER
+	}
+	war_goal = {
+		casus_belli = add_to_sphere
+		actor = KUK
+		receiver = MON
+	}
+	#war_goal = {
+	#	casus_belli = liberate_country
+	#	actor = ENG
+	#	receiver = TUR
+	#	country = IRQ
+	#}
+	war_goal = {
+		casus_belli = acquire_state
+		actor = ENG
+		receiver = GER
+		state_province_id = 2034
+	}
+	war_goal = {
+		casus_belli = acquire_state
+		actor = ENG
+		receiver = GER
+		state_province_id = 2045
+	}
+	war_goal = {
+		casus_belli = acquire_state
+		actor = ENG
+		receiver = GER
+		state_province_id = 2042
+	}
+	war_goal = {
+		casus_belli = acquire_state
+		actor = ENG
+		receiver = GER
+		state_province_id = 2083
+	}
+	war_goal = {
+		casus_belli = acquire_state
+		actor = ENG
+		receiver = GER
+		state_province_id = 2078
+	}
+	war_goal = {
+		casus_belli = acquire_core_state
+		actor = FRA
+		receiver = GER
+		state_province_id = 412
+	}
+}
+
+1918.11.11 = {
+	rem_attacker = GER
+	rem_attacker = KUK
+	rem_defender = ENG
+	rem_defender = FRA
+	rem_defender = RUS
+	rem_defender = SER
+	rem_defender = MON
+	rem_defender = RUS
+}

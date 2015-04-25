@@ -1,0 +1,14 @@
+owner = ENL
+controller = ENL
+add_core = MEX
+trade_goods = fruit
+life_rating = 30
+colonial = 2
+terrain = jungle_hills
+1750.1.1 = {
+	owner = ENG
+	controller = ENG
+}
+1914.1.1 = {
+	naval_base = 2
+}

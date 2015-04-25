@@ -1,0 +1,112 @@
+army = {
+	name = "I Corpo do exército"
+	location = 2447
+	regiment = {
+		name= "1ª Brigada de Infantaria"
+		type = infantry
+		home = 2447
+	}
+
+	regiment = {
+		name= "2ª Brigada de Infantaria"
+		type = infantry
+		home = 2450
+	}
+
+	regiment = {
+		name= "3ª Brigada de Infantaria"
+		type = infantry
+		home = 2436
+	}
+
+	regiment = {
+		name= "1ª Brigada de Cavalaria"
+		type = cuirassier
+		home = 2447
+	}
+
+	regiment = {
+		name= "2ª Brigada de Cavalaria"
+		type = cuirassier
+		home = 2441
+	}
+
+	regiment = {
+		name= "1ª Brigada de Artilharia"
+		type = artillery
+		home = 2447
+	}
+
+}
+
+army = {
+	name = "II Corpo do exército"
+	location = 2463
+	regiment = {
+		name= "4ª Brigada de Infantaria"
+		type = infantry
+		home = 2463
+	}
+
+	regiment = {
+		name= "5ª Brigada de Infantaria"
+		type = infantry
+		home = 2461
+	}
+
+	regiment = {
+		name= "6ª Brigada de Infantaria"
+		type = infantry
+		home = 2457
+	}
+
+}
+
+army = {
+	name = "III Corpo do exército"
+	location = 2429
+	regiment = {
+		name= "4ª Brigada de Infantaria"
+		type = infantry
+		home = 2429
+	}
+
+	regiment = {
+		name= "5ª Brigada de Infantaria"
+		type = infantry
+		home = 2426
+	}
+
+	regiment = {
+		name= "6ª Brigada de Infantaria"
+		type = infantry
+		home = 2434
+	}
+
+}
+
+navy = {
+	name = "1. Fleet"
+	location = 2447
+	ship = {
+		name= "Manaus"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Rio de Janeiro"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Sao Paulo"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Campos"
+		type = commerce_raider
+	}
+
+}
+

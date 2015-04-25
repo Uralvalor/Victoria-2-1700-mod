@@ -1,0 +1,12 @@
+add_core = CHI
+colonial = 2
+trade_goods = timber
+life_rating = 35
+add_core = GNG
+owner = MCK
+controller = MCK
+terrain = hilly_farmland
+1923.1.1 = {
+	owner = GNG
+	controller = GNG
+}

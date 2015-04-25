@@ -1,0 +1,18 @@
+owner = MUG
+controller = MUG
+add_core = HYD
+add_core = HND
+trade_goods = grain
+life_rating = 35
+
+terrain = marginal_farmland
+1750.1.1 = {
+	owner = KRN
+	controller = KRN
+add_core = KRN
+}
+
+1914.1.1 = {
+	naval_base = 4
+	colonial = 3
+}

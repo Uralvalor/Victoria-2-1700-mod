@@ -1,0 +1,16 @@
+owner = ENL
+controller = ENL
+add_core = ENL
+add_core = ENL
+trade_goods = grain
+life_rating = 35
+fort = 1
+naval_base = 1
+terrain = marginal_farmland
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	railroad = 5
+	naval_base = 5
+}
+
+

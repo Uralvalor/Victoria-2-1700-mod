@@ -1,0 +1,50 @@
+army = {
+	name = "Армия Бихара"
+	location = 1247
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = irregular
+		home = 1247
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = irregular
+		home = 1248
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = irregular
+		home = 1249
+	}
+
+	regiment = {
+		name= "4-я пехотная бригада"
+		type = irregular
+		home = 1250
+	}
+	regiment = {
+		name= "5-я пехотная бригада"
+		type = irregular
+		home = 1247
+	}
+
+	regiment = {
+		name= "6-я пехотная бригада"
+		type = irregular
+		home = 1248
+	}
+
+	regiment = {
+		name= "7-я пехотная бригада"
+		type = irregular
+		home = 1249
+	}
+
+	regiment = {
+		name= "8-я пехотная бригада"
+		type = irregular
+		home = 1250
+	}
+}

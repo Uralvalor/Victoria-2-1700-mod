@@ -1,0 +1,83 @@
+capital = 375
+primary_culture = dutch
+culture = flemish
+religion = protestant
+government = hms_government
+plurality = 5
+nationalvalue = nv_order
+literacy = 0.53
+prestige = 60
+
+civilized = yes
+
+set_country_flag = serfdom_not_abolished
+
+# Political reforms
+slavery = yes_slavery
+upper_house_composition = party_appointed
+vote_franschise = wealth_weighted_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = state_controlled
+voting_system = first_past_the_post
+political_parties = secret_ballots
+minorities = apartheid 
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = low_safety
+health_care = no_health_care
+unemployment_subsidies = acceptable_subsidies
+pensions = no_pensions
+school_reforms = no_schools
+finance_regulation = low_interest  
+
+	land_reform = yes_land_reform
+	admin_reform = yes_admin_reform
+	finance_reform = finance_reform_two 
+	education_reform = yes_education_reform 
+	transport_improv = yes_transport_improv 
+	foreign_training = yes_foreign_training 
+	foreign_weapons = yes_foreign_weapons 
+	military_constructions = yes_military_constructions 
+	foreign_officers = yes_foreign_officers 
+	army_schools = 	yes_army_schools
+	foreign_naval_officers = yes_foreign_naval_officers 
+	naval_schools = yes_naval_schools 
+	foreign_navies = yes_foreign_navies 
+
+ruling_party = HOL_reactionary
+upper_house = {
+	fascist = 0
+	reactionary = 90
+	socialist = 0
+	communist = 0
+}
+
+# Technologies
+
+
+
+water_wheel_power = 1	
+nelsonian_thought = 1
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+military_staff_system = 1
+clipper_design = 1
+mechanized_mining = 1
+ 
+#Inventions
+
+
+# Starting Consciousness
+consciousness = 0
+nonstate_consciousness = 0
+
+
+oob = "NET_oob.txt"
+
+
+1750.1.1 = {
+oob = "/1756/NET_oob.txt"
+ }

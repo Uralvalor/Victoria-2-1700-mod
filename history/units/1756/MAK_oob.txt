@@ -1,0 +1,10 @@
+army = {
+	name = "Армия Мекрана"
+	location = 1222
+	regiment = {
+		name= "1-я бригада"
+		type = cavalry
+		home = 1222
+	}
+}
+

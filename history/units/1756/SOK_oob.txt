@@ -1,0 +1,62 @@
+army = {
+	name = "Армия султана Сокото"
+	location = 1948
+	regiment = {
+		name= "1-я бригада Фульбе"
+		type = cavalry
+		home = 1948
+	}
+
+	regiment = {
+		name= "2-я бригада Фульбе"
+		type = irregular
+		home = 1945
+	}
+
+	regiment = {
+		name= "3-я бригада Фульбе"
+		type = irregular
+		home = 1947
+	}
+
+}
+
+army = {
+	name = "Армия эмира Адамавы"
+	location = 1950
+	regiment = {
+		name= "4-я бригада Фульбе"
+		type = cavalry
+		home = 1950
+	}
+
+	regiment = {
+		name= "5-я бригада Фульбе"
+		type = irregular
+		home = 1942
+	}
+}
+
+army = {
+	name = "Армия эмира Илорина"
+	location = 1927
+	regiment = {
+		name= "1-я бригада Йорубы"
+		type = cavalry
+		home = 1927
+	}
+
+	regiment = {
+		name= "6-я бригада Фульбе"
+		type = irregular
+		home = 1939
+	}
+
+	regiment = {
+		name= "7-я бригада Фульбе"
+		type = irregular
+		home = 1946
+	}
+
+}
+

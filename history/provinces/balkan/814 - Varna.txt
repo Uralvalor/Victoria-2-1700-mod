@@ -1,0 +1,11 @@
+owner = TUR
+controller = TUR  colonial = 2
+add_core = BUL
+trade_goods = cotton
+life_rating = 35
+terrain = hilly_farmland
+1914.1.1 = {
+	owner = BUL
+	controller = BUL
+	remove_core = TUR
+}

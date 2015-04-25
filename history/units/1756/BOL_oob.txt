@@ -1,0 +1,29 @@
+leader = {
+	name = "Хосе Бальивьян"
+	type = land
+	date = 1836.1.1
+	background = generals_aide
+	personality = bold
+}
+
+army = {
+	name = "Армия Боливии"
+	location = 2313 #Chuquisaca (Sucre)
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 2313
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 2310
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 2311
+	}
+}

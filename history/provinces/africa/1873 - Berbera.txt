@@ -1,0 +1,13 @@
+owner = MAJ
+controller = MAJ
+add_core = MAJ
+add_core = GEL
+trade_goods = cotton
+life_rating = 15
+terrain = semi_desert_hills
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 3
+	naval_base = 4
+}

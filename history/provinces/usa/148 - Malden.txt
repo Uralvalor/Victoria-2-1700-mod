@@ -1,0 +1,15 @@
+owner = FRA
+controller = FRA
+colonial = 2 
+ 
+ 
+trade_goods = grain
+life_rating = 35
+terrain = deciduous_forest_hills
+1861.1.1 = {
+	party_loyalty = {
+		ideology = anarcho_liberal					
+		loyalty_value = 25
+	}
+}
+1914.1.1 = { railroad = 3 }

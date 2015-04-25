@@ -1,0 +1,10 @@
+add_core = GCO
+trade_goods = timber
+life_rating = 30
+terrain = jungle
+
+1750.1.1 = {
+	owner = FRA
+	controller = FRA
+colony = 2
+}

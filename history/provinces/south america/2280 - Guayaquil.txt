@@ -1,0 +1,16 @@
+owner = SPA
+controller = SPA
+colonial = 2
+add_core = GCO
+add_core = ECU
+trade_goods = fruit
+life_rating = 35
+colonial = 3
+terrain = marginal_farmland
+1836.1.1 = {
+	owner = ECU
+	controller = ECU
+	remove_core = SPA
+	remove_core = GCO
+	colonial = no
+}

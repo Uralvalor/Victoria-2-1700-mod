@@ -1,0 +1,11 @@
+owner = SPA
+controller = SPA
+colonial = 2
+add_core = TDT
+add_core = FWI
+trade_goods = cotton
+life_rating = 35
+terrain = jungle_farmland
+1914.1.1 = {
+	trade_goods = oil
+}

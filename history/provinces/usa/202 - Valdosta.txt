@@ -1,0 +1,21 @@
+add_core = XGA
+trade_goods = cotton
+life_rating = 35
+terrain = marginal_farmland
+1750.1.1 = {
+	owner = ENG
+	controller = ENG
+colony = 2
+}
+1861.1.1 = {
+	controller = CSA
+	owner = CSA
+	add_core = CSA
+}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	railroad = 5
+	 
+	 
+	remove_core = CSA
+}

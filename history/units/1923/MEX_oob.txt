@@ -1,0 +1,106 @@
+army = {
+	name = "јрми€ ћексики"
+	location = 2174
+	regiment = {
+		name= "1-€ дивизи€"
+		type = infantry
+		home = 2167
+	}
+
+	regiment = {
+		name= "2-€ дивизи€"
+		type = infantry
+		home = 2172
+	}
+
+	regiment = {
+		name= "3-€ дивизи€"
+		type = infantry
+		home = 2174
+	}
+
+	regiment = {
+		name= "4-€ дивизи€"
+		type = infantry
+		home = 2174
+	}
+
+	regiment = {
+		name= "5-€ дивизи€"
+		type = infantry
+		home = 2174
+	}
+
+	regiment = {
+		name= "6-€ дивизи€"
+		type = infantry
+		home = 2174
+	}
+
+	regiment = {
+		name= "1-й дивизион"
+		type = hussar
+		home = 2176
+	}
+
+	regiment = {
+		name= "2-й дивизион"
+		type = hussar
+		home = 2176
+	}
+
+	regiment = {
+		name= "3-й дивизион"
+		type = hussar
+		home = 2177
+	}
+
+	regiment = {
+		name= "4-й дивизион"
+		type = hussar
+		home = 2177
+	}
+
+}
+
+army = {
+	name = "¬осточна€ јрми€"
+	location = 2146
+	regiment = {
+		name= "7-€ дивизи€"
+		type = infantry
+		home = 2176
+	}
+
+	regiment = {
+		name= "8-€ дивизи€"
+		type = infantry
+		home = 2176
+	}
+
+	regiment = {
+		name= "9-€ дивизи€"
+		type = infantry
+		home = 2176
+	}
+
+	regiment = {
+		name= "10-€ дивизи€"
+		type = infantry
+		home = 2177
+	}
+
+	regiment = {
+		name= "11-€ дивизи€"
+		type = infantry
+		home = 2177
+	}
+
+	regiment = {
+		name= "5-й дивизион"
+		type = hussar
+		home = 2177
+	}
+
+}
+

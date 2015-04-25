@@ -1,0 +1,13 @@
+owner = ANH
+controller = ANH
+add_core = ANH
+add_core = GER
+trade_goods = fruit
+life_rating = 35
+terrain = good_farmland
+1914.1.1 = {
+	owner = GER
+	controller = GER
+	railroad = 5
+	fort = 2
+}

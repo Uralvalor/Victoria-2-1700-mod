@@ -1,0 +1,46 @@
+
+add_core = AST
+trade_goods = grain
+life_rating = 30
+colonial = 1
+terrain = forested_farmland
+1861.1.1 = {
+	colonial = no
+	state_building = {
+		level = 1
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = lumber_mill
+		upgrade = yes
+	}
+}
+1861.1.1 = { railroad = 1 }
+1914.1.1 = {
+	owner = AST
+	controller = AST
+	colonial = no
+	naval_base = 4
+	state_building = {
+		level = 2
+		building = regular_clothes_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = cement_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = liquor_distillery
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = paper_mill
+		upgrade = yes
+	}
+}

@@ -1,0 +1,9 @@
+
+trade_goods = iron
+life_rating = 25
+terrain = boreal_forest
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

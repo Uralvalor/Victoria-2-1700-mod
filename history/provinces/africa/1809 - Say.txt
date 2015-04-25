@@ -1,0 +1,11 @@
+owner = DND
+controller = DND
+add_core = DND
+trade_goods = grain
+life_rating = 15
+terrain = dry_grassland
+1914.1.1 = {
+	owner = FRA
+	controller = FRA
+	colonial = 3
+}

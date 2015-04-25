@@ -1,0 +1,13 @@
+owner = MAR
+controller = MAR
+add_core = MAR
+add_core = MAH
+add_core = HND
+trade_goods = tea
+life_rating = 35
+terrain = dry_forest_hills
+1836.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 2
+}

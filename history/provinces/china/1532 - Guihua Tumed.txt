@@ -1,0 +1,15 @@
+owner = MCK
+controller = MCK
+add_core = MGL
+add_core = MCK
+trade_goods = coal
+life_rating = 30
+terrain = hilly_grassland
+1914.1.1 = {
+	add_core = XBI
+	remove_core = MGL
+}
+1923.1.1 = {
+	owner = XBI
+	controller = XBI
+}

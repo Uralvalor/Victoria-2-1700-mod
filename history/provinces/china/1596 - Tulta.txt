@@ -1,0 +1,14 @@
+
+trade_goods = cotton
+life_rating = 27
+terrain = mountain_grassland
+owner = XIN
+controller = XIN
+add_core = XIN
+1914.1.1 = {
+	add_core = XIN
+}
+1923.1.1 = {
+	owner = XIN
+	controller = XIN
+}

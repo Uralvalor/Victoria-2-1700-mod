@@ -1,0 +1,59 @@
+army = {
+	name = "Армия Зулу"
+	location = 2113
+	regiment = {
+		name= "1-я бригада Фасимба"
+		type = irregular
+		home = 2113
+	}
+
+	regiment = {
+		name= "2-я бригада Фасимба"
+		type = irregular
+		home = 2113
+	}
+
+	regiment = {
+		name= "3-я бригада Фасимба"
+		type = irregular
+		home = 2113
+	}
+
+	regiment = {
+		name= "1-я бригада Тулвана"
+		type = irregular
+		home = 2113
+	}
+
+	regiment = {
+		name= "2-я бригада Тулвана"
+		type = irregular
+		home = 2113
+	}
+
+	regiment = {
+		name= "3-я бригада Тулвана"
+		type = irregular
+		home = 2113
+	}
+
+	regiment = {
+		name= "1-я бригада Гобамахоси"
+		type = irregular
+		home = 2112
+	}
+
+	regiment = {
+		name= "2-я бригада Гобамахоси"
+		type = irregular
+		home = 2112
+	}
+
+	regiment = {
+		name= "3-я бригада Гобамахоси"
+		type = irregular
+		home = 2112
+	}
+
+}
+

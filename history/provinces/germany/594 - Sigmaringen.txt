@@ -1,0 +1,18 @@
+owner = PRU
+controller = PRU
+add_core = SIG
+add_core = GER
+trade_goods = grain
+life_rating = 35
+terrain = deciduous_forest_hills
+1861.1.1 = {
+owner = PRU
+controller = PRU
+add_core = PRU
+}
+1914.1.1 = {
+	owner = GER
+	controller = GER
+	railroad = 5
+	fort = 3
+}

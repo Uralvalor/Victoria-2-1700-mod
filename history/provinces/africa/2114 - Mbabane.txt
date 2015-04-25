@@ -1,0 +1,23 @@
+owner = SUA
+controller = SUA
+add_core = SUA
+add_core = ZUL
+add_core = SAF
+trade_goods = grain
+life_rating = 25
+terrain = dry_forest_hills
+1836.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 2
+}
+1861.1.1 = {
+	owner = TRN
+	controller = TRN
+	add_core = TRN
+	colonial = no
+}
+1914.1.1 = {
+	owner = SAF
+	controller = SAF
+}

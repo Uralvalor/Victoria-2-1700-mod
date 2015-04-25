@@ -1,0 +1,348 @@
+
+RUS = {
+	influence_value = 100
+	value = 100
+
+}
+
+leader = {
+	name = "Henry de Nassau"
+	date = 1699.1.1
+	type = land
+	personality = defiant
+	background = school_of_defense
+}
+
+army = {
+	name = "Army of the United Provinces"
+	location = 375
+	regiment = {
+		name= "1st Guard Infantry"
+		type = guard
+		home = 375
+	}
+	regiment = {
+		name= "1st Cuirassiers"
+		type = cuirassier
+		home = 375
+	}
+	regiment = {
+		name= "2nd Cuirassiers"
+		type = cuirassier
+		home = 375
+	}
+	regiment = {
+		name= "3rd Cuirassiers"
+		type = cuirassier
+		home = 375
+	}
+	regiment = {
+		name= "4th Cuirassiers"
+		type = cuirassier
+		home = 375
+	}
+	regiment = {
+		name= "5th Cuirassiers"
+		type = cuirassier
+		home = 375
+	}
+	regiment = {
+		name= "6th Cuirassiers"
+		type = cuirassier
+		home = 375
+	}
+	regiment = {
+		name= "7th Cuirassiers"
+		type = cuirassier
+		home = 375
+	}
+	regiment = {
+		name= "1st Austrian Artillery"
+		type = artillery
+		home = 375
+	}
+	regiment = {
+		name= "2nd Austrian Artillery"
+		type = artillery
+		home = 375
+	}
+	regiment = {
+		name= "3rd Austrian Artillery"
+		type = artillery
+		home = 375
+	}
+	regiment = {
+		name= "4th Austrian Artillery"
+		type = artillery
+		home = 375
+	}
+	regiment = {
+		name= "5th Austrian Artillery"
+		type = artillery
+		home = 375
+	}	
+	regiment = {
+		name= "2nd 'Van Welderen' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "3rd 'Van Beijmeijm' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "4th 'Nassau-Saarbrücken' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "5th 'St Amant' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "6th 'Lindeboom' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "7th 'Van Birkenfeld' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "8th 'Van Heuckelom' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "9th 'Van Coehoorn' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "10th 'De Tassin de Torsay' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "11th 'Van Swansbel' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "12th 'Van Goor' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "13th 'Van Salisch' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "14th 'Fagel' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "15th 'Van Soutelande' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "16th 'Van Slangenburg' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "17th 'Brandenburg' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "18th 'Von Dohna' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "19th 'Usingen' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "20th 'Holstein-Norburg' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "21st 'Thierheim' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "22nd 'Van Amelisweerd' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "23rd 'Van der Beke' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "24th 'Noyelles' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "25th 'Van Sparre' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "26th 'De Vassy' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "27th 'Nassau-Woudenberg' Line"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "29th 'Van Keppel' Line"
+		type = infantry
+		home = 375
+	}
+}
+
+navy = {
+	name = "Koninklijke Marine"
+	location = 375 #Amsterdam
+	ship = {
+		name= "Doggersbank"
+		type = manowar
+	}
+
+	ship = {
+		name= "Amsterdam"
+		type = manowar
+	}
+
+	ship = {
+		name= "Maria Regensbergen"
+		type = frigate
+	}
+
+	ship = {
+		name= "Pallas"
+		type = frigate
+	}
+
+	ship = {
+		name= "Proserpine"
+		type = frigate
+	}
+
+	ship = {
+		name= "Daphne"
+		type = frigate
+	}
+
+	ship = {
+		name= "Espion"
+		type = frigate
+	}
+
+	ship = {
+		name= "Zeepaard"
+		type = frigate
+	}
+
+	ship = {
+		name= "Irene"
+		type = frigate
+	}
+
+	ship = {
+		name= "Orpheus"
+		type = frigate
+	}
+
+
+	ship = {
+		name= "1e Transport Eskader"
+		type = clipper_transport
+	}
+}
+
+
+
+navy = {
+	name = "Koninklijke NI Marine"
+	location = 1413 #Batavia
+	ship = {
+		name= "Admiraal de Ruyter"
+		type = manowar
+	}
+
+	ship = {
+		name= "Verwachting"
+		type = manowar
+	}
+
+	ship = {
+		name= "Aurora"
+		type = frigate
+	}
+
+	ship = {
+		name= "Iris"
+		type = frigate
+	}
+
+	ship = {
+		name= "Fenix"
+		type = frigate
+	}
+
+	ship = {
+		name= "Eendracht"
+		type = frigate
+	}
+
+	ship = {
+		name= "2e Transport Eskader"
+		type = clipper_transport
+	}
+}
+
+
+
+navy = {
+	name = "Koninklijke WI Marine"
+	location = 2234 #Curacao
+
+	ship = {
+		name= "Admiraal Generaal"
+		type = manowar
+	}
+
+	ship = {
+		name= "Diana"
+		type = frigate
+	}
+
+	ship = {
+		name= "Hoop"
+		type = frigate
+	}
+
+	ship = {
+		name= "3e Transport Eskader"
+		type = clipper_transport
+	}
+
+}

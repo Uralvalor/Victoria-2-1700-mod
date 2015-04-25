@@ -1,0 +1,23 @@
+army = {
+	name = "Королевская армия Камбоджи"
+	location = 1364
+	regiment = {
+		name= "1-я бригада"
+		type = irregular
+		home = 1364
+	}
+
+	regiment = {
+		name= "2-я бригада"
+		type = irregular
+		home = 1364
+	}
+
+	regiment = {
+		name= "3-я бригада"
+		type = irregular
+		home = 1367
+	}
+
+}
+

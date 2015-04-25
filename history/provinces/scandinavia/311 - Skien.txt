@@ -1,0 +1,12 @@
+owner = DEN
+controller = DEN
+add_core = SCA
+add_core = NOR
+trade_goods = timber
+life_rating = 35
+terrain = conifer_forest_hills
+1914.1.1 = {
+	owner = NOR
+	controller = NOR
+	remove_core = SWE
+}

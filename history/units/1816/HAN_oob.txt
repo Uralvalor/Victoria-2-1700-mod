@@ -1,0 +1,30 @@
+leader = {
+	name = "Êàğë Àâãóñò ôîí Àëüòåí"
+	picture = han_gen_alten
+	date = 1812.1.1
+	type = land
+	personality = spirited
+	background = old_school
+}
+
+army = {
+	name = "Hannöversche Heer"
+	location = 534
+	regiment = {
+		name= "1. Hannöversche Infanteriebrigade"
+		type = infantry
+		home = 534
+	}
+
+	regiment = {
+		name= "2. Hannöversche Infanteriebrigade"
+		type = infantry
+		home = 534
+	}
+
+	regiment = {
+		name= "3. Hannöversche Infanteriebrigade"
+		type = infantry
+		home = 534
+	}
+}

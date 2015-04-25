@@ -1,0 +1,20 @@
+owner = KHI
+controller = KHI
+add_core = KHI
+trade_goods = grain
+life_rating = 27
+terrain = desert
+1861.1.1 = {
+	owner = RUS
+	controller = RUS
+	colonial = 2
+}
+1914.1.1 = {
+	trade_goods = oil
+}
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+	remove_core = RUS
+}

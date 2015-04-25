@@ -1,0 +1,12 @@
+trade_goods = fruit
+life_rating = 15
+terrain = mountain_grassland
+1914.1.1 = {
+	owner = GER
+	controller = GER
+	colonial = 3
+}
+1923.1.1 = {
+	owner = ENG
+	controller = ENG
+}

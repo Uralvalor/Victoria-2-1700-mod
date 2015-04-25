@@ -1,0 +1,45 @@
+leader = {
+	name = "Андрес де Санта-Крус"
+	type = land
+	date = 1836.1.1
+	personality = arrogant
+	background = old_school
+}
+
+navy = {
+	name = "Флот Перу"
+	location = 2295
+	ship = {
+		name= "Монтеагудо"
+		type = frigate
+	}
+
+	ship = {
+		name= "Санта-Крус"
+		type = frigate
+	}
+
+}
+
+army = {
+	name = "Армия Перу"
+	location = 2295
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 2295
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 2295
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 2302
+	}
+
+}

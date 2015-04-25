@@ -1,0 +1,12 @@
+owner = NET
+controller = NET
+add_core = SAF
+trade_goods = fruit
+life_rating = 35
+colonial = 2
+terrain = mountain_grassland
+1914.1.1 = {
+	owner = SAF
+	controller = SAF
+	colonial = no
+}

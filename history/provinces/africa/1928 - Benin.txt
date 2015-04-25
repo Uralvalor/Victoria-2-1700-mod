@@ -1,0 +1,14 @@
+owner = BEN
+controller = BEN
+add_core = BEN
+add_core = OYO
+trade_goods = cattle
+life_rating = 15
+terrain = jungle_farmland
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	add_core = SOK
+	colonial = 3
+	naval_base = 4
+}

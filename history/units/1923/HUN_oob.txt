@@ -1,0 +1,153 @@
+army = {
+	name = "1-я Венгерская армия"
+	location = 641
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 624
+	}
+
+	regiment = {
+		name= "2-я дивизия"
+		type = infantry
+		home = 624
+	}
+
+	regiment = {
+		name= "3-я дивизия"
+		type = infantry
+		home = 636
+	}
+
+	regiment = {
+		name= "4-я дивизия"
+		type = infantry
+		home = 636
+	}
+	
+	regiment = {
+		name= "5-я дивизия"
+		type = infantry
+		home = 636
+	}
+
+	regiment = {
+		name= "6-я дивизия"
+		type = infantry
+		home = 636
+	}
+	
+	regiment = {
+		name= "7-я дивизия"
+		type = infantry
+		home = 636
+	}
+
+	regiment = {
+		name= "8-я дивизия"
+		type = infantry
+		home = 636
+	}
+
+	regiment = {
+		name= "9-я дивизия"
+		type = infantry
+		home = 636
+	}
+
+	regiment = {
+		name= "10-я дивизия"
+		type = infantry
+		home = 640
+	}
+
+	regiment = {
+		name= "11-я дивизия"
+		type = infantry
+		home = 640
+	}
+
+	regiment = {
+		name= "12-я дивизия"
+		type = infantry
+		home = 641
+	}
+
+}
+
+army = {
+	name = "2-я Венгерская армия"
+	location = 639
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 641
+	}
+
+	regiment = {
+		name= "2-я дивизия"
+		type = infantry
+		home = 641
+	}
+
+	regiment = {
+		name= "3-я дивизия"
+		type = infantry
+		home = 641
+	}
+
+	regiment = {
+		name= "4-я дивизия"
+		type = infantry
+		home = 641
+	}
+	
+	regiment = {
+		name= "5-я дивизия"
+		type = infantry
+		home = 642
+	}
+
+	regiment = {
+		name= "6-я дивизия"
+		type = infantry
+		home = 642
+	}
+	
+	regiment = {
+		name= "7-я дивизия"
+		type = infantry
+		home = 642
+	}
+
+	regiment = {
+		name= "8-я дивизия"
+		type = infantry
+		home = 642
+	}
+
+	regiment = {
+		name= "9-я дивизия"
+		type = infantry
+		home = 643
+	}
+
+	regiment = {
+		name= "10-я дивизия"
+		type = infantry
+		home = 643
+	}
+
+	regiment = {
+		name= "11-я дивизия"
+		type = infantry
+		home = 643
+	}
+
+	regiment = {
+		name= "12-я дивизия"
+		type = infantry
+		home = 644
+	}
+
+}

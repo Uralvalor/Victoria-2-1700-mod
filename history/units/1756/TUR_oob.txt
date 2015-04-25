@@ -1,0 +1,486 @@
+#Sphere of Influence
+PER = {
+	value = 75		#relation
+	level = 2		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+ALD = {
+	value = 125	level = 5	influence_value = 25
+
+
+}
+
+TRI = {
+	value = 125	level = 5	influence_value = 25
+
+}
+
+TUN = {
+	value = 125		level = 5	influence_value = 25
+}
+
+
+MOL = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+WAL = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+
+CRI = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+army = {
+	name = "Имперская гвардия"
+	location = 860
+	regiment = {
+		name= "1-я гвардейская бригада"
+		type = infantry
+		home = 860
+	}
+
+	regiment = {
+		name= "2-я гвардейская бригада"
+		type = infantry
+		home = 828
+	}
+
+	regiment = {
+		name= "3-я гвардейская бригада"
+		type = infantry
+		home = 859
+	}
+
+	regiment = {
+		name= "4-я гвардейская бригада"
+		type = artillery
+		home = 861
+	}
+
+}
+
+army = {
+	name = "Дунайская армия"
+	location = 810
+	regiment = {
+		name= "1-я бригада сипахов"
+		type = cavalry
+		home = 798
+	}
+
+	regiment = {
+		name= "2-я бригада сипахов"
+		type = cavalry
+		home = 799
+	}
+
+	regiment = {
+		name= "3-я бригада сипахов"
+		type = cavalry
+		home = 802
+	}
+
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 802
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 803
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 803
+	}
+
+	regiment = {
+		name= "4-я пехотная бригада"
+		type = artillery
+		home = 804
+	}
+
+	regiment = {
+		name= "1-я резервная бригада Измира"
+		type = irregular
+		home = 806
+	}
+
+	regiment = {
+		name= "2-я резервная бригада Измира"
+		type = irregular
+		home = 807
+	}
+
+	regiment = {
+		name= "3-я резервная бригада Измира"
+		type = irregular
+		home = 807
+	}
+}
+	
+army = {
+	name = "Дивизия Бурсы"
+	location = 849
+	
+
+	regiment = {
+		name= "1-я резервная бригада Бурсы"
+		type = irregular
+		home = 849
+	}
+
+	regiment = {
+		name= "2-я резервная бригада Бурсы"
+		type = irregular
+		home = 850
+	}
+
+	regiment = {
+		name= "3-я резервная бригада Бурсы"
+		type = irregular
+		home = 851
+	}
+
+}
+
+army = {
+	name = "Анатолийская армия"
+	location = 878
+	regiment = {
+		name= "5-я пехотная бригада"
+		type = infantry
+		home = 882
+	}
+
+	regiment = {
+		name= "6-я пехотная бригада"
+		type = infantry
+		home = 884
+	}
+
+	regiment = {
+		name= "7-я пехотная бригада"
+		type = infantry
+		home = 879
+	}
+
+	regiment = {
+		name= "8-я пехотная бригада"
+		type = artillery
+		home = 888
+	}
+
+	regiment = {
+		name= "1-я резервная бригада Карса"
+		type = irregular
+		home = 888
+	}
+
+	regiment = {
+		name= "2-я резервная бригада Карса"
+		type = irregular
+		home = 887
+	}
+
+	regiment = {
+		name= "3-я резервная бригада Карса"
+		type = irregular
+		home = 887
+	}
+
+	regiment = {
+		name= "1-я резервная бригада Трабзона"
+		type = irregular
+		home = 876
+	}
+
+	regiment = {
+		name= "2-я резервная бригада Трабзона"
+		type = irregular
+		home = 883
+	}
+
+	regiment = {
+		name= "3-я резервная бригада Трабзона"
+		type = irregular
+		home = 869
+	}
+
+}
+
+army = {
+	name = "Армия Силистрии"
+	location = 818
+	regiment = {
+		name= "4-я бригада сипахов"
+		type = cavalry
+		home = 810
+	}
+
+	regiment = {
+		name= "5-я бригада сипахов"
+		type = cavalry
+		home = 811
+	}
+
+	regiment = {
+		name= "6-я бригада сипахов"
+		type = cavalry
+		home = 812
+	}
+
+	regiment = {
+		name= "9-я пехотная бригада"
+		type = infantry
+		home = 813
+	}
+
+	regiment = {
+		name= "10-я пехотная бригада"
+		type = infantry
+		home = 818
+	}
+
+	regiment = {
+		name= "11-я пехотная бригада"
+		type = infantry
+		home = 674
+	}
+
+	regiment = {
+		name= "1-я резервная бригада Диярбакыра"
+		type = irregular
+		home = 675
+	}
+
+	regiment = {
+		name= "2-я резервная бригада Диярбакыра"
+		type = irregular
+		home = 809
+	}
+
+	regiment = {
+		name= "3-я резервная бригада Диярбакыра"
+		type = irregular
+		home = 814
+	}
+
+}
+
+army = {
+	name = "Арабская армия"
+	location = 925
+	regiment = {
+		name= "12-я пехотная бригада"
+		type = infantry
+		home = 925
+	}
+
+	regiment = {
+		name= "13-я пехотная бригада"
+		type = infantry
+		home = 925
+	}
+
+	regiment = {
+		name= "14-я пехотная бригада"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name= "1-я резервная бригада Халаба"
+		type = irregular
+		home = 923
+	}
+
+	regiment = {
+		name= "2-я резервная бригада Халаба"
+		type = irregular
+		home = 923
+	}
+
+	regiment = {
+		name= "3-я резервная бригада Халаба"
+		type = irregular
+		home = 923
+	}
+
+}
+
+army = {
+	name = "Армия Триполи"
+	location = 1733
+	regiment = {
+		name= "7-я бригада сипахов"
+		type = cavalry
+		home = 1733
+	}
+
+	regiment = {
+		name= "8-я бригада сипахов"
+		type = cavalry
+		home = 1731
+	}
+}
+
+army = {
+	name = "Армия бея Бенгази"
+	location = 1735
+	regiment = {
+		name= "1-я аскарийская бригада"
+		type = irregular
+		home = 1735
+	}
+
+	regiment = {
+		name= "2-я аскарийская бригада"
+		type = irregular
+		home = 1734
+	}
+}
+
+navy = {
+	name = "Османский флот"
+	location = 860
+	ship = {
+		name= "Мессудие"
+		type = manowar
+	}
+
+	ship = {
+		name= "Седд Аль-Бахр"
+		type = manowar
+	}
+
+	ship = {
+		name= "Анкай-Бахри"
+		type = manowar
+	}
+
+	ship = {
+		name= "Таус-Бахри"
+		type = manowar
+	}
+
+	ship = {
+		name= "Тенфик-Нюма"
+		type = manowar
+	}
+
+	ship = {
+		name= "Бешареш-Нюма"
+		type = manowar
+	}
+
+	ship = {
+		name= "Килид-Бахри"
+		type = manowar
+	}
+
+	ship = {
+		name= "Хибет-Андаз"
+		type = manowar
+	}
+
+	ship = {
+		name= "Мелек-Бахри"
+		type = manowar
+	}
+
+	ship = {
+		name= "Сайад-Бахри"
+		type = manowar
+	}
+
+	ship = {
+		name= "Галбанк-Нусрет"
+		type = manowar
+	}
+
+	ship = {
+		name= "Джебель-Андаз"
+		type = manowar
+	}
+
+	ship = {
+		name= "Искандерия"
+		type = frigate
+	}
+
+	ship = {
+		name= "Бадере-Заффар"
+		type = frigate
+	}
+
+	ship = {
+		name= "Махубей Субхам"
+		type = frigate
+	}
+
+	ship = {
+		name= "Метелин"
+		type = frigate
+	}
+
+	ship = {
+		name= "Денювет"
+		type = frigate
+	}
+
+	ship = {
+		name= "Рехбер-Алим"
+		type = frigate
+	}
+
+	ship = {
+		name= "Малбаик-Несурет"
+		type = frigate
+	}
+
+	ship = {
+		name= "Бедр-Зафар"
+		type = frigate
+	}
+
+	ship = {
+		name= "Мескени Гази"
+		type = frigate
+	}
+
+	ship = {
+		name= "Факим-Зафар"
+		type = frigate
+	}
+
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}
+

@@ -1,0 +1,51 @@
+army = {
+	name = "1-й корпус"
+	location = 599
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 599
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 599
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 599
+	}
+
+	regiment = {
+		name= "4-я пехотная бригада"
+		type = artillery
+		home = 599
+	}
+
+}
+
+army = {
+	name = "2-й корпус"
+	location = 601
+	regiment = {
+		name= "5-я пехотная бригада"
+		type = infantry
+		home = 601
+	}
+
+	regiment = {
+		name= "6-я пехотная бригада"
+		type = infantry
+		home = 601
+	}
+
+	regiment = {
+		name= "7-я пехотная бригада"
+		type = infantry
+		home = 601
+	}
+
+}

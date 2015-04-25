@@ -1,0 +1,71 @@
+army = {
+	name = "јрми€ ¬енесуэлы"
+	location = 2264
+	regiment = {
+		name= "1-€ пехотна€ дивизи€"
+		type = infantry
+		home = 2264
+	}
+
+	regiment = {
+		name= "2-€ пехотна€ дивизи€"
+		type = infantry
+		home = 2264
+	}
+
+	regiment = {
+		name= "3-€ пехотна€ дивизи€"
+		type = infantry
+		home = 2264
+	}
+
+	regiment = {
+		name= "4-€ пехотна€ дивизи€"
+		type = infantry
+		home = 2264
+	}
+
+	regiment = {
+		name= "5-€ пехотна€ дивизи€"
+		type = infantry
+		home = 2267
+	}
+
+	regiment = {
+		name= "6-€ пехотна€ дивизи€"
+		type = infantry
+		home = 2268
+	}
+
+	regiment = {
+		name= "7-€ пехотна€ дивизи€"
+		type = infantry
+		home = 2269
+	}
+
+	regiment = {
+		name= "8-€ пехотна€ дивизи€"
+		type = infantry
+		home = 2270
+	}
+
+	regiment = {
+		name= "1-€ конна€ дивизи€"
+		type = cuirassier
+		home = 2271
+	}
+
+	regiment = {
+		name= "2-€ конна€ дивизи€"
+		type = cuirassier
+		home = 2271
+	}
+
+	regiment = {
+		name= "3-€ конна€ дивизи€"
+		type = cuirassier
+		home = 2276
+	}
+
+}
+

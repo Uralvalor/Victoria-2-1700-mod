@@ -1,0 +1,19 @@
+ 
+ 
+add_core = URU
+add_core = LPL
+add_core = BRZ
+trade_goods = cattle
+life_rating = 35
+terrain = good_farmland
+1750.1.1 = {
+	owner = SPA
+	controller = SPA
+colony = 2
+}
+1836.1.1 = {
+	owner = URU
+	controller = URU
+	remove_core = LPL
+	remove_core = BRZ
+}

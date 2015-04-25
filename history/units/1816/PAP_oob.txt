@@ -1,0 +1,17 @@
+army = {
+	name = "Esercito Pontificio"
+	location = 749
+	regiment = {
+		name= "1. Zuavi Pontifici"
+		type = infantry
+		home = 741
+	}
+
+	regiment = {
+		name= "2. Zuavi Pontifici - Sancti Patricii"
+		type = infantry
+		home = 749
+	}
+}
+
+

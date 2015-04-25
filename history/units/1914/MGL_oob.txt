@@ -1,0 +1,35 @@
+army = {
+	name = "ћонгольска€ арми€"
+	location = 1465
+	regiment = {
+		name= "1-й отр€д"
+		type = irregular
+		home = 1465
+	}
+
+	regiment = {
+		name= "2-й отр€д"
+		type = irregular
+		home = 1465
+	}
+
+	regiment = {
+		name= "3-й отр€д"
+		type = irregular
+		home = 1466
+	}
+
+	regiment = {
+		name= "4-й отр€д"
+		type = irregular
+		home = 1468
+	}
+
+	regiment = {
+		name= "5-й отр€д"
+		type = irregular
+		home = 2608
+	}
+
+}
+

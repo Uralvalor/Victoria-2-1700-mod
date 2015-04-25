@@ -1,0 +1,11 @@
+owner = SPA
+controller = SPA
+add_core = SPA
+trade_goods = fish
+life_rating = 35
+colonial = 2
+1914.1.1 = {
+	owner = SPA
+	controller = SPA
+	colonial = 3
+}

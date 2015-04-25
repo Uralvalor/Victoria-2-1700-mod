@@ -1,0 +1,13 @@
+owner = FRA
+controller = FRA
+colonial = 2 
+ 
+ 
+add_core = QUE
+add_core = CAN
+add_core = NEN
+trade_goods = timber
+life_rating = 35
+terrain = conifer_forest_hills
+1861.1.1 = { railroad = 1 }
+1914.1.1 = { railroad = 4 }

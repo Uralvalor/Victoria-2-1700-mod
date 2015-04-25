@@ -1,0 +1,22 @@
+owner = BSH
+controller = BSH
+add_core = BSH
+add_core = SAF
+trade_goods = iron
+life_rating = 25
+terrain = dry_grassland
+1836.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 2
+}
+1861.1.1 = {
+	owner = ORA
+	controller = ORA
+	add_core = ORA
+	colonial = no
+}
+1914.1.1 = {
+	owner = SAF
+	controller = SAF
+}

@@ -1,0 +1,52 @@
+1954 = {
+	aristocrats = {
+		culture = portuguese
+		religion = catholic
+		size = 18
+	}
+	clergymen = {
+		culture = portuguese
+		religion = catholic
+		size = 4
+	}
+	bureaucrats = {
+		culture = portuguese
+		religion = catholic
+		size = 4
+	}
+	artisans = {
+		culture = portuguese
+		religion = catholic
+		size = 4
+	}
+	soldiers = {
+		culture = portuguese
+		religion = catholic
+		size = 4
+	}
+	clergymen = {
+		culture = african_minor
+		religion = catholic
+		size = 45
+	}
+	artisans = {
+		culture = african_minor
+		religion = catholic
+		size = 182
+	}
+	soldiers = {
+		culture = african_minor
+		religion = catholic
+		size = 91
+	}
+	farmers = {
+		culture = african_minor
+		religion = catholic
+		size = 500
+	}
+	slaves = {
+		culture = african_minor
+		religion = catholic
+		size = 3139
+	}
+}

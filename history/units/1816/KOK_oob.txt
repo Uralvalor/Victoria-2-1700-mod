@@ -1,0 +1,43 @@
+army = {
+	name = "1-я армия Коканда"
+	location = 1202
+	regiment = {
+		name= "1st Brigade"
+		type = irregular
+		home = 1189
+	}
+
+	regiment = {
+		name= "2nd Brigade"
+		type = irregular
+		home = 1189
+	}
+
+	regiment = {
+		name= "3rd Brigade"
+		type = irregular
+		home = 1189
+	}
+}
+
+army = {
+	name = "2-я армия Коканда"
+	location = 1208
+	regiment = {
+		name= "4th Brigade"
+		type = irregular
+		home = 1190
+	}
+
+	regiment = {
+		name= "5th Brigade"
+		type = irregular
+		home = 1203
+	}
+
+	regiment = {
+		name= "6th Brigade"
+		type = irregular
+		home = 1203
+	}
+}

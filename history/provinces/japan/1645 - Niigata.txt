@@ -1,0 +1,16 @@
+owner = YZW
+controller = YZW
+add_core = YZW
+add_core = TKG
+trade_goods = grain
+life_rating = 35
+terrain = marginal_farmland
+1914.1.1 = {
+	railroad = 3
+	remove_core = YZW
+	remove_core = TKG
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}
+

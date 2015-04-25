@@ -1,0 +1,23 @@
+owner = SPA
+controller = SPA
+colonial = 2
+add_core = GCO
+add_core = VNZ
+trade_goods = fruit
+life_rating = 30
+terrain = mountain_farmland
+1836.1.1 = {
+	 
+	 
+	remove_core = SPA
+	remove_core = GCO
+	colonial = no
+}
+
+1914.1.1 = {
+	state_building = {
+		level = 2
+		building = steamer_shipyard
+		upgrade = yes
+	}
+}

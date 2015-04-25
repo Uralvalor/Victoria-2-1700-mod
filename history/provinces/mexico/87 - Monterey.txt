@@ -1,0 +1,18 @@
+
+add_core = MEX
+add_core = CAL
+trade_goods = fruit
+life_rating = 35
+terrain = hilly_farmland
+1836.1.1 = {
+	remove_core = SPA
+}
+1861.1.1 = {
+	 
+	 
+	add_core = USA
+	colonial = no
+}
+1914.1.1 = {
+	trade_goods = oil
+}

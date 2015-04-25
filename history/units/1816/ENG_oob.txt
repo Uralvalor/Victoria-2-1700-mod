@@ -1,0 +1,1554 @@
+#Sphere of Influence
+
+EGY = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+PER = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+AFG = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+PAN = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+BUR = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+JOH = { 
+	value = 50
+	level = 3
+}
+NET = {
+	value = -100
+		#relation
+
+	level = 4
+		#3=cordial, 4 = friendly, 5 sphere
+
+	influence_value = 25
+
+}
+
+DEN = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+SWE = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 30
+}
+VEN = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+BEL = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+AWA = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+BER = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+HYD = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+MYS = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+NAG = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+TRA = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+HAN = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+DUB = {
+	value = 15		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+FUJ = {
+	value = 12		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+RAK = {
+	value = 13		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+UAQ = {
+	value = 25		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+SHA = {
+	value = 25		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+
+leader = {
+	name = " Эдвард Кодрингтон"
+	picture = eng_adm_codrington
+	date = 1814.1.1
+	type = sea
+	personality = daring
+	background = expert_raider
+}
+leader = {
+	name = "Джордж Кокбёрн"
+	picture = eng_adm_cockburn
+	date = 1812.1.1
+	type = sea
+	personality = earnest
+	background = old_school
+}
+leader = {
+	name = "Генри Гардиндж"
+	picture = eng_gen_hardinge
+	date = 1815.1.1
+	type = land
+	personality = tactful
+	background = gifted_administrator
+}
+leader = {
+	name = "Джеймс Хокингс-Витшед"
+	picture = eng_adm_hawkinswhitshed
+	date = 1799.1.1
+	type = sea
+	personality = competent
+	background = elderly
+}
+leader = {
+	name = "Дэвид Милн"
+	picture = eng_adm_milnedavid
+	date = 1814.1.1
+	type = sea
+	personality = able
+	background = elderly
+}
+leader = {
+	name = "Роберт Стопфорд"
+	picture = eng_adm_stopford
+	date = 1808.1.1
+	type = sea
+	personality = soldierly
+	background = aristocrat
+}
+leader = {
+	name = "Генри Пэджет"
+	picture = eng_gen_paget
+	date = 1802.1.1
+	type = land
+	personality = skilled
+	background = cavalry_school
+}
+leader = {
+	name = "Чарльз Роули"
+	picture = eng_adm_rowley
+	date = 1814.1.1
+	type = sea
+	personality = stouthearted
+	background = school_of_offense
+}
+leader = {
+	name = "Роуленд Хилл"
+	picture = eng_gen_hill
+	date = 1803.1.1
+	type = land
+	personality = charismatic
+	background = school_of_defense
+}
+leader = {
+	name = "Джордж Мюррей"
+	picture = eng_gen_murray
+	date = 1813.1.1
+	type = land
+	personality = calm
+	background = politician
+}
+leader = {
+	name = "Стэпплтон Коттон"
+	picture = eng_gen_cotton
+	date = 1805.1.1
+	type = land
+	personality = dauntless
+	background = cavalry_school
+}
+leader = {
+	name = "Хасси Вивьен"
+	picture = eng_gen_vivian
+	date = 1813.1.1
+	type = land
+	personality = disciplined
+	background = cavalry_school
+}
+leader = {
+	name = "Перегрин Мейтланд"
+	picture = eng_gen_maitland
+	date = 1813.1.1
+	type = land
+	personality = deeply_religious
+	background = aristocrat
+}
+leader = {
+	name = "Бенджамен д'Урбан"
+	picture = eng_gen_durban
+	date = 1812.1.1
+	type = land
+	personality = harsh
+	background = cavalry_school
+}
+
+army = {
+	name = "1-й корпус"
+	location = 300
+	regiment = {
+		name= "1.1st Cavalry Division"
+		type = cavalry
+		home = 300
+	}
+
+	regiment = {
+		name= "2.1st Cavalry Division"
+		type = cavalry
+		home = 294
+	}
+
+	regiment = {
+		name= "3.1st Cavalry Division"
+		type = cavalry
+		home = 264
+	}
+
+	regiment = {
+		name= "1.1st Division"
+		type = infantry
+		home = 300
+	}
+
+	regiment = {
+		name= "2.1st Division"
+		type = infantry
+		home = 293
+	}
+
+	regiment = {
+		name= "3.1st Division"
+		type = infantry
+		home = 259
+	}
+
+}
+
+army = {
+	name = "2-я дивизия"
+	location = 263
+	regiment = {
+		name= "1.2th Division"
+		type = infantry
+		home = 263
+	}
+
+	regiment = {
+		name= "2.2th Division"
+		type = infantry
+		home = 282
+	}
+
+	regiment = {
+		name= "3.2th Division"
+		type = infantry
+		home = 268
+	}
+
+}
+
+army = {
+	name = "3-я дивизия"
+	location = 269
+	regiment = {
+		name= "1.3th Division"
+		type = infantry
+		home = 269
+	}
+
+	regiment = {
+		name= "2.3th Division"
+		type = infantry
+		home = 271
+	}
+
+	regiment = {
+		name= "3.3th Division"
+		type = infantry
+		home = 267
+	}
+
+}
+
+army = {
+	name = "Канадский гарнизон"
+	location = 57 
+	regiment = {
+		name= "1.6th Division"
+		type = infantry
+		home = 277
+	}
+
+	regiment = {
+		name= "2.6th Division"
+		type = infantry
+		home = 292
+	}
+
+}
+
+army = {
+	name = "Южноафриканский гарнизон"
+	location = 2087
+	regiment = {
+		name= "1.7th Division"
+		type = infantry
+		home = 278
+	}
+
+}
+
+army = {
+	name = "Австралийский гарнизон"
+	location = 2468
+	regiment = {
+		name= "1.8th Division"
+		type = infantry
+		home = 299
+	}
+
+	regiment = {
+		name= "2.8th Division"
+		type = infantry
+		home = 283
+	}
+
+}
+
+army = {
+	name = "Бомбейский гарнизон"
+	location = 1297
+	regiment = {
+		name= "1.9th Division"
+		type = infantry
+		home = 271
+	}
+
+	regiment = {
+		name= "2.9th Division"
+		type = infantry
+		home = 280
+	}
+
+	regiment = {
+		name= "1.1st Indian Division"
+		type = infantry
+		home = 1297
+	}
+
+	regiment = {
+		name= "2.1st Indian Division"
+		type = infantry
+		home = 1291
+	}
+
+	regiment = {
+		name= "3.1st Indian Division"
+		type = infantry
+		home = 1299
+	}
+
+	regiment = {
+		name= "1.2nd Indian Division"
+		type = infantry
+		home = 1316
+	}
+
+	regiment = {
+		name= "2.2nd Indian Division"
+		type = infantry
+		home = 1317
+	}
+
+}
+
+army = {
+	name = "Гарнизон Калькутты"
+	location = 1256
+	regiment = {
+		name= "1.10th Division"
+		type = infantry
+		home = 300
+	}
+
+	regiment = {
+		name= "1.3rd Indian Division"
+		type = infantry
+		home = 1251
+	}
+
+	regiment = {
+		name= "2.3rd Indian Division"
+		type = infantry
+		home = 1247
+	}
+
+	regiment = {
+		name= "3.3rd Indian Division"
+		type = infantry
+		home = 1254
+	}
+
+	regiment = {
+		name= "1.4th Indian Division"
+		type = infantry
+		home = 1240
+	}
+
+	regiment = {
+		name= "2.4th Indian Division"
+		type = infantry
+		home = 1248
+	}
+
+	regiment = {
+		name= "3.4th Indian Division"
+		type = infantry
+		home = 1243
+	}
+
+}
+
+army = {
+	name = "Делийская армия"
+	location = 1239
+	regiment = {
+		name= "1.2nd Cavalry Division"
+		type = cavalry
+		home = 278
+	}
+
+	regiment = {
+		name= "3.2nd Cavalry Division"
+		type = cavalry
+		home = 260
+	}
+
+	regiment = {
+		name= "3.11th Division"
+		type = infantry
+		home = 261
+	}
+
+	regiment = {
+		name= "1.12th Division"
+		type = infantry
+		home = 284
+	}
+
+	regiment = {
+		name= "2.12th Division"
+		type = infantry
+		home = 254
+	}
+
+	regiment = {
+		name= "3.12th Division"
+		type = infantry
+		home = 258
+	}
+}
+army = {
+	name = "5-я индийская дивизия"
+	location = 1236
+	regiment = {
+		name= "1.5th Indian Division"
+		type = infantry
+		home = 1236
+	}
+
+	regiment = {
+		name= "2.5th Indian Division"
+		type = infantry
+		home = 1239
+	}
+
+	regiment = {
+		name= "3.5th Indian Division"
+		type = infantry
+		home = 1251
+	}
+
+}
+
+navy = {
+	name = "Флот Канала"
+	location = 303
+	ship = {
+		name= "Азия"
+		type = manowar
+	}
+
+	ship = {
+		name= "Беллайл"
+		type = manowar
+	}
+
+	ship = {
+		name= "Беллерофон"
+		type = manowar
+	}
+
+	ship = {
+		name= "Бомбей"
+		type = manowar
+	}
+
+	ship = {
+		name= "Британия"
+		type = manowar
+	}
+
+	ship = {
+		name= "Калькутта"
+		type = manowar
+	}
+
+	ship = {
+		name= "Камредаун"
+		type = manowar
+	}
+
+	ship = {
+		name= "Карнатик"
+		type = manowar
+	}
+
+	ship = {
+		name= "Кларенс"
+		type = manowar
+	}
+
+	ship = {
+		name= "Формидебл"
+		type = manowar
+	}
+
+	ship = {
+		name= "Гангес"
+		type = manowar
+	}
+
+	ship = {
+		name= "Гастингс"
+		type = manowar
+	}
+
+	ship = {
+		name= "Хоук"
+		type = manowar
+	}
+
+	ship = {
+		name= "Малабар"
+		type = manowar
+	}
+
+	ship = {
+		name= "Монарх"
+		type = manowar
+	}
+
+	ship = {
+		name= "Нептун"
+		type = manowar
+	}
+
+	ship = {
+		name= "Пауэрфул"
+		type = manowar
+	}
+
+	ship = {
+		name= "Принс Регент"
+		type = manowar
+	}
+
+	ship = {
+		name= "Принсес Шарлотт"
+		type = manowar
+	}
+
+	ship = {
+		name= "Родни"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ройял Аделаида"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ройял Джордж"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ройял Уильям"
+		type = manowar
+	}
+
+	ship = {
+		name= "Расселл"
+		type = manowar
+	}
+
+	ship = {
+		name= "Талавера"
+		type = manowar
+	}
+
+	ship = {
+		name= "Тандерер"
+		type = manowar
+	}
+
+	ship = {
+		name= "Венгард"
+		type = manowar
+	}
+
+	ship = {
+		name= "Вендженс"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ватерлоо"
+		type = manowar
+	}
+
+	ship = {
+		name= "Америка"
+		type = frigate
+	}
+
+	ship = {
+		name= "Кастор"
+		type = frigate
+	}
+
+	ship = {
+		name= "Конкестадор"
+		type = frigate
+	}
+
+	ship = {
+		name= "Игл"
+		type = frigate
+	}
+
+	ship = {
+		name= "Форт"
+		type = frigate
+	}
+
+	ship = {
+		name= "Глостер"
+		type = frigate
+	}
+
+	ship = {
+		name= "Пик"
+		type = frigate
+	}
+
+	ship = {
+		name= "Сихорс"
+		type = frigate
+	}
+
+	ship = {
+		name= "Стег"
+		type = frigate
+	}
+
+	ship = {
+		name= "Талия"
+		type = frigate
+	}
+
+	ship = {
+		name= "Вернон"
+		type = frigate
+	}
+
+	ship = {
+		name= "Виндиктив"
+		type = frigate
+	}
+
+	ship = {
+		name= "Медея"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Феникс"
+		type = commerce_raider
+	}
+
+}
+
+navy = {
+	name = "1-я резервная эскадра"
+	location = 303
+	ship = {
+		name= "Бленхайм"
+		type = manowar
+	}
+
+	ship = {
+		name= "Кембридж"
+		type = manowar
+	}
+
+	ship = {
+		name= "Корнуоллис"
+		type = manowar
+	}
+
+	ship = {
+		name= "Дифенс"
+		type = manowar
+	}
+
+	ship = {
+		name= "Дженоа"
+		type = manowar
+	}
+
+	ship = {
+		name= "Геркулес"
+		type = manowar
+	}
+
+	ship = {
+		name= "Хоу"
+		type = manowar
+	}
+
+	ship = {
+		name= "Нельсон"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ридотебл"
+		type = manowar
+	}
+
+	ship = {
+		name= "Солсбери"
+		type = manowar
+	}
+
+	ship = {
+		name= "Амазон"
+		type = frigate
+	}
+
+	ship = {
+		name= "Фишгард"
+		type = frigate
+	}
+
+	ship = {
+		name= "Исида"
+		type = frigate
+	}
+
+	ship = {
+		name= "Латона"
+		type = frigate
+	}
+
+	ship = {
+		name= "Меламп"
+		type = frigate
+	}
+
+	ship = {
+		name= "Минерва"
+		type = frigate
+	}
+
+	ship = {
+		name= "Нерей"
+		type = frigate
+	}
+
+	ship = {
+		name= "Серингапатам"
+		type = frigate
+	}
+
+	ship = {
+		name= "Саутгемптон"
+		type = frigate
+	}
+
+	ship = {
+		name= "Венус"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "2-я резервная эскадра"
+	location = 299 #Plymouth
+	ship = {
+		name= "Беллона"
+		type = manowar
+	}
+
+	ship = {
+		name= "Бенбоу"
+		type = manowar
+	}
+
+	ship = {
+		name= "Девоншир"
+		type = manowar
+	}
+
+	ship = {
+		name= "Хоуг"
+		type = manowar
+	}
+
+	ship = {
+		name= "Медуэй"
+		type = manowar
+	}
+
+	ship = {
+		name= "Малграв"
+		type = manowar
+	}
+
+	ship = {
+		name= "Пембрук"
+		type = manowar
+	}
+
+	ship = {
+		name= "Куин Шарлотт"
+		type = manowar
+	}
+
+	ship = {
+		name= "Скарборо"
+		type = manowar
+	}
+
+	ship = {
+		name= "Стерлинг Касл"
+		type = manowar
+	}
+
+	ship = {
+		name= "Амфитрита"
+		type = frigate
+	}
+
+	ship = {
+		name= "Аретуза"
+		type = frigate
+	}
+
+	ship = {
+		name= "Блонд"
+		type = frigate
+	}
+
+	ship = {
+		name= "Бриллиант"
+		type = frigate
+	}
+
+	ship = {
+		name= "Форте"
+		type = frigate
+	}
+
+	ship = {
+		name= "Ява"
+		type = frigate
+	}
+
+	ship = {
+		name= "Лорель"
+		type = frigate
+	}
+
+	ship = {
+		name= "Паллада"
+		type = frigate
+	}
+
+	ship = {
+		name= "Сириус"
+		type = frigate
+	}
+
+	ship = {
+		name= "Тринкомали"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "3-я резервная эскадра"
+	location = 299 #Plymouth
+	ship = {
+		name= "Аякс"
+		type = manowar
+	}
+
+	ship = {
+		name= "Армада"
+		type = manowar
+	}
+
+	ship = {
+		name= "Каледония"
+		type = manowar
+	}
+
+	ship = {
+		name= "Эдинбург"
+		type = manowar
+	}
+
+	ship = {
+		name= "Эгмонт"
+		type = manowar
+	}
+
+	ship = {
+		name= "Импрегнабл"
+		type = manowar
+	}
+
+	ship = {
+		name= "Инвинсибл"
+		type = manowar
+	}
+
+	ship = {
+		name= "Минден"
+		type = manowar
+	}
+
+	ship = {
+		name= "Пуатье"
+		type = manowar
+	}
+
+	ship = {
+		name= "Уорспайт"
+		type = manowar
+	}
+
+	ship = {
+		name= "Вакханка"
+		type = frigate
+	}
+
+	ship = {
+		name= "Бельвидера"
+		type = frigate
+	}
+
+	ship = {
+		name= "Брайтон"
+		type = frigate
+	}
+
+	ship = {
+		name= "Кресент"
+		type = frigate
+	}
+
+	ship = {
+		name= "Галатея"
+		type = frigate
+	}
+
+	ship = {
+		name= "Гаванна"
+		type = frigate
+	}
+
+	ship = {
+		name= "Мейдстон"
+		type = frigate
+	}
+
+	ship = {
+		name= "Менелай"
+		type = frigate
+	}
+
+	ship = {
+		name= "Нимфа"
+		type = frigate
+	}
+
+	ship = {
+		name= "Тенедос"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "4-я резервная эскадра"
+	location = 301 #Canterbury
+	ship = {
+		name= "Фудроянт"
+		type = manowar
+	}
+
+	ship = {
+		name= "Гиберния"
+		type = manowar
+	}
+
+	ship = {
+		name= "Илластриус"
+		type = manowar
+	}
+
+	ship = {
+		name= "Имплакабл"
+		type = manowar
+	}
+
+	ship = {
+		name= "Кент"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ривендж"
+		type = manowar
+	}
+
+	ship = {
+		name= "Спартиат"
+		type = manowar
+	}
+
+	ship = {
+		name= "Султан"
+		type = manowar
+	}
+
+	ship = {
+		name= "Аполлон"
+		type = frigate
+	}
+
+	ship = {
+		name= "Горацио"
+		type = frigate
+	}
+
+	ship = {
+		name= "Леонидас"
+		type = frigate
+	}
+
+	ship = {
+		name= "Найада"
+		type = frigate
+	}
+
+	ship = {
+		name= "Оуэн Глендоуэр"
+		type = frigate
+	}
+
+	ship = {
+		name= "Резистенс"
+		type = frigate
+	}
+
+	ship = {
+		name= "Рин"
+		type = frigate
+	}
+
+	ship = {
+		name= "Андонтед"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "5-я резервная эскадра"
+	location = 281 #Hull
+	ship = {
+		name= "Ахилл"
+		type = manowar
+	}
+
+	ship = {
+		name= "Канопус"
+		type = manowar
+	}
+
+	ship = {
+		name= "Донегол"
+		type = manowar
+	}
+
+	ship = {
+		name= "Сан-Джозеф"
+		type = manowar
+	}
+
+	ship = {
+		name= "Тремендоус"
+		type = manowar
+	}
+
+	ship = {
+		name= "Боудикка"
+		type = frigate
+	}
+
+	ship = {
+		name= "Дриада"
+		type = frigate
+	}
+
+	ship = {
+		name= "Эндимион"
+		type = frigate
+	}
+
+	ship = {
+		name= "Юнайт"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "Средиземноморский флот"
+	location = 854 #Malta
+	ship = {
+		name= "Эйджинкорт"
+		type = manowar
+	}
+
+	ship = {
+		name= "Блэк Принс"
+		type = manowar
+	}
+
+	ship = {
+		name= "Мелвиль"
+		type = manowar
+	}
+
+	ship = {
+		name= "Минотавр"
+		type = manowar
+	}
+
+	ship = {
+		name= "Питт"
+		type = manowar
+	}
+
+	ship = {
+		name= "Веллингтон"
+		type = manowar
+	}
+
+	ship = {
+		name= "Альфред"
+		type = frigate
+	}
+
+	ship = {
+		name= "Андромеда"
+		type = frigate
+	}
+
+	ship = {
+		name= "Цирцея"
+		type = frigate
+	}
+
+	ship = {
+		name= "Клайд"
+		type = frigate
+	}
+
+	ship = {
+		name= "Корнуолл"
+		type = frigate
+	}
+
+	ship = {
+		name= "Еврот"
+		type = frigate
+	}
+
+	ship = {
+		name= "Фокс"
+		type = frigate
+	}
+
+	ship = {
+		name= "Хотспер"
+		type = frigate
+	}
+
+	ship = {
+		name= "Леда"
+		type = frigate
+	}
+
+	ship = {
+		name= "Пенелопа"
+		type = frigate
+	}
+
+	ship = {
+		name= "Президент"
+		type = frigate
+	}
+
+	ship = {
+		name= "Персефона"
+		type = frigate
+	}
+
+	ship = {
+		name= "Саламандер"
+		type = commerce_raider
+	}
+
+}
+
+navy = {
+	name = "Лиссабонская эскадра"
+	location = 517 #Gibraltar
+	ship = {
+		name= "Африкейн"
+		type = frigate
+	}
+
+	ship = {
+		name= "Цербер"
+		type = frigate
+	}
+
+	ship = {
+		name= "Немезида"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "Североамериканская эскадра"
+	location = 71 #Halifax
+	ship = {
+		name= "Сент-Винсент"
+		type = manowar
+	}
+
+	ship = {
+		name= "Уэллсли"
+		type = manowar
+	}
+
+	ship = {
+		name= "Эол"
+		type = frigate
+	}
+
+	ship = {
+		name= "Барэм"
+		type = frigate
+	}
+
+	ship = {
+		name= "Дедал"
+		type = frigate
+	}
+
+	ship = {
+		name= "Друид"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "Южно-атлантическая эскадра"
+	location = 2131 # Falklands
+	ship = {
+		name= "Гамадриада"
+		type = frigate
+	}
+
+	ship = {
+		name= "Ланкастер"
+		type = frigate
+	}
+
+	ship = {
+		name= "Темза"
+		type = frigate
+	}
+
+	ship = {
+		name= "Фисба"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "Западно-африканская эскадра"
+	location = 1884 #Freetown
+	ship = {
+		name= "Диана"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "Восточно-индийская эскадра"
+	location = 1321 #Colombo
+	ship = {
+		name= "Мадагаскар"
+		type = frigate
+	}
+
+	ship = {
+		name= "Портленд"
+		type = frigate
+	}
+
+	ship = {
+		name= "Уинчестер"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "1-я транспортная эскадра"
+	location = 303
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "4-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "5-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "6-я транспортная флотилия"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "23-я транспортная флотилия"
+		type = clipper_transport
+	}
+	ship = {
+		name= "24-я транспортная флотилия"
+		type = clipper_transport
+	}
+	ship = {
+		name= "25-я транспортная флотилия"
+		type = clipper_transport
+	}
+	ship = {
+		name= "26-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "2-я транспортная эскадра"
+	location = 854
+	ship = {
+		name= "7-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "8-я транспортная флотилия"
+		type = clipper_transport
+	}
+	ship = {
+		name= "9-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "10-я транспортная флотилия"
+		type = clipper_transport
+	}
+	ship = {
+		name= "19-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "20-я транспортная флотилия"
+		type = clipper_transport
+	}
+	ship = {
+		name= "21-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "22-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "3-я транспортная эскадра"
+	location = 1321 #Colombo
+	ship = {
+		name= "11-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "12-я транспортная флотилия"
+		type = clipper_transport
+	}
+	ship = {
+		name= "13-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "14-я транспортная флотилия"
+		type = clipper_transport
+	}
+	ship = {
+		name= "15-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "16-я транспортная флотилия"
+		type = clipper_transport
+	}
+	ship = {
+		name= "17-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "18-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}

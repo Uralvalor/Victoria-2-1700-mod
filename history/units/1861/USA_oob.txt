@@ -1,0 +1,482 @@
+#Sphere of Influence
+
+JAP = {
+	value = 130		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+leader = {
+	name = "Дэвид Фаррагут"
+	picture = usa_adm_farragut
+	date = 1855.1.1
+	type = sea
+	personality = au_fait
+	background = innovative_tactician
+}
+leader = {
+	name = "Эндрю Фут"
+	picture = usa_adm_foote
+	date = 1856.1.1
+	type = sea
+	personality = skilled
+	background = drillmaster
+}
+leader = {
+	name = "Джосеф Хукер"
+	picture = usa_gen_hooker
+	date = 1861.1.1
+	type = land
+	personality = soldierly
+	background = womanizer
+}
+leader = {
+	name = "Джордж Мид"
+	picture = usa_gen_meade
+	date = 1861.1.1
+	type = land
+	personality = stouthearted
+	background = professor
+}
+leader = {
+	name = "Джордж Томас"
+	picture = usa_gen_thomas
+	date = 1861.1.1
+	type = land
+	personality = au_fait
+	background = gifted_administrator
+}
+leader = {
+	name = "Дон Карлос Бьюэлл"
+	picture = usa_gen_buell
+	date = 1861.1.1
+	type = land
+	personality = spirited
+	background = diplomat
+}
+leader = {
+	name = "Уильям Роузкранс"
+	picture = usa_gen_rosecrans
+	date = 1861.1.1
+	type = land
+	personality = disciplined
+	background = engineer
+}
+leader = {
+	name = "Уильям Шерман"
+	picture = usa_gen_sherman
+	date = 1861.1.1
+	type = land
+	personality = efficient
+	background = war_college
+}
+leader = {
+	name = "Джон Поуп"
+	picture = usa_gen_pope
+	date = 1861.1.1
+	type = land
+	personality = polite
+	background = engineer
+}
+leader = {
+	name = "Фицджон Портер"
+	picture = usa_gen_porter
+	date = 1861.1.1
+	type = land
+	personality = audacious
+	background = cavalry_school
+}
+leader = {
+	name = "Эмброуз Бернсайд"
+	picture = usa_gen_burnside
+	date = 1861.1.1
+	type = land
+	personality = inept
+	background = politician
+}
+leader = {
+	name = "Джордж Макклелан"
+	picture = usa_gen_mcclellan
+	date = 1861.1.1
+	type = land
+	personality = unmanly
+	background = pawn
+}
+leader = {
+	name = "Джон Вул"
+	picture = usa_gen_wool
+	date = 1841.1.1
+	type = land
+	personality = competent
+	background = elderly
+}
+leader = {
+	name = "Джозеф Тоттен"
+	picture = usa_gen_totten
+	date = 1847.1.1
+	type = land
+	personality = skilled
+	background = engineer
+}
+leader = {
+	name = "Уильям Харни"
+	picture = usa_gen_harney
+	date = 1848.1.1
+	type = land
+	personality = implacable
+	background = butcher
+}
+leader = {
+	name = "Джордж Кадваладер"
+	picture = usa_gen_cadwalader
+	date = 1847.1.1
+	type = land
+	personality = efficient
+	background = school_of_the_bayonet
+}
+leader = {
+	name = "Джон Седжвик"
+	picture = usa_gen_sedgwick
+	date = 1861.1.1
+	type = land
+	personality = wretched
+	background = cursed_luck
+}
+leader = {
+	name = "Джон Фримонт"
+	picture = usa_gen_fremont
+	date = 1861.1.1
+	type = land
+	personality = unruly
+	background = cartographer
+}
+leader = {
+	name = "Генри Халлек"
+	picture = usa_gen_halleck
+	date = 1861.1.1
+	type = land
+	personality = meticulous
+	background = armchair_general
+}
+leader = {
+	name = "Ирвин Макдауэлл"
+	picture = usa_gen_mcdowell
+	date = 1861.1.1
+	type = land
+	personality = bastard
+	background = generals_aide
+}
+leader = {
+	name = "Дэниел Сиклз"
+	picture = usa_gen_sickles
+	date = 1861.1.1
+	type = land
+	personality = disorderly
+	background = womanizer
+}
+
+army = {
+	name = "Washington Garrison"
+	location = 220
+	regiment = {
+		name= "1.2. Division"
+		type = infantry
+		home = 245
+	}
+
+	regiment = {
+		name= "2.2. Division"
+		type = infantry
+		home = 245
+	}
+
+	regiment = {
+		name= "3.2. Division"
+		type = infantry
+		home = 245
+	}
+
+	regiment = {
+		name= "1.3. Division"
+		type = infantry
+		home = 249
+	}
+
+
+}
+
+army = {
+	name = "Army of the Potomac"
+	location = 220
+	regiment = {
+		name= "1.1. 'Black Hats' Division"
+		type = infantry
+		home = 220
+	}
+
+	regiment = {
+		name= "2.1. 'Black Hats' Division"
+		type = infantry
+		home = 220
+	}
+
+	regiment = {
+		name= "4.1. 'Black Hats' Division"
+		type = artillery
+		home = 220
+	}
+
+	regiment = {
+		name= "1.5. Division"
+		type = infantry
+		home = 234
+	}
+
+	regiment = {
+		name= "2.5. Division"
+		type = infantry
+		home = 234
+	}
+
+	regiment = {
+		name= "4.5. Division"
+		type = artillery
+		home = 234
+	}
+
+	regiment = {
+		name= "2.6. Division"
+		type = infantry
+		home = 234
+	}
+
+	regiment = {
+		name= "3.6. Division"
+		type = infantry
+		home = 234
+	}
+
+	regiment = {
+		name= "4.6. Division"
+		type = artillery
+		home = 234
+	}
+
+	regiment = {
+		name= "1.7. Division"
+		type = infantry
+		home = 226
+	}
+
+	regiment = {
+		name= "2.7. Division"
+		type = infantry
+		home = 226
+	}
+
+	regiment = {
+		name= "3.7. Division"
+		type = infantry
+		home = 226
+	}
+
+}
+
+army = {
+	name = "Army of the James River"
+	location = 221
+	regiment = {
+		name= "1.8. Division"
+		type = infantry
+		home = 178
+	}
+
+	regiment = {
+		name= "2.8. Division"
+		type = infantry
+		home = 178
+	}
+
+	regiment = {
+		name= "3.8. Division"
+		type = infantry
+		home = 178
+	}
+
+	regiment = {
+		name= "1.9. Division"
+		type = infantry
+		home = 170
+	}
+
+	regiment = {
+		name= "2.9. Division"
+		type = infantry
+		home = 170
+	}
+}
+
+army = {
+	name = "Army of the Mississippi"
+	
+	location = 146
+	regiment = {
+		name= "1.10. Division"
+		type = infantry
+		home = 146
+	}
+
+	regiment = {
+		name= "2.10. Division"
+		type = infantry
+		home = 146
+	}
+
+	regiment = {
+		name= "3.10. Division"
+		type = infantry
+		home = 146
+	}
+
+}
+
+army = {
+	name = "Army of the Ohio"
+
+	location = 181
+	regiment = {
+		name= "1.11. Division"
+		type = infantry
+		home = 181
+	}
+
+	regiment = {
+		name= "2.11. Division"
+		type = infantry
+		home = 181
+	}
+
+	regiment = {
+		name= "3.11. Division"
+		type = infantry
+		home = 181
+	}
+
+	regiment = {
+		name= "1.1. Cavalry Division"
+		type = cavalry
+		home = 181
+	}
+
+	regiment = {
+		name= "2.1. Cavalry Division"
+		type = cavalry
+		home = 181
+	}
+
+	regiment = {
+		name= "3.1. Cavalry Division"
+		type = cavalry
+		home = 182
+	}
+
+}
+
+army = {
+	name = "W. Viginia Detachement"
+	location = 217
+	regiment = {
+		name= "1.12. Division"
+		type = infantry
+		home = 228
+	}
+
+	regiment = {
+		name= "2.12. Division"
+		type = infantry
+		home = 228
+	}
+
+	regiment = {
+		name= "3.12. Division"
+		type = infantry
+		home = 228
+	}
+
+}
+
+navy = {
+	name = "Home Squadron"
+	location = 219
+	ship = {
+		name= "USS Franklin"
+		type = frigate
+	}
+
+	ship = {
+		name= "USS Potomac"
+		type = frigate
+	}
+
+	ship = {
+		name= "USS Roanoke"
+		type = frigate
+	}
+
+	ship = {
+		name= "USS Santee"
+		type = frigate
+	}
+
+	ship = {
+		name= "USS Savannah"
+		type = frigate
+	}
+
+	ship = {
+		name= "USS St. Lawrence"
+		type = frigate
+	}
+
+	ship = {
+		name= "USS Wabash"
+		type = frigate
+	}
+
+	ship = {
+		name= "USS Powhatan"
+		type = commerce_raider
+	}
+
+}
+
+navy = {
+	name = "1st Transport Squadron"
+	location = 219
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "Atlantic Squadron"
+	location = 219
+	ship = {
+		name= "USS Colorado"
+		type = frigate
+	}
+
+	ship = {
+		name= "USS Minnesota"
+		type = frigate
+	}
+
+	ship = {
+		name= "USS Mississippi"
+		type = commerce_raider
+	}
+
+}
+

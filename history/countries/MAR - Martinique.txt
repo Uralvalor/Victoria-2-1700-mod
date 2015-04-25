@@ -1,0 +1,54 @@
+capital = 1297
+primary_culture = marathi
+culture = sindi
+culture = avadhi
+culture = tamil
+culture = gujarati
+culture = kannada
+culture = telegu
+religion = hindu
+government = absolute_monarchy
+plurality = 0.0
+nationalvalue = nv_order
+literacy = 0.03
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = yes_meeting
+press_rights = state_press
+trade_unions = non_socialist
+voting_system = first_past_the_post
+political_parties = underground_parties
+
+# Social Reforms
+school_reforms = no_schools
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+
+ruling_party = MAR_reactionary
+upper_house = {
+	fascist = 0
+	liberal = 11
+	reactionary = 73
+	reactionary = 16
+	 
+	socialist = 0
+	communist = 0
+}
+
+# Starting Consciousness
+consciousness = 0
+nonstate_consciousness = 0
+
+oob = "MAR_oob.txt"
+
+
+1750.1.1 = {
+oob = "/1756/MAR_oob.txt"
+ }

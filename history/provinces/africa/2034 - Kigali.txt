@@ -1,0 +1,15 @@
+owner = RWA
+controller = RWA
+add_core = RWA
+trade_goods = coffee
+life_rating = 15
+terrain = mountain_farmland
+1914.1.1 = {
+	owner = GER
+	controller = GER
+	colonial = 3
+}
+1923.1.1 = {
+	owner = BEL
+	controller = BEL
+}

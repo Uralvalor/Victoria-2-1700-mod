@@ -1,0 +1,39 @@
+ 
+ 
+ 
+trade_goods = grain
+life_rating = 35
+terrain = forested_farmland
+1861.1.1 = {
+	state_building = {
+		level = 1
+		building = furniture_factory
+		upgrade = yes
+	}
+	party_loyalty = {
+		ideology = liberal
+		loyalty_value = 25
+	}
+}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	 
+	 
+	remove_core = CSA
+	railroad = 5
+	state_building = {
+		level = 2
+		building = furniture_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 30
+		building = aeroplane_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 20
+		building = fabric_factory
+		upgrade = yes
+	}
+}

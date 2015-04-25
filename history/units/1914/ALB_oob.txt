@@ -1,0 +1,47 @@
+army = {
+	name = "Армия Албании"
+	location = 849
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 849
+	}
+
+	regiment = {
+		name= "2-я дивизия"
+		type = infantry
+		home = 849
+	}
+
+	regiment = {
+		name= "3-я дивизия"
+		type = infantry
+		home = 850
+	}
+
+	regiment = {
+		name= "4-я дивизия"
+		type = infantry
+		home = 850
+	}
+	
+	regiment = {
+		name= "5-я дивизия"
+		type = infantry
+		home = 851
+	}
+
+	regiment = {
+		name= "6-я дивизия"
+		type = infantry
+		home = 852
+	}
+	
+	regiment = {
+		name= "7-я дивизия"
+		type = infantry
+		home = 853
+	}
+
+}
+

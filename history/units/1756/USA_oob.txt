@@ -1,0 +1,287 @@
+#Sphere of Influence
+TEX = {
+	value = 125		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+MEX = {
+	value = 75		#relation
+	level = 2		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+UCA = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+COL = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+BRZ = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+URU = {
+	value = 75		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+LIB = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+army = {
+	name = "Драгуны"
+	location = 199
+	regiment = {
+		name= "1-й кавалерийский полк"
+		type = dragoon
+		home = 223
+	}
+
+	regiment = {
+		name= "2-й кавалерийский полк"
+		type = dragoon
+		home = 241
+	}
+
+	regiment = {
+		name= "3-й кавалерийский полк"
+		type = dragoon
+		home = 205
+	}
+
+}
+
+army = {
+	name = "Южная армия"
+	location = 200
+	regiment = {
+		name= "1-й пехотный полк"
+		type = infantry
+		home = 211
+	}
+
+	regiment = {
+		name= "2-й пехотный полк"
+		type = infantry
+		home = 206
+	}
+
+	regiment = {
+		name= "3-й пехотный полк"
+		type = infantry
+		home = 188
+	}
+
+	regiment = {
+		name= "1-й артиллерийский полк"
+		type = artillery
+		home = 195
+	}
+
+}
+
+army = {
+	name = "Армия США"
+	location = 220
+	regiment = {
+		name= "4-й пехотный полк"
+		type = infantry
+		home = 243
+	}
+
+	regiment = {
+		name= "5-й пехотный полк"
+		type = infantry
+		home = 232
+	}
+
+	regiment = {
+		name= "6-й пехотный полк"
+		type = infantry
+		home = 235
+	}
+
+	regiment = {
+		name= "2-й артиллерийский полк"
+		type = artillery
+		home = 234
+	}
+
+}
+
+army = {
+	name = "Обсервационная армия"
+	location = 144
+	regiment = {
+		name= "7-й пехотный полк"
+		type = infantry
+		home = 238
+	}
+
+	regiment = {
+		name= "8-й пехотный полк"
+		type = infantry
+		home = 226
+	}
+
+	regiment = {
+		name= "9-й пехотный полк"
+		type = infantry
+		home = 247
+	}
+
+}
+
+navy = {
+	name = "1-я эскадра"
+	location = 222
+	ship = {
+		name= "Франклин"
+		type = manowar
+	}
+
+	ship = {
+		name= "Пенсильвания"
+		type = manowar
+	}
+
+	ship = {
+		name= "Вашингтон"
+		type = manowar
+	}
+
+	ship = {
+		name= "Колумбия"
+		type = frigate
+	}
+
+	ship = {
+		name= "Констелейшн"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "2-я эскадра"
+	location = 248
+	ship = {
+		name= "Огайо"
+		type = manowar
+	}
+
+	ship = {
+		name= "Гудзон"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "3-я эскадра"
+	location = 214
+	ship = {
+		name= "Джон Адамс"
+		type = frigate
+	}
+
+	ship = {
+		name= "Юнайтед Стэйтс"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "4-я эскадра"
+	location = 219
+	ship = {
+		name= "Индепенденс"
+		type = frigate
+	}
+
+	ship = {
+		name= "Брэндиуайн"
+		type = frigate
+	}
+
+	ship = {
+		name= "Конститьюшн"
+		type = frigate
+	}
+
+	ship = {
+		name= "Потомак"
+		type = frigate
+	}
+
+	ship = {
+		name= "Флотилия 'Джеймс Маккей'"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "1-я резервная эскадра"
+	location = 247
+	ship = {
+		name= "Алабама"
+		type = manowar
+	}
+
+	ship = {
+		name= "Вермонт"
+		type = manowar
+	}
+
+	ship = {
+		name= "Вирджиния"
+		type = manowar
+	}
+
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "2-я резервная эскадра"
+	location = 214
+	ship = {
+		name= "Коламбус"
+		type = manowar
+	}
+
+	ship = {
+		name= "Дэлавер"
+		type = manowar
+	}
+
+	ship = {
+		name= "Нью-Йорк"
+		type = manowar
+	}
+
+	ship = {
+		name= "Северная Каролина"
+		type = manowar
+	}
+
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}

@@ -1,0 +1,51 @@
+capital = 994
+primary_culture = inuit
+culture = danish
+religion = protestant
+government = hms_government
+plurality = 0.9
+nationalvalue = nv_liberty
+literacy = 0.8
+civilized = yes
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = state_equal_weight
+vote_franschise = wealth_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = all_trade_unions
+voting_system = jefferson_method
+political_parties = gerrymandering
+immigration_policy = open_immigration
+conscription = mandatory_service
+minorities = oppression
+
+# Social Reforms
+wage_reform = low_minimum_wage
+work_hours = eight_hours
+safety_regulations = good_safety
+health_care = good_health_care
+unemployment_subsidies = low_subsidies
+pensions = good_pensions
+pollution = no_controls
+child_labor = child_labor_legal
+education = public
+arts_endowment = no_endowment
+
+ruling_party = GRL_liberal
+upper_house = {
+	fascist = 0
+	liberal = 69
+	conservative = 31
+	reactionary = 0
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+1861.1.1 = {
+# Technologies
+
+#Inventions
+}

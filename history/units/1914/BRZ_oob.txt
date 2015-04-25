@@ -1,0 +1,257 @@
+army = {
+	name = "I Корпус Армии"
+	location = 2447
+	regiment = {
+		name= "1-я пехотная дивизия"
+		type = infantry
+		home = 2383
+	}
+
+	regiment = {
+		name= "2-я пехотная дивизия"
+		type = infantry
+		home = 2426
+	}
+
+	regiment = {
+		name= "3-я пехотная дивизия"
+		type = infantry
+		home = 2429
+	}
+
+	regiment = {
+		name= "4-я пехотная дивизия"
+		type = infantry
+		home = 2429
+	}
+
+	regiment = {
+		name= "5-я пехотная дивизия"
+		type = infantry
+		home = 2432
+	}
+
+	regiment = {
+		name= "6-я пехотная дивизия"
+		type = infantry
+		home = 2434
+	}
+
+	regiment = {
+		name= "1-й кав. дивизион"
+		type = cavalry
+		home = 2434
+	}
+
+	regiment = {
+		name= "2-й кав. дивизион"
+		type = cavalry
+		home = 2436
+	}
+
+	regiment = {
+		name= "3-й кав. дивизион"
+		type = cavalry
+		home = 2436
+	}
+
+	regiment = {
+		name= "4-й кав. дивизион"
+		type = cavalry
+		home = 2436
+	}
+
+	regiment = {
+		name= "5-й кав. дивизион"
+		type = cavalry
+		home = 2437
+	}
+
+	regiment = {
+		name= "6-й кав. дивизион"
+		type = cavalry
+		home = 2447
+	}
+
+}
+
+army = {
+	name = "II Корпус Армии"
+	location = 2424
+	regiment = {
+		name= "7-я пехотная дивизия"
+		type = infantry
+		home = 2447
+	}
+
+	regiment = {
+		name= "8-я пехотная дивизия"
+		type = infantry
+		home = 2447
+	}
+
+	regiment = {
+		name= "9-я пехотная дивизия"
+		type = infantry
+		home = 2447
+	}
+
+	regiment = {
+		name= "10-я пехотная дивизия"
+		type = infantry
+		home = 2447
+	}
+
+	regiment = {
+		name= "11-я пехотная дивизия"
+		type = infantry
+		home = 2447
+	}
+
+	regiment = {
+		name= "12-я пехотная дивизия"
+		type = infantry
+		home = 2447
+	}
+
+	regiment = {
+		name= "7-й кав. дивизион"
+		type = cavalry
+		home = 2447
+	}
+
+	regiment = {
+		name= "8-й кав. дивизион"
+		type = cavalry
+		home = 2447
+	}
+
+	regiment = {
+		name= "9-й кав. дивизион"
+		type = cavalry
+		home = 2447
+	}
+
+	regiment = {
+		name= "10-й кав. дивизион"
+		type = cavalry
+		home = 2447
+	}
+
+	regiment = {
+		name= "11-й кав. дивизион"
+		type = cavalry
+		home = 2447
+	}
+
+	regiment = {
+		name= "12-й кав. дивизион"
+		type = cavalry
+		home = 2447
+	}
+
+}
+army = {
+	name = "III Корпус Армии"
+	location = 2422
+	regiment = {
+		name= "13-я пехотная дивизия"
+		type = infantry
+		home = 2447
+	}
+
+	regiment = {
+		name= "14-я пехотная дивизия"
+		type = infantry
+		home = 2447
+	}
+
+	regiment = {
+		name= "15-я пехотная дивизия"
+		type = infantry
+		home = 2450
+	}
+
+	regiment = {
+		name= "16-я пехотная дивизия"
+		type = infantry
+		home = 2450
+	}
+
+	regiment = {
+		name= "17-я пехотная дивизия"
+		type = infantry
+		home = 2451
+	}
+
+	regiment = {
+		name= "18-я пехотная дивизия"
+		type = infantry
+		home = 2457
+	}
+
+	regiment = {
+		name= "13-й кав. дивизион"
+		type = cavalry
+		home = 2457
+	}
+
+	regiment = {
+		name= "14-й кав. дивизион"
+		type = cavalry
+		home = 2463
+	}
+
+	regiment = {
+		name= "15-й кав. дивизион"
+		type = cavalry
+		home = 2463
+	}
+
+}
+
+navy = {
+	name = "Флот Бразилии"
+	location = 2447
+	ship = {
+		name= "Манаус"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Рио-Де-Жанейро"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Сан-Пауло"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Кампус"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Бразилия"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Португалия"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Меарим"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Парнаиба"
+		type = commerce_raider
+	}
+
+}
+

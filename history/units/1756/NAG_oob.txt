@@ -1,0 +1,23 @@
+army = {
+	name = "Армия Нагпура"
+	location = 1277
+	regiment = {
+		name= "1-я бригада"
+		type = irregular
+		home = 1277
+	}
+
+	regiment = {
+		name= "2-я бригада"
+		type = irregular
+		home = 1280
+	}
+
+	regiment = {
+		name= "3-я бригада"
+		type = irregular
+		home = 1281
+	}
+
+}
+

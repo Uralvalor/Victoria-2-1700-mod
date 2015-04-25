@@ -1,0 +1,22 @@
+army = {
+	name = "Royal Shan Army"
+	location = 1338
+	regiment = {
+		name= "1. Brigade"
+		type = irregular
+		home = 1338
+	}
+
+	regiment = {
+		name= "2. Brigade"
+		type = irregular
+		home = 1355
+	}
+
+	regiment = {
+		name= "3. Brigade"
+		type = irregular
+		home = 2572
+	}
+}
+

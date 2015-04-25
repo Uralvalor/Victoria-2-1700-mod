@@ -1,0 +1,33 @@
+owner = BAD
+controller = BAD
+add_core = BAD
+add_core = GER
+trade_goods = fruit
+life_rating = 35
+terrain = hilly_farmland
+#state_building = {
+#	level = 1
+#	building = lumber_mill
+#	upgrade = yes
+#}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	owner = GER
+	controller = GER
+	railroad = 5
+	state_building = {
+		level = 5
+		building = lumber_mill
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = luxury_furniture_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = furniture_factory
+		upgrade = yes
+	}
+}

@@ -1,0 +1,16 @@
+owner = TUN
+controller = TUN
+add_core = TUN
+trade_goods = grain
+life_rating = 35
+terrain = semi_desert
+1861.1.1 = {
+	owner = TUR
+	controller = TUR  colonial = 2
+	colonial = 2
+}
+1914.1.1 = {
+	owner = FRA
+	controller = FRA
+	colonial = 3
+}

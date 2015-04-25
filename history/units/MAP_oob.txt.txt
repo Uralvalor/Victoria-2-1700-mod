@@ -1,0 +1,9 @@
+army = {
+	name = "Primera Militar de Patagonia"
+	location = 2332
+	regiment = {
+		name= "Primer Division"
+		type = infantry
+		home = 2332
+	}	      	
+}

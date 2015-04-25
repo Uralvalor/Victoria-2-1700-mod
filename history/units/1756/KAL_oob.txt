@@ -1,0 +1,67 @@
+leader = {
+	name = "Мехред Хан"
+	date = 1836.1.1
+	type = land
+	personality = clever
+	background = poet
+}
+
+army = {
+	name = "Армия Мехред Хана"
+	location = 1221
+	regiment = {
+		name= "1-я бригада"
+		type = irregular
+		home = 1221
+	}
+
+	regiment = {
+		name= "2-я бригада"
+		type = irregular
+		home = 1221
+	}
+
+	regiment = {
+		name= "3-я бригада"
+		type = irregular
+		home = 1221
+	}
+
+	regiment = {
+		name= "4-я бригада"
+		type = irregular
+		home = 1220
+	}
+
+	regiment = {
+		name= "5-я бригада"
+		type = irregular
+		home = 1220
+	}
+
+	regiment = {
+		name= "6-я бригада"
+		type = irregular
+		home = 1220
+	}
+
+	regiment = {
+		name= "7-я бригада"
+		type = irregular
+		home = 1219
+	}
+
+	regiment = {
+		name= "8-я бригада"
+		type = irregular
+		home = 1219
+	}
+
+	regiment = {
+		name= "9-я бригада"
+		type = irregular
+		home = 1219
+	}
+
+}
+

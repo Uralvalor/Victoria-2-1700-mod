@@ -1,0 +1,40 @@
+army = {
+	name = "Ejército de Colombia"
+	location = 2253
+	regiment = {
+		name= "1. Brigada de Infantería"
+		type = infantry
+		home = 2247
+	}
+
+	regiment = {
+		name= "2. Brigada de Infantería"
+		type = infantry
+		home = 2252
+	}
+
+	regiment = {
+		name= "3. Brigada de Infantería"
+		type = infantry
+		home = 2254
+	}
+
+	regiment = {
+		name= "1. Brigada de Caballería"
+		type = cavalry
+		home = 2250
+	}
+
+	regiment = {
+		name= "2. Brigada de Caballería"
+		type = cavalry
+		home = 2255
+	}
+
+	regiment = {
+		name= "3. Brigada de Caballería"
+		type = cavalry
+		home = 2256
+	}
+
+}

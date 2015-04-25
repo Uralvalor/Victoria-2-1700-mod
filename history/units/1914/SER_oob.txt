@@ -1,0 +1,226 @@
+ENG = {
+
+	value = 200
+}
+RUS = {
+
+	value = 200
+}
+FRA = {
+
+	value = 200
+}
+KUK = {
+
+	value = -200
+}
+TUR = {
+
+	value = -200
+}
+BUL = {
+
+	value = -200
+}
+
+leader = {
+	name = "Живоин Мишич"
+	type = land
+	date="1914.1.1"
+	personality = audacious
+	background = school_of_firepower
+	picture="personal_zivojin_misic"
+}
+
+leader = {
+	name = "Радомир Путник"
+	type = land
+	date="1914.1.1"
+	personality = efficient
+	background = school_of_defense
+	picture="personal_radomir_putnik"
+}
+
+leader = {
+	name = "Павле Юришич"
+	type = land
+	date="1914.1.1"
+	personality = stalwart
+	background = cartographer
+	picture="personal_pavle_jurisic"
+}
+
+leader = {
+	name = "Степа Степанович"
+	type = land
+	date="1914.1.1"
+	personality = resolute
+	background = gifted_administrator
+	picture="personal_stepa_stepanovic"
+}
+
+army = {
+	name = "1-я армия Сербии"
+	location = 794
+	regiment = {
+		name= "1-я пех. дивизия"
+		type = infantry
+		home = 796
+	}
+
+	regiment = {
+		name= "2-я пех. дивизия"
+		type = infantry
+		home = 796
+	}
+
+	regiment = {
+		name= "3-я пех. дивизия"
+		type = infantry
+		home = 798
+	}
+
+	regiment = {
+		name= "4-я пех. дивизия"
+		type = hussar
+		home = 798
+	}
+
+	regiment = {
+		name= "5-я пех. дивизия"
+		type = infantry
+		home = 798
+	}
+
+	regiment = {
+		name= "6-я пех. дивизия"
+		type = infantry
+		home = 799
+	}
+
+	regiment = {
+		name= "7-я пех. дивизия"
+		type = infantry
+		home = 799
+	}
+
+	regiment = {
+		name= "8-я пех. дивизия"
+		type = infantry
+		home = 799
+	}
+
+	regiment = {
+		name= "9-я пех. дивизия"
+		type = artillery
+		home = 799
+	}
+
+	regiment = {
+		name= "10-я пех. дивизия"
+		type = artillery
+		home = 802
+	}
+
+	regiment = {
+		name= "11-я пех. дивизия"
+		type = hussar
+		home = 794
+	}
+
+	regiment = {
+		name= "12-я пех. дивизия"
+		type = hussar
+		home = 794
+	}
+
+	regiment = {
+		name= "13-я пех. дивизия"
+		type = hussar
+		home = 794
+	}
+
+}
+
+army = {
+	name = "2-я армия Сербии"
+	location = 794
+	regiment = {
+		name= "14-я пех. дивизия"
+		type = infantry
+		home = 802
+	}
+
+	regiment = {
+		name= "15-я пех. дивизия"
+		type = infantry
+		home = 803
+	}
+
+	regiment = {
+		name= "16-я пех. дивизия"
+		type = infantry
+		home = 803
+	}
+
+	regiment = {
+		name= "17-я пех. дивизия"
+		type = hussar
+		home = 803
+	}
+
+	regiment = {
+		name= "18-я пех. дивизия"
+		type = infantry
+		home = 803
+	}
+
+	regiment = {
+		name= "19-я пех. дивизия"
+		type = infantry
+		home = 804
+	}
+
+	regiment = {
+		name= "20-я пех. дивизия"
+		type = infantry
+		home = 806
+	}
+
+	regiment = {
+		name= "21-я пех. дивизия"
+		type = infantry
+		home = 806
+	}
+
+	regiment = {
+		name= "22-я пех. дивизия"
+		type = artillery
+		home = 807
+	}
+
+	regiment = {
+		name= "23-я пех. дивизия"
+		type = artillery
+		home = 807
+	}
+	
+	regiment = {
+		name= "21-я пех. дивизия"
+		type = hussar
+		home = 795
+	}
+
+	regiment = {
+		name= "22-я пех. дивизия"
+		type = hussar
+		home = 795
+	}
+
+	regiment = {
+		name= "23-я пех. дивизия"
+		type = hussar
+		home = 795
+	}
+
+}

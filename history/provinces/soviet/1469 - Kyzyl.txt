@@ -1,0 +1,17 @@
+owner = XIN
+controller = XIN
+add_core = MGL
+add_core = TNT
+trade_goods = coal
+life_rating = 30
+terrain = conifer_forest_mountains
+1914.1.1 = {
+	owner = RUS
+	controller = RUS
+	remove_core = CHI
+}
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

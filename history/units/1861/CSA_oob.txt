@@ -1,0 +1,364 @@
+
+
+leader = {
+	name = "Фрэнклин Бьюкенен"
+	picture = csa_adm_buchanan
+	date = 1861.1.1
+	type = sea
+	personality = aggressive
+	background = school_of_offense
+}
+leader = {
+	name = "Альберт Джонстон"
+	picture = csa_gen_johnstonalbert
+	date = 1861.1.1
+	type = land
+	personality = brilliant
+	background = natural_born_leader
+}
+leader = {
+	name = "Джозеф Джонстон"
+	picture = csa_gen_johnstonjoseph
+	date = 1861.1.1
+	type = land
+	personality = balanced_p
+	background = bureaucrat_speed
+}
+leader = {
+	name = "Роберт Ли"
+	picture = csa_gen_lee
+	date = 1861.1.1
+	type = land
+	personality = audacious
+	background = war_college
+}
+leader = {
+	name = "Стерлинг Прайс"
+	picture = csa_gen_price
+	date = 1847.1.1
+	type = land
+	personality = impetuous
+	background = politician
+}
+leader = {
+	name = "Джубал Эрли"
+	picture = csa_gen_early
+	date = 1861.1.1
+	type = land
+	personality = doughty
+	background = brownnoser
+}
+leader = {
+	name = "Брэкстон Брэгг"
+	picture = csa_gen_bragg
+	date = 1861.1.1
+	type = land
+	personality = glory_hound
+	background = unfit
+}
+leader = {
+	name = "Пьер Борегар"
+	picture = csa_gen_beauregard
+	date = 1861.1.1
+	type = land
+	personality = reserved
+	background = engineer
+}
+leader = {
+	name = "Эрл Ван Дорн"
+	picture = csa_gen_vandorn
+	date = 1861.1.1
+	type = land
+	personality = soft
+	background = womanizer
+}
+leader = {
+	name = "Дэниэл Хилл"
+	picture = csa_gen_hilldaniel
+	date = 1861.1.1
+	type = land
+	personality = deeply_religious
+	background = school_of_offense
+}
+leader = {
+	name = "Джеймс Лонгстрит"
+	picture = csa_gen_longstreet
+	date = 1861.1.1
+	type = land
+	personality = disciplined
+	background = school_of_firepower
+}
+leader = {
+	name = "Томас Джексон"
+	picture = csa_gen_jackson
+	date = 1861.1.1
+	type = land
+	personality = coolminded
+	background = school_of_defense
+}
+leader = {
+	name = "Эдмунд Смит"
+	picture = csa_gen_smith
+	date = 1861.1.1
+	type = land
+	personality = resourceful
+	background = gifted_administrator
+}
+leader = {
+	name = "Джеб Стюарт"
+	picture = csa_gen_stuart
+	date = 1861.1.1
+	type = land
+	personality = daring
+	background = expert_raider
+}
+
+army = {
+	name = "Army of Northern Virginia"
+	location = 212
+
+	regiment = {
+		name= "1.1. VA Rifles"
+		type = infantry
+		home = 211
+	}
+
+	regiment = {
+		name= "2.1. VA Rifles"
+		type = infantry
+		home = 211
+	}
+
+	regiment = {
+		name= "3.1. VA Rifles"
+		type = infantry
+		home = 211
+	}
+
+	regiment = {
+		name= "4.1. VA Rifles"
+		type = artillery
+		home = 211
+	}
+
+	regiment = {
+		name= "1.2. VA Rifles"
+		type = infantry
+		home = 214
+	}
+
+	regiment = {
+		name= "2.2. VA Rifles"
+		type = infantry
+		home = 204
+	}
+
+	regiment = {
+		name= "3.2. VA Rifles"
+		type = infantry
+		home = 215
+	}
+
+	regiment = {
+		name= "1.1. NC Rifles"
+		type = infantry
+		home = 209
+	}
+
+	regiment = {
+		name= "2.1. NC Rifles"
+		type = infantry
+		home = 209
+	}
+
+	regiment = {
+		name= "3.1. NC Rifles"
+		type = infantry
+		home = 209
+	}
+
+}
+
+army = {
+	name = "Army of the Shenandoah"
+	location = 215
+	regiment = {
+		name= "1.1. SC Rifles"
+		type = infantry
+		home = 205
+	}
+
+	regiment = {
+		name= "2.1. SC Rifles"
+		type = infantry
+		home = 205
+	}
+
+	regiment = {
+		name= "3.1. SC Rifles"
+		type = infantry
+		home = 205
+	}
+
+	regiment = {
+		name= "1.1. TX Cavalry"
+		type = dragoon
+		home = 132
+	}
+
+	regiment = {
+		name= "2.1. TX Cavalry"
+		type = dragoon
+		home = 132
+	}
+
+	regiment = {
+		name= "3.1. TX Cavalry"
+		type = dragoon
+		home = 132
+	}
+
+}
+
+army = {
+	name = "Army of Tennessee"
+	location = 188
+	regiment = {
+		name= "1.1. TN Rifles"
+		type = infantry
+		home = 188
+	}
+
+	regiment = {
+		name= "2.1. TN Rifles"
+		type = infantry
+		home = 188
+	}
+
+	regiment = {
+		name= "3.1. TN Rifles"
+		type = infantry
+		home = 188
+	}
+
+}
+
+army = {
+	name = "Army of the West"
+	location = 145
+	regiment = {
+		name= "1.1. AB Rifles"
+		type = infantry
+		home = 195
+	}
+
+	regiment = {
+		name= "2.1. AB Rifles"
+		type = infantry
+		home = 195
+	}
+
+	regiment = {
+		name= "3.1. AB Rifles"
+		type = infantry
+		home = 196
+	}
+
+}
+
+army = {
+	name = "Army of the Mississpi"
+	location = 189
+	regiment = {
+		name= "1.1. MS Rifles"
+		type = infantry
+		home = 192
+	}
+
+	regiment = {
+		name= "2.1. MS Rifles"
+		type = infantry
+		home = 192
+	}
+
+	regiment = {
+		name= "3.1. MS Rifles"
+		type = infantry
+		home = 192
+	}
+
+}
+
+army = {
+	name = "Norfolk Garrison"
+	location = 214
+	regiment = {
+		name= "1.1. LA Rifles"
+		type = infantry
+		home = 141
+	}
+
+	regiment = {
+		name= "2.1. LA Rifles"
+		type = infantry
+		home = 140
+	}
+
+	regiment = {
+		name= "3.1. LA Rifles"
+		type = infantry
+		home = 139
+	}
+
+}
+
+army = {
+	name = "Army of Virginia"
+
+	location = 213
+	regiment = {
+		name= "1.1. TX Rifles"
+		type = infantry
+		home = 133
+	}
+
+	regiment = {
+		name= "2.1. TX Rifles"
+		type = infantry
+		home = 133
+	}
+
+	regiment = {
+		name= "3.1. TX Rifles"
+		type = infantry
+		home = 134
+	}
+
+	regiment = {
+		name= "4.1. TX Rifles"
+		type = artillery
+		home = 136
+	}
+
+}
+
+navy = {
+	name = "CSN"
+	location = 204
+	ship = {
+		name= "CSS Sumter"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "CSS Alabama"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "CSS Florida"
+		type = commerce_raider
+	}
+
+}
+

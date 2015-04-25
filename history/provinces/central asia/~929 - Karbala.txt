@@ -1,0 +1,12 @@
+owner = IRQ
+controller = IRQ
+add_core = IRQ
+trade_goods = grain
+life_rating = 30
+terrain = semi_desert
+1923.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 3
+	remove_core = TUR
+}

@@ -1,0 +1,19 @@
+owner = TUR
+controller = TUR  colonial = 2
+add_core = GRE
+add_core = BUL
+trade_goods = grain
+life_rating = 35
+terrain = hilly_farmland
+1914.1.1 = {
+	owner = BUL
+	controller = BUL
+	remove_core = TUR
+	remove_core = GRE
+}
+1923.1.1 = {
+	owner = GRE
+	controller = GRE
+	add_core = GRE
+	remove_core = BUL
+}

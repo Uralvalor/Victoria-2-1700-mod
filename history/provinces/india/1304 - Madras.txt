@@ -1,0 +1,21 @@
+owner = MYS
+controller = MYS
+add_core = MYS
+add_core = HYD
+add_core = HND
+trade_goods = grain
+life_rating = 35
+
+terrain = hilly_farmland
+1750.1.1 = {
+add_core = KRN
+}
+1750.1.1 = {
+	owner = ENG
+	controller = ENG
+colonial = 2
+}
+1914.1.1 = {
+	naval_base = 4
+	colonial = 3
+}

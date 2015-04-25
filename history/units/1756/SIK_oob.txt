@@ -1,0 +1,9 @@
+army = {
+	name = "Армия чогьяла Сиккима"
+	location = 1328
+	regiment = {
+		name= "1-я бригада"
+		type = irregular
+		home = 1328
+	}
+}

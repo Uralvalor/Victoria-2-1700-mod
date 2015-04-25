@@ -1,0 +1,23 @@
+army = {
+	name = "Армия Бхопала"
+	location = 1272
+	regiment = {
+		name= "1-я бригада"
+		type = irregular
+		home = 1272
+	}
+
+	regiment = {
+		name= "2-я бригада"
+		type = irregular
+		home = 1272
+	}
+
+	regiment = {
+		name= "3-я бригада"
+		type = irregular
+		home = 1272
+	}
+
+}
+

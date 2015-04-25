@@ -1,0 +1,40 @@
+army = {
+	name = "Криская армия"
+	location = 195
+	regiment = {
+		name= "1-я индейская бригада"
+		type = irregular
+		home = 195
+	}
+
+	regiment = {
+		name= "1-я индейская бригада"
+		type = irregular
+		home = 195
+	}
+
+	regiment = {
+		name= "1-я индейская бригада"
+		type = irregular
+		home = 201
+	}
+
+	regiment = {
+		name= "1-я индейская бригада"
+		type = irregular
+		home = 201
+	}
+
+	regiment = {
+		name= "1-я индейская бригада"
+		type = irregular
+		home = 202
+	}
+
+	regiment = {
+		name= "1-я индейская бригада"
+		type = irregular
+		home = 202
+	}
+}
+

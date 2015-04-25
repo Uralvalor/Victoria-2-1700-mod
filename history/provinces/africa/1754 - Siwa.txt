@@ -1,0 +1,17 @@
+owner = EGY
+controller = EGY
+add_core = EGY
+trade_goods = grain
+life_rating = 10
+terrain = desert
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 3
+}
+1923.1.1 = {
+	owner = EGY
+	controller = EGY
+	colonial = no
+}
+

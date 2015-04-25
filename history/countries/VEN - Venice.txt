@@ -1,0 +1,80 @@
+capital = 729
+primary_culture = north_italian
+religion = catholic
+government = democracy
+plurality = 0.1
+nationalvalue = nv_liberty
+literacy = 0.6
+civilized = yes
+prestige = 22
+
+	land_reform = yes_land_reform
+	admin_reform = yes_admin_reform
+	finance_reform = finance_reform_two 
+	education_reform = yes_education_reform 
+	transport_improv = yes_transport_improv 
+	pre_indust = yes_pre_indust
+	industrial_construction = yes_industrial_construction
+	foreign_training = yes_foreign_training 
+	foreign_weapons = yes_foreign_weapons 
+	military_constructions = yes_military_constructions 
+	foreign_officers = yes_foreign_officers 
+	army_schools = 	yes_army_schools
+	foreign_naval_officers = yes_foreign_naval_officers 
+	naval_schools = yes_naval_schools 
+	foreign_navies = yes_foreign_navies 
+
+
+water_wheel_power = 1	
+nelsonian_thought = 1
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+clipper_design = 1
+mechanized_mining = 1
+clean_coal = 1
+ 
+
+# Political reforms
+slavery = yes_slavery
+upper_house_composition = appointed
+vote_franschise = wealth_weighted_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = state_controlled
+voting_system = first_past_the_post
+political_parties = harassment
+minorities = limited  
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = low_safety
+health_care = acceptable_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+school_reforms = no_schools
+arts_endowment = small_endowment
+
+ruling_party = VEN_reactionary
+upper_house = {
+	fascist = 0
+	reactionary = 100
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+1861.1.1 = {
+	oob = "/1861/VEN_oob.txt"
+}
+1861.1.1 = {
+# Technologies
+
+
+guild_based_production = 1
+water_wheel_power = 1
+publishing_industry = 1
+mechanized_mining = 1
+
+#Inventions
+}

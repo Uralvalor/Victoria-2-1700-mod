@@ -1,0 +1,24 @@
+army = {
+	name = "Army of Sulu"
+	location = 1464
+	regiment = {
+		name= "1.Sulu Legion"
+		type = irregular
+		home = 1464
+	}
+	
+}
+
+navy = {
+	name = "Navy of Sulu"
+	location = 1464
+	ship = {
+		name= "1.Sulu"
+		type = frigate
+	}
+	ship = {
+		name= "2.Naval Squad"
+		type = clipper_transport
+	}
+	
+}

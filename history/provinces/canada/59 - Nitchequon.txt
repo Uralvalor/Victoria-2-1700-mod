@@ -1,0 +1,14 @@
+ 
+ 
+add_core = CAN
+add_core = QUE
+trade_goods = fish
+life_rating = 30
+terrain = boreal_forest_hills
+colonial = 1
+
+1914.1.1 = {
+	owner = CAN
+	controller = CAN
+	colonial = no
+}

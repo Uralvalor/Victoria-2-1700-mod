@@ -1,0 +1,2790 @@
+#Sphere of Influence
+
+PER = {
+	value = 100		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+AFG = {
+	value = 0		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 10
+}
+
+NEP = {
+	value = 100		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 40
+}
+
+TIB = {
+	value = 100
+	level = 5
+	influence_value = 40
+}
+
+SIA = {
+	value = 100
+	level = 4
+	influence_value = 23
+}
+
+NEJ = {
+	value = 100
+	level = 4
+	influence_value = 12
+}
+
+ETH = {
+	value = 100
+	level = 4
+	influence_value = 2
+}
+
+NET = {
+	value = 150
+		#relation
+
+	level = 4
+		#3=cordial, 4 = friendly, 5 sphere
+
+	influence_value = 25
+
+}
+
+DEN = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 30
+}
+SWE = {
+	value = 0		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 30
+}
+SWI = {
+	value = 125
+	level = 3
+	influence_value = 12
+}
+ARG = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+BEL = {
+	value = 200
+	level = 5
+	influence_value = 25
+}
+SER = {
+	value = 200
+	level = 4
+	influence_value = 26
+}
+FRA = {
+	value = 200
+}
+RUS = {
+	value = 200
+}
+JAP = {
+	value = 50
+}
+ITA = {
+	value = 50
+}
+POR = {
+	value = 200
+	level = 3
+	influence_value = 35
+}
+ROM = {
+	value = 200
+	influence_value = 23
+}
+USA = {
+	value = 50
+}
+PNM = {
+	value = 150
+	level = 3
+	influence_value = 13
+}
+CUB = {
+	value = 150
+}
+GRE= {
+	value = 200
+	level = 4
+	influence_value = 15
+}
+CHI = {
+	value = 150
+	level = 3
+	influence_value = 10
+}
+BRZ = {
+	value = 200
+	influence_value = 18
+}
+GUA = {
+	value = 150
+	level = 3
+	influence_value = 11
+}
+NIC = {
+	value = 150
+	level = 3
+	influence_value = 12
+}
+COS = {
+	value = 100
+	level = 3
+	influence_value = 7
+}
+HAI = {
+	value = 100
+	level = 3
+	influence_value = 14
+}
+HON = {
+	value = 100
+	level = 3
+	influence_value = 21
+}
+BOL = {
+	value = 100
+	level = 4
+	influence_value = 11
+}
+DOM = {
+	value = 100
+	level = 3
+	influence_value = 15
+}
+PEU = {
+	value = 100
+	influence_value = 8
+}
+URU = {
+	value = 100
+	influence_value = 11
+}
+ECU = {
+	value = 100
+	level = 4
+	influence_value = 13
+}
+SMR = {
+	value = 100
+	level = 3
+	influence_value = 15
+}
+GER = {
+	value = -200
+}
+KUK = {
+	value = -200
+}
+BUL = {
+	value = -200
+	influence_value = 23
+}
+TUR = {
+	value = -200
+	influence_value = 43
+}
+AST = {
+	level = 5
+	influence_value = 10
+}
+NZL = {
+	level = 5
+	influence_value = 13
+}
+SAF = {
+	level = 5
+	influence_value = 15
+}
+CAN = {
+	level = 5
+	influence_value = 1
+}
+NEW = {
+	level = 5
+	influence_value = 43
+}
+
+leader = {
+	name = "Дуглас Хейг"
+	type = land
+	date="1914.1.1"
+	personality = audacious
+	background = school_of_offense
+	picture="personal_duglas_haig"
+}
+
+leader = {
+	name = "Эдмунд Алленби"
+	type = land
+	date="1914.1.1"
+	personality = polite
+	background = cavalry_school
+	picture="personal_edmund_allenby"
+}
+
+leader = {
+	name = "Джулиан Бинг"
+	type = land
+	date="1914.1.1"
+	personality = stalwart
+	background = aristocrat
+	picture="personal_julian_byng"
+}
+
+leader = {
+	name = "Уильям Бидвуд"
+	type = land
+	date="1914.1.1"
+	personality = stout
+	background = drillmaster
+	picture="personal_william_birdwood"
+}
+
+leader = {
+	name = "Джон Френч"
+	type = land
+	date="1914.1.1"
+	personality = merciless
+	background = hated
+	picture="personal_john_french"
+}
+
+leader = {
+	name = "Хьюберт Гоф"
+	type = land
+	date="1914.1.1"
+	personality = harsh
+	background = diplomat
+	picture="personal_hubert_gough"
+}
+
+leader = {
+	name = "Айлмер Хантер-Вестон"
+	type = land
+	date="1914.1.1"
+	personality = wretched
+	background = butcher
+	picture="personal_aylmer_hunter-weston"
+}
+
+leader = {
+	name = "Ян Стандиш Гамильтон"
+	type = land
+	date="1914.1.1"
+	personality = incapable
+	background = politician
+	picture="personal_ian_hamilton"
+}
+
+leader = {
+	name = "Генри Роулинсон"
+	type = land
+	date="1914.1.1"
+	personality = skilled
+	background = adventurer
+	picture="personal_henry_rawlinson"
+}
+
+leader = {
+	name = "Герберт Блумер"
+	type = land
+	date="1914.1.1"
+	personality = smart_p
+	background = drillmaster
+	picture="personal_herbert_plumer"
+}
+
+leader = {
+	name = "Хорас Смит-Дорриен"
+	type = land
+	date="1914.1.1"
+	personality = gutsy
+	background = disgraced
+	picture="personal_horace_smith-dorrien"
+}
+leader = {
+	name = "Джон Джеллико"
+	type = sea
+	date="1914.1.1"
+	personality = efficient
+	background = school_of_firepower
+	picture="personal_john_jellicoe"
+}
+
+leader = {
+	name = "Реджинальд Бэкон"
+	type = sea
+	date="1914.1.1"
+	personality = persistant
+	background = cursed_luck
+	picture="personal_reg_bakon"
+}
+
+leader = {
+	name = "Людвиг Баттенберг"
+	type = sea
+	date="1914.1.1"
+	personality = cautious
+	background = politician
+	picture="personal_ludwig_battenberg"
+}
+
+leader = {
+	name = "Джон Фишер"
+	type = sea
+	date="1914.1.1"
+	personality = disciplined
+	background = eccentric_genius
+	picture="personal_john_fisher"
+}
+
+leader = {
+	name = "Дэвид Битти"
+	type = sea
+	date="1914.1.1"
+	personality = bold
+	background = exranker
+	picture="personal_david_beatty"
+}
+
+leader = {
+	name = "Генри Джексон"
+	type = sea
+	date="1914.1.1"
+	personality = inspiring
+	background = bureaucrat_speed
+	picture="personal_henry_jackson"
+}
+
+leader = {
+	name = "Доветон Старди"
+	type = sea
+	date="1914.1.1"
+	personality = keen
+	background = drillmaster
+	picture="personal_doveton_sturdee"
+}
+
+army = {
+	name = "1 Royal Army"
+	location = 300
+	regiment = {
+		name= "1.Royal Guards Division"
+		type = guard
+		home = 300
+	}
+
+	regiment = {
+		name= "2.Royal Guards Division"
+		type = guard
+		home = 269
+	}
+
+	regiment = {
+		name= "3.Royal Guards Division"
+		type = guard
+		home = 263
+	}
+
+	regiment = {
+		name= "4.Royal Guards Division"
+		type = guard
+		home = 278
+	}
+
+	regiment = {
+		name= "5.Royal Guards Division"
+		type = guard
+		home = 277
+	}
+
+	regiment = {
+		name= "6.Royal Guards Division"
+		type = guard
+		home = 284
+	}
+
+	regiment = {
+		name= "1.2. Division"
+		type = infantry
+		home = 291
+	}
+
+	regiment = {
+		name= "2.2. Division"
+		type = infantry
+		home = 292
+	}
+
+	regiment = {
+		name= "3.2. Division"
+		type = infantry
+		home = 295
+	}
+
+	regiment = {
+		name= "1.3. Division"
+		type = infantry
+		home = 287
+	}
+
+	regiment = {
+		name= "2.3. Division"
+		type = infantry
+		home = 294
+	}
+
+	regiment = {
+		name= "3.3. Division"
+		type = infantry
+		home = 300
+	}
+
+	regiment = {
+		name= "1.Royal Guards Cavalry Division"
+		type = cuirassier
+		home = 271
+	}
+
+	regiment = {
+		name= "2.Royal Guards Cavalry Division"
+		type = cuirassier
+		home = 270
+	}
+
+	regiment = {
+		name= "3.Royal Guards Cavalry Division"
+		type = cuirassier
+		home = 280
+	}
+
+	regiment = {
+		name= "4.Royal Guards Cavalry Division"
+		type = cuirassier
+		home = 282
+	}
+
+	regiment = {
+		name= "5.Royal Guards Cavalry Division"
+		type = cuirassier
+		home = 283
+	}
+
+	regiment = {
+		name= "3.5. Division"
+		type = artillery
+		home = 281
+	}
+
+	regiment = {
+		name= "1.6. Division"
+		type = artillery
+		home = 289
+	}
+
+	regiment = {
+		name= "2.6. Division"
+		type = artillery
+		home = 288
+	}
+
+	regiment = {
+		name= "3.6. Division"
+		type = artillery
+		home = 290
+	}
+
+	regiment = {
+		name= "1.Royal Tank Division"
+		type = tank
+		home = 300
+	}
+
+	regiment = {
+		name= "2.Royal Tank Division"
+		type = tank
+		home = 271
+	}
+
+	regiment = {
+		name= "3.Royal Tank Division"
+		type = tank
+		home = 293
+	}
+
+}
+
+army = {
+	name = "2 Royal Army"
+	location = 278
+	regiment = {
+		name= "1.Royal Guards Division"
+		type = guard
+		home = 267
+	}
+
+	regiment = {
+		name= "2.Royal Guards Division"
+		type = guard
+		home = 268
+	}
+
+	regiment = {
+		name= "3.Royal Guards Division"
+		type = guard
+		home = 269
+	}
+
+	regiment = {
+		name= "4.Royal Guards Division"
+		type = guard
+		home = 270
+	}
+
+	regiment = {
+		name= "5.Royal Guards Division"
+		type = guard
+		home = 271
+	}
+
+	regiment = {
+		name= "6.Royal Guards Division"
+		type = guard
+		home = 273
+	}
+
+	regiment = {
+		name= "1.2. Division"
+		type = infantry
+		home = 274
+	}
+
+	regiment = {
+		name= "2.2. Division"
+		type = infantry
+		home = 275
+	}
+
+	regiment = {
+		name= "3.2. Division"
+		type = infantry
+		home = 275
+	}
+
+	regiment = {
+		name= "1.3. Division"
+		type = infantry
+		home = 276
+	}
+
+	regiment = {
+		name= "2.3. Division"
+		type = infantry
+		home = 276
+	}
+
+	regiment = {
+		name= "3.3. Division"
+		type = infantry
+		home = 377
+	}
+
+	regiment = {
+		name= "1.Royal Guards Cavalry Division"
+		type = cuirassier
+		home = 278
+	}
+
+	regiment = {
+		name= "2.Royal Guards Cavalry Division"
+		type = cuirassier
+		home = 278
+	}
+
+	regiment = {
+		name= "3.Royal Guards Cavalry Division"
+		type = cuirassier
+		home = 279
+	}
+
+	regiment = {
+		name= "4.Royal Guards Cavalry Division"
+		type = cuirassier
+		home = 279
+	}
+
+	regiment = {
+		name= "5.Royal Guards Cavalry Division"
+		type = cuirassier
+		home = 280
+	}
+
+	regiment = {
+		name= "3.5. Division"
+		type = artillery
+		home = 280
+	}
+
+	regiment = {
+		name= "1.6. Division"
+		type = artillery
+		home = 281
+	}
+
+	regiment = {
+		name= "2.6. Division"
+		type = artillery
+		home = 281
+	}
+
+	regiment = {
+		name= "3.6. Division"
+		type = artillery
+		home = 282
+	}
+
+	regiment = {
+		name= "1.Royal Tank Division"
+		type = tank
+		home = 283
+	}
+
+	regiment = {
+		name= "2.Royal Tank Division"
+		type = tank
+		home = 284
+	}
+
+	regiment = {
+		name= "3.Royal Tank Division"
+		type = tank
+		home = 254
+	}
+
+}
+
+army = {
+	name = "3 Royal Army"
+	location = 303
+	regiment = {
+		name= "1.Royal Guards Division"
+		type = guard
+		home = 286
+	}
+
+	regiment = {
+		name= "2.Royal Guards Division"
+		type = guard
+		home = 287
+	}
+
+	regiment = {
+		name= "3.Royal Guards Division"
+		type = guard
+		home = 288
+	}
+
+	regiment = {
+		name= "4.Royal Guards Division"
+		type = guard
+		home = 289
+	}
+
+	regiment = {
+		name= "5.Royal Guards Division"
+		type = guard
+		home = 290
+	}
+
+	regiment = {
+		name= "6.Royal Guards Division"
+		type = guard
+		home = 291
+	}
+
+	regiment = {
+		name= "1.2. Division"
+		type = infantry
+		home = 292
+	}
+
+	regiment = {
+		name= "2.2. Division"
+		type = infantry
+		home = 293
+	}
+
+	regiment = {
+		name= "3.2. Division"
+		type = infantry
+		home = 294
+	}
+
+	regiment = {
+		name= "1.3. Division"
+		type = infantry
+		home = 295
+	}
+
+	regiment = {
+		name= "2.3. Division"
+		type = infantry
+		home = 297
+	}
+
+	regiment = {
+		name= "3.3. Division"
+		type = infantry
+		home = 298
+	}
+
+	regiment = {
+		name= "1.Royal Guards Cavalry Division"
+		type = cuirassier
+		home = 299
+	}
+
+	regiment = {
+		name= "2.Royal Guards Cavalry Division"
+		type = cuirassier
+		home = 299
+	}
+
+	regiment = {
+		name= "3.Royal Guards Cavalry Division"
+		type = cuirassier
+		home = 300
+	}
+
+	regiment = {
+		name= "4.Royal Guards Cavalry Division"
+		type = cuirassier
+		home = 300
+	}
+
+	regiment = {
+		name= "5.Royal Guards Cavalry Division"
+		type = cuirassier
+		home = 300
+	}
+
+	regiment = {
+		name= "3.5. Division"
+		type = artillery
+		home = 300
+	}
+
+	regiment = {
+		name= "1.6. Division"
+		type = artillery
+		home = 300
+	}
+
+	regiment = {
+		name= "2.6. Division"
+		type = artillery
+		home = 300
+	}
+
+	regiment = {
+		name= "3.6. Division"
+		type = artillery
+		home = 300
+	}
+
+	regiment = {
+		name= "1.Royal Tank Division"
+		type = tank
+		home = 300
+	}
+
+	regiment = {
+		name= "2.Royal Tank Division"
+		type = tank
+		home = 300
+	}
+
+	regiment = {
+		name= "3.Royal Tank Division"
+		type = tank
+		home = 300
+	}
+
+}
+army = {
+	name = "Royal Irish Army"
+	location = 263
+	regiment = {
+		name= "1.7. Division"
+		type = infantry
+		home = 300
+	}
+
+	regiment = {
+		name= "2.7. Division"
+		type = infantry
+		home = 255
+	}
+
+	regiment = {
+		name= "3.7. Division"
+		type = infantry
+		home = 259
+	}
+
+}
+
+army = {
+	name = "1 Royal Indian Army"
+	location = 1239
+	regiment = {
+		name= "1.8. Division"
+		type = infantry
+		home = 303
+	}
+
+	regiment = {
+		name= "2.8. Division"
+		type = infantry
+		home = 284
+	}
+
+	regiment = {
+		name= "3.8. Division"
+		type = infantry
+		home = 273
+	}
+
+	regiment = {
+		name= "1.9. Division"
+		type = infantry
+		home = 296
+	}
+
+	regiment = {
+		name= "2.9. Division"
+		type = infantry
+		home = 286
+	}
+
+	regiment = {
+		name= "3.9. Division"
+		type = infantry
+		home = 274
+	}
+
+	regiment = {
+		name= "1.10. Division"
+		type = infantry
+		home = 299
+	}
+
+	regiment = {
+		name= "2.10. Division"
+		type = infantry
+		home = 1245
+	}
+
+	regiment = {
+		name= "3.10. Division"
+		type = infantry
+		home = 1274
+	}
+
+	regiment = {
+		name= "1.11. Division"
+		type = infantry
+		home = 1277
+	}
+
+	regiment = {
+		name= "2.11. Division"
+		type = infantry
+		home = 1278
+	}
+
+	regiment = {
+		name= "3.11. Division"
+		type = infantry
+		home = 1279
+	}
+
+	regiment = {
+		name= "1.12. Division"
+		type = infantry
+		home = 1280
+	}
+
+	regiment = {
+		name= "2.12. Division"
+		type = infantry
+		home = 1280
+	}
+
+	regiment = {
+		name= "3.12. Division"
+		type = infantry
+		home = 1281
+	}
+
+	regiment = {
+		name= "1.1. Indian Division"
+		type = infantry
+		home = 1251
+	}
+
+	regiment = {
+		name= "2.1. Indian Division"
+		type = infantry
+		home = 1254
+	}
+
+	regiment = {
+		name= "3.1. Indian Division"
+		type = infantry
+		home = 1257
+	}
+
+	regiment = {
+		name= "1.2. Indian Division"
+		type = infantry
+		home = 1227
+	}
+
+	regiment = {
+		name= "2.2. Indian Division"
+		type = infantry
+		home = 1233
+	}
+
+	regiment = {
+		name= "3.2. Indian Division"
+		type = infantry
+		home = 1228
+	}
+
+	regiment = {
+		name= "1.3. Indian Division"
+		type = infantry
+		home = 1304
+	}
+
+	regiment = {
+		name= "2.3. Indian Division"
+		type = infantry
+		home = 1310
+	}
+
+	regiment = {
+		name= "3.3. Indian Division"
+		type = infantry
+		home = 1307
+	}
+
+	regiment = {
+		name= "1.4. Indian Division"
+		type = infantry
+		home = 1297
+	}
+
+	regiment = {
+		name= "2.4. Indian Division"
+		type = infantry
+		home = 1296
+	}
+
+	regiment = {
+		name= "3.4. Indian Division"
+		type = infantry
+		home = 1299
+	}
+
+	regiment = {
+		name= "1.1. Indian Cavalry Division"
+		type = dragoon
+		home = 1239
+	}
+
+	regiment = {
+		name= "2.1. Indian Cavalry Division"
+		type = dragoon
+		home = 1240
+	}
+
+	regiment = {
+		name= "3.1. Indian Cavalry Division"
+		type = dragoon
+		home = 1236
+	}
+
+}
+
+army = {
+	name = "2 Royal Indian Army"
+	location = 1297
+	regiment = {
+		name= "1.8. Division"
+		type = infantry
+		home = 268
+	}
+
+	regiment = {
+		name= "2.8. Division"
+		type = infantry
+		home = 267
+	}
+
+	regiment = {
+		name= "3.8. Division"
+		type = infantry
+		home = 266
+	}
+
+	regiment = {
+		name= "1.9. Division"
+		type = infantry
+		home = 285
+	}
+
+	regiment = {
+		name= "2.9. Division"
+		type = infantry
+		home = 1281
+	}
+
+	regiment = {
+		name= "3.9. Division"
+		type = infantry
+		home = 1282
+	}
+
+	regiment = {
+		name= "1.10. Division"
+		type = infantry
+		home = 1283
+	}
+
+	regiment = {
+		name= "2.10. Division"
+		type = infantry
+		home = 1283
+	}
+
+	regiment = {
+		name= "3.10. Division"
+		type = infantry
+		home = 1284
+	}
+
+	regiment = {
+		name= "1.11. Division"
+		type = infantry
+		home = 1284
+	}
+
+	regiment = {
+		name= "2.11. Division"
+		type = infantry
+		home = 1285
+	}
+
+	regiment = {
+		name= "3.11. Division"
+		type = infantry
+		home = 1285
+	}
+
+	regiment = {
+		name= "1.12. Division"
+		type = infantry
+		home = 1286
+	}
+
+	regiment = {
+		name= "2.12. Division"
+		type = infantry
+		home = 1287
+	}
+
+	regiment = {
+		name= "3.12. Division"
+		type = infantry
+		home = 1288
+	}
+
+	regiment = {
+		name= "1.1. Indian Division"
+		type = infantry
+		home = 1218
+	}
+
+	regiment = {
+		name= "2.1. Indian Division"
+		type = infantry
+		home = 1319
+	}
+
+	regiment = {
+		name= "3.1. Indian Division"
+		type = infantry
+		home = 1328
+	}
+
+	regiment = {
+		name= "1.2. Indian Division"
+		type = infantry
+		home = 1329
+	}
+
+	regiment = {
+		name= "2.2. Indian Division"
+		type = infantry
+		home = 1330
+	}
+
+	regiment = {
+		name= "3.2. Indian Division"
+		type = infantry
+		home = 1331
+	}
+
+	regiment = {
+		name= "1.3. Indian Division"
+		type = infantry
+		home = 1332
+	}
+
+	regiment = {
+		name= "2.3. Indian Division"
+		type = infantry
+		home = 1333
+	}
+
+	regiment = {
+		name= "3.3. Indian Division"
+		type = infantry
+		home = 1334
+	}
+
+	regiment = {
+		name= "1.4. Indian Division"
+		type = infantry
+		home = 1335
+	}
+
+	regiment = {
+		name= "2.4. Indian Division"
+		type = infantry
+		home = 1336
+	}
+
+	regiment = {
+		name= "3.4. Indian Division"
+		type = infantry
+		home = 1337
+	}
+
+	regiment = {
+		name= "1.1. Indian Cavalry Division"
+		type = dragoon
+		home = 1338
+	}
+
+	regiment = {
+		name= "2.1. Indian Cavalry Division"
+		type = dragoon
+		home = 1339
+	}
+
+	regiment = {
+		name= "3.1. Indian Cavalry Division"
+		type = dragoon
+		home = 1342
+	}
+
+}
+
+army = {
+	name = "3 Royal Indian Army"
+	location = 1310
+	regiment = {
+		name= "1.8. Division"
+		type = infantry
+		home = 277
+	}
+
+	regiment = {
+		name= "2.8. Division"
+		type = infantry
+		home = 278
+	}
+
+	regiment = {
+		name= "3.8. Division"
+		type = infantry
+		home = 297
+	}
+
+	regiment = {
+		name= "1.9. Division"
+		type = infantry
+		home = 298
+	}
+
+	regiment = {
+		name= "2.9. Division"
+		type = infantry
+		home = 1289
+	}
+
+	regiment = {
+		name= "3.9. Division"
+		type = infantry
+		home = 1290
+	}
+
+	regiment = {
+		name= "1.10. Division"
+		type = infantry
+		home = 1292
+	}
+
+	regiment = {
+		name= "2.10. Division"
+		type = infantry
+		home = 1293
+	}
+
+	regiment = {
+		name= "3.10. Division"
+		type = infantry
+		home = 1294
+	}
+
+	regiment = {
+		name= "1.11. Division"
+		type = infantry
+		home = 1295
+	}
+
+	regiment = {
+		name= "2.11. Division"
+		type = infantry
+		home = 1295
+	}
+
+	regiment = {
+		name= "3.11. Division"
+		type = infantry
+		home = 1313
+	}
+
+	regiment = {
+		name= "1.12. Division"
+		type = infantry
+		home = 1314
+	}
+
+	regiment = {
+		name= "2.12. Division"
+		type = infantry
+		home = 1315
+	}
+
+	regiment = {
+		name= "3.12. Division"
+		type = infantry
+		home = 1318
+	}
+
+	regiment = {
+		name= "1.1. Indian Division"
+		type = infantry
+		home = 1385
+	}
+
+	regiment = {
+		name= "2.1. Indian Division"
+		type = infantry
+		home = 1387
+	}
+
+	regiment = {
+		name= "3.1. Indian Division"
+		type = infantry
+		home = 1394
+	}
+
+	regiment = {
+		name= "1.2. Indian Division"
+		type = infantry
+		home = 1235
+	}
+
+	regiment = {
+		name= "2.2. Indian Division"
+		type = infantry
+		home = 1236
+	}
+
+	regiment = {
+		name= "3.2. Indian Division"
+		type = infantry
+		home = 1237
+	}
+
+	regiment = {
+		name= "1.3. Indian Division"
+		type = infantry
+		home = 1237
+	}
+
+	regiment = {
+		name= "2.3. Indian Division"
+		type = infantry
+		home = 1240
+	}
+
+	regiment = {
+		name= "3.3. Indian Division"
+		type = infantry
+		home = 1240
+	}
+
+	regiment = {
+		name= "1.4. Indian Division"
+		type = infantry
+		home = 1241
+	}
+
+	regiment = {
+		name= "2.4. Indian Division"
+		type = infantry
+		home = 1241
+	}
+
+	regiment = {
+		name= "3.4. Indian Division"
+		type = infantry
+		home = 1241
+	}
+
+	regiment = {
+		name= "1.1. Indian Cavalry Division"
+		type = dragoon
+		home = 1243
+	}
+
+	regiment = {
+		name= "2.1. Indian Cavalry Division"
+		type = dragoon
+		home = 1243
+	}
+
+	regiment = {
+		name= "3.1. Indian Cavalry Division"
+		type = dragoon
+		home = 1245
+	}
+
+}
+army = {
+	name = "2 Royal African Army"
+	location = 1751
+	regiment = {
+		name= "1.8. Division"
+		type = infantry
+		home = 1942
+	}
+
+	regiment = {
+		name= "2.8. Division"
+		type = infantry
+		home = 1751
+	}
+
+	regiment = {
+		name= "3.8. Division"
+		type = infantry
+		home = 1745
+	}
+
+	regiment = {
+		name= "1.9. Division"
+		type = infantry
+		home = 1745
+	}
+
+	regiment = {
+		name= "2.9. Division"
+		type = infantry
+		home = 1745
+	}
+
+	regiment = {
+		name= "3.9. Division"
+		type = infantry
+		home = 1746
+	}
+
+	regiment = {
+		name= "1.10. Division"
+		type = infantry
+		home = 1747
+	}
+
+	regiment = {
+		name= "2.10. Division"
+		type = infantry
+		home = 1748
+	}
+
+	regiment = {
+		name= "3.10. Division"
+		type = infantry
+		home = 1749
+	}
+
+	regiment = {
+		name= "1.11. Division"
+		type = infantry
+		home = 1750
+	}
+
+	regiment = {
+		name= "2.11. Division"
+		type = infantry
+		home = 1752
+	}
+
+	regiment = {
+		name= "3.11. Division"
+		type = infantry
+		home = 1762
+	}
+
+	regiment = {
+		name= "1.12. Division"
+		type = infantry
+		home = 1764
+	}
+
+	regiment = {
+		name= "2.12. Division"
+		type = infantry
+		home = 1827
+	}
+
+	regiment = {
+		name= "3.12. Division"
+		type = infantry
+		home = 1828
+	}
+
+	regiment = {
+		name= "1.1. Indian Division"
+		type = infantry
+		home = 1829
+	}
+
+	regiment = {
+		name= "2.1. Indian Division"
+		type = infantry
+		home = 1830
+	}
+
+	regiment = {
+		name= "3.1. Indian Division"
+		type = infantry
+		home = 1831
+	}
+
+	regiment = {
+		name= "1.2. Indian Division"
+		type = infantry
+		home = 1910
+	}
+
+	regiment = {
+		name= "2.2. Indian Division"
+		type = infantry
+		home = 1924
+	}
+
+	regiment = {
+		name= "3.2. Indian Division"
+		type = infantry
+		home = 1925
+	}
+
+	regiment = {
+		name= "1.3. Indian Division"
+		type = infantry
+		home = 1926
+	}
+
+	regiment = {
+		name= "2.3. Indian Division"
+		type = infantry
+		home = 1927
+	}
+
+	regiment = {
+		name= "3.3. Indian Division"
+		type = infantry
+		home = 1928
+	}
+
+	regiment = {
+		name= "1.4. Indian Division"
+		type = infantry
+		home = 1930
+	}
+
+	regiment = {
+		name= "2.4. Indian Division"
+		type = infantry
+		home = 1931
+	}
+
+	regiment = {
+		name= "3.4. Indian Division"
+		type = infantry
+		home = 1933
+	}
+
+	regiment = {
+		name= "1.1. Indian Cavalry Division"
+		type = dragoon
+		home = 1934
+	}
+
+	regiment = {
+		name= "2.1. Indian Cavalry Division"
+		type = dragoon
+		home = 1935
+	}
+
+	regiment = {
+		name= "3.1. Indian Cavalry Division"
+		type = dragoon
+		home = 1936
+	}
+
+}
+navy = {
+	name = "Grand Fleet"
+	location = 303
+	ship = {
+		name= "HMS Warrior"
+		type = dreadnought
+	}
+		
+	ship = {
+		name= "HMS Aboukir"
+		type = dreadnought
+	}
+
+	ship = {
+		name= "HMS Anson"
+		type = dreadnought
+	}
+
+	ship = {
+		name= "HMS Centurion"
+		type = dreadnought
+	}
+
+	ship = {
+		name= "HMS Colossus"
+		type = dreadnought
+	}
+	ship = {
+		name= "HMS Warrior"
+		type = dreadnought
+	}
+		
+	ship = {
+		name= "HMS Aboukir"
+		type = dreadnought
+	}
+
+	ship = {
+		name= "HMS Anson"
+		type = dreadnought
+	}
+
+	ship = {
+		name= "HMS Centurion"
+		type = dreadnought
+	}
+
+	ship = {
+		name= "HMS Colossus"
+		type = dreadnought
+	}
+
+	ship = {
+		name= "HMS Conqueror"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Defiance"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Donegal"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Edgar"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Frederick William"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Gibraltar"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Hero"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Howe"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Majestic"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Prince of Wales"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Revenge"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Trafalgar"
+		type = ironclad
+	}
+	ship = {
+		name= "HMS Conqueror"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Defiance"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Donegal"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Edgar"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Frederick William"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Gibraltar"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Hero"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Howe"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Majestic"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Prince of Wales"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Revenge"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Trafalgar"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Ariadne"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Bacchante"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Forte"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Forth"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS ImmortalitJ"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Melpomene"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Mersey"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Narcissus"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Topaze"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Tribune"
+		type = cruiser
+	}
+
+		ship = {
+		name= "HMS Ariadne"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Bacchante"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Forte"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Forth"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS ImmortalitJ"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Melpomene"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Mersey"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Narcissus"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Topaze"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Tribune"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Ariadne"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Bacchante"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Forte"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Forth"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS ImmortalitJ"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Melpomene"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Mersey"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Narcissus"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Topaze"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Tribune"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Furious"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "HMS Leopard"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "HMS Magicienne"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "HMS Valourous"
+		type = commerce_raider
+	}
+
+}
+
+navy = {
+	name = "Channel Fleet"
+	location = 303
+	ship = {
+		name= "HMS Warrior"
+		type = dreadnought
+	}
+		
+	ship = {
+		name= "HMS Aboukir"
+		type = dreadnought
+	}
+
+	ship = {
+		name= "HMS Anson"
+		type = dreadnought
+	}
+
+	ship = {
+		name= "HMS Centurion"
+		type = dreadnought
+	}
+
+	ship = {
+		name= "HMS Colossus"
+		type = dreadnought
+	}
+
+	ship = {
+		name= "HMS Conqueror"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Defiance"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Donegal"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Edgar"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Frederick William"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Gibraltar"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Hero"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Howe"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Majestic"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Prince of Wales"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Revenge"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Trafalgar"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Ariadne"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Bacchante"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Forte"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Forth"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS ImmortalitJ"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Melpomene"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Mersey"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Narcissus"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Topaze"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Tribune"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Furious"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "HMS Leopard"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "HMS Magicienne"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "HMS Valourous"
+		type = commerce_raider
+	}
+
+}
+
+navy = {
+	name = "Particular Service Squadron"
+	location = 303
+	ship = {
+		name= "HMS San Pareil"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Chesapeake"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Diadem"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Doris"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Emerald"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Liffey"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Sutlej"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Centaur"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "HMS Dragon"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "HMS Odin"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "HMS Retribution"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "HMS Sampson"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "HMS Sidon"
+		type = commerce_raider
+	}
+
+}
+
+navy = {
+	name = "1st Reserve Squadron"
+	location = 303
+	ship = {
+		name= "HMS Brunswick"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Cressy"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Princess Royal"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Renown"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Royal Albert"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Royal Sovereign"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Saint Jean D'Acre"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Windsor Castle"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Seahorse"
+		type = cruiser
+	}
+
+}
+
+navy = {
+	name = "2nd Reserve Squadron"
+	location = 299
+	ship = {
+		name= "HMS Albion"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Boscawn"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Collingwood"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Cumberland"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Duke of Wellington"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Goliath"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Lion"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Meeanee"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Eurotas"
+		type = cruiser
+	}
+
+}
+
+navy = {
+	name = "3rd Reserve Squadron"
+	location = 299
+	ship = {
+		name= "HMS Bombay"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Calcutta"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Monarch"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Rodney"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Royal William"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Thunderer"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Vanguard"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Waterloo"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Horatio"
+		type = cruiser
+	}
+
+}
+
+navy = {
+	name = "4th Reserve Squadron"
+	location = 281
+	ship = {
+		name= "HMS Clarence"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Formidable"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Nelson"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Prince Regent"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Royal George"
+		type = ironclad
+	}
+
+}
+
+navy = {
+	name = "Mediterranean Fleet"
+	location = 854
+	ship = {
+		name= "HMS Agamemnon"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Algiers"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Caesar"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Exmouth"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Hannibal"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS James Watt"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS London"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Marlborough"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Mars"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Neptune"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Orion"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Queen"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Victor Emmanuel"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Victoria"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Curacoa"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Phoebe"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Shannon"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Gladiator"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "HMS Terrible"
+		type = commerce_raider
+	}
+
+}
+
+navy = {
+	name = "North America Station"
+	location = 71
+	ship = {
+		name= "HMS Irresistible"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Nile"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS St. George"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Imperieuse"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Nankin"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Firebrand"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "HMS Vulture"
+		type = commerce_raider
+	}
+
+}
+
+navy = {
+	name = "South America Station"
+	location = 2131
+	ship = {
+		name= "HMS Octavia"
+		type = cruiser
+	}
+
+}
+
+navy = {
+	name = "West Africa Station"
+	location = 1884
+	ship = {
+		name= "HMS Indefatigable"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Phaeton"
+		type = cruiser
+	}
+
+}
+
+navy = {
+	name = "Cape of Good Hope Station"
+	location = 2087
+	ship = {
+		name= "HMS Dauntless"
+		type = cruiser
+	}
+
+}
+
+navy = {
+	name = "East Indies Station"
+	location = 1321
+	ship = {
+		name= "HMS Duncan"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Hood"
+		type = ironclad
+	}
+
+	ship = {
+		name= "HMS Active"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Amphion"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Termagent"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Cyclops"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "HMS Penelope"
+		type = commerce_raider
+	}
+
+}
+
+navy = {
+	name = "Australia Station"
+	location = 2468
+	ship = {
+		name= "HMS Chicester"
+		type = cruiser
+	}
+
+}
+
+navy = {
+	name = "Pacific Station"
+	location = 14
+	ship = {
+		name= "HMS Cambrian"
+		type = cruiser
+	}
+
+	ship = {
+		name= "HMS Severn"
+		type = cruiser
+	}
+
+}
+
+navy = {
+	name = "1st Transport Squadron"
+	location = 303
+	ship = {
+		name= "1st Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "4th Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "4th Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "4th Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "4th Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "4th Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "4th Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "4th Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "4th Transport Flotilla"
+		type = steam_transport
+	}
+
+}
+
+navy = {
+	name = "2nd Transport Squadron"
+	location = 303
+	ship = {
+		name= "5th Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "6th Transport Flotilla"
+		type = steam_transport
+	}
+
+}
+
+navy = {
+	name = "3rd Transport Squadron"
+	location = 854
+	ship = {
+		name= "7th Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "8th Transport Flotilla"
+		type = steam_transport
+	}
+
+}
+
+navy = {
+	name = "4th Transport Squadron"
+	location = 301
+	ship = {
+		name= "9th Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "10th Transport Flotilla"
+		type = steam_transport
+	}
+
+}
+

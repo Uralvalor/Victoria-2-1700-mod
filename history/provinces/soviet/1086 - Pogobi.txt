@@ -1,0 +1,16 @@
+
+add_core = SIB
+trade_goods = fish
+life_rating = 27
+terrain = boreal_forest_hills
+1914.1.1 = {
+	owner = RUS
+	controller = RUS
+	trade_goods = oil
+	naval_base = 2
+}
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

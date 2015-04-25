@@ -1,0 +1,18 @@
+leader = {
+	name = "Дэвид Меттлеркампф"
+	picture = ham_gen_mettlerkamp
+	date = 1814.1.1
+	type = land
+	personality = doughty
+	background = amateur
+}
+
+army = {
+	name = "Hamburger Armee"
+	location = 528
+	regiment = {
+		name= "1. Hamburger Infanterie-Brigade"
+		type = infantry
+		home = 528
+	}
+}

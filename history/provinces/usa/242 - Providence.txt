@@ -1,0 +1,14 @@
+owner = ENL
+controller = ENL
+colonial = 2  
+add_core = XCT
+add_core = NEN
+trade_goods = grain
+terrain = marginal_farmland
+life_rating = 35
+1750.1.1 = {
+	owner = ENG
+	controller = ENG
+}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = { railroad = 5 naval_base = 3 }

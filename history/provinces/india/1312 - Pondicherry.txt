@@ -1,0 +1,13 @@
+owner = FRA
+controller = FRA
+add_core = HYD
+add_core = HND
+trade_goods = grain
+life_rating = 35
+colonial = 2
+terrain = good_farmland
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 3
+}

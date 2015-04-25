@@ -1,0 +1,11 @@
+owner = YEM
+controller = YEM
+add_core = YEM
+trade_goods = opium
+life_rating = 30
+terrain = semi_desert_hills
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 3
+}

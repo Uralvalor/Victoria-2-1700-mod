@@ -1,0 +1,18 @@
+owner = NEJ
+controller = NEJ
+add_core = KWT
+trade_goods = fruit
+life_rating = 30
+terrain = desert
+1750.1.1 = {
+	owner = TUR
+	controller = TUR
+colonial = 2
+}
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	remove_core = TUR
+	colonial = 3
+	naval_base = 4
+}

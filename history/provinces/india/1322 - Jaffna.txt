@@ -1,0 +1,12 @@
+owner = NET
+controller = NET
+add_core = SRI
+add_core = HND
+trade_goods = tea
+life_rating = 35
+colonial = 2
+terrain = seasonal_jungle
+1914.1.1 = {
+	naval_base = 4
+	colonial = 3
+}

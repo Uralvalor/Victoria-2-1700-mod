@@ -1,0 +1,24 @@
+add_core = NZL
+trade_goods = cattle
+life_rating = 30
+terrain = deciduous_forest_hills
+1836.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 2
+}
+1914.1.1 = {
+	owner = NZL
+	controller = NZL
+	colonial = no
+	state_building = {
+		level = 1
+		building = cement_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = liquor_distillery
+		upgrade = yes
+	}
+}

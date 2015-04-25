@@ -1,0 +1,12 @@
+owner = MUG
+controller = MAR
+add_core = BER
+add_core = HND
+trade_goods = cotton
+life_rating = 35
+terrain = dry_grassland
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 3
+}

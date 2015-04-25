@@ -1,0 +1,9 @@
+owner = NET
+controller = NET
+trade_goods = grain
+life_rating = 30
+colonial = 2
+terrain = swamp_jungle
+1914.1.1 = {
+	naval_base = 3
+}

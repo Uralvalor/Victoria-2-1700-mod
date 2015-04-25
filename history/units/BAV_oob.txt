@@ -1,0 +1,118 @@
+leader = {
+	name = "Maximilian II Emanuel"
+	date = 1662.7.11
+	type = land
+	personality = heroic
+	background = aristocrat
+}
+
+
+army = {
+	name = "Army of the Bavaria"
+	location = 599
+	regiment = {
+		name= "1st Guard Infantry"
+		type = guard
+		home = 599
+	}
+	regiment = {
+		name= "1st Cavalry"
+		type = cavalry
+		home = 454
+	}
+	regiment = {
+		name= "2nd Cavalry"
+		type = cavalry
+		home = 454
+	}
+	regiment = {
+		name= "3rd Cavalry"
+		type = cavalry
+		home = 454
+	}
+	regiment = {
+		name= "4th Cavalry"
+		type = cavalry
+		home = 454
+	}
+	regiment = {
+		name= "2nd Line"
+		type = infantry
+		home = 599
+	}
+	regiment = {
+		name= "3rd Line"
+		type = infantry
+		home = 599
+	}
+	regiment = {
+		name= "4th Line"
+		type = infantry
+		home = 599
+	}
+	regiment = {
+		name= "5th Line"
+		type = infantry
+		home = 599
+	}
+	regiment = {
+		name= "6th Line"
+		type = infantry
+		home = 599
+	}
+	regiment = {
+		name= "7th Line"
+		type = infantry
+		home = 599
+	}
+	regiment = {
+		name= "8th Militia"
+		type = irregular
+		home = 599
+	}
+	regiment = {
+		name= "9th Militia"
+		type = infantry
+		home = 599
+	}
+	regiment = {
+		name= "10th Militia"
+		type = infantry
+		home = 599
+	}
+	regiment = {
+		name= "11th Militia"
+		type = infantry
+		home = 599
+	}
+	regiment = {
+		name= "12th Militia"
+		type = infantry
+		home = 599
+	}
+	regiment = {
+		name= "13th Militia"
+		type = infantry
+		home = 599
+	}
+	regiment = {
+		name= "14th Militia"
+		type = infantry
+		home = 599
+	}
+	regiment = {
+		name= "15th Militia"
+		type = infantry
+		home = 599
+	}
+	regiment = {
+		name= "16th Militia"
+		type = infantry
+		home = 599
+	}	
+	regiment = {
+		name= "17th Militia"
+		type = infantry
+		home = 599
+	}	            
+}

@@ -1,0 +1,643 @@
+leader = {
+	name = "John Churchill 1st Duke of Marlborough"
+	date = 1700.1.1
+	type = land
+	personality = resolute
+	background = rising_star
+}
+
+leader = {
+	name = "Henri de Massue Earl of Galway"
+	date = 1700.1.1
+	type = land
+	personality = soldierly
+	background = diplomat
+}
+
+leader = {
+	name = "Sir George Rooke"
+	date = 1700.1.1
+	type = sea
+	personality = audacious
+	background = expert_raider
+}
+
+SCO = {
+
+	value = 50
+	level = 5
+	influence_value = 100
+}
+
+
+NET = {
+
+	value = 200
+	level = 5
+	influence_value = 100
+}
+
+
+army = {
+	name = "1st Army"
+	location = 378
+	regiment = {
+		name= "1st Cavalry Regiment"
+		type = cavalry
+		home = 300
+	}
+	regiment = {
+		name= "1st Cavalry Regiment"
+		type = cavalry
+		home = 300
+	}
+	regiment = {
+		name= "1st Cavalry Regiment"
+		type = cavalry
+		home = 300
+	}
+
+	regiment = {
+		name= "1st Artillery Regiment"
+		type = artillery
+		home = 273
+	}
+	regiment = {
+		name= "1st Artillery Regiment"
+		type = artillery
+		home = 273
+	}
+
+	regiment = {
+		name= "3rd Line Infantry Regiment"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "3rd Line Infantry Regiment"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "3rd Line Infantry Regiment"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "3rd Line Infantry Regiment"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "3rd Line Infantry Regiment"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "3rd Line Infantry Regiment"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "3rd Line Infantry Regiment"
+		type = infantry
+		home = 300
+	}
+
+
+}
+
+
+army = {
+	name = "Colonial Militia"
+	location = 56
+	regiment = {
+		name= "1st Militia"
+		type = irregular
+		home = 277
+	}
+
+	regiment = {
+		name= "2nd Militia"
+		type = irregular
+		home = 292
+	}
+
+
+}
+
+
+army = {
+	name = "2nd Army"
+	location = 301
+	regiment = {
+		name= "1.2nd Cavalry Division"
+		type = cavalry
+		home = 278
+	}
+
+	regiment = {
+		name= "2.2nd Cavalry Division"
+		type = cavalry
+		home = 297
+	}
+
+	regiment = {
+		name= "3.2nd Cavalry Division"
+		type = cavalry
+		home = 260
+	}
+
+	regiment = {
+		name= "1.11th Division"
+		type = infantry
+		home = 296
+	}
+
+	regiment = {
+		name= "2.11th Division"
+		type = infantry
+		home = 280
+	}
+
+	regiment = {
+		name= "2.11th Division"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "2.11th Division"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "2.11th Division"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "2.11th Division"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "2.11th Division"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "2.11th Division"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "2.11th Division"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "2.11th Division"
+		type = infantry
+		home = 300
+	}
+
+}
+
+
+navy = {
+	name = "Channel Fleet"
+	location = 303
+	ship = {
+		name= "HMS Asia"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Belleisle"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Bellerophon"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Bombay"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Britannia"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Calcutta"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Camperdown"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Carnatic"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Clarence"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Formidable"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Ganges"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Hastings"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Hawke"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Malabar"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Monarch"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Neptune"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Powerful"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Prince Regent"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Princess Charlotte"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Rodney"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Royal Adelaide"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Royal George"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Royal William"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Russell"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Talavera"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Thunderer"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Vanguard"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Vengeance"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Waterloo"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS America"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Castor"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Conquestadore"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Eagle"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Forth"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Gloucester"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Pique"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Seahorse"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Stag"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Thalia"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Vernon"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Vindictive"
+		type = frigate
+	}
+
+}
+
+
+
+navy = {
+	name = "Reserve Fleet"
+	location = 303
+	ship = {
+		name= "HMS Agincourt"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Black Prince"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Melville"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Minotaur"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Pitt"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Wellington"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Alfred"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Andromeda"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Circe"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Clyde"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Cornwall"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Eurotas"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Fox"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Hotspur"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Leda"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Penelope"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS President"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Proserpine"
+		type = frigate
+	}
+
+}
+
+
+navy = {
+	name = "North America Fleet"
+	location = 71 #Halifax
+	ship = {
+		name= "HMS Saint Vincent"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Wellesley"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Aeolus"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Barham"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Daedalus"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Druid"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Dublin"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Hebe"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Mercury"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Mermaid"
+		type = frigate
+	}
+
+}
+
+
+navy = {
+	name = "East Indies Station"
+	location = 1321 #Colombo
+	ship = {
+		name= "HMS Madagascar"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Portland"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Winchester"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "1st Transport Squadron"
+	location = 303
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "4th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "5th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "6th Transport Flotilla"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "23th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "24th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "25th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "26th Transport Flotilla"
+		type = clipper_transport
+	}
+
+}
+
+

@@ -1,0 +1,129 @@
+capital = 1160
+primary_culture = bedouin
+religion = sunni
+government = absolute_monarchy
+plurality = 0.0
+nationalvalue = nv_tradition
+literacy = 0.02
+non_state_culture_literacy = 0.01
+
+# Political reforms
+slavery = yes_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = jefferson_method
+political_parties = underground_parties
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+school_reforms = no_schools
+
+ruling_party = JSH_reactionary
+upper_house = {
+	fascist = 0
+	liberal = 10
+	conservative = 78
+	reactionary = 12
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+academic_institutions = madrasahs
+medicine_reform = alchemy
+army_schools = yes_army_schools
+
+# Technologies
+flintlock_rifles = 1
+
+# Inventions
+
+# Starting Consciousness
+consciousness = 0
+nonstate_consciousness = 0
+
+oob = "/1816/JSH_oob.txt"
+1836.1.1 = {
+literacy = 0.03
+
+foreign_training = yes_foreign_training
+foreign_weapons = yes_foreign_weapons
+
+oob = "JSH_oob.txt"
+}
+1861.1.1 = {
+	foreign_weapons = yes_foreign_weapons
+
+	oob = "/1861/HAL_oob.txt"
+}
+1914.1.1 = {
+foreign_training = yes_foreign_training
+foreign_weapons = yes_foreign_weapons
+}
+1923.1.1 = {
+	civilized = yes
+
+	decision = sign_the_geneva_convention
+
+ 
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+army_command_principle = 1
+ 
+the_command_principle = 1
+private_banks = 1
+no_standard = 1
+guild_based_production = 1
+classicism_n_early_romanticism = 1
+late_enlightenment_philosophy = 1
+enlightenment_thought = 1
+water_wheel_power = 1
+publishing_industry = 1
+ 
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+army_command_principle = 1
+army_professionalism = 1
+private_banks = 1
+stock_exchange = 1
+no_standard = 1
+freedom_of_trade = 1
+guild_based_production = 1
+organized_factories = 1
+classicism_n_early_romanticism = 1
+romanticism = 1
+late_enlightenment_philosophy = 1
+idealism = 1
+enlightenment_thought = 1
+water_wheel_power = 1
+publishing_industry = 1
+mechanical_production = 1
+experimental_railroad = 1
+early_railroad = 1
+ 
+alphabetic_flag_signaling = 1
+the_command_principle = 1
+military_staff_system = 1
+
+
+napoleonic_thought = 1
+nelsonian_thought = 1
+clipper_design = 1
+marine_chronometers = 1
+joint-stock_companies = 1
+state_mercantilism = 1
+division_of_labour = 1
+sentimentalism = 1
+fundamentals_of_psychology = 1
+manufactories = 1
+animal-powered_railroad = 1
+}
+

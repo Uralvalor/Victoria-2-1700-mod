@@ -1,0 +1,25 @@
+army = {
+	name = "1-€ арми€ Ўаньсм"
+	location = 1572
+	regiment = {
+		name= "1-€ дивизи€"
+		type = infantry
+		home = 1572
+	}
+	regiment = {
+		name= "1-€ дивизи€"
+		type = infantry
+		home = 1573
+	}
+	regiment = {
+		name= "1-€ дивизи€"
+		type = infantry
+		home = 1474
+	}
+	regiment = {
+		name= "1-€ дивизи€"
+		type = infantry
+		home = 1575
+	}
+
+}

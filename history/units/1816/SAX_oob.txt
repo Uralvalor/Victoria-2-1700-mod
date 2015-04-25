@@ -1,0 +1,15 @@
+army = {
+	name = "Саксонская армия"
+	location = 558
+	regiment = {
+		name= "1. Infanteriebrigade"
+		type = infantry
+		home = 558
+	}
+
+	regiment = {
+		name= "2. Infanteriebrigade"
+		type = infantry
+		home = 559
+	}
+}

@@ -1,0 +1,82 @@
+leader = {
+	name = "Симон Боливар"
+	type = land
+	date="1816.1.1"
+	personality = au_fait
+	background = artillerist
+	prestige = 0.5
+	picture="gco_gen_bolivar"
+}
+leader = {
+	name = "Антонио Сукре"
+	type = land
+	date="1816.1.1"
+	personality = irate
+	background = natural_born_leader
+	prestige = 0.2
+	picture="gco_gen_sucre"
+}
+army = {
+	name = "1-я армия освобождения"
+	location = 2264
+	regiment = {
+		name= "1-я пехотная дивизия"
+		type = infantry
+		home = 2266
+	}
+
+	regiment = {
+		name= "2-я пехотная дивизия"
+		type = infantry
+		home = 2270
+	}
+
+	regiment = {
+		name= "3-я пехотная дивизия"
+		type = infantry
+		home = 2271
+	}
+
+	regiment = {
+		name= "1-я кавалерийская дивизия"
+		type = cavalry
+		home = 2276
+	}
+
+
+}
+
+army = {
+	name = "2-я армия освобождения"
+	location = 2264
+	regiment = {
+		name= "4-я пехотная дивизия"
+		type = infantry
+		home = 2264
+	}
+
+	regiment = {
+		name= "5-я пехотная дивизия"
+		type = infantry
+		home = 2264
+	}
+
+	regiment = {
+		name= "6-я пехотная дивизия"
+		type = infantry
+		home = 2264
+	}
+
+	regiment = {
+		name= "2-я кавалерийская дивизия"
+		type = cavalry
+		home = 2272
+	}
+
+	regiment = {
+		name= "3-я кавалерийская дивизия"
+		type = cavalry
+		home = 2273
+	}
+
+}

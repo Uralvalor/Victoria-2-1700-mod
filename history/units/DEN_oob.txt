@@ -1,0 +1,119 @@
+SWE = {
+	value = -85
+	last_war="1701.1.1"
+	truce_until="1706.1.1"
+}
+HOL = {
+	value = -85
+	last_war="1701.1.1"
+	truce_until="1706.1.1"
+}
+SCH = {
+	value = -85
+	last_war="1701.1.1"
+	truce_until="1706.1.1"
+}
+army = {
+	name = "Army of Denmark"
+	location = 372
+	regiment = {
+		name= "1st Infantry"
+		type = infantry
+		home = 372
+	}
+	regiment = {
+		name= "2nd Infantry"
+		type = infantry
+		home = 372
+	}
+	regiment = {
+		name= "3rd Infantry"
+		type = infantry
+		home = 372
+	}
+	regiment = {
+		name= "4th Infantry"
+		type = infantry
+		home = 372
+	}
+}
+
+
+navy = {
+	name = "Danish Fleet"
+	location = 372
+	ship = {
+		name= "Elephanten"
+		type = manowar
+	}
+
+	ship = {
+		name= "Fredericus Quartus"
+		type = manowar
+	}
+
+	ship = {
+		name= "Dannebrog"
+		type = manowar
+	}
+
+	ship = {
+		name= "Prins Christian"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sophia Hedvig"
+		type = manowar
+	}
+
+	ship = {
+		name= "Wenden"
+		type = manowar
+	}
+
+	ship = {
+		name= "Dronning Louisa"
+		type = manowar
+	}
+
+	ship = {
+		name= "Havfruen"
+		type = manowar
+	}
+
+	ship = {
+		name= "Oldenborg"
+		type = manowar
+	}
+
+	ship = {
+		name= "Justitia"
+		type = frigate
+	}
+
+	ship = {
+		name= "Norske Loeve"
+		type = frigate
+	}
+
+	ship = {
+		name= "Ebenetzer"
+		type = frigate
+	}
+
+	ship = {
+		name= "Svanen"
+		type = frigate
+	}
+
+	ship = {
+		name= "Norske Loeve"
+		type = frigate
+	}
+
+	ship = {
+		name= "Tumleren"
+		type = frigate
+	}
+}

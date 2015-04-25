@@ -1,0 +1,131 @@
+
+army = {
+	name = "Army of Prussia"
+	location = 549
+	regiment = {
+		name= "1st Guard Infantry"
+		type = guard
+		home = 549
+	}
+	regiment = {
+		name= "1st Prussian Artillery"
+		type = artillery
+		home = 549
+	}
+	regiment = {
+		name= "2nd 'Dönhof' Line"
+		type = infantry
+		home = 549
+	}
+
+	regiment = {
+		name= "5th Line"
+		type = infantry
+		home = 549
+	}
+
+	regiment = {
+		name= "8th 'Anhalt Zerbst' Line"
+		type = infantry
+		home = 549
+	}
+
+	regiment = {
+		name= "11th 'Holstein-Beck' Line"
+		type = infantry
+		home = 549
+	}
+
+	regiment = {
+		name= "14th 'Canitz' Line"
+		type = infantry
+		home = 549
+	}
+
+	regiment = {
+		name= "17th 'Grumbkow' Line"
+		type = infantry
+		home = 549
+	}
+	            
+}
+
+army = {
+	name = "Reserve Army"
+	location = 549
+
+	regiment = {
+		name= "1st Militia"
+		type = irregular
+		home = 549
+	}
+	regiment = {
+		name= "2nd Militia"
+		type = irregular
+		home = 549
+	}
+	regiment = {
+		name= "6th Militia"
+		type = irregular
+		home = 549
+	}
+	regiment = {
+		name= "Berlin Reserve Artillery"
+		type = artillery
+		home = 549
+	}
+	regiment = {
+		name= "Berlin Fusiliers"
+		type = engineer
+		home = 549
+	}
+}
+
+army = {
+	name = "Gaurd Cavalry"
+	location = 549
+
+
+	regiment = {
+		name= "2nd Cuirassiers"
+		type = cuirassier
+		home = 549
+	}
+	regiment = {
+		name= "4th Reserve Cavalry"
+		type = cavalry
+		home = 549
+	}
+
+}
+
+army = {
+	name = "Prussian Cavalry"
+	location = 549
+
+	regiment = {
+		name= "3rd 'Liebregiment' Cavalry"
+		type = cavalry
+		home = 549
+	}
+
+	regiment = {
+		name= "6th 'De l'Ostange' Cavalry"
+		type = cavalry
+		home = 549
+	}
+
+	regiment = {
+		name= "9th 'Canstein' Cavalry"
+		type = cavalry
+		home = 549
+	}
+
+	regiment = {
+		name= "12th 'Anspach' Cavalry"
+		type = dragoon
+		home = 549
+	}
+
+
+}

@@ -1,0 +1,11 @@
+owner = TRZ
+controller = TRZ
+add_core = TRZ
+trade_goods = fish
+life_rating = 15
+terrain = semi_desert
+1914.1.1 = {
+	owner = FRA
+	controller = FRA
+	colonial = 3
+}

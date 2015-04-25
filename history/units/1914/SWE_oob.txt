@@ -1,0 +1,186 @@
+army = {
+	name = "Армия Швеции"
+	location = 322
+	regiment = {
+		name= "1-я пехотная дивизия"
+		type = guard
+		home = 323
+	}
+
+	regiment = {
+		name= "2-я пехотная дивизия"
+		type = guard
+		home = 324
+	}
+
+	regiment = {
+		name= "3-я пехотная дивизия"
+		type = guard
+		home = 325
+	}
+
+	regiment = {
+		name= "4-я пехотная дивизия"
+		type = guard
+		home = 326
+	}
+
+	regiment = {
+		name= "5-я пехотная дивизия"
+		type = infantry
+		home = 327
+	}
+
+	regiment = {
+		name= "6-я пехотная дивизия"
+		type = infantry
+		home = 328
+	}
+
+	regiment = {
+		name= "7-я пехотная дивизия"
+		type = infantry
+		home = 329
+	}
+
+	regiment = {
+		name= "1-й драгунский дивизион"
+		type = dragoon
+		home = 330
+	}
+
+	regiment = {
+		name= "2-й драгунский дивизион"
+		type = dragoon
+		home = 332
+	}
+
+	regiment = {
+		name= "3-й драгунский дивизион"
+		type = dragoon
+		home = 333
+	}
+
+	regiment = {
+		name= "1-й арт дивизион"
+		type = artillery
+		home = 334
+	}
+
+	regiment = {
+		name= "2-й арт дивизион"
+		type = artillery
+		home = 335
+	}
+
+}
+
+navy = {
+	name = "Флот Швеции"
+	location = 322
+	ship = {
+		name= "Карл XIV Йоханн"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Стокгольм"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Фюдернесландет"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Бран"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Дристигетен"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Kарл XIII"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Манлигетен"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Принс Оскар"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Скандинавиен"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Дезире"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Готеборг"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Жозефин"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Осло"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Принс"
+		type = cruiser
+	}
+
+}
+
+navy = {
+	name = "1-я Транспортная Эскадра"
+	location = 322
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "3-я транспортная флотилия"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "4-я транспортная флотилия"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "5-я транспортная флотилия"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "6-я транспортная флотилия"
+		type = steam_transport
+	}
+
+}

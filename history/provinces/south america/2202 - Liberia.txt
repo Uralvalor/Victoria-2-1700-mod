@@ -1,0 +1,20 @@
+owner = SPA
+controller = SPA
+add_core = UCA
+add_core = COS
+colonial = 2
+add_core = MEX
+trade_goods = fruit
+life_rating = 30
+terrain = hilly_farmland
+1836.1.1 = {
+	owner = UCA
+	controller = UCA
+	remove_core = SPA
+	remove_core = MEX
+}
+1861.1.1 = {
+	owner = COS
+	controller = COS
+	remove_core = UCA
+}

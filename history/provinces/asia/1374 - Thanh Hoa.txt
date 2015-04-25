@@ -1,0 +1,11 @@
+owner = DAI
+controller = DAI
+add_core = DAI
+trade_goods = grain
+life_rating = 30
+terrain = jungle_farmland
+1914.1.1 = {
+	owner = FRA
+	controller = FRA
+	colonial = 3
+}

@@ -1,0 +1,518 @@
+#Sphere of Influence
+MEX = {
+	value = 75		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+ECU = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+PEU = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+BOL = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+CHL = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+PRG = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+COL = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+BRZ = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+URU = {
+	value = 75		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+POR = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+navy = {
+	name = "Северная Эскадра"
+	location = 474
+	ship = {
+		name= "Сагунто"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Венцедора"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Эстремадура"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Лепанто"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Наварра"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Рейна Мерседес"
+		type = cruiser
+	}
+
+}
+
+navy = {
+	name = "2-я Северная Эскадра"
+	location = 512
+	ship = {
+		name= "Франческо"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Эсперидес"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Портер"
+		type = ironclad
+	}
+
+}
+
+navy = {
+	name = "Средиземноморская эскадра"
+	location = 498
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "4-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "5-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "6-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "7-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "8-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}
+
+army = {
+	name = "Северная Армия"
+	location = 498
+	regiment = {
+		name= "1-я пехотная дивизия"
+		type = infantry
+		home = 479
+	}
+
+	regiment = {
+		name= "2-я пехотная дивизия"
+		type = infantry
+		home = 480
+	}
+
+	regiment = {
+		name= "3-я пехотная дивизия"
+		type = infantry
+		home = 481
+	}
+
+	regiment = {
+		name= "4-я пехотная дивизия"
+		type = infantry
+		home = 481
+	}
+
+	regiment = {
+		name= "5-я пехотная дивизия"
+		type = infantry
+		home = 483
+	}
+
+	regiment = {
+		name= "6-я пехотная дивизия"
+		type = infantry
+		home = 484
+	}
+
+	regiment = {
+		name= "7-я пехотная дивизия"
+		type = infantry
+		home = 485
+	}
+
+	regiment = {
+		name= "8-я пехотная дивизия"
+		type = infantry
+		home = 488
+	}
+
+	regiment = {
+		name= "9-я пехотная дивизия"
+		type = infantry
+		home = 488
+	}
+
+	regiment = {
+		name= "10-я пехотная дивизия"
+		type = infantry
+		home = 489
+	}
+
+	regiment = {
+		name= "11-я пехотная дивизия"
+		type = artillery
+		home = 489
+	}
+
+	regiment = {
+		name= "12-я пехотная дивизия"
+		type = artillery
+		home = 489
+	}
+
+	regiment = {
+		name= "1-й карибский дивизион"
+		type = cavalry
+		home = 494
+	}
+
+	regiment = {
+		name= "2-й карибский дивизион"
+		type = cavalry
+		home = 487
+	}
+
+	regiment = {
+		name= "3-й карибский дивизион"
+		type = cavalry
+		home = 498
+	}
+
+	regiment = {
+		name= "4-й карибский дивизион"
+		type = hussar
+		home = 498
+	}
+}
+
+army = {
+	name = "Западная Армия"
+	location = 503
+	regiment = {
+		name= "13-я пехотная дивизия"
+		type = infantry
+		home = 513
+	}
+
+	regiment = {
+		name= "14-я пехотная дивизия"
+		type = infantry
+		home = 513
+	}
+
+	regiment = {
+		name= "15-я пехотная дивизия"
+		type = infantry
+		home = 514
+	}
+
+	regiment = {
+		name= "16-я пехотная дивизия"
+		type = infantry
+		home = 512
+	}
+
+	regiment = {
+		name= "17-я пехотная дивизия"
+		type = infantry
+		home = 489
+	}
+
+	regiment = {
+		name= "18-я пехотная дивизия"
+		type = infantry
+		home = 510
+	}
+
+	regiment = {
+		name= "19-я пехотная дивизия"
+		type = infantry
+		home = 509
+	}
+
+	regiment = {
+		name= "20-я пехотная дивизия"
+		type = infantry
+		home = 509
+	}
+
+	regiment = {
+		name= "21-я пехотная дивизия"
+		type = infantry
+		home = 478
+	}
+
+	regiment = {
+		name= "22-я пехотная дивизия"
+		type = infantry
+		home = 474
+	}
+
+	regiment = {
+		name= "23-я пехотная дивизия"
+		type = infantry
+		home = 474
+	}
+
+	regiment = {
+		name= "24-я пехотная дивизия"
+		type = infantry
+		home = 475
+	}
+
+	regiment = {
+		name= "25-я пехотная дивизия"
+		type = infantry
+		home = 476
+	}
+
+	regiment = {
+		name= "26-я пехотная дивизия"
+		type = infantry
+		home = 477
+	}
+
+	regiment = {
+		name= "22-я пехотная дивизия"
+		type = cavalry
+		home = 487
+	}
+
+	regiment = {
+		name= "23-я пехотная дивизия"
+		type = cavalry
+		home = 487
+	}
+
+	regiment = {
+		name= "24-я пехотная дивизия"
+		type = cavalry
+		home = 487
+	}
+
+	regiment = {
+		name= "25-я пехотная дивизия"
+		type = artillery
+		home = 487
+	}
+
+	regiment = {
+		name= "26-я пехотная дивизия"
+		type = artillery
+		home = 490
+	}
+
+}
+
+army = {
+	name = "Африканская Армия"
+	location = 1686
+	regiment = {
+		name= "1-й колониальный полк"
+		type = infantry
+		home = 482
+	}
+
+	regiment = {
+		name= "2-й колониальный полк"
+		type = infantry
+		home = 1686
+	}
+
+	regiment = {
+		name= "3-й колониальный полк"
+		type = infantry
+		home = 1687
+	}
+
+	regiment = {
+		name= "1-й кавалерийский полк"
+		type = hussar
+		home = 1688
+	}
+
+	regiment = {
+		name= "4-й колониальный полк"
+		type = infantry
+		home = 491
+	}
+
+	regiment = {
+		name= "5-й колониальный полк"
+		type = infantry
+		home = 495
+	}
+
+	regiment = {
+		name= "6-й колониальный полк"
+		type = infantry
+		home = 497
+	}
+
+	regiment = {
+		name= "7-й колониальный полк"
+		type = cavalry
+		home = 499
+	}
+
+	regiment = {
+		name= "8-й колониальный полк"
+		type = cavalry
+		home = 502
+	}
+
+	regiment = {
+		name= "9-й колониальный полк"
+		type = cavalry
+		home = 503
+	}
+
+}
+
+army = {
+	name = "Южная Армия"
+	location = 509
+	regiment = {
+		name= "1-я пехотная дивизия"
+		type = infantry
+		home = 503
+	}
+
+	regiment = {
+		name= "2-я пехотная дивизия"
+		type = infantry
+		home = 505
+	}
+
+	regiment = {
+		name= "3-я пехотная дивизия"
+		type = infantry
+		home = 508
+	}
+
+	regiment = {
+		name= "4-я пехотная дивизия"
+		type = infantry
+		home = 509
+	}
+
+	regiment = {
+		name= "5-я пехотная дивизия"
+		type = infantry
+		home = 509
+	}
+
+	regiment = {
+		name= "6-я пехотная дивизия"
+		type = infantry
+		home = 510
+	}
+
+	regiment = {
+		name= "7-я пехотная дивизия"
+		type = infantry
+		home = 512
+	}
+
+	regiment = {
+		name= "8-я пехотная дивизия"
+		type = infantry
+		home = 513
+	}
+
+	regiment = {
+		name= "9-я пехотная дивизия"
+		type = cavalry
+		home = 513
+	}
+
+	regiment = {
+		name= "10-я пехотная дивизия"
+		type = cavalry
+		home = 514
+	}
+
+	regiment = {
+		name= "11-я пехотная дивизия"
+		type = artillery
+		home = 514
+	}
+
+	regiment = {
+		name= "12-я пехотная дивизия"
+		type = artillery
+		home = 515
+	}
+
+	regiment = {
+		name= "13-я пехотная дивизия"
+		type = artillery
+		home = 516
+	}
+
+}

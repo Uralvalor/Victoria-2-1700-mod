@@ -1,0 +1,11 @@
+owner = BUR
+controller = BUR
+add_core = BUR
+trade_goods = grain
+life_rating = 35
+terrain = dry_forest_hills
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 3
+}

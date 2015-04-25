@@ -1,0 +1,21 @@
+owner = AUS
+controller = AUS
+ 
+add_core = CRO
+add_core = YUG
+trade_goods = fruit
+life_rating = 35
+terrain = deciduous_forest_hills
+1914.1.1 = {
+	owner = KUK
+	controller = KUK
+	add_core = KUK
+	remove_core = AUS
+	railroad = 3
+}
+1923.1.1 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = KUK
+}

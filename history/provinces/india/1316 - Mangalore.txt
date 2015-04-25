@@ -1,0 +1,12 @@
+owner = MYS
+controller = MYS
+add_core = MYS
+add_core = HND
+trade_goods = fruit
+life_rating = 35
+
+terrain = seasonal_jungle_hills
+1914.1.1 = {
+	naval_base = 4
+	colonial = 3
+}

@@ -1,0 +1,25 @@
+army = {
+	name = "1-я Чжилийская армия"
+	location = 1572
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 1572
+	}
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 1573
+	}
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 1474
+	}
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 1575
+	}
+
+}

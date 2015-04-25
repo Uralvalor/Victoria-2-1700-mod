@@ -1,0 +1,15 @@
+owner = MCK
+controller = MCK  add_core = CHI  colonial = 2
+add_core = XBI
+trade_goods = grain
+life_rating = 30
+fort = 1
+terrain = hilly_grassland
+1914.1.1 = {
+	owner = MCK
+	controller = MCK
+}
+1923.1.1 = {
+	owner = XBI
+	controller = XBI
+}

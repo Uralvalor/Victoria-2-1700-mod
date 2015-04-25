@@ -1,0 +1,106 @@
+army = {
+	name = "I. Corps"
+	location = 389
+	regiment = {
+		name= "1.1e Infanteriedivisie"
+		type = infantry
+		home = 387
+	}
+
+	regiment = {
+		name= "2.1e Infanteriedivisie"
+		type = infantry
+		home = 388
+	}
+
+	regiment = {
+		name= "3.1e Infanteriedivisie"
+		type = infantry
+		home = 389
+	}
+
+	regiment = {
+		name= "4.1e Infanteriedivisie"
+		type = artillery
+		home = 387
+	}
+
+	regiment = {
+		name= "1.3e Infanteriedivisie"
+		type = infantry
+		home = 390
+	}
+
+	regiment = {
+		name= "2.3e Infanteriedivisie"
+		type = infantry
+		home = 391
+	}
+
+	regiment = {
+		name= "3.3e Infanteriedivisie"
+		type = engineer
+		home = 393
+	}
+
+	regiment = {
+		name= "1.1e Cavaleriedivisie"
+		type = hussar
+		home = 387
+	}
+
+	regiment = {
+		name= "2.1e Cavaleriedivisie"
+		type = dragoon
+		home = 388
+	}
+
+	regiment = {
+		name= "3.1e Cavaleriedivisie"
+		type = dragoon
+		home = 389
+	}
+
+}
+
+army = {
+	name = "II. Corps"
+	location = 394
+	regiment = {
+		name= "1.2e Infanteriedivisie"
+		type = infantry
+		home = 394
+	}
+
+	regiment = {
+		name= "2.2e Infanteriedivisie"
+		type = infantry
+		home = 395
+	}
+
+	regiment = {
+		name= "3.2e Infanteriedivisie"
+		type = engineer
+		home = 392
+	}
+
+	regiment = {
+		name= "1.4e Infanteriedivisie"
+		type = infantry
+		home = 398
+	}
+
+	regiment = {
+		name= "2.4e Infanteriedivisie"
+		type = infantry
+		home = 396
+	}
+
+	regiment = {
+		name= "3.4e Infanteriedivisie"
+		type = artillery
+		home = 394
+	}
+
+}
+

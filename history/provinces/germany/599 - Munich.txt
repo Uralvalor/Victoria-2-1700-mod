@@ -1,0 +1,65 @@
+owner = BAV
+controller = BAV
+add_core = BAV
+add_core = GER
+trade_goods = cattle
+terrain = city_599
+life_rating = 35
+#state_building = {
+#	level = 1
+#	building = glass_factory
+#	upgrade = yes
+#}
+#state_building = {
+#	level = 1
+#	building = winery
+#	upgrade = yes
+#}
+1861.1.1 = { railroad = 2 }
+1861.1.1 = {
+	state_building = {
+		level = 1
+		building = fabric_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = glass_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = liquor_distillery
+		upgrade = yes
+	}
+}
+1914.1.1 = {
+	owner = GER
+	controller = GER
+	railroad = 5
+	state_building = {
+		level = 2
+		building = fabric_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = glass_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = liquor_distillery
+		upgrade = yes
+	}
+	state_building = {
+		level = 15
+		building = furniture_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = dye_factory
+		upgrade = yes
+	}
+}

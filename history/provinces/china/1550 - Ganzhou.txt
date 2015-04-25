@@ -1,0 +1,14 @@
+owner = MCK
+controller = MCK  add_core = CHI  colonial = 2
+trade_goods = coal
+life_rating = 35
+terrain = deciduous_forest_hills
+1914.1.1 = {
+	owner = MCK
+	controller = MCK
+}
+1923.1.1 = {
+	owner = FJN
+	controller = FJN
+	add_core = FJN
+}

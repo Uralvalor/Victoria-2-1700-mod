@@ -1,0 +1,29 @@
+army = {
+	name = "Доминиканская армия"
+	location = 2214
+	regiment = {
+		name= "1-я пехотная дивизия"
+		type = infantry
+		home = 2214
+	}
+
+	regiment = {
+		name= "2-я пехотная дивизия"
+		type = infantry
+		home = 2214
+	}
+
+	regiment = {
+		name= "3-я пехотная дивизия"
+		type = infantry
+		home = 2216
+	}
+
+	regiment = {
+		name= "4-я пехотная дивизия"
+		type = infantry
+		home = 2216
+	}
+
+}
+

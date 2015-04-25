@@ -1,0 +1,22 @@
+owner = SPA
+controller = SPA
+add_core = BEL
+add_core = NET
+add_core = LUX
+add_core = WLL
+trade_goods = timber
+life_rating = 35
+terrain = deciduous_forest_hills
+1750.1.1 = {
+	owner = AUS
+	controller = AUS
+}
+1836.1.1 = {
+	remove_core = NET
+}
+1861.1.1 = { 
+	railroad = 3
+	owner = BEL
+	controller = BEL
+	remove_core = LUX
+}

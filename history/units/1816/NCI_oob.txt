@@ -1,0 +1,82 @@
+
+army = {
+	name = "Горская армия Ахульго"
+	location = 3249
+	regiment = {
+		name= "Travis' Command"
+		type = infantry
+
+		home = 3249
+	}
+
+	regiment = {
+		name= "Fannin's Command"
+		type = infantry
+
+		home = 3249
+	}
+
+	regiment = {
+		name= "Travis' Command"
+		type = infantry
+
+		home = 3249
+	}
+
+	regiment = {
+		name= "Fannin's Command"
+		type = infantry
+
+		home = 3249
+	}
+	
+	regiment = {
+		name = "Burleson's Command"
+		type = artillery
+		home = 3249
+	}
+
+	regiment = {
+		name = "Burleson's Command"
+		type = artillery
+		home = 3249
+	}
+	
+}
+army = {
+	name = "Горская армия Ведено"
+	location = 3250
+	regiment = {
+		name= "Travis' Command"
+		type = infantry
+
+		home = 3250
+	}
+
+	regiment = {
+		name= "Fannin's Command"
+		type = infantry
+
+		home = 3250
+	}
+
+	regiment = {
+		name= "Travis' Command"
+		type = infantry
+
+		home = 3250
+	}
+
+	regiment = {
+		name= "Fannin's Command"
+		type = infantry
+
+		home = 3251
+	}
+	
+	regiment = {
+		name = "Burleson's Command"
+		type = artillery
+		home = 3251
+	}
+}

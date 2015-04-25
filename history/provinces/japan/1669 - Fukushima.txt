@@ -1,0 +1,14 @@
+owner = SEN
+controller = SEN
+add_core = SEN
+trade_goods = fish
+life_rating = 35
+terrain = deciduous_forest_hills
+1914.1.1 = {
+	railroad = 3
+	naval_base = 4
+	remove_core = SEN
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}

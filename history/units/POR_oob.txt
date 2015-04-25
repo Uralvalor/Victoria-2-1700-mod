@@ -1,0 +1,135 @@
+leader = {
+	name = "António Luís de Sousa"
+	date = 1699.1.1
+	type = land
+	personality = defiant
+	background = school_of_defense
+}
+
+army = {
+	name = "Army of Portugal"
+	location = 521
+	regiment = {
+		name= "1st Guard Infantry"
+		type = guard
+		home = 521
+	}
+	regiment = {
+		name= "2nd Guard Infantry"
+		type = guard
+		home = 521
+	}
+	regiment = {
+		name= "3rd Guard Infantry"
+		type = guard
+		home = 521
+	}	
+	regiment = {
+		name= "1st Portugese Reserve Artillery"
+		type = artillery
+		home = 521
+	}
+	regiment = {
+		name= "2nd Line"
+		type = infantry
+		home = 521
+	}
+	regiment = {
+		name= "3rd Line"
+		type = infantry
+		home = 521
+	}
+	regiment = {
+		name= "4th Line"
+		type = infantry
+		home = 521
+	}
+	regiment = {
+		name= "5th Line"
+		type = infantry
+		home = 521
+	}
+	regiment = {
+		name= "6th Line"
+		type = irregular
+		home = 521
+	}
+	regiment = {
+		name= "7th Line"
+		type = irregular
+		home = 521
+	}
+	regiment = {
+		name= "8th Line"
+		type = irregular
+		home = 521
+	}
+	regiment = {
+		name= "9th Line"
+		type = irregular
+		home = 521
+	}		            
+}
+
+
+
+navy = {
+	name = "Portugese Royal Navy"
+	location = 521
+	ship = {
+		name= "Rainha de Portugal "
+		type = manowar
+	}
+
+	ship = {
+		name= "Dom João VI "
+		type = manowar
+	}
+
+	ship = {
+		name= "Nossa Senhora da Conceição"
+		type = manowar
+	}
+
+	ship = {
+		name= "São Sebastião"
+		type = manowar
+	}
+
+	ship = {
+		name= "Amazônia"
+		type = manowar
+	}
+
+	ship = {
+		name= "Princesa Carlota"
+		type = manowar
+	}
+
+	ship = {
+		name= "Teresa"
+		type = manowar
+	}
+
+	ship = {
+		name= "Príncipe do Brasil"
+		type = manowar
+	}
+
+	ship = {
+		name= "1o Navios de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2o Navios de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3o Navios de Transporte"
+		type = clipper_transport
+	}
+
+}
+

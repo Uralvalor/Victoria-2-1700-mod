@@ -1,0 +1,43 @@
+owner = ENL
+controller = ENL
+colonial = 2  
+add_core = XNH
+ 
+add_core = NEN
+trade_goods = timber
+life_rating = 35
+terrain = deciduous_forest_hills
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	railroad = 5
+	state_building = {
+		level = 10
+		building = luxury_furniture_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 20
+		building = artillery_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 20
+		building = furniture_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 20
+		building = glass_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 20
+		building = canned_food_factory
+		upgrade = yes
+	}
+}

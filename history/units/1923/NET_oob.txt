@@ -1,0 +1,309 @@
+army = {
+	name = "1e Divisie"
+	location = 375 
+	regiment = {
+		name= "1e Cavalerie Brigade"
+		type = cavalry
+		home = 382
+	}
+
+	regiment = {
+		name= "2e Cavalerie Brigade"
+		type = cavalry
+		home = 383
+	}
+
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = cavalry
+		home = 380
+	}
+
+	regiment = {
+		name = "1e Infanterie Brigade"
+		type = infantry
+		home = 383
+	}
+
+	regiment = {
+		name = "2e Infanterie Brigade"
+		type = infantry
+		home = 381
+	}
+
+	regiment = {
+		name = "3e Infanterie Brigade"
+		type = infantry
+		home = 377
+	}
+
+}
+
+army = {
+	name = "2e Divisie"
+	location = 381
+	regiment = {
+		name = "4e Infanterie Brigade"
+		type = infantry
+		home = 378
+	}
+
+	regiment = {
+		name = "5e Infanterie Brigade"
+		type = infantry
+		home = 379
+	}
+
+	regiment = {
+		name = "6e Infanterie Brigade"
+		type = infantry
+		home = 386
+	}
+
+	regiment = {
+		name= "1e Cavalerie Brigade"
+		type = cavalry
+		home = 384
+	}
+
+	regiment = {
+		name= "2e Cavalerie Brigade"
+		type = cavalry
+		home = 385
+	}
+
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = cavalry
+		home = 386
+	}
+
+}
+
+army = {
+	name = "3e Divisie"
+	location = 375
+	regiment = {
+		name = "7e Infanterie Brigade"
+		type = infantry
+		home = 383
+	}
+
+	regiment = {
+		name = "8e Infanterie Brigade"
+		type = infantry
+		home = 384
+	}
+
+	regiment = {
+		name = "9e Infanterie Brigade"
+		type = infantry
+		home = 385
+	}
+
+}
+
+army = {
+	name = "K.N.I.L."
+	location = 1413
+	regiment = {
+		name = "1e Indische Brigade"
+		type = infantry
+		home = 1413
+	}
+	regiment = {
+		name = "Banisaren Korps"
+		type = irregular
+		home = 1421
+	}
+	regiment = {
+		name = "Colonial Brigade"
+		type = infantry
+		home = 1413
+	}
+	regiment = {
+		name = "2e Indische Brigade"
+		type = infantry
+		home = 1414
+	}
+	regiment = {
+		name = "3e Indische Brigade"
+		type = infantry
+		home = 1415
+	}
+	regiment = {
+		name = "4e Indische Brigade"
+		type = infantry
+		home = 1416
+	}
+	regiment = {
+		name = "5e Indische Brigade"
+		type = infantry
+		home = 1417
+	}
+	regiment = {
+		name = "6e Indische Brigade"
+		type = infantry
+		home = 1418
+	}
+	regiment = {
+		name = "7e Indische Brigade"
+		type = infantry
+		home = 1419
+	}
+	regiment = {
+		name = "8e Indische Brigade"
+		type = infantry
+		home = 1420
+	}
+	regiment = {
+		name = "9e Indische Brigade"
+		type = infantry
+		home = 1421
+	}
+}
+
+navy = {
+	name = "Koninklijke Marine"
+	location = 375 #Amsterdam
+	ship = {
+		name= "Doggersbank"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Amsterdam"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Maria Regensbergen"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Pallas"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Proserpine"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Daphne"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Espion"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Pallas"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Proserpine"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Daphne"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Espion"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Zeepaard"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Irene"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Orpheus"
+		type = cruiser
+	}
+
+
+	ship = {
+		name= "1e Transport Eskader"
+		type = steam_transport
+	}
+}
+
+navy = {
+	name = "Koninklijke NI Marine"
+	location = 1413 #Batavia
+	ship = {
+		name= "Admiraal de Ruyter"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Verwachting"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Aurora"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Iris"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Fenix"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Eendracht"
+		type = cruiser
+	}
+
+	ship = {
+		name= "2e Transport Eskader"
+		type = steam_transport
+	}
+}
+
+navy = {
+	name = "Koninklijke WI Marine"
+	location = 2234 #Curacao
+
+	ship = {
+		name= "Admiraal Generaal"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Diana"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Hoop"
+		type = cruiser
+	}
+
+	ship = {
+		name= "3e Transport Eskader"
+		type = steam_transport
+	}
+
+}

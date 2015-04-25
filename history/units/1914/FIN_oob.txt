@@ -1,0 +1,93 @@
+leader = {
+	name = "Вилхо Ненонен"
+	type = land
+	date="1914.1.1"
+	personality = aggressive
+	background = engineer
+	picture="personal_vilho_nenonen"
+}
+
+leader = {
+	name = "Рудольф Вальден"
+	type = land
+	date="1914.1.1"
+	personality = tactful
+	background = drillmaster
+	picture="personal_rudolf_walden"
+}
+
+army = {
+	name = "Армия Финляндии"
+	location = 343
+	regiment = {
+		name= "1-я пехотная дивизия"
+		type = infantry
+		home = 336
+	}
+
+	regiment = {
+		name= "2-я пехотная дивизия"
+		type = infantry
+		home = 338
+	}
+
+	regiment = {
+		name= "3-я пехотная дивизия"
+		type = infantry
+		home = 340
+	}
+
+	regiment = {
+		name= "4-я пехотная дивизия"
+		type = infantry
+		home = 341
+	}
+
+	regiment = {
+		name= "5-я пехотная дивизия"
+		type = infantry
+		home = 342
+	}
+
+	regiment = {
+		name= "6-я пехотная дивизия"
+		type = infantry
+		home = 343
+	}
+
+	regiment = {
+		name= "7-я пехотная дивизия"
+		type = hussar
+		home = 344
+	}
+
+	regiment = {
+		name= "8-я пехотная дивизия"
+		type = hussar
+		home = 345
+	}
+
+	regiment = {
+		name= "9-я пехотная дивизия"
+		type = artillery
+		home = 345
+	}
+
+	regiment = {
+		name= "10-я пехотная дивизия"
+		type = artillery
+		home = 346
+	}
+	
+	regiment = {
+		name= "11-я пехотная дивизия"
+		type = artillery
+		home = 346
+	}
+
+	regiment = {
+		name= "12-я пехотная дивизия"
+		type = artillery
+		home = 346
+	}
+}

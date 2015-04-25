@@ -1,0 +1,27 @@
+army = {
+	name = "1e Infanterie Divisie"
+	location = 411
+	regiment = {
+		name= "1e Infanterie Brigade"
+		type = infantry
+		home = 411
+	}
+
+	regiment = {
+		name= "2e Infanterie Brigade"
+		type = infantry
+		home = 411	}
+
+	regiment = {
+		name= "3e Infanterie Brigade"
+		type = infantry
+		home = 412
+	}
+
+	regiment = {
+		name= "1er Brigade d'Artillerie"
+		type = artillery
+		home = 412
+	}
+
+}

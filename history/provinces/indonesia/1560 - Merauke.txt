@@ -1,0 +1,10 @@
+add_core = INO
+trade_goods = fish
+life_rating = 32
+terrain = swamp_jungle
+1836.1.1 = {
+	owner = NET
+	controller = NET
+	remove_core = NET
+	colonial = 2
+}

@@ -1,0 +1,23 @@
+army = {
+	name = "Армия Авадха"
+	location = 1242
+	regiment = {
+		name= "1.Garhwali Infantry"
+		type = irregular
+		home = 1242
+	}
+
+	regiment = {
+		name= "2.Garhwali Infantry"
+		type = irregular
+		home = 1242
+	}
+
+	regiment = {
+		name= "3.Garhwali Infantry"
+		type = irregular
+		home = 1244
+	}
+
+}
+

@@ -1,0 +1,13 @@
+owner = IRQ
+controller = IRQ
+add_core = KWT
+trade_goods = fruit
+life_rating = 30
+terrain = desert
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	remove_core = TUR
+	colonial = 3
+	naval_base = 4
+}

@@ -1,0 +1,80 @@
+capital = 575
+primary_culture = north_german
+religion = protestant
+government = absolute_monarchy
+plurality = 25.0
+nationalvalue = nv_order
+literacy = 0.8
+civilized = yes
+prestige = 1
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = yes_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = first_past_the_post
+political_parties = underground_parties
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+school_reforms = no_schools
+
+ruling_party = NAS_reactionary_2
+upper_house = {
+	fascist = 0
+	liberal = 30
+	conservative = 55
+	reactionary = 15
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+# Technologies
+	standing_army = 1
+	early_muskets = 1
+	field_artillery = 1
+	early_century_staff_system = 1
+	army_direct_command = 1
+
+	robert_blake_doctrine = 1
+	galleon_design = 1
+	early_naval_design_bureaus = 1
+	naval_flag_signaling = 1
+	early_command_principle = 1
+			
+	early_business_banks = 1
+	no_standard = 1
+	mercantilist_thought = 1
+	protectionist_policies = 1
+	guild_based_production = 1
+
+	classical_era_of_music = 1
+	scholasticism = 1
+	cartesianism = 1
+	feudalism = 1
+	cognitivism = 1
+
+	early_water_wheel = 1
+	calculus = 1
+	cast_iron = 1
+	wooden_mine_railways = 1
+	basic_chemistry = 1
+
+
+# Starting Consciousness
+consciousness = 2
+nonstate_consciousness = 0
+
+oob = "CLG_oob.txt"
+
+set_country_flag = existing_country
+

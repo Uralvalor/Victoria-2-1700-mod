@@ -1,0 +1,76 @@
+capital = 2172
+primary_culture = spanish
+religion = catholic
+government = democracy
+plurality = 25.0
+nationalvalue = nv_liberty
+literacy = 0.15
+non_state_culture_literacy = 0.09
+civilized = yes
+prestige = 5
+
+
+# Political reforms
+slavery = yes_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = jefferson_method
+political_parties = underground_parties
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+school_reforms = no_schools
+
+ruling_party = MEX_reactionary
+last_election = 1835.1.28
+upper_house = {
+	fascist = 0
+	liberal = 25
+	conservative = 63
+	reactionary = 12
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+# Technologies
+# Inventions
+
+#Starting Consciousness
+consciousness = 2
+nonstate_consciousness = 0
+
+oob = "MEX_oob.txt"
+1861.1.1 = {
+	oob = "/1861/MEX_oob.txt"
+}
+1861.1.1 = {
+# Political reforms
+slavery = no_slavery
+upper_house_composition = state_equal_weight
+vote_franschise = wealth_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = no_trade_unions
+voting_system = first_past_the_post
+political_parties = non_secret_ballots
+
+plurality = 60
+ruling_party = MEX_liberal
+literacy = 0.225
+non_state_culture_literacy = 0.10
+
+# Technologies
+
+
+#Inventions
+
+}

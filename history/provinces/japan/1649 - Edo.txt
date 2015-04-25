@@ -1,0 +1,39 @@
+owner = TKG
+controller = TKG
+add_core = TKG
+trade_goods = grain
+life_rating = 35
+terrain = good_farmland
+fort = 1
+1914.1.1 = {
+	railroad = 4
+	remove_core = TKG
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+	state_building = {
+		level = 5
+		building = paper_mill
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = dye_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = canned_food_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = winery
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = cement_factory
+		upgrade = yes
+	}
+}

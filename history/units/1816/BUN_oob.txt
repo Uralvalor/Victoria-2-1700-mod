@@ -1,0 +1,23 @@
+army = {
+	name = "Армия Бундельканда"
+	location = 1274
+	regiment = {
+		name= "1.Bundelkhand Legion"
+		type = irregular
+		home = 1282
+	}
+
+	regiment = {
+		name= "2.Bundelkhand Legion"
+		type = irregular
+		home = 1274
+	}
+
+	regiment = {
+		name= "3.Bundelkhand Legion"
+		type = irregular
+		home = 1274
+	}
+
+}
+

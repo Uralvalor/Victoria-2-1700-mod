@@ -1,0 +1,34 @@
+owner = BRA
+controller = BRA
+add_core = BRA
+add_core = GER
+trade_goods = fruit
+life_rating = 35
+terrain = forested_farmland
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	owner = GER
+	controller = GER
+	railroad = 5
+	fort = 2
+	state_building = {
+		level = 2
+		building = telephone_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
+		building = automobile_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
+		building = barrel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 4
+		building = small_arms_factory
+		upgrade = yes
+	}
+}

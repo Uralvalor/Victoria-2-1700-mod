@@ -1,0 +1,45 @@
+owner = KAG
+controller = KAG
+add_core = KAG
+add_core = TKG
+trade_goods = silk
+life_rating = 35
+terrain = hilly_farmland
+#state_building = {
+#	level = 1
+#	building = glass_factory
+#	upgrade = yes
+#}
+1914.1.1 = {
+	railroad = 3
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+	remove_core = KAG
+	remove_core = TKG
+	state_building = {
+		level = 2
+		building = paper_mill
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = regular_clothes_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = ammunition_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = machine_parts_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = luxury_clothes_factory
+		upgrade = yes
+	}
+}

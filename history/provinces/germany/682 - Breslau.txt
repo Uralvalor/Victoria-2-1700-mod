@@ -1,0 +1,79 @@
+owner = AUS
+controller = AUS
+add_core = PRU
+add_core = GER
+add_core = POL
+add_core = PLC
+trade_goods = grain
+life_rating = 35
+terrain = good_farmland
+1750.1.1 = {
+	owner = PRU
+	controller = PRU
+}
+1816.1.1 = { state_building = {
+	level = 1
+	building = explosives_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = artillery_factory
+	upgrade = yes
+}
+}
+1861.1.1 = {
+	state_building = {
+		level = 1
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = fabric_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = explosives_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = artillery_factory
+		upgrade = yes
+	}
+}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	remove_core = POL
+	owner = GER
+	controller = GER
+	railroad = 5
+	fort = 2
+	state_building = {
+		level = 2
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
+		building = fabric_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = explosives_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
+		building = artillery_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = winery
+		upgrade = yes
+	}
+}

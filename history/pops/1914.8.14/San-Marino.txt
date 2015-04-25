@@ -1,0 +1,32 @@
+#San-Marino
+3263 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 290
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 350
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 450
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 195
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 1800
+	}
+}

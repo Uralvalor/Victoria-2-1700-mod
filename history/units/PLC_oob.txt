@@ -1,0 +1,70 @@
+SWE = {
+	value = -150		#relation
+}
+
+AUS = {
+	value = 150		#relation
+}
+
+
+UKR = {
+	value = 50		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
+
+
+
+army = {
+	name = "3rd Army"
+	location = 365
+	regiment = {
+		name= "1st Polish Infantry"
+		type = infantry
+		home = 701
+	}
+
+	regiment = {
+		name= "2nd Polish Infantry"
+		type = infantry
+		home = 701
+	}
+}
+
+army = {
+	name = "1st Polish Hussar Division"
+	location = 712
+	regiment = {
+		name= "1st Warsaw Hussar"
+		type = hussar
+		home = 706
+	}
+
+	regiment = {
+		name= "2nd Siedlice Hussar"
+		type = hussar
+		home = 711
+	}
+
+}
+
+navy = {
+	name = "Baltic Fleet"
+	location = 690
+	ship = {
+		name= "1st Man-O-War"
+		type = manowar
+	}
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+
+}

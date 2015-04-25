@@ -1,0 +1,14 @@
+owner = SWE
+controller = SWE
+add_core = PRU
+add_core = GER
+trade_goods = fruit
+life_rating = 35
+naval_base = 1
+terrain = good_farmland
+1914.1.1 = {
+	owner = GER
+	controller = GER
+	railroad = 5
+	fort = 2
+}

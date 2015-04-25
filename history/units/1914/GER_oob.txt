@@ -1,0 +1,2989 @@
+JAP = {
+	value = -200
+}
+ENG = {
+	value = -200
+}
+RUS = {
+	value = -200
+}
+FRA = {
+	value = -200
+}
+KUK = {
+	value = 200
+}
+TUR = {
+	value = 200
+	level = 5
+	influence_value = 9
+}
+GRE= {
+	value = -200
+	level = 3
+	influence_value = 25
+}
+BUL = {
+	value = 200
+	level = 4
+	influence_value = 6
+}
+SER = {
+	value = -200
+}
+SWE = {
+	value = 100		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 24
+}
+SWI = {
+	value = 125
+	level = 4
+	influence_value = 21
+}
+NOR = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 10
+}
+DEN = {
+	value = 125		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 30
+}
+
+leader = {
+	name = "Эрих фон Фалькенхайн"
+	type = land
+	date="1914.1.1"
+	personality = wrathful
+	background = toady
+	picture="personal_erich_falkenhayn"
+}
+
+leader = {
+	name = "Эрих Людендорф"
+	type = land
+	date="1914.1.1"
+	personality = intuitive
+	background = school_of_the_bayonet
+	picture="personal_erich_ludendorff"
+}
+
+leader = {
+	name = "Александр фон Клюк"
+	type = land
+	date="1914.1.1"
+	personality = chivalrous
+	background = natural_born_leader
+	picture="personal_alexandr_klyuk"
+}
+
+leader = {
+	name = "Хельмут фон Мольтке"
+	type = land
+	date="1914.1.1"
+	personality = chickenhearted
+	background = powerful_friends
+	picture="personal_helmuth_moltke"
+}
+
+leader = {
+	name = "Август фон Макензен"
+	type = land
+	date="1914.1.1"
+	personality = skilled
+	background = innovative_tactician
+	picture="personal_august_mackensen"
+}
+
+leader = {
+	name = "Пауль фон Гинденбург"
+	type = land
+	date="1914.1.1"
+	personality = sharp
+	background = politician
+	picture="personal_paul_hindenburg"
+}
+
+leader = {
+	name = "Карл фон Бюлов"
+	type = land
+	date="1914.1.1"
+	personality = resolute
+	background = aristocrat
+	picture="personal_karl_bulow"
+}
+
+leader = {
+	name = "Рупрехт Баварский"
+	type = land
+	date="1914.1.1"
+	personality = defiant
+	background = professor
+	picture="personal_rupprecht_wittelsbach"
+}
+
+leader = {
+	name = "Отто фон Белов"
+	type = land
+	date="1914.1.1"
+	personality = aweless
+	background = war_college
+	picture="personal_otto_below"
+}
+
+leader = {
+	name = "Герман фон Франсуа"
+	type = land
+	date="1914.1.1"
+	personality = soft
+	background = hated
+	picture="personal_hermann_francois"
+}
+
+leader = {
+	name = "Макс Гофман"
+	type = land
+	date="1914.1.1"
+	personality = wrathful
+	background = diplomat
+	picture="personal_max_hoffmann"
+}
+
+leader = {
+	name = "Пауль фон Леттов-Форбек"
+	type = land
+	date="1914.1.1"
+	personality = brash
+	background = expert_raider
+	picture="personal_paul_lettow-vorbeckl"
+}
+
+leader = {
+	name = "Рейнхард Шеер"
+	type = sea
+	date="1914.1.1"
+	personality = resolute
+	background = clueless
+	picture="personal_reinhard_scheer"
+}
+
+leader = {
+	name = "Франц Хиппер"
+	type = sea
+	date="1914.1.1"
+	personality = skilled
+	background = innovative_tactician
+	picture="personal_franz_hipper"
+}
+
+leader = {
+	name = "Альфред фон Тирпиц"
+	type = sea
+	date="1914.1.1"
+	personality = au_fait
+	background = eccentric_genius
+	picture="personal_alfred_tirpitz"
+}
+
+army = {
+	name = "I. Koniglich Bayerische Armee-Korps"
+	location = 599
+	regiment = {
+		name= "1. Bayerische Infantrie"
+		type = guard
+		home = 599
+	}
+	regiment = {
+		name= "2. Bayerische Infantrie"
+		type = guard
+		home = 599
+	}
+	regiment = {
+		name= "3. Bayerische Infantrie"
+		type = guard
+		home = 599
+	}
+	regiment = {
+		name= "4. Bayerische Infantrie"
+		type = guard
+		home = 599
+	}
+	regiment = {
+		name= "5. Bayerische Infantrie"
+		type = infantry
+		home = 599
+	}
+	regiment = {
+		name= "6. Bayerische Infantrie"
+		type = infantry
+		home = 599
+	}
+	regiment = {
+		name = "1. Bayerische Garde"
+		type = guard
+		home = 599
+	}
+	regiment = {
+		name = "2. Bayerische Garde"
+		type = guard
+		home = 599
+	}
+	regiment = {
+		name = "1. Bayerische Kavallerie"
+		type = cuirassier
+		home = 599
+	}
+	regiment = {
+		name = "2. Bayerische Kavallerie"
+		type = cuirassier
+		home = 599
+	}
+	regiment = {
+		name = "3. Bayerische Kavallerie"
+		type = cuirassier
+		home = 599
+	}
+	regiment = {
+		name = "4. Bayerische Kavallerie"
+		type = cuirassier
+		home = 599
+	}
+	regiment = {
+		name = "1. Bayerische Artillerie"
+		type = artillery
+		home = 599
+	}
+	regiment = {
+		name = "2. Bayerische Artillerie"
+		type = artillery
+		home = 599
+	}
+	regiment = {
+		name = "3. Bayerische Artillerie"
+		type = artillery
+		home = 599
+	}
+	regiment = {
+		name = "4. Bayerische Artillerie"
+		type = artillery
+		home = 600
+	}
+}
+army = {
+	name = "2. Koniglich Bayerische Armee-Korps"
+	location = 592
+	regiment = {
+		name = "7. Bayerische Infantrie"
+		type = infantry
+		home = 592
+	}
+	regiment = {
+		name = "8. Bayerische Infantrie"
+		type = infantry
+		home = 592
+	}
+	regiment = {
+		name = "9. Bayerische Infantrie"
+		type = infantry
+		home = 592
+	}
+	regiment = {
+		name = "10. Bayerische Infantrie"
+		type = infantry
+		home = 600
+	}
+	regiment = {
+		name = "3. Bayerische Garde"
+		type = guard
+		home = 600
+	}
+	regiment = {
+		name = "4. Bayerische Garde"
+		type = guard
+		home = 601
+	}
+	regiment = {
+		name = "5. Bayerische Kavallrie"
+		type = cuirassier
+		home = 601
+	}
+	regiment = {
+		name = "6. Bayerische Kavallrie"
+		type = cuirassier
+		home = 601
+	}
+	regiment = {
+		name = "7. Bayerische Kavallrie"
+		type = cuirassier
+		home = 595
+	}
+	regiment = {
+		name = "5. Bayerische Artillerie"
+		type = artillery
+		home = 595
+	}
+	regiment = {
+		name = "6. Bayerische Artillerie"
+		type = artillery
+		home = 595
+	}
+	regiment = {
+		name = "7. Bayerische Artillerie"
+		type = artillery
+		home = 595
+	}
+}
+army = {
+	name = "Deutsch Gardekorps"
+	location = 549
+	regiment = {
+		name = "1. Deutsch Garde"
+		type = guard
+		home = 549
+	}
+	regiment = {
+		name = "2. Deutsch Garde"
+		type = guard
+		home = 549
+	}
+	regiment = {
+		name = "3. Deutsch Garde"
+		type = guard
+		home = 549
+	}
+	regiment = {
+		name = "1. Berlin Garde"
+		type = guard
+		home = 549
+	}
+	regiment = {
+		name = "2. Berlin Garde"
+		type = guard
+		home = 549
+	}
+	regiment = {
+		name = "3. Berlin Garde"
+		type = guard
+		home = 549
+	}
+	regiment = {
+		name = "4. Deutsch Garde"
+		type = guard
+		home = 549
+	}
+	regiment = {
+		name = "1. Deutsch Kavallrie"
+		type = cuirassier
+		home = 549
+	}
+	regiment = {
+		name = "2. Deutsch Kavallrie"
+		type = cuirassier
+		home = 549
+	}
+	regiment = {	
+		name = "1. Berlin Kavallrie"
+		type = cuirassier
+		home = 549
+	}
+	regiment = {	
+		name = "2. Berlin Kavallrie"
+		type = cuirassier
+		home = 549
+	}
+	regiment = {
+		name = "1. Deutsch Flugzeug"
+		type = plane
+		home = 549
+	}
+	regiment = {
+		name = "11. Berlin Infantrie"
+		type = infantry
+		home = 549
+	}
+	regiment = {
+		name = "12. Berlin Infantrie"
+		type = infantry
+		home = 549
+	}
+	regiment = {
+		name = "1. Deutsch Artillerie"
+		type = artillery
+		home = 552
+	}
+	regiment = {
+		name = "1. Berlin Artillerie"
+		type = artillery
+		home = 552
+	}
+	regiment = {
+		name = "2. Berlin Artillerie"
+		type = artillery
+		home = 552
+	}
+	regiment = {
+		name = "3. Berlin Artillerie"
+		type = artillery
+		home = 552
+	}
+	regiment = {
+		name = "1. Berlin Ingenieur"
+		type = engineer
+		home = 552
+	}
+	regiment = {
+		name = "2. Berlin Ingenieur"
+		type = engineer
+		home = 552
+	}
+	regiment = {
+		name = "3. Berlin Ingenieur"
+		type = engineer
+		home = 550
+	}
+}
+army = {
+	name = "I. Armeekorps"
+	location = 695
+	regiment = {
+		name = "5. Deutsch Garde"
+		type = guard
+		home = 695
+	}
+	regiment = {
+		name = "6. Deutsch Garde"
+		type = guard
+		home = 695
+	}
+	regiment = {
+		name = "7. Deutsch Garde"
+		type = guard
+		home = 695
+	}
+	regiment = {
+		name = "1. Deutsch Infantrie"
+		type = infantry
+		home = 695
+	}
+	regiment = {
+		name = "2. Deutsch Infantrie"
+		type = infantry
+		home = 695
+	}
+	regiment = {
+		name = "3. Deutsch Infantrie"
+		type = infantry
+		home = 695
+	}
+	regiment = {
+		name = "4. Deutsch Infantrie"
+		type = infantry
+		home = 695
+	}
+	regiment = {
+		name = "5. Deutsch Infantrie"
+		type = infantry
+		home = 695
+	}
+	regiment = {
+		name = "6. Deutsch Infantrie"
+		type = infantry
+		home = 695
+	}
+	regiment = {
+		name = "7. Deutsch Infantrie"
+		type = infantry
+		home = 695
+	}
+	regiment = {
+		name = "8. Deutsch Infantrie"
+		type = infantry
+		home = 695
+	}
+	regiment = {
+		name = "9. Deutsch Infantrie"
+		type = infantry
+		home = 698
+	}
+	regiment = {
+		name = "10. Deutsch Infantrie"
+		type = infantry
+		home = 698
+	}
+	regiment = {
+		name = "11. Deutsch Infantrie"
+		type = infantry
+		home = 597
+	}
+	regiment = {
+		name = "12. Deutsch Infantrie"
+		type = infantry
+		home = 697
+	}
+	regiment = {
+		name = "3. Deutsch Kavallrie"
+		type = cuirassier
+		home = 697
+	}
+	regiment = {
+		name = "4. Deutsch Kavallrie"
+		type = cuirassier
+		home = 697
+	}
+	regiment = {
+		name = "5. Deutsch Kavallrie"
+		type = cuirassier
+		home = 697
+	}
+	regiment = {
+		name = "6. Deutsch Kavallrie"
+		type = cuirassier
+		home = 697
+	}
+	regiment = {
+		name = "7. Deutsch Kavallrie"
+		type = cuirassier
+		home = 697
+	}
+	regiment = {
+		name = "2. Deutsch Artillerie"
+		type = artillery
+		home = 550
+	}
+	regiment = {
+		name = "3. Deutsch Artillerie"
+		type = artillery
+		home = 550
+	}
+	regiment = {
+		name = "4. Deutsch Artillerie"
+		type = artillery
+		home = 550
+	}
+	regiment = {
+		name = "5. Deutsch Artillerie"
+		type = artillery
+		home = 550
+	}
+	regiment = {
+		name = "6. Deutsch Artillerie"
+		type = artillery
+		home = 550
+	}
+	regiment = {
+		name = "7. Deutsch Artillerie"
+		type = artillery
+		home = 595
+	}
+	regiment = {
+		name = "8. Deutsch Artillerie"
+		type = artillery
+		home = 595
+	}
+	regiment = {
+		name = "2. Deutsch Ingenieur"
+		type = engineer
+		home = 595
+	}
+	regiment = {
+		name = "3. Deutsch Ingenieur"
+		type = engineer
+		home = 595
+	}
+	regiment = {
+		name = "4. Deutsch Ingenieur"
+		type = engineer
+		home = 595
+	}
+	regiment = {
+		name = "2. Deutsch Flugzeug"
+		type = plane
+		home = 595
+	}
+	regiment = {
+		name = "3. Deutsch Flugzeug"
+		type = plane
+		home = 595
+	}
+	regiment = {
+		name = "1. Deutsch Panzer"
+		type = tank
+		home = 595
+	}
+}
+army = {
+	name = "II. Armeekorps"
+	location = 546
+	regiment = {
+		name = "5. Deutsch Garde"
+		type = guard
+		home = 546
+	}
+	regiment = {
+		name = "6. Deutsch Garde"
+		type = guard
+		home = 546
+	}
+	regiment = {
+		name = "7. Deutsch Garde"
+		type = guard
+		home = 679
+	}
+	regiment = {
+		name = "13. Deutsch Infantrie"
+		type = infantry
+		home = 680
+	}
+	regiment = {
+		name = "17. Deutsch Infantrie"
+		type = infantry
+		home = 547
+	}
+	regiment = {
+		name = "18. Deutsch Infantrie"
+		type = infantry
+		home = 547
+	}
+	regiment = {
+		name = "19. Deutsch Infantrie"
+		type = infantry
+		home = 545
+	}
+	regiment = {
+		name = "20. Deutsch Infantrie"
+		type = infantry
+		home = 545
+	}
+	regiment = {
+		name = "22. Deutsch Infantrie"
+		type = infantry
+		home = 545
+	}
+	regiment = {
+		name = "23. Deutsch Infantrie"
+		type = infantry
+		home = 548
+	}
+	regiment = {
+		name = "24. Deutsch Infantrie"
+		type = infantry
+		home = 548
+	}
+	regiment = {
+		name = "25. Deutsch Infantrie"
+		type = infantry
+		home = 548
+	}
+	regiment = {
+		name = "8. Deutsch Kavallrie"
+		type = cuirassier
+		home = 548
+	}
+	regiment = {
+		name = "9. Deutsch Kavallrie"
+		type = cuirassier
+		home = 548
+	}
+	regiment = {
+		name = "10. Deutsch Kavallrie"
+		type = cuirassier
+		home = 544
+	}
+	regiment = {
+		name = "11. Deutsch Kavallrie"
+		type = cuirassier
+		home = 544
+	}
+	regiment = {
+		name = "12. Deutsch Kavallrie"
+		type = cuirassier
+		home = 544
+	}
+	regiment = {
+		name = "9. Deutsch Artillerie"
+		type = artillery
+		home = 544
+	}
+	regiment = {
+		name = "10. Deutsch Artillerie"
+		type = artillery
+		home = 544
+	}
+	regiment = {
+		name = "11. Deutsch Artillerie"
+		type = artillery
+		home = 544
+	}
+	regiment = {
+		name = "12. Deutsch Artillerie"
+		type = artillery
+		home = 544
+	}
+	regiment = {
+		name = "13. Deutsch Artillerie"
+		type = artillery
+		home = 551
+	}
+	regiment = {
+		name = "14. Deutsch Artillerie"
+		type = artillery
+		home = 551
+	}
+	regiment = {
+		name = "15. Deutsch Artillerie"
+		type = artillery
+		home = 551
+	}
+	regiment = {
+		name = "5. Deutsch Ingenieur"
+		type = engineer
+		home = 551
+	}
+	regiment = {
+		name = "6. Deutsch Ingenieur"
+		type = engineer
+		home = 551
+	}
+	regiment = {
+		name = "7. Deutsch Ingenieur"
+		type = engineer
+		home = 551
+	}
+	regiment = {
+		name = "4. Deutsch Flugzeug"
+		type = plane
+		home = 551
+	}
+	regiment = {
+		name = "5. Deutsch Flugzeug"
+		type = plane
+		home = 532
+	}
+	regiment = {
+		name = "2. Deutsch Panzer"
+		type = tank
+		home = 532
+	}
+}
+army = {
+	name = "IV. Armeekorps"
+	location = 553
+	regiment = {
+		name = "1. Magdeburg Infantrie"
+		type = infantry
+		home = 553
+	}
+	regiment = {
+		name = "3. Magdeburg Infantrie"
+		type = infantry
+		home = 553
+	}
+	regiment = {
+		name = "4. Magdeburg Infantrie"
+		type = infantry
+		home = 553
+	}
+	regiment = {
+		name = "5. Magdeburg Infantrie"
+		type = infantry
+		home = 553
+	}
+	regiment = {
+		name = "6. Magdeburg Infantrie"
+		type = infantry
+		home = 553
+	}
+	regiment = {
+		name = "7. Magdeburg Infantrie"
+		type = infantry
+		home = 553
+	}
+	regiment = {
+		name = "8. Magdeburg Infantrie"
+		type = infantry
+		home = 553
+	}
+	regiment = {
+		name = "9. Magdeburg Infantrie"
+		type = infantry
+		home = 553
+	}
+	regiment = {
+		name = "10. Magdeburg Infantrie"
+		type = infantry
+		home = 553
+	}
+	regiment = {
+		name = "11. Magdeburg Infantrie"
+		type = infantry
+		home = 553
+	}
+	regiment = {
+		name = "12. Magdeburg Infantrie"
+		type = infantry
+		home = 557
+	}
+	regiment = {
+		name = "13. Magdeburg Infantrie"
+		type = infantry
+		home = 557
+	}
+	regiment = {
+		name = "14. Magdeburg Infantrie"
+		type = infantry
+		home = 557
+	}
+	regiment = {
+		name = "15. Magdeburg Infantrie"
+		type = infantry
+		home = 555
+	}
+	regiment = {
+		name = "1. Magdeburg Garde"
+		type = guard
+		home = 555
+	}
+	regiment = {
+		name = "2. Magdeburg Garde"
+		type = guard
+		home = 556
+	}
+	regiment = {
+		name = "3. Magdeburg Garde"
+		type = guard
+		home = 556
+	}
+	regiment = {
+		name = "4. Magdeburg Garde"
+		type = guard
+		home = 556
+	}
+	regiment = {
+		name = "5. Magdeburg Garde"
+		type = guard
+		home = 556
+	}
+	regiment = {
+		name = "1. Magdeburg Artillerie"
+		type = artillery
+		home = 556
+	}
+	regiment = {
+		name = "2. Magdeburg Artillerie"
+		type = artillery
+		home = 556
+	}
+	regiment = {
+		name = "3. Magdeburg Artillerie"
+		type = artillery
+		home = 556
+	}
+	regiment = {
+		name = "4. Magdeburg Artillerie"
+		type = artillery
+		home = 554
+	}
+	regiment = {
+		name = "5. Magdeburg Artillerie"
+		type = artillery
+		home = 554
+	}
+	regiment = {
+		name = "1. Magdeburg Ingenieur"
+		type = engineer
+		home = 554
+	}
+	regiment = {
+		name = "2. Magdeburg Ingenieur"
+		type = engineer
+		home = 554
+	}
+	regiment = {
+		name = "3. Magdeburg Ingenieur"
+		type = engineer
+		home = 554
+	}
+}
+army = {
+	name = "V. Armeekorps"
+	location = 369
+	regiment = {
+		name = "1. Schleswig Infantrie"
+		type = infantry
+		home = 369
+	}
+	regiment = {
+		name = "2. Schleswig Infantrie"
+		type = infantry
+		home = 369
+	}
+	regiment = {
+		name = "3. Schleswig Infantrie"
+		type = infantry
+		home = 369
+	}
+	regiment = {
+		name = "4. Schleswig Infantrie"
+		type = infantry
+		home = 369
+	}
+	regiment = {
+		name = "5. Schleswig Infantrie"
+		type = infantry
+		home = 369
+	}
+	regiment = {
+		name = "6. Schleswig Infantrie"
+		type = infantry
+		home = 369
+	}
+	regiment = {
+		name = "7. Schleswig Infantrie"
+		type = infantry
+		home = 369
+	}
+	regiment = {
+		name = "8. Schleswig Infantrie"
+		type = infantry
+		home = 369
+	}
+	regiment = {
+		name = "9. Schleswig Infantrie"
+		type = infantry
+		home = 369
+	}
+	regiment = {
+		name = "10. Schleswig Infantrie"
+		type = infantry
+		home = 530
+	}
+	regiment = {
+		name = "11. Schleswig Infantrie"
+		type = infantry
+		home = 530
+	}
+	regiment = {
+		name = "12. Schleswig Infantrie"
+		type = infantry
+		home = 529
+	}
+	regiment = {
+		name = "13. Schleswig Infantrie"
+		type = infantry
+		home = 529
+	}
+	regiment = {
+		name = "14. Schleswig Infantrie"
+		type = infantry
+		home = 529
+	}
+	regiment = {
+		name = "1. Schleswig Garde"
+		type = guard
+		home = 529
+	}
+	regiment = {
+		name = "2. Schleswig Garde"
+		type = guard
+		home = 577
+	}
+	regiment = {
+		name = "3. Schleswig Garde"
+		type = guard
+		home = 577
+	}
+	regiment = {
+		name = "4. Schleswig Garde"
+		type = guard
+		home = 577
+	}
+	regiment = {
+		name = "5. Schleswig Garde"
+		type = guard
+		home = 577
+	}
+	regiment = {
+		name = "1. Schleswig Artillerie"
+		type = artillery
+		home = 577
+	}
+	regiment = {
+		name = "2. Schleswig Artillerie"
+		type = artillery
+		home = 577
+	}
+	regiment = {
+		name = "3. Schleswig Artillerie"
+		type = artillery
+		home = 577
+	}
+	regiment = {
+		name = "4. Schleswig Artillerie"
+		type = artillery
+		home = 577
+	}
+	regiment = {
+		name = "1. Schleswig Ingenieur"
+		type = engineer
+		home = 542
+	}
+	regiment = {
+		name = "2. Schleswig Ingenieur"
+		type = engineer
+		home = 542
+	}
+	regiment = {
+		name = "3. Schleswig Ingenieur"
+		type = engineer
+		home = 542
+	}
+}
+army = {
+	name = "VI. Armeekorps"
+	location = 539
+	regiment = {
+		name = "13. Bremen Infantrie"
+		type = infantry
+		home = 539
+	}
+	regiment = {
+		name = "1. Bremen Infantrie"
+		type = infantry
+		home = 539
+	}
+	regiment = {
+		name = "2. Bremen Infantrie"
+		type = infantry
+		home = 539
+	}
+	regiment = {
+		name = "3. Bremen Infantrie"
+		type = infantry
+		home = 531
+	}
+	regiment = {
+		name = "4. Bremen Infantrie"
+		type = infantry
+		home = 531
+	}
+	regiment = {
+		name = "5. Bremen Infantrie"
+		type = infantry
+		home = 531
+	}
+	regiment = {
+		name = "6. Bremen Infantrie"
+		type = infantry
+		home = 531
+	}
+	regiment = {
+		name = "7. Bremen Infantrie"
+		type = infantry
+		home = 578
+	}
+	regiment = {
+		name = "8. Bremen Infantrie"
+		type = infantry
+		home = 578
+	}
+	regiment = {
+		name = "9. Bremen Infantrie"
+		type = infantry
+		home = 578
+	}
+	regiment = {
+		name = "10. Bremen Infantrie"
+		type = infantry
+		home = 578
+	}
+	regiment = {
+		name = "11. Bremen Infantrie"
+		type = infantry
+		home = 578
+	}
+	regiment = {
+		name = "12. Bremen Infantrie"
+		type = infantry
+		home = 578
+	}
+	regiment = {
+		name = "1. Bremen Garde"
+		type = guard
+		home = 578
+	}
+	regiment = {
+		name = "2. Bremen Garde"
+		type = guard
+		home = 578
+	}
+	regiment = {
+		name = "3. Bremen Garde"
+		type = guard
+		home = 578
+	}
+	regiment = {
+		name = "4. Bremen Garde"
+		type = guard
+		home = 576
+	}
+	regiment = {
+		name = "1. Bremen Ingenieur"
+		type = engineer
+		home = 576
+	}
+	regiment = {
+		name = "2. Bremen Ingenieur"
+		type = engineer
+		home = 576
+	}
+	regiment = {
+		name = "1. Bremen Artillerie"
+		type = artillery
+		home = 576
+	}
+	regiment = {
+		name = "2. Bremen Artillerie"
+		type = artillery
+		home = 576
+	}
+	regiment = {
+		name = "3. Bremen Artillerie"
+		type = artillery
+		home = 576
+	}
+	regiment = {
+		name = "4. Bremen Artillerie"
+		type = artillery
+		home = 541
+	}
+}
+army = {
+	name = "VII. Armeekorps"
+	location = 690
+	regiment = {
+		name = "1. Danzig Infantrie"
+		type = infantry
+		home = 693
+	}
+	regiment = {
+		name = "2. Danzig Infantrie"
+		type = infantry
+		home = 693
+	}
+
+	regiment = {
+		name = "3. Danzig Infantrie"
+		type = infantry
+		home = 682
+	}
+
+	regiment = {
+		name = "4. Danzig Infantrie"
+		type = infantry
+		home = 682
+	}
+
+	regiment = {
+		name = "5. Danzig Infantrie"
+		type = infantry
+		home = 682
+	}
+
+	regiment = {
+		name = "6. Danzig Infantrie"
+		type = infantry
+		home = 682
+	}
+
+	regiment = {
+		name = "7. Danzig Infantrie"
+		type = infantry
+		home = 683
+	}
+
+	regiment = {
+		name = "8. Danzig Infantrie"
+		type = infantry
+		home = 684
+	}
+	regiment = {
+		name = "9. Danzig Infantrie"
+		type = infantry
+		home = 684
+	}
+	regiment = {
+		name = "10. Danzig Infantrie"
+		type = infantry
+		home = 684
+	}
+	regiment = {
+		name = "11. Danzig Infantrie"
+		type = infantry
+		home = 684
+	}
+	regiment = {
+		name = "12. Danzig Infantrie"
+		type = infantry
+		home = 685
+	}
+	regiment = {
+		name = "13. Danzig Infantrie"
+		type = infantry
+		home = 685
+	}
+	regiment = {
+		name = "14. Danzig Infantrie"
+		type = infantry
+		home = 685
+	}
+	regiment = {
+		name = "15. Danzig Infantrie"
+		type = infantry
+		home = 579
+	}
+	regiment = {
+		name = "1. Danzig Garde"
+		type = guard
+		home = 579
+	}
+	regiment = {
+		name = "2. Danzig Garde"
+		type = guard
+		home = 579
+	}
+	regiment = {
+		name = "3. Danzig Garde"
+		type = guard
+		home = 579
+	}
+	regiment = {
+		name = "4. Danzig Garde"
+		type = guard
+		home = 583
+	}
+	regiment = {
+		name = "1. Danzig Artillerie"
+		type = artillery
+		home = 583
+	}
+	regiment = {
+		name = "2. Danzig Artillerie"
+		type = artillery
+		home = 583
+	}
+	regiment = {
+		name = "3. Danzig Artillerie"
+		type = artillery
+		home = 583
+	}
+	regiment = {
+		name = "4. Danzig Artillerie"
+		type = artillery
+		home = 584
+	}
+	regiment = {
+		name = "1. Danzig Ingenieur"
+		type = engineer
+		home = 584
+	}
+	regiment = {
+		name = "2. Danzig Ingenieur"
+		type = engineer
+		home = 584
+	}
+}
+army = {
+	name = "VIII. Armeekorps"
+	location = 528
+	regiment = {
+		name = "1. Hamburg Infantrie"
+		type = infantry
+		home = 528
+	}
+	regiment = {
+		name = "2. Hamburg Infantrie"
+		type = infantry
+		home = 528
+	}
+	regiment = {
+		name = "3. Hamburg Infantrie"
+		type = infantry
+		home = 528
+	}
+	regiment = {
+		name = "4. Hamburg Infantrie"
+		type = infantry
+		home = 584
+	}
+	regiment = {
+		name = "5. Hamburg Infantrie"
+		type = infantry
+		home = 580
+	}
+	regiment = {
+		name = "6. Hamburg Infantrie"
+		type = infantry
+		home = 580
+	}
+	regiment = {
+		name = "7. Hamburg Infantrie"
+		type = infantry
+		home = 580
+	}
+	regiment = {
+		name = "8. Hamburg Infantrie"
+		type = infantry
+		home = 580
+	}
+	regiment = {
+		name = "9. Hamburg Infantrie"
+		type = infantry
+		home = 580
+	}
+	regiment = {
+		name = "10. Hamburg Infantrie"
+		type = infantry
+		home = 580
+	}
+	regiment = {
+		name = "11. Hamburg Infantrie"
+		type = infantry
+		home = 580
+	}
+	regiment = {
+		name = "12. Hamburg Infantrie"
+		type = infantry
+		home = 580
+	}
+	regiment = {
+		name = "13. Hamburg Infantrie"
+		type = infantry
+		home = 582
+	}
+	regiment = {
+		name = "14. Hamburg Infantrie"
+		type = infantry
+		home = 582
+	}
+	regiment = {
+		name = "1. Hamburg Garde"
+		type = guard
+		home = 582
+	}
+	regiment = {
+		name = "2. Hamburg Garde"
+		type = guard
+		home = 582
+	}
+	regiment = {
+		name = "3. Hamburg Garde"
+		type = guard
+		home = 585
+	}
+	regiment = {
+		name = "4. Hamburg Garde"
+		type = guard
+		home = 585
+	}
+	regiment = {
+		name = "1. Hamburg Artillerie"
+		type = artillery
+		home = 585
+	}
+	regiment = {
+		name = "2. Hamburg Artillerie"
+		type = artillery
+		home = 566
+	}
+	regiment = {
+		name = "3. Hamburg Artillerie"
+		type = artillery
+		home = 566
+	}
+	regiment = {
+		name = "4. Hamburg Artillerie"
+		type = artillery
+		home = 566
+	}
+	regiment = {
+		name = "1. Hamburg Ingenieur"
+		type = engineer
+		home = 566
+	}
+	regiment = {
+		name = "2. Hamburg Ingenieur"
+		type = engineer
+		home = 566
+	}
+}
+army = {
+	name = "IX. Armeekorps"
+	location = 699
+	regiment = {
+		name = "1. Posen Garde"
+		type = guard
+		home = 699
+	}
+	regiment = {
+		name = "2. Posen Garde"
+		type = guard
+		home = 699
+	}
+	regiment = {
+		name = "3. Posen Garde"
+		type = guard
+		home = 699
+	}
+	regiment = {
+		name = "4. Posen Garde"
+		type = guard
+		home = 566
+	}
+	regiment = {
+		name = "5. Posen Garde"
+		type = guard
+		home = 566
+	}
+	regiment = {
+		name = "1. Posen Infantrie"
+		type = infantry
+		home = 566
+	}
+	regiment = {
+		name = "2. Posen Infantrie"
+		type = infantry
+		home = 566
+	}
+	regiment = {
+		name = "3. Posen Infantrie"
+		type = infantry
+		home = 701
+	}
+	regiment = {
+		name = "4. Posen Infantrie"
+		type = infantry
+		home = 701
+	}
+	regiment = {
+		name = "5. Posen Infantrie"
+		type = infantry
+		home = 701
+	}
+	regiment = {
+		name = "6. Posen Infantrie"
+		type = infantry
+		home = 681
+	}
+	regiment = {
+		name = "7 Posen Infantrie"
+		type = infantry
+		home = 681
+	}
+	regiment = {
+		name = "8. Posen Infantrie"
+		type = infantry
+		home = 700
+	}
+	regiment = {
+		name = "9. Posen Infantrie"
+		type = infantry
+		home = 692
+	}
+	regiment = {
+		name = "10. Posen Infantrie"
+		type = infantry
+		home = 687
+	}
+	regiment = {
+		name = "11. Posen Infantrie"
+		type = infantry
+		home = 687
+	}
+	regiment = {
+		name = "12. Posen Infantrie"
+		type = infantry
+		home = 687
+	}
+	regiment = {
+		name = "13. Posen Infantrie"
+		type = infantry
+		home = 687
+	}
+	regiment = {
+		name = "1. Posen Artillerie"
+		type = artillery
+		home = 687
+	}
+	regiment = {
+		name = "2. Posen Artillerie"
+		type = artillery
+		home = 572
+	}
+	regiment = {
+		name = "3. Posen Artillerie"
+		type = artillery
+		home = 572
+	}
+	regiment = {
+		name = "4. Posen Artillerie"
+		type = artillery
+		home = 572
+	}
+	regiment = {
+		name = "1. Posen Ingenieur"
+		type = engineer
+		home = 572
+	}
+	regiment = {
+		name = "2. Posen Ingenieur"
+		type = engineer
+		home = 572
+	}
+}
+army = {
+	name = "X. Armeekorps"
+	location = 534
+	regiment = {
+		name = "11. Hanover Infantrie"
+		type = infantry
+		home = 534
+	}
+	regiment = {
+		name = "12. Hanover Infantrie"
+		type = infantry
+		home = 534
+	}
+	regiment = {
+		name = "13. Hanover Infantrie"
+		type = infantry
+		home = 534
+	}
+	regiment = {
+		name = "14. Hanover Infantrie"
+		type = infantry
+		home = 534
+	}
+	regiment = {
+		name = "15. Hanover Infantrie"
+		type = infantry
+		home = 534
+	}
+	regiment = {
+		name = "2. Hanover Garde"
+		type = guard
+		home = 534
+	}
+	regiment = {
+		name = "3. Hanover Garde"
+		type = guard
+		home = 534
+	}
+	regiment = {
+		name = "4. Hanover Garde"
+		type = guard
+		home = 534
+	}
+	regiment = {
+		name = "5. Hanover Garde"
+		type = guard
+		home = 534
+	}
+	regiment = {
+		name = "6. Hanover Garde"
+		type = guard
+		home = 572
+	}
+	regiment = {
+		name = "7. Hanover Garde"
+		type = guard
+		home = 535
+	}
+	regiment = {
+		name = "5. Hanover Artillerie"
+		type = artillery
+		home = 535
+	}
+	regiment = {
+		name = "6. Hanover Artillerie"
+		type = artillery
+		home = 535
+	}
+	regiment = {
+		name = "7. Hanover Artillerie"
+		type = artillery
+		home = 535
+	}
+	regiment = {
+		name = "8. Hanover Artillerie"
+		type = artillery
+		home = 535
+	}
+	regiment = {
+		name = "9. Hanover Artillerie"
+		type = artillery
+		home = 535
+	}
+	regiment = {
+		name = "10. Hanover Artillerie"
+		type = artillery
+		home = 535
+	}
+	regiment = {
+		name = "1. Hanover Artillerie"
+		type = artillery
+		home = 535
+	}
+	regiment = {
+		name = "4. Hanover Kavallrie"
+		type = cuirassier
+		home = 536
+	}
+	regiment = {
+		name = "5. Hanover Kavallrie"
+		type = cuirassier
+		home = 536
+	}
+	regiment = {
+		name = "6. Hanover Kavallrie"
+		type = cuirassier
+		home = 536
+	}
+	regiment = {
+		name = "7. Hanover Kavallrie"
+		type = cuirassier
+		home = 536
+	}
+	regiment = {
+		name = "8. Hanover Kavallrie"
+		type = cuirassier
+		home = 537
+	}
+	regiment = {
+		name = "2. Hanover Ingenieur"
+		type = engineer
+		home = 537
+	}
+	regiment = {
+		name = "3. Hanover Ingenieur"
+		type = engineer
+		home = 537
+	}
+	regiment = {
+		name = "4. Hanover Ingenieur"
+		type = engineer
+		home = 537
+	}
+	regiment = {
+		name = "5. Hanover Ingenieur"
+		type = engineer
+		home = 537
+	}
+}
+army = {
+	name = "XI. Armeekorps"
+	location = 540
+	regiment = {
+		name = "11. Oldenburg Infantrie"
+		type = infantry
+		home = 540
+	}
+	regiment = {
+		name = "12. Oldenburg Infantrie"
+		type = infantry
+		home = 540
+	}
+	regiment = {
+		name = "13. Oldenburg Infantrie"
+		type = infantry
+		home = 540
+	}
+	regiment = {
+		name = "14. Oldenburg Infantrie"
+		type = infantry
+		home = 540
+	}
+	regiment = {
+		name = "15. Oldenburg Infantrie"
+		type = infantry
+		home = 540
+	}
+	regiment = {
+		name = "16. Oldenburg Infantrie"
+		type = infantry
+		home = 537
+	}
+	regiment = {
+		name = "1. Oldenburg Garde"
+		type = guard
+		home = 538
+	}
+	regiment = {
+		name = "2. Oldenburg Garde"
+		type = guard
+		home = 538
+	}
+	regiment = {
+		name = "3. Oldenburg Garde"
+		type = guard
+		home = 538
+	}
+	regiment = {
+		name = "4. Oldenburg Garde"
+		type = guard
+		home = 538
+	}
+	regiment = {
+		name = "5. Oldenburg Garde"
+		type = guard
+		home = 538
+	}
+	regiment = {
+		name = "6. Oldenburg Garde"
+		type = guard
+		home = 543
+	}
+	regiment = {
+		name = "5. Oldenburg Kavallrie"
+		type = cuirassier
+		home = 543
+	}
+	regiment = {
+		name = "6. Oldenburg Kavallrie"
+		type = cuirassier
+		home = 543
+	}
+	regiment = {
+		name = "7. Oldenburg Kavallrie"
+		type = cuirassier
+		home = 574
+	}
+	regiment = {
+		name = "8. Oldenburg Kavallrie"
+		type = cuirassier
+		home = 574
+	}
+	regiment = {
+		name = "1. Oldenburg Artillerie"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name = "2. Oldenburg Artillerie"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name = "3. Oldenburg Artillerie"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name = "4. Oldenburg Artillerie"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name = "5. Oldenburg Artillerie"
+		type = artillery
+		home = 570
+	}
+	regiment = {
+		name = "6. Oldenburg Artillerie"
+		type = artillery
+		home = 570
+	}
+	regiment = {
+		name = "7. Oldenburg Artillerie"
+		type = artillery
+		home = 570
+	}
+	regiment = {
+		name = "8. Oldenburg Artillerie"
+		type = artillery
+		home = 570
+	}
+	regiment = {
+		name = "9. Oldenburg Artillerie"
+		type = artillery
+		home = 570
+	}
+	regiment = {
+		name = "10. Oldenburg Artillerie"
+		type = artillery
+		home = 570
+	}
+	regiment = {
+		name = "1. Oldenburg Ingenieur"
+		type = engineer
+		home = 570
+	}
+	regiment = {
+		name = "2. Oldenburg Ingenieur"
+		type = engineer
+		home = 562
+	}
+	regiment = {
+		name = "3. Oldenburg Ingenieur"
+		type = engineer
+		home = 562
+	}
+	regiment = {
+		name = "4. Oldenburg Ingenieur"
+		type = engineer
+		home = 562
+	}
+	regiment = {
+		name = "5. Oldenburg Ingenieur"
+		type = engineer
+		home = 563
+	}
+}
+army = {
+	name = "XII. Koniglich Sachsisches Armeekorps"
+	location = 558
+	regiment = {
+		name = "1. Dresden Infantrie"
+		type = infantry
+		home = 558
+	}
+	regiment = {
+		name = "2. Dresden Infantrie"
+		type = infantry
+		home = 558
+	}
+	regiment = {
+		name = "3. Dresden Infantrie"
+		type = infantry
+		home = 558
+	}
+	regiment = {
+		name = "4. Dresden Infantrie"
+		type = infantry
+		home = 558
+	}
+	regiment = {
+		name = "5. Dresden Infantrie"
+		type = infantry
+		home = 558
+	}
+	regiment = {
+		name = "6. Dresden Infantrie"
+		type = infantry
+		home = 558
+	}
+	regiment = {
+		name = "7. Dresden Infantrie"
+		type = infantry
+		home = 558
+	}
+	regiment = {
+		name = "8. Dresden Infantrie"
+		type = infantry
+		home = 558
+	}
+	regiment = {
+		name = "9. Dresden Infantrie"
+		type = infantry
+		home = 558
+	}
+	regiment = {
+		name = "1. Dresden Garde"
+		type = guard
+		home = 563
+	}
+	regiment = {
+		name = "2. Dresden Garde"
+		type = guard
+		home = 563
+	}
+	regiment = {
+		name = "3. Dresden Garde"
+		type = guard
+		home = 560
+	}
+	regiment = {
+		name = "1. Dresden Kavallrie"
+		type = cuirassier
+		home = 560
+	}
+	regiment = {
+		name = "2. Dresden Kavallrie"
+		type = cuirassier
+		home = 560
+	}
+	regiment = {
+		name = "3. Dresden Kavallrie"
+		type = cuirassier
+		home = 560
+	}
+	regiment = {
+		name = "1. Dresden Artillerie"
+		type = artillery
+		home = 561
+	}
+	regiment = {
+		name = "2. Dresden Artillerie"
+		type = artillery
+		home = 561
+	}
+	regiment = {
+		name = "3. Dresden Artillerie"
+		type = artillery
+		home = 561
+	}
+	regiment = {
+		name = "4. Dresden Artillerie"
+		type = artillery
+		home = 561
+	}
+	regiment = {
+		name = "1. Dresden Ingenieur"
+		type = engineer
+		home = 561
+	}
+}
+army = {
+	name = "XIII. Koniglich Wurtembergisches Armeekorps"
+	location = 589
+	regiment = {
+		name = "1. Stuttgart Infantrie"
+		type = infantry
+		home = 589
+	}
+	regiment = {
+		name = "2. Stuttgart Infantrie"
+		type = infantry
+		home = 589
+	}
+	regiment = {
+		name = "3. Stuttgart Infantrie"
+		type = infantry
+		home = 589
+	}
+	regiment = {
+		name = "4. Stuttgart Infantrie"
+		type = infantry
+		home = 589
+	}
+	regiment = {
+		name = "5. Stuttgart Infantrie"
+		type = infantry
+		home = 589
+	}
+	regiment = {
+		name = "6. Stuttgart Infantrie"
+		type = infantry
+		home = 589
+	}
+	regiment = {
+		name = "7. Stuttgart Infantrie"
+		type = infantry
+		home = 589
+	}
+	regiment = {
+		name = "8. Stuttgart Infantrie"
+		type = infantry
+		home = 589
+	}
+	regiment = {
+		name = "1. Stuttgart Garde"
+		type = guard
+		home = 589
+	}
+	regiment = {
+		name = "2. Stuttgart Garde"
+		type = guard
+		home = 589
+	}
+	regiment = {
+		name = "3. Stuttgart Garde"
+		type = guard
+		home = 589
+	}
+	regiment = {
+		name = "1. Stuttgart Kavallrie"
+		type = cuirassier
+		home = 589
+	}
+	regiment = {
+		name = "2. Stuttgart Kavallrie"
+		type = cuirassier
+		home = 589
+	}
+	regiment = {
+		name = "3. Stuttgart Kavallrie"
+		type = cuirassier
+		home = 589
+	}
+	regiment = {
+		name = "1. Stuttgart Artillerie"
+		type = artillery
+		home = 561
+	}
+	regiment = {
+		name = "2. Stuttgart Artillerie"
+		type = artillery
+		home = 590
+	}
+	regiment = {
+		name = "3. Stuttgart Artillerie"
+		type = artillery
+		home = 590
+	}
+	regiment = {
+		name = "4. Stuttgart Artillerie"
+		type = artillery
+		home = 590
+	}
+	regiment = {
+		name = "1. Stuttgart Ingenieur"
+		type = engineer
+		home = 590
+	}
+}
+army = {
+	name = "XIV. Armeekorps"
+	location = 586
+	regiment = {
+		name = "1. Karlsruhe Infantrie"
+		type = infantry
+		home = 586
+	}
+	regiment = {
+		name = "2. Karlsruhe Infantrie"
+		type = infantry
+		home = 586
+	}
+	regiment = {
+		name = "3. Karlsruhe Infantrie"
+		type = infantry
+		home = 586
+	}
+	regiment = {
+		name = "4. Karlsruhe Infantrie"
+		type = infantry
+		home = 586
+	}
+	regiment = {
+		name = "5. Karlsruhe Infantrie"
+		type = infantry
+		home = 586
+	}
+	regiment = {
+		name = "6. Karlsruhe Infantrie"
+		type = infantry
+		home = 586
+	}
+	regiment = {
+		name = "7. Karlsruhe Infantrie"
+		type = infantry
+		home = 586
+	}
+	regiment = {
+		name = "8. Karlsruhe Infantrie"
+		type = infantry
+		home = 586
+	}
+	regiment = {
+		name = "1. Karlsruhe Garde"
+		type = guard
+		home = 586
+	}
+	regiment = {
+		name = "2. Karlsruhe Garde"
+		type = guard
+		home = 586
+	}
+	regiment = {
+		name = "3. Karlsruhe Garde"
+		type = guard
+		home = 586
+	}
+	regiment = {
+		name = "1. Karlsruhe Kavallrie"
+		type = cuirassier
+		home = 586
+	}
+	regiment = {
+		name = "2. Karlsruhe Kavallrie"
+		type = cuirassier
+		home = 591
+	}
+	regiment = {
+		name = "3. Karlsruhe Kavallrie"
+		type = cuirassier
+		home = 591
+	}
+	regiment = {
+		name = "1. Karlsruhe Artillerie"
+		type = artillery
+		home = 591
+	}
+	regiment = {
+		name = "2. Karlsruhe Artillerie"
+		type = artillery
+		home = 591
+	}
+	regiment = {
+		name = "3. Karlsruhe Artillerie"
+		type = artillery
+		home = 591
+	}
+	regiment = {
+		name = "4. Karlsruhe Artillerie"
+		type = artillery
+		home = 591
+	}
+	regiment = {
+		name = "1. Karlsruhe Ingenieur"
+		type = engineer
+		home = 591
+	}
+	regiment = {
+		name = "1. Karlsruhe Flugzeug"
+		type = plane
+		home = 591
+	}
+}
+army = {
+	name = "XV. Armeekorps"
+	location = 409
+	regiment = {
+		name = "1. Strasbourg Infantrie"
+		type = infantry
+		home = 571
+	}
+	regiment = {
+		name = "5. Strasbourg Infantrie"
+		type = infantry
+		home = 571
+	}
+	regiment = {
+		name = "6. Strasbourg Infantrie"
+		type = infantry
+		home = 571
+	}
+	regiment = {
+		name = "7. Strasbourg Infantrie"
+		type = infantry
+		home = 571
+	}
+	regiment = {
+		name = "8. Strasbourg Infantrie"
+		type = infantry
+		home = 571
+	}
+	regiment = {
+		name = "9. Strasbourg Infantrie"
+		type = infantry
+		home = 571
+	}
+	regiment = {
+		name = "1. Strasbourg Garde"
+		type = guard
+		home = 571
+	}
+	regiment = {
+		name = "2. Strasbourg Garde"
+		type = guard
+		home = 571
+	}
+	regiment = {
+		name = "3. Strasbourg Garde"
+		type = guard
+		home = 571
+	}
+	regiment = {
+		name = "4. Strasbourg Garde"
+		type = guard
+		home = 569
+	}
+	regiment = {
+		name = "1. Strasbourg Kavallrie"
+		type = cuirassier
+		home = 569
+	}
+	regiment = {
+		name = "2. Strasbourg Kavallrie"
+		type = cuirassier
+		home = 569
+	}
+	regiment = {
+		name = "3. Strasbourg Kavallrie"
+		type = cuirassier
+		home = 569
+	}
+	regiment = {
+		name = "4. Strasbourg Kavallrie"
+		type = cuirassier
+		home = 569
+	}
+	regiment = {
+		name = "5. Strasbourg Kavallrie"
+		type = cuirassier
+		home = 569
+	}
+	regiment = {
+		name = "1. Strasbourg Artillerie"
+		type = artillery
+		home = 2560
+	}
+	regiment = {
+		name = "2. Strasbourg Artillerie"
+		type = artillery
+		home = 2560
+	}
+	regiment = {
+		name = "3. Strasbourg Artillerie"
+		type = artillery
+		home = 2560
+	}
+	regiment = {
+		name = "4. Strasbourg Artillerie"
+		type = artillery
+		home = 2560
+	}
+	regiment = {
+		name = "5. Strasbourg Artillerie"
+		type = artillery
+		home = 2560
+	}
+	regiment = {
+		name = "1. Strasbourg Ingenieur"
+		type = engineer
+		home = 2560
+	}
+	regiment = {
+		name = "2. Strasbourg Ingenieur"
+		type = engineer
+		home = 596
+	}
+	regiment = {
+		name = "1. Strasbourg Panzer"
+		type = tank
+		home = 596
+	}
+	regiment = {
+		name = "2. Strasbourg Panzer"
+		type = tank
+		home = 596
+	}
+	regiment = {
+		name = "1. Strasbourg Flugzeug"
+		type = plane
+		home = 568
+	}
+	regiment = {
+		name = "2. Strasbourg Flugzeug"
+		type = plane
+		home = 568
+	}
+	regiment = {
+		name = "3. Strasbourg Flugzeug"
+		type = plane
+		home = 568
+	}
+}
+army = {
+	name = "XVI. Armeekorps"
+	location = 412
+	regiment = {
+		name = "13. Metz Infantrie"
+		type = infantry
+		home = 568
+	}
+	regiment = {
+		name = "14. Metz Infantrie"
+		type = infantry
+		home = 568
+	}
+	regiment = {
+		name = "15. Metz Infantrie"
+		type = infantry
+		home = 568
+	}
+	regiment = {
+		name = "16. Metz Infantrie"
+		type = infantry
+		home = 597
+	}
+	regiment = {
+		name = "2. Metz Garde"
+		type = guard
+		home = 597
+	}
+	regiment = {
+		name = "3. Metz Garde"
+		type = guard
+		home = 597
+	}
+	regiment = {
+		name = "4. Metz Garde"
+		type = guard
+		home = 597
+	}
+	regiment = {
+		name = "3. Metz Kavallrie"
+		type = cuirassier
+		home = 598
+	}
+	regiment = {
+		name = "4. Metz Kavallrie"
+		type = cuirassier
+		home = 598
+	}
+	regiment = {
+		name = "5. Metz Kavallrie"
+		type = cuirassier
+		home = 598
+	}
+	regiment = {
+		name = "3. Metz Artillerie"
+		type = artillery
+		home = 598
+	}
+	regiment = {
+		name = "4. Metz Artillerie"
+		type = artillery
+		home = 598
+	}
+	regiment = {
+		name = "5. Metz Artillerie"
+		type = artillery
+		home = 598
+	}
+	regiment = {
+		name = "6. Metz Artillerie"
+		type = artillery
+		home = 598
+	}
+	regiment = {
+		name = "1. Metz Ingenieur"
+		type = engineer
+		home = 598
+	}
+	regiment = {
+		name = "1. Metz Panzer"
+		type = tank
+		home = 602
+	}
+	regiment = {
+		name = "2. Metz Panzer"
+		type = tank
+		home = 602
+	}
+	regiment = {
+		name = "3. Metz Panzer"
+		type = tank
+		home = 602
+	}
+	regiment = {
+		name = "4. Metz Panzer"
+		type = tank
+		home = 593
+	}
+	regiment = {
+		name = "1. Metz Flugzeug"
+		type = plane
+		home = 593
+	}
+	regiment = {
+		name = "2. Metz Flugzeug"
+		type = plane
+		home = 593
+	}
+}
+army = {
+	name = "XVII. Armeekorps"
+	location = 410
+	regiment = {
+		name = "1. Colmar Infantrie"
+		type = infantry
+		home = 593
+	}
+	regiment = {
+		name = "2. Colmar Infantrie"
+		type = infantry
+		home = 593
+	}
+	regiment = {
+		name = "3. Colmar Infantrie"
+		type = infantry
+		home = 593
+	}
+	regiment = {
+		name = "4. Colmar Infantrie"
+		type = infantry
+		home = 593
+	}
+	regiment = {
+		name = "5. Colmar Infantrie"
+		type = infantry
+		home = 2561
+	}
+	regiment = {
+		name = "6. Colmar Infantrie"
+		type = infantry
+		home = 2561
+	}
+	regiment = {
+		name = "7. Colmar Infantrie"
+		type = infantry
+		home = 2561
+	}
+	regiment = {
+		name = "1. Colmar Garde"
+		type = guard
+		home = 2561
+	}
+	regiment = {
+		name = "2. Colmar Garde"
+		type = guard
+		home = 2561
+	}
+	regiment = {
+		name = "3. Colmar Garde"
+		type = guard
+		home = 575
+	}
+	regiment = {
+		name = "1. Colmar Kavallrie"
+		type = cuirassier
+		home = 575
+	}
+	regiment = {
+		name = "2. Colmar Kavallrie"
+		type = cuirassier
+		home = 575
+	}
+	regiment = {
+		name = "1. Colmar Artillerie"
+		type = artillery
+		home = 575
+	}
+	regiment = {
+		name = "2. Colmar Artillerie"
+		type = artillery
+		home = 575
+	}
+	regiment = {
+		name = "3. Colmar Artillerie"
+		type = artillery
+		home = 575
+	}
+	regiment = {
+		name = "1. Colmar Ingenieur"
+		type = engineer
+		home = 575
+	}
+	regiment = {
+		name = "1. Colmar Panzer"
+		type = tank
+		home = 581
+	}
+	regiment = {
+		name = "2. Colmar Panzer"
+		type = tank
+		home = 581
+	}
+}
+army = {
+	name = "XVIII. Armeekorps"
+	location = 564
+	regiment = {
+		name = "1. Franfurt Infantrie"
+		type = infantry
+		home = 564
+	}
+	regiment = {
+		name = "2. Franfurt Infantrie"
+		type = infantry
+		home = 564
+	}
+	regiment = {
+		name = "3. Franfurt Infantrie"
+		type = infantry
+		home = 581
+	}
+	regiment = {
+		name = "4. Franfurt Infantrie"
+		type = infantry
+		home = 581
+	}
+	regiment = {
+		name = "5. Franfurt Infantrie"
+		type = infantry
+		home = 581
+	}
+	regiment = {
+		name = "6. Franfurt Infantrie"
+		type = infantry
+		home = 581
+	}
+	regiment = {
+		name = "7. Franfurt Infantrie"
+		type = infantry
+		home = 565
+	}
+	regiment = {
+		name = "8. Franfurt Infantrie"
+		type = infantry
+		home = 565
+	}
+	regiment = {
+		name = "9. Franfurt Infantrie"
+		type = infantry
+		home = 565
+	}
+	regiment = {
+		name = "1. Frankfurt Garde"
+		type = guard
+		home = 565
+	}
+	regiment = {
+		name = "2. Frankfurt Garde"
+		type = guard
+		home = 565
+	}
+	regiment = {
+		name = "3. Frankfurt Garde"
+		type = guard
+		home = 565
+	}
+	regiment = {
+		name = "1. Frankfurt Kavallrie"
+		type = cuirassier
+		home = 567
+	}
+	regiment = {
+		name = "2. Frankfurt Kavallrie"
+		type = cuirassier
+		home = 567
+	}
+	regiment = {
+		name = "3. Frankfurt Kavallrie"
+		type = cuirassier
+		home = 567
+	}
+	regiment = {
+		name = "4. Frankfurt Kavallrie"
+		type = cuirassier
+		home = 598
+	}
+	regiment = {
+		name = "1. Frankfurt Artillerie"
+		type = artillery
+		home = 587
+	}
+	regiment = {
+		name = "2. Frankfurt Artillerie"
+		type = artillery
+		home = 587
+	}
+	regiment = {
+		name = "3. Frankfurt Artillerie"
+		type = artillery
+		home = 587
+	}
+	regiment = {
+		name = "4. Frankfurt Artillerie"
+		type = artillery
+		home = 587
+	}
+	regiment = {
+		name = "5. Frankfurt Artillerie"
+		type = artillery
+		home = 587
+	}
+	regiment = {
+		name = "6. Frankfurt Artillerie"
+		type = artillery
+		home = 587
+	}
+}
+army = {
+	name = "XIX. 2 Koniglich Sachsisches Armeekorps"
+	location = 559
+	regiment = {
+		name = "1. Leipzig Infantrie"
+		type = infantry
+		home = 559
+	}
+	regiment = {
+		name = "2. Leipzig Infantrie"
+		type = infantry
+		home = 559
+	}
+	regiment = {
+		name = "3. Leipzig Infantrie"
+		type = infantry
+		home = 559
+	}
+	regiment = {
+		name = "4. Leipzig Infantrie"
+		type = infantry
+		home = 559
+	}
+	regiment = {
+		name = "5. Leipzig Infantrie"
+		type = infantry
+		home = 559
+	}
+	regiment = {
+		name = "6. Leipzig Infantrie"
+		type = infantry
+		home = 559
+	}
+	regiment = {
+		name = "1. Leipzig Garde"
+		type = guard
+		home = 588
+	}
+	regiment = {
+		name = "2. Leipzig Garde"
+		type = guard
+		home = 588
+	}
+	regiment = {
+		name = "3. Leipzig Garde"
+		type = guard
+		home = 588
+	}
+	regiment = {
+		name = "1. Leipzig Kavallrie"
+		type = cuirassier
+		home = 588
+	}
+	regiment = {
+		name = "1. Leipzig Artillerie"
+		type = artillery
+		home = 573
+	}
+	regiment = {
+		name = "2. Leipzig Artillerie"
+		type = artillery
+		home = 573
+	}
+}
+army = {
+	name = "XX. Armeekorps"
+	location = 696
+	regiment = {
+		name = "1. Allenstein Infantrie"
+		type = infantry
+		home = 696
+	}
+	regiment = {
+		name = "1. Allenstein Infantrie"
+		type = infantry
+		home = 696
+	}
+	regiment = {
+		name = "2. Allenstein Infantrie"
+		type = infantry
+		home = 696
+	}
+	regiment = {
+		name = "3. Allenstein Infantrie"
+		type = infantry
+		home = 573
+	}
+	regiment = {
+		name = "4. Allenstein Infantrie"
+		type = infantry
+		home = 573
+	}
+	regiment = {
+		name = "5. Allenstein Infantrie"
+		type = infantry
+		home = 573
+	}
+	regiment = {
+		name = "6. Allenstein Infantrie"
+		type = infantry
+		home = 573
+	}
+	regiment = {
+		name = "1. Allenstein Garde"
+		type = guard
+		home = 594
+	}
+	regiment = {
+		name = "4. Allenstein Garde"
+		type = guard
+		home = 594
+	}
+	regiment = {
+		name = "1. Allenstein Kavallrie"
+		type = cuirassier
+		home = 697
+	}
+	regiment = {
+		name = "2. Allenstein Kavallrie"
+		type = cuirassier
+		home = 532
+	}
+	regiment = {
+		name = "1. Allenstein Artillerie"
+		type = artillery
+		home = 696
+	}
+	regiment = {
+		name = "1. Allenstein Ingenieur"
+		type = engineer
+		home = 696
+	}
+}
+
+army = {
+	name = "Колониальная армия"
+	location = 1956
+	regiment = {
+		name = "1-й колониальный отряд"
+		type = infantry
+		home = 1956
+	}
+	regiment = {
+		name = "2-й колониальный отряд"
+		type = infantry
+		home = 1960
+	}
+	regiment = {
+		name = "3-й колониальный отряд"
+		type = infantry
+		home = 1961
+	}
+	regiment = {
+		name = "4-й колониальный отряд"
+		type = infantry
+		home = 2034
+	}
+	regiment = {
+		name = "5-й колониальный отряд"
+		type = infantry
+		home = 573
+	}
+}
+
+navy = {
+	name = "K & K Kriegsflotte"
+	location = 369
+	ship = {
+		name= "SMS Ferdinand Max"
+		type = ironclad
+	}
+
+	ship = {
+		name= "SMS Schwarzenberg"
+		type = ironclad
+	}
+
+	ship = {
+		name= "SMS Aurora"
+		type = cruiser
+	}
+
+	ship = {
+		name= "SMS Donau"
+		type = cruiser
+	}
+
+	ship = {
+		name= "SMS Bellona"
+		type = cruiser
+	}
+
+	ship = {
+		name= "SMS Novara"
+		type = monitor
+	}
+
+	ship = {
+		name= "SMS Radetsky"
+		type = monitor
+	}
+
+	ship = {
+		name= "SMS Kaiser"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "SMS Helgoland"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "SMS Frundsberg"
+		type = commerce_raider
+	}
+
+}
+navy = {
+	name = "K & K Kriegsflotte"
+	location = 680
+	ship = {
+		name= "SMS Ferdinand Max"
+		type = dreadnought
+	}
+
+	ship = {
+		name= "SMS Schwarzenberg"
+		type = dreadnought
+	}
+
+	ship = {
+		name= "SMS Aurora"
+		type = ironclad
+	}
+
+	ship = {
+		name= "SMS Donau"
+		type = ironclad
+	}
+
+	ship = {
+		name= "SMS Bellona"
+		type = cruiser
+	}
+
+	ship = {
+		name= "SMS Novara"
+		type = monitor
+	}
+
+	ship = {
+		name= "SMS Radetsky"
+		type = monitor
+	}
+
+	ship = {
+		name= "SMS Kaiser"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "SMS Helgoland"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "SMS Frundsberg"
+		type = commerce_raider
+	}
+
+}
+navy = {
+	name = "K & K Kriegsflotte"
+	location = 680
+	ship = {
+		name= "SMS Ferdinand Max"
+		type = dreadnought
+	}
+
+	ship = {
+		name= "SMS Schwarzenberg"
+		type = dreadnought
+	}
+
+	ship = {
+		name= "SMS Aurora"
+		type = dreadnought
+	}
+
+	ship = {
+		name= "SMS Donau"
+		type = dreadnought
+	}
+
+	ship = {
+		name= "SMS Bellona"
+		type = dreadnought
+	}
+}
+navy = {
+	name = "2nd Transport Squadron"
+	location = 548
+	ship = {
+		name = "1.1 Transport Squadron"
+		type = steam_transport
+	}
+	ship = {
+		name = "1.2 Transport Squadron"
+		type = steam_transport
+	}
+	ship = {
+		name = "1.3 Transport Squadron"
+		type = steam_transport
+	}
+	ship = {
+		name = "1.4 Transport Squadron"
+		type = steam_transport
+	}
+	ship = {
+		name = "2.1 Transport Squadron"
+		type = steam_transport
+	}
+	ship = {
+		name = "2.3 Transport Squadron"
+		type = steam_transport
+	}
+	ship = {
+		name = "2.2 Transport Squadron"
+		type = steam_transport
+	}
+	ship = {
+		name = "2.4 Transport Squadron"
+		type = steam_transport
+	}
+}
+navy = {
+	name = "2nd Transport Squadron"
+	location = 1956
+	ship = {
+		name = "1.1 Transport Squadron"
+		type = steam_transport
+	}
+	ship = {
+		name = "1.2 Transport Squadron"
+		type = steam_transport
+	}
+	ship = {
+		name = "1.3 Transport Squadron"
+		type = steam_transport
+	}
+}
+navy = {
+	name = "2nd Transport Squadron"
+	location = 2036
+	ship = {
+		name = "1.1 Transport Squadron"
+		type = steam_transport
+	}
+	ship = {
+		name = "1.2 Transport Squadron"
+		type = steam_transport
+	}
+	ship = {
+		name = "1.3 Transport Squadron"
+		type = steam_transport
+	}
+}
+navy = {
+	name = "2nd Transport Squadron"
+	location = 2531
+	ship = {
+		name = "1.1 Transport Squadron"
+		type = steam_transport
+	}
+	ship = {
+		name = "1.2 Transport Squadron"
+		type = steam_transport
+	}
+	ship = {
+		name = "1.3 Transport Squadron"
+		type = steam_transport
+	}
+}

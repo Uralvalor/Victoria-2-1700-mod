@@ -1,0 +1,42 @@
+owner = SPA
+controller = SPA
+add_core = SPA
+trade_goods = iron
+life_rating = 35
+terrain = deciduous_forest_mountains
+1861.1.1 = { 
+	state_building = {
+		level = 1
+		building = steamer_shipyard
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = steel_factory
+		upgrade = yes
+	}
+}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	railroad = 4
+	state_building = {
+		level = 3
+		building = luxury_furniture_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = machine_parts_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = fabric_factory
+		upgrade = yes
+	}
+}

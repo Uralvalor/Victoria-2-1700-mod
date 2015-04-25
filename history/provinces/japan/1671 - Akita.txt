@@ -1,0 +1,13 @@
+owner = YZW
+controller = YZW
+add_core = YZW
+trade_goods = iron
+life_rating = 35
+terrain = conifer_forest_hills
+1914.1.1 = {
+	railroad = 3
+	remove_core = YZW
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}

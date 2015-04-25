@@ -1,0 +1,16 @@
+army = {
+	name = "Пуэрториканская армия"
+	location = 2222
+	regiment = {
+		name= "1-я пехотная дивизия"
+		type = infantry
+		home = 2222
+	}
+
+	regiment = {
+		name= "2-я пехотная дивизия"
+		type = infantry
+		home = 2222
+	}
+}
+

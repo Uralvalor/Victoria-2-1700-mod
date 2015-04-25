@@ -1,0 +1,14 @@
+owner = PER
+controller = PER
+add_core = KAL
+add_core = HND
+trade_goods = wool
+life_rating = 27
+terrain = mountain_grassland
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	add_core = PAK
+	remove_core = HND
+	colonial = 3
+}

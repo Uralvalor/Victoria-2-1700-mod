@@ -1,0 +1,10 @@
+
+army = {
+	name = "Army of Genoa"
+	location = 724
+	regiment = {
+		name= "1st Line Infantry"
+		type = infantry
+		home = 724
+	}	            
+}

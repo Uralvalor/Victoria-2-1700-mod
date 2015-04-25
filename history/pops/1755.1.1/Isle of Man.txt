@@ -1,0 +1,51 @@
+#Isle Of Man Region - 46000
+#Douglas (46000/11500 POPS)
+304 = {
+	aristocrats = {
+		culture = english
+		religion = protestant
+		size = 100
+	}
+
+	bureaucrats = {
+		culture = english
+		religion = protestant
+		size = 25
+	}
+
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 125
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 1250
+	}
+        artisans = {
+		culture = english
+		religion = protestant
+		size = 2000
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 100
+	}
+
+	labourers = {
+		culture = english
+		religion = protestant
+		size = 7600
+	}
+
+	labourers = {
+		culture = irish
+		religion = catholic
+		size = 300
+	}
+
+}

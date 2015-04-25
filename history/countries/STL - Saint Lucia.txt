@@ -1,0 +1,46 @@
+capital = 2231
+primary_culture = afro_caribbean
+culture = english
+religion = protestant
+government = democracy
+plurality = 0.5
+nationalvalue = nv_liberty
+literacy = 0.27
+civilized = yes
+
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = landed_voting
+public_meetings = yes_meeting
+press_rights = state_press
+trade_unions = non_socialist
+voting_system = first_past_the_post
+political_parties = underground_parties
+immigration_policy = open_immigration
+conscription = mandatory_service
+minorities = oppression
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+pollution = no_controls
+child_labor = child_labor_legal
+education = elite
+arts_endowment = no_endowment
+
+ruling_party = STL_conservative
+upper_house = {
+	fascist = 0
+	liberal = 26
+	conservative = 48
+	reactionary = 10
+	anarcho_liberal = 6
+	socialist = 10
+	communist = 0
+}

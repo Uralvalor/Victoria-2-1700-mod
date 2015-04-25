@@ -1,0 +1,29 @@
+owner = WUR
+controller = WUR
+add_core = WUR
+add_core = GER
+trade_goods = fruit
+life_rating = 35
+terrain = hilly_farmland
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	owner = GER
+	controller = GER
+	railroad = 5
+	fort = 2
+	state_building = {
+		level = 15
+		building = liquor_distillery
+		upgrade = yes
+	}
+	state_building = {
+		level = 15
+		building = automobile_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = furniture_factory
+		upgrade = yes
+	}
+}

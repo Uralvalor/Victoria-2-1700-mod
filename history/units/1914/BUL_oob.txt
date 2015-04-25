@@ -1,0 +1,204 @@
+#Sphere of Influence
+PER = {
+	value = 75
+}
+GRE = {
+	value = -25
+}
+SER = {
+	value = -200
+}
+TUR = {
+	value = 200
+}
+RUS = {
+	value = -200
+}
+FRA = {
+	value = -200
+}
+ENG = {
+	value = -200
+}
+GER = {
+	value = 200
+}
+KUK = {
+	value = 200
+}
+
+leader = {
+	name = "Владимир Вазов"
+	type = land
+	date="1914.1.1"
+	personality = bold
+	background = school_of_the_bayonet
+	picture="personal_vladimir_vazov"
+}
+
+leader = {
+	name = "Никола Жеков"
+	type = land
+	date="1914.1.1"
+	personality = cautious
+	background = toady
+	picture="personal_nikola_zhekov"
+}
+
+leader = {
+	name = "Климент Бояджиев"
+	type = land
+	date="1914.1.1"
+	personality = efficient
+	background = school_of_firepower
+	picture="personal_kliment_boyadzhiev"
+}
+
+leader = {
+	name = "Стефан Тошев"
+	type = land
+	date="1914.1.1"
+	personality = brash
+	background = hated
+	picture="personal_stefan_toshev"
+}
+
+leader = {
+	name = "Стефан Стоянов-Тодоров"
+	type = land
+	date="1914.1.1"
+	personality = heroic
+	background = spoiled
+	picture="personal_georgi_todorov"
+}
+
+army = {
+	name = "Армия Болгарии"
+	location = 809
+	regiment = {
+		name= "1-я пех. дивизия"
+		type = infantry
+		home = 809
+	}
+
+	regiment = {
+		name= "2-я пех. дивизия"
+		type = infantry
+		home = 809
+	}
+
+	regiment = {
+		name= "3-я пех. дивизия"
+		type = infantry
+		home = 809
+	}
+
+	regiment = {
+		name= "4-я пех. дивизия"
+		type = infantry
+		home = 810
+	}
+
+	regiment = {
+		name= "5-я пех. дивизия"
+		type = infantry
+		home = 810
+	}
+
+	regiment = {
+		name= "6-я пех. дивизия"
+		type = infantry
+		home = 811
+	}
+
+	regiment = {
+		name= "7-я пех. дивизия"
+		type = infantry
+		home = 811
+	}
+
+	regiment = {
+		name= "8-я пех. дивизия"
+		type = infantry
+		home = 812
+	}
+
+	regiment = {
+		name= "9-я пех. дивизия"
+		type = infantry
+		home = 812
+	}
+
+	regiment = {
+		name= "10-я пех. дивизия"
+		type = infantry
+		home = 813
+	}
+
+	regiment = {
+		name= "11-я пех. дивизия"
+		type = artillery
+		home = 813
+	}
+
+	regiment = {
+		name= "12-я пех. дивизия"
+		type = artillery
+		home = 814
+	}
+
+	regiment = {
+		name= "13-я пех. дивизия"
+		type = artillery
+		home = 814
+	}
+
+	regiment = {
+		name= "14-я пех. дивизия"
+		type = artillery
+		home = 815
+	}
+
+	regiment = {
+		name= "15-я пех. дивизия"
+		type = hussar
+		home = 816
+	}
+
+	regiment = {
+		name= "16-я пех. дивизия"
+		type = hussar
+		home = 816
+	}
+
+	regiment = {
+		name= "17-я пех. дивизия"
+		type = hussar
+		home = 817
+	}
+
+	regiment = {
+		name= "18-я пех. дивизия"
+		type = hussar
+		home = 817
+	}
+
+
+}
+
+navy = {
+	name = "Болгарский флот"
+	location = 829
+	ship = {
+		name = "Янтра"
+		type = cruiser
+	}
+	ship = {
+		name = "Булгария"
+		type = cruiser
+	}
+	ship = {
+		name = "Искар"
+		type = cruiser
+	}
+}

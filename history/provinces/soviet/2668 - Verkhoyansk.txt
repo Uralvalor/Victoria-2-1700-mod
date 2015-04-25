@@ -1,0 +1,10 @@
+
+add_core = SIB
+trade_goods = grain
+life_rating = 25
+terrain = boreal_forest_mountains
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

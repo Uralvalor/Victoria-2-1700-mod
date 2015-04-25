@@ -1,0 +1,31 @@
+owner = SPA
+controller = SPA
+add_core = CHL
+colonial = 2
+#add_core = PEU
+trade_goods = wool
+life_rating = 35
+terrain = desert_hills
+1836.1.1 = {
+	owner = PBC
+	controller = PBC
+	add_core = PBC
+	add_core = BOL
+	remove_core = PEU
+	remove_core = SPA
+}
+1861.1.1 = {
+	owner = BOL
+	controller = BOL
+	remove_core = PBC
+}
+1914.1.1 = {
+	owner = SPA
+	controller = SPA
+	remove_core = BOL
+	state_building = {
+		level = 3
+		building = regular_clothes_factory
+		upgrade = yes
+	}
+}

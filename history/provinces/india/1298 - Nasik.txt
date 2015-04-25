@@ -1,0 +1,14 @@
+owner = MAR
+controller = MAR
+add_core = MAR
+add_core = MAH
+add_core = HND
+trade_goods = grain
+life_rating = 35
+terrain = dry_grassland
+1836.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 2
+}
+1861.1.1 = { railroad = 2 }

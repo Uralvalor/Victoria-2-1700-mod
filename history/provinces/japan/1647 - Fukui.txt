@@ -1,0 +1,15 @@
+owner = KAG
+controller = KAG
+add_core = KAG
+add_core = TKG
+trade_goods = fish
+life_rating = 35
+terrain = hilly_farmland
+1914.1.1 = {
+	railroad = 3
+	remove_core = KAG
+	remove_core = TKG
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}

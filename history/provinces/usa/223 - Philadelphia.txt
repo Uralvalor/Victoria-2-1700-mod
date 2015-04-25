@@ -1,0 +1,81 @@
+owner = ENL
+controller = ENL
+colonial = 2  
+
+add_core = XPA
+trade_goods = iron
+life_rating = 35
+terrain = good_farmland
+party_loyalty = {
+	ideology = liberal
+	loyalty_value = 20
+}
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
+1750.1.1 = {
+	owner = ENG
+	controller = ENG
+}
+1861.1.1 = {
+	party_loyalty = {
+	ideology = liberal
+	loyalty_value = 25
+	}
+	state_building = {
+		level = 1
+		building = ammunition_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = small_arms_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = steel_factory
+		upgrade = yes
+	}
+}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	railroad = 5
+	state_building = {
+		level = 2
+		building = ammunition_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = small_arms_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 25
+		building = telephone_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 25
+		building = electric_gear_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 20
+		building = luxury_clothes_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 20
+		building = paper_mill
+		upgrade = yes
+	}
+}

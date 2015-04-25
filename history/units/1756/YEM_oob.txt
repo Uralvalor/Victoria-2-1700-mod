@@ -1,0 +1,48 @@
+army = {
+	name = "Армия Заиди"
+	location = 1178
+	regiment = {
+		name= "1-я хашидская бригада"
+		type = irregular
+		home = 1178
+	}
+
+	regiment = {
+		name= "2-я хашидская бригада"
+		type = irregular
+		home = 1179
+	}
+
+	regiment = {
+		name= "1-я бакильская бригада"
+		type = irregular
+		home = 1178
+	}
+
+	regiment = {
+		name= "2-я бакильская бригада"
+		type = irregular
+		home = 1180
+	}
+}
+
+army = {
+	name = "Армия шейхов Адена"
+	location = 1412
+	regiment = {
+		name= "1-я абдалийская бригада"
+		type = irregular
+		home = 1412
+	}
+}
+
+army = {
+	name = "Армия шейхов Мукаллы"
+	location = 1173
+	
+	regiment = {
+		name= "2-я абдалийская бригада"
+		type = irregular
+		home = 1173
+	}
+}

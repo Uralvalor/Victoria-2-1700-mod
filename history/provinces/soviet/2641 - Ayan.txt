@@ -1,0 +1,16 @@
+owner = RUS
+controller = RUS
+colonial = 2
+add_core = SIB
+trade_goods = grain
+life_rating = 27
+terrain = boreal_forest_hills
+1750.1.1 = {
+        add_core = RUS
+colonial = no
+}
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

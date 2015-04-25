@@ -1,0 +1,12 @@
+owner = CLN
+controller = CLN
+add_core = CLN
+add_core = GER
+trade_goods = cattle
+life_rating = 35
+terrain = deciduous_forest_hills
+1914.1.1 = {
+	owner = GER
+	controller = GER
+	railroad = 5
+}

@@ -1,0 +1,10 @@
+owner = MCK
+controller = MCK  add_core = CHI  colonial = 2
+add_core = GNG
+trade_goods = timber
+life_rating = 35
+terrain = seasonal_jungle_hills
+1923.1.1 = {
+	owner = GNG
+	controller = GNG
+}

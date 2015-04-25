@@ -1,0 +1,421 @@
+army = {
+
+	name = "Королевская армия"
+
+	location = 521
+
+	regiment = {
+
+		name= "1-я артиллерийская бригада"
+
+		type = artillery
+
+		home = 521
+
+	}
+
+
+
+	regiment = {
+
+		name= "1-я пехотная бригада"
+
+		type = artillery
+		home = 524
+
+	}
+
+
+
+	regiment = {
+
+		name= "2-я пехотная бригада"
+
+		type = cavalry
+		home = 518
+
+	}
+
+
+
+	regiment = {
+
+		name= "3-я пехотная бригада"
+
+		type = infantry
+
+		home = 520
+
+	}
+
+
+
+	regiment = {
+
+		name= "4-я пехотная бригада"
+
+		type = infantry
+
+		home = 522
+
+	}
+
+
+
+	regiment = {
+
+		name= "5-я пехотная бригада"
+
+		type = infantry
+
+		home = 519
+
+	}
+
+}
+
+
+
+army = {
+
+	name = "Северная армия"
+
+	location = 518
+	regiment = {
+
+		name= "1-я артиллерийская бригада"
+
+		type = artillery
+
+		home = 518
+	}
+
+
+
+	regiment = {
+
+		name= "1-я пехотная бригада"
+
+		type = artillery
+
+		home = 519
+	}
+
+
+
+	regiment = {
+
+		name= "2-я пехотная бригада"
+
+		type = infantry
+
+		home = 520
+
+	}
+
+
+
+	regiment = {
+
+		name= "3-я пехотная бригада"
+
+		type = infantry
+
+		home = 522
+	}
+
+
+}
+
+
+
+army = {
+
+	name = "Южная армия"
+
+	location = 527
+	regiment = {
+
+		name= "1-я артиллерийская бригада"
+
+		type = artillery
+
+		home = 525
+	}
+
+
+
+	regiment = {
+
+		name= "1-я пехотная бригада"
+
+		type = artillery
+
+		home = 526
+	}
+
+
+
+	regiment = {
+
+		name= "2-я пехотная бригада"
+
+		type = infantry
+
+		home = 526
+	}
+
+
+
+	regiment = {
+
+		name= "3-я пехотная бригада"
+
+		type = infantry
+
+		home = 527
+	}
+
+
+
+	regiment = {
+
+		name= "4-я пехотная бригада"
+
+		type = infantry
+
+		home = 527
+	}
+
+
+}
+
+
+army = {
+	name = "Гарнизон Бразилии"
+	location = 2447
+	regiment = {
+		name= "1-я колониальная бригада"
+		type = infantry
+		home = 521
+	}
+
+	regiment = {
+		name= "2-я колониальная бригада"
+		type = infantry
+		home = 2447
+	}
+
+	regiment = {
+		name= "3-я колониальная бригада"
+		type = infantry
+		home = 2450
+	}
+
+	regiment = {
+		name= "4-я колониальная бригада"
+		type = infantry
+		home = 2436
+	}
+
+	regiment = {
+		name= "5-я колониальная бригада"
+		type = infantry
+		home = 2429
+	}
+
+	regiment = {
+		name= "6-я колониальная бригада"
+		type = infantry
+		home = 2434
+	}
+}
+
+army = {
+	name = "Гарнизон Анголы"
+	location = 1999
+	regiment = {
+		name = "7-я колониальная бригада"
+		type = infantry
+		home = 525
+	}
+	regiment = {
+		name = "8-я колониальная бригада"
+		type = infantry
+		home = 1303
+	}
+}
+
+army = {
+	name = "Гарнизон Мозамбика"
+	location = 2057
+	regiment = {
+		name = "9-я колониальная бригада"
+		type = infantry
+		home = 2134
+	}
+	regiment = {
+		name = "10-я колониальная бригада"
+		type = infantry
+		home = 2463
+	}
+}
+
+navy = {
+	name = "Королевская эскадра"
+	location = 521
+	ship = {
+		name= "Райна де Португал"
+		type = manowar
+	}
+
+	ship = {
+		name= "Жуан VI"
+		type = manowar
+	}
+
+	ship = {
+		name= "Носса Сеньора де Консейсао"
+		type = manowar
+	}
+
+	ship = {
+		name= "Сан-Себастьян"
+		type = manowar
+	}
+
+	ship = {
+		name= "Амазония"
+		type = manowar
+	}
+
+	ship = {
+		name= "Принсеса Карлота"
+		type = manowar
+	}
+
+	ship = {
+		name= "Медуза"
+		type = manowar
+	}
+
+	ship = {
+		name= "Принсипе до Бразил"
+		type = manowar
+	}
+
+	ship = {
+		name= "Перола"
+		type = manowar
+	}
+
+	ship = {
+		name= "Принсипе Реал"
+		type = manowar
+	}
+	ship = {
+		name= "Феникс"
+		type = frigate 
+	}
+
+	ship = {
+		name= "Тетис"
+		type = frigate 
+	}
+
+	ship = {
+		name= "Веню"
+		type = frigate 
+	}
+
+	ship = {
+		name= "Миневра"
+		type = frigate 
+	}
+
+	ship = {
+		name= "Сисне"
+		type = frigate 
+	}
+
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "Атлантическая эскадра"
+	location = 2447
+	ship = {
+		name= "Мария Примейра"
+		type = manowar
+	}
+
+	ship = {
+		name= "Инфанте Дом Педро"
+		type = manowar
+	}
+
+	ship = {
+		name= "Гольфиньо"
+		type = manowar
+	}
+
+	ship = {
+		name= "Спортинг"
+		type = manowar
+	}
+	
+        ship = {
+		name= "Дом Фернандо II"
+		type = frigate 
+	}
+
+	ship = {
+		name= "Серпенте"
+		type = frigate 
+	}
+
+	ship = {
+		name= "Порту"
+		type = frigate 
+	}
+
+	ship = {
+		name= "Улиссес"
+		type = frigate 
+	}
+
+	ship = {
+		name= "Атива"
+		type = frigate 
+	}
+
+	ship = {
+		name= "4-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "5-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "6-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}

@@ -1,0 +1,348 @@
+leader = {
+	name = "Charles XII"
+	date = 1672.1.1
+	type = land
+	personality = clever
+	background = aristocrat
+}
+
+leader = {
+	name = "Count Rehnskiöld"
+	date = 1661.1.1
+	type = land
+	personality = efficient
+	background = aristocrat
+}
+
+leader = {
+	name = "Count Stenbock"
+	date = 1661.1.1
+	type = land
+	personality = competent
+	background = aristocrat
+}
+
+leader = {
+	name = "Adam Ludwig Lewenhaupt"
+	date = 1661.1.1
+	type = land
+	personality = resourceful
+	background = diplomat
+}
+
+CSK = {
+	value = 50
+	level = 2
+	influence_value = 80
+}
+
+TUR = {
+
+	value = 125
+	level = 3
+	influence_value = 100
+
+}
+
+
+
+army = {
+	name = "1st Army"
+	location = 334
+	regiment = {
+		name= "1st artillery"
+		type = artillery
+		home = 322
+	}
+	regiment = {
+		name= "2nd artillery"
+		type = artillery
+		home = 317
+	}
+	regiment = {
+		name= "6th Fusiliers"
+		type = hussar
+		home = 322
+	}
+	regiment = {
+		name= "7th Fusiliers"
+		type = hussar
+		home = 317
+	}
+	regiment = {
+		name= "1st Line"
+		type = infantry
+		home = 322
+	}
+}
+
+army = {
+	name = "2nd Army"
+	location = 706
+	regiment = {
+		name= "12th artillery"
+		type = artillery
+		home = 322
+	}
+	regiment = {
+		name= "4th Fusiliers"
+		type = engineer
+		home = 322
+	}
+	regiment = {
+		name= "5th Fusiliers"
+		type = hussar
+		home = 322
+	}
+	regiment = {
+		name= "21st Line"
+		type = hussar
+		home = 324
+	}
+	regiment = {
+		name= "22nd Line"
+		type = infantry
+		home = 324
+	}
+	regiment = {
+		name= "23rd Line"
+		type = infantry
+		home = 324
+	}
+	regiment = {
+		name= "24th Line"
+		type = infantry
+		home = 324
+	}
+	regiment = {
+		name= "25th Line"
+		type = infantry
+		home = 324
+	}
+	regiment = {
+		name= "26th Line"
+		type = infantry
+		home = 324
+	}
+	regiment = {
+		name= "27th Line"
+		type = infantry
+		home = 324
+	}
+	regiment = {
+		name= "28th Line"
+		type = infantry
+		home = 324
+	}
+	regiment = {
+		name= "29th Line"
+		type = infantry
+		home = 324
+	}
+	regiment = {
+		name= "30th Line"
+		type = infantry
+		home = 324
+	}
+}
+
+army = {
+	name = "3rd Army"
+	location = 994
+	regiment = {
+		name= "15th artillery"
+		type = artillery
+		home = 322
+	}
+	regiment = {
+		name= "53rd Line"
+		type = infantry
+		home = 322
+	}
+	regiment = {
+		name= "54th Line"
+		type = infantry
+		home = 322
+	}
+	regiment = {
+		name= "55th Line"
+		type = infantry
+		home = 322
+	}
+	regiment = {
+		name= "60th Line"
+		type = hussar
+		home = 322
+	}	            
+}
+
+army = {
+	name = "4th Army"
+	location = 354
+	regiment = {
+		name= "19th artillery"
+		type = artillery
+		home = 322
+	}
+	regiment = {
+		name= "73rd Line"
+		type = infantry
+		home = 322
+	}
+	regiment = {
+		name= "74th Line"
+		type = infantry
+		home = 322
+	}
+	regiment = {
+		name= "75th Line"
+		type = infantry
+		home = 322
+	}
+	regiment = {
+		name= "76th Line"
+		type = infantry
+		home = 322
+	}
+	regiment = {
+		name= "80th Line"
+		type = hussar
+		home = 322
+	}	            	            
+}
+
+navy = {
+	name = "Swedish Fleet"
+	location = 335
+	ship = {
+		name= "Gotha Lejon"
+		type = manowar
+	}
+
+	ship = {
+		name= "Enigheten"
+		type = manowar
+	}
+
+	ship = {
+		name= "Tre Kroner"
+		type = manowar
+	}
+
+	ship = {
+		name= "Wenden"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sverige"
+		type = frigate
+	}
+
+	ship = {
+		name= "Princessa Hedvig"
+		type = frigate
+	}
+
+	ship = {
+		name= "Princessa Hedvig"
+		type = frigate
+	}
+
+	ship = {
+		name= "Princessa Ulrika"
+		type = frigate
+	}
+
+	ship = {
+		name= "Gota"
+		type = frigate
+	}
+
+	ship = {
+		name= "Nordstjernan"
+		type = frigate
+	}
+
+	ship = {
+		name= "Prins Carl"
+		type = frigate
+	}
+
+	ship = {
+		name= "Prins Carl Frederick"
+		type = frigate
+	}
+
+	ship = {
+		name= "Smaland"
+		type = frigate
+	}
+
+	ship = {
+		name= "Karlskrona"
+		type = frigate
+	}
+
+	ship = {
+		name= "Skane"
+		type = frigate
+	}
+
+	ship = {
+		name= "Bremen"
+		type = frigate
+	}
+}
+
+navy = {
+	name = "Swedish Merchant Navy"
+	location = 322
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "4th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "5th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "6th Transport Flotilla"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "7th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "8th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "9th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "10th Transport Flotilla"
+		type = clipper_transport
+	}
+
+}

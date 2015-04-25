@@ -1,0 +1,19 @@
+owner = SPA
+controller = SPA
+add_core = BEL
+add_core = NET
+add_core = FLA
+trade_goods = grain
+life_rating = 35
+naval_base = 1
+terrain = marginal_farmland
+1750.1.1 = {
+	owner = AUS
+	controller = AUS
+}
+1836.1.1 = {
+	naval_base = 2
+	owner = BEL
+	controller = BEL
+}
+1861.1.1 = { railroad = 3 }

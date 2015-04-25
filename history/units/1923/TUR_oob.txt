@@ -1,0 +1,435 @@
+#Sphere of Influence
+PER = {
+	value = 75
+}
+GRE = {
+	value = -25
+}
+SER = {
+	value = -200
+}
+BUL = {
+	value = 200
+}
+RUS = {
+	value = -200
+}
+FRA = {
+	value = -200
+}
+ENG = {
+	value = -200
+}
+GER = {
+	value = 200
+}
+KUK = {
+	value = 200
+}
+
+leader = {
+	name = "Исмаил Энвер"
+	type = land
+	date="1914.1.1"
+	personality = audacious
+	background = drillmaster
+	picture="personal_enver_pasha"
+}
+
+leader = {
+	name = "Мустафа Кемаль"
+	type = land
+	date="1914.1.1"
+	personality = charismatic
+	background = politician
+	picture="personal_mustafa_kemal"
+}
+
+leader = {
+	name = "Ахмед Джемаль"
+	type = land
+	date="1914.1.1"
+	personality = merciless
+	background = warmonger
+	picture="personal_ahmet_cemal"
+}
+
+leader = {
+	name = "Фахреддин Паша"
+	type = land
+	date="1914.1.1"
+	personality = coolminded
+	background = cartographer
+	picture="personal_fahreddin_pasha"
+}
+
+leader = {
+	name = "Халиль Кут"
+	type = land
+	date="1914.1.1"
+	personality = efficient
+	background = war_college
+	picture="personal_halil_kut"
+}
+
+army = {
+	name = "Турецкая армия"
+	location = 860
+	regiment = {
+		name= "1-й булук"
+		type = guard
+		home = 876
+	}
+
+	regiment = {
+		name= "2-й булук"
+		type = guard
+		home = 886
+	}
+
+	regiment = {
+		name= "3-й булук"
+		type = guard
+		home = 894
+	}
+
+	regiment = {
+		name= "4-й булук"
+		type = engineer
+		home = 896
+	}
+
+	regiment = {
+		name= "5-й булук"
+		type = infantry
+		home = 861
+	}
+
+	regiment = {
+		name= "6-й булук"
+		type = infantry
+		home = 861
+	}
+
+	regiment = {
+		name= "7-й булук"
+		type = artillery
+		home = 862
+	}
+
+	regiment = {
+		name= "8-й булук"
+		type = guard
+		home = 863
+	}
+
+	regiment = {
+		name= "9-й булук"
+		type = guard
+		home = 863
+	}
+
+	regiment = {
+		name= "10-й булук"
+		type = guard
+		home = 863
+	}
+
+	regiment = {
+		name= "11-й булук"
+		type = engineer
+		home = 864
+	}
+
+	regiment = {
+		name= "12-й булук"
+		type = infantry
+		home = 865
+	}
+
+	regiment = {
+		name= "13-й булук"
+		type = infantry
+		home = 867
+	}
+
+	regiment = {
+		name= "14-й булук"
+		type = artillery
+		home = 868
+	}
+
+	regiment = {
+		name= "1-й полк сувари"
+		type = cavalry
+		home = 869
+	}
+
+	regiment = {
+		name= "2-й полк сувари"
+		type = cavalry
+		home = 869
+	}
+
+	regiment = {
+		name= "3-й полк сувари"
+		type = cavalry
+		home = 873
+	}
+
+	regiment = {
+		name= "4-й полк сувари"
+		type = cavalry
+		home = 870
+	}
+
+	regiment = {
+		name= "5-й полк сувари"
+		type = cavalry
+		home = 871
+	}
+
+	regiment = {
+		name= "6-й полк сувари"
+		type = cavalry
+		home = 871
+	}
+
+}
+
+army = {
+	name = "Трапезундская Армия"
+	location = 882
+	regiment = {
+		name= "15-й булук"
+		type = infantry
+		home = 872
+	}
+
+	regiment = {
+		name= "16-й булук"
+		type = infantry
+		home = 873
+	}
+
+	regiment = {
+		name= "17-й булук"
+		type = infantry
+		home = 873
+	}
+
+	regiment = {
+		name= "18-й булук"
+		type = infantry
+		home = 873
+	}
+
+	regiment = {
+		name= "19-й булук"
+		type = infantry
+		home = 874
+	}
+
+	regiment = {
+		name= "20-й булук"
+		type = infantry
+		home = 875
+	}
+
+	regiment = {
+		name= "21-й булук"
+		type = infantry
+		home = 898
+	}
+
+	regiment = {
+		name= "22-й булук"
+		type = infantry
+		home = 877
+	}
+
+	regiment = {
+		name= "23-й булук"
+		type = artillery
+		home = 878
+	}
+
+	regiment = {
+		name= "24-й булук"
+		type = artillery
+		home = 878
+	}
+
+	regiment = {
+		name= "4-й полк сувари"
+		type = cavalry
+		home = 879
+	}
+
+	regiment = {
+		name= "5-й полк сувари"
+		type = cavalry
+		home = 880
+	}
+
+	regiment = {
+		name= "6-й полк сувари"
+		type = cavalry
+		home = 881
+	}
+
+}
+
+army = {
+	name = "Измирская Армия"
+	location = 869
+	regiment = {
+		name= "25-й булук"
+		type = infantry
+		home = 882
+	}
+
+	regiment = {
+		name= "26-й булук"
+		type = infantry
+		home = 883
+	}
+
+	regiment = {
+		name= "27-й булук"
+		type = infantry
+		home = 884
+	}
+
+	regiment = {
+		name= "28-й булук"
+		type = infantry
+		home = 876
+	}
+
+	regiment = {
+		name= "29-й булук"
+		type = infantry
+		home = 883
+	}
+
+	regiment = {
+		name= "30-й булук"
+		type = infantry
+		home = 887
+	}
+
+	regiment = {
+		name= "31-й булук"
+		type = infantry
+		home = 887
+	}
+
+	regiment = {
+		name= "32-й булук"
+		type = infantry
+		home = 888
+	}
+
+	regiment = {
+		name= "33-й булук"
+		type = artillery
+		home = 885
+	}
+
+}
+
+navy = {
+	name = "Флот Турции"
+	location = 860
+	ship = {
+		name= "Фетийе"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Косово"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Пейк-и Зафер"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Садийе"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Эртугрул"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Хадвандигар"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Керван-и Бахри"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Мубир-и Серур"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Эдирне"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Севрес"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Бурса"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Мидилли"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Фейза-и Бахри"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Мекидийе"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Саик-и Сади"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Таиф"
+		type = commerce_raider
+	}
+
+}
+
+navy = {
+	name = "1-я Транспортная Эскадра"
+	location = 860
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = steam_transport
+	}
+
+}

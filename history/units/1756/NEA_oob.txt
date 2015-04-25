@@ -1,0 +1,145 @@
+army = {
+	name = "Неаполитанская армия"
+	location = 754
+	regiment = {
+		name= "1-я артиллерийская бригада"
+		type = artillery
+		home = 754
+	}
+
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 757
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 755
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 2567
+	}
+
+	regiment = {
+		name= "4-я пехотная бригада"
+		type = infantry
+		home = 754
+	}
+
+	regiment = {
+		name= "5-я пехотная бригада"
+		type = infantry
+		home = 753
+	}
+
+	regiment = {
+		name= "6-я пехотная бригада"
+		type = infantry
+		home = 756
+	}
+
+}
+
+army = {
+	name = "Сицилийская армия"
+	location = 762
+	regiment = {
+		name= "1-я кавалерийская бригада"
+		type = cavalry
+		home = 762
+	}
+
+	regiment = {
+		name= "2-я кавалерийская бригада"
+		type = cavalry
+		home = 764
+	}
+
+	regiment = {
+		name= "7-я пехотная бригада"
+		type = infantry
+		home = 759
+	}
+
+	regiment = {
+		name= "8-я пехотная бригада"
+		type = infantry
+		home = 760
+	}
+
+	regiment = {
+		name= "9-я пехотная бригада"
+		type = infantry
+		home = 761
+	}
+
+	regiment = {
+		name= "10-я пехотная бригада"
+		type = infantry
+		home = 758
+	}
+
+	regiment = {
+		name= "11-я пехотная бригада"
+		type = infantry
+		home = 763
+	}
+
+}
+
+navy = {
+	name = "Королевский флот"
+	location = 754
+	ship = {
+		name= "Фердинандо III"
+		type = manowar
+	}
+	ship = {
+		name= "Амалия"
+		type = manowar
+	}
+	ship = {
+		name= "Миневра"
+		type = manowar
+	}
+	ship = {
+		name= "Бари"
+		type = manowar
+	}
+	ship = {
+		name= "Кристина"
+		type = frigate
+	}
+
+	ship = {
+		name= "Реджина Изабелла"
+		type = frigate
+	}
+
+	ship = {
+		name= "Принсипе Карло"
+		type = frigate
+	}
+
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}
+

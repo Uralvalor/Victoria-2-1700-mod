@@ -1,0 +1,13 @@
+owner = PER
+controller = PER
+add_core = GEO
+add_core = TCR
+terrain = city_1090
+trade_goods = wool
+life_rating = 30
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+	remove_core = RUS
+}

@@ -1,0 +1,40 @@
+army = {
+	name = "Корейская императорская армия"
+	location = 1624
+	regiment = {
+		name= "1.ЁRoyal Guard"
+		type = irregular
+		home = 1619
+	}
+
+	regiment = {
+		name= "2. Royal Guard"
+		type = irregular
+		home = 1620
+	}
+
+	regiment = {
+		name= "3. Royal Guard"
+		type = irregular
+		home = 1624
+	}
+
+	regiment = {
+		name= "1. Infantry"
+		type = irregular
+		home = 1627
+	}
+
+	regiment = {
+		name= "2. Infantry"
+		type = irregular
+		home = 1628
+	}
+
+	regiment = {
+		name= "3. Infantry"
+		type = irregular
+		home = 1632
+	}
+
+}

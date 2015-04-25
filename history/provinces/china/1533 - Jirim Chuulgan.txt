@@ -1,0 +1,16 @@
+owner = MCK
+controller = MCK
+add_core = MGL
+add_core = MCK
+trade_goods = timber
+life_rating = 30
+terrain = temperate_grassland
+1914.1.1 = {
+	owner = MCK
+	controller = MCK
+	add_core = MCK
+}
+1923.1.1 = {
+	owner = MCK
+	controller = MCK
+}

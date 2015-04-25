@@ -1,0 +1,9 @@
+army = {
+	name = "Армия Брауншвейга"
+	location = 536
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 536
+	}	            
+}

@@ -1,0 +1,19 @@
+army = {
+	name = "Primera Militar de Maya"
+	location = 2186
+	regiment = {
+		name= "Primer Division"
+		type = infantry
+		home = 2186
+	}	      
+	regiment = {
+		name= "Segunda Division"
+		type = infantry
+		home = 2186
+	}	            
+	regiment = {
+		name= "Tercera Division"
+		type = infantry
+		home = 2186
+	}	
+}

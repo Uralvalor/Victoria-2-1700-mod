@@ -1,0 +1,13 @@
+owner = GEL
+controller = GEL
+add_core = GEL
+add_core = MAJ
+add_core = OMA
+trade_goods = cattle
+life_rating = 35
+terrain = forested_farmland
+1914.1.1 = {
+	owner = ITA
+	controller = ITA
+	colonial = 3
+}

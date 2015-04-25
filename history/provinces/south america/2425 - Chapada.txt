@@ -1,0 +1,16 @@
+
+add_core = BRZ
+trade_goods = cotton
+life_rating = 35
+terrain = seasonal_jungle
+1750.1.1 = {
+	owner = POR
+	controller = POR
+colony = 2
+}
+1836.1.1 = {
+	owner = BRZ
+	controller = BRZ
+	remove_core = POR
+	colonial = no
+}

@@ -1,0 +1,136 @@
+leader = {
+	name = "Панайотис Данглис"
+	type = land
+	date="1914.1.1"
+	personality = reserved
+	background = politician
+	picture="personal_panagiotis_danglis"
+}
+
+leader = {
+	name = "Константинос Милиотис-Комнинос"
+	type = land
+	date="1914.1.1"
+	personality = hellbent
+	background = rising_star
+	picture="personal_konstantinos_miliotis-komninos"
+}
+
+leader = {
+	name = "Леонидас Параскевопулос"
+	type = land
+	date="1914.1.1"
+	personality = wrathful
+	background = drillmaster
+	picture="personal_leonidas_paraskevopoulos"
+}
+
+leader = {
+	name = "Эммануил Зимвракакис"
+	type = land
+	date="1914.1.1"
+	personality = cautious
+	background = war_college
+	picture="personal_emmanouil_zymvrakakis"
+}
+
+leader = {
+	name = "Иоаннис Метаксас"
+	type = land
+	date="1914.1.1"
+	personality = imperious
+	background = gifted_administrator
+	picture="personal_ioannis_metaxas"
+}
+
+army = {
+	name = "1. Corps "
+	location = 836
+	regiment = {
+		name= "1.1. Division"
+		type = infantry
+		home = 834
+	}
+
+	regiment = {
+		name= "2.1. Division"
+		type = infantry
+		home = 834
+	}
+
+	regiment = {
+		name= "3.1. Division"
+		type = infantry
+		home = 835
+	}
+
+	regiment = {
+		name= "1.2. Division"
+		type = infantry
+		home = 836
+	}
+
+	regiment = {
+		name= "2.2. Division"
+		type = infantry
+		home = 839
+	}
+
+	regiment = {
+		name= "3.2. Division"
+		type = infantry
+		home = 840
+	}
+}
+
+army = {
+	name = "2. Corps "
+	location = 834
+	regiment = {
+		name= "1.3. Division"
+		type = infantry
+		home = 840
+	}
+
+	regiment = {
+		name= "2.3. Division"
+		type = infantry
+		home = 842
+	}
+
+	regiment = {
+		name= "3.3. Division"
+		type = infantry
+		home = 845
+	}
+
+}
+
+army = {
+	name = "Militia"
+	location = 837
+	regiment = {
+		name= "1.1. Militia"
+		type = irregular
+		home = 824
+	}
+
+	regiment = {
+		name= "2.1. Militia"
+		type = irregular
+		home = 826
+	}
+
+	regiment = {
+		name= "3.1. Militia"
+		type = irregular
+		home = 805
+	}
+
+	regiment = {
+		name= "1.2. Militia"
+		type = irregular
+		home = 837
+	}
+}
+

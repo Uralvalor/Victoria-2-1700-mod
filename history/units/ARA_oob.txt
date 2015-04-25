@@ -1,0 +1,28 @@
+army = {
+	name = "Army of Arakan"
+	location = 1345
+	regiment = {
+		name= "1. Brigade"
+		type = irregular
+		home = 1345
+	}
+
+	regiment = {
+		name= "2. Brigade"
+		type = irregular
+		home = 1345
+	}
+
+	regiment = {
+		name= "3. Brigade"
+		type = irregular
+		home = 1345
+	}
+
+	regiment = {
+		name= "4. Brigade"
+		type = irregular
+		home = 1345
+	}
+}
+

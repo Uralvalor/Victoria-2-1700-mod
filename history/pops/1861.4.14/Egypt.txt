@@ -1,0 +1,1627 @@
+#Bahari Region (2664000)
+#under the rule of Egypt in 1836
+#Cairo (1004600/251150 POPS)
+1745 = {
+	aristocrats = {
+		culture = circassian
+		religion = sunni
+		size = 772.5
+	}
+
+	bureaucrats = {
+		culture = circassian
+		religion = sunni
+		size = 463.5
+	}
+
+	officers = {
+		culture = circassian
+		religion = sunni
+		size = 463.5
+	}
+
+	artisans = {
+		culture = circassian
+		religion = sunni
+		size = 1287.5
+	}
+
+	soldiers = {
+		culture = circassian
+		religion = sunni
+		size = 1287.5
+	}
+
+	aristocrats = {
+		culture = misri
+		religion = sunni
+		size = 2678.0
+	}
+
+	bureaucrats = {
+		culture = misri
+		religion = sunni
+		size = 128.75
+	}
+
+	officers = {
+		culture = misri
+		religion = sunni
+		size = 206.0
+	}
+
+	clergymen = {
+		culture = misri
+		religion = sunni
+		size = 2188.75
+	}
+
+	artisans = {
+		culture = misri
+		religion = sunni
+		size = 45835.0
+	}
+
+	soldiers = {
+		culture = misri
+		religion = sunni
+		size = 16480.0
+	}
+
+	farmers = {
+		culture = misri
+		religion = sunni
+		size = 137196.0
+	}
+
+	bureaucrats = {
+		culture = misri
+		religion = coptic
+		size = 25.75
+	}
+
+	clergymen = {
+		culture = misri
+		religion = coptic
+		size = 360.5
+	}
+
+	artisans = {
+		culture = misri
+		religion = coptic
+		size = 8240.0
+	}
+
+	farmers = {
+		culture = misri
+		religion = coptic
+		size = 27423.75
+	}
+
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 51.5
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 3038.5
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 25.75
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 1261.75
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 9270.0
+	}
+}
+#Dumyat (402600/100650 POPS)
+1746 = {
+	aristocrats = {
+		culture = circassian
+		religion = sunni
+		size = 515.0
+	}
+
+	artisans = {
+		culture = circassian
+		religion = sunni
+		size = 592.25
+	}
+
+	soldiers = {
+		culture = circassian
+		religion = sunni
+		size = 77.25
+	}
+
+	aristocrats = {
+		culture = misri
+		religion = sunni
+		size = 1545.0
+	}
+
+	clergymen = {
+		culture = misri
+		religion = sunni
+		size = 952.75
+	}
+
+	artisans = {
+		culture = misri
+		religion = sunni
+		size = 4944.0
+	}
+
+	soldiers = {
+		culture = misri
+		religion = sunni
+		size = 1030.0
+	}
+
+	farmers = {
+		culture = misri
+		religion = sunni
+		size = 90408.25
+	}
+
+	clergymen = {
+		culture = misri
+		religion = coptic
+		size = 51.5
+	}
+
+	artisans = {
+		culture = misri
+		religion = coptic
+		size = 154.5
+	}
+
+	farmers = {
+		culture = misri
+		religion = coptic
+		size = 2884.0
+	}
+}
+#Tanta (341600/85400 POPS)
+1747 = {
+	aristocrats = {
+		culture = circassian
+		religion = sunni
+		size = 772.5
+	}
+
+	artisans = {
+		culture = circassian
+		religion = sunni
+		size = 592.25
+	}
+
+	soldiers = {
+		culture = circassian
+		religion = sunni
+		size = 77.25
+	}
+
+	aristocrats = {
+		culture = misri
+		religion = sunni
+		size = 875.5
+	}
+
+	clergymen = {
+		culture = misri
+		religion = sunni
+		size = 849.75
+	}
+
+	artisans = {
+		culture = misri
+		religion = sunni
+		size = 4223.0
+	}
+
+	soldiers = {
+		culture = misri
+		religion = sunni
+		size = 1030.0
+	}
+
+	farmers = {
+		culture = misri
+		religion = sunni
+		size = 77481.75
+	}
+
+	clergymen = {
+		culture = misri
+		religion = coptic
+		size = 51.5
+	}
+
+	artisans = {
+		culture = misri
+		religion = coptic
+		size = 103.0
+	}
+
+	farmers = {
+		culture = misri
+		religion = coptic
+		size = 1905.5
+	}
+}
+#Mansura (256200/64050 POPS)
+1748 = {
+	aristocrats = {
+		culture = circassian
+		religion = sunni
+		size = 618.0
+	}
+
+	artisans = {
+		culture = circassian
+		religion = sunni
+		size = 412.0
+	}
+
+	soldiers = {
+		culture = circassian
+		religion = sunni
+		size = 51.5
+	}
+
+	aristocrats = {
+		culture = misri
+		religion = sunni
+		size = 721.0
+	}
+
+	clergymen = {
+		culture = misri
+		religion = sunni
+		size = 618.0
+	}
+
+	artisans = {
+		culture = misri
+		religion = sunni
+		size = 3141.5
+	}
+
+	soldiers = {
+		culture = misri
+		religion = sunni
+		size = 1030.0
+	}
+
+	farmers = {
+		culture = misri
+		religion = sunni
+		size = 57062.0
+	}
+
+	clergymen = {
+		culture = misri
+		religion = coptic
+		size = 51.5
+	}
+
+	artisans = {
+		culture = misri
+		religion = coptic
+		size = 103.0
+	}
+
+	farmers = {
+		culture = misri
+		religion = coptic
+		size = 1905.5
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 5.15
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 252.35
+	}
+}
+#Ziqaziq (272600/68150 POPS)
+1749 = {
+	aristocrats = {
+		culture = circassian
+		religion = sunni
+		size = 669.5
+	}
+
+	artisans = {
+		culture = circassian
+		religion = sunni
+		size = 437.75
+	}
+
+	soldiers = {
+		culture = circassian
+		religion = sunni
+		size = 77.25
+	}
+
+	aristocrats = {
+		culture = misri
+		religion = sunni
+		size = 721.0
+	}
+
+	clergymen = {
+		culture = misri
+		religion = sunni
+		size = 669.5
+	}
+
+	artisans = {
+		culture = misri
+		religion = sunni
+		size = 3347.5
+	}
+
+	soldiers = {
+		culture = misri
+		religion = sunni
+		size = 1030.0
+	}
+
+	farmers = {
+		culture = misri
+		religion = sunni
+		size = 61079.0
+	}
+
+	clergymen = {
+		culture = misri
+		religion = coptic
+		size = 51.5
+	}
+
+	artisans = {
+		culture = misri
+		religion = coptic
+		size = 103.0
+	}
+
+	farmers = {
+		culture = misri
+		religion = coptic
+		size = 1905.5
+	}
+}
+#Giza (386400/96600 POPS)
+1750 = {
+	aristocrats = {
+		culture = circassian
+		religion = sunni
+		size = 978.5
+	}
+
+	artisans = {
+		culture = circassian
+		religion = sunni
+		size = 566.5
+	}
+
+	soldiers = {
+		culture = circassian
+		religion = sunni
+		size = 103.0
+	}
+
+	aristocrats = {
+		culture = misri
+		religion = sunni
+		size = 1030.0
+	}
+
+	clergymen = {
+		culture = misri
+		religion = sunni
+		size = 824.0
+	}
+
+	artisans = {
+		culture = misri
+		religion = sunni
+		size = 4171.5
+	}
+
+	soldiers = {
+		culture = misri
+		religion = sunni
+		size = 1030.0
+	}
+
+	farmers = {
+		culture = misri
+		religion = sunni
+		size = 76652.6
+	}
+
+	clergymen = {
+		culture = misri
+		religion = coptic
+		size = 51.5
+	}
+
+	artisans = {
+		culture = misri
+		religion = coptic
+		size = 154.5
+	}
+
+	farmers = {
+		culture = misri
+		religion = coptic
+		size = 2884.0
+	}
+}
+#Alexandria Region (736000)
+#under the rule of Egypt in 1836
+#Alexandria (640000/160000 POPS)
+1751 = {
+	aristocrats = {
+		culture = misri
+		religion = sunni
+		size = 2832.5
+	}
+
+	bureaucrats = {
+		culture = misri
+		religion = sunni
+		size = 154.5
+	}
+
+	officers = {
+		culture = misri
+		religion = sunni
+		size = 206.0
+	}
+
+	clergymen = {
+		culture = misri
+		religion = sunni
+		size = 1467.75
+	}
+
+	artisans = {
+		culture = misri
+		religion = sunni
+		size = 9012.5
+	}
+
+	soldiers = {
+		culture = misri
+		religion = sunni
+		size = 7210.0
+	}
+
+	farmers = {
+		culture = misri
+		religion = sunni
+		size = 122286.75
+	}
+
+	bureaucrats = {
+		culture = misri
+		religion = coptic
+		size = 25.75
+	}
+
+	clergymen = {
+		culture = misri
+		religion = coptic
+		size = 128.75
+	}
+
+	artisans = {
+		culture = misri
+		religion = coptic
+		size = 772.5
+	}
+
+	farmers = {
+		culture = misri
+		religion = coptic
+		size = 12488.75
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 10.3
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 1019.7
+	}
+
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 51.5
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 2008.5
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 6180.0
+	}
+}
+#Matruh (60000/15000 POPS)
+1752 = {
+	aristocrats = {
+		culture = misri
+		religion = sunni
+		size = 231.75
+	}
+
+	clergymen = {
+		culture = misri
+		religion = sunni
+		size = 128.75
+	}
+
+	artisans = {
+		culture = misri
+		religion = sunni
+		size = 618.0
+	}
+
+	soldiers = {
+		culture = misri
+		religion = sunni
+		size = 1030.0
+	}
+
+	farmers = {
+		culture = misri
+		religion = sunni
+		size = 10454.5
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+		size = 51.5
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+		size = 77.25
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = sunni
+		size = 154.5
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+		size = 25.75
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = sunni
+		size = 2781.0
+	}
+}
+#Sidi Barrani (20000/5000 POPS)
+1753 = {
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+		size = 77.25
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+		size = 51.5
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = sunni
+		size = 257.5
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+		size = 51.5
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = sunni
+		size = 4712.25
+	}
+}
+#Siwa (16000/4000 POPS)
+1754 = {
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+		size = 51.5
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+		size = 51.5
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = sunni
+		size = 206.0
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+		size = 51.5
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = sunni
+		size = 3759.5
+	}
+}
+#Sinai Region (100000)
+#under the rule of Egypt in 1836
+#Suez (72000/18000 POPS)
+1755 = {
+	aristocrats = {
+		culture = misri
+		religion = sunni
+		size = 360.5
+	}
+
+	bureaucrats = {
+		culture = misri
+		religion = sunni
+		size = 10.3
+	}
+
+	officers = {
+		culture = misri
+		religion = sunni
+		size = 25.75
+	}
+
+	clergymen = {
+		culture = misri
+		religion = sunni
+		size = 180.25
+	}
+
+	artisans = {
+		culture = misri
+		religion = sunni
+		size = 927.0
+	}
+
+	soldiers = {
+		culture = misri
+		religion = sunni
+		size = 206.0
+	}
+
+	farmers = {
+		culture = misri
+		religion = sunni
+		size = 16830.2
+	}
+}
+#Al Arish (16000/4000 POPS)
+1756 = {
+	aristocrats = {
+		culture = misri
+		religion = sunni
+		size = 25.75
+	}
+
+	clergymen = {
+		culture = misri
+		religion = sunni
+		size = 51.5
+	}
+
+	artisans = {
+		culture = misri
+		religion = sunni
+		size = 103.0
+	}
+
+	soldiers = {
+		culture = misri
+		religion = sunni
+		size = 25.75
+	}
+
+	farmers = {
+		culture = misri
+		religion = sunni
+		size = 1854.0
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+		size = 25.75
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+		size = 51.5
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = sunni
+		size = 103.0
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+		size = 25.75
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = sunni
+		size = 1854.0
+	}
+}
+#Sharm al Shaykh (12000/3000 POPS)
+1757 = {
+	aristocrats = {
+		culture = misri
+		religion = sunni
+		size = 15.450000000000001
+	}
+
+	clergymen = {
+		culture = misri
+		religion = sunni
+		size = 25.75
+	}
+
+	artisans = {
+		culture = misri
+		religion = sunni
+		size = 51.5
+	}
+
+	soldiers = {
+		culture = misri
+		religion = sunni
+		size = 10.3
+	}
+
+	farmers = {
+		culture = misri
+		religion = sunni
+		size = 927.0
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+		size = 25.75
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+		size = 51.5
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = sunni
+		size = 103.0
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+		size = 25.75
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = sunni
+		size = 1854.0
+	}
+}
+#Hariga Region (56000)
+#uncolonized in 1836
+#Farafra (8000/2000 POPS)
+1758 = {
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+		size = 25.75
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+		size = 51.5
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = sunni
+		size = 103.0
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+		size = 25.75
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = sunni
+		size = 1854.0
+	}
+}
+#Bawiti (12000/3000 POPS)
+1759 = {
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+		size = 51.5
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+		size = 77.25
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = sunni
+		size = 154.5
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+		size = 25.75
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = sunni
+		size = 2781.0
+	}
+}
+#Mut (20000/5000 POPS)
+1760 = {
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+		size = 77.25
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+		size = 51.5
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = sunni
+		size = 257.5
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+		size = 51.5
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = sunni
+		size = 4712.25
+	}
+}
+#Baris (16000/4000 POPS)
+1761 = {
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+		size = 51.5
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+		size = 51.5
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = sunni
+		size = 206.0
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+		size = 51.5
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = sunni
+		size = 3759.5
+	}
+}
+#Vostani Region (672000)
+#under the rule of Egypt in 1836
+#Asyut (196000/49000 POPS)
+1762 = {
+	aristocrats = {
+		culture = misri
+		religion = sunni
+		size = 643.75
+	}
+
+	bureaucrats = {
+		culture = misri
+		religion = sunni
+		size = 113.3
+	}
+
+	officers = {
+		culture = misri
+		religion = sunni
+		size = 180.25
+	}
+
+	clergymen = {
+		culture = misri
+		religion = sunni
+		size = 309.0
+	}
+
+	artisans = {
+		culture = misri
+		religion = sunni
+		size = 1596.5
+	}
+
+	soldiers = {
+		culture = misri
+		religion = sunni
+		size = 1030.0
+	}
+
+	farmers = {
+		culture = misri
+		religion = sunni
+		size = 28057.2
+	}
+
+	bureaucrats = {
+		culture = misri
+		religion = coptic
+		size = 15.450000000000001
+	}
+
+	clergymen = {
+		culture = misri
+		religion = coptic
+		size = 154.5
+	}
+
+	artisans = {
+		culture = misri
+		religion = coptic
+		size = 927.0
+	}
+
+	farmers = {
+		culture = misri
+		religion = coptic
+		size = 17443.05
+	}
+}
+#Bani Suwayf (76000/19000 OPS) }
+1763 = {
+	aristocrats = {
+		culture = misri
+		religion = sunni
+		size = 283.25
+	}
+
+	clergymen = {
+		culture = misri
+		religion = sunni
+		size = 154.5
+	}
+
+	artisans = {
+		culture = misri
+		religion = sunni
+		size = 824.0
+	}
+
+	soldiers = {
+		culture = misri
+		religion = sunni
+		size = 206.0
+	}
+
+	farmers = {
+		culture = misri
+		religion = sunni
+		size = 15012.25
+	}
+
+	clergymen = {
+		culture = misri
+		religion = coptic
+		size = 51.5
+	}
+
+	artisans = {
+		culture = misri
+		religion = coptic
+		size = 154.5
+	}
+
+	farmers = {
+		culture = misri
+		religion = coptic
+		size = 2884.0
+	}
+}
+#Minya (104000/26000 POPS)
+1764 = {
+	aristocrats = {
+		culture = misri
+		religion = sunni
+		size = 386.25
+	}
+
+	clergymen = {
+		culture = misri
+		religion = sunni
+		size = 206.0
+	}
+
+	artisans = {
+		culture = misri
+		religion = sunni
+		size = 1081.5
+	}
+
+	soldiers = {
+		culture = misri
+		religion = sunni
+		size = 1030.0
+	}
+
+	farmers = {
+		culture = misri
+		religion = sunni
+		size = 18874.75
+	}
+
+	clergymen = {
+		culture = misri
+		religion = coptic
+		size = 51.5
+	}
+
+	artisans = {
+		culture = misri
+		religion = coptic
+		size = 257.5
+	}
+
+	farmers = {
+		culture = misri
+		religion = coptic
+		size = 4841.0
+	}
+}
+#Fayyum (192000/48000 POPS)
+1765 = {
+	aristocrats = {
+		culture = misri
+		religion = sunni
+		size = 824.0
+	}
+
+	clergymen = {
+		culture = misri
+		religion = sunni
+		size = 437.75
+	}
+
+	artisans = {
+		culture = misri
+		religion = sunni
+		size = 2163.0
+	}
+
+	soldiers = {
+		culture = misri
+		religion = sunni
+		size = 1030.0
+	}
+
+	farmers = {
+		culture = misri
+		religion = sunni
+		size = 38805.25
+	}
+
+	clergymen = {
+		culture = misri
+		religion = coptic
+		size = 51.5
+	}
+
+	artisans = {
+		culture = misri
+		religion = coptic
+		size = 309.0
+	}
+
+	farmers = {
+		culture = misri
+		religion = coptic
+		size = 5819.5
+	}
+}
+#Suhaj (96000/24000 POPS)
+2559 = {
+	aristocrats = {
+		culture = misri
+		religion = sunni
+		size = 412.0
+	}
+
+	clergymen = {
+		culture = misri
+		religion = sunni
+		size = 231.75
+	}
+
+	artisans = {
+		culture = misri
+		religion = sunni
+		size = 1133.0
+	}
+
+	soldiers = {
+		culture = misri
+		religion = sunni
+		size = 257.5
+	}
+
+	farmers = {
+		culture = misri
+		religion = sunni
+		size = 20625.75
+	}
+
+	clergymen = {
+		culture = misri
+		religion = coptic
+		size = 51.5
+	}
+
+	artisans = {
+		culture = misri
+		religion = coptic
+		size = 103.0
+	}
+
+	farmers = {
+		culture = misri
+		religion = coptic
+		size = 1905.5
+	}
+}
+#Said Region (244000)
+#under the rule of Egypt in 1836
+#Aswan (48000/12000 POPS)
+1766 = {
+	aristocrats = {
+		culture = misri
+		religion = sunni
+		size = 180.25
+	}
+
+	bureaucrats = {
+		culture = misri
+		religion = sunni
+		size = 46.35
+	}
+
+	officers = {
+		culture = misri
+		religion = sunni
+		size = 77.25
+	}
+
+	clergymen = {
+		culture = misri
+		religion = sunni
+		size = 103.0
+	}
+
+	artisans = {
+		culture = misri
+		religion = sunni
+		size = 515.0
+	}
+
+	soldiers = {
+		culture = misri
+		religion = sunni
+		size = 128.75
+	}
+
+	farmers = {
+		culture = misri
+		religion = sunni
+		size = 9249.4
+	}
+
+	bureaucrats = {
+		culture = misri
+		religion = coptic
+		size = 5.15
+	}
+
+	clergymen = {
+		culture = misri
+		religion = coptic
+		size = 51.5
+	}
+
+	artisans = {
+		culture = misri
+		religion = coptic
+		size = 103.0
+	}
+
+	farmers = {
+		culture = misri
+		religion = coptic
+		size = 1905.5
+	}
+}
+#Luxor (68000/17000 POPS)
+1767 = {
+	aristocrats = {
+		culture = misri
+		religion = sunni
+		size = 231.75
+	}
+
+	clergymen = {
+		culture = misri
+		religion = sunni
+		size = 128.75
+	}
+
+	artisans = {
+		culture = misri
+		religion = sunni
+		size = 618.0
+	}
+
+	soldiers = {
+		culture = misri
+		religion = sunni
+		size = 180.25
+	}
+
+	farmers = {
+		culture = misri
+		religion = sunni
+		size = 11201.25
+	}
+
+	clergymen = {
+		culture = misri
+		religion = coptic
+		size = 51.5
+	}
+
+	artisans = {
+		culture = misri
+		religion = coptic
+		size = 257.5
+	}
+
+	farmers = {
+		culture = misri
+		religion = coptic
+		size = 4841.0
+	}
+}
+#Idfu (76000/19000 POPS)
+1768 = {
+	aristocrats = {
+		culture = misri
+		religion = sunni
+		size = 309.0
+	}
+
+	clergymen = {
+		culture = misri
+		religion = sunni
+		size = 180.25
+	}
+
+	artisans = {
+		culture = misri
+		religion = sunni
+		size = 875.5
+	}
+
+	soldiers = {
+		culture = misri
+		religion = sunni
+		size = 206.0
+	}
+
+	farmers = {
+		culture = misri
+		religion = sunni
+		size = 15939.25
+	}
+
+	clergymen = {
+		culture = misri
+		religion = coptic
+		size = 51.5
+	}
+
+	artisans = {
+		culture = misri
+		religion = coptic
+		size = 103.0
+	}
+
+	farmers = {
+		culture = misri
+		religion = coptic
+		size = 1905.5
+	}
+}
+#Qina (52000/13000 POPS)
+1769 = {
+	aristocrats = {
+		culture = misri
+		religion = sunni
+		size = 206.0
+	}
+
+	clergymen = {
+		culture = misri
+		religion = sunni
+		size = 103.0
+	}
+
+	artisans = {
+		culture = misri
+		religion = sunni
+		size = 566.5
+	}
+
+	soldiers = {
+		culture = misri
+		religion = sunni
+		size = 154.5
+	}
+
+	farmers = {
+		culture = misri
+		religion = sunni
+		size = 10300.0
+	}
+
+	clergymen = {
+		culture = misri
+		religion = coptic
+		size = 51.5
+	}
+
+	artisans = {
+		culture = misri
+		religion = coptic
+		size = 103.0
+	}
+
+	farmers = {
+		culture = misri
+		religion = coptic
+		size = 1905.5
+	}
+}
+#Red Sea Region (44000) #see Sudan.txt for balance of the region
+#under the rule of Egypt in 1836
+#Qusayr (12000/3000 POPS)
+1770 = {
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+		size = 51.5
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+		size = 77.25
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = sunni
+		size = 154.5
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+		size = 25.75
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = sunni
+		size = 2781.0
+	}
+}
+#Marsa Alam (20000/5000 POPS)
+1771 = {
+	aristocrats = {
+		culture = misri
+		religion = sunni
+		size = 15.450000000000001
+	}
+
+	clergymen = {
+		culture = misri
+		religion = sunni
+		size = 25.75
+	}
+
+	artisans = {
+		culture = misri
+		religion = sunni
+		size = 51.5
+	}
+
+	soldiers = {
+		culture = misri
+		religion = sunni
+		size = 10.3
+	}
+
+	farmers = {
+		culture = misri
+		religion = sunni
+		size = 927.0
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+		size = 51.5
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+		size = 51.5
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = sunni
+		size = 206.0
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+		size = 51.5
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = sunni
+		size = 3759.5
+	}
+}
+#Ras Gharib (12000/3000 POPS)
+1772 = {
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+		size = 51.5
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+		size = 77.25
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = sunni
+		size = 154.5
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+		size = 25.75
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = sunni
+		size = 2781.0
+	}
+
+}

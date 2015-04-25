@@ -1,0 +1,15 @@
+#Relations
+USA = {
+	value = 75		#relation
+}
+
+army = {
+	name = "Армия султана Марокко"
+	location = 1681
+	regiment = {
+		name= "1. Infantry Brigade 'Askдria'"
+		type = irregular
+		home = 1680
+	}
+
+}

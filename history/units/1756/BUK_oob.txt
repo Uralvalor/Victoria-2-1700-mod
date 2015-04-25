@@ -1,0 +1,65 @@
+army = {
+	name = "Армия Насрулла-хана"
+	location = 1198
+	regiment = {
+		name= "1-я бухарская бригада"
+		type = cavalry
+		home = 1198
+	}
+
+	regiment = {
+		name= "2-я бухарская бригада"
+		type = cavalry
+		home = 1198
+	}
+
+	regiment = {
+		name= "3-я бухарская бригада"
+		type = cavalry
+		home = 1198
+	}
+}
+
+army = {
+	location = 1197
+	regiment = {
+		name= "4-я бухарская бригада"
+		type = irregular
+		home = 1198
+	}
+
+	regiment = {
+		name= "5-я бухарская бригада"
+		type = irregular
+		home = 1198
+	}
+
+	regiment = {
+		name= "6-я бухарская бригада"
+		type = irregular
+		home = 1198
+	}
+}
+
+army = {
+	name = "Армия Самарканда"
+	location = 1199
+
+	regiment = {
+		name= "1-я самаркандская бригада"
+		type = irregular
+		home = 1199
+	}
+
+	regiment = {
+		name= "2-я самаркандская бригада"
+		type = irregular
+		home = 1199
+	}
+
+	regiment = {
+		name= "3-я самаркандская бригада"
+		type = irregular
+		home = 1199
+	}
+}

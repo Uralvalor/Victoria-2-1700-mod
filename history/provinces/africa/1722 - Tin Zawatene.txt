@@ -1,0 +1,11 @@
+#add_core = ALD
+trade_goods = fruit
+life_rating = 10
+terrain = desert_mountains
+1914.1.1 = {
+	owner = FRA
+	controller = FRA
+	colonial = 3
+	add_core = ALD
+}
+

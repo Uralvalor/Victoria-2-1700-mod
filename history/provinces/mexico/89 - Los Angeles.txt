@@ -1,0 +1,20 @@
+
+add_core = MEX
+add_core = DES
+add_core = CAL
+terrain = city_89
+trade_goods = grain
+life_rating = 35
+1836.1.1 = {
+	remove_core = SPA
+}
+1861.1.1 = {
+	 
+	 
+	add_core = USA
+	colonial = no
+}
+1914.1.1 = {
+	trade_goods = oil
+	naval_base = 4
+}

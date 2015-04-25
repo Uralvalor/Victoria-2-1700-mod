@@ -1,0 +1,18 @@
+owner = SPA
+controller = SPA
+colonial = 2
+add_core = HAI
+add_core = DOM
+trade_goods = tobacco
+life_rating = 35
+naval_base = 1
+terrain = good_farmland
+1836.1.1 = {
+	owner = HAI
+	controller = HAI
+	remove_core = SPA
+}
+1861.1.1 = {
+	owner = DOM
+	controller = DOM
+}

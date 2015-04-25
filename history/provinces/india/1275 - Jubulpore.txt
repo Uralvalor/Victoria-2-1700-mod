@@ -1,0 +1,11 @@
+owner = NAG
+controller = NAG
+add_core = NAG
+add_core = HND
+trade_goods = dye
+life_rating = 35
+terrain = forested_farmland
+1750.1.1 = {
+	owner = MAR
+	controller = MAR
+}

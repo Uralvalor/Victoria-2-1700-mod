@@ -1,0 +1,34 @@
+army = {
+	name = "Army of Java"
+	location = 1416
+	regiment = {
+		name= "1.Java Legion"
+		type = irregular
+		home = 1416
+	}
+	regiment = {
+		name= "2.Java Legion"
+		type = irregular
+		home = 1416
+	}
+	regiment = {
+		name= "3.Java Legion"
+		type = irregular
+		home = 1416
+	}
+
+}
+
+navy = {
+	name = "Navy of Java"
+	location = 1416
+	ship = {
+		name= "1.Java Armada"
+		type = frigate
+	}
+	ship = {
+		name= "2.Naval Squad"
+		type = clipper_transport
+	}
+	
+}

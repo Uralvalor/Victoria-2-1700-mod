@@ -1,0 +1,205 @@
+CHI = {
+	value = 125		#relation
+}
+
+army = {
+	name = "Сухопутные войска Португалии"
+	location = 521
+	regiment = {
+		name= "1. Brigada de Infantaria"
+		type = infantry
+		home = 518
+	}
+
+	regiment = {
+		name= "2. Brigada de Infantaria"
+		type = infantry
+		home = 520
+	}
+
+	regiment = {
+		name= "3. Brigada de Infantaria"
+		type = infantry
+		home = 521
+	}
+
+	regiment = {
+		name= "4. Brigada de Infantaria"
+		type = infantry
+		home = 522
+	}
+}
+
+army = {
+	name = "1-й Африканский гарнизон"
+	location = 1999
+	
+	regiment = {
+		name = "1. Divisгo Colonial"
+		type = infantry
+		home = 524
+	}
+}
+
+army = {
+	name = "2-й Африканский гарнизон"
+	location = 2057
+	
+	regiment = {
+		name = "2. Divisгo Colonial"
+		type = infantry
+		home = 2425
+	}
+}
+
+army = {
+	name = "Индийский гарнизон"
+	location = 1303
+	
+	regiment = {
+		name = "3. Divisгo Colonial"
+		type = infantry
+		home = 2426
+	}
+}
+
+army = {
+	name = "1-я бразильская армия"
+	location = 2461
+	regiment = {
+		name= "1. Brigada de Infantaria"
+		type = infantry
+		home = 2426
+	}
+
+	regiment = {
+		name= "2. Brigada de Infantaria"
+		type = infantry
+		home = 2427
+	}
+
+	regiment = {
+		name= "3. Brigada de Infantaria"
+		type = infantry
+		home = 2428
+	}
+
+	regiment = {
+		name= "4. Brigada de Infantaria"
+		type = infantry
+		home = 2429
+	}
+
+	regiment = {
+		name= "3. Brigada de Infantaria"
+		type = infantry
+		home = 2431
+	}
+
+	regiment = {
+		name= "4. Brigada de Infantaria"
+		type = infantry
+		home = 2434
+	}
+}
+
+army = {
+	name = "2-я бразильская армия"
+	location = 2447
+	regiment = {
+		name= "1. Brigada de Infantaria"
+		type = infantry
+		home = 2436
+	}
+
+	regiment = {
+		name= "2. Brigada de Infantaria"
+		type = infantry
+		home = 2441
+	}
+
+	regiment = {
+		name= "3. Brigada de Infantaria"
+		type = infantry
+		home = 2447
+	}
+
+	regiment = {
+		name= "4. Brigada de Infantaria"
+		type = infantry
+		home = 2447
+	}
+
+	regiment = {
+		name= "3. Brigada de Infantaria"
+		type = infantry
+		home = 2447
+	}
+
+	regiment = {
+		name= "4. Brigada de Infantaria"
+		type = infantry
+		home = 2447
+	}
+}
+
+navy = {
+	name = "Portugese Royal Navy"
+	location = 524
+	ship = {
+		name= "Rainha de Portugal "
+		type = manowar
+	}
+
+	ship = {
+		name= "Dom Joгo VI "
+		type = manowar
+	}
+
+	ship = {
+		name= "Nossa Senhora da Conceiзгo"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sгo Sebastiгo"
+		type = manowar
+	}
+
+	ship = {
+		name= "Amazфnia"
+		type = manowar
+	}
+
+	ship = {
+		name= "Princesa Carlota"
+		type = manowar
+	}
+
+	ship = {
+		name= "Teresa"
+		type = manowar
+	}
+
+	ship = {
+		name= "Prнncipe do Brasil"
+		type = manowar
+	}
+
+	ship = {
+		name= "1o Navios de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2o Navios de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3o Navios de Transporte"
+		type = clipper_transport
+	}
+
+}
+

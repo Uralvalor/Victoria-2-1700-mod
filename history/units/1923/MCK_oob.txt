@@ -1,0 +1,15 @@
+army = {
+	name = "1-я Цинхайская армия"
+	location = 1479
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 1476
+	}
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 1552
+	}
+
+}

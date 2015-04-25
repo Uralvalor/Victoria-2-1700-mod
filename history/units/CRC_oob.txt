@@ -1,0 +1,65 @@
+army = {
+	name = "Черкесская армия"
+	location = 1051
+	regiment = {
+		name= "Travis' Command"
+		type = infantry
+
+		home = 1051
+	}
+
+	regiment = {
+		name= "Fannin's Command"
+		type = infantry
+
+		home = 1051
+	}
+
+	regiment = {
+		name= "Travis' Command"
+		type = infantry
+
+		home = 1051
+	}
+
+	regiment = {
+		name= "Fannin's Command"
+		type = infantry
+
+		home = 3257
+	}
+
+	regiment = {
+		name= "Fannin's Command"
+		type = infantry
+
+		home = 3257
+	}
+
+	regiment = {
+		name= "Travis' Command"
+		type = infantry
+
+		home = 3257
+	}
+
+	regiment = {
+		name= "Fannin's Command"
+		type = infantry
+
+		home = 3255
+	}
+	
+	regiment = {
+		name = "Burleson's Command"
+		type = artillery
+		home = 3255
+	}
+
+	regiment = {
+		name = "Burleson's Command"
+		type = artillery
+		home = 3255
+	}
+	
+}

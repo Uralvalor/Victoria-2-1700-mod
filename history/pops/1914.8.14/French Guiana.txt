@@ -1,0 +1,109 @@
+2241 = {
+	aristocrats = {
+		culture = french
+		religion = catholic
+		size = 150
+	}
+	bureaucrats = {
+		culture = french
+		religion = catholic
+		size = 15
+	}
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 15
+	}
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 150
+	}
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 75
+	}
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 120
+	}
+	artisans = {
+		culture = afro_antillean
+		religion = catholic
+		size = 225
+	}
+	clergymen = {
+		culture = afro_antillean
+		religion = catholic
+		size = 37
+	}
+	soldiers = {
+		culture = afro_antillean
+		religion = catholic
+		size = 75
+	}
+	farmers = {
+		culture = afro_antillean
+		religion = catholic
+		size = 637
+	}
+	slaves = {
+		culture = afro_antillean
+		religion = catholic
+		size = 2950
+	}
+	aristocrats = {
+		culture = amazonian
+		religion = animist
+		size = 2
+	}
+	clergymen = {
+		culture = amazonian
+		religion = animist
+		size = 4
+	}
+	artisans = {
+		culture = amazonian
+		religion = animist
+		size = 15
+	}
+	soldiers = {
+		culture = amazonian
+		religion = animist
+		size = 7
+	}
+	farmers = {
+		culture = amazonian
+		religion = animist
+		size = 345
+	}
+}
+2246 = {
+	aristocrats = {
+		culture = amazonian
+		religion = animist
+		size = 10
+	}
+	clergymen = {
+		culture = amazonian
+		religion = animist
+		size = 22
+	}
+	artisans = {
+		culture = amazonian
+		religion = animist
+		size = 52
+	}
+	soldiers = {
+		culture = amazonian
+		religion = animist
+		size = 15
+	}
+	farmers = {
+		culture = amazonian
+		religion = animist
+		size = 1020
+	}
+}

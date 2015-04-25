@@ -1,0 +1,18 @@
+ 
+ 
+add_core = CAN
+add_core = MTC
+trade_goods = grain
+life_rating = 35
+terrain = conifer_forest
+
+1750.1.1 = {
+	owner = FRA
+	controller = FRA
+colony = 2
+}
+1914.1.1 = {
+	owner = CAN
+	controller = CAN
+	colonial = no
+}

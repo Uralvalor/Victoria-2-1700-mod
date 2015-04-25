@@ -1,0 +1,24 @@
+
+add_core = PEU
+trade_goods = tropical_wood
+life_rating = 25
+terrain = jungle
+1836.1.1 = {
+	owner = PBC
+	controller = PBC
+	add_core = BOL
+	add_core = PBC
+	remove_core = PEU
+	remove_core = SPA
+	colonial = no
+}
+1861.1.1 = {
+	owner = BOL
+	controller = BOL
+	remove_core = PBC
+}
+1914.1.1 = {
+	owner = BRZ
+	controller = BRZ
+	trade_goods = rubber
+}

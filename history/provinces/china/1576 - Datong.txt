@@ -1,0 +1,14 @@
+owner = MCK
+controller = MCK  
+add_core = MCK
+trade_goods = timber
+life_rating = 30
+fort = 1
+terrain = mountain
+1914.1.1 = {
+	add_core = SXI
+}
+1923.1.1 = {
+	owner = SXI
+	controller = SXI
+}

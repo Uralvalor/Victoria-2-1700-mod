@@ -1,0 +1,15 @@
+owner = CHO
+controller = CHO
+add_core = CHO
+add_core = TKG
+trade_goods = cotton
+life_rating = 35
+terrain = hilly_farmland
+1914.1.1 = {
+	railroad = 3
+	remove_core = CHO
+	remove_core = TKG
+	add_core = JAP
+	owner = JAP
+	controller = JAP
+}

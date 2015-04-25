@@ -1,0 +1,40 @@
+army = {
+	name = "јрми€  олумбии"
+	location = 2253
+	regiment = {
+		name= "1-€ пехотна€ бригада"
+		type = infantry
+		home = 2247
+	}
+
+	regiment = {
+		name= "2-€ пехотна€ бригада"
+		type = infantry
+		home = 2252
+	}
+
+	regiment = {
+		name= "3-€ пехотна€ бригада"
+		type = infantry
+		home = 2254
+	}
+
+	regiment = {
+		name= "1-€ кавалерийска€ бригада"
+		type = cavalry
+		home = 2250
+	}
+
+	regiment = {
+		name= "2-€ кавалерийска€ бригада"
+		type = cavalry
+		home = 2255
+	}
+
+	regiment = {
+		name= "3-€ кавалерийска€ бригада"
+		type = cavalry
+		home = 2256
+	}
+
+}

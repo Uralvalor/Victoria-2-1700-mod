@@ -1,0 +1,19 @@
+owner = AUS
+controller = AUS #Дубровницкая республика вассал СРИ
+add_core = CRO
+add_core = YUG
+trade_goods = fish
+life_rating = 35
+terrain = dry_forest_hills
+1914.1.1 = {
+	owner = KUK
+	controller = KUK
+	add_core = KUK
+	remove_core = AUS
+	railroad = 3
+}
+1923.1.1 = {
+	owner = YUG
+	controller = YUG
+	remove_core = KUK
+}

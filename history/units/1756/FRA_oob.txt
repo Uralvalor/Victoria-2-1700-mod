@@ -1,0 +1,755 @@
+PAP = {	value = 125
+
+	level = 5
+
+	influence_value = 25
+
+}
+
+BAV = {
+	value = 125
+
+	level = 5
+	influence_value = 25
+
+}
+
+
+army = {
+
+	name = "Гарнизон Луизианы"
+
+	location = 139
+
+	regiment = {
+
+		name= "7-я колониальная бригада"
+
+		type = irregular
+		home = 407
+
+	}
+
+	regiment = {
+
+		name= "8-я колониальная бригада"
+
+		type = irregular
+		home = 444
+
+	}
+
+	regiment = {
+
+		name= "9-я колониальная бригада"
+
+		type = irregular
+		home = 467
+
+	}
+
+	regiment = {
+
+		name= "10-я колониальная бригада"
+
+		type = irregular
+
+		home = 454
+
+	}
+
+	regiment = {
+
+		name= "11-я колониальная бригада"
+
+		type = cavalry
+
+		home = 428
+
+	}
+
+	regiment = {
+
+		name= "12-я колониальная бригада"
+
+		type = infantry
+
+		home = 440
+
+	}
+
+}
+
+
+army = {
+	name = "1-я армия"
+	location = 399
+	regiment = {
+		name= "1-я артиллерийская бригада"
+		type = artillery
+		home = 425
+	}
+
+	regiment = {
+		name= "2-я артиллерийская бригада"
+		type = artillery
+		home = 426
+	}
+
+	regiment = {
+		name= "1-я инженерная бригада"
+		type = engineer
+		home = 427
+	}
+
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 440
+	}
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 438
+	}
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 440
+	}
+	regiment = {
+		name= "4-я пехотная бригада"
+		type = infantry
+		home = 401
+	}
+	regiment = {
+		name= "5-я пехотная бригада"
+		type = infantry
+		home = 441
+	}
+	regiment = {
+		name= "6-я пехотная бригада"
+		type = infantry
+		home = 2570
+	}
+}
+
+army = {
+	name = "2-я армия"
+	location = 409
+	regiment = {
+		name= "3-я артиллерийская бригада"
+		type = artillery
+		home = 404
+	}
+
+	regiment = {
+		name= "4-я артиллерийская бригада"
+		type = artillery
+		home = 402
+	}
+
+	regiment = {
+		name= "2-я инженерная бригада"
+		type = engineer
+		home = 403
+	}
+
+	regiment = {
+		name= "7-я пехотная бригада"
+		type = infantry
+		home = 399
+	}
+	regiment = {
+		name= "8-я пехотная бригада"
+		type = infantry
+		home = 458
+	}
+	regiment = {
+		name= "9-я пехотная бригада"
+		type = infantry
+		home = 420
+	}
+	regiment = {
+		name= "10-я пехотная бригада"
+		type = infantry
+		home = 418
+	}
+	regiment = {
+		name= "11-я пехотная бригада"
+		type = infantry
+		home = 406
+	}
+	regiment = {
+		name= "12-я пехотная бригада"
+		type = infantry
+		home = 425
+	}
+}
+
+army = {
+	name = "3-я армия"
+	location = 470
+	regiment = {
+		name= "5-я артиллерийская бригада"
+		type = artillery
+		home = 423
+	}
+
+	regiment = {
+		name= "6-я артиллерийская бригада"
+		type = artillery
+		home = 432
+	}
+
+	regiment = {
+		name= "3-я инженерная бригада"
+		type = engineer
+		home = 439
+	}
+
+	regiment = {
+		name= "13-я пехотная бригада"
+		type = infantry
+		home = 433
+	}
+	regiment = {
+		name= "14-я пехотная бригада"
+		type = infantry
+		home = 431
+	}
+	regiment = {
+		name= "15-я пехотная бригада"
+		type = infantry
+		home = 429
+	}
+	regiment = {
+		name= "16-я пехотная бригада"
+		type = infantry
+		home = 442
+	}
+	regiment = {
+		name= "17-я пехотная бригада"
+		type = infantry
+		home = 459
+	}
+	regiment = {
+		name= "18-я пехотная бригада"
+		type = infantry
+		home = 415
+	}
+}
+
+army = {
+	name = "4-я армия"
+	location = 442
+	regiment = {
+		name= "7-я артиллерийская бригада"
+		type = artillery
+		home = 416
+	}
+
+	regiment = {
+		name= "8-я артиллерийская бригада"
+		type = artillery
+		home = 417
+	}
+
+	regiment = {
+		name= "4-я инжинерная бригада"
+		type = engineer
+		home = 422
+	}
+
+	regiment = {
+		name= "19-я пехотная бригада"
+		type = infantry
+		home = 436
+	}
+	regiment = {
+		name= "20-я пехотная бригада"
+		type = infantry
+		home = 421
+	}
+	regiment = {
+		name= "21-я пехотная бригада"
+		type = infantry
+		home = 455
+	}
+	regiment = {
+		name= "22-я пехотная бригада"
+		type = infantry
+		home = 457
+	}
+	regiment = {
+		name= "23-я пехотная бригада"
+		type = infantry
+		home = 473
+	}
+	regiment = {
+		name= "24-я пехотная бригада"
+		type = infantry
+		home = 456
+	}
+}
+
+army = {
+	name = "Гарнизон Новой Франции"
+	location = 65
+	regiment = {
+		name= "1-я колониальная бригада"
+		type = irregular
+		home = 470
+	}
+	regiment = {
+		name= "2-я колониальная бригада"
+		type = irregular
+		home = 434
+	}
+	regiment = {
+		name= "3-я колониальная бригада"
+		type = infantry
+		home = 462
+	}
+	regiment = {
+		name= "4-я колониальная бригада"
+		type = irregular		home = 463
+	}
+	regiment = {
+		name= "5-я колониальная бригада"
+		type = infantry
+		home = 460
+	}
+	regiment = {
+		name= "6-я колониальная бригада"
+		type = infantry
+		home = 411
+	}
+}
+
+
+
+army = {
+	name = "Гарнизон Пондичерри"
+	location = 1312
+	regiment = {
+		name= "13-я колониальная бригада"
+		type = infantry
+		home = 440
+	}
+	regiment = {
+		name= "14-я колониальная бригада"
+		type = infantry
+		home = 440
+	}
+}
+
+navy = {
+	name = "1-я эскадра"
+	location = 420
+	ship = {
+		name= "Луи XIV"
+		type = manowar
+	}
+
+	ship = {
+		name= "Сюперб"
+		type = manowar
+	}
+
+	ship = {
+		name= "Жан Бар"
+		type = manowar
+	}
+
+	ship = {
+		name= "18 фрюктидора"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ваграм"
+		type = manowar
+	}
+
+	ship = {
+		name= "Трокадеро"
+		type = manowar
+	}
+
+	ship = {
+		name= "Зеландец"
+		type = manowar
+	}
+
+	ship = {
+		name= "Сюперб"
+		type = manowar
+	}
+
+	ship = {
+		name= "Аустерлиц"
+		type = manowar
+	}
+
+	ship = {
+		name= "Магнифик"
+		type = manowar
+	}
+
+	ship = {
+		name= "Репаблик Франсез"
+		type = manowar
+	}
+
+	ship = {
+		name= "Конкеран"
+		type = manowar
+	}
+
+	ship = {
+		name= "Нептюн"
+		type = manowar
+	}
+
+	ship = {
+		name= "Альжериса"
+		type = manowar
+	}
+
+	ship = {
+		name= "Нестор"
+		type = manowar
+	}
+	
+        ship = {
+		name= "Александр"
+		type = manowar
+	}
+
+	ship = {
+		name= "Принс Жером"
+		type = manowar
+	}
+
+	ship = {
+		name= "Тюренн"
+		type = manowar
+	}
+
+	ship = {
+		name= "Виль де Лион"
+		type = manowar
+	}
+
+	ship = {
+		name= "Сент-Луи"
+		type = manowar
+	}
+
+	ship = {
+		name= "Дюшес де Берри"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Фетида"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Амазон"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Клоринда"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Мавр"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Весталь"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Магисьен"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Мария Терезия"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Венюс"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Сирен"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Аталант"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Сюрвейлан"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Ифигения"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Сюлтан"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Гомер"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Или"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Помоне"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "3-я транспортная флотилия"
+		type = steam_transport
+	}
+
+}
+
+navy = {
+	name = "2-я эскадра"
+	location = 470
+	ship = {
+		name= "Луи XV"
+		type = manowar
+	}
+
+	ship = {
+		name= "Суверен"
+		type = manowar
+	}
+
+	ship = {
+		name= "Маренго"
+		type = manowar
+	}
+
+	ship = {
+		name= "Виль де Марсель"
+		type = manowar
+	}
+
+	ship = {
+		name= "Эркюль"
+		type = manowar
+	}
+
+	ship = {
+		name= "Монтебелло"
+		type = manowar
+	}
+
+	ship = {
+		name= "Центавр"
+		type = manowar
+	}
+
+	ship = {
+		name= "Юпитер"
+		type = manowar
+	}
+
+	ship = {
+		name= "Дюк д'Ангулем"
+		type = manowar
+	}
+
+	ship = {
+		name= "Эркюлес"
+		type = manowar
+	}
+
+	ship = {
+		name= "Женеро"
+		type = manowar
+	}
+
+	ship = {
+		name= "Диадема"
+		type = manowar
+	}
+
+	ship = {
+		name= "Куронн"
+		type = manowar
+	}
+
+	ship = {
+		name= "Сюффрен"
+		type = manowar
+	}
+
+	ship = {
+		name= "Триден"
+		type = manowar
+	}
+
+	ship = {
+		name= "Руаяль Луи"
+		type = manowar
+	}
+	ship = {
+		name= "Сюффрен"
+		type = manowar
+	}
+
+	ship = {
+		name= "Байярд"
+		type = manowar
+	}
+
+	ship = {
+		name= "Доминика"
+		type = manowar
+	}
+
+	ship = {
+		name= "Таже"
+		type = manowar
+	}
+
+	ship = {
+		name= "Терпсихора"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Артемида"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Бель Габриэль"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Дидон"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Каролина"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Эрминия"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Мельпомена"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Урания"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Андромеда"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Жанна д'Арк"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Бель Пуле"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Эригона"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Нереида"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Глуар"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Рейна Бланш"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Дофине"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "Лилль"
+		type = commerce_raider 
+	}
+
+	ship = {
+		name= "4-я транспортная флотилия"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "5-я транспортная флотилия"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "6-я транспортная флотилия"
+		type = steam_transport
+	}
+
+}
+

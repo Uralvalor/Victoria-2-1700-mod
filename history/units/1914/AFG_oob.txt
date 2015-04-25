@@ -1,0 +1,171 @@
+army = {
+	name = "Армия Шаха"
+	location = 1216
+	regiment = {
+		name= "1-й дурранийский отряд"
+		type = irregular
+		home = 1209
+	}
+
+	regiment = {
+		name= "2-й дурранийский отряд"
+		type = irregular
+		home = 1209
+	}
+
+	regiment = {
+		name= "3-й дурранийский отряд"
+		type = irregular
+		home = 1209
+	}
+
+	regiment = {
+		name= "4-й дурранийский отряд"
+		type = irregular
+		home = 1209
+	}
+
+	regiment = {
+		name= "5-й дурранийский отряд"
+		type = irregular
+		home = 1209
+	}
+
+	regiment = {
+		name= "1-й узбекский отряд"
+		type = irregular
+		home = 1209
+	}
+
+	regiment = {
+		name= "2-й узбекский отряд"
+		type = irregular
+		home = 1209
+	}
+
+	regiment = {
+		name= "1-й гильзайский отряд"
+		type = irregular
+		home = 1210
+	}
+
+	regiment = {
+		name= "2-й гильзайский отряд"
+		type = irregular
+		home = 1210
+	}
+
+	regiment = {
+		name= "3-й гильзайский отряд"
+		type = irregular
+		home = 1210
+	}
+
+	regiment = {
+		name= "1-й тайменский отряд"
+		type = irregular
+		home = 1210
+	}
+
+	regiment = {
+		name= "1-й туркменский отряд"
+		type = irregular
+		home = 1212
+	}
+
+	regiment = {
+		name= "1-й таджикский отряд"
+		type = irregular
+		home = 1212
+	}
+
+	regiment = {
+		name= "1-й фирузкухский отряд"
+		type = irregular
+		home = 1212
+	}
+
+	regiment = {
+		name= "1-й кохистанский отряд"
+		type = irregular
+		home = 1212
+	}
+
+	regiment = {
+		name= "2-й кохистанский отряд"
+		type = irregular
+		home = 1213
+	}
+
+	regiment = {
+		name= "1-й хазарейский отряд"
+		type = irregular
+		home = 1213
+	}
+
+	regiment = {
+		name= "1-й тюркский отряд"
+		type = irregular
+		home = 1213
+	}
+
+	regiment = {
+		name= "2-й тюркский отряд"
+		type = irregular
+		home = 1214
+	}
+
+	regiment = {
+		name= "1-й чараймакский отряд"
+		type = irregular
+		home = 1214
+	}
+
+	regiment = {
+		name= "1-й мунджанский отряд"
+		type = irregular
+		home = 1215
+	}
+
+}
+
+army = {
+	name = "Западная армия"
+	location = 1212
+	regiment = {
+		name= "1-й дурранийский отряд"
+		type = irregular
+		home = 1215
+	}
+
+	regiment = {
+		name= "2-й дурранийский отряд"
+		type = irregular
+		home = 1216
+	}
+
+	regiment = {
+		name= "3-й дурранийский отряд"
+		type = irregular
+		home = 1216
+	}
+
+	regiment = {
+		name= "4-й дурранийский отряд"
+		type = irregular
+		home = 1216
+	}
+
+	regiment = {
+		name= "5-й дурранийский отряд"
+		type = irregular
+		home = 1217
+	}
+
+	regiment = {
+		name= "1-й узбекский отряд"
+		type = irregular
+		home = 1211
+	}
+
+}

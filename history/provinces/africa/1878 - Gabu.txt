@@ -1,0 +1,11 @@
+owner = GBU
+controller = GBU
+add_core = GBU
+trade_goods = grain
+life_rating = 15
+terrain = seasonal_jungle
+1914.1.1 = {
+	owner = POR
+	controller = POR
+	colonial = 3
+}

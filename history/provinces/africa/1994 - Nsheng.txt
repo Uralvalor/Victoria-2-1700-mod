@@ -1,0 +1,13 @@
+owner = KUB
+controller = KUB
+add_core = KUB
+add_core = LUN
+trade_goods = grain
+life_rating = 15
+terrain = jungle
+1914.1.1 = {
+	owner = BEL
+	controller = BEL
+	add_core = CNG
+	colonial = 3
+}

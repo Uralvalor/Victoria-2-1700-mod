@@ -1,0 +1,23 @@
+army = {
+	name = "Ejército del Uruguay"
+	location = 2344
+	regiment = {
+		name= "1. División de Infantería"
+		type = infantry
+		home = 2344
+	}
+
+	regiment = {
+		name= "2. División de Infantería"
+		type = infantry
+		home = 2345
+	}
+
+	regiment = {
+		name= "3. División de Infantería"
+		type = infantry
+		home = 2347
+	}
+
+}
+

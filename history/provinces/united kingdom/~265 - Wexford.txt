@@ -1,0 +1,11 @@
+owner = ENL
+controller = ENL
+add_core = IRE
+trade_goods = fish
+life_rating = 35
+terrain = hilly_farmland
+1914.1.1 = { railroad = 5 }
+1923.1.1 = {
+	owner = IRE
+	controller = IRE
+}

@@ -1,0 +1,78 @@
+leader = {
+	name = "Александр Годли"
+	type = land
+	date="1914.1.1"
+	personality = hellbent
+	background = disgraced
+	picture="personal_alexander_godley"
+}
+
+army = {
+	name = "Регулярная Армия"
+	location = 2509
+	regiment = {
+		name = "1-я пехотная дивизия"
+		type = infantry
+		home = 2509
+	}
+	regiment = {
+		name = "2-я пехотная дивизия"
+		type = infantry
+		home = 2509
+	}
+	regiment = {
+		name = "3-я пехотная дивизия"
+		type = infantry
+		home = 2510
+	}
+	regiment = {
+		name = "4-я пехотная дивизия"
+		type = infantry
+		home = 2511
+	}
+	regiment = {
+		name = "5-я пехотная дивизия"
+		type = infantry
+		home = 2512
+	}
+	regiment = {
+		name = "6-я пехотная дивизия"
+		type = infantry
+		home = 2513
+	}
+	regiment = {
+		name = "1-я пехотная дивизия"
+		type = artillery
+		home = 2515
+	}
+	regiment = {
+		name = "7-я пехотная дивизия"
+		type = infantry
+		home = 2516
+	}
+	regiment = {
+		name = "Артиллерийская дивизия"
+		type = artillery
+		home = 2571
+	}
+}
+navy = {
+	name = "Новозеланский флот"
+	location = 2509
+	ship = {
+		name = "Аякс"
+		type = cruiser
+	}
+	ship = {
+		name = "Линдер"
+		type = cruiser
+	}
+}
+navy = {
+	name = "1-я Транспортная Эскадра"
+	location = 2509
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = steam_transport
+	}
+}

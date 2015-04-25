@@ -1,0 +1,38 @@
+#Liechtenstein
+3265 = {
+	aristocrats = {
+		culture = south_german
+		religion = catholic
+		size = 70 
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = catholic
+		size = 50 
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 350
+	}
+
+	soldiers = {
+		culture = south_german
+		religion = catholic
+		size = 130 
+	}
+
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 1680
+	}
+
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 370
+	}
+}

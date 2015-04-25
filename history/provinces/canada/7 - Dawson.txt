@@ -1,0 +1,15 @@
+add_core = CAN
+trade_goods = fish
+life_rating = 15
+terrain = boreal_forest
+1861.1.1 = {
+	 
+	 
+	colonial = 2
+}
+1914.1.1 = {
+	owner = CAN
+	controller = CAN
+	colonial = no
+	trade_goods = precious_metal
+}

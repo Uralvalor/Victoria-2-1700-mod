@@ -1,0 +1,20 @@
+owner = SPA
+controller = SPA
+add_core = UCA
+add_core = GUA
+colonial = 2
+add_core = MEX
+trade_goods = fruit
+life_rating = 30
+terrain = jungle_mountains
+1836.1.1 = {
+	remove_core = SPA
+	owner = UCA
+	controller = UCA
+	remove_core = MEX
+}
+1861.1.1 = {
+	owner = GUA
+	controller = GUA
+	remove_core = UCA
+}

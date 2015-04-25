@@ -1,0 +1,180 @@
+leader = {
+	name = "Джон Монаш"
+	type = land
+	date="1914.1.1"
+	personality = harsh
+	background = rising_star
+	picture="personal_john_monash"
+}
+
+leader = {
+	name = "Бруденель Уайт"
+	type = land
+	date="1914.1.1"
+	personality = charismatic
+	background = gifted_administrator
+	picture="personal_brudenell_white"
+}
+
+leader = {
+	name = "Гарри Чавел"
+	type = land
+	date="1914.1.1"
+	personality = brash
+	background = school_of_the_bayonet
+	picture="personal_harry_chauvel"
+}
+
+army = {
+	name = "Регулярная армия"
+	location = 2468
+	regiment = {
+		name= "1-я пех. дивизия"
+		type = infantry
+		home = 2468
+	}
+
+	regiment = {
+		name= "2-я пех. дивизия"
+		type = infantry
+		home = 2468
+	}
+
+	regiment = {
+		name= "3-я пех. дивизия"
+		type = infantry
+		home = 2468
+	}
+
+	regiment = {
+		name= "4-я пех. дивизия"
+		type = infantry
+		home = 2468
+	}
+
+	regiment = {
+		name= "5-я пех. дивизия"
+		type = infantry
+		home = 2468
+	}
+
+	regiment = {
+		name= "6-я пех. дивизия"
+		type = infantry
+		home = 2468
+	}
+
+	regiment = {
+		name= "7-я пех. дивизия"
+		type = infantry
+		home = 2468
+	}
+
+	regiment = {
+		name= "8-я пех. дивизия"
+		type = infantry
+		home = 2469
+	}
+
+	regiment = {
+		name= "9-я пех. дивизия"
+		type = infantry
+		home = 2470
+	}
+
+	regiment = {
+		name= "10-я пех. дивизия"
+		type = infantry
+		home = 2472
+	}
+
+	regiment = {
+		name= "11-я пех. дивизия"
+		type = infantry
+		home = 2476
+	}
+
+	regiment = {
+		name= "12-я пех. дивизия"
+		type = infantry
+		home = 2476
+	}
+
+	regiment = {
+		name= "13-я пех. дивизия"
+		type = artillery
+		home = 2476
+	}
+
+	regiment = {
+		name= "14-я пех. дивизия"
+		type = artillery
+		home = 2482
+	}
+
+	regiment = {
+		name= "1-я арт. дивизия"
+		type = artillery
+		home = 2483
+	}
+
+	regiment = {
+		name= "2-я арт. дивизия"
+		type = artillery
+		home = 2491
+	}
+}
+
+navy = {
+	name = "Австралийский флот"
+	location = 829
+	ship = {
+		name = "Австралия"
+		type = cruiser
+	}
+	ship = {
+		name = "Мельбурн"
+		type = cruiser
+	}
+	ship = {
+		name = "Протектор"
+		type = cruiser
+	}
+	ship = {
+		name = "Брисбейн"
+		type = cruiser
+	}
+	ship = {
+		name = "Энкаунтер"
+		type = cruiser
+	}
+}
+navy = {
+	name = "1-я Транспортная Эскадра"
+	location = 2468
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "3-я транспортная флотилия"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "4-я транспортная флотилия"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "5-я транспортная флотилия"
+		type = steam_transport
+	}
+
+}

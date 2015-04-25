@@ -1,0 +1,12 @@
+owner = BUN
+controller = BUN
+add_core = BUN
+add_core = HND
+trade_goods = tea
+life_rating = 35
+terrain = hilly_farmland
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 3
+}

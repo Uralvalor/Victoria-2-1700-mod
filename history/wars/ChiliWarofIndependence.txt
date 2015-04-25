@@ -1,0 +1,27 @@
+name = "Чилийская война за независимость"
+1810.1.1 = {
+	add_attacker = CHL
+	add_defender = SPA
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = become_independent
+		actor = CHL
+		receiver = SPA
+	}
+	war_goal = {
+		casus_belli = conquest
+		actor = SPA
+		receiver = CHL
+	}
+
+}
+
+1820.1.1 = {
+	rem_attacker = CHL
+	rem_defender = SPA
+}

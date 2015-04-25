@@ -1,0 +1,181 @@
+army = {
+	name = "Армия Перу"
+	location = 2295
+	regiment = {
+		name= "1-я пехотная дивизия"
+		type = infantry
+		home = 2286
+	}
+
+	regiment = {
+		name= "2-я пехотная дивизия"
+		type = infantry
+		home = 2290
+	}
+
+	regiment = {
+		name= "3-я пехотная дивизия"
+		type = infantry
+		home = 2290
+	}
+	
+	regiment = {
+		name= "4-я пехотная дивизия"
+		type = infantry
+		home = 2290
+	}
+
+	regiment = {
+		name= "5-я пехотная дивизия"
+		type = infantry
+		home = 2291
+	}
+
+	regiment = {
+		name= "6-я пехотная дивизия"
+		type = infantry
+		home = 2292
+	}
+
+	regiment = {
+		name= "7-я пехотная дивизия"
+		type = infantry
+		home = 2295
+	}
+
+	regiment = {
+		name= "8-я пехотная дивизия"
+		type = infantry
+		home = 2295
+	}
+
+	regiment = {
+		name= "9-я пехотная дивизия"
+		type = infantry
+		home = 2295
+	}
+
+	regiment = {
+		name= "10-я пехотная дивизия"
+		type = infantry
+		home = 2295
+	}
+
+}
+army = {
+	name = "Армия Перу"
+	location = 2295
+	regiment = {
+		name= "11-я пехотная дивизия"
+		type = infantry
+		home = 2296
+	}
+
+	regiment = {
+		name= "12-я пехотная дивизия"
+		type = infantry
+		home = 2298
+	}
+
+	regiment = {
+		name= "13-я пехотная дивизия"
+		type = infantry
+		home = 2299
+	}
+	
+	regiment = {
+		name= "14-я пехотная дивизия"
+		type = infantry
+		home = 2302
+	}
+
+	regiment = {
+		name= "15-я пехотная дивизия"
+		type = infantry
+		home = 2302
+	}
+
+	regiment = {
+		name= "16-я пехотная дивизия"
+		type = infantry
+		home = 2302
+	}
+
+	regiment = {
+		name= "17-я пехотная дивизия"
+		type = infantry
+		home = 2303
+	}
+
+	regiment = {
+		name= "18-я пехотная дивизия"
+		type = infantry
+		home = 2304
+	}
+
+	regiment = {
+		name= "19-я пехотная дивизия"
+		type = infantry
+		home = 2207
+	}
+
+	regiment = {
+		name= "20-я пехотная дивизия"
+		type = infantry
+		home = 2578
+	}
+
+}
+
+
+navy = {
+	name = "Флот Перу"
+	location = 2295
+	ship = {
+		name= "Амазонас"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Апуримак"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Генерал Лерзунди"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Укаяли"
+		type = commerce_raider
+	}
+
+}
+
+navy = {
+	name = "Транспортная Эксадра"
+	location = 2295
+	ship = {
+		name= "1я-транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "2я-транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "3я-транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "4я-транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "5я-транспортная флотилия"
+		type = steam_transport
+	}
+
+}
+

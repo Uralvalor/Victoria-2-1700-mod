@@ -1,0 +1,17 @@
+add_core = CHI
+colonial = 2
+add_core = GXI
+trade_goods = cotton
+life_rating = 35
+terrain = deciduous_forest_mountains
+owner = MCK
+controller = MCK
+1914.1.1 = {
+	owner = MCK
+	controller = MCK
+}
+1923.1.1 = {
+	owner = GXI
+	controller = GXI
+	add_core = GXI
+}

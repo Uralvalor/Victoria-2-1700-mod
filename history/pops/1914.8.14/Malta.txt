@@ -1,0 +1,47 @@
+854 = {
+	bureaucrats = {
+		culture = english
+		religion = protestant
+		size = 75
+	}
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 750
+	}
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 225
+	}
+	aristocrats = {
+		culture = maltese
+		religion = catholic
+		size = 200
+	}
+	bureaucrats = {
+		culture = maltese
+		religion = catholic
+		size = 15
+	}
+	clergymen = {
+		culture = maltese
+		religion = catholic
+		size = 412
+	}
+	artisans = {
+		culture = maltese
+		religion = catholic
+		size = 12000
+	}
+	soldiers = {
+		culture = maltese
+		religion = catholic
+		size = 510
+	}
+	farmers = {
+		culture = maltese
+		religion = catholic
+		size = 30712
+	}
+}

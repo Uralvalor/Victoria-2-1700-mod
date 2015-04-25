@@ -1,0 +1,11 @@
+owner = KON
+controller = KON
+add_core = KON
+trade_goods = fruit
+life_rating = 15
+terrain = jungle_farmland
+1914.1.1 = {
+	owner = POR
+	controller = POR
+	colonial = 3
+}

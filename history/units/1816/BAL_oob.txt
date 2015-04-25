@@ -1,0 +1,15 @@
+army = {
+	name = "Армия короля Бали"
+	location = 1438
+	regiment = {
+		name= "1.Karangasem Militia"
+		type = irregular
+		home = 1438
+	}
+
+	regiment = {
+		name= "2.Karangasem Militia"
+		type = irregular
+		home = 1438
+	}
+}

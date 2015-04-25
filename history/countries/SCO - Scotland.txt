@@ -1,0 +1,58 @@
+capital = 269
+primary_culture = scottish
+religion = protestant
+government = hms_government
+plurality = 0.1
+nationalvalue = nv_order
+literacy = 0.55
+civilized = yes
+
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = wealth_voting
+public_meetings = yes_meeting
+press_rights = censored_press
+trade_unions = non_socialist
+voting_system = first_past_the_post
+political_parties = non_secret_ballots
+minorities = apartheid 
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = trinket_health_care
+unemployment_subsidies = trinket_subsidies
+pensions = no_pensions
+school_reforms = low_schools
+
+
+
+water_wheel_power = 1	
+nelsonian_thought = 1
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+military_staff_system = 1
+clipper_design = 1
+mechanized_mining = 1
+ 
+
+
+ruling_party = SCO_reactionary
+upper_house = {
+	fascist = 1
+	liberal = 59
+	reactionary = 29
+	reactionary = 12
+	 
+	socialist = 0
+	communist = 0
+}
+
+1861.1.1 = {
+# Technologies
+
+#Inventions
+}

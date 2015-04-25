@@ -1,0 +1,18 @@
+ 
+ 
+ 
+trade_goods = grain
+life_rating = 35
+terrain = floodplain_farmland
+1861.1.1 = {
+	controller = CSA
+	owner = CSA
+	add_core = CSA
+}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	railroad = 5
+	 
+	 
+	remove_core = CSA
+}

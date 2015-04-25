@@ -1,0 +1,25 @@
+name = "Русско-Турецкая война"
+
+1689.1.1 = {
+	add_attacker = RUS
+	add_defender = TUR
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	
+	war_goal = {
+		casus_belli = acquire_state
+		actor = RUS
+		receiver = TUR
+		state_province_id = 1047
+	}
+
+}
+
+1700.6.6 = {
+	rem_attacker = RUS
+	rem_defender = TUR
+}

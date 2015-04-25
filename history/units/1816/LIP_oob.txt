@@ -1,0 +1,9 @@
+army = {
+	name = "Армия Липпе"
+	location = 585
+	regiment = {
+		name= "1. Lippische Infanterie-Brigade"
+		type = infantry
+		home = 585
+	}	            
+}

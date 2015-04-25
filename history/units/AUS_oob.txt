@@ -1,0 +1,337 @@
+leader = {
+	name = "Prince Eugene of Savoy"
+	date = 1690.1.1
+	type = land
+	personality = daring
+	background = rising_star
+}
+
+leader = {
+	name = "Louis-William of Baden"
+	date = 1690.1.1
+	type = land
+	personality = competent
+	background = aristocrat
+}
+
+leader = {
+	name = "Count Guido of Starhemberg"
+	date = 1690.1.1
+	type = land
+	personality = mediocre
+	background = aristocrat
+}
+
+
+#Sphere of Influence
+
+
+BAV = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+
+SAL = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+
+WUR = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+BAD = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+PAL = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+TRR = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+LUX = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+NAS = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+COB = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+HEK = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+MEI = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+WEI = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+SAX = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+PRU = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+ANH = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+HAN = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+CLN = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+MUN = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+LIP = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+OLD = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+HAM = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+MEC = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+LUB = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+HOL = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+LOR = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+BRA = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+HES = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+FRM = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+SAL = {
+	value = 125
+	level = 5
+	influence_value = 200
+}
+
+
+navy = {
+	name = "Austrian Imperial Navy"
+	location = 736
+	ship = {
+		name= "1. Klipperflottille"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2. Klipperflottille"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3. Klipperflottille"
+		type = clipper_transport
+	}
+
+}
+
+
+army = {
+	name = "Cavalry of Austria"
+	location = 619
+	regiment = {
+		name= "1st Artillery"
+		type = artillery
+		home = 619
+	}
+	regiment = {
+		name= "2st Artillery"
+		type = artillery
+		home = 619
+	}
+	regiment = {
+		name= "3st Artillery"
+		type = artillery
+		home = 619
+	}
+	regiment = {
+		name= "1th Engineers"
+		type = engineer
+		home = 619
+	}
+	regiment = {
+		name= "2th Line"
+		type = cuirassier
+		home = 619
+	}
+	regiment = {
+		name= "3th Line"
+		type = cuirassier
+		home = 619
+	}
+	regiment = {
+		name= "4th Line"
+		type = cuirassier
+		home = 619
+	}
+		regiment = {
+		name= "5th Line"
+		type = cuirassier
+		home = 619
+	}
+	regiment = {
+		name= "6th Line"
+		type = cuirassier
+		home = 619
+	}
+	regiment = {
+		name= "7th Line"
+		type = cavalry
+		home = 619
+	}
+		regiment = {
+		name= "8th Line"
+		type = cavalry
+		home = 619
+	}
+	regiment = {
+		name= "9th Line"
+		type = cavalry
+		home = 619
+	}
+	regiment = {
+		name= "10th Line"
+		type = cavalry
+		home = 619
+	}
+		regiment = {
+		name= "11th Line"
+		type = cavalry
+		home = 619
+	}
+}
+army = {
+	name = "Infantry of Austria"
+	location = 625
+	regiment = {
+		name= "12th Line"
+		type = infantry
+		home = 619
+	}
+	regiment = {
+		name= "13th Line"
+		type = infantry
+		home = 619
+	}
+	regiment = {
+		name= "14th Line"
+		type = infantry
+		home = 619
+	}    
+		regiment = {
+		name= "15th Line"
+		type = infantry
+		home = 619
+	}
+	regiment = {
+		name= "17th Line"
+		type = infantry
+		home = 619
+	}
+	regiment = {
+		name= "18th Line"
+		type = infantry
+		home = 619
+	}    
+	regiment = {
+		name= "19th Line"
+		type = infantry
+		home = 619
+	} 
+	regiment = {
+		name= "20th Line"
+		type = infantry
+		home = 619
+	}    
+	regiment = {
+		name= "21th Line"
+		type = infantry
+		home = 619
+	}  
+ 	regiment = {
+		name= "22th Line"
+		type = infantry
+		home = 619
+	} 
+	regiment = {
+		name= "23th Line"
+		type = infantry
+		home = 619
+	}    
+	regiment = {
+		name= "24th Line"
+		type = infantry
+		home = 619
+	}       
+}
+

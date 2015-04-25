@@ -1,0 +1,105 @@
+army = {
+	name = "1я-филиппинская армия"
+	location = 1455
+	regiment = {
+		name= "1-я пехотная дивизия"
+		type = irregular
+		home = 1455
+	}
+
+	regiment = {
+		name= "2-я пехотная дивизия"
+		type = irregular
+		home = 1455
+	}
+
+	regiment = {
+		name= "3-я пехотная дивизия"
+		type = irregular
+		home = 1455
+	}
+
+	regiment = {
+		name= "4-я пехотная дивизия"
+		type = irregular
+		home = 1455
+	}
+
+	regiment = {
+		name= "5-я пехотная дивизия"
+		type = infantry
+		home = 1455
+	}
+
+	regiment = {
+		name= "6-я пехотная дивизия"
+		type = infantry
+		home = 1456
+	}
+
+	regiment = {
+		name= "7-я пехотная дивизия"
+		type = infantry
+		home = 1456
+	}
+
+	regiment = {
+		name= "8-я пехотная дивизия"
+		type = infantry
+		home = 1457
+	}
+
+}
+
+army = {
+	name = "2я-филиппинская армия"
+	location = 1463
+	regiment = {
+		name= "9-я пехотная дивизия"
+		type = irregular
+		home = 1457
+	}
+
+	regiment = {
+		name= "10-я пехотная дивизия"
+		type = irregular
+		home = 1458
+	}
+
+	regiment = {
+		name= "11-я пехотная дивизия"
+		type = irregular
+		home = 1460
+	}
+
+	regiment = {
+		name= "12-я пехотная дивизия"
+		type = irregular
+		home = 1461
+	}
+
+	regiment = {
+		name= "13-я пехотная дивизия"
+		type = infantry
+		home = 1462
+	}
+
+	regiment = {
+		name= "14-я пехотная дивизия"
+		type = infantry
+		home = 1463
+	}
+
+	regiment = {
+		name= "15-я пехотная дивизия"
+		type = infantry
+		home = 1463
+	}
+
+	regiment = {
+		name= "16-я пехотная дивизия"
+		type = infantry
+		home = 2565
+	}
+
+}

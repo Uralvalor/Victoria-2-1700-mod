@@ -1,0 +1,13 @@
+owner = SUL
+controller = SUL
+add_core = MLY
+add_core = SUL
+trade_goods = grain
+life_rating = 15
+terrain = jungle_farmland
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 3
+	trade_goods = oil
+}

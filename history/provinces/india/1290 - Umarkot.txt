@@ -1,0 +1,21 @@
+owner = MUG
+controller = MUG
+add_core = SIN
+add_core = HND
+trade_goods = tea
+life_rating = 35
+terrain = floodplain_farmland
+1750.1.1 = {
+	owner = SIN
+	controller = SIN
+}
+1861.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 2
+}
+1914.1.1 = {
+	add_core = PAK
+	remove_core = HND
+	colonial = 3
+}

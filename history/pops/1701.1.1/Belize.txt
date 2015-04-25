@@ -1,0 +1,35 @@
+#Guatemala Region (7200)
+#Ruled by Britain 1836
+#Belize (7200/1800 POPS)
+2190 = {
+	artisans = {
+		culture = spanish
+		religion = catholic
+		size = 16
+	}
+
+	clergymen = {
+		culture = spanish
+		religion = catholic
+		size = 10
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = catholic
+		size = 650
+	}
+
+	soldiers = {
+		culture = spanish
+		religion = catholic
+		size = 7
+	}
+
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 1073
+	}
+
+}

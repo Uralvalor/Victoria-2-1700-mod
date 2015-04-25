@@ -1,0 +1,23 @@
+
+add_core = BRZ
+trade_goods = tobacco
+life_rating = 35
+terrain = hilly_farmland
+1750.1.1 = {
+	owner = POR
+	controller = POR
+colony = 2
+}
+1836.1.1 = {
+	owner = BRZ
+	controller = BRZ
+	remove_core = POR
+	colonial = no
+}
+1914.1.1 = {
+	state_building = {
+		level = 1
+		building = steamer_shipyard
+		upgrade = yes
+	}
+}

@@ -1,0 +1,19 @@
+owner = SWE
+controller = SWE
+add_core = SWE
+add_core = SCA
+trade_goods = fish
+life_rating = 35
+naval_base = 1
+terrain = deciduous_forest_hills
+#state_building = {
+#	level = 1
+#	building = canned_food_factory
+#	upgrade = yes
+#}
+#state_building = {
+#	level = 1
+#	building = paper_mill
+#	upgrade = yes
+#}
+1914.1.1 = { railroad = 3 }

@@ -1,0 +1,22 @@
+
+ 
+trade_goods = cotton
+life_rating = 35
+terrain = forested_farmland
+1750.1.1 = {
+	owner = FRA
+	controller = FRA
+colony = 2
+}
+1861.1.1 = {
+	controller = CSA
+	owner = CSA
+	add_core = CSA
+}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	railroad = 5
+	 
+	 
+	remove_core = CSA
+}

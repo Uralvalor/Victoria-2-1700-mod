@@ -1,0 +1,57 @@
+1876 = {
+	aristocrats = {
+		culture = portuguese
+		religion = catholic
+		size = 110
+	}
+	clergymen = {
+		culture = portuguese
+		religion = catholic
+		size = 82
+	}
+	bureaucrats = {
+		culture = portuguese
+		religion = catholic
+		size = 40
+	}
+	artisans = {
+		culture = portuguese
+		religion = catholic
+		size = 412
+	}
+	soldiers = {
+		culture = portuguese
+		religion = catholic
+		size = 40
+	}
+	farmers = {
+		culture = portuguese
+		religion = catholic
+		size = 165
+	}
+	clergymen = {
+		culture = african_minor
+		religion = catholic
+		size = 247
+	}
+	artisans = {
+		culture = african_minor
+		religion = catholic
+		size = 1155
+	}
+	soldiers = {
+		culture = african_minor
+		religion = catholic
+		size = 247
+	}
+	farmers = {
+		culture = african_minor
+		religion = catholic
+		size = 22275
+	}
+	slaves = {
+		culture = african_minor
+		religion = catholic
+		size = 4400
+	}
+}

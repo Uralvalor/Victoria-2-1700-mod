@@ -1,0 +1,35 @@
+army = {
+	name = "јрми€ √аити"
+	location = 2213
+	regiment = {
+		name= "1-€ пехотна€ дивизи€"
+		type = infantry
+		home = 2213
+	}
+
+	regiment = {
+		name= "2-€ пехотна€ дивизи€"
+		type = infantry
+		home = 2213
+	}
+
+	regiment = {
+		name= "3-€ пехотна€ дивизи€"
+		type = infantry
+		home = 2213
+	}
+
+	regiment = {
+		name= "4-€ пехотна€ дивизи€"
+		type = infantry
+		home = 2215
+	}
+
+	regiment = {
+		name= "5-€ пехотна€ дивизи€"
+		type = infantry
+		home = 2215
+	}
+
+}
+

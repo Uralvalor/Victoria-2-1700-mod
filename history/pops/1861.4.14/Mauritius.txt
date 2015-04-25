@@ -1,0 +1,97 @@
+#Mauritius - 98700
+#ruled by Britain 1836
+#Mauritius (98000/24500 POPS)
+2125 = {
+	bureaucrats = {
+		culture = english
+		religion = protestant
+		size = 20.6
+	}
+
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 25.75
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 133.9
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 25.75
+	}
+
+	aristocrats = {
+		culture = french
+		religion = catholic
+		size = 51.5
+	}
+
+	bureaucrats = {
+		culture = french
+		religion = catholic
+		size = 30.900000000000002
+	}
+
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 185.4
+	}
+
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 20.6
+	}
+
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 20.6
+	}
+
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 206.0
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = protestant
+		size = 128.75
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = protestant
+		size = 1030.0
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = protestant
+		size = 257.5
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = catholic
+		size = 23046.25
+	}
+}
+#Diego Garcia (700/175 POPS) #remains under english Rule
+2128 = {
+	farmers = {
+		culture = african_minor
+		religion = catholic
+		size = 180.25
+	}
+
+}

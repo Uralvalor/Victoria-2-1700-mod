@@ -1,0 +1,86 @@
+army = {
+	name = "Имперская армия"
+	location = 1624
+	regiment = {
+		name= "1-я гвардейская бригада"
+		type = irregular
+		home = 1624
+	}
+
+	regiment = {
+		name= "2-я гвардейская бригада"
+		type = irregular
+		home = 1636
+	}
+
+	regiment = {
+		name= "3-я гвардейская бригада"
+		type = irregular
+		home = 1628
+	}
+
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = irregular
+		home = 1633
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = irregular
+		home = 1629
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = irregular
+		home = 1627
+	}
+
+}
+
+army = {
+	name = "Северная армия"
+	location = 1623
+	regiment = {
+		name= "4-я пехотная бригада"
+		type = irregular
+		home = 1619
+	}
+
+	regiment = {
+		name= "5-я пехотная бригада"
+		type = irregular
+		home = 1620
+	}
+
+	regiment = {
+		name= "6-я пехотная бригада"
+		type = irregular
+		home = 1622
+	}
+
+}
+
+army = {
+	name = "Южная армия"
+	location = 1634
+	regiment = {
+		name= "7-я пехотная бригада"
+		type = irregular
+		home = 1632
+	}
+
+	regiment = {
+		name= "8-я пехотная бригада"
+		type = irregular
+		home = 1635
+	}
+
+	regiment = {
+		name= "9-я пехотная бригада"
+		type = irregular
+		home = 1634
+	}
+
+}

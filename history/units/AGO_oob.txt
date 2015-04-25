@@ -1,0 +1,27 @@
+army = {
+	name = "Army of Arafon"
+	location = 503
+	regiment = {
+		name= "1.Guard"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name= "2.Guard"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name= "3.Guard"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name= "4.Guard"
+		type = infantry
+		home = 926
+	}
+}

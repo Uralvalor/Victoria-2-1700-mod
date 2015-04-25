@@ -1,0 +1,142 @@
+
+army = {
+	name = "Армия Императора Эфиопии"
+	location = 1854
+	regiment = {
+		name= "1st 'Galla' Division"
+		type = irregular
+		home = 1852
+	}
+
+	regiment = {
+		name= "2nd 'Galla' Division"
+		type = irregular
+		home = 1853
+	}
+
+	regiment = {
+		name= "3rd 'Galla' Division"
+		type = irregular
+		home = 1853
+	}
+
+	regiment = {
+		name= "4nd 'Galla' Division"
+		type = irregular
+		home = 1854
+	}
+
+	regiment = {
+		name= "5rd 'Galla' Division"
+		type = irregular
+		home = 1855
+	}
+
+	regiment = {
+		name= "6nd 'Galla' Division"
+		type = irregular
+		home = 1864
+	}
+
+	regiment = {
+		name= "7rd 'Galla' Division"
+		type = irregular
+		home = 1867
+	}
+
+}
+
+army = {
+	name = "Army of the Ras of Tigre"
+	location = 1855
+	regiment = {
+		name= "1st 'Wolla' Division"
+		type = irregular
+		home = 1855
+	}
+
+	regiment = {
+		name= "2nd 'Wolla' Division"
+		type = irregular
+		home = 1855
+	}
+
+	regiment = {
+		name= "3rd 'Wolla' Division"
+		type = irregular
+		home = 1856
+	}
+
+	regiment = {
+		name= "4nd 'Wolla' Division"
+		type = irregular
+		home = 1857
+	}
+
+	regiment = {
+		name= "5nd 'Wolla' Division"
+		type = irregular
+		home = 1859
+	}
+
+	regiment = {
+		name= "6nd 'Wolla' Division"
+		type = irregular
+		home = 1862
+	}
+
+	regiment = {
+		name= "7nd 'Wolla' Division"
+		type = irregular
+		home = 1863
+	}
+
+}
+
+army = {
+	name = "Army of the Ras of Shoa"
+	location = 1861
+	regiment = {
+		name= "1st 'Shoa' Division"
+		type = irregular
+		home = 1859
+	}
+
+	regiment = {
+		name= "2nd 'Shoa' Division"
+		type = irregular
+		home = 1859
+	}
+
+	regiment = {
+		name= "3rd 'Shoa' Division"
+		type = irregular
+		home = 1859
+	}
+
+	regiment = {
+		name= "4nd 'Shoa' Division"
+		type = irregular
+		home = 1859
+	}
+
+	regiment = {
+		name= "5rd 'Shoa' Division"
+		type = irregular
+		home = 1859
+	}
+
+	regiment = {
+		name= "6rd 'Shoa' Division"
+		type = irregular
+		home = 1859
+	}
+
+	regiment = {
+		name= "7rd 'Shoa' Division"
+		type = irregular
+		home = 1860
+	}
+
+}
+

@@ -1,0 +1,23 @@
+army = {
+	name = "Армия раджи Бастара"
+	location = 1279
+	regiment = {
+		name= "1.Jagdaipur Contingent"
+		type = irregular
+		home = 1279
+	}
+
+	regiment = {
+		name= "2.Jagdaipur Contingent"
+		type = irregular
+		home = 1279
+	}
+
+	regiment = {
+		name= "3.Jagdaipur Contingent"
+		type = irregular
+		home = 1279
+	}
+
+}
+

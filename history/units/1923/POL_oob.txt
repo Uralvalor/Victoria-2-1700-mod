@@ -1,0 +1,448 @@
+ROM = {
+	truce_until = 1928.5.1
+}
+
+army = {
+	name = "1-я Дивизия"
+	location = 706
+	regiment = {
+		name= "1-й полк"
+		type = infantry
+		home = 360
+	}
+
+	regiment = {
+		name= "2-й полк"
+		type = infantry
+		home = 699
+	}
+
+	regiment = {
+		name= "3-й полк"
+		type = infantry
+		home = 699
+	}
+
+	regiment = {
+		name= "4-й полк"
+		type = infantry
+		home = 699
+	}
+
+	regiment = {
+		name= "5-й полк"
+		type = infantry
+		home = 700
+	}
+
+	regiment = {
+		name= "6-й полк"
+		type = infantry
+		home = 701
+	}
+
+	regiment = {
+		name= "7-й полк"
+		type = infantry
+		home = 701
+	}
+
+	regiment = {
+		name= "8-й полк"
+		type = infantry
+		home = 701
+	}
+
+	regiment = {
+		name= "9-й полк"
+		type = infantry
+		home = 702
+	}
+
+	regiment = {
+		name= "10-й полк"
+		type = infantry
+		home = 702
+	}
+
+	regiment = {
+		name= "11-й полк"
+		type = artillery
+		home = 702
+	}
+
+	regiment = {
+		name= "12-й полк"
+		type = artillery
+		home = 702
+	}
+
+	regiment = {
+		name= "13-й полк"
+		type = artillery
+		home = 702
+	}
+
+	regiment = {
+		name= "14-й полк"
+		type = artillery
+		home = 703
+	}
+
+	regiment = {
+		name= "15-й полк"
+		type = hussar
+		home = 703
+	}
+
+	regiment = {
+		name= "16-й полк"
+		type = hussar
+		home = 703
+	}
+
+	regiment = {
+		name= "17-й полк"
+		type = hussar
+		home = 704
+	}
+
+	regiment = {
+		name= "18-й полк"
+		type = hussar
+		home = 704
+	}
+}
+army = {
+	name = "2-я Дивизия"
+	location = 947
+	regiment = {
+		name= "1-й полк"
+		type = infantry
+		home = 704
+	}
+
+	regiment = {
+		name= "2-й полк"
+		type = infantry
+		home = 705
+	}
+
+	regiment = {
+		name= "3-й полк"
+		type = infantry
+		home = 705
+	}
+
+	regiment = {
+		name= "4-й полк"
+		type = infantry
+		home = 705
+	}
+
+	regiment = {
+		name= "5-й полк"
+		type = infantry
+		home = 705
+	}
+
+	regiment = {
+		name= "6-й полк"
+		type = infantry
+		home = 706
+	}
+
+	regiment = {
+		name= "7-й полк"
+		type = infantry
+		home = 706
+	}
+
+	regiment = {
+		name= "8-й полк"
+		type = infantry
+		home = 706
+	}
+
+	regiment = {
+		name= "9-й полк"
+		type = infantry
+		home = 706
+	}
+
+	regiment = {
+		name= "10-й полк"
+		type = infantry
+		home = 707
+	}
+
+	regiment = {
+		name= "11-й полк"
+		type = artillery
+		home = 708
+	}
+
+	regiment = {
+		name= "12-й полк"
+		type = artillery
+		home = 708
+	}
+
+	regiment = {
+		name= "13-й полк"
+		type = artillery
+		home = 710
+	}
+
+	regiment = {
+		name= "14-й полк"
+		type = artillery
+		home = 710
+	}
+
+	regiment = {
+		name= "15-й полк"
+		type = hussar
+		home = 711
+	}
+
+	regiment = {
+		name= "16-й полк"
+		type = hussar
+		home = 711
+	}
+
+	regiment = {
+		name= "17-й полк"
+		type = hussar
+		home = 711
+	}
+
+	regiment = {
+		name= "18-й полк"
+		type = hussar
+		home = 712
+	}
+}
+army = {
+	name = "3-я Дивизия"
+	location = 940
+	regiment = {
+		name= "1-й полк"
+		type = infantry
+		home = 713
+	}
+
+	regiment = {
+		name= "2-й полк"
+		type = infantry
+		home = 713
+	}
+
+	regiment = {
+		name= "3-й полк"
+		type = infantry
+		home = 713
+	}
+
+	regiment = {
+		name= "4-й полк"
+		type = infantry
+		home = 714
+	}
+
+	regiment = {
+		name= "5-й полк"
+		type = infantry
+		home = 714
+	}
+
+	regiment = {
+		name= "6-й полк"
+		type = infantry
+		home = 714
+	}
+
+	regiment = {
+		name= "7-й полк"
+		type = infantry
+		home = 715
+	}
+
+	regiment = {
+		name= "8-й полк"
+		type = infantry
+		home = 716
+	}
+
+	regiment = {
+		name= "9-й полк"
+		type = infantry
+		home = 716
+	}
+
+	regiment = {
+		name= "10-й полк"
+		type = infantry
+		home = 717
+	}
+
+	regiment = {
+		name= "11-й полк"
+		type = artillery
+		home = 717
+	}
+
+	regiment = {
+		name= "12-й полк"
+		type = artillery
+		home = 936
+	}
+
+	regiment = {
+		name= "13-й полк"
+		type = artillery
+		home = 936
+	}
+
+	regiment = {
+		name= "14-й полк"
+		type = artillery
+		home = 937
+	}
+
+	regiment = {
+		name= "15-й полк"
+		type = hussar
+		home = 937
+	}
+
+	regiment = {
+		name= "16-й полк"
+		type = hussar
+		home = 937
+	}
+
+	regiment = {
+		name= "17-й полк"
+		type = hussar
+		home = 938
+	}
+
+	regiment = {
+		name= "18-й полк"
+		type = hussar
+		home = 938
+	}
+}
+army = {
+	name = "4-я Дивизия"
+	location = 953
+	regiment = {
+		name= "1-й полк"
+		type = infantry
+		home = 939
+	}
+
+	regiment = {
+		name= "2-й полк"
+		type = infantry
+		home = 940
+	}
+
+	regiment = {
+		name= "3-й полк"
+		type = infantry
+		home = 940
+	}
+
+	regiment = {
+		name= "4-й полк"
+		type = infantry
+		home = 947
+	}
+
+	regiment = {
+		name= "5-й полк"
+		type = infantry
+		home = 947
+	}
+
+	regiment = {
+		name= "6-й полк"
+		type = infantry
+		home = 951
+	}
+
+	regiment = {
+		name= "7-й полк"
+		type = infantry
+		home = 951
+	}
+
+	regiment = {
+		name= "8-й полк"
+		type = infantry
+		home = 951
+	}
+
+	regiment = {
+		name= "9-й полк"
+		type = infantry
+		home = 951
+	}
+
+	regiment = {
+		name= "10-й полк"
+		type = infantry
+		home = 952
+	}
+
+	regiment = {
+		name= "11-й полк"
+		type = artillery
+		home = 952
+	}
+
+	regiment = {
+		name= "12-й полк"
+		type = artillery
+		home = 952
+	}
+
+	regiment = {
+		name= "13-й полк"
+		type = artillery
+		home = 952
+	}
+
+	regiment = {
+		name= "14-й полк"
+		type = artillery
+		home = 952
+	}
+
+	regiment = {
+		name= "15-й полк"
+		type = hussar
+		home = 953
+	}
+
+	regiment = {
+		name= "16-й полк"
+		type = hussar
+		home = 953
+	}
+
+	regiment = {
+		name= "17-й полк"
+		type = hussar
+		home = 956
+	}
+
+	regiment = {
+		name= "18-й полк"
+		type = hussar
+		home = 957
+	}
+}

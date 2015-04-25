@@ -1,0 +1,79 @@
+army = {
+	name = "Генуэзская армия"
+	location = 724
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 724
+	}
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 724
+	}
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 724
+	}
+	regiment = {
+		name= "4-я пехотная бригада"
+		type = infantry
+		home = 724
+	}
+}
+
+navy = {
+	name = "Генуэзская эскадра"
+	location = 724
+	ship = {
+		name= "Сан-Себастьяно"
+		type = manowar
+	}
+
+	ship = {
+		name= "Аквила"
+		type = manowar
+	}
+
+	ship = {
+		name= "Джове"
+		type = manowar
+	}
+
+	ship = {
+		name= "Европа"
+		type = manowar
+	}
+
+	ship = {
+		name= "Вулкано"
+		type = frigate
+	}
+	ship = {
+		name= "Виттория"
+		type = frigate
+	}
+	ship = {
+		name= "Трионфо"
+		type = frigate
+	}
+	ship = {
+		name= "Форца"
+		type = frigate
+	}
+
+	ship = {
+		name= "1-я транспортная эскадра"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2-я транспортная эскадра"
+		type = clipper_transport
+	}
+}
+
+	
+
+

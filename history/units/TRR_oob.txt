@@ -1,0 +1,10 @@
+
+army = {
+	name = "Army of Trier"
+	location = 572
+	regiment = {
+		name= "1st Line Infantry"
+		type = infantry
+		home = 572
+	}	            
+}

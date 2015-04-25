@@ -1,0 +1,762 @@
+
+
+AUS = {
+	value = -80
+}
+
+RUS = {
+	value = -80
+}
+
+ENG = {
+	value = 60
+}
+
+
+
+
+
+#Army
+
+army = {
+
+	name = "1-й корпус"
+
+	location = 553
+
+leader = {
+	name = "Ганс-Карл фон Винтерфельд"
+	picture = winterfeldt
+	date = 1750.1.1
+	type = land
+	personality = diplomatic
+	background = hated
+}
+	regiment = {
+
+		name= "1-я пехотная бригада"
+
+		type = infantry
+
+		home = 553
+
+	}
+
+
+
+	regiment = {
+
+		name= "2-я пехотная бригада"
+
+		type = infantry
+
+		home = 557
+
+	}
+
+
+
+	regiment = {
+
+		name= "3-я пехотная бригада"
+
+		type = infantry
+
+		home = 695
+	}
+
+
+
+	regiment = {
+
+		name= "4-я пехотная бригада"
+
+		type = infantry
+
+		home = 549
+
+	}
+
+
+
+	regiment = {
+
+		name= "5-я пехотная бригада"
+
+		type = infantry
+
+		home = 550
+	}
+
+
+
+	regiment = {
+
+		name= "1-я инженерная бригада"
+
+		type = engineer
+
+		home = 577
+
+	}
+
+
+
+	regiment = {
+		name= "1-я артиллерийская бригада"
+
+		type = artillery
+		home = 557
+	}
+
+
+
+	regiment = {
+
+		name= "2-я артиллерийская бригада"
+
+		type = artillery
+
+		home = 582
+
+	}
+
+
+
+	regiment = {
+
+		name= "3-я артиллерийская бригада"
+
+		type = artillery
+
+		home = 582
+
+	}
+
+
+
+	regiment = {
+
+		name= "4-я артиллерийская бригада"
+
+		type = artillery
+
+		home = 551
+	}
+
+
+}
+
+
+
+army = {
+
+	name = "2-й корпус"
+
+	location = 682
+
+leader = {
+	name = "Ганс фон Цитен"
+	picture = zieten1
+	date = 1750.1.1
+	type = land
+	personality = heroic
+	background = cavalry_school
+}
+	regiment = {
+
+		name= "7-я пехотная бригада"
+
+		type = infantry
+
+		home = 682
+
+	}
+
+
+
+	regiment = {
+
+		name= "8-я пехотная бригада"
+
+		type = infantry
+
+		home = 682
+
+	}
+
+
+
+	regiment = {
+
+		name= "9-я пехотная бригада"
+
+		type = infantry
+
+		home = 682
+
+	}
+
+
+
+	regiment = {
+
+		name= "2-я инженерная бригада"
+
+		type = engineer
+
+		home = 684
+
+	}
+
+
+
+	regiment = {
+
+		name= "10-я пехотная бригада"
+
+		type = infantry
+
+		home = 684
+
+	}
+
+
+
+	regiment = {
+
+		name= "11-я пехотная бригада"
+
+		type = infantry
+
+		home = 684
+
+	}
+
+
+
+	regiment = {
+
+		name= "2-я артиллерийская бригада"
+
+		type = artillery
+
+		home = 681
+
+	}
+
+
+
+	regiment = {
+
+		name= "2-я артиллерийская бригада"
+
+		type = artillery
+
+		home = 680
+	}
+
+
+
+	regiment = {
+
+		name= "1-я бригада"
+
+		type = dragoon
+		home = 543
+	}
+
+
+
+	regiment = {
+
+		name= "2-я бригада"
+
+		type = dragoon
+		home = 543
+	}
+
+
+}
+
+
+
+army = {
+
+	name = "3-й корпус"
+
+	location = 695
+
+leader = {
+	name = "Фридрих Вильгельм фон Зейдлиц"
+	picture = seydlitz
+	date = 1750.1.1
+	type = land
+	personality = gallant
+	background = cavalry_school
+}
+	regiment = {
+
+		name= "13-я пехотная бригада"
+
+		type = infantry
+
+		home = 696
+
+	}
+
+
+
+	regiment = {
+		name= "14-я пехотная бригада"
+
+		type = infantry
+
+		home = 696
+
+	}
+
+
+
+	regiment = {
+
+		name= "15-я пехотная бригада"
+
+		type = infantry
+
+		home = 577
+
+	}
+
+
+
+	regiment = {
+
+		name= "3-я инженерная бригада"
+
+		type = engineer
+
+		home = 577
+
+	}
+
+
+
+	regiment = {
+
+		name= "16-я пехотная бригада"
+
+		type = infantry
+
+		home = 695
+
+	}
+
+
+
+	regiment = {
+
+		name= "17-я пехотная бригада"
+
+		type = infantry
+
+		home = 695
+
+	}
+
+
+
+	regiment = {
+
+		name= "18-я пехотная бригада"
+
+		type = infantry
+
+		home = 698
+
+	}
+
+
+
+	regiment = {
+
+		name= "3-я артиллерийская бригада"
+
+		type = artillery
+
+		home = 698
+
+	}
+
+
+
+	regiment = {
+
+		name= "1-я кавбригада"
+
+		type = cavalry
+		home = 682
+
+	}
+
+
+
+	regiment = {
+
+		name= "2-я кавбригада"
+
+		type = cavalry
+		home = 683
+	}
+
+
+}
+
+
+
+army = {
+
+	name = "4-й корпус"
+
+	location = 681
+leader = {
+	name = "Курт Кристоф фон Шверин"
+	picture = schwerin
+	date = 1750.1.1
+	type = land
+	personality = diplomatic
+	background = school_of_offense
+}
+	regiment = {
+
+		name= "19-я пехотная бригада"
+
+		type = infantry
+
+		home = 547
+
+	}
+
+
+
+	regiment = {
+
+		name= "19-я пехотная бригада"
+
+		type = infantry
+
+		home = 553
+	}
+
+
+
+	regiment = {
+
+		name= "20-я пехотная бригада"
+
+		type = infantry
+
+		home = 546
+
+	}
+
+
+
+	regiment = {
+
+		name= "21-я пехотная бригада"
+
+		type = infantry
+
+		home = 679
+
+	}
+
+
+
+	regiment = {
+
+		name= "4-я инженерная бригада"
+
+		type = engineer
+
+		home = 680
+
+	}
+
+
+
+	regiment = {
+
+		name= "22-я пехотная бригада"
+
+		type = infantry
+
+		home = 542
+	}
+
+
+
+	regiment = {
+
+		name= "23-я бригада"
+
+		type = artillery
+
+		home = 542
+	}
+
+
+
+	regiment = {
+
+		name= "24-я бригада"
+
+		type = dragoon
+		home = 546
+	}
+
+
+
+	regiment = {
+
+		name= "25-я бригада"
+
+		type = artillery
+
+		home = 697
+	}
+
+
+
+	regiment = {
+
+		name= "26-я бригада"
+
+		type = dragoon
+		home = 697
+	}
+
+
+}
+
+
+
+army = {
+
+	name = "5-й корпус"
+
+	location = 580
+
+	regiment = {
+
+		name= "25-я пехотная бригада"
+
+		type = infantry
+
+		home = 580
+
+	}
+
+
+
+	regiment = {
+
+		name= "26-я пехотная бригада"
+
+		type = infantry
+
+		home = 580
+
+	}
+
+
+
+	regiment = {
+
+		name= "27-я пехотная бригада"
+
+		type = infantry
+
+		home = 581
+
+	}
+
+
+}
+
+
+
+army = {
+	name = "6-й корпус"
+	location = 575
+	regiment = {
+		name= "28-я пехотная бригада"
+		type = infantry
+		home = 575
+	}
+
+	regiment = {
+		name= "29-я пехотная бригада"
+		type = infantry
+		home = 576
+	}
+
+	regiment = {
+		name= "30-я пехотная бригада"
+		type = infantry
+		home = 578
+	}
+
+}
+
+
+army = {
+
+	name = "5-й корпус"
+
+	location = 549
+leader = {
+	name = "Фридрих Великий"
+	picture = friedrich
+	date = 1750.1.1
+	type = land
+	prestige = 1
+	personality = audacious
+	background = innovative_tactician
+}
+	regiment = {
+
+		name= "1-я бригада"
+
+		type = infantry
+		home = 680
+
+	}
+
+
+
+	regiment = {
+
+		name= "2-я бригада"
+
+		type = infantry
+		home = 549
+
+	}
+
+
+
+	regiment = {
+
+		name= "3-я бригада"
+
+		type = infantry
+		home = 680
+	}
+
+
+
+	regiment = {
+
+		name= "4-я бригада"
+
+		type = infantry
+
+		home = 681
+
+	}
+
+
+
+	regiment = {
+
+		name= "5-я бригада"
+
+		type = infantry
+		home = 550
+
+	}
+
+
+
+	regiment = {
+
+		name= "6-я бригада"
+
+		type = artillery
+
+		home = 551
+
+	}
+
+
+
+	regiment = {
+
+		name= "1-я кавалерийская бригада"
+
+		type = dragoon
+
+		home = 577
+	}
+
+
+
+	regiment = {
+
+		name= "2-я кавалерийская бригада"
+
+		type = dragoon
+
+		home = 577
+	}
+
+
+
+	regiment = {
+
+		name= "3-я кавалерийская бригада"
+
+		type = dragoon
+
+		home = 577
+	}
+
+
+
+	regiment = {
+
+		name= "4-я кавалерийская бригада"
+
+		type = dragoon
+
+		home = 679
+
+	}
+
+}
+
+
+
+
+navy = {
+	name = "Королевский флот"
+	location = 2710
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}
+

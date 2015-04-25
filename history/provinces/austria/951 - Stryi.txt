@@ -1,0 +1,26 @@
+owner = PLC
+controller = PLC
+add_core = UKR
+add_core = RUS
+add_core = POL
+add_core = RUT
+add_core = PLC
+trade_goods = coal
+life_rating = 35
+terrain = conifer_forest_hills
+1914.1.1 = {
+	remove_core = PLC
+}
+1914.1.1 = {
+	owner = KUK
+	controller = KUK
+	add_core = KUK
+	remove_core = AUS
+	railroad = 3
+	fort = 2
+}
+1923.1.1 = {
+	owner = POL
+	controller = POL
+	remove_core = KUK
+}

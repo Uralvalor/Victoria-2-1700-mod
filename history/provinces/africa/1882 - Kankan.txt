@@ -1,0 +1,11 @@
+owner = JAL
+controller = JAL
+add_core = JAL
+trade_goods = fruit
+life_rating = 15
+terrain = jungle_farmland
+1914.1.1 = {
+	owner = FRA
+	controller = FRA
+	colonial = 3
+}

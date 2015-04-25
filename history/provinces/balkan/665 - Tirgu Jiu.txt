@@ -1,0 +1,28 @@
+owner = WAL
+controller = WAL
+add_core = WAL
+add_core = ROM 
+trade_goods = grain
+life_rating = 35
+terrain = deciduous_forest_hills
+1861.1.1 = {
+	controller = ROM
+	owner = ROM
+}
+1914.1.1 = {
+	state_building = {
+		level = 1
+		building = canned_food_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = fabric_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = glass_factory
+		upgrade = yes
+	}
+}

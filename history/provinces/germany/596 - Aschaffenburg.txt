@@ -1,0 +1,18 @@
+owner = BAV
+controller = BAV
+add_core = BAV
+add_core = GER
+trade_goods = grain
+life_rating = 35
+terrain = deciduous_forest_hills
+1750.1.1 = {
+	owner = HES
+	controller = HES
+}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	owner = GER
+	controller = GER
+	railroad = 5
+	fort = 2
+}

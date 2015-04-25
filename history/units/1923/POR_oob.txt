@@ -1,0 +1,175 @@
+army = {
+	name = "Армия Португалии"
+	location = 521
+	regiment = {
+		name= "1-я пехотная дивизия"
+		type = infantry
+		home = 518
+	}
+
+	regiment = {
+		name= "2-я пехотная дивизия"
+		type = infantry
+		home = 518
+	}
+
+	regiment = {
+		name= "3-я пехотная дивизия"
+		type = infantry
+		home = 519
+	}
+
+	regiment = {
+		name= "4-я пехотная дивизия"
+		type = infantry
+		home = 520
+	}
+
+	regiment = {
+		name= "5-я пехотная дивизия"
+		type = infantry
+		home = 520
+	}
+
+	regiment = {
+		name= "6-я пехотная дивизия"
+		type = infantry
+		home = 521
+	}
+
+	regiment = {
+		name= "7-я пехотная дивизия"
+		type = hussar
+		home = 521
+	}
+
+	regiment = {
+		name= "8-я пехотная дивизия"
+		type = hussar
+		home = 522
+	}
+
+	regiment = {
+		name= "9-я пехотная дивизия"
+		type = artillery
+		home = 522
+	}
+
+	regiment = {
+		name= "10-я пехотная дивизия"
+		type = artillery
+		home = 523
+	}
+}
+
+army = {
+	name = "Африканский гарнизон"
+	location = 2060
+	regiment = {
+		name= "1-я пехотная дивизия"
+		type = infantry
+		home = 524
+	}
+
+	regiment = {
+		name= "2-я пехотная дивизия"
+		type = infantry
+		home = 2134
+	}
+
+	regiment = {
+		name= "3-я пехотная дивизия"
+		type = infantry
+		home = 2134
+	}
+
+	regiment = {
+		name= "4-я пехотная дивизия"
+		type = infantry
+		home = 2135
+	}
+}
+
+army = {
+	name = "Тихоокеанский гарнизон"
+	location = 1303
+	regiment = {
+		name= "1-я пехотная дивизия"
+		type = infantry
+		home = 525
+	}
+
+	regiment = {
+		name= "2-я пехотная дивизия"
+		type = infantry
+		home = 1303
+	}
+}
+
+navy = {
+	name = "Португальский Флот"
+	location = 524
+	ship = {
+		name= "Васко да Гама"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Бартоломью Даиз"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Дом Фернандо II ди Глориа"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Эстефания"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Гольфиньо"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Сан-Жоао Принсипе"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Реал Фонсор"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Бенжамин"
+		type = cruiser
+	}
+
+}
+
+navy = {
+	name = "Транспортная Эскадра"
+	location = 524
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "3-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "4-я транспортная флотилия"
+		type = steam_transport
+	}
+
+}
+

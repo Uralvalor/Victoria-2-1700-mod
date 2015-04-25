@@ -1,0 +1,696 @@
+PAR = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+SIC = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+NEA = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+army = {
+	name = "Армия Кастилии"
+	location = 489
+	regiment = {
+		name= "1-я кавалерийская бригада"
+		type = cavalry
+		home = 487
+	}
+
+	regiment = {
+		name= "2-я кавалерийская бригада"
+		type = cavalry
+		home = 489
+	}
+
+	regiment = {
+		name= "3-я кавалерийская бригада"
+		type = cavalry
+		home = 481
+	}
+
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 503
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 509
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 513
+	}
+
+	regiment = {
+		name= "4-я пехотная бригада"
+		type = infantry
+		home = 495
+	}
+
+	regiment = {
+		name= "5-я пехотная бригада"
+		type = infantry
+		home = 487
+	}
+
+	regiment = {
+		name= "6-я пехотная бригада"
+		type = infantry
+		home = 489
+	}
+
+	regiment = {
+		name= "7-я пехотная бригада"
+		type = infantry
+		home = 488
+	}
+}
+
+army = {
+	name = "Армия Арагона"
+	location = 495
+	
+	regiment = {
+		name= "1-я артиллерийская бригада"
+		type = artillery
+		home = 498
+	}
+
+	regiment = {
+		name= "2-я артиллерийская бригада"
+		type = artillery
+		home = 476
+	}
+	
+	regiment = {
+		name= "8-я пехотная бригада"
+		type = infantry
+		home = 482
+	}
+	
+	regiment = {
+		name= "9-я пехотная бригада"
+		type = infantry
+		home = 483
+	}
+
+	regiment = {
+		name= "10-я пехотная бригада"
+		type = infantry
+		home = 497
+	}
+	regiment = {
+		name= "11-я пехотная бригада"
+		type = infantry
+		home = 512
+	}
+
+	regiment = {
+		name= "12-я пехотная бригада"
+		type = infantry
+		home = 514
+	}
+
+	regiment = {
+		name= "13-я пехотная бригада"
+		type = infantry
+		home = 510
+	}
+
+	regiment = {
+		name= "14-я пехотная бригада"
+		type = infantry
+		home = 516
+	}
+	
+	regiment = {
+		name= "15-я пехотная бригада"
+		type = infantry
+		home = 515
+	}
+}
+
+army = {
+	name = "Гарнизон Новой Испании"
+	location = 2172
+	
+	regiment = {
+		name= "1-я колониальная бригада"
+		type = cavalry
+		home = 513
+	}
+
+	regiment = {
+		name= "2-я колониальнаябригада"
+		type = cavalry
+		home = 2175
+	}
+	
+	regiment = {
+		name= "3-я колониальная бригада"
+		type = infantry
+		home = 2174
+	}
+	
+	regiment = {
+		name= "4-я колониальная бригада"
+		type = infantry
+		home = 2177
+	}
+}
+
+army = {
+	name = "Гарнизон Новой Гранады"
+	location = 2247
+	
+	regiment = {
+		name= "5-я колониальная бригада"
+		type = infantry
+		home = 509
+	}
+
+	regiment = {
+		name= "6-я колониальнаябригада"
+		type = infantry
+		home = 2250
+	}
+	
+	regiment = {
+		name= "7-я колониальная бригада"
+		type = infantry
+		home = 2252
+	}
+	
+	regiment = {
+		name= "8-я колониальная бригада"
+		type = infantry
+		home = 2247
+	}
+}
+
+army = {
+	name = "Гарнизон Перу"
+	location = 2295
+	
+	regiment = {
+		name= "9-я колониальная бригада"
+		type = infantry
+		home = 487
+	}
+
+	regiment = {
+		name= "10-я колониальнаябригада"
+		type = infantry
+		home = 2295
+	}
+	
+	regiment = {
+		name= "11-я колониальная бригада"
+		type = infantry
+		home = 2295
+	}
+	
+	regiment = {
+		name= "12-я колониальная бригада"
+		type = infantry
+		home = 2302
+	}
+}
+
+army = {
+	name = "Гарнизон Ла-Плата"
+	location = 2348
+	
+      regiment = {
+		name= "13-я колониальная бригада"
+		type = cavalry
+		home = 476
+	}
+
+	regiment = {
+		name= "14-я колониальнаябригада"
+		type = cavalry
+		home = 2348
+	}
+	
+	regiment = {
+		name= "15-я колониальная бригада"
+		type = cavalry
+		home = 2348
+	}
+	
+	regiment = {
+		name= "16-я колониальная бригада"
+		type = cavalry
+		home = 2349
+	}
+}
+
+army = {
+	name = "Гарнизон Лусона"
+	location = 1455
+	
+	regiment = {
+		name = "17-я колониальная бригада"
+		type = infantry
+		home = 474
+	}
+	regiment = {
+		name = "18-я колониальная бригада"
+		type = infantry
+		home = 1455
+	}
+}
+
+army = {
+	name = "Армия Минданао"
+	location = 1463
+	
+	regiment = {
+		name = "19-я колониальная бригада"
+		type = infantry
+		home = 1463
+	}
+	regiment = {
+		name = "20-я колониальная бригада"
+		type = infantry
+		home = 2209
+	}
+}
+
+navy = {
+	name = "Королевская эскадра"
+	location = 503
+	ship = {
+		name= "Герцог Альба"
+		type = manowar
+	}
+
+	ship = {
+		name= "Эроэ"
+		type = manowar
+	}
+
+	ship = {
+		name= "Сан-Пабло"
+		type = manowar
+	}
+	ship = {
+		name= "Сантьяго"
+		type = manowar
+	}
+
+	ship = {
+		name= "Эсперидес"
+		type = manowar
+	}
+
+	ship = {
+		name= "Сентинела"
+		type = manowar
+	}
+	ship = {
+		name= "Америка"
+		type = manowar
+	}
+
+	ship = {
+		name= "Акуилес"
+		type = manowar
+	}
+
+	ship = {
+		name= "Реал Фамилия"
+		type = manowar
+	}
+	ship = {
+		name= "Сан-Карлос"
+		type = manowar
+	}
+
+	ship = {
+		name= "Сан-Грегорио"
+		type = manowar
+	}
+
+	ship = {
+		name= "Сан-Хосе"
+		type = manowar
+	}
+	ship = {
+		name= "Сан-Хулиан"
+		type = manowar
+	}
+
+	ship = {
+		name= "Викториосо"
+		type = manowar
+	}
+
+	ship = {
+		name= "Сан-Фермин"
+		type = manowar
+	}
+	ship = {
+		name= "Серес"
+		type = frigate
+	}
+
+	ship = {
+		name= "Глория"
+		type = frigate
+	}
+
+	ship = {
+		name= "Нуэстра Сеньора де Асунсьон"
+		type = frigate
+	}
+
+	ship = {
+		name= "Нуэстра Сеньора де Аточа"
+		type = frigate
+	}
+
+	ship = {
+		name= "Санта-Сабина"
+		type = frigate
+	}
+	
+        ship = {
+		name= "Эоло"
+		type = frigate
+	}
+
+	ship = {
+		name= "Андалусия"
+		type = frigate
+	}
+
+	ship = {
+		name= "Барселона"
+		type = frigate
+	}
+
+	ship = {
+		name= "Диана"
+		type = frigate
+	}
+
+	ship = {
+		name= "Блас де ла Коса"
+		type = frigate
+	}
+	
+       ship = {
+		name= "Марте"
+		type = frigate
+	}
+
+	ship = {
+		name= "Канариас"
+		type = frigate
+	}
+
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3-я транспортная флотилия"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "Карибская эскадра"
+	location = 2204
+	
+	ship = {
+		name = "Сантьяго"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Эсперидес"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Сентинела"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Мария Терезия"
+		type = manowar
+	}
+
+	ship = {
+		name = "Исла де Куба"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Христофор Колумб"
+		type = frigate
+	}
+
+	ship = {
+		name = "Хуан де ла Коса"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Принсеса"
+		type = frigate
+	}
+	ship = {
+		name = "Тритон"
+		type = frigate
+	}
+	
+	ship = {
+		name= "4-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "5-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "6-я транспортная флотилия"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "Атлантическая эскадра"
+	location = 2348
+	
+	ship = {
+		name = "Фирме"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Изабелла I"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Глорисо"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Рей Франсиско де Асис"
+		type = manowar
+	}
+
+	ship = {
+		name = "Писарро"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Посейдон"
+		type = frigate
+	}
+
+	ship = {
+		name = "Вулкано"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Вилья де Бильбао"
+		type = frigate
+	}
+	ship = {
+		name = "Старый баск"
+		type = frigate
+	}
+	
+	ship = {
+		name= "7-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "8-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "9-я транспортная флотилия"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "Тихоокеанская эскадра"
+	location = 2295
+	
+	ship = {
+		name = "Сан-Фернандо"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Фердинанд I"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Конкистадор"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Буэн Консехо"
+		type = manowar
+	}
+
+	ship = {
+		name = "Мартин Алонсо Пинсон"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Марте"
+		type = frigate
+	}
+
+	ship = {
+		name = "Нептуно"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Принсипе Альфонсо"
+		type = frigate
+	}
+	ship = {
+		name = "Хупитер"
+		type = frigate
+	}
+	
+	ship = {
+		name= "10-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "11-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "12-я транспортная флотилия"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "Филлипинская эскадра"
+	location = 1455
+	
+	ship = {
+		name = "Сан-Франсиско де Паула"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Анхель де ла Гуарда"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Нуэстра Сеньора дель Патрочинио"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Сан-Леандро"
+		type = manowar
+	}
+
+	ship = {
+		name = "Канариас"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Севилья"
+		type = frigate
+	}
+
+	ship = {
+		name = "Арагон"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Менорика"
+		type = frigate
+	}
+	ship = {
+		name = "Легаспи"
+		type = frigate
+	}
+	
+	ship = {
+		name= "13-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "14-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "15-я транспортная флотилия"
+		type = clipper_transport
+	}
+}

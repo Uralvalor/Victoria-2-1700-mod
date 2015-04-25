@@ -1,0 +1,20 @@
+owner = PLC
+controller = PLC
+add_core = PRU
+add_core = GER
+add_core = POL
+add_core = PLC
+trade_goods = grain
+life_rating = 35
+terrain = good_farmland
+1914.1.1 = {
+	owner = GER
+	controller = GER
+	railroad = 5
+	fort = 3
+}
+1923.1.1 = {
+	owner = POL
+	controller = POL
+	remove_core = GER
+}

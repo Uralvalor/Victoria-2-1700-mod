@@ -1,0 +1,64 @@
+army = {
+	name = "Армия Буэнос-Айреса"
+	location = 2349
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 2348
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 2348
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 2348
+	}
+
+	regiment = {
+		name= "1-я кавалерийская бригада"
+		type = cavalry
+		home = 2349
+	}
+
+	regiment = {
+		name= "2-я кавалерийская бригада"
+		type = cavalry
+		home = 2349
+	}
+
+	regiment = {
+		name= "3-я кавалерийская бригада"
+		type = cavalry
+		home = 2349
+	}
+
+}
+
+army = {
+	name = "Армия Энтре-Риоса"
+	location = 2360
+	regiment = {
+		name= "4-я пехотная бригада"
+		type = infantry
+		home = 2379
+	}
+
+	regiment = {
+		name= "5-я пехотная бригада"
+		type = infantry
+		home = 2379
+	}
+
+	regiment = {
+		name= "6-я пехотная бригада"
+		type = infantry
+		home = 2379
+	}
+
+}
+

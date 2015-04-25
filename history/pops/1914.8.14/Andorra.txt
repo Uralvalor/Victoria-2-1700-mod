@@ -1,0 +1,56 @@
+#Andorra
+3264 = {
+	aristocrats = {
+		culture = catalan
+		religion = catholic
+		size = 115
+	}
+
+	clergymen = {
+		culture = catalan
+		religion = catholic
+		size = 129
+	}
+
+	artisans = {
+		culture = catalan
+		religion = catholic
+		size = 132
+	}
+
+	soldiers = {
+		culture = catalan
+		religion = catholic
+		size = 280
+	}
+
+	labourers = {
+		culture = catalan
+		religion = catholic
+		size = 1470
+	}
+
+	labourers = {
+		culture = spanish
+		religion = catholic
+		size = 362
+	}
+
+	aristocrats = {
+		culture = french
+		religion = catholic
+		size = 97
+	}
+
+	bureaucrats = {
+		culture = french
+		religion = catholic
+		size = 97
+	}
+
+	labourers = {
+		culture = french
+		religion = catholic
+		size = 170
+	}
+}

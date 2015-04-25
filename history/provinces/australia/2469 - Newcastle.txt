@@ -1,0 +1,11 @@
+
+add_core = AST
+trade_goods = coal
+life_rating = 30
+colonial = 1
+terrain = deciduous_forest_hills
+1914.1.1 = {
+	owner = AST
+	controller = AST
+	colonial = no
+}

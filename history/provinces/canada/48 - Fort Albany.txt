@@ -1,0 +1,17 @@
+owner = ENL
+controller = FRA
+colonial = 2  
+ 
+add_core = CAN
+trade_goods = fish
+life_rating = 30
+terrain = boreal_forest
+1750.1.1 = {
+	owner = ENG
+	controller = ENG
+}
+1914.1.1 = {
+	owner = CAN
+	controller = CAN
+	colonial = no
+}

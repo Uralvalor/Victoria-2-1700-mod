@@ -1,0 +1,111 @@
+leader = {
+	name = "Ранджит Сингх"
+	type = land
+	date = 1836.1.1
+	personality = inspiring
+	background = gifted_administrator
+}
+
+army = {
+	name = "Армия Пенджаба"
+	location = 1227
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1227
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 1227
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 1227
+	}
+
+	regiment = {
+		name= "4-я пехотная бригада"
+		type = infantry
+		home = 1232
+	}
+
+	regiment = {
+		name= "5-я пехотная бригада"
+		type = infantry
+		home = 1224
+	}
+
+	regiment = {
+		name= "6-я пехотная бригада"
+		type = infantry
+		home = 1228
+	}
+
+	regiment = {
+		name= "7-я пехотная бригада"
+		type = infantry
+		home = 1229
+	}
+
+	regiment = {
+		name= "1-я кавалерийская бригада"
+		type = cavalry
+		home = 1227
+	}
+
+	regiment = {
+		name= "2-я кавалерийская бригада"
+		type = cavalry
+		home = 1233
+	}
+
+}
+
+army = {
+	name = "Гвардия Гилгита"
+	location = 1225
+	regiment = {
+		name= "8-я пехотная бригада"
+		type = infantry
+		home = 1218
+	}
+
+	regiment = {
+		name= "9-я пехотная бригада"
+		type = infantry
+		home = 1231
+	}
+	
+	regiment = {
+		name= "3-я кавалерийская бригада"
+		type = cavalry
+		home = 1234
+	}
+}
+
+army = {
+	name = "Гарнизон Лудхияны"
+	location = 1234
+	regiment = {
+		name= "10-я пехотная бригада"
+		type = infantry
+		home = 1234
+	}
+
+	regiment = {
+		name= "11-я пехотная бригада"
+		type = infantry
+		home = 1233
+	}
+
+	regiment = {
+		name= "12-я пехотная бригада"
+		type = infantry
+		home = 1233
+	}
+}
+

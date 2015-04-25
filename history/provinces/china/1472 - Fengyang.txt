@@ -1,0 +1,8 @@
+owner = MCK
+controller = MCK  add_core = CHI  colonial = 2
+trade_goods = tea
+life_rating = 30
+terrain = marginal_farmland
+1914.1.1 = {
+	add_core = ANU
+}

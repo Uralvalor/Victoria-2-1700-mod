@@ -1,0 +1,81 @@
+army = {
+	name = "јрми€ јбд-эль- адира"
+	location = 1707
+	regiment = {
+		name= "1-€ аскарийска€ бригада"
+		type = irregular
+		home = 1707
+	}
+
+	regiment = {
+		name= "2-€ аскарийска€ бригада"
+		type = irregular
+		home = 1702
+	}
+
+	regiment = {
+		name= "3-€ аскарийска€ бригада"
+		type = irregular
+		home = 1705
+	}
+
+	regiment = {
+		name= "1-€ спагийска€ бригада"
+		type = cavalry
+		home = 1705
+	}
+
+	regiment = {
+		name= "2-€ спагийска€ бригада"
+		type = cavalry
+		home = 1715
+	}
+
+	regiment = {
+		name= "3-€ спагийска€ бригада"
+		type = cavalry
+		home = 1713
+	}
+
+}
+
+army = {
+	name = "јрми€ бе€  онстантины"
+	location = 1713
+	regiment = {
+		name= "4-€ аскарийска€ бригада"
+		type = irregular
+		home = 1708
+	}
+
+	regiment = {
+		name= "5-€ аскарийска€ бригада"
+		type = irregular
+		home = 1703
+	}
+
+	regiment = {
+		name= "6-€ аскарийска€ бригада"
+		type = irregular
+		home = 1702
+	}
+
+	regiment = {
+		name= "7-€ аскарийска€ бригада"
+		type = irregular
+		home = 1703
+	}
+
+	regiment = {
+		name= "4-€ спагийска€ бригада"
+		type = irregular
+		home = 1708
+	}
+
+	regiment = {
+		name= "5-€ спагийска€ бригада"
+		type = irregular
+		home = 1710
+	}
+
+}

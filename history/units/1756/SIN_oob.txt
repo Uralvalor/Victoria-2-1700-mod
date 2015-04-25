@@ -1,0 +1,41 @@
+army = {
+	name = "Армия Синда"
+	location = 1288
+	regiment = {
+		name= "1-я бригада Кхоса"
+		type = cavalry
+		home = 1288
+	}
+
+	regiment = {
+		name= "2-я бригада Кхоса"
+		type = cavalry
+		home = 1289
+	}
+
+	regiment = {
+		name= "3-я бригада Кхоса"
+		type = cavalry
+		home = 1290
+	}
+
+	regiment = {
+		name= "1-я бригада Синдхи"
+		type = irregular
+		home = 1288
+	}
+
+	regiment = {
+		name= "2-я бригада Синдхи"
+		type = irregular
+		home = 1289
+	}
+
+	regiment = {
+		name= "3-я бригада Синдхи"
+		type = irregular
+		home = 1290
+	}
+
+}
+

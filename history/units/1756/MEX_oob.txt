@@ -1,0 +1,100 @@
+leader = {
+	name = "Антонио Санта-Анна"
+	type = land
+	date="1836.1.1"
+	personality = wrathful
+	background = warmonger
+}
+
+leader = {
+	name = "Мартин де Кос"
+	type = land
+	date="1836.1.1"
+	personality = impulsive
+	background = aristocrat
+}
+
+army = {
+	name = "Северная армия"
+	location = 2146
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = irregular
+		home = 2174
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = irregular
+		home = 2174
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = irregular
+		home = 2174
+	}
+
+}
+
+army = {
+	name = "Армия Оаксаки"
+	location = 2177
+	regiment = {
+		name= "19-я пехотная бригада"
+		type = irregular
+		home = 2177
+	}
+
+	regiment = {
+		name= "20-я пехотная бригада"
+		type = irregular
+		home = 2177
+	}
+
+	regiment = {
+		name= "21-я пехотная бригада"
+		type = irregular
+		home = 2177
+	}
+
+}
+
+army = {
+	name = "Армия Сьюдад-де-Мексико"
+	location = 2172
+	regiment = {
+		name= "22-я пехотная бригада"
+		type = infantry
+		home = 2176
+	}
+
+	regiment = {
+		name= "23-я пехотная бригада"
+		type = irregular
+		home = 2176
+	}
+
+	regiment = {
+		name= "24-я пехотная бригада"
+		type = irregular
+		home = 2176
+	}
+
+}
+
+navy = {
+	name = "Мексиканская эскадра"
+	location = 2162
+	ship = {
+		name= "Венседор дель Аламо"
+		type = frigate
+	}
+
+	ship = {
+		name= "Матильда"
+		type = clipper_transport
+	}
+
+}
+

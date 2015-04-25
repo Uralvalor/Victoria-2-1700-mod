@@ -1,0 +1,11 @@
+owner = SUM
+controller = SUM
+add_core = SUM
+add_core = INO
+trade_goods = grain
+life_rating = 30
+colonial = 2
+terrain = swamp_jungle
+1914.1.1 = {
+	trade_goods = oil
+}

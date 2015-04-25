@@ -1,0 +1,16 @@
+ 
+ 
+add_core = CAN
+trade_goods = iron
+life_rating = 35
+terrain = conifer_forest_mountains
+1750.1.1 = {
+	owner = FRA
+	controller = FRA
+colony = 2
+}
+1914.1.1 = {
+	owner = CAN
+	controller = CAN
+	colonial = no
+}

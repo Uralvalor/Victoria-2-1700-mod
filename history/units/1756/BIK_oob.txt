@@ -1,0 +1,41 @@
+army = {
+	name = "јрми€ махараджи Ѕиканера"
+	location = 1267
+	regiment = {
+		name= "1-€ дунгарска€ бригада"
+		type = cavalry
+		home = 1267
+	}
+
+	regiment = {
+		name= "2-€ дунгарска€ бригада"
+		type = cavalry
+		home = 1267
+	}
+
+	regiment = {
+		name= "3-€ дунгарска€ бригада"
+		type = cavalry
+		home = 1267
+	}
+
+	regiment = {
+		name= "1-€ биканерска€ бригада"
+		type = irregular
+		home = 1267
+	}
+
+	regiment = {
+		name= "2-€ биканерска€ бригада"
+		type = irregular
+		home = 1267
+	}
+
+	regiment = {
+		name= "3-€ биканерска€ бригада"
+		type = irregular
+		home = 1267
+	}
+
+}
+

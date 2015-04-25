@@ -1,0 +1,19 @@
+army = {
+	name = "Primera Militar do Amazonia"
+	location = 2410
+	regiment = {
+		name= "Primer Division"
+		type = infantry
+		home = 2410
+	}	      
+	regiment = {
+		name= "Segunda Division"
+		type = infantry
+		home = 2410
+	}	            
+	regiment = {
+		name= "Tercera Division"
+		type = infantry
+		home = 2410
+	}	
+}

@@ -1,0 +1,21 @@
+owner = TUR
+controller = TUR  
+add_core = ARM
+trade_goods = iron
+life_rating = 35
+terrain = mountain
+1914.1.1 = {
+	owner = RUS
+	controller = RUS
+	fort = 3
+}
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}
+1923.1.1 = {
+	owner = TUR
+	controller = TUR  colonial = 2
+	remove_core = SOV
+}

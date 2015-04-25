@@ -1,0 +1,123 @@
+army = {
+	name = "Армия Сардинии"
+	location = 724
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 724
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 723
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 725
+	}
+
+}
+
+army = {
+	name = "Армия карабинеров"
+	location = 720
+	regiment = {
+		name= "1-я бригада карабинеров"
+		type = infantry
+		home = 720
+	}
+
+	regiment = {
+		name= "2-я бригада карабинеров"
+		type = infantry
+		home = 722
+	}
+
+	regiment = {
+		name= "3-я бригада карабинеров"
+		type = cavalry
+		home = 720
+	}
+
+	regiment = {
+		name= "4-я бригада карабинеров"
+		type = cavalry
+		home = 472
+	}
+}
+
+army = {
+	name = "Армия гренадеров"
+	location = 765
+	regiment = {
+		name= "1-я гренадерская бригада"
+		type = infantry
+		home = 765
+	}
+
+	regiment = {
+		name= "2-я гренадерская бригада"
+		type = infantry
+		home = 766
+	}
+}
+
+army = {
+	name = "Армия берсальеров"
+	location = 721
+	regiment = {
+		name= "1-я бригада берсальеров"
+		type = infantry
+		home = 466
+	}
+
+	regiment = {
+		name= "2-я бригада берсальеров"
+		type = infantry
+		home = 465
+	}
+}
+
+navy = {
+	name = "Военно-морской флот"
+	location = 724
+	ship = {
+		name= "Беральдо"
+		type = frigate
+	}
+
+	ship = {
+		name= "Гауте Комбе"
+		type = frigate
+	}
+
+	ship = {
+		name= "Карл Феличе"
+		type = frigate
+	}
+
+	ship = {
+		name= "Реджина"
+		type = frigate
+	}
+
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}
+

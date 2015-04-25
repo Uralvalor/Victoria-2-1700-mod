@@ -1,0 +1,13 @@
+trade_goods = grain
+life_rating = 15
+terrain = semi_desert_hills
+1914.1.1 = {
+	owner = GER
+	controller = GER
+	colonial = 3
+}
+1923.1.1 = {
+	owner = SAF
+	controller = SAF
+	colonial = no
+}

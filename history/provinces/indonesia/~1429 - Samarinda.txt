@@ -1,0 +1,15 @@
+add_core = INO
+add_core = NET
+trade_goods = sulphur
+life_rating = 32
+terrain = swamp_jungle
+1861.1.1 = {
+	owner = NET
+	controller = NET
+	remove_core = NET
+	colonial = 3
+}
+
+1914.1.1 = {
+	naval_base = 3
+}

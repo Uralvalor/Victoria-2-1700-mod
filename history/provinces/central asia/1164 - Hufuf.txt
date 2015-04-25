@@ -1,0 +1,11 @@
+owner = NEJ
+controller = NEJ
+add_core = NEJ
+trade_goods = grain
+life_rating = 30
+terrain = desert
+1750.1.1 = {
+	owner = TUR
+	controller = TUR
+colonial = 2
+}

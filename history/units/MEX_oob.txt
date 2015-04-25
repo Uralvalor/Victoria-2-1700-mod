@@ -1,0 +1,241 @@
+leader = {
+	name = "Antonio Santa Ana"
+	type = land
+	date="1836.1.1"
+	personality = wrathful
+	background = warmonger
+}
+
+leader = {
+	name = "Martin de Cos"
+	type = land
+	date="1836.1.1"
+	personality = impulsive
+	background = aristocrat
+}
+
+army = {
+	name = "Ejército del Norte"
+	location = 2146
+	regiment = {
+		name= "1.Division Cos"
+		type = infantry
+		home = 2174
+	}
+
+	regiment = {
+		name= "2.Division Cos"
+		type = infantry
+		home = 2174
+	}
+
+	regiment = {
+		name= "3.Division Cos"
+		type = infantry
+		home = 2174
+	}
+
+}
+
+#army = {
+#	name = "Ejército del Sur"
+#	location = 2163
+#	regiment = {
+#		name= "1.Caballeria Cuatla y Tampico"
+#		type = cavalry
+#		home = 2173
+#	}
+#
+#	regiment = {
+#		name= "2.Caballeria Cuatla y Tampico"
+#		type = cavalry
+#		home = 2173
+#	}
+#
+#	regiment = {
+#		name= "3.Caballeria Cuatla y Tampico"
+#		type = cavalry
+#		home = 2173
+#	}
+#
+#	regiment = {
+#		name= "1.Division Urrea"
+#		type = infantry
+#		home = 2173
+#	}
+#
+#	regiment = {
+#		name= "2.Division Urrea"
+#		type = infantry
+#		home = 2173
+#	}
+#
+#	regiment = {
+#		name= "3.Division Urrea"
+#		type = infantry
+#		home = 2173
+#	}
+#
+#}
+#
+#army = {
+#	name = "Ejército Mejico"
+#	location = 2159
+#	regiment = {
+#		name= "1.Caballeria Dolores"
+#		type = cavalry
+#		home = 2167
+#	}
+#
+#	regiment = {
+#		name= "2.Caballeria Dolores"
+#		type = cavalry
+#		home = 2167
+#	}
+#
+#	regiment = {
+#		name= "3.Caballeria Dolores"
+#		type = cavalry
+#		home = 2167
+#	}
+#
+#	regiment = {
+#		name= "1.Division Gaona"
+#		type = infantry
+#		home = 2167
+#	}
+#
+#	regiment = {
+#		name= "2.Division Gaona"
+#		type = infantry
+#		home = 2167
+#	}
+#
+#	regiment = {
+#		name= "3.Division Gaona"
+#		type = infantry
+#		home = 2167
+#	}
+#
+#	regiment = {
+#		name= "1.Division Sesma"
+#		type = infantry
+#		home = 2167
+#	}
+#
+#	regiment = {
+#		name= "2.Division Sesma"
+#		type = infantry
+#		home = 2167
+#	}
+#
+#	regiment = {
+#		name= "3.Division Sesma"
+#		type = infantry
+#		home = 2167
+#	}
+#
+#	regiment = {
+#		name= "1.Toluca y San Luis"
+#		type = infantry
+#		home = 2159
+#	}
+#
+#	regiment = {
+#		name= "2.Toluca y San Luis"
+#		type = infantry
+#		home = 2159
+#	}
+#
+#	regiment = {
+#		name= "3.Toluca y San Luis"
+#		type = infantry
+#		home = 2159
+#	}
+#
+#}
+#
+#army = {
+#	name = "Activo Yucatan"
+#	location = 2184
+#	regiment = {
+#		name= "1.Yucatan y Chiapas"
+#		type = infantry
+#		home = 2183
+#	}
+#
+#	regiment = {
+#		name= "2.Yucatan y Chiapas"
+#		type = infantry
+#		home = 2183
+#	}
+#
+#	regiment = {
+#		name= "3.Yucatan y Chiapas"
+#		type = infantry
+#		home = 2183
+#	}
+#
+#}
+#
+army = {
+	name = "Activo Oajaca"
+	location = 2177
+	regiment = {
+		name= "1.Oajaca y Tlaxcala"
+		type = infantry
+		home = 2177
+	}
+
+	regiment = {
+		name= "2.Oajaca y Tlaxcala"
+		type = infantry
+		home = 2177
+	}
+
+	regiment = {
+		name= "3.Oajaca y Tlaxcala"
+		type = infantry
+		home = 2177
+	}
+
+}
+
+army = {
+	name = "Ejército del Ciudad Mejico"
+	location = 2174
+	regiment = {
+		name= "1.Division Comonfort"
+		type = infantry
+		home = 2176
+	}
+
+	regiment = {
+		name= "2.Division Comonfort"
+		type = infantry
+		home = 2176
+	}
+
+	regiment = {
+		name= "3.Division Comonfort"
+		type = infantry
+		home = 2176
+	}
+
+}
+
+navy = {
+	name = "Armada de Mexico"
+	location = 2162
+	ship = {
+		name= "Vencedor del Alamo"
+		type = frigate
+	}
+
+	ship = {
+		name= "Matilda"
+		type = clipper_transport
+	}
+
+}
+

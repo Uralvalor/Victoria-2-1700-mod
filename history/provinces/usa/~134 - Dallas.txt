@@ -1,0 +1,30 @@
+
+add_core = TEX
+add_core = MEX
+trade_goods = cattle
+life_rating = 35
+terrain = temperate_grassland
+1836.1.1 = {
+	owner = TEX
+	controller = TEX
+	remove_core = MEX
+	remove_core = SPA
+}
+1861.1.1 = {
+ 
+ 
+ 
+}
+1861.1.1 = {
+	controller = CSA
+	owner = CSA
+	add_core = CSA
+}
+1914.1.1 = {
+	railroad = 3
+	 
+	 
+	 
+	remove_core = CSA
+	trade_goods = oil
+}

@@ -1,0 +1,12 @@
+owner = KON
+controller = KON
+add_core = KON
+trade_goods = fruit
+life_rating = 15
+terrain = seasonal_jungle_hills
+1914.1.1 = {
+	owner = BEL
+	controller = BEL
+	add_core = CNG
+	colonial = 3
+}

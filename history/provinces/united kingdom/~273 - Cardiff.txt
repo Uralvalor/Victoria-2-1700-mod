@@ -1,0 +1,56 @@
+owner = ENL
+controller = ENL
+add_core = ENL
+add_core = WHA
+trade_goods = coal
+life_rating = 35
+terrain = hilly_farmland
+1816.1.1 = { state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+ }
+}
+1861.1.1 = {
+	state_building = {
+		level = 1
+		building = furniture_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = steel_factory
+		upgrade = yes
+	}
+}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	railroad = 5
+	naval_base = 5
+
+	state_building = {
+		level = 2
+		building = furniture_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = machine_parts_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = fertilizer_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = glass_factory
+		upgrade = yes
+	}
+}

@@ -1,0 +1,27 @@
+owner = HAM
+controller = HAM
+add_core = HAM
+add_core = GER
+trade_goods = fruit
+life_rating = 35
+naval_base = 1
+terrain = marginal_farmland
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	owner = GER
+	controller = GER
+	railroad = 5
+	naval_base = 4
+	fort = 2
+	state_building = {
+		level = 6
+		building = steamer_shipyard
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = aeroplane_factory
+		upgrade = yes
+	}
+}
+

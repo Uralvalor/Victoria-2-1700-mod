@@ -1,0 +1,11 @@
+owner = LUA
+controller = LUA
+add_core = LUA
+trade_goods = tropical_wood
+life_rating = 30
+terrain = seasonal_jungle_mountains
+1914.1.1 = {
+	owner = FRA
+	controller = FRA
+	colonial = 3
+}

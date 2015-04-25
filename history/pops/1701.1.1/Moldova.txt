@@ -1,0 +1,150 @@
+#Bessarabia Region (652000) #see Ukraine.txt for balance of Region  
+#under the rule of Russia in 1836 
+#Chisinau (332000/83000 POPS)  
+676 = {
+	aristocrats = {
+		culture = romanian
+		religion = orthodox
+		size = 910  
+	}
+
+	bureaucrats = {
+		culture = romanian
+		religion = orthodox
+		size = 146 
+	}
+
+	officers = {
+		culture = romanian
+		religion = orthodox
+		size = 114 
+	}
+
+	clergymen = {
+		culture = romanian
+		religion = orthodox
+		size = 455 
+	}
+
+	artisans = {
+		culture = romanian
+		religion = orthodox
+		size = 6500
+	}
+
+	soldiers = {
+		culture = romanian
+		religion = orthodox
+		size = 488 
+	}
+
+	farmers = {
+		culture = romanian
+		religion = orthodox
+		size = 36888 
+	}
+
+	clergymen = {
+		culture = ashkenazi
+		religion = jewish
+		size = 49     
+	}
+
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1040   
+	}
+
+	soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 49  
+	}
+
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 4063    
+	}
+
+	clergymen = {
+		culture = turkish #gagauz
+		religion = orthodox
+		size = 49  
+	}
+
+	artisans = {
+		culture = turkish
+		religion = orthodox
+		size = 163 
+	}
+
+	soldiers = {
+		culture = turkish
+		religion = orthodox
+		size = 33  
+	}
+
+	farmers = {
+		culture = turkish
+		religion = orthodox
+		size = 3006  
+	}
+}
+#Balti (320000/80000 POPS)  
+677 = {
+	aristocrats = {
+		culture = romanian
+		religion = orthodox
+		size = 845 
+	}
+
+	clergymen = {
+		culture = romanian
+		religion = orthodox
+		size = 455  
+	}
+
+	artisans = {
+		culture = romanian
+		religion = orthodox
+		size = 2340 
+	}
+
+	soldiers = {
+		culture = romanian
+		religion = orthodox
+		size = 471 
+	}
+
+	farmers = {
+		culture = romanian
+		religion = orthodox
+		size = 42689
+	}
+
+	clergymen = {
+		culture = ashkenazi
+		religion = jewish
+		size = 49     
+	}
+
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1170   
+	}
+
+	soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 49  
+	}
+
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 4583   
+	}
+}

@@ -1,0 +1,14 @@
+owner = SAT
+controller = SAT
+add_core = SAT
+trade_goods = coal
+life_rating = 35
+terrain = hilly_farmland
+1914.1.1 = {
+	railroad = 3
+	naval_base = 3
+	remove_core = SAT
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}

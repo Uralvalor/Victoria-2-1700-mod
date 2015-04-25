@@ -1,0 +1,70 @@
+leader = {
+	name = "Имам Шамиль"
+	type = land
+	date="1836.1.1"
+	personality = charismatic
+	background = natural_born_leader
+	picture="personal_general_shamil"
+}
+leader = {
+	name = "Шамхал"
+	type = land
+	date="1686.1.1"
+	personality = charismatic
+	background = natural_born_leader
+	picture="personal_general_shamil"
+}
+leader = {
+	name = "Ума Дуев"
+	type = land
+	date="1836.1.1"
+	personality = defiant
+	background = hated
+}
+leader = {
+	name = "Атаби Атаев"
+	type = land
+	date="1836.1.1"
+	personality = unmanly
+	background = school_of_the_bayonet
+}
+leader = {
+	name = "Байсангур Беноевский"
+	type = land
+	date="1836.1.1"
+	personality = hellbent
+	background = madman
+	picture="personal_general_baisangur"
+}
+
+
+army = {
+	name = "Горская армия Ахульго"
+	location = 3249
+	regiment = {
+		name= "Travis' Command"
+		type = cavalry
+		home = 3249
+	}
+
+	regiment = {
+		name= "Fannin's Command"
+		type = infantry
+
+		home = 3249
+	}
+
+	regiment = {
+		name= "Travis' Command"
+		type = cavalry
+		home = 3249
+	}
+
+	regiment = {
+		name= "Fannin's Command"
+		type = infantry
+
+		home = 3249
+	}
+	
+}

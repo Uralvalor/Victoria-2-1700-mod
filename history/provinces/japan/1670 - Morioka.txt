@@ -1,0 +1,13 @@
+owner = SEN
+controller = SEN
+add_core = SEN
+trade_goods = sulphur
+life_rating = 35
+terrain = conifer_forest_hills
+1914.1.1 = {
+	railroad = 3
+	remove_core = SEN
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}

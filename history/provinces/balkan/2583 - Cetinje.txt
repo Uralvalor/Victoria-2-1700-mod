@@ -1,0 +1,18 @@
+owner = MON
+controller = MON
+add_core = MON
+add_core = YUG
+trade_goods = fruit
+life_rating = 35
+terrain = deciduous_forest_mountains
+1914.1.1 = {
+	state_building = {
+		level = 1
+		building = fabric_factory
+		upgrade = yes
+	}
+}
+1923.1.1 = {
+	owner = YUG
+	controller = YUG
+}

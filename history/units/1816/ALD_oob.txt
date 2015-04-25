@@ -1,0 +1,49 @@
+army = {
+	name = "Àğìèÿ Àáä åëü Êàäåğ"
+	location = 1707
+	regiment = {
+		name= "1.Askäris"
+		type = irregular
+		home = 1700
+	}
+
+	regiment = {
+		name= "2.Askäris"
+		type = irregular
+		home = 1702
+	}
+
+	regiment = {
+		name= "3.Askäris"
+		type = irregular
+		home = 1702
+	}
+
+	regiment = {
+		name= "1.Spahis"
+		type = cavalry
+		home = 1709
+	}
+}
+
+army = {
+	name = "Àğìèÿ áåé-Êîíñòàíòèíà"
+	location = 1713
+	regiment = {
+		name= "4.Askäris"
+		type = irregular
+		home = 1705
+	}
+
+	regiment = {
+		name= "5.Askäris"
+		type = irregular
+		home = 1705
+	}
+
+	regiment = {
+		name= "6.Askäris"
+		type = irregular
+		home = 1710
+	}
+}

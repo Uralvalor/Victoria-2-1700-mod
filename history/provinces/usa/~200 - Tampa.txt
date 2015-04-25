@@ -1,0 +1,29 @@
+
+add_core = XFL
+trade_goods = fruit
+life_rating = 30
+is_slave = yes
+terrain = swamp_jungle
+1836.1.1 = {
+	 
+	 
+	 
+	remove_core = SPA
+}
+1861.1.1 = {
+	colonial = no
+	controller = CSA
+	owner = CSA
+	add_core = CSA
+}
+1914.1.1 = {
+	railroad = 3
+	 
+	 
+	remove_core = CSA
+	state_building = {
+		level = 5
+		building = dye_factory
+		upgrade = yes
+	}
+}

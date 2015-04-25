@@ -1,0 +1,23 @@
+army = {
+	name = "Армия Джохора"
+	location = 1390
+	regiment = {
+		name= "1-я бригада"
+		type = irregular
+		home = 1385
+	}
+
+	regiment = {
+		name= "2-я бригада"
+		type = irregular
+		home = 1387
+	}
+
+	regiment = {
+		name= "3-я бригада"
+		type = irregular
+		home = 2575
+	}
+
+}
+

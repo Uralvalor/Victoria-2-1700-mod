@@ -1,0 +1,17 @@
+owner = MAR
+controller = MAR
+add_core = MAR
+add_core = BER
+add_core = HND
+trade_goods = tobacco
+life_rating = 35
+terrain = good_farmland
+1836 = {
+	owner = ENG
+	controller = ENG
+	colonial = 2
+}
+1914.1.1 = {
+	naval_base = 4
+	colonial = 3
+}

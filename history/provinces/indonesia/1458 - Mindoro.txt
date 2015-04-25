@@ -1,0 +1,13 @@
+owner = SPA
+controller = SPA
+add_core = PHI
+trade_goods = fish
+life_rating = 30
+colonial = 2
+terrain = seasonal_jungle_mountains
+1914.1.1 = {
+	owner = PHI
+	controller = PHI
+	remove_core = SPA
+	colonial = no
+}

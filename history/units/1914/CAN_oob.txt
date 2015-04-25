@@ -1,0 +1,162 @@
+leader = {
+	name = "Артур Карри"
+	type = land
+	date="1914.1.1"
+	personality = vicious
+	background = cavalry_school
+	picture="personal_arthur_currie"
+}
+
+leader = {
+	name = "Ричард Тёрнер"
+	type = land
+	date="1914.1.1"
+	personality = openminded
+	background = exranker
+	picture="personal_richard_turner"
+}
+
+
+army = {
+	name = "1-я армия"
+	location = 58
+	regiment = {
+		name= "1-я пех. дивизия"
+		type = infantry
+		home = 36
+	}
+
+	regiment = {
+		name= "2-я пех. дивизия"
+		type = infantry
+		home = 46
+	}
+
+	regiment = {
+		name= "3-я пех. дивизия"
+		type = infantry
+		home = 46
+	}
+
+	regiment = {
+		name= "4-я пех. дивизия"
+		type = infantry
+		home = 46
+	}
+
+	regiment = {
+		name= "5-я пех. дивизия"
+		type = infantry
+		home = 50
+	}
+
+	regiment = {
+		name= "6-я пех. дивизия"
+		type = infantry
+		home = 51
+	}
+
+	regiment = {
+		name= "7-я пех. дивизия"
+		type = cavalry
+		home = 52
+	}
+
+	regiment = {
+		name= "8-я пех. дивизия"
+		type = cavalry
+		home = 54
+	}
+
+	regiment = {
+		name= "9-я пех. дивизия"
+		type = cavalry
+		home = 55
+	}
+
+	regiment = {
+		name= "10-я пех. дивизия"
+		type = cavalry
+		home = 56
+	}
+}
+army = {
+	name = "2-я армия"
+	location = 69
+	regiment = {
+		name= "1-я пех. дивизия"
+		type = infantry
+		home = 57
+	}
+
+	regiment = {
+		name= "2-я пех. дивизия"
+		type = infantry
+		home = 57
+	}
+
+	regiment = {
+		name= "3-я пех. дивизия"
+		type = infantry
+		home = 58
+	}
+
+	regiment = {
+		name= "4-я пех. дивизия"
+		type = infantry
+		home = 58
+	}
+
+	regiment = {
+		name= "5-я пех. дивизия"
+		type = infantry
+		home = 58
+	}
+
+	regiment = {
+		name= "6-я пех. дивизия"
+		type = infantry
+		home = 61
+	}
+
+	regiment = {
+		name= "7-я пех. дивизия"
+		type = cavalry
+		home = 64
+	}
+
+	regiment = {
+		name= "8-я пех. дивизия"
+		type = cavalry
+		home = 65
+	}
+
+	regiment = {
+		name= "9-я пех. дивизия"
+		type = cavalry
+		home = 66
+	}
+
+	regiment = {
+		name= "10-я пех. дивизия"
+		type = cavalry
+		home = 69
+	}
+}
+
+navy = {
+	name = "Австралийский флот"
+	location = 71
+	ship = {
+		name = "Мельбурн"
+		type = cruiser
+	}
+	ship = {
+		name = "Торонто"
+		type = cruiser
+	}
+	ship = {
+		name = "Канада"
+		type = cruiser
+	}
+}

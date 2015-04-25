@@ -1,0 +1,104 @@
+leader = {
+	name = "Йохан Таваст"
+	picture = swe_gen_tawast
+	date = 1807.1.1
+	type = land
+	personality = soldierly
+	background = old_school
+}
+leader = {
+	name = "Густав Сэдэрстром"
+	picture = swe_gen_cederstromgustaf
+	date = 1813.1.1
+	type = land
+	personality = arrogant
+	background = rising_star
+}
+leader = {
+	name = "Иоганн Билбейг"
+	picture = swe_gen_billbergh
+	date = 1814.1.1
+	type = land
+	personality = diplomatic
+	background = toady
+}
+
+army = {
+	name = "Шведская армия"
+	location = 322
+	regiment = {
+		name= "Svea Livgarde"
+		type = guard
+		home = 322
+	}
+
+	regiment = {
+		name= "Sцdermanlands Regemente"
+		type = infantry
+		home = 322
+	}
+
+}
+
+navy = {
+	name = "Шведский флот"
+	location = 322
+	ship = {
+		name= "Karl XIII"
+		type = manowar
+	}
+
+	ship = {
+		name= "Karl XIV Johan"
+		type = manowar
+	}
+
+	ship = {
+		name= "Fдderneslandet"
+		type = manowar
+	}
+
+	ship = {
+		name= "Manligheten"
+		type = manowar
+	}
+
+
+	ship = {
+		name= "Camilla"
+		type = frigate
+	}
+
+	ship = {
+		name= "Af Chapman"
+		type = frigate
+	}
+
+	ship = {
+		name= "Eurydice"
+		type = frigate
+	}
+
+	ship = {
+		name= "Galatea"
+		type = frigate
+	}
+
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+
+}
+

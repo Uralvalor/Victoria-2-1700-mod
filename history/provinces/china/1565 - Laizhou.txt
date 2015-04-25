@@ -1,0 +1,13 @@
+owner = MCK
+controller = MCK  add_core = CHI  colonial = 2
+trade_goods = cotton
+life_rating = 30
+terrain = forested_farmland
+1914.1.1 = {
+	add_core = ZHI
+}
+1923.1.1 = {
+	owner = ZHI
+	controller = ZHI
+	
+}

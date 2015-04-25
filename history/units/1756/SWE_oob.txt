@@ -1,0 +1,234 @@
+army = {
+	name = "Шведская армия"
+	location = 322
+	regiment = {
+		name= "1-я артиллерийская бригада"
+		type = artillery
+		home = 322
+	}
+
+	regiment = {
+		name= "2-я артиллерийская бригада"
+		type = artillery
+		home = 326
+	}
+
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 325
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 324
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 330
+	}
+
+	regiment = {
+		name= "4-я пехотная бригада"
+		type = infantry
+		home = 332
+	}
+
+	regiment = {
+		name= "5-я пехотная бригада"
+		type = infantry
+		home = 333
+	}
+
+	regiment = {
+		name= "6-я пехотная бригада"
+		type = infantry
+		home = 334
+	}
+
+	regiment = {
+		name= "7-я пехотная бригада"
+		type = infantry
+		home = 335
+	}
+
+	regiment = {
+		name= "8-я пехотная бригада"
+		type = infantry
+		home = 321
+	}
+
+}
+
+army = {
+	name = "Финская армия"
+	location = 343
+	regiment = {
+		name= "1-я кавалерийская бригада"
+		type = cavalry
+		home = 322
+	}
+
+	regiment = {
+		name= "2-я кавалерийская бригада"
+		type = cavalry
+		home = 322
+	}
+
+	regiment = {
+		name= "3-я кавалерийская бригада"
+		type = cavalry
+		home = 322
+	}
+
+	regiment = {
+		name= "9-я пехотная бригада"
+		type = infantry
+		home = 325
+	}
+
+	regiment = {
+		name= "10-я пехотная бригада"
+		type = infantry
+		home = 324
+	}
+
+	regiment = {
+		name= "11-я пехотная бригада"
+		type = infantry
+		home = 330
+	}
+
+	regiment = {
+		name= "12-я пехотная бригада"
+		type = infantry
+		home = 332
+	}
+
+	regiment = {
+		name= "13-я пехотная бригада"
+		type = infantry
+		home = 333
+	}
+
+	regiment = {
+		name= "14-я пехотная бригада"
+		type = infantry
+		home = 334
+	}
+
+	regiment = {
+		name= "15-я пехотная бригада"
+		type = infantry
+		home = 335
+	}
+}
+
+navy = {
+	name = "Шведская эскадра"
+	location = 322
+	ship = {
+		name= "Карл XIII"
+		type = manowar
+	}
+
+	ship = {
+		name= "Карл XIV Юхан"
+		type = manowar
+	}
+
+	ship = {
+		name= "Федернесландет"
+		type = manowar
+	}
+
+	ship = {
+		name= "Манлигетен"
+		type = manowar
+	}
+
+	ship = {
+		name= "Йохан"
+		type = manowar
+	}
+
+	ship = {
+		name= "Свериге"
+		type = manowar
+	}
+
+	ship = {
+		name= "Фредерик"
+		type = manowar
+	}
+
+	ship = {
+		name= "Померания"
+		type = manowar
+	}
+
+	ship = {
+		name= "Хенрик аф Тролле"
+		type = manowar
+	}
+
+	ship = {
+		name= "Камилла"
+		type = frigate
+	}
+
+	ship = {
+		name= "Аф Капман"
+		type = frigate
+	}
+
+	ship = {
+		name= "Эвридика"
+		type = frigate
+	}
+
+	ship = {
+		name= "Галатея"
+		type = frigate
+	}
+	ship = {
+		name= "Пакка"
+		type = frigate
+	}
+
+	ship = {
+		name= "Вексьё"
+		type = frigate
+	}
+
+	ship = {
+		name= "Дельфин"
+		type = frigate
+	}
+
+	ship = {
+		name= "Яррамас"
+		type = frigate
+	}
+
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}
+
+

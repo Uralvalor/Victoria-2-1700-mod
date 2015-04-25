@@ -1,0 +1,23 @@
+army = {
+	name = "Армия Тибета"
+	location = 1587
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = irregular
+		home = 1587
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = irregular
+		home = 1587
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = irregular
+		home = 1588
+	}
+
+}
+

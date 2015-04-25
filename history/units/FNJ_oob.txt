@@ -1,0 +1,67 @@
+army = {
+	name = "Army of Khartoum"
+	location = 1827
+	regiment = {
+		name= "1st 'Braves' Division"
+		type = irregular
+		home = 1827
+	}
+
+	regiment = {
+		name= "2nd 'Braves' Division"
+		type = irregular
+		home = 1827
+	}
+
+	regiment = {
+		name= "3rd 'Braves' Division"
+		type = irregular
+		home = 1827
+	}
+
+}
+
+army = {
+	name = "Army of the Funj Sultanate"
+	location = 1830
+	regiment = {
+		name= "1st 'Sudanese' Division"
+		type = irregular
+		home = 1830
+	}
+
+	regiment = {
+		name= "2nd 'Sudanese' Division"
+		type = irregular
+		home = 1830
+	}
+
+	regiment = {
+		name= "3rd 'Sudanese' Division"
+		type = irregular
+		home = 1830
+	}
+}
+
+army = {
+	name = "Army of Kassala"
+	location = 1829
+	regiment = {
+		name= "1st 'Beja' Division"
+		type = irregular
+		home = 1829
+	}
+
+	regiment = {
+		name= "2nd 'Beja' Division"
+		type = irregular
+		home = 1829
+	}
+
+	regiment = {
+		name= "3rd 'Beja' Division"
+		type = irregular
+		home = 1829
+	}
+	
+}

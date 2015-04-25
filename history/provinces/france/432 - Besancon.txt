@@ -1,0 +1,8 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+trade_goods = coal
+life_rating = 35
+terrain = deciduous_forest_hills
+1861.1.1 = { railroad = 3 }
+1914.1.1 = { railroad = 5 fort = 3 }

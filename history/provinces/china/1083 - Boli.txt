@@ -1,0 +1,17 @@
+
+add_core = SIB
+#add_core = MCK
+trade_goods = coal
+life_rating = 30
+terrain = conifer_forest_hills
+1861.1.1 = {
+	owner = RUS
+	controller = RUS
+	colonial = 2
+}
+1914.1.1 = { railroad = 3 colonial = no }
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

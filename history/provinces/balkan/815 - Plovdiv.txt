@@ -1,0 +1,12 @@
+owner = TUR
+controller = TUR  colonial = 2
+add_core = BUL
+trade_goods = tobacco
+life_rating = 35
+terrain = deciduous_forest_mountains
+1914.1.1 = {
+	owner = BUL
+	controller = BUL
+	remove_core = TUR
+	fort = 2
+}

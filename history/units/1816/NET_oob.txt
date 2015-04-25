@@ -1,0 +1,239 @@
+leader = {
+	name = "Давид Хендрик Шассе"
+	picture = net_gen_chasse
+	date = 1806.1.1
+	type = land
+	personality = timid
+	background = school_of_defense
+}
+leader = {
+	name = "Хендрик де Кок"
+	picture = net_gen_kock
+	date = 1807.1.1
+	type = land
+	personality = stout
+	background = colonial_b
+}
+leader = {
+	name = "Доминик-Жак де Эренс"
+	picture = net_gen_eerens
+	date = 1815.1.1
+	type = land
+	personality = soldierly
+	background = exranker
+}
+leader = {
+	name = "Принц Вильгельм"
+	picture = net_gen_prinswillem
+	date = 1815.1.1
+	type = land
+	personality = unruly
+	background = womanizer
+}
+leader = {
+	name = "Карел Бернард"
+	picture = net_gen_hertogkarelbernhard
+	date = 1815.1.1
+	type = land
+	personality = smart_p
+	background = uncommonly_young
+}
+
+army = {
+	name = "Королевская армия"
+	location = 375 
+	regiment = {
+		name = "1e Infanterie Brigade"
+		type = infantry
+		home = 376
+	}
+
+	regiment = {
+		name = "2e Infanterie Brigade"
+		type = infantry
+		home = 383
+	}
+
+	regiment = {
+		name = "3e Infanterie Brigade"
+		type = infantry
+		home = 383
+	}
+
+}
+
+army = {
+	name = "Бельгийская армия"
+	location = 381
+	regiment = {
+		name = "4e Infanterie Brigade"
+		type = infantry
+		home = 387
+	}
+
+	regiment = {
+		name = "5e Infanterie Brigade"
+		type = infantry
+		home = 388
+	}
+
+	regiment = {
+		name = "6e Infanterie Brigade"
+		type = infantry
+		home = 389
+	}
+
+	regiment = {
+		name = "5e Infanterie Brigade"
+		type = infantry
+		home = 392
+	}
+
+	regiment = {
+		name = "6e Infanterie Brigade"
+		type = infantry
+		home = 392
+	}
+
+}
+
+army = {
+	name = "K.N.I.L."
+	location = 1413
+	regiment = {
+		name = "1e Indische Brigade"
+		type = infantry
+		home = 1413
+	}
+
+	regiment = {
+		name = "Banisaren Korps"
+		type = irregular
+		home = 1421
+	}
+}
+
+navy = {
+	name = "Koninklijke Marine"
+	location = 375 #Amsterdam
+	ship = {
+		name= "Doggersbank"
+		type = manowar
+	}
+
+	ship = {
+		name= "Amsterdam"
+		type = manowar
+	}
+
+	ship = {
+		name= "Maria Regensbergen"
+		type = frigate
+	}
+
+	ship = {
+		name= "Pallas"
+		type = frigate
+	}
+
+	ship = {
+		name= "Proserpine"
+		type = frigate
+	}
+
+	ship = {
+		name= "Daphne"
+		type = frigate
+	}
+
+	ship = {
+		name= "Espion"
+		type = frigate
+	}
+
+	ship = {
+		name= "Zeepaard"
+		type = frigate
+	}
+
+	ship = {
+		name= "Irene"
+		type = frigate
+	}
+
+	ship = {
+		name= "Orpheus"
+		type = frigate
+	}
+
+
+	ship = {
+		name= "1e Transport Eskader"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "Koninklijke NI Marine"
+	location = 1413 #Batavia
+	ship = {
+		name= "Admiraal de Ruyter"
+		type = manowar
+	}
+
+	ship = {
+		name= "Verwachting"
+		type = manowar
+	}
+
+	ship = {
+		name= "Aurora"
+		type = frigate
+	}
+
+	ship = {
+		name= "Iris"
+		type = frigate
+	}
+
+	ship = {
+		name= "Fenix"
+		type = frigate
+	}
+
+	ship = {
+		name= "Eendracht"
+		type = frigate
+	}
+
+	ship = {
+		name= "2e Transport Eskader"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "Koninklijke WI Marine"
+	location = 2234 #Curacao
+
+	ship = {
+		name= "Admiraal Generaal"
+		type = manowar
+	}
+
+	ship = {
+		name= "Diana"
+		type = frigate
+	}
+
+	ship = {
+		name= "Hoop"
+		type = frigate
+	}
+
+	ship = {
+		name= "3e Transport Eskader"
+		type = clipper_transport
+	}
+
+}

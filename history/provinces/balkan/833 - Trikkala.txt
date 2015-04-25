@@ -1,0 +1,11 @@
+owner = TUR
+controller = TUR  colonial = 2
+add_core = GRE
+trade_goods = grain
+life_rating = 35
+terrain = forested_farmland
+1914.1.1 = {
+	owner = GRE
+	controller = GRE
+	remove_core = TUR
+}

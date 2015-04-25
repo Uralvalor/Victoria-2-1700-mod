@@ -1,0 +1,12 @@
+
+add_core = XPA
+trade_goods = tobacco
+life_rating = 35
+terrain = hilly_farmland
+1750.1.1 = {
+	owner = ENG
+	controller = ENG
+colony = 2
+}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = { railroad = 5 }

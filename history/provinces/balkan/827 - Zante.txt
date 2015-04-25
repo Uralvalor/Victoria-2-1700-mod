@@ -1,0 +1,11 @@
+owner = VEN
+controller = VEN
+add_core = ION
+add_core = GRE
+trade_goods = fish
+life_rating = 35
+terrain = hilly_farmland
+1914.1.1 = {
+	controller = GRE
+	owner = GRE
+}

@@ -1,0 +1,12 @@
+
+add_core = AST
+trade_goods = grain
+life_rating = 30
+colonial = 1
+terrain = semi_desert
+1914.1.1 = {
+	owner = AST
+	controller = AST
+	colonial = no
+	naval_base = 3
+}

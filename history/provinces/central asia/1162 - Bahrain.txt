@@ -1,0 +1,12 @@
+owner = PER
+controller = PER
+add_core = BHR
+trade_goods = grain
+life_rating = 30
+terrain = desert
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 3
+	naval_base = 3
+}

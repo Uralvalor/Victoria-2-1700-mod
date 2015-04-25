@@ -1,0 +1,11 @@
+owner = TGA
+controller = TGA
+add_core = TGA
+trade_goods = fish
+life_rating = 15
+terrain = jungle
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 3
+}

@@ -1,0 +1,47 @@
+army = {
+	name = "Армия низама"
+	location = 1283
+	regiment = {
+		name= "1-я кавалерийская бригада"
+		type = cavalry
+		home = 1283
+	}
+
+	regiment = {
+		name= "2-я кавалерийская бригада"
+		type = cavalry
+		home = 1278
+	}
+
+	regiment = {
+		name= "3-я кавалерийская бригада"
+		type = cavalry
+		home = 1284
+	}
+
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1283
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 1285
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 1287
+	}
+
+	regiment = {
+		name= "4-я пехотная бригада"
+		type = artillery
+		home = 1283
+	}
+
+}
+

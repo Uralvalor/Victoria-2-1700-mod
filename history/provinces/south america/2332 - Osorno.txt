@@ -1,0 +1,9 @@
+owner = SPA
+controller = SPA
+add_core = CHL
+trade_goods = grain
+life_rating = 35
+terrain = conifer_forest_mountains
+1836.1.1 = {
+	remove_core = SPA
+}

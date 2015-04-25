@@ -1,0 +1,23 @@
+army = {
+	name = "Армия Парагвая"
+	location = 2339
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 2339
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 2341
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 2342
+	}
+
+}
+

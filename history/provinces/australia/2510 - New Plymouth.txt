@@ -1,0 +1,11 @@
+
+add_core = NZL
+trade_goods = cattle
+life_rating = 30
+colonial = 1
+terrain = deciduous_forest_hills
+1914.1.1 = {
+	owner = NZL
+	controller = NZL
+	colonial = no
+}

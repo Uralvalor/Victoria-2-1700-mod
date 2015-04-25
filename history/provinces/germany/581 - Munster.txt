@@ -1,0 +1,51 @@
+owner = MUN
+controller = MUN
+add_core = MUN
+add_core = GER
+trade_goods = coal
+life_rating = 35
+terrain = marginal_farmland
+1861.1.1 = {
+	state_building = {
+		level = 1
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = explosives_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = ammunition_factory
+		upgrade = yes
+	}
+}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	owner = GER
+	controller = GER
+	railroad = 5
+	fort = 2
+	state_building = {
+		level = 2
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = explosives_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = ammunition_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 25
+		building = paper_mill
+		upgrade = yes
+	}
+}

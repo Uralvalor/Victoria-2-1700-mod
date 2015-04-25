@@ -1,0 +1,243 @@
+army = {
+	name = "1я-национальная армия"
+	location = 2360
+	regiment = {
+		name= "1-я Пехотная Дивизия"
+		type = infantry
+		home = 2348
+	}
+
+	regiment = {
+		name= "2-я Пехотная Дивизия"
+		type = infantry
+		home = 2348
+	}
+
+	regiment = {
+		name= "3-я Пехотная Дивизия"
+		type = infantry
+		home = 2348
+	}
+
+	regiment = {
+		name= "4-я Пехотная Дивизия"
+		type = infantry
+		home = 2348
+	}
+
+	regiment = {
+		name= "5-я Пехотная Дивизия"
+		type = infantry
+		home = 2348
+	}
+
+	regiment = {
+		name= "6-я Пехотная Дивизия"
+		type = infantry
+		home = 2348
+	}
+
+	regiment = {
+		name= "7-я Пехотная Дивизия"
+		type = infantry
+		home = 2348
+	}
+
+	regiment = {
+		name= "1-й Кавалерийский Дивизион"
+		type = cavalry
+		home = 2349
+	}
+
+	regiment = {
+		name= "2-й Кавалерийский Дивизион"
+		type = cavalry
+		home = 2349
+	}
+
+	regiment = {
+		name= "3-й Кавадерийский Дивизион"
+		type = cavalry
+		home = 2349
+	}
+
+	regiment = {
+		name= "4-й Кавалерийский Дивизион"
+		type = cavalry
+		home = 2349
+	}
+
+	regiment = {
+		name= "5-й Кавадерийский Дивизион"
+		type = cavalry
+		home = 2349
+	}
+
+}
+army = {
+	name = "2я-национальная армия"
+	location = 2356
+	regiment = {
+		name= "8-я Пехотная Дивизия"
+		type = infantry
+		home = 2349
+	}
+
+	regiment = {
+		name= "9-я Пехотная Дивизия"
+		type = infantry
+		home = 2349
+	}
+
+	regiment = {
+		name= "10-я Пехотная Дивизия"
+		type = infantry
+		home = 2356
+	}
+
+	regiment = {
+		name= "11-я Пехотная Дивизия"
+		type = infantry
+		home = 2358
+	}
+
+	regiment = {
+		name= "12-я Пехотная Дивизия"
+		type = infantry
+		home = 2379
+	}
+
+	regiment = {
+		name= "13-я Пехотная Дивизия"
+		type = infantry
+		home = 2379
+	}
+
+	regiment = {
+		name= "14-я Пехотная Дивизия"
+		type = infantry
+		home = 2379
+	}
+
+	regiment = {
+		name= "6-й Кавалерийский Дивизион"
+		type = cavalry
+		home = 2379
+	}
+
+	regiment = {
+		name= "7-й Кавалерийский Дивизион"
+		type = cavalry
+		home = 2379
+	}
+
+	regiment = {
+		name= "8-й Кавадерийский Дивизион"
+		type = cavalry
+		home = 2379
+	}
+
+	regiment = {
+		name= "9-й Кавалерийский Дивизион"
+		type = cavalry
+		home = 2379
+	}
+
+	regiment = {
+		name= "10-й Кавадерийский Дивизион"
+		type = cavalry
+		home = 2379
+	}
+
+}
+army = {
+	name = "3я-национальная армия"
+	location = 2390
+	regiment = {
+		name= "15-я Пехотная Дивизия"
+		type = infantry
+		home = 2379
+	}
+
+	regiment = {
+		name= "16-я Пехотная Дивизия"
+		type = infantry
+		home = 2379
+	}
+
+	regiment = {
+		name= "17-я Пехотная Дивизия"
+		type = infantry
+		home = 2379
+	}
+
+	regiment = {
+		name= "18-я Пехотная Дивизия"
+		type = infantry
+		home = 2379
+	}
+
+	regiment = {
+		name= "19-я Пехотная Дивизия"
+		type = infantry
+		home = 2379
+	}
+
+	regiment = {
+		name= "20-я Пехотная Дивизия"
+		type = infantry
+		home = 2379
+	}
+
+	regiment = {
+		name= "21-я Пехотная Дивизия"
+		type = infantry
+		home = 2366
+	}
+
+}
+navy = {
+	name = "Аргентинский флот"
+	location = 2990
+	ship = {
+		name= "Линьерс"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Митре"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Веинтисинко де Майо"
+		type = cruiser
+	}
+
+}
+
+navy = {
+	name = "1st Transport Squadron"
+	location = 2990
+	ship = {
+		name= "1st Transport Flotilla"
+		type = steam_transport
+	}
+	ship = {
+		name= "2st Transport Flotilla"
+		type = steam_transport
+	}
+	ship = {
+		name= "3st Transport Flotilla"
+		type = steam_transport
+	}
+	ship = {
+		name= "4st Transport Flotilla"
+		type = steam_transport
+	}
+	ship = {
+		name= "5st Transport Flotilla"
+		type = steam_transport
+	}
+
+}

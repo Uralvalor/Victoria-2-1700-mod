@@ -1,0 +1,11 @@
+owner = SPA
+controller = SPA
+add_core = MEX
+add_core= YUC
+colonial = 2
+trade_goods = timber
+life_rating = 30
+terrain = jungle
+1836.1.1 = {
+	remove_core = SPA
+}

@@ -1,0 +1,15 @@
+add_core = SAF
+trade_goods = fruit
+life_rating = 25
+terrain = semi_desert_hills
+1836.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 2
+}
+1914.1.1 = {
+	owner = SAF
+	controller = SAF
+	colonial = no
+	trade_goods = precious_metal
+}

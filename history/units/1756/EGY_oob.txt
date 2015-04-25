@@ -1,0 +1,244 @@
+navy = {
+	name = "Таба"
+	location = 1753
+	ship = {
+		name= "Тушка"
+		type = manowar
+	}
+
+	ship = {
+		name= "Шарм-эль-Шейх"
+		type = manowar
+	}
+
+	ship = {
+		name= "Думьят"
+		type = manowar
+	}
+
+	ship = {
+		name= "Рашид"
+		type = manowar
+	}
+
+	ship = {
+		name= "Эль Суэц"
+		type = manowar
+	}
+
+	ship = {
+		name= "Эль Абукир"
+		type = frigate
+	}
+
+	ship = {
+		name= "Наджим аль-Зафир"
+		type = frigate
+	}
+
+	ship = {
+		name= "Каир"
+		type = frigate
+	}
+
+	ship = {
+		name= "Аль Искандария"
+		type = frigate
+	}
+
+	ship = {
+		name= "Асуан"
+		type = frigate
+	}
+
+	ship = {
+		name= "Порт-Саид"
+		type = frigate
+	}
+
+	ship = {
+		name= "Марса Матру"
+		type = frigate
+	}
+
+	ship = {
+		name= "Бур Тафик"
+		type = frigate
+	}
+
+	ship = {
+		name= "Аль Гардака"
+		type = frigate
+	}
+
+	ship = {
+		name= "Бур Сафаджа"
+		type = frigate
+	}
+
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}
+
+army = {
+	name = "Армия Египта"
+	location = 1745
+	regiment = {
+		name= "1-я бригада сипахов"
+		type = cavalry
+		home = 1745
+	}
+
+	regiment = {
+		name= "2-я бригада сипахов"
+		type = cavalry
+		home = 1745
+	}
+
+	regiment = {
+		name= "3-я бригада сипахов"
+		type = cavalry
+		home = 1745
+	}
+
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1745
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 1745
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 1750
+	}
+
+	regiment = {
+		name= "4-я пехотная бригада"
+		type = infantry
+		home = 1751
+	}
+
+	regiment = {
+		name= "5-я пехотная бригада"
+		type = infantry
+		home = 1751
+	}
+
+	regiment = {
+		name= "6-я пехотная бригада"
+		type = infantry
+		home = 1747
+	}
+}
+
+army = {
+	name = "Армия Сирии"
+	location = 902
+
+	regiment = {
+		name= "7-я пехотная бригада"
+		type = irregular
+		home = 1746
+	}
+
+	regiment = {
+		name= "8-я пехотная бригада"
+		type = irregular
+		home = 1752
+	}
+
+	regiment = {
+		name= "9-я пехотная бригада"
+		type = irregular
+		home = 1748
+	}
+
+	regiment = {
+		name= "10-я пехотная бригада"
+		type = irregular
+		home = 1749
+	}
+
+	regiment = {
+		name= "11-я пехотная бригада"
+		type = irregular
+		home = 1765
+	}
+
+	regiment = {
+		name= "12-я пехотная бригада"
+		type = irregular
+		home = 1764
+	}
+
+}
+
+army = {
+	name = "Армия Верхнего Нила"
+	location = 1827
+	regiment = {
+		name= "4-я бригада сипахов"
+		type = cavalry
+		home = 1745
+	}
+
+	regiment = {
+		name= "5-я бригада сипахов"
+		type = cavalry
+		home = 1751
+	}
+
+	regiment = {
+		name= "6-я бригада сипахов"
+		type = cavalry
+		home = 1762
+	}
+
+	regiment = {
+		name= "13-я пехотная бригада"
+		type = irregular
+		home = 1827
+	}
+
+	regiment = {
+		name= "14-я пехотная бригада"
+		type = irregular
+		home = 1827
+	}
+
+	regiment = {
+		name= "15-я пехотная бригада"
+		type = irregular
+		home = 1828
+	}
+
+	regiment = {
+		name= "16-я пехотная бригада"
+		type = irregular
+		home = 1829
+	}
+
+	regiment = {
+		name= "17-я пехотная бригада"
+		type = irregular
+		home = 1830
+	}
+
+	regiment = {
+		name= "18-я пехотная бригада"
+		type = irregular
+		home = 1831
+	}
+
+}
+

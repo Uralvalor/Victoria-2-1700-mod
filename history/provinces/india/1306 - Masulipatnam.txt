@@ -1,0 +1,12 @@
+owner = MUG
+controller = MUG
+add_core = HYD
+add_core = HND
+1750.1.1 = {
+	owner = BAS
+	controller = BAS
+}
+
+trade_goods = grain
+life_rating = 35
+terrain = floodplain_farmland

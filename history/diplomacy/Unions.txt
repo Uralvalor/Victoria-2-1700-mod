@@ -1,0 +1,54 @@
+# Denmark-Holstein (Frederick VI, Christian VIII, Frederick VII)
+#substate = {
+#	first = DEN
+#	second = HOL
+#	start_date = 1460.3.2
+#	end_date = 1863.11.15
+#}
+
+# ENLland
+
+
+substate = {
+	first = ENL
+	second = NET
+	start_date = 1601.1.1 
+	end_date = 1714.1.1
+}
+
+substate = {
+	first = ENL
+	second = SCO
+	start_date = 1601.1.1 
+	end_date = 1836.1.1
+}
+
+
+
+#Turkey
+
+
+substate = {
+	first = TUR
+	second = ALD
+	start_date = 1700.1.1
+	end_date = 1836.1.1	
+}
+substate = {
+	first = TUR
+	second = TUN
+	start_date = 1700.1.1
+	end_date = 1836.1.1	
+}
+substate = {
+	first = TUR
+	second = TRI
+	start_date = 1700.1.1
+	end_date = 1836.1.1	
+}
+substate = {
+	first = TUR
+	second = GEO
+	start_date = 1700.1.1
+	end_date = 1836.1.1	
+}

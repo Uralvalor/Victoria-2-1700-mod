@@ -1,0 +1,2691 @@
+#New South Wales Region 353000 Settlers/16000 Indigenous
+#Ruled by Britain 1836
+#Sydney (153000/38250 POPS) 
+2468 = {
+	aristocrats = {
+		culture = english
+		religion = protestant
+		size = 450
+	}
+	capitalists = {
+		culture = english
+		religion = protestant
+		size = 75
+	}
+	bureaucrats = {
+		culture = english
+		religion = protestant
+		size = 3550
+	}
+
+	officers = {
+		culture = english
+		religion = protestant
+		size = 50
+	}
+
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 450
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 3375
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 4100
+	}
+	clerks = {
+		culture = english
+		religion = protestant
+		size = 1000
+	}
+	craftsmen = {
+		culture = english
+		religion = protestant
+		size = 4000
+	}
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 5500
+	}
+
+	clergymen = {
+		culture = english
+		religion = catholic
+		size = 10
+	}
+	craftsmen = {
+		culture = english
+		religion = catholic
+		size = 490
+	}
+
+	aristocrats = {
+		culture = irish
+		religion = catholic
+		size = 60
+	}
+
+	clergymen = {
+		culture = irish
+		religion = catholic
+		size = 180
+	}
+
+	officers = {
+		culture = irish
+		religion = catholic
+		size = 10
+	}
+
+	artisans = {
+		culture = irish
+		religion = catholic
+		size = 1200
+	}
+
+	soldiers = {
+		culture = irish
+		religion = catholic
+		size = 600
+	}
+	craftsmen = {
+		culture = irish
+		religion = catholic
+		size = 4000
+	}
+	farmers = {
+		culture = irish
+		religion = catholic
+		size = 2890
+	}
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 25
+	}
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 110
+	}
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 115
+	}
+	clergymen = {
+		culture = yue
+		religion = mahayana
+		size = 30
+	}
+
+	artisans = {
+		culture = yue
+		religion = mahayana
+		size = 200
+	}
+	farmers = {
+		culture = yue
+		religion = mahayana
+		size = 1770
+	}
+
+	capitalists = {
+		culture = ashkenazi 
+		religion = jewish
+		size = 10
+	}
+	artisans = {
+		culture = ashkenazi 
+		religion = jewish
+		size = 100
+	}
+	clergymen = {
+		culture = ashkenazi
+		religion = jewish
+		size = 25
+	}
+	craftsmen = {
+		culture = ashkenazi 
+		religion = jewish
+		size = 365
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 10
+	}
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 50
+	}
+	clerks = {
+		culture = north_german
+		religion = protestant
+		size = 440
+	}
+}
+#Newcastle (56500/14125 POPS) 
+2469 = {
+	aristocrats = {
+		culture = english
+		religion = protestant
+		size = 10
+	}
+
+	officers = {
+		culture = english
+		religion = protestant
+		size = 10
+	}
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 110
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 300
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 300
+	}
+
+	clerks = {
+		culture = english
+		religion = protestant
+		size = 500
+	}
+	craftsmen = {
+		culture = english
+		religion = protestant
+		size = 2000
+	}
+
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 4395
+	}
+
+	aristocrats = {
+		culture = irish
+		religion = catholic
+		size = 30
+	}
+	officers = {
+		culture = irish
+		religion = catholic
+		size = 5
+	}
+	clergymen = {
+		culture = irish
+		religion = catholic
+		size = 85
+	}
+	soldiers = {
+		culture = irish
+		religion = catholic
+		size = 140
+	}
+	artisans = {
+		culture = irish
+		religion = catholic
+		size = 280
+	}
+
+	craftsmen = {
+		culture = irish
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = irish
+		religion = catholic
+		size = 3085
+	}
+
+	clergymen = {
+		culture = yue
+		religion = mahayana
+		size = 15
+	}
+
+	artisans = {
+		culture = yue
+		religion = mahayana
+		size = 150
+	}
+	farmers = {
+		culture = yue
+		religion = mahayana
+		size = 1335
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 5
+	}
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 20
+	}
+	clerks = {
+		culture = north_german
+		religion = protestant
+		size = 350
+	}
+}
+#Port Macquarie (22500/5625 POPS) 
+2470 = {
+	officers = {
+		culture = english
+		religion = protestant
+		size = 5
+	}
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 70
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 115
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 115
+	}
+
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 4320
+	}
+
+	clergymen = {
+		culture = irish
+		religion = catholic
+		size = 10
+	}
+
+	artisans = {
+		culture = irish
+		religion = catholic
+		size = 15
+	}
+
+	farmers = {
+		culture = irish
+		religion = catholic
+		size = 475
+	}
+
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 5
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 5
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 20
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 470
+	}
+}
+#Eden (40500/10125 POPS) 
+2472 = {
+	aristocrats = {
+		culture = english
+		religion = protestant
+		size = 75
+	}
+
+	officers = {
+		culture = english
+		religion = protestant
+		size = 10
+	}
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 105
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 350
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 350
+	}
+
+	clerks = {
+		culture = english
+		religion = protestant
+		size = 235
+	}
+	craftsmen = {
+		culture = english
+		religion = protestant
+		size = 1200
+	}
+
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 4800
+	}
+
+	aristocrats = {
+		culture = irish
+		religion = catholic
+		size = 25
+	}
+
+	clergymen = {
+		culture = irish
+		religion = catholic
+		size = 40
+	}
+
+	artisans = {
+		culture = irish
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture = irish
+		religion = catholic
+		size = 2335
+	}
+
+	clergymen = {
+		culture = yue
+		religion = mahayana
+		size = 5
+	}
+
+	artisans = {
+		culture = yue
+		religion = mahayana
+		size = 50
+	}
+	farmers = {
+		culture = yue
+		religion = mahayana
+		size = 445
+	}
+}
+#Wagga Wagga (30500/7625 POPS) 
+2473 = {
+	aristocrats = {
+		culture = english
+		religion = protestant
+		size = 60
+	}
+
+	officers = {
+		culture = english
+		religion = protestant
+		size = 5
+	}
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 90
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 235
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 300
+	}
+
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 5185
+	}
+
+	clergymen = {
+		culture = irish
+		religion = catholic
+		size = 15
+	}
+
+	artisans = {
+		culture = irish
+		religion = catholic
+		size = 50
+	}
+
+	farmers = {
+		culture = irish
+		religion = catholic
+		size = 935
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 5
+	}
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 35
+	}
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 335
+	}
+	clergymen = {
+		culture = north_german
+		religion = catholic
+		size = 5
+	}
+	farmers = {
+		culture = north_german
+		religion = catholic
+		size = 145
+	}
+
+	clergymen = {
+		culture = yue
+		religion = mahayana
+		size = 5
+	}
+
+	artisans = {
+		culture = yue
+		religion = mahayana
+		size = 10
+	}
+	farmers = {
+		culture = yue
+		religion = mahayana
+		size = 235
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 250
+	}
+}
+#uncolonized in 1836
+#Ophir (43000/10750 POPS) 
+2471 = {
+
+	aristocrats = {
+		culture = english
+		religion = protestant
+		size = 80
+	}
+
+	officers = {
+		culture = english
+		religion = protestant
+		size = 10
+	}
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 120
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 395
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 395
+	}
+
+	craftsmen = {
+		culture = english
+		religion = protestant
+		size = 1500
+	}
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 5375
+	}
+
+	aristocrats = {
+		culture = irish
+		religion = catholic
+		size = 10
+	}
+	clergymen = {
+		culture = irish
+		religion = catholic
+		size = 40
+	}
+	soldiers = {
+		culture = irish
+		religion = catholic
+		size = 50
+	}
+	artisans = {
+		culture = irish
+		religion = catholic
+		size = 105
+	}
+
+	craftsmen = {
+		culture = irish
+		religion = catholic
+		size = 420
+	}
+
+	farmers = {
+		culture = irish
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 250
+	}
+}
+#Moree (15750/3940 POPS) 
+2474 = {
+	aristocrats = {
+		culture = english
+		religion = protestant
+		size = 30
+	}
+
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 45
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 75
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 60
+	}
+
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 2730
+	}
+
+	farmers = {
+		culture = irish
+		religion = catholic
+		size = 250
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 10
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 20
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 720
+	}
+}
+#Broken Hill (9500/2375 POPS) 
+2475 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 20
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 35
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 45
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 115
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 2035
+	}
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 150
+	}
+}
+#Tasmania Region (90000 Settlers)
+#ruled by Britain 1836
+#Hobart (90000/22500 POPS)
+2482 = {
+	aristocrats = {
+		culture = english
+		religion = protestant
+		size = 225
+	}
+
+	officers = {
+		culture = english
+		religion = protestant
+		size = 45
+	}
+
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 340
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 1125
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 1125
+	}
+
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 19640
+	}
+
+}
+#Victoria Region - 540000 Settlers/2400 Indigenous
+#roughly divided based on locations of goldfields and the 1861 population of Melbourne 
+#uncolonized in 1836
+#Melbourne (250000/62500 POPS)
+2476 = {
+	aristocrats = {
+		culture = english
+		religion = protestant
+		size = 450
+	}
+	bureaucrats = {
+		culture = english
+		religion = protestant
+		size = 1265
+	}
+	capitalists = {
+		culture = english
+		religion = protestant
+		size = 100
+	}
+	officers = {
+		culture = english
+		religion = protestant
+		size = 100
+	}
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 900
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 2250
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 2250
+	}
+
+	clerks = {
+		culture = english
+		religion = protestant
+		size = 1000
+	}
+
+	craftsmen = {
+		culture = english
+		religion = protestant
+		size = 6000
+	}
+
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 28700
+	}
+	aristocrats = {
+		culture = irish
+		religion = catholic
+		size = 150
+	}
+
+	clergymen = {
+		culture = irish
+		religion = catholic
+		size = 300
+	}
+
+	artisans = {
+		culture = irish
+		religion = catholic
+		size = 1750
+	}
+
+	soldiers = {
+		culture = irish
+		religion = catholic
+		size = 300
+	}
+
+	craftsmen = {
+		culture = irish 
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = irish 
+		religion = catholic
+		size = 10500
+	}
+	artisans = {
+		culture = ashkenazi 
+		religion = jewish
+		size = 25
+	}
+	clergymen = {
+		culture = ashkenazi 
+		religion = jewish
+		size = 25
+	}
+	clerks = {
+		culture = ashkenazi 
+		religion = jewish
+		size = 450
+	}
+
+	clergymen = {
+		culture = yue
+		religion = mahayana
+		size = 25
+	}
+
+	artisans = {
+		culture = yue
+		religion = mahayana
+		size = 125
+	}
+	farmers = {
+		culture = yue
+		religion = mahayana
+		size = 2350
+	}
+}
+
+#Warnambool (26200/5300 POPS)
+2477 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 12
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 18
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 60
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 1085
+	}
+
+	aristocrats = {
+		culture = english
+		religion = protestant
+		size = 45
+	}
+	officers = {
+		culture = english
+		religion = protestant
+		size = 10
+	}
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 70
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 140
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 95
+	}
+
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 4700
+	}
+	aristocrats = {
+		culture = irish
+		religion = catholic
+		size = 15
+	}
+	clergymen = {
+		culture = irish
+		religion = catholic
+		size = 25
+	}
+
+	artisans = {
+		culture = irish
+		religion = catholic
+		size = 40
+	}
+
+	soldiers = {
+		culture = irish
+		religion = catholic
+		size = 30
+	}
+
+	farmers = {
+		culture = irish 
+		religion = catholic
+		size = 1550
+	}
+}
+#Ballarat (125000/31250 POPS)
+2478 = {
+	aristocrats = {
+		culture = english
+		religion = protestant
+		size = 210
+	}
+	officers = {
+		culture = english
+		religion = protestant
+		size = 40
+	}
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 315
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 2000
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 1500
+	}
+
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 16870
+	}
+	aristocrats = {
+		culture = irish
+		religion = catholic
+		size = 75
+	}
+
+	officers = {
+		culture = irish
+		religion = catholic
+		size = 5
+	}
+
+	clergymen = {
+		culture = irish
+		religion = catholic
+		size = 120
+	}
+
+	artisans = {
+		culture = irish
+		religion = catholic
+		size = 400
+	}
+
+	soldiers = {
+		culture = irish
+		religion = catholic
+		size = 400
+	}
+
+	farmers = {
+		culture = irish 
+		religion = catholic
+		size = 6815
+	}
+	clergymen = {
+		culture = yue
+		religion = mahayana
+		size = 25
+	}
+
+	artisans = {
+		culture = yue
+		religion = mahayana
+		size = 125
+	}
+	farmers = {
+		culture = yue
+		religion = mahayana
+		size = 2350
+	}
+}
+#Sale (60000/15000 POPS)
+2479 = {
+	aristocrats = {
+		culture = english
+		religion = protestant
+		size = 115
+	}
+	officers = {
+		culture = english
+		religion = protestant
+		size = 20
+	}
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 170
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 280
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 225
+	}
+
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 10440
+	}
+	aristocrats = {
+		culture = irish
+		religion = catholic
+		size = 40
+	}
+
+	officers = {
+		culture = irish
+		religion = catholic
+		size = 5
+	}
+
+	clergymen = {
+		culture = irish
+		religion = catholic
+		size = 55
+	}
+
+	artisans = {
+		culture = irish
+		religion = catholic
+		size = 95
+	}
+
+	soldiers = {
+		culture = irish
+		religion = catholic
+		size = 75
+	}
+
+	farmers = {
+		culture = irish 
+		religion = catholic
+		size = 3480
+	}
+}
+#Beechworth (75000/18750 POPS)
+2480 = {
+	aristocrats = {
+		culture = english
+		religion = protestant
+		size = 125
+	}
+	officers = {
+		culture = english
+		religion = protestant
+		size = 25
+	}
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 185
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 310
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 250
+	}
+
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 12375
+	}
+	aristocrats = {
+		culture = irish
+		religion = catholic
+		size = 35
+	}
+
+	officers = {
+		culture = irish
+		religion = catholic
+		size = 5
+	}
+
+	clergymen = {
+		culture = irish
+		religion = catholic
+		size = 45
+	}
+
+	artisans = {
+		culture = irish
+		religion = catholic
+		size = 80
+	}
+
+	soldiers = {
+		culture = irish
+		religion = catholic
+		size = 55
+	}
+
+	farmers = {
+		culture = irish 
+		religion = catholic
+		size = 3120
+	}
+	clergymen = {
+		culture = yue
+		religion = mahayana
+		size = 25
+	}
+
+	artisans = {
+		culture = yue
+		religion = mahayana
+		size = 125
+	}
+	farmers = {
+		culture = yue
+		religion = mahayana
+		size = 2350
+	}
+}
+#Swan Hill (26200/5300 POPS)
+2481 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 12
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 18
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 60
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 1085
+	}
+	aristocrats = {
+		culture = english
+		religion = protestant
+		size = 45
+	}
+	officers = {
+		culture = english
+		religion = protestant
+		size = 10
+	}
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 70
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 140
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 95
+	}
+
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 4700
+	}
+	aristocrats = {
+		culture = irish
+		religion = catholic
+		size = 15
+	}
+	clergymen = {
+		culture = irish
+		religion = catholic
+		size = 25
+	}
+
+	artisans = {
+		culture = irish
+		religion = catholic
+		size = 40
+	}
+
+	soldiers = {
+		culture = irish
+		religion = catholic
+		size = 30
+	}
+
+	farmers = {
+		culture = irish 
+		religion = catholic
+		size = 1550
+	}
+}
+#Tasmania Region (90000 Settlers)
+#ruled by Britain 1836
+#Hobart (90000/22500 POPS)
+2482 = {
+	aristocrats = {
+		culture = english
+		religion = protestant
+		size = 225
+	}
+
+	officers = {
+		culture = english
+		religion = protestant
+		size = 45
+	}
+
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 340
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 1125
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 1125
+	}
+
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 19640
+	}
+
+}
+#Queensland Region : 31000 Settlers/60000 Indigenous
+#ruled by Britain 1836
+#2483 - Brisbane (23600/5900 POPS)
+2483 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 20
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 30
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 1165
+	}
+
+
+	aristocrats = {
+		culture = english
+		religion = protestant
+		size = 20
+	}
+
+
+	officers = {
+		culture = english
+		religion = protestant
+		size = 5
+	}
+
+	bureaucrats = {
+		culture = english
+		religion = protestant
+		size = 450
+	}
+
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 65
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 215
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 100
+	}
+
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 3495
+	}
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 10
+	}
+
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 30
+	}
+
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 260
+	}
+}
+#uncolonized in 1836
+#Gladstone (14620/3655 POPS)
+2484 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 100
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 1875
+	}
+
+	aristocrats = {
+		culture = english
+		religion = protestant
+		size = 10
+	}
+
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 35
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 90
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 45
+	}
+
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 1600
+	}
+}
+#Clermont (7500/1000 POPS)
+2485 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 20
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 30
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 20
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 1755
+	}
+}
+#Toowoomba (10280/2570 POPS)
+2486 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 20
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 30
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 1165
+	}
+	aristocrats = {
+		culture = english
+		religion = protestant
+		size = 5
+	}
+
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 20
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 65
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 25
+	}
+
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 1205
+	}
+}
+#Townsville (10000/2500 POPS)
+2487 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 125
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 2275
+	}
+}
+#Cooktown (10000/2500 POPS)
+2488 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 125
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 2275
+	}
+}
+#Longreach (4000/1000 POPS)
+2489 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 15
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 900
+	}
+}
+#Charleville (5000/1250 POPS)
+2490 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 1140
+	}
+
+}
+#Normanton (6000/1500 POPS)
+2604 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 15
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 75
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 15
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 1370
+	}
+}
+#South Australia Region - 128000 Settlers/9000 Indigenous
+#uncolonized in 1836
+#Adelaide (116000/29000 POPS) 
+2491 = {
+
+	aristocrats = {
+		culture = english
+		religion = protestant
+		size = 235
+	}
+
+
+	officers = {
+		culture = english
+		religion = protestant
+		size = 45
+	}
+
+	capitalists = {
+		culture = english
+		religion = protestant
+		size = 50
+	}
+
+	bureaucrats = {
+		culture = english
+		religion = protestant
+		size = 975
+	}
+
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 355
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 1200
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 1200
+	}
+
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 19565
+	}
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 35
+	}
+
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 115
+	}
+
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 2100
+	}
+	clergymen = {
+		culture = irish
+		religion = catholic
+		size = 45
+	}
+
+	artisans = {
+		culture = irish
+		religion = catholic
+		size = 145
+	}
+
+	soldiers = {
+		culture = irish
+		religion = catholic
+		size = 50
+	}
+
+	farmers = {
+		culture = irish 
+		religion = catholic
+		size = 2635
+	}
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 250
+	}
+}
+#Port Lincoln (2220/555 POPS) 
+2492 = {
+
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 5
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 10
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 5
+	}
+
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 285
+	}
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 250
+	}
+}
+#Robe (7000/1000 POPS)  
+2493 = {
+
+	aristocrats = {
+		culture = english
+		religion = protestant
+		size = 15
+	}
+
+	officers = {
+		culture = english
+		religion = protestant
+		size = 10
+	}
+
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 20
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 35
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 30
+	}
+
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 1265
+	}
+	clergymen = {
+		culture = irish
+		religion = catholic
+		size = 5
+	}
+
+	artisans = {
+		culture = irish
+		religion = catholic
+		size = 10
+	}
+
+	farmers = {
+		culture = irish 
+		religion = catholic
+		size = 110
+	}
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 250
+	}
+}
+#Port Augusta (5280/1320 POPS) 
+2494 = {
+	aristocrats = {
+		culture = english
+		religion = protestant
+		size = 15
+	}
+
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 20
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 35
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 30
+	}
+
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 970
+	}
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 250
+	}
+}
+#Oodnadatta (3500/875 POPS) 
+2495 = {
+
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 5
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 5
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 5
+	}
+
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 375
+	}
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 5
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 5
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 10
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 10
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 470
+	}
+}
+#Tarcoola (3000/750 POPS) 
+2496 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 15
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 15
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 685
+	}
+
+}
+#Western Australia Region : 15600 Settlers/45200 Indigenous
+#ruled by Britain 1836
+#Perth (20800/5200 POPS)
+2497 = {
+
+	aristocrats = {
+		culture = english
+		religion = protestant
+		size = 35
+	}
+
+	bureaucrats = {
+		culture = english
+		religion = protestant
+		size = 150
+	}
+
+	officers = {
+		culture = english
+		religion = protestant
+		size = 10
+	}
+
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 55
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 180
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 100
+	}
+
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 3120
+	}
+
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 15
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 35
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 30
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 1395
+	}
+}
+#Kojonup (6000/2000 POPS)
+2498 = {
+
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 5
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 5
+	}
+
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 240
+	}
+
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 15
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 15
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 30
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 1165
+	}
+
+}
+#Geraldton (8000/2000 POPS)
+2499 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 100
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 1750
+	}
+}
+#Kalgoorlie (4000/1000 POPS)
+2500 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 15
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 900
+	}
+}
+#Broome (8000/2000 POPS)
+2501 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 100
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 1750
+	}
+}
+#Dampier (2000/500 POPS)
+2502 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 5
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 10
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 10
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 450
+	}
+}
+#Laverton (2800/700 POPS)
+2503 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 15
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 35
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 10
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 630
+	}
+}
+#Esperance (4000/1000 POPS)
+2504 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 15
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 900
+	}
+
+}
+#Halls Creek (2000/500 POPS)
+2601 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 5
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 10
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 5
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 450
+	}
+}
+#Roebourne (2000/500 POPS)
+2602 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 5
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 15
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 25
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 5
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 450
+	}
+}
+#Wiluna (3200/800 POPS)
+2605 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 15
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 40
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 10
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 725
+	}
+}
+#Northern Australia Region (32000)
+#uncolonized in 1836
+#Palmerston (24000/6000 POPS)
+2505 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 60
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 90
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 300
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 150
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 5100
+	}
+}
+#Tennant Creek (12500/3125 POPS)
+2506 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 35
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 45
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 150
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 60
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 2835
+	}
+}
+#Alice Springs (6000/1500 POPS)
+2507 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 15
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 15
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 30
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 30
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 1410
+	}
+
+}
+#Lajamanu (6000/1500 POPS)
+2603 = {
+	aristocrats = {
+		culture = aborigine
+		religion = animist
+		size = 15
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = animist
+		size = 15
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = animist
+		size = 30
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = animist
+		size = 30
+	}
+
+	farmers = {
+		culture = aborigine
+		religion = animist
+		size = 1410
+	}
+
+}
+#Norfolk Island Region (2420)
+#Ruled by Britain 1836
+#Norfolk Island (2420/605 POPS)
+2508 = {
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 3
+	}
+
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 100
+	}
+
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 2
+	}
+
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 500
+	}
+
+}

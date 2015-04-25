@@ -1,0 +1,49 @@
+owner = ENL
+controller = ENL
+add_core = IRE
+trade_goods = fish
+life_rating = 35
+naval_base = 1
+terrain = hilly_farmland
+1750.1.1 = {
+	owner = ENG
+	controller = ENG
+add_core = ENG
+}
+1861.1.1 = {
+	naval_base = 2
+	state_building = {
+		level = 1
+		building = regular_clothes_factory
+		upgrade = yes
+	}
+}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	naval_base = 5
+	railroad = 4
+	state_building = {
+		level = 2
+		building = regular_clothes_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = cement_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = glass_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = dye_factory
+		upgrade = yes
+	}
+}
+1923.1.1 = {
+	owner = IRE
+	controller = IRE
+}

@@ -1,0 +1,13 @@
+owner = SPA
+controller = SPA
+add_core = SIC
+add_core = ITA
+trade_goods = fish
+life_rating = 35
+terrain = mountain_farmland
+1861.1.1 = {
+	controller = ITA
+	owner = ITA
+	add_core = ITA
+}
+1914.1.1 = { railroad = 4 }

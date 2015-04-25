@@ -1,0 +1,12 @@
+PRU = {
+	value = 125
+}
+army = {
+	name = "Армия Ангальта"
+	location = 555
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 555
+	}	            
+}

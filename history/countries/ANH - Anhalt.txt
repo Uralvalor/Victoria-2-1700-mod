@@ -1,0 +1,69 @@
+capital = 555
+primary_culture = north_german
+religion = protestant
+government = absolute_monarchy
+plurality = 0.0
+nationalvalue = nv_order
+literacy = 0.8
+prestige = 1
+civilized = yes
+
+	land_reform = yes_land_reform
+	admin_reform = yes_admin_reform
+	finance_reform = yes_finance_reform  
+	education_reform = yes_education_reform 
+	transport_improv = yes_transport_improv 
+	foreign_training = yes_foreign_training 
+	foreign_weapons = yes_foreign_weapons 
+	military_constructions = yes_military_constructions 
+	foreign_officers = yes_foreign_officers 
+	army_schools = 	yes_army_schools
+	foreign_navies = yes_foreign_navies 
+
+# Political reforms
+slavery = yes_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = first_past_the_post
+political_parties = underground_parties
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = low_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+school_reforms = no_schools
+
+ruling_party = ANH_reactionary
+upper_house = {
+	fascist = 0
+	liberal = 0
+	reactionary = 0
+	reactionary = 100
+	 
+	socialist = 0
+	communist = 0
+}
+
+## Western
+
+# Technologies
+water_wheel_power = 1	
+flintlock_rifles = 1	
+bronze_muzzle_loaded_artillery = 1
+ 
+military_staff_system = 1
+ 
+
+#Inventions
+
+# Starting Consciousness
+consciousness = 0
+nonstate_consciousness = 0
+
+oob = "ANH_oob.txt"

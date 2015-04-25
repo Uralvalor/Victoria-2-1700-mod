@@ -1,0 +1,1090 @@
+ENG = {
+	value = 150
+}
+FRA = {
+	value = 150
+}
+RUS = {
+	value = 150
+}
+NET = {
+	value = 150
+}
+
+DEN = {
+	value = 100
+}
+SWE = {
+	value = 0
+}
+ARG = {
+	value = 125
+	level = 4
+	influence_value = 21
+}
+JAP = {
+	value = 100
+}
+ITA = {
+	value = 100
+}
+POR = {
+	value = 100
+}
+CUB = {
+	value = 200
+	level = 5
+	influence_value = 11
+}
+MEX = {
+	value = 200
+	level = 5
+	influence_value = 21
+}
+CHI = {
+	value = 150
+	influence_value = 23
+}
+BRZ = {
+	value = 200
+	level = 3
+	influence_value = 12
+}
+GUA = {
+	value = 150
+	level = 5
+	influence_value = 2
+}
+NIC = {
+	value = 150
+	level = 5
+	influence_value = 21
+}
+COS = {
+	value = 100
+	level = 5
+	influence_value = 17
+}
+HAI = {
+	value = 100
+	level = 5
+	influence_value = 18
+}
+HON = {
+	value = 100
+	level = 5
+	influence_value = 11
+}
+PNM = {
+	value = 100
+	level = 5
+	influence_value = 43
+}
+CLM = {
+	value = 100
+	level = 5
+	influence_value = 23
+}
+VNZ = {
+	value = 100
+	level = 5
+	influence_value = 28
+}
+CHL = {
+	value = 100
+	level = 4
+	influence_value = 33
+}
+BOL = {
+	value = 100
+	level = 4
+	influence_value = 6
+}
+DOM = {
+	value = 100
+	level = 5
+	influence_value = 3
+}
+PEU = {
+	value = 100
+	level = 4
+	influence_value = 8
+}
+URU = {
+	value = 100
+	level = 3
+	influence_value = 15
+}
+ECU = {
+	value = 100
+	level = 4
+	influence_value = 15
+}
+GER = {
+	value = -200
+}
+KUK = {
+	value = -100
+}
+BUL = {
+	value = -100
+}
+TUR = {
+	value = -100
+}
+AST = {
+	level = 3
+	influence_value = 21
+}
+NZL = {
+	influence_value = 42
+}
+CAN = {
+	level = 4
+	influence_value = 26
+}
+NEW = {
+	level = 3
+	influence_value = 32
+}
+
+leader = {
+	name = "Джон Першинг"
+	type = land
+	date="1914.1.1"
+	personality = bold
+	background = school_of_the_bayonet
+	picture="personal_john_pershing"
+}
+
+leader = {
+	name = "Уильям Грейвс"
+	type = land
+	date="1914.1.1"
+	personality = inspiring
+	background = war_college
+	picture="personal_william_graves"
+}
+
+leader = {
+	name = "Пейтон Марч"
+	type = land
+	date="1914.1.1"
+	personality = keen
+	background = disgraced
+	picture="personal_peyton_march"
+}
+
+leader = {
+	name = "Леонард Вуд"
+	type = land
+	date="1914.1.1"
+	personality = skilled
+	background = bootlicker
+	picture="personal_leonard_wood"
+}
+
+leader = {
+	name = "Уильям Бенсон"
+	type = sea
+	date="1914.1.1"
+	personality = relentless
+	background = toady
+	picture="personal_william_benson"
+}
+
+leader = {
+	name = "Уильям Симс"
+	type = sea
+	date="1914.1.1"
+	personality = disciplined
+	background = yesman
+	picture="personal_william_sims"
+}
+
+leader = {
+	name = "Хью Родман"
+	type = sea
+	date="1914.1.1"
+	personality = stalwart
+	background = armchair_general
+	picture="personal_hugh_rodman"
+}
+
+army = {
+	name = "Гарнизон Вашингтона"
+	location = 220
+	regiment = {
+		name= "1-я дивизия"
+		type = guard
+		home = 220
+	}
+
+	regiment = {
+		name= "2-я дивизия"
+		type = guard
+		home = 223
+	}
+
+	regiment = {
+		name= "3-я дивизия"
+		type = guard
+		home = 223
+	}
+
+	regiment = {
+		name= "4-я дивизия"
+		type = guard
+		home = 223
+	}
+
+
+}
+
+army = {
+	name = "1-я армия"
+	location = 232
+	regiment = {
+		name= "1-й полк"
+		type = infantry
+		home = 146
+	}
+
+	regiment = {
+		name= "2-й полк"
+		type = infantry
+		home = 163
+	}
+
+	regiment = {
+		name= "3-й полк"
+		type = artillery
+		home = 166
+	}
+
+	regiment = {
+		name= "4-й полк"
+		type = infantry
+		home = 169
+	}
+
+	regiment = {
+		name= "5-й полк"
+		type = infantry
+		home = 169
+	}
+
+	regiment = {
+		name= "6-й полк"
+		type = artillery
+		home = 170
+	}
+
+	regiment = {
+		name= "7-й полк"
+		type = infantry
+		home = 172
+	}
+
+	regiment = {
+		name= "8-й полк"
+		type = infantry
+		home = 178
+	}
+
+	regiment = {
+		name= "9-й полк"
+		type = artillery
+		home = 179
+	}
+
+	regiment = {
+		name= "10-й полк"
+		type = infantry
+		home = 180
+	}
+
+	regiment = {
+		name= "11-й полк"
+		type = infantry
+		home = 181
+	}
+
+	regiment = {
+		name= "12-й полк"
+		type = infantry
+		home = 182
+	}
+	
+	regiment = {
+		name= "13-й полк"
+		type = infantry
+		home = 183
+	}
+
+	regiment = {
+		name= "14-й полк"
+		type = infantry
+		home = 184
+	}
+
+	regiment = {
+		name= "15-й полк"
+		type = cavalry
+		home = 185
+	}
+
+	regiment = {
+		name= "16-й полк"
+		type = cavalry
+		home = 185
+	}
+
+	regiment = {
+		name= "17-й полк"
+		type = cavalry
+		home = 186
+	}
+
+	regiment = {
+		name= "18-й полк"
+		type = artillery
+		home = 219
+	}
+
+	regiment = {
+		name= "19-й полк"
+		type = artillery
+		home = 223
+	}
+
+	regiment = {
+		name= "20-й полк"
+		type = engineer
+		home = 224
+	}
+
+}
+
+army = {
+	name = "2-я армия"
+	location = 90
+	regiment = {
+		name= "1-й полк"
+		type = infantry
+		home = 225
+	}
+
+	regiment = {
+		name= "2-й полк"
+		type = infantry
+		home = 226
+	}
+
+	regiment = {
+		name= "3-й полк"
+		type = artillery
+		home = 226
+	}
+
+	regiment = {
+		name= "4-й полк"
+		type = infantry
+		home = 226
+	}
+
+	regiment = {
+		name= "5-й полк"
+		type = infantry
+		home = 226
+	}
+
+	regiment = {
+		name= "6-й полк"
+		type = artillery
+		home = 227
+	}
+
+	regiment = {
+		name= "7-й полк"
+		type = infantry
+		home = 228
+	}
+
+	regiment = {
+		name= "8-й полк"
+		type = infantry
+		home = 229
+	}
+
+	regiment = {
+		name= "9-й полк"
+		type = artillery
+		home = 230
+	}
+
+	regiment = {
+		name= "10-й полк"
+		type = infantry
+		home = 231
+	}
+
+	regiment = {
+		name= "11-й полк"
+		type = infantry
+		home = 232
+	}
+
+	regiment = {
+		name= "12-й полк"
+		type = infantry
+		home = 232
+	}
+	
+	regiment = {
+		name= "13-й полк"
+		type = infantry
+		home = 232
+	}
+
+	regiment = {
+		name= "14-й полк"
+		type = infantry
+		home = 232
+	}
+
+	regiment = {
+		name= "15-й полк"
+		type = cavalry
+		home = 233
+	}
+
+	regiment = {
+		name= "16-й полк"
+		type = cavalry
+		home = 234
+	}
+
+	regiment = {
+		name= "17-й полк"
+		type = cavalry
+		home = 234
+	}
+
+	regiment = {
+		name= "18-й полк"
+		type = artillery
+		home = 234
+	}
+
+	regiment = {
+		name= "19-й полк"
+		type = artillery
+		home = 234
+	}
+
+	regiment = {
+		name= "20-й полк"
+		type = engineer
+		home = 235
+	}
+
+}
+army = {
+	name = "3-я армия"
+	location = 137
+	regiment = {
+		name= "1-й полк"
+		type = infantry
+		home = 235
+	}
+
+	regiment = {
+		name= "2-й полк"
+		type = infantry
+		home = 235
+	}
+
+	regiment = {
+		name= "3-й полк"
+		type = artillery
+		home = 235
+	}
+
+	regiment = {
+		name= "4-й полк"
+		type = infantry
+		home = 236
+	}
+
+	regiment = {
+		name= "5-й полк"
+		type = infantry
+		home = 236
+	}
+
+	regiment = {
+		name= "6-й полк"
+		type = artillery
+		home = 237
+	}
+
+	regiment = {
+		name= "7-й полк"
+		type = infantry
+		home = 238
+	}
+
+	regiment = {
+		name= "8-й полк"
+		type = infantry
+		home = 238
+	}
+
+	regiment = {
+		name= "9-й полк"
+		type = artillery
+		home = 238
+	}
+
+	regiment = {
+		name= "10-й полк"
+		type = infantry
+		home = 238
+	}
+
+	regiment = {
+		name= "11-й полк"
+		type = infantry
+		home = 239
+	}
+
+	regiment = {
+		name= "12-й полк"
+		type = infantry
+		home = 240
+	}
+	
+	regiment = {
+		name= "13-й полк"
+		type = infantry
+		home = 241
+	}
+
+	regiment = {
+		name= "14-й полк"
+		type = infantry
+		home = 241
+	}
+
+	regiment = {
+		name= "15-й полк"
+		type = cavalry
+		home = 241
+	}
+
+	regiment = {
+		name= "16-й полк"
+		type = cavalry
+		home = 241
+	}
+
+	regiment = {
+		name= "17-й полк"
+		type = cavalry
+		home = 242
+	}
+
+	regiment = {
+		name= "18-й полк"
+		type = artillery
+		home = 243
+	}
+
+	regiment = {
+		name= "19-й полк"
+		type = artillery
+		home = 243
+	}
+
+	regiment = {
+		name= "20-й полк"
+		type = engineer
+		home = 243
+	}
+
+}
+army = {
+	name = "4-я армия"
+	location = 243
+	regiment = {
+		name= "1-й полк"
+		type = infantry
+		home = 243
+	}
+
+	regiment = {
+		name= "2-й полк"
+		type = infantry
+		home = 244
+	}
+
+	regiment = {
+		name= "3-й полк"
+		type = artillery
+		home = 245
+	}
+
+	regiment = {
+		name= "4-й полк"
+		type = infantry
+		home = 246
+	}
+
+	regiment = {
+		name= "5-й полк"
+		type = infantry
+		home = 246
+	}
+
+	regiment = {
+		name= "6-й полк"
+		type = artillery
+		home = 247
+	}
+
+	regiment = {
+		name= "7-й полк"
+		type = infantry
+		home = 247
+	}
+
+	regiment = {
+		name= "8-й полк"
+		type = infantry
+		home = 247
+	}
+
+	regiment = {
+		name= "9-й полк"
+		type = artillery
+		home = 247
+	}
+
+	regiment = {
+		name= "10-й полк"
+		type = infantry
+		home = 248
+	}
+
+	regiment = {
+		name= "11-й полк"
+		type = infantry
+		home = 248
+	}
+
+	regiment = {
+		name= "12-й полк"
+		type = infantry
+		home = 249
+	}
+	
+	regiment = {
+		name= "13-й полк"
+		type = infantry
+		home = 132
+	}
+
+	regiment = {
+		name= "14-й полк"
+		type = infantry
+		home = 133
+	}
+
+	regiment = {
+		name= "15-й полк"
+		type = cavalry
+		home = 133
+	}
+
+	regiment = {
+		name= "16-й полк"
+		type = cavalry
+		home = 137
+	}
+
+	regiment = {
+		name= "17-й полк"
+		type = cavalry
+		home = 137
+	}
+
+	regiment = {
+		name= "18-й полк"
+		type = artillery
+		home = 188
+	}
+
+	regiment = {
+		name= "19-й полк"
+		type = artillery
+		home = 188
+	}
+
+	regiment = {
+		name= "20-й полк"
+		type = engineer
+		home = 189
+	}
+
+}
+army = {
+	name = "5-я армия"
+	location = 205
+	regiment = {
+		name= "1-й полк"
+		type = infantry
+		home = 190
+	}
+
+	regiment = {
+		name= "2-й полк"
+		type = infantry
+		home = 191
+	}
+
+	regiment = {
+		name= "3-й полк"
+		type = artillery
+		home = 192
+	}
+
+	regiment = {
+		name= "4-й полк"
+		type = infantry
+		home = 193
+	}
+
+	regiment = {
+		name= "5-й полк"
+		type = infantry
+		home = 194
+	}
+
+	regiment = {
+		name= "6-й полк"
+		type = artillery
+		home = 195
+	}
+
+	regiment = {
+		name= "7-й полк"
+		type = infantry
+		home = 195
+	}
+
+	regiment = {
+		name= "8-й полк"
+		type = infantry
+		home = 195
+	}
+
+	regiment = {
+		name= "9-й полк"
+		type = artillery
+		home = 195
+	}
+
+	regiment = {
+		name= "10-й полк"
+		type = infantry
+		home = 196
+	}
+
+	regiment = {
+		name= "11-й полк"
+		type = infantry
+		home = 197
+	}
+
+	regiment = {
+		name= "12-й полк"
+		type = infantry
+		home = 201
+	}
+	
+	regiment = {
+		name= "13-й полк"
+		type = infantry
+		home = 204
+	}
+
+	regiment = {
+		name= "14-й полк"
+		type = infantry
+		home = 205
+	}
+
+	regiment = {
+		name= "15-й полк"
+		type = cavalry
+		home = 205
+	}
+
+	regiment = {
+		name= "16-й полк"
+		type = cavalry
+		home = 205
+	}
+
+	regiment = {
+		name= "17-й полк"
+		type = cavalry
+		home = 205
+	}
+
+	regiment = {
+		name= "18-й полк"
+		type = artillery
+		home = 206
+	}
+
+	regiment = {
+		name= "19-й полк"
+		type = artillery
+		home = 206
+	}
+
+	regiment = {
+		name= "20-й полк"
+		type = engineer
+		home = 206
+	}
+
+}
+
+army = {
+	name = "6-я армия"
+	location = 87
+	regiment = {
+		name= "1-й полк"
+		type = infantry
+		home = 206
+	}
+
+	regiment = {
+		name= "2-й полк"
+		type = infantry
+		home = 207
+	}
+
+	regiment = {
+		name= "3-й полк"
+		type = artillery
+		home = 208
+	}
+
+	regiment = {
+		name= "4-й полк"
+		type = infantry
+		home = 209
+	}
+
+	regiment = {
+		name= "5-й полк"
+		type = infantry
+		home = 210
+	}
+
+	regiment = {
+		name= "6-й полк"
+		type = artillery
+		home = 211
+	}
+
+	regiment = {
+		name= "7-й полк"
+		type = infantry
+		home = 211
+	}
+
+	regiment = {
+		name= "8-й полк"
+		type = infantry
+		home = 211
+	}
+
+	regiment = {
+		name= "9-й полк"
+		type = artillery
+		home = 211
+	}
+
+	regiment = {
+		name= "10-й полк"
+		type = infantry
+		home = 213
+	}
+
+	regiment = {
+		name= "11-й полк"
+		type = infantry
+		home = 216
+	}
+
+	regiment = {
+		name= "12-й полк"
+		type = infantry
+		home = 658
+	}
+	
+	regiment = {
+		name= "13-й полк"
+		type = infantry
+		home = 2555
+	}
+}
+navy = {
+	name = "ВМС США"
+	location = 219
+	ship = {
+		name= "USS Франклин"
+		type = cruiser
+	}
+
+	ship = {
+		name= "USS Потомак"
+		type = cruiser
+	}
+
+	ship = {
+		name= "USS Роанок"
+		type = cruiser
+	}
+
+	ship = {
+		name= "USS Санти"
+		type = cruiser
+	}
+
+	ship = {
+		name= "USS Саванна"
+		type = cruiser
+	}
+
+	ship = {
+		name= "USS Св. Лоуренс"
+		type = cruiser
+	}
+
+	ship = {
+		name= "USS Вэбаш"
+		type = cruiser
+	}
+
+	ship = {
+		name= "USS Миннеаполис"
+		type = cruiser
+	}
+
+	ship = {
+		name= "USS Олимпия"
+		type = cruiser
+	}
+
+	ship = {
+		name= "USS Сан-Франциско"
+		type = cruiser
+	}
+
+	ship = {
+		name= "USS Милуоки"
+		type = cruiser
+	}
+
+	ship = {
+		name= "USS Чарльстон"
+		type = cruiser
+	}
+
+	ship = {
+		name= "USS Поухатан"
+		type = commerce_raider
+	}
+
+}
+
+navy = {
+	name = "1-я Транспортная Эксадра"
+	location = 219
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "3-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "4-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "5-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "6-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "7-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "8-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "9-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "10-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "11-я транспортная флотилия"
+		type = steam_transport
+	}
+	ship = {
+		name= "12-я транспортная флотилия"
+		type = steam_transport
+	}
+
+}
+
+navy = {
+	name = "Атлантическая Эскадра"
+	location = 219
+	ship = {
+		name= "USS Колорадо"
+		type = cruiser
+	}
+
+	ship = {
+		name= "USS Миннесота"
+		type = cruiser
+	}
+
+	ship = {
+		name= "USS Миссиссипи"
+		type = commerce_raider
+	}
+
+}
+

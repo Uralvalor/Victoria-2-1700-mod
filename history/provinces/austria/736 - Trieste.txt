@@ -1,0 +1,31 @@
+owner = AUS
+controller = AUS
+ 
+add_core = TRE
+add_core = YUG
+trade_goods = grain
+life_rating = 35
+naval_base = 1
+terrain = deciduous_forest_hills
+#state_building = {
+#	level = 1
+#	building = liquor_distillery
+#	upgrade = yes
+#}
+1861.1.1 = { railroad = 2 }
+1914.1.1 = {
+	owner = KUK
+	controller = KUK
+	add_core = KUK
+	remove_core = AUS
+	railroad = 4
+	fort = 2
+	naval_base = 3
+}
+1923.1.1 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = KUK
+	railroad = 3
+}

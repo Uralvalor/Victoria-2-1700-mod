@@ -1,0 +1,14 @@
+
+trade_goods = coal
+life_rating = 27
+terrain = semi_desert
+1861.1.1 = {
+	owner = RUS
+	controller = RUS
+	colonial = 2
+}
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

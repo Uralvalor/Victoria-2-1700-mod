@@ -1,0 +1,15 @@
+
+add_core = MEX
+add_core = CAL
+trade_goods = fish
+life_rating = 35
+terrain = deciduous_forest_mountains
+1836.1.1 = {
+	remove_core = SPA
+}
+1861.1.1 = {
+	 
+	 
+	add_core = USA
+	colonial = no
+}

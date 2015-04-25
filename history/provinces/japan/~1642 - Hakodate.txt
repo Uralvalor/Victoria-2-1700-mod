@@ -1,0 +1,15 @@
+
+owner = AIN
+controller = AIN
+add_core = AIN
+trade_goods = fish
+life_rating = 35
+terrain = conifer_forest_hills
+1914.1.1 = {
+	railroad = 3
+	remove_core = AIN
+	remove_core = TKG
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}

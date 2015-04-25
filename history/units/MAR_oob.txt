@@ -1,0 +1,158 @@
+MUG = {
+	value = -200		#relation
+}
+
+
+#Army
+
+leader = {
+	name = "Tarabai"
+	type = land
+	date = 1700.1.1
+	personality = inspiring
+	background = gifted_administrator
+}
+
+
+
+army = {
+	name = "1st Army"
+	location = 1295
+	regiment = {
+		name= "1st Baroda Cavalry"
+		type = cavalry
+		home = 1295
+	}
+
+	regiment = {
+		name= "2nd Baroda Cavalry"
+		type = cavalry
+		home = 1295
+	}
+	regiment = {
+		name= "1st Baroda Cavalry"
+		type = cavalry
+		home = 1295
+	}
+
+	regiment = {
+		name= "2nd Baroda Cavalry"
+		type = cavalry
+		home = 1295
+	}
+		regiment = {
+		name= "1st Baroda Cavalry"
+		type = cavalry
+		home = 1295
+	}
+
+	regiment = {
+		name= "2nd Baroda Cavalry"
+		type = cavalry
+		home = 1295
+	}
+		regiment = {
+		name= "1st Baroda Cavalry"
+		type = cavalry
+		home = 1295
+	}
+
+	regiment = {
+		name= "2nd Baroda Cavalry"
+		type = cavalry
+		home = 1295
+	}
+	regiment = {
+		name= "3rd Baroda Irregular"
+		type = irregular
+		home = 1295
+	}
+
+	regiment = {
+		name= "4th Baroda Irregular"
+		type = irregular
+		home = 1295
+	}
+
+	regiment = {
+		name= "5th Baroda Irregular"
+		type = irregular
+		home = 1295
+	}
+
+	regiment = {
+		name= "6th Baroda Irregular"
+		type = irregular
+		home = 1295
+	}
+
+}
+
+army = {
+	name = "2nd Army"
+	location = 1297
+	regiment = {
+		name= "1st Bombay Cavalry"
+		type = cavalry
+		home = 1297
+	}
+
+	regiment = {
+		name= "2nd Bombay Cavalry"
+		type = cavalry
+		home = 1297
+	}
+
+	regiment = {
+		name= "3rd Bombay Irregular"
+		type = irregular
+		home = 1297
+	}
+
+	regiment = {
+		name= "4th Bombay Irregular"
+		type = irregular
+		home = 1297
+	}
+
+	regiment = {
+		name= "1st Surat Irregular"
+		type = irregular
+		home = 1296
+	}
+
+	regiment = {
+		name= "2nd Surat Irregular"
+		type = irregular
+		home = 1296
+	}
+
+}
+
+army = {
+	name = "3rd Army"
+	location = 1291
+	regiment = {
+		name= "1st Ahmedabad Irregular"
+		type = irregular
+		home = 1291
+	}
+
+	regiment = {
+		name= "2nd Ahmedabad Irregular"
+		type = irregular
+		home = 1291
+	}
+
+	regiment = {
+		name= "1st Kohlapur Irregular"
+		type = irregular
+		home = 1301
+	}
+
+	regiment = {
+		name= "2nd Kohlapur Irregular"
+		type = irregular
+		home = 1301
+	}
+}	

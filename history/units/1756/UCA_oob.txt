@@ -1,0 +1,31 @@
+leader = {
+	name = "Франсиско Морасан"
+	type = land
+	date = 1836.1.1
+	personality = stout
+	background = generals_aide
+}
+
+army = {
+	name = "Федеральная армия"
+	location = 2187
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 2187
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 2191
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 2186
+	}
+
+}
+

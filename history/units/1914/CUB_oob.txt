@@ -1,0 +1,23 @@
+army = {
+	name = "Армия Кубы"
+	location = 2209
+	regiment = {
+		name= "1-я пехотная дивизия"
+		type = infantry
+		home = 2209
+	}
+
+	regiment = {
+		name= "2-я пехотная дивизия"
+		type = infantry
+		home = 2209
+	}
+
+	regiment = {
+		name= "3-я пехотная дивизия"
+		type = infantry
+		home = 2209
+	}
+
+}
+

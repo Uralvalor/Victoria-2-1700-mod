@@ -1,0 +1,111 @@
+
+# Denmark-Holstein
+#vassal = {
+#	first = DEN
+#	second = HOL
+#	start_date = 1460.3.2
+#	end_date = 1863.11.15
+#}
+
+
+
+vassal = {
+	first = ENG
+	second = HAN
+	start_date = 1755.1.1 
+	end_date = 1800.1.1
+}
+
+vassal = {
+	first = ENL
+	second = NET
+	start_date = 1601.1.1 
+	end_date = 1714.1.1
+}
+
+vassal = {
+	first = RUS
+	second = CSK
+	start_date = 1700.1.1
+	end_date = 1736.1.1	
+}
+
+vassal = {
+	first = RUS
+	second = UKR
+	start_date = 1700.1.1
+	end_date = 1736.1.1	
+}
+
+
+vassal = {
+	first = TUR
+	second = WAL
+	start_date = 1700.1.1
+	end_date = 1730.11.15
+}
+vassal = {
+	first = TUR
+	second = EGY
+	start_date = 1700.1.1
+	end_date = 1863.11.15
+}
+vassal = {
+	first = TUR
+	second = LIV
+	start_date = 1700.1.1
+	end_date = 1863.11.15
+}
+vassal = {
+	first = TUR
+	second = MOL
+	start_date = 1700.1.1
+	end_date = 1733.11.15
+}
+vassal = {
+	first = TUR
+	second = CRI
+	start_date = 1700.1.1
+	end_date = 1863.11.15
+}
+#vassal = {
+#	first = SAX
+#	second = PLC
+#	start_date = 1699.3.2
+#	end_date = 1763.11.15
+#}
+
+
+
+vassal = {
+	first = MUG
+	second = HYD
+	start_date = 1700.1.1
+	end_date = 1750.1.1
+}
+
+vassal = {
+	first = MUG
+	second = BAS
+	start_date = 1700.1.1
+	end_date = 1750.1.1
+}
+vassal = {
+	first = MUG
+	second = PAN
+	start_date = 1700.1.1
+	end_date = 1790.1.1
+}
+vassal = {
+	first = MCK
+	second = MGL
+	start_date = 1696.1.1
+	end_date = 1936.1.1
+}
+
+vassal = {
+	first = XIN
+	second = TIB
+	start_date = 1635.3.2
+	end_date = 1713.11.15
+}

@@ -1,0 +1,29 @@
+army = {
+	name = "Армия Майсура"
+	location = 1314
+	regiment = {
+		name= "1-я бригада"
+		type = irregular
+		home = 1314
+	}
+
+	regiment = {
+		name= "2-я бригада"
+		type = irregular
+		home = 1313
+	}
+
+	regiment = {
+		name= "3-я бригада"
+		type = irregular
+		home = 1315
+	}
+
+	regiment = {
+		name= "4-я бригада"
+		type = irregular
+		home = 1315
+	}
+
+}
+

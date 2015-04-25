@@ -1,0 +1,13 @@
+owner = KBO
+controller = KBO
+add_core = KBO
+add_core = SOK
+trade_goods = cotton
+life_rating = 35
+terrain = dry_grassland
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	add_core = SOK
+	colonial = 3
+}

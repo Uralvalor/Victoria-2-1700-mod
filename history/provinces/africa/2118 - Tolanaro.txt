@@ -1,0 +1,11 @@
+owner = MAD
+controller = MAD
+add_core = MAD
+trade_goods = grain
+life_rating = 35
+terrain = jungle_mountains
+1914.1.1 = {
+	owner = FRA
+	controller = FRA
+	colonial = 3
+}

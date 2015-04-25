@@ -1,0 +1,74 @@
+2240 = {
+	aristocrats = {
+		culture = dutch
+		religion = protestant
+		size = 22
+	}
+	bureaucrats = {
+		culture = dutch
+		religion = protestant
+		size = 9
+	}
+	artisans = {
+		culture = dutch
+		religion = protestant
+		size = 45
+	}
+	soldiers = {
+		culture = dutch
+		religion = protestant
+		size = 68
+	}
+	clergymen = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 22
+	}
+	artisans = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 1592
+	}
+	farmers = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 1092
+	}
+	soldiers = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 22
+	}
+	slaves = {
+		culture = afro_caribbean
+		religion = animist
+		size = 8190
+	}
+}
+2245 = {
+	aristocrats = {
+		culture = amazonian
+		religion = animist
+		size = 22
+	}
+	clergymen = {
+		culture = amazonian
+		religion = animist
+		size = 45
+	}
+	artisans = {
+		culture = amazonian
+		religion = animist
+		size = 91
+	}
+	soldiers = {
+		culture = amazonian
+		religion = animist
+		size = 22
+	}
+	farmers = {
+		culture = amazonian
+		religion = animist
+		size = 1592
+	}
+}

@@ -1,0 +1,13 @@
+owner = TKG
+controller = TKG
+add_core = TKG
+trade_goods = tea
+life_rating = 35
+terrain = deciduous_forest_hills
+1914.1.1 = {
+	railroad = 3
+	remove_core = TKG
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}

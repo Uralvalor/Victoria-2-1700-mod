@@ -1,0 +1,752 @@
+#Sphere of Influence
+
+SWE = {
+
+	value = 125
+	level = 3 	
+	influence_value = 40
+}
+
+SER = {
+	
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+KRA = {
+	
+	value = 125
+	level = 4
+	influence_value = 25
+}
+
+CHI = {
+	value = 75
+}
+
+TUR = {
+	value = -200
+}
+
+PRU = {
+	value = 80
+}
+
+AUS = {
+	value = 80
+}
+
+PER = {
+	value = 125
+	level = 1
+	influence_value = 45
+}
+
+leader = {
+	name = "Иван Паскевич"
+	type = land
+	date="1800.1.1"
+	personality = hellbent
+	background = old_school
+	picture="rus_gen_paskevich"
+}
+leader = {
+	name = "Илларион Васильчиков"
+	picture = rus_gen_vasilchikov
+	date = 1801.1.1
+	type = land
+	personality = competent
+	background = powerful_friends
+}
+leader = {
+	name = "Петр Волконский"
+	picture = rus_gen_volkonsky
+	date = 1812.1.1
+	type = land
+	personality = intelligent
+	background = generals_aide
+}
+leader = {
+	name = "Михаил Воронцов"
+	picture = rus_gen_vorontsov
+	date = 1814.1.1
+	type = land
+	personality = daring
+	background = gifted_administrator
+}
+leader = {
+	name = "Петр Витгенштейн"
+	type = land
+	date="1807.1.1"
+	personality = cautious
+	background = disgraced
+	picture="rus_gen_wittgenstein"
+}
+leader = {
+	name = "Иван Дибич-Забалканский"
+	type = land
+	date="1812.1.1"
+	personality = tactful
+	background = aristocrat
+	picture="rus_gen_dibic"
+}
+leader = {
+	name = "Алексей Ермолов"
+	type = land
+	date="1818.1.1"
+	personality = relentless
+	background = war_college
+	picture="rus_gen_ermolov"
+}
+leader = {
+	name = "Александр Меньшиков"
+	type = sea
+	date="1809.1.1"
+	personality = brash
+	background = aristocrat
+	picture="personal_admiral_menshikov"
+}
+
+army = {
+	name = "Гвардейский корпус"
+	location = 354
+	regiment = {
+		name= "1-я гвардейская бригада"
+		type = infantry
+		home = 994
+	}
+
+	regiment = {
+		name= "2-я гвардейская бригада"
+		type = infantry
+		home = 946
+	}
+
+	regiment = {
+		name= "3-я гвардейская бригада"
+		type = infantry
+		home = 1006
+	}
+
+	regiment = {
+		name= "4-я гвардейская бригада"
+		type = infantry
+		home = 1008
+	}
+
+	regiment = {
+		name= "5-я гвардейская бригада"
+		type = infantry
+		home = 980
+	}
+
+	regiment = {
+		name= "6-я гвардейская бригада"
+		type = artillery
+		home = 994
+	}
+
+	regiment = {
+		name= "7-я гвардейская бригада"
+		type = infantry
+		home = 1012
+	}
+
+}
+
+army = {
+	name = "Гвардейская кавалерия"
+	location = 343
+	regiment = {
+		name= "8-я гвардейская бригада"
+		type = cavalry
+		home = 994
+	}
+
+	regiment = {
+		name= "9-я гвардейская бригада"
+		type = cavalry
+		home = 1016
+	}
+
+	regiment = {
+		name= "10-я гвардейская бригада"
+		type = cuirassier
+		home = 978
+	}
+
+	regiment = {
+		name= "11-я гвардейская бригада"
+		type = cavalry
+		home = 1008
+	}
+
+	regiment = {
+		name= "12-я гвардейская бригада"
+		type = cavalry
+		home = 994
+	}
+}
+
+army = {
+	name = "Гренадерский корпус"
+	location = 994
+	regiment = {
+		name= "1-я гренадерская бригада"
+		type = infantry
+		home = 998
+	}
+
+	regiment = {
+		name= "2-я гренадерская бригада"
+		type = infantry
+		home = 979
+	}
+
+	regiment = {
+		name= "3-я гренадерская бригада"
+		type = artillery
+		home = 991
+	}
+
+	regiment = {
+		name= "5-я гренадерская бригада"
+		type = infantry
+		home = 1008
+	}
+
+	regiment = {
+		name= "6-я гренадерская бригада"
+		type = infantry
+		home = 989
+	}
+
+	regiment = {
+		name= "7-я гренадерская бригада"
+		type = infantry
+		home = 1013
+	}
+	
+	regiment = {
+		name= "1-я кавалерийская бригада"
+		type = cavalry
+		home = 977
+	}
+
+	regiment = {
+		name= "2-я кавалерийская бригада"
+		type = cavalry
+		home = 1001
+	}
+
+	regiment = {
+		name= "3-я кавалерийская бригада"
+		type = cavalry
+		home = 1017
+	}
+
+
+}
+
+
+army = {
+	name = "1-й армейский корпус"
+	location = 937
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 1009
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 1011
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = artillery
+		home = 1018
+	}
+
+	regiment = {
+		name= "4-я пехотная бригада"
+		type = infantry
+		home = 1010
+	}
+
+	regiment = {
+		name= "5-я пехотная бригада"
+		type = infantry
+		home = 1019
+	}
+
+	regiment = {
+		name= "6-я пехотная бригада"
+		type = artillery
+		home = 706
+	}
+
+	regiment = {
+		name= "7-я пехотная бригада"
+		type = infantry
+		home = 963
+	}
+
+	regiment = {
+		name= "8-я пехотная бригада"
+		type = infantry
+		home = 355
+	}
+}
+
+army = {
+	name = "2-й армейский корпус"
+	location = 958
+
+	regiment = {
+		name= "12-я пехотная бригада"
+		type = artillery
+		home = 1022
+	}
+
+	regiment = {
+		name= "13-я пехотная бригада"
+		type = infantry
+		home = 1025
+	}
+
+	regiment = {
+		name= "14-я пехотная бригада"
+		type = infantry
+		home = 1029
+	}
+
+	regiment = {
+		name= "15-я пехотная бригада"
+		type = infantry
+		home = 1042
+	}
+
+	regiment = {
+		name= "16-я пехотная бригада"
+		type = infantry
+		home = 1020
+	}
+
+	regiment = {
+		name= "17-я пехотная бригада"
+		type = infantry
+		home = 1026
+	}
+
+	regiment = {
+		name= "18-я пехотная бригада"
+		type = infantry
+		home = 1063
+	}
+}
+
+army = {
+	name = "Азовское казачье войско"
+	location = 1047
+	regiment = {
+		name= "1-я азовская бригада"
+		type = cavalry
+		home = 1047
+	}
+
+	regiment = {
+		name= "2-я азовская бригада"
+		type = cavalry
+		home = 1047
+	}
+
+	regiment = {
+		name= "3-я азовская бригада"
+		type = cavalry
+		home = 979
+	}
+
+}
+
+army = {
+	name = "Черноморский отряд"
+	location = 967
+	regiment = {
+		name= "1-я черноморская бригада"
+		type = cavalry
+		home = 1034
+	}
+
+	regiment = {
+		name= "2-я черноморская бригада"
+		type = cavalry
+		home = 1050
+	}
+
+	regiment = {
+		name= "3-я черноморская бригада"
+		type = cavalry
+		home = 1035
+	}
+
+}
+
+army = {
+	name = "1-й округ Донского казачьего войска"
+	location = 979
+	regiment = {
+		name= "1-я донская бригада"
+		type = cavalry
+		home = 1039
+	}
+
+	regiment = {
+		name= "2-я донская бригада"
+		type = cavalry
+		home = 1019
+	}
+
+	regiment = {
+		name= "3-я донская бригада"
+		type = cavalry
+		home = 3261
+	}
+
+}
+
+army = {
+	name = "2-й округ Донского казачьего войска"
+	location = 959
+	regiment = {
+		name= "4-я донская бригада"
+		type = cavalry
+		home = 1039
+	}
+
+	regiment = {
+		name= "5-я донская бригада"
+		type = cavalry
+		home = 1019
+	}
+
+	regiment = {
+		name= "6-я донская бригада"
+		type = cavalry
+		home = 3259
+	}
+
+}
+
+army = {
+	name = "7-я пехотная дивизия"
+	location = 1075
+	
+	regiment = {
+		name = "19-я пехотная бригада"
+		home = 3259
+		type = infantry
+	}
+
+	regiment = {
+		name= "20-я пехотная бригада"
+		type = engineer
+		home = 1021
+	}
+	
+	regiment = {
+		name = "21-я пехотная бригада"
+		home = 3259
+		type = infantry
+	}
+}
+
+
+navy = {
+	name = "Черноморский флот"
+	location = 967
+	ship = {
+		name= "Норд Адлер"
+		type = manowar
+	}
+
+	ship = {
+		name= "Адрианополь"
+		type = manowar
+	}
+
+	ship = {
+		name= "Варшава"
+		type = manowar
+	}
+
+	ship = {
+		name= "Память Евстафия"
+		type = manowar
+	}
+
+	ship = {
+		name= "Двенадцать апостолов"
+		type = manowar
+	}
+
+	ship = {
+		name= "Париж"
+		type = manowar
+	}
+
+	ship = {
+		name= "Три Святителя"
+		type = manowar
+	}
+
+	ship = {
+		name= "Чесма"
+		type = manowar
+	}
+
+	ship = {
+		name= "Анапа"
+		type = manowar
+	}
+
+	ship = {
+		name= "Императрица Екатерина"
+		type = manowar
+	}
+
+	ship = {
+		name= "Силистрия"
+		type = manowar
+	}
+
+	ship = {
+		name= "Иоанн Златоуст"
+		type = manowar
+	}
+
+	ship = {
+		name= "Азия"
+		type = manowar
+	}
+
+	ship = {
+		name= "Победа"
+		type = manowar
+	}
+
+	ship = {
+		name= "Варахаил"
+		type = manowar
+	}
+
+	ship = {
+		name= "Три Иерарха"
+		type = manowar
+	}
+
+	ship = {
+		name= "Гавриил"
+		type = manowar
+	}
+
+	ship = {
+		name= "Селафаил"
+		type = manowar
+	}
+
+	ship = {
+		name= "Уриил"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ягудиил"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ростислав"
+		type = manowar
+	}
+
+	ship = {
+		name= "Святослав"
+		type = manowar
+	}
+
+	ship = {
+		name= "Дмитрий Донской"
+		type = manowar
+	}
+
+	ship = {
+		name= "Мария"
+		type = manowar
+	}
+
+	ship = {
+		name= "Сисой Великий"
+		type = frigate
+	}
+
+	ship = {
+		name= "Ретвизан"
+		type = frigate
+	}
+
+	ship = {
+		name= "Юпитер"
+		type = frigate
+	}
+
+	ship = {
+		name= "Мироносец"
+		type = frigate
+	}
+
+	ship = {
+		name= "Борей"
+		type = frigate
+	}
+
+	ship = {
+		name= "Северная звезда"
+		type = frigate
+	}
+
+	ship = {
+		name= "Твердый"
+		type = frigate
+	}
+
+	ship = {
+		name= "Сильный"
+		type = frigate
+	}
+
+	ship = {
+		name= "Ярослав"
+		type = frigate
+	}
+
+	ship = {
+		name= "Преображение Господне"
+		type = frigate
+	}
+
+	ship = {
+		name= "Святой Владимир"
+		type = frigate
+	}
+
+	ship = {
+		name= "Богоявление Господне"
+		type = frigate
+	}
+
+	ship = {
+		name= "Европа"
+		type = frigate
+	}
+
+	ship = {
+		name= "Александр"
+		type = frigate
+	}
+
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "Балтийский флот"
+	location = 994
+	ship = {
+		name= "Император Петр I"
+		type = manowar
+	}
+
+	ship = {
+		name= "Святой Георгий Победоносец"
+		type = manowar
+	}
+
+	ship = {
+		name= "Эмгейтен"
+		type = manowar
+	}
+
+	ship = {
+		name= "Гангут"
+		type = manowar
+	}
+
+	ship = {
+		name= "Императрица Александра"
+		type = manowar
+	}
+
+	ship = {
+		name= "Полтава"
+		type = manowar
+	}
+
+	ship = {
+		name= "Не тронь меня"
+		type = manowar
+	}
+
+	ship = {
+		name= "Владимир"
+		type = manowar
+	}
+
+	ship = {
+		name= "Лефорт"
+		type = manowar
+	}
+
+	ship = {
+		name= "Смоленск"
+		type = frigate
+	}
+
+	ship = {
+		name= "Остроленка"
+		type = frigate
+	}
+
+	ship = {
+		name= "Березино"
+		type = frigate
+	}
+
+	ship = {
+		name= "Лейпциг"
+		type = frigate
+	}
+
+	ship = {
+		name= "3-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "4-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}
+

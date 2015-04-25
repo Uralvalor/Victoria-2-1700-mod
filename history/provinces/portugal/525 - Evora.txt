@@ -1,0 +1,14 @@
+owner = POR
+controller = POR
+add_core = POR
+trade_goods = grain
+life_rating = 35
+terrain = good_farmland
+1914.1.1 = {	
+	railroad = 3
+	state_building = {
+		level = 1
+		building = winery
+		upgrade = yes
+	}
+}

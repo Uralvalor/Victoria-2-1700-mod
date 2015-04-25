@@ -1,0 +1,20 @@
+owner = CRI
+controller = CRI
+add_core = CRI
+trade_goods = fish
+life_rating = 35
+terrain = dry_grassland
+1914.1.1 = {
+	railroad = 4
+	state_building = {
+		level = 1
+		building = liquor_distillery
+		upgrade = yes
+	}
+}
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+	remove_core = RUS
+}

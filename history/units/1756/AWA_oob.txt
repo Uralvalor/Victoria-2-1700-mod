@@ -1,0 +1,23 @@
+army = {
+	name = "Армия наваба Авадха"
+	location = 1242
+	regiment = {
+		name= "1-я гарвальская бригада"
+		type = irregular
+		home = 1242
+	}
+
+	regiment = {
+		name= "2-я гарвальская бригада"
+		type = irregular
+		home = 1242
+	}
+
+	regiment = {
+		name= "3-я гарвальская бригада"
+		type = irregular
+		home = 1244
+	}
+
+}
+

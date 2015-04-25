@@ -1,0 +1,107 @@
+army = {
+	name = "Савойская армия"
+	location = 720
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 720
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 720
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 720
+	}
+
+	regiment = {
+		name= "4-я пехотная бригада"
+		type = infantry
+		home = 220
+	}
+
+	regiment = {
+		name= "1-я кавалерийская бригада"
+		type = cavalry
+		home = 720
+	}
+
+	regiment = {
+		name= "2-я кавалерийская бригада"
+		type = cavalry
+		home = 720
+	}
+}
+
+army = {
+	name = "Сардинская армия"
+	location = 765
+	regiment = {
+		name= "5-я пехотная бригада"
+		type = infantry
+		home = 720
+	}
+
+	regiment = {
+		name= "6-я пехотная бригада"
+		type = infantry
+		home = 720
+	}
+}
+
+navy = {
+	name = "Королевский флот"
+	location = 472
+	ship = {
+		name= "Витторио Амадео"
+		type = manowar
+	}
+	ship = {
+		name= "Эудженио ди Савойя"
+		type = manowar
+	}
+	ship = {
+		name= "Ницца"
+		type = manowar
+	}
+	ship = {
+		name= "Мажента"
+		type = manowar
+	}
+	ship = {
+		name= "Аврора"
+		type = frigate
+	}
+
+	ship = {
+		name= "Тритоне"
+		type = frigate
+	}
+
+	ship = {
+		name= "Флоренция"
+		type = frigate
+	}
+
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}
+

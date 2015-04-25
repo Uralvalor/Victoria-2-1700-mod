@@ -1,0 +1,72 @@
+2222 = {
+	aristocrats = {
+		culture = spanish
+		religion = catholic
+		size = 550
+	}
+	bureaucrats = {
+		culture = spanish
+		religion = catholic
+		size = 246
+	}
+	clergymen = {
+		culture = spanish
+		religion = catholic
+		size = 990
+	}
+	artisans = {
+		culture = spanish
+		religion = catholic
+		size = 2640
+	}
+	soldiers = {
+		culture = spanish
+		religion = catholic
+		size = 165
+	}
+	aristocrats = {
+		culture = caribeno
+		religion = catholic
+		size = 2200
+	}
+	bureaucrats = {
+		culture = caribeno
+		religion = catholic
+		size = 81
+	}
+	clergymen = {
+		culture = caribeno
+		religion = catholic
+		size = 660
+	}
+	artisans = {
+		culture = caribeno
+		religion = catholic
+		size = 9900
+	}
+	soldiers = {
+		culture = caribeno
+		religion = catholic
+		size = 1485
+	}
+	farmers = {
+		culture = caribeno
+		religion = catholic
+		size = 134805
+	}
+	artisans = {
+		culture = afro_caribeno
+		religion = catholic
+		size = 3300
+	}
+	soldiers = {
+		culture = afro_caribeno
+		religion = catholic
+		size = 1320
+	}
+	farmers = {
+		culture = afro_caribeno
+		religion = catholic
+		size = 122980
+	}
+}

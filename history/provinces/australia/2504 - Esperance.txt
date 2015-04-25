@@ -1,0 +1,14 @@
+add_core = AST
+trade_goods = fruit
+life_rating = 30
+terrain = dry_forest
+1836.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 2
+}
+1914.1.1 = {
+	owner = AST
+	controller = AST
+	colonial = no
+}

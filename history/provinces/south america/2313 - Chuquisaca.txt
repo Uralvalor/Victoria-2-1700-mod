@@ -1,0 +1,34 @@
+owner = SPA
+controller = SPA
+colonial = 2
+add_core = PEU
+trade_goods = wool
+life_rating = 30
+colonial = 3
+terrain = dry_forest_mountains
+1836.1.1 = {
+	owner = PBC
+	controller = PBC
+	add_core = BOL
+	add_core = PBC
+	remove_core = PEU
+	remove_core = SPA
+	colonial = no
+}
+1861.1.1 = {
+	owner = BOL
+	controller = BOL
+	remove_core = PBC
+}
+1914.1.1 = {
+	state_building = {
+		level = 1
+		building = winery
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = liquor_distillery
+		upgrade = yes
+	}
+}

@@ -1,0 +1,35 @@
+owner = MOL
+controller = MOL
+add_core = MOL
+add_core = UKR
+add_core = RUT
+add_core = RUS
+add_core = ROM
+trade_goods = fruit
+life_rating = 35
+terrain = conifer_forest_hills
+1914.1.1 = {
+	owner = KUK
+	controller = KUK
+	add_core = KUK
+	remove_core = AUS
+	add_core = POL
+	railroad = 3
+	fort = 3
+	state_building = {
+		level = 1
+		building = fabric_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = fertilizer_factory
+		upgrade = yes
+	}
+}
+1923.1.1 = {
+	owner = ROM
+	controller = ROM
+	remove_core = KUK
+	remove_core = POL
+}

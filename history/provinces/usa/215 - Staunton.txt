@@ -1,0 +1,21 @@
+
+add_core = XVA
+trade_goods = grain
+life_rating = 35
+terrain = hilly_farmland
+1750.1.1 = {
+	owner = ENG
+	controller = ENG
+colony = 2
+}
+1861.1.1 = {
+	owner = CSA
+	controller = CSA
+	add_core = CSA}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	railroad = 5
+	 
+	 
+	remove_core = CSA
+}

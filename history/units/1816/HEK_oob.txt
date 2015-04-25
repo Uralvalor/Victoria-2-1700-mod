@@ -1,0 +1,30 @@
+leader = {
+	name = "Âèëüãåëüì ôîí Ãóìáîëüäò"
+	picture = hek_gen_doernberg
+	date = 1807.1.1
+	type = land
+	personality = audacious
+	background = elderly
+}
+leader = {
+	name = "Êóğôşğñò Âèëüãåëüì"
+	picture = hek_gen_kurwilhelm
+	date = 1813.1.1
+	type = land
+	personality = unruly
+	background = aristocrat
+}
+army = {
+	name = "Kurhessische Armee"
+	location = 566
+	regiment = {
+		name= "1. Kurhessisches Infanterie-Brigade"
+		type = infantry
+		home = 566
+	}
+    	¸``¸¸regiment = {
+		name= "2. Kurhessisches Infanterie-Brigade"
+		type = infantry
+		home = 566
+	}
+}

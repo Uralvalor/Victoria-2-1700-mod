@@ -1,0 +1,25 @@
+army = {
+	name = "1-я Фуцзяньская армия"
+	location = 1550
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 1485
+	}
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 1485
+	}
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 1486
+	}
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 1550
+	}
+
+}

@@ -1,0 +1,153 @@
+army = {
+	name = "1-я королевская армия"
+	location = 1120
+	regiment = {
+		name= "1-й королевский отряд"
+		type = infantry
+		home = 1108
+	}
+
+	regiment = {
+		name= "2-й королевский отряд"
+		type = infantry
+		home = 1108
+	}
+
+	regiment = {
+		name= "3-й королевский отряд"
+		type = infantry
+		home = 1108
+	}
+
+	regiment = {
+		name= "4-й королевский отряд"
+		type = infantry
+		home = 1111
+	}
+
+	regiment = {
+		name= "5-й королевский отряд"
+		type = infantry
+		home = 1112
+	}
+
+	regiment = {
+		name= "6-й королевский отряд"
+		type = infantry
+		home = 1113
+	}
+
+	regiment = {
+		name= "7-й королевский отряд"
+		type = infantry
+		home = 1116
+	}
+
+	regiment = {
+		name= "8-й королевский отряд"
+		type = infantry
+		home = 1117
+	}
+
+	regiment = {
+		name= "9-й королевский отряд"
+		type = infantry
+		home = 1120
+	}
+
+	regiment = {
+		name= "10-й королевский отряд"
+		type = infantry
+		home = 1121
+	}
+
+	regiment = {
+		name= "11-й королевский отряд"
+		type = infantry
+		home = 1122
+	}
+
+	regiment = {
+		name= "12-й королевский отряд"
+		type = artillery
+		home = 1124
+	}
+
+}
+
+army = {
+	name = "2-я королевская армия"
+	location = 1120
+	regiment = {
+		name= "13-й королевский отряд"
+		type = infantry
+		home = 1125
+	}
+
+	regiment = {
+		name= "14-й королевский отряд"
+		type = infantry
+		home = 1127
+	}
+
+	regiment = {
+		name= "15-й королевский отряд"
+		type = infantry
+		home = 1127
+	}
+
+	regiment = {
+		name= "16-й королевский отряд"
+		type = infantry
+		home = 1129
+	}
+
+	regiment = {
+		name= "17-й королевский отряд"
+		type = infantry
+		home = 1130
+	}
+
+	regiment = {
+		name= "18-й королевский отряд"
+		type = infantry
+		home = 1135
+	}
+
+	regiment = {
+		name= "19-й королевский отряд"
+		type = infantry
+		home = 1137
+	}
+
+	regiment = {
+		name= "20-й королевский отряд"
+		type = infantry
+		home = 1141
+	}
+
+	regiment = {
+		name= "21-й королевский отряд"
+		type = infantry
+		home = 1142
+	}
+
+	regiment = {
+		name= "22-й королевский отряд"
+		type = infantry
+		home = 1145
+	}
+
+	regiment = {
+		name= "23-й королевский отряд"
+		type = infantry
+		home = 1147
+	}
+
+	regiment = {
+		name= "24-й королевский отряд"
+		type = artillery
+		home = 1148
+	}
+
+}

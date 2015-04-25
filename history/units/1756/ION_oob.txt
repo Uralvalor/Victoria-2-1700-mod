@@ -1,0 +1,10 @@
+army = {
+	name = "Армия Ионии"
+	location = 826
+	
+	regiment = {
+		name = "1-я пехотная бригада"
+		type = infantry
+		home = 826
+	}
+}

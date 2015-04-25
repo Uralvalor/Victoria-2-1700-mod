@@ -1,0 +1,43 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+trade_goods = cattle
+life_rating = 35
+terrain = hilly_farmland
+#state_building = {
+#	level = 1
+#	building = lumber_mill
+#	upgrade = yes
+#}
+1861.1.1 = {
+	state_building = {
+		level = 1
+		building = fabric_factory
+		upgrade = yes
+	}
+}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	railroad = 5
+	fort = 2
+	state_building = {
+		level = 2
+		building = fabric_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = artillery_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = furniture_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = winery
+		upgrade = yes
+	}
+}

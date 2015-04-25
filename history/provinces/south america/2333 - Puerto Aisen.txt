@@ -1,0 +1,8 @@
+
+add_core = CHL
+trade_goods = fruit
+life_rating = 25
+terrain = boreal_forest_mountains
+1836.1.1 = {
+	remove_core = SPA
+}

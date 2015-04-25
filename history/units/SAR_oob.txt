@@ -1,0 +1,62 @@
+leader = {
+	name = "Victor Amadeus II of Sardinia"
+	date = 1699.1.1
+	type = land
+	personality = defiant
+	background = school_of_defense
+}
+
+army = {
+	name = "Army of Savoy"
+	location = 720
+	regiment = {
+		name= "1st Guard Infantry"
+		type = guard
+		home = 720
+	}	
+	regiment = {
+		name= "1st Savoyard Cuirassiers"
+		type = cuirassier
+		home = 720
+	}
+	regiment = {
+		name= "2nd Savoyard Cuirassiers"
+		type = cuirassier
+		home = 720
+	}
+	regiment = {
+		name= "1st Savoyard Artillery"
+		type = artillery
+		home = 720
+	}
+	regiment = {
+		name= "2nd Line"
+		type = infantry
+		home = 720
+	}
+	regiment = {
+		name= "3rd Line"
+		type = infantry
+		home = 720
+	}
+	regiment = {
+		name= "4th Line"
+		type = infantry
+		home = 720
+	}
+	regiment = {
+		name= "5th Line"
+		type = infantry
+		home = 720
+	}
+	regiment = {
+		name= "6th Line"
+		type = infantry
+		home = 720
+	}
+	regiment = {
+		name= "7th Line"
+		type = infantry
+		home = 720
+	}		            
+}

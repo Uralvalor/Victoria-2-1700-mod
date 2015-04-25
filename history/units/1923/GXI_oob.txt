@@ -1,0 +1,10 @@
+army = {
+	name = "1-я армия Гуанси"
+	location = 1502
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 1502
+	}
+
+}

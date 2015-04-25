@@ -1,0 +1,42 @@
+PER = {
+	value = 50
+}
+
+army = {
+	name = "Army of Iraq"
+	location = 926
+	regiment = {
+		name= "1.Askäris"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name= "2.Askäris"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name= "3.Askäris"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name= "4.Askäris"
+		type = infantry
+		home = 926
+	}
+	regiment = {
+		name= "5.Askäris"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name= "6.Askäris"
+		type = infantry
+		home = 926
+	}
+}

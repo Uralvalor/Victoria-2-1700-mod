@@ -1,0 +1,16 @@
+owner = PER
+controller = PER
+add_core = AZB
+add_core = TCR
+trade_goods = grain
+life_rating = 30
+terrain = deciduous_forest_mountains
+1914.1.1 = {
+	trade_goods = oil
+}
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+	remove_core = RUS
+}

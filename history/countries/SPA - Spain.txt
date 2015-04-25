@@ -1,0 +1,83 @@
+capital = 487
+primary_culture = spanish
+culture = catalan
+culture = basque
+religion = catholic
+government = absolute_monarchy
+plurality = 0.0
+nationalvalue = nv_equality
+literacy = 0.2
+civilized = yes
+
+
+prestige = 75
+
+# Political reforms
+slavery = yes_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = jefferson_method
+political_parties = underground_parties
+minorities = limited  
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+school_reforms = no_schools
+
+ruling_party = SPA_reactionary
+last_election = 1700.1.1
+upper_house = {
+	fascist = 0
+	reactionary = 100
+	 
+	socialist = 0
+	communist = 0
+}
+
+
+#Inventions
+	land_reform = yes_land_reform
+	admin_reform = yes_admin_reform
+	finance_reform = finance_reform_two 
+	education_reform = yes_education_reform 
+	transport_improv = yes_transport_improv 
+	foreign_training = yes_foreign_training 
+	foreign_weapons = yes_foreign_weapons 
+	military_constructions = yes_military_constructions 
+	foreign_officers = yes_foreign_officers 
+	army_schools = 	yes_army_schools
+	foreign_naval_officers = yes_foreign_naval_officers 
+	naval_schools = yes_naval_schools 
+	foreign_navies = yes_foreign_navies 
+
+
+
+water_wheel_power = 1	
+
+nelsonian_thought = 1
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+ 
+military_staff_system = 1
+ 
+clipper_design = 1
+	
+	
+# Starting Consciousness
+consciousness = 3
+nonstate_consciousness = 1
+
+schools = culture_tech_school
+
+oob = "SPA_oob.txt"
+1750.1.1 = {
+oob = "/1756/SPA_oob.txt"
+ }

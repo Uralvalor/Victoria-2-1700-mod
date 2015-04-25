@@ -1,0 +1,19 @@
+army = {
+	name = "1-я Хунаньская армия"
+	location = 1524
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 1524
+	}
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 1526
+	}
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 1527
+	}
+}

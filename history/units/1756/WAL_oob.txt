@@ -1,0 +1,23 @@
+army = {
+	name = "Армия Валахии"
+	location = 669
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 664
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 668
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 669
+	}
+
+}
+

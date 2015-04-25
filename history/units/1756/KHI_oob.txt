@@ -1,0 +1,40 @@
+army = {
+	name = "Армия Хивы"
+	location = 1191
+	regiment = {
+		name= "1-я йомудская бригада"
+		type = cavalry
+		home = 1191
+	}
+
+	regiment = {
+		name= "2-я йомудская бригада"
+		type = cavalry
+		home = 1191
+	}
+
+	regiment = {
+		name= "3-я йомудская бригада"
+		type = cavalry
+		home = 1192
+	}
+
+	regiment = {
+		name= "1-я киргизская бригада"
+		type = cavalry
+		home = 1192
+	}
+
+	regiment = {
+		name= "2-я киргизская бригада"
+		type = cavalry
+		home = 1196
+	}
+
+	regiment = {
+		name= "3-я киргизская бригада"
+		type = cavalry
+		home = 1196
+	}
+
+}

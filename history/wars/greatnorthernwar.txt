@@ -1,0 +1,87 @@
+name = "Северная война"
+
+1700.1.1 = {
+	add_attacker = DEN
+	add_attacker = RUS
+	add_attacker = SAX
+	add_attacker = PLC
+	add_attacker = CSK
+	add_attacker = UKR
+	add_defender = SWE
+	add_defender = HOL
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+
+	
+	war_goal = {
+		casus_belli = acquire_state
+		actor = PLC
+		receiver = SWE
+		state_province_id = 354
+	}
+	war_goal = {
+		casus_belli = acquire_state
+		actor = PLC
+		receiver = SWE
+		state_province_id = 349
+	}
+	war_goal = {
+		casus_belli = acquire_state
+		actor = RUS
+		receiver = SWE
+		state_province_id = 994
+	}
+	war_goal = {
+		casus_belli = acquire_state
+		actor = RUS
+		receiver = SWE
+		state_province_id = 339
+	}
+	war_goal = {
+		casus_belli = acquire_state
+		actor = RUS
+		receiver = SWE
+		state_province_id = 350
+	}
+	war_goal = {
+		casus_belli = acquire_state
+		actor = RUS
+		receiver = SWE
+		state_province_id = 355
+	}
+	war_goal = {
+		casus_belli = acquire_state
+		actor = SWE
+		receiver = PLC
+		state_province_id = 357
+	}
+	war_goal = {
+		casus_belli = place_in_the_sun
+		actor = SWE
+		receiver = RUS
+		state_province_id = 988
+	}
+	war_goal = {
+		casus_belli = place_in_the_sun
+		actor = SWE
+		receiver = RUS
+		state_province_id = 983
+	}
+}
+
+1700.8.8 = {
+	rem_attacker = DEN
+}
+1722.8.8 = {
+	rem_attacker = RUS
+	rem_attacker = SAX
+	rem_attacker = PLC
+	rem_attacker = CSK
+	rem_attacker = UKR
+	rem_defender = SWE
+	rem_defender = HOL
+}

@@ -1,0 +1,17 @@
+owner = SNR
+controller = SNR
+add_core = SNR
+trade_goods = grain
+life_rating = 30
+terrain = dry_grassland
+1836.1.1 = {
+	owner = EGY
+	controller = EGY
+	add_core = SUD
+	remove_core = SNR
+}
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 3
+}

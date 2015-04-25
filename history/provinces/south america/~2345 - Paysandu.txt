@@ -1,0 +1,16 @@
+owner = POR
+controller = POR
+add_core = URU
+colonial = 2
+naval_base = 1
+add_core = LPL
+add_core = BRZ
+trade_goods = cattle
+life_rating = 35
+terrain = marginal_farmland
+1836.1.1 = {
+	owner = URU
+	controller = URU
+	remove_core = LPL
+	remove_core = BRZ
+}

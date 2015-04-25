@@ -1,0 +1,79 @@
+2125 = {
+	bureaucrats = {
+		culture = english
+		religion = protestant
+		size = 33
+	}
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 40
+	}
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 214
+	}
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 40
+	}
+	aristocrats = {
+		culture = french
+		religion = catholic
+		size = 55
+	}
+	bureaucrats = {
+		culture = french
+		religion = catholic
+		size = 49
+	}
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 297
+	}
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 33
+	}
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 33
+	}
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 330
+	}
+	clergymen = {
+		culture = african_minor
+		religion = protestant
+		size = 205
+	}
+	artisans = {
+		culture = african_minor
+		religion = protestant
+		size = 1650
+	}
+	soldiers = {
+		culture = african_minor
+		religion = protestant
+		size = 412
+	}
+	farmers = {
+		culture = african_minor
+		religion = catholic
+		size = 36918
+	}
+}
+2128 = {
+	farmers = {
+		culture = african_minor
+		religion = catholic
+		size = 288
+	}
+}

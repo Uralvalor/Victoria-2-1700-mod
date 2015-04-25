@@ -1,0 +1,23 @@
+owner = VEN
+controller = VEN
+add_core = VEN
+add_core = CRO
+add_core = YUG
+trade_goods = grain
+life_rating = 35
+naval_base = 1
+terrain = good_farmland
+1914.1.1 = {
+	owner = KUK
+	controller = KUK
+	add_core = KUK
+	remove_core = AUS
+	railroad = 4
+	fort = 2
+}
+1923.1.1 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = KUK
+}

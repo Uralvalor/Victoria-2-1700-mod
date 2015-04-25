@@ -1,0 +1,72 @@
+capital = 549
+primary_culture = north_german
+culture = south_german
+religion = protestant
+government = absolute_monarchy
+plurality = 0.0
+nationalvalue = nv_order
+literacy = 0.7
+non_state_culture_literacy = 0.25
+civilized = yes
+
+
+set_country_flag = serfdom_not_abolished
+
+#GreaterPowers = prestige
+prestige = 20
+
+# Political reforms
+slavery = yes_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = first_past_the_post
+political_parties = underground_parties
+
+# Social Reforms
+school_reforms = no_schools
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = low_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+
+ruling_party = PRU_reactionary
+upper_house = {
+	fascist = 0
+	liberal = 0
+	reactionary = 30
+	reactionary = 70
+	 
+	socialist = 0
+	communist = 0
+}
+
+# Technologies
+
+
+
+water_wheel_power = 1	
+flintlock_rifles = 1	
+bronze_muzzle_loaded_artillery = 1
+ 
+military_staff_system = 1
+ 	
+	
+#Inventions
+
+# Starting Consciousness
+consciousness = 0
+nonstate_consciousness = 0
+
+schools = army_tech_school
+
+oob = "PRU_oob.txt"
+
+
+1750.1.1 = {
+oob = "/1756/PRU_oob.txt"
+ }

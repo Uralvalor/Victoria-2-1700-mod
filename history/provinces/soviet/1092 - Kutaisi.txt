@@ -1,0 +1,13 @@
+owner = GEO
+controller = GEO
+add_core = GEO
+add_core = TCR
+trade_goods = fruit
+life_rating = 35
+terrain = deciduous_forest_mountains
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+	remove_core = RUS
+}

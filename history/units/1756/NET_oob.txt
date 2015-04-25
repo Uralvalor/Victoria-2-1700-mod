@@ -1,0 +1,227 @@
+army = {
+	name = "1-я дивизия"
+	location = 375 
+	regiment = {
+		name= "1-я кавалерийская бригада"
+		type = cavalry
+		home = 375
+	}
+
+	regiment = {
+		name= "2-я кавалерийская бригада"
+		type = cavalry
+		home = 383
+	}
+
+	regiment = {
+		name= "3-я кавалерийская бригада"
+		type = cavalry
+		home = 380
+	}
+
+	regiment = {
+		name = "1-я пехотная бригада"
+		type = infantry
+		home = 376
+	}
+
+	regiment = {
+		name = "2-я пехотная бригада"
+		type = infantry
+		home = 381
+	}
+
+	regiment = {
+		name = "3-я пехотная бригада"
+		type = infantry
+		home = 377
+	}
+
+}
+
+army = {
+	name = "2-я дивизия"
+	location = 381
+	regiment = {
+		name = "4-я пехотная бригада"
+		type = infantry
+		home = 378
+	}
+
+	regiment = {
+		name = "5-я пехотная бригада"
+		type = infantry
+		home = 379
+	}
+
+	regiment = {
+		name = "6-я пехотная бригада"
+		type = infantry
+		home = 386
+	}
+
+}
+
+army = {
+	name = "3-я дивизия"
+	location = 375
+	regiment = {
+		name = "7-я пехотная бригада"
+		type = infantry
+		home = 383
+	}
+
+	regiment = {
+		name = "8-я пехотная бригада"
+		type = infantry
+		home = 384
+	}
+
+	regiment = {
+		name = "9-я пехотная бригада"
+		type = infantry
+		home = 385
+	}
+
+}
+
+army = {
+	name = "Ост-Индская армия"
+	location = 1413
+	regiment = {
+		name = "1-я индийская бригада"
+		type = infantry
+		home = 1413
+	}
+
+	regiment = {
+		name = "2-я индийская бригада"
+		type = irregular
+		home = 1421
+	}
+}
+
+navy = {
+	name = "Королевский флот"
+	location = 375 #Amsterdam
+	ship = {
+		name= "Доггерсбанк"
+		type = manowar
+	}
+
+	ship = {
+		name= "Амстердам"
+		type = manowar
+	}
+
+	ship = {
+		name= "Мария Регенсберген"
+		type = frigate
+	}
+
+	ship = {
+		name= "Паллада"
+		type = frigate
+	}
+
+	ship = {
+		name= "Прозерпина"
+		type = frigate
+	}
+
+	ship = {
+		name= "Дафна"
+		type = frigate
+	}
+
+	ship = {
+		name= "Эпиона"
+		type = frigate
+	}
+
+	ship = {
+		name= "Зеепард"
+		type = frigate
+	}
+
+	ship = {
+		name= "Ирена"
+		type = frigate
+	}
+
+	ship = {
+		name= "Орфей"
+		type = frigate
+	}
+
+
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "Ост-Индская эскадра"
+	location = 1413 #Batavia
+	ship = {
+		name= "Де Рюйтер"
+		type = manowar
+	}
+
+	ship = {
+		name= "Вервахтинг"
+		type = manowar
+	}
+
+	ship = {
+		name= "Аврора"
+		type = frigate
+	}
+
+	ship = {
+		name= "Ирида"
+		type = frigate
+	}
+
+	ship = {
+		name= "Феникс"
+		type = frigate
+	}
+
+	ship = {
+		name= "Эндрахт"
+		type = frigate
+	}
+
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "Вест-Индская эскадра"
+	location = 2234 #Curacao
+
+	ship = {
+		name= "Адмирал-генерал"
+		type = manowar
+	}
+
+	ship = {
+		name= "Диана"
+		type = frigate
+	}
+
+	ship = {
+		name= "Хооп"
+		type = frigate
+	}
+
+	ship = {
+		name= "3-я транспортная фa"
+		type = clipper_transport
+	}
+
+}

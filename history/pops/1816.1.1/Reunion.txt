@@ -1,0 +1,57 @@
+2126 = {
+	aristocrats = {
+		culture = french
+		religion = catholic
+		size = 682
+	}
+	bureaucrats = {
+		culture = french
+		religion = catholic
+		size = 45
+	}
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 68
+	}
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 455
+	}
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 273
+	}
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 5300
+	}
+	clergymen = {
+		culture = afro_antillean
+		religion = catholic
+		size = 113
+	}
+	artisans = {
+		culture = afro_antillean
+		religion = catholic
+		size = 773
+	}
+	soldiers = {
+		culture = afro_antillean
+		religion = catholic
+		size = 182
+	}
+	farmers = {
+		culture = afro_antillean
+		religion = catholic
+		size = 1660
+	}
+	slaves = {
+		culture = afro_antillean
+		religion = catholic
+		size = 12740
+	}
+}

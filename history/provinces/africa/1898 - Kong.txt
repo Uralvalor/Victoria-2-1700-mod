@@ -1,0 +1,11 @@
+owner = KNG
+controller = KNG
+add_core = KNG
+trade_goods = cattle
+life_rating = 15
+terrain = seasonal_jungle
+1914.1.1 = {
+	owner = FRA
+	controller = FRA
+	colonial = 3
+}

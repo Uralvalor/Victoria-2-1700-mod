@@ -1,0 +1,12 @@
+owner = MUG
+controller = MUG
+add_core = BUN
+add_core = HND
+trade_goods = fruit
+life_rating = 35
+terrain = floodplain_farmland
+1750.1.1 = {
+	owner = BUN
+	controller = BUN
+}
+

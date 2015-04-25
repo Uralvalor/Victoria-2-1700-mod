@@ -1,0 +1,12 @@
+ 
+ 
+ 
+trade_goods = coal
+life_rating = 35
+colony = yes
+terrain = deciduous_forest
+1861.1.1 = {
+	colony = no
+	}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = { railroad = 5 }

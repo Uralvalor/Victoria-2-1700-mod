@@ -1,0 +1,230 @@
+army = {
+	name = "1-я Чехословацкая армия"
+	location = 625
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 625
+	}
+
+	regiment = {
+		name= "2-я дивизия"
+		type = infantry
+		home = 625
+	}
+
+	regiment = {
+		name= "3-я дивизия"
+		type = infantry
+		home = 625
+	}
+
+	regiment = {
+		name= "4-я дивизия"
+		type = infantry
+		home = 625
+	}
+	
+	regiment = {
+		name= "5-я дивизия"
+		type = infantry
+		home = 626
+	}
+
+	regiment = {
+		name= "6-я дивизия"
+		type = infantry
+		home = 626
+	}
+	
+	regiment = {
+		name= "7-я дивизия"
+		type = infantry
+		home = 626
+	}
+
+	regiment = {
+		name= "8-я дивизия"
+		type = infantry
+		home = 626
+	}
+
+	regiment = {
+		name= "9-я дивизия"
+		type = infantry
+		home = 627
+	}
+
+	regiment = {
+		name= "10-я дивизия"
+		type = infantry
+		home = 627
+	}
+
+	regiment = {
+		name= "11-я дивизия"
+		type = infantry
+		home = 627
+	}
+
+	regiment = {
+		name= "12-я дивизия"
+		type = infantry
+		home = 627
+	}
+
+}
+
+army = {
+	name = "2-я Чехословацкая армия"
+	location = 627
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 627
+	}
+
+	regiment = {
+		name= "2-я дивизия"
+		type = infantry
+		home = 628
+	}
+
+	regiment = {
+		name= "3-я дивизия"
+		type = infantry
+		home = 628
+	}
+
+	regiment = {
+		name= "4-я дивизия"
+		type = infantry
+		home = 628
+	}
+	
+	regiment = {
+		name= "5-я дивизия"
+		type = infantry
+		home = 629
+	}
+
+	regiment = {
+		name= "6-я дивизия"
+		type = infantry
+		home = 629
+	}
+	
+	regiment = {
+		name= "7-я дивизия"
+		type = infantry
+		home = 629
+	}
+
+	regiment = {
+		name= "8-я дивизия"
+		type = infantry
+		home = 629
+	}
+
+	regiment = {
+		name= "9-я дивизия"
+		type = infantry
+		home = 629
+	}
+
+	regiment = {
+		name= "10-я дивизия"
+		type = infantry
+		home = 630
+	}
+
+	regiment = {
+		name= "11-я дивизия"
+		type = infantry
+		home = 630
+	}
+
+	regiment = {
+		name= "12-я дивизия"
+		type = infantry
+		home = 630
+	}
+
+}
+
+army = {
+	name = "3-я Чехословацкая армия"
+	location = 633
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 631
+	}
+
+	regiment = {
+		name= "2-я дивизия"
+		type = infantry
+		home = 631
+	}
+
+	regiment = {
+		name= "3-я дивизия"
+		type = infantry
+		home = 631
+	}
+
+	regiment = {
+		name= "4-я дивизия"
+		type = infantry
+		home = 631
+	}
+	
+	regiment = {
+		name= "5-я дивизия"
+		type = infantry
+		home = 631
+	}
+
+	regiment = {
+		name= "6-я дивизия"
+		type = infantry
+		home = 631
+	}
+	
+	regiment = {
+		name= "7-я дивизия"
+		type = infantry
+		home = 631
+	}
+
+	regiment = {
+		name= "8-я дивизия"
+		type = infantry
+		home = 632
+	}
+
+	regiment = {
+		name= "9-я дивизия"
+		type = infantry
+		home = 632
+	}
+
+	regiment = {
+		name= "10-я дивизия"
+		type = infantry
+		home = 632
+	}
+
+	regiment = {
+		name= "11-я дивизия"
+		type = infantry
+		home = 632
+	}
+
+	regiment = {
+		name= "12-я дивизия"
+		type = infantry
+		home = 633
+	}
+
+}

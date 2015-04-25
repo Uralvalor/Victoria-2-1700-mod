@@ -1,0 +1,127 @@
+army = {
+	name = "1-я армия"
+	location = 1745
+	regiment = {
+		name= "1-я пех. дивизия"
+		type = infantry
+		home = 1745
+	}
+
+	regiment = {
+		name= "2-я пех. дивизия"
+		type = infantry
+		home = 1745
+	}
+
+	regiment = {
+		name= "3-я пех. дивизия"
+		type = infantry
+		home = 1745
+	}
+
+	regiment = {
+		name= "4-я пех. дивизия"
+		type = infantry
+		home = 1745
+	}
+
+	regiment = {
+		name= "5-я пех. дивизия"
+		type = infantry
+		home = 1745
+	}
+
+	regiment = {
+		name= "6-я пех. дивизия"
+		type = infantry
+		home = 1745
+	}
+
+	regiment = {
+		name= "7-я пех. дивизия"
+		type = cavalry
+		home = 1745
+	}
+
+	regiment = {
+		name= "8-я пех. дивизия"
+		type = cavalry
+		home = 1745
+	}
+
+	regiment = {
+		name= "9-я пех. дивизия"
+		type = cavalry
+		home = 1745
+	}
+
+	regiment = {
+		name= "10-я пех. дивизия"
+		type = cavalry
+		home = 1745
+	}
+}
+
+army = {
+	name = "2-я армия"
+	location = 1751
+	regiment = {
+		name= "1-я пех. дивизия"
+		type = infantry
+		home = 1746
+	}
+
+	regiment = {
+		name= "2-я пех. дивизия"
+		type = infantry
+		home = 1747
+	}
+
+	regiment = {
+		name= "3-я пех. дивизия"
+		type = infantry
+		home = 1748
+	}
+
+	regiment = {
+		name= "4-я пех. дивизия"
+		type = infantry
+		home = 1749
+	}
+
+	regiment = {
+		name= "5-я пех. дивизия"
+		type = infantry
+		home = 1750
+	}
+
+	regiment = {
+		name= "6-я пех. дивизия"
+		type = infantry
+		home = 1751
+	}
+
+	regiment = {
+		name= "7-я пех. дивизия"
+		type = cavalry
+		home = 1751
+	}
+
+	regiment = {
+		name= "8-я пех. дивизия"
+		type = cavalry
+		home = 1751
+	}
+
+	regiment = {
+		name= "9-я пех. дивизия"
+		type = cavalry
+		home = 1751
+	}
+
+	regiment = {
+		name= "10-я пех. дивизия"
+		type = cavalry
+		home = 1752
+	}
+}

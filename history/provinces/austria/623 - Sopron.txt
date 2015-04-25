@@ -1,0 +1,26 @@
+owner = AUS
+controller = AUS
+ 
+add_core = HUN
+trade_goods = fruit
+life_rating = 35
+terrain = good_farmland
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	railroad = 4
+	fort = 2
+	owner = KUK
+	controller = KUK
+	add_core = KUK
+	remove_core = AUS
+	state_building = {
+		level = 1
+		building = winery
+		upgrade = yes
+	}
+}
+1923.1.1 = {
+	owner = HUN
+	controller = HUN
+	remove_core = KUK
+}

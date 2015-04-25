@@ -1,0 +1,10 @@
+army = {
+	name = "Армия Либерии"
+	location = 1887
+	
+	regiment = {
+		name = "1-я бригада"
+		type = irregular
+		home = 1887
+	}
+}

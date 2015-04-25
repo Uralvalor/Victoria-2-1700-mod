@@ -1,0 +1,14 @@
+owner = PAP
+controller = PAP
+add_core = PAP
+add_core = ITA
+trade_goods = fruit
+life_rating = 35
+terrain = good_farmland
+1861.1.1 = {
+	add_core = ITA
+}
+1914.1.1 = {
+	owner = ITA
+	controller = ITA
+}

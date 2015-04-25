@@ -1,0 +1,57 @@
+leader = {
+	name = "Зовавар Сингх"
+	type = land
+	date = 1836.1.1
+	personality = sharp
+	background = spoiled
+}
+
+leader = {
+	name = "Гулуб Сингх"
+	type = land
+	date = 1836.1.1
+	personality = competent
+	background = aristocrat
+}
+
+army = {
+	name = "Армия раджи Догры"
+	location = 1224
+	regiment = {
+		name= "1-я бригада сикхов"
+		type = infantry
+		home = 1224
+	}
+
+	regiment = {
+		name= "2-я бригада сикхов"
+		type = infantry
+		home = 1224
+	}
+
+	regiment = {
+		name= "3-я бригада сикхов"
+		type = infantry
+		home = 1224
+	}
+
+	regiment = {
+		name= "1-я тибетская бригада"
+		type = infantry
+		home = 1224
+	}
+
+	regiment = {
+		name= "2-я тибетская бригада"
+		type = infantry
+		home = 1224
+	}
+
+	regiment = {
+		name= "3-я тибетская бригада"
+		type = infantry
+		home = 1224
+	}
+
+}
+

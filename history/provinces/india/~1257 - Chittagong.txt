@@ -1,0 +1,12 @@
+owner = BNG 
+controller = BNG 
+add_core = BNG 
+add_core = HND
+trade_goods = dye
+life_rating = 35
+terrain = seasonal_jungle_hills
+1914.1.1 = {
+	add_core = PAK
+	remove_core = HND
+	colonial = 3
+}

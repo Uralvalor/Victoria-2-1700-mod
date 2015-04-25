@@ -1,0 +1,1918 @@
+#Sphere of Influence
+
+PER = {
+	value = 100
+	influence_value = 11
+}
+
+AFG = {
+	value = 50
+	influence_value = 10
+}
+
+SIA = {
+	value = 100
+	level = 4
+	influence_value = 12
+}
+
+NEJ = {
+	value = 100
+	influence_value = 41
+}
+
+ETH = {
+	value = 100
+	level = 3
+	influence_value = 12
+}
+
+NET = {
+	value = 150
+	level = 3
+	influence_value = 25
+
+}
+
+DEN = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 11
+}
+SWE = {
+	value = 0
+	influence_value = 20
+}
+SWI = {
+	value = 125
+	level = 4
+	influence_value = 25
+}
+ARG = {
+	value = 125
+	influence_value = 25
+}
+BEL = {
+	value = 200
+	level = 4
+	influence_value = 11
+}
+RUS = {
+	value = 200
+}
+JAP = {
+	value = 50
+}
+ITA = {
+	value = 50
+}
+POR = {
+	value = 200
+	level = 3
+	influence_value = 11
+}
+ROM = {
+	value = 200
+	influence_value = 13
+}
+USA = {
+	value = 50
+}
+PNM = {
+	value = 150
+	influence_value = 43
+}
+CUB = {
+	value = 150
+}
+GRE= {
+	value = 200
+	level = 5
+	influence_value = 35
+}
+CHI = {
+	value = 150
+	influence_value = 20
+}
+BRZ = {
+	value = 200
+	influence_value = 11
+}
+GUA = {
+	value = 150
+	influence_value = 34
+}
+NIC = {
+	value = 150
+	influence_value = 11
+}
+COS = {
+	value = 100
+	influence_value = 17
+}
+HAI = {
+	value = 100
+	influence_value = 24
+}
+HON = {
+	value = 100
+	influence_value = 13
+}
+BOL = {
+	value = 100
+}
+DOM = {
+	value = 100
+	influence_value = 3
+}
+PEU = {
+	value = 100
+}
+URU = {
+	value = 100
+}
+ECU = {
+	value = 100
+}
+SMR = {
+	value = 100
+	level = 3
+	influence_value = 11
+}
+ENG = {
+	value = 200
+}
+SER = {
+	value = 200
+	level = 4
+	influence_value = 12
+}
+GER = {
+	value = -200
+}
+KUK = {
+	value = -200
+}
+BUL = {
+	value = -200
+}
+TUR = {
+	value = -200
+	influence_value = 21
+}
+CAN = {
+	level = 3
+	influence_value = 21
+}
+
+leader = {
+	name = "Æîçåô Æàê Æîôôð"
+	type = land
+	date="1914.1.1"
+	personality = resolute
+	background = gifted_administrator
+	picture="personal_joseph_joffre"
+}
+
+leader = {
+	name = "Ôåðäèíàíä Ôîø"
+	type = land
+	date="1914.1.1"
+	personality = chivalrous
+	background = rising_star
+	picture="personal_ferdinand_foch"
+}
+
+leader = {
+	name = "Àíðè Ïåòåí"
+	type = land
+	date="1914.1.1"
+	personality = relentless
+	background = butcher
+	picture="personal_henri_petain"
+}
+
+leader = {
+	name = "Íîýëü äå Êàñòåëüíî"
+	type = land
+	date="1914.1.1"
+	personality = keen
+	background = cartographer
+	picture="personal_noel_castelnau"
+}
+
+leader = {
+	name = "Îãþñò Äþáàé"
+	type = land
+	date="1914.1.1"
+	personality = clever
+	background = gifted_administrator
+	picture="personal_auguste_dubail"
+}
+
+leader = {
+	name = "Ëóè ä'Ýñïåðå"
+	type = land
+	date="1914.1.1"
+	personality = resourceful
+	background = professor
+	picture="personal_louis_esperey"
+}
+
+leader = {
+	name = "Æîçåô Ãàëëèåíè"
+	type = land
+	date="1914.1.1"
+	personality = choleric
+	background = colonial_b
+	picture="personal_joseph_gallienii"
+}
+
+leader = {
+	name = "Øàðëü Ìàíæåí"
+	type = land
+	date="1914.1.1"
+	personality = bold
+	background = butcher
+	picture="personal_charles_mangin"
+}
+
+leader = {
+	name = "Ìèøåëü Ìîíóðè"
+	type = land
+	date="1914.1.1"
+	personality = brutish
+	background = artillerist
+	picture="personal_michel_maunoury"
+}
+
+leader = {
+	name = "Ðîáåð Æîðæ Íèâåëü"
+	type = land
+	date="1914.1.1"
+	personality = unflinching
+	background = old_school
+	picture="personal_robert_nivelle"
+}
+
+leader = {
+	name = "Ìîðèñ Ñàððàé"
+	type = land
+	date="1914.1.1"
+	personality = balanced_p
+	background = war_college
+	picture="personal_maurice_sarrail"
+}
+
+army = {
+	name = "1er Corps d'Armee"
+	location = 399
+	regiment = {
+		name = "1.23eve Division d'infantrie"
+		type = infantry
+		home = 453
+	}
+	regiment = {
+		name = "1ere Division d'infantrie"
+		type = guard
+		home = 453
+	}
+	regiment = {
+		name = "2eme Division d'infantrie"
+		type = guard
+		home = 453
+	}
+	regiment = {
+		name = "4eme Division de cavalerie"
+		type = guard
+		home = 454
+	}
+	regiment = {
+		name = "5eme Division de cavalerie"
+		type = infantry
+		home = 454
+	}
+	regiment = {
+		name = "6eme Division d'infantrie"
+		type = infantry
+		home = 454
+	}
+	regiment = {
+		name = "7eme Division d'infantrie"
+		type = infantry
+		home = 454
+	}
+	regiment = {
+		name = "8eme Division d'infantrie"
+		type = infantry
+		home = 455
+	}
+	regiment = {
+		name = "9eme Division d'infantrie"
+		type = artillery
+		home = 455
+	}
+	regiment = {
+		name = "10me Division d'infantrie"
+		type = artillery
+		home = 455
+	}
+	regiment = {
+		name = "1eme Division de cavallrie"
+		type = hussar
+		home = 455
+	}
+	regiment = {
+		name = "2eme Division de cavallrie"
+		type = hussar
+		home = 456
+	}
+	regiment = {
+		name = "6eme Division de cavallrie"
+		type = hussar
+		home = 456
+	}
+	regiment = {
+		name = "2.4 engineer"
+		type = engineer
+		home = 456
+	}
+}
+army = {
+	name = "2eme Corps d'Armee"
+	location = 402
+	regiment = {
+		name = "3eme Division d'Infanterie"
+		type = guard
+		home = 456
+	}
+	regiment = {
+		name = "2eve Division d'infantrie"
+		type = infantry
+		home = 457
+	}
+	regiment = {
+		name = "4ère Division d'Infanterie"
+		type = guard
+		home = 458
+	}
+	regiment = {
+		name = "5ère Division d'Infanterie"
+		type = infantry
+		home = 458
+	}
+	regiment = {
+		name = "6ère Division d'Infanterie"
+		type = infantry
+		home = 459
+	}
+	regiment = {
+		name = "7ère Division d'Infanterie"
+		type = infantry
+		home = 459
+	}
+	regiment = {
+		name = "8ère Division d'Infanterie"
+		type = infantry
+		home = 459
+	}
+	regiment = {
+		name = "1ère Division d'Artillerie"
+		type = artillery
+		home = 460
+	}
+	regiment = {
+		name = "2ère Division d'Artillerie"
+		type = artillery
+		home = 460
+	}
+	regiment = {
+		name = "3 aeronauticue"
+		type = plane
+		home = 460
+	}
+	regiment = {
+		name = "2.3 engineer"
+		type = engineer
+		home = 461
+	}
+}
+army = {
+	name = "3eme Corps d'Armee"
+	location = 415
+	regiment = {
+		name = "11ème Division d'Infanterie"
+		type = guard
+		home = 461
+	}
+	regiment = {
+		name = "3eve Division d'infantrie"
+		type = infantry
+		home = 461
+	}
+	regiment = {
+		name = "2.7ème Division d'Infanterie"
+		type = guard
+		home = 462
+	}
+	regiment = {
+		name = "3.7ème Division d'Infanterie"
+		type = artillery
+		home = 462
+	}
+	regiment = {
+		name = "4.7ème Division d'Infanterie"
+		type = artillery
+		home = 416
+	}
+	regiment = {
+		name = "5.7ème Division d'Infanterie"
+		type = infantry
+		home = 416
+	}
+	regiment = {
+		name = "6.7ème Division d'Infanterie"
+		type = guard
+		home = 416
+	}
+	regiment = {
+		name = "7.7ème Division d'Infanterie"
+		type = guard
+		home = 416
+	}
+	regiment = {
+		name = "8.7ème Division d'Infanterie"
+		type = guard
+		home = 464
+	}
+}
+
+army = {
+	name = "4eme Corps d'Armee"
+	location = 436
+	regiment = {
+		name = "1.1ère Division d'infantrie"
+		type = infantry
+		home = 436
+	}
+	regiment = {
+		name = "5eve Division d'infantrie"
+		type = infantry
+		home = 467
+	}
+	regiment = {
+		name = "2.1ère Division d'infantrie"
+		type = infantry
+		home = 468
+	}
+	regiment = {
+		name = "3.1ère Division d'infantrie"
+		type = artillery
+		home = 469
+	}
+	regiment = {
+		name = "4.1ère Division d'infantrie"
+		type = artillery
+		home = 470
+	}
+	regiment = {
+		name = "5.1ère Division d'infantrie"
+		type = infantry
+		home = 471
+	}
+	regiment = {
+		name = "6.1ère Division d'infantrie"
+		type = infantry
+		home = 473
+	}
+	regiment = {
+		name = "1.1ère Division d'infantrie"
+		type = guard
+		home = 436
+	}
+	regiment = {
+		name = "8.1ère Division d'infantrie"
+		type = guard
+		home = 273
+	}
+	regiment = {
+		name = "9.1ère Division de cavallrie"
+		type = dragoon
+		home = 399
+	}
+	regiment = {
+		name = "10.1ère Division de cavallrie"
+		type = dragoon
+		home = 399
+	}
+	regiment = {
+		name = "11.1ère Division de cavallrie"
+		type = dragoon
+		home = 399
+	}
+	regiment = {
+		name = "12.1ère Division de cavallrie"
+		type = hussar
+		home = 399
+	}
+	regiment = {
+		name = "2.2 engineer"
+		type = engineer
+		home = 399
+	}
+}
+
+army = {
+	name = "5eme Corps d'Armee"
+	location = 438
+	regiment = {
+		name = "1.8ème Division d'Infanterie"
+		type = infantry
+		home = 399
+	}
+	regiment = {
+		name = "7eve Division d'infantrye"
+		type = infantry
+		home = 399
+	}
+	regiment = {
+		name = "2.8ème Division d'Infanterie"
+		type = infantry
+		home = 400
+	}
+	regiment = {
+		name = "3.8ème Division d'Infanterie"
+		type = infantry
+		home = 400
+	}
+	regiment = {
+		name = "4.8ème Division d'Infanterie"
+		type = guard
+		home = 400
+	}
+	regiment = {
+		name = "4.9ème Division d'Infanterie"
+		type = guard
+		home = 400
+	}
+	regiment = {
+		name = "4.0ème Division d'Infanterie"
+		type = artillery
+		home = 400
+	}
+	regiment = {
+		name = "4.2ème Division d'Infanterie"
+		type = artillery
+		home = 400
+	}
+	regiment = {
+		name = "2.1 engineer"
+		type = engineer
+		home = 401
+	}
+}
+
+army = {
+	name = "6eme Corps d'Armee"
+	location = 413
+	regiment = {
+		name = "1.10ème Division d'Infanterie"
+		type = guard
+		home = 401
+	}
+	regiment = {
+		name = "8eve Division d'infantrie"
+		type = infantry
+		home = 401
+	}
+	regiment = {
+		name = "2.10ème Division d'Infanterie"
+		type = guard
+		home = 401
+	}
+	regiment = {
+		name = "3.10ème Division d'Infanterie"
+		type = artillery
+		home = 2570
+	}
+	regiment = {
+		name = "4.10ème Division d'Infanterie"
+		type = artillery
+		home = 2570
+	}
+	regiment = {
+		name = "5.10ème Division d'Infanterie"
+		type = infantry
+		home = 465
+	}
+	regiment = {
+		name = "6.10ème Division d'Infanterie"
+		type = infantry
+		home = 466
+	}
+	regiment = {
+		name = "7.10ème Division d'Infanterie"
+		type = infantry
+		home = 466
+	}
+	regiment = {
+		name = "8.10ème Division d'Infanterie"
+		type = infantry
+		home = 472
+	}
+	regiment = {
+		name = "9.10ème Division d'Infanterie"
+		type = infantry
+		home = 402
+	}
+	regiment = {
+		name = "5.20ème Division d'Infanterie"
+		type = infantry
+		home = 402
+	}
+	regiment = {
+		name = "5.11ème Division d'Infanterie"
+		type = infantry
+		home = 402
+	}
+	regiment = {
+		name = "2 tank"
+		type = tank
+		home = 403
+	}
+	regiment = {
+		name = "2.0 engineer"
+		type = engineer
+		home = 403
+	}
+}
+
+army = {
+	name = "7eme Corps d'Armee"
+	location = 414
+	regiment = {
+		name = "1.11ème Division d'Infanterie"
+		type = guard
+		home = 403
+	}
+	regiment = {
+		name = "1111ème Division d'Infanterie"
+		type = guard
+		home = 404
+	}
+	regiment = {
+		name = "9eve Division d'Infanterie"
+		type = guard
+		home = 404
+	}
+	regiment = {
+		name = "1.23ème Division d'Infanterie"
+		type = artillery
+		home = 404
+	}
+	regiment = {
+		name = "1.43ème Division d'Infanterie"
+		type = artillery
+		home = 405
+	}
+	regiment = {
+		name = "122ème Division d'Infanterie"
+		type = infantry
+		home = 405
+	}
+	regiment = {
+		name = "11211ème Division d'Infanterie"
+		type = infantry
+		home = 405
+	}
+	regiment = {
+		name = "1.1fme Division d'Infanterie"
+		type = infantry
+		home = 406
+	}
+	regiment = {
+		name = "4.11ème Division d'Cavallrie"
+		type = hussar
+		home = 406
+	}
+	regiment = {
+		name = "2.12ème Division d'Cavallrie"
+		type = hussar
+		home = 407
+	}
+	regiment = {
+		name = "1.13eme Division d'Cavallrie"
+		type = hussar
+		home = 407
+	}
+	regiment = {
+		name = "1.9 engineer"
+		type = engineer
+		home = 407
+	}
+}
+army = {
+	name = "8eme Corps d'Armee"
+	location = 432
+	regiment = {
+		name = "5.55 Division d'Infantrie"
+		type = infantry
+		home = 408
+	}
+	regiment = {
+		name = "10eve Division d'Infantrie"
+		type = infantry
+		home = 408
+	}
+	regiment = {
+		name = "5.56 Division d'Infantrie"
+		type = infantry
+		home = 411
+	}
+	regiment = {
+		name = "5.57 Division d'Infantrie"
+		type = infantry
+		home = 411
+	}
+	regiment = {
+		name = "5.58 Division d'Infantrie"
+		type = guard
+		home = 411
+	}
+	regiment = {
+		name = "5.59 Division d'Infantrie"
+		type = guard
+		home = 413
+	}
+	regiment = {
+		name = "5.60 Division d'Artillery"
+		type = artillery
+		home = 413
+	}
+	regiment = {
+		name = "5.65 Division d'Infantrie"
+		type = artillery
+		home = 413
+	}
+}
+army = {
+	name = "9eme Corps d'armee"
+	location = 441
+	regiment = {
+		name = "17.1 Division d'Infantrie"
+		type = guard
+		home = 414
+	}
+	regiment = {
+		name = "11eve Division d'Infantrie"
+		type = infantry
+		home = 414
+	}
+	regiment = {
+		name = "17.2 Division d'Infantrie"
+		type = guard
+		home = 415
+	}
+	regiment = {
+		name = "17.3 Division d'Infantrie"
+		type = engineer
+		home = 415
+	}
+	regiment = {
+		name = "17.4 Division d'Infantrie"
+		type = engineer
+		home = 415
+	}
+	regiment = {
+		name = "18.1 Division d'Infantrie"
+		type = guard
+		home = 415
+	}
+	regiment = {
+		name = "18.2 Division d'Infantrie"
+		type = guard
+		home = 417
+	}
+	regiment = {
+		name = "18.3 Division d'Infantrie"
+		type = artillery
+		home = 417
+	}
+	regiment = {
+		name = "18.4 Division d'Infantrie"
+		type = artillery
+		home = 417
+	}
+	regiment = {
+		name = "10.1 Division d'cavallrie"
+		type = hussar
+		home = 418
+	}
+	regiment = {
+		name = "10.2 Division d'cavallrie"
+		type = hussar
+		home = 418
+	}
+	regiment = {
+		name = "10.3 Division d'cavallrie"
+		type = dragoon
+		home = 418
+	}
+	regiment = {
+		name = "1.8 engineer"
+		type = engineer
+		home = 418
+	}
+}
+army = {
+	name = "10eme Corps d'Armee"
+	location = 424
+	regiment = {
+		name = "19.1 eme Division d'infantrie"
+		type = infantry
+		home = 420
+	}
+	regiment = {
+		name = "12 Division d'Infantrie"
+		type = infantry
+		home = 420
+	}
+	regiment = {
+		name = "19.2 eme Division d'infantrie"
+		type = infantry
+		home = 421
+	}
+	regiment = {
+		name = "19.3 eme Division d'infantrie"
+		type = infantry
+		home = 421
+	}
+	regiment = {
+		name = "19.4 eme Division d'infantrie"
+		type = infantry
+		home = 421
+	}
+	regiment = {
+		name = "20.1 eme Division d'infantrie"
+		type = guard
+		home = 422
+	}
+	regiment = {
+		name = "20.2 eme Division d'infantrie"
+		type = guard
+		home = 422
+	}
+	regiment = {
+		name = "20.3 eme Division d'infantrie"
+		type = artillery
+		home = 422
+	}
+	regiment = {
+		name = "20.4 eme Division d'infantrie"
+		type = artillery
+		home = 423
+	}
+	regiment = {
+		name = "1.7 engineer"
+		type = engineer
+		home = 424
+	}
+}
+army = {
+	name = "11eme Corps d'Armee"
+	location = 423
+	regiment = {
+		name = "21.1 eme Division d'infantrie"
+		type = guard
+		home = 424
+	}
+	regiment = {
+		name = "21.2 eme Division d'infantrie"
+		type = guard
+		home = 424
+	}
+	regiment = {
+		name = "21.1 eme Division d'artillerie"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name = "21.2 eme Division d'artillery"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name = "21.1 eme Division d'barrel"
+		type = tank
+		home = 425
+	}
+	regiment = {
+		name = "22.1 eme Division d'infantrie"
+		type = infantry
+		home = 425
+	}
+	regiment = {
+		name = "22.2 eme Division d'infantrie"
+		type = infantry
+		home = 425
+	}
+	regiment = {
+		name = "22.3 eme Division d'infantrie"
+		type = infantry
+		home = 426
+	}
+	regiment = {
+		name = "22.4 eme Division d'infantrie"
+		type = infantry
+		home = 427
+	}
+	regiment = {
+		name = "1.6 engineer"
+		type = engineer
+		home = 428
+	}
+}
+army = {
+	name = "12eme Corps d'Armee"
+	location = 445
+	regiment = {
+		name = "23.1eme Division d'infantrie"
+		type = infantry
+		home = 428
+	}
+	regiment = {
+		name = "23.2eme Division d'infantrie"
+		type = infantry
+		home = 429
+	}
+	regiment = {
+		name = "23.3eme Division d'infantrie"
+		type = infantry
+		home = 429
+	}
+	regiment = {
+		name = "23.4eme Division d'infantrie"
+		type = infantry
+		home = 429
+	}
+	regiment = {
+		name = "24.1eme Division d'infantrie"
+		type = guard
+		home = 430
+	}
+	regiment = {
+		name = "24.2eme Division d'infantrie"
+		type = guard
+		home = 430
+	}
+	regiment = {
+		name = "24eme Division d'artillerie"
+		type = artillery
+		home = 430
+	}
+	regiment = {
+		name = "25eme Division d'artillery"
+		type = artillery
+		home = 430
+	}
+	regiment = {
+		name = "9eme Division de cavalerie"
+		type = hussar
+		home = 431
+	}
+	regiment = {
+		name = "9.1eme Division de cavalerie"
+		type = hussar
+		home = 431
+	}
+	regiment = {
+		name = "9.2eme Division de cavalerie"
+		type = dragoon
+		home = 431
+	}
+	regiment = {
+		name = "4.5 Division de tank"
+		type = tank
+		home = 431
+	}
+	regiment = {
+		name = "54aeronauts"
+		type = plane
+		home = 432
+	}
+}
+army = {
+	name = "13eme Corps d'Armee"
+	location = 448
+	regiment = {
+		name = "25eme Division d'infantrie"
+		type = infantry
+		home = 432
+	}
+	regiment = {
+		name = "25.1eme Division d'infantrie"
+		type = infantry
+		home = 432
+	}
+	regiment = {
+		name = "25.2eme Division d'infantrie"
+		type = infantry
+		home = 432
+	}
+	regiment = {
+		name = "26.1 eme Division d'infantrie"
+		type = guard
+		home = 433
+	}
+	regiment = {
+		name = "26.2 eme Division d'infantrie"
+		type = guard
+		home = 434
+	}
+	regiment = {
+		name = "26.3 eme Division d'infantrie"
+		type = artillery
+		home = 434
+	}
+	regiment = {
+		name = "26.4 eme Division d'infantrie"
+		type = artillery
+		home = 434
+	}
+	regiment = {
+		name = "26.5 Division de aeronautique"
+		type = plane
+		home = 434
+	}
+	regiment = {
+		name = "1.5 engineer"
+		type = engineer
+		home = 435
+	}
+}
+army = {
+	name = "14eme Corps d'Armee"
+	location = 451
+	regiment = {
+		name = "27.1 eme Division d'infanterie"
+		type = guard
+		home = 435
+	}
+	regiment = {
+		name = "27.2 eme Division d'infanterie"
+		type = guard
+		home = 435
+	}
+	regiment = {
+		name = "27.3 eme Division d'infanterie"
+		type = artillery
+		home = 435
+	}
+	regiment = {
+		name = "27.4 eme Division d'infanterie"
+		type = artillery
+		home = 436
+	}
+	regiment = {
+		name = "28.1eme Division d'infantrie"
+		type = infantry
+		home = 436
+	}
+	regiment = {
+		name = "28.2eme Division d'infantrie"
+		type = infantry
+		home = 436
+	}
+	regiment = {
+		name = "28.3eme Division d'infantrie"
+		type = infantry
+		home = 437
+	}
+	regiment = {
+		name = "5eme Division de cavalerie"
+		type = hussar
+		home = 463
+	}
+	regiment = {
+		name = "5.1eme Division de cavalerie"
+		type = hussar
+		home = 463
+	}
+	regiment = {
+		name = "5.2eme Division de cavalerie"
+		type = hussar
+		home = 438
+	}
+	regiment = {
+		name = "5.3eme Division de cavalerie"
+		type = dragoon
+		home = 438
+	}
+	regiment = {
+		name = "1.4 engineer"
+		type = engineer
+		home = 439
+	}
+	regiment = {
+		name = "1.2 tank"
+		type = tank
+		home = 439
+	}
+}
+army = {
+	name = "15eme Corps d'Armee"
+	location = 467
+	regiment = {
+		name = "29.1eme Division d'infantrie"
+		type = infantry
+		home = 440
+	}
+	regiment = {
+		name = "29.2eme Division d'infantrie"
+		type = infantry
+		home = 440
+	}
+	regiment = {
+		name = "29.3eme Division d'infantrie"
+		type = infantry
+		home = 441
+	}
+	regiment = {
+		name = "30.1eme Division d'infanterie"
+		type = guard
+		home = 442
+	}
+	regiment = {
+		name = "30.2eme Division d'infanterie"
+		type = guard
+		home = 442
+	}
+	regiment = {
+		name = "30.3eme Division d'infanterie"
+		type = artillery
+		home = 443
+	}
+	regiment = {
+		name = "30.4eme Division d'infanterie"
+		type = artillery
+		home = 444
+	}
+	regiment = {
+		name = "1.3 engineer"
+		type = engineer
+		home = 445
+	}
+}
+army = {
+	location = 461
+	name = "16eme Corps d'Armee"
+	regiment = {
+		name = "31.1eme Division d'infanterie"
+		type = guard
+		home = 446
+	}
+	regiment = {
+		name = "31.2eme Division d'infanterie"
+		type = guard
+		home = 446
+	}
+	regiment = {
+		name = "31.1eme Division d'artillery"
+		type = artillery
+		home = 447
+	}
+	regiment = {
+		name = "31.2eme Division d'artillery"
+		type = artillery
+		home = 447
+	}
+	regiment = {
+		name = "32.1eme Division d'infantrie"
+		type = infantry
+		home = 447
+	}
+	regiment = {
+		name = "32.2eme Division d'infantrie"
+		type = infantry
+		home = 447
+	}
+	regiment = {
+		name = "32.3eme Division d'infantrie"
+		type = guard
+		home = 448
+	}
+	regiment = {
+		name = "32.4eme Division d'infantrie"
+		type = guard
+		home = 448
+	}
+	regiment = {
+		name = "2.1eme Division d'cavallerie"
+		type  = hussar
+		home = 448
+	}
+	regiment = {
+		name = "2.2eme Division d'cavallerie"
+		type  = hussar
+		home = 448
+	}
+	regiment = {
+		name = "2.3eme Division d'cavallerie"
+		type  = dragoon
+		home = 449
+	}
+	regiment = {
+		name = "1.1 aeronautique"
+		type = plane
+		home = 450
+	}
+}
+army = {
+	name = "Corps de cavalerie"
+	location = 414
+	regiment = {
+		name = "3.1eme Division de cavalerie"
+		type = dragoon
+		home = 451
+	}
+	regiment = {
+		name = "3.2eme Division de cavalerie"
+		type = dragoon
+		home = 451
+	}
+	regiment = {
+		name = "3.3eme Division de cavalerie"
+		type = dragoon
+		home = 452
+	}
+	regiment = {
+		name = "6.1eme Division de cavalerie"
+		type = hussar
+		home = 1362
+	}
+	regiment = {
+		name = "6.2eme Division de cavalerie"
+		type = cuirassier
+		home = 1375
+	}
+	regiment = {
+		name = "6.3eme Division de cavalerie"
+		type = cuirassier
+		home = 1376
+	}
+}
+army = {
+	name = "Troupes coloniales"
+	location = 1818
+	regiment = {
+		name = "1.1er Tirailleurs senegalais"
+		type = irregular
+		home = 1700
+	}
+	regiment = {
+		name = "1.2er Tirailleurs senegalais"
+		type = irregular
+		home = 1701
+	}
+	regiment = {
+		name = "1.3er Tirailleurs senegalais"
+		type = irregular
+		home = 1704
+	}
+	regiment = {
+		name = "1.4er Tirailleurs senegalais"
+		type = irregular
+		home = 1703
+	}
+	regiment = {
+		name = "1.5er Tirailleurs senegalais"
+		type = irregular
+		home = 1703
+	}
+	regiment = {
+		name = "1.6er Tirailleurs senegalais"
+		type = irregular
+		home = 1705
+	}
+}
+army = {
+	name = "Troupes colonailes senegalais"
+	location = 1920
+	regiment = {
+		name = "2.1eme Tiralleurs senegalais"
+		type = irregular
+		home = 1709
+	}
+	regiment = {
+		name = "2.2eme Tiralleurs senegalais"
+		type = irregular
+		home = 1713
+	}
+	regiment = {
+		name = "2.3eme Tiralleurs senegalais"
+		type = irregular
+		home = 1680
+	}
+	regiment = {
+		name = "2.4eme Tiralleurs senegalais"
+		type = irregular
+		home = 1707
+	}
+	regiment = {
+		name = "2.5eme Tiralleurs senegalais"
+		type = irregular
+		home = 1708
+	}
+	regiment = {
+		name = "2.6eme Tiralleurs senegalais"
+		type = irregular
+		home = 1708
+	}
+}
+army = {
+	name = "Troupes coloniales gabon"
+	location = 1974
+	regiment = {
+		name = "3.1eme Tirlailleurs senegalais"
+		type = irregular
+		home = 1681
+	}
+	regiment = {
+		name = "3.2eme Tirlailleurs senegalais"
+		type = irregular
+		home = 1682
+	}
+	regiment = {
+		name = "3.3eme Tirlailleurs senegalais"
+		type = irregular
+		home = 1683
+	}
+	regiment = {
+		name = "3.3eme Tirlailleurs senegalais"
+		type = irregular
+		home = 1685
+	}
+	regiment = {
+		name = "3.4eme Tirlailleurs senegalais"
+		type = irregular
+		home = 1710
+	}
+	regiment = {
+		name = "3.5eme Tirlailleurs senegalais"
+		type = irregular
+		home = 1715
+	}
+	regiment = {
+		name = "3.6eme Tirlailleurs senegalais"
+		type = irregular
+		home = 1725
+	}
+	regiment = {
+		name = "3.7eme Tirlailleurs senegalais"
+		type = irregular
+		home = 1726
+	}
+}
+army = {
+	name = "Legion etrangere"
+	location = 1704
+	regiment = {
+		name = "Regiment de Marche 1.1"
+		type = guard
+		home = 1690
+	}
+	regiment = {
+		name = "Regiment de Marche 1.2"
+		type = guard
+		home = 1691
+	}
+	regiment = {
+		name = "Regiment de Marche 1.3"
+		type = guard
+		home = 1694
+	}
+	regiment = {
+		name = "Regiment de Marche 1.4"
+		type = guard
+		home = 1702
+	}
+	regiment = {
+		name = "Regiment de Marche 1.5"
+		type = guard
+		home = 1727
+	}
+	regiment = {
+		name = "Regiment de Marche 1.6"
+		type = guard
+		home = 1728
+	}
+	regiment = {
+		name = "Regiment de Marche 1.7"
+		type = guard
+		home = 1730
+	}
+	regiment = {
+		name = "Regiment de Marche 1.8"
+		type = guard
+		home = 1805
+	}
+}
+army = {
+	name = "Troupes de Daiviet"
+	location = 1380
+	regiment = {
+		name = "Tiralleurs tonkinois 1.1"
+		type = irregular
+		home = 1364
+	}
+	regiment = {
+		name = "Tiralleurs tonkinois 1.2"
+		type = irregular
+		home = 1383
+	}
+	regiment = {
+		name = "Tiralleurs tonkinois 1.3"
+		type = irregular
+		home = 1374
+	}
+	regiment = {
+		name = "Tiralleurs tonkinois 1.4"
+		type = irregular
+		home = 1377
+	}
+	regiment = {
+		name = "Tiralleurs tonkinois 1.5"
+		type = irregular
+		home = 1369
+	}
+	regiment = {
+		name = "Tiralleurs tonkinois 1.6"
+		type = irregular
+		home = 1370
+	}
+	regiment = {
+		name = "Tiralleurs tonkinois 1.7"
+		type = irregular
+		home = 1371
+	}
+	regiment = {
+		name = "Tiralleurs tonkinois 1.8"
+		type = irregular
+		home = 1372
+	}
+}
+army = {
+	name = "Troups de malgaches"
+	location = 2122
+	regiment = {
+		name = "Tirailleurs malgaches1.1"
+		type = irregular
+		home = 1380
+	}
+	regiment = {
+		name = "Tirailleurs malgaches1.2"
+		type = irregular
+		home = 1356
+	}
+	regiment = {
+		name = "Tirailleurs malgaches1.3"
+		type = irregular
+		home = 1373
+	}
+	regiment = {
+		name = "Tirailleurs malgaches1.4"
+		type = irregular
+		home = 1367
+	}
+	regiment = {
+		name = "Tirailleurs malgaches1.5"
+		type = irregular
+		home = 1815
+	}
+	regiment = {
+		name = "Tirailleurs malgaches1.6"
+		type = irregular
+		home = 1901
+	}
+	regiment = {
+		name = "Tirailleurs malgaches1.7"
+		type = irregular
+		home = 2115
+	}
+	regiment = {
+		name = "Tirailleurs malgaches1.8"
+		type = irregular
+		home = 2116
+	}
+}
+	
+	
+navy = {
+	name = "1st Battle Squadron"
+	location = 470
+	ship = {
+		name = "Courbet"
+		type = dreadnought
+	}
+
+	ship = {
+		name = "France"
+		type = dreadnought
+	}
+
+	ship = {
+		name = "Jean Bart"
+		type = dreadnought
+	}
+
+	ship = {
+		name = "Paris"
+		type = dreadnought
+	}
+
+	ship = {
+		name = "Condorcet"
+		type = cruiser
+	}
+
+	ship = {
+		name = "Danton"
+		type = cruiser
+	}
+
+	ship = {
+		name = "Diderot"
+		type = monitor
+	}
+
+	ship = {
+		name = "Mirabeau"
+		type = monitor
+	}
+
+	ship = {
+		name = "Vernaud"
+		type = monitor
+	}
+
+	ship = {
+		name = "MVoltaire"
+		type = ironclad
+	}
+
+	ship = {
+		name = "Jurien de la Graviere"
+		type = cruiser
+	}
+}
+navy = {
+	name = "2nd Battle Squadron"
+	location = 470
+	ship = {
+		name = "Democratie"
+		type = monitor
+	}
+
+	ship = {
+		name = "Justice"
+		type = ironclad
+	}
+
+	ship = {
+		name = "Patrie"
+		type = monitor
+	}
+
+	ship = {
+		name = "Republique"
+		type = monitor
+	}
+
+	ship = {
+		name = "Verite"
+		type = monitor
+	}
+}
+navy = {
+	name = "Supplementary Division"
+	location = 470
+	ship = {
+		name = "Bouvet"
+		type = ironclad
+	}
+
+	ship = {
+		name = "Gaulois"
+		type = monitor
+	}
+
+	ship = {
+		name = "Saint Louis"
+		type = monitor
+	}
+
+	ship = {
+		name = "Suffern"
+		type = monitor
+	}
+}
+navy = {
+	name = "Reserve Division"
+	location = 470
+	ship = {
+		name = "Carnot"
+		type = monitor
+	}
+
+	ship = {
+		name = "Charles Martel"
+		type = monitor
+	}
+
+	ship = {
+		name = "Henri IV"
+		type = monitor
+	}
+}
+navy = {
+	name = "1st Light Division"
+	location = 470
+	ship = {
+		name = "1st Armoured Cruiser Flotilla"
+		type = ironclad
+	}
+
+	ship = {
+		name = "2nd Armoured Cruiser Flotilla"
+		type = cruiser
+	}
+}
+navy = {
+	name = "Second Light Division"
+	location = 470
+	ship = {
+		name = "3rd Armoured Cruiser Flotilla"
+		type = ironclad
+	}
+
+	ship = {
+		name = "4th Armoured Cruiser Flotilla"
+		type = cruiser
+	}
+}
+navy = {
+	name = "1st Minelaying Squadron"
+	location = 470
+	ship = {
+		name = "Casabianca"
+		type = steam_transport
+	}
+
+	ship = {
+		name = "Cassini"
+		type = steam_transport
+	}
+}	
+navy = {
+	name = "1st Minesweeping Squadron"
+	location = 470
+	ship = {
+		name = "Du Chayla"
+		type = cruiser
+	}
+}
+
+navy = {
+	name = "1st Transport Squadron"
+	location = 470
+	ship = {
+		name = "1.1 Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name = "1.2 Transport Flotilla"
+		type = steam_transport
+	}
+	ship = {
+		name = "1.3 Transport Flotilla"
+		type = steam_transport
+	}
+	ship = {
+		name = "1.4 Transport Flotilla"
+		type = steam_transport
+	}
+	ship = {
+		name = "2.1 Transport Flotilla"
+		type = steam_transport
+	}
+	ship = {
+		name = "2.2 Transport Flotilla"
+		type = steam_transport
+	}
+	ship = {
+		name = "2.3 Transport Flotilla"
+		type = steam_transport
+	}
+	ship = {
+		name = "2.4 Transport Flotilla"
+		type = steam_transport
+	}
+	ship = {
+		name = "3.1 Transport Flotilla"
+		type = steam_transport
+	}
+	ship = {
+		name = "3.2 Transport Flotilla"
+		type = steam_transport
+	}
+	ship = {
+		name = "3.3 Transport Flotilla"
+		type = steam_transport
+	}
+	ship = {
+		name = "3.4 Transport Flotilla"
+		type = steam_transport
+	}
+	ship = {
+		name = "4.1 Transport Flotilla"
+		type = steam_transport
+	}
+	ship = {
+		name = "4.2 Transport Flotilla"
+		type = steam_transport
+	}
+	ship = {
+		name = "4.3 Transport Flotilla"
+		type = steam_transport
+	}
+	ship = {
+		name = "4.4 Transport Flotilla"
+		type = steam_transport
+	}
+}
+navy = {
+	name = "5th Armoured Cruiser Flotilla"
+	location = 1700 
+
+	ship = {
+		name = "5th Armoured Cruiser Flotilla"
+		type = ironclad
+	}
+}
+navy = {
+	name = "Special Detail Squadron"
+	location = 1700
+	ship = {
+		name = "Cassard"
+		type = commerce_raider
+	}
+
+	ship = {
+		name = "Cosmao"
+		type = commerce_raider
+	}
+
+	ship = {
+		name = "Friant"
+		type = steam_transport
+	}
+}
+navy = {
+	name = "1st Armoured Cruiser Squadron"
+	location = 418
+	ship = {
+		name = "6th Armoured Cruiser Flotilla"
+		type = cruiser
+	}
+
+	ship = {
+		name = "7th Armoured Cruiser Flotilla"
+		type = cruiser
+	}
+
+	ship = {
+		name = "8th Armoured Cruiser Flotilla"
+		type = monitor
+	}
+
+	ship = {
+		name = "Guichen"
+		type = monitor
+	}
+
+	ship = {
+		name = "Lavoisier"
+		type = steam_transport
+	}
+}
+navy = {
+	name = "2nd Armoured Cruiser Squadron"
+	location = 418
+	ship = {
+		name = "9th Armoured Cruiser Flotilla"
+		type = monitor
+	}
+
+	ship = {
+		name = "10th Armoured Cruiser Flotilla"
+		type = monitor
+	}
+
+	ship = {
+		name = "Chateaurenault"
+		type = cruiser
+	}
+
+	ship = {
+		name = "D'Estrees"
+		type = steam_transport
+	}
+}
+navy = {
+	name = "2nd Minelaying Squadron"
+	location = 418
+	ship = {
+		name = "Surcouf"
+		type = ironclad
+	}
+}
+navy = {
+	name = "2nd Minesweeping Squadron"
+	location = 418
+
+	ship = {
+		name = "D'Entrecaseaux"
+		type = commerce_raider
+	}
+}
+navy = {
+	name = "2nd Transport Squadron"
+	location = 418
+	ship = {
+		name = "1.1 Transport Squadron"
+		type = steam_transport
+	}
+	ship = {
+		name = "1.2 Transport Squadron"
+		type = steam_transport
+	}
+	ship = {
+		name = "1.3 Transport Squadron"
+		type = steam_transport
+	}
+	ship = {
+		name = "1.4 Transport Squadron"
+		type = steam_transport
+	}
+	ship = {
+		name = "2.1 Transport Squadron"
+		type = steam_transport
+	}
+	ship = {
+		name = "2.3 Transport Squadron"
+		type = steam_transport
+	}
+	ship = {
+		name = "2.2 Transport Squadron"
+		type = steam_transport
+	}
+	ship = {
+		name = "2.4 Transport Squadron"
+		type = steam_transport
+	}
+}
+navy = {
+	name = "West Indies Squadron"
+	location = 2228
+	ship = {
+		name = "Descartes"
+		type = commerce_raider
+	}
+}
+navy = {
+	name = "South Pacific Squadron"
+	location = 801
+	ship = {
+		name = "Trident"
+		type = cruiser
+	}
+}
+navy = {
+	name = "East Indies Squadron"
+	location = 1383
+
+	ship = {
+		name = "D'Iberville"
+		type = commerce_raider
+	}
+}
+navy = {
+	name = "Far East Squadron"
+	location = 1383
+
+	ship = {
+		name = "12th Armoured Cruiser Flotilla"
+		type = cruiser
+	}
+}

@@ -1,0 +1,40 @@
+owner = CHO
+controller = CHO
+add_core = CHO
+add_core = TKG
+trade_goods = fish
+life_rating = 35
+terrain = deciduous_forest_hills
+1914.1.1 = {
+	railroad = 3
+	remove_core = CHO
+	remove_core = TKG
+	add_core = JAP
+	owner = JAP
+	controller = JAP
+	state_building = {
+		level = 8
+		building = steamer_shipyard
+		upgrade = yes
+	}
+	state_building = {
+		level = 8
+		building = barrel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 8
+		building = furniture_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 8
+		building = paper_mill
+		upgrade = yes
+	}
+	state_building = {
+		level = 8
+		building = liquor_distillery
+		upgrade = yes
+	}
+}

@@ -1,0 +1,23 @@
+army = {
+	name = "Армия Эквадора"
+	location = 2279
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 2279
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 2279
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 2283
+	}
+
+}
+

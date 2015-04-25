@@ -1,0 +1,14 @@
+ 
+ 
+add_core = URU
+add_core = LPL
+add_core = BRZ
+trade_goods = wool
+life_rating = 35
+terrain = forested_farmland
+1836.1.1 = {
+	owner = URU
+	controller = URU
+	remove_core = LPL
+	remove_core = BRZ
+}

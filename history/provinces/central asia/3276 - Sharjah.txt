@@ -1,0 +1,12 @@
+owner = OMA
+controller = OMA
+add_core = SHA
+trade_goods = grain
+life_rating = 30
+terrain = desert
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 3
+	trade_goods = oil
+}

@@ -1,0 +1,20 @@
+owner = NEJ
+controller = NEJ
+add_core = JSH
+trade_goods = grain
+life_rating = 30
+terrain = desert
+1750.1.1 = {
+	owner = TUR
+	controller = TUR
+colonial = 2
+}
+1914.1.1 = {
+	trade_goods = oil
+}
+
+1923.1.1 = {
+	owner = NEJ
+	controller = NEJ
+	add_core = NEJ
+}

@@ -1,0 +1,18 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+trade_goods = sulphur
+life_rating = 35
+terrain = forested_farmland
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+	fort = 4
+}
+1923.1.1 = {
+	owner = FRA
+	controller = FRA
+	remove_core = GER
+}

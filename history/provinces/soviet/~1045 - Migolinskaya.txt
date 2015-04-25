@@ -1,0 +1,13 @@
+owner = CSK
+controller = CSK
+add_core = CSK
+add_core = RUS
+add_core = CRI
+trade_goods = cattle
+life_rating = 35
+terrain = dry_grassland
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

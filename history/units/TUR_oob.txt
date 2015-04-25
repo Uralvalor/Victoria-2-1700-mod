@@ -1,0 +1,357 @@
+#Sphere of Influence
+PER = {
+	value = 75		#relation
+	level = 2		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+PAP = {
+	value = -125
+}
+VEN = {
+	value = -185
+	last_war="1699.1.1"
+	truce_until="1704.1.1"
+}
+
+PLC = {
+	value = -185
+	last_war="1699.1.1"
+	truce_until="1704.1.1"
+}
+SAR = {
+	value = -185
+	last_war="1699.1.1"
+	truce_until="1704.1.1"
+}
+PAP = {
+	value = -185
+	last_war="1699.1.1"
+	truce_until="1704.1.1"
+}
+AUS = {
+	value = -185
+	last_war="1699.1.1"
+	truce_until="1704.1.1"
+}
+
+army = {
+	name = "Imperial Guards"
+	location = 860
+	regiment = {
+		name= "1. Bostancy-yy Hassa"
+		type = infantry
+		home = 860
+	}
+
+	regiment = {
+		name= "2. Bostancy-yy Hassa"
+		type = infantry
+		home = 828
+	}
+
+	regiment = {
+		name= "3. Bostancy-yy Hassa"
+		type = infantry
+		home = 859
+	}
+
+	regiment = {
+		name= "4. Bostancy-yy Hassa"
+		type = artillery
+		home = 861
+	}
+
+}
+
+army = {
+	name = "Army of the Danube"
+	location = 810
+	regiment = {
+		name= "1. Sipahis"
+		type = cavalry
+		home = 798
+	}
+
+	regiment = {
+		name= "2. Sipahis"
+		type = cavalry
+		home = 799
+	}
+
+	regiment = {
+		name= "3. Sipahis"
+		type = cavalry
+		home = 802
+	}
+
+	regiment = {
+		name= "1. Piyade Tümeni"
+		type = infantry
+		home = 802
+	}
+
+	regiment = {
+		name= "2. Piyade Tümeni"
+		type = infantry
+		home = 803
+	}
+
+	regiment = {
+		name= "3. Piyade Tümeni"
+		type = infantry
+		home = 803
+	}
+
+	regiment = {
+		name= "4. Piyade Tümeni"
+		type = artillery
+		home = 804
+	}
+
+	regiment = {
+		name= "1. Redif Izmir"
+		type = irregular
+		home = 806
+	}
+
+	regiment = {
+		name= "2. Redif Izmir"
+		type = irregular
+		home = 807
+	}
+
+	regiment = {
+		name= "3. Redif Izmir"
+		type = irregular
+		home = 807
+	}
+} 	
+army = {
+	name = "Redif Bursa"
+	location = 887
+	
+
+	regiment = {
+		name= "1. Redif Bursa"
+		type = irregular
+		home = 849
+	}
+
+	regiment = {
+		name= "2. Redif Bursa"
+		type = irregular
+		home = 850
+	}
+
+	regiment = {
+		name= "3. Redif Bursa"
+		type = irregular
+		home = 851
+	}
+
+}
+
+army = {
+	name = "Army of Arabia"
+	location = 1153
+	regiment = {
+		name= "12. Piyade Tümeni"
+		type = infantry
+		home = 1153
+	}
+
+	regiment = {
+		name= "13. Piyade Tümeni"
+		type = infantry
+		home = 1153
+	}
+
+	regiment = {
+		name= "14. Piyade Tümeni"
+		type = infantry
+		home = 1153
+	}
+
+	regiment = {
+		name= "1. Redif Halab"
+		type = irregular
+		home = 1153
+	}
+
+	regiment = {
+		name= "2. Redif Halab"
+		type = irregular
+		home = 1153
+	}
+
+	regiment = {
+		name= "3. Redif Halab"
+		type = irregular
+		home = 1153
+	}
+
+}
+
+army = {
+	name = "Army of the Bashaw of Tripoli"
+	location = 1733
+	regiment = {
+		name= "7. Sipahis"
+		type = cavalry
+		home = 1733
+	}
+
+	regiment = {
+		name= "8. Sipahis"
+		type = cavalry
+		home = 1731
+	}
+}
+
+army = {
+	name = "Army of the Bey of Benghazi"
+	location = 1735
+	regiment = {
+		name= "1. Askäris"
+		type = irregular
+		home = 1735
+	}
+
+	regiment = {
+		name= "2. Askäris"
+		type = irregular
+		home = 1734
+	}
+}
+
+navy = {
+	name = "Ottoman Navy"
+	location = 860
+	ship = {
+		name= "Masudiya"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sadd al Bahri"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ankay i Barhi"
+		type = manowar
+	}
+
+	ship = {
+		name= "Taus i Barhi"
+		type = manowar
+	}
+
+	ship = {
+		name= "Tevfik Nyuma"
+		type = manowar
+	}
+
+	ship = {
+		name= "Bisharet Nyuma"
+		type = manowar
+	}
+
+	ship = {
+		name= "Killid i Barhi"
+		type = manowar
+	}
+
+	ship = {
+		name= "Heybetendaz"
+		type = manowar
+	}
+
+	ship = {
+		name= "Melek i Barhi"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sayyad i Barhi"
+		type = manowar
+	}
+
+	ship = {
+		name= "Gulbang i Nusret"
+		type = manowar
+	}
+
+	ship = {
+		name= "Jebel Andaz"
+		type = manowar
+	}
+
+	ship = {
+		name= "Iskenderiya"
+		type = frigate
+	}
+
+	ship = {
+		name= "Badere i Zaffar"
+		type = frigate
+	}
+
+	ship = {
+		name= "Mahubey Subham"
+		type = frigate
+	}
+
+	ship = {
+		name= "Metelin"
+		type = frigate
+	}
+
+	ship = {
+		name= "Denyuvet"
+		type = frigate
+	}
+
+	ship = {
+		name= "Rahbar i Alam"
+		type = frigate
+	}
+
+	ship = {
+		name= "Malbaik Nesuret"
+		type = frigate
+	}
+
+	ship = {
+		name= "Bedr i Zafar"
+		type = frigate
+	}
+
+	ship = {
+		name= "Meskeni Ghazi"
+		type = frigate
+	}
+
+	ship = {
+		name= "Fakim i Zafar"
+		type = frigate
+	}
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+
+}
+

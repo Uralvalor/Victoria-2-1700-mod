@@ -1,0 +1,9 @@
+add_core = INO
+trade_goods = tropical_wood
+life_rating = 30
+terrain = seasonal_jungle_mountains
+1914.1.1 = {
+	owner = NET
+	controller = NET
+	colonial = 3
+}

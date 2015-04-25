@@ -1,0 +1,12 @@
+owner = BHU
+controller = BHU
+add_core = BHU
+trade_goods = wool
+life_rating = 25
+terrain = conifer_forest_mountains
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	add_core = HND
+	colonial = 3
+}

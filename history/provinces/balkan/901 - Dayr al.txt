@@ -1,0 +1,13 @@
+owner = TUR
+controller = TUR  colonial = 2
+add_core = SYR
+add_core = KUR
+trade_goods = grain
+life_rating = 27
+terrain = dry_grassland
+1923.1.1 = {
+	owner = FRA
+	controller = FRA
+	colonial = 3
+	remove_core = TUR
+}

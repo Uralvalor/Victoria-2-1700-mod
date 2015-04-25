@@ -1,0 +1,17 @@
+army = {
+	name = "Армия султана Ачеха"
+	location = 1405
+	regiment = {
+		name= "1st Infantry"
+		type = irregular
+		home = 1405
+	}
+
+	regiment = {
+		name= "2nd Infantry"
+		type = irregular
+		home = 1407
+	}
+
+}
+

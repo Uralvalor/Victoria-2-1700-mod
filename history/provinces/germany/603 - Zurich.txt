@@ -1,0 +1,43 @@
+owner = SWI
+controller = SWI
+add_core = SWI
+trade_goods = cattle
+life_rating = 35
+fort = 1
+terrain = hilly_farmland
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}
+#state_building = {
+#	level = 1
+#	building = lumber_mill
+#	upgrade = yes
+#}
+1861.1.1 = { railroad = 1 }
+1861.1.1 = {
+	state_building = {
+		level = 1
+		building = luxury_clothes_factory
+		upgrade = yes
+	}
+}
+1914.1.1 = {
+	railroad = 4
+	state_building = {
+		level = 2
+		building = luxury_clothes_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = glass_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = luxury_furniture_factory
+		upgrade = yes
+	}
+}

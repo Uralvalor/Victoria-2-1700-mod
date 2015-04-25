@@ -1,0 +1,24 @@
+owner = AUS
+controller = AUS
+ 
+add_core = CRO
+add_core = HUN
+add_core = YUG
+trade_goods = wool
+life_rating = 35
+terrain = hilly_farmland
+1861.1.1 = { railroad = 2 }
+1914.1.1 = {
+	owner = KUK
+	controller = KUK
+	add_core = KUK
+	remove_core = AUS
+	railroad = 4
+	fort = 2
+}
+1923.1.1 = {
+	owner = YUG
+	controller = YUG
+	remove_core = KUK
+	remove_core = HUN
+}

@@ -1,0 +1,117 @@
+army = {
+	name = "1-я пехотная дивизия"
+	location = 387 #Brussels
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 387 #Brussels
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 388 #Bruges
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 389 #Ghent
+	}
+
+	regiment = {
+		name= "1-я артиллерийская бригада"
+		type = artillery
+		home = 392 #Liege
+	}
+
+}
+
+army = {
+	name = "2-я пехотная дивизия"
+	location = 396 #Spa
+	regiment = {
+		name= "4-я пехотная бригада"
+		type = infantry
+		home = 390 #Antwerp
+	}
+
+	regiment = {
+		name= "5-я пехотная бригада"
+		type = infantry
+		home = 393 #Tournai
+	}
+
+	regiment = {
+		name= "6-я пехотная бригада"
+		type = infantry
+		home = 394 #Charleroi
+	}
+
+}
+
+army = {
+	name = "3-я пехотная дивизия"
+	location = 388 #Brugges
+	regiment = {
+		name= "7-я пехотная бригада"
+		type = infantry
+		home = 395 #Namur
+	}
+
+	regiment = {
+		name= "8-я пехотная бригада"
+		type = infantry
+		home = 396 #Spa
+	}
+
+	regiment = {
+		name= "9-я пехотная бригада"
+		type = infantry
+		home = 398 #Arlon
+	}
+
+}
+
+army = {
+	name = "1-я кавалерийская дивизия"
+	location = 395 #Namur
+	regiment = {
+		name= "1-я кавалерийская бригада"
+		type = cavalry
+		home = 387 #Brussels
+	}
+
+	regiment = {
+		name= "2-я кавалерийская бригада"
+		type = cavalry
+		home = 392 #Liege
+	}
+
+	regiment = {
+		name= "3-я кавалерийская бригада"
+		type = cavalry
+		home = 391 #Hasselt
+	}
+
+}
+
+navy = {
+	name = "Бельгийский королевский флот"
+	location = 388
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}

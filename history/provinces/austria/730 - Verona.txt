@@ -1,0 +1,14 @@
+owner = VEN
+controller = VEN
+add_core = MNT
+add_core = VEN
+trade_goods = silk
+life_rating = 35
+terrain = floodplain_farmland
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	railroad = 4
+}

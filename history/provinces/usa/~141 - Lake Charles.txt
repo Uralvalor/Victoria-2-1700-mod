@@ -1,0 +1,19 @@
+owner = FRA
+controller = FRA
+colonial = 2  
+ 
+ 
+trade_goods = sulphur
+life_rating = 35
+terrain = floodplain_farmland
+1861.1.1 = {
+	controller = CSA
+	owner = CSA
+	add_core = CSA
+}
+1914.1.1 = {
+	railroad = 2
+	 
+	 
+	remove_core = CSA
+}

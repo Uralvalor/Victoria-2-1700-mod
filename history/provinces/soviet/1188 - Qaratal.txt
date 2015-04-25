@@ -1,0 +1,17 @@
+
+owner = XIN
+controller = XIN
+trade_goods = fish
+life_rating = 27
+terrain = mountain_grassland
+1861.1.1 = {
+	owner = RUS
+	controller = RUS
+	colonial = 2
+}
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+	remove_core = RUS
+}

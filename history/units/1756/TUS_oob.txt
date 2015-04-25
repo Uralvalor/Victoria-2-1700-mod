@@ -1,0 +1,28 @@
+army = {
+	name = "“осканска€ арми€"
+	location = 744
+	regiment = {
+		name= "1-€ пехотна€ бригада"
+		type = infantry
+		home = 744
+	}
+
+	regiment = {
+		name= "2-€ пехотна€ бригада"
+		type = infantry
+		home = 745
+	}
+
+	regiment = {
+		name= "3-€ пехотна€ бригада"
+		type = infantry
+		home = 748
+	}
+
+	regiment = {
+		name= "1-€ гвардейска€ бригада"
+		type = infantry
+		home = 747
+	}
+}
+

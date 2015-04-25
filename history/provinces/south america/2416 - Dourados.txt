@@ -1,0 +1,18 @@
+
+add_core = BRZ
+trade_goods = fruit
+life_rating = 25
+terrain = dry_forest
+1836.1.1 = {
+	owner = BRZ
+	controller = BRZ
+	remove_core = POR
+	colonial = no
+}
+1914.1.1 = {
+	state_building = {
+		level = 1
+		building = fabric_factory
+		upgrade = yes
+	}
+}

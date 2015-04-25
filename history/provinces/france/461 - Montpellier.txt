@@ -1,0 +1,8 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+trade_goods = cattle
+life_rating = 35
+terrain = marginal_farmland
+1861.1.1 = { railroad = 3 }
+1914.1.1 = { railroad = 5 fort = 2 naval_base = 4 }

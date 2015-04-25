@@ -1,0 +1,27 @@
+leader = {
+	name = "Франческо IV д’Эсте"
+	picture = mod_gen_francescoiv
+	date = 1815.1.1
+	type = land
+	personality = arrogant
+	background = hated
+}
+leader = {
+	name = "эрцгерцог Фердинанд"
+	picture = mod_gen_archdukeferdinand
+	date = 1800.1.1
+	type = land
+	personality = lackluster
+	background = aristocrat
+}
+
+army = {
+	name = "Esercito di Modena"
+	location = 739
+	regiment = {
+		name= "1. Fanteria di Linea"
+		type = infantry
+		home = 739
+	}
+}
+

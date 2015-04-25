@@ -1,0 +1,10 @@
+owner = PER
+controller = PER
+add_core = PER
+trade_goods = grain
+life_rating = 27
+terrain = dry_grassland
+1914.1.1 = {
+	trade_goods = oil
+}
+

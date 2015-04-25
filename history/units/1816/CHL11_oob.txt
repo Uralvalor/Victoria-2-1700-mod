@@ -1,0 +1,16 @@
+army = {
+	name = "Чилийская освободительная армия"
+	location = 2324
+	regiment = {
+		name= "1. Brigada de Infanterнa"
+		type = infantry
+		home = 2324
+	}
+
+	regiment = {
+		name= "1. Brigada de Caballerнa"
+		type = cuirassier
+		home = 2324
+	}
+
+}

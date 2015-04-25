@@ -1,0 +1,18 @@
+ 
+ 
+ 
+trade_goods = coal
+life_rating = 35
+
+terrain = dry_grassland
+1750.1.1 = {
+	owner = FRA
+	controller = FRA
+colony = 2
+}
+1861.1.1 = {
+	colony = no
+	}
+1914.1.1 = {
+	railroad = 2
+}

@@ -1,0 +1,16 @@
+
+army = {
+	name = "Польская армия"
+	location = 706
+	regiment = {
+		name= "1. Brigada de Infantaria"
+		type = infantry
+		home = 706
+	}
+
+	regiment = {
+		name= "2. Brigada de Infantaria"
+		type = infantry
+		home = 712
+	}
+}

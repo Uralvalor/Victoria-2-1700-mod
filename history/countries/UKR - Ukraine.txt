@@ -1,0 +1,70 @@
+capital = 958
+primary_culture = ukrainian
+culture = cossacian
+religion = orthodox
+government = democracy
+plurality = 0.02
+nationalvalue = nv_liberty
+literacy = 0.15
+
+
+set_country_flag = serfdom_not_abolished
+
+
+foreign_naval_officers = yes_foreign_naval_officers 
+military_constructions = yes_military_constructions
+education_reform = yes_education_reform 
+finance_reform = finance_reform_two 
+admin_reform = yes_admin_reform 
+land_reform = yes_land_reform 
+foreign_navies = yes_foreign_navies 
+foreign_officers = yes_foreign_officers 
+foreign_training = yes_foreign_training 
+diplomatic_reform = interactive
+taxation_reform = tax_farmers
+foreign_navies = advanced_foreign_navies
+naval_facilities = yes_naval_bases
+foreign_weapons = modern_weapons
+academic_institutions = madrasahs
+naval_architecture = scientific
+
+	
+
+nelsonian_thought = 1
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+	
+	
+# Political reforms
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = yes_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = first_past_the_post
+political_parties = underground_parties
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+school_reforms = no_schools
+
+ruling_party = UKR_reactionary
+upper_house = {
+	fascist = 0
+	reactionary = 100
+}
+
+1861.1.1 = {
+	oob = "/1861/UKR_oob.txt"
+}
+1861.1.1 = {
+# Technologies
+
+#Inventions
+}

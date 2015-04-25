@@ -1,0 +1,40 @@
+army = {
+	name = "Черокская армия"
+	location = 196
+	regiment = {
+		name= "1-я индейская бригада"
+		type = irregular
+		home = 196
+	}
+
+	regiment = {
+		name= "1-я индейская бригада"
+		type = irregular
+		home = 196
+	}
+
+	regiment = {
+		name= "1-я индейская бригада"
+		type = irregular
+		home = 190
+	}
+
+	regiment = {
+		name= "1-я индейская бригада"
+		type = irregular
+		home = 190
+	}
+
+	regiment = {
+		name= "1-я индейская бригада"
+		type = irregular
+		home = 191
+	}
+
+	regiment = {
+		name= "1-я индейская бригада"
+		type = irregular
+		home = 2556
+	}
+}
+

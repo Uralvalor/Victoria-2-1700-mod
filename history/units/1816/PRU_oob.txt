@@ -1,0 +1,470 @@
+ANH = {
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+
+BRA = {
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+
+BRE = {
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+
+COB = {
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+
+FRM = {
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+
+HAM = {
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+
+HAN = {
+	value = 125
+	level = 3
+	influence_value = 25
+	military_access = yes
+}
+
+HEK = {
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+
+HES = {
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+
+KRA = {
+	value = 125
+	level = 4
+	influence_value = 25
+}
+LIP = {
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+
+LUB = {
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+
+LUX = {
+	value = 125
+	level = 3
+	influence_value = 25
+}
+
+MEC = {
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+
+MEI = {
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+
+NAS = {
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+
+OLD = {
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+
+SAX = {
+	value = 50
+	level = 3
+	influence_value = 25
+	military_access = yes
+}
+
+WEI = {
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+
+BAV = {
+
+	value = 75
+	level = 3
+	influence_value = 25
+	military_access = yes
+}
+
+BAD = {
+	value = 100
+	level = 3
+	influence_value = 20
+	military_access = yes
+}
+
+WUR = {
+	value = 100
+	level = 3
+	influence_value = 20
+	military_access = yes
+}
+
+SIG = {
+	value = 200
+	level = 5
+	influence_value = 100
+	military_access = yes
+}
+
+AUS = {
+	value = 100
+}
+RUS = {
+	value = 80
+}
+DEN = {
+
+	value = 49
+	level = 4
+	influence_value = 25
+
+}
+
+
+
+
+#Army
+
+leader = {
+	name = "Карл фон дем Кнезебек"
+	picture = pru_gen_knesebeck
+	date = 1813.1.1
+	type = land
+	personality = intelligent
+	background = elderly
+}
+leader = {
+	name = "Леопольд фон Бойен"
+	picture = pru_gen_boyen
+	date = 1813.1.1
+	type = land
+	personality = openminded
+	background = gifted_administrator
+}
+leader = {
+	name = "Карл фон Мюффлинг"
+	picture = pru_gen_mueffling
+	date = 1813.1.1
+	type = land
+	personality = diplomatic
+	background = cartographer
+}
+leader = {
+	name = "Генрих фон Пфул"
+	picture = pru_gen_pfuel
+	date = 1813.1.1
+	type = land
+	personality = romantic
+	background = poet
+}
+leader = {
+	name = "Карл фон Грольман"
+	picture = pru_gen_grolman
+	date = 1815.1.1
+	type = land
+	personality = openminded
+	background = warmonger
+}
+leader = {
+	name = "Ганс фон Цитен"
+	picture = pru_gen_zieten
+	date = 1813.1.1
+	type = land
+	personality = soldierly
+	background = cavalry_school
+}
+leader = {
+	name = "Людвиг фон Борстель"
+	picture = pru_gen_borstell
+	date = 1813.1.1
+	type = land
+	personality = skilled
+	background = cavalry_school
+}
+leader = {
+	name = "Густав фон Раух"
+	picture = pru_gen_rauch
+	date = 1815.1.1
+	type = land
+	personality = balanced_p
+	background = engineer
+}
+leader = {
+	name = "Принц Август"
+	picture = pru_gen_prinzaugust
+	date = 1808.1.1
+	type = land
+	personality = polite
+	background = artillerist
+}
+
+army = {
+	name = "I. Корпус"
+	location = 553
+	regiment = {
+		name= "I. Linieninfanteriebrigade"
+		type = infantry
+		home = 546
+	}
+
+	regiment = {
+		name= "II. Linieninfanteriebrigade"
+		type = infantry
+		home = 549
+	}
+
+	regiment = {
+		name= "III. Linieninfanteriebrigade"
+		type = infantry
+		home = 549
+	}
+
+	regiment = {
+		name= "I. Pionierbrigade"
+		type = engineer
+		home = 550
+	}
+
+	regiment = {
+		name= "IV. Linieninfanteriebrigade"
+		type = infantry
+		home = 551
+	}
+
+	regiment = {
+		name= "V. Linieninfanteriebrigade"
+		type = infantry
+		home = 552
+	}
+
+	regiment = {
+		name= "I. Artilleriebrigade"
+		type = artillery
+		home = 553
+	}
+
+}
+
+army = {
+	name = "II. Корпус"
+	location = 682
+	regiment = {
+		name= "VII. Linieninfanteriebrigade"
+		type = infantry
+		home = 554
+	}
+
+	regiment = {
+		name= "VIII. Linieninfanteriebrigade"
+		type = infantry
+		home = 556
+	}
+
+	regiment = {
+		name= "IX. Linieninfanteriebrigade"
+		type = infantry
+		home = 575
+	}
+
+	regiment = {
+		name= "II. Pionierbrigade"
+		type = engineer
+		home = 576
+	}
+
+	regiment = {
+		name= "X. Linieninfanteriebrigade"
+		type = infantry
+		home = 577
+	}
+
+	regiment = {
+		name= "XI. Linieninfanteriebrigade"
+		type = infantry
+		home = 578
+	}
+
+	regiment = {
+		name= "XII. Linieninfanteriebrigade"
+		type = infantry
+		home = 580
+	}
+
+	regiment = {
+		name= "II. Artilleriebrigade"
+		type = artillery
+		home = 581
+	}
+
+}
+
+army = {
+	name = "III. Корпус"
+	location = 695
+	regiment = {
+		name= "XIII. Linieninfanteriebrigade"
+		type = infantry
+		home = 680
+	}
+
+	regiment = {
+		name= "XIV. Linieninfanteriebrigade"
+		type = infantry
+		home = 681
+	}
+
+	regiment = {
+		name= "XV. Linieninfanteriebrigade"
+		type = infantry
+		home = 682
+	}
+
+	regiment = {
+		name= "III. Pionierbrigade"
+		type = engineer
+		home = 683
+	}
+
+	regiment = {
+		name= "XVI. Linieninfanteriebrigade"
+		type = infantry
+		home = 684
+	}
+
+	regiment = {
+		name= "XVII. Linieninfanteriebrigade"
+		type = infantry
+		home = 685
+	}
+
+	regiment = {
+		name= "XVIII. Linieninfanteriebrigade"
+		type = infantry
+		home = 695
+	}
+
+	regiment = {
+		name= "III. Artilleriebrigade"
+		type = artillery
+		home = 696
+	}
+
+}
+
+army = {
+	name = "V. Корпус"
+	location = 580
+	regiment = {
+		name= "XXV. Linieninfanteriebrigade"
+		type = infantry
+		home = 699
+	}
+
+	regiment = {
+		name= "XXVI. Linieninfanteriebrigade"
+		type = infantry
+		home = 701
+	}
+
+	regiment = {
+		name= "XXVII. Linieninfanteriebrigade"
+		type = infantry
+		home = 701
+	}
+
+}
+
+#army = {
+#	name = "VI. Корпус"
+#	location = 575
+#	regiment = {
+#		name= "XXVIII. Linieninfanteriebrigade"
+#		type = infantry
+#		home = 575
+#	}
+
+#	regiment = {
+#		name= "XXIX. Linieninfanteriebrigade"
+#		type = infantry
+#		home = 576
+#	}
+
+#	regiment = {
+#		name= "XXX. Linieninfanteriebrigade"
+#		type = infantry
+#		home = 578
+#	}
+
+#}
+
+navy = {
+	name = "Прусский флот"
+	location = 690
+	ship = {
+		name= "1. Klipperflottille"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2. Klipperflottille"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3. Klipperflottille"
+		type = clipper_transport
+	}
+
+}
+

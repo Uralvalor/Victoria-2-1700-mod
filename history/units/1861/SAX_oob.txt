@@ -1,0 +1,41 @@
+army = {
+	name = "I. Korps"
+	location = 558
+	regiment = {
+		name= "1.Sächsische Division"
+		type = infantry
+		home = 558
+	}
+
+	regiment = {
+		name= "2.Sächsische Division"
+		type = infantry
+		home = 559
+	}
+
+	regiment = {
+		name= "3.Sächsische Division"
+		type = infantry
+		home = 560
+	}
+
+	regiment = {
+		name= "4.Sächsische Division"
+		type = cuirassier
+		home = 559
+	}
+	
+	regiment = {
+		name= "5.Sächsische Division"
+		type = artillery
+		home = 558
+	}
+	
+	regiment = {
+		name= "6.Sächsische Division"
+		type = infantry
+		home = 558
+	}
+
+}
+

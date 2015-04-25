@@ -1,0 +1,11 @@
+owner = AGC
+controller = AGC
+add_core = AGC
+trade_goods = grain
+life_rating = 25
+terrain = dry_forest_hills
+1914.1.1 = {
+	owner = POR
+	controller = POR
+	colonial = 3
+}

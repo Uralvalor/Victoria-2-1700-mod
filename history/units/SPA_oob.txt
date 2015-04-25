@@ -1,0 +1,211 @@
+leader = {
+	name = "Duke of Berwick"
+	date = 1699.1.1
+	type = land
+	personality = vicious
+	background = armchair_general
+}
+
+leader = {
+	name = "Marquis of Villadarias"
+	date = 1699.1.1
+	type = land
+	personality = harsh
+	background = generals_aide
+}
+
+
+
+
+army = {
+	name = "Army of Spain"
+	location = 521
+	regiment = {
+		name= "1st Guard Infantry"
+		type = guard
+		home = 521
+	}
+	regiment = {
+		name= "2nd Line"
+		type = infantry
+		home = 521
+	}
+	regiment = {
+		name= "3rd Line"
+		type = infantry
+		home = 521
+	}
+	regiment = {
+		name= "4th Line"
+		type = infantry
+		home = 521
+	}
+	regiment = {
+		name= "5th Line"
+		type = infantry
+		home = 521
+	}
+	regiment = {
+		name= "6th Line"
+		type = infantry
+		home = 521
+	}		            
+}
+
+
+
+
+navy = {
+	name = "Armada de Cuba"
+	location = 2212
+	
+	ship = {
+		name = "Santiago"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Hespérides"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Centinela"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Isla de Cuba"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Cristóbal Colón"
+		type = frigate
+	}
+	
+	ship = {
+		name= "1a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Flotilla de Transporte"
+		type = clipper_transport
+	}
+}
+
+
+
+
+
+
+
+navy = {
+	name = "Armada de Filipinas"
+	location = 1455
+	
+	ship = {
+		name = "Alerta"
+		type = manowar
+	}
+	
+	ship = {
+		name = "San Fernando"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Legazpi"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Victoria"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Nuestra Señora del Patrocinio"
+		type = frigate
+	}
+	
+	ship = {
+		name= "1a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Flotilla de Transporte"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "Armada Real Española"
+	location = 506
+	ship = {
+		name= "San Raimundo"
+		type = manowar
+	}
+
+	ship = {
+		name= "Héroe"
+		type = manowar
+	}
+
+	ship = {
+		name= "San Pablo"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ceres"
+		type = frigate
+	}
+
+	ship = {
+		name= "Gloria"
+		type = frigate
+	}
+
+	ship = {
+		name= "Nuestra Señora de Asunción"
+		type = frigate
+	}
+
+	ship = {
+		name= "Nuestra Señora de Atocha"
+		type = frigate
+	}
+
+	ship = {
+		name= "Santa Sabina"
+		type = frigate
+	}
+
+	ship = {
+		name= "1a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Flotilla de Transporte"
+		type = clipper_transport
+	}
+}

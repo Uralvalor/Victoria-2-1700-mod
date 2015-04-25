@@ -1,0 +1,19 @@
+owner = TUR
+controller = TUR  colonial = 2
+add_core = BOS
+add_core = YUG
+add_core = SER
+trade_goods = grain
+life_rating = 35
+terrain = deciduous_forest_hills
+1914.1.1 = {
+	owner = KUK
+	controller = KUK
+	add_core = KUK
+	remove_core = TUR
+}
+1923.1.1 = {
+	owner = YUG
+	controller = YUG
+	remove_core = KUK
+}

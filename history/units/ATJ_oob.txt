@@ -1,0 +1,43 @@
+army = {
+	name = "Army of the Sultan of Atjeh"
+	location = 1405
+	regiment = {
+		name= "1st Infantry"
+		type = irregular
+		home = 1405
+	}
+
+	regiment = {
+		name= "2nd Infantry"
+		type = irregular
+		home = 1406
+	}
+
+	regiment = {
+		name= "3rd Infantry"
+		type = irregular
+		home = 1407
+	}
+	
+}
+	
+navy = {
+	name = "Navy of the Sultan"
+	location = 1405
+	ship = {
+		name= "1.Transport Fleet"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "1.Naval Division"
+		type = frigate
+	}
+	
+	ship = {
+		name= "2.Naval Division"
+		type = frigate
+	}
+	
+}
+

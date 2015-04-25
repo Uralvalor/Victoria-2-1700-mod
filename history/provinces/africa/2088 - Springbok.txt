@@ -1,0 +1,15 @@
+
+trade_goods = wool
+life_rating = 15
+add_core = SAF
+terrain = semi_desert_hills
+1861.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 2
+}
+1914.1.1 = {
+	owner = SAF
+	controller = SAF
+	colonial = no
+}

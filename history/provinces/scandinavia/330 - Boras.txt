@@ -1,0 +1,38 @@
+owner = SWE
+controller = SWE
+add_core = SWE
+add_core = SCA
+trade_goods = fish
+life_rating = 35
+terrain = forested_farmland
+1861.1.1 = { 
+	state_building = {
+		level = 1
+		building = fabric_factory
+		upgrade = yes
+	} 
+}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	railroad = 4
+	state_building = {
+		level = 2
+		building = fabric_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = luxury_clothes_factory
+		upgrade = yes
+	} 
+	state_building = {
+		level = 5
+		building = paper_mill
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = regular_clothes_factory
+		upgrade = yes
+	} 
+}

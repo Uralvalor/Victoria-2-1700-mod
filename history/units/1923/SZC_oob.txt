@@ -1,0 +1,25 @@
+army = {
+	name = "1-я Сычуаньская армия"
+	location = 1601
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 1577
+	}
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 1579
+	}
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 1581
+	}
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 1583
+	}
+
+}

@@ -1,0 +1,25 @@
+owner = SPA
+controller = SPA
+add_core = SPA
+trade_goods = iron
+life_rating = 35
+terrain = dry_forest_mountains
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	railroad = 4
+	state_building = {
+		level = 2
+		building = fabric_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = dye_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = furniture_factory
+		upgrade = yes
+	}
+}

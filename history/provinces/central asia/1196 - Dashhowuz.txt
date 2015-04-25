@@ -1,0 +1,16 @@
+owner = KHI
+controller = KHI
+add_core = KHI
+trade_goods = wool
+life_rating = 27
+terrain = semi_desert
+1914.1.1 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+}
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

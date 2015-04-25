@@ -1,0 +1,27 @@
+owner = TUR
+controller = TUR  colonial = 2
+add_core = GRE
+trade_goods = timber
+life_rating = 35
+terrain = mountain_farmland
+1914.1.1 = {
+	owner = GRE
+	controller = GRE
+	remove_core = TUR
+	fort = 3
+	state_building = {
+		level = 1
+		building = small_arms_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = dye_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = winery
+		upgrade = yes
+	}
+}

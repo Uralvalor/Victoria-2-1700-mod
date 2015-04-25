@@ -1,0 +1,62 @@
+capital = 578
+primary_culture = north_german
+culture = south_german
+religion = protestant
+government = absolute_monarchy
+plurality = 25.0
+nationalvalue = nv_order
+literacy = 0.8
+civilized = yes
+prestige = 1
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = yes_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = first_past_the_post
+political_parties = underground_parties
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+school_reforms = no_schools
+
+ruling_party = PAL_reactionary
+upper_house = {
+	fascist = 0
+	liberal = 30
+	conservative = 55
+	reactionary = 15
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+# Technologies
+
+water_wheel_power = 1	
+flintlock_rifles = 1	
+bronze_muzzle_loaded_artillery = 1
+ 
+military_staff_system = 1
+ 
+
+#Inventions
+
+# Starting Consciousness
+consciousness = 2
+nonstate_consciousness = 0
+
+oob = "PAL_oob.txt"
+1861.1.1 = {
+	oob = "/1861/BRA_oob.txt"
+	literacy = 0.90
+	non_state_culture_literacy = 0.45
+}

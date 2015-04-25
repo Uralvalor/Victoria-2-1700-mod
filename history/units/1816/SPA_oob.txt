@@ -1,0 +1,332 @@
+#Sphere of Influence
+
+POR = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+
+#Army
+
+army = {
+	name = "Северная колониальная армия"
+	location = 2199
+	regiment = {
+		name= "1. Granaderos del Rey"
+		type = infantry
+		home = 474
+	}
+
+	regiment = {
+		name= "2. Granaderos del Rey"
+		type = infantry
+		home = 475
+	}
+
+	regiment = {
+		name= "3. Guardia Real"
+		type = infantry
+		home = 481
+	}
+
+	regiment = {
+		name= "1. Brigada de Infanterнa 'El Ramillete'"
+		type = infantry
+		home = 2247
+	}
+
+	regiment = {
+		name= "2. Brigada de Infanterнa"
+		type = infantry
+		home = 2247
+	}
+
+	regiment = {
+		name= "3. Brigada de Infanterнa"
+		type = infantry
+		home = 2248
+	}
+
+	regiment = {
+		name= "1. Brigada de Ingenieros"
+		type = engineer
+		home = 2250
+	}
+
+	regiment = {
+		name= "1. Granaderos del Rey"
+		type = cavalry
+		home = 2252
+	}
+
+	regiment = {
+		name= "2. Granaderos del Rey"
+		type = cavalry
+		home = 2255
+	}
+
+}
+
+army = {
+	name = "Тихоокеанская армия"
+	location = 90
+	
+	regiment = {
+		name= "4. Brigada de Infanterнa 'San Jorge'"
+		type = infantry
+		home = 487
+	}
+
+	regiment = {
+		name= "1. Brigada de Artillerнa"
+		type = artillery
+		home = 487
+	}
+	
+
+}
+
+army = {
+	name = "Южная колониальная армия"
+	location = 2307
+	regiment = {
+		name= "1. Granaderos del Rey"
+		type = infantry
+		home = 488
+	}
+
+	regiment = {
+		name= "2. Granaderos del Rey"
+		type = infantry
+		home = 489
+	}
+
+	regiment = {
+		name= "3. Guardia Real"
+		type = infantry
+		home = 489
+	}
+
+	regiment = {
+		name= "1. Brigada de Infanterнa 'El Ramillete'"
+		type = infantry
+		home = 2279
+	}
+
+	regiment = {
+		name= "2. Brigada de Infanterнa"
+		type = infantry
+		home = 2283
+	}
+
+	regiment = {
+		name= "3. Brigada de Infanterнa"
+		type = infantry
+		home = 2290
+	}
+
+	regiment = {
+		name= "1. Brigada de Ingenieros"
+		type = engineer
+		home = 2295
+	}
+
+	regiment = {
+		name= "1. Granaderos del Rey"
+		type = cavalry
+		home = 2295
+	}
+
+	regiment = {
+		name= "2. Granaderos del Rey"
+		type = cavalry
+		home = 2299
+	}
+
+	regiment = {
+		name= "3. Granaderos del Rey"
+		type = cavalry
+		home = 2310
+	}
+}
+
+army = {
+	name = "Кубинский гарнизон"
+	location = 2209
+	
+	regiment = {
+		name = "1. Brigada Colonial"
+		type = infantry
+		home = 498
+	}
+	
+	regiment = {
+		name = "2. Brigada Colonial"
+		type = infantry
+		home = 2311
+	}
+}
+
+army = {
+	name = "Пуэрториканский гарнизон"
+	location = 2222
+	
+	regiment = {
+		name = "3. Brigada Colonial"
+		type = infantry
+		home = 2313
+	}
+}
+
+army = {
+	name = "Филипинский гарнизон"
+	location = 1455
+	
+	regiment = {
+		name = "4. Brigada Colonial"
+		type = infantry
+		home = 1455
+	}
+	regiment = {
+		name = "4. Brigada Colonial"
+		type = infantry
+		home = 1456
+	}
+	regiment = {
+		name = "4. Brigada Colonial"
+		type = infantry
+		home = 1457
+	}
+}
+
+army = {
+	name = "Королевская гвардия"
+	location = 487
+	
+	regiment = {
+		name = "5. Brigada Colonial"
+		type = infantry
+		home = 503
+	}
+	regiment = {
+		name = "5. Brigada Colonial"
+		type = infantry
+		home = 509
+	}
+	regiment = {
+		name = "5. Brigada Colonial"
+		type = infantry
+		home = 513
+	}
+}
+
+navy = {
+	name = "Армада де Куба"
+	location = 2212
+	
+	ship = {
+		name = "Сантьяго"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Гесперидес"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Сентинела"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Исла де Куба"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Христофор Колумб"
+		type = frigate
+	}
+}
+
+navy = {
+	name = "Армада де Филиппинас"
+	location = 1455
+	
+	ship = {
+		name = "Алерта"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Сан Фернандо"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Легаспи"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Виктория"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Нуестра Секура де Патросиниу"
+		type = frigate
+	}
+}
+
+navy = {
+	name = "Армада Эспаньола"
+	location = 506
+	ship = {
+		name= "Сан Раймундо"
+		type = manowar
+	}
+
+	ship = {
+		name= "Хирое"
+		type = frigate
+	}
+
+	ship = {
+		name= "Сан Пабло"
+		type = frigate
+	}
+
+	ship = {
+		name= "Церес"
+		type = frigate
+	}
+
+	ship = {
+		name= "Глория"
+		type = frigate
+	}
+
+	ship = {
+		name= "Нуестра Секура де Асунсион"
+		type = frigate
+	}
+
+	ship = {
+		name= "Нуестра Секура де Аточа"
+		type = frigate
+	}
+
+	ship = {
+		name= "Санта Сабрина"
+		type = frigate
+	}
+
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}

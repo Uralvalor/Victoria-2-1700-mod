@@ -1,0 +1,11 @@
+owner = VEN
+controller = VEN
+add_core = GRE
+trade_goods = fruit
+life_rating = 35
+terrain = hilly_farmland
+1836.1.1 = {
+	owner = GRE
+	controller = GRE
+	remove_core = TUR
+}

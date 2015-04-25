@@ -1,0 +1,17 @@
+army = {
+	name = "Montenegrin Army"
+	location = 2583
+	regiment = {
+		name= "1. Brigade"
+		type = infantry
+		home = 2583
+	}
+
+	regiment = {
+		name= "2. Brigade"
+		type = infantry
+		home = 2583
+	}
+
+}
+

@@ -1,0 +1,44 @@
+
+add_core = XMD
+trade_goods = tobacco
+life_rating = 35
+terrain = hilly_farmland
+1861.1.1 = {
+	state_building = {
+		level = 1
+		building = artillery_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = steel_factory
+		upgrade = yes
+	}}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	state_building = {
+		level = 10
+		building = luxury_furniture_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = liquor_distillery
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = cement_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = glass_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = fertilizer_factory
+		upgrade = yes
+	}
+}

@@ -1,0 +1,13 @@
+
+add_core = DAR
+trade_goods = grain
+life_rating = 10
+terrain = semi_desert
+1836.1.1 = {
+	add_core = SUD
+}
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 3
+}

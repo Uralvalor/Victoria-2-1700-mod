@@ -1,0 +1,29 @@
+army = {
+	name = "Армия Черногории"
+	location = 800
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 2569
+	}
+
+	regiment = {
+		name= "2-я дивизия"
+		type = infantry
+		home = 2577
+	}
+
+	regiment = {
+		name= "3-я дивизия"
+		type = infantry
+		home = 2583
+	}
+
+	regiment = {
+		name= "1-й кавалерийский дивизион"
+		type = hussar
+		home = 800
+	}
+
+}
+

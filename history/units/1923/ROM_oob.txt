@@ -1,0 +1,315 @@
+leader = {
+	name = "Константин Презан"
+	type = land
+	date="1914.1.1"
+	personality = audacious
+	background = school_of_firepower
+	picture="personal_constantin_prezan"
+}
+
+leader = {
+	name = "Иеремия Григореску"
+	type = land
+	date="1914.1.1"
+	personality = hellbent
+	background = school_of_the_bayonet
+	picture="personal_eremia_grigorescu"
+}
+
+leader = {
+	name = "Ион Драгалина"
+	type = land
+	date="1914.1.1"
+	personality = merciless
+	background = brownnoser
+	picture="personal_ion_dragalina"
+}
+
+leader = {
+	name = "Александру Авереску"
+	type = land
+	date="1914.1.1"
+	personality = competent
+	background = priest
+	picture="personal_alexandru_averescu"
+}
+
+leader = {
+	name = "Артур Вайтояну"
+	type = land
+	date="1914.1.1"
+	personality = sharp
+	background = old_school
+	picture="personal_artur_vaitoianu"
+}
+
+army = {
+	name = "1я-армия Румынии"
+	location = 664
+	regiment = {
+		name= "1-я пех. дивизия"
+		type = infantry
+		home = 644
+	}
+
+	regiment = {
+		name= "2-я пех. дивизия"
+		type = infantry
+		home = 644
+	}
+
+	regiment = {
+		name= "3-я пех. дивизия"
+		type = infantry
+		home = 665
+	}
+
+	regiment = {
+		name= "4-я пех. дивизия"
+		type = hussar
+		home = 665
+	}
+
+	regiment = {
+		name= "5-я пех. дивизия"
+		type = infantry
+		home = 666
+	}
+
+	regiment = {
+		name= "6-я пех. дивизия"
+		type = infantry
+		home = 666
+	}
+
+	regiment = {
+		name= "7-я пех. дивизия"
+		type = infantry
+		home = 667
+	}
+
+	regiment = {
+		name= "8-я пех. дивизия"
+		type = infantry
+		home = 667
+	}
+
+	regiment = {
+		name= "9-я пех. дивизия"
+		type = hussar
+		home = 668
+	}
+
+	regiment = {
+		name= "10-я пех. дивизия"
+		type = hussar
+		home = 668
+	}
+
+	regiment = {
+		name= "11-я пех. дивизия"
+		type = hussar
+		home = 669
+	}
+
+	regiment = {
+		name= "12-я пех. дивизия"
+		type = artillery
+		home = 669
+	}
+
+	regiment = {
+		name= "13-я пех. дивизия"
+		type = artillery
+		home = 670
+	}
+
+	regiment = {
+		name= "14-я пех. дивизия"
+		type = artillery
+		home = 670
+	}
+
+}
+
+army = {
+	name = "2я-армия Румынии"
+	location = 674
+	regiment = {
+		name= "15-я пех. дивизия"
+		type = infantry
+		home = 670
+	}
+
+	regiment = {
+		name= "16-я пех. дивизия"
+		type = infantry
+		home = 670
+	}
+
+	regiment = {
+		name= "17-я пех. дивизия"
+		type = infantry
+		home = 671
+	}
+
+	regiment = {
+		name= "18-я пех. дивизия"
+		type = hussar
+		home = 671
+	}
+
+	regiment = {
+		name= "19-я пех. дивизия"
+		type = infantry
+		home = 672
+	}
+
+	regiment = {
+		name= "20-я пех. дивизия"
+		type = infantry
+		home = 672
+	}
+
+	regiment = {
+		name= "21-я пех. дивизия"
+		type = infantry
+		home = 672
+	}
+
+	regiment = {
+		name= "22-я пех. дивизия"
+		type = hussar
+		home = 672
+	}
+
+	regiment = {
+		name= "23-я пех. дивизия"
+		type = hussar
+		home = 673
+	}
+
+	regiment = {
+		name= "24-я пех. дивизия"
+		type = hussar
+		home = 673
+	}
+
+	regiment = {
+		name= "25-я пех. дивизия"
+		type = artillery
+		home = 674
+	}
+
+	regiment = {
+		name= "26-я пех. дивизия"
+		type = artillery
+		home = 675
+	}
+
+	regiment = {
+		name= "27-я пех. дивизия"
+		type = artillery
+		home = 818
+	}
+
+}
+
+army = {
+	name = "3я-армия Румынии"
+	location = 678
+	regiment = {
+		name= "15-я пех. дивизия"
+		type = infantry
+		home = 647
+	}
+
+	regiment = {
+		name= "16-я пех. дивизия"
+		type = infantry
+		home = 647
+	}
+
+	regiment = {
+		name= "17-я пех. дивизия"
+		type = infantry
+		home = 651
+	}
+
+	regiment = {
+		name= "18-я пех. дивизия"
+		type = hussar
+		home = 651
+	}
+
+	regiment = {
+		name= "19-я пех. дивизия"
+		type = infantry
+		home = 651
+	}
+
+	regiment = {
+		name= "20-я пех. дивизия"
+		type = infantry
+		home = 651
+	}
+
+	regiment = {
+		name= "21-я пех. дивизия"
+		type = infantry
+		home = 651
+	}
+
+	regiment = {
+		name= "22-я пех. дивизия"
+		type = hussar
+		home = 652
+	}
+
+	regiment = {
+		name= "23-я пех. дивизия"
+		type = hussar
+		home = 652
+	}
+
+	regiment = {
+		name= "24-я пех. дивизия"
+		type = hussar
+		home = 653
+	}
+
+	regiment = {
+		name= "25-я пех. дивизия"
+		type = artillery
+		home = 653
+	}
+
+	regiment = {
+		name= "26-я пех. дивизия"
+		type = artillery
+		home = 653
+	}
+
+	regiment = {
+		name= "27-я пех. дивизия"
+		type = artillery
+		home = 654
+	}
+
+}
+navy = {
+	name = "Румынский флот"
+	location = 674
+	ship = {
+		name = "Янтра"
+		type = cruiser
+	}
+	ship = {
+		name = "Булгария"
+		type = cruiser
+	}
+	ship = {
+		name = "Искар"
+		type = cruiser
+	}
+}

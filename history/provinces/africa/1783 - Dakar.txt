@@ -1,0 +1,14 @@
+owner = FRA
+controller = FRA
+colonial = 2
+trade_goods = grain
+life_rating = 15
+terrain = dry_grassland
+1861.1.1 = {
+	owner = FRA
+	controller = FRA
+	colonial = 3
+}
+1914.1.1 = {
+	naval_base = 3
+}

@@ -1,0 +1,11 @@
+owner = LOA
+controller = LOA
+add_core = LOA
+trade_goods = iron
+life_rating = 15
+terrain = seasonal_jungle_hills
+1914.1.1 = {
+	owner = FRA
+	controller = FRA
+	colonial = 3
+}

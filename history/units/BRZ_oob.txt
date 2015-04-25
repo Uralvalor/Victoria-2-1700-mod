@@ -1,0 +1,63 @@
+army = {
+	name = "I Corpo do exército"
+	location = 2447
+	regiment = {
+		name= "1. Brigada de Infantaria"
+		type = infantry
+		home = 2447
+	}
+
+	regiment = {
+		name= "2. Brigada de Infantaria"
+		type = infantry
+		home = 2450
+	}
+
+	regiment = {
+		name= "3. Brigada de Infantaria"
+		type = infantry
+		home = 2436
+	}
+
+	regiment = {
+		name= "1. Brigada de Cavalaria"
+		type = cavalry
+		home = 2429
+	}
+
+	regiment = {
+		name= "2. Brigada de Cavalaria"
+		type = cavalry
+		home = 2434
+	}
+
+	regiment = {
+		name= "3. Brigada de Cavalaria"
+		type = cavalry
+		home = 2426
+	}
+
+}
+
+army = {
+	name = "II Corpo do exército"
+	location = 2463
+	regiment = {
+		name= "4. Brigada de Infantaria"
+		type = infantry
+		home = 2463
+	}
+
+	regiment = {
+		name= "5. Brigada de Infantaria"
+		type = infantry
+		home = 2457
+	}
+
+	regiment = {
+		name= "6. Brigada de Infantaria"
+		type = infantry
+		home = 2441
+	}
+
+}

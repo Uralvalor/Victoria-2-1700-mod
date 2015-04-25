@@ -1,0 +1,10 @@
+trade_goods = grain
+life_rating = 15
+add_core = SAF
+terrain = desert
+1914.1.1 = {
+	owner = SAF
+	controller = SAF
+	colonial = no
+}
+

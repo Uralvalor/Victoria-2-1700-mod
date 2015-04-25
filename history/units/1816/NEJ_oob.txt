@@ -1,0 +1,15 @@
+army = {
+	name = "Армия бедуинов"
+	location = 1159
+	regiment = {
+		name= "1. Shammari"
+		type = irregular
+		home = 1157
+	}
+
+	regiment = {
+		name= "2. Shammari"
+		type = irregular
+		home = 1157
+	}
+}

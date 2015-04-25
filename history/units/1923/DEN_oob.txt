@@ -1,0 +1,129 @@
+navy = {
+	name = "Датский Североморский Флот"
+	location = 372
+	ship = {
+		name= "Даннерброг"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Королева Мария"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Фредерик Шестой"
+		type = ironclad
+	}
+
+	ship = {
+		name= "Беллона"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Хавфруен"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Джилланд"
+		type = cruiser
+	}
+
+	ship = {
+		name= "Нильс Жуэль"
+		type = cruiser
+	}
+
+}
+
+army = {
+	name = "Королевская армия"
+	location = 372
+	regiment = {
+		name= "1-я дивизия"
+		type = guard
+		home = 372
+	}
+
+	regiment = {
+		name= "2-я дивизия"
+		type = guard
+		home = 372
+	}
+
+	regiment = {
+		name= "3-я дивизия"
+		type = guard
+		home = 372
+	}
+
+	regiment = {
+		name= "1-й арт дивизион"
+		type = artillery
+		home = 372
+	}
+
+	regiment = {
+		name= "5-я дивизия"
+		type = infantry
+		home = 372
+	}
+
+	regiment = {
+		name= "6-я дивизия"
+		type = infantry
+		home = 372
+	}
+
+	regiment = {
+		name= "7-я дивизия"
+		type = infantry
+		home = 373
+	}
+
+	regiment = {
+		name= "8-я дивизия"
+		type = infantry
+		home = 373
+	}
+
+	regiment = {
+		name= "9-я дивизия"
+		type = infantry
+		home = 373
+	}
+
+	regiment = {
+		name= "10-я дивизия"
+		type = infantry
+		home = 373
+	}
+
+	regiment = {
+		name= "1-я инженерная бригада"
+		type = engineer
+		home = 366
+	}
+
+	regiment = {
+		name= "1-й кав. дивизион"
+		type = cavalry
+		home = 366
+	}
+
+	regiment = {
+		name= "2-й кав. дивизион"
+		type = cavalry
+		home = 366
+	}
+
+	regiment = {
+		name= "3-й кав. дивизион"
+		type = cavalry
+		home = 366
+	}
+
+}
+

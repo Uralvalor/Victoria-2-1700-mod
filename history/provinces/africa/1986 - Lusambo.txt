@@ -1,0 +1,13 @@
+owner = LBA
+controller = LBA
+add_core = LBA
+add_core = KUB
+trade_goods = tropical_wood
+life_rating = 15
+terrain = seasonal_jungle
+1914.1.1 = {
+	owner = BEL
+	controller = BEL
+	add_core = CNG
+	colonial = 3
+}

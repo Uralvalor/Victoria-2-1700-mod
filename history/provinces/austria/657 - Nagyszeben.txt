@@ -1,0 +1,37 @@
+owner = AUS
+controller = AUS
+ 
+add_core = SIE
+add_core = HUN
+add_core = ROM
+trade_goods = cattle
+life_rating = 35
+terrain = conifer_forest_hills
+1750.1.1 = {
+	owner = SIE
+	controller = SIE
+}
+1914.1.1 = {
+	owner = KUK
+	controller = KUK
+	add_core = KUK
+	remove_core = AUS
+	railroad = 3
+	fort = 2
+	state_building = {
+		level = 1
+		building = paper_mill
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = liquor_distillery
+		upgrade = yes
+	}
+}
+1923.1.1 = {
+	owner = ROM
+	controller = ROM
+	remove_core = KUK
+	remove_core = HUN
+}

@@ -1,0 +1,19 @@
+leader = {
+	name = "Великий Князь Леопольд"
+	picture = bad_gen_leopold
+	date = 1813.1.1
+	type = land
+	personality = mediocre
+	background = aristocrat
+}
+
+army = {
+	name = "Badische Armee"
+	location = 586
+	
+	regiment = {
+		name = "1. Badische Infanterie-Brigade"
+		type = infantry
+		home = 586
+	}
+}

@@ -1,0 +1,127 @@
+army = {
+	name = "Венецианская армия"
+	location = 729
+	regiment = {
+		name= "1-я артиллерийская бригада"
+		type = artillery
+		home = 729
+	}
+
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 729
+	}
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 729
+	}
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 729
+	}
+	regiment = {
+		name= "4-я пехотная бригада"
+		type = infantry
+		home = 729
+	}
+	regiment = {
+		name= "5-я пехотная бригада"
+		type = infantry
+		home = 729
+	}
+	regiment = {
+		name= "6-я пехотная бригада"
+		type = infantry
+		home = 729
+	}
+	regiment = {
+		name= "7-я пехотная бригада"
+		type = infantry
+		home = 729
+	}
+	regiment = {
+		name= "8-я пехотная бригада"
+		type = infantry
+		home = 729
+	}
+}
+
+navy = {
+	name = "Венецианская эскадра"
+	location = 729
+	ship = {
+		name= "Джове Фульминанте"
+		type = manowar
+	}
+
+	ship = {
+		name= "Констанца"
+		type = manowar
+	}
+
+	ship = {
+		name= "Сан-Себастьяно"
+		type = manowar
+	}
+
+	ship = {
+		name= "Аквила"
+		type = manowar
+	}
+
+	ship = {
+		name= "Джове"
+		type = manowar
+	}
+
+	ship = {
+		name= "Европа"
+		type = manowar
+	}
+
+	ship = {
+		name= "Вулкано"
+		type = frigate
+	}
+	ship = {
+		name= "Виттория"
+		type = frigate
+	}
+	ship = {
+		name= "Трионфо"
+		type = frigate
+	}
+	ship = {
+		name= "Форца"
+		type = frigate
+	}
+	ship = {
+		name= "Риццо д'Оро"
+		type = frigate
+	}
+	ship = {
+		name= "Глория Венета"
+		type = frigate
+	}
+
+	ship = {
+		name= "1-я транспортная эскадра"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2-я транспортная эскадра"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3-я транспортная эскадра"
+		type = clipper_transport
+	}
+}
+	
+
+

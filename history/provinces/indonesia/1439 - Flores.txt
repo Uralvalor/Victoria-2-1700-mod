@@ -1,0 +1,10 @@
+owner = NET
+controller = NET
+add_core = INO
+trade_goods = timber
+life_rating = 30
+colonial = 2
+terrain = seasonal_jungle_mountains
+1914.1.1 = {
+	naval_base = 3
+}

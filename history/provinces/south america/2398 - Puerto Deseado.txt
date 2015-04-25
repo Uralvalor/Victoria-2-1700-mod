@@ -1,0 +1,15 @@
+ 
+ 
+add_core = ARG
+add_core = LPL
+trade_goods = wool
+life_rating = 25
+terrain = cold_desert
+colonial = 1
+1836.1.1 = {
+	owner = ARG
+	controller = ARG
+	remove_core = LPL
+	colonial = 2
+}
+1861.1.1 = {colonial = no}

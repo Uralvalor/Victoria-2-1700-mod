@@ -1,0 +1,22 @@
+army = {
+	name = "Ирокезская армия"
+	location = 237
+	regiment = {
+		name= "1-я индейская бригада"
+		type = irregular
+		home = 237
+	}
+
+	regiment = {
+		name= "1-я индейская бригада"
+		type = irregular
+		home = 236
+	}
+
+	regiment = {
+		name= "1-я индейская бригада"
+		type = irregular
+		home = 238
+	}
+}
+

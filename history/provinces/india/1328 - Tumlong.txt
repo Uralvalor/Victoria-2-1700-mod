@@ -1,0 +1,12 @@
+owner = SIK
+controller = SIK
+add_core = SIK
+add_core = HND
+trade_goods = wool
+life_rating = 25
+terrain = conifer_forest_mountains
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 3
+}

@@ -1,0 +1,756 @@
+1999 = {
+	aristocrats = {
+		culture = portuguese
+		religion = catholic
+		size = 150
+	}
+	clergymen = {
+		culture = portuguese
+		religion = catholic
+		size = 75
+	}
+	bureaucrats = {
+		culture = portuguese
+		religion = catholic
+		size = 75
+	}
+	artisans = {
+		culture = portuguese
+		religion = catholic
+		size = 750
+	}
+	soldiers = {
+		culture = portuguese
+		religion = catholic
+		size = 75
+	}
+	aristocrats = {
+		culture = bakongo
+		religion = catholic
+		size = 50
+	}
+	clergymen = {
+		culture = bakongo
+		religion = catholic
+		size = 225
+	}
+	artisans = {
+		culture = bakongo
+		religion = catholic
+		size = 4500
+	}
+	soldiers = {
+		culture = bakongo
+		religion = catholic
+		size = 375
+	}
+	farmers = {
+		culture = bakongo
+		religion = catholic
+		size = 17325
+	}
+	aristocrats = {
+		culture = bakongo
+		religion = animist
+		size = 100
+	}
+	clergymen = {
+		culture = bakongo
+		religion = animist
+		size = 150
+	}
+	artisans = {
+		culture = bakongo
+		religion = animist
+		size = 750
+	}
+	soldiers = {
+		culture = bakongo
+		religion = animist
+		size = 150
+	}
+	farmers = {
+		culture = bakongo
+		religion = animist
+		size = 7800
+	}
+	slaves = {
+		culture = bakongo
+		religion = animist
+		size = 7000
+	}
+	aristocrats = {
+		culture = african_minor
+		religion = animist
+		size = 100
+	}
+	clergymen = {
+		culture = african_minor
+		religion = animist
+		size = 150
+	}
+	artisans = {
+		culture = african_minor
+		religion = animist
+		size = 150
+	}
+	soldiers = {
+		culture = african_minor
+		religion = animist
+		size = 150
+	}
+	farmers = {
+		culture = african_minor
+		religion = animist
+		size = 11400
+	}
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 3000
+	}
+}
+2001 = {
+	aristocrats = {
+		culture = bakongo
+		religion = catholic
+		size = 100
+	}
+	clergymen = {
+		culture = bakongo
+		religion = catholic
+		size = 75
+	}
+	artisans = {
+		culture = bakongo
+		religion = catholic
+		size = 600
+	}
+	soldiers = {
+		culture = bakongo
+		religion = catholic
+		size = 150
+	}
+	farmers = {
+		culture = bakongo
+		religion = catholic
+		size = 11025
+	}
+	aristocrats = {
+		culture = bakongo
+		religion = animist
+		size = 200
+	}
+	clergymen = {
+		culture = bakongo
+		religion = animist
+		size = 225
+	}
+	artisans = {
+		culture = bakongo
+		religion = animist
+		size = 1500
+	}
+	soldiers = {
+		culture = bakongo
+		religion = animist
+		size = 300
+	}
+	farmers = {
+		culture = bakongo
+		religion = animist
+		size = 20175
+	}
+	slaves = {
+		culture = bakongo
+		religion = animist
+		size = 4000
+	}
+	aristocrats = {
+		culture = african_minor
+		religion = animist
+		size = 200
+	}
+	clergymen = {
+		culture = african_minor
+		religion = animist
+		size = 225
+	}
+	artisans = {
+		culture = african_minor
+		religion = animist
+		size = 1050
+	}
+	soldiers = {
+		culture = african_minor
+		religion = animist
+		size = 300
+	}
+	farmers = {
+		culture = african_minor
+		religion = animist
+		size = 19875
+	}
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 3500
+	}
+}
+2002 = {
+	aristocrats = {
+		culture = african_minor
+		religion = animist
+		size = 300
+	}
+	clergymen = {
+		culture = african_minor
+		religion = animist
+		size = 375
+	}
+	artisans = {
+		culture = african_minor
+		religion = animist
+		size = 1800
+	}
+	soldiers = {
+		culture = african_minor
+		religion = animist
+		size = 450
+	}
+	farmers = {
+		culture = african_minor
+		religion = animist
+		size = 32925
+	}
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 6000
+	}
+}
+2000 = {
+	aristocrats = {
+		culture = bakongo
+		religion = animist
+		size = 125
+	}
+	clergymen = {
+		culture = bakongo
+		religion = animist
+		size = 112
+	}
+	artisans = {
+		culture = bakongo
+		religion = animist
+		size = 525
+	}
+	soldiers = {
+		culture = bakongo
+		religion = animist
+		size = 112
+	}
+	farmers = {
+		culture = bakongo
+		religion = animist
+		size = 9562
+	}
+	slaves = {
+		culture = bakongo
+		religion = animist
+		size = 5000
+	}
+	aristocrats = {
+		culture = bakongo
+		religion = catholic
+		size = 425
+	}
+	clergymen = {
+		culture = bakongo
+		religion = catholic
+		size = 337
+	}
+	artisans = {
+		culture = bakongo
+		religion = catholic
+		size = 1350
+	}
+	soldiers = {
+		culture = bakongo
+		religion = catholic
+		size = 337
+	}
+	farmers = {
+		culture = bakongo
+		religion = catholic
+		size = 22837
+	}
+}
+2003 = {
+	aristocrats = {
+		culture = ovimbundu
+		religion = animist
+		size = 300
+	}
+	clergymen = {
+		culture = ovimbundu
+		religion = animist
+		size = 450
+	}
+	artisans = {
+		culture = ovimbundu
+		religion = animist
+		size = 2250
+	}
+	soldiers = {
+		culture = ovimbundu
+		religion = animist
+		size = 450
+	}
+	farmers = {
+		culture = ovimbundu
+		religion = animist
+		size = 31200
+	}
+	slaves = {
+		culture = ovimbundu
+		religion = animist
+		size = 5800
+	}
+}
+2004 = {
+	aristocrats = {
+		culture = african_minor
+		religion = animist
+		size = 300
+	}
+	clergymen = {
+		culture = african_minor
+		religion = animist
+		size = 900
+	}
+	artisans = {
+		culture = african_minor
+		religion = animist
+		size = 1125
+	}
+	soldiers = {
+		culture = african_minor
+		religion = animist
+		size = 450
+	}
+	farmers = {
+		culture = african_minor
+		religion = animist
+		size = 31875
+	}
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 5800
+	}
+}
+2005 = {
+	aristocrats = {
+		culture = ovimbundu
+		religion = animist
+		size = 600
+	}
+	clergymen = {
+		culture = ovimbundu
+		religion = animist
+		size = 825
+	}
+	artisans = {
+		culture = ovimbundu
+		religion = animist
+		size = 3900
+	}
+	soldiers = {
+		culture = ovimbundu
+		religion = animist
+		size = 900
+	}
+	farmers = {
+		culture = ovimbundu
+		religion = animist
+		size = 54975
+	}
+	slaves = {
+		culture = ovimbundu
+		religion = animist
+		size = 11000
+	}
+}
+2006 = {
+	aristocrats = {
+		culture = ovimbundu
+		religion = animist
+		size = 350
+	}
+	clergymen = {
+		culture = ovimbundu
+		religion = animist
+		size = 525
+	}
+	artisans = {
+		culture = ovimbundu
+		religion = animist
+		size = 2700
+	}
+	soldiers = {
+		culture = ovimbundu
+		religion = animist
+		size = 600
+	}
+	farmers = {
+		culture = ovimbundu
+		religion = animist
+		size = 40050
+	}
+	slaves = {
+		culture = ovimbundu
+		religion = animist
+		size = 7500
+	}
+}
+2007 = {
+	aristocrats = {
+		culture = lunda
+		religion = animist
+		size = 50
+	}
+	clergymen = {
+		culture = lunda
+		religion = animist
+		size = 112
+	}
+	artisans = {
+		culture = lunda
+		religion = animist
+		size = 112
+	}
+	soldiers = {
+		culture = lunda
+		religion = animist
+		size = 75
+	}
+	farmers = {
+		culture = lunda
+		religion = animist
+		size = 3600
+	}
+	slaves = {
+		culture = lunda
+		religion = animist
+		size = 1350
+	}
+	aristocrats = {
+		culture = african_minor
+		religion = animist
+		size = 175
+	}
+	clergymen = {
+		culture = african_minor
+		religion = animist
+		size = 262
+	}
+	artisans = {
+		culture = african_minor
+		religion = animist
+		size = 1200
+	}
+	soldiers = {
+		culture = african_minor
+		religion = animist
+		size = 300
+	}
+	farmers = {
+		culture = african_minor
+		religion = animist
+		size = 17175
+	}
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 3200
+	}
+}
+2008 = {
+	aristocrats = {
+		culture = ovimbundu
+		religion = animist
+		size = 30
+	}
+	clergymen = {
+		culture = ovimbundu
+		religion = animist
+		size = 90
+	}
+	artisans = {
+		culture = ovimbundu
+		religion = animist
+		size = 112
+	}
+	soldiers = {
+		culture = ovimbundu
+		religion = animist
+		size = 45
+	}
+	farmers = {
+		culture = ovimbundu
+		religion = animist
+		size = 3307
+	}
+	slaves = {
+		culture = ovimbundu
+		religion = animist
+		size = 600
+	}
+	aristocrats = {
+		culture = african_minor
+		religion = animist
+		size = 50
+	}
+	clergymen = {
+		culture = african_minor
+		religion = animist
+		size = 112
+	}
+	artisans = {
+		culture = african_minor
+		religion = animist
+		size = 450
+	}
+	soldiers = {
+		culture = african_minor
+		religion = animist
+		size = 112
+	}
+	farmers = {
+		culture = african_minor
+		religion = animist
+		size = 6412
+	}
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 1250
+	}
+}
+2009 = {
+	aristocrats = {
+		culture = african_minor
+		religion = animist
+		size = 75
+	}
+	clergymen = {
+		culture = african_minor
+		religion = animist
+		size = 75
+	}
+	artisans = {
+		culture = african_minor
+		religion = animist
+		size = 375
+	}
+	soldiers = {
+		culture = african_minor
+		religion = animist
+		size = 112
+	}
+	farmers = {
+		culture = african_minor
+		religion = animist
+		size = 6525
+	}
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 1200
+	}
+	aristocrats = {
+		culture = ovimbundu
+		religion = animist
+		size = 30
+	}
+	clergymen = {
+		culture = ovimbundu
+		religion = animist
+		size = 90
+	}
+	artisans = {
+		culture = ovimbundu
+		religion = animist
+		size = 112
+	}
+	soldiers = {
+		culture = ovimbundu
+		religion = animist
+		size = 90
+	}
+	farmers = {
+		culture = ovimbundu
+		religion = animist
+		size = 3262
+	}
+	slaves = {
+		culture = ovimbundu
+		religion = animist
+		size = 600
+	}
+	aristocrats = {
+		culture = bakongo
+		religion = animist
+		size = 25
+	}
+	clergymen = {
+		culture = bakongo
+		religion = animist
+		size = 75
+	}
+	artisans = {
+		culture = bakongo
+		religion = animist
+		size = 150
+	}
+	soldiers = {
+		culture = bakongo
+		religion = animist
+		size = 37
+	}
+	farmers = {
+		culture = bakongo
+		religion = animist
+		size = 2100
+	}
+	slaves = {
+		culture = bakongo
+		religion = animist
+		size = 400
+	}
+}
+2010 = {
+	aristocrats = {
+		culture = lunda
+		religion = animist
+		size = 250
+	}
+	clergymen = {
+		culture = lunda
+		religion = animist
+		size = 375
+	}
+	artisans = {
+		culture = lunda
+		religion = animist
+		size = 1875
+	}
+	soldiers = {
+		culture = lunda
+		religion = animist
+		size = 375
+	}
+	farmers = {
+		culture = lunda
+		religion = animist
+		size = 21000
+	}
+	slaves = {
+		culture = lunda
+		religion = animist
+		size = 8000
+	}
+	aristocrats = {
+		culture = african_minor
+		religion = animist
+		size = 50
+	}
+	clergymen = {
+		culture = african_minor
+		religion = animist
+		size = 75
+	}
+	artisans = {
+		culture = african_minor
+		religion = animist
+		size = 300
+	}
+	soldiers = {
+		culture = african_minor
+		religion = animist
+		size = 75
+	}
+	farmers = {
+		culture = african_minor
+		religion = animist
+		size = 4275
+	}
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 800
+	}
+}
+2011 = {
+	aristocrats = {
+		culture = lunda
+		religion = animist
+		size = 150
+	}
+	clergymen = {
+		culture = lunda
+		religion = animist
+		size = 187
+	}
+	artisans = {
+		culture = lunda
+		religion = animist
+		size = 1125
+	}
+	soldiers = {
+		culture = lunda
+		religion = animist
+		size = 225
+	}
+	farmers = {
+		culture = lunda
+		religion = animist
+		size = 12187
+	}
+	slaves = {
+		culture = lunda
+		religion = animist
+		size = 4700
+	}
+	aristocrats = {
+		culture = african_minor
+		religion = animist
+		size = 50
+	}
+	clergymen = {
+		culture = african_minor
+		religion = animist
+		size = 75
+	}
+	artisans = {
+		culture = african_minor
+		religion = animist
+		size = 375
+	}
+	soldiers = {
+		culture = african_minor
+		religion = animist
+		size = 75
+	}
+	farmers = {
+		culture = african_minor
+		religion = animist
+		size = 5400
+	}
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 1000
+	}
+}

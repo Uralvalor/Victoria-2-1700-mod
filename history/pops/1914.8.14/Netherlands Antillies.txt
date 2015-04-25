@@ -1,0 +1,71 @@
+2234 = {
+	bureaucrats = {
+		culture = dutch
+		religion = protestant
+		size = 7
+	}
+	soldiers = {
+		culture = dutch
+		religion = protestant
+		size = 37
+	}
+	artisans = {
+		culture = dutch
+		religion = protestant
+		size = 105
+	}
+	clergymen = {
+		culture = afro_caribbean
+		religion = catholic
+		size = 30
+	}
+	artisans = {
+		culture = afro_caribbean
+		religion = catholic
+		size = 225
+	}
+	soldiers = {
+		culture = afro_caribbean
+		religion = catholic
+		size = 45
+	}
+	farmers = {
+		culture = afro_caribbean
+		religion = catholic
+		size = 4200
+	}
+}
+2235 = {
+	clergymen = {
+		culture = afro_caribbean
+		religion = catholic
+		size = 37
+	}
+	artisans = {
+		culture = afro_caribbean
+		religion = catholic
+		size = 37
+	}
+	farmers = {
+		culture = afro_caribbean
+		religion = catholic
+		size = 825
+	}
+}
+2236 = {
+	clergymen = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 37
+	}
+	artisans = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 82
+	}
+	farmers = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 1680
+	}
+}

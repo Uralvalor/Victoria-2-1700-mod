@@ -1,0 +1,13 @@
+
+add_core = DAG
+owner = PER
+controller = PER
+add_core = NCI
+trade_goods = fruit
+life_rating = 30
+terrain = deciduous_forest_mountains
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

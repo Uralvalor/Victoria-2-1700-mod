@@ -1,0 +1,221 @@
+name = "Война за Испанское наследство"
+
+1701.1.1 = {
+	add_attacker = AUS
+	add_attacker = ENL
+	add_attacker = NET
+	add_attacker = SAR
+	add_attacker = PRU
+	add_attacker = POR
+	add_attacker = SAX
+	add_attacker = WUR
+	add_attacker = BAD
+	add_attacker = CLN
+	add_attacker = LUB
+	add_attacker = TRR
+	add_attacker = NAS
+	add_attacker = PAL
+	add_attacker = MUN
+	add_attacker = LIP
+	add_attacker = COB
+	add_attacker = WEI
+	add_attacker = MEI
+	add_attacker = HAM
+	add_attacker = FRM
+	add_attacker = HEK
+	add_attacker = HES
+	add_attacker = HAN
+	add_attacker = OLD
+	add_attacker = BRA
+	add_attacker = MEC
+	add_attacker = AGO
+	add_defender = SPA
+	add_defender = FRA
+	add_defender = BAV
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+
+	war_goal = {
+		casus_belli = liberate_country
+		actor = AUS
+		receiver = SPA
+		country = BEL
+	}
+
+	war_goal = {
+		casus_belli = liberate_country
+		actor = AUS
+		receiver = SPA
+		country = SIC
+	}
+
+	war_goal = {
+		casus_belli = liberate_country
+		actor = AUS
+		receiver = SPA
+		country = LOM
+	}
+
+
+	war_goal = {
+		casus_belli = acquire_state
+		actor = AUS
+		receiver = SPA
+		state_province_id = 766
+	}
+
+
+
+	war_goal = {
+		casus_belli = acquire_state
+		actor = ENL
+		receiver = SPA
+		state_province_id = 517
+	}
+
+
+	war_goal = {
+		casus_belli = acquire_state
+		actor = ENL
+		receiver = FRA
+		state_province_id = 75
+	}
+
+	war_goal = {
+		casus_belli = place_in_the_sun
+		actor = ENL
+		receiver = SPA
+		state_province_id = 2209
+	}
+
+
+	war_goal = {
+		casus_belli = place_in_the_sun
+		actor = ENL
+		receiver = FRA
+		state_province_id = 2213
+	}
+
+
+	war_goal = {
+		casus_belli = place_in_the_sun
+		actor = ENL
+		receiver = FRA
+		state_province_id = 249
+	}
+	war_goal = {
+		casus_belli = place_in_the_sun
+		actor = NET
+		receiver = SPA
+		state_province_id = 2222
+	}
+
+	war_goal = {
+		casus_belli = place_in_the_sun
+		actor = PRU
+		receiver = SPA
+		state_province_id = 2237
+	}
+
+	war_goal = {
+		casus_belli = place_in_the_sun
+		actor = NET
+		receiver = FRA
+		state_province_id = 2241
+	}
+
+	war_goal = {
+		casus_belli = place_in_the_sun
+		actor = FRA
+		receiver = ENL
+		state_province_id = 48
+	}
+	war_goal = {
+		casus_belli = place_in_the_sun
+		actor = FRA
+		receiver = ENL
+		state_province_id = 248
+	}
+
+	war_goal = {
+		casus_belli = place_in_the_sun
+		actor = SPA
+		receiver = ENL
+		state_province_id = 2190
+	}
+
+	war_goal = {
+		casus_belli = place_in_the_sun
+		actor = SPA
+		receiver = ENL
+		state_province_id = 2200
+	}
+
+	war_goal = {
+		casus_belli = place_in_the_sun
+		actor = FRA
+		receiver = ENL
+		state_province_id = 2219
+	}
+
+	war_goal = {
+		casus_belli = place_in_the_sun
+		actor = FRA
+		receiver = NET
+		state_province_id = 2234
+	}
+
+	war_goal = {
+		casus_belli = place_in_the_sun
+		actor = FRA
+		receiver = NET
+		state_province_id = 2239
+	}
+
+	war_goal = {
+		casus_belli = cut_down_to_size
+		actor = FRA
+		reciever = AUS
+		country = AUS
+	}
+
+
+}
+
+1713.9.3 = {
+	rem_attacker = AUS
+	rem_attacker = ENL
+	rem_attacker = NET
+	rem_attacker = SAR
+	rem_attacker = PRU
+	rem_attacker = POR
+	rem_attacker = SAX
+	rem_attacker = WUR
+	rem_attacker = BAD
+	rem_attacker = CLN
+	rem_attacker = LUB
+	rem_attacker = TRR
+	rem_attacker = NAS
+	rem_attacker = PAL
+	rem_attacker = MUN
+	rem_attacker = LIP
+	rem_attacker = COB
+	rem_attacker = WEI
+	rem_attacker = MEI
+	rem_attacker = HAM
+	rem_attacker = FRM
+	rem_attacker = HEK
+	rem_attacker = HES
+	rem_attacker = HAN
+	rem_attacker = OLD
+	rem_attacker = BRA
+	rem_attacker = MEC
+	rem_attacker = AGO
+	rem_defender = SPA
+	rem_defender = FRA
+	rem_defender = BAV
+}

@@ -1,0 +1,24 @@
+ 
+ 
+add_core = ARG
+add_core = LPL
+trade_goods = cattle
+life_rating = 35
+terrain = dry_forest
+1750.1.1 = {
+	owner = SPA
+	controller = SPA
+colony = 2
+}
+1836.1.1 = {
+	owner = ARG
+	controller = ARG
+	remove_core = LPL
+}
+1914.1.1 = {
+	state_building = {
+		level = 2
+		building = ammunition_factory
+		upgrade = yes
+	}
+}

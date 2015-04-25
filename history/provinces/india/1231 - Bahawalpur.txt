@@ -1,0 +1,18 @@
+owner = MUG
+controller = MUG
+add_core = PAN
+add_core = HND
+trade_goods = tea
+life_rating = 35
+terrain = marginal_farmland
+1861.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 2
+}
+1914.1.1 = {
+	add_core = PAK
+	remove_core = HND
+	colonial = 3
+}
+

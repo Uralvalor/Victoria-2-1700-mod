@@ -1,0 +1,49 @@
+owner = ENL
+controller = ENL
+add_core = IRE
+trade_goods = cattle
+life_rating = 35
+terrain = good_farmland
+1750.1.1 = {
+	owner = ENG
+	controller = ENG
+add_core = ENG
+}
+1861.1.1 = {
+	state_building = {
+		level = 1
+		building = canned_food_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = liquor_distillery
+		upgrade = yes
+	}
+}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	railroad = 4
+	naval_base = 5
+
+	state_building = {
+		level = 2
+		building = canned_food_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = liquor_distillery
+		upgrade = yes
+	}
+	state_building = {
+		level = 20
+		building = fabric_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 20
+		building = glass_factory
+		upgrade = yes
+	}
+}

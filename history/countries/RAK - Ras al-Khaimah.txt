@@ -1,0 +1,60 @@
+capital = 3274
+primary_culture = bedouin
+religion = shiite
+government = absolute_monarchy
+plurality = 0.0
+nationalvalue = nv_order
+literacy = 0.02
+
+ruling_party = RAK_conservative
+upper_house = {
+	fascist = 0
+	liberal = 10
+	conservative = 75
+	reactionary = 15
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+# Starting Consciousness
+consciousness = 0
+nonstate_consciousness = 0
+
+oob = "/1816/RAK_oob.txt"
+
+1836.1.1 = {
+literacy = 0.03
+
+foreign_training = yes_foreign_training
+
+oob = "RAK_oob.txt"
+}
+
+1861.1.1 = {
+	oob = "/1861/RAK_oob.txt"
+	foreign_weapons = yes_foreign_weapons
+}
+
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = jefferson_method
+political_parties = underground_parties
+immigration_policy = nobody_gets_out
+conscription = mandatory_service
+minorities = oppression
+
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+pollution = no_controls
+child_labor = child_labor_legal
+education = elite
+arts_endowment = no_endowment

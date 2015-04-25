@@ -1,0 +1,148 @@
+army = {
+	name = "Армия сегуната Токугавы"
+	location = 1650
+	regiment = {
+		name= "1-я бригада Эдо"
+		type = irregular
+		home = 1650
+	}
+
+	regiment = {
+		name= "2-я бригада Эдо"
+		type = irregular
+		home = 1649
+	}
+
+	regiment = {
+		name= "3-я бригада Эдо"
+		type = irregular
+		home = 1652
+	}
+
+}
+
+army = {
+	name = "Армия даймё Мори"
+	location = 1640
+	regiment = {
+		name= "1-я бригада Тёсю"
+		type = irregular
+		home = 1640
+	}
+
+	regiment = {
+		name= "2-я бригада Тёсю"
+		type = irregular
+		home = 1638
+	}
+
+	regiment = {
+		name= "3-я бригада Тёсю"
+		type = irregular
+		home = 1641
+	}
+
+}
+
+army = {
+	name = "Армия даймё Симадзу"
+	location = 1662
+	regiment = {
+		name= "1-я бригада Сацумы"
+		type = irregular
+		home = 1662
+	}
+
+	regiment = {
+		name= "2-я бригада Сацумы"
+		type = irregular
+		home = 1660
+	}
+
+	regiment = {
+		name= "3-я бригада Сацумы"
+		type = irregular
+		home = 1661
+	}
+
+}
+
+army = {
+	name = "Армия даймё Яманучи"
+	location = 1665
+	regiment = {
+		name= "1-я бригада Тосы"
+		type = irregular
+		home = 1665
+	}
+
+	regiment = {
+		name= "2-я бригада Тосы"
+		type = irregular
+		home = 1667
+	}
+
+	regiment = {
+		name= "3-я бригада Тосы"
+		type = irregular
+		home = 1666
+	}
+
+}
+
+army = {
+	name = "Армия даймё Дате"
+	location = 1668
+	regiment = {
+		name= "1-я бригада Сендая"
+		type = irregular
+		home = 1668
+	}
+
+	regiment = {
+		name= "2-я бригада Сендая"
+		type = irregular
+		home = 1673
+	}
+
+	regiment = {
+		name= "3-я бригада Сендая"
+		type = irregular
+		home = 1669
+	}
+
+}
+
+army = {
+	name = "Армия даймё Маэды"
+	location = 1646
+	regiment = {
+		name= "1-я бригада Каги"
+		type = irregular
+		home = 1645
+	}
+
+	regiment = {
+		name= "2-я бригада Каги"
+		type = irregular
+		home = 1675
+	}
+
+	regiment = {
+		name= "3-я бригада Каги"
+		type = irregular
+		home = 1677
+	}
+
+}
+
+navy = {
+	name = "Имперский флот"
+	location = 1657
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}
+

@@ -1,0 +1,173 @@
+army = {
+	name = "Army of the Emir of Ilorin"
+	location = 1927
+	regiment = {
+		name= "1. Yoruba"
+		type = cavalry
+		home = 1927
+	}
+
+	regiment = {
+		name= "2. Yoruba"
+		type = irregular
+		home = 1927
+	}
+
+	regiment = {
+		name= "1. Tribal Warriors"
+		type = irregular
+		home = 1930
+	}
+}
+
+army = {
+	name = "Army of the Emir of Gwandu"
+	location = 1946
+	regiment = {
+		name= "7. Hausa"
+		type = irregular
+		home = 1946
+	}
+
+	regiment = {
+		name= "8. Hausa"
+		type = irregular
+		home = 1946
+	}
+	
+	regiment = {
+		name= "2. Fulbe"
+		type = cavalry
+		home = 1946
+	}
+}
+
+army = {
+	name = "Army of the Emir of Kano"
+	location = 1945
+	regiment = {
+		name= "9. Hausa"
+		type = irregular
+		home = 1945
+	}
+
+	regiment = {
+		name= "10. Hausa"
+		type = irregular
+		home = 1945
+	}
+
+	regiment = {
+		name= "3. Fulbe"
+		type = cavalry
+		home = 1945
+	}
+
+	regiment = {
+		name= "4. Fulbe"
+		type = cavalry
+		home = 1949
+	}
+
+	regiment = {
+		name= "11. Hausa"
+		type = irregular
+		home = 1949
+	}
+}
+
+army = {
+	name = "Army of the Emir of Zaria"
+	location = 1939
+	regiment = {
+		name= "12. Hausa"
+		type = irregular
+		home = 1939
+	}
+
+	regiment = {
+		name= "5. Fulbe"
+		type = irregular
+		home = 1939
+	}
+
+	regiment = {
+		name= "2. Tribal Warriors"
+		type = irregular
+		home = 1936
+	}
+}
+
+army = {
+	name = "Army of the Emir of Adamawa"
+	location = 1950
+	regiment = {
+		name= "6. Fulbe"
+		type = cavalry
+		home = 1950
+	}
+
+	regiment = {
+		name= "13. Hausa"
+		type = irregular
+		home = 1942
+	}
+
+	regiment = {
+		name= "7. Fulbe"
+		type = irregular
+		home = 1942
+	}
+
+	regiment = {
+		name= "3.Tribal Warriors"
+		type = irregular
+		home = 1937
+	}
+}
+
+army = {
+	name = "Army of the Caliph of Sokoto"
+	location = 1948
+	regiment = {
+		name= "1. Hausa"
+		type = cavalry
+		home = 1948
+	}
+
+	regiment = {
+		name= "2. Hausa"
+		type = irregular
+		home = 1948
+	}
+
+	regiment = {
+		name= "3. Hausa"
+		type = irregular
+		home = 1948
+	}
+
+	regiment = {
+		name= "1. Fulbe"
+		type = cavalry
+		home = 1948
+	}
+
+	regiment = {
+		name= "4. Hausa"
+		type = irregular
+		home = 1940
+	}
+
+	regiment = {
+		name= "5. Hausa"
+		type = irregular
+		home = 1947
+	}
+
+	regiment = {
+		name= "6. Hausa"
+		type = irregular
+		home = 1947
+	}
+}

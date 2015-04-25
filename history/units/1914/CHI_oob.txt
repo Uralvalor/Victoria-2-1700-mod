@@ -1,0 +1,506 @@
+army = {
+	name = "2. Green Banner Army"
+	location = 1479
+	regiment = {
+		name= "1.13 /Green Banner"
+		type = irregular
+		home = 1476
+	}
+
+	regiment = {
+		name= "2.13 /Green Banner"
+		type = irregular
+		home = 1508
+	}
+
+	regiment = {
+		name= "3.13 /Green Banner"
+		type = irregular
+		home = 1509
+	}
+
+	regiment = {
+		name= "1.14 /Green Banner"
+		type = irregular
+		home = 1510
+	}
+
+	regiment = {
+		name= "2.14 /Green Banner"
+		type = irregular
+		home = 1511
+	}
+
+	regiment = {
+		name= "3.14 /Green Banner"
+		type = irregular
+		home = 1512
+	}
+
+	regiment = {
+		name= "1.15 /Green Banner"
+		type = irregular
+		home = 1513
+	}
+
+	regiment = {
+		name= "2.15 /Green Banner"
+		type = irregular
+		home = 1514
+	}
+
+	regiment = {
+		name= "3.15 /Green Banner"
+		type = irregular
+		home = 1515
+	}
+
+	regiment = {
+		name= "1.16 /Green Banner"
+		type = irregular
+		home = 1516
+	}
+
+	regiment = {
+		name= "2.16 /Green Banner"
+		type = irregular
+		home = 1517
+	}
+
+	regiment = {
+		name= "3.16 /Green Banner"
+		type = irregular
+		home = 1518
+	}
+
+	regiment = {
+		name= "3.19 /Green Banner"
+		type = irregular
+		home = 1522
+	}
+
+	regiment = {
+		name= "1.22 /Green Banner"
+		type = irregular
+		home = 1536
+	}
+
+	regiment = {
+		name= "2.22 /Green Banner"
+		type = irregular
+		home = 1540
+	}
+
+	regiment = {
+		name= "3.22 /Green Banner"
+		type = irregular
+		home = 1568
+	}
+
+	regiment = {
+		name= "1.23 /Green Banner"
+		type = irregular
+		home = 1541
+	}
+
+	regiment = {
+		name= "2.23 /Green Banner"
+		type = irregular
+		home = 1543
+	}
+
+	regiment = {
+		name= "3.23 /Green Banner"
+		type = irregular
+		home = 1563
+	}
+
+	regiment = {
+		name= "1.24 /Green Banner"
+		type = irregular
+		home = 1564
+	}
+
+	regiment = {
+		name= "2.24 /Green Banner"
+		type = irregular
+		home = 1565
+	}
+
+	regiment = {
+		name= "3.24 /Green Banner"
+		type = irregular
+		home = 1567
+	}
+
+}
+army = {
+	name = "3. Green Banner Army"
+	location = 1558
+	regiment = {
+		name= "1.37 /Green Banner"
+		type = irregular
+		home = 1552
+	}
+
+	regiment = {
+		name= "2.37 /Green Banner"
+		type = irregular
+		home = 1559
+	}
+
+	regiment = {
+		name= "3.42 /Green Banner"
+		type = irregular
+		home = 1577
+	}
+
+	regiment = {
+		name= "1.43 /Green Banner"
+		type = irregular
+		home = 1579
+	}
+
+	regiment = {
+		name= "2.43 /Green Banner"
+		type = irregular
+		home = 1581
+	}
+
+	regiment = {
+		name= "3.43 /Green Banner"
+		type = irregular
+		home = 1583
+	}
+
+	regiment = {
+		name= "1.45 /Green Banner"
+		type = irregular
+		home = 1600
+	}
+
+}
+army = {
+	name = "4. Green Banner Army"
+	location = 1543
+	regiment = {
+		name= "1.37 /Green Banner"
+		type = irregular
+		home = 1601
+	}
+
+	regiment = {
+		name= "2.37 /Green Banner"
+		type = irregular
+		home = 1570
+	}
+
+	regiment = {
+		name= "3.42 /Green Banner"
+		type = irregular
+		home = 1571
+	}
+
+	regiment = {
+		name= "1.43 /Green Banner"
+		type = irregular
+		home = 1572
+	}
+
+	regiment = {
+		name= "2.43 /Green Banner"
+		type = irregular
+		home = 1573
+	}
+
+	regiment = {
+		name= "3.43 /Green Banner"
+		type = irregular
+		home = 1574
+	}
+
+	regiment = {
+		name= "1.45 /Green Banner"
+		type = irregular
+		home = 1575
+	}
+
+	regiment = {
+		name= "2.45 /Green Banner"
+		type = irregular
+		home = 1612
+	}
+
+	regiment = {
+		name= "3.45 /Green Banner"
+		type = irregular
+		home = 1612
+	}
+
+}
+
+army = {
+	name = "5. Green Banner Army"
+	location = 1514
+	regiment = {
+		name= "1.49 /Green Banner"
+		type = irregular
+		home = 1613
+	}
+
+	regiment = {
+		name= "2.59 /Green Banner"
+		type = irregular
+		home = 1614
+	}
+
+	regiment = {
+		name= "3.59 /Green Banner"
+		type = irregular
+		home = 1615
+	}
+
+	regiment = {
+		name= "1.60 /Green Banner"
+		type = irregular
+		home = 1616
+	}
+
+	regiment = {
+		name= "2.60 /Green Banner"
+		type = irregular
+		home = 1617
+	}
+
+	regiment = {
+		name= "3.60 /Green Banner"
+		type = irregular
+		home = 1618
+	}
+
+	regiment = {
+		name= "4.60 /Green Banner"
+		type = irregular
+		home = 1549
+	}
+
+	regiment = {
+		name= "5.60 /Green Banner"
+		type = irregular
+		home = 1550
+	}
+
+}
+
+army = {
+	name = "6. Green Banner Army"
+	location = 1515
+	regiment = {
+		name= "1.61 /Green Banner"
+		type = irregular
+		home = 1470
+	}
+
+	regiment = {
+		name= "2.67 /Green Banner"
+		type = irregular
+		home = 1471
+	}
+
+	regiment = {
+		name= "3.67 /Green Banner"
+		type = irregular
+		home = 1473
+	}
+
+	regiment = {
+		name= "1.68 /Green Banner"
+		type = irregular
+		home = 1474
+	}
+
+	regiment = {
+		name= "2.68 /Green Banner"
+		type = irregular
+		home = 1475
+	}
+
+	regiment = {
+		name= "3.68 /Green Banner"
+		type = irregular
+		home = 1477
+	}
+
+	regiment = {
+		name= "3.70 /Green Banner"
+		type = irregular
+		home = 1479
+	}
+
+	regiment = {
+		name= "1.71 /Green Banner"
+		type = irregular
+		home = 1486
+	}
+
+	regiment = {
+		name= "2.71 /Green Banner"
+		type = irregular
+		home = 1488
+	}
+
+	regiment = {
+		name= "3.71 /Green Banner"
+		type = irregular
+		home = 1490
+	}
+
+	regiment = {
+		name= "1.72 /Green Banner"
+		type = irregular
+		home = 1492
+	}
+
+	regiment = {
+		name= "2.72 /Green Banner"
+		type = irregular
+		home = 1495
+	}
+
+	regiment = {
+		name= "3.72 /Green Banner"
+		type = irregular
+		home = 1519
+	}
+
+}
+
+army = {
+	name = "7. Green Banner Army"
+	location = 1551
+	regiment = {
+		name= "1.73 /Green Banner"
+		type = irregular
+		home = 1520
+	}
+
+	regiment = {
+		name= "2.73 /Green Banner"
+		type = irregular
+		home = 1521
+	}
+
+	regiment = {
+		name= "2.82 /Green Banner"
+		type = irregular
+		home = 1523
+	}
+
+	regiment = {
+		name= "3.82 /Green Banner"
+		type = irregular
+		home = 1524
+	}
+
+	regiment = {
+		name= "1.83 /Green Banner"
+		type = irregular
+		home = 1526
+	}
+
+	regiment = {
+		name= "2.83 /Green Banner"
+		type = irregular
+		home = 1527
+	}
+
+	regiment = {
+		name= "3.83 /Green Banner"
+		type = irregular
+		home = 1529
+	}
+
+	regiment = {
+		name= "1.84 /Green Banner"
+		type = irregular
+		home = 1537
+	}
+
+	regiment = {
+		name= "2.84 /Green Banner"
+		type = irregular
+		home = 1539
+	}
+
+	regiment = {
+		name= "3.84 /Green Banner"
+		type = irregular
+		home = 1547
+	}
+
+}
+
+navy = {
+	name = "1st Transport Squadron"
+	location = 1538
+	ship = {
+		name= "1st Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "3st Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "4nd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "5st Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "6nd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "7st Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "8nd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "9st Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "10nd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "11st Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "12nd Transport Flotilla"
+		type = steam_transport
+	}
+
+}

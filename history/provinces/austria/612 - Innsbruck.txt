@@ -1,0 +1,44 @@
+owner = AUS
+controller = AUS
+add_core = AUS
+ 
+trade_goods = timber
+life_rating = 35
+terrain = conifer_forest_mountains
+#state_building = {
+#	level = 1
+#	building = lumber_mill
+#	upgrade = yes
+#}
+1914.1.1 = {
+	owner = KUK
+	controller = KUK
+	add_core = KUK
+}
+1914.1.1 = {
+	owner = KUK
+	controller = KUK
+	add_core = KUK
+	railroad = 3
+	fort = 3
+	state_building = {
+		level = 1
+		building = barrel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = luxury_clothes_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = lumber_mill
+		upgrade = yes
+	}
+}
+1923.1.1 = {
+	owner = AUS
+	controller = AUS
+	remove_core = KUK
+}

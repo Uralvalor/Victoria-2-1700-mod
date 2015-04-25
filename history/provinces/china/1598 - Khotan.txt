@@ -1,0 +1,13 @@
+owner = XIN
+controller = XIN
+add_core = XIN
+trade_goods = grain
+life_rating = 27
+terrain = desert
+1914.1.1 = {
+	add_core = XIN
+}
+1923.1.1 = {
+	owner = XIN
+	controller = XIN
+}

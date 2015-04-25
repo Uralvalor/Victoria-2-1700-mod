@@ -1,0 +1,144 @@
+leader = {
+	name = "Дост Мухаммед"
+	type = land
+	date = 1836.1.1
+	personality = stalwart
+	background = debutante
+}
+
+leader = {
+	name = "Яр Мухаммед"
+	type = land
+	date = 1836.1.1
+	personality = intuitive 
+	background = aristocrat
+}
+
+army = {
+	name = "Армия Дост Мухаммеда"
+	location = 1216
+	regiment = {
+		name= "1-я бригада"
+		type = irregular
+		home = 1209
+	}
+
+	regiment = {
+		name= "2-я бригада"
+		type = irregular
+		home = 1209
+	}
+
+	regiment = {
+		name= "3-я бригада"
+		type = irregular
+		home = 1216
+	}
+
+	regiment = {
+		name= "1-я баракзайская бригада"
+		type = cavalry
+		home = 1209
+	}
+
+	regiment = {
+		name= "2-я баракзайская бригада"
+		type = cavalry
+		home = 1209
+	}
+
+	regiment = {
+		name= "3-я баракзайская бригада"
+		type = cavalry
+		home = 1216
+	}
+
+}
+
+army = {
+	name = "Армия Камран Шаха"
+	location = 1212
+	regiment = {
+		name= "1-я попозайская бригада"
+		type = irregular
+		home = 1212
+	}
+
+	regiment = {
+		name= "2-я попозайская бригада"
+		type = irregular
+		home = 1213
+	}
+
+	regiment = {
+		name= "3-я попозайская бригада"
+		type = irregular
+		home = 1213
+	}
+
+	regiment = {
+		name= "1-я таджикская бригада"
+		type = irregular
+		home = 1213
+	}
+
+	regiment = {
+		name= "2-я таджикская бригада"
+		type = irregular
+		home = 1212
+	}
+
+	regiment = {
+		name= "3-я таджикская бригада"
+		type = irregular
+		home = 1212
+	}
+
+}
+
+army = {
+	name = "Армия Кохун-диль-Хана"
+	location = 1215
+	regiment = {
+		name= "1-я дурранийская бригада"
+		type = irregular
+		home = 1215
+	}
+
+	regiment = {
+		name= "2-я дурранийская бригада"
+		type = irregular
+		home = 1215
+	}
+
+	regiment = {
+		name= "3-я дурранийская бригада"
+		type = irregular
+		home = 1214
+	}
+
+}
+
+army = {
+	name = "Армия Бадахшана"
+	location = 1210
+	regiment = {
+		name= "1-я узбекская бригада"
+		type = irregular
+		home = 1210
+	}
+
+	regiment = {
+		name= "4-я таджикская бригада"
+		type = irregular
+		home = 1210
+	}
+
+	regiment = {
+		name= "5-я таджикская бригада"
+		type = irregular
+		home = 1210
+	}
+
+}
+

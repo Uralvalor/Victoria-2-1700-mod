@@ -1,0 +1,2050 @@
+JAP = {
+
+	value = -200
+}
+ENG = {
+
+	value = -200
+}
+RUS = {
+
+	value = -200
+}
+FRA = {
+
+	value = -200
+}
+TUR = {
+	value = 200
+	level = 4
+	influence_value = 14
+}
+BUL = {
+	value = 200
+	level = 5
+	influence_value = 11
+}
+SWE = {
+	value = 100
+	influence_value = 11
+}
+NOR = {
+	value = 100
+}
+DEN = {
+	value = 55
+	influence_value = 5
+}
+
+SER = {
+	value = -200
+	level = 2
+	influence_value = 25
+}
+
+SWI = {
+	value = 125
+	level = 4
+	influence_value = 25
+}
+
+leader = {
+	name = "Êîíðàä ôîí Ã¸òöåíäîðô"
+	type = land
+	date="1914.1.1"
+	personality = imperious
+	background = school_of_firepower
+	picture="personal_franz_hotzendorf"
+}
+
+leader = {
+	name = "Ñâåòîçàð ôîí Áîéíà"
+	type = land
+	date="1914.1.1"
+	personality = stout
+	background = artillerist
+	picture="personal_svetozar_bojna"
+}
+
+leader = {
+	name = "Àðòóð ôîí Øòðàóññåíáóðã"
+	type = land
+	date="1914.1.1"
+	personality = deeply_religious
+	background = gifted_administrator
+	picture="personal_arthur_straubenburg"
+}
+
+leader = {
+	name = "Ôðàíö ôîí Äåíòà"
+	type = land
+	date="1914.1.1"
+	personality = coolminded
+	background = drillmaster
+	picture="personal_franz_denta"
+}
+
+leader = {
+	name = "Ãåðìàí ôîí Ê¸âåññãàçà"
+	type = land
+	date="1914.1.1"
+	personality = competent
+	background = war_college
+	picture="personal_hermann_kovesshaza"
+}
+
+leader = {
+	name = "Âèêòîð ôîí Êðàñíèê"
+	type = land
+	date="1914.1.1"
+	personality = chickenhearted
+	background = hated
+	picture="personal_viktor_krasnik"
+}
+
+leader = {
+	name = "Îñêàð Ïîòèîðåê"
+	type = land
+	date="1914.1.1"
+	personality = wretched
+	background = artillerist
+	picture="personal_oskar_potiorek"
+}
+
+leader = {
+	name = "Ìèêëîø Õîðòè"
+	type = sea
+	date="1914.1.1"
+	personality = stalwart
+	background = politician
+	picture="personal_horthy_miklos"
+}
+
+leader = {
+	name = "Àíòîí Õàóñ"
+	type = sea
+	date="1914.1.1"
+	personality = competent
+	background = bootlicker
+	picture="personal_anton_haus"
+}
+
+army = {
+	name = "Grenztruppen Slavonien"
+	location = 771
+	regiment = {
+		name= "1.1. Grenzdivision"
+		type = guard
+		home = 771
+	}
+
+	regiment = {
+		name= "2.1. Grenzdivision"
+		type = guard
+		home = 771
+	}
+
+	regiment = {
+		name= "3.1. Grenzdivision"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name= "1.2. Grenzdivision"
+		type = infantry
+		home = 767
+	}
+
+	regiment = {
+		name= "2.2. Grenzdivision"
+		type = infantry
+		home = 767
+	}
+
+	regiment = {
+		name= "3.2. Grenzdivision"
+		type = infantry
+		home = 775
+	}
+
+	regiment = {
+		name= "1.3. Grenzdivision"
+		type = infantry
+		home = 768
+	}
+
+	regiment = {
+		name= "2.3. Grenzdivision"
+		type = infantry
+		home = 768
+	}
+
+	regiment = {
+		name= "3.3. Grenzdivision"
+		type = infantry
+		home = 768
+	}
+	regiment = {
+		name= "1.4. Grenzdivision"
+		type = cuirassier
+		home = 773
+	}
+
+	regiment = {
+		name= "2.4. Grenzdivision"
+		type = cuirassier
+		home = 773
+	}
+
+	regiment = {
+		name= "3.4. Grenzdivision"
+		type = cuirassier
+		home = 773
+	}
+
+	regiment = {
+		name= "1.5. Grenzdivision"
+		type = cuirassier
+		home = 644
+	}
+
+	regiment = {
+		name= "2.5. Grenzdivision"
+		type = artillery
+		home = 644
+	}
+
+	regiment = {
+		name= "3.5. Grenzdivision"
+		type = artillery
+		home = 644
+	}
+
+	regiment = {
+		name= "1.6. Grenzdivision"
+		type = artillery
+		home = 644
+	}
+
+	regiment = {
+		name= "2.6. Grenzdivision"
+		type = engineer
+		home = 769
+	}
+
+	regiment = {
+		name= "3.6. Grenzdivision"
+		type = engineer
+		home = 770
+	}
+
+}
+
+army = {
+	name = "Grenztruppen Wallachei"
+	location = 659
+	regiment = {
+		name= "1.7. Grenzdivision"
+		type = infantry
+		home = 659
+	}
+
+	regiment = {
+		name= "2.7. Grenzdivision"
+		type = infantry
+		home = 659
+	}
+
+	regiment = {
+		name= "3.7. Grenzdivision"
+		type = infantry
+		home = 660
+	}
+
+	regiment = {
+		name= "1.8. Grenzdivision"
+		type = infantry
+		home = 660
+	}
+
+	regiment = {
+		name= "2.8. Grenzdivision"
+		type = infantry
+		home = 660
+	}
+
+	regiment = {
+		name= "3.8. Grenzdivision"
+		type = infantry
+		home = 657
+	}
+
+	regiment = {
+		name= "1.9. Grenzdivision"
+		type = infantry
+		home = 657
+	}
+
+	regiment = {
+		name= "2.9. Grenzdivision"
+		type = cuirassier
+		home = 2533
+	}
+
+	regiment = {
+		name= "3.9. Grenzdivision"
+		type = cuirassier
+		home = 2533
+	}
+	regiment = {
+		name= "1.10. Grenzdivision"
+		type = cuirassier
+		home = 2533
+	}
+
+	regiment = {
+		name= "2.10. Grenzdivision"
+		type = cuirassier
+		home = 655
+	}
+
+	regiment = {
+		name= "3.10. Grenzdivision"
+		type = cuirassier
+		home = 655
+	}
+
+	regiment = {
+		name= "1.11. Grenzdivision"
+		type = artillery
+		home = 655
+	}
+
+	regiment = {
+		name= "2.11. Grenzdivision"
+		type = artillery
+		home = 655
+	}
+
+	regiment = {
+		name= "3.11. Grenzdivision"
+		type = artillery
+		home = 656
+	}
+
+	regiment = {
+		name= "1.12. Grenzdivision"
+		type = engineer
+		home = 654
+	}
+
+	regiment = {
+		name= "2.12. Grenzdivision"
+		type = engineer
+		home = 654
+	}
+
+	regiment = {
+		name= "3.12. Grenzdivision"
+		type = engineer
+		home = 656
+	}
+
+}
+
+army = {
+	name = "Grenztruppen Kroatien"
+	location = 772
+	regiment = {
+		name= "1.13. Grenzdivision"
+		type = infantry
+		home = 772
+	}
+
+	regiment = {
+		name= "2.13. Grenzdivision"
+		type = infantry
+		home = 772
+	}
+
+	regiment = {
+		name= "3.13. Grenzdivision"
+		type = infantry
+		home = 777
+	}
+
+	regiment = {
+		name= "1.14. Grenzdivision"
+		type = infantry
+		home = 777
+	}
+
+	regiment = {
+		name= "2.14. Grenzdivision"
+		type = infantry
+		home = 793
+	}
+
+	regiment = {
+		name= "3.14. Grenzdivision"
+		type = infantry
+		home = 793
+	}
+
+	regiment = {
+		name= "1.15. Grenzdivision"
+		type = cuirassier
+		home = 793
+	}
+
+	regiment = {
+		name= "2.15. Grenzdivision"
+		type = cuirassier
+		home = 779
+	}
+
+	regiment = {
+		name= "3.15. Grenzdivision"
+		type = cuirassier
+		home = 779
+	}
+
+	regiment = {
+		name= "1.16. Grenzdivision"
+		type = cuirassier
+		home = 779
+	}
+
+	regiment = {
+		name= "2.16. Grenzdivision"
+		type = cuirassier
+		home = 779
+	}
+
+	regiment = {
+		name= "3.16. Grenzdivision"
+		type = artillery
+		home = 774
+	}
+
+	regiment = {
+		name= "1.17. Grenzdivision"
+		type = artillery
+		home = 774
+	}
+
+	regiment = {
+		name= "2.17. Grenzdivision"
+		type = artillery
+		home = 781
+	}
+
+	regiment = {
+		name= "3.17. Grenzdivision"
+		type = artillery
+		home = 781
+	}
+
+	regiment = {
+		name= "1.18. Grenzdivision"
+		type = engineer
+		home = 781
+	}
+
+	regiment = {
+		name= "2.18. Grenzdivision"
+		type = engineer
+		home = 780
+	}
+
+	regiment = {
+		name= "3.18. Grenzdivision"
+		type = engineer
+		home = 780
+	}
+
+}
+
+army = {
+	name = "Grenztruppen Serbien"
+	location = 653
+	regiment = {
+		name= "1.20. Grenzdivision"
+		type = infantry
+		home = 653
+	}
+
+	regiment = {
+		name= "2.20. Grenzdivision"
+		type = infantry
+		home = 653
+	}
+
+	regiment = {
+		name= "3.20. Grenzdivision"
+		type = infantry
+		home = 653
+	}
+
+	regiment = {
+		name= "1.21. Grenzdivision"
+		type = infantry
+		home = 653
+	}
+
+	regiment = {
+		name= "2.21. Grenzdivision"
+		type = infantry
+		home = 792
+	}
+
+	regiment = {
+		name= "3.21. Grenzdivision"
+		type = infantry
+		home = 792
+	}
+
+	regiment = {
+		name= "1.22. Grenzdivision"
+		type = infantry
+		home = 792
+	}
+
+	regiment = {
+		name= "2.22. Grenzdivision"
+		type = infantry
+		home = 792
+	}
+
+	regiment = {
+		name= "3.22. Grenzdivision"
+		type = cuirassier
+		home = 792
+	}
+
+	regiment = {
+		name= "1.23. Grenzdivision"
+		type = cuirassier
+		home = 652
+	}
+
+	regiment = {
+		name= "2.23. Grenzdivision"
+		type = cuirassier
+		home = 652
+	}
+
+	regiment = {
+		name= "3.23. Grenzdivision"
+		type = cuirassier
+		home = 652
+	}
+
+	regiment = {
+		name= "1.24. Grenzdivision"
+		type = artillery
+		home = 652
+	}
+
+	regiment = {
+		name= "2.24. Grenzdivision"
+		type = artillery
+		home = 652
+	}
+
+	regiment = {
+		name= "3.24. Grenzdivision"
+		type = artillery
+		home = 652
+	}
+
+	regiment = {
+		name= "1.25. Grenzdivision"
+		type = engineer
+		home = 652
+	}
+
+	regiment = {
+		name= "2.25. Grenzdivision"
+		type = engineer
+		home = 652
+	}
+
+	regiment = {
+		name= "3.25. Grenzdivision"
+		type = engineer
+		home = 652
+	}
+
+
+}
+
+army = {
+	name = "I. Armeekorps"
+	location = 619
+	regiment = {
+		name= "1.1. Division"
+		type = guard
+		home = 619
+	}
+
+	regiment = {
+		name= "2.1. Division"
+		type = guard
+		home = 619
+	}
+
+	regiment = {
+		name= "3.1. Division"
+		type = guard
+		home = 619
+	}
+
+	regiment = {
+		name= "4.1. Division"
+		type = infantry
+		home = 619
+	}
+
+	regiment = {
+		name= "1.2. Division"
+		type = infantry
+		home = 619
+	}
+
+	regiment = {
+		name= "2.2. Division"
+		type = infantry
+		home = 621
+	}
+
+	regiment = {
+		name= "3.2. Division"
+		type = infantry
+		home = 621
+	}
+
+	regiment = {
+		name= "1.3. Division"
+		type = cuirassier
+		home = 620
+	}
+
+	regiment = {
+		name= "2.3. Division"
+		type = cuirassier
+		home = 633
+	}
+
+	regiment = {
+		name= "3.3. Division"
+		type = cuirassier
+		home = 633
+	}
+	regiment = {
+		name= "1.4. Division"
+		type = cuirassier
+		home = 633
+	}
+
+	regiment = {
+		name= "2.4. Division"
+		type = cuirassier
+		home = 633
+	}
+
+	regiment = {
+		name= "3.4. Division"
+		type = artillery
+		home = 633
+	}
+
+	regiment = {
+		name= "4.4. Division"
+		type = artillery
+		home = 633
+	}
+
+	regiment = {
+		name= "1.5. Division"
+		type = artillery
+		home = 642
+	}
+
+	regiment = {
+		name= "2.5. Division"
+		type = artillery
+		home = 642
+	}
+
+	regiment = {
+		name= "3.5. Division"
+		type = artillery
+		home = 642
+	}
+
+	regiment = {
+		name= "1.6. Division"
+		type = engineer
+		home = 642
+	}
+
+	regiment = {
+		name= "2.6. Division"
+		type = engineer
+		home = 645
+	}
+
+	regiment = {
+		name= "3.6. Division"
+		type = engineer
+		home = 643
+	}
+
+}
+
+army = {
+	name = "II. Armeekorps"
+	location = 705
+	regiment = {
+		name= "1.7. Division"
+		type = guard
+		home = 613
+	}
+
+	regiment = {
+		name= "2.7. Division"
+		type = guard
+		home = 613
+	}
+
+	regiment = {
+		name= "3.7. Division"
+		type = guard
+		home = 624
+	}
+
+	regiment = {
+		name= "4.7. Division"
+		type = guard
+		home = 624
+	}
+
+	regiment = {
+		name= "1.8. Division"
+		type = infantry
+		home = 643
+	}
+
+	regiment = {
+		name= "2.8. Division"
+		type = infantry
+		home = 643
+	}
+
+	regiment = {
+		name= "3.8. Division"
+		type = infantry
+		home = 643
+	}
+
+	regiment = {
+		name= "1.9. Division"
+		type = cuirassier
+		home = 643
+	}
+
+	regiment = {
+		name= "2.9. Division"
+		type = cuirassier
+		home = 618
+	}
+
+	regiment = {
+		name= "3.9. Division"
+		type = cuirassier
+		home = 618
+	}
+	regiment = {
+		name= "1.10. Division"
+		type = cuirassier
+		home = 952
+	}
+
+	regiment = {
+		name= "2.10. Division"
+		type = cuirassier
+		home = 952
+	}
+
+	regiment = {
+		name= "3.10. Division"
+		type = cuirassier
+		home = 952
+	}
+
+	regiment = {
+		name= "4.10. Division"
+		type = cuirassier
+		home = 786
+	}
+
+	regiment = {
+		name= "1.11. Division"
+		type = artillery
+		home = 702
+	}
+
+	regiment = {
+		name= "2.11. Division"
+		type = artillery
+		home = 702
+	}
+
+	regiment = {
+		name= "3.11. Division"
+		type = artillery
+		home = 705
+	}
+
+	regiment = {
+		name= "1.12. Division"
+		type = engineer
+		home = 951
+	}
+
+	regiment = {
+		name= "2.12. Division"
+		type = engineer
+		home = 951
+	}
+
+	regiment = {
+		name= "3.12. Division"
+		type = engineer
+		home = 769
+	}
+
+}
+
+army = {
+	name = "III. Armeekorps"
+	location = 737
+	regiment = {
+		name= "1.7. Division"
+		type = guard
+		home = 629
+	}
+
+	regiment = {
+		name= "2.7. Division"
+		type = guard
+		home = 629
+	}
+
+	regiment = {
+		name= "3.7. Division"
+		type = guard
+		home = 639
+	}
+
+	regiment = {
+		name= "4.7. Division"
+		type = guard
+		home = 639
+	}
+
+	regiment = {
+		name= "1.8. Division"
+		type = infantry
+		home = 640
+	}
+
+	regiment = {
+		name= "2.8. Division"
+		type = infantry
+		home = 640
+	}
+
+	regiment = {
+		name= "3.8. Division"
+		type = infantry
+		home = 629
+	}
+
+	regiment = {
+		name= "1.9. Division"
+		type = cuirassier
+		home = 629
+	}
+
+	regiment = {
+		name= "2.9. Division"
+		type = cuirassier
+		home = 629
+	}
+
+	regiment = {
+		name= "3.9. Division"
+		type = cuirassier
+		home = 648
+	}
+
+	regiment = {
+		name= "1.10. Division"
+		type = cuirassier
+		home = 648
+	}
+
+	regiment = {
+		name= "2.10. Division"
+		type = cuirassier
+		home = 648
+	}
+
+	regiment = {
+		name= "3.10. Division"
+		type = cuirassier
+		home = 650
+	}
+
+	regiment = {
+		name= "4.10. Division"
+		type = cuirassier
+		home = 650
+	}
+
+	regiment = {
+		name= "1.11. Division"
+		type = artillery
+		home = 651
+	}
+
+	regiment = {
+		name= "2.11. Division"
+		type = artillery
+		home = 651
+	}
+
+	regiment = {
+		name= "3.11. Division"
+		type = artillery
+		home = 651
+	}
+
+	regiment = {
+		name= "1.12. Division"
+		type = engineer
+		home = 950
+	}
+
+	regiment = {
+		name= "2.12. Division"
+		type = engineer
+		home = 950
+	}
+
+	regiment = {
+		name= "3.12. Division"
+		type = engineer
+		home = 2538
+	}
+
+}
+
+army = {
+	name = "IV. Armeekorps"
+	location = 952
+	regiment = {
+		name= "1.13. Division"
+		type = guard
+		home = 650
+	}
+
+	regiment = {
+		name= "2.13. Division"
+		type = guard
+		home = 617
+	}
+
+	regiment = {
+		name= "3.13. Division"
+		type = guard
+		home = 622
+	}
+
+	regiment = {
+		name= "4.13. Division"
+		type = guard
+		home = 622
+	}
+
+	regiment = {
+		name= "1.14. Division"
+		type = infantry
+		home = 622
+	}
+
+	regiment = {
+		name= "2.14. Division"
+		type = infantry
+		home = 622
+	}
+
+	regiment = {
+		name= "3.14. Division"
+		type = infantry
+		home = 622
+	}
+
+	regiment = {
+		name= "1.15. Division"
+		type = cuirassier
+		home = 630
+	}
+
+	regiment = {
+		name= "2.15. Division"
+		type = cuirassier
+		home = 630
+	}
+
+	regiment = {
+		name= "3.15. Division"
+		type = cuirassier
+		home = 643
+	}
+	regiment = {
+		name= "1.16. Division"
+		type = cuirassier
+		home = 703
+	}
+
+	regiment = {
+		name= "2.16. Division"
+		type = cuirassier
+		home = 704
+	}
+
+	regiment = {
+		name= "3.16. Division"
+		type = cuirassier
+		home = 663
+	}
+
+	regiment = {
+		name= "4.16. Division"
+		type = artillery
+		home = 637
+	}
+
+	regiment = {
+		name= "1.17. Division"
+		type = artillery
+		home = 637
+	}
+
+	regiment = {
+		name= "2.17. Division"
+		type = artillery
+		home = 637
+	}
+
+	regiment = {
+		name= "3.17. Division"
+		type = artillery
+		home = 637
+	}
+
+	regiment = {
+		name= "1.18. Division"
+		type = engineer
+		home = 637
+	}
+
+	regiment = {
+		name= "2.18. Division"
+		type = engineer
+		home = 637
+	}
+
+	regiment = {
+		name= "3.18. Division"
+		type = engineer
+		home = 638
+	}
+
+}
+
+army = {
+	name = "V. Armeekorps"
+	location = 614
+	regiment = {
+		name= "1.20. Division"
+		type = guard
+		home = 614
+	}
+
+	regiment = {
+		name= "2.20. Division"
+		type = guard
+		home = 614
+	}
+
+	regiment = {
+		name= "3.20. Division"
+		type = guard
+		home = 626
+	}
+
+	regiment = {
+		name= "4.20. Division"
+		type = guard
+		home = 626
+	}
+
+	regiment = {
+		name= "1.21. Division"
+		type = infantry
+		home = 626
+	}
+
+	regiment = {
+		name= "2.21. Division"
+		type = infantry
+		home = 626
+	}
+
+	regiment = {
+		name= "3.21. Division"
+		type = infantry
+		home = 649
+	}
+
+	regiment = {
+		name= "1.22. Division"
+		type = cuirassier
+		home = 649
+	}
+
+	regiment = {
+		name= "2.22. Division"
+		type = cuirassier
+		home = 649
+	}
+
+	regiment = {
+		name= "3.22. Division"
+		type = cuirassier
+		home = 649
+	}
+	regiment = {
+		name= "1.23. Division"
+		type = cuirassier
+		home = 649
+	}
+
+	regiment = {
+		name= "2.23. Division"
+		type = cuirassier
+		home = 649
+	}
+
+	regiment = {
+		name= "3.23. Division"
+		type = cuirassier
+		home = 649
+	}
+
+	regiment = {
+		name= "4.23. Division"
+		type = artillery
+		home = 632
+	}
+
+	regiment = {
+		name= "1.24. Division"
+		type = artillery
+		home = 632
+	}
+
+	regiment = {
+		name= "2.24. Division"
+		type = artillery
+		home = 632
+	}
+
+	regiment = {
+		name= "3.24. Division"
+		type = artillery
+		home = 632
+	}
+
+	regiment = {
+		name= "1.25. Division"
+		type = engineer
+		home = 688
+	}
+
+	regiment = {
+		name= "2.25. Division"
+		type = engineer
+		home = 689
+	}
+
+	regiment = {
+		name= "3.25. Division"
+		type = engineer
+		home = 634
+	}
+
+
+}
+
+army = {
+	name = "VI. Armeekorps"
+	location = 651
+	regiment = {
+		name= "1.1. Jägerdivision"
+		type = guard
+		home = 615
+	}
+
+	regiment = {
+		name= "2.1. Jägerdivision"
+		type = guard
+		home = 661
+	}
+
+	regiment = {
+		name= "3.1. Jägerdivision"
+		type = guard
+		home = 661
+	}
+
+	regiment = {
+		name= "4.2. Jägerdivision"
+		type = infantry
+		home = 661
+	}
+
+	regiment = {
+		name= "1.2. Jägerdivision"
+		type = infantry
+		home = 661
+	}
+
+	regiment = {
+		name= "2.2. Jägerdivision"
+		type = infantry
+		home = 646
+	}
+
+	regiment = {
+		name= "3.2. Jägerdivision"
+		type = infantry
+		home = 646
+	}
+
+	regiment = {
+		name= "4.2. Jägerdivision"
+		type = engineer
+		home = 646
+	}
+
+	regiment = {
+		name= "1.3. Jägerdivision"
+		type = infantry
+		home = 646
+	}
+
+	regiment = {
+		name= "2.3. Jägerdivision"
+		type = infantry
+		home = 636
+	}
+
+	regiment = {
+		name= "3.3. Jägerdivision"
+		type = infantry
+		home = 636
+	}
+
+	regiment = {
+		name= "4.3. Jägerdivision"
+		type = engineer
+		home = 953
+	}
+
+	regiment = {
+		name= "2.4. Jägerdivision"
+		type = cuirassier
+		home = 735
+	}
+
+	regiment = {
+		name= "3.4. Jägerdivision"
+		type = cuirassier
+		home = 735
+	}
+
+	regiment = {
+		name= "4.4. Jägerdivision"
+		type = cuirassier
+		home = 735
+	}
+
+	regiment = {
+		name= "1.5. Jägerdivision"
+		type = artillery
+		home = 612
+	}
+
+	regiment = {
+		name= "2.5. Jägerdivision"
+		type = artillery
+		home = 612
+	}
+
+	regiment = {
+		name= "3.5. Jägerdivision"
+		type = artillery
+		home = 647
+	}
+
+	regiment = {
+		name= "4.5. Jägerdivision"
+		type = artillery
+		home = 647
+	}
+
+	regiment = {
+		name= "1.6. Jägerdivision"
+		type = engineer
+		home = 647
+	}
+
+	regiment = {
+		name= "2.6. Jägerdivision"
+		type = engineer
+		home = 647
+	}
+
+	regiment = {
+		name= "3.6. Jägerdivision"
+		type = engineer
+		home = 647
+	}
+
+	regiment = {
+		name= "4.6. Jägerdivision"
+		type = engineer
+		home = 647
+	}
+}
+
+
+
+
+
+army = {
+	name = "VII. Armeekorps"
+	location = 702
+	regiment = {
+		name= "1.26. Division"
+		type = guard
+		home = 628
+	}
+
+	regiment = {
+		name= "2.26. Division"
+		type = guard
+		home = 628
+	}
+
+	regiment = {
+		name= "3.26. Division"
+		type = guard
+		home = 628
+	}
+
+	regiment = {
+		name= "4.26. Division"
+		type = guard
+		home = 627
+	}
+
+	regiment = {
+		name= "1.27. Division"
+		type = infantry
+		home = 625
+	}
+
+	regiment = {
+		name= "2.27. Division"
+		type = infantry
+		home = 625
+	}
+
+	regiment = {
+		name= "3.27. Division"
+		type = infantry
+		home = 625
+	}
+
+	regiment = {
+		name= "1.28. Division"
+		type = infantry
+		home = 625
+	}
+
+	regiment = {
+		name= "2.28. Division"
+		type = infantry
+		home = 625
+	}
+
+	regiment = {
+		name= "3.28. Division"
+		type = infantry
+		home = 625
+	}
+
+	regiment = {
+		name= "1.29. Division"
+		type = cuirassier
+		home = 625
+	}
+
+	regiment = {
+		name= "2.29. Division"
+		type = cuirassier
+		home = 625
+	}
+
+	regiment = {
+		name= "3.29. Division"
+		type = cuirassier
+		home = 625
+	}
+
+	regiment = {
+		name= "4.29. Division"
+		type = artillery
+		home = 625
+	}
+
+	regiment = {
+		name= "1.30. Division"
+		type = artillery
+		home = 625
+	}
+
+	regiment = {
+		name= "2.30. Division"
+		type = artillery
+		home = 625
+	}
+
+	regiment = {
+		name= "3.30. Division"
+		type = artillery
+		home = 625
+	}
+
+	regiment = {
+		name= "1.31. Division"
+		type = engineer
+		home = 627
+	}
+
+	regiment = {
+		name= "2.31. Division"
+		type = engineer
+		home = 627
+	}
+
+	regiment = {
+		name= "3.31. Division"
+		type = engineer
+		home = 627
+	}
+}
+
+army = {
+	name = "VIII. Armeekorps"
+	location = 651
+	regiment = {
+		name= "1.1. Jägerdivision"
+		type = guard
+		home = 624
+	}
+
+	regiment = {
+		name= "2.1. Jägerdivision"
+		type = guard
+		home = 651
+	}
+
+	regiment = {
+		name= "3.1. Jägerdivision"
+		type = guard
+		home = 653
+	}
+
+	regiment = {
+		name= "4.2. Jägerdivision"
+		type = infantry
+		home = 634
+	}
+
+	regiment = {
+		name= "1.2. Jägerdivision"
+		type = infantry
+		home = 639
+	}
+
+	regiment = {
+		name= "2.2. Jägerdivision"
+		type = infantry
+		home = 647
+	}
+
+	regiment = {
+		name= "3.2. Jägerdivision"
+		type = infantry
+		home = 647
+	}
+
+	regiment = {
+		name= "4.2. Jägerdivision"
+		type = engineer
+		home = 647
+	}
+
+	regiment = {
+		name= "1.3. Jägerdivision"
+		type = infantry
+		home = 647
+	}
+
+	regiment = {
+		name= "2.3. Jägerdivision"
+		type = infantry
+		home = 651
+	}
+
+	regiment = {
+		name= "3.3. Jägerdivision"
+		type = infantry
+		home = 651
+	}
+
+	regiment = {
+		name= "4.3. Jägerdivision"
+		type = engineer
+		home = 651
+	}
+
+	regiment = {
+		name= "2.4. Jägerdivision"
+		type = cuirassier
+		home = 652
+	}
+
+	regiment = {
+		name= "3.4. Jägerdivision"
+		type = cuirassier
+		home = 652
+	}
+
+	regiment = {
+		name= "4.4. Jägerdivision"
+		type = cuirassier
+		home = 652
+	}
+
+	regiment = {
+		name= "1.5. Jägerdivision"
+		type = artillery
+		home = 652
+	}
+
+	regiment = {
+		name= "2.5. Jägerdivision"
+		type = artillery
+		home = 652
+	}
+
+	regiment = {
+		name= "3.5. Jägerdivision"
+		type = artillery
+		home = 652
+	}
+
+	regiment = {
+		name= "4.5. Jägerdivision"
+		type = artillery
+		home = 654
+	}
+
+	regiment = {
+		name= "1.6. Jägerdivision"
+		type = engineer
+		home = 656
+	}
+
+	regiment = {
+		name= "2.6. Jägerdivision"
+		type = engineer
+		home = 656
+	}
+
+	regiment = {
+		name= "3.6. Jägerdivision"
+		type = engineer
+		home = 657
+	}
+
+	regiment = {
+		name= "4.6. Jägerdivision"
+		type = engineer
+		home = 657
+	}
+}
+
+army = {
+	name = "IX. Armeekorps"
+	location = 651
+	regiment = {
+		name= "1.1. Jägerdivision"
+		type = guard
+		home = 659
+	}
+
+	regiment = {
+		name= "2.1. Jägerdivision"
+		type = guard
+		home = 659
+	}
+
+	regiment = {
+		name= "3.1. Jägerdivision"
+		type = guard
+		home = 660
+	}
+
+	regiment = {
+		name= "4.2. Jägerdivision"
+		type = infantry
+		home = 661
+	}
+
+	regiment = {
+		name= "1.2. Jägerdivision"
+		type = infantry
+		home = 661
+	}
+
+	regiment = {
+		name= "2.2. Jägerdivision"
+		type = infantry
+		home = 662
+	}
+
+	regiment = {
+		name= "3.2. Jägerdivision"
+		type = infantry
+		home = 663
+	}
+
+	regiment = {
+		name= "4.2. Jägerdivision"
+		type = engineer
+		home = 663
+	}
+
+	regiment = {
+		name= "1.3. Jägerdivision"
+		type = infantry
+		home = 702
+	}
+
+	regiment = {
+		name= "2.3. Jägerdivision"
+		type = infantry
+		home = 702
+	}
+
+	regiment = {
+		name= "3.3. Jägerdivision"
+		type = infantry
+		home = 702
+	}
+
+	regiment = {
+		name= "4.3. Jägerdivision"
+		type = engineer
+		home = 702
+	}
+
+	regiment = {
+		name= "2.4. Jägerdivision"
+		type = cuirassier
+		home = 702
+	}
+
+	regiment = {
+		name= "3.4. Jägerdivision"
+		type = cuirassier
+		home = 703
+	}
+
+	regiment = {
+		name= "4.4. Jägerdivision"
+		type = cuirassier
+		home = 703
+	}
+
+	regiment = {
+		name= "1.5. Jägerdivision"
+		type = artillery
+		home = 704
+	}
+
+	regiment = {
+		name= "2.5. Jägerdivision"
+		type = artillery
+		home = 704
+	}
+
+	regiment = {
+		name= "3.5. Jägerdivision"
+		type = artillery
+		home = 705
+	}
+
+	regiment = {
+		name= "4.5. Jägerdivision"
+		type = artillery
+		home = 705
+	}
+
+	regiment = {
+		name= "1.6. Jägerdivision"
+		type = engineer
+		home = 705
+	}
+
+	regiment = {
+		name= "2.6. Jägerdivision"
+		type = engineer
+		home = 714
+	}
+
+	regiment = {
+		name= "3.6. Jägerdivision"
+		type = engineer
+		home = 714
+	}
+
+	regiment = {
+		name= "4.6. Jägerdivision"
+		type = engineer
+		home = 734
+	}
+}
+
+
+army = {
+	name = "I. Kavalleriekorps"
+	location = 714
+	regiment = {
+		name= "1.1. Kavalleriedivision"
+		type = cavalry
+		home = 714
+	}
+
+	regiment = {
+		name= "2.1. Kavalleriedivision"
+		type = cavalry
+		home = 631
+	}
+
+	regiment = {
+		name= "3.1. Kavalleriedivision"
+		type = cavalry
+		home = 631
+	}
+
+	regiment = {
+		name= "1.2. Kavalleriedivision"
+		type = cavalry
+		home = 631
+	}
+
+	regiment = {
+		name= "2.2. Kavalleriedivision"
+		type = cavalry
+		home = 631
+	}
+
+	regiment = {
+		name= "3.2. Kavalleriedivision"
+		type = cavalry
+		home = 631
+	}
+
+	regiment = {
+		name= "1.3. Kavalleriedivision"
+		type = cavalry
+		home = 631
+	}
+
+	regiment = {
+		name= "2.3. Kavalleriedivision"
+		type = cavalry
+		home = 631
+	}
+
+	regiment = {
+		name= "3.3. Kavalleriedivision"
+		type = cavalry
+		home = 627
+	}
+
+}
+
+army = {
+	name = "II. Kavalleriekorps"
+	location = 641
+	regiment = {
+		name= "1.4. Kavalleriedivision"
+		type = dragoon
+		home = 641
+	}
+
+	regiment = {
+		name= "2.4. Kavalleriedivision"
+		type = dragoon
+		home = 639
+	}
+
+	regiment = {
+		name= "3.4. Kavalleriedivision"
+		type = dragoon
+		home = 639
+	}
+
+	regiment = {
+		name= "1.5. Kavalleriedivision"
+		type = dragoon
+		home = 639
+	}
+
+	regiment = {
+		name= "2.5. Kavalleriedivision"
+		type = dragoon
+		home = 639
+	}
+
+	regiment = {
+		name= "3.5. Kavalleriedivision"
+		type = dragoon
+		home = 635
+	}
+
+	regiment = {
+		name= "1.6. Kavalleriedivision"
+		type = dragoon
+		home = 635
+	}
+
+	regiment = {
+		name= "2.6. Kavalleriedivision"
+		type = dragoon
+		home = 635
+	}
+
+	regiment = {
+		name= "3.6. Kavalleriedivision"
+		type = dragoon
+		home = 651
+	}
+
+}
+
+army = {
+	name = "II. Kavalleriekorps"
+	location = 641
+	regiment = {
+		name= "1.4. Kavalleriedivision"
+		type = dragoon
+		home = 641
+	}
+
+	regiment = {
+		name= "2.4. Kavalleriedivision"
+		type = dragoon
+		home = 641
+	}
+
+	regiment = {
+		name= "3.4. Kavalleriedivision"
+		type = dragoon
+		home = 641
+	}
+
+	regiment = {
+		name= "1.5. Kavalleriedivision"
+		type = dragoon
+		home = 641
+	}
+
+	regiment = {
+		name= "2.5. Kavalleriedivision"
+		type = dragoon
+		home = 641
+	}
+
+	regiment = {
+		name= "3.5. Kavalleriedivision"
+		type = dragoon
+		home = 641
+	}
+
+	regiment = {
+		name= "1.6. Kavalleriedivision"
+		type = dragoon
+		home = 641
+	}
+
+	regiment = {
+		name= "2.6. Kavalleriedivision"
+		type = dragoon
+		home = 641
+	}
+
+	regiment = {
+		name= "3.6. Kavalleriedivision"
+		type = dragoon
+		home = 641
+	}
+
+}
+
+army = {
+	name = "II. Kavalleriekorps"
+	location = 641
+	regiment = {
+		name= "1.4. Kavalleriedivision"
+		type = dragoon
+		home = 641
+	}
+
+	regiment = {
+		name= "2.4. Kavalleriedivision"
+		type = dragoon
+		home = 641
+	}
+
+	regiment = {
+		name= "3.4. Kavalleriedivision"
+		type = dragoon
+		home = 641
+	}
+
+	regiment = {
+		name= "1.5. Kavalleriedivision"
+		type = dragoon
+		home = 641
+	}
+
+	regiment = {
+		name= "2.5. Kavalleriedivision"
+		type = dragoon
+		home = 641
+	}
+
+	regiment = {
+		name= "3.5. Kavalleriedivision"
+		type = dragoon
+		home = 641
+	}
+
+	regiment = {
+		name= "1.6. Kavalleriedivision"
+		type = dragoon
+		home = 641
+	}
+
+	regiment = {
+		name= "2.6. Kavalleriedivision"
+		type = dragoon
+		home = 641
+	}
+
+	regiment = {
+		name= "3.6. Kavalleriedivision"
+		type = dragoon
+		home = 641
+	}
+
+}
+
+navy = {
+	name = "K & K Kriegsflotte"
+	location = 736
+	ship = {
+		name= "SMS Ferdinand Max"
+		type = ironclad
+	}
+
+	ship = {
+		name= "SMS Schwarzenberg"
+		type = cruiser
+	}
+
+	ship = {
+		name= "SMS Aurora"
+		type = cruiser
+	}
+
+	ship = {
+		name= "SMS Donau"
+		type = frigate
+	}
+
+	ship = {
+		name= "SMS Bellona"
+		type = cruiser
+	}
+
+	ship = {
+		name= "SMS Novara"
+		type = monitor
+	}
+
+	ship = {
+		name= "SMS Radetsky"
+		type = monitor
+	}
+
+	ship = {
+		name= "SMS Kaiser"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "SMS Helgoland"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "SMS Frundsberg"
+		type = commerce_raider
+	}
+
+}
+

@@ -1,0 +1,16 @@
+add_core = XNC
+terrain = good_farmland
+ 
+trade_goods = tobacco
+life_rating = 35
+1861.1.1 = {
+	controller = CSA
+	owner = CSA
+	add_core = CSA}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	railroad = 5
+	 
+	 
+	remove_core = CSA
+}

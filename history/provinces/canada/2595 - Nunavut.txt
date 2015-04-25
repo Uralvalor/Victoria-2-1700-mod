@@ -1,0 +1,11 @@
+ 
+ 
+add_core = CAN
+trade_goods = fish
+life_rating = 25
+colonial = 2
+1914.1.1 = {
+	owner = CAN
+	controller = CAN
+	colonial = no
+}

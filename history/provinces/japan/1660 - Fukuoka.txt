@@ -1,0 +1,40 @@
+owner = SAT
+controller = SAT
+add_core = SAT
+add_core = TKG
+trade_goods = tea
+life_rating = 35
+terrain = good_farmland
+1914.1.1 = {
+	railroad = 3
+	remove_core = SAT
+	remove_core = TKG
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+	state_building = {
+		level = 7
+		building = luxury_furniture_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 7
+		building = artillery_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 7
+		building = clipper_shipyard
+		upgrade = yes
+	}
+	state_building = {
+		level = 7
+		building = fabric_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 7
+		building = steel_factory
+		upgrade = yes
+	}
+}

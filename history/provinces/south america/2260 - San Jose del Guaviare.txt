@@ -1,0 +1,25 @@
+
+add_core = GCO
+add_core = CLM
+trade_goods = cattle
+life_rating = 25
+terrain = jungle
+1750.1.1 = {
+	owner = SPA
+	controller = SPA
+colony = 2
+}
+1836.1.1 = {
+	owner = CLM
+	controller = CLM
+	remove_core = SPA
+	remove_core = GCO
+	colonial = no
+}
+1914.1.1 = {
+	state_building = {
+		level = 1
+		building = luxury_furniture_factory
+		upgrade = yes
+	}
+}

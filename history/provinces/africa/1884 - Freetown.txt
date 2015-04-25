@@ -1,0 +1,15 @@
+owner = ENL
+controller = ENL
+trade_goods = grain
+life_rating = 35
+colonial = 2
+naval_base = 1
+terrain = jungle_farmland
+1750.1.1 = {
+	owner = ENG
+	controller = ENG
+}
+1914.1.1 = {
+	trade_goods = precious_metal
+	naval_base = 4
+}

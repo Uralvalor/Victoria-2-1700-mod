@@ -1,0 +1,539 @@
+#La Paz Region (784000)
+#Ruled by Bolivia 1836
+#La Paz (392000/98000 POPS)
+2310 = {
+	aristocrats = {
+		culture = platinean
+		religion = catholic
+		size = 194
+	}
+
+	bureaucrats = {
+		culture = platinean
+		religion = catholic
+		size = 348
+	}
+	clergymen = {
+		culture = platinean
+		religion = catholic
+		size = 205
+	}
+
+	artisans = {
+		culture = platinean
+		religion = catholic
+		size = 3782
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = catholic
+		size = 1293
+	}
+
+	farmers = {
+		culture = platinean
+		religion = catholic
+		size = 19035
+	}
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 1098
+	}
+
+	artisans = {
+		culture = aimara
+		religion = catholic
+		size = 2034
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = catholic
+		size = 54
+	}
+
+	farmers = {
+		culture = aimara
+		religion = catholic
+		size = 14905
+	}
+	
+	farmers = {
+		culture = aimara
+		religion = animist
+		size = 374
+	}
+
+	artisans = {
+		culture = quechua
+		religion = catholic
+		size = 1024
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = catholic
+		size = 32
+	}
+
+	farmers = {
+		culture = quechua
+		religion = catholic
+		size = 6743
+	}
+	farmers = {
+		culture = quechua
+		religion = animist
+		size = 56
+	}
+
+}
+#Cochabamba (352000/88000 POPS)
+2311 = {
+	farmers = {
+		culture = platinean
+		religion = catholic
+		size = 1094
+	}
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 99
+	}
+
+	artisans = {
+		culture = aimara
+		religion = catholic
+		size = 3456
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = catholic
+		size = 234
+	}
+
+	farmers = {
+		culture = aimara
+		religion = catholic
+		size = 16789
+	}
+	
+	farmers = {
+		culture = aimara
+		religion = animist
+		size = 1097
+	}
+
+	artisans = {
+		culture = quechua
+		religion = catholic
+		size = 341
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = catholic
+		size = 79
+	}
+
+	farmers = {
+		culture = quechua
+		religion = catholic
+		size = 1236
+	}
+	farmers = {
+		culture = quechua
+		religion = animist
+		size = 1139
+	}
+
+}
+#Oruro (40000/10000 POPS)
+2312 = {
+	aristocrats = {
+		culture = platinean
+		religion = catholic
+		size = 73
+	}
+
+	bureaucrats = {
+		culture = platinean
+		religion = catholic
+		size = 42
+	}
+	clergymen = {
+		culture = platinean
+		religion = catholic
+		size = 74
+	}
+
+	artisans = {
+		culture = platinean
+		religion = catholic
+		size = 903
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = catholic
+		size = 47
+	}
+
+	farmers = {
+		culture = platinean
+		religion = catholic
+		size = 2873
+	}
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 782
+	}
+
+	artisans = {
+		culture = aimara
+		religion = catholic
+		size = 1923
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = catholic
+		size = 604
+	}
+
+	farmers = {
+		culture = aimara
+		religion = catholic
+		size = 9856
+	}
+	
+	farmers = {
+		culture = aimara
+		religion = animist
+		size = 1023
+	}
+
+	artisans = {
+		culture = quechua
+		religion = catholic
+		size = 231
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = catholic
+		size = 79
+	}
+
+	farmers = {
+		culture = quechua
+		religion = catholic
+		size = 2094
+	}
+	farmers = {
+		culture = quechua
+		religion = animist
+		size = 382
+	}
+
+}
+#Chuquisaca Region (288000)
+#Ruled by Bolivia 1836
+#Chuquisaca (116000/29000 POPS)
+2313 = {
+	farmers = {
+		culture = platinean
+		religion = catholic
+		size = 1327
+	}
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 326
+	}
+
+	artisans = {
+		culture = aimara
+		religion = catholic
+		size = 1763
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = catholic
+		size = 164
+	}
+
+	farmers = {
+		culture = aimara
+		religion = catholic
+		size = 6534
+	}
+	
+	farmers = {
+		culture = aimara
+		religion = animist
+		size = 5783
+	}
+
+	artisans = {
+		culture = quechua
+		religion = catholic
+		size = 643
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = catholic
+		size = 79
+	}
+
+	farmers = {
+		culture = quechua
+		religion = catholic
+		size = 1984
+	}
+	farmers = {
+		culture = quechua
+		religion = animist
+		size = 904
+	}
+
+}
+#Potosi (120000/30000 POPS)
+2314 = {
+	aristocrats = {
+		culture = platinean
+		religion = catholic
+		size = 83
+	}
+
+	bureaucrats = {
+		culture = platinean
+		religion = catholic
+		size = 64
+	}
+	clergymen = {
+		culture = platinean
+		religion = catholic
+		size = 78
+	}
+
+	artisans = {
+		culture = platinean
+		religion = catholic
+		size = 1284
+	}
+
+	soldiers = {
+		culture = platinean
+		religion = catholic
+		size = 124
+	}
+
+	farmers = {
+		culture = platinean
+		religion = catholic
+		size = 4583
+	}
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 1378
+	}
+
+	artisans = {
+		culture = aimara
+		religion = catholic
+		size = 3672
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = catholic
+		size = 235
+	}
+
+	farmers = {
+		culture = aimara
+		religion = catholic
+		size = 12845
+	}
+	
+	farmers = {
+		culture = aimara
+		religion = animist
+		size = 873
+	}
+
+	artisans = {
+		culture = quechua
+		religion = catholic
+		size = 1023
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = catholic
+		size = 76
+	}
+
+	farmers = {
+		culture = quechua
+		religion = catholic
+		size = 4783
+	}
+	farmers = {
+		culture = quechua
+		religion = animist
+		size = 173
+	}
+
+}
+#Tarija (52000/13000 POPS)
+2315 = {
+	artisans = {
+		culture = platinean
+		religion = catholic
+		size = 1094
+	}
+	
+	farmers = {
+		culture = platinean
+		religion = catholic
+		size = 3472
+	}
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 874
+	}
+
+	artisans = {
+		culture = aimara
+		religion = catholic
+		size = 3485
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = catholic
+		size = 673
+	}
+
+	farmers = {
+		culture = aimara
+		religion = catholic
+		size = 13783
+	}
+	
+	farmers = {
+		culture = aimara
+		religion = animist
+		size = 4532
+	}
+
+	artisans = {
+		culture = quechua
+		religion = catholic
+		size = 904
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = catholic
+		size = 35
+	}
+
+	farmers = {
+		culture = quechua
+		religion = catholic
+		size = 3623
+	}
+	farmers = {
+		culture = quechua
+		religion = animist
+		size = 2845
+	}
+
+}
+#Santa Cruz Region (48000)
+#Ruled by Bolivia 1836
+#Santa Cruz (16000/4000 POPS)
+2316 = {
+	farmers = {
+		culture = amazonian
+		religion = animist
+		size = 3456
+	}
+
+}
+#San Ignacio (20000/5000 POPS)
+2317 = {
+	clergymen = {
+		culture = zhe
+		religion = animist
+		size = 33
+	}
+
+	artisans = {
+		culture = zhe
+		religion = animist
+		size = 65
+	}
+
+	soldiers = {
+		culture = zhe
+		religion = animist
+		size = 16
+	}
+
+	farmers = {
+		culture = zhe
+		religion = animist
+		size = 1170
+	}
+}
+#Robore (12000/3000 POPS)
+2318 = {
+	farmers = {
+		culture = guarani
+		religion = animist
+		size = 4521
+	}
+
+}
+#Beni Region (116000) #see Brazil.txt for balance of region
+#Ruled by Bolivia 1836
+#Santa Ana (76000/19000 POPS)
+2319 = {
+	farmers = {
+		culture = amazonian
+		religion = animist
+		size = 2674
+	}
+
+}
+#Riberalta (12000/3000 POPS)
+2320 = {
+	farmers = {
+		culture = amazonian
+		religion = animist
+		size = 6341
+	}
+
+}
+#Cobija (28000/7000 POPS)
+2321 = {
+	farmers = {
+		culture = amazonian
+		religion = animist
+		size = 5210
+	}
+
+
+}

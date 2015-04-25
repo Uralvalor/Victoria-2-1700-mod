@@ -1,0 +1,27 @@
+owner = UKR
+controller = UKR
+add_core = RUS
+add_core = UKR
+add_core = CSK
+trade_goods = cattle
+life_rating = 35
+terrain = dry_grassland
+1914.1.1 = {
+	railroad = 4
+	state_building = {
+		level = 15
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 10
+		building = machine_parts_factory
+		upgrade = yes
+	}
+}
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+	remove_core = RUS
+}

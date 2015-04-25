@@ -1,0 +1,16 @@
+owner = SPA
+controller = SPA
+add_core = SAR
+add_core = ITA
+trade_goods = grain
+life_rating = 35
+terrain = hilly_farmland
+1861.1.1 = {
+	controller = ITA
+	owner = ITA
+	add_core = ITA
+}
+1914.1.1 = {
+	trade_goods = precious_metal
+	railroad = 4
+}

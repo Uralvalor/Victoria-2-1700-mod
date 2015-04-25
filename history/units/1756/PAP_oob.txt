@@ -1,0 +1,37 @@
+army = {
+	name = "Армия Понтифика"
+	location = 749
+	regiment = {
+		name= "1-я бригада зуавов"
+		type = infantry
+		home = 749
+	}
+
+	regiment = {
+		name= "2-я бригада зуавов"
+		type = infantry
+		home = 750
+	}
+
+	regiment = {
+		name= "3-я бригада зуавов"
+		type = artillery
+		home = 751
+	}
+	regiment = {
+		name= "4-я бригада зуавов"
+		type = infantry
+		home = 741
+	}
+	regiment = {
+		name= "5-я бригада зуавов"
+		type = infantry
+		home = 749
+	}
+	regiment = {
+		name= "6-я бригада зуавов"
+		type = infantry
+		home = 749
+	}
+}
+

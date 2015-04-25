@@ -1,0 +1,113 @@
+NET = {
+
+	value = 100
+	truce_until = "1914.7.1"
+}
+
+leader = {
+	name = "Жерар Леман"
+	type = land
+	date="1914.1.1"
+	personality = cautious
+	background = drillmaster
+	picture="personal_gerard_leman"
+}
+
+leader = {
+	name = "Виктор Дегиз"
+	type = land
+	date="1914.1.1"
+	personality = able
+	background = generals_aide
+	picture="personal_victor_deguise"
+}
+
+army = {
+	name = "Регулярная Армия"
+	location = 387
+	regiment = {
+		name = "1st Guard Corps"
+		type = guard
+		home = 395
+	}
+	regiment = {
+		name = "1st Artillery"
+		type = artillery
+		home = 388
+	}
+	regiment = {
+		name = "4th Infantry Regiment"
+		type = guard
+		home = 389
+	}
+	regiment = {
+		name = "22nd Infantry Regiment"
+		type = guard
+		home = 390
+	}
+	regiment = {
+		name = "3rd Cavalry Group"
+		type = cavalry
+		home = 393
+	}
+	regiment = {
+		name = "1st Guard Corps"
+		type = guard
+		home = 387
+	}
+	regiment = {
+		name = "1st Artillery"
+		type = artillery
+		home = 387
+	}
+	regiment = {
+		name = "4th Infantry Regiment"
+		type = guard
+		home = 387
+	}
+	regiment = {
+		name = "22nd Infantry Regiment"
+		type = guard
+		home = 389
+	}
+	regiment = {
+		name = "3rd Cavalry Group"
+		type = cavalry
+		home = 393
+	}
+	regiment = {
+		name = "1st Guard Corps"
+		type = guard
+		home = 390
+	}
+	regiment = {
+		name = "1st Artillery"
+		type = artillery
+		home = 392
+	}
+	regiment = {
+		name = "4th Infantry Regiment"
+		type = guard
+		home = 392
+	}
+	regiment = {
+		name = "22nd Infantry Regiment"
+		type = guard
+		home = 392
+	}
+	regiment = {
+		name = "3rd Cavalry Group"
+		type = cavalry
+		home = 394
+	}
+	regiment = {
+		name = "3rd Cavalry Group"
+		type = cavalry
+		home = 396
+	}
+	regiment = {
+		name = "3rd Cavalry Group"
+		type = cavalry
+		home = 398
+	}
+}
