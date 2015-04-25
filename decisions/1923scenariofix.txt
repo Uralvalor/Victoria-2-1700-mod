@@ -1,0 +1,32 @@
+political_decisions = {	
+
+	balance_decision_1923 = {
+		potential = {
+			is_greater_power = no
+			is_greater_power = yes
+		}
+		allow = {
+		}
+		effect = {
+			GER = {
+				remove_country_modifier = germany_mobilization
+				remove_country_modifier = prussian_general_staff
+				remove_country_modifier = ruhr_boom
+				add_country_modifier = {
+					name = treaty_versailles
+					duration = -1
+				}
+				badboy = 23
+			}
+			KUK = {
+				add_country_modifier = austria_mobilization
+			}
+			TUR = {
+				add_country_modifier = turkey_mobilization
+			}
+			FRA = {
+				add_country_modifier = france_mobilization
+			}
+		}
+	}
+}

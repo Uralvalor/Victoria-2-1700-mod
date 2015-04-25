@@ -1,0 +1,160 @@
+political_decisions = {
+        CSA_ind = {
+            potential = {
+                tag = CSA
+		has_global_flag = american_civil_war_has_happened
+                NOT = {
+				has_country_flag = CSA_ind
+			}
+			}
+               allow = {
+                  NOT = {
+                        war_with = USA
+			}
+			}
+                effect = {
+          USA = {
+             capital = 232
+                }
+			USA = {
+                        any_owned = {
+                      limit = {
+                          is_slave = yes
+                      }
+				add_core = CSA
+                                remove_core = USA
+                      }
+			}
+			USA = {
+                        any_owned = {
+                      limit = {
+                          is_core = CSA
+                      }
+                                remove_core = USA
+                      }
+			}
+                      USA = {
+                                 release = CSA
+}
+			CSA = {
+				all_core = {
+					remove_core = USA
+				}
+			CSA = {
+				any_owned = {
+                      limit = {
+                          is_core = USA
+                      }
+				add_core = CSA
+                                remove_core = USA
+                      }
+				}
+			}
+                tech_school = prussian_tech_school
+                set_country_flag = CSA_ind
+			}
+		}
+	manifest_destiny_CSA = {
+		potential = {
+			tag = CSA
+			nationalism_n_imperialism = 1
+			NOT = {
+				has_country_flag = manifest_destiny_CSA
+			}
+		}
+		allow = {
+			2142 = {
+					owned_by = CSA
+		}
+			2141 = {
+					owned_by = CSA
+		}
+		}
+		effect = {
+			set_country_flag = manifest_destiny_CSA
+			any_pop = {
+				consciousness = 2
+			}
+						MEX = {
+				all_core = {
+					add_core = CSA
+				}
+		add_accepted_culture = mexican
+		}
+	}
+}
+CSA_Mex_ind = {
+            potential = {
+                tag = CSA
+				has_country_flag = manifest_destiny_CSA
+                NOT = {
+				has_country_flag = CSA_Mex_ind
+			}
+			}
+               allow = {
+			84 = {
+					owned_by = CSA
+		}
+			96 = {
+					owned_by = CSA
+		}
+			102 = {
+					owned_by = CSA
+		}
+			103 = {
+					owned_by = CSA
+		}
+                  NOT = {
+                        war_with = USA
+			}
+			}
+                effect = {
+			MEX = {
+				all_core = {
+					remove_core = USA
+				}
+			}
+                set_country_flag = CSA_Mex_ind
+			}
+		}
+
+	CSA_march_on_the_USA = {
+		potential = {
+			tag = CSA
+			war_with = USA
+			NOT = {
+				has_country_flag = CSA_march_on_the_USA
+			}
+		}		
+		allow = {
+			controls = 220
+		}
+		
+		effect = {
+			set_country_flag = CSA_march_on_the_USA
+			USA = {
+				war_exhaustion = 25
+			}
+		}
+	}
+	enact_the_homestead_act_CSA = {
+		potential = {
+			tag = CSA
+			government = democracy
+			NOT = {
+				has_country_modifier = the_homestead_act_CSA
+			}
+			year = 1862
+		}
+		allow = {
+			prestige = 40
+		}
+		effect = {
+			set_country_flag = the_homestead_act_CSA
+			add_country_modifier = {
+				name = the_homestead_act_CSA
+				duration = -1
+			}
+		}
+	}
+                    }

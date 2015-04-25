@@ -1,0 +1,364 @@
+political_decisions = {
+	unite_emirates = {
+		picture = arabia
+		potential = {
+			primary_culture = bedouin
+			OR = {
+				capital = 1167
+				capital = 1168
+				capital = 3273
+				capital = 3274
+				capital = 3275
+				capital = 3276
+			}
+			NOT = {
+				exists = UAE
+			}
+		}
+	
+		allow = {
+			war = no
+			owns = 1167
+			owns = 1168
+			owns = 3273
+			owns = 3274
+			owns = 3275
+			owns = 3276
+		}
+	
+		effect = {
+			prestige = 10
+			change_tag = UAE
+			any_owned = {
+				limit = {
+					OR = {
+						province_id = 1167
+						province_id = 1168
+						province_id = 3273
+						province_id = 3274
+						province_id = 3275
+						province_id = 3276
+					}
+				}
+				add_core = UAE
+			}
+		}
+	}
+	unite_emirates_sphere_leader = {
+		picture = arabia
+		potential = {
+			OR = {
+				1167 = {
+					OR = {
+						owner = {in_sphere = THIS ai = yes}
+						owned_by = THIS
+					}
+				}
+				1168 = {
+					OR = {
+						owner = {in_sphere = THIS ai = yes}
+						owned_by = THIS
+					}
+				}
+				3273 = {
+					OR = {
+						owner = {in_sphere = THIS ai = yes}
+						owned_by = THIS
+					}
+				}
+				3274 = {
+					OR = {
+						owner = {in_sphere = THIS ai = yes}
+						owned_by = THIS
+					}
+				}
+				3275 = {
+					OR = {
+						owner = {in_sphere = THIS ai = yes}
+						owned_by = THIS
+					}
+				}
+				3276 = {
+					OR = {
+						owner = {in_sphere = THIS ai = yes}
+						owned_by = THIS
+					}
+				}
+			}
+			NOT = {
+				exists = UAE
+			}
+		}
+	
+		allow = {
+			war = no
+			global_policy = 1
+			1167 = {
+				OR = {
+					owner = {in_sphere = THIS ai = yes}
+					owned_by = THIS
+				}
+			}
+			1168 = {
+				OR = {
+					owner = {in_sphere = THIS ai = yes}
+					owned_by = THIS
+				}
+			}
+			3273 = {
+				OR = {
+					owner = {in_sphere = THIS ai = yes}
+					owned_by = THIS
+				}
+			}
+			3274 = {
+				OR = {
+					owner = {in_sphere = THIS ai = yes}
+					owned_by = THIS
+				}
+			}
+			3275 = {
+				OR = {
+					owner = {in_sphere = THIS ai = yes}
+					owned_by = THIS
+				}
+			}
+			3276 = {
+				OR = {
+					owner = {in_sphere = THIS ai = yes}
+					owned_by = THIS
+				}
+			}
+		}
+	
+		effect = {
+			prestige = 10
+			1167 = {
+				secede_province = THIS
+				add_core = UAE
+			}
+			1168 = {
+				secede_province = THIS
+				add_core = UAE
+			}
+			3273 = {
+				secede_province = THIS
+				add_core = UAE
+			}
+			3274 = {
+				secede_province = THIS
+				add_core = UAE
+			}
+			3275 = {
+				secede_province = THIS
+				add_core = UAE
+			}
+			3276 = {
+				secede_province = THIS
+				add_core = UAE
+			}
+			release_vassal = UAE
+			diplomatic_influence = { who = UAE value = 200 }
+			UAE = {civilized = yes}
+		}
+	}
+	form_saudi_arabia = {
+		picture = arabia
+		potential = {
+			OR = {
+				tag = NEJ
+				tag = JSH
+			}
+			NOT = {
+				exists = SAU
+			}
+		}
+		
+		allow = {
+			HDJ_1151 = {
+				OR = {
+					owned_by = THIS
+					owner = {vassal_of = THIS}
+				}
+			}
+			NEJ_1156 = {
+				OR = {
+					owned_by = THIS
+					owner = {vassal_of = THIS}
+				}
+			}
+			NEJ_1157 = {
+				OR = {
+					owned_by = THIS
+					owner = {vassal_of = THIS}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			change_tag = SAU
+			NEJ = {
+				all_core = {
+					add_core = SAU
+					remove_core = NEJ
+				}
+			}
+			HDJ = {
+				all_core = {
+					add_core = SAU
+					remove_core = HDJ
+				}
+			}
+			JSH = {
+				all_core = {
+					add_core = SAU
+					remove_core = JSH
+				}
+			}
+		}
+	}
+	form_saudi_arabia_sphere = {
+		picture = arabia
+		potential = {
+			NOT = {
+				tag = NEJ
+				tag = HDJ
+				tag = JSH
+				exists = SAU
+			}
+			OR = {
+				HDJ_1151 = {
+					OR = {
+						owned_by = THIS
+						owner = {in_sphere = THIS}
+						owner = {vassal_of = THIS}
+					}
+				}
+				NEJ_1156 = {
+					OR = {
+						owned_by = THIS
+						owner = {in_sphere = THIS}
+						owner = {vassal_of = THIS}
+					}
+				}
+				NEJ_1157 = {
+					OR = {
+						owned_by = THIS
+						owner = {in_sphere = THIS}
+						owner = {vassal_of = THIS}
+					}
+				}
+			}
+		}
+		
+		allow = {
+			invention = national_fraternity
+			HDJ_1151 = {
+				OR = {
+					owned_by = THIS
+					owner = {in_sphere = THIS}
+					owner = {vassal_of = THIS}
+				}
+			}
+			NEJ_1156 = {
+				OR = {
+					owned_by = THIS
+					owner = {in_sphere = THIS}
+					owner = {vassal_of = THIS}
+				}
+			}
+			NEJ_1157 = {
+				OR = {
+					owned_by = THIS
+					owner = {in_sphere = THIS}
+					owner = {vassal_of = THIS}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 30
+			NEJ = {
+				all_core = {
+					#remove_core = NEJ
+					add_core = SAU
+					secede_province = THIS
+				}
+			}
+			HDJ = {
+				all_core = {
+					#remove_core = HDJ
+					add_core = SAU
+					secede_province = THIS
+				}
+			}
+			JSH = {
+				all_core = {
+					#remove_core = JSH
+					add_core = SAU
+					secede_province = THIS
+				}
+			}
+			inherit = NEJ
+			inherit = HDJ
+			inherit = JSH
+			release = SAU
+			create_vassal = SAU
+			diplomatic_influence = { who = SAU value = 200 }
+		}
+	}
+	form_hashemite_arabia = {
+		picture = arabia
+		potential = {
+			tag = HDJ
+			NOT = {
+				exists = HSM
+			}
+		}
+		
+		allow = {
+			HDJ_1151 = {
+				OR = {
+					owned_by = THIS
+					owner = {vassal_of = THIS}
+				}
+			}
+			NEJ_1156 = {
+				OR = {
+					owned_by = THIS
+					owner = {vassal_of = THIS}
+				}
+			}
+			NEJ_1157 = {
+				OR = {
+					owned_by = THIS
+					owner = {vassal_of = THIS}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			change_tag = HSM
+			NEJ = {
+				all_core = {
+					add_core = HSM
+					remove_core = NEJ
+				}
+			}
+			HDJ = {
+				all_core = {
+					add_core = HSM
+					remove_core = HDJ
+				}
+			}
+			JSH = {
+				all_core = {
+					add_core = HSM
+					remove_core = JSH
+				}
+			}
+		}
+	}
+}

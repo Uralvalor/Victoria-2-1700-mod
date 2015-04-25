@@ -1,0 +1,456 @@
+political_decisions = {
+	tilsiter_peace = {
+		potential = {
+			tag = FRA
+			exists = PRU
+			is_greater_power = yes
+			NOT = { has_country_flag = tilsiter_peace_ok
+				exists = PLC
+				year = 1812
+			}
+			year = 1789
+		}	
+		allow = {
+			war_with = PRU
+			549 = { controlled_by = THIS }
+			is_greater_power = yes
+
+		}
+		
+		effect = {
+			prestige = 30
+			PRU = {
+			prestige = -20
+			release = BYE
+			release = DZG
+			release = POL
+			release = FRS
+			release = NEU
+			release = PAL
+			}
+			RUS = {
+			inherit = BYE
+			}
+			NET = {
+			inherit = FRS
+			}
+			inherit = POL
+			inherit = DZG
+			release_vassal = DZG
+			release_vassal = POL
+			HAN = {
+			change_tag = WES
+			}
+			PRU = {
+			inherit = WES
+			release = WES
+			}
+			WES = {
+			inherit = HEK
+			inherit = BRA
+			}
+			inherit = WES
+			inherit = NEU
+			inherit = PAL
+			release_vassal = WES
+			release = HEK
+			release = BRA
+			WES = {
+			inherit = HEK
+			inherit = BRA
+			}
+			release_vassal = NEU
+		  	diplomatic_influence = { who = POL value = 200 }
+		  	diplomatic_influence = { who = DZG value = 200 }
+		  	diplomatic_influence = { who = WES value = 200 }
+		  	diplomatic_influence = { who = LIP value = 200 }
+		  	diplomatic_influence = { who = ANH value = 200 }
+		  	diplomatic_influence = { who = MEC value = 200 }
+		  	diplomatic_influence = { who = MST value = 200 }
+		  	diplomatic_influence = { who = NAS value = 200 }
+		  	diplomatic_influence = { who = NEU value = 200 }
+		  	diplomatic_influence = { who = BRG value = 200 }
+		  	diplomatic_influence = { who = MUN value = 200 }
+		  	diplomatic_influence = { who = NET value = 200 }
+		  	diplomatic_influence = { who = HES value = 200 }
+			relation = {
+				who = RUS
+				value = 50
+			}
+			create_alliance = RUS
+			any_pop = {
+				militancy = -5
+			}
+			set_country_flag = tilsiter_peace_ok
+		}
+	}
+	dismantle_hre = {
+		potential = {
+			tag = FRA
+			exists = AUS
+			is_greater_power = yes
+			AUS = { government = absolute_monarchy }
+			NOT = { has_country_flag = hre_dissolution 
+				has_global_flag = hre_dissolution
+				}
+			year = 1780
+		}
+		
+		allow = {
+			war_with = AUS
+			619 = { controlled_by = THIS }
+			is_greater_power = yes
+		}
+		
+		effect = {
+			AUS = {
+				government = absolute_monarchy
+			}
+			prestige = 50
+			AUS = {
+			prestige = -30
+			release = TIR
+			release = BEL
+			release = LUX
+			inherit = BAD
+			release = BAD
+			release = LOM
+			}
+			BAV = {
+			inherit = BYT
+			inherit = NUR
+			inherit = REG
+			inherit = AGB
+			}
+			WUR = {
+			inherit = ULM
+			inherit = HEI
+			}
+			FRM = {
+			inherit = FUL
+			}
+			FRA = {
+			inherit = LEZ
+			inherit = LIM
+			inherit = AAC
+			inherit = CLG
+			inherit = NAS
+			inherit = MAY
+			inherit = NAS
+			inherit = MAY
+			inherit = TRR
+			inherit = PAL
+			inherit = BEL
+			inherit = LUX
+			inherit = BAD
+			inherit = PAP
+			inherit = SAR
+			inherit = LOM
+			inherit = BAV
+			inherit = SAA
+			inherit = BRG
+			inherit = WUR
+			release_vassal = NAS
+			release_vassal = BAD
+			release_vassal = PAP
+			release_vassal = BAV
+			release_vassal = BRG
+			release_vassal = WUR
+			}
+			BAV = {
+			inherit = SAL
+			inherit = TIR
+			}
+			596 = {
+				secede_province = FRM
+			}
+			SAR_765 = {
+				secede_province = SAR
+			}
+			PAP = {
+			release = FER
+			}
+			MNP = {
+			inherit = VEN
+			inherit = TRT
+			inherit = FER
+			inherit = MOD
+			}
+			AUS_726 = {
+				secede_province = MNP
+			}
+			MNP = {
+				any_owned = {
+					add_core = MNP
+				}
+			}
+			inherit = MNP
+			release_vassal = MNP
+			MNP = {
+			inherit = MNT
+			}
+			BRG = {
+			inherit = DOR
+			}
+		  	diplomatic_influence = { who = BAV value = 200 }
+		  	diplomatic_influence = { who = WUR value = 200 }
+		  	diplomatic_influence = { who = BAD value = 200 }
+		  	diplomatic_influence = { who = LIE value = 200 }
+		  	diplomatic_influence = { who = SAX value = 200 }
+		  	diplomatic_influence = { who = MNP value = 200 }
+		  	diplomatic_influence = { who = NEA value = 200 }
+		  	diplomatic_influence = { who = LIP value = 200 }
+		  	diplomatic_influence = { who = WES value = 200 }
+		  	diplomatic_influence = { who = WEI value = 200 }
+		  	diplomatic_influence = { who = MEI value = 200 }
+		  	diplomatic_influence = { who = COB value = 200 }
+		  	diplomatic_influence = { who = SGM value = 200 }
+		  	diplomatic_influence = { who = WRZ value = 200 }
+		  	diplomatic_influence = { who = LUC value = 200 }
+		  	diplomatic_influence = { who = FRM value = 200 }
+		  	diplomatic_influence = { who = PAP value = 200 }
+		  	diplomatic_influence = { who = TUS value = 200 }
+		  	diplomatic_influence = { who = NAS value = 200 }
+		  	diplomatic_influence = { who = BRG value = 200 }
+			any_pop = {
+				militancy = -5
+			}
+			set_country_flag = hre_dissolution
+			set_global_flag = hre_dissolution
+		}
+	}
+	dismantle_british_empire = {
+		potential = {
+			tag = FRA
+			exists = ENG
+			is_greater_power = yes
+			NOT = {
+				government = absolute_monarchy
+				has_country_flag = eng_dissolution 
+				has_global_flag = eng_dissolution
+				}
+			year = 1800
+		}
+		
+		allow = {
+			war_with = ENG
+			300 = { controlled_by = THIS }
+			is_greater_power = yes
+		}		
+		effect = {
+			prestige = 50
+			ENG = {
+			prestige = -30
+			government = bourgeous_dictatorship
+			change_tag = ENL
+			release = IRE
+			release = SCO
+			release = WHA
+			release = QUE
+			release = MAO
+		  	diplomatic_influence = { who = IRE value = 200 }
+		  	diplomatic_influence = { who = SCO value = 200 }
+		  	diplomatic_influence = { who = WHA value = 200 }
+			}
+			any_pop = {
+				militancy = -5
+			}
+			set_country_flag = eng_dissolution
+			set_global_flag = eng_dissolution
+		}
+	}
+	portugal_plan = {
+		potential = {
+			tag = FRA
+			exists = POR
+			is_greater_power = yes
+			NOT = { has_country_flag = portugal_plan
+				}
+			year = 1790
+		}		
+		allow = {
+			war_with = POR
+			518 = { controlled_by = THIS }
+			519 = { controlled_by = THIS }
+			520 = { controlled_by = THIS }
+			521 = { controlled_by = THIS }
+			522 = { controlled_by = THIS }
+			523 = { controlled_by = THIS }
+			524 = { controlled_by = THIS }
+			525 = { controlled_by = THIS }
+			526 = { controlled_by = THIS }
+			527 = { controlled_by = THIS }
+			is_greater_power = yes
+		}		
+		effect = {
+			POR = {
+			government = prussian_constitutionalism
+			release = NRL
+			release = ALG
+			}
+			prestige = 50
+			inherit = POR
+			release_vassal = POR
+			inherit = NRL
+			inherit = ALG
+			release_vassal = NRL
+			release_vassal = ALG
+			diplomatic_influence = { who = POR value = 200 }
+			diplomatic_influence = { who = ALG value = 200 }
+			diplomatic_influence = { who = NRL value = 200 }
+			any_pop = {
+				militancy = -5
+			}
+			set_country_flag = portugal_plan
+		}
+	}
+	new_annexations = {
+		potential = {
+			tag = FRA
+			is_greater_power = yes
+			has_country_flag = revolution
+			government = prussian_constitutionalism
+			NOT = { has_country_flag = new_annexations
+				year = 1812
+				}
+			year = 1790
+		}		
+		allow = {
+			war = no
+			rank = 1
+			prestige = 100
+			PAP = {
+				in_sphere = FRA
+			}
+			TUS = {
+				in_sphere = FRA
+			}
+			NET = {
+				in_sphere = FRA
+			}
+			GEN = {
+				in_sphere = FRA
+			}
+		}		
+		effect = {
+			prestige = 20
+			infamy = 10
+			inherit = PAP
+			inherit = TUS
+			inherit = PAR
+			inherit = GEN
+			inherit = NET
+			inherit = MUN
+			inherit = OLD
+			inherit = BRE
+			inherit = HAM
+			inherit = SLB
+			inherit = LUB
+			inherit = GEN
+			inherit = OSN
+			SPA = {
+			release = CAT
+			release = ALD
+			}
+			inherit = CAT
+			inherit = ADR
+			inherit = MNC
+			inherit = MLT
+			AUS = {
+			release = KRA
+			release = CPL
+			release = UKR
+			release = CRO
+			release = SLO
+			}
+			POL = {
+			government = hms_government
+			inherit = KRA
+			inherit = CPL
+			}
+			inherit = UKR
+			952 = {
+				secede_province = RUS
+			}
+			950 = {
+				secede_province = AUS
+			}
+			702 = {
+				secede_province = AUS
+			}
+			AUS_953 = {
+				secede_province = AUS
+			}
+			WES = {
+			release = OSN
+			}
+			inherit = OSN
+			inherit = DBR
+			inherit = CRO
+			inherit = SLO
+			767 = {
+				secede_province = AUS
+			}
+			771 = {
+				secede_province = AUS
+			}
+			775 = {
+				secede_province = AUS
+			}
+			776 = {
+				secede_province = AUS
+			}
+			AUS_772 = {
+				secede_province = AUS
+			}
+			MNP = {
+			release = ALB
+			release = ION
+			release = YUG
+			}
+			TUR = {
+			inherit = ALB
+			}
+			BAV = {
+			release = YUG
+			}
+			inherit = ION
+			inherit = SLO
+			inherit = YUG
+			create_alliance = PRU
+			create_alliance = AUS
+			relation = {
+				who = RUS
+				value = -40
+			}
+			relation = {
+				who = PRU
+				value = -50
+			}
+			relation = {
+				who = AUS
+				value = -50
+			}
+			relation = {
+				who = ENG
+				value = -50
+			}
+			relation = {
+				who = SPA
+				value = -50
+			}
+			relation = {
+				who = POR
+				value = -50
+			}
+			relation = {
+				who = SWE
+				value = -50
+			}
+			any_pop = {
+				militancy = -5
+			}
+			set_country_flag = new_annexations
+		}
+	}
+}

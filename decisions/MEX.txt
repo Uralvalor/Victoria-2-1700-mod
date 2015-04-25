@@ -1,0 +1,176 @@
+political_decisions = {
+	restore_mexican_empire = {
+		potential = {
+			tag = MEX
+			government = democracy
+			NOT = { has_country_flag = we_have_tried_this_once }
+			FRA = { government = absolute_monarchy }
+		}
+		allow = {
+			war = no
+			OR = {
+				ruling_party_ideology = conservative
+				ruling_party_ideology = reactionary
+			}
+			average_militancy = 3
+		}
+		effect = {
+			government = hms_government
+			any_pop = {
+				scaled_militancy = {
+					ideology = liberal
+					factor = 8
+				}
+			}
+			FRA = {
+				relation = {
+					who = THIS
+					value = 100
+				}
+				diplomatic_influence = {
+					who = THIS
+					value = 100
+				}
+			}
+			set_country_flag = we_have_tried_this_once
+		}
+	}
+
+	treaty_of_guadalupe_hidalgo = {
+		potential = {
+			tag = USA
+			has_country_flag = hasmanifestdestiny
+			NOT = { has_country_flag = treaty_of_guadalupe_hidalgo }
+			MEX = {
+				is_greater_power = no
+				any_owned_province = { is_core = USA }
+				war_with = USA
+			}
+		}
+
+		allow = {
+			OR = {
+				2172 = { controlled_by = USA }
+				AND = {
+					TEX_132 = {
+						OR = {
+							controlled_by = USA
+							owned_by = USA
+						}
+					}
+					MEX_103 = {
+						OR = {
+							controlled_by = USA
+							owned_by = USA
+						}
+					}
+					MEX_94 = {
+						OR = {
+							controlled_by = USA
+							owned_by = USA
+						}
+					}
+					MEX_97 = {
+						OR = {
+							controlled_by = USA
+							owned_by = USA
+						}
+					}
+					MEX_85 = {
+						OR = {
+							controlled_by = USA
+							owned_by = USA
+						}
+					}
+					MEX_100 = {
+						OR = {
+							controlled_by = USA
+							owned_by = USA
+						}
+					}
+					USA_106 = {
+						OR = {
+							controlled_by = USA
+							owned_by = USA
+							empty = yes
+						}
+					}
+					USA_129 = {
+						OR = {
+							controlled_by = USA
+							owned_by = USA
+							empty = yes
+						}
+					}
+				}
+			}
+			NOT = {
+				any_owned_province = { controlled_by = MEX }
+			}
+		}
+
+		effect = {
+			set_country_flag = treaty_of_guadalupe_hidalgo
+			MEX = { country_event = 44825 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	plan_of_iguala = {
+		potential = {
+			tag = MEX
+			war_with = SPA
+			SPA = {
+				has_country_flag = mex_independence_war
+			}
+			NOT = { has_country_flag = plan_of_iguala_is_ok }
+		}
+		allow = {
+			national_provinces_occupied = 0.2
+			is_mobilised = yes
+		}
+		effect = {
+			prestige = 3
+			add_country_modifier = {
+				name = iguala_plan
+				duration = 5475
+			}
+			set_country_flag = plan_of_iguala_is_ok
+		}
+	}
+	declaration_of_independence_mexico = {
+		potential = {
+			tag = MEX
+			government = viceroy_government
+		}
+		allow = {
+			war = no
+			is_vassal = no
+			NOT = {
+				2172 = {
+					is_core = SPA
+				}
+			}
+		}
+		effect = {
+			government = hms_government
+			political_reform = wealth_voting
+			political_reform = no_meeting
+			political_reform = censored_press
+			political_reform = no_trade_unions
+			political_reform = gerrymandering
+			political_reform = state_equal_weight
+			political_reform = limited
+			prestige = 10
+			any_pop = {
+				scaled_militancy = {
+					ideology = liberal
+					factor = -3
+				}
+			}
+			set_country_flag = we_have_tried_this_once
+		}
+	}
+}

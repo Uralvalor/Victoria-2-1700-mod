@@ -1,0 +1,57 @@
+	political_decisions = {
+                Portugal_indi = {
+		potential = {
+			tag = POR
+                government = enlightened_absolutism
+			war = no
+                        1303 = {
+				owned_by = POR
+			} 
+                        1310 = {
+				owned_by = ENG
+			}
+			1323 = {
+				owned_by = ENG
+			}
+			NOT = {
+				has_country_flag = Portugal_indi
+			}
+		}
+		allow = {
+			relation = { who = ENG value = 200 }
+			money = 250000
+		}
+		effect = {
+			prestige = 5
+			ENG = {
+				country_event = 96148
+			}
+			set_country_flag = Portugal_indi
+		}
+	}
+
+Portugal_absolut = {
+		potential = {
+			tag = POR
+			war = no
+                                year = 1836
+			NOT = {
+				has_country_flag = king_returns_portugal
+			}
+			NOT = {
+				has_country_flag = Portugal_absolut
+			}
+		}
+		allow = {
+                 rank = 8
+		}
+		effect = {
+ upper_house = {
+ideology = reactionary
+value = 300
+} 
+                government = enlightened_absolutism
+			set_country_flag = Portugal_absolut
+		}
+	}
+}

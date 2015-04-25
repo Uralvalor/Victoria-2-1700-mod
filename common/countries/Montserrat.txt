@@ -1,0 +1,147 @@
+color = { 147  63  195 }
+graphical_culture = SouthAmericanGC
+
+party = {
+	name = "MSR_liberal"
+	start_date = 1789.1.1
+	end_date = 3000.1.1
+
+	ideology = liberal
+
+	economic_policy = interventionism
+	trade_policy = free_trade
+	religious_policy = pluralism
+	citizenship_policy = limited_citizenship
+	war_policy = anti_military
+}
+
+party = {
+	name = "MSR_conservative"
+	start_date = 1789.1.1
+	end_date = 3000.1.1
+
+	ideology = conservative
+
+	economic_policy = interventionism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = pro_military
+}
+
+party = {
+	name = "MSR_socialist"
+	start_date = 1848.1.1
+	end_date = 3000.1.1
+
+	ideology = socialist
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = pluralism
+	citizenship_policy = limited_citizenship
+	war_policy = anti_military
+}
+
+party = {
+	name = "MSR_reactionary"
+	start_date = 1750.1.1
+	end_date = 3000.1.1
+
+	ideology = reactionary
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+party = {
+	name = "MSR_anarcho_liberal"
+	start_date = 1789.1.1
+	end_date = 3000.1.1
+
+	ideology = anarcho_liberal
+
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "MSR_communist"
+	start_date = 1848.1.1
+	end_date = 3000.1.1
+
+	ideology = communist
+
+	economic_policy = planned_economy
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "MSR_fascist"
+	start_date = 1905.1.1
+	end_date = 3000.1.1
+
+	ideology = fascist
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+unit_names = {
+	dreadnought = {
+		Montserrat Plymouth Brades "Saint Kitts" "Saint John" Carlisle "Belle Isle" Placentia 
+		Dominion Discovery Atlantis "Leif Ericson" 
+		
+	}
+	ironclad = {
+		Montserrat Plymouth Brades "Saint Kitts" "Saint John" Carlisle "Belle Isle" Placentia 
+		Dominion Discovery Atlantis "Leif Ericson" 
+		
+		
+		
+	}
+	manowar = {
+		Montserrat Plymouth Brades "Saint Kitts" "Saint John" Carlisle "Belle Isle" Placentia 
+		Dominion Discovery Atlantis "Leif Ericson" 
+		
+		
+	}
+	cruiser = {
+		Montserrat Plymouth Brades Charlestown Carlisle "Belle Isle" Placentia 
+		Dominion Discovery Atlantis "Leif Ericson" 
+		
+	}
+	frigate = {
+		Montserrat Plymouth Brades Charlestown Carlisle "Belle Isle" Placentia 
+		Dominion Discovery Atlantis "Leif Ericson" 
+		
+	}
+	monitor = {
+		Montserrat Plymouth Brades Charlestown "Belle Isle" Placentia 
+		Dominion Discovery Atlantis "Leif Ericson" 
+		
+	}
+	clipper_transport = {
+		
+	}
+	steam_transport = {
+		
+	}
+	commerce_raider = {
+		Montserrat Plymouth Brades "Saint Kitts"  "Saint Lawrence" Carlisle Placentia 
+		Dominion Discovery Atlantis "Leif Ericson" 
+		
+	}
+}

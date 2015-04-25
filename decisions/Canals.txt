@@ -1,0 +1,73 @@
+political_decisions = {	
+
+	build_kiel_canal_mod = {
+		potential = {
+			NOT = { is_canal_enabled = 1 }
+			is_greater_power = yes
+			NOT = { has_global_flag = kiel_canal_global }
+			owns = 369
+		}
+		allow = {
+			mechanical_production = 1
+		}
+		effect = {
+		treasury = -5000	
+		set_global_flag = kiel_canal_global
+		set_global_flag = building_kiel_canal_phase0
+		add_country_modifier = {
+		name = building_kiel_canal
+		duration = -1
+		}
+		}
+	}
+
+	build_suez_canal_mod = {
+		potential = {
+			NOT = { is_canal_enabled = 2 }
+			is_greater_power = yes
+			NOT = { has_global_flag = suez_canal_global }
+			mechanical_production = 1
+		}
+		allow = {
+			OR = {
+				1755 = { owner = { in_sphere = THIS } }
+				owns = 1755
+			}	
+		}
+		effect = {
+		treasury = -25000	
+		set_global_flag = suez_canal_global
+		set_global_flag = building_suez_canal_phase0
+		add_country_modifier = {
+		name = building_suez_canal
+		duration = -1
+			}
+		}
+	}
+	
+	build_panama_canal_mod = {
+		potential = {
+			NOT = { is_canal_enabled = 3 }
+			is_greater_power = yes
+			NOT = { has_global_flag = panama_canal_global }
+			NOT = { has_country_modifier = building_panama_canal_scandal }
+			mechanical_production = 1
+		}
+		allow = {
+			OR = {
+				1723= { owner = { in_sphere = THIS } }
+				owns = 1723
+			}	
+			inorganic_chemistry = 1
+		}
+		effect = {
+		treasury = -100000	
+		set_global_flag = panama_canal_global
+		add_country_modifier = {
+		name = building_panama_canal
+		duration = -1
+		}
+		}
+	}
+	
+}

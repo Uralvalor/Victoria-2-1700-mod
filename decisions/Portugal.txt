@@ -1,0 +1,46 @@
+political_decisions = {
+	pink_map = {
+		potential = {
+			tag = POR
+			NOT = {
+				has_country_flag = pink_map_ok
+			}
+		}
+		allow = {
+			is_greater_power = yes
+			invention = mission_to_civilize
+		}
+		effect = {
+			prestige = 15
+			POR_1999 = {
+				add_core = POR
+			}
+			POR_2003 = {
+				add_core = POR
+			}
+			ENG_2014 = {
+				add_core = POR
+			}
+			BEL_1987 = {
+				add_core = POR
+			}
+			ENG_2068 = {
+				add_core = POR
+			}
+			POR_2049 = {
+				add_core = POR
+			}
+			POR_2053 = {
+				add_core = POR
+			}
+			ENG_2016 = {
+				add_core = POR
+			}
+			POR_2060 = {
+				add_core = POR
+			}
+			relation = { who = ENG value = -100 }
+			set_country_flag = pink_map_ok
+		}
+	}
+}

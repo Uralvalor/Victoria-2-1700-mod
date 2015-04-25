@@ -1,0 +1,746 @@
+political_decisions = {
+
+	
+Sanction = {
+	alert = no
+
+	potential = {
+			is_greater_power= yes
+	}
+	allow = {	
+	        NOT = { badboy = 0.8 }
+		NOT = { war_policy  = pacifism  }
+		NOT = { war_exhaustion = 1 }	
+	}
+	
+	effect = 
+	{
+	badboy=1
+		random_country={
+			limit = {
+					NOT = {	relation = { who = THIS value = -185 }	}
+					NOT={war_with=THIS}
+					NOT={alliance_with  = THIS}
+					is_vassal = no
+					is_substate = no
+					NOT={in_sphere=THIS}
+			}
+			relation = {
+					who = THIS			
+					value = -50
+			}
+                        country_event = 780000
+			prestige = -5
+		}
+	}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0.5			
+				trade_policy = protectionism 
+			}
+			modifier = {
+				factor = 0.7			
+				war_policy  = jingoism  
+			}
+						}
+}
+	
+	move_capital_to_st_petersburg = {
+		potential = {
+			tag = RUS
+			NOT = { year = 1750 }
+			NOT = { has_country_flag = rus_capital_moved }
+		}	
+		allow = {
+			owns = 994
+			money = 95000
+		}
+		
+		effect = {
+			prestige = 15
+			capital = 994
+			money = -95000
+		        add_country_modifier = {
+			name = "western_influences"
+			duration = -1
+		        }
+			994 =  { 
+					life_rating = 3
+						add_province_modifier = {
+					name = influx_of_population
+					duration = 5575
+			        }
+			add_core = RUS
+			change_province_name = "Санкт-Петербург" 
+			}
+			996 =  { 
+			add_core = RUS
+			}
+			997 =  { 
+			add_core = RUS
+			}
+			set_country_flag = rus_capital_moved
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	declare_russian_empire = {
+			potential = {
+			tag = RUS
+			is_greater_power= yes
+			NOT = { has_country_flag = rus_empire_declared }
+
+			}
+
+			allow = {
+			prestige = 50
+			UKR = { OR = { 
+					in_sphere = THIS
+					NOT = { exists = UKR } }
+					}
+			CSK = { OR = { 
+					in_sphere = THIS
+					NOT = { exists = CSK } }
+					}
+			has_country_flag = rus_capital_moved
+
+			}
+
+			effect = {
+				government = absolute_monarchy
+				vote_franschise = none_voting
+				inherit = UKR
+				inherit = CSK
+				set_country_flag = rus_empire_declared
+			}
+			
+			ai_will_do = { factor = 1 }
+	}
+	
+	window_to_east = {
+			potential = {
+			tag = RUS
+			1058 = {
+				owner = {
+						tag = THIS
+				}
+			}			
+			1042 = {
+				owner = {
+						tag = THIS
+				}
+			}
+			1060 = {
+				owner = {
+						tag = XXX
+				}
+			}
+			NOT = { has_country_flag = window_to_east }
+			}
+
+			allow = {
+			money = 75000
+			prestige = 65
+			has_country_flag = rus_capital_moved
+                        OR = { 
+                                academic_institutions = universities
+			        is_greater_power= yes
+                             }
+			}
+
+			effect = {
+		         random_list = {
+			10 = {
+				THIS = {
+				country_event = 1099994
+			    }
+			}
+			10 = {
+				THIS = {
+				country_event = 1099995
+			    }
+			}			
+			10 = {
+				THIS = {
+				country_event = 1099996
+			    }
+			}
+		         }
+			money = -75000
+			set_country_flag = window_to_east
+			}
+			
+			ai_will_do = { factor = 1 }
+	}
+
+		declare_great_britan = {
+			potential = {
+			tag = ENL
+			is_greater_power= yes
+			}
+
+			allow = {
+			prestige = 100
+
+			SCO = { OR = { 
+					in_sphere = THIS
+					NOT = { exists = SCO } }
+			      }
+			NOT = { exists = ENG }
+
+			}
+
+			effect = {
+				inherit = SCO 
+                                change_tag = ENG
+			}
+			
+			ai_will_do = { factor = 1 }
+    }
+	
+	move_capital_to_moscow = {
+		potential = {
+			tag = RUS
+			NOT = { owns = 339 } # Viipuri
+			capital = 994
+		}
+		
+		allow = {
+			owns = 1008 # Moscow
+		}
+		
+		effect = {
+			capital = 1008
+			prestige = 5
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	1763treaty = {
+		potential = {
+			tag = ENG
+			year = 1755
+			war_with = FRA
+			NOT = {
+			year = 1770
+			has_country_flag = treatyofparis
+			}
+		}
+		allow = {
+			rank = 1
+			prestige = 100
+			QUE = {
+				all_core = {
+					controlled_by = ENG
+				}
+			}
+		}
+		effect = {
+			FRA = {release = CAN}
+			FRA = {release = USA}
+			MEX = {release = LOU}
+			SPA = {release = LOU}
+			inherit = CAN
+			inherit = LOU
+			inherit = IRO
+			inherit = CHE
+			inherit = INC
+			inherit = USA
+			FRA = {release = LOU}
+			inherit = LOU
+			139 = {
+				secede_province = MEX
+			}
+			141 = {
+				secede_province = MEX
+			}
+			142 = {
+				secede_province = MEX
+			}
+			USA_144 = {
+				secede_province = MEX
+			}
+			set_country_flag = treatyofparis
+		}
+	}
+
+	become_england = {
+		potential = {
+			tag = ENG
+			NOT = {
+				ENG_271 = {
+					owned_by = THIS
+				}
+			}
+		}
+		allow = {
+		}
+		effect = {
+			change_tag = ENL
+			capital = 300
+		}
+	}
+	waterloo = {
+		potential = {
+			tag = ENG
+			war_with = FRA
+			year = 1814
+			NOT = {
+				year = 1816
+				has_country_flag = waterloo
+			}
+		}
+		allow = {
+				OR = {
+			399 = { controlled_by = THIS }
+			400 = { controlled_by = THIS }
+			404 = { controlled_by = THIS }
+			405 = { controlled_by = THIS }
+				}
+			387 = { controlled_by = NET }
+			is_greater_power = yes
+		}
+		effect = {
+		prestige = 20
+		FRA = {
+			country_event = 18189
+		}
+		set_country_flag = waterloo
+	}
+}
+	
+	
+	defeat_of_napoleon = {
+		potential = {
+			tag = RUS
+			war_with = FRA
+			year = 1812
+			NOT = {
+				year = 1816
+				has_country_flag = 1812_victory
+			}
+		}
+		allow = {
+				OR = {
+			425 = { controlled_by = THIS }
+			570 = { controlled_by = THIS }
+			571 = { controlled_by = THIS }
+			572 = { controlled_by = THIS }
+			573 = { controlled_by = THIS }
+			579 = { controlled_by = THIS }
+			412 = { controlled_by = THIS }
+			409 = { controlled_by = THIS }
+			575 = { controlled_by = THIS }
+			576 = { controlled_by = THIS }
+			577 = { controlled_by = THIS }
+			581 = { controlled_by = THIS }
+				}
+			is_greater_power = yes
+		}
+		effect = {
+		prestige = 25
+		FRA = {
+			country_event = 18149
+		}
+		set_country_flag = 1812_victory
+	}
+}
+
+	1st_polish_partition = {
+		potential = {
+			tag = RUS
+			prestige = 40
+			NOT = {
+				has_country_flag = 1st_polish_partition
+			}
+			exists = PLC
+		}
+		allow = {
+			war = no
+			PLC = {
+				in_sphere = THIS
+			}
+			PLC = { government = democracy }
+			relation = {
+				who = PRU
+				value = 80
+			}
+			relation = {
+				who = AUS
+				value = 100
+			}
+		}
+		effect = {
+			prestige = 15
+			set_country_flag = 1st_polish_partition
+		PLC = {
+			release = RUT
+		}
+		AUS = {
+			inherit = RUT
+		}
+		PLC = {
+			release = BYE
+		}
+		RUS = {
+			inherit = BYE
+		}
+		PLC = {
+			release = DZG
+		}
+		inherit = DZG
+		690 = {
+			secede_province = PLC
+		}
+		release = DZG
+		PRU = {
+			inherit = DZG
+		}
+		356 = {
+			secede_province = RUS 
+		}
+		RUS_718 = {
+			secede_province = PLC
+		}
+		RUS_937 = {
+			secede_province = PLC
+		}
+		relation = {
+			who = PRU
+			value = 90
+		}
+		diplomatic_influence = {
+			who = PLC
+			value = 100
+		}
+
+			691 = {
+				remove_core = DZG
+			}
+			693 = {
+				remove_core = DZG
+			}
+			692 = {
+				remove_core = DZG
+			}
+			700 = {
+				remove_core = DZG
+			}
+			714 = {
+				remove_core = RUT
+			}
+			2584 = {
+				remove_core = RUT
+			}
+			704 = {
+				remove_core = RUT
+			}
+		PLC = {
+			country_event = 88200
+		}
+	}
+}
+	2nd_polish_partition = {
+		potential = {
+			tag = RUS
+			prestige = 50
+			has_country_flag = 1st_polish_partition
+			NOT = {
+				has_country_flag = 2nd_polish_partition
+			}
+			exists = PLC
+		}
+		allow = {
+			year = 1780
+			PLC = { government = democracy }
+			war = no
+			PLC = {
+				in_sphere = THIS
+			}
+			relation = {
+				who = PRU
+				value = 50
+			}
+		}
+effect = {
+prestige = 10
+		PLC = {
+			release = POL
+		}
+
+		PLC = {
+			release = UKR
+		}
+
+		PLC = {
+			release = BYE
+		}
+inherit = UKR
+inherit = POL
+inherit = BYE
+set_country_flag = 2nd_polish_partition
+
+706 = {
+secede_province = PLC
+}
+719 = {
+secede_province = PLC
+}
+937 = {
+secede_province = PLC
+}
+940 = {
+secede_province = PLC
+}
+957 = {
+secede_province = PLC
+}
+956 = {
+secede_province = PLC
+}
+358 = {
+secede_province = PLC
+}
+359 = {
+secede_province = PLC
+}
+365 = {
+secede_province = PLC
+}
+364 = {
+secede_province = PLC
+}
+363 = {
+secede_province = PLC
+}
+361 = {
+secede_province = PLC
+}
+362 = {
+secede_province = PLC
+}
+360 = {
+secede_province = PLC
+}
+938 = {
+secede_province = PLC
+}
+939 = {
+secede_province = PLC
+}
+357 = {
+secede_province = PLC
+}
+709 = {
+secede_province = PLC
+}
+936 = {
+secede_province = PLC
+}
+711 = {
+secede_province = PLC
+}
+715 = {
+secede_province = PLC
+}
+713 = {
+secede_province = PLC
+}
+703 = {
+secede_province = PLC
+}
+707 = {
+secede_province = PLC
+}
+716 = {
+secede_province = PLC
+}
+685 = {
+secede_province = PLC
+}
+690 = {
+secede_province = PRU
+}
+694 = {
+secede_province = PRU
+}
+699 = {
+secede_province = PRU
+}
+701 = {
+secede_province = PRU
+}
+710 = {
+secede_province = PRU
+}
+708 = {
+secede_province = PRU
+}
+712 = {
+secede_province = PRU
+}
+717 = {
+secede_province = PRU
+}
+relation = {
+who = PRU
+value = 70
+}
+diplomatic_influence = {
+who = PLC
+value = 150
+}
+diplomatic_influence = {
+who = COU
+value = 150
+}
+
+		PLC = {
+			country_event = 88200
+		}
+ }
+}
+	3rd_polish_partition = {
+		potential = {
+			tag = RUS
+			has_country_flag = 2nd_polish_partition
+			NOT = {
+				has_country_flag = 3rd_polish_partition
+			}
+			exists = PLC
+		}
+		allow = {
+			year = 1794
+			war = no
+			PLC = {
+				in_sphere = THIS
+			}
+			PLC = { government = democracy }
+			relation = {
+				who = PRU
+				value = 70
+			}
+			relation = {
+				who = AUS
+				value = 70
+			}
+		}
+effect = {
+prestige = 10
+		PLC = {
+			country_event = 88200
+		}
+inherit = PLC
+set_country_flag = 3rd_polish_partition
+707 = {
+secede_province = PRU
+}
+685 = {
+secede_province = PRU
+}
+706 = {
+secede_province = PRU
+}
+719 = {
+secede_province = PRU
+}
+362 = {
+secede_province = PRU
+}
+709 = {
+secede_province = PRU
+}
+703 = {
+secede_province = AUS
+}
+711 = {
+secede_province = AUS
+}
+713 = {
+secede_province = AUS
+}
+715 = {
+secede_province = AUS
+}
+716 = {
+secede_province = AUS
+}
+relation = {
+who = PRU
+value = 120
+}
+relation = {
+who = AUS
+value = 120
+}
+}
+ }	
+	collector_of_russian_lands = {
+		potential = {
+			tag = RUS
+			year = 1770
+			NOT = {
+				has_country_flag = collector_of_russian_lands
+				exists = PLC
+				year = 1800
+			}
+		}
+		allow = {
+			war = no
+			prestige = 65
+			owns = 718
+			owns = 360
+			owns = 956
+			enlightenment_philosophy = 1
+		}
+		effect = {
+			RUS_676 = {
+				add_core = RUS
+			}
+			RUS_340 = {
+				add_core = RUS
+			}
+			RUS_336 = {
+				add_core = RUS
+			}
+			RUS_360 = {
+				add_core = RUS
+			}
+			RUS_718 = {
+				add_core = RUS
+			}
+			719 = {
+				add_core = RUS
+			}
+			RUS_936 = {
+				add_core = RUS
+			}
+			RUS_958 = {
+				add_core = RUS
+			}
+			RUS_937 = {
+				add_core = RUS
+			}
+			RUS_954 = {
+				add_core = RUS
+			}
+			RUS_956 = {
+				add_core = RUS
+			}
+			RUS_364 = {
+				add_core = RUS
+			}
+			RUS_357 = {
+				add_core = RUS
+			}
+			prestige = 5
+			set_country_flag = collector_of_russian_lands
+		}
+	}
+}
+

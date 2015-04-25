@@ -1,0 +1,305 @@
+color = { 135  201  235 }
+graphical_culture = EuropeanGC
+
+party = {
+	name = "SMR_liberal"
+	start_date = 1810.1.1
+	end_date = 2000.1.1
+
+	ideology = liberal
+
+	economic_policy = interventionism
+	trade_policy = free_trade
+	religious_policy = pro_atheism
+	citizenship_policy = limited_citizenship
+	war_policy = anti_military
+}
+
+party = {
+	name = "SMR_conservative"
+	start_date = 1810.1.1
+	end_date = 2000.1.1
+
+	ideology = conservative
+
+	economic_policy = interventionism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = pro_military
+}
+
+party = {
+	name = "SMR_socialist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = socialist
+
+	economic_policy = state_capitalism
+	trade_policy = free_trade
+	religious_policy = pro_atheism
+	citizenship_policy = limited_citizenship
+	war_policy = pacifism
+}
+
+party = {
+	name = "SMR_reactionary"
+	start_date = 1810.1.1
+	end_date = 2000.1.1
+
+	ideology = reactionary
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+party = {
+	name = "SMR_anarcho_liberal"
+	start_date = 1810.1.1
+	end_date = 2000.1.1
+
+	ideology = anarcho_liberal
+
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "SMR_communist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = communist
+
+	economic_policy = planned_economy
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "SMR_fascist"
+	start_date = 1905.1.1
+	end_date = 2000.1.1
+
+	ideology = fascist
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+unit_names = {
+	dreadnought = {
+	"Данте Алигьери"
+	"Конти ди Кавур"
+	"Джулио Чезаре"
+	"Леонардо да Винче"
+	"Андреа Дория"
+	"Дуилио"
+	"Франческо Караччиоло"
+	"Литторио"
+	"Рома"
+	"Террибиле"
+	"Формидабиле"
+	"Принчипе ди Кариньяно"
+	"Мессина"
+	"Конте Верде"
+	"Ре д'Италиа"
+	"Ре ди Портогалло"
+	"Реджина Мариа Пиа"
+	"Сан-Мартино"
+	"Кастельфиджаро"
+	"Анкона"
+	"Аффондаторе"
+	"Принчипе Амедео"
+	"Италия"
+	"Лепанто"
+	"Руджеро ди Лауриа"
+	"Франческо Морозини"
+	"Эммануил Филиберт"
+}
+
+
+	ironclad = {
+	"Данте Алигьери"
+	"Конти ди Кавур"
+	"Джулио Чезаре"
+	"Леонардо да Винче"
+	"Андреа Дория"
+	"Дуилио"
+	"Франческо Караччиоло"
+	"Литторио"
+	"Рома"
+	"Террибиле"
+	"Формидабиле"
+	"Принчипе ди Кариньяно"
+	"Мессина"
+	"Конте Верде"
+	"Ре д'Италиа"
+	"Ре ди Портогалло"
+	"Реджина Мариа Пиа"
+	"Сан-Мартино"
+	"Кастельфиджаро"
+	"Анкона"
+	"Аффондаторе"
+	"Принчипе Амедео"
+	"Италия"
+	"Лепанто"
+	"Руджеро ди Лауриа"
+	"Франческо Морозини"
+	"Эммануил Филиберт"
+}
+
+
+	manowar = {
+	"Сицилия"
+	"Сардиния"
+	"Пулья"
+	"Либия"
+	"Кампания"
+	"Базиликата"
+	"Куарто"
+	"Венеция"
+	"Тренто"
+	"Валле д'Аоста"
+	"Пьемонте"
+	"Лигурия"
+	"Ломбардия"
+	"Венето"
+	"Трентино"
+	"Фриули"
+	"Эмилия-Романья"
+	"Тоскана"
+	"Марке"
+	"Умбрия"
+	"Лацио"
+	"Абруццо"
+	"Молизе"
+	"Калабрия"
+}
+
+
+	cruiser = {
+	"Марко Поло"
+	"Карло Альберто"
+	"Веттор Пизани"
+	"Дженераль Гарибальди"
+	"Дженераль Сан-Мартин"
+	"Хенераль Бельграно"
+	"Дженераль Пуэйрредон"
+	"Амальфи"
+	"Пиза"
+	"Сан-Джорджо"
+	"Сан-Марко"
+	"Нино Биксио"
+	"Марсала"
+	"Таранто"
+	"Бриндизи"
+	"Бари"
+	"Триесте"
+	"Фиуме"
+	"Гориция"
+	"Пола"
+	"Зара"
+	"Больцано"
+}
+
+
+	frigate = {
+	"Фульмине"
+	"Лампо"
+	"Фреччия"
+	"Дардо"
+	"Страле"
+	"Эуро"
+	"Остро"
+	"Нембо"
+	"Турбине"
+	"Акуилоне"
+	"Бореа"
+	"Дзеффиро"
+	"Эсперо"
+	"Артильере"
+	"Берсальере"
+	"Корацциере"
+	"Гарибальдино"
+	"Гранатmере"
+	"Ланчиере"
+	"Альпино"
+	"Фучильере"
+	"Понтьере"
+	"Аскаро"
+	"Индомито"
+	"Импавидо"
+	"Импетуозо"
+	"Инсидиозо"
+	"Интрэпидо"
+	"Иррекуието"
+	"Ардито"
+	"Арденте"
+	"Аудаче"
+	"Анимозо"
+}
+
+
+	monitor = {
+	"Данте Алигьери"
+	"Конти ди Кавур"
+	"Джулио Чезаре"
+	"Леонардо да Винче"
+	"Андреа Дория"
+	"Дуилио"
+	"Франческо Караччиоло"
+	"Литторио"
+	"Рома"
+	"Террибиле"
+	"Формидабиле"
+	"Принчипе ди Кариньяно"
+	"Мессина"
+	"Конте Верде"
+	"Ре д'Италиа"
+	"Ре ди Портогалло"
+	"Реджина Мариа Пиа"
+	"Сан-Мартино"
+	"Кастельфиджаро"
+	"Анкона"
+	"Аффондаторе"
+	"Принчипе Амедео"
+	"Италия"
+	"Лепанто"
+	"Руджеро ди Лауриа"
+	"Франческо Морозини"
+	"Эммануил Филиберт"
+}
+
+
+	
+	
+	commerce_raider = {
+	"Розолино Пило"
+	"Джузеппе Чезаре Альба"
+	"Пиладе Бронцетти"
+	"Джузеппе Миссори"
+	"Антонио Мосто"
+	"Ипполито Ниево"
+	"Франческо Нулло"
+	"Симоне Скьяффино"
+	"Джузеппе Сиртори"
+	"Джованни Ачерби"
+	"Винченцо Джордано Орсини"
+	"Франческо Стукко"
+}
+
+
+}

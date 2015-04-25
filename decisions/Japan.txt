@@ -1,0 +1,919 @@
+political_decisions = {
+	commodore_perry_expedition = {
+        potential = {
+			tag = USA
+			ideological_thought = 1
+			is_greater_power = yes
+			TKG = {
+				exists = yes
+				civilized = no
+				OR = {
+					diplomatic_reform = isolationism
+					has_country_modifier = uncivilized_isolationism
+				}
+				NOT = { has_country_flag = caved_to_commodore_perry }
+				NOT = { has_country_flag = rejected_commodore_perry }
+			}
+			JAP = { exists = no }
+			total_amount_of_ships = 4
+			any_owned_province = {
+				OR = {
+					region = USA_1
+					region = MEX_85
+					region = USA_78
+					region = USA_81
+					region = CAN_13
+				}
+			}
+			NOT = {
+				has_country_flag = commodore_perry_expedition
+				has_global_flag = boshin_war
+				has_global_flag = boshin_war_has_happened
+			}
+		}
+
+		allow = {
+			war = no
+			OR = {
+				state_n_government = 1
+				weapon_platforms = 1
+				is_sphere_leader_of = TKG
+			}
+		}
+
+		effect = {
+			set_country_flag = commodore_perry_expedition
+			badboy = 2
+			TKG = { country_event = 95705 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	kanagawa_treaty = {
+		picture = unequal_treaty
+		potential = {
+			is_greater_power = yes
+			NOT = { 
+				has_country_flag = negotiate_unequal_treaty_TKG
+				is_culture_group = far_east_asian
+			}
+			TKG = {
+				civilized = no
+				war_with = THIS
+				has_country_flag = rejected_commodore_perry
+				NOT = { has_country_flag = negotiate_unequal_treaty_TKG }
+			}
+		}
+		
+		allow = {
+			war_with = TKG
+			TKG = {
+				OR = {
+					war_exhaustion = 50
+					any_owned_province = { controlled_by = THIS }
+				}
+				OR = {
+					national_provinces_occupied = 0.10
+					blockade = 0.50
+				}
+				war_exhaustion = 10
+			}
+		}
+		
+		effect = {
+			set_country_flag = negotiate_unequal_treaty_TKG
+			TKG = {
+				set_country_flag = negotiate_unequal_treaty_TKG
+				country_event = 95708
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ansei_purge = {
+		potential = {
+			tag = TKG
+			government = absolute_monarchy
+			OR = {
+				has_global_flag = iemochi_shogun
+				has_global_flag = yoshinobu_shogun
+			}
+			NOT = { has_country_flag = ansei_purge }
+			NOT = { has_global_flag = boshin_war }
+			NOT = { has_global_flag = boshin_war_has_happened }
+		}
+		
+		allow = {
+			average_militancy = 3
+		}
+		
+		effect = {
+			set_country_flag = ansei_purge
+			add_country_modifier = {
+				name = ansei_purge
+				duration = -1
+			}
+			any_pop = { militancy = -3 }
+			any_country = {
+				limit = { substate_of = TKG }
+				any_pop = { militancy = -3 }
+				add_country_modifier = {
+					name = ansei_purge
+					duration = -1
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	overthrow_the_bakufu = {
+		picture = the_meiji_restoration
+		potential = {
+			is_culture_group = far_east_asian
+			government = absolute_monarchy
+			TKG = {
+				owns = 1655
+				owns = 1657
+				owns = 1659
+			}
+			NOT = {
+				has_global_flag = boshin_war
+				has_global_flag = boshin_war_has_happened
+				tag = TKG
+				tag = JAP
+				tag = KOR
+				tag = AIN
+			}
+		}
+		
+		allow = {
+			war = no
+			has_country_flag = emperor_meiji
+			NOT = { has_country_modifier = kobu_gattai }
+			OR = {
+				has_country_flag = supports_imperial_edict
+				has_country_flag = angered_by_bakufu
+				ai = no
+			}
+		}
+		
+		effect = {
+			set_global_flag = boshin_war
+			set_country_flag = imperial_war_leader
+			remove_country_modifier = sakoku
+			remove_country_modifier = ansei_purge
+			1657 = { secede_province = THIS }
+			1655 = { secede_province = THIS }
+			1659 = { secede_province = THIS }
+			any_owned = {
+				remove_province_modifier = peasant_revolt
+				any_pop = { militancy = -6 }
+			}
+			release_vassal = THIS
+			leave_alliance = TKG
+			random_owned = {
+				limit = {
+					owner = { civilized = no }
+				}
+				owner = {
+					add_country_modifier = {
+						name = taiping_draft
+						duration = 365
+					}
+				}
+			}
+			any_country = {
+				limit = { substate_of = TKG }
+				country_event = 95740
+			}
+			TKG = {
+				country_event = 95741
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { year = 1862 }
+				civilized = no
+			}
+			modifier = {
+				factor = 0
+				TKG = { civilized = yes }
+				civilized = no
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					SAT = { ai = no }
+					TOS = { ai = no }
+					CHO = { ai = no }
+					KAG = { ai = no }
+					SEN = { ai = no }
+					YZW = { ai = no }
+				}
+			}
+		}
+	}
+	
+	fukoku_kyohei = {
+		potential = {
+			OR = {
+				tag = JAP
+				tag = TKG
+			}
+			OR = {
+				has_global_flag = boshin_war_has_happened
+				has_country_flag = peaceful_transition_to_japan
+			}
+			NOT = { has_country_flag = fukoku_kyohei_enacted }
+		}
+		
+		allow = {
+			NOT = { has_country_modifier = fukoku_kyohei }
+		}
+		
+		effect = {
+			set_country_flag = fukoku_kyohei_enacted
+			tech_school = japanese_tech_school
+			years_of_research = 2
+			prestige = 10
+			add_country_modifier = {
+				name = fukoku_kyohei
+				duration = -1
+			}
+			random_owned = {
+				limit = {
+					1654 = { empty = yes }
+				}
+				1654 = { secede_province = THIS }
+			}
+			JAP_1088 = { add_core = THIS }
+			1086 = { add_core = THIS }
+			1087 = { add_core = THIS }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	iwakura_mission = {
+		potential = {
+			OR = {
+				tag = JAP
+				tag = TKG
+			}
+			has_country_modifier = fukoku_kyohei
+			NOT = { has_country_flag = sent_iwakura_mission }
+		}
+		
+		allow = {
+			war = no
+			civilized = yes
+			idealism = 1
+		}
+		
+		effect = {
+			set_country_flag = sent_iwakura_mission
+			prestige = 20
+			years_of_research = 0.5
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	meiji_constitution = {
+		picture = meiji_court
+		potential = {
+			tag = JAP
+			civilized = yes
+			government = absolute_monarchy
+			has_country_modifier = fukoku_kyohei
+			NOT = { has_country_flag = enacted_meiji_constitution }
+		}
+		
+		allow = {
+			war = no
+			state_n_government = 1
+			plurality = 20
+		}
+		
+		effect = {
+			set_country_flag = enacted_meiji_constitution
+			prestige = 10
+			political_reform = wealth_weighted_voting
+			random_owned = {
+				limit = {
+					owner = { political_parties = underground_parties }
+				}
+				owner = {
+					political_reform = harassment
+				}
+			}
+			government = prussian_constitutionalism
+			any_pop = {
+				militancy = -2
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	abolish_the_han_system = {
+		picture = meiji_court
+		potential = {
+			OR = {
+				tag = JAP
+				tag = TKG
+			}
+			NOT = { has_country_flag = han_system_abolished }
+		}
+		
+		allow = {
+			war = no
+			civilized = yes
+			ideological_thought = 1
+			owns = 1649
+			owns = 1640
+			owns = 1646
+			owns = 1662
+			owns = 1668
+			owns = 1665
+			owns = 1673
+		}
+		
+		effect = {
+			set_country_flag = han_system_abolished
+			prestige = 10
+			remove_country_modifier = ansei_purge
+			remove_country_modifier = kobu_gattai
+			any_pop = {
+				limit = { is_primary_culture = yes }
+				ideology = {
+					value = liberal
+					factor = 0.1
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -6
+				}
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 6
+				}
+			}
+			CHO = {
+				all_core = { remove_core = CHO add_core = THIS }
+			}
+			SAT = {
+				all_core = { remove_core = SAT add_core = THIS }
+			}			
+			TOS = {
+				all_core = { remove_core = TOS add_core = THIS }
+			}
+			KAG = {
+				all_core = { remove_core = KAG add_core = THIS }
+			}
+			SEN = {
+				all_core = { remove_core = SEN add_core = THIS }
+			}
+			YZW = {
+				all_core = { remove_core = YZW add_core = THIS }
+			}
+			1642 = {
+				state_scope = {
+					change_region_name = "Хоккайдо"
+				}
+			}
+		}
+	}
+	
+	unite_the_daimyos = {
+		picture = abolish_the_han_system
+		potential = {
+			tag = TKG
+			government = absolute_monarchy
+			JAP = { exists = no }
+			OR = {
+				SEN = { exists = yes }
+				YZW = { exists = yes }
+				CHO = { exists = yes }
+				SAT = { exists = yes }
+				TOS = { exists = yes }
+				KAG = { exists = yes }
+			}
+			NOT = {
+				has_country_flag = han_system_abolished
+				has_country_flag = daimyos_united
+			}
+		}
+		
+		allow = {
+			war = no
+			civilized = yes
+			is_greater_power = yes
+			OR = {
+				is_sphere_leader_of = SEN
+				SEN = { exists = no }
+			}
+			OR = {
+				is_sphere_leader_of = YZW
+				YZW = { exists = no }
+			}
+			OR = {
+				is_sphere_leader_of = CHO
+				CHO = { exists = no }
+			}
+			OR = {
+				is_sphere_leader_of = SAT
+				SAT = { exists = no }
+			}
+			OR = {
+				is_sphere_leader_of = TOS
+				TOS = { exists = no }
+			}
+			OR = {
+				is_sphere_leader_of = KAG
+				KAG = { exists = no }
+			}
+		}
+		
+		effect = {
+			set_country_flag = daimyos_united
+			prestige = 10
+			remove_country_modifier = ansei_purge
+			remove_country_modifier = kobu_gattai
+			1649 = {
+				life_rating = 10
+				add_province_modifier = {
+					name = gateway_to_harbor
+					duration = -1
+				}
+				change_province_name = "Токио"
+			}
+			any_pop = {
+				limit = { is_primary_culture = yes }
+				consciousness = -3
+				militancy = -6
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = SEN
+						tag = YZW
+						tag = CHO
+						tag = SAT
+						tag = TOS
+						tag = KAG
+					}
+					exists = yes
+				}
+				set_country_flag = wants_to_unify
+				country_event = 98650
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	become_japan = {
+		potential = {
+			tag = TKG
+			JAP = { exists = no }
+		}
+		
+		allow = {
+			war = no
+			civilized = yes
+			nationalism_n_imperialism = 1
+			OR = {
+				NOT = { government = absolute_monarchy }
+				is_greater_power = yes
+			}
+		}
+		
+		effect = {
+			set_country_flag = peaceful_transition_to_japan
+			remove_country_modifier = ansei_purge
+			remove_country_modifier = kobu_gattai
+			any_pop = {
+				limit = { is_primary_culture = yes }
+				consciousness = -3
+				militancy = -6
+			}
+			TKG = {
+				all_core = {
+					remove_core = TKG
+					add_core = JAP
+				}
+			}
+			change_tag = JAP
+			any_country = {
+				limit = {
+					OR = {
+						tag = SEN
+						tag = YZW
+						tag = CHO
+						tag = SAT
+						tag = TOS
+						tag = KAG
+					}
+					exists = yes
+				}
+				set_country_flag = wants_to_unify
+				country_event = 98650
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	bonin_administration = {
+		picture = meiji_court
+		potential = {
+			OR = {
+				tag = JAP
+				tag = TKG
+			}
+			owns = 1654
+			owns = 2525
+			NOT = { has_country_flag = bonin_administration }
+		}
+		allow = {
+			civilized = yes
+			owns = 1654
+			owns = 2525
+		}
+		effect = {
+			prestige = 1
+			1654 = {
+				change_province_name = "Ио"
+			}
+			2525 = {
+				add_core = THIS
+				life_rating = 15
+				change_province_name = "Минамитори"
+				state_scope = {
+					change_region_name = "Огасавара"
+				}
+			}
+			set_country_flag = bonin_administration
+		}	
+	}  	
+
+	taiwan_administration = {
+		potential = {
+			OR = {
+				tag = JAP
+				tag = TKG
+			}
+			owns = 1485
+			owns = 2562
+			NOT = { has_country_flag = taiwan_administration }
+		}
+		allow = {
+			civilized = yes
+			owns = 1485
+			owns = 2562
+		}
+		effect = {
+			prestige = 1
+			1485 = {
+				add_core = TAI
+				remove_core = FJN
+				change_province_name = "Тайбэй"
+			}
+			2562 = {
+				add_core = TAI
+				remove_core = FJN
+				change_province_name = "Такао"
+				state_scope = {
+					change_region_name = "Такасаго"
+				}
+			}
+			set_country_flag = taiwan_administration
+		}	
+	}
+	
+	inherit_ryukyu = {
+		potential = {
+			OR = {
+				tag = MCK
+				tag = JAP
+				tag = TKG
+			}
+			exists = RYU
+			NOT = { has_global_flag = ryukyu_inherited }
+		}
+
+		allow = {
+			civilized = yes
+			war = no
+			RYU = { war = no }
+			OR = {
+				RYU = { part_of_sphere = no }
+				RYU = { in_sphere = THIS }
+			}	
+		}
+
+		effect = {
+			set_global_flag = ryukyu_inherited
+			1678 = { add_core = THIS }
+			1679 = { add_core = THIS }
+			inherit = RYU
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unite_with_japan = {
+
+		potential = {
+			primary_culture = japanese
+			exists = JAP
+			ai = yes
+			NOT = {
+				tag = JAP
+				tag = TKG
+				has_country_flag = unite_with_japan
+			}
+		}
+
+		allow = {
+			war = no
+			OR = {
+				in_sphere = JAP
+				sphere_owner = { is_sphere_leader_of = JAP }
+			}
+			JAP = {
+				war = no
+				neighbour = THIS
+			}
+		}
+
+		effect = {
+			set_country_flag = unite_with_japan
+			random_country = {
+				limit = {
+					tag = JAP
+					ai = yes
+				}
+				inherit = THIS
+			}
+			random_country = {
+				limit = {
+					tag = JAP
+					ai = no
+				}
+				country_event = 60130
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				government = fascist_dictatorship
+				JAP = {
+					NOT = { government = fascist_dictatorship }
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = { government = fascist_dictatorship }
+				JAP = { government = fascist_dictatorship }
+			}
+			modifier = {
+				factor = 0
+				NOT = { government = proletarian_dictatorship }
+				JAP = { government = proletarian_dictatorship }
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					government = democracy
+					government = hms_government
+				}
+				JAP = {
+					NOT = {
+						government = democracy
+						government = hms_government
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				JAP = {
+					OR = {
+						government = democracy
+						government = hms_government
+					}
+				}
+				NOT = {
+					government = democracy
+					government = hms_government
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					government = presidential_dictatorship
+					government = bourgeois_dictatorship
+				}
+			}
+		}
+	}
+	
+	treaty_of_shimonoseki = {
+		picture = unequal_treaty
+		potential = {
+			OR = {
+				tag = JAP
+				tag = TKG
+			}
+			civilized = yes
+			NOT = { has_country_flag = negotiate_treaty_shimonoseki }
+			1485 = {
+				owner = {
+					is_culture_group = east_asian
+					war_with = THIS
+					NOT = {
+						capital = 1485
+						has_country_flag = negotiate_unequal_treaty
+					}
+				}
+			}
+		}
+		
+		allow = {
+			1485 = {
+				owner = {
+					OR = {
+						war_exhaustion = 50
+						any_owned_province = { controlled_by = THIS }
+					}
+					OR = {
+						national_provinces_occupied = 0.10
+						blockade = 0.50
+					}
+					war_exhaustion = 10
+				}
+			}
+		}
+		
+		effect = {
+			set_country_flag = negotiate_treaty_shimonoseki
+			1485 = {
+				owner = {
+					set_country_flag = negotiate_unequal_treaty
+					country_event = 1316085
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	japan_danger = {
+		potential = {
+			OR = {
+				tag = JAP
+				tag = TKG
+			}
+			civilized = yes
+			NOT = {
+				owns = 1624
+				has_country_flag = japan_danger_ok
+				badboy = 0.8
+				num_of_revolts = 1
+			}
+		}
+		allow = {
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			leave_alliance = KOR
+			leave_alliance = MCK
+			diplomatic_influence = { who = KOR value = -100 }
+			KOR = {
+				all_core = { add_core = THIS }
+			}
+			CHI_2562 = {
+				add_core = THIS
+			}
+			CHI_1553 = {
+				add_core = THIS
+			}
+			set_country_flag = japan_danger_ok
+		}
+	}
+
+	japan_land_tax = {
+		potential = {
+			tag = JAP
+			civilized = yes
+			NOT = {
+				has_country_flag = japan_land_tax_ok
+			}
+		}
+		allow = {
+			invention = populism_vs._establishment
+			invention = decimal_monetary_system
+			NOT = {
+				average_militancy = 2
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = land_tax
+				duration = -1
+			}
+			poor_strata = {
+				militancy = 2
+			}
+			any_pop = {
+				limit = {
+					type = capitalists
+				}
+				consciousness = -1
+				militancy = -2
+			}
+			set_country_flag = japan_land_tax_ok
+		}
+	}
+
+	japan_imperial_university = {
+		potential = {
+			tag = JAP
+			civilized = yes
+			NOT = {
+				has_country_flag = imperial_university_ok
+			}
+		}
+		allow = {
+			phenomenology_n_hermeneutic = 1
+			literacy = 0.5
+		}
+		effect = {
+			prestige = 5
+			any_pop = {
+				consciousness = 1
+			}
+			1649 = {
+				add_province_modifier = {
+					name = imperial_university
+					duration = -1
+				}
+			}
+			set_country_flag = imperial_university_ok
+		}
+	}
+
+	japan_shipbuilding = {
+		potential = {
+			tag = JAP
+			civilized = yes
+			has_country_modifier = meiji_period
+			NOT = {
+				has_country_flag = shipbuilding
+			}
+		}
+		allow = {
+			naval_design_bureaus = 1
+			battleship_column_doctrine = 1
+		}
+		effect = {
+			any_owned = {
+				add_province_modifier = {
+						name = shipbuilding_program
+						duration = 3650
+				}
+			}
+			set_country_flag = shipbuilding
+		}
+	}
+}

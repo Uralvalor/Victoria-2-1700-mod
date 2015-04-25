@@ -1,0 +1,157 @@
+political_decisions = {
+        holy_France_empire = {
+            potential = {
+			    year = 1816
+                tag = FRA
+                NOT = {
+                    has_country_flag = holy_France_empire
+                }
+            }
+        
+            allow = {
+			rank = 1
+					}
+            effect = {
+                set_country_flag = holy_France_empire
+			2625 = { add_core = QUE }
+			69 = { add_core = QUE }
+			68 = { add_core = QUE }
+			72 = { add_core = QUE }
+			70 = { add_core = QUE }
+			73 = { add_core = QUE }
+			71 = { add_core = QUE }
+			75 = { add_core = QUE }
+			74 = { add_core = QUE }
+			57 = { add_core = QUE }
+			56 = { add_core = QUE }
+			46 = { add_core = QUE }
+			52 = { add_core = QUE }
+			53 = { add_core = QUE }
+			54 = { add_core = QUE }
+			55 = { add_core = QUE }
+			51 = { add_core = QUE }
+			48 = { add_core = QUE }
+			50 = { add_core = QUE }
+			2628 = { add_core = QUE }
+			2594 = { add_core = QUE }
+			49 = { add_core = QUE }
+			77 = { add_core = QUE }
+			47 = { add_core = QUE }
+		        add_accepted_culture = french_canadian
+			QUE = {
+				all_core = {
+					add_core = FRA
+				}
+                badboy = 5
+					}
+			}
+		}
+        holy_Quebec_empire = {
+            potential = {
+                tag = QUE
+                NOT = {
+                    has_country_flag = holy_Quebec_empire
+                }
+            }
+        
+            allow = {
+			rank = 8
+					}
+            effect = {
+                set_country_flag = holy_Quebec_empire
+			2625 = { add_core = QUE }
+			69 = { add_core = QUE }
+			68 = { add_core = QUE }
+			72 = { add_core = QUE }
+			70 = { add_core = QUE }
+			73 = { add_core = QUE }
+			71 = { add_core = QUE }
+			75 = { add_core = QUE }
+			74 = { add_core = QUE }
+			57 = { add_core = QUE }
+			56 = { add_core = QUE }
+			46 = { add_core = QUE }
+			52 = { add_core = QUE }
+			53 = { add_core = QUE }
+			54 = { add_core = QUE }
+			55 = { add_core = QUE }
+			51 = { add_core = QUE }
+			48 = { add_core = QUE }
+			50 = { add_core = QUE }
+			2628 = { add_core = QUE }
+			2594 = { add_core = QUE }
+			49 = { add_core = QUE }
+			77 = { add_core = QUE }
+			47 = { add_core = QUE }
+                badboy = 5
+					}
+			}
+        holy_France_American_empire = {
+            potential = {
+			NOT = {
+				year = 1840
+				exists = LOU
+			}
+                tag = FRA
+                NOT = {
+                    has_country_flag = holy_France_American_empire
+                }
+            }
+        
+            allow = {
+			year = 1816
+                        139 = {
+                                owned_by = FRA
+				}
+			rank = 2
+					}
+            effect = {
+                set_country_flag = holy_France_American_empire
+			139 = { add_core = FRA }
+			141 = { add_core = FRA }
+			140 = { add_core = FRA }
+			142 = { add_core = FRA }
+			144 = { add_core = FRA }
+			143 = { add_core = FRA }
+			145 = { add_core = FRA }
+			148 = { add_core = FRA }
+			147 = { add_core = FRA }
+			149 = { add_core = FRA }
+			146 = { add_core = FRA }
+			150 = { add_core = FRA }
+			152 = { add_core = FRA }
+			151 = { add_core = FRA }
+			153 = { add_core = FRA }
+			154 = { add_core = FRA }
+			155 = { add_core = FRA }
+			156 = { add_core = FRA }
+			158 = { add_core = FRA }
+			157 = { add_core = FRA }
+			117 = { add_core = FRA }
+			119 = { add_core = FRA }
+			116 = { add_core = FRA }
+			115 = { add_core = FRA }
+			114 = { add_core = FRA }
+			113 = { add_core = FRA }
+			110 = { add_core = FRA }
+			112 = { add_core = FRA }
+			121 = { add_core = FRA }
+			120 = { add_core = FRA }
+			122 = { add_core = FRA }
+			107 = { add_core = FRA }
+			106 = { add_core = FRA }
+			108 = { add_core = FRA }
+			109 = { add_core = FRA }
+			124 = { add_core = FRA }
+			130 = { add_core = FRA }
+			131 = { add_core = FRA }
+			128 = { add_core = FRA }
+			127 = { add_core = FRA }
+			126 = { add_core = FRA }
+			125 = { add_core = FRA }
+			123 = { add_core = FRA }
+			121 = { add_core = FRA }
+                badboy = 24.99
+					}
+			}
+	}

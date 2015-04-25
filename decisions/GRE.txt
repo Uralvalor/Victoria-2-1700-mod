@@ -1,0 +1,148 @@
+political_decisions = {
+	hellenic_parliament = {
+		potential = {
+			tag = GRE
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = voule_ton_ellinon
+			}
+		}
+	
+		allow = {
+			ideological_thought = 1
+			plurality = 10
+			prestige = 1
+			war = no
+		}
+		
+		effect = {
+			set_country_flag = voule_ton_ellinon
+			political_reform = wealth_weighted_voting
+			government = hms_government
+			any_pop = {
+				militancy = -2
+			}
+		}
+	}
+	
+	megali_idea = {
+		potential = {
+			tag = GRE
+			is_greater_power = yes
+			NOT = {
+				has_country_flag = greece_has_got_a_brand_new_bag
+			}
+		}
+		
+		allow = {
+			invention = national_fraternity
+			owns = 832
+			owns = 831
+			owns = 833
+			owns = 825
+			owns = 824
+			owns = 820
+			owns = 819
+			owns = 821
+			owns = 805
+			owns = 822
+			owns = 823
+			owns = 829
+			owns = 830
+			owns = 844
+			owns = 843
+			owns = 846
+		}
+		
+		effect = {
+			prestige = 20
+			badboy = -5
+			TUR_860 = {
+				add_core = GRE
+			}
+			TUR_863 = {
+				add_core = GRE
+			}
+			TUR_869 = {
+				add_core = GRE
+			}
+			set_country_flag = greece_has_got_a_brand_new_bag
+		}
+	}
+	
+	form_byzantine_empire = {
+		potential = {
+			tag = GRE
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+			owns = 825
+			owns = 828
+			owns = 829
+			owns = 830
+			owns = 831
+			owns = 832
+			owns = 833
+			owns = 834
+			owns = 835
+			owns = 836
+			owns = 837
+			owns = 838
+			owns = 839
+			owns = 840
+			owns = 841
+			owns = 842
+			owns = 843
+			owns = 844
+			owns = 845
+			owns = 846
+			owns = 847
+			owns = 848
+			owns = 858
+			owns = 859
+			owns = 860	# Constantinople
+			owns = 861
+			owns = 862
+			owns = 863
+			owns = 864
+			owns = 865
+			owns = 866
+			owns = 867
+			owns = 868
+			owns = 869
+			owns = 870
+			owns = 871
+			owns = 872
+			owns = 873
+			owns = 874
+			owns = 875
+			
+		}
+		
+		allow = {
+			is_greater_power = yes
+		}
+		
+		effect = {
+			change_tag = BYZ
+			capital = 860
+			860 = {
+				change_province_name = "Константинополь"
+			}
+			any_owned = {
+				limit = {
+					is_colonial = no
+					OR = {
+						culture = greek
+						culture = turkish
+					}
+				}
+				add_core = BYZ
+			}
+			prestige = 40
+			badboy = -10
+		}
+	}
+}

@@ -1,0 +1,263 @@
+political_decisions = {
+	repeal_the_corn_laws = {
+		potential = {
+			tag = ENG
+			NOT = {
+				has_country_flag = corn_laws_repealed_flag
+			}
+		}
+		allow = {
+			average_militancy = 2
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = corn_laws_repealed
+				duration = 3650
+			}
+			any_pop = {
+				militancy = -1
+				consciousness = 1
+			}
+			set_country_flag = corn_laws_repealed_flag
+		}
+	}
+	crown_empress_of_india = {
+		news = yes
+		news_desc_long = "empress_of_india_NEWS_LONG"
+		news_desc_medium = "empress_of_india_NEWS_MEDIUM"
+		news_desc_short = "empress_of_india_NEWS_SHORT"
+		potential = {
+			tag = ENG
+			OR = {
+				government = hms_government
+				government = prussian_constitutionalism
+				government = absolute_monarchy
+			}
+			NOT = {
+				has_country_flag = empress_of_india
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			prestige = 40
+			owns = 1305
+			owns = 1311
+			owns = 1257
+			owns = 1291
+			owns = 1236
+			owns = 1297
+			owns = 1227
+		}
+		effect = {
+			prestige = 20
+			any_pop = {
+				militancy = -1
+			}
+			set_country_flag = empress_of_india
+		}
+	}
+
+	found_the_bbc = {
+		potential = {
+			tag = ENG
+			year = 1900
+			NOT = {
+				has_country_flag = we_are_live_from_london
+			}
+		}
+
+		allow = {
+			invention = national_radio_networks
+		}
+
+		effect = {
+			any_country = {
+				relation = {
+					who = THIS
+					value = 5
+				}
+			}
+			any_pop = {
+				militancy = -0.5
+			}
+			prestige = 10
+			set_country_flag = we_are_live_from_london
+		}
+	}
+	the_scotland_yard = {
+		potential = {
+			tag = ENG
+			NOT = {
+				has_country_flag = elementary_my_dear_watson # I know, he never says it in the books, yadiyadi.
+			}
+		}
+
+		allow = {
+			realism = 1
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = the_yard
+				duration = -1
+			}
+			set_country_flag = elementary_my_dear_watson
+		}
+	}
+
+	ionian_islands_question = {
+		potential = {
+			tag = ENG
+			ION = {
+				vassal_of = ENG
+			}
+			ION = { ai = yes }
+			NOT = {
+				truce_with = GRE
+			}
+			exists = GRE
+		}
+
+		allow = {
+			nationalism_n_imperialism = 1
+			war = no
+		}
+
+		effect = {
+			relation = {
+				who = GRE
+				value = 50
+			}
+			diplomatic_influence = {
+				who = GRE
+				value = 50
+			}
+			prestige = 10
+			badboy = -4
+			GRE = {
+				inherit = ION
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					AND = {
+						year = 1864 
+						month = 4
+					}
+				}
+			}
+			modifier = {
+				factor = 1			
+				relation = {
+					who = GRE
+					value = 0
+				}
+			}
+		}
+	}
+
+	rhodesia_charter = {
+		potential = {
+			tag = ENG
+			owns = 2068
+			owns = 2069
+			owns = 2070
+			owns = 2071
+			owns = 2072
+			owns = 2073
+			owns = 2635
+			NOT = {
+				has_country_flag = ian_would_be_proud
+			}
+		}
+
+		allow = {
+			invention = mission_to_civilize
+		}
+
+		effect = {
+			prestige = 10
+			2068 = {
+				change_province_name = "Солсбери"
+				state_scope = {
+					change_region_name = "Южная Родезия"
+				}
+			}
+			ENG_2068 = {
+				add_core = RHO
+			}
+			set_country_flag = ian_would_be_proud
+		}
+	}
+
+	anglo-dutch_treaty = {
+		potential = {
+			OR = {
+				tag = ENG
+				tag = NET
+			}
+			ENG = {
+				owns = 1410
+			}
+			NET = {
+				owns = 1386
+				owns = 1403
+			}
+			NOT = {
+				has_country_flag = anglo-dutch_treaty_ok
+			}
+		}
+
+		allow = {
+			invention = paternalism
+		}
+
+		effect = {
+			prestige = 10
+			random_country = {
+				limit = {
+					OR = {
+						tag = ENG
+						tag = NET
+					}
+					NOT = {
+						tag = THIS
+					}
+				}
+				country_event = 95283
+			}
+			set_country_flag = anglo-dutch_treaty_ok
+		}
+	}
+
+	singapore_expansion = {
+		potential = {
+			OR = {
+				tag = ENG
+				tag = NET
+			}
+			is_greater_power = yes
+			NOT = {
+				owns = 1384
+			}
+			NOT = {
+				has_global_flag = singapore_expansion_ok
+			}
+		}
+
+		allow = {
+			market_structure = 1
+		}
+
+		effect = {
+			prestige = 5
+			diplomatic_influence = { who = JOH value = 50 }
+			set_global_flag = singapore_expansion_ok
+			set_country_flag = singapore_trade_post
+		}
+	}
+}

@@ -1,0 +1,1645 @@
+political_decisions = {
+        holy_russian_empire = {
+            potential = {
+                tag = RUS
+               nationalism_n_imperialism = 1
+OR = {
+                government = absolute_monarchy
+		government = hms_government
+                }
+                NOT = {
+                    has_country_flag = the_holy_russian_empire
+                }
+            }
+        
+            allow = {
+706 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+2583 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = RUS
+				owner = {
+					in_sphere = RUS
+					}
+				}
+			}
+2577 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = RUS
+				owner = {
+					in_sphere = RUS
+					}
+				}
+			}
+712 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = RUS
+				owner = {
+					in_sphere = RUS
+					}
+				}
+			}
+695 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = RUS
+				owner = {
+					in_sphere = RUS
+					}
+				}
+			}
+701 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = RUS
+				owner = {
+					in_sphere = RUS
+					}
+				}
+			}
+684 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = RUS
+				owner = {
+					in_sphere = RUS
+					}
+				}
+			}
+703 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = RUS
+				owner = {
+					in_sphere = RUS
+					}
+				}
+			}
+705 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = RUS
+				owner = {
+					in_sphere = RUS
+					}
+				}
+			}
+
+952 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = RUS
+				owner = {
+					in_sphere = RUS
+					}
+				}
+			}
+625 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = RUS
+				owner = {
+					in_sphere = RUS
+					}
+				}
+			}
+689 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = RUS
+				owner = {
+					in_sphere = RUS
+					}
+				}
+			}
+633 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = RUS
+				owner = {
+					in_sphere = RUS
+					}
+				}
+			}
+674 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = RUS
+				owner = {
+					in_sphere = RUS
+					}
+				}
+			}
+812 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = RUS
+				owner = {
+					in_sphere = RUS
+					}
+				}
+			}
+809 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = RUS
+				owner = {
+					in_sphere = RUS
+					}
+				}
+			}
+799 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = RUS
+				owner = {
+					in_sphere = RUS
+					}
+				}
+			}
+806 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = RUS
+				owner = {
+					in_sphere = RUS
+					}
+				}
+			}
+794 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = RUS
+				owner = {
+					in_sphere = RUS
+					}
+				}
+			}
+783 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = RUS
+				owner = {
+					in_sphere = RUS
+					}
+				}
+			}
+792 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = RUS
+				owner = {
+					in_sphere = RUS
+					}
+				}
+			}
+771 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = RUS
+				owner = {
+					in_sphere = RUS
+					}
+				}
+			}
+768 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = RUS
+				owner = {
+					in_sphere = RUS
+					}
+				}
+			}
+769 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = RUS
+				owner = {
+					in_sphere = RUS
+					}
+				}
+			}
+780 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = RUS
+				owner = {
+					in_sphere = RUS
+					}
+				}
+			}
+
+            }
+            effect = {
+                prestige = 100
+                inherit = BOH
+                inherit = BOS
+                inherit = BUL
+                inherit = CZH
+                inherit = KRA
+                inherit = POL
+                inherit = RUT
+                inherit = SER
+                inherit = SLO
+                inherit = SLV
+                inherit = YUG
+                inherit = CRO
+                inherit = MON 
+			BOH = {
+				all_core = {
+					add_core = RUS
+				}
+			}
+			BOS = {
+				all_core = {
+					add_core = RUS
+				}
+			}
+			BUL = {
+				all_core = {
+					add_core = RUS
+				}
+			}
+			CZH = {
+				all_core = {
+					add_core = RUS
+				}
+			}
+			KRA = {
+				all_core = {
+					add_core = RUS
+				}
+			}
+			POL = {
+				all_core = {
+					add_core = RUS
+				}
+			}
+			RUT = {
+				all_core = {
+					add_core = RUS
+				}
+			}
+			SLO = {
+				all_core = {
+					add_core = RUS
+				}
+			}
+			SLV = {
+				all_core = {
+					add_core = RUS
+				}
+			}
+			TRE = {
+				all_core = {
+					add_core = RUS
+				}
+			}
+			YUG = {
+				all_core = {
+					add_core = RUS
+				}
+			}
+			CRO = {
+				all_core = {
+					add_core = RUS
+				}
+			}
+                any_pop = {
+                    consciousness = -5
+                    militancy = -5
+            }
+                nationalvalue = nv_equality
+		add_accepted_culture = bosniak
+		add_accepted_culture = bulgarian
+		add_accepted_culture = czech
+		add_accepted_culture = croat
+		add_accepted_culture = polish
+		add_accepted_culture = serb
+		add_accepted_culture = slovene
+		add_accepted_culture = slovak
+                tech_school = prussian_tech_school
+                badboy = -25
+                set_country_flag = the_holy_russian_empire
+            }
+       }
+russian_hokkaido = {
+            potential = {
+                tag = RUS
+		owns = 1642
+                NOT = {
+                    has_country_flag = russian_hokkaido
+                }
+            }
+        
+            allow = {
+			prestige = 10
+			}
+		effect = {
+                add_accepted_culture = ainu
+		1642 = {
+			change_province_name = "Мацмай"
+			add_core = RUS
+                         state_scope = {
+					change_region_name = "Мацмай"
+				}
+		}
+		1643 = {
+			change_province_name = "Айнынск"
+			add_core = RUS
+		}
+		1644 = {
+			change_province_name = "Курильск"
+			add_core = RUS
+		}
+                set_country_flag = russian_hokkaido
+	}
+}
+
+        holy_russian_empire_USSR = {
+            potential = {
+                tag = SOV
+                nationalism_n_imperialism = 1
+                NOT = {
+                    has_country_flag = the_holy_russian_empire_USSR
+                }
+            }
+        
+            allow = {
+706 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+				OR = {
+					owned_by = SOV
+					owner = {
+						in_sphere = SOV
+					}
+				}
+			}
+2583 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = SOV
+				owner = {
+					in_sphere = SOV
+					}
+				}
+			}
+2577 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = SOV
+				owner = {
+					in_sphere = SOV
+					}
+				}
+			}
+712 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = SOV
+				owner = {
+					in_sphere = SOV
+					}
+				}
+			}
+695 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = SOV
+				owner = {
+					in_sphere = SOV
+					}
+				}
+			}
+701 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = SOV
+				owner = {
+					in_sphere = SOV
+					}
+				}
+			}
+684 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = SOV
+				owner = {
+					in_sphere = SOV
+					}
+				}
+			}
+703 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = SOV
+				owner = {
+					in_sphere = SOV
+					}
+				}
+			}
+705 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = SOV
+				owner = {
+					in_sphere = SOV
+					}
+				}
+			}
+
+952 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = SOV
+				owner = {
+					in_sphere = SOV
+					}
+				}
+			}
+625 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = SOV
+				owner = {
+					in_sphere = SOV
+					}
+				}
+			}
+689 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = SOV
+				owner = {
+					in_sphere = SOV
+					}
+				}
+			}
+633 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = SOV
+				owner = {
+					in_sphere = SOV
+					}
+				}
+			}
+674 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = SOV
+				owner = {
+					in_sphere = SOV
+					}
+				}
+			}
+812 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = SOV
+				owner = {
+					in_sphere = SOV
+					}
+				}
+			}
+809 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = SOV
+				owner = {
+					in_sphere = SOV
+					}
+				}
+			}
+799 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = SOV
+				owner = {
+					in_sphere = SOV
+					}
+				}
+			}
+806 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = SOV
+				owner = {
+					in_sphere = SOV
+					}
+				}
+			}
+794 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = SOV
+				owner = {
+					in_sphere = SOV
+					}
+				}
+			}
+783 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = SOV
+				owner = {
+					in_sphere = SOV
+					}
+				}
+			}
+792 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = SOV
+				owner = {
+					in_sphere = SOV
+					}
+				}
+			}
+771 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = SOV
+				owner = {
+					in_sphere = SOV
+					}
+				}
+			}
+768 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = SOV
+				owner = {
+					in_sphere = SOV
+					}
+				}
+			}
+769 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = SOV
+				owner = {
+					in_sphere = SOV
+					}
+				}
+			}
+780 = {
+				AND = {
+				NOT = {
+					owned_by = TUR
+				}
+				NOT = {
+					owned_by = AUS
+				}
+				NOT = {
+					owned_by = KUK
+				}
+				NOT = {
+					owned_by = PRU
+				}
+				NOT = {
+					owned_by = GER
+				}
+				NOT = {
+					owned_by = NGF
+				}
+				      }
+			OR = {
+				owned_by = SOV
+				owner = {
+					in_sphere = SOV
+					}
+				}
+			}
+
+            }
+            effect = {
+                inherit = BOH
+                inherit = BOS
+                inherit = BUL
+                inherit = CZH
+                inherit = KRA
+                inherit = POL
+                inherit = RUT
+                inherit = SER
+                inherit = SLO
+                inherit = SLV
+                inherit = YUG
+                inherit = CRO
+                inherit = MON 
+			BOH = {
+				all_core = {
+					add_core = SOV
+				}
+			}
+			BOS = {
+				all_core = {
+					add_core = SOV
+				}
+			}
+			BUL = {
+				all_core = {
+					add_core = SOV
+				}
+			}
+			CZH = {
+				all_core = {
+					add_core = SOV
+				}
+			}
+			KRA = {
+				all_core = {
+					add_core = SOV
+				}
+			}
+			POL = {
+				all_core = {
+					add_core = SOV
+				}
+			}
+			RUT = {
+				all_core = {
+					add_core = SOV
+				}
+			}
+			SLO = {
+				all_core = {
+					add_core = SOV
+				}
+			}
+			SLV = {
+				all_core = {
+					add_core = SOV
+				}
+			}
+			TRE = {
+				all_core = {
+					add_core = SOV
+				}
+			}
+			YUG = {
+				all_core = {
+					add_core = SOV
+				}
+			}
+			CRO = {
+				all_core = {
+					add_core = SOV
+				}
+			}
+                nationalvalue = nv_equality
+		add_accepted_culture = bosniak
+		add_accepted_culture = bulgarian
+		add_accepted_culture = czech
+		add_accepted_culture = croat
+		add_accepted_culture = polish
+		add_accepted_culture = serb
+		add_accepted_culture = slovene
+		add_accepted_culture = slovak
+                tech_school = prussian_tech_school
+                set_country_flag = the_holy_russian_empire_USSR
+            }
+       }
+}

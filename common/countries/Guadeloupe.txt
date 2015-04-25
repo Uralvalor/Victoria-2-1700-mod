@@ -1,0 +1,149 @@
+color = { 23  47  153 }
+graphical_culture = FrenchGC
+
+party = {
+	name = "GDL_reactionary"
+	start_date = 1789.1.1
+	end_date = 3000.1.1
+
+	ideology = reactionary
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = pro_military
+}
+
+party = {
+	name = "GDL_liberal"
+	start_date = 1789.1.1
+	end_date = 3000.1.1
+
+	ideology = liberal
+
+	economic_policy = laissez_faire
+	trade_policy = protectionism
+	religious_policy = pluralism
+	citizenship_policy = limited_citizenship
+	war_policy = anti_military
+}
+
+party = {
+	name = "GDL_conservative"
+	start_date = 1789.1.1
+	end_date = 3000.1.1
+
+	ideology = conservative
+
+	economic_policy = interventionism
+	trade_policy = protectionism
+	religious_policy = secularized
+	citizenship_policy = full_citizenship
+	war_policy = anti_military
+}
+
+party = {
+	name = "GDL_socialist"
+	start_date = 1870.1.1
+	end_date = 3000.1.1
+
+	ideology = socialist
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = secularized
+	citizenship_policy = limited_citizenship
+	war_policy = pacifism
+}
+
+party = {
+	name = "GDL_anarcho_liberal"
+	start_date = 1789.1.1
+	end_date = 3000.1.1
+
+	ideology = anarcho_liberal
+
+	economic_policy = interventionism
+	trade_policy = protectionism
+	religious_policy = secularized
+	citizenship_policy = full_citizenship
+	war_policy = anti_military
+}
+
+party = {
+	name = "GDL_communist"
+	start_date = 1848.1.1
+	end_date = 3000.1.1
+
+	ideology = communist
+
+	economic_policy = planned_economy
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = limited_citizenship
+	war_policy = pacifism
+}
+
+party = {
+	name = "GDL_fascist"
+	start_date = 1905.1.1
+	end_date = 3000.1.1
+
+	ideology = fascist
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+unit_names = {
+	dreadnought = {
+		"Guadeloupe" "Marceau" "Magenta" "Neptune" "Brennus" "Charles Martel" "Carnot"
+		"Jauréguiberry" "Masséna" "Bouvet" "Charlemagne" "Saint Louis" "Gaulois" "Henri IV"
+		"Iéna" "Suffren" "République" "Patrie" "Démocratie" "Justice" "Liberté" "Verité"
+		"Danton" "Diderot" "Mirabeau" "Vergniaud" "Voltaire" "Condorcet" "Courbet" "France"
+		"Jean Bart" "Paris" "Fleurus" "Bretagne" "Lorraine" "Provence" "Bearn" "Flandre"
+		"Gascoigne" "Languedoc" "Normandie" "Guyenne" "Champagne" "Auvergne" "Lille" "Lyon"
+		"Orleans" "La Rochelle" "Bourdeaux"
+	}
+	ironclad = {
+		"Guadeloupe" "Gloire" "Invincible" "Normandie" "Couronne" "Magenta" "Solferino" "Flandre" "Gauloise" 
+		"Magnanime" "Provence" "Revanche" "Savoie" "Surveillante" "Valeureuse" "Héroïne"
+	}
+	manowar = {
+		"Guadeloupe" "Alexandre" "Breslaw" "Prince Jérôme" "Ville de Paris" "Ville de Nantes" "Duguay-Trouin"
+		"Tage" "Donawerth" "Saint Louis" "Fontenoy" "Turenne" "Ville de Bordeaux" "Castiglione"
+		"Masséna" "Bayard" "Ville de Lyon" "Louis XIV"
+	}
+	cruiser = {
+		"Guadeloupe" "Iphigenie" "Naiade" "Arethuse" "Dubourdieu" "Milan" "Belliqueuse" "Sfax" "Tage"
+		"Amiral Cécille" "Davout" "Suchet" "Coëtlogon" "Forbin" "Surcouf" "Cosmao" "Lalande"
+		"Troude" "Galilée" "Lavoisier" "Linois" "Tunisié" "Isly" "Bugeaud" "Chasseloup-Laubat"
+		"Friant" "Descartes" "Pascal" "Cassard" "D'Assas" "Du Chayla" "Catinat" "Protet"
+		"D'Entrecasteaux" "Guichen" "Châteaurenault" "D'Estrées" "Infernet" "Jurien de la Gravière"
+		"Pluton" "Emile Bertin" "Dupuy de Lome" "Admiral Charner" "Bruix" "Chanzy" "Latouche-Treville"
+		"Pothau" "Dupetit-Thouars" "Gueydon" "Montcalm" "Desaix" "Dupleix" "Kleber"
+		"Amiral Aube" "Conde" "Sully" "Leon Gambetta" "Victor Hugo" "Jules Michelet"
+		"Ernest Renan" "Edgar Quinet" "Waldeck-Rousseau" "Thionville" "Metz" "Mulhouse" "Colmar"
+		"D'Assas" "Du Chayla" "Catinat" "Protet" "D'Entrecasteaux" "Guichen" "Châteaurenault"
+	}
+	frigate = {
+		"Guadeloupe" "Cassini" "Lahire" "Circé" "Hermione" "Pallas" "Sémiramis" "Armorique" "Junon"
+		"Magicienne" "Thémis" "Flore"
+	}
+	monitor = {
+		"Guadeloupe" "Océan" "Marengo" "Suffren" "Friedland" "Richelieu" "Colbert" "Trident"
+	}
+	clipper_transport = {
+	}
+	steam_transport = {
+	}
+	commerce_raider = {
+		"Guadeloupe" "Caffarelli" "Mogador" "Pomone" "Isly" "Bellone" "Foudre" "Impératrice Eugénie"
+		"Souveraine" "Audacieuse" "Impétueuse" "Ardente" "Victoire" "Guerrière" "Renommée"
+		"Danaé" "Pandore" "Zénobie" "Clorinde" "Astrée"
+	}
+}

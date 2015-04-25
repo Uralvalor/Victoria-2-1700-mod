@@ -1,0 +1,244 @@
+political_decisions = {	
+
+	build_kiel_canal_1914 = {
+		potential = {
+			is_greater_power = no
+			is_greater_power = yes
+		}
+		allow = {
+		}
+		effect = {
+			enable_canal = 1
+			369 = { set_province_flag = kiel_canal }
+			369 = { 
+				add_province_modifier = {
+					name = kiel_canal
+					duration = -1
+				}
+			}
+		}
+	}
+
+	build_suez_canal_1914 = {
+		potential = {
+			is_greater_power = no
+			is_greater_power = yes
+		}
+		allow = {
+		}
+		effect = {
+			enable_canal = 2
+			1755 = { set_province_flag = suez_canal }
+			1755 = { 
+				add_province_modifier = {
+					name = suez_canal
+					duration = -1
+				}
+			}
+		}
+	}
+	
+	build_panama_canal_1914 = {
+		potential = {
+			is_greater_power = no
+			is_greater_power = yes
+		}
+		allow = {
+		}
+		effect = {
+			enable_canal = 3
+			1723 = { set_province_flag = panama_canal }
+			1723 = { 
+				add_province_modifier = {
+					name = panama_canal
+					duration = -1
+				}
+			}
+		}
+	}
+	statue_of_liberty_1914 = {
+		potential = {
+			is_greater_power = no
+			is_greater_power = yes
+		}
+		allow = {
+		}
+		effect = {
+			add_country_modifier = {
+				name = the_statue_of_liberty
+				duration = -1
+			}
+		}
+	}
+	rename_provinces_1914 = {
+		potential = {
+			is_greater_power = no
+			is_greater_power = yes
+		}
+		allow = {
+		}
+		effect = {
+			1 = {
+				change_province_name = "Ситка"
+			}
+			2 = {
+				change_province_name = "Якутат"
+			}
+			3 = {
+				change_province_name = "Кенаи"
+			}
+			994 = {
+				change_province_name = "Петроград"
+			}
+			1051 = {
+				change_province_name = "Армавир"
+			}
+			1649 = {
+				change_province_name = "Токио"
+			}
+			1642 = {
+				state_scope = {
+					change_region_name = "Хоккайдо"
+				}
+			}
+		}
+	}
+	corefix_1914 = {
+		potential = {
+			is_greater_power = no
+			is_greater_power = yes
+		}
+		allow = {
+		}
+		effect = {
+			FRA_412 = {
+				add_core = FRA
+			}
+			823 = {
+				add_core = BUL
+			}
+			829 = {
+				add_core = GRE
+			}
+			830 = {
+				add_core = GRE
+			}
+			846 = {
+				add_core = GRE
+			}
+			2401 = {
+				add_core = CLM
+			}
+		}
+	}
+	great_war_enabler = {
+		potential = {
+			is_greater_power = no
+			is_greater_power = yes
+		}
+		allow = {
+		}
+		effect = {
+			great_wars_enabled = yes
+			set_global_flag = great_wars_enabled
+		}
+	}
+	balance_decision_1914 = {
+		potential = {
+			is_greater_power = no
+			is_greater_power = yes
+		}
+		allow = {
+		}
+		effect = {
+			GER = {
+				add_country_modifier = {
+					name = germany_mobilization
+					duration = 600
+				}
+			}
+			KUK = {
+				add_country_modifier = {
+					name = austria_mobilization
+					duration = 600
+				}
+			}
+			TUR = {
+				add_country_modifier = {
+					name = turkey_mobilization
+					duration = 600
+				}
+			}
+			FRA = {
+				add_country_modifier = {
+					name = france_mobilization
+					duration = 600
+				}
+			}
+		}
+	}
+	political_leaders_1914 = {
+		potential = {
+			is_greater_power = no
+			is_greater_power = yes
+		}
+		allow = {
+		}
+		effect = {
+			ENG = {
+				add_country_modifier = {
+					name = competent_placeholder
+					duration = 3650
+			}
+			}
+			FRA = {
+				add_country_modifier = {
+					name = military_man
+					duration = 3650
+				}
+			}
+			RUS = {
+				add_country_modifier = {
+					name = competent_placeholder
+					duration = 3650
+				}
+			}
+			GER = {
+				add_country_modifier = {
+					name = great_statesman
+					duration = 3650
+				}
+			}
+			KUK = {
+				add_country_modifier = {
+					name = luddite
+					duration = 3650
+			}
+			}
+			TUR = {
+				add_country_modifier = {
+					name = competent_placeholder
+					duration = 3650
+				}
+			}
+			ITA = {
+				add_country_modifier = {
+					name = competent_placeholder
+					duration = 3650
+				}
+			}
+			JAP = {
+				add_country_modifier = {
+					name = military_man
+					duration = 3650
+				}
+			}
+			USA = {
+				add_country_modifier = {
+					name = visionary_thinker
+					duration = 3650
+				}
+			}
+		}
+	}
+}

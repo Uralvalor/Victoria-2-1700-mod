@@ -1,0 +1,1631 @@
+##################################################################################################
+# scriptable and usable for event-system below.
+##################################################################################################
+
+##### POLITICAL EVENTS ######
+government_sanitarium = {
+	population_growth = 0.005
+	icon = 19
+}
+
+##### TECH SCHOOLS ######
+academic_confusion = {
+	research_points_modifier = -0.01
+	prestige = -0.01
+	icon = 6
+}
+
+##### LIBERAL REVOLUTIONS #####
+liberal_agitation = {
+	pop_consciousness_modifier = 0.075
+	icon = 4
+}
+
+springtime_of_nations = {
+	core_pop_militancy_modifier = 0.7
+	icon = 8
+}
+
+global_liberal_agitation = {
+	core_pop_militancy_modifier = 0.1
+	global_pop_consciousness_modifier = 0.1
+	icon = 4
+}
+
+potato_blight = {
+	population_growth = -0.02
+	pop_militancy_modifier = 0.01
+	icon = 20
+}
+
+anti_jacobin_tract = {
+	core_pop_consciousness_modifier = -0.05
+	icon = 3
+}
+
+cholera_epidemic_small = {
+	population_growth = -0.01
+	icon = 20
+}
+
+cholera_epidemic_big = {
+	population_growth = -0.02
+	icon = 20
+}
+
+conservative_reaction = {
+	pop_consciousness_modifier = 0.01
+	icon = 4
+}
+
+liberal_reaction = {
+	pop_consciousness_modifier = 0.01
+	icon = 4
+}
+
+national_tragedy = {
+	pop_consciousness_modifier = 0.01
+	icon = 15
+}
+
+##### CIVILIZATION AND GUNBOATS #####
+western_influences = {
+	global_pop_militancy_modifier = 0.1
+	research_points_modifier = 0.1
+	icon = 10
+}
+
+uncivilized_isolationism = {
+	poor_life_needs = -0.2
+	middle_life_needs = -0.2
+	rich_life_needs = -0.2
+	global_pop_consciousness_modifier = -0.1
+	research_points_modifier = -0.2
+	icon = 10
+}
+
+western_presence = {
+	pop_militancy_modifier = 0.1
+	research_points_modifier = 0.01
+	icon = 9
+}
+
+foreign_smugglers = {
+	poor_life_needs = -0.05
+	middle_life_needs = -0.05
+	rich_life_needs = -0.05
+	icon = 12
+}
+
+foreign_trading_post = {
+	poor_life_needs = -0.1
+	middle_life_needs = -0.1
+	rich_life_needs = -0.1
+	icon = 11
+}
+
+silk_famine = {
+	farm_rgo_eff = -0.5
+	icon = 14
+}
+
+dissatisfied_workers = {
+	farm_rgo_eff = -0.5
+	mine_rgo_eff = -0.5
+	icon = 20
+}
+
+naval_school = {
+	research_points_modifier = 0.01
+	icon = 17
+}
+
+trade_restrictions = {
+	poor_life_needs = 0.05
+	middle_life_needs = 0.05
+	rich_life_needs = 0.05
+	pop_consciousness_modifier = -0.05
+	icon = 10
+}
+
+colonial_dry_spell = {
+	pop_militancy_modifier = 0.05
+	farm_RGO_eff = -0.20
+	icon = 14
+}
+
+colonial_exploitation = {
+	farm_RGO_eff = 0.40
+	mine_RGO_eff = 0.40
+	pop_militancy_modifier = 0.1
+	icon = 18
+}
+
+colonial_museum_of_natural_history = {
+	research_points_modifier = 0.02
+	rich_income_modifier = -0.05
+	icon = 5
+}
+
+colonial_mismanagement = {
+	pop_militancy_modifier = -0.02
+	farm_rgo_eff = -0.5
+	mine_rgo_eff = -0.5
+	icon = 2
+}
+
+colonial_recruitment = {
+	immigrant_attract = 1		#100%
+	life_rating = 0.1
+	population_growth = 0.01
+	assimilation_rate = 0.25
+	icon = 9
+}
+
+baby_boom = {
+	population_growth = 0.01
+	icon = 19
+}
+
+loyal_askaris = {
+	pop_militancy_modifier = -0.05
+	pop_consciousness_modifier = -0.05
+	prestige = 0.01
+	icon = 17
+}
+
+muhammad_alis_reforms = {
+	research_points_modifier = 0.5
+	pop_consciousness_modifier = 0.05
+	icon = 5
+}
+
+##### SUFFRAGETTE MOVEMENTS #####
+
+female_suffrage = {
+	poor_vote = 0.05
+	middle_vote = 0.02
+	rich_vote = -0.01
+	core_pop_militancy_modifier = -0.02
+	icon = 7
+}
+
+##### SOCIALISM AND FACISM #####
+
+labor_union = {
+	core_pop_militancy_modifier = 0.05
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.05
+	icon = 4
+}
+
+militant_trade_union = {
+	core_pop_militancy_modifier = 0.05
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.05
+	icon = 4
+}
+
+worker_union = {
+	poor_everyday_needs = -0.1
+	farm_rgo_eff = -0.05
+	mine_rgo_eff = -0.05
+	pop_militancy_modifier = 0.2
+	icon = 4
+}
+
+strike_solution = {
+	farm_rgo_eff = 0.25
+	mine_rgo_eff = 0.25
+	icon = 4
+}
+
+province_strike = {
+	pop_militancy_modifier = 0.2
+	icon = 4
+}
+
+may_day = {
+	farm_rgo_eff = -0.1
+	mine_rgo_eff = -0.1
+	pop_militancy_modifier = -0.2
+	icon = 4
+}
+
+national_workshops = {
+	farm_rgo_eff = -0.02
+	mine_rgo_eff = -0.02
+	prestige = 0.02
+	icon = 13
+}
+
+worker_revolt = {
+	farm_rgo_eff = -0.2
+	mine_rgo_eff = -0.2
+	icon = 20
+}
+
+black_shirts = {
+	pop_militancy_modifier = 0.4
+	icon = 18
+}
+
+free_corps = {
+	pop_militancy_modifier = 0.2
+	icon = 18
+}
+
+am_everywhere = {
+	prestige = 0.01
+	icon = 16
+}
+
+the_massacre = {
+	poor_everyday_needs = -0.2
+	population_growth = -0.01
+	icon = 18
+}
+fascist_welfare = {
+	poor_everyday_needs = -0.1
+	population_growth = 0.001
+	icon = 12
+}
+
+beer_hall_putsch = {
+	population_growth = -0.001	
+	pop_militancy_modifier = 0.2
+	icon = 18
+}
+
+##### Civilization & Gunboats #####
+local_opium_habit = {
+	mine_rgo_eff = -0.2
+	farm_rgo_eff = -0.2
+	pop_consciousness_modifier = -0.01
+	icon = 20
+}
+
+sayings_of_the_dutch = {
+	research_points_modifier = 0.05
+	icon = 5
+}
+
+european_military_mission = {
+	research_points_modifier = 0.02
+	pop_militancy_modifier = 0.1
+	icon = 17
+}
+
+extraterritoriality_granted = {
+	pop_militancy_modifier = 0.15
+	icon = 10
+}
+
+military_reform = {
+	leadership_modifier = 0.2
+	pop_militancy_modifier = 0.3
+	icon = 18
+}
+
+educational_reform = {
+	research_points_modifier = 0.05
+	pop_militancy_modifier = 0.07
+	icon = 5
+}
+
+legation_quarter = {
+	pop_militancy_modifier = 0.03
+	icon = 8
+}
+
+kettler_denkmal = {
+	prestige = -0.07
+	pop_militancy_modifier = 0.03
+	icon = 8
+}
+
+local_economic_downturn = {
+	local_RGO_output = -0.2
+	pop_consciousness_modifier = 0.5
+	icon = 12
+}
+
+##### AMERICAN CIVIL WAR #####
+free_staters = {
+	life_rating = -0.02
+	pop_militancy_modifier = 0.05
+	icon = 1
+}
+
+border_ruffians = {
+	life_rating = -0.02
+	pop_militancy_modifier = 0.05
+	icon = 18
+}
+
+underground_railroad = {
+	pop_militancy_modifier = 0.05
+	pop_consciousness_modifier = 0.025
+	icon = 4
+}
+
+abolitionist_society = {
+	pop_militancy_modifier = 0.01
+	pop_consciousness_modifier = 0.025
+	icon = 8
+}
+
+knights_of_the_golden_circle = {
+	pop_consciousness_modifier = 0.1
+	pop_militancy_modifier = 0.1
+	icon = 18
+}
+
+american_anti_slavery_society = {
+	pop_consciousness_modifier = 0.1
+	icon = 8
+}
+
+copperhead_democrats = {
+	pop_consciousness_modifier = 0.1
+	icon = 20
+}
+
+anaconda_plan = {
+	war_exhaustion = 0.05
+	icon = 18
+}
+
+the_homestead_act = {
+	global_immigrant_attract = 0.5	#50%
+	global_assimilation_rate = 0.5
+	icon = 9
+}
+
+the_slavery_debate = {
+	global_pop_consciousness_modifier = 0.05
+	icon = 4
+}
+
+the_bonnie_blue_flag = {
+	leadership = 2
+	mobilisation_economy_impact = -0.25
+	mobilisation_size = 0.1
+	icon = 15
+}
+
+##### WORKPLACE EVENTS #####
+silk_famine = {
+	farm_rgo_eff = -0.5
+	icon = 14
+}
+
+blood_and_iron_mine = {
+	mine_rgo_eff = 1.25
+	pop_militancy_modifier = 0.01
+	icon = 14
+}
+
+##### TEMPERANCE LEAGUE #####
+libertine_culture = {
+	prestige = -0.01
+	farm_rgo_eff = -0.05
+	mine_rgo_eff = -0.05
+	icon = 19
+}
+
+temperance_league = {
+	poor_everyday_needs = -0.05
+	prestige = 0.01
+	global_pop_militancy_modifier = 0.01
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.05
+	icon = 2
+}
+
+beer_halls = {
+	farm_rgo_eff = -0.05
+	mine_rgo_eff = -0.05
+	pop_militancy_modifier = -0.02
+	icon = 15
+}
+
+destitution_and_poverty = {
+	farm_rgo_eff = -0.05
+	mine_rgo_eff = -0.05
+	pop_militancy_modifier = 0.02
+	icon = 19
+}
+
+liquor_prohibition = {
+	pop_militancy_modifier = 0.05
+	tax_efficiency = -0.05
+	icon = 2
+}
+
+
+##### NATIONALIST UPRISINGS #####
+minority_building_restrictions = {
+	non_accepted_pop_militancy_modifier = 0.05
+	assimilation_rate = 0.05
+	icon = 16
+}
+
+dryzymalas_wagon = {
+	pop_militancy_modifier = 0.05
+	pop_consciousness_modifier = 0.02
+	icon = 8
+}
+
+discriminatory_school_system = {
+	research_points_modifier = -0.02
+	assimilation_rate = 0.05
+	icon = 8
+}
+
+flying_university = {
+	research_points_modifier = 0.02
+	pop_consciousness_modifier = 0.2
+	pop_militancy_modifier = 0.2
+	icon = 5
+}
+
+organic_work = {
+	farm_rgo_eff = 0.04
+	mine_rgo_eff = 0.04
+	icon = 13
+}
+
+##### GREAT POWERS #####
+protector_of_eastern_christendom = {
+	prestige = 0.1
+	icon = 17
+}
+
+egyptian_excavations = {
+	prestige = 0.1
+	icon = 5
+}
+
+international_negotiations = {
+	badboy = 0.01
+	icon = 17
+}
+
+the_statue_of_liberty = {
+	prestige = 0.4
+	global_immigrant_attract = 2	#200%
+	global_assimilation_rate = 5.0
+	icon = 15
+}
+
+the_congo_reform_association = {
+	badboy = 0.2
+	icon = 17
+}
+
+### GER - GERMANY, PRU - PRUSSIA ###
+germania_werft = {
+	local_repair = 0.5
+	local_ship_build = -0.05
+	icon = 15
+}
+
+ruhr_boom = {
+	factory_owner_cost = -0.5
+	global_population_growth = 0.001
+	factory_output = 0.05
+	icon = 11
+}
+
+prussian_general_staff = {
+	org_regain = 0.1
+	land_organisation = 0.05
+	land_unit_start_experience = 0.5
+	supply_consumption = -0.05
+	icon = 15
+}
+
+##### Boer War #####
+trek_boers = {
+	immigrant_attract = 2		#200%
+	icon = 19
+}
+
+boer_exodus = {
+	immigrant_push = 0.5
+	icon = 20
+}
+
+gold_rush = {
+	immigrant_attract = 3		#300%
+	life_rating = 0.5
+	icon = 11
+}
+
+witwatersrand_gold_rush = {
+	prestige = 0.01
+	icon = 11
+}
+
+##### RGO Spread Events #####
+local_tractors = {
+	farm_RGO_size = -0.15
+	farm_RGO_eff = 1.0
+	icon = 13
+}
+
+local_electricity = {
+	farm_RGO_size = -0.15
+	farm_RGO_eff = 1.0
+	mine_RGO_size = 1.2
+	mine_RGO_eff = 0.5
+	icon = 13
+}
+
+local_nitroglycerin = {
+	mine_RGO_size = 0.15
+	mine_RGO_eff = 1.0
+	icon = 13
+}
+
+local_distribution_channels = {
+	farm_RGO_size = -0.15
+	farm_RGO_eff = 1.2
+	icon = 11
+}
+
+local_machine_tools = {
+	mine_RGO_size = 0.15
+	mine_RGO_eff = 1.0
+	icon = 13
+}
+
+##### Diseases & Famines #####
+pandemic_influenza = {
+	global_population_growth = -0.01
+	global_pop_consciousness_modifier = 0.1
+	icon = 18
+}
+
+##### Crime & Punishment #####
+trustee_system = {
+	pop_militancy_modifier = 0.1
+	pop_consciousness_modifier = 0.2
+	farm_RGO_eff = 0.1
+	mine_RGO_eff = 0.1
+	icon = 20
+}
+
+penal_colonies = {
+	core_pop_militancy_modifier = -0.01
+	prestige = 0.01
+	icon = 9
+}
+
+##### Economic Events #####
+stock_market_crash = {
+	factory_output = -0.2
+	rgo_output = -0.2
+	loan_interest = 0.05
+	icon = 12
+}
+
+great_depression = {
+	factory_output = -0.3
+	rgo_output = -0.3
+	tax_efficiency = -0.05
+	loan_interest = 0.02
+	pop_militancy_modifier = 0.2
+	pop_consciousness_modifier = 0.2
+	icon = 12
+}
+
+central_bank_established = {
+	loan_interest = -0.02
+	tax_efficiency = -0.02
+	icon = 11
+}
+
+local_stock_exchange = {
+	local_rgo_output = 0.05
+	pop_militancy_modifier = -0.02
+	icon = 11
+}
+
+economic_boom = {
+	factory_output = 0.05
+	rgo_output = 0.05
+	icon = 11
+}
+
+#### ENG - ENGLAND #####
+corn_laws_repealed = {
+	max_tariff = -0.05
+	global_pop_militancy_modifier = -0.02
+	global_pop_consciousness_modifier = 0.01
+	icon = 1
+}
+
+the_yard = {
+	tax_efficiency = 0.01
+	icon = 1
+}
+
+#### SPA - Spain ####
+la_guardia_civil = {
+	tax_efficiency = 0.01
+	icon = 1
+}
+
+#### FRA - France ####
+the_french_foreign_legion = {
+	prestige = 0.01
+	global_immigrant_attract = 0.01	#1%..
+	icon = 17
+}
+
+the_eiffel_tower = {
+	prestige = 0.05
+	icon = 15
+}
+
+#### SWI - Switzerland ####
+signed_the_geneva_convention = {
+	war_exhaustion = -0.01
+	org_regain = 0.01
+	max_military_spending = -0.1
+	icon = 7
+}
+
+#### SWE - Sweden ####
+folkis_educates = {
+	research_points_modifier = 0.01
+	icon = 5
+}
+
+motala_verkstad = {
+	local_factory_output = 0.05
+	icon = 13
+}
+
+### NEN - New England ###
+miskatonic_campus = {
+	research_points_modifier = 0.1
+	pop_consciousness_modifier = 0.01
+	icon = 5
+}
+
+### BAV - Bavaria ###
+the_walhalla = {
+	prestige = 0.01
+	icon = 15
+}
+
+######CB generation######
+ CB_gen_plus = {
+	cb_generation_speed_modifier = 0.25
+ }
+ 
+  CB_gen_minus = {
+	cb_generation_speed_modifier = -0.25
+ }
+ 
+ ##more event modifiers
+ recent_safari = {
+	prestige = 0.001
+ }
+ recent_safari2 = {
+	prestige = 0.001
+ }
+ 
+ free_press_promised = {
+	prestige = 0.001
+	icon = 17
+ }
+ 
+ yes_meeting_promised = {
+	prestige = 0.001
+	icon = 17
+ }
+ 
+ trade_unions_promised = {
+	prestige = 0.001
+	icon = 17
+ }
+ 
+ ##
+ meiji_restoration_boost = {
+	research_points_modifier = 0.3
+	icon = 5
+}
+
+ dar_al_funun = {
+	research_points_modifier = 0.2
+	icon = 5
+}
+
+french_growth_nerf = {
+	global_population_growth = -0.005
+	icon = 18
+}
+
+apache_raiders	= {
+	population_growth = -0.002	
+	pop_militancy_modifier = 0.2
+	icon = 18
+}
+
+liberian_research_boost = {
+	research_points_modifier = 0.15
+	icon = 5
+}
+
+### ChronologyMod modifieres ###
+zemstva = {
+	global_population_growth = 0.001
+	tax_efficiency = 0.01
+	icon = 5
+}
+provisional_government = {
+	prestige = -0.05
+	diplomatic_points_modifier = -1.0
+	land_organisation = -0.5
+	factory_output = -0.3
+	rgo_output = -0.3
+	global_pop_militancy_modifier = 0.05
+	war_exhaustion = 2.0
+	icon = 6
+}
+sovnarkom = {
+	global_pop_militancy_modifier = -0.01
+	tax_efficiency = 0.01
+	icon = 5
+}
+separatist = {
+	pop_militancy_modifier = 0.05
+	assimilation_rate = -0.05
+	icon = 8
+}
+mavzoley = {
+	pop_consciousness_modifier = -0.02
+	icon = 15
+}
+serfdom_province = {
+	pop_militancy_modifier = 0.01
+	pop_consciousness_modifier = -0.01
+	icon = 14
+}
+serfdom_crisis = {
+	global_pop_consciousness_modifier = 0.02
+	global_pop_militancy_modifier = 0.03
+	icon = 18
+}
+influx_of_population = {
+	immigrant_attract = 10
+	icon = 17
+}
+factory_strikes = {
+	local_factory_output = -0.9
+	pop_militancy_modifier = 1
+	icon = 12
+}
+political_crisis = {
+	global_pop_consciousness_modifier = 0.02
+	global_pop_militancy_modifier = 0.02
+	icon = 18
+}
+antibolshevik_sentiments = {
+	pop_militancy_modifier = 0.05
+	icon = 18
+}
+prodrazvyorstka_modifier = {
+	tax_efficiency = 0.05
+	global_pop_militancy_modifier = 0.02
+	icon = 9
+}
+first_five_year_plan = {
+	factory_output = 0.4
+	industry_tech_research_bonus = 0.1
+	mine_rgo_eff = 0.4
+	tax_efficiency = -0.5
+	icon = 11
+}
+second_five_year_plan = {
+	factory_output = 0.3
+	mine_rgo_eff = 0.3
+	tax_efficiency = -0.4
+	icon = 11
+}
+soviet_collectivization  = {
+	tax_efficiency = 0.5
+	farm_rgo_eff = -0.4
+	global_pop_militancy_modifier = 0.02
+	global_population_growth = -0.01
+	icon = 11
+}
+soviet_famine = {
+	population_growth = -0.05
+	local_RGO_output = -0.2
+	icon = 12
+}
+vatican = {
+	pop_consciousness_modifier = -0.05
+	pop_militancy_modifier = -0.05
+	icon = 7
+}
+red_doubleyear = {
+	global_pop_militancy_modifier = 0.1
+	icon = 18
+}
+bakumatsu = {
+	global_pop_militancy_modifier = 0.1
+	prestige = -0.01
+	icon = 18
+}
+sonno_joi = {
+	global_pop_consciousness_modifier = 0.1
+	icon = 18
+}
+meiji_period = {
+	global_pop_consciousness_modifier = 0.02
+	prestige = 0.05
+	icon = 3
+}
+zaibatsu = {
+	factory_output = 0.05
+	factory_throughput = 0.05
+	icon = 11
+}
+land_tax = {
+	tax_efficiency = 0.05
+	icon = 9
+}
+imperial_university = {
+	research_points_modifier = 0.05
+	icon = 3
+}
+shipbuilding_program = {
+	local_ship_build = -0.5
+	local_repair = 0.2
+	icon = 3
+}
+taisho_period = {
+	global_pop_consciousness_modifier = 0.02
+	global_pop_militancy_modifier = -0.02
+	icon = 3
+}
+showa_period = {
+	org_regain = 0.1
+	war_exhaustion = -0.1
+	badboy = -0.05
+	icon = 3
+}
+united_fruit = {
+	farm_rgo_eff = 0.04
+	pop_consciousness_modifier = 0.01
+	icon = 11
+}
+rubber_boom = {
+	mine_RGO_eff = 0.40
+	icon = 11
+}
+christ_the_redeemer = {
+	prestige = 0.02
+	pop_militancy_modifier = -0.03
+	icon = 15
+}
+political_instability = {
+	global_pop_militancy_modifier = 0.1
+	icon = 18
+}
+struggle_for_independence = {
+	pop_militancy_modifier = 0.1
+	icon = 8
+}
+opium_bonus = {
+	farm_RGO_eff = 0.20
+	icon = 7
+}
+opium_addiction = {
+	rgo_output = -0.1
+	global_pop_militancy_modifier = 0.05
+	global_pop_consciousness_modifier = -0.05
+	global_population_growth = -0.001
+	icon = 8
+}
+taiping_rebellion_mil = {
+	core_pop_militancy_modifier = 0.1
+	icon = 16
+}
+taiping_rebels_arming = {
+	pop_militancy_modifier = 0.15
+	icon = 16
+}
+taiping_independence_zeal = {
+	land_organisation = 0.1
+	leadership = 0.5
+	farm_rgo_eff = -0.3
+	mine_rgo_eff = -0.3
+	icon = 15
+}
+taiping_draft = {
+	mobilisation_size = 0.12
+	mobilization_impact = 4
+	prestige = -0.02
+	icon = 7
+}
+western_missionary_china = {
+	pop_militancy_modifier = 0.05
+	pop_consciousness_modifier = 0.05
+	research_points_modifier = 0.01
+	icon = 14
+}
+hsing_chung_hui = {
+	global_pop_consciousness_modifier = 0.05
+	icon = 18
+}
+tongmenghui = {
+	global_pop_consciousness_modifier = 0.15
+	icon = 18
+}
+antimanchu_rebels = {
+	global_pop_militancy_modifier = 0.1
+	icon = 18
+}
+irish_potato_famine = {
+	population_growth = -0.02
+	immigrant_push = 3
+	pop_militancy_modifier = 0.01
+	icon = 20
+}
+
+#### Suez Canal ####
+building_suez_canal = {
+	icon = 11
+}
+
+building_suez_canal_revolt = {
+	icon = 16
+}
+
+suez_canal = {
+	icon = 11
+}
+
+suez_canal_dividend = {
+	icon = 9
+}
+
+suez_canal_treaty = {
+	icon = 5
+}
+
+suez_canal_treaty_annuity = {
+	icon = 9
+}
+
+
+#### Panama Canal ####
+building_panama_canal = {
+	icon = 11
+}
+
+panama_canal = {
+	icon = 11
+}
+
+panama_canal_dividend = {
+	icon = 11
+}
+
+panama_canal_treaty = {
+	icon = 5
+}
+
+panama_canal_treaty_annuity = {
+	icon = 9
+}
+
+building_panama_canal_scandal = {
+	icon = 10
+}
+
+#### Kiel Canal ####
+building_kiel_canal = {
+	icon = 11
+}
+
+kiel_canal = {
+	icon = 11
+}
+
+kiel_canal_dividend = {
+	icon = 9
+}
+### Great War ###
+great_war = {
+	war_exhaustion = -3.0
+	mobilisation_size = 0.1
+	core_pop_militancy_modifier = -0.2
+	icon = 17
+}
+
+great_war2 = {
+	war_exhaustion = -2.0
+	mobilisation_size = 0.1
+	icon = 17
+}
+
+great_war3 = {
+	war_exhaustion = -1.0
+	non_accepted_pop_militancy_modifier = 0.2
+	icon = 17
+}
+
+punitive_effects = {
+	war_exhaustion = 2.0
+	core_pop_militancy_modifier = 0.2
+	diplomatic_points_modifier = -0.5
+	prestige = -0.1
+	icon = 4
+}
+
+no_more_war = {
+	war_exhaustion = 0.5
+	icon = 2
+}
+
+end_the_war = {
+	war_exhaustion = 2.0
+	icon = 2
+}
+
+international_pariah = {
+	diplomatic_points_modifier = -0.25
+	non_accepted_pop_militancy_modifier = 0.1
+	prestige = -0.1
+	icon = 4
+}
+
+############Political Leaders############
+
+expert_diplomat = {
+	diplomatic_points_modifier = 0.5
+	badboy = -0.1
+	icon = 1
+}
+
+successful_industrialist = {
+	factory_owner_cost = -0.25
+	factory_throughput = 0.05
+	farm_RGO_size = -0.05
+	mine_RGO_size = -0.05
+	icon = 1
+}
+
+ivory_tower_intellectual = {
+	research_points = 1
+	global_pop_consciousness_modifier = 0.01
+	icon = 1
+}
+
+man_of_the_people = {
+	global_pop_militancy_modifier = -0.02
+	global_pop_consciousness_modifier = 0.02
+	ruling_party_support = 1
+	icon = 1
+}
+
+landed_gentleman = {
+	RGO_throughput = 0.05
+	farm_RGO_size = 0.05
+	mine_RGO_size = 0.05
+	factory_throughput = -0.05
+	icon = 1
+}
+
+military_man = {
+	org_regain = 0.1
+	land_organisation = 0.05
+	icon = 1
+}
+
+lord_admiral = {
+	org_regain = 0.1
+	naval_organisation = 0.05
+	icon = 1
+}
+
+raving_loon = {
+	global_pop_militancy_modifier = 0.05
+	research_points_modifier = -0.05
+	ruling_party_support = -0.5
+	icon = 2
+}
+
+luddite = {
+	research_points_modifier = -0.05
+	factory_owner_cost = 0.2
+	RGO_throughput = 0.05
+	icon = 1
+}
+
+great_statesman = {
+	prestige = 0.01
+	diplomatic_points_modifier = 0.25
+	ruling_party_support = 0.5
+	badboy = -0.05
+	icon = 1
+}
+
+backroom_boy = {
+	RGO_throughput = 0.02
+	research_points_modifier = 0.02
+	leadership = 0.02
+	icon = 1
+}
+
+great_reformer = {
+	global_pop_militancy_modifier = -0.02
+	global_pop_consciousness_modifier = 0.04
+	ruling_party_support = 0.2
+	icon = 1
+}
+
+gauche_buffoon = {
+	prestige = -0.01
+	diplomatic_points_modifier = -0.5
+	icon = 2
+}
+
+administrative_genius = {
+	mobilisation_size = 0.01
+	supply_consumption = -0.05
+	icon = 1
+}
+
+visionary_thinker = {
+	research_points_modifier = 0.2
+	icon = 1
+}
+
+competent_placeholder = {
+	icon = 1
+}
+
+imperious_autocrat = {
+	prestige = 0.02
+	icon = 1
+}
+
+prince_of_terror = {
+	global_pop_militancy_modifier = -0.1
+	badboy = 0.05
+	icon = 1
+}
+
+efficient_sociopath = {
+	factory_output = 0.02
+	leadership = -0.1
+	icon = 1
+}
+
+pig_headed_isolationist = {
+	global_pop_consciousness_modifier = -0.05
+	icon = 1
+}
+
+ambitious_union_boss = {
+	global_pop_consciousness_modifier = 0.03
+	icon = 1
+}
+
+dour_economist = {
+	factory_owner_cost = -0.1
+	ruling_party_support = -0.2
+	icon = 1
+}
+######
+peasant_revolt = {
+	pop_consciousness_modifier = 0.2
+	pop_militancy_modifier = 0.25
+	icon = 18
+}
+gateway_to_harbor = {
+	immigrant_attract = 1
+	population_growth = 0.002
+	icon = 9
+}
+##### Japan #####
+sakoku = {
+	prestige = 0.01
+	research_points_modifier = -0.1
+	war_exhaustion = -0.1
+	icon = 6
+}
+
+ansei_purge = {
+	prestige = 0.02
+	global_pop_consciousness_modifier = 0.1
+	global_pop_militancy_modifier = 0.05
+	icon = 18
+}
+
+kobu_gattai = {
+	prestige = -0.01
+	global_pop_consciousness_modifier = -0.1
+	global_pop_militancy_modifier = -0.05
+	icon = 5
+}
+
+fukoku_kyohei = {
+	org_regain = 0.25
+	land_organisation = 0.1
+	research_points = 1
+	icon = 5
+}
+##
+hellenistic_politic = {
+	assimilation_rate = 0.2
+	non_accepted_pop_militancy_modifier = 0.2
+	icon = 17
+}
+
+#################
+
+nationalist_agitation = {
+	pop_consciousness_modifier = 0.2
+	pop_militancy_modifier = 0.25
+	icon = 18
+}
+
+patriot_uprising = {
+	pop_consciousness_modifier = 0.2
+	pop_militancy_modifier = 0.25
+	icon = 18
+}
+
+peasant_revolt = {
+	pop_consciousness_modifier = 0.2
+	pop_militancy_modifier = 0.25
+	icon = 18
+}
+
+war_torn = {
+	pop_militancy_modifier = -0.1
+	local_factory_output = -0.25
+	local_RGO_throughput = -0.25
+	immigrant_attract = -0.25
+	immigrant_push = 0.75
+	population_growth = -0.002
+	icon = 4
+}
+
+power_vacuum = {
+	global_pop_consciousness_modifier = 0.05
+	global_pop_militancy_modifier = 0.05
+	factory_throughput = -0.1
+	RGO_throughput = -0.1
+	icon = 2
+}
+
+##### reformation of Kalmar#####
+
+kalmar_union = {
+	prestige = 0.01
+	icon = 9
+}
+
+leader_of_kalmar = {
+	prestige = 0.02
+	icon = 9
+}
+
+customs_union = {
+	RGO_throughput = 0.05
+	icon = 9
+}
+
+####NV changes#######
+
+national_confusion = {
+	research_points_modifier = -0.01
+	global_pop_consciousness_modifier = 0.01
+	global_pop_militancy_modifier = 0.01
+	prestige = -0.01
+	icon = 6
+}
+
+######### Revolution & Nationalism ##########
+
+colonial_chaos = {
+	prestige = -0.01
+	local_RGO_throughput = -0.5
+	icon = 2
+}
+
+loss_of_control = {
+	icon = 2
+}
+
+mahdist_control = {
+	icon = 4
+}
+
+mahdi_tomb = {
+	pop_consciousness_modifier = -0.02
+	icon = 15
+}
+
+colonial_separatism_1 = {
+	pop_militancy_modifier = 0.01
+	icon = 20
+}
+
+colonial_separatism_2 = {
+	pop_militancy_modifier = 0.03
+	icon = 20
+}
+
+colonial_separatism_3 = {
+	local_RGO_throughput = -0.1
+	pop_militancy_modifier = 0.06
+	icon = 20
+}
+
+colonial_separatism_4 = {
+	local_RGO_throughput = -0.25
+	pop_militancy_modifier = 0.1
+	icon = 20
+}
+
+colonial_separatism_5 = {
+	#prestige = -0.001
+	local_RGO_throughput = -0.5
+	pop_militancy_modifier = 0.15
+	icon = 20
+}
+
+### GAGA Election Events ###
+
+election_cooldown = {
+	global_pop_consciousness_modifier = 0.01
+	icon = 13
+}
+
+violent_elections = {
+	global_pop_militancy_modifier = 0.03
+	issue_change_speed = -0.05
+	icon = 18
+}
+
+social_reform_movement = {
+	social_reform_desire = 0.4
+	global_pop_consciousness_modifier = 0.02
+	icon = 7
+}
+
+wartime_elections = {
+	war_exhaustion = 0.1
+	global_pop_militancy_modifier = -0.01
+	global_pop_consciousness_modifier = 0.02
+	icon = 17
+}
+
+loss_of_support = {
+	pop_consciousness_modifier = 0.1
+	local_ruling_party_support = -0.5
+	icon = 20
+}
+
+support_the_government = {
+	pop_militancy_modifier = -0.01
+	local_ruling_party_support = 0.5
+	icon = 19
+}
+germany_mobilization = {
+	mobilisation_size = 0.025
+	icon = 5
+}
+austria_mobilization = {
+	mobilisation_size = 0.1
+	icon = 5
+}
+france_mobilization = {
+	mobilisation_size = -0.02
+	icon = 5
+}
+turkey_mobilization = {
+	mobilisation_size = 0.05
+	icon = 5
+}
+### China ###
+
+boxer_rebellion = {
+	pop_militancy_modifier = 0.1
+	local_RGO_throughput = -0.25
+	immigrant_attract = -0.25
+	immigrant_push = 0.75
+	population_growth = -0.002
+	icon = 18
+}	
+
+self_strengthening_movement = {
+	prestige = 0.02
+	research_points = 1
+	global_pop_consciousness_modifier = 0.2	
+	global_pop_militancy_modifier = 0.02
+	icon = 5
+}
+
+drive_to_reunify = {
+	prestige = -0.02
+	mobilisation_size = 0.02
+	war_exhaustion = -0.03
+	global_pop_militancy_modifier = -0.2
+	icon = 15
+}
+###TAIPING###
+
+the_female_shortage = {
+	global_pop_consciousness_modifier = 0.2
+	global_pop_militancy_modifier = 0.05
+	global_population_growth = -0.003
+	icon = 14
+}
+
+christian_pamphlets = {
+	pop_consciousness_modifier = 0.2
+	pop_militancy_modifier = 0.1
+	icon = 20
+}
+
+christian_repression = {
+	pop_consciousness_modifier = -0.1
+	pop_militancy_modifier = 0.2
+	icon = 20
+}
+
+anti_manchu_sentiment = {
+	pop_consciousness_modifier = 0.1
+	pop_militancy_modifier = 0.2
+	icon = 18
+}
+
+chinese_floods = {
+	pop_militancy_modifier = 0.1
+	local_RGO_throughput = -0.50
+	immigrant_attract = -0.25
+	immigrant_push = 0.75
+	life_rating = -5
+	icon = 4
+}
+
+taiping_draft = {
+	mobilisation_size = 0.12
+	mobilization_impact = 4
+	prestige = -0.02
+	icon = 15
+}
+###
+treaty_versailles = {
+	mobilisation_size = -0.3
+	org_regain = -0.1
+	land_organisation = -0.1
+	prestige = -0.01
+	tax_efficiency = -0.1
+	icon = 6
+}
+###Nuclear Attack###
+nuclear_bombs_on_the_enemy = {
+	prestige = -0.5
+	icon = 6
+}
+nuclear_bomb_demoralisation = {
+	org_regain = -0.1
+	land_organisation = -0.3
+	naval_organisation = -0.1
+	war_exhaustion = 0.02
+	icon = 6
+}
+province_nuclear_attaked = {
+	population_growth = -0.1
+	icon = 6
+}
+nuclear_contamination = {
+	population_growth = -0.05
+	icon = 6
+}
+###United Nations###
+united_nations_headquarters = {
+	prestige = 0.02
+	icon = 7
+}
+signed_the_united_nations = {
+	prestige = 0.01
+	badboy = -0.01
+	icon = 7
+}
+###British Commonwealth###
+british_commonwealth_leader = {
+	prestige = 0.02
+	badboy = -0.02
+	icon = 7
+}
+british_commonwealth_member = {
+	prestige = 0.01
+	icon = 7
+}
+third_world = {
+	prestige = -0.01
+	research_points_modifier = -0.05
+	factory_throughput = -0.5
+	rgo_throughput = -0.25
+	global_population_growth = 0.03
+	icon = 8
+}
+###1816###
+iguala_plan = {
+	global_pop_militancy_modifier = -0.01
+	org_regain = 0.1
+	land_organisation = 0.1
+	war_exhaustion = -2
+	icon = 3
+}
+kings_absence = {
+	pop_militancy_modifier = 0.2
+	prestige = -0.01
+	icon = 2
+}
+pre-revolutionary_situation = {
+	global_pop_militancy_modifier = 0.2
+	icon = 2
+}
+consequences_of_occupation = {
+	org_regain = 0.1
+	land_organisation = 0.1
+	war_exhaustion = -2
+	icon = 2
+}
+union_of_salvation = {
+	pop_consciousness_modifier = 0.01
+	icon = 2
+}
+union_of_prosperity = {
+	pop_consciousness_modifier = 0.01
+	icon = 2
+}
+north_i_south_organisations = {
+	pop_consciousness_modifier = 0.01
+	icon = 2
+}
+finland_integrate = {
+	prestige = -0.01
+	badboy = 0.02
+	icon = 2
+}
+the_homestead_act_CSA = {
+	global_immigrant_attract = 0.1	#10%
+	global_assimilation_rate = 0.1
+	icon = 9
+}
+CSA_general_staff = {
+	land_organisation = 0.1
+	land_unit_start_experience = 1.5
+	supply_consumption = -0.05
+	global_pop_militancy_modifier = -0.1
+	global_pop_consciousness_modifier = -0.1
+	research_points = 1.5
+	icon = 15
+}
+CRI_integrate = {
+	prestige = 0.01
+	badboy = 0.02
+	icon = 2
+}
+
+sanction = {
+	import_cost = 0.2
+	icon = 2
+}

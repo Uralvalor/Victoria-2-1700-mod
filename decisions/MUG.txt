@@ -1,0 +1,48 @@
+political_decisions = {	
+form_MGE = {
+		potential = {
+                        tag = MUG
+		}
+		
+		allow = {
+			HND = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {vassal_of = THIS}
+					}
+				}
+			}
+		}	
+		effect = {
+			prestige = 10
+			change_tag = MGE
+			any_country = {
+				limit = {
+                               continent = asia
+					vassal_of = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+HND = {
+all_core = {
+				add_core = MGE
+}
+		}
+MUG = {
+all_core = {
+				add_core = MGE
+}
+		}
+			add_accepted_culture = baluchi
+			add_accepted_culture = panjabi
+			add_accepted_culture = sindi
+			add_accepted_culture = pashtun
+}
+		ai_will_do = {
+			factor = 1
+		}
+}

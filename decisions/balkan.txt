@@ -1,0 +1,455 @@
+political_decisions = {
+	create_rom = {
+		potential = {
+			OR = {
+				tag = WAL
+				tag = MOL
+			}
+			WAL_665 = {
+				owned_by = WAL
+			}
+			MOL_673 = {
+				owned_by = MOL
+			}
+			NOT = {
+				has_global_flag = UnionPrincNegotations
+				has_country_flag = union_princ_initiator
+			}
+		}
+		allow = {
+			prestige = 5
+			state_n_government = 1
+			#average_consciousness = 5
+			OR = {
+				NOT = {vassal_of = TUR}
+				TUR = {is_greater_power = no}
+			}
+			war = no
+			
+		}
+		effect = {
+			set_global_flag = UnionPrincNegotations
+			set_country_flag = union_princ_initiator
+		}
+	}
+	annex_sie = {
+		potential = {
+			tag = ROM
+			SIE = {AI = yes}
+		}
+		allow = {
+			prestige = 10
+			war = no
+			AUS_654 = {
+				owned_by = SIE
+			}
+			AUS_657 = {
+				owned_by = SIE
+			}
+		}
+		effect = {
+			prestige = 10
+			inherit = SIE
+		}
+	}
+	bulgar_cherch = {
+		potential = {
+			tag = BUL
+			NOT = {
+				has_country_flag = bulgar_ekzarhat
+			}
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			prestige = 10
+			set_country_flag = bulgar_ekzarhat
+		}
+	}
+	namest_ustav = {
+		potential = {
+			tag = SER
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = namest_ustav_ok
+			}
+		}
+		allow = {
+			war = no
+			average_consciousness = 4
+		}
+		effect = {
+			prestige = 5
+			government = hms_government
+			set_country_flag = namest_ustav_ok
+		}
+	}
+	chernogor_zakonnik = {
+		potential = {
+			tag = MON
+			NOT = {
+				has_country_flag = chernogor_zakonnik_ok
+			}
+		}
+		allow = {
+			war = no
+			empiricism = 1
+		}
+		effect = {
+			prestige = 5
+			average_consciousness = -1
+			set_country_flag = chernogor_zakonnik_ok
+		}
+	}
+	yugoslav_union = {
+		potential = {
+			tag = SER
+			MON = {AI = yes}
+			CRO = {AI = yes}
+			SLO = {AI = yes}
+			BOS = {AI = yes}
+			has_global_flag = yugoslavia_independence_aus
+		}
+		allow = {
+			war = no
+			prestige = 10
+		}
+		effect = {
+			prestige = 5
+			inherit = YUG
+			inherit = MON
+			inherit = CRO
+			inherit = SLO
+			inherit = BOS
+			change_tag = YUG
+			add_accepted_culture = croat
+			add_accepted_culture = slovene
+			add_accepted_culture = bosniak
+			TUR_788 = {
+				remove_core = TUR
+			}
+			MON_2582 = {
+				remove_core = TUR
+			}
+			AUS_777 = {
+				remove_core = HUN
+			}
+			AUS_768 = {
+				remove_core = AUS
+			}
+			AUS_771 = {
+				remove_core = HUN
+			}
+			AUS_736 = {
+				remove_core = ITA
+			}
+			AUS_780 = {
+				remove_core = ITA
+			}
+			clr_global_flag = yugoslavia_independence_aus
+		}
+	}
+
+	france_protector_of_eastern_christians = {
+		picture = protect_eastern_christians
+		potential = {
+			tag = FRA
+			is_greater_power = yes
+			ideological_thought = 1
+			NOT = { has_country_flag = claimed_authority_over_holy_land }
+			NOT = { has_global_flag = berlin_congress_held }
+			NOT = { has_global_flag = scenario_1914_activated }
+			NOT = { has_global_flag = scenario_1923_activated }
+			TUR = {
+				owns = 917
+				neighbour = RUS
+			}
+		}
+		
+		allow = {
+			war = no
+			state_n_government = 1
+			TUR = {
+				war = no
+				is_greater_power = no
+				NOT = { truce_with = THIS }
+			}
+		}
+		
+		effect = {
+			set_country_flag = claimed_authority_over_holy_land
+			prestige = 10
+			TUR = { country_event = 97500 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	treaty_of_paris_1856 = {
+		picture = treaty_signing
+		potential = {
+			tag = FRA
+			has_global_flag = crimea_has_happened
+			NOT = { has_global_flag = treaty_of_paris_1856 }
+			NOT = { has_global_flag = treaty_of_paris_russia }
+			NOT = { has_global_flag = berlin_congress_held }
+			NOT = { has_country_flag = crimean_surrender }
+		}
+		
+		allow = {
+			RUS = {
+				NOT = { war_with = TUR }
+				has_recently_lost_war = yes
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			set_global_flag = treaty_of_paris_1856
+			random_country = {
+				limit = {
+					tag = WAL
+					exists = yes
+					MOL = {
+						ai = yes
+						exists = yes
+					}
+					ROM = { exists = no }
+				}
+				inherit = MOL
+				change_tag = ROM
+			}
+			random_country = {
+				limit = {
+					tag = WAL
+					exists = yes
+					MOL = { exists = no }
+					ROM = { exists = no }
+				}
+				change_tag = ROM
+			}
+			random_country = {
+				limit = {
+					tag = MOL
+					exists = yes
+					ai = no
+					ROM = { exists = no }
+				}
+				inherit = WAL
+				change_tag = ROM
+				capital = 664
+			}
+			diplomatic_influence = { who = TUR value = -50 }
+			random_country = {
+				limit = {
+					tag = ENG
+					has_country_flag = england_protecting_interests
+				}
+				diplomatic_influence = { who = TUR value = -50 }
+			}
+			random_country = {
+				limit = {
+					tag = RUS
+					owns = 678
+				}
+				country_event = 97510
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	treaty_of_paris_russia = {
+		picture = treaty_signing
+		potential = {
+			tag = RUS
+			has_global_flag = crimea_has_happened
+			NOT = { has_global_flag = treaty_of_paris_1856 }
+			NOT = { has_global_flag = treaty_of_paris_russia }
+			NOT = { has_global_flag = berlin_congress_held }
+		}
+		
+		allow = {
+			NOT = { war_with = TUR }
+			OR = {
+				has_recently_lost_war = no
+				has_country_flag = crimean_surrender
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			set_global_flag = treaty_of_paris_russia
+			random_country = {
+				limit = {
+					tag = WAL
+					exists = yes
+					MOL = {
+						ai = yes
+						exists = yes
+					}
+					ROM = { exists = no }
+				}
+				inherit = MOL
+				change_tag = ROM
+			}
+			random_country = {
+				limit = {
+					tag = WAL
+					exists = yes
+					MOL = { exists = no }
+					ROM = { exists = no }
+				}
+				change_tag = ROM
+			}
+			random_country = {
+				limit = {
+					tag = MOL
+					exists = yes
+					ai = no
+					ROM = { exists = no }
+				}
+				inherit = WAL
+				change_tag = ROM
+				capital = 664
+			}
+			random_country = {
+				limit = {
+					tag = TUR
+					is_our_vassal = ROM
+				}
+				release_vassal = ROM
+				leave_alliance = ROM
+			}
+			random_country = {
+				limit = {
+					tag = TUR
+					THIS = { has_country_flag = crimean_surrender }
+				}
+				country_event = 97512
+				RUS = { treasury = 250000 }
+			}
+			relation = { who = ROM value = 400 }
+			diplomatic_influence = { who = ROM value = 200 }
+			diplomatic_influence = { who = TUR value = 50 }
+			FRA = { diplomatic_influence = { who = TUR value = -100 } }
+			random_country = {
+				limit = {
+					tag = ENG
+					has_country_flag = england_protecting_interests
+				}
+				diplomatic_influence = { who = TUR value = -100 }
+			}
+		}
+	}
+	moldavia_independence = {
+		picture = treaty_signing
+		potential = {
+			war_with = TUR
+			NOT = {
+				exists = MOL
+				has_global_flag = independence_mol_decision
+			}
+			MOL_673 = {
+				owned_by = TUR
+			}
+		}
+		
+		allow = {
+			OR = {
+				670 = {
+					owned_by = TUR
+					controlled_by = THIS
+				}
+				671 = {
+					owned_by = TUR
+					controlled_by = THIS
+				}
+				672 = {
+					owned_by = TUR
+					controlled_by = THIS
+				}
+				673 = {
+					owned_by = TUR
+					controlled_by = THIS
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			diplomatic_influence = { who = MOL value = 200 }
+			TUR = {
+				country_event = 97630
+			}
+			MOL = {
+				any_owned = {
+					remove_core = TUR
+				}
+			}
+			set_global_flag = independence_mol_decision
+		}
+	}
+	wallachia_independence = {
+		picture = treaty_signing
+		potential = {
+			war_with = TUR
+			NOT = {
+				exists = WAL
+				has_global_flag = independence_wal_decision
+			}
+			WAL_665 = {
+				owned_by = TUR
+			}
+		}
+		
+		allow = {
+			OR = {
+				664 = {
+					owned_by = TUR
+					controlled_by = THIS
+				}
+				665 = {
+					owned_by = TUR
+					controlled_by = THIS
+				}
+				666 = {
+					owned_by = TUR
+					controlled_by = THIS
+				}
+				667 = {
+					owned_by = TUR
+					controlled_by = THIS
+				}
+				668 = {
+					owned_by = TUR
+					controlled_by = THIS
+				}
+				669 = {
+					owned_by = TUR
+					controlled_by = THIS
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			diplomatic_influence = { who = WAL value = 200 }
+			TUR = {
+				country_event = 97631
+			}
+			WAL = {
+				any_owned = {
+					remove_core = TUR
+				}
+			}
+			set_global_flag = independence_wal_decision
+		}
+	}
+}
+	

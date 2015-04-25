@@ -1,0 +1,35 @@
+political_decisions = {
+	create_ober_ost = {
+		potential = {
+			tag = GER
+			has_global_flag = world_war_one_is_now
+			NOT = {
+				exists = OBO
+			}
+		}
+		allow = {
+			POL = {
+				vassal_of = THIS
+			}
+			LAT = {
+				vassal_of = THIS
+			}
+			LIT = {
+				vassal_of = THIS
+			}
+			EST = {
+				vassal_of = THIS
+			}
+		}
+		effect = {
+			OBO = {
+				inherit = POL
+				inherit = LAT
+				inherit = LIT
+				inherit = EST
+				government = occupation_zone
+			}
+			create_vassal = OBO
+		}
+	}
+}

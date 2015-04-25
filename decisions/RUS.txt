@@ -1,0 +1,1362 @@
+political_decisions = {
+	abolish_serfdom = {
+		potential = {
+			has_country_flag = serfdom_not_abolished
+		  OR = {  is_ideology_enabled = liberal
+                  is_ideology_enabled = anarcho_liberal }
+		}
+		allow = { 
+			average_militancy = 5
+			OR = {
+				AND = {
+					upper_house = {
+						ideology = liberal
+						value = 0.3
+					}
+					average_consciousness = 3
+				}	
+				AND = {
+					ruling_party_ideology = liberal
+					average_consciousness = 4
+				}
+				AND = {
+					upper_house = {
+						ideology = anarcho_liberal
+						value = 0.3
+					}
+					average_consciousness = 3
+				}	
+				AND = {
+					ruling_party_ideology = anarcho_liberal
+					average_consciousness = 4
+				}
+			}
+		}
+		effect = {
+			farmers = {
+				militancy = -4
+				consciousness = 1
+			}
+			labourers = {
+				militancy = -3
+				consciousness = 1
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = serfdom_province
+				}
+				remove_province_modifier = serfdom_province
+			}
+			remove_country_modifier = serfdom_crisis
+			badboy = -4
+			years_of_research = 0.05
+			clr_country_flag = serfdom_not_abolished
+		}
+	}
+	establish_the_sovnarkom = {
+		potential = {
+			OR = {
+				tag = RSR
+				tag = SOV
+			}
+			NOT = {
+				has_country_flag = big_brother_is_watching
+			}
+			government = proletarian_dictatorship
+		}
+		allow = {
+			mass_politics = 1
+		}
+		
+		effect = {
+			any_pop = {
+				militancy = -1
+				consciousness = -1
+				ideology = {
+					value = socialist
+					factor = 0.05
+				}
+			}
+			prestige = 5
+			add_country_modifier = {
+					name = sovnarkom
+					duration = -1
+			}
+			set_country_flag = big_brother_is_watching
+		}
+	}
+	
+	manifesto_on_unshakable_autocracy = {
+		potential = {
+			tag = RUS
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = the_manifesto
+			}
+			nationalism_n_imperialism = 1
+		}
+		
+		allow = {
+			revolution_n_counterrevolution = 1
+		}
+		
+		effect = {
+			prestige = 5
+			badboy = 3
+			any_pop = {
+				consciousness = -0.5
+				militancy = -0.5
+			}
+			set_country_flag = the_manifesto
+		}
+	}
+	
+	promulgate_the_ems_ukaz = {
+		potential = {
+			tag = RUS
+			NOT = {
+				has_country_flag = ems_ukaz_dispatched
+			}
+			government = absolute_monarchy
+			owns = 958
+			phenomenalism = 1
+			exists = GER
+			GER = {
+				owns = 570
+			}
+		}
+		
+		allow = {
+			biologism = 1
+		}
+		
+		effect = {
+			any_pop = {
+				limit = {
+					has_pop_culture = ukrainian
+				}
+				militancy = 3
+				consciousness = -2
+			}
+			set_country_flag = ems_ukaz_dispatched
+		}
+	}
+
+	protect_eastern_christians = {
+		potential = {
+			tag = RUS
+			is_greater_power = yes
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = eastern_christians_up_in_here_yall
+			}
+			exists = TUR
+			TUR = {
+				government = absolute_monarchy
+				is_greater_power = no
+			}
+		}
+		
+		allow = {
+			NOT = {
+				relation = {
+					who = TUR
+					value = 0
+				}
+			}
+			TUR = {
+				average_militancy = 3
+			}
+		}
+		
+		effect = {
+			set_country_flag = eastern_christians_up_in_here_yall
+			add_country_modifier = {
+				name = protector_of_eastern_christendom
+				duration = -1
+			}
+			TUR = {
+        			add_casus_belli = {
+	        			target = RUS
+					type = free_peoples
+					months = 120
+				}
+			}
+			any_greater_power = {
+				limit = {
+					NOT = {
+						tag = TUR
+					}
+					capital_scope = {
+						continent = europe
+					}
+				}
+				country_event = 19030
+			}
+		}
+	}
+	
+	peking_convention = {
+		potential = {
+			tag = RUS
+			MCK = {
+				owns = 1082 }
+			NOT = {
+				has_country_flag = peking_convention
+				war_with = MCK
+			}
+			OR = {
+				is_sphere_leader_of = MCK
+				has_global_flag = summer_palace_torched
+				AND = {
+					has_global_flag = second_opium_war_now
+					MCK = {
+						national_provinces_occupied = 10
+					}
+				}
+				has_global_flag = opium_war_brit_win
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+		}
+		
+		effect = {
+			CHI_1082 = {
+				add_core = RUS
+			}
+			1469 = {
+				add_core = RUS
+			}
+			set_country_flag = peking_convention			
+			MCK = {
+				country_event = 80000
+			}
+			prestige = 2
+		}
+	}
+
+	russian_vladivostok = {
+		potential = {
+			tag = RUS
+			owns = 1085
+			owns = 1084
+			owns = 2617
+			owns = 1083
+        		owns = 1082
+			NOT = {
+				has_global_flag = russian_vladivostok
+			}
+		}
+		
+		allow = {
+			prestige = 10
+		}
+		
+		effect = {
+			1085 = {
+				change_province_name = "Благовещенск"
+			}
+			1084 = {
+				change_province_name = "Николаевск-на-Амуре"
+			}
+			1083 = {
+				change_province_name = "Хабаровск"
+			}
+			2617 = {
+				change_province_name = "Пашково"
+			}
+			1082 = {
+				change_province_name = "Владивосток"
+				state_scope = {
+					change_region_name = "Приморье"
+				}
+			}
+			prestige = 5
+			set_global_flag = russian_vladivostok
+		}
+	}
+	
+	move_capital_to_moscow = {
+		potential = {
+			tag = RUS
+			#NOT = { owns = 339 } # Viipuri
+			NOT = {
+				339 = {
+					owner = {
+						OR = {
+							tag = THIS
+							vassal_of = THIS
+							substate_of = THIS
+						}
+					}
+				}
+			}
+			owns = 1008 # Moscow
+			capital = 994
+		}
+		
+		allow = {
+			owns = 1008 # Moscow
+		}
+		
+		effect = {
+			capital = 1008
+			prestige = 5
+		}
+		ai_will_do = {
+			factor = 0.4
+		}
+	}
+	
+}
+
+#ChronologyMod
+
+political_decisions = {
+	rus_court_reform = {
+		potential = {
+			tag = RUS
+			NOT = {
+				has_country_flag = court_reform_ok
+			}
+		}
+		allow = {
+			state_n_government = 1
+		}
+		effect = {
+			prestige = 5
+			poor_strata = {
+				militancy = -2
+			}
+			middle_strata = {
+				militancy = -1
+			}
+			set_country_flag = court_reform_ok
+		}
+	}
+	zemstvo_reform = {
+		potential = {
+			tag = RUS
+			NOT = {
+				has_country_flag = zemstvo_reform_ok
+			}
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+		}
+		allow = {
+			invention = bureaucracy_vs._nepotism
+		}
+		effect = {
+			add_country_modifier = {
+					name = zemstva
+					duration = -1
+			}
+			set_country_flag = zemstvo_reform_ok
+		}
+	}
+	october_manifest = {
+		potential = {
+			tag = RUS
+			has_country_flag = revolution_1905_now
+			NOT = {
+				has_country_flag = october_manifest_ok
+			}
+		}
+		allow = {
+			average_militancy = 4
+		}
+		effect = {
+			government = prussian_constitutionalism
+			political_reform = landed_voting
+			any_pop = {
+				militancy = -1
+			}
+			set_country_flag = october_manifest_ok
+		}
+	}
+	greek_project = {
+		potential = {
+			tag = RUS
+			is_greater_power = yes
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+			NOT = {
+				has_country_flag = greek_empire_created
+				exists = BYZ
+			}
+		}
+		allow = {
+			805 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			819 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			820 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			821 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			822 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			823 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			824 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			825 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			828 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			829 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			830 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			831 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			832 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			833 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			834 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			835 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			836 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			837 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			838 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			839 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			840 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			841 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			842 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			843 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			844 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			845 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			846 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			847 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			848 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			858 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			859 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			860 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			861 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			862 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			863 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			864 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			865 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			866 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			867 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			868 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			869 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			870 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			871 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			872 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			873 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			874 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			875 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+			895 = {
+				NOT = {
+					owned_by = TUR
+				}
+				OR = {
+					owned_by = RUS
+					owner = {
+						in_sphere = RUS
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 30
+			TUR_805 = { add_core = BYZ }
+			TUR_819 = { add_core = BYZ }
+			TUR_832 = { add_core = BYZ }
+			GRE_837 = { add_core = BYZ }
+			GRE_826 = { add_core = BYZ }
+			EGY_843 = { add_core = BYZ }
+			TUR_860 = { add_core = BYZ }
+			TUR_863 = { add_core = BYZ }
+			TUR_869 = { add_core = BYZ }
+			TUR_873 = { add_core = BYZ }
+			BYZ = {
+				all_core = {
+					secede_province = RUS
+				}
+			}
+			release_vassal = BYZ
+
+			BYZ = {
+				capital = 860
+			}
+
+			860 = {
+				change_province_name = "Константинополь"
+			}
+			set_country_flag = greek_empire_created
+		}
+	}
+	create_ussr = {
+		potential = {
+			tag = RSR
+			has_global_flag = russian_civil_war_is_over
+			UKR = {AI = yes}
+			BYE = {AI = yes}
+			ARM = {AI = yes}
+			AZB = {AI = yes}
+			GEO = {AI = yes}
+			war = no
+			government = proletarian_dictatorship
+			NOT = {
+				has_country_flag = ussr_ok
+			}
+			
+		}
+		allow = {
+			1008 = {
+				OR = {
+					owned_by = RSR
+					owner = { in_sphere = RSR }
+					owner = { government = proletarian_dictatorship }
+				}
+			}
+			958 = {
+				OR = {
+					owned_by = RSR
+					owner = { in_sphere = RSR }
+					owner = { government = proletarian_dictatorship }
+				}
+			}
+			718 = {
+				OR = {
+					owned_by = RSR
+					owner = { in_sphere = RSR }
+					owner = { government = proletarian_dictatorship }
+				}
+			}
+		}
+		effect = {
+			UKR = {
+				all_core = {
+					remove_core = RSR
+				}
+			}
+			POL = {
+				all_core = {
+					remove_core = RSR
+				}
+			}
+			FIN = {
+				all_core = {
+					remove_core = RSR
+				}
+			}
+			ARM = {
+				all_core = {
+					remove_core = RSR
+				}
+			}
+			AZB = {
+				all_core = {
+					remove_core = RSR
+				}
+			}
+			GEO = {
+				all_core = {
+					remove_core = RSR
+				}
+			}
+			BYE = {
+				all_core = {
+					remove_core = RSR
+				}
+			}
+			RSR = {
+				all_core = {
+					remove_core = RSR
+				}
+			}
+			RUS = {
+				all_core = {
+					remove_core = RUS
+				}
+			}
+			prestige = 20
+			inherit = UKR
+			inherit = BYE
+			inherit = ARM
+			inherit = AZB
+			inherit = GEO
+			inherit = TCR
+			change_tag = SOV
+			capital = 1008
+			972 = {
+				change_province_name = "Днепропетровск"
+			}
+			975 = {
+				change_province_name = "Сталино"
+			}
+			998 = {
+				change_province_name = "Калинин"
+				state_scope = {
+					change_region_name = "Калинин"
+				}
+			}
+			1020 = {
+				change_province_name = "Горький"
+			}
+			1039 = {
+				change_province_name = "Сталинград"
+			}
+			1048 = {
+				change_province_name = "Краснодар"
+				state_scope = {
+					change_region_name = "Краснодар"
+				}
+			}
+			1058 = {
+				change_province_name = "Свердловск"
+			}
+			any_owned = {
+				add_core = SOV
+			}
+			set_country_flag = ussr_ok
+			POL = {
+				add_casus_belli = {
+	        			target = THIS
+					type = install_communist_gov_cb
+					months = 1000
+				}
+			}
+			FIN = {
+				add_casus_belli = {
+	        			target = THIS
+					type = install_communist_gov_cb
+					months = 1000
+				}
+			}
+			UKR = {
+				all_core = {
+					add_core = SOV
+				}
+			}
+			BYE= {
+				all_core = {
+					add_core = SOV
+				}
+			}
+			TCR = {
+				all_core = {
+					add_core = SOV
+				}
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = struggle_for_independence
+				}
+				remove_province_modifier = struggle_for_independence
+			}
+		}
+	}
+	port_arthur_lease = {
+		potential = {
+			tag = RUS
+			is_greater_power = yes
+			1481 = {
+				owner = {
+					civilized = no
+					NOT = {
+						tag = JAP
+					}
+				}
+			}
+			NOT = {
+				has_country_flag = port_arthur_leased
+			}
+			
+		}
+		allow = {
+			weapon_platforms = 1
+			money = 25000
+			1481 = {
+				owner = {
+					relation = {
+						who = RUS
+						value = 0
+					}
+				}
+			}
+		}
+		effect = {
+			money = -25000
+			1481 = {
+				owner = {
+					money = 25000
+				}
+			}
+			1481 = {
+				secede_province = RUS
+			}
+			
+			set_country_flag = port_arthur_leased
+		}
+	}
+	prodrazvyorstka = {
+		potential = {
+			OR = {
+				AND = {
+					tag = RUS
+					government_interventionism = 1
+					war_exhaustion = 3
+					NOT = {
+						exists = RSR
+					}
+				}
+				AND = {
+					tag = RSR
+					has_global_flag = russian_civil_war_has_happened
+				}
+			}
+			NOT = {
+				has_country_modifier = prodrazvyorstka_modifier
+			}
+			
+		}
+		allow = {
+			war = yes
+			war_exhaustion = 4
+		}
+		effect = {
+			add_country_modifier = {
+					name = prodrazvyorstka_modifier
+					duration = -1
+			}
+		}
+	}
+	abolish_prodrazvyorstka = {
+		potential = {
+			has_country_modifier = prodrazvyorstka_modifier
+			
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			remove_country_modifier = prodrazvyorstka_modifier
+		}
+	}
+	great_break = {
+		potential = {
+			tag = SOV
+			OR = {
+				has_country_flag = lenin_is_dead
+				year = 1929
+			}
+			NOT = {
+				has_country_flag = industrialisation_begins
+			}
+			
+		}
+		allow = {
+			war = no
+			government = proletarian_dictatorship
+		}
+		effect = {
+			THIS = {
+				country_event = 95453
+			}
+			set_country_flag = industrialisation_begins
+		}
+	}
+	kaliningrad_region = {
+		potential = {
+			tag = SOV
+			NOT = {
+				has_country_flag = kaliningrad_created
+			}
+		}
+		allow = {
+			PRU_695 = {
+				owned_by = THIS
+			}
+		}
+		effect = {
+			PRU_695 = {
+				remove_core = GER
+				remove_core = PRU
+				add_core = SOV
+			}
+			695 = {
+				change_province_name = "Калининград"
+				state_scope = {
+					change_region_name = "Калининград"
+				}
+			}
+			697 = {
+				change_province_name = "Гусев"
+			}
+			698 = {
+				change_province_name = "Клайпеда"
+			}
+			set_country_flag = kaliningrad_created
+		}
+	}
+	liquidation_polish_constitution = {
+		potential = {
+			tag = RUS
+			has_global_flag = polish_independence_war
+			NOT = {
+				has_country_flag = polish_constitution_liquided
+			}
+			exists = POL
+		}
+		allow = {
+			POL = {
+				vassal_of = THIS
+			}
+		}
+		effect = {
+			prestige = 3
+			POL = {
+				any_owned = {
+					add_core = RUS
+				}
+			}
+			inherit = POL
+			set_country_flag = polish_constitution_liquided
+		}
+	}
+	integrate_finland = {
+		potential = {
+			tag = RUS
+			FIN = {
+				substate_of = THIS
+			}
+			NOT = {
+				has_country_flag = finland_integrate_in_progress
+			}
+		}
+		allow = {
+			invention = national_fraternity
+			rank = 3
+		}
+		effect = {
+			add_country_modifier = {
+					name = finland_integrate
+					duration = 3650
+			}
+			set_country_flag = finland_integrate_in_progress
+		}
+	}
+	russian_columbia = {
+		potential = {
+			tag = RUS
+			ENG_13 = {
+				owned_by = RUS
+			}
+			NOT = {
+				has_country_flag = rus_columbia
+			}
+		}
+		allow = {
+		}
+		effect = {
+			13 = {
+				change_province_name = "Новый Петербург"
+				state_scope = {
+					change_region_name = "Русская Колумбия"
+				}
+			}
+			14 = {
+				change_province_name = "Новый Кронштадт"
+			}
+			15 = {
+				change_province_name = "Земля Цесаревича Александра"
+			}
+			16 = {
+				change_province_name = "Глебово"
+			}
+			17 = {
+				change_province_name = "Атлинск"
+			}
+			18 = {
+				change_province_name = "Крепость Святого Иоанна"
+			}
+			19 = {
+				change_province_name = "Лисянск"
+			}
+			20 = {
+				change_province_name = "Крузенштерн"
+			}
+			21 = {
+				change_province_name = "Шелихов"
+			}
+			2629 = {
+				change_province_name = "Сарычев"
+			}
+			COL = {
+				all_core = {
+					add_core = CLR
+					remove_core = COL
+				}
+			}
+			set_country_flag = rus_columbia
+		}
+	}
+}

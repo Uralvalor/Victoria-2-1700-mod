@@ -1,0 +1,27 @@
+political_decisions = {
+	guarani_equality = {
+		potential = {
+			tag = PRG
+			NOT = {
+				has_country_flag = guarani_equality_enacted
+			}			
+		}
+		
+		allow = {			
+			average_militancy = 2
+			average_consciousness = 3
+		}
+		
+		effect = {
+			add_accepted_culture = guarani
+			any_pop = {
+				limit = {
+					culture = guarani
+				}
+				militancy = -2
+			}			
+			years_of_research = 0.2
+			set_country_flag = guarani_equality_enacted
+		}
+	}
+}	

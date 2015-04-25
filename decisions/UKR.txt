@@ -1,0 +1,20 @@
+political_decisions = {
+	act_zluky = {
+		potential = {
+			tag = UKR
+			RUT = {ai = yes}
+			NOT = {
+				has_country_flag = act_zluky_ok
+			}
+		}
+		allow = {
+			exists = RUT
+			relation = { who = RUT value = 100 }
+		}
+		effect = {
+			prestige = 5
+			inherit = RUT
+			set_country_flag = act_zluky_ok
+		}
+	}
+}

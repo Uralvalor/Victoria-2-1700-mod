@@ -1,0 +1,55 @@
+
+political_decisions = {
+
+	form_arabia = {
+
+		potential = {
+			ARA = { exists = no }
+			is_culture_group = arab
+		}
+		
+		allow = {
+			is_greater_power = yes
+			any_neighbor_country = {
+				in_sphere = THIS
+				is_culture_group = arab
+				relation = { who = THIS value = 100 }
+			}
+		}
+		effect = {
+			prestige = 20
+			all_core = {
+				limit = {
+					owned_by = THIS
+				}
+				remove_core = THIS 
+				add_core = ARA
+			}
+			change_tag = ARA
+			random_country = {
+				limit = {
+					is_culture_group = THIS
+					in_sphere = THIS
+					OR = {
+						is_vassal = no
+						vassal_of = THIS
+					}
+				}
+				country_event = 111011928
+			}
+			add_accepted_culture = union
+			any_country = {
+				limit = {
+					is_culture_group = THIS
+				}
+				all_core = {
+					add_core = ARA
+				}
+			}
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}

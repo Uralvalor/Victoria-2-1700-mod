@@ -1,0 +1,88 @@
+political_decisions = {
+	enact_dual_monarchy = {
+		potential = {
+			tag = AUS
+			OR = {
+				government = absolute_monarchy
+				government = hms_government
+				government = prussian_constitutionalism
+			}
+			any_owned_province = {
+				is_core = HUN
+			}
+			NOT = {
+				has_country_flag = dual_monarchy_done
+			}
+		}
+	
+		allow = {
+			NOT = {
+				average_militancy = 5
+			}
+			nationalism_n_imperialism = 1
+			average_consciousness = 5
+			NOT = {
+				exists = KUK
+			}
+		}
+	
+		effect = {
+			all_core = {
+				add_core = KUK
+			}
+			all_core = {
+				limit = {
+					NOT = {
+						culture = south_german
+					}
+				}
+				remove_core = AUS
+			}
+			TUR_788 = {
+				add_core = KUK
+			}
+			any_pop = {
+				limit = {
+					culture = hungarian
+				}
+				militancy = -2
+			}
+			add_accepted_culture = hungarian
+			change_tag = KUK
+			set_country_flag = dual_monarchy_done
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	the_grunderzeit = {
+		potential = {
+			OR = {
+				tag = AUS
+				tag = KUK
+			}
+			owns = 619
+			NOT = {
+				has_country_flag = grunderzeit_we_have_done
+			}
+		}
+		allow = {
+			iron_railroad = 1
+			cheap_iron = 1
+		}
+		effect = {
+			619 = {
+				any_pop = {
+					ideology = {
+						value = liberal
+						factor = 0.2
+					}
+				}
+				life_rating = 5
+			}
+			prestige = 10
+			set_country_flag = grunderzeit_we_have_done
+		}
+	}
+}

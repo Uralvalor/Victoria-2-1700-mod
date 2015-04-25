@@ -1,0 +1,98 @@
+political_decisions = {
+	rename_the_congo = {
+		potential = {
+			tag = BEL
+			exists = CNG
+			CNG = {
+				vassal_of = THIS
+			}
+			NOT = {
+				has_global_flag = congo_renamed
+			}
+		}
+		
+		allow = {
+			invention = mission_to_civilize
+		}
+		
+		effect = {
+			1987 = {
+				change_province_name = "Элизабетвиль"
+			}		
+			1982 = {
+				change_province_name = "Леопольдвиль"
+			}
+			1996 = {
+				change_province_name = "Стэнливиль"
+			}
+			prestige = 10
+			set_global_flag = congo_renamed
+		}
+	}
+	become_flanders = {
+		potential = {
+			tag = BEL
+			NOT = {
+				any_owned_province = {
+					is_core = WLL
+				}
+				exists = FLA
+			}
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			change_tag = FLA
+		}
+	}
+	become_wallonia = {
+		potential = {
+			tag = BEL
+			NOT = {
+				any_owned_province = {
+					is_core = FLA
+				}
+				exists = WLL
+			}
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			change_tag = WLL
+		}
+	}
+	create_belgium = {
+		potential = {
+			OR = {
+				tag = FLA
+				tag = WLL
+			}
+			NOT = {
+				exists = BEL
+			}
+		}
+		
+		allow = {
+			owns = 387
+			owns = 388
+			owns = 389
+			owns = 390
+			owns = 391
+			owns = 392
+			owns = 393
+			owns = 394
+			owns = 395
+			owns = 396
+			owns = 398
+		}
+		
+		effect = {
+			prestige = 5
+			change_tag = BEL
+		}
+	}
+}

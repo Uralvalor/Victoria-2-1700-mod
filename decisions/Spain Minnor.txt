@@ -1,0 +1,54 @@
+	political_decisions = {
+                BSQ_unite = {
+		potential = {
+			tag = BSQ
+			war = no
+                        460 = {
+				owned_by = FRA
+			} 
+			NOT = {
+				has_country_flag = BSQ_unite
+			}
+		}
+		allow = {
+			relation = { who = FRA value = 200 }
+			money = 500000
+		}
+		effect = {
+			prestige = 5
+		FRA = {
+			money = 500000
+		}
+		money = -500000
+		460 = { secede_province = BSQ }
+		460 = { remove_core = FRA }
+			set_country_flag = BSQ_unite
+		}
+	}
+                CAT_unite = {
+		potential = {
+			tag = CAT
+			war = no
+                        464 = {
+				owned_by = FRA
+			} 
+			NOT = {
+				has_country_flag = CAT_unite
+			}
+		}
+		allow = {
+			relation = { who = FRA value = 200 }
+			money = 500000
+		}
+		effect = {
+			prestige = 5
+		FRA = {
+			money = 500000
+		}
+		money = -500000
+		464 = { secede_province = CAT }
+		464 = { remove_core = FRA }
+			set_country_flag = CAT_unite
+		}
+	}
+}

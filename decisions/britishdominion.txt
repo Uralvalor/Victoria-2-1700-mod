@@ -1,0 +1,568 @@
+political_decisions = {
+	act_1867 = {
+		potential = {
+			tag = ENG
+			war = no
+			year = 1867
+			NOT = {
+				has_country_flag = dominion_canada_created
+			}
+		}
+		allow = {
+			ENG_68 = {
+				owned_by = ENG
+			}
+			owns = 46
+			owns = 51
+			owns = 52
+			owns = 53
+			owns = 54
+			owns = 55
+			owns = 56
+			owns = 57
+			owns = 58
+			owns = 64
+			owns = 65
+			owns = 66
+			owns = 67
+			owns = 61
+			owns = 62
+		}
+		effect = {
+			prestige = 10
+			ENG_68 = {
+				remove_core = ENG
+				secede_province = CAN
+			}
+			57 = {
+				remove_core = ENG
+				secede_province = CAN
+			}
+			51 = {
+				remove_core = ENG
+				secede_province = CAN
+			}
+			52 = {
+				remove_core = ENG
+				secede_province = CAN
+			}
+			53 = {
+				remove_core = ENG
+				secede_province = CAN
+			}
+			54 = {
+				remove_core = ENG
+				secede_province = CAN
+			}
+			55 = {
+				remove_core = ENG
+				secede_province = CAN
+			}
+			56 = {
+				remove_core = ENG
+				secede_province = CAN
+			}
+			58 = {
+				remove_core = ENG
+				secede_province = CAN
+			}
+			64 = {
+				remove_core = ENG
+				secede_province = CAN
+			}
+			65 = {
+				remove_core = ENG
+				secede_province = CAN
+			}
+			66 = {
+				remove_core = ENG
+				secede_province = CAN
+			}
+			67 = {
+				remove_core = ENG
+				secede_province = CAN
+			}
+			61 = {
+				remove_core = ENG
+				secede_province = CAN
+			}
+			62 = {
+				remove_core = ENG
+				secede_province = CAN
+			}
+			46 = {
+				remove_core = ENG
+				secede_province = CAN
+			}
+				create_vassal = CAN
+			set_country_flag = dominion_canada_created
+		}
+	}
+	act_1871 = {
+		potential = {
+			tag = ENG
+			war = no
+			year = 1871
+			has_country_flag = dominion_canada_created
+			NOT = {
+				has_country_flag = act_1871_complete
+			}
+		}
+		allow = {
+			ENG_36  = {
+				owned_by = ENG
+			}
+			ENG_30 = {
+				owned_by = ENG
+			}
+			ENG_22 = {
+				owned_by = ENG
+			}
+			ENG_13 = {
+				owned_by = ENG
+			}
+
+			owns = 59
+			owns = 2626
+			owns = 2627
+			owns = 60
+			owns = 63
+			owns = 48
+			owns = 50
+			owns = 37
+			owns = 2628
+			owns = 2593
+			owns = 2592
+			owns = 2594
+			owns = 49
+		}
+		effect = {
+		prestige = 30 
+			57 = {
+				secede_province = CAN
+			}
+			51 = {
+				secede_province = CAN
+			}
+			52 = {
+				secede_province = CAN
+			}
+			53 = {
+				secede_province = CAN
+			}
+			54 = {
+				secede_province = CAN
+			}
+			55 = {
+				secede_province = CAN
+			}
+			56 = {
+				secede_province = CAN
+			}
+			58 = {
+				secede_province = CAN
+			}
+			64 = {
+				secede_province = CAN
+			}
+			65 = {
+				secede_province = CAN
+			}
+			66 = {
+				secede_province = CAN
+			}
+			67 = {
+				secede_province = CAN
+			}
+			61 = {
+				secede_province = CAN
+			}
+			62 = {
+				secede_province = CAN
+			}
+			46 = {
+				secede_province = CAN
+			}
+			59 = {
+				secede_province = CAN
+			}
+			2626 = {
+				secede_province = CAN
+			}
+			2627 = {
+				secede_province = CAN
+			}
+			60 = {
+				secede_province = CAN
+			}
+			48 = {
+				secede_province = CAN
+			}
+			47 = {
+				secede_province = CAN
+			}
+			63 = {
+				secede_province = CAN
+			}
+			58 = {
+				secede_province = CAN
+			}
+			50 = {
+				secede_province = CAN
+			}
+			2628 = {
+				secede_province = CAN
+			}
+			2593 = {
+				secede_province = CAN
+			}
+			2592 = {
+				secede_province = CAN
+			}
+			2594 = {
+				secede_province = CAN
+			}
+			49 = {
+				secede_province = CAN
+			}
+			ENG_13 = {
+				secede_province = CAN
+			}
+			ENG_43 = {
+				secede_province = CAN
+			}
+			ENG_9 = {
+				secede_province = CAN
+			}
+			ENG_9 = {
+				secede_province = CAN
+			}
+			ENG_6 = {
+				secede_province = CAN
+			}
+			ENG_30 = {
+				secede_province = CAN
+			}
+			ENG_22 = {
+				secede_province = CAN
+			}
+			ENG_36 = {
+				secede_province = CAN
+			}
+			USA_1 = {
+				secede_province = CAN
+			}
+			set_country_flag = act_1871_complete
+		}
+	}
+	australia_dominion = {
+		potential = {
+			tag = ENG
+			war = no
+			year = 1901
+			NOT = {
+				OR = {
+					has_country_flag = dominion_australia_created
+					exists = AST
+				}
+			}
+		}
+		allow = {
+			owns = 2468
+			owns = 2469
+			owns = 2470
+			owns = 2471
+			owns = 2472
+			owns = 2473
+			owns = 2474
+			owns = 2475
+			owns = 2476
+			owns = 2477
+			owns = 2478
+			owns = 2479
+			owns = 2480
+			owns = 2481
+			owns = 2482
+			owns = 2483
+			owns = 2484
+			owns = 2485
+			owns = 2486
+			owns = 2487
+			owns = 2488
+			owns = 2489
+			owns = 2491
+			owns = 2492
+			owns = 2493
+			owns = 2494
+			owns = 2496
+			owns = 2497
+			owns = 2498
+			owns = 2499
+			owns = 2500
+			owns = 2501
+			owns = 2502
+			owns = 2504
+			owns = 2505
+			owns = 2506
+			owns = 2602
+			owns = 2604
+		}
+		effect = {
+			prestige = 30
+			release_vassal = AST
+			set_country_flag = dominion_australia_created
+		}
+	}
+	newzeland_dominion = {
+		potential = {
+			tag = ENG
+			war = no
+			year = 1907
+			NOT = {
+				OR = {
+					has_country_flag = dominion_newzeland_created
+					exists = NZL
+				}
+			}
+		}
+		allow = {
+			owns = 2509
+			owns = 2510
+			owns = 2511
+			owns = 2512
+			owns = 2513
+			owns = 2514
+			owns = 2515
+			owns = 2516
+			owns = 2571
+		}
+		effect = {
+			prestige = 10
+			release_vassal = NZL
+			set_country_flag = dominion_newzeland_created
+		}
+	}
+	newfoundland_dominion = {
+		potential = {
+			tag = ENG
+			war = no
+			year = 1907
+			NOT = {
+				OR = {
+					has_country_flag = newfoundland_dominion_created
+					exists = NEW
+				}
+			}
+		}
+		allow = {
+			ENG_74 = {
+				owned_by = ENG
+			}
+		}
+		effect = {
+			prestige = 10
+			release_vassal = NEW
+			set_country_flag = newfoundland_dominion_created
+		}
+	}
+	southafrica_dominion = {
+		potential = {
+			tag = ENG
+			year = 1910
+			war = no
+			NOT = {
+				OR = {
+					has_country_flag = dominion_sa_created
+					exists = SAF
+				}
+			}
+		}	
+		allow = {
+			SAF = {
+				all_core = {
+					OR = {
+						owned_by = ENG
+						owner = {
+							in_sphere = ENG
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 30
+			SAF = {
+				all_core = {
+					secede_province = ENG
+				}
+			}
+			release_vassal = SAF
+			set_country_flag = dominion_sa_created
+		}
+	}
+	ireland_dominion = {
+		potential = {
+			tag = ENG
+			war = no
+			year = 1921
+			NOT = {
+				has_country_flag = dominion_ireland_created
+				exists = IRE
+				
+			}
+		}
+		allow = {
+			owns = 257
+			owns = 258
+			owns = 259
+			owns = 260
+			owns = 261
+			owns = 262
+			owns = 263
+			owns = 264
+			owns = 265
+		}
+		effect = {
+			prestige = 30
+			release_vassal = IRE
+			254 = {
+				secede_province = ENG
+				}
+			255 = {
+				secede_province = ENG
+				}
+			256 = {
+				secede_province = ENG
+				}
+			set_country_flag = dominion_ireland_created
+		}
+	}
+	india_pakistan_dominion = {
+		potential = {
+			tag = ENG
+			war = no
+			year = 1947
+			#has_global_flag = india_is_partitioned
+			NOT = {
+				has_country_flag = dominion_india_pakistan_created
+			}
+			OR = {
+				NOT = { exists = HND}
+				NOT = { exists = PAK}
+			}
+		}
+		allow = {
+			owns = 1302
+			owns = 1304
+			owns = 1305
+			owns = 1306
+			owns = 1307
+			owns = 1310
+			owns = 1311
+			owns = 1316
+			owns = 1317
+		}
+		effect = {
+			prestige = 30
+			any_country = {
+				limit = {
+					vassal_of = ENG
+					ai = yes
+					OR = {
+						primary_culture = assamese
+						primary_culture = bengali
+						primary_culture = bihari
+						primary_culture = manipuri
+						primary_culture = nepali
+						primary_culture = oriya
+						primary_culture = sinhala
+						primary_culture = avadhi
+						primary_culture = kanauji
+						primary_culture = panjabi
+						primary_culture = kashmiri
+						primary_culture = gujarati
+						primary_culture = marathi
+						primary_culture = sindi
+						primary_culture = rajput
+						primary_culture = kannada
+						primary_culture = malayalam
+						primary_culture = tamil
+						primary_culture = telegu
+					}
+					NOT = {
+						tag = NEP
+					}
+				}
+				set_country_flag = wants_to_unify
+				country_event = 98650
+			}
+			country_event = 95816
+			set_country_flag = dominion_india_pakistan_created
+		}
+	}
+	statute_of_westminster = {
+		potential = {
+			tag = ENG
+			NOT = {
+				has_country_modifier = british_commonwealth_leader
+			}
+			OR = {
+				AND = {
+					AST = { vassal_of = THIS }
+					NZL = { vassal_of = THIS }
+				}
+				AND = {
+					AST = { vassal_of = THIS }
+					NEW = { vassal_of = THIS }
+				}
+				AND = {
+					AST = { vassal_of = THIS }
+					SAF = { vassal_of = THIS }
+				}
+				AND = {
+					AST = { vassal_of = THIS }
+					IRE = { vassal_of = THIS }
+				}
+				AND = {
+					NZL = { vassal_of = THIS }
+					NEW = { vassal_of = THIS }
+				}
+				AND = {
+					NZL = { vassal_of = THIS }
+					SAF = { vassal_of = THIS }
+				}
+				AND = {
+					NZL = { vassal_of = THIS }
+					IRE = { vassal_of = THIS }
+				}
+				AND = {
+					NEW = { vassal_of = THIS }
+					SAF = { vassal_of = THIS }
+				}
+				AND = {
+					NEW = { vassal_of = THIS }
+					IRE = { vassal_of = THIS }
+				}
+				AND = {
+					SAF = { vassal_of = THIS }
+					IRE = { vassal_of = THIS }
+				}
+			}
+			war = no
+		}
+		allow = {
+			global_policy = 1
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = british_commonwealth_leader
+				duration = -1
+			}
+			any_pop = {
+				militancy = -1
+			}
+		}
+	}
+}

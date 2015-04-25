@@ -1,0 +1,137 @@
+political_decisions = {
+	fatherland_volunteers = {
+		potential = {
+			tag = BRZ
+			government = hms_government
+			NOT = {
+				has_country_flag = pedro_said_it_best
+			}
+		}
+		allow = {
+			army_decision_making = 1
+			war = yes
+		}
+		effect = {
+			war_exhaustion = -1
+			prestige = 10
+			set_country_flag = pedro_said_it_best
+		}
+	}
+	
+	law_1420_of_general_common_education = {
+		potential = {
+			tag = ARG
+			NOT = {
+				has_country_flag = 1420_passed
+			}
+		}
+		allow = {
+			social_science = 1
+			ruling_party_ideology = conservative
+		}
+		effect = {
+			years_of_research = 0.2
+			set_country_flag = 1420_passed
+		}
+	}		
+}
+
+# Chronologymod
+
+political_decisions = {
+	golden_law = {
+		potential = {
+			tag = BRZ
+			slavery = yes_slavery
+			NOT = {
+				has_country_flag = golden_law_yes
+			}
+		}
+		allow = {
+			scientific_management = 1
+		}
+		effect = {
+			political_reform = no_slavery
+			prestige = 10
+			set_country_flag = golden_law_yes
+		}
+	}
+	build_christ_the_redeemer = {
+		potential = {
+			tag = BRZ
+			NOT = {
+				has_country_flag = christ_the_redeemer_was_built
+			}
+		}
+		
+		allow = {
+			steam_turbine = 1
+			steel_railroad = 1
+		}
+		
+		effect = {
+			any_pop = { 
+				limit = {
+					has_pop_religion = catholic
+				}
+				consciousness = -2
+			}
+			2447 = {
+				add_province_modifier = {
+					name = christ_the_redeemer
+					duration = -1
+				}
+			}
+			prestige = 10
+			set_country_flag = christ_the_redeemer_was_built
+		}
+	}
+	saenz_pena_law = {
+		potential = {
+			tag = ARG
+			government = democracy
+			NOT = {
+				has_country_flag = saenz_pena_law_ok
+			}
+		}
+		
+		allow = {
+			average_consciousness = 7
+		}
+		
+		effect = {
+			political_reform = universal_voting
+			political_reform = secret_ballots
+			any_pop = { 
+				militancy = -2
+			}
+			set_country_flag = saenz_pena_law_ok
+		}
+	}
+	return_to_portugal = {
+		potential = {
+			year = 1800
+			tag = POR
+			owns = 2447
+			NOT = {
+				has_country_flag = king_returns_portugal
+			}
+		}
+		
+		allow = {
+			521 = {
+				average_militancy = 5
+			}
+		}
+		
+		effect = {
+			any_owned = {
+				limit = {
+					add_province_modifier = kings_absence
+				}
+				remove_province_modifier = kings_absence
+			}
+			set_country_flag = king_returns_portugal
+		}
+	}		
+}

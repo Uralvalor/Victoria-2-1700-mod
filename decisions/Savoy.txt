@@ -1,0 +1,25 @@
+political_decisions = {
+	become_sardinia = {
+		potential = {
+			tag = SAV
+			NOT = {	year = 1720 }
+			}
+		allow = {
+			722 = {
+				owned_by = THIS
+			}
+			723 = {
+				owned_by = THIS
+			}
+			765 = {
+				owned_by = THIS
+			}
+			766 = {
+				owned_by = THIS
+			}
+		}
+		effect = {
+			change_tag = SAR
+			prestige = 10
+		}
+	}

@@ -1,0 +1,167 @@
+color = { 226  4  127 }
+graphical_culture = EuropeanGC
+
+party = {
+	name = "PLC_conservative"
+	start_date = 1765.1.1
+	end_date = 3000.1.1
+
+	ideology = conservative
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = pro_military
+}
+
+party = {
+	name = "PLC_liberal"
+	start_date = 1750.1.1
+	end_date = 1936.1.1
+
+	ideology = liberal
+
+	economic_policy = laissez_faire
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "PLC_reactionary"
+	start_date = 1700.1.1
+	end_date = 3000.1.1
+
+	ideology = reactionary
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+party = {
+	name = "PLC_anarcho_liberal"
+	start_date = 1789.1.1
+	end_date = 3000.1.1
+
+	ideology = anarcho_liberal
+
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = secularized
+	citizenship_policy = full_citizenship
+	war_policy = anti_military
+}
+
+party = {
+	name = "PLC_socialist"
+	start_date = 1848.1.1
+	end_date = 3000.1.1
+
+	ideology = socialist
+
+	economic_policy = planned_economy
+	trade_policy = protectionism
+	religious_policy = secularized
+	citizenship_policy = full_citizenship
+	war_policy = anti_military
+}
+
+party = {
+	name = "PLC_communist"
+	start_date = 1848.1.1
+	end_date = 3000.1.1
+
+	ideology = communist
+
+	economic_policy = planned_economy
+	trade_policy = free_trade
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pacifism 
+}
+
+party = {
+	name = "PLC_fascist"
+	start_date = 1905.1.1
+	end_date = 3000.1.1
+
+	ideology = fascist
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+unit_names = {
+dreadnought = {
+	"Мешко I" 
+	"Болеслав I Хробрый" 
+	"Казимир II Великий" 
+	"Владислав II Ягелло" 
+	"Генрих III" 
+	"Стефан Баторий" 
+	"Ян III Собеский" 
+	"Станислав Лещинский" 
+	"Станислав Понятовский"
+}
+ironclad = {
+	"Речь Посполитая"
+	"Королевство Польское" 
+	"Великое княжество Литовское" 
+	"Ян Замойский" 
+	"Золотая вольность" 
+	"Конфедерация"
+	"Герцогство Варшавское" 
+	"Пётр Высоцкий" 
+}
+manowar = {
+		
+}
+cruiser = {
+	"Йозеф Пилсудский" 
+	"Иосиф Хлопицкий" 
+	"Михаил Радзивилл" 
+	"Междуморье"
+	"Адам Чарторыйский" 
+	"Владислав Чарторыйский" 
+	"Александр Вашковский" 
+	"Константин Калиновский"
+}
+frigate = {
+	"Миндовг"
+	"Будикид"
+	"Витень"
+	"Гедимин"
+	"Ольгерд"
+	"Кейстут"
+	"Ягайло"
+	"Витовт"
+	"Сигизмунд Кейстутович"
+}
+monitor = {
+	"Анна Ягеллонка" 
+	"Тадеуш Костюшко"
+}
+clipper_transport = {
+		
+}
+steam_transport = {
+		
+}
+commerce_raider = {
+	Висла
+	Одра
+	Виндава
+	Бартыв
+	Неман
+	Днепр
+	Припять
+}
+}

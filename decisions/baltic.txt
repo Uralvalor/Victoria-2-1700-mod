@@ -1,0 +1,83 @@
+political_decisions = {
+	estonia_national_revival = {
+		potential = {
+			tag = EST
+			NOT = {
+				has_global_flag = estonian_citynames
+			}
+		}
+		allow = {
+			is_vassal = no
+		}
+		effect = {
+			prestige = 10
+			349 = {
+				change_province_name = "Таллин"
+			}
+			351 = {
+				change_province_name = "Пярну"
+			}
+			352 = {
+				change_province_name = "Тарту"
+			}
+			352 = {
+				change_province_name = "Сааремаа"
+			}
+			set_global_flag = estonian_citynames
+		}
+	}
+	latvia_national_revival = {
+		potential = {
+			tag = LAT
+			NOT = {
+				has_global_flag = latvian_citynames
+			}
+		}
+		allow = {
+			is_vassal = no
+		}
+		effect = {
+			prestige = 10
+			356 = {
+				change_province_name = "Даугавпилс"
+			}
+			357 = {
+				change_province_name = "Елгава"
+			}
+			358 = {
+				change_province_name = "Вентспилс"
+			}
+			359 = {
+				change_province_name = "Лиепая"
+			}
+			set_global_flag = latvian_citynames
+		}
+	}
+	lithuania_national_revival = {
+		potential = {
+			tag = LIT
+			NOT = {
+				has_global_flag = lithuanian_citynames
+			}
+		}
+		allow = {
+			is_vassal = no
+		}
+		effect = {
+			prestige = 10
+			360 = {
+				change_province_name = "Вильнюс"
+			}
+			361 = {
+				change_province_name = "Каунас"
+			}
+			363 = {
+				change_province_name = "Паневежис"
+			}
+			364 = {
+				change_province_name = "Шяуляй"
+			}
+			set_global_flag = lithuanian_citynames
+		}
+	}
+}

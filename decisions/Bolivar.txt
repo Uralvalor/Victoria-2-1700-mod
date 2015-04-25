@@ -1,0 +1,456 @@
+political_decisions = {
+	bolivar_abolish_slavery = {
+		potential = {
+			has_country_flag = bolivar_war_soon
+			NOT = {
+				has_country_flag = slavery_abolished
+			}
+		}
+		allow = {
+			tag = VNZ
+		}
+		effect = {
+			political_reform = no_slavery
+			set_country_flag = slavery_abolished
+		}
+	}
+	land_for_liberation_army = {
+		potential = {
+			tag = VNZ
+			has_country_flag = bolivar_war_soon
+			NOT = {
+				has_country_flag = decret_land_liberation_army
+			}
+		}
+		allow = {
+			slavery = no_slavery
+			military_staff_system = 1
+		}
+		effect = {
+			any_pop = {
+				limit = {
+					type = soldiers
+					type = officers
+				}
+				dominant_issue = {
+					factor = 0.2
+					value = jingoism
+				}
+			}
+			set_country_flag = decret_land_liberation_army
+		}
+	}
+	bolivar_war_colombia = {
+		picture = form_gran_colombia
+		potential = {
+			tag = VNZ
+			NOT = {
+				exists = CLM
+				exists = GCO
+			}
+			NOT = {
+				has_global_flag = col_bolivar_independence_war
+				has_global_flag = independence_of_south_america
+			}
+			has_country_flag = decret_land_liberation_army
+			
+		}
+		allow = {
+			slavery = no_slavery
+		}
+		effect = {
+			any_country = {
+				limit = {
+					alliance_with = SPA
+				}
+				leave_alliance = SPA
+			}
+			war = {
+				target = SPA
+				attacker_goal = {
+					casus_belli = liberate_country
+					country = CLM
+				}
+		
+				defender_goal = {
+					casus_belli = conquest
+				}
+			}
+			set_global_flag = col_bolivar_independence_war
+		}
+	}
+	bolivar_war_kito = {
+		picture = form_gran_colombia
+		potential = {
+			tag = GCO
+			NOT = {
+				exists = ECU
+				owns = 2279
+			}
+			NOT = {
+				has_global_flag = ecu_bolivar_independence_war
+				has_global_flag = independence_of_south_america
+			}
+			
+		}
+		allow = {
+			tag = GCO
+		}
+		effect = {
+			any_country = {
+				limit = {
+					alliance_with = SPA
+				}
+				leave_alliance = SPA
+			}
+			#war = {
+			#	target = SPA
+			#	attacker_goal = {
+			#		casus_belli = liberate_country #acquire_core_state
+			#		state_province_id = 2279
+			#		country = ECU
+			#	}
+			#	attacker_goal = {
+			#		casus_belli = liberate_country #acquire_core_state
+			#		state_province_id = 2289
+			#		country = ECU
+			#	}
+			#
+			#	defender_goal = {
+			#		casus_belli = conquest
+			#	}
+			#}
+			war = {
+				target = SPA
+				attacker_goal = {
+					casus_belli = liberate_country
+					country = ECU
+				}
+			
+				defender_goal = {
+					casus_belli = conquest
+				}
+			}
+			war_exhaustion = -25
+			prestige = 10
+			any_pop = {
+				militancy = -5
+			}
+			set_global_flag = ecu_bolivar_independence_war
+		}
+	}
+	bolivar_war_peru = {
+		picture = form_gran_colombia
+		potential = {
+			tag = GCO
+			owns = 2279
+			NOT = {
+				exists = PEU
+			}
+			NOT = {
+				has_global_flag = per_bolivar_independence_war
+				has_global_flag = independence_of_south_america
+			}
+			
+		}
+		allow = {
+			tag = GCO
+		}
+		effect = {
+			any_country = {
+				limit = {
+					alliance_with = SPA
+				}
+				leave_alliance = SPA
+			}
+			war = {
+				target = SPA
+				attacker_goal = {
+					casus_belli = liberate_country
+					country = PEU
+				}
+		
+				defender_goal = {
+					casus_belli = conquest
+				}
+			}
+			war_exhaustion = -25
+			prestige = 10
+			any_pop = {
+				militancy = -5
+			}
+			set_global_flag = per_bolivar_independence_war
+		}
+	}
+	create_gran_colombia_bolivar = {
+		potential = {
+			tag = VNZ
+			exists = CLM
+			NOT = {
+				exists = GCO
+			}
+			has_global_flag = col_bolivar_independence_war
+		}
+		allow = {
+			tag = VNZ
+		}
+		effect = {
+			inherit = CLM
+			inherit = ECU
+			change_tag = GCO
+			capital = 2247
+			badboy = -20
+		}
+	}
+	partition_of_peru = {
+		potential = {
+			tag = GCO
+			owns = 2295
+			owns = 2313
+			war = no
+			has_global_flag = per_bolivar_independence_war
+		}
+		allow = {
+			owns = 2295
+			owns = 2313
+		}
+		effect = {
+			BOL_2321 = {
+				remove_core = PEU
+				add_core = BOL
+			}
+			BOL_2317 = {
+				remove_core = PEU
+				add_core = BOL
+			}
+			BOL_2314 = {
+				remove_core = PEU
+				add_core = BOL
+			}
+			PRG_2338 = {
+				remove_core = PEU
+				add_core = BOL
+			}
+			2315 = {
+				remove_core = PEU
+				add_core = BOL
+			}
+			2370 = {
+				remove_core = PEU
+				add_core = BOL
+			}
+			2305 = {
+				remove_core = PEU
+				add_core = BOL
+			}
+			2309 = {
+				remove_core = PEU
+				add_core = BOL
+			}
+			2368 = {
+				remove_core = PEU
+				add_core = BOL
+			}
+			2375 = {
+				remove_core = PEU
+				add_core = BOL
+			}
+			PEU = {
+				release = BOL
+			}
+			#GCO = {
+			#	create_vassal = BOL
+			#}
+			clr_global_flag = col_bolivar_independence_war
+			clr_global_flag = ecu_bolivar_independence_war
+			clr_global_flag = per_bolivar_independence_war
+			set_global_flag = independence_of_south_america
+			
+		}
+	}
+	bolivar_great_congress = {
+		potential = {
+			tag = GCO
+			is_greater_power = yes
+			has_global_flag = independence_of_south_america
+		}
+		allow = {
+			tag = VNZ
+		}
+		effect = {
+			inherit = CLM
+			change_tag = GCO
+			capital = 2247
+			badboy = -20
+		}
+	}
+	confederation_of_argentina = {
+		potential = {
+			tag = LPL
+		}
+		allow = {
+			is_greater_power = no
+			NOT = {
+				owns = 2339
+				owns = 2344
+			}
+		}
+		effect = {
+			ARG = {
+				any_owned ={
+					secede_province = THIS
+				}
+			}
+			change_tag = ARG
+			LPL = {
+				all_core = {
+					remove_core = LPL
+				}
+			}
+		}
+	}
+	united_south_america = {
+		potential = {
+			tag = GCO
+		}
+		allow = {
+			2295 = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+			2313 = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+			2339 = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+			2344 = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+			2348 = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+			2324 = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+			2247 = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+			2264 = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+			2279 = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 30
+			change_tag = LAF
+			inherit = VNZ
+			inherit = CLM
+			inherit = ECU
+			inherit = PEU
+			inherit = BOL
+			inherit = PRG
+			inherit = ARG
+			inherit = CHL
+			inherit = URU
+			any_owned = {
+				limit = {
+					continent = south_america
+				}
+				add_core = LAF
+			}
+			remove_country_modifier = political_instability
+		}
+	}
+	peru–bolivian_confederation = {
+		potential = {
+			exists = PEU
+			exists = BOL
+			OR = {
+				tag = PEU
+				tag = BOL
+			}
+			OR = {
+				has_global_flag = scenario_1816_activated
+				is_greater_ower = yes
+			}
+			NOT = {has_global_flag = peru–bolivian_decision}
+		}
+		allow = {
+			PEU = {
+				is_vassal = no
+			}
+			BOL = {
+				is_vassal = no
+			}
+		}
+		effect = {
+			random_country = {
+				limit = {
+					OR = {
+						tag = PEU
+						tag = BOL
+					}
+					NOT = {tag = THIS}
+				}
+				country_event = 97770
+			}
+			set_global_flag = peru–bolivian_decision
+		}
+	}
+}

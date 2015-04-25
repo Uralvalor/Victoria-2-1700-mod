@@ -1,0 +1,40 @@
+political_decisions = {
+	ribbentrop-molotov_pact = {
+		potential = {
+			GER = {
+				government = fascist_dictatorship
+				NOT = {
+					war_with = SOV
+				}
+			}
+			exists = SOV
+			OR = {
+				tag = GER
+				tag = SOV
+			}
+			
+			NOT = {
+				has_global_flag = ribbentrop-molotov
+			}
+			has_global_flag = versailles_denunced
+		}
+		allow = {
+			global_policy = 1
+		}
+		effect = {
+			random_country = {
+				limit = {
+					NOT = {
+						tag = THIS
+					}
+					OR = {
+						tag = GER
+						tag = SOV
+					}
+				}
+				country_event = 99200
+			}
+			set_global_flag = ribbentrop-molotov
+		}
+	}
+}

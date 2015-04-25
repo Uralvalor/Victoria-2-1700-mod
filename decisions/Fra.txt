@@ -1,0 +1,31 @@
+political_decisions = {
+
+	end_of_genoa = {
+		potential = {
+			OR = {
+				TAG = FRA
+				}
+			exists = SAR
+			exists = GEN
+			GEN = {
+				owns = 473 }
+
+		}
+
+		allow = {
+			GEN = {
+				in_sphere = THIS }
+			SAR = {
+				in_sphere = THIS }
+
+		}
+
+		effect ={
+		473 = {
+			secede_province = THIS }
+		SAR = {
+			inherit = GEN }
+		
+		}
+	}
+}

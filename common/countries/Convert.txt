@@ -1,0 +1,37 @@
+color = { 130  128  255 }
+graphical_culture = EuropeanGC
+
+
+
+unit_names = {
+	dreadnought = {
+		"De Ruyter" "Tromp" "De Zeven Provincien" "Evertsen" "Kortenaer" "Piet Hein" "Witte de With" "Jacob van Heemskerk" 
+	}
+	ironclad = {
+		"Hertog Hendrik" "Koning der Nederlanden" "Koningin Regentes" "Koning Willem" "Prins Hendrik" 
+	}
+	cruiser = {
+		"Adolf Hertog van Nassau" "Zoutman" "Johan Willem Friso" "Van Kinsbergen" "Pieter Florisz" "Philips van Almonde" 
+ "Bloys van Treslong" "Jan van Brakel" "Van Amstel" "Willem van der Zaan" 
+	}
+	frigate = {
+		"Wolf" "Fret" "Hermelijn" "Vos" "Panter" "Jaguar" "Lynx" "Leeuw" "Jakhals"  
+	}
+	monitor = {
+		"Buffel" "Guinea" "Schorpioen" "Stier" 
+	}
+	manowar = {
+		"Gouden Leeuw" "Graaf Willem" "Groote Liefde" "Jozua" "Kameel" "Kapitein Generaal" "Landman" "Louisa Hendrika" "Overwinnaer" "Prinses Amalia" 
+"Prinses Roijaal" "Prins Friso" "Prins Willem" "Rosenkrans" "Salamander" "Vergulde Maen" "Verwachting" "Unie" "Vrede" "Vrijheid" "Witte Lam" 
+	}
+	commerce_raider = {
+		"Aruba" "Brabant" "Curacao" "Holland" "Friesland" "Gelderland" "Groningen" "Limburg" "Overijssel" "Suriname" "Utrecht" "Zeeland" 
+		
+	}
+	clipper_transport = {
+		"Aruba" "Assendelft" "Batavia" "Delfland" "Dordrecht" "Gouda" "Haarlem" "Hoorn" "Leyden" "Medemblick" "Middelburg" "Rotterdam" "Soerabaja" "Utrecht" "Veere" "Vlissingen" "Willemstad" "Zierikzee" 
+	}
+	steam_transport = {
+		"Aruba" "Jupiter" "Maan" "Mars" "Mercurius" "Neptunes" "Pollux" "Poolster" "Venus" "Zon" "Zuiderkruis"
+	}
+}

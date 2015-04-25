@@ -1,0 +1,307 @@
+political_decisions = {
+	liberty_enlightening_the_world = {
+		potential = {
+			NOT = {
+				has_global_flag = statue_of_liberty_has_been_built
+			}
+			tag = FRA
+			exists = FRA
+			exists = USA
+			USA = {
+				government = democracy
+				owns = 232
+			}
+			FRA = {
+				OR = {
+					government = hms_government
+					government = democracy
+				}
+			}	
+			year = 1850
+		}
+	
+		allow = {
+			cheap_steel = 1
+		}
+	
+		effect = {
+			set_global_flag = statue_of_liberty_has_been_built
+			any_pop = {
+				militancy = -0.5
+			}
+			USA = {
+				country_event = 19300
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					relation = {
+						who = USA
+						value = 50
+					}
+				}
+			}
+		}
+	}
+	support_french_foreign_legion = {
+		potential = {
+			tag = FRA
+			owns = 1700
+			NOT = {
+				has_country_flag = french_foreign_legion_supported
+			}
+		}
+		allow = {
+			army_professionalism = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = the_french_foreign_legion
+				duration = -1
+			}
+			set_country_flag = french_foreign_legion_supported
+		}
+	}
+	
+	french_military_mission_to_japan = {
+		potential = {
+			tag = FRA
+			exists = JAP
+			JAP = {
+				civilized = no
+			}
+			NOT = {
+				has_country_flag = military_mission_in_japan
+			}
+		}
+		
+		allow = {
+			naval_statistics = 1
+			relation = {
+				who = JAP
+				value = 120
+			}
+		}
+		
+		effect = {
+			relation = {
+				who = JAP
+				value = 40
+			}
+			JAP = {
+				years_of_research = 0.1
+			}
+			prestige = 20
+			set_country_flag = military_mission_in_japan
+		}
+	}
+	
+	palais_garnier = {
+		potential = {
+			NOT = {
+				has_country_flag = palais_garnier_built
+			}
+			tag = FRA
+			owns = 425
+		}
+		
+		allow = {
+			expressionism = 1
+		}
+		
+		effect = {
+			prestige = 10
+			set_country_flag = palais_garnier_built
+		}
+	}
+	
+	the_lambert_charter = {
+		potential = {
+			NOT = {
+				has_country_flag = lambert_has_been_chartered
+			}
+			tag = FRA
+			exists = MAD
+		}
+		
+		allow = {
+			is_greater_power = yes
+			invention = paternalism
+			MAD = {
+				civilized = no
+				OR = {
+					in_sphere = FRA
+					NOT = { part_of_sphere = yes }
+				}
+			}
+		}
+		
+		effect = {
+			diplomatic_influence = {
+				who = MAD
+				value = 150
+			}
+			set_country_flag = lambert_has_been_chartered
+		}
+	}
+	
+	end_the_merina_monarchy = {
+		potential = {
+			OR = {
+				has_country_flag = lambert_has_been_chartered
+				MAD = {
+					in_sphere = FRA
+					civilized = no
+			}
+				}
+			NOT = {
+				has_country_flag = merina_monarchy_is_over
+			}
+			exists = MAD
+			MAD = {AI = yes}
+			tag = FRA
+		}
+		
+		allow = {
+			MAD = {
+				in_sphere = FRA
+				civilized = no
+			}
+			invention = mission_to_civilize
+			invention = expansionism
+		}
+		
+		effect = {
+			inherit = MAD
+			set_country_flag = merina_monarchy_is_over
+		}
+	}
+	
+	brazzas_expedition = {
+		potential = {
+			tag = FRA
+			owns = 1977
+			NOT = {
+				has_global_flag = brazzaville_formed
+			}
+		}
+		
+		allow = {
+			invention = mission_to_civilize
+		}
+		
+		effect = {
+			1977 = {
+				change_province_name = "Браззавиль"
+			}
+			prestige = 5
+			set_global_flag = brazzaville_formed
+		}
+	}
+	
+	the_rhine_crisis = {
+		potential = {
+			tag = FRA
+			exists = PRU
+			PRU = {
+				owns = 572
+				owns = 575
+			}
+			NOT = {
+				has_country_flag = crisis_on_the_rhine
+			}
+		}
+		
+		allow = {
+			ideological_thought = 1
+		}
+		
+		effect = {
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = north_german
+						primary_culture = south_german
+					}
+				}
+				relation = {
+					who = THIS
+					value = -100
+				}
+			}
+			casus_belli = {
+				target = PRU
+				type = acquire_state
+				months = 1
+			}
+			prestige = 10
+			badboy = 4
+			set_country_flag = crisis_on_the_rhine
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					badboy = 0.5
+				}
+			}
+		}
+	}
+	
+	build_the_eiffel_tower = {
+		potential = {
+			tag = FRA
+			NOT = {
+				has_country_flag = the_eiffel_tower_was_built
+			}
+			has_country_flag = world_fair_planner
+		}
+		
+		allow = {
+			cheap_steel = 1
+		}
+		
+		effect = {
+			425 = {
+				add_province_modifier = {
+					name = the_eiffel_tower
+					duration = -1
+				}
+			}
+			prestige = 20
+			set_country_flag = the_eiffel_tower_was_built
+		}
+	}
+	
+	haussmanns_renovations = {
+		potential = {
+			tag = FRA
+			owns = 425
+			NOT = {
+				has_country_flag = extreme_home_makeover
+			}
+			OR = {
+				realism = 1
+				early_railroad = 1
+			}
+		}
+		
+		allow = {
+			impressionism = 1
+			iron_railroad = 1
+			business_banks = 1
+		}
+		
+		effect = {
+			425 = {
+				life_rating = 5
+			}
+			prestige = 10
+			set_country_flag = extreme_home_makeover
+		}
+	}
+}

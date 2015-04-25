@@ -1,0 +1,73 @@
+political_decisions = {
+	establish_united_nations_non_usa = {
+		picture = united_nations
+		potential = {
+			OR = {
+				NOT = { tag = USA }
+				NOT = { 232 = { owned_by = USA } }
+			}
+			NOT = {
+				has_global_flag = united_nations_established
+			}
+			invention = united_nations
+		}
+		allow = {
+			is_greater_power = yes
+		}
+		effect = {
+			prestige = 20
+			capital_scope = {
+				add_province_modifier = {
+					name = united_nations_headquarters
+					duration = -1
+				}
+			}
+			set_global_flag = united_nations_established
+		}
+	}
+	establish_united_nations_usa = {
+		picture = united_nations
+		potential = {
+			tag = USA
+			232 = { owned_by = USA }
+			invention = united_nations
+			NOT = {
+				has_global_flag = united_nations_established
+			}
+			
+		}
+		allow = {
+			is_greater_power = yes
+		}
+		effect = {
+			prestige = 20
+			232 = {
+				add_province_modifier = {
+					name = united_nations_headquarters
+					duration = -1
+				}
+			}
+			set_global_flag = united_nations_established
+		}
+	}
+	sign_the_united_nations = {
+		picture = united_nations
+		potential = {
+			has_global_flag = united_nations_established
+			NOT = {
+				has_country_modifier = signed_the_united_nations
+			}
+			
+		}
+		allow = {
+			is_greater_power = yes
+		}
+		effect = {
+			prestige = 5
+			add_country_modifier = {
+				name = signed_the_united_nations
+				duration = -1
+			}
+		}
+	}
+}
