@@ -1,0 +1,62 @@
+HAVE_MILITARY_SCORE_LESS_THAN;Очки военной мощи меньше ;X
+STRATA_NEED_LESS_THAN;Нужды удовлетворены менее чем на;X
+STRATA_NEED_MORE_THAN;Нужды удовлетворены как минимум на;X
+HAVE_LESS_POPS_WANTING_POLITICAL_REFORM_THAN;Меньше $VAL$ населения желает политических реформ;X
+HAVE_MORE_POPS_WANTING_POLITICAL_REFORM_THAN;Как минимум $VAL$ населения желает политических реформ;X
+HAVE_LESS_POPS_WANTING_SOCIAL_REFORM_THAN;Меньше $VAL$ населения желает социальных реформ;X
+HAVE_MORE_POPS_WANTING_SOCIAL_REFORM_THAN;Как минимум $VAL$ населения желает социальных реформ;X
+CSA_proletarian_dictatorship;СКША;X
+USA_presidential_dictatorship;США;X
+CSA_presidential_dictatorship;КША;X
+USA_bourgeois_dictatorship;США;X
+CSA_bourgeois_dictatorship;КША;X
+USA_fascist_dictatorship;США;X
+CSA_fascist_dictatorship;КША;X
+REMOVE_USA_prussian_constitutionalism;СКСА;X
+CSA_prussian_constitutionalism;НКСА;X
+USA_democracy;США;X
+CSA_democracy;КША;X
+CAL_absolute_monarchy;Королевство Калифорния;X
+CAL_hms_government;Королевство Калифорния;X
+DOM_absolute_monarchy;Санто-Доминго;X
+DOM_hms_government;Санто-Доминго;X
+ENG_democracy;Британская федерация;X
+TECH_DAILY_LEADERSHIP_BASE_TOOLTIP;Базовое число очков лидерства в месяц: §Y$VALUE$§W;X
+TECH_DAILY_LEADERSHIP_TOTAL_TOOLTIP;Ежемесячное число очков лидерства: §G+$VALUE$§W;X
+TECH_DAILY_LEADERSHIP_TOOLTIP;$POPTYPE$ обеспечивают нам §G$VALUE$§W очков лидерства\n(они составляют §Y$FRACTION$%§W населения при оптимальных $OPTIMAL$%).;X
+MODIFIER_CORE_POP_MILITANCY_MODIFIER;Агрессивность в неколониальных регионах;X
+MODIFIER_CORE_POP_CONSCIOUSNESS_MODIFIER;Сознательность в неколониальных регионах;X
+MODIFIER_NON_ACCEPTED_POP_MILITANCY_MODIFIER;Агрессивность непризнанных культур;X
+MODIFIER_NON_ACCEPTED_POP_CONSCIOUSNESS_MODIFIER;Сознательность непризнанных культур;X
+AUS_734;Южный Тироль;X
+EVTNAME23212;Наблюдение кометы;X
+EVTDESC23212;Недавно в нашем небе была зафиксирована комета. Некоторые уверены, что это предвестник будущего упадка. Другие верят, что это просто феи летят по небу. Третьи же полагают, что комета - это гигантский шар изо льда, летающий в космосе, а ее длинный хвост создается благодаря энергии солнца. Споры вокруг этих трех одинаково жизнеспособных теорий стимулируют научные поиски в нашей стране.;X
+EVTOPTA23212;Слава богу, мы живем в просвещенное время;X
+EVTNAME60140;Конституционный конвент;X
+EVTDESC60140;Власть в нашей стране полностью находится в руках либералов, и они полагают, что пришла пора для созыва конституционного конвента. Точка зрения каждого человека, ну, или, по крайней мере, всех, чье мнение действительно является важным, будет представлена в этом новом собрании, призванным определить дальнейший путь нашей славной державы.;X
+EVTOPTA60140;Иначе люди воспользуются ситуацией в своих целях;X
+become_guatemala_title;Провозглашение Гватемалы;X
+BUDGET_STOCKPILE_YESTERDAYS;Приобретенные за прошедший день товары:;X
+become_guatemala_desc;Мечта об объединенном центрально-американском государстве канула в лету. Другие провинции были слишком озабочены доминирующим положением Гватемалы, чтобы оценить те жертве, которые мы приносили ради сохранения союза. Больше такого не будет. Мы покончили с этим. Отныне Гватемала будет одна искать свою судьбу.;X
+MOR_1683;Таза;X
+LAG_PAUSE;Игрок $PLAYER$ отстает, и нажимает на паузу.;X
+LAG_DECREASE_SPEED;Игрок $PLAYER$ отстает, и уменьшает скорость.;X
+PAUSED_BY;Пауза нажата игроком §Y$PLAYER$§W.;X
+WARGOAL_OTHER_ACCEPT_SETUP;Одна держава расширяет свою войну против другой;X
+WARGOAL_THEY_ACCEPT_SETUP;Мы расширяем свою войну против другой державы;X
+WARGOAL_WE_ACCEPT_SETUP;Другая держава расширяет свою войну против нас;X
+status_quo_setup;Мы требуем лишь оставить нас в покое.;X
+PROV3041;Аргентинское поднятие;X
+TUR_819;Западная Македония;X
+TUR_806;Северная Македония;X
+GUNBOAT_OTHER_ACCEPT_LOG;Держава $ACTOR$ силой заставила державу $RECIPIENT$ выплачивать свой долг.;X
+GUNBOAT_THEY_ACCEPT_LOG;Мы силой заставили державу $RECIPIENT$ выплачивать нам долг.;X
+GUNBOAT_WE_ACCEPT_LOG;Мы приняли требование о выплате долга со стороны державы $ACTOR$.;X
+TEV_proletarian_dictatorship;Союз Ливонских и Тевтонских Социалистических Республик;X
+TEV_presidential_dictatorship;Тевтония;X
+TEV_bourgeois_dictatorship;Тевтония;X
+TEV_fascist_dictatorship;Священная Тевтонская Империя;X
+TEV_prussian_constitutionalism;Тевтонская Империя;X
+TEV_democracy;Федерация Тевтонии и Ливонии;X
+TEV_hms_government;Тевто-Ливония;X
+TEV_absolute_monarchy;Тевтонская Империя;X

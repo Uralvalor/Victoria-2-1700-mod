@@ -1,0 +1,833 @@
+tutorial =
+{
+	save_game = "tutorial2.v2"
+	title = "TUTORIAL_1"
+	desc = "TUTORIAL_1_DESC"
+	tutorial_window = "TUTORIAL_WINDOW_1"	# default window
+	exclusive = yes
+	country = BEL
+	
+	basic_start = 0
+	intermediary_start = 20
+	advanced_start = 28
+	
+	page =
+	{
+		
+
+		tutorial_window_position = { -250 -190 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_1"
+
+		text1 = "tut_1a_1"
+		text2 = "tut_1a_2"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		custom_action = addinfluence
+		diplomacy = WAR
+		diplomatic_action =
+		{
+				diplomatic_action = declarewar
+				actor = "NET"
+				recipient = "BEL"
+		}
+
+		exclusive = yes
+		allow_province_click = no
+		
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { -50 -180 }
+		
+		text1 = "tut_1a_3"
+		text2 = "tut_1a_4"
+		goto = 398
+		zoom = 90
+		allow_screens = no
+		allow_unpause = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		cont_on_unit_select = 387
+
+		exclusive = no
+	}
+	
+	page =
+	{
+
+		
+		tutorial_window = "TUTORIAL_WINDOW_UNITVIEW"
+		tutorial_window_position = { 470 100 }
+		
+		text1 = "tut_1a_5"
+		text2 = "tut_1a_6"
+		text3 = "tut_1a_7"
+		text4 = "tut_1a_8"
+		text5 = "tut_1a_9"
+		text6 = "tut_1a_10"
+		text7 = "tut_1a_11"
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		goto = 398
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = yes
+		
+		allow_province_click = no
+
+	}
+	
+	## Split unit
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_B_MILITARY_2"
+		tutorial_window_position = { -50 -180 }
+		
+		text1 = "tut_1a_12"
+		text2 = "tut_1a_13"
+		text3 = "tut_1a_15a"
+				
+		goto = 398
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+		#specific_exclusive = newunitbutton
+		continue_on_interface = reorganize
+
+		#window = "tutorial_marker_ul"
+		#window_position = { 265 142 }
+		#window_size = {48 48}
+
+		window = "tutorial_arrow_down_ul"
+		window_position = { 277 122 }
+		allow_province_click = no
+	}
+	
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_B_MILITARY_1"
+		tutorial_window_position = { -50 -50 }
+		
+		text1 = "tut_1a_14"
+		text2 = "tut_1a_15"
+				
+		goto = 398
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		continue_on_action = "subunit_transfer"
+
+		window = "tutorial_arrow_down_ul"
+		window_position = { 648 153 }
+		allow_province_click = no
+		allow_merge = no
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_B_MILITARY_3"
+		tutorial_window_position = { -50 -180 }
+		
+		text1 = "tut_1a_16"
+		text2 = "tut_1a_17"
+		text3 = "tut_1a_17a"
+				
+		goto = 398
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		select_units = 0
+		cont_on_unit_select_prov = 387
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_B_MILITARY_3B"
+		tutorial_window_position = { -50 -180 }
+		
+		text1 = "tut_1a_16"
+		text2 = "tut_1a_18"
+				
+		goto = 398
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+
+		window = "tutorial_arrow_down_ul"
+		window_position = { 275 120 }
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		continue_on_action = "subunit_merge"		
+		allow_province_click = no
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { -50 40 }
+		
+		text1 = "tut_1a_20"
+		text2 = "tut_1a_21"
+				
+		goto = 398
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+		continue_on_action  = "unitmove_381"
+		allow_province_click = yes
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { -50 40 }
+		
+		text1 = "tut_1a_22"
+		text2 = "tut_1a_23"
+				
+		goto = 398
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = yes
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		custom_action = "gamespeed_max"
+		
+		unit_set =
+		{
+			location = 381
+			organisation = 0.2
+		}
+			
+		continue_on_action  = "on_unpause"
+		allow_province_click = no
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { -50 40 }
+		
+		text1 = "tut_1a_22b"
+		text2 = "tut_1a_22c"
+				
+		goto = 398
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = yes
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		continue_on_action  = "unitarrived_381"
+		allow_province_click = no
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { -50 40 }
+		
+		text1 = "tut_1a_24"
+		text2 = "tut_1a_25"
+				
+		goto = 398
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		custom_action = "pause"
+		continue_on_interface = "land_combat"
+		allow_province_click = no
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { -50 40 }
+		
+		text1 = "tut_1a_26"
+		text2 = "tut_1a_27"
+				
+		goto = 398
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		allow_unpause = yes
+		continue_on_action  = "battle_over_381"
+		allow_province_click = no
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_SMALL"
+		tutorial_window_position = { 0 -382 }
+		
+		text1 = "tut_1a_28"
+		text2 = "tut_1a_29"
+				
+		goto = 398
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+						
+		custom_action = "pause"
+		allow_province_click = no
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { -250 -190 }
+		
+		text1 = "tut_1a_30"
+		text2 = "tut_1a_31"
+				
+		goto = 398
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		allow_unpause = yes
+		continue_on_interface  = "outliner"
+
+		window = "tutorial_arrow_up_ur"
+		window_position = { -27 108 }
+		allow_province_click = no
+		
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { -250 -190 }
+		
+		text1 = "tut_1a_32"
+		text2 = "tut_1a_33"
+		text3 = "tut_1a_33a"
+				
+		goto = 398
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		allow_unpause = yes
+		cont_on_unit_select = 388
+		allow_province_click = no
+		
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_B_MILITARY_4"
+		tutorial_window_position = { 20 100 }
+		
+		text1 = "tut_1a_34"
+		text2 = "tut_1a_35"
+		text3 = "tut_1a_35a"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+			
+		continue_on_action  = "onload_388"
+		allow_province_click = no
+		
+		window = "tutorial_arrow_up_ul"
+		window_position = { 287 613 }
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { 20 100 }
+		
+		text1 = "tut_1a_36"
+		text2 = "tut_1a_37"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		allow_province_click = yes
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		allow_unpause = yes
+		
+		allow_province_click = yes
+		select_units = 0
+		continue_on_action  = "unitarrived_2723"
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_B_MILITARY_5"
+		tutorial_window_position = { 20 100 }
+		
+		text1 = "tut_1a_38"
+		text2 = "tut_1a_39"
+		text3 = "tut_1a_40"		
+		
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+	
+		cont_on_unit_id_select = 794
+		custom_action = "pause"
+
+		allow_province_click = no
+		window = "tutorial_arrow_up_ul"
+		window_position = { 230 613 }
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_B_MILITARY_5"
+		tutorial_window_position = { 20 100 }
+		
+		text1 = "tut_1a_38"
+		text2 = "tut_1a_39"
+		text3 = "tut_1a_40"		
+		
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = yes
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		continue_on_action  = "unitarrived_378"
+		
+		allow_province_click = yes
+		
+	}
+
+	
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER"
+
+		text1 = "tutorial_chapter_military_basic"
+		text2 = "tutorial_chapter_end"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = yes
+		
+		exclusive = yes
+		allow_province_click = no
+
+		custom_action = "pause_stop"
+	}
+	
+# Medium
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { -250 -190 }
+		
+		text1 = "tut_1b_1"
+		text2 = "tut_1b_2"
+				
+		goto = 387
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_screen = MILITARY
+		allow_unpause = no
+		exclusive = no
+		allow_province_click = no
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 937 60 }
+		
+		lockpan = yes
+		lockzoom = yes
+
+		custom_action = switch_no_navies
+		
+		continue_on_interface = country_military
+
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { -180 -80 }
+		
+		text1 = "tut_1b_3"
+		text2 = "tut_1b_4"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+
+		window = "tutorial_arrow_down_c"
+		window_position = { -25 228 }
+		
+		lockpan = yes
+		lockzoom = yes
+
+		continue_on_interface = build_unit_view_large
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_MILITARY_0"
+		tutorial_window_position = { -60 70 }
+		
+		text1 = "tut_1b_5"
+		text2 = "tut_1b_6"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+		custom_int_arg = 1
+		custom_action = build_mil_tab
+		continue_on_interface = "queue_unit_entry"
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_MILITARY_1"
+		tutorial_window_position = { -180 -60 }
+		
+		text1 = "tut_1b_7"
+		text2 = "tut_1b_8"
+		text3 = "tut_1b_9"
+		text4 = "tut_1b_10"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+
+		window = "tutorial_arrow_down_c"
+		window_position = { 145 285 }
+		
+		lockpan = yes
+		lockzoom = yes
+
+		continue_on_action = "windowclose_build_unit_entry"
+		
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_MILITARY_2"
+		tutorial_window_position = { -180 -120 }
+		
+		text1 = "tut_1b_11"
+		text2 = "tut_1b_12"
+		text3 = "tut_1b_13"
+		text4 = "tut_1b_14"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+
+		window = "tutorial_arrow_down_c"
+		window_position = { -418 70 }
+		
+		lockpan = yes
+		lockzoom = yes
+		custom_action = addleadership
+		continue_on_action = "MILITARY_CREATE_GENERAL"
+
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_MILITARY_3"
+		tutorial_window_position = { -180 -100 }
+		
+		text1 = "tut_1b_15"
+		text2 = "tut_1b_16"
+		text3 = "tut_1b_17"
+		text4 = "tut_1b_18"
+		text5 = "tut_1b_19"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_unpause = no
+		exclusive = no
+
+		window = "tutorial_arrow_down_c"
+		window_position = { -20 -164 }
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		cont_on_unit_select = 396
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1"
+		tutorial_window_position = { -100 100 }
+		
+		text1 = "tut_1b_20"
+		text2 = "tut_1b_21"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		continue_on_action = LEADER_ASSIGNED
+	}
+	
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER"
+
+		text1 = "tutorial_chapter_military_victoria"
+		text2 = "tutorial_chapter_end"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = no
+		allow_unpause = no
+		
+		exclusive = no
+		
+		allow_province_click = no
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { 0 -190 }
+		
+		text1 = "tut_1c_1"
+		text2 = "tut_1c_2"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = yes
+		allow_province_click = yes
+
+		lockpan = yes
+		lockzoom = yes
+
+		
+		continue_on_interface = unitpanel
+		
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_MILITARY_1"
+		tutorial_window_position = { 350 150 }
+		
+		text1 = "tut_1c_3"
+		text2 = "tut_1c_4"
+		text3 = "tut_1c_5"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		allow_province_click = no
+		
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_MILITARY_2"
+		tutorial_window_position = { 350 150 }
+		
+		text1 = "tut_1c_6"
+		text2 = "tut_1c_7"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = yes
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		allow_province_click = no
+		
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_MILITARY_3"
+		tutorial_window_position = { 350 150 }
+		
+		text1 = "tut_1c_8"
+		text2 = "tut_1c_9"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = yes
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		allow_province_click = no
+	}
+	
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER"
+
+		text1 = "tutorial_end_of_chapter"
+		text2 = "tutorial_chapter_end"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = yes
+		
+		exclusive = yes
+		allow_province_click = no
+
+		custom_action = "pause_stop"
+	}
+}

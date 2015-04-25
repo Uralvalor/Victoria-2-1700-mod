@@ -1,0 +1,69 @@
+generator_selector =
+{
+	type = "WAR_DECLARED"
+	name = "default"
+	case = { value = 10 }
+}
+
+news_priority = 
+{
+	type = "WAR_DECLARED"
+	name = "default"
+	case = { priority_add = 125 }
+}
+
+generate_article =
+{
+	type = "WAR_DECLARED"
+	size = large
+	name = "default" 
+
+	picture_case = { picture = "news/war_01_news_image.dds" picture = "news/war_02_news_image.dds"  picture = "news/war_03_news_image.dds" picture = "news/war_04_news_image.dds" picture = "news/war_05_news_image.dds" picture = "news/war_06_news_image.dds" picture = "news/war_07_news_image.dds" picture = "news/war_08_news_image.dds" }
+	title_case = { text_add = { WAR_NEWS_TITLE_LARGE } }
+	description_case = { text_add = { WAR_NEWS_LARGE } }
+	#description_case = 
+	#{ 
+		# If attacker called any puppets
+	#	trigger = { length_greater = { tags 1 0 } }
+	#	text_add = { "$TAG_0_0$ called following puppets: $STRINGS_LIST_1$." } 
+	#}
+	#description_case = 
+	#{ 
+		# If any countries was called because they were guaranteeing the defender.
+	#	trigger = { length_greater = { tags 3 0 } }
+	#	text_add = { "$TAG_0_1$ called following guarantees: $STRINGS_LIST_3$." } 
+	#}
+	#description_case = 
+	#{ 
+		# If defender called an overlord
+	#	trigger = { NOT = { tags_eq = { 2 0 "---" } } }
+	#	text_add = { "$TAG_0_1$ called their overlord, $TAG_2_0$." } 
+	#}
+	#description_case = 
+	#{ 
+		# If defender called an sphere leader
+	#	trigger = { NOT = { tags_eq = { 2 0 "---" } } }
+	#	text_add = { "$TAG_0_1$ called their sphere leader, $TAG_2_1$." } 
+	#}
+}
+
+generate_article =
+{
+	type = "WAR_DECLARED"
+	size = medium
+	name = "default"
+
+	picture_case = { picture = "news/war_01_news_image.dds" picture = "news/war_02_news_image.dds"  picture = "news/war_03_news_image.dds" picture = "news/war_04_news_image.dds" picture = "news/war_05_news_image.dds" picture = "news/war_06_news_image.dds" picture = "news/war_07_news_image.dds" picture = "news/war_08_news_image.dds" }
+	title_case = { text_add = { WAR_NEWS_TITLE_MEDIUM } }
+	description_case = { text_add = { WAR_NEWS_MEDIUM } }
+}
+
+generate_article =
+{
+	type = "WAR_DECLARED"
+	size = small
+	name = "default"
+
+	title_case = { text_add = { WAR_NEWS_TITLE_SMALL } }
+	description_case = { text_add = { WAR_NEWS_SMALL } }
+}

@@ -1,0 +1,835 @@
+MIL_FROM_TROOPS;Солдаты и армия;x
+MIL_FROM_CAP_SHIPS;Линейные корабли;x
+MIL_FROM_LEADERS;Генералы;x
+OCCUPATION_SCORE;Оккупация: ;x
+BLOCKADE_SCORE;Блокада: ;x
+OUTLINER_TOOLTIP_EMPLOYED;§Y$COUNT$§! Численность работников на заводах (§Y$PERC$§!%);x
+TRADE_SUPPLY_NEED_A;$VAL$ для ежедневнего снабжения армии.\n;x
+TRADE_SUPPLY_NEED_N;$VAL$ для ежедневнего снабжения флота.\n;x
+DIPLOMACY_CANNOT_SET_PRIO_WAR;Мы не можем оказывать влияние на эту страну, пока находимся с ними в состоянии войны.;x
+DIPLOMACY_INFLUENCE_NOT_WORTH;Наше влияние на эту страну уже достигло максимума, и другие страны не оказывают на неё влияния. Сейчас очки влияния не тратятся.;x
+COLONY_ABORT_HEADER;Наша колонизация была отменена.;x
+COLONY_ABORT_1;Колонизация отменена!;x
+COLONY_ABORT_2;$MONARCHTITLE$, наша колонизация в;x
+COLONY_ABORT_3;§Y$TARGET$§b.;x
+COLONY_ABORT_4;была отменена!;x
+COLONY_ABORT_5;Мы больше не можем колонизировать этот регион.;x
+COLONY_ABORT_6;*;x
+COLONY_ABORT_BTN1;OK;x
+COLONY_ABORT_BTN2;OK;x
+COLONY_ABORT_BTN3;Перейти;x
+COLONY_ABORT_MAP;Колония отменена!;x
+COLONY_ABORT_SETUP;Колонизация отменена.;x
+COLONY_ABORT_LOG;Колонизация $TARGET$ была отменена.;x
+DIPRELCH_VALID_CB;Законный повод для войны;x
+BRIGADES_COMPARE_GREATER;Фактор сравнения бригад двух стран равен как минимум §Y$VAL$§!;x
+BRIGADES_COMPARE_SMALLER;Фактор сравнения бригад двух стран меньше чем §Y$VAL$§!;x
+CONFIRM_CREATE_STATE_DESC2;(Все местные эффекты будут отменены.);x
+UNIT_ENABLE_REBEL_HUNT;Преследовать повстанцев;x
+UNIT_DISABLE_REBEL_HUNT;Отменить преследование;x
+UNIT_REBEL_HUNT_WILL_HUNT;§GАрмия готова преследовать повстанцев.§!;x
+UNIT_REBEL_HUNT_IS_BUSY;§RАрмия сейчас занята и не будет преследовать повстанцев.§!;x
+UNIT_REBEL_HUNT_LOW_MORALE;§RВ армии слишком низкая мораль. Армия не будет преследовать повстанцев.§!;x
+UNIT_REBEL_HUNT_NO_VALID;§RБыли замечены вражеские повстанцы, но наша армия не будет атаковать их, потому что они слишком сильны, либо армия не может туда добраться.§!;x
+NOT_RELEASE_AT_WAR;§R(Невозможно освобождать страны в состоянии войны.)§W;x
+COLONY_SUCCESS_5;§Y$PRESTIGE$§! престижа получено.;x
+COLONY_SUCCESS_6;(Базовая стоимость §Y$BASE$§! x §Y$PROV$§! провинций.);x
+COUNTRY_PUPPETS_LIST;Сателлиты: ;x
+POLL_ESTIMATED_ELECTION;На выборах мы ожидаем следующие результаты:;x
+MODIFIER_MOVEMENT_COST;Стоимость передвижения отряда;x
+SPEED_IMPACT_ON_CB;Скорость создания изменена на §Y$VAL$§W.;x
+TERR_COMB_WIDTH_DEC;Ширина фронта на этой территории уменьшается на §Y$VAL$§W%.;x
+MODIFIER_BOOST_STRONGEST_PARTY;Сила лучшего отряда;x
+PEACEDEMANDDESC;$COUNTRY$ предлагает заключить мир на следующих условиях:;x
+CB_JUSTIFY_NO_LONGER_VALID_SETUP;Процесс оправдания войны больше не действует.;x
+CB_JUSTIFY_NO_LONGER_VALID_HEADER;$MONARCHTITLE$;x
+CB_JUSTIFY_NO_LONGER_VALID_1;Оправдание войны;x
+CB_JUSTIFY_NO_LONGER_VALID_2;Наша попытка оправдать войну используя;x
+CB_JUSTIFY_NO_LONGER_VALID_3; повод для войны §Y$CASUS$§!;x
+CB_JUSTIFY_NO_LONGER_VALID_4;против;x
+CB_JUSTIFY_NO_LONGER_VALID_5;$TARGET$;x
+CB_JUSTIFY_NO_LONGER_VALID_6;не сработала!;x
+CB_JUSTIFY_NO_LONGER_VALID_LOG;Процесс оправдания войны против $TARGET$ больше не действует.;x
+CB_JUSTIFY_NO_LONGER_VALID_BTN1;OK;x
+CB_JUSTIFY_NO_LONGER_VALID_BTN2;OK;x
+CB_JUSTIFY_NO_LONGER_VALID_BTN3;Перейти;x
+CB_JUSTIFY_NO_LONGER_VALID_MAP;*;x
+NO_ALLOWED_COUNTRIES;(Нет подходящей страны).;x
+NO_ALLOWED_STATES;(Нет подходящего региона).;x
+HAS_LESS_STATE_THAN;Количество регионов < ;x
+HAS_STATES_GREATER_EQ;Количество регионов >= ;x
+HAVE_MORE_SUBSTATES_THEN;Имеет больше провинций чем;x
+HAVE_LESS_SUBSTATES_THEN;Имеет меньше провинций чем;x
+HAVE_MORE_VASSALS_THAN;Имеет больше сателлитов чем;x
+HAS_UNION_TAG;имеет культурный союз;x
+HAS_NO_UNION_TAG;НЕ имеет культурного союза;x
+HAS_CULTURE_UNION;Имеет культурный союз;x
+HAS_NOT_CULTURE_UNION;НЕ имеет культурного союза;x
+IS_STATE_CAPITAL;является столицей страны;x
+IS_NOT_STATE_CAPITAL;НЕ является столицей страны;x
+SUBSIDIZE_ALL_TOOLTIP;Субсидировать все заводы в списке.;x
+UNSUBSIDIZE_ALL_TOOLTIP;Отменить субсидии для всех заводов в списке.;x
+OPEN_ALL_TOOLTIP;Открыть все заводы в списке.;x
+CLOSE_ALL_TOOLTIP;Закрыть все заводы в списке.;x
+ON_ENACT_UNCIV_REFORM;Принято:;x
+EFFECT_BUILD_IN_CAPITAL_DESC;§Y$BLD$§! Будет построено в провинции: §Y$PROVS$§!;x
+TRIGGER_BUILD_IN_CAPITAL_DESC;§RСтроительство сейчас не разрешено.§!;x
+DIPLOMACY_CB_INFO;Оправдание войны;x
+COLONIZE_MAX_SLOTS;Не больше §Y$NUM$§! Стран могут завершить колонизацию провинции.;x
+RIGHT_CLICK_TO_REMOVE_NF;§YПКМ§! чтобы убрать приоритет.;x
+CONFIRM_REMOVE_COLONY_NF_TITLE;Убрать национальный приоритет Колонизации;x
+CONFIRM_REMOVE_COLONY_NF_DESC;Прогресс колонизации будет потерян. Вы действительно хотите убрать национальный приоритет?;x
+CB_ALLOWED_INSTALL_COMMUNIST_GOV_TYPE;Провозгласить коммунистическое правительство;x
+po_install_communist_gov_type;Провозгласить коммунистическое правительство;x
+install_communist_gov_cb;Вся власть Советам!;x
+install_communist_gov_cb_desc;Провозгласить коммунистическое правительство.;x
+install_communist_gov_cb_setup;Провозгласить коммунистическое правительство. В случае успеха страна будет автоматически включена в вашу сферу влияния.;x
+install_communist_gov_cb_short;Вся власть Советам!;x
+CB_ALLOWED_UNINSTALL_COMMUNIST_GOV_TYPE;Свергнуть коммунистическое правительство;x
+po_uninstall_communist_gov_type;Свергнуть коммунистическое правительство;x
+uninstall_communist_gov_cb;Красная Угроза!;x
+uninstall_communist_gov_cb_desc;Свергнуть коммунистическое правительство.;x
+uninstall_communist_gov_cb_setup;Свергнуть коммунистическое правительство.;x
+uninstall_communist_gov_cb_short;Красная Угроза!;x
+NF_OVERWRITE_HEADER;Чтобы установить новый национальный приоритет §Y$NF$§! вы должны снять старый.;x
+NF_OVERWRITE_ENTRY;§Y$NF$§!\nв §G$STATE$§!;x
+PRESTIGE_MORALE_BONUS;Бонус морали: §Y$VAL$§!;x
+PRESTIGE_MAX_ORG_BONUS;Бонус организации: §Y$VAL$§!;x
+PRESTIGE_PENALTY_ON_LEADER_TRANSFER_TITLE;Потеря престижа.;x
+PRESTIGE_PENALTY_ON_LEADER_TRANSFER_DESC;Наша страна потеряет §R$VAL$§! престижа, если мы снимем генерала §Y$NAME$§! с командования этим отрядом во время войны.\nВы действительно хотите сделать это?;x
+REORG_PANEL_BALANCE_UNITS;Реорганизовать;x
+INVEST_PROJECT_NOT_ENOUGH_MONEY;§RНедостаточно средств.§!;x
+INVEST_PROJECT_SHORTCUT_MAX;§RCtrl + ЛКМ§! чтобы вложить максимум в этот проект. (§Y$AMOUNT$§!¤);x
+INVEST_PROJECT_SHORTCUT_MAX_ALL;§RShift + ЛКМ§! чтобы вложить максимум во все проекты. (§Y$AMOUNT$§!¤);x
+INVEST_PROJECT_CONFIRM;Вложить;x
+INVEST_PROJECT_MAX;Максимум;x
+INVEST_PROJECT_TITLE;Вложить в проект: "§Y$PROJ$§!" в §Y$LOC$§!;x
+INVEST_PROJECT_TOOLTIP_YOUR_BUDGET;Ваш текущий бюджет.;x
+INVEST_PROJECT_TOOLTIP_PROJECT_BUDGET;В проект выделено §Y$BUD$§! из требуемых §Y$TOT$§!.\nВы решили вложить §Y$INV$§! в этот проект.;x
+INVEST_PROJECT_TOOLTIP_APPLY;Применить ваши вложения.;x
+MIL_MULTI_CONSTRUCTION_TOOLTIP;§YЛКМ + Shift§! чтобы построить все.;x
+MIL_CONSTRUCTION_CANCEL_ALL_SHORT;Отменить все;x
+MIL_CONSTRUCTION_CANCEL_ALL;Отменить все строительство;x
+MIL_CONSTRUCTION_CANCEL_ALL_WARNING_TITLE;Отменить все строительство.;x
+MIL_CONSTRUCTION_CANCEL_ALL_WARNING_DESC;Вы уверены, что хотите отменить все военные постройки?;x
+SORT_BY_PRESTIGE;Сортировать по престижу;x
+SORT_BY_NAME;Сортировать по названию;x
+SORT_BY_SELECTED;Сортировать среди выбраных;x
+ATTACKUSREBEL_SETUP;Один из наших сухопутных отрядов атакован повстанцами;x
+ATTACKUSREBEL_HEADER;Наш начальник штаба докладывает что;x
+ATTACKUSREBEL_1;Наши силы атакованы!;x
+ATTACKUSREBEL_2;$MONARCHTITLE$, мы были атакованы в провинции ;x
+ATTACKUSREBEL_3;$PROV$. ;x
+ATTACKUSREBEL_4;Вражеские силы $ATTACKER$ атаковали нас;x
+ATTACKUSREBEL_5;*;x
+ATTACKUSREBEL_6;*;x
+ATTACKUSREBEL_LOG;Мы были атакованы в провинции $PROV$.;x
+ATTACKUSREBEL_BTN1;OK;x
+ATTACKUSREBEL_BTN2;OK;x
+ATTACKUSREBEL_BTN3;Перейти;x
+ATTACKUSREBEL_MAP;Мы атакованы!;x
+ATTACKTHEMREBEL_SETUP;Один из наших сухопутных отрядов атакует повстанцев.;x
+ATTACKTHEMREBEL_HEADER;Наш начальник штаба докладывает что;x
+ATTACKTHEMREBEL_1;Мы атаковали врага!;x
+ATTACKTHEMREBEL_2;$MONARCHTITLE$, сражение началось в провинции ;x
+ATTACKTHEMREBEL_3;$PROV$. ;x
+ATTACKTHEMREBEL_4;Мы атакуем силы $DEFENDER$ и пытаемся прорвать их оборону. Мы вступили в сражение;x
+ATTACKTHEMREBEL_5;*;x
+ATTACKTHEMREBEL_6;*;x
+ATTACKTHEMREBEL_LOG;Мы атаковали противника в провинции $PROV$.;x
+ATTACKTHEMREBEL_BTN1;OK;x
+ATTACKTHEMREBEL_BTN2;OK;x
+ATTACKTHEMREBEL_BTN3;Перейти;x
+ATTACKTHEMREBEL_MAP;Атака началась;x
+SIEGEUSREBEL_SETUP;Когда повстанцы начинают оккупировать нашу провинцию;x
+SIEGEUSREBEL_HEADER;$MESSENGER$;x
+SIEGEUSREBEL_1;Оккупация нашей провинции началась ;x
+SIEGEUSREBEL_2;$MONARCHTITLE$, ;x
+SIEGEUSREBEL_3;$PROV$ ;x
+SIEGEUSREBEL_4;начинает оккупироваться врагом. Но прочь страхи! Силы державы ;x
+SIEGEUSREBEL_5;$ATTACKER$;x
+SIEGEUSREBEL_6;скоро будут смяты под пятой наших армий.;x
+SIEGEUSREBEL_LOG;$PROV$ оккупируется.;x
+SIEGEUSREBEL_BTN1;OK;x
+SIEGEUSREBEL_BTN2;OK;x
+SIEGEUSREBEL_BTN3;Перейти;x
+SIEGEUSREBEL_MAP;*;x
+SIEGETHEMREBEL_SETUP;Когда мы начинаем оккупировать провинцию, контролируемую повстанцами.;x
+SIEGETHEMREBEL_HEADER;$MESSENGER$;x
+SIEGETHEMREBEL_1;Начинается оккупация вражеской провинции;x
+SIEGETHEMREBEL_2;$MONARCHTITLE$, мы начали оккупацию провинции;x
+SIEGETHEMREBEL_3;$PROV$.;x
+SIEGETHEMREBEL_4;Пройдет не так много времени, прежде чем наши войска вырвут контроль над провинцией из рук державы;x
+SIEGETHEMREBEL_5;$DEFENDER$.;x
+SIEGETHEMREBEL_6;Местное население с нетерпением ждет нашего просвещенного правления.;x
+SIEGETHEMREBEL_LOG;Мы начали оккупировать провинцию $PROV$.;x
+SIEGETHEMREBEL_BTN1;OK;x
+SIEGETHEMREBEL_BTN2;OK;x
+SIEGETHEMREBEL_BTN3;Перейти;x
+SIEGETHEMREBEL_MAP;*;x
+REMOVE_RANDOM_ECO_REFORMS_EFFECT;Убрать §R$VAL$§! экономические реформы.\n;x
+REMOVE_RANDOM_MIL_REFORMS_EFFECT;Убрать §R$VAL$§! военные реформы.\n;x
+PRODUCTION_FACTORY_PURE_INCOME;Вчера мы заработали: $VALUE$;x
+PRODUCTION_FACTORY_MARKET_SPENDINGS;Затраты на покупку товаров: $VALUE$;x
+PRODUCTION_FACTORY_POP_PAYCHECKS;Зарплаты рабочих: $VALUE$;x
+PRODUCTION_FACTORY_TOTAL_BALANCE;Вчерашний баланс: $VALUE$;x
+PRODUCTION_FACTORY_TODAY_PROFIT;Доход за вчера: $VALUE$;x
+PRODUCTION_FACTORY_PROFITABILITY;Средний доход (за последние $DAYS$ дней): $VALUE$;x
+PRODUCTION_FACTORY_CURRENT_BUDGET;Текущий бюджет заводов: $VALUE$;x
+PRODUCTION_FACTORY_INVESTMENT;Инвестиции: $VALUE$;x
+PRODUCTION_FACTORY_SUBSIDIES;Субсидии: $VALUE$;x
+INFLUENCE_OVERFLOW_TOOLTIP;Мы тратим §Y$VALUE$§! очков влияния ежедневно, чтобы уменьшить влияние других стран.;x
+TRADE_FLOW_PRODUCED;§YПроизведено:§W;x
+TRADE_FLOW_USED;§YИспользовано:§W;x
+TRADE_FLOW_MAY_BE_USED;§YМожет быть использовано:§W;x
+TRADE_FLOW_TOTAL_PRODUCED;§YВсего произведено:§W;x
+TRADE_FLOW_TOTAL_USED;§YВсего использовано:§W;x
+TRADE_FLOW_RGO_NAME;ДП;x
+TRADE_FLOW_DESC_RGO;Наши $POP$ $ACTION$ $AMOUNT$ $RESOURCE$ каждый день.;x
+TRADE_FLOW_DESC_RGO_ACTION_MINING;шахтерское дело;x
+TRADE_FLOW_DESC_RGO_ACTION_FARMING;фермерство;x
+TRADE_FLOW_DESC_ARTISAN;Наши кустари производят $AMOUNT$ $RESOURCE$ каждый день.;x
+TRADE_FLOW_DESC_FACTORY;Наши $FACTORY$ в $STATE$ производят $AMOUNT$ $RESOURCE$ каждый день.;x
+TRADE_FLOW_CONSUME_DESC_ARTISAN;Кустари используют $AMOUNT$ $RESOURCE$ для производства $OUTPUT$.;x
+TRADE_FLOW_CONSUME_DESC_RGO;$POP$ используют $AMOUNT$ $RESOURCE$ для производства $OUTPUT$.;x
+TRADE_FLOW_CONSUME_DESC_FACTORY;Наши $FACTORY$ в $STATE$ используют $AMOUNT$ $RESOURCE$.;x
+TRADE_FLOW_CONSUME_DESC_POPS;Наши $POP$ используют $AMOUNT$ $RESOURCE$ как часть жизненных потребностей.;x
+TRADE_FLOW_CONSUME_DESC_MILITARY;Наши армии используют $AMOUNT$ $RESOURCE$ в качестве ежедневных припасов.;x
+TRADE_FLOW_MAY_USE_MILITARY_DESC;$INPUT$ могут быть использованы нашими армиями в качестве ежедневных припасов.;x
+TRADE_FLOW_MAY_USE_DESC;$INPUT$ могут быть использованы $PRODUCER$ для производства $OUTPUT$.;x
+TRADE_FLOW_MILITARY_SUPPLY;Военные затраты;x
+TRADE_FLOW_CURRENT_PRICE;Текущая цена:;x
+TRADE_FLOW_DETAILS;Подробности;x
+TRADE_FLOW_PART_OF_WORLD_PROD;§Y$PERC$%§W от мирового производства.;x
+EMIGRATION_AT_PROVINCE_TOOLTIP;§YЭмигрировали в:§!\n$EMILIST$\n§YИммигрировали из:§!\n$IMMLIST$;x
+NO_MIGRATIONS_FOUND1_TOOLTIP;Провиниция принадлежит стране: §Y$COUNTRY$§!;x
+NO_MIGRATIONS_FOUND2_TOOLTIP;Между странами не было миграций.;x
+NO_MIGRATIONS_FOUND3_TOOLTIP;(Выберите провинцию, чтобы посмотреть подробности);x
+PROVINCE_VIEW_BUILD_ALL_TOOLTIP;(Клик + Ctrl, чтобы построить во всех провинциях в регионе);x
+EMIGRATION_ENTRY_TOOLTIP;§R$NUM$§! в §Y$PROV$§!;x
+IMMIGRATION_ENTRY_TOOLTIP;§G$NUM$§! из §Y$PROV$§!;x
+CB_GENERATION_SPEED_BONUS_ON_COLONY_COMPETITION;Страна §Y$COUNTRY$§! Завершила колонизацию §Y$REGION$§!, бонус скорости §Y$BONUS$§!.;x
+CB_GENERATION_BONUS_TOOLTIP;Бонус скорости получения КБ §Y$BONUS$§! Между соперничающими странами: §Y$COUNTRIES$§!;x
+CB_GENERATION_BONUS_TROOPS_PRESENCE_TOOLTIP;(§Y$BONUS$§! из-за присутствия войск противника);x
+CB_GENERATION_BONUS_OPPONENT_TROOPS_PRESENCE;(§Y$BONUS$§! для §Y$FOR$§! против §Y$AGAINST$§! из-за присутствия их войск);x
+MODIFIER_CB_GENERATION_SPEED_MODIFIER;Скорость получения КБ;x
+NOT_CONSTRUCTING_CASUS_BELLI_AGAINST;Не получаем повод для войны с;x
+MODIFIER_MOBILIZATION_IMPACT;Влияние мобилизации;x
+MOBILIZATION_IMPACT_LIMIT_DESC;Влияние мобилизации §Y$IMPACT$§! от военной политики §Y$POLICY$§!, ограничивает количество мобилизируемых отрядов до §Y$UNITS$§!.;x
+MOBILIZATION_IMPACT_LIMIT_DESC2;(Текущее количество мобилизуемых подразделений §Y$CURR$§!, с учетом бонуса в §Y$IMPACT$§! от технологий и политики);x
+CONSTRUCTING_CASUS_BELLI_AGAINST;Получаем повод для войны против;x
+TRIGGER_CB_CREATION_NOT_DISCOVERED;Не получаем поводов для войны;x
+TRIGGER_CB_CREATION_DISCOVERED;Получаем повод для войны;x
+TRIGGER_CB_PROGRESS_LESS;Прогресс получения повода для войны: §Y$PERCENTAGE$§W;x
+TRIGGER_CB_PROGRESS_ATLEAST;Прогресс получения повода для войны не менее: §Y$PERCENTAGE$§W;x
+TRIGGER_IS_CONSTRUCTING_CB;Получение повода для войны с: §Y$TYPE$§W;x
+TRIGGER_IS_NOT_CONSTRUCTING_CB;Не получать повод для войны с: §Y$TYPE$§W;x
+NEED_RELATION_LESS;Отношения слишком высоки, они должны быть менее §Y$LIMIT$§W, в то время, как сейчас они равны §Y$VAL$§W;x
+ALREADY_MAKING_CB;Мы уже готовим повод для войны с §Y$TARGET$§W;x
+MAKE_CB_BUTTON;Получить Casus Belli;x
+MAKE_CB_DESC;Создает повод для войны с ними;x
+MAKE_CBTITLE;Повод для войны;x
+MAPMODE_11;Продукция ДП;x
+MAPMODE_12;Плотность населения;x
+MAPMODE_13;Национальность;x
+MAPMODE_14;Сфера влияния;x
+MAPMODE_15;Лимит снабжения;x
+MAPMODE_16;Приверженность партиям;x
+MAPMODE_17;Рейтинг;x
+MAPMODE_18;Миграции;x
+MAPMODE_20;Отношения;x
+WORLD_RANKING;Мировой рейтинг:;x
+WORLD_RANKING_SECONDARY_POWER;§Y$COUNTRY$§W является колониальной державой.;x
+POPULATION_DENSITY_AT_PROVINCE;Всего населения в провинции §Y$PROV$§W:;x
+NATIONALITY_MAJORITY_AT_PROVINCE;Национальным большинством в провинции §Y$PROV$§W являются:;x
+SPHERE_OF_INFL_GREAT_POWER;§Y$COUNTRY$§W является великой державой.;x
+SPHERE_OF_INFL_IS_IN_SPHERE;§Y$COUNTRY1$§W входит в сферу влияния страны §Y$COUNTRY2$§W.;x
+SPHERE_OF_INFL_IS_INFL_BY;§Y$COUNTRY$§W находится под влиянием державы:;x
+PARTY_LOYALTY_EFFECT_DESC;Приверженность по отношению к партии §Y$PARTY$§W в провинции §Y$PROV$§W будет $OPERATOR$ §Y$VALUE$§W.;x
+PARTY_LOYALTY_EFFECT_OPERATOR_ADD;увеличена на;x
+PARTY_LOYALTY_EFFECT_OPERATOR_REM;уменьшена на;x
+PARTY_LOYALTY_EFFECT_OPERATOR_MUL;умножена на;x
+PARTY_LOYALTY_EFFECT_OPERATOR_SET;установлена;x
+PARTY_LOYALTY_DESC_HEADER;Приверженность к партии в провинции §Y$PROV$§W:;x
+PARTY_LOYALTY_DESC_NEUTRAL;Нейтральная;x
+PARTY_POPULARITY;Популярность партии;x
+PRICE_HISTORY_TIME_RANGE;За последние $MONTHS$ месяцев;x
+party_loyalty_focus;Лояльность к партиям;x
+fascist_focus;Поддерживать §Yфашистов§!;x
+reactionary_focus;Поддерживать §Yреакционеров§!;x
+conservative_focus;Поддерживать §Yконсерваторов§!;x
+socialist_focus;Поддерживать §Yсоциалистов§!;x
+communist_focus;Поддерживать §Yкоммунистов§!;x
+liberal_focus;Поддерживать §Yлибералов§!;x
+anarcho_liberal_focus;Поддерживать §Yлиберал-анархистов§!;x
+NATIONAL_FOCUS_PARTY_LOYALTY_DESC;Приверженность изменяется на §Y$VAL$§W в день.;x
+PARTY_WITH_IDEOLOGY_NOT_EXIST;Сейчас у нас нет партии с идеологией: §Y$IDEOLOGY$§W.;x
+NATIONAL_FOCUS_PARTY_LOYALTY_EFFECT;Ежедневное изменение от национального приоритета $VAL$ по отношению к $PARTY$.;x
+SUBSTATE_OF_NOCOLOR;Является автономией государства;x
+SUBSTATE;Автономия;x
+SUBSTATE_JOIN_WAR_DESC;является автономией державы §Y$COUNTRY$§W и всегда будет поддерживать его в войнах.;x
+IS_NOT_SUBSTATE_OF;Не является автономией державы;x
+IS_SUBSTATE_OF;Является автономией державы;x
+IS_NOT_SUBSTATE;Не является автономией;x
+IS_SUBSTATE;Является автономией;x
+ANY_SUBSTATE;Любое автономия державы;x
+acquire_substate_region;Получить регион автономии;x
+acquire_substate_region_desc;Получить регион от вражеской §Yавтономии§W;x
+acquire_substate_region_short;Получить $STATE$;x
+acquire_substate_region_setup;Получить $STATE$ от $RECIPIENT$;x
+become_independent;Стать независимой державой;x
+become_independent_short;$ACTOR$ освобождена от $RECIPIENT$;x
+become_independent_setup;$ACTOR$ освобождена от $RECIPIENT$ и становится независимой.;x
+#become_independent_desc;Держава становится независимой.;x
+make_puppet;Сделать сателлитом;x
+make_puppet_short;$RECIPIENT$ становится сателлитом державы $ACTOR$;x
+make_puppet_setup;$RECIPIENT$ становится сателлитом державы $ACTOR$;x
+make_puppet_desc;Держава становится сателлитом;x
+RALLY_POINT_INFO;Если вы активируете §Yсборный пункт§! в этой провинции, все ближайшие отряды будут направляться сюда после найма.\n(Смотрите карту найма для подробностей.);x
+RALLY_POINT_ENABLE_INFO;Включить или Выключить пункт сбора в этой провинции.;x
+RALLY_POINT_MERGE_INFO;Включить или Выключить объединение отрядов в пункте назначения.\n(Армии будут объединяться, пока не достигнут лимита снабжения.);x
+RALLY_POINT_PROVINCE_INFO;$PROV$ является §Yсборным пунктом§!;x
+RALLY_POINT_PROVINCE_MERGE_INFO;Все нанимаемые отряды будут объединятся до достижения §Y$LIMIT$§!, когда прибудут сюда.;x
+CB_ALLOWED_MAKE_PUPPET;Можно сделать сателлитом;x
+DIPLOMACY_NEGOTIATE_SUBSTATE;Мы не можем вести переговоры с §Yсубгосударствами§W;x
+DIPLOMACY_NEGOTIATE_WE_SUBSTATE;Мы не можем вести переговоры со странами, если мы являемся §Yавтономией§W;x
+DECL_WAR_NO_SUBSTATE;Мы не можем обьявлять войну §Yавтономиям§W;x
+DIPLO_WE_SUBSTATE;Мы является их автономией;x
+DIPLO_THEY_SUBSTATE;Они являются автономией нашей державы;x
+SELECT_CB_CREATION_TYPE;Выберите, какое оправдание вы хотите сфабриковать;x
+CB_CREATION_DETAIL;Сфабриковать оправдание для войны с целью §Y$TYPE$§!. Это приблизительно займёт §Y$DAYS$§! дней.\nЕсли нас раскроют раньше мы увеличим бесчестье на §R$BADBOY$§! .;x
+CB_MANUFACTURE_TECH;Эффективность обоснования войны;x
+CB_CREATE_TECH;Эффективность обоснования войны: $VAL$;x
+SUPPRESSION_TECH_DESC;Эффективность подавления востаний: $VAL$;x
+CB_CREATION_TIME_DAYS;Потребуется приблизительно §Y$DAYS$§! дней чтобы сфабриковать повод для войны;x
+CB_NOT_ON_PUPPETS;Мы не можем фабриковать поводы для войны против §Yсаттелитов§W, §Yдоминионов§W и §Yсубгосударств§W.;x
+CB_NOT_ON_SPHERES;Мы не ожем фабриковать поводы для войны против государств, которые находятся в нашей сфере влияния.;x
+NO_WAR_JUSTIFICATION;У вас нет повода для войны.;x
+NOT_HOSTILE_BUILD;Не враждебные;x
+ACW_NAME;Дом Разделённый;x
+ACW_DESC;В Северной Америке началась Гражданская война, как только Южные штаты объявили об отделении от Союза. Результат непредсказуем, однако одно уже ясно наверняка - война станет совершенно иной. Стороны обеспечены железными дорогами, телеграфами и винтовками нового поколения. В Европе же британцы спускают на воду железное чудище, использующее мощь пара вместо ветра, которое наверняка изменит представление о войне на море. По миру шагает промышленная революция, все больше стран присоединяются к набирающему обороты локомотиву технического прогресса. \n «А снаружи война,\n Надо драться.\n Ты слышишь - ваш дом \n Начинает трясти,\n Времена-то меняются, братцы».;x
+EVTNAME90000;Агрессивные намерения страны $CB_TARGET_NAME$;x
+EVTDESC90000;Как всем известно, $CB_TARGET_NAME$ хочет напасть на нас. Это только вопрос времени - когда они начнут ничем не спровоцированное нападение, так что это единственное разумное, что мы можем сделать, как обороняющаяся сторона. Как назло, подробный отчет о их гнусных планах недавно «просочился» в прессу, и общественность выступает на нашей стороне.;x
+EVTOPTA90000;Как гнусно с их стороны...;x
+EVTNAME90001;Пограничный инцидент в стране $CB_TARGET_NAME$;x
+EVTDESC90001;Мы попали в довольно неловкое положение. Несколько наших солдат в форме армии страны $CB_TARGET_NAME$ были пойманы при попытке пересечь границу. Хотя слухи о том, что их задачей было организовать пограничный инцидент, чтобы оправдать наше совершенно необоснованое вторжение. Было бы не очень правильно подогревать слухи сейчас.;x
+EVTOPTA90001;Постарайтесь замять это дело;x
+EVTNAME90002;Тирания державы $CB_TARGET_NAME$;x
+EVTDESC90002;Слишком долго $CB_TARGET_NAME_ADJ$ народ страдал от гнета тиранов. Для блага всех угнетённых мы должны раскрыть миру доказательства преступлний правительства державы $CB_TARGET_NAME$ и привлечь членов их сферы под наше крыло во имя их собственного благополучия.;x
+EVTOPTA90002;Мы должны помочь угнетенному народу...;x
+EVTNAME90003;Вопиющее попустительство преступлений правителям страны $CB_TARGET_NAME$!;x
+EVTDESC90003;Вопреки неподдельным доказательствам того, что $CB_TARGET_NAME$ - угнетатели, кажется, не будет никакой общественной или международной поддержки наших действий по спасению малых народов от их влияния.;x
+EVTOPTA90003;Дураки!;x
+EVTNAME90004;Защита народа страны $CB_TARGET_NAME$;x
+EVTDESC90004;Без защиты Великой Державы вроде нас с $CB_TARGET_NAME$ может случиться что угодно. Что бы защитить их, мы должны включить их в нашу сферу влияния, несмотря на все возражения с их стороны. В конце-концов они тоже могут стать Великой Державой.;x
+EVTOPTA90004;Так поможем им встать на ноги!;x
+EVTNAME90005;$CB_TARGET_NAME_ADJ$ фиаско;x
+EVTDESC90005;Хотя мы всего лишь хотели помочь державе $CB_TARGET_NAME$, добавив их в нашу сферу влияния, их это очень разозлило. Несмотря на то, что они пренебрежительно отнеслись к нашим стараниям, их поведение несколько изменило мнение мировой общественности насчет насильного присоединения к нам.;x
+EVTOPTA90005;Раз они сами того не хотят...;x
+EVTNAME90006;Конец империализма державы $CB_TARGET_NAME$;x
+EVTDESC90006;Почему держава $CB_TARGET_NAME$ должна получить всю основную землю для своих колоний? Это совершеннейшая чушь, вот что это такое! Скорее всего, они даже не будут должным образом её использовать! Мы должны что-то сделать - мы заслужили свое место под солнцем!;x
+EVTOPTA90006;Пусть солдаты готовятся омыть сапоги в океане!;x
+EVTNAME90007;Неудача в колонизации;x
+EVTDESC90007;Несмотря на скромность наших требований, наблюдается международная поддержка в возвращении колониального баланса между нами и державой $CB_TARGET_NAME$. Несмотря на эту неудачу, у нас нет сомнений в том, что в один прекрасный день мы создадим империю, над которой не будет садиться солнце!;x
+EVTOPTA90007;Черт бы их побрал!;x
+EVTNAME90008;Время действовать!;x
+EVTDESC90008;Все согласятся с тем, что держава $CB_TARGET_NAME$ становится излишне самоуверенной и наглой. Слишком долго они ходили по мировой сцене с напыщенным видом, думая, что могут делать все, что пожелают. К счастью, остальной мир солгласен с тем, что $CB_TARGET_NAME$ должна быть унижена.;x
+EVTOPTA90008;Время умерить их пыл!;x
+EVTNAME90009;Самонадеянные дураки!;x
+EVTDESC90009;Хотя мы видим высокомерие державы $CB_TARGET_NAME$, очевидно, что остальные его не замечают. Их так называемая «независимость» несомненно позволяет им иметь собственную армию и делать что угодно, без оглядки на наше мнение. Само собой разумеется, что они слишком самонадеянны!;x
+EVTOPTA90009;Недолго им осталось...;x
+VOTER_ISSUES;Интересы Избирателей;x
+OL_VIEW_NATFOCUS;Переключить обзор §Yнациональных приоритетов§W;x
+OL_VIEW_NATFOCUS_HEADER;Национальный приоритет;x
+OL_VIEW_NATFOCUS_TOOLTIP;Национальный приоритет (§Y$FOCUS$§!) в §Y$STATE$§!;x
+OL_VIEW_RALLYPOINTS;Переключить обзор §Yсборных пунктов§W;x
+OL_VIEW_RALLYPOINTS_HEADER;Сборные пункты;x
+OL_VIEW_RALLYPOINTS_TOOLTIP;Все ближайшие бригады будут перемещаться в §Y$PROV$§!;x
+OL_VIEW_RALLYPOINTS_MERGE_TOOLTIP; и будут пытаться объединиться §Y$LIMIT$§! по прибытию.;x
+OL_VIEW_MERGE_ON;§G(Объединение Вкл)§!;x
+OL_VIEW_MERGE_OFF;§Y(Объединение Выкл)§!;x
+OUR_CB_DETECTED_SETUP;Раскрыта наша попытка оправдать войну;x
+OUR_CB_DETECTED_HEADER;$MONARCHTITLE$;x
+OUR_CB_DETECTED_1;Оправдание войны;x
+OUR_CB_DETECTED_2;Наша попытка оправдать войну используя;x
+OUR_CB_DETECTED_3;повод для войны §Y$CASUS$§! ;x
+OUR_CB_DETECTED_4;против;x
+OUR_CB_DETECTED_5;державы $TARGET$;x
+OUR_CB_DETECTED_6;была раскрыта! Мы получим §R$BADBOY$§! бесчестья;x
+OUR_CB_DETECTED_LOG;Раскрыт процесс фабрикования повода для войны против страны $TARGET$.;x
+OUR_CB_DETECTED_BTN1;OK;x
+OUR_CB_DETECTED_BTN2;OK;x
+OUR_CB_DETECTED_BTN3;Перейти;x
+OUR_CB_DETECTED_MAP;*;x
+CB_TOWARDS_US_DETECTED_SETUP;Был раскрыт процесс фабрикования повода для войны против нас.;x
+CB_TOWARDS_US_DETECTED_HEADER;$MONARCHTITLE$;x
+CB_TOWARDS_US_DETECTED_1;Оправдание войны;x
+CB_TOWARDS_US_DETECTED_2;Попытка оправдать войну используя;x
+CB_TOWARDS_US_DETECTED_3;повод для войны §Y$CASUS$§! ;x
+CB_TOWARDS_US_DETECTED_4;против нас державой;x
+CB_TOWARDS_US_DETECTED_5;$COUNTRY$;x
+CB_TOWARDS_US_DETECTED_6;была раскрыта!;x
+CB_TOWARDS_US_DETECTED_LOG;Раскрыт процес фабрикования повода для войны против нас страной $COUNTRY$;x
+CB_TOWARDS_US_DETECTED_BTN1;ОК;x
+CB_TOWARDS_US_DETECTED_BTN2;ОК;x
+CB_TOWARDS_US_DETECTED_BTN3;Перейти;x
+CB_TOWARDS_US_DETECTED_MAP;*;x
+OTHERS_CB_DETECTED_SETUP;Раскрыт процес фабрикования повода для войны;x
+OTHERS_CB_DETECTED_HEADER;$MONARCHTITLE$;x
+OTHERS_CB_DETECTED_1;Оправдание войны;x
+OTHERS_CB_DETECTED_2;Попытка оправдать войну используя;x
+OTHERS_CB_DETECTED_3;повод для войны §Y$CASUS$§! ;x
+OTHERS_CB_DETECTED_4;против страны $TARGET$ ;x
+OTHERS_CB_DETECTED_5;державой $COUNTRY$;x
+OTHERS_CB_DETECTED_6;была раскрыта!;x
+OTHERS_CB_DETECTED_LOG;Раскрыт процес фабрикования повода для войны против страны $TARGET$ державой $COUNTRY$ ;x
+OTHERS_CB_DETECTED_BTN1;ОК;x
+OTHERS_CB_DETECTED_BTN2;ОК;x
+OTHERS_CB_DETECTED_BTN3;Перейти;x
+OTHERS_CB_DETECTED_MAP;*;x
+CB_gen_plus;Поддержка войны обществом;x
+CB_gen_minus;Разоблачение милитаристских планов;x
+CB_gen_plus_desc;Можно быстрее фабриковать повод для войны.;x
+CB_gen_minus_desc;Фабрикование повода для войны будет занимать больше времени;x
+BUILDING_AT_MAX_TERRAIN;Уровень $CURR$/$MAX$ (§R$TERRAINMOD$§! $TERRAIN$);x
+PRODUCTION_INVEST;Инвестиции;x
+PRODUCTION_TAB_INVEST;Обзор инвестиций в другие страны;x
+FLAG_SUBMENU_INTERESTING;Обозначить страну как интересную;x
+FLAG_SUBMENU_NOTINTERESTING;Обозначить страну как §Yнеинтересную§!;x
+MESSAGE_TYPE_INTERESTING;Интересующие;x
+MESSAGE_TYPE_NOT_INTERESTING;Другие;x
+MESSAGE_SEARCH;Искать:;x
+MESSAGE_BUTTON_SEARCH;Искать:;x
+MESSAGE_BUTTON_CLEAR;Очистить;x
+MESSAGE_SEARCH_TOOLTIP;Введите ключевые слова разделенные §Yпробелом§!, чтобы отфильтровать список;x
+SIDEMENU_menubar_msg_settings;Щелкните, чтобы настроить сообщения;x
+RULE_BUILD_FACTORY_INVEST;Построить фабрику в другой стране;x
+RULE_EXPAND_FACTORY_INVEST;Расширить фабрику в другой стране;x
+RULE_OPEN_FACTORY_INVEST;Открыть фабрику в другой стране;x
+RULE_BUILD_RAILWAY_INVEST;Инвесторы могут строить железные дороги в другой стране;x
+RULE_CAN_INVEST_IN_POP_PROJECTS;Инвестировать в проекты ;x
+RULE_POP_BUILD_FACTORY_INVEST;Инвесторы могут строить фабрики в другой стране;x
+RULE_POP_EXPAND_FACTORY_INVEST;Инвесторы могут расширять фабрики в другой стране;x
+RULE_POP_OPEN_FACTORY_INVEST;Инвесторы могут открыть фабрики в другой стране;x
+PRODUCTION_OUR_INVEST;Наши инвестиции: $AMOUNT$¤ ($PERCENTAGE$%);x
+MSG_FILTER_HEADER;Настройки фильтра сообщений;x
+MSG_FILTER_TITLE;Мы заинтересованы в:;x
+MSG_FILTER_DESELECT;Отменить выбор всех;x
+MSG_FILTER_BEST_GUESS;Автоматически;x
+MSG_FILTER_ENEMIES;Враги;x
+MSG_FILTER_ALLIES;Союзники;x
+MSG_FILTER_NEIGHBOURS;Соседи;x
+MSG_FILTER_SPHERE;Сфера;x
+PRODUCTION_BROWSE_INVEST;Другие;x
+DIPLOMACY_OPINION_INVESTMENT;§Y$GP_ADJ$§W инвестиции: §Y$VALUE$§!¤;x
+MSG_FILTER_TOOLTIP_HEADER;В окне настроек фильтра вы можете выбрать страны, в которых вы заинтересованы. Все сообщения и уведомления будут показаны только для этих важных стран;x
+MSG_FILTER_TOOLTIP_DELAYED;§YЛКМ§! Заменяет текущую выборку.\n§YПКМ§! Добавляет к текущей выборке.\n§YЛКМ + SHIFT§! переключает фильтр.;x
+MSG_FILTER_TOOLTIP_DESELECT;Отменить выбор;x
+MSG_FILTER_TOOLTIP_BESTGUESS;Выбрать страны автоматически;x
+MSG_FILTER_TOOLTIP_ENEMIES;Выбрать страны, которые являются вашими врагами;x
+MSG_FILTER_TOOLTIP_ALLIES;Выбрать страны, которые являются вашими союзниками;x
+MSG_FILTER_TOOLTIP_NEIGHBOURS;Выбрать страны, которые являются вашими соседями;x
+MSG_FILTER_TOOLTIP_SPHERE;Выбрать страны, которые находятся в вашей сфере(если вы Великая держава);x
+MSG_FILTER_TOOLTIP_CONTINENT;Выбрать страны, которые владеют провинциями на этом континенте;x
+PRODUCTION_NOT_DESTROY_FACTORY_BECAUSE_FOREIGN_TOOLTIP;У нас нет права делать это в другой стране;x
+INVESTMENT_PENALTY_FACTOR;Другие национальные инвесторы;x
+SPHERE_SHARE_NOT_IN_SPHERE;Не находятся в сфере влияния Великой Державы, поэтому не могут продавать товары на мировой рынок;x
+SPHERE_SHARE_UNCIV;Нецивилизованная страна, §Y$PERCENTAGE$%§! от всех ресурсов, доступных на рынке Великой Державы;x
+SPHERE_SHARE_2NDRANK;Колониальная держава, §Y$PERCENTAGE$%§! от всех ресурсов, доступных на рынке Великой Державы (Базовое значение: §Y$BASE_PERCENTAGE$%§!);x
+SPHERE_SHARE_CIV;Цивилизованная страна, §Y$PERCENTAGE$%§! от всех ресурсов, доступных на рынке Великой Державы (Базовое значение: §Y$BASE_PERCENTAGE$%§!);x
+RULE_ALLOW_FOREIGN_INVESTMENT;Разрешить иностранные инестиции;x
+POLITICS_DECISIONS_TAB;Решения;x
+POLITICS_MOVEMENTS_TAB;Движения;x
+EVTNAME90100;За Свободную Прессу!;x
+EVTNAME90102;За Публичные Собрания!;x
+EVTNAME90104;За Профсоюзы!;x
+EVTDESC90100;Люди долго мечтали о Свободной Прессе, а после принятия этой реформы нашими соседями этот вопрос стал ещё более актуален.;x
+EVTOPTA90100;Возможно, мы пойдем им навстречу;x
+EVTOPTB90100;Никогда!;x
+EVTDESC90102;Люди долго мечтали о праве на публичные собрания, а после принятия этой реформы нашими соседями этот вопрос стал ещё более актуален.;x
+EVTDESC90104;Люди долго мечтали о профсоюзах, а после принятия этой реформы нашими соседями этот вопрос стал ещё более актуален.;x
+EVTNAME90101;Невыполненные обещания;x
+EVTDESC90101;Несмотря на наши обещания реформировать прессу, ничего не изменилось, и люди расстроены.;x
+EVTOPTA90101;Как печально!;x
+EVTDESC90103;Несмотря на наши обещания разрешить публичные собрания, ничего не изменилось, и люди расстроены;x
+EVTOPTA90103;Я ненавижу трусов;x
+EVTDESC90105;Несмотря на наши обещания разрешить торговые союзы, ничего не изменилось, и люди расстроены;x
+EVTOPTA90105;Лучше умереть, чем стать красным!;x
+MOVEMENT_RADICALISM_BASE;База: §R$VAL$§%§!;x
+MOVEMENT_RADICALISM_ACCUMULATED;Подавление: §R$VAL$§%§!;x
+MOVEMENT_RADICALISM_GRANTED_REFORMS;Реформы: §G$VAL$§%§!;x
+MOVEMENT_RADICALISM_CULTURE;$CULTURE$: $VAL$;x
+ALREADY_SUPPRESSED;Движение не радикально, и может быть подавлено;x
+EVTNAME90900;Среднее королевство;x
+EVTDESC90900;Мы сейчас достаточно развиты, чтобы Европейские варвары признали нас «Цивилизованными», и поэтому они должны уважать наше право на свободную политику и отказаться от влияния на Китай;x
+EVTOPTA90900;Мы снова едины!;x
+EVTDESC90901;Новый статус династии Цин позволяет им требовать от нас признания их власти. Принятие требований означает для нас потерю суверенитета.;x
+EVTOPTA90901;Мы снова едины!;x
+EVTOPTA90910;В фургоны и на Запад!;x
+SUPPRESSION_POINTS;Очки подавления;x
+school_reforms;Школьная система;x
+no_schools;Нет школьной системы;x
+low_schools;Начальная школьная система;x
+acceptable_schools;Приемлемая школьная система;x
+good_schools;Хорошая школьная система;x
+no_schools_l;Нет школьной системы;x
+low_schools_l;Начальная школьная система;x
+acceptable_schools_l;Приемлемая школьная система;x
+good_schools_l;Хорошая школьная система;x
+no_schools_desc;Нет общественных школ;x
+low_schools_desc;Общественные школы;x
+acceptable_schools_desc;У нас достаточно общественных школ;x
+good_schools_desc;У нас очень много общественных школ;x
+NATIONALIST_UNION_MOVEMENT;$COUNTRY_ADJ$ движение за объединение;x
+NATIONALIST_LIBERATION_MOVEMENT;Движение за освобождение державы $COUNTRY$;x
+SUPRESSION_MONTHLY_GAIN;Ежемесячный рост: §G$VAL$§!;x
+MODIFIER_EDUCATION_EFFICIENCY;Эффективность образования;x
+MODIFIER_SUPPRESSION_POINT_GAIN;Скорость роста очков подавления;x
+NOT_SOCIAL_MOVEMENT_STRENGTH_TR;Сила общественного движения меньше, чем §Y$VAL$§W.\n;x
+SOCIAL_MOVEMENT_STRENGTH_TR;Сила общественного движения выше, чем§Y$VAL$§W.\n;x
+NOT_POLITICAL_MOVEMENT_STRENGTH_TR;Сила политического движения ниже, чем §Y$VAL$§W.\n;x
+POLITICAL_MOVEMENT_STRENGTH_TR;Сила политического движения ниже, чем §Y$VAL$§W.\n;x
+SUPPRESS;Подавить: §R$VAL$§%§!;x
+SUPPRESSION_DESC;Подавить это движение. Это будет стоить $VAL$ очков и сделает движение более радикальным (§R+$HIT$§!) в будущем;x
+CANT_SUPPRESS_DESC;Нам нужно больше очков, чтобы подавить это движение. У нас есть §R$VAL$§! Очков подавления и нам требуется §Y$NEED$§!.;x
+REFORM_MOVEMENT_DESC;Движение, выступающее за принятие §Y$REFORM$§!;x
+NATIONALIST_UNION_MOVEMENT_DESC;Движение за формирование §Y$COUNTRY$§!;x
+NATIONALIST_LIBERATION_MOVEMENT_DESC;Движение за освобождение §Y$COUNTRY$§!;x
+SUPPRESSION_LABEL_DESC;Очки подавления определяют, сможет ли ваше правительство подавить общественное движение.;x
+MOVEMENT_REFORM_SUPPORT;Имеется общественное движение размером $VAL$,которое выступает за принятие этой реформы.;x
+movement_no_slavery;Движение аболиционистов;x
+movement_yes_slavery;Лига рабства;x
+movement_landed_voting;Движение за избирательные права;x
+movement_wealth_weighted_voting;Движение за избирательные права;x
+movement_wealth_voting;Движение за избирательные права;x
+movement_universal_weighted_voting;Движение за избирательные права;x
+movement_universal_voting;Движение за избирательные права;x
+movement_party_appointed;Движение за политическое представительство;x
+movement_appointed;Движение за политическое представительство;x
+movement_state_equal_weight;Движение за политическое представительство;x
+movement_population_equal_weight;Движение за политическое представительство;x
+movement_first_past_the_post;Движение за политическое представительство;x
+movement_jefferson_method;Движение за политическое представительство;x
+movement_proportional_representation;Движение за политическое представительство;x
+movement_no_meeting;Движение за отмену общественных собраний;x
+movement_yes_meeting;Движение за общественные собрания;x
+movement_censored_press;Движение за цензуру прессы;x
+movement_free_press;Движение за свободную прессу;x
+movement_state_controlled;Движение за контролируемые государством профсоюзы;x
+movement_non_socialist;Движение за не-социалистические профсоюзы;x
+movement_all_trade_unions;Движение за свободные профсоюзы;x
+movement_harassment;Движение за права избирателей;x
+movement_gerrymandering;Движение за права избирателей;x
+movement_non_secret_ballots;Движение за права избирателей;x
+movement_secret_ballots;Движение за права избирателей;x
+movement_trinket_wage;Движение за минимальную зарплату;x
+movement_low_minimum_wage;Движение за минимальную зарплату;x
+movement_acceptable_minimum_wage;Движение за минимальную зарплату;x
+movement_good_minimum_wage;Движение за минимальную зарплату;x
+movement_fourteen_hours;Движение за уменьшение максимального рабочего дня;x
+movement_twelve_hours;Движение за уменьшение максимального рабочего дня;x
+movement_ten_hours;Движение за уменьшение максимального рабочего дня;x
+movement_eight_hours;Движение за уменьшение максимального рабочего дня;x
+movement_trinket_safety;Движение за охрану труда;x
+movement_low_safety;Движение за охрану труда;x
+movement_acceptable_safety;Движение за охрану труда;x
+movement_good_safety;Движение за охрану труда;x
+movement_trinket_subsidies;Движение за пособиями безработным;x
+movement_low_subsidies;Движение за пособиями безработным;x
+movement_acceptable_subsidies;Движение за пособиями безработным;x
+movement_good_subsidies;Движение за пособиями безработным;x
+movement_trinket_pensions;Единое движение за достоиные пенсии;x
+movement_low_pensions;Единое движение за достоиные пенсии;x
+movement_acceptable_pensions;Единое движение за достоиные пенсии;x
+movement_good_pensions;Единое движение за достоиные пенсии;x
+movement_trinket_health_care;Единое движение за достоиное здравохранение;x
+movement_low_health_care;Единое движение за достоиное здравохранение;x
+movement_acceptable_health_care;Единое движение за достоиное здравохранение;x
+movement_good_health_care;Единое движение за достоиное здравохранение;x
+movement_low_schools;Общее школьное движение;x
+movement_acceptable_schools;Общее школьное движение;x
+movement_good_schools;Общее школьное движение;x
+POLITICS_MOVEMENTS;Движения;x
+POLITICS_ECONOMIC_REFORMS;Экономические реформы;x
+POLITICS_MILITARY_REFORMS;Военные реформы;x
+NORMAL_CIVIL_WAR_NAME_USA_CSA_CSA;$ORDER$Война с Северной агрессией;x
+NORMAL_CIVIL_WAR_NAME_USA_CSA_USA;$ORDER$Война против мятежников;x
+NORMAL_WAR_GUNBOAT_NAME;$ORDER$$FIRST$ интервенция в $SECOND_COUNTRY$;x
+NORMAL_WAR_GUNBOAT_NAME_FRA_MEX;$ORDER$Франко-мексиканская война;x
+NORMAL_WAR_TAKE_NAME_USA_MEX_USA;$ORDER$Мексикано-Американская Война;x
+NORMAL_WAR_TAKE_NAME_USA_MEX_MEX;$ORDER$Американское вторжение в Мексику;x
+NORMAL_WAR_TAKE_CORE_NAME_USA_MEX_USA;$ORDER$Мексикано-Американская Война;x
+NORMAL_WAR_TAKE_CORE_NAME_USA_MEX_MEX;$ORDER$Американское вторжение в Мексику;x
+NORMAL_WAR_GUNBOAT_NAME_ENG_CHI;$ORDER$Опиумная война;x
+NORMAL_WAR_ADD_SPHERE_NAME_ENG_CHI;$ORDER$Опиумная война;x
+NORMAL_WAR_INDEPENDENCE_NAME;$ORDER$$FIRST$ Война за независимость;x
+NORMAL_WAR_TAKE_NAME_CHL_PEU;$ORDER$Война за мир;x
+NORMAL_WAR_TAKE_CORE_NAME_CHL_PEU;$ORDER$Война за мир;x
+NORMAL_WAR_TAKE_NAME_CHL_BOL;$ORDER$Война за мир;x
+NORMAL_WAR_TAKE_CORE_NAME_CHL_BOL;$ORDER$Война за мир;x
+NORMAL_WAR_CONQUEST_NAME_ENG_TRN;$ORDER$Англо-Бурская война;x
+NORMAL_WAR_CONQUEST_NAME_ENG_ORA;$ORDER$Англо-Бурская война;x
+NORMAL_WAR_TAKE_NAME_ENG_TRN;$ORDER$Англо-Бурская война;x
+NORMAL_WAR_TAKE_NAME_ENG_ORA;$ORDER$Англо-Бурская война;x
+NORMAL_WAR_TAKE_NAME_ORA_ENG;$ORDER$Англо-Бурская война;x
+NORMAL_WAR_TAKE_NAME_TRN_ENG;$ORDER$Англо-Бурская война;x
+NORMAL_WAR_PUPPET_NAME_ENG_TRN;$ORDER$Англо-Бурская война;x
+NORMAL_WAR_PUPPET_NAME_ENG_ORA;$ORDER$Англо-Бурская война;x
+NORMAL_WAR_PUPPET_NAME;$ORDER$ война за $FIRST$ контроль над $SECOND_COUNTRY$;x
+NORMAL_WAR_BOXER_NAME;$ORDER$Восстание боксёров;x
+NORMAL_WAR_PUPPET_NAME_ENG_USA;$ORDER$$SECOND$ Война за Независимость;x
+NORMAL_WAR_NAME_ENG_USA;$ORDER$$SECOND$ Война за Независимость;x
+NORMAL_WAR_TAKE_NAME_ENG_USA;$ORDER$$SECOND$ Война за Независимость;x
+NORMAL_WAR_TAKE_CORE_NAME_ENG_USA;$ORDER$$SECOND$ Война за Независимость;x
+NORMAL_WAR_CONQUEST_NAME_ENG_USA;$ORDER$$SECOND$ Война за Независимость;x
+NORMAL_WAR_HUMILIATE_NAME;$ORDER$$FIRST$-$SECOND$ Война за унижение;x
+NORMAL_WAR_UNIFICATION_NAME_PRU_FRA;$ORDER$Франко-Прусская война;x
+NORMAL_WAR_UNIFICATION_NAME_NGF_FRA;$ORDER$Франко-Прусская война;x
+CAN_INVEST_IN_RAILROADS;Можете вложить деньги в прокладку железных дорог;x
+land_reform;Земельная реформа;x
+land_reform_l;Земельная реформа I;x
+no_land_reform;Нет земельной реформы;x
+yes_land_reform;Есть земельная реформа;x
+no_land_reform_desc;Нет земельной реформы;x
+yes_land_reform_desc;Перераспределение прав на землю, приводящих к более эффективному сельскому хозяйству и горной промышленности;x
+admin_reform;Административная реформа;x
+admin_reform_l;Административаная реформа I;x
+no_admin_reform;Нет административных реформ;x
+yes_admin_reform;Есть административная реформа;x
+no_admin_reform_desc;Нет административных реформ;x
+yes_admin_reform_desc;Наша администрация теперь современна и эффективна;x
+finance_reform;Финансовая реформа;x
+finance_reform_l;Финансовая реформа;x
+no_finance_reform;Нет финансовых реформ;x
+yes_finance_reform;Провести финансовую реформу;x
+finance_reform_two;Международный долг;x
+no_finance_reform_desc;Нет финансовых реформ;x
+yes_finance_reform_desc;Финансовая реформа;x
+finance_reform_two_desc;Теперь мы можем занимать деньги у других наций;x
+education_reform;Образовательная реформа;x
+education_reform_l;Образовательная реформа;x
+no_education_reform;Нет образовательных реформ;x
+yes_education_reform;Реформировать систему;x
+no_education_reform_desc;Нет образовательных реформ;x
+yes_education_reform_desc;Базовое обучение в нашей стране;x
+transport_improv;Транспортная система;x
+transport_improv_l;Транспортная система;x
+no_transport_improv;Не улучшено;x
+yes_transport_improv;Улучшено;x
+no_transport_improv_desc;Устаревшая транспортная система;x
+yes_transport_improv_desc;Современная транспортная система;x
+pre_indust;Ранняя индустриализация;x
+pre_indust_l;Ранняя индустриализация;x
+no_pre_indust;Придерживаемся старых способов;x
+yes_pre_indust;Индустриальный прогресс;x
+no_pre_indust_desc;Нам не нужна индустриализация;x
+yes_pre_indust_desc;Построено несколько основных заводов при помощи иностранных советников. Станет ли это началом индустриальной революции?;x
+industrial_construction;Индустриализация;x
+industrial_construction_l;Индустриализация;x
+no_industrial_construction;Нет индустриализации;x
+yes_industrial_construction;Индустриализация;x
+no_industrial_construction_desc;Нет улучшенных заводов;x
+yes_industrial_construction_desc;Иностранные советники помогают нам в строительстве новых улучшенных заводов;x
+foreign_training;Способы тренировок;x
+foreign_training_l;Способы тренировок;x
+no_foreign_training;Местные способы тренировок;x
+yes_foreign_training;Иностранные способы тренировок;x
+no_foreign_training_desc;Подразделения обучаются традиционным способом;x
+yes_foreign_training_desc;Подразделения обучаются иностранными военными советниками;x
+foreign_weapons;Иностранное вооружение;x
+foreign_weapons_l;Иностранное вооружение;x
+no_foreign_weapons;Местное вооружение;x
+yes_foreign_weapons;Импортируемое вооружение;x
+no_foreign_weapons_desc;Традиционное вооружение;x
+yes_foreign_weapons_desc;Это моя гром-палка!!!;x
+military_constructions;Военные постройки;x
+military_constructions_l;Военные постройки;x
+no_military_constructions;Простые постройки;x
+yes_military_constructions;Улучшенные постройки;x
+no_military_constructions_desc;Фортификации отсутствуют;x
+yes_military_constructions_desc;Эффективные фортификации;x
+foreign_officers;Обучение офицеров;x
+foreign_officers_l;Обучение офицеров;x
+no_foreign_officers;Местные офицеры;x
+yes_foreign_officers;Иностранные офицеры;x
+no_foreign_officers_desc;Наши отряды возглавляют местные офицеры;x
+yes_foreign_officers_desc;Теперь наши поздразделения сильнейшие в мире!;x
+army_schools;Армейские учения;x
+army_schools_l;Армейские учения;x
+no_army_schools;Призыв;x
+yes_army_schools;Армейские школы;x
+no_army_schools_desc;Мы обучаемся в боях;x
+yes_army_schools_desc;Офицеры хорошо обучаются перед боями;x
+foreign_naval_officers;Морские офицеры;x
+foreign_naval_officers_l;Морские офицеры;x
+no_foreign_naval_officers;Местные морские офицеры;x
+yes_foreign_naval_officers;Иностранные морские офицеры;x
+no_foreign_naval_officers_desc;Нашими кораблями командуют местные офицеры;x
+yes_foreign_naval_officers_desc;Иностранные офицеры помогают нашим капитанам;x
+naval_schools;Морские учения;x
+naval_schools_l;Морские учения;x
+no_naval_schools;Призыв матросов;x
+yes_naval_schools;Военно-морские школы;x
+no_naval_schools_desc;Обучение в ходе службы;x
+yes_naval_schools_desc;Обучение военно-морской теории;x
+foreign_navies;Иностранные корабли;x
+foreign_navies_l;Иностранные корабли;x
+no_foreign_navies;Местные корабли;x
+yes_foreign_navies;Корабли, закупаемые за границей;x
+no_foreign_navies_desc;Корабли местного производства;x
+yes_foreign_navies_desc;Мы покупаем зарубежные чертежи на Западе;x
+cut_down_to_size_boxer;Подавить восстание Боксеров;x
+cut_down_to_size_boxer_desc;Принудить еще одну §Yстрану§W к разоружению и выплате репараций;x
+NUMBER_OF_REBELS_READY;§YБригады повстанцев готовы влиться в восстание§!;x
+NUMBER_OF_REBELS_ACTIVE;§YКол-во восставших бригад§!;x
+TECH_YEAR_MODIFIER;Доступно давно: $VAL$;x
+ECONOMICREFORM_SETUP;Когда проводится экономическая реформа;x
+ECONOMICREFORM_HEADER;Политические Новости в cтране $COUNTRY$;x
+ECONOMICREFORM_1;Экономические реформы в стране $COUNTRY$;x
+ECONOMICREFORM_2;$MONARCHTITLE$, мы применили;x
+ECONOMICREFORM_3;$ISSUE$;x
+ECONOMICREFORM_4;в;x
+ECONOMICREFORM_5;$CATEGORY$;x
+ECONOMICREFORM_6;*;x
+ECONOMICREFORM_LOG;Мы применили $ISSUE$ в $CATEGORY$.;x
+ECONOMICREFORM_BTN1;OK;x
+ECONOMICREFORM_BTN2;OK;x
+ECONOMICREFORM_BTN3;перейти;x
+ECONOMICREFORM_MAP;*;x
+ECONOMICREFORM_BAD_SETUP;Отменяется экономическая реформа;x
+ECONOMICREFORM_BAD_HEADER;Политические Новости в $COUNTRY$;x
+ECONOMICREFORM_BAD_1;Экономические реформы аннулированы в $COUNTRY$;x
+ECONOMICREFORM_BAD_2;$MONARCHTITLE$, мы отказались от наших выгод в;x
+ECONOMICREFORM_BAD_3;$CATEGORY$;x
+ECONOMICREFORM_BAD_4;от $OLD$ до $ISSUE$.;x
+ECONOMICREFORM_BAD_5;*;x
+ECONOMICREFORM_BAD_6;*;x
+ECONOMICREFORM_BAD_LOG;Мы отменили $OLD$ в $CATEGORY$ до $ISSUE$.;x
+ECONOMICREFORM_BAD_BTN1;OK;x
+ECONOMICREFORM_BAD_BTN2;OK;x
+ECONOMICREFORM_BAD_BTN3;перейти;x
+ECONOMICREFORM_BAD_MAP;*;x
+MILITARYREFORM_SETUP;Когда проводится военная реформа;x
+MILITARYREFORM_HEADER;Политические Новости в $COUNTRY$;x
+MILITARYREFORM_1;Военные реформы в $COUNTRY$;x
+MILITARYREFORM_2;$MONARCHTITLE$, мы провели;x
+MILITARYREFORM_3;$ISSUE$;x
+MILITARYREFORM_4;в;x
+MILITARYREFORM_5;$CATEGORY$;x
+MILITARYREFORM_6;*;x
+MILITARYREFORM_LOG;Мы провели $ISSUE$ в $CATEGORY$.;x
+MILITARYREFORM_BTN1;OK;x
+MILITARYREFORM_BTN2;OK;x
+MILITARYREFORM_BTN3;перейти;x
+MILITARYREFORM_MAP;*;x
+MILITARYREFORM_BAD_SETUP;Когда отменяется военная реформа;x
+MILITARYREFORM_BAD_HEADER;Политические Новости в $COUNTRY$;x
+MILITARYREFORM_BAD_1;Военные реформы аннулированы в $COUNTRY$;x
+MILITARYREFORM_BAD_2;$MONARCHTITLE$, мы отказались от наших выгод в;x
+MILITARYREFORM_BAD_3;$CATEGORY$;x
+MILITARYREFORM_BAD_4;от $OLD$ в $ISSUE$.;x
+MILITARYREFORM_BAD_5;*;x
+MILITARYREFORM_BAD_6;*;x
+MILITARYREFORM_BAD_LOG;Мы отменили $OLD$ в $CATEGORY$ в $ISSUE$.;x
+MILITARYREFORM_BAD_BTN1;OK;x
+MILITARYREFORM_BAD_BTN2;OK;x
+MILITARYREFORM_BAD_BTN3;Перейти;x
+MILITARYREFORM_BAD_MAP;*;x
+MODIFIER_CIVILIZATION_PROGRESS;Прогресс цивилизации;x
+SUPPRESSION_TECH;Эффективность подавления;x
+REFORM_RESEARCH_COST;Стоимость исследования: §Y$COST$§!;x
+POLITICS_CIVILIZE;Провести вестернизацию;x
+CIVILIZE_DESC;Полностью принять западный образ жизни. Это даст нам доступ к научным достижениям хозяина нашей сферы;x
+CIVILIZE_NO_MASTER_DESC;Полностью принять западный образ жизни. Это даст нам доступ к мировому техническому прогрессу;x
+INFLUENCE_RELATION;Отношения;x
+NO_CIV_PROGRESS;Мы не достигли никакого прогресса в вестернизации. Нам необходимо принять военные либо экономические реформы;x
+RESEARCH_POINTS_LABEL;Очки исследований:;x
+MODIFIER_UNCIV_ECONOMIC;Стоимость экономической реформы;x
+MODIFIER_UNCIV_MILITARY;Стоимость военной реформы;x
+MODIFIER_SELF_UNCIV_ECONOMIC;Стоимость экономической реформы;x
+MODIFIER_SELF_UNCIV_MILITARY;Стоимость военной реформы;x
+MODIFIER_LAND_UNIT_START_EXPERIENCE;Начальный опыт наземных подразделений;x
+MODIFIER_NAVAL_UNIT_START_EXPERIENCE;Начальный опыт морских подразделений;x
+MODIFIER_ADMINISTRATIVE_EFFICIENCY;Административная эффективность;x
+ARMY_TECHNOLOGY_LEVELS;Военные технологии: $VAL$/$MAX$;x
+NAVY_TECHNOLOGY_LEVELS;Морские технологии: $VAL$/$MAX$;x
+MODIFIER_TARIFF_EFFICIENCY;Тарифная эффективность:;x
+MODIFIER_MAX_LOAN_AMOUNT;Максимально возможный займ:;x
+PROD_YOUR_CURRENT_BUDGET;Ваш бюджет:;x
+PROD_YOUR_INVESTMENT;Ваши инвестиции:;x
+MODIFIER_LAND_ATTACK;Атака наземных подразделений;x
+MODIFIER_NAVAL_ATTACK;Атака морских подразделений;x
+MODIFIER_LAND_DEFENSE;Защита наземных подразделений;x
+MODIFIER_NAVAL_DEFENSE;Защита морских подразделений;x
+free_press_promised;Обещана свобода прессы;x
+yes_meeting_promised;Обещано право на митинги;x
+trade_unions_promised;Обещаны профсоюзы;x
+free_press_promised_desc;Мы обещали появление в стране свободной прессы. Люди ждут, когда мы исполним обещание;x
+yes_meeting_promised_desc;Мы обещали дать права на проведение митингов. Люди ждут, когда мы исполним обещание;x
+trade_unions_promised_desc;Мы обещали дать права на создание профсоюзов. Люди ждут, когда мы исполним обещание;x
+recent_safari;Недавние сафари;x
+recent_safari2;Слишком много сафари;x
+recent_safari_desc;У нас недавно проводили сафари;x
+recent_safari2_desc;В последнее время было слишком много сафари;x
+unciv_reactionary_rebels_title;Реакционеры;x
+unciv_reactionary_rebels_name;$COUNTRY$ реакционеры;x
+unciv_reactionary_rebels_desc;Реакционеры поддерживают традиционную манеру жизни - жизни своих предков - и отвергают любые новшества.;x
+unciv_reactionary_rebels_army;$COUNTRY_ADJ$ армия;x
+SET_ECONOMIC_REFORM_EFFECT;Действует следующая экономическая реформа: §Y$NAME$§W.\n;x
+SET_MILITARY_REFORM_EFFECT;Действует следующая военная реформа: §Y$NAME$§W.\n;x
+NATIONALIZE_INDUSTRY_EFFECT;Провести национализацию;x
+DIPLOMACY_ALMOST_WESTERN_NATION_STATUS;Частично вестернизированная нация;x
+DIPLOMACY_PRIMITIVENATION_STATUS;Отсталая нация;x
+UNCIV_CANT_RESEARCH;Для продолжения исследований необходима вестернизация;x
+TB_NATIONALFOCUS_CULTURE;§Y$NUM$§W представителей главной/принятой культуры дают нам §Y$FOCUS$§W национальных приоритетов;x
+meiji_restoration_boost;Революция Мэйдзи;x
+meiji_restoration_boost_desc;Прогресс во имя Императора!;x
+OTHER_PORT;Нет возможности построить эту морскую базу;x
+MODIFIER_UNCIV_ECONOMIC_UH;Поддержка верхней палаты;x
+MODIFIER_UNCIV_MILITARY_UH;Поддержка верхней палаты;x
+MOVEMENT_RADICALISM_ADJUST;§Y$MOVEMENT$§! Радикализм: $AMOUNT$;x
+MILITARY_REFORM_COST_DESC;Модификатор стоимости для военных реформ: ;x
+ECONOMIC_REFORM_COST_DESC;Модификатор стоимости для экономических реформ: ;x
+MAPMODE_19;Уровень цивилизованности;x
+CHI_absolute_monarchy;Китайская Империя;x
+EVTOPTB23212;Продолжайте смотреть в небо!;x
+LOSE_CIVILIZED_EFFECT;Мы будем известны как §YНецивилизованная страна§W\n;x
+french_growth_nerf;Убыль населения Франции:;x
+french_growth_nerf_desc;Темпы роста нашего населения значительно замедлились:;x
+EVTNAME37226;Убыль населения;x
+EVTDESC37226;После долгих лет бытия самой населенной страной Европы, Франция в XIX и XXвв. по до сих пор непонятным причинам имела чрезвычайно низкий уровень рождаемости. К концу Викторианской эпохи французы оказались позади Великобритании, России, Германии и Италии по части численности населения.;x
+EVTOPTA37226;Это большой удар!;x
+nationalize_title;Взять средства производства!;x
+nationalize_desc;Больше эти заморские свиньи не будут жиреть за счет нашего народа! Пора направить все активы чужеземцев в нашей стране на нужды государства.;x
+EVTNAME90950;Кража активов!;x
+EVTDESC90950;Неблагодарное правительство государства $FROMCOUNTRY$ приняло наши инвестиции за обычный подарок, украв наши активы!;x
+EVTOPTA90950;Этого не будет!;x
+EVTOPTB90950;Пусть будет так;x
+MOVEMENT_RADICALISM;Радикализм движения;x
+MOVEMENT_RADICALISM_DESC;Здесь описано, как много сторонников этого движения верят, что своих целей они могут добиться мирным путем. Движение с высоким значением (§Y100§!) начнет восстание, если не будет подавлено.;x
+NUMBER_MOVEMENT_SUPPORTERS;Количество сторонников;x
+NUMBER_MOVEMENT_SUPPORTERS_DESC;Чем крупнее движение, тем труднее его подавить. Если вы примите реформу, не пользующуюся поддержкой населения, то движения, поддерживающие более актуальные среди населения реформы, станут более радикальными.;x
+PRODUCTION_CLOSE_FACTORY_BECAUSE_FOREIGN_TOOLTIP;Нельзя закрыть чужую фабрику\n;x
+CAN_NATIONALIZE;Имеет иностранных инвесторов;x
+IS_NOT_IN_A_SPHERE;Не находится в сфере влияния;x
+ACTIVATE_TECH_EFFECT;Откроет технологию: §Y$NAME$§!;x
+TECHNOLOGYVIEW_NO_RESEARCH_UNCIV_TOOLTIP;Высокие технологии доступны только для цивилизованных стран. После вестернизации на вкладке §YПолитика§! Вы получите базовую технологию и сможете начать собственные исследования.;x
+RELATION_BETWEEN;Отношения между $COUNTRY1$ и $COUNTRY2$: $RELATION$;x
+ADD_RELATIVE_INCOME_EFFECT;Бюджет: $VALUE$¤;x
+CORRUPTION_LESS_THAN;Уровень коррупции меньше, чем;x
+CORRUPTION_MORE_THAN;Уровень коррупции больше, чем;x
+MOVEMENT_RADICALISM_FROM_SIZE;Поддержка населения: $VAL$ ;x
+dar_al_funun;Дар-эль-Фунун;x
+dar_al_funun_desc;Первый современный университет Персии.;x
+BOL_2305;Атакама;x
+BOL_2314;Потоси;x
+serfdom_not_abolished;Крепостное право не отменено:;x
+XIN;Джунгария;x
+YNN;Юннань;x
+GXI;Гуанси;x
+MCK;Манчжурия;x
+LEADERSHIP;Лидерство;x
+XBI;Цинхай;x
+EVTNAME23213;Хребты Безумия;x
+EVTDESC23213;Наша экспедиция на Южный Полюс пробудила нечто ужасное. В руинах гигантского города-призрака было найдено то, что нельзя было назвать растением или животным. То, что правило Землей когда-то очень давно. То, что вернулось и наполнено неописуемым голодом.;x
+EVTOPTA23213;Не скажешь, что это хорошо…;x

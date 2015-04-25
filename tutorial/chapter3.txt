@@ -1,0 +1,555 @@
+tutorial =
+{
+	save_game = "tutorial2.v2"
+	title = "TUTORIAL_2"
+	desc = "TUTORIAL_2_DESC"
+	tutorial_window = "TUTORIAL_WINDOW_1"	# default window
+	exclusive = yes
+	country = BEL
+	
+	basic_start = 0
+	intermediary_start = 8
+	advanced_start = 14
+
+	page =
+	{
+		
+
+		tutorial_window_position = { -250 -190 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+
+		text1 = "tut_3a_1"
+		text2 = "tut_3a_2"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = no
+		allow_screens = yes
+		
+		continue_on_interface = country_budget
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 181 60 }
+		
+		allow_province_click = no
+	}	
+	
+	
+	page =
+	{
+		
+
+		tutorial_window_position = { -250 -190 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_1"
+
+		text1 = "tut_3a_3"
+		text2 = "tut_3a_4"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = no	
+	
+		allow_province_click = no
+	}	
+	
+	page =
+	{
+		tutorial_window_position = { -23 -255 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_BUDG_1"
+
+		text1 = "tut_3a_5"
+		text2 = "tut_3a_6"
+		text3 = "tut_3a_6a"
+		text4 = "tut_3a_6b"
+		text5 = "tut_3a_6c"
+		text6 = "tut_3a_6d"
+		text7 = "tut_3a_6e"
+		text8 = "tut_3a_6f"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = no
+		
+		allow_province_click = no
+	}	
+	
+	page =
+	{
+		tutorial_window_position = { -515 -255 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_BUDG_2"
+
+		text1 = "tut_3a_7"
+		text2 = "tut_3a_8"
+		text3 = "tut_3a_9"
+		text4 = "tut_3a_10"
+		text5 = "tut_3a_11"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = no
+		
+		allow_province_click = no
+		
+	}	
+
+	page =
+	{
+		tutorial_window_position = { -480 80 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_BUDG_3"
+
+		text1 = "tut_3a_18"
+		text2 = "tut_3a_19"
+		text3 = "tut_3a_19a"
+	
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = no	
+		
+		allow_province_click = no
+	}
+	
+	page =
+	{
+		tutorial_window_position = { 0 90 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+
+		text1 = "tut_3a_20"
+		text2 = "tut_3a_21"
+		text2 = "tut_3a_21a"
+		text2 = "tut_3a_21b"
+	
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = no	
+		
+		continue_on_action = "loan_taken"
+		
+		allow_province_click = no
+	}
+	
+	page =
+	{
+		tutorial_window_position = { 0 90 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+
+		text1 = "tut_3a_22"
+		text2 = "tut_3a_23"
+	
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = no	
+		
+		continue_on_action = "loan_returned"
+		
+		allow_province_click = no
+	}
+
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER"
+
+		text1 = "tutorial_chapter_budget_basic"
+		text2 = "tutorial_chapter_end"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = yes
+		
+		exclusive = no
+		
+		allow_province_click = no
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { -250 -190 }
+		
+		text1 = "tut_3b_1"
+		text2 = "tut_3b_2"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_unpause = yes
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		allow_province_click = no
+
+		continue_on_interface = country_budget
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 181 60 }
+		
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_BUDG_1"
+		tutorial_window_position = { 0 -240 }
+		
+		text1 = "tut_3b_3"
+		text2 = "tut_3b_4"
+		text3 = "tut_3b_5"
+		text4 = "tut_3b_6"
+		text5 = "tut_3b_7"
+		text6 = "tut_3b_8"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_unpause = yes
+		exclusive = no
+		
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_BUDG_2"
+		tutorial_window_position = { -500 0 }
+		
+		text1 = "tut_3b_9"
+		text2 = "tut_3b_10"
+		text3 = "tut_3b_11"
+		text4 = "tut_3b_12"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_unpause = yes
+		exclusive = no
+		
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_BUDG_3"
+		tutorial_window_position = { -525 -330 }
+		
+		text1 = "tut_3b_13"
+		text2 = "tut_3b_14"
+		text3 = "tut_3b_15"
+		text4 = "tut_3b_16"
+		text5 = "tut_3b_17"
+		text6 = "tut_3b_18"
+		text7 = "tut_3b_19"
+		text8 = "tut_3b_20"
+		text9 = "tut_3b_21"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_unpause = yes
+		exclusive = no
+		
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1"
+		tutorial_window_position = { -500 70 }
+		
+		text1 = "tut_3b_22"
+		text2 = "tut_3b_23"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_unpause = yes
+		exclusive = no
+		
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER"
+
+		text1 = "tutorial_chapter_budget_victoria"
+		text2 = "tutorial_chapter_end"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = yes
+		
+		allow_province_click = no
+		
+		exclusive = no
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { -250 -190 }
+		
+		text1 = "tut_3c_1"
+		text2 = "tut_3c_2"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_screen = BUDGET
+		
+		allow_unpause = yes
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 181 60 }
+		
+		allow_province_click = no
+
+		continue_on_interface = country_budget
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_BIG"
+		tutorial_window_position = { -490 -190 }
+		
+		text1 = "tut_3c_3"
+		text2 = "tut_3c_4"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = yes
+		exclusive = no
+		
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_BUDG_1"
+		tutorial_window_position = { -490 -190 }
+		
+		text1 = "tut_3c_5"
+		text2 = "tut_3c_6"
+		text3 = "tut_3c_7"
+		text4 = "tut_3c_8"
+		text5 = "tut_3c_9"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = yes
+		exclusive = no
+		
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_BUDG_2"
+		tutorial_window_position = { -490 -190 }
+		
+		text1 = "tut_3c_10"
+		text2 = "tut_3c_11"
+		text3 = "tut_3c_12"
+		text4 = "tut_3c_13"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = yes
+		exclusive = no
+		
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_BUDG_3"
+		tutorial_window_position = { -490 -190 }
+		
+		text1 = "tut_3c_14"
+		text2 = "tut_3c_15"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = yes
+		exclusive = no
+		
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1"
+		tutorial_window_position = { -10 -40 }
+		
+		text1 = "tut_3c_16"
+		text2 = "tut_3c_17"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = yes
+		exclusive = no
+		
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_BUDG_4"
+		tutorial_window_position = { -10 20 }
+		
+		text1 = "tut_3c_18"
+		text2 = "tut_3c_19"
+		text3 = "tut_3c_20"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = yes
+		exclusive = no
+		
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_BUDG_4"
+		tutorial_window_position = { -10 20 }
+		
+		text1 = "tut_3c_21"
+		text2 = "tut_3c_22"
+		text3 = "tut_3c_23"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = yes
+		exclusive = no
+		
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+	
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER"
+
+		text1 = "tutorial_end_of_chapter"
+		text2 = "tutorial_chapter_end"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = no
+		
+		exclusive = yes
+		allow_province_click = no
+
+		custom_action = "pause_stop"
+	}
+}

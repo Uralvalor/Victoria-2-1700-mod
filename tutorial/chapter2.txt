@@ -1,0 +1,489 @@
+tutorial =
+{
+	save_game = "tutorial2.v2"
+	title = "TUTORIAL_2"
+	desc = "TUTORIAL_2_DESC"
+	tutorial_window = "TUTORIAL_WINDOW_1"	# default window
+	exclusive = yes
+	country = BEL
+	
+	basic_start = 0
+	intermediary_start = 5
+	advanced_start = 14
+
+	page =
+	{
+		
+
+		tutorial_window_position = { -250 -190 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_PROD_1"
+
+		text1 = "tut_2a_1"
+		text2 = "tut_2a_2"
+		text3 = "tut_2a_2a"
+		text4 = "tut_2a_2b"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = no
+		allow_province_click = no
+		
+		allow_screens = yes
+		allow_screen = PRODUCTION
+		
+		continue_on_interface = country_production
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 55 60 }		
+		effect = { ruling_party_ideology = reactionary }
+		
+	}
+	
+	page =
+	{
+		
+
+		tutorial_window_position = { -250 -190 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_PROD_2"
+
+		text1 = "tut_2a_2c"
+		text2 = "tut_2a_2d"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = yes
+		allow_province_click = no
+		
+		allow_screens = no				
+		
+	}
+	
+	page =
+	{
+		
+
+		tutorial_window_position = { -50 -50 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_PROD_3"
+
+		text1 = "tut_2a_5"
+		text2 = "tut_2a_6"
+		text3 = "tut_2a_6a"
+		text4 = "tut_2a_6b"
+		text5 = "tut_2a_6c"
+		text6 = "tut_2a_6d"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = yes
+		allow_province_click = no
+		allow_screens = no
+		custom_action = production_tab	
+	}
+	
+	page =
+	{
+		
+
+		tutorial_window_position = { -50 -40 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_PROD_4"
+
+		text1 = "tut_2a_3"
+		text2 = "tut_2a_4"
+		text3 = "tut_2a_4b"
+		text4 = "tut_2a_4c"
+		text5 = "tut_2a_4d"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_province_click = no
+		allow_screens = no
+		
+		exclusive = yes
+	}
+	
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER"
+
+		text1 = "tutorial_chapter_industry_basic"
+		text2 = "tutorial_chapter_end"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = yes
+		
+		allow_province_click = no
+		
+		exclusive = yes
+		custom_action = close_all
+	}
+	
+	page =
+	{
+		tutorial_window_position = { -50 -40 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+
+		text1 = "tut_2b_1"
+		text2 = "tut_2b_2"
+		
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = no
+		
+		exclusive = no
+
+		effect = { ruling_party_ideology = reactionary }
+		continue_on_interface = province_view
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_PROD_1"
+		tutorial_window_position = { 400 -630 }
+		
+		text1 = "tut_2b_3"
+		text2 = "tut_2b_4"
+		text3 = "tut_2b_5"
+		text4 = "tut_2b_6"
+		text5 = "tut_2b_7"
+		text6 = "tut_2b_8"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_screen = PRODUCTION
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 55 60 }
+
+		continue_on_interface = country_production
+		
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_PROD_2"
+		tutorial_window_position = { -100 -110 }
+		
+		text1 = "tut_2b_9"
+		text2 = "tut_2b_10"
+		text3 = "tut_2b_11"
+		text4 = "tut_2b_12"
+		text5 = "tut_2b_13"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+
+		window = "tutorial_arrow_up_c"
+		window_position = { -407 -15 }
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		custom_action = factory_tab
+		continue_on_action = factorysetting
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_PROD_3"
+		tutorial_window_position = { -120 50 }
+		
+		text1 = "tut_2b_14"
+		text2 = "tut_2b_15"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+
+		window = "tutorial_arrow_down_c"
+		window_position = { 427 -110 }
+		
+		lockpan = yes
+		lockzoom = yes
+		effect = { money = 5000 }
+		
+		continue_on_interface = build_factory
+		
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_PROD_4"
+		tutorial_window_position = { -110 -90 }
+		
+		text1 = "tut_2b_16"
+		text2 = "tut_2b_17"
+		text3 = "tut_2b_18"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		
+		continue_on_action = factoryselected_regular_clothes_factory		
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_PROD_5"
+		tutorial_window_position = { -520 -260 }
+		
+		text1 = "tut_2b_16"
+		text2 = "tut_2b_19"
+		text3 = "tut_2b_20"
+		text4 = "tut_2b_21"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+
+		window = "tutorial_arrow_down_c"
+		window_position = { 184 210 }
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		
+		continue_on_action = factorybuilt_regular_clothes_factory
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_PROD_6"
+		tutorial_window_position = { -40 60 }
+		
+		text1 = "tut_2b_22"
+		text2 = "tut_2b_23"
+		text3 = "tut_2b_24"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+
+		window = "tutorial_arrow_down_c"
+		window_position = { -478 -122 }
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		continue_on_action = factoryupgrade_steel_factory
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_BIG"
+		tutorial_window_position = { 0 -180 }
+		
+		text1 = "tut_2b_25"
+		text2 = "tut_2b_26"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+	}
+
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER"
+
+		text1 = "tutorial_chapter_industry_victoria"
+		text2 = "tutorial_chapter_end"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = no
+		allow_unpause = no
+		
+		exclusive = no
+		
+		allow_province_click = no
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { -250 -190 }
+		
+		text1 = "tut_2c_1"
+		text2 = "tut_2c_2"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_screen = PRODUCTION
+		allow_unpause = yes
+		exclusive = no
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 55 60 }
+		
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+		effect = { ruling_party_ideology = reactionary }
+
+		continue_on_interface = country_production
+		
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_PROD_1"
+		tutorial_window_position = { 0 -180 }
+		
+		text1 = "tut_2c_3"
+		text2 = "tut_2c_4"
+		text3 = "tut_2c_5"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+
+		exclusive = no
+
+		custom_action = production_tab
+		
+		lockpan = yes
+		lockzoom = yes
+		
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_PROD_2"
+		tutorial_window_position = { 0 -180 }
+		
+		text1 = "tut_2c_8"
+		text2 = "tut_2c_9"
+		text3 = "tut_2c_10"
+		text4 = "tut_2c_11"
+		text5 = "tut_2c_12"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_PROD_3"
+		tutorial_window_position = { -20 -130 }
+		
+		text1 = "tut_2c_13"
+		text2 = "tut_2c_14"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+
+		exclusive = no
+		custom_action = pause_stop
+
+		window = "tutorial_arrow_up_c"
+		window_position = { -413 -1 }
+
+		custom_action = factory_tab
+		continue_on_action = factorysetting
+		
+		lockpan = yes
+		lockzoom = yes
+		
+	}
+	
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER"
+
+		text1 = "tutorial_end_of_chapter"
+		text2 = "tutorial_chapter_end"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+
+		allow_screens = no
+		allow_unpause = no
+	
+		exclusive = yes
+		allow_province_click = no
+
+		custom_action = "pause_stop"
+	}
+}

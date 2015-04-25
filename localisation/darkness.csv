@@ -1,0 +1,684 @@
+MULTI_SEL_DESC;Нажмите §GSHIFT+ЛКМ§! Чтобы выбрать несколько отрядов из уже выбранных.;x
+SM_DETAILS;Детали;x
+DISBAND_ALL;Распустить выбранные войска;x
+DISBAND_ALL_TITLE;Распустить все войска;x
+DISBAND_ALL_DESC;Вы уверены, что хотите §Rраспустить§! все §Y$NUM$§! армий?;x
+DATE_DIFF_A;$Y$ лет, $M$ месяцев и $D$ дней;x
+DATE_DIFF_B;$M$ месяцев и $D$ дней;x
+DATE_DIFF_C;$D$ дней;x
+torpedo_attacks;Торпедные атаки;x
+TORPEDO_ATTACK;Торпедная атака;x
+TORPEDO_ATTACK_DESC;Торпедные атаки наносят огромный урон крупным кораблям.;x
+NAVAL_COMBAT_STACK_PENALTY_DESC;§Yштраф к координации §R$PEN$%§Y вызван плохой слаженностью во флоте. Это усложнит нашим кораблям поиск целей. Произошло это из-за численного превосходства наших судов над потенциальными целями.§!;x
+BP_TAB_CURRENT;Текущие планы;x
+BP_TAB_HISTORICAL;Исторические планы;x
+BP_TOOL_COLOR_RED;Красный;x
+BP_TOOL_COLOR_GREEN;Зеленый;x
+BP_TOOL_COLOR_BLUE;Синий;x
+BP_TOOL_COLOR_YELLOW;Желтый;x
+BP_TOOL_ARROW_SLIM;Тонкая стрелка;x
+BP_TOOL_ARROW_MEDIUM_1;Средняя стрелка 1;x
+BP_TOOL_ARROW_MEDIUM_2;Средняя стрелка 2;x
+BP_TOOL_ARROW_MEDIUM_3;Средняя стрелка 3;x
+BP_TOOL_ARROW_THICK;Толстая стрелка;x
+BP_TOOL_BORDER_1;Тип границы 1;x
+BP_TOOL_BORDER_2;Тип границы 2;x
+BP_TOOL_BORDER_3;Тип границы 3;x
+BP_TOOL_BORDER_4;Тип границы 4;x
+BP_TOOL_BORDER_5;Тип границы 5;x
+BP_TOOL_ICON_AIRPLANE;Инонка самолета;x
+BP_TOOL_ICON_TANK;Иконка танка;x
+BP_TOOL_ICON_BOMB_1;Маленькая иконка бомбы;x
+BP_TOOL_ICON_BOMB_2;Большая иконка бомбы;x
+BP_SAVE_PLAN_CONFIRM;Сохранить план;x
+BP_SAVE_PLAN_CANCEL;Закрыть;x
+BP_SAVE_PLAN_PROMPT;План сражения уже существует!\nХотите изменить его?;x
+BP_DELETE_SAVED_PLAN_PROMPT;Вы уверены, что хотите удалить сохраненный план сражения?;x
+BP_DELETE_CURRENT_PLAN_PROMPT;Вы уверены, что хотите удалить этот план сражения?;x
+BP_SHARED_WITH;Поделиться:;x
+BP_NEW_PLAN;Новый план;x
+BP_TOOLTIP_TAB_CURRENT;Список планов сражений.;x
+BP_TOOLTIP_TAB_HISTORICAL;Список планов исторических сражений.\nНажмите §YImport§! Чтобы добавить выбранное в ваш план.;x
+BP_TOOLTIP_TAB_SAVED;Список ваших сохраненных планов сражений.\nНажмите §YImport§! Чтобы добавить выбранное в ваш план.;x
+BP_TOOLTIP_NEW_PLAN;Создать новый план.;x
+BP_TOOLTIP_REMOVE_PLAN;Удалить выбранный план.;x
+BP_TOOLTIP_SHARE_PLAN;Переключить §Ysharing§! выбранный план с вашими §Gally members§!.;x
+BP_TOOLTIP_SAVE_PLAN;Сохранить выбранный план в файл.;x
+BP_TOOLTIP_RENAME_PLAN;Переименовать выбранный план.;x
+BP_TOOLTIP_IMPORT_PLAN;Добавить выбранный план в текущие.;x
+BP_TOOLTIP_TOOL_SELECT;Нажмите на объект, чтобы выбрать его.;x
+BP_TOOLTIP_TOOL_ARROW;Выберите тип стрелки и нарисуйте её на карте с помощью §YЛКМ§!.\nУдерживайте кнопки §YShift§! + §YЛКМ§! Чтобы связать эту стрелку с другой стрелкой.;x
+BP_TOOLTIP_TOOL_BORDER;Выберите тип гранницы и нарисуйте его на карте с помощью §YЛКМ§!.;x
+BP_TOOLTIP_TOOL_ICON;Выберите тип иконки и нарисуйте её на карте с помощью §YЛКМ§!.\nУдерживайте кнопки §YShift§! + §YКолесико мыши§! Для поворота иконки.;x
+BP_TOOLTIP_TOOL_COLOR;Выберите цвет для рисования стрелок и значков.\n Это относится и к цвету выбранных стрелок и значков.;x
+BP_TOOLTIP_TOOL_TEXT;Поместите надпись на карту.\n если ничего не выбрано - создайте новую надпись.\n если стрелки выбраны - делает надпись на стрелке.\n Если выбран значок - редактирует текст.\n§YShift§! + §YКолесико мыши§! чтобы повернуть текст.\n§YCtrl§! + §YКолесико мыши§! чтобы масштабировать текст.;x
+BP_TOOLTIP_TOOL_ERASE;Удалить выбранный объект.;x
+BP_TOOLTIP_VISIBILITY;Отобразить план на карте.;x
+MILITARY_SPENDINGS_LAND;Расходы на §Yсухопутные§! войска:;x
+MILITARY_SPENDINGS_NAVAL;Расходы на §Yморской§! флот:;x
+MILITARY_SPENDINGS_PROJECTS;Расходы на §Yстроительство и промышленность§!:;x
+STOCKPILE_COST_ESTIMATED;Завтра мы §Yпотратим§! на гос. закупки:;x
+STOCKPILE_COST_ACTUAL;Сегодня мы §Yпотратили§! на гос. закупки:;x
+NAVAL_COMBAT_DETAILS_APPROACH;Приближение §Y$WHO$§!. Текущее расстояние: §Y$DIST$§!.;x
+NAVAL_COMBAT_DETAILS_DESTROYED;§RDestroyed§! Уничтожен отрядом §Y$WHO$§!;x
+NAVAL_COMBAT_DETAILS_DISENGAGED;Отряд смог отступить и выйти из битвы;x
+NAVAL_COMBAT_DETAILS_RETREAT;Отряд отступает.;x
+NAVAL_COMBAT_DETAILS_SEEKING;Поиск новой цели;x
+NAVAL_COMBAT_DETAILS_SHOOTING;Огонь по §Y$WHO$§!.\n- урон организации §G$ORG$§!\n- урон силе §Y$STR$§!;x
+NAVAL_COMBAT_DETAILS_FILTERING;Нажмите на §GЛКМ§! Чтобы увидеть все корабли, нацеленные на этот.;x
+MAPMODE_NAVAL_TOOLTIP_LEVEL;Уровень морской базы §G$LVL$§!;x
+MAPMODE_NAVAL_TOOLTIP_NO_BASE;Нет морской базы в регионе.;x
+MAPMODE_NAVAL_TOOLTIP_CAP;§YМорской уровень снабжения§! этой провинции составляет §G$CAP$§! от общего §G$TOT$§!.;x
+MAPMODE_NAVAL_TOOLTIP_IN_OTHER;В регионе уже есть морская база, в провинции §Y$PROV$§!.;x
+MAPMODE_NAVAL_TOOLTIP_UNDER_CON;Морская база уже строится в этом регионе;x
+NAVAL_SUPPLY_PENALTY_DESC;Потери из-за штрафа от §Yморского уровня снабжения§! в размере §R$PEN$%§!.;x
+COMBAT_LEADER_MOD_ATTACK;Навык атаки;x
+COMBAT_LEADER_MOD_DEFENSE;Навык защиты;x
+OCCUPATION_SCORE_ATTACKER;Оккупация атакующего: ;x
+OCCUPATION_SCORE_DEFENDER;Оккупация защищающегося: ;x
+BLOCKADE_SCORE_ATTACKER;Блокады атакующего: ;x
+BLOCKADE_SCORE_DEFENDER;Блокады защищающегося: ;x
+TICKING_WARSCORE_HEAD;Бонус за достижение §Yцелей $VAL$§!:;x
+TICKING_WARSCORE_DESC_SCORE;В настоящее время $VAL$ (ежедневно $CHANGE$).;x
+TICKING_WARSCORE_DESC_SCORE_MAX;В настоящее время $VAL$ (Max).;x
+TICKING_WARSCORE_DESC_SCORE_SHORT;$VAL$ (ежедневно $CHANGE$).;x
+TICKING_WARSCORE_DESC_SCORE_MAX_SHORT;$VAL$ (Max).;x
+CB_DESTROY_FORTS;Уничтожить крепости;x
+CB_DESTROY_NAVAL_BASES;Уничтожить морские базы;x
+po_destroy_forts;Уничтожить все крепости в регионе $STATE$.;x
+po_destroy_naval_bases;Уничтожить морскую базу в регионе $STATE$.;x
+ALL_CORE_PROVINCES;все регионы с национальными провинциями;x
+ALL_SATES;все регионы ;x
+dismantle_forts_desc;Демонтаж крепостей и морских баз.;x
+dismantle_forts;Демонтаж крепостей.;x
+dismantle_forts_short;Демонтаж построек в регионе $STATE$;x
+dismantle_forts_setup;Демонтаж крепостей и морских баз в регионе $STATE$;x
+liberate_country_desc;Освободить §Yвсе регионы страны§W от угнетателей;x
+liberate_country;Освободить страну;x
+liberate_country_short;Держава $THIRD$ получит регион $STATE$;x
+liberate_country_setup;Вернуть регион $STATE$ державе $THIRD$ от державы $RECIPIENT$;x
+FIRE_RANGE;Дальнобойность;x
+EVASION;Уклонение;x
+SORT_BY;Сортировать по:;x
+STANCE;Позиция;x
+STR_ORG;Уд/Орг;x
+SORT_BY_TYPE_DESC;Сортировать корабли по их §Yтипу§!.;x
+SORT_BY_STANCE_DESC;Сортировать корабли по их §Yтекущему действию§!.;x
+SORT_BY_STR_ORG_DESC;Сортировать корабли по их §Yсредней боеспособности и организации§!.;x
+TARGETED_BY;На прицеле у:;x
+MAY_NOT_RETREAT_NAVAL;Это невозможно и было бы позором - сбежать, не оценив шансы на победу.;x
+REMAINING_NAVAL_RETREAT;Прежде чем мы сможем отступить, нам нужно быть ближе к §Y$OPT$§! чтобы выяснить наши шансы на отступление.;x
+NAVAL_COMBAT_STATUS_APPROACH;Идет на сближение;x
+NAVAL_COMBAT_STATUS_SEEKING;Ищет цель;x
+NAVAL_COMBAT_STATUS_FIRING;Урон §G$ORG$§!/§R$STR$§!;x
+NAVAL_COMBAT_STATUS_RETREAT;Отступает;x
+NAVAL_COMBAT_STATUS_DISENGAGED;Свободен;x
+SUPPLY_LOAD;Вес припасов;x
+SUPPLY_LOAD_STATUS_DESC_BASIC;Общий §Yуровень снабжения§! всех наших §Yморских баз§! — $TOT$.\nВсем нашим кораблям требуется в общем $REQ$.;x
+SUPPLY_LOAD_STATUS_DESC_PENALTY;Наши корабли получают $PEN$ штраф от снабжения.;x
+SUPPLY_LOAD_STATUS_DESC_HINT;Подумайте о создании военно-морских баз, или уничтожьте некоторые из своих кораблей.;x
+SUPPLY_LOAD_STATUS_DESC_UPCOMING_PENALTY;Заложены новые корабли, постройка которых превысит лимит снабжения $EXC$.;x
+SUPPLY_LOAD_STATUS_DESC_DETAILED_LIST;Настоящий доклад показывает требуемый уровень снабжения:;x
+SHIP_BUILD_MIN_BASE_LEVEL;Требуется морской порт с уровнем §Y$LVL$§! или выше.;x
+SHIP_BUILD_LIMIT_PER_BASE;Ограничение до §Y$LIM$§! единиц на каждый порт, который снабжает этот корабль.;x
+SHIP_BUILD_LIMIT_PER_BASE_HINT;§RПодумайте о постройке большего числа морских баз с уровнем не меньше §G$LVL$§R.§!;x
+SHIP_BUILD_LIMIT_MAX;§Y(Лимит: $LIM$)§!;x
+BUILDING_ONE_PER_STATE;Только один в регионе;x
+DIPLOMACY_CRISIS_INFO;Кризис;x
+CRISIS_CANT_DECLARE_WAR;Вы не можете объявить войну, и вам не могут объявить войну, если вы вовлечены в кризис.;x
+HAS_FLASHPOINT;Есть горячая точка;x
+HAS_NO_FLASHPOINT;Нет горячей точки;x
+TENSION_LESS_THAN;Напряженность в горячей точке ниже, чем ;x
+TENSION_MORE_THAN;Напряженность в горячей точке выше, чем ;x
+CRISIS_TEMPERATURE_LESS_THAN;Накал кризиса ниже, чем ;x
+CRISIS_TEMPERATURE_MORE_THAN;Накал кризиса выше, чем ;x
+FLASHPOINT_TENSION_EFFECT;$DIRECTION$ $VALUE$ Напряженность в горячей точке.\n;x
+diplomatic_focus;Дипломатия;x
+increase_tension;Рост напряженности ;x
+increase_tension_focus_desc;Рост напряженности в горячей точке около §Y$VAL$§W% каждый месяц.;x
+NOT_A_FLASHPOINT;§RНе горячая точка§!;x
+MAPMODE_21;Очаги напряженности;x
+MAPMODE_22;Военно-морск.;x
+FLASHPOINT_TENSION;Напряженность в регионе: §Y$VALUE$§!%;x
+EXECUTING_HISTORY;Executing History...;x
+CRISIS_TEMPERATURE;Накал кризиса: §R$VALUE$%§!;x
+HAS_CRISIS;Текущие кризисы;x
+HAS_NO_CRISIS;Кризисов нет;x
+CRISIS_TEMPERATURE_EFFECT;$DIRECTION$ $VALUE$ накал кризиса.\n;x
+TRIGGER_STATE;Кризисный регион;x
+BACKERS_LABEL;Сторонники:;x
+SUPPORT_SIDE;Поддержать сторону;x
+ON_THE_FENCE_LABEL;Не определились:;x
+vacuum_tube;Электронная лампа;x
+vacuum_tube_desc;Электронная лампа (так же известна, как радиолампа) - устройство, работающее за счет протекания электрического тока в вакууме. В результате термоэлектронной эмиссии (Эффект Эдисона) электроны покидают поверхность негативно заряженного катода и движутся сквозь вакуум к позитивно заряженному электроду (аноду). Дополнительные электроды между катодом и анодом добавили позже, открыв возможность усиления и переключения сигналов. Электронные лампы имели важное значение для производства и коммерциализации радио, телефонов, телевизоров, радаров, и ранних компьютеров;x
+tulls_seed_drill;Сеялка Талла;x
+tulls_seed_drill_desc;До сего времени, фермеры сажали семена вручную, складывая их в сумку и ходя по полю, раскидывая их. Они разбрасывали их руками во вспаханную и боронованную землю. Проблема этого метода в том, что он не давал равномерного распределения семян. Это было нерациональным использованием семян и, следовательно, значительная их часть расходовалась впустую. Джетро Талл изобрел сеялку, которую можно было запрягать лошадью. Она состояла из колесного транспортного средства, содержащего ящик, наполненный зерном. Там была управляемая колесом трещотка, которая распыляла семена равномерно по всему пути следования сеялки.;x
+rotherham_plough;Ротерхэмский плуг;x
+rotherham_plough_desc;Ротерхэмский или Йоркширский плуг изобретен Диснеем Станифортом и Джозефом Фолджамбом. Он был улучшением традиционного плуга. Он был собран из дерева, как обычный плуг, но арматура и сошник (режущее лезвие) были сделаны из железа. Отвал и лемех также были покрыты железными пластинами. Он был легче, чем традиционный плуг и с ним можно было легко работать парой лошадей.;x
+telephone_switchboard;Автоматическая телефонная станция;x
+telephone_switchboard_desc;Телефонная станция представляет собой систему электрических компонентов, используемых для подключения телефонных звонков. Первый телефонный коммутатор был изобретен венгром Тивадаром Пушкашем в 1877, когда он работал у Томаса Эдисона. Примитивные телефонные станции для коммерческого ипользования появились в 1881 в восточной части США и Западной Европе. Телефонные станции состояли из сотен коммутаторов, где штат операторов вручную соединял абонентов телефонной линии. Элмон Браун Строугер запатентовал первый тумблер в 1891, который мог автоматически соединять абонентов.;x
+BRZ_2446;Минас-Жерайс;x
+CLM_2259;Каука;x
+ANN_1371;Тонкин;x
+ANN_1374;Аннам;x
+ANN_1383;Кохинхина;x
+LUA_1356;Лаос;x
+SIA_1392;Бангкок;x
+SIA_1355;Чиангмай;x
+SIA_1358;Накхонратчасима;x
+ENG_1384;Малайя;x
+ENG_1343;Тенассерим;x
+BUR_1339;Качин;x
+BUR_1334;Шан;x
+BUR_1330;Пегу;x
+NEP_1327;Гималайи;x
+TIB_1591;Тибет;x
+ENG_1247;Бихар;x
+ENG_1261;Орисса;x
+ENG_1236;Объединенные провинции;x
+PAN_1227;Пенджаб;x
+PAN_1224;Кашмир;x
+KAL_1221;Белуджистан;x
+SIN_1288;Синд;x
+ENG_1291;Гуджарат;x
+ENG_1264;Раджпутана;x
+ENG_1275;Центральная Индия;x
+NAG_1277;Нагпур;x
+ENG_1305;Киркарс;x
+HYD_1283;Хайдарабад;x
+ENG_1297;Бомбей;x
+ENG_1304;Мадрас;x
+MYS_1314;Майсур;x
+ENG_1317;Траванкор;x
+ATJ_1405;Ачех;x
+NET_1398;Суматра;x
+NET_1423;Борнео;x
+NET_1449;Молуккские острова;x
+NET_1451;Западная Новая Гвинея;x
+BAL_1438;Зондские острова;x
+BRU_1394;Северное Борнео;x
+PER_1141;Ларистан-Систан;x
+PER_1148;Хорасан;x
+PER_1138;Хузестан;x
+PER_1135;Фарс-Керман;x
+PER_1127;Исфахан;x
+PER_1116;Гилян-Мазендеран;x
+PER_1121;Иракаджеми;x
+PER_1112;Тебриз;x
+PER_1122;Луристан;x
+AFG_1214;Западный Афганистан;x
+AFG_1217;Восточный Афганистан;x
+RUS_1196;Туркмения;x
+KHI_1191;Узбекия;x
+BUK_1207;Таджикистан;x
+KOK_1190;Киргизия;x
+RUS_1182;Уральск;x
+RUS_1184;Акмолинск;x
+RUS_1185;Семиречье;x
+CHI_1532;Внутренняя Монголия;x
+CHI_1578;Сычуань;x
+CHI_1581;Чунцин;x
+CHI_1494;Чаочжоу;x
+CHI_1550;Цзянси;x
+CHI_1487;Фуцзянь;x
+CHI_1611;Чжэцзян;x
+CHI_1473;Южный Аньхой;x
+CHI_1516;Восточный Хубэй;x
+CHI_1523;Западный Хубэй;x
+CHI_1513;Хэнань;x
+CHI_1472;Северный Аньхой;x
+CHI_1476;Цзянсу;x
+CHI_1539;Сучжоу;x
+CHI_1563;Шаньдун;x
+CHI_1614;Южный Чжили;x
+CHI_1618;Северный Чжили;x
+CHI_1553;Маньчжурия;x
+CHI_1082;Внешняя Манчьжурия;x
+CHI_1086;Сахалин;x
+KOR_1624;Сеул;x
+KOR_1635;Пусан;x
+KOR_1627;Саривон;x
+KOR_1619;Пхеньян;x
+JAP_1660;Кюсю;x
+JAP_1640;Тюгоку-Сикоку;x
+JAP_1655;Кансай;x
+JAP_1675;Тюбу;x
+JAP_1649;Канто;x
+JAP_1654;Острова Бонин;x
+JAP_1672;Тохоку;x
+JAP_1088;Хоккайдо;x
+RUS_2685;Урал;x
+RUS_1065;Обь;x
+RUS_1064;Тобольск;x
+RUS_1469;Томск;x
+RUS_2615;Нижний Енисейск;x
+RUS_1070;Высший Енисейск;x
+RUS_1075;Иркутск;x
+RUS_1079;Транс-Байкал;x
+RUS_2694;Средняя Сибирь;x
+RUS_1069;Западный Якутск;x
+RUS_2653;Северная Сибирь;x
+RUS_1071;Якутск;x
+RUS_1072;Охотск;x
+RUS_2668;Северный Якутск;x
+RUS_2618;Верхний Охотск;x
+RUS_2621;Внутренняя Чукотка;x
+RUS_1074;Камчатка;x
+RUS_2590;Прибрежная Чукотка;x
+TUR_885;Карс;x
+TUR_884;Трабзон;x
+TUR_889;Диярбакыр-Ван;x
+TUR_876;Анкара и Адана;x
+TUR_873;Конья;x
+TUR_881;Кастамону;x
+TUR_869;Айдын;x
+TUR_863;Хюдавендигар;x
+TUR_923;Мосул;x
+TUR_931;Багдад;x
+TUR_935;Басра;x
+EGY_897;Алеппо;x
+EGY_910;Трансиордания;x
+EGY_903;Сирия;x
+NEJ_1156;Хаиль;x
+NEJ_1157;Неджд;x
+EGY_1746;Синай;x
+EGY_1750;Нижний Египет;x
+EGY_1762;Средний Египет;x
+EGY_1771;Верхний Египет;x
+EGY_1753;Матрух;x
+EGY_1758;Египетская пустыня;x
+EGY_1834;Донгола;x
+EGY_1827;Судан;x
+ENG_1843;Экватория;x
+ENG_1848;Эритрея;x
+ETH_1854;Гондер-Тыграй;x
+ETH_1864;Амхара;x
+ETH_1867;Оромия;x
+ALD_1708;Константина;x
+FRA_1700;Алжир;x
+ALD_1704;Тлемсен;x
+MOR_1688;аль Риф;x
+MOR_1686;Фес;x
+MOR_1693;Марроко;x
+FRA_1803;Тимбукту;x
+FRA_1798;Восточная Мали;x
+FRA_1801;Западная Мали;x
+FRA_1901;Вольта;x
+FRA_1808;Внешний Хаусаленд;x
+FRA_1923;Йоруба;x
+FRA_1927;Хаусаленд;x
+FRA_1939;Восточный Хаусаленд;x
+FRA_1930;Бенин;x
+FRA_1931;Дельта Нигера;x
+FRA_1937;Нигерия;x
+FRA_1816;Борно;x
+ENG_1825;Чад;x
+ENG_1818;Вадаи;x
+FRA_1965;Убанги-Шари;x
+ENG_2029;Занзибар;x
+ENG_2034;Танганьика;x
+ENG_2039;Линди;x
+ENG_2016;Казембе;x
+POR_2053;Замбезия;x
+POR_2049;Лоренсу-Маркиш;x
+ZUL_2113;Натал-Зулуленд;x
+ENG_2078;Герероленд;x
+ENG_2132;Южноатлантические острова;x
+ENG_2125;Территория Индийского океана;x
+MAD_2117;Южный Мадагаскар;x
+MAD_2121;Северный Мадагаскар;x
+sioux_nation_title;Народ Сиу;x
+sioux_nation_name;Народ Сиу;x
+sioux_nation_desc;Сиу поднялись на защиту своих земель от американских солдат и переселенцев. Они возмущены невыполнением обещаний Вашингтоном и будут яростно сражаться против колонизации запада.;x
+sioux_nation_army;Банды Сиу;x
+apache_title;Апачи;x
+apache_name;Апачи;x
+apache_desc;Апачи поднялись на защиту своих земель от американских солдат и переселенцев. Они возмущены невыполнением обещаний Вашингтоном и будут яростно сражаться против колонизации запада.;x
+apache_army;Банды Апачи;x
+EVTNAME160001;Тайпинское восстание;x
+EVTDESC160001;Крупное восстание произошло в Поднебесной!;x
+EVTOPTA160001;Сокрушить их!;x
+EVTOPTB160001;Уничтожить Манчжуров!;x
+EVTNAME160502;Антиманчжурские настроения;x
+EVTDESC160502;Император, наши чиновники докладывают об росте недовольства и даже ненависти к нашей династии. Все усугубляется унизительным присутствием иностранных дьяволов в наших городах и портах. Что же делать?;x
+EVTOPTA160502;Пошлите солдат разобраться.;x
+EVTOPTB160502;Не тратьте на это время!;x
+EVTNAME90902;Распад Китая.;x
+EVTDESC90902;Китай распался.;x
+EVTOPTA90902;Свобода!;x
+EVTNAME90040;Восстание Сипаев;x
+EVTDESC90040;В Индии вспыхнуло восстание!;x
+EVTOPTA90040;С этим могут возникнуть проблемы.;x
+CRISIS_DESCRIPTION_LIBERATION;Кризис вокруг освобождения державы $COUNTRY$.;x
+CRISIS_DESCRIPTION_RECLAIM;Кризис по поводу возвращения державе $COUNTRY$ их исконных территорий.;x
+CRISIS_ALREADY_TAKEN_SIDE;Уже выбрали сторону.;x
+CRISIS_WAITING_ON_BACKER;В ожидании.;x
+MUST_BE_CRISIS_SIDE_LEADER;Лидер одной из сторон кризиса.;x
+CRISIS_ALREADY_TAKEN_SIDE;Уже приняли сторону.;x
+CRISIS_OFFERTITLE;Сделать предложение.;x
+CRISIS_OFFER_OFFER;Держава $ACTOR$ предложила §Y$WARGOAL$§! с их стороны в кризисе.;x
+CRISIS_OFFER_WE_ACCEPT_SETUP;Если мы примем сторону в кризисе;x
+CRISIS_OFFER_WE_ACCEPT_HEADER;Доклад министра иностранных дел;x
+CRISIS_OFFER_WE_ACCEPT_1;$MONARCHTITLE$;x
+CRISIS_OFFER_WE_ACCEPT_2;Мы присоединились к державе $ACTOR$ в этом кризисе со следующими требованиями:;x
+CRISIS_OFFER_WE_ACCEPT_3;$WARGOAL$;§Y$WARGOAL$§W;x
+CRISIS_OFFER_WE_ACCEPT_4;*;x
+CRISIS_OFFER_WE_ACCEPT_5;*;x
+CRISIS_OFFER_WE_ACCEPT_6;*;x
+CRISIS_OFFER_WE_ACCEPT_BTN1;Ладно;x
+CRISIS_OFFER_WE_ACCEPT_BTN2;Ладно;x
+CRISIS_OFFER_WE_ACCEPT_BTN3;Перейти;x
+CRISIS_OFFER_WE_ACCEPT_LOG;Мы присоединились к нынешнему кризису.;x
+CRISIS_OFFER_THEY_ACCEPT_SETUP;Если кто-то примет нашу сторону в кризисе.;x
+CRISIS_OFFER_THEY_ACCEPT_HEADER;Доклад министра иностранных дел;x
+CRISIS_OFFER_THEY_ACCEPT_1;$MONARCHTITLE$;x
+CRISIS_OFFER_THEY_ACCEPT_2;Мы присоединились к державе $RECIPIENT$ в этом кризисе со следующими требованиями:;x
+CRISIS_OFFER_THEY_ACCEPT_3;$WARGOAL$;§Y$WARGOAL$§W;x
+CRISIS_OFFER_THEY_ACCEPT_4;*;x
+CRISIS_OFFER_THEY_ACCEPT_5;*;x
+CRISIS_OFFER_THEY_ACCEPT_6;*;x
+CRISIS_OFFER_THEY_ACCEPT_BTN1;Ладно;x
+CRISIS_OFFER_THEY_ACCEPT_BTN2;Ладно;x
+CRISIS_OFFER_THEY_ACCEPT_BTN3;Перейти;x
+CRISIS_OFFER_THEY_ACCEPT_LOG;Держава $RECIPIENT$ поддерживает нас в этом кризисе.;x
+CRISIS_OFFER_OTHER_ACCEPT_SETUP;Если кто-нибудь присоединится к кризису.;x
+CRISIS_OFFER_OTHER_ACCEPT_HEADER;Доклад министра иностранных дел;x
+CRISIS_OFFER_OTHER_ACCEPT_1;$MONARCHTITLE$;x
+CRISIS_OFFER_OTHER_ACCEPT_2;Быть беде;x
+CRISIS_OFFER_OTHER_ACCEPT_3;Кажется, что держава $RECIPIENT$;x
+CRISIS_OFFER_OTHER_ACCEPT_4;решила присоединиться к кризису;x
+CRISIS_OFFER_OTHER_ACCEPT_5;на стороне державы $ACTOR$;x
+CRISIS_OFFER_OTHER_ACCEPT_6;*;x
+CRISIS_OFFER_OTHER_ACCEPT_BTN1;Ладно;x
+CRISIS_OFFER_OTHER_ACCEPT_BTN2;Ладно;x
+CRISIS_OFFER_OTHER_ACCEPT_BTN3;Перейти;x
+CRISIS_OFFER_OTHER_ACCEPT_LOG;Держава $RECIPIENT$ присоединилась к нынешнему кризису;x
+CRISIS_OFFER_WE_DECLINE_SETUP;Если мы откажемся принять сторону в кризисе;x
+CRISIS_OFFER_WE_DECLINE_HEADER;Доклад министра иностранных дел;x
+CRISIS_OFFER_WE_DECLINE_1;$MONARCHTITLE$;x
+CRISIS_OFFER_WE_DECLINE_2;Мы отказались присоединиться к державе $ACTOR$ в текущем кризисе;x
+CRISIS_OFFER_WE_DECLINE_3;*;x
+CRISIS_OFFER_WE_DECLINE_4;*;x
+CRISIS_OFFER_WE_DECLINE_5;*;x
+CRISIS_OFFER_WE_DECLINE_6;*;x
+CRISIS_OFFER_WE_DECLINE_BTN1;Ладно;x
+CRISIS_OFFER_WE_DECLINE_BTN2;Ладно;x
+CRISIS_OFFER_WE_DECLINE_BTN3;Перейти;x
+CRISIS_OFFER_WE_DECLINE_LOG;Мы отказались принимать участие в нынешнем кризисе;x
+CRISIS_OFFER_THEY_DECLINE_SETUP;Если кто-то откажется принять нашу сторону в кризисе;x
+CRISIS_OFFER_THEY_DECLINE_HEADER;Доклад министра иностранных дел;x
+CRISIS_OFFER_THEY_DECLINE_1;$MONARCHTITLE$;x
+CRISIS_OFFER_THEY_DECLINE_2;Держава $RECIPIENT$ отказалась вступить в переговоры в течение нынешнего кризиса.;x
+CRISIS_OFFER_THEY_DECLINE_3;*;x
+CRISIS_OFFER_THEY_DECLINE_4;*;x
+CRISIS_OFFER_THEY_DECLINE_5;*;x
+CRISIS_OFFER_THEY_DECLINE_6;*;x
+CRISIS_OFFER_THEY_DECLINE_BTN1;Ладно;x
+CRISIS_OFFER_THEY_DECLINE_BTN2;Ладно;x
+CRISIS_OFFER_THEY_DECLINE_BTN3;Перейти;x
+CRISIS_OFFER_THEY_DECLINE_LOG;Держава $RECIPIENT$ отказалась присоединиться к нынешнему кризису.;x
+CRISIS_OFFER_OTHER_DECLINE_SETUP;Если кто-то покидает сторону в кризисе;x
+CRISIS_OFFER_OTHER_DECLINE_HEADER;Доклад министра иностранных дел;x
+CRISIS_OFFER_OTHER_DECLINE_1;$MONARCHTITLE$;x
+CRISIS_OFFER_OTHER_DECLINE_2;Вроде бы напряжение перестало нарастать.;x
+CRISIS_OFFER_OTHER_DECLINE_3;Кажется, что держава $RECIPIENT$;x
+CRISIS_OFFER_OTHER_DECLINE_4;отказалась присоединиться к нынешнему кризису;x
+CRISIS_OFFER_OTHER_DECLINE_5;на стороне державы $ACTOR$;x
+CRISIS_OFFER_OTHER_DECLINE_6;*;x
+CRISIS_OFFER_OTHER_DECLINE_BTN1;Ладно;x
+CRISIS_OFFER_OTHER_DECLINE_BTN2;Ладно;x
+CRISIS_OFFER_OTHER_DECLINE_BTN3;Перейти;x
+CRISIS_OFFER_OTHER_DECLINE_LOG;Держава $RECIPIENT$ отказалась учавствовать в нынешнем кризисе.;x
+BACK_CRISISTITLE;Поддержать страну во время кризиса;x
+BACK_CRISIS_OFFER;Держава $ACTOR$ просит нас поддержать их сторону в нынешнем кризисе.;x
+BACK_CRISIS_WE_ACCEPT_SETUP;Если мы поддерживаем сторону в кризисе;x
+BACK_CRISIS_WE_ACCEPT_HEADER;Доклад министра иностранных дел;x
+BACK_CRISIS_WE_ACCEPT_1;$MONARCHTITLE$;x
+BACK_CRISIS_WE_ACCEPT_2;Мы решили поддержать державу $ACTOR$ в нынешнем кризисе.;x
+BACK_CRISIS_WE_ACCEPT_3;*;x
+BACK_CRISIS_WE_ACCEPT_4;*;x
+BACK_CRISIS_WE_ACCEPT_5;*;x
+BACK_CRISIS_WE_ACCEPT_6;*;x
+BACK_CRISIS_WE_ACCEPT_BTN1;Ладно;x
+BACK_CRISIS_WE_ACCEPT_BTN2;Ладно;x
+BACK_CRISIS_WE_ACCEPT_BTN3;Перейти;x
+BACK_CRISIS_WE_ACCEPT_LOG;Мы поддержали сторону в нынешнем кризисе;x
+BACK_CRISIS_THEY_ACCEPT_SETUP;Если кто-то поддерживает нашу сторону в кризисе;x
+BACK_CRISIS_THEY_ACCEPT_HEADER;Доклад министра иностранных дел;x
+BACK_CRISIS_THEY_ACCEPT_1;$MONARCHTITLE$;x
+BACK_CRISIS_THEY_ACCEPT_2;Держава $RECIPIENT$ решила поддержать нас в нынешнем кризисе.;x
+BACK_CRISIS_THEY_ACCEPT_3;*;x
+BACK_CRISIS_THEY_ACCEPT_4;*;x
+BACK_CRISIS_THEY_ACCEPT_5;*;x
+BACK_CRISIS_THEY_ACCEPT_6;*;x
+BACK_CRISIS_THEY_ACCEPT_BTN1;Ладно;x
+BACK_CRISIS_THEY_ACCEPT_BTN2;Ладно;x
+BACK_CRISIS_THEY_ACCEPT_BTN3;Перейти;x
+BACK_CRISIS_THEY_ACCEPT_LOG;Держава $RECIPIENT$ поддержала нас в нынешнем кризисе.;x
+BACK_CRISIS_OTHER_ACCEPT_SETUP;Если кто-то поддерживает другую сторону в кризисе;x
+BACK_CRISIS_OTHER_ACCEPT_HEADER;Доклад министра иностранных дел;x
+BACK_CRISIS_OTHER_ACCEPT_1;$MONARCHTITLE$;x
+BACK_CRISIS_OTHER_ACCEPT_2;Быть беде;x
+BACK_CRISIS_OTHER_ACCEPT_3;Кажется, что держава $RECIPIENT$;x
+BACK_CRISIS_OTHER_ACCEPT_4;решила поддержать державу $ACTOR$ в нынешнем кризисе;x
+BACK_CRISIS_OTHER_ACCEPT_5;*;x
+BACK_CRISIS_OTHER_ACCEPT_6;*;x
+BACK_CRISIS_OTHER_ACCEPT_BTN1;Ладно;x
+BACK_CRISIS_OTHER_ACCEPT_BTN2;Ладно;x
+BACK_CRISIS_OTHER_ACCEPT_BTN3;Перейти;x
+BACK_CRISIS_OTHER_ACCEPT_LOG;Держава $RECIPIENT$ присоединилась к нынешнему кризису.;x
+BACK_CRISIS_WE_DECLINE_SETUP;Если мы отказываемся принять сторону в кризисе;x
+BACK_CRISIS_WE_DECLINE_HEADER;Доклад министра иностранных дел;x
+BACK_CRISIS_WE_DECLINE_1;$MONARCHTITLE$;x
+BACK_CRISIS_WE_DECLINE_2;Мы отказались принять сторону державы $ACTOR$ в текущем кризисе;x
+BACK_CRISIS_WE_DECLINE_3;*;x
+BACK_CRISIS_WE_DECLINE_4;*;x
+BACK_CRISIS_WE_DECLINE_5;*;x
+BACK_CRISIS_WE_DECLINE_6;*;x
+BACK_CRISIS_WE_DECLINE_BTN1;Ладно;x
+BACK_CRISIS_WE_DECLINE_BTN2;Ладно;x
+BACK_CRISIS_WE_DECLINE_BTN3;Перейти;x
+BACK_CRISIS_WE_DECLINE_LOG;Мы отказались присоединиться к нынешнему кризису;x
+BACK_CRISIS_THEY_DECLINE_SETUP;Если кто-то отказывается поддержать нашу сторону в кризисе;x
+BACK_CRISIS_THEY_DECLINE_HEADER;Доклад министра иностранных дел;x
+BACK_CRISIS_THEY_DECLINE_1;$MONARCHTITLE$;x
+BACK_CRISIS_THEY_DECLINE_2;Держава $RECIPIENT$ отказалась поддержать нашу сторону в кризисе.;x
+BACK_CRISIS_THEY_DECLINE_3;*;x
+BACK_CRISIS_THEY_DECLINE_4;*;x
+BACK_CRISIS_THEY_DECLINE_5;*;x
+BACK_CRISIS_THEY_DECLINE_6;*;x
+BACK_CRISIS_THEY_DECLINE_BTN1;Ладно;x
+BACK_CRISIS_THEY_DECLINE_BTN2;Ладно;x
+BACK_CRISIS_THEY_DECLINE_BTN3;Перейти;x
+BACK_CRISIS_THEY_DECLINE_LOG;Держава $RECIPIENT$ отказалась поддержать державу $ACTOR$ в нынешнем кризисе.;x
+BACK_CRISIS_OTHER_DECLINE_SETUP;Если кто-то откажется поддержать сторону в кризисе;x
+BACK_CRISIS_OTHER_DECLINE_HEADER;Доклад министра иностранных дел;x
+BACK_CRISIS_OTHER_DECLINE_1;$MONARCHTITLE$;x
+BACK_CRISIS_OTHER_DECLINE_2;Вроде бы напряжение перестало нарастать.;x
+BACK_CRISIS_OTHER_DECLINE_3;Кажется, что держава $RECIPIENT$;x
+BACK_CRISIS_OTHER_DECLINE_4;отказалась поддержать державу $ACTOR$ в нынешнем кризисе;x
+BACK_CRISIS_OTHER_DECLINE_5;*;x
+BACK_CRISIS_OTHER_DECLINE_6;*;x
+BACK_CRISIS_OTHER_DECLINE_BTN1;Ладно;x
+BACK_CRISIS_OTHER_DECLINE_BTN2;Ладно;x
+BACK_CRISIS_OTHER_DECLINE_BTN3;Перейти;x
+BACK_CRISIS_OTHER_DECLINE_LOG;Держава $RECIPIENT$ отказалась поддержать державу $ACTOR$ в текущем кризисе.;x
+CRISIS_PROGRESS_DESC;Когда эта шкала заполнится, время дипломатических переговоров закончится и кризис перерастет в войну.;x
+CRISIS_WAITING_DESC;Как минимум одна из сторон кризиса ожидает великую державу для поддержки.;x
+EFFECT_CRISIS_INTEREST;Держава $COUNTRY$ выразила интерес к нынешнему кризису.;x
+EVTNAME20000;Назревает международный кризис.;x
+EVTDESC20000;От нас, как от великой державы, ждут выражения нашей позиции.;x
+EVTOPTA20000;Да, мы заинтересованы этим кризисом.;x
+EVTOPTB20000;Это нас не касается;x
+CRISIS_BACK_DOWN;Предложить решение;x
+CRISISOFFERDESC;Держава $ COUNTRY $ предлагает урегулировать нынешний кризис в нашу пользу:;x
+CRISISDEMANDDESC;Держава $COUNTRY$ требует урегулирования нынешнего кризиса в свою пользу:;x
+crisis_free_peoples;Освобождение народа;x
+crisis_free_peoples_short;$THIRD$ получит $STATE$;x
+crisis_free_peoples_setup;Вернуть $STATE$ обратно к $THIRD$ от $RECIPIENT$;x
+CRISIS_BACK_DOWN_WE_ACCEPT_SETUP;Если мы принимаем предложение другой стороны в кризисе;x
+CRISIS_BACK_DOWN_WE_ACCEPT_HEADER;$MESSENGER$;x
+CRISIS_BACK_DOWN_WE_ACCEPT_1;$ACTOR$;x
+CRISIS_BACK_DOWN_WE_ACCEPT_2;Мы приняли предложение разрешить текущий кризис с;x
+CRISIS_BACK_DOWN_WE_ACCEPT_3;$ACTOR$;x
+CRISIS_BACK_DOWN_WE_ACCEPT_4;на следующих условиях:;x
+CRISIS_BACK_DOWN_WE_ACCEPT_5; $TERMS$;x
+CRISIS_BACK_DOWN_WE_ACCEPT_6;*;x
+CRISIS_BACK_DOWN_WE_ACCEPT_LOG;Мы приняли предложение по урегулированию кризиса от державы $ACTOR$;x
+CRISIS_BACK_DOWN_WE_ACCEPT_BTN1;Замечательно!;x
+CRISIS_BACK_DOWN_WE_ACCEPT_BTN2;Замечательно!;x
+CRISIS_BACK_DOWN_WE_ACCEPT_BTN3;Перейти;x
+CRISIS_BACK_DOWN_WE_ACCEPT_MAP;Мир!;x
+CRISIS_BACK_DOWN_THEY_ACCEPT_SETUP;Если держава принимает ваше предложение по урегулированию кризиса;x
+CRISIS_BACK_DOWN_THEY_ACCEPT_HEADER;$MESSENGER$;x
+CRISIS_BACK_DOWN_THEY_ACCEPT_1;$RECIPIENT$;x
+CRISIS_BACK_DOWN_THEY_ACCEPT_2;Держава $RECIPIENT$;x
+CRISIS_BACK_DOWN_THEY_ACCEPT_3;приняла наше предложение по урегулированию кризиса;x
+CRISIS_BACK_DOWN_THEY_ACCEPT_4;*;x
+CRISIS_BACK_DOWN_THEY_ACCEPT_5;*;x
+CRISIS_BACK_DOWN_THEY_ACCEPT_6;Условия: $TERMS$;x
+CRISIS_BACK_DOWN_THEY_ACCEPT_LOG;Держава $RECIPIENT$ приняла наше предложение мира.;x
+CRISIS_BACK_DOWN_THEY_ACCEPT_BTN1;Замечательно!;x
+CRISIS_BACK_DOWN_THEY_ACCEPT_BTN2;Замечательно!;x
+CRISIS_BACK_DOWN_THEY_ACCEPT_BTN3;Перейти;x
+CRISIS_BACK_DOWN_THEY_ACCEPT_MAP;*;x
+CRISIS_BACK_DOWN_OTHER_ACCEPT_SETUP;Если держава принимает предложение об урегулировании кризиса;x
+CRISIS_BACK_DOWN_OTHER_ACCEPT_HEADER;$MESSENGER$;x
+CRISIS_BACK_DOWN_OTHER_ACCEPT_1;$RECIPIENT$;x
+CRISIS_BACK_DOWN_OTHER_ACCEPT_2;Держава $RECIPIENT$;x
+CRISIS_BACK_DOWN_OTHER_ACCEPT_3;приняла предложение по урегулированию кризиза от державы;x
+CRISIS_BACK_DOWN_OTHER_ACCEPT_4;$ACTOR$;x
+CRISIS_BACK_DOWN_OTHER_ACCEPT_5;*;x
+CRISIS_BACK_DOWN_OTHER_ACCEPT_6;Условия: $TERMS$;x
+CRISIS_BACK_DOWN_OTHER_ACCEPT_LOG;Держава $RECIPIENT$ приняла предложение по урегулированию кризиза от державы $ACTOR$.;x
+CRISIS_BACK_DOWN_OTHER_ACCEPT_BTN1;Замечательно!;x
+CRISIS_BACK_DOWN_OTHER_ACCEPT_BTN2;Замечательно!;x
+CRISIS_BACK_DOWN_OTHER_ACCEPT_BTN3;Перейти;x
+CRISIS_BACK_DOWN_OTHER_ACCEPT_MAP;*;x
+CRISIS_BACK_DOWN_WE_DECLINE_SETUP;Если мы отклоняем предложение по урегулированию кризиса;x
+CRISIS_BACK_DOWN_WE_DECLINE_HEADER;$MESSENGER$;x
+CRISIS_BACK_DOWN_WE_DECLINE_1;$ACTOR$;x
+CRISIS_BACK_DOWN_WE_DECLINE_2;Мы отклонили предложение мира от державы;x
+CRISIS_BACK_DOWN_WE_DECLINE_3;$ACTOR$;x
+CRISIS_BACK_DOWN_WE_DECLINE_4;на следующих условиях:;x
+CRISIS_BACK_DOWN_WE_DECLINE_5;*;x
+CRISIS_BACK_DOWN_WE_DECLINE_6;*;x
+CRISIS_BACK_DOWN_WE_DECLINE_LOG;Мы отклонили предложение по урегулированию кризиса от державы $ACTOR$.;x
+CRISIS_BACK_DOWN_WE_DECLINE_BTN1;Замечательно!;x
+CRISIS_BACK_DOWN_WE_DECLINE_BTN2;Замечательно!;x
+CRISIS_BACK_DOWN_WE_DECLINE_BTN3;Перейти;x
+CRISIS_BACK_DOWN_WE_DECLINE_MAP;*;x
+CRISIS_BACK_DOWN_THEY_DECLINE_SETUP;Если держава отклоняет ваше предложение по урегулированию кризиса;x
+CRISIS_BACK_DOWN_THEY_DECLINE_HEADER;$MESSENGER$;x
+CRISIS_BACK_DOWN_THEY_DECLINE_1;$RECIPIENT$;x
+CRISIS_BACK_DOWN_THEY_DECLINE_2;Держава $RECIPIENT$;x
+CRISIS_BACK_DOWN_THEY_DECLINE_3;отклонила наше щедрое предложение по урегулированию кризиса.;x
+CRISIS_BACK_DOWN_THEY_DECLINE_4;*;x
+CRISIS_BACK_DOWN_THEY_DECLINE_5;*;x
+CRISIS_BACK_DOWN_THEY_DECLINE_6;*;x
+CRISIS_BACK_DOWN_THEY_DECLINE_LOG;Держава $RECIPIENT$ наше предложение по урегулированию кризиса.;x
+CRISIS_BACK_DOWN_THEY_DECLINE_BTN1;Замечательно!;x
+CRISIS_BACK_DOWN_THEY_DECLINE_BTN2;Замечательно!;x
+CRISIS_BACK_DOWN_THEY_DECLINE_BTN3;Перейти;x
+CRISIS_BACK_DOWN_THEY_DECLINE_MAP;*;x
+CRISIS_BACK_DOWN_OTHER_DECLINE_SETUP;Если другая держава отвергает предложение по урегулированию кризиса;x
+CRISIS_BACK_DOWN_OTHER_DECLINE_HEADER;$MESSENGER$;x
+CRISIS_BACK_DOWN_OTHER_DECLINE_1;$RECIPIENT$;x
+CRISIS_BACK_DOWN_OTHER_DECLINE_2;Держава $RECIPIENT$;x
+CRISIS_BACK_DOWN_OTHER_DECLINE_3;отвергла предложение по урегулированию кризиса от державы;x
+CRISIS_BACK_DOWN_OTHER_DECLINE_4;$ACTOR$;x
+CRISIS_BACK_DOWN_OTHER_DECLINE_5;*;x
+CRISIS_BACK_DOWN_OTHER_DECLINE_6;*;x
+CRISIS_BACK_DOWN_OTHER_DECLINE_LOG;Держава $RECIPIENT$ отвергла предложение по урегулированию кризиса от державы $ACTOR$.;x
+CRISIS_BACK_DOWN_OTHER_DECLINE_BTN1;Замечательно!;x
+CRISIS_BACK_DOWN_OTHER_DECLINE_BTN2;Замечательно!;x
+CRISIS_BACK_DOWN_OTHER_DECLINE_BTN3;Перейти;x
+CRISIS_BACK_DOWN_OTHER_DECLINE_MAP;;x
+CRISIS_BACK_DOWN_DI;Предложить решение кризиса;x
+CRISIS_OFFER_DI;Предложить присоединиться к одной из сторон;x
+CRISIS_BACK_DOWNTITLE;Кризис;x
+OFFER_CRISIS_PEACE;Предложение уступок;x
+DEMAND_CRISIS_PEACE;Требование уступок;x
+COLONIAL_POINTS;Колониальная мощь;x
+COLONIAL_POINTS_TECH;Очки колониальной мощи;x
+CRISIS_TITLE_COUNTRY;$COUNTRY_ADJ$ кризис;x
+CRISIS_DESCRIPTION_INFLUENCE;Борьба за контроль в державе $COUNTRY$;x
+NAVAL_SORT_LABEL;Сортировать по:;x
+NAVAL_SORT_TYPE;Тип;x
+NAVAL_SORT_STANCE;Позиция;x
+NAVAL_SORT_STR_ORG;Организация;x
+battleship;Линкор;x
+UNCOLONIZED_WITHDRAW;Отступить;x
+UNCOLONIZED_INVEST_LVL1;Экспедиция;x
+UNCOLONIZED_INVEST_LVL2;Колонисты;x
+UNCOLONIZED_INVEST_LVL3;Застава;x
+UNCOLONIZED_INVEST_LVL4;Поселение;x
+UNCOLONIZED_INVEST_LVL5;Форт;x
+UNCOLONIZED_DO_INVEST_LVL1;Отправить экспедицию;x
+UNCOLONIZED_DO_INVEST_LVL2;Отправить экспедицию;x
+UNCOLONIZED_DO_INVEST_LVL3;Построить заставу;x
+UNCOLONIZED_DO_INVEST_LVL4;Построить поселение;x
+UNCOLONIZED_DO_INVEST_LVL5;Укрепить форт;x
+#TENSION_DECAY;Спад: §Y$VAL$§!;x
+CB_TENSION;Повод для войны: §Y$VAL$§!;x
+TENSION_FROM_ACTIVE_CRISIS;Активный кризис: §Y$VAL$§!;x
+AT_WAR_TENSION_DECAY;$COUNTRY$ находится в состоянии войны: §Y$VAL$§;x
+TRIGGER_FLASHPOINT_TAG;Точка кипения;x
+CRISIS_NO_SIDE_PICKED_SETUP;Если нам удалось не поддержать ни одну из сторон кризиса;x
+CRISIS_NO_SIDE_PICKED_HEADER;*;x
+CRISIS_NO_SIDE_PICKED_1;Нерешительная дипломатия;x
+CRISIS_NO_SIDE_PICKED_2;Из-за нашего бездействия;x
+CRISIS_NO_SIDE_PICKED_3;наш престиж падает на §R$PENALTY$§!.;x
+CRISIS_NO_SIDE_PICKED_4;В будущем мы должны принимать чью-то сторону или появится риск международной изоляции.;x
+CRISIS_NO_SIDE_PICKED_5;*;x
+CRISIS_NO_SIDE_PICKED_6;*;x
+CRISIS_NO_SIDE_PICKED_LOG;Мы не можем ничего делать до окончания кризиса;x
+CRISIS_NO_SIDE_PICKED_BTN1;Ладно;x
+CRISIS_STARTED_SETUP;Международный кризис начался;x
+CRISIS_STARTED_HEADER;$MESSENGER$;x
+CRISIS_STARTED_1;Международный кризис;x
+CRISIS_STARTED_2;Дипломатическая напряженность вызвала международный кризис;x
+CRISIS_STARTED_3;$CRISISTARGET$;x
+CRISIS_STARTED_4;Никакого беспокойства, проблема будет решена цивилизованным путем.;x
+CRISIS_STARTED_5;*;x
+CRISIS_STARTED_6;*;x
+CRISIS_STARTED_LOG;Новый кризис начался…;x
+CRISIS_STARTED_BTN1;Ладно;x
+CRISIS_BECAME_WAR_SETUP;Кризис перерос в войну.;x
+CRISIS_BECAME_WAR_HEADER;$MESSENGER$;x
+CRISIS_BECAME_WAR_1;Международный кризис;x
+CRISIS_BECAME_WAR_2;Дипломатические переговоры по урегулированию кризиса не удались.;x
+CRISIS_BECAME_WAR_3;На поле боя мы решим, кто же прав.;x
+CRISIS_BECAME_WAR_4;*;x
+CRISIS_BECAME_WAR_5;*;x
+CRISIS_BECAME_WAR_6;*;x
+CRISIS_BECAME_WAR_LOG;Кризис перерос в войну.;x
+CRISIS_BECAME_WAR_BTN1;Ладно;x
+IS_IN_CRISIS;Втянуты в кризис;x
+IS_NOT_IN_CRISIS;Не втянуты в кризис;x
+BACK_CRISIS_DI;Предложить поддержку страны в кризисе.;x
+CRISIS_NOBODY_BACKED_SETUP;Если никто не поддержал кризис.;x
+CRISIS_NOBODY_BACKED_HEADER;$MESSENGER$;x
+CRISIS_NOBODY_BACKED_1;Предотвращение кризиса;x
+CRISIS_NOBODY_BACKED_2;Кризис для;x
+CRISIS_NOBODY_BACKED_3;§Y$CRISISTARGET$§!;x
+CRISIS_NOBODY_BACKED_4;провалился из-за международной апатии.;x
+CRISIS_NOBODY_BACKED_5;*;x
+CRISIS_NOBODY_BACKED_6;*;x
+CRISIS_NOBODY_BACKED_LOG;Никто не поддержал кризис;x
+CRISIS_NOBODY_BACKED_BTN1;Ладно;x
+BP_TOOL_ICON_INFANTRY;Иконка пехоты;x
+BP_TOOL_ICON_COMBAT;Иконка битвы;x
+BP_TOOL_ICON_CAVALRY;Иконка кавалерии;x
+BP_TOOL_ICON_ARTILLERY;Иконка артиллерии;x
+BP_TOOL_ICON_NAVAL;Иконка морского боя;x
+BP_TOOL_ICON_INVASION;Иконка вторжения;x
+BP_TOOL_ICON_WOODEN_SHIP;Иконка корабля;x
+BP_TOOL_ICON_IRONCLAD;Иконка броненосца;x
+BP_TOOL_ICON_INDUSTRY;Иконка промышленности;x
+BP_TOOL_ICON_COLONY;Иконка колонии;x
+BP_TOOL_ICON_WARGOAL_1;Иконка цели войны;x
+BP_TOOL_ICON_WARGOAL_2;Иконка цели войны;x
+TAKE_SIDE_PENALTY;Штраф к престижу за отказ принимать сторону: §R$VAL$§!;x
+NO_CALL_ALLY_CRISIS;Нельзя призывать союзников: активированы Кризисные войны до Великих войн;x
+PRODUCTION_BONUS;$BON$ бонус от:;x

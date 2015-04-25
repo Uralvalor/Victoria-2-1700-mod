@@ -1,0 +1,484 @@
+tutorial =
+{
+	save_game = "tutorial2.v2"
+	title = "TUTORIAL_5"
+	desc = "TUTORIAL_5_DESC"
+	tutorial_window = "TUTORIAL_WINDOW_1"	# default window
+	exclusive = yes
+	country = BEL
+
+	basic_start = 0
+	intermediary_start = 6
+	advanced_start = 15
+	
+	page =
+	{
+		tutorial_window_position = { -250 -190 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_POL_1"
+		
+		country = BEL
+
+		text1 = "tut_5a_1"
+		text2 = "tut_5a_2"
+		text3 = "tut_5a_2a"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 433 60 }
+		
+		exclusive = no
+		allow_screens = yes
+		allow_screen = POLITICS
+		
+		allow_province_click = no
+		
+		custom_action = tag
+		continue_on_interface = country_politics
+		#effect = { ruling_party_ideology = conservative }
+	}	
+	
+	page =
+	{
+		tutorial_window_position = { -250 -150 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_1"
+
+		text1 = "tut_5a_3"
+		text2 = "tut_5a_4"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_province_click = no
+		
+		exclusive = no
+		
+	}	
+	
+	page =
+	{
+		tutorial_window_position = { -140 -210 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_POL_2"
+
+		text1 = "tut_5a_5"
+		text2 = "tut_5a_6"
+		text3 = "tut_5a_6a"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_province_click = no
+		
+		exclusive = no
+		
+	}	
+	
+	page =
+	{
+		tutorial_window_position = { -513 -250 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_POL_3"
+
+		text1 = "tut_5a_7"
+		text2 = "tut_5a_8"
+		text3 = "tut_5a_9"
+		text4 = "tut_5a_10"
+		text5 = "tut_5a_11"
+		text6 = "tut_5a_11a"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_province_click = no
+		
+		exclusive = no
+		
+	}	
+	
+	page =
+	{
+		tutorial_window_position = { -140 0 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_POL_4"
+
+		text1 = "tut_5a_12"
+		text2 = "tut_5a_13"
+		text3 = "tut_5a_13a"
+		text4 = "tut_5a_13b"
+
+		goto = 398
+		zoom = 90
+
+		allow_province_click = no		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = no
+		
+	}	
+
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER"
+
+		text1 = "tutorial_chapter_politics_basic"
+		text2 = "tutorial_chapter_end"
+
+		goto = 398
+		zoom = 90
+		
+		allow_province_click = no
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = yes
+		
+		exclusive = no
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { -250 -190 }
+		
+		text1 = "tut_5b_1"
+		text2 = "tut_5b_2"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_screen = POLITICS
+		
+		allow_unpause = yes
+		exclusive = no
+		allow_province_click = no
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 433 60 }
+		
+		lockpan = yes
+		lockzoom = yes
+
+		effect = { ruling_party_ideology = conservative }
+		continue_on_interface = country_politics
+		
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_POL_1"
+		tutorial_window_position = { -140 -120 }
+		
+		text1 = "tut_5b_3"
+		text2 = "tut_5b_4"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_unpause = yes
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_POL_2"
+		tutorial_window_position = { -140 -260 }
+		
+		text1 = "tut_5b_5"
+		text2 = "tut_5b_6"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_unpause = yes
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_POL_1"
+		tutorial_window_position = { -140 -170 }
+		
+		text1 = "tut_5b_7"
+		text2 = "tut_5b_8"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_unpause = yes
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_POL_3"
+		tutorial_window_position = { -210 -210 }
+		
+		text1 = "tut_5b_9"
+		text2 = "tut_5b_10"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_unpause = yes
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_POL_3B"
+		tutorial_window_position = { 140 -210 }
+		
+		text1 = "tut_5b_11"
+		text2 = "tut_5b_12"
+		text3 = "tut_5b_12b"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_unpause = yes
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		window = "tutorial_arrow_down_c"
+		window_position = { 256 -274 }
+		
+		continue_on_action = politicsview_tab_decisions
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_POL_3B"
+		tutorial_window_position = { -495 -200 }
+		
+		text1 = "tut_5b_13"
+		text2 = "tut_5b_14"
+		text3 = "tut_5b_14b"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_unpause = yes
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+		window = "tutorial_arrow_down_c"
+		window_position = { 85 -274 }
+		
+		continue_on_action = politicsview_tab_movements
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_POL_4"
+		tutorial_window_position = { -500 -106 }
+		
+		text1 = "tut_5b_15"
+		text2 = "tut_5b_16"
+		text3 = "tut_5b_17"
+		text4 = "tut_5b_18"
+		text5 = "tut_5b_19"
+		text6 = "tut_5b_20"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_unpause = yes
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER"
+
+		text1 = "tutorial_chapter_politics_victoria"
+		text2 = "tutorial_chapter_end"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = yes
+		allow_province_click = no
+		
+		exclusive = no
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { -250 -190 }
+		
+		text1 = "tut_5c_1"
+		text2 = "tut_5c_2"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_unpause = yes
+		exclusive = no
+		allow_province_click = no
+		
+		window = "tutorial_arrow_up_ul"
+		window_position = { 433 60 }
+		
+		lockpan = yes
+		lockzoom = yes
+
+		continue_on_interface = country_politics
+		effect = { ruling_party_ideology = conservative }
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_POL_2"
+		tutorial_window_position = { -190 -225 }
+		
+		text1 = "tut_5c_3"
+		text2 = "tut_5c_4"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_unpause = yes
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_POL_2"
+		tutorial_window_position = { -145 -225 }
+		
+		text1 = "tut_5c_5"
+		text2 = "tut_5c_6"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_unpause = yes
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_POL_1"
+		tutorial_window_position = { -210 -270 }
+		
+		text1 = "tut_5c_7"
+		text2 = "tut_5c_8"
+		text3 = "tut_5c_9"
+		text4 = "tut_5c_10"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_unpause = yes
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1"
+		tutorial_window_position = { -20 50 }
+		
+		text1 = "tut_5c_11"
+		text2 = "tut_5c_12"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_unpause = yes
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+	
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER"
+
+		text1 = "tutorial_end_of_chapter"
+		text2 = "tutorial_chapter_end"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = yes
+		allow_province_click = no
+		
+		exclusive = yes
+		allow_province_click = no
+
+		custom_action = "pause_stop"
+	}
+}

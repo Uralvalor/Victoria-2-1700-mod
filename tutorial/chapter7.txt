@@ -1,0 +1,459 @@
+tutorial =
+{
+	save_game = "tutorial2.v2"
+	title = "TUTORIAL_7"
+	desc = "TUTORIAL_7_DESC"
+	tutorial_window = "TUTORIAL_WINDOW_1"	# default window
+	exclusive = yes
+	country = BEL
+
+	basic_start = 0
+	intermediary_start = 6
+	advanced_start = 14	
+
+	page =
+	{
+		tutorial_window_position = { -250 -190 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+
+		text1 = "tut_7a_1"
+		text2 = "tut_7a_2"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 685 60 }
+		
+		exclusive = no
+		allow_screens = yes
+		allow_screen = TRADE
+		allow_province_click = no
+		
+		continue_on_interface = country_trade
+	}
+	
+	page =
+	{
+		tutorial_window_position = { -120 -30 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_TRADE_1"
+
+		text1 = "tut_7a_3"
+		text2 = "tut_7a_4"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+
+		window = "tutorial_arrow_down_c"
+		window_position = { -347 53 }
+		
+		exclusive = no
+		allow_screens = no
+		
+		custom_int_arg = 1
+		custom_action = auto_trade_off
+		allow_province_click = no
+		
+		continue_on_action = goods_selected_1
+	}
+	
+	page =
+	{
+		tutorial_window_position = { -380 -270 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_TRADE_2"
+
+		text1 = "tut_7a_5"
+		text2 = "tut_7a_6"
+		text3 = "tut_7a_6a"
+		text4 = "tut_7a_6b"
+		text5 = "tut_7a_6c"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_province_click = no
+		
+		exclusive = no
+		allow_screens = no
+		
+	}
+	
+	page =
+	{
+		tutorial_window_position = { -380 -160 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_TRADE_3"
+
+		text1 = "tut_7a_7"
+		text2 = "tut_7a_8"
+		text3 = "tut_7a_8a"
+		text4 = "tut_7a_8b"
+		
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = no
+		allow_screens = no
+		allow_province_click = no
+		
+		window = "tutorial_arrow_up_c"
+		window_position = { 287 113 }
+		
+		continue_on_action = buy_1
+	}
+
+	page =
+	{
+		tutorial_window_position = { -140 -190 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_TRADE_4"
+
+		text1 = "tut_7a_12"
+		text2 = "tut_7a_13"
+		
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_province_click = no
+		
+		exclusive = no
+		allow_screens = no
+	}
+	
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER"
+
+		text1 = "tutorial_chapter_trade_basic"
+		text2 = "tutorial_chapter_end"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = no
+		allow_province_click = no
+		
+		exclusive = no
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { -250 -190 }
+		
+		text1 = "tut_7b_1"
+		text2 = "tut_7b_2"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_screen = TRADE
+		allow_unpause = no
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 685 60 }
+		
+		continue_on_interface = country_trade
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_TRADE_1"
+		tutorial_window_position = { 20 100 }
+		
+		text1 = "tut_7b_3"
+		text2 = "tut_7b_4"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = yes
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_TRADE_2"
+		tutorial_window_position = { -70 0 }
+		
+		text1 = "tut_7b_5"
+		text2 = "tut_7b_6"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		custom_int_arg = 25
+		custom_action = auto_trade_on
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_TRADE_3"
+		tutorial_window_position = { -300 -180 }
+		
+		text1 = "tut_7b_7"
+		text2 = "tut_7b_8"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+		window = "tutorial_arrow_up_c"
+		window_position = { -441 -64 }
+				
+		continue_on_action = goods_selected_25
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_TRADE_4"
+		tutorial_window_position = { -370 -180 }
+		
+		text1 = "tut_7b_9"
+		text2 = "tut_7b_10"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+		continue_on_action = buy_25
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_TRADE_5"
+		tutorial_window_position = { -370 -130 }
+		
+		text1 = "tut_7b_11"
+		text2 = "tut_7b_12"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+		window = "tutorial_arrow_up_c"
+		window_position = { 287 113 }
+
+		continue_on_action = sell_25
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_BIG"
+		tutorial_window_position = { -250 -190 }
+		
+		text1 = "tut_7b_13"
+		text2 = "tut_7b_14"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER"
+
+		text1 = "tutorial_chapter_trade_victoria"
+		text2 = "tutorial_chapter_end"
+
+		goto = 398
+		zoom = 90
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = yes
+		
+		exclusive = no
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { -250 -190 }
+		
+		text1 = "tut_7c_1"
+		text2 = "tut_7c_2"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_screen = TRADE
+		allow_unpause = no
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 685 60 }
+		
+		continue_on_interface = country_trade
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_TRADE_1"
+		tutorial_window_position = { -350 -210 }
+		
+		text1 = "tut_7c_3"
+		text2 = "tut_7c_4"
+		text3 = "tut_7c_5"
+		text4 = "tut_7c_6"
+		text5 = "tut_7c_7"
+		text6 = "tut_7c_8"
+		text7 = "tut_7c_9"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_TRADE_2"
+		tutorial_window_position = { -380 -170 }
+		
+		text1 = "tut_7c_10"
+		text2 = "tut_7c_11"
+		text3 = "tut_7c_12"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_TRADE_3"
+		tutorial_window_position = { -280 -300 }
+		
+		text1 = "tut_7c_13"
+		text2 = "tut_7c_14"
+		text3 = "tut_7c_15"
+		text4 = "tut_7c_16"
+		text5 = "tut_7c_17"
+		text6 = "tut_7c_18"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+	
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER"
+
+		text1 = "tutorial_end_of_chapter"
+		text2 = "tutorial_chapter_end"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = no
+		allow_unpause = no
+		allow_province_click = no
+		
+		exclusive = yes
+		allow_province_click = no
+
+		custom_action = "pause_stop"
+	}
+	
+	
+}

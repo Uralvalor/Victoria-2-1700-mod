@@ -1,0 +1,468 @@
+tutorial =
+{
+	title = "TUTORIAL_6"
+	desc = "TUTORIAL_6_DESC"
+	tutorial_window = "TUTORIAL_WINDOW_1"	# default window
+	exclusive = yes
+	country = BEL
+
+	basic_start = 0
+	intermediary_start = 7
+	advanced_start = 13
+
+	page =
+	{
+		tutorial_window_position = { -10 -315 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_POP_1"
+
+		text1 = "tut_6a_1"
+		text2 = "tut_6a_2"
+		text3 = "tut_6a_2a"
+		text4 = "tut_6a_2b"
+
+		goto = 387
+		zoom = 70
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = no
+		allow_screens = no
+		allow_province_click = yes
+		
+		continue_on_action = province_selected_387
+		
+		custom_action = close_all
+		
+		country = BEL
+		custom_action = tag
+	}
+
+	page =
+	{
+		tutorial_window_position = { 400 -640 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_POP_2"
+
+		text1 = "tut_6a_3"
+		text2 = "tut_6a_4"
+		text3 = "tut_6a_4a"
+		text4 = "tut_6a_4b"
+		text5 = "tut_6a_5"
+
+
+		goto = 387
+		zoom = 70
+		
+		lockpan = yes
+		lockzoom = yes
+
+		window = "tutorial_arrow_down_ll"
+		window_position = { 260 -560 }
+		
+		exclusive = no
+		allow_screens = no
+		allow_province_click = no
+		
+		continue_on_action = national_focus_window_open
+	}	
+	
+	page =
+	{
+		
+		tutorial_window_position = { 400 -640 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_POP_3"
+		
+
+		text1 = "tut_6a_6"
+		text2 = "tut_6a_7"
+		text3 = "tut_6a_8"
+		text4 = "tut_6a_9"
+		text5 = "tut_6a_10"
+		text6 = "tut_6a_11"
+		text7 = "tut_6a_12"
+		text8 = "tut_6a_13"
+
+		goto = 387
+		zoom = 70
+		
+		lockpan = yes
+		lockzoom = yes
+
+		window = "tutorial_arrow_down_ll"
+		window_position = { 220 -250 }
+		
+		exclusive = no
+		allow_screens = no
+		allow_province_click = no
+		
+		custom_action = disable_national_focus
+		custom_int_arg = 9
+		continue_on_action = national_focus_9
+	}
+
+	page =
+	{
+		tutorial_window_position = { 400 -550 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_POP_4"
+
+		text1 = "tut_6a_14"
+		text2 = "tut_6a_15"
+		text3 = "tut_6a_15a"
+	
+		goto = 387
+		zoom = 70
+		
+		lockpan = yes
+		lockzoom = yes
+
+		window = "tutorial_arrow_down_ll"
+		window_position = { 353 -297 }
+		
+		exclusive = no
+		allow_screens = yes
+		allow_screen = POPS
+		allow_province_click = no
+		
+		continue_on_interface = country_pop		
+	}
+	
+	page =
+	{
+		tutorial_window_position = { -40 -160 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_POP_5"
+
+		text1 = "tut_6a_16"
+		text2 = "tut_6a_17"
+		text3 = "tut_6a_18"
+		text4 = "tut_6a_19"
+		text5 = "tut_6a_20"
+	
+		goto = 387
+		zoom = 70
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = no
+		allow_screens = no	
+		
+		continue_on_interface = pop_details_win
+	}
+	
+	page =
+	{
+		tutorial_window_position = { -400 -380 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_POP_6"
+
+		text1 = "tut_6a_21"
+		text2 = "tut_6a_22"
+		
+		goto = 387
+		zoom = 70
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = no
+		allow_screens = no	
+		
+	}
+	
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER"
+
+		text1 = "tutorial_chapter_population_basic"
+		text2 = "tutorial_chapter_end"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = no
+		
+		exclusive = no
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { -250 -190 }
+		
+		text1 = "tut_6b_1"
+		text2 = "tut_6b_2"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_screen = POPS
+		
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 559 60 }
+
+		allow_province_click = no
+		
+		continue_on_interface = country_pop
+		
+		country = BEL
+		custom_action = tag
+		
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { -100 -230 }
+		
+		text1 = "tut_6b_3"
+		text2 = "tut_6b_4"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+		window = "tutorial_arrow_down_c"
+		window_position = { -175 35 }
+
+		continue_on_interface = pop_details_win
+		
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_POP_1"
+		tutorial_window_position = { -250 -300 }
+		
+		text1 = "tut_6b_5"
+		text2 = "tut_6b_6"
+		text3 = "tut_6b_7"
+		text4 = "tut_6b_8"
+		text5 = "tut_6b_9"
+		text6 = "tut_6b_10"
+		text7 = "tut_6b_11"
+		text8 = "tut_6b_12"
+		text9 = "tut_6b_13"
+		text10 = "tut_6b_14"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_POP_2"
+		tutorial_window_position = { -200 -190 }
+		
+		text1 = "tut_6b_15"
+		text2 = "tut_6b_16"
+		text3 = "tut_6b_17"
+		text4 = "tut_6b_18"
+		text5 = "tut_6b_19"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_POP_3"
+		tutorial_window_position = { -20 -190 }
+		
+		text1 = "tut_6b_20"
+		text2 = "tut_6b_21"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER"
+
+		text1 = "tutorial_chapter_population_victoria"
+		text2 = "tutorial_chapter_end"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = no
+		allow_unpause = no
+
+		
+		exclusive = no
+	}
+
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { -250 -190 }
+		
+		text1 = "tut_6c_1"
+		text2 = "tut_6c_2"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_screen = POPS
+		
+		allow_unpause = yes
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 559 60 }
+
+		continue_on_interface = country_pop
+		
+		country = BEL
+		custom_action = tag
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_POP_1"
+		tutorial_window_position = { -260 -300 }
+		
+		text1 = "tut_6c_3"
+		text2 = "tut_6c_4"
+		text3 = "tut_6c_5"
+		text4 = "tut_6c_6"
+		text5 = "tut_6c_7"
+		text6 = "tut_6c_8"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+		window = "tutorial_arrow_down_c"
+		window_position = { -175 35 }
+
+		continue_on_interface = pop_details_win
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_POP_2"
+		tutorial_window_position = { -525 -250 }
+		
+		text1 = "tut_6c_9"
+		text2 = "tut_6c_10"
+		text3 = "tut_6c_11"
+		text4 = "tut_6c_12"
+		text5 = "tut_6c_13"
+		text6 = "tut_6c_14"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_POP_3"
+		tutorial_window_position = { -525 -250 }
+		
+		text1 = "tut_6c_15"
+		text2 = "tut_6c_16"
+		text3 = "tut_6c_17"
+		text4 = "tut_6c_18"
+		text5 = "tut_6c_19"
+		text6 = "tut_6c_20"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+	}
+	
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER"
+
+		text1 = "tutorial_end_of_chapter"
+		text2 = "tutorial_chapter_end"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = yes
+		
+		exclusive = yes
+		allow_province_click = no
+
+		custom_action = "pause_stop"
+	}
+}

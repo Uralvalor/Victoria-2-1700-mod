@@ -1,0 +1,241 @@
+tutorial =
+{
+	save_game = "tutorial2.v2"
+	title = "TUTORIAL_0"
+	desc = "TUTORIAL_0_DESC"
+	tutorial_window = "TUTORIAL_WINDOW_1"	# default window
+	exclusive = yes
+	country = BEL
+	
+	
+	basic_start = 0
+	
+	page =
+	{
+		
+
+		tutorial_window_position = { -250 -220 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_INTRO_1"
+
+		text1 = "tut_0a_1"
+		text2 = "tut_0a_2"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = yes
+		allow_province_click = no
+		
+	}
+	
+	page =
+	{
+		
+
+		tutorial_window_position = { 150 150 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_INTRO_2"
+
+		text1 = "tut_0a_3"
+		text2 = "tut_0a_4"
+		text3 = "tut_0a_4b"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = yes
+		allow_province_click = no
+		
+	}
+	
+	page =
+	{
+		
+
+		tutorial_window_position = { 80 120 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_INTRO_3"
+
+		text1 = "tut_0a_5"
+		text2 = "tut_0a_6"
+		text3 = "tut_0a_7"
+		text4 = "tut_0a_8"
+		text5 = "tut_0a_10"
+		text6 = "tut_0a_11"
+		text7 = "tut_0a_12"
+		text8 = "tut_0a_13"
+		text9 = "tut_0a_14"
+		text10 = "tut_0a_15"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = yes
+		allow_province_click = no
+		
+	}
+	
+	page =
+	{
+		
+
+		tutorial_window_position = { -250 -190 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_1"
+
+		text1 = "tut_0a_16"
+		text2 = "tut_0a_17"
+
+		goto = 398
+		zoom = 90
+		
+		#lockpan = yes
+		#lockzoom = yes
+		
+		exclusive = yes
+		allow_province_click = no
+		
+	}
+	
+	
+	
+	page =
+	{
+		
+
+		tutorial_window_position = { -600 -500 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_INTRO_4"
+
+		text1 = "tut_0a_20"
+		text2 = "tut_0a_21"
+
+		#goto = 398
+		#zoom = 90
+		
+		#lockpan = yes
+		#lockzoom = yes
+		
+		exclusive = no
+		allow_province_click = no
+		continue_on_action = zoomto_387
+		
+	}
+	
+	page =
+	{
+		
+
+		tutorial_window_position = { -600 -500 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_INTRO_5"
+
+		text1 = "tut_0a_22"
+		text2 = "tut_0a_23"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = no
+		allow_province_click = no
+		
+		continue_on_action = mapmode_political
+	}
+	
+	page =
+	{
+		
+
+		tutorial_window_position = { 250 150 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_INTRO_6"
+
+		text1 = "tut_0a_24"
+		text2 = "tut_0a_25"
+		text3 = "tut_0a_26"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = no
+		allow_province_click = no
+		allow_unpause = yes
+		
+		continue_on_action  = "on_unpause"
+	}
+	
+	page =
+	{
+		
+
+		tutorial_window_position = { -750 -700 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_INTRO_7"
+
+		text1 = "tut_0a_27"
+		text2 = "tut_0a_28"
+		text3 = "tut_0a_29"
+		text4 = "tut_0a_30"
+		text5 = "tut_0a_31"
+		text6 = "tut_0a_32"
+		text7 = "tut_0a_33"
+		text8 = "tut_0a_34"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = yes
+		allow_province_click = no
+		custom_action = pause_stop
+
+		diplomacy = WAR
+		diplomatic_action =
+		{
+				diplomatic_action = declarewar
+				actor = "NET"
+				recipient = "BEL"
+		}
+		
+	}
+	
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER_NO_CONT"
+
+		text1 = "tutorial_chapter_introduction"
+		text2 = "tutorial_chapter_end"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = yes
+		allow_province_click = no
+		
+		exclusive = yes
+	}
+	
+	
+}

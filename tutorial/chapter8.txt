@@ -1,0 +1,579 @@
+tutorial =
+{
+	save_game = "tutorial2.v2"
+	title = "TUTORIAL_8"
+	desc = "TUTORIAL_8_DESC"
+	tutorial_window = "TUTORIAL_WINDOW_1"	# default window
+	exclusive = yes
+	country = BEL
+
+	basic_start = 0
+	intermediary_start = 8
+	advanced_start = 14
+	
+	page =
+	{
+		country = BEL
+		tutorial_window_position = { -250 -190 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+
+		text1 = "tut_8a_1"
+		text2 = "tut_8a_2"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 811 60 }
+		
+		exclusive = no
+		allow_screens = yes
+		allow_screen = DIPLOMACY
+		
+		continue_on_interface = country_diplomacy
+
+		custom_action = "pause_stop"
+		effect = { end_war = NET }
+		custom_action = addinfluence
+	}
+	
+	page =
+	{
+		tutorial_window_position = { -350 -250 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_DIPLO_1"
+
+		text1 = "tut_8a_3"
+		text2 = "tut_8a_3a"
+		text3 = "tut_8a_3b"
+
+		
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = no
+		allow_screens = no
+		effect = { leave_alliance = ENG }
+		continue_on_action = country_selected_ENG
+	}
+
+	page =
+	{
+		tutorial_window_position = { -350 -190 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_DIPLO_2"
+
+		text1 = "tut_8a_4a"
+		text2 = "tut_8a_4b"
+			
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+
+		window = "tutorial_arrow_down_c"
+		window_position = { -260 -275 }
+		
+		exclusive = no
+		allow_screens = no
+		
+		diplomacy = ALLIANCE
+		continue_on_action = warview_open
+	}
+
+	page =
+	{
+		tutorial_window_position = { -370 -50 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_DIPLO_3"
+
+		text1 = "tut_8a_5"
+		text2 = "tut_8a_6"
+		text3 = "tut_8a_7"
+			
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = no
+		allow_screens = no
+
+		window = "tutorial_arrow_down_c"
+		window_position = { 228 110 }
+		
+		custom_action = addinfluence
+		diplomacy = ALLIANCE
+		continue_on_action = ALLIANCE_ENG
+	}
+
+	page =
+	{
+		tutorial_window_position = { -500 -235 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+
+		text1 = "tut_8a_8"
+		text2 = "tut_8a_9"
+			
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = no
+		allow_screens = no
+		
+		diplomacy = WAR
+		continue_on_interface = DeclareWarDialog
+	}
+	
+	page =
+	{
+		tutorial_window_position = { -500 -160 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+
+		text1 = "tut_8a_10"
+		text2 = "tut_8a_11"
+			
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = no
+		allow_screens = no
+		
+		diplomacy = WAR
+		continue_on_action = wargoal_selected_humiliate
+	}
+	
+	page =
+	{
+		tutorial_window_position = { -500 -230 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_DIPLO_4"
+
+		text1 = "tut_8a_12"
+		text2 = "tut_8a_13"
+		text3 = "tut_8a_14"
+		text4 = "tut_8a_15"
+		text5 = "tut_8a_16"
+			
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = no
+		allow_screens = no
+		
+		diplomacy = WAR
+		continue_on_action = WAR_NET
+	}
+	
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER"
+
+		text1 = "tutorial_chapter_diplomacy_basic"
+		text2 = "tutorial_chapter_end"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = no
+		custom_action = close_all
+		
+		exclusive = no
+	}
+
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { -250 -190 }
+		country = BEL
+		
+		text1 = "tut_8b_1"
+		text2 = "tut_8b_2"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_screen = DIPLOMACY
+		
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 811 60 }
+		
+		custom_action = "pause_stop"
+		allow_province_click = no
+		
+		continue_on_interface = country_diplomacy
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_DIPLO_1"
+		tutorial_window_position = { -525 -320 }
+		
+		text1 = "tut_8b_3"
+		text2 = "tut_8b_4"
+		text3 = "tut_8b_5"
+		text4 = "tut_8b_6"
+		text5 = "tut_8b_7"
+		text6 = "tut_8b_8"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+		window = "tutorial_arrow_down_c"
+		window_position = { 15 64 }
+		
+		custom_action = "pause_stop"
+		continue_on_action = diplomacy_sort
+		custom_action = "filter_all"
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_DIPLO_2"
+		tutorial_window_position = { -515 -390 }
+		
+		text1 = "tut_8b_9"
+		text2 = "tut_8b_10"
+		text3 = "tut_8b_11"
+		text4 = "tut_8b_12"
+		text5 = "tut_8b_13"
+		text6 = "tut_8b_14"
+		text7 = "tut_8b_15"
+		text8 = "tut_8b_16"
+		text9 = "tut_8b_17"
+		text10 = "tut_8b_18"
+		
+		
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		custom_action = "pause_stop"
+		continue_on_action = country_selected_LUX
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_DIPLO_3"
+		tutorial_window_position = { -525 -280 }
+		
+		text1 = "tut_8b_19"
+		text2 = "tut_8b_20"
+		text3 = "tut_8b_21"
+		text4 = "tut_8b_22"
+		text5 = "tut_8b_23"
+		text6 = "tut_8b_24"
+		text7 = "tut_8b_25"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		continue_on_action = country_selected_ENG
+		custom_action = "pause_stop"
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1"
+		tutorial_window_position = { -330 -140 }
+		
+		text1 = "tut_8b_26"
+		text2 = "tut_8b_27"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		custom_action = "pause_stop"
+	}
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER"
+
+		text1 = "tutorial_chapter_diplomacy_victoria"
+		text2 = "tutorial_chapter_end"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = no
+		
+		exclusive = no
+		custom_action = close_all
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { -250 -190 }
+		
+		country = PRU
+		
+		text1 = "tut_8c_1"
+		text2 = "tut_8c_2"
+				
+		goto = 549
+		zoom = 130
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_screen = DIPLOMACY
+		
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 811 60 }
+		
+		custom_action = tag
+		continue_on_interface = country_diplomacy
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_DIPLO_1"
+		tutorial_window_position = { -450 50 }
+		
+		text1 = "tut_8c_3"
+		text2 = "tut_8c_4"
+		text3 = "tut_8c_5"
+		text4 = "tut_8c_6"
+		text5 = "tut_8c_7"
+		
+				
+		goto = 549
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		effect = { end_war = FRA }
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		custom_action = "filter_all"
+		custom_action = "pause_stop"
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_DIPLO_2"
+		tutorial_window_position = { -520 30 }
+		
+		text1 = "tut_8c_8"
+		text2 = "tut_8c_9"
+		text3 = "tut_8c_10"
+				
+		goto = 549
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		custom_action = "pause_stop"
+		diplomacy = WAR
+		
+		continue_on_action = WAR_FRA
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_DIPLO_3"
+		tutorial_window_position = { -530 50 }
+		
+		text1 = "tut_8c_11"
+		text2 = "tut_8c_12"
+		
+		goto = 549
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+		window = "tutorial_arrow_down_c"
+		window_position = { -256 -270 }
+		
+		custom_action = "pause_stop"
+		effect = { end_war = FRA }
+		diplomacy = WAR
+		continue_on_action = warview_open
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_DIPLO_4"
+		tutorial_window_position = { -350 -40 }
+		
+		text1 = "tut_8c_13"
+		text2 = "tut_8c_14"
+				
+		goto = 549
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+
+		window = "tutorial_arrow_down_c"
+		window_position = { -400 -265 }
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		custom_action = "pause_stop"
+		continue_on_action = gpview_open
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1"
+		tutorial_window_position = { -250 -190 }
+		
+		text1 = "tut_8c_15"
+		text2 = "tut_8c_16"		
+				
+		goto = 549
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		custom_action = "pause_stop"
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_DIPLO_5"
+		tutorial_window_position = { -450 -225 }
+		
+		text1 = "tut_8c_17"
+		text2 = "tut_8c_18"
+		text3 = "tut_8c_19"
+		
+		goto = 549
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		custom_action = "pause_stop"
+		continue_on_action = dip_prio_inc_HAN
+	}
+
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_DIPLO_6"
+		tutorial_window_position = { -450 -245 }
+		
+		text1 = "tut_8c_20"
+		text2 = "tut_8c_21"
+		text3 = "tut_8c_22"
+		text4 = "tut_8c_23"
+				
+		goto = 549
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		custom_action = "pause_stop"
+	}
+	
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER_LAST"
+
+		text1 = "tutorial_end_of_chapter"
+		text2 = "tutorial_chapter_end"
+
+		goto = 549
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = no
+		allow_unpause = no
+		
+		exclusive = yes
+		allow_province_click = no
+
+		custom_action = "pause_stop"
+	}
+}

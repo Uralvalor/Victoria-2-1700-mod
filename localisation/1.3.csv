@@ -1,0 +1,90 @@
+disarming;Принуждение к разоружению!;X
+HAS_NOT_RECENTLY_LOST_WAR;Не терпели поражение в войне в течение предыдущих пяти лет;X
+HAS_RECENTLY_LOST_WAR;Терпели поражение в войне в течение предыдущих пяти лет;X
+IN_SAME_SPHERE;Эта страна в сфере той же великой державы, что и мы;X
+NOR_reactionary;Партия Конге;X
+ATJ_reactionary;Партия государственных основ;X
+ATJ_liberal;Партия свободы;X
+ATJ_anarcho_liberal;Партия радикального обновления;X
+ATJ_socialist;Партия справедливости;X
+ATJ_communist;Партия рабочих и крестьян;X
+ATJ_fascist;Партия нового порядка;X
+CAL_conservative;Республиканская партия;X
+KHI_conservative;Фракция эмира;X
+KHI_liberal;Фракция шуры;X
+KHI_reactionary;Фракция беев;X
+KHI_anarcho_liberal;Радикальные республиканцы;X
+KHI_socialist;Социал-демократический союз;X
+KHI_communist;Рабочая коммунистическая партия;X
+KHI_fascist;Фракция басмачества;X
+MAD_conservative;Партия стабильности;X
+MAD_liberal;Партия свободы;X
+MAD_reactionary;Партия порядка;X
+MAD_anarcho_liberal;Партия радикального обновления;X
+MAD_socialist;Партия справедливости;X
+MAD_communist;Партия возрождения Либерталии;X
+MAD_fascist;Партия нового порядка;X
+TRI_conservative;Суннитская партия;X
+TRI_liberal;Демократический союз;X
+TRI_reactionary;Абсолютистская партия;X
+TRI_anarcho_liberal;Панарабская партия;X
+TRI_socialist;Левый демократический альянс;X
+TRI_communist;Федерация независимых общин;X
+TRI_fascist;Народный конгресс ;X
+TEX_communist;Коммунистическая партия;X
+BAD_fascist;НСДАП;X
+BAV_fascist;НСДАП;X
+WEI_fascist;НСДАП;X
+WLL_fascist;Рексистская партия;X
+NEW_fascist;Национал-фашистская партия;X
+DIPLOMACY_CHANCE_JOIN_WAR;Повод вступления в войну: §Y$VAL$§W;X
+PO_ISBETTER;Если мы отклоним это предложение, то произойдёт:\n §R+$MIL$§W Militancy, §R+$WE$§W War exhaustion;X
+leave_soi_title;Покинуть сферу влияния;X
+leave_soi_desc;Мы можем выйти из сферы влияния, но у великой державы появится повод объявить нам войну;X
+NEW_PARTY_AVAIL_SETUP;Новая политическая партия;X
+NEW_PARTY_AVAIL_HEADER;Сформирована новая политическая партия;X
+NEW_PARTY_AVAIL_1;$PARTY$ сформирована;X
+NEW_PARTY_AVAIL_2;*;X
+NEW_PARTY_AVAIL_3;*;X
+NEW_PARTY_AVAIL_4;*;X
+NEW_PARTY_AVAIL_5;*;X
+NEW_PARTY_AVAIL_6;*;X
+NEW_PARTY_AVAIL_BTN1;OK;X
+NEW_PARTY_AVAIL_BTN2;OK;X
+NEW_PARTY_AVAIL_BTN3;Теперь;X
+NEW_PARTY_AVAIL_LOG;Сформирована новая политическая партия;X
+PARTY_UNAVAIL_SETUP;Политическая партия расформирована;X
+PARTY_UNAVAIL_HEADER;Политическая партия расформирована;X
+PARTY_UNAVAIL_1;$PARTY$ расформирована;X
+PARTY_UNAVAIL_2;*;X
+PARTY_UNAVAIL_3;*;X
+PARTY_UNAVAIL_4;*;X
+PARTY_UNAVAIL_5;*;X
+PARTY_UNAVAIL_6;*;X
+PARTY_UNAVAIL_BTN1;OK;X
+PARTY_UNAVAIL_BTN2;OK;X
+PARTY_UNAVAIL_BTN3;Теперь;X
+PARTY_UNAVAIL_LOG;Политическая партия расформирована;X
+PRODUCTION_FACTORY_DAYSRED_TOOLTIP;Дни банкротства: §R$DAYS$§W;X
+EXPENSE_NO_AFFORD;Мы можем выплатить §R$VAL$§W¤ из наших расходов!;X
+PRODUCTION_FACTORY_DAYSRED_TOOLTIP;Дни банкротства: §R$DAYS$§W;X
+ENG_presidential_dictatorship;Великобритания;X
+EVTNAME16451;Набег на гарнизоны;X
+EVTDESC16451;С началом техасской войны за независимость повстанческие войска смогли атаковать несколько мексиканских гарнизонов. Это предоставило техасской армии необходимые средства.;X
+CB_ALLOWED_GUNBOAT;Долговая выплата;X
+po_gunboat;Возместить долги;X
+IS_IN_DEFAULT_TO;Находится в долговых обязательствах;X
+IS_NOT_IN_DEFAULT_TO;Не имеет долговых обязательств;X
+gunboat;Возместить долги;X
+gunboat_desc;Вынудить должника к выплате нам.;X
+gunboat_setup;Вынудить их соблюдать долговые обязательства;X
+gunboat_short;Возместить долги;X
+EVTNAME70002;Должники из державы $FROMCOUNTRY$ обанкротились!;X
+EVTDESC70002;Должники из державы $FROMCOUNTRY$ обанкротились и утверждают, что ничего не должны нам! Мы можем использовать наши вооруженные силы, чтобы сохранить наши инвестиции;X
+EVTOPTA70002;OK;X
+USE_LEADER;Использовать лидера;X
+SHORTCUT;§WГорячая клавиша: §Y;X
+SM_SHORTCUT;Показывать горячие клавиши;X
+TUR_proletarian_dictatorship_ADJ;Турецк.;X
+move_capital_to_moscow_title;Возвращение к Третьему Риму;X
+move_capital_to_moscow_desc;Славный Санкт-Петербург, город Петра Великого, неудобно прилегает к границе. Возможно, будет благоразумно перенести нашу столицу назад в Москву, в «Первопрестольную», которую вражеской армии будет сложнее достичь...;X

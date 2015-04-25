@@ -1,0 +1,71 @@
+background	= launcher\\background.jpg
+size			= [ 708, 500 ]
+icon			= launcher\\logo.ico
+text			= "Victoria 2"
+host			= www.paradoxplaza.com,
+objects = [
+	{
+		button = {
+			text	= "Check for Update" 
+			pos		= [ 13 , 437 ] 
+			size	= [ 160, 25 ] 
+			background = launcher\\button_small.jpg
+			function = {
+				type	= link
+				arg	= http://www.paradoxplaza.com/in-game/v2/v0.html
+			}
+		}
+	},
+	{ 
+		"button" = {
+			"text"	= "Start Victoria 2" ,
+			"pos"	= [ 511 , 406 ] ,
+			"size"	= [ 158, 52 ] ,
+			"background" = "launcher\\button_big.jpg"
+			"function" = {
+				"type"	= "launch"
+				"arg"	= "v2game.exe"
+				"mods"	= true
+				"post"	= "exit"
+			}
+		}
+	},
+	
+	{
+		"button" = {
+			"text"	= "Register" ,
+			"pos"	= [ 13 , 406 ] ,
+			"size"	= [ 160, 25 ] ,
+			"background" = "launcher\\button_small.jpg"
+			"function" = {
+				"type"	= "link"
+				"arg"	= "http://forum.paradoxplaza.com/forum/mygames.php?"
+				"external"	= true
+			}
+		}
+	} ,
+	{
+		"label" = {
+			"pos"	= [ 317, 412 ],
+			"text"	= "Select mod to play"
+		}
+	},
+	
+	{
+		"comboBox" = {
+			"pos"	= [ 285, 437 ],
+			"size"	= [ 163, 21 ],
+			"function"	= "mod"
+		}
+	},
+	
+	{
+		"browser" = {
+			"pos"	= [ 0 , 0 ] ,
+			"size"	= [ 500, 400 ] ,
+			"scroll" = false,
+			"url"	= "http://www.paradoxplaza.com/in-game/v2/launcher.html",
+			"offlineUrl"	= "launcher\\launcher.html",
+		}
+	}
+]	

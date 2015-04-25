@@ -1,0 +1,90 @@
+sprite = 10
+strata = poor
+allowed_to_vote = no
+is_slave = yes
+color = { 17 17 17 }
+unemployment = yes
+
+rebel =
+{
+	cavalry = 0.0
+	artillery = 0.0
+	cuirassier = 0.0
+	dragoon = 0.0
+	guard = 0.0
+	hussar = 0.0
+	infantry = 0.0
+	irregular = 1
+}
+
+
+everyday_needs = {
+	coal = 1
+	tea = 1
+}
+
+luxury_needs = {
+	regular_clothes = 2
+	opium = 1
+	tobacco = 0.95
+	liquor = 0.5
+}
+
+ideologies = {
+        fascist = {
+		factor = 1
+	}
+	liberal = {
+		factor = 2
+	}
+	conservative = {
+		factor = 1
+	}
+	socialist = {
+		factor = 2
+	}
+	communist = {
+		factor = 4
+	}
+	anarcho_liberal = {
+		factor = 1
+	}
+}
+issues = {
+	full_citizenship =  {
+		factor = 3
+	}
+	no_slavery = {
+		factor = 5
+	}
+	yes_slavery = {
+		factor = 2
+	}
+}
+country_migration_target =
+{
+modifier = {
+		factor = 1
+		state_scope = {
+			is_slave = yes
+		}
+	}
+}
+
+migration_target = {
+	factor = 2
+	
+	modifier = {
+		factor = 4
+		AND = {
+		OR = {
+		continent = north_america
+		continent = south_america
+			}
+		state_scope = {
+			is_slave = yes
+		}	
+			}
+	}	
+	
+}

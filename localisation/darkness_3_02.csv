@@ -1,0 +1,31 @@
+JAN_reactionary;Военная партия;x
+EXILED_DESC;Эта армия §Rинтернирована§!, поскольку она находится на чужой территории без прохода войск в мирное время. Интернированные армии не могут участвовать в сражениях, их навык разведки снижен, но они могут идти домой по чужой территории. Верните юнита в ближайшую контролируемую провинцию!;x
+TWS_FULFILLED;Выполнен $PERC$;x
+TWS_NOT_FULFILLED;§RНе выполнен§!;x
+TICKING_WARSCORE_DESC_CURR;В настоящее время $VAL$.;x
+UNIT_BORROWED;Эта армия в данный момент находится под вашим контролем.;x
+DISBAND_TOO_SMALL_UNIT;Распустить неукомплектованные бригады;x
+DISBAND_TOO_SMALL_UNIT_DRO;Эта функция распустит все бригады, для поддержки которых нет достаточного количества солдат.;x
+CONFIRM_DISBAND_TOO_SMALL_TITLE;Вы действительно хотите распустить все неукомплектованные бригады?;x
+CONFIRM_DISBAND_TOO_SMALL_DESC;Все бригады, не поддерживающиеся достаточной группой солдат, будут распущены, и вам больше не придется платить за их содержание. Все солдаты вернутся в пул.;x
+MODIFIER_RESEARCH_POINTS_ON_CONQUER;Бонус к очкам во время завоевания;x
+colonial_negotiations;Колониальные отношения;x
+colonial_negotiations_desc;«Что бы ни случилось, у нас есть Пулемет Максима, а у них нет». Пулеметы позволили армиям опустошать земли, используя тактику массированного огня, которая очень пригодилась во время покорения «нецивилизованных» народов, которые отказывались подчиняться колонизаторам.;x
+PRODUCTION_BONUS_POSSIBLE;Возможный бонус:;x
+COLONIZE_PHASE_INITIAL_INTEREST;Послать экспедицию;x
+COLONIZE_PHASE_INITIAL_INTEREST_DESC;Первая стадия колонизации — посылка экспедиции. Если никто не пошлет туда экспедицию в течение §Y$DAYS$§! Дней, вы сможете создать протекторат.;x
+INITIAL_COLONIZE_DEFAULT_TIME;Если никто не пошлет экспедицию до §Y$DATE$§!, вы сможете создать протекторат.;x
+COUNTRYALERT_ColonialGood_protectorate;§G Мы можем создать протекторат в §!§Y$REGION$§!;x
+COUNTRYALERT_ColonialGood_colony;§G Мы можем создать колонию в §!§Y$REGION$§!;x
+COUNTRYALERT_ColonialGood_state;§G Мы можем превратить колонию в регион в §!§Y$REGION$§!;x
+COUNTRYALERT_ColonialBad_colonizationtimer;§R Мы должны создать протекторат в §!§Y$REGION$§!§R до §Y$DATE$§!§R или мы потеряем ее.§!;x
+COUNTRYALERT_ColonialBad_influence;§R Мы проигрываем гонку в §!§Y$REGION$§!;x
+NON_COLONIAL_POWER;Мы не являемся колониальной или великой державой, поэтому у нас нет колониальных очков.;x
+CRISIS_DESCRIPTION_COLONIZE;Кризис за право колонизации;x
+colonial_competition;Выдвинуть права на колонию;x
+colonial_competition_desc;Получить §Yколониальный регион§!;x
+colonial_competition_short;Получить колонию $REGION$;x
+colonial_competition_setup;Получить колонию $REGION$;x
+CB_COLONY_CLAIMS;Выдвинуть права на колонию;x
+COLONY_TENSION_DRIFT;Течение: §Y$VAL$§!;x
+COLONY_IN_CRISIS;В данный момент вовлечен в колониальный кризис.;x

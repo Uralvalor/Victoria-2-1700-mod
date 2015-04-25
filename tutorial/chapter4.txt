@@ -1,0 +1,507 @@
+tutorial =
+{
+	save_game = "tutorial2.v2"
+	title = "TUTORIAL_4"
+	desc = "TUTORIAL_4_DESC"
+	tutorial_window = "TUTORIAL_WINDOW_1"	# default window
+	exclusive = yes
+	country = BEL
+	
+	basic_start = 0
+	intermediary_start = 6
+	advanced_start = 12
+
+	page =
+	{
+		
+		
+		tutorial_window_position = { -250 -190 }
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		text1 = "tut_4a_1"
+		text2 = "tut_4a_2"
+
+		goto = 398
+		zoom = 90
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 307 60 }
+		
+		exclusive = no
+		allow_screens = yes
+		allow_screen = TECHNOLOGY
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		country = BEL
+		custom_action = tag
+		continue_on_interface = country_technology
+	}
+	
+	page =
+	{
+		tutorial_window_position = { -250 -100 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_TECH_1"
+
+		text1 = "tut_4a_3"
+		text2 = "tut_4a_4"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = no
+		allow_screens = no
+
+		window = "tutorial_arrow_down_c"
+		window_position = { 370 -226 }
+		allow_province_click = no
+		
+		continue_on_action = techfolder_4
+	}	
+	
+	page =
+	{
+		tutorial_window_position = { -250 85 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_B_TECH_2"
+
+		text1 = "tut_4a_7"
+		text2 = "tut_4a_8"
+		text3 = "tut_4a_8a"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = no
+		allow_screens = no
+
+		window = "tutorial_arrow_down_c"
+		window_position = { 174 -160 }
+		allow_province_click = no
+		
+		continue_on_action = techselected_109
+	}
+
+	page =
+	{
+		tutorial_window_position = { -150 -100 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON_SMALL"
+
+		text1 = "tut_4a_9"
+		text2 = "tut_4a_10"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		
+		exclusive = no
+		allow_screens = no
+		allow_province_click = no
+
+		window = "tutorial_arrow_down_c"
+		window_position = { 353 288 }
+		allow_province_click = no
+		
+		continue_on_action = techstarted_109
+	}	
+	
+	page =
+	{
+		tutorial_window_position = { -250 0 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_1"
+
+		text1 = "tut_4a_11"
+		text2 = "tut_4a_12"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_province_click = no
+		
+		exclusive = no
+		allow_screens = no
+		
+	}
+
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER"
+
+		text1 = "tutorial_chapter_technology_basic"
+		text2 = "tutorial_chapter_end"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = no
+		allow_province_click = no
+		
+		exclusive = yes
+	}
+	
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { -250 -190 }
+		
+		text1 = "tut_4b_1"
+		text2 = "tut_4b_2"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_screen = TECHNOLOGY
+		
+		allow_unpause = yes
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 307 60 }
+		
+		country = BEL
+		custom_action = tag
+
+		continue_on_interface = country_technology
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1"
+		tutorial_window_position = { 0 -165 }
+		
+		text1 = "tut_4b_3"
+		text2 = "tut_4b_4"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		allow_province_click = no
+		
+		window = "tutorial_marker_c"
+		window_position = { 234 114 }
+		window_size = {80 60}
+		
+		lockpan = yes
+		lockzoom = yes
+		
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1"
+		tutorial_window_position = { -250 -190 }
+		
+		text1 = "tut_4b_5"
+		text2 = "tut_4b_6"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		allow_province_click = no
+
+		window = "tutorial_arrow_down_c"
+		window_position = { -404 -226 }
+		
+		lockpan = yes
+		lockzoom = yes
+
+		
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_TECH_1"
+		tutorial_window_position = { -80 -260 }
+		
+		text1 = "tut_4b_7"
+		text2 = "tut_4b_8"
+		text3 = "tut_4b_9"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_M_TECH_2"
+		tutorial_window_position = { -330 -370 }
+		
+		text1 = "tut_4b_7"
+		text2 = "tut_4b_10"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+	}
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER"
+
+		text1 = "tutorial_chapter_technology_victoria"
+		text2 = "tutorial_chapter_end"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = no
+		allow_unpause = no
+		allow_province_click = no
+		
+		exclusive = no
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_1_NOBUTTON"
+		tutorial_window_position = { -250 -190 }
+		
+		country = PRU
+		
+		text1 = "tut_4c_1"
+		text2 = "tut_4c_2"
+		
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = yes
+		allow_screen = TECHNOLOGY
+		
+		allow_unpause = no
+		exclusive = no
+		allow_province_click = no
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 307 60 }
+		
+		lockpan = yes
+		lockzoom = yes
+
+		custom_action = tag
+		continue_on_interface = country_technology
+		
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_TECH_1"
+		tutorial_window_position = { -350 -190 }
+		
+		country = PRU
+		
+		text1 = "tut_4c_3"
+		text2 = "tut_4c_4"		
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		allow_province_click = no
+		
+		window = "tutorial_marker_c"
+		window_position = { -487 -250 }
+		window_size = {550 65}
+
+		window = "tutorial_arrow_up_c"
+		window_position = { 370 -160 }
+
+		continue_on_action = techfolder_4
+		
+		lockpan = yes
+		lockzoom = yes
+		
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_TECH_2"
+		tutorial_window_position = { -400 -395 }
+		
+		text1 = "tut_4c_5"
+		text2 = "tut_4c_6"
+		text3 = ""		
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		allow_province_click = no
+
+		window = "tutorial_arrow_up_c"
+		window_position = { 178 -160 }
+
+		continue_on_action = techfolder_3
+		
+		lockpan = yes
+		lockzoom = yes
+		
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_TECH_2"
+		tutorial_window_position = { -400 -395 }
+		
+		text1 = "tut_4c_7"
+		text2 = "tut_4c_8"	
+		text3 = ""
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		allow_province_click = no
+
+		window = "tutorial_arrow_up_c"
+		window_position = { -14 -160 }
+
+		continue_on_action = techfolder_2
+		
+		lockpan = yes
+		lockzoom = yes
+		
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_TECH_2"
+		tutorial_window_position = { -400 -395 }
+		
+		text1 = "tut_4c_9"
+		text2 = "tut_4c_10"	
+		text3 = ""
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		allow_province_click = no
+
+		window = "tutorial_arrow_up_c"
+		window_position = { -206 -160 }
+
+		continue_on_action = techfolder_1
+		
+		lockpan = yes
+		lockzoom = yes
+		
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_TECH_2"
+		tutorial_window_position = { -400 -395 }
+		
+		text1 = "tut_4c_11"
+		text2 = "tut_4c_12"	
+		text3 = "tut_4c_12b"
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		allow_province_click = no
+		
+		window = "tutorial_arrow_up_c"
+		window_position = { -398 -160 }
+
+		continue_on_action = techfolder_0
+		
+		lockpan = yes
+		lockzoom = yes
+		
+	}
+	page =
+	{
+		tutorial_window = "TUTORIAL_WINDOW_A_TECH_3"
+		tutorial_window_position = { -400 -395 }
+		
+		text1 = "tut_4c_13"
+		text2 = "tut_4c_14"	
+		text3 = ""
+				
+		goto = 388
+		zoom = 90
+		mapmode = "terrain"
+		allow_screens = no
+		allow_unpause = no
+		exclusive = no
+		allow_province_click = no
+		
+		lockpan = yes
+		lockzoom = yes
+		
+	}
+	
+	page =
+	{
+		tutorial_window_position = { -225 -130 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_END_OF_CHAPTER"
+
+		text1 = "tutorial_end_of_chapter"
+		text2 = "tutorial_chapter_end"
+
+		goto = 398
+		zoom = 90
+		
+		lockpan = yes
+		lockzoom = yes
+		allow_screens = yes
+		allow_province_click = no
+		
+		exclusive = yes
+		allow_province_click = no
+
+		custom_action = "pause_stop"
+	}
+}

@@ -1,0 +1,33 @@
+RALLY_POINT_NAVY_MERGE_INFO;Включить или Выключить объединение кораблей в пункте назначения. \n(Корабли будут автоматически объединяться в пункте прибытия);X
+RALLY_POINT_NAVY_PROVINCE_MERGE_INFO;Все военно-морские подразделения будут объединены с бОльшей флотилией по месту прибытия.;X
+BUDGET_INTERNALLY_SOLD_STOCKPILE;Проданный запас под строительные объекты: §Y$VAL$§!;X
+OL_VIEW_RALLYPOINTS_NAVY_TOOLTIP;Все поблизости построеные корабли будут перемещаться к §Y$PROV$§!;X
+OL_VIEW_RALLYPOINTS_NAVY_MERGE_TOOLTIP; и по возможности будут объединены с бОльшим подразделением в этой провинции.;X
+ARMY_SPLIT_AND_LOAD_DESC_1;§Y$UNIT$§! будет разделен на группу по §G$NUM$§! кораблей:;X
+ARMY_SPLIT_AND_LOAD_DESC_2; - §Y$NAVY$§! ($NUM$);X
+ARMY_SPLIT_AND_LOAD_DESC_3;§RОставшаяся армия ($NUM$) не будет погружена.§!;X
+UW_NOT_POSSIBLE_TO_ATTACH;Здесь нет дружественных отрядов для следования.;X
+UW_UNITS_ATTACHED;Следующие отряды присоединены: ;X
+UW_ATTACH_TO;Присоединить для постоянного следования за $NAME$.;X
+UW_DETACH_FROM;Отсоединить от следования за $NAME$.;X
+IW_SUPPLY_COST;Нам необходимо выплачивать каждый день из казны §Y$VAL$§W, для постоянного снабжения подразделения.;X
+HAS_NOT_CULTURE_CORE;$CUL$ не основная культура $WHERE$.\n;X
+HAS_CULTURE_CORE;$CUL$ основная культура $WHERE$.\n;X
+PROMOTION_EFFECT_FROM_ADMIN;Административная эффект. влияет на продвижение скорости: §Y$PERCENTAGE$§!;X
+OUTLINER_TOOLTIP_FACTORY_OCCUPANCY;Кадровая укомплектованность местных фабрик: $PERC$;X
+REVOLTALLIANCE_LOG;Революция!, все наши альянсы были расторгнуты!;X
+tut_5b_12b;Щелкните на вкладке decisions tab для продолжения.;X
+tut_5b_14b;Щелкните на вкладке movements tab для продолжения.;X
+Workforce;Рабочая сила;X
+Ideology;Идеология;X
+SELL;Продавать;X
+BUY;Покупать;X
+Start Research;Начало исследований;X
+Maneuver;Маневренность;X
+LEDGER;Статистика;X
+OK;OK;X
+TOPBAR_POPULATION;Наше взрослое мужское население сейчас - $CURR$. Оно изменилось на $CHANGE$ за последние §Y$DAYS$§ дней!;X
+DIG_IN_TOOLTIP_1;Текущий уровень окопа $LEV$ из возможных $MAX$.;X
+DIG_IN_TOOLTIP_2;Необходимо §Y$DAYS$§ дней до увеличения уровня окопа на §G+$VAL$§!;X
+in_bankrupcy;Банкротство;X
+in_bankrupcy_desc;Мы обанкротились!;X

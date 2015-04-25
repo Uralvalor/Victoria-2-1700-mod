@@ -1,0 +1,151 @@
+GREAT_WARS_ENABLED_DESC;Великие Войны открыты;x
+GREAT_WARS_DISABLED_DESC;Великие войны ещё не открыты;x
+GREAT_WARS_ENABLE_DESC;Войны могут получить статус великих войн!;x
+GREAT_WAR_NAME;$ORDER$ Великая Война;x
+GW_DISCOVERED_SETUP;Когда Великие Войны открыты;x
+GW_DISCOVERED_HEADER;Великие Войны открыты!;x
+GW_DISCOVERED_1;Великие Войны открыты!;x
+GW_DISCOVERED_2;С этого момента, любая война, в которой;x
+GW_DISCOVERED_3;участвуют по-крайней мере две Великие Державы;x
+GW_DISCOVERED_4;с каждой стороны, получит статус;x
+GW_DISCOVERED_5;§YВеликой Войны!§!.;x
+GW_DISCOVERED_6;*;x
+GW_DISCOVERED_BTN1;OK;x
+GW_DISCOVERED_BTN2;OK;x
+GW_DISCOVERED_BTN3;Перейти к;x
+GW_DISCOVERED_LOG;Великие Войны открыты!;x
+WAR_GAIN_GW_STATUS_SETUP;Когда наша война получает статус Великой.;x
+WAR_GAIN_GW_STATUS_HEADER;Великая Война!;x
+WAR_GAIN_GW_STATUS_1;$WAR$;x
+WAR_GAIN_GW_STATUS_2;получила статус;x
+WAR_GAIN_GW_STATUS_3;§YВеликой Войны§!;x
+WAR_GAIN_GW_STATUS_4;*;x
+WAR_GAIN_GW_STATUS_5;*;x
+WAR_GAIN_GW_STATUS_6;*;x
+WAR_GAIN_GW_STATUS_BTN1;OK;x
+WAR_GAIN_GW_STATUS_BTN2;OK;x
+WAR_GAIN_GW_STATUS_BTN3;Перейти к;x
+WAR_GAIN_GW_STATUS_LOG;$WAR$ стала §YВеликой Войной§!;x
+WAR_LOST_GW_STATUS_SETUP;Когда наша война теряет статус Великой.;x
+WAR_LOST_GW_STATUS_HEADER;Война потеряла статус Великой!;x
+WAR_LOST_GW_STATUS_1;$WAR$;x
+WAR_LOST_GW_STATUS_2;больше не;x
+WAR_LOST_GW_STATUS_3;Великая Война;x
+WAR_LOST_GW_STATUS_4;*;x
+WAR_LOST_GW_STATUS_5;*;x
+WAR_LOST_GW_STATUS_6;*;x
+WAR_LOST_GW_STATUS_BTN1;OK;x
+WAR_LOST_GW_STATUS_BTN2;OK;x
+WAR_LOST_GW_STATUS_BTN3;Перейти к;x
+WAR_LOST_GW_STATUS_LOG;$WAR$ больше не §YВеликая Война§!;x
+GW_INTERVENE_MIN_RELATIONS;Наши отношения с §Y$TARGET$§! должны быть не ниже §G$MIN$§!. Сейчас они на уровне §Y$VAL$§!.;x
+GW_INTERVENE_MAX_EXHAUSTION;Наша усталость от войны не может превышать §G$MAX$§!. Сейчас она §Y$VAL$§!.;x
+great_war_penalty_cb;Безоговорочная капитуляция;x
+great_war_penalty_cb_desc;Принуждение державы §Ycountry§! к разоружению и выплате репараций.;x
+great_war_penalty_cb_setup;Разоружение $RECIPIENT$ и выплата ими репараций.;x
+great_war_penalty_cb_short;Капитуляция;x
+GREAT_WAR_OBLIGATORY_CB_DESC;Необходим обязательный повод для Великой Войны против всех врагов:;x
+GREAT_WAR_CB_JUSTIFY_COST_DESC;Стоимость оправдания бесчестия вычитается в §G$PERC$%§ от первоначальной стоимости в связи с установкой статуса Великой Войны;x
+GREAT_WAR_CB_CONSTRUCTION_SPEED_DESC;Великая Война против §Y$TARGET$§!!;x
+fascist_focus_short;Поддержка §Yфашистов§!;x
+reactionary_focus_short;Поддержка §Yреакционеров§!;x
+conservative_focus_short;Поддержка §Yконсерваторов§!;x
+socialist_focus_short;Поддержка §Yсоциалистов§!;x
+communist_focus_short;Поддержка §Yкоммунистов§!;x
+liberal_focus_short;Поддержка §Yлибералов§!;x
+anarcho_liberal_focus_short;Поддержка §Yанархо-либералов§!;x
+automation_focus_short;Поддержка §Yавтомобильной промышленности§!;x
+electrical_focus_short;Поддержка §Yэлектротехнической промышленности§!;x
+chemical_focus_short;Поддержка §Yхимической промышленности§!;x
+shipping_focus_short;Поддержка §Yкораблестроения§!;x
+textile_focus_short;Поддержка §Yтекстильной промышленности§!;x
+wood_focus_short;Поддержка §Yдеревообрабатывающей промышленности§!;x
+basic_industry_focus_short;Поддержка §Yтяжелой промышленности§!;x
+armaments_focus_short;Поддержка §Yвоенной промышленности§!;x
+consumer_focus_short;Поддержка §Yлегкой промышленности§!;x
+WAR_GOAL_SUCCESS_PRESTIGE_CHANGE;Если мы выполним поставленную военную цель, мы получим $PRES$ очков престижа.;x
+WAR_GOAL_FAILURE_PRESTIGE_CHANGE;Если мы не выполним поставленную военную цель, мы потеряем $PRES$ очков престижа.;x
+POP_INTERNAL_MIGRATION;§Y$NUM$§! человек намереваются переехать в другие области страны.;x
+POP_EXTERNAL_MIGRATION;§Y$NUM$§! человек намереваются переехать в другую страну.;x
+POP_COLONIAL_MIGRATION;§Y$NUM$§! человек намереваются переехать в колонии.;x
+INVESTED_IN_US_SETUP;Когда другая страна вкладывает капитал в нашу;x
+INVESTED_IN_US_HEADER;Иностранные вложения;x
+INVESTED_IN_US_1;$ICOUNTRY$ инвестировала в нас!;x
+INVESTED_IN_US_2;$INVESTED_IN_US_MESSAGE$;x
+INVESTED_IN_US_3;*;x
+INVESTED_IN_US_4;*;x
+INVESTED_IN_US_5;*;x
+INVESTED_IN_US_6;*;x
+INVESTED_IN_US_BTN1;OK;x
+INVESTED_IN_US_BTN2;OK;x
+INVESTED_IN_US_BTN3;Перейти к;x
+INVESTED_IN_US_LOG;§Y$ICOUNTRY$§! вложилась в нас!: $INVESTED_IN_US_MESSAGE$;x
+INVESTED_IN_US_BUILD;$INAME$ построили в $ILOCATION$ для $IAMOUNT$;x
+INVESTED_IN_US_OPEN;$INAME$ открыли в $ILOCATION$ для $IAMOUNT$;x
+INVESTED_IN_US_UPGRADE;Модернизировали $INAME$ в $ILOCATION$ для $IAMOUNT$;x
+INVESTED_IN_US_UNKNOWN;Вложили $IAMOUNT$ в нашу страну.;x
+MODIFY_RELATION_EFFECT;§Y$SOURCE$§! отношения с §Y$TARGET$§! изменились на $VALUE$.;x
+PRODUCTION_EXPAND_FACTORY_SHORTCUT_TOOLTIP;§GCtrl+Click§! модернизация всех фабрик этого типа (§Y$NUMSPECIALFACTORIES$§!).\n;x
+EVTNAME19355;Великие Войны;x
+EVTDESC19355;Рост национальной гордости в разных странах по всему миру достиг такой точки, когда народы не принимают чего-то меньшего, чем полная победа в войнах с участием Великих Держав. Отныне любой конфликт, в котором участвуют хотя бы две Великие Державы с каждой стороны будет расценён как Первая Великая Война!;x
+EVTOPTA19355;С нами Бог!;x
+AGRESSION_WAR_INDEPENDENCE_NAME;$ORDER$$FIRST$ война за Независимость;x
+BYE;Беларусь;x
+BYE_ADJ;Беларусск.;x
+UBD;Объединенная Балтия;x
+UBD_ADJ;Балтийск.;x
+UBD_conservative;Консервативная народная партия;x
+UBD_liberal;Демократический центр;x
+UBD_reactionary;Союз Балтийских немцев;x
+UBD_anarcho_liberals;Радикальные демократы;x
+UBD_socialist;Социал-демократическая рабочая партия;x
+UBD_communist;Балтийские большевики;x
+UBD_fascist;Балтийско-немецкая национал-социалистическая партия;x
+BYE_conservative;Беларусская христианская демократия;x
+BYE_liberal;Либерально-демократическая партия;x
+BYE_reactionary;Национал-консервативная партия;x
+BYE_anarcho_liberals;Гражданско-революционная партия;x
+BYE_socialist;Беларусская социалистическая Громада;x
+BYE_communist;Партия Большевиков Беларуси;x
+BYE_fascist;Беларусская национал-социалистическая партия;x
+PLC;Речь Посполитая;x
+PLC_ADJ;Польско-литовск.;x
+PLC_conservative;Национал-демократическая партия;x
+PLC_liberal;Патриотическая партия;x
+PLC_reactionary;Блок в поддержку правительства;x
+PLC_anarcho_liberal;Радикальные демократы;x
+PLC_socialist;Социалистическая партия;x
+PLC_communist;Социал-демократическая партия;x
+PLC_fascist;Национально-радикальный лагерь;x
+ARA;Арабия;x
+ARA_ADJ;Арабск.;x
+ARA_conservative;Суннитская арабская партия;x
+ARA_liberal;Арабские демократы;x
+ARA_reactionary;Исламистская партия;x
+ARA_anarcho_liberals;Аль-Фатат;x
+ARA_socialist;Всеарабская социалистическая партия;x
+ARA_communist;Коммунистическая партия;x
+ARA_fascist;Мусульманское братство;x
+GCO;Великая Колумбия;x
+GCO_ADJ;Колумбийск.;x
+form_gran_colombia_title;Возрождение Великой Колумбии;x
+form_gran_colombia_desc;Симон Боливар, освободитель южноамериканских наций от испанского колониального господства создал единую и сильную Великую Колумбию, состоящую из Колумбии, Эквадора и Венесуэлы. Однако ещё при его жизни федерация распалась на небольшие слабые государства. Мы можем вернуться к заветам Боливара и вернуть нашим народам единую и сильную государственность.;x
+GCO_conservative;Централистская партия;x
+GCO_conservative_2;Обновлённые централисты;x
+GCO_liberal;Федералистская партия;x
+GCO_liberal_2;Новая Федералистская партия;x
+GCO_liberal_3;Регионалистская партия;x
+GCO_anarcho_liberal;Радикальная партия;x
+GCO_reactionary;Традиционалисты;x
+GCO_socialist;Революционно-социалистическая партия;x
+GCO_communist;Комунистическая партия Колумбии;x
+GCO_fascist;Колумбийская фаланга;x
+arab;Арабский;x
+form_arabia_title;Арабское отечество;x
+form_arabia_desc;Братья, свобода уже стучится в наши двери! Арабская нация уже выиграла борьбу за единство и свободу и готова начать путь к своему истинному величию в едином арабском национальном Отечестве!;x
+IS_EMPTY; не имеет владельца;x
+IS_NOT_EMPTY; имеет владельца;x
+EVTNAME111011928;Арабское государство;x
+EVTDESC111011928;Объединив под своим знаменем несколько арабских стран, арабские патриоты провозгласили «Единое арабское Отечество».;x
+EVTOPTA111011928;Разумеется.;x
+EVTOPTB111011928;Ни за что!;x
