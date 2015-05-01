@@ -1,0 +1,65 @@
+[main.cpp:208]: Not compiled with _DEBUG. Memory usage info will be limited.
+[main.cpp:241]: Used RAM before Text.csv [12020 KB]
+[main.cpp:348]: text.csv takes 6688KB memory.
+[eu3application.cpp:291]: Used RAM before sound&music [20584 KB]
+[eu3application.cpp:339]: Used RAM after sound init [25172 KB]
+[eu3application.cpp:350]: Used RAM CEU3Graphics construction [91088 KB]
+[eu3application.cpp:437]: Used RAM after .gfx files [136536 KB]
+[eu3application.cpp:445]: Used RAM after InitGraphics [297604 KB]
+[eu3application.cpp:510]: Used RAM after GUI loaded [303592 KB]
+[eu3application.cpp:518]: Used RAM after GUI inited [303604 KB]
+[eu3application.cpp:865]: Used RAM before databases loaded [303616 KB]
+[eu3application.cpp:1100]: Used RAM before Map Logics [307248 KB]
+[provincemanager.cpp:451]:      --------------------======================------------------
+[provincemanager.cpp:452]: Used RAM before World is created [771596 KB]
+[provincemanager.cpp:472]: Used video memory before World is created: 
+	Need to select debug runtime to be able to see used memory.
+
+[provincemanager.cpp:488]: [RAM usage] CEU3MapCache. [11884 KB]
+[provincemanager.cpp:489]: Used RAM  [783488 KB]
+[provincemanager.cpp:634]: [RAM usage] loading .fx [556 KB]
+[provincemanager.cpp:635]: Used RAM  [784044 KB]
+[provincemanager.cpp:708]: [RAM usage] terrain textures. [36988 KB]
+[provincemanager.cpp:709]: Used RAM  [821032 KB]
+[provincemanager.cpp:719]: [RAM usage] Beach manager. [260 KB]
+[provincemanager.cpp:720]: Used RAM  [821296 KB]
+[provincemanager.cpp:731]: [RAM usage] Province collision meshes [2068 KB]
+[provincemanager.cpp:732]: Used RAM  [823364 KB]
+[provincemanager.cpp:735]: Used video memory before CreateBorders(): 
+	Need to select debug runtime to be able to see used memory.
+
+[provincemanager.cpp:744]: [RAM usage] CreateBorders() [48424 KB]
+[provincemanager.cpp:745]: Used RAM  [871788 KB]
+[provincemanager.cpp:750]: Used video memory before CreateProvinceTexts(): 
+	Need to select debug runtime to be able to see used memory.
+
+[provincemanager.cpp:760]: [RAM usage] CreateProvinceTexts() [9780 KB]
+[provincemanager.cpp:761]: Used RAM  [883848 KB]
+[provincemanager.cpp:783]: Used video memory before CreateRivers(): 
+	Need to select debug runtime to be able to see used memory.
+
+[provincemanager.cpp:792]: [RAM usage] CreateRivers() [20492 KB]
+[provincemanager.cpp:793]: Used RAM  [904344 KB]
+[provincemanager.cpp:796]: Used video memory before CreateMesh(): 
+	Need to select debug runtime to be able to see used memory.
+
+[provincemanager.cpp:1750]: Used RAM (Create terrain textures) [925384 KB]
+[provincemanager.cpp:1823]: Used RAM (QuadDefinitionFileCorrect) [946952 KB]
+[provincemanager.cpp:1826]: Used RAM (Load Quads) [1129604 KB]
+[provincemanager.cpp:1838]: Used RAM (Write quad definition) [1129604 KB]
+[provincemanager.cpp:1860]: Used RAM (Border adjacency) [1129604 KB]
+[provincemanager.cpp:1873]: Used RAM (corner cache) [1082156 KB]
+[provincemanager.cpp:1882]: Used video memory before waves are created: 
+	Need to select debug runtime to be able to see used memory.
+
+[provincemanager.cpp:1885]: [RAM usage] Creating waves. [1932 KB]
+[provincemanager.cpp:1886]: Used RAM  [1084088 KB]
+[provincemanager.cpp:805]: [RAM usage] CreateMesh() [179744 KB]
+[provincemanager.cpp:806]: Used RAM  [1084088 KB]
+[provincemanager.cpp:874]: Used video memory after World is created: 
+	Need to select debug runtime to be able to see used memory.
+
+[provincemanager.cpp:892]: [RAM usage] DeleteInitData() [0 KB]
+[provincemanager.cpp:893]: [RAM usage] Eu3MapCache memory usage after cleanup [11884 KB]
+[provincemanager.cpp:895]: Used RAM after World is created [1084088 KB]
+

@@ -41,7 +41,7 @@
 	farmers = {
 		culture = polynesian
 		religion = protestant
-		size = 20025
+		size = 17025
 	}
 
 	clergymen = {
@@ -60,6 +60,27 @@
 		culture = polynesian
 		religion = catholic
 		size = 2000
+	}
+}
+3277 = {
+	farmers = {
+		culture = polynesian
+		religion = animist
+		size = 1016
+	}
+}
+3278 = {
+	farmers = {
+		culture = polynesian
+		religion = animist
+		size = 1016
+	}
+}
+3279 = {
+	farmers = {
+		culture = polynesian
+		religion = animist
+		size = 1016
 	}
 }
 #uncolonized in 1836

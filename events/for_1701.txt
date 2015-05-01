@@ -74,10 +74,6 @@ country_event = {
 			add_core = RUS
 			remove_core = BSK
 		}
-		1043 = {
-			secede_province = RUS
-			add_core = RUS
-		}		
 		1044 = {
 			secede_province = RUS
 			add_core = RUS
@@ -116,9 +112,6 @@ country_event = {
 		1059 = {
 			secede_province = RUS
 		}
-		1043 = {
-			secede_province = RUS
-		}		
 		1044 = {
 			secede_province = RUS
 		}
@@ -164,10 +157,6 @@ country_event = {
 			remove_core = BSK
 		}
 		1042 = {
-			add_core = RUS
-		}
-		1043 = {
-			secede_province = RUS
 			add_core = RUS
 		}
 			any_pop = {

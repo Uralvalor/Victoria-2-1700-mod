@@ -1,22 +1,0 @@
-owner = SPA
-controller = SPA
-colonial = 2
-add_core = GCO
-add_core = CLM
-add_core = PNM
-trade_goods = coffee
-life_rating = 30
-colonial = 3
-terrain = jungle_hills
-1836.1.1 = {
-	owner = CLM
-	controller = CLM
-	remove_core = SPA
-	remove_core = GCO
-	colonial = no
-}
-1914.1.1 = {
-	owner = PNM
-	controller = PNM
-	remove_core = CLM
-}

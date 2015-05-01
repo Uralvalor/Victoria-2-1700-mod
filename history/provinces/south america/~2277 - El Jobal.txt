@@ -1,27 +1,0 @@
- 
- 
-colonial = 2
-add_core = GCO
-add_core = VNZ
-trade_goods = fruit
-life_rating = 25
-terrain = seasonal_jungle_hills
-1836.1.1 = {
-	 
-	 
-	remove_core = SPA
-	remove_core = GCO
-	colonial = no
-}
-1914.1.1 = {
-	state_building = {
-		level = 1
-		building = paper_mill
-		upgrade = yes
-	}
-	state_building = {
-		level = 1
-		building = small_arms_factory
-		upgrade = yes
-	}
-}

@@ -714,36 +714,6 @@ country_event = {
 }
 country_event = {
 
-	id = 99517
-
-	trigger = {
-		tag = RUS
-		994 = {
-			has_building = railroad
-		}
-		NOT = {
-			year = 1836
-		}
-	}
-	
-	fire_only_once = yes
- 
-	mean_time_to_happen =  {
-		days = 1
-
-	}
-
-	title = "EVTNAME99517"
-	desc = "EVTDESC99517"
-	picture = "train"
-
-	option = {
-		name = "Постройка Царскосельской ж.д" 
-		prestige = 1
-	}
-}
-country_event = {
-
 	id = 99518
 
 	trigger = {

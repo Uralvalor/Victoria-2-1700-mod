@@ -2453,31 +2453,7 @@
 		religion = protestant
 		size = 28325
 	}
-	aristocrats = {
-		culture = ugrian
-		religion = animist
-		size = 348
-	}
-	clergymen = {
-		culture = ugrian
-		religion = animist
-		size = 54
-	}
-	artisans = {
-		culture = ugrian
-		religion = animist
-		size = 59
-	}
-	soldiers = {
-		culture = ugrian
-		religion = animist
-		size = 24
-	}
-	farmers = {
-		culture = ugrian
-		religion = animist
-		size = 16255
-	}
+
 }
 1029 = {
 
@@ -2488,6 +2464,81 @@
 	}
 }
 1030 = {
+	aristocrats = {
+		culture = mari 
+		religion = animist
+		size = 348
+	}
+	clergymen = {
+		culture = mari 
+		religion = animist
+		size = 54
+	}
+	artisans = {
+		culture = mari 
+		religion = animist
+		size = 59
+	}
+	soldiers = {
+		culture = mari 
+		religion = animist
+		size = 24
+	}
+	farmers = {
+		culture = mari 
+		religion = animist
+		size = 16255
+	}
+
+}
+1031 = {
+	aristocrats = {
+		culture = russian
+		religion = orthodox
+		size = 19
+	}
+	clergymen = {
+		culture = russian
+		religion = orthodox
+		size = 965
+	}
+	soldiers = {
+		culture = russian
+		religion = orthodox
+		size = 635
+	}
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 27668
+	}
+	aristocrats = {
+		culture = udmurt
+		religion = animist
+		size = 306
+	}
+	clergymen = {
+		culture = udmurt
+		religion = animist
+		size = 54
+	}
+	artisans = {
+		culture = udmurt
+		religion = animist
+		size = 1594
+	}
+	soldiers = {
+		culture = udmurt
+		religion = animist
+		size = 24
+	}
+	farmers = {
+		culture = udmurt
+		religion = animist
+		size = 2691
+	}
+}
+1032 = {
 	aristocrats = {
 		culture = russian
 		religion = orthodox
@@ -2588,7 +2639,59 @@
 		religion = sunni
 		size = 3309
 	}
+}
+1033 = {
 	aristocrats = {
+		culture = russian
+		religion = orthodox
+		size = 531
+	}
+	clergymen = {
+		culture = russian
+		religion = orthodox
+		size = 509
+	}
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 44000
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 10009
+	}
+	artisans = {
+		culture = mordva
+		religion = animist
+		size = 5685
+	}
+	aristocrats = {
+		culture = chuvash
+		religion = animist
+		size = 145
+	}
+	clergymen = {
+		culture = chuvash
+		religion = animist
+		size = 36
+	}
+	artisans = {
+		culture = chuvash
+		religion = animist
+		size = 152
+	}
+	soldiers = {
+		culture = chuvash
+		religion = animist
+		size = 36
+	}
+	farmers = {
+		culture = chuvash
+		religion = animist
+		size = 35100
+	}
+		aristocrats = {
 		culture = chuvash
 		religion = animist
 		size = 145
@@ -2614,58 +2717,17 @@
 		size = 13500
 	}
 }
-1031 = {
-	aristocrats = {
-		culture = russian
-		religion = orthodox
-		size = 19
-	}
-	clergymen = {
-		culture = russian
-		religion = orthodox
-		size = 965
-	}
-	soldiers = {
-		culture = russian
-		religion = orthodox
-		size = 635
-	}
-	farmers = {
-		culture = russian
-		religion = orthodox
-		size = 27668
-	}
-	aristocrats = {
-		culture = udmurt
-		religion = animist
-		size = 306
-	}
-	clergymen = {
-		culture = udmurt
-		religion = animist
-		size = 54
-	}
+1034 = {
+
 	artisans = {
-		culture = udmurt
+		culture = mordva
 		religion = animist
-		size = 1594
+		size = 3085
 	}
-	soldiers = {
-		culture = udmurt
-		religion = animist
-		size = 24
-	}
-	farmers = {
-		culture = udmurt
-		religion = animist
-		size = 2691
-	}
-}
-1032 = {
 	clergymen = {
 		culture = russian
 		religion = orthodox
-		size = 418
+		size = 50
 	}
 	artisans = {
 		culture = russian
@@ -2711,100 +2773,6 @@
 		culture = tatar
 		religion = orthodox
 		size = 2
-	}
-}
-1033 = {
-	aristocrats = {
-		culture = russian
-		religion = orthodox
-		size = 531
-	}
-	clergymen = {
-		culture = russian
-		religion = orthodox
-		size = 509
-	}
-	farmers = {
-		culture = russian
-		religion = orthodox
-		size = 44000
-	}
-	farmers = {
-		culture = russian
-		religion = protestant
-		size = 10009
-	}
-	artisans = {
-		culture = mordva
-		religion = animist
-		size = 8685
-	}
-	aristocrats = {
-		culture = chuvash
-		religion = animist
-		size = 145
-	}
-	clergymen = {
-		culture = chuvash
-		religion = animist
-		size = 36
-	}
-	artisans = {
-		culture = chuvash
-		religion = animist
-		size = 152
-	}
-	soldiers = {
-		culture = chuvash
-		religion = animist
-		size = 36
-	}
-	farmers = {
-		culture = chuvash
-		religion = animist
-		size = 35100
-	}
-}
-1034 = {
-	clergymen = {
-		culture = russian
-		religion = protestant
-		size = 327
-	}
-	artisans = {
-		culture = cossacian
-		religion = protestant
-		size = 527
-	}
-	soldiers = {
-		culture = cossacian
-		religion = protestant
-		size = 479
-	}
-	farmers = {
-		culture = russian
-		religion = protestant
-		size = 32153
-	}
-	clergymen = {
-		culture = tatar
-		religion = sunni
-		size = 54
-	}
-	artisans = {
-		culture = tatar
-		religion = sunni
-		size = 95
-	}
-	soldiers = {
-		culture = tatar
-		religion = sunni
-		size = 47
-	}
-	farmers = {
-		culture = tatar
-		religion = sunni
-		size = 3628
 	}
 }
 1035 = {
@@ -3314,6 +3282,48 @@
 	}
 }
 1043 = {
+	clergymen = {
+		culture = russian
+		religion = protestant
+		size = 327
+	}
+	artisans = {
+		culture = cossacian
+		religion = protestant
+		size = 527
+	}
+	soldiers = {
+		culture = cossacian
+		religion = protestant
+		size = 479
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 32153
+	}
+	clergymen = {
+		culture = tatar
+		religion = sunni
+		size = 54
+	}
+	artisans = {
+		culture = tatar
+		religion = sunni
+		size = 95
+	}
+	soldiers = {
+		culture = tatar
+		religion = sunni
+		size = 47
+	}
+	farmers = {
+		culture = tatar
+		religion = sunni
+		size = 3628
+	}
+}
+1044 = {
 	farmers = {
 		culture = tatar
 		religion = sunni
@@ -3349,8 +3359,6 @@
 		religion = sunni
 		size = 45
 	}
-}
-1044 = {
 	aristocrats = {
 		culture = bashkir
 		religion = sunni

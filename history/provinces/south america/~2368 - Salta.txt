@@ -1,25 +1,0 @@
-owner = SPA
-
-controller = SPA
-
-colonial = 2 
- 
-add_core = BOL
-add_core = ARG
-add_core = LPL
-trade_goods = wool
-life_rating = 35
-terrain = mountain_grassland
-1836.1.1 = {
-	owner = ARG
-	controller = ARG
-	add_core = BOL
-	remove_core = LPL
-}
-1914.1.1 = {
-	state_building = {
-		level = 2
-		building = regular_clothes_factory
-		upgrade = yes
-	}
-}

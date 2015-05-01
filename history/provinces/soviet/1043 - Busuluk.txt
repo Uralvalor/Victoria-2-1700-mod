@@ -1,14 +1,11 @@
-
-add_core = ORN
+owner = RUS
+controller = RUS
+add_core = RUS
 trade_goods = cattle
-life_rating = 32
-
-1750.1.1 = {
-	owner = RUS
-	controller = RUS
-        add_core = RUS
-}
+life_rating = 35
+fort = 1
 terrain = temperate_grassland
+
 1923.1.1 = {
 	owner = SOV
 	controller = SOV
