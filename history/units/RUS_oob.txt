@@ -25,7 +25,7 @@ leader = {
 }
 
 leader = {
-	name = "Alexander Menshikov"
+	name = "Alexandr Menshikov"
 	date = 1693.1.1
 	type = land
 	personality = competent 
@@ -40,9 +40,16 @@ leader = {
 	background = cavalry_school 
 }
 
+leader = {
+	name = "Anikita Repnin"
+	date = 1668.1.1
+	type = land
+	personality = openminded  
+	background = aristocrat  
+}
 
 army = {
-	name = "Army of Russia"
+	name = "Strelec Army"
 	location = 1003
 	regiment = {
 		name= "1st Artillery"
@@ -50,119 +57,145 @@ army = {
 		home = 1008
 	}
 	regiment = {
-		name= "7th Fusiliers"
+		name= "2th Fusiliers"
 		type = engineer
 		home = 1008
 	}
 	regiment = {
-		name= "4th Line"
+		name= "3th Line"
 		type = cavalry
+		home = 1008
+	}
+	regiment = {
+		name= "4th Line"
+		type = infantry
 		home = 1008
 	}
 	regiment = {
 		name= "5th Line"
-		type = cavalry
+		type = infantry
 		home = 1008
 	}
 	regiment = {
 		name= "6th Line"
-		type = cavalry
-		home = 1008
-	}
-	regiment = {
-		name= "4th Line"
-		type = cavalry
+		type = infantry
 		home = 1008
 	}
 
 	regiment = {
-		name= "16th Line"
+		name= "7th Line"
 		type = infantry
 		home = 1008
 	}    
-		regiment = {
-		name= "14th Line"
+	regiment = {
+		name= "8th Line"
 		type = infantry
 		home = 1008
 	}
 	regiment = {
-		name= "15th Line"
+		name= "9th Line"
 		type = infantry
 		home = 1008
 	}
-	regiment = {
-		name= "16th Line"
-		type = infantry
-		home = 1008
-	}    
 }
 army = {
-	name = "Reserve Army"
+	name = "Recruits"
 	location = 1008
 	regiment = {
-		name= "5th Line"
-		type = cavalry
-		home = 1008
+		name= "1th Line"
+		type = dragoon
+		home = 1042
 	}
 	regiment = {
-		name= "5th Line"
-		type = cavalry
-		home = 1008
+		name= "2th Line"
+		type = dragoon
+		home = 1042
 	}
 	regiment = {
-		name= "6th Line"
-		type = cavalry
-		home = 1008
+		name= "3th Line"
+		type = infantry
+		home = 1019
 	}
 	regiment = {
 		name= "4th Line"
-		type = cavalry
-		home = 1008
+		type = infantry
+		home = 1019
+	}
+	regiment = {
+		name= "5th Line"
+		type = infantry
+		home = 1020
 	}
 	regiment = {
 		name= "6th Line"
-		type = cavalry
-		home = 1008
-	}
-		regiment = {
-		name= "6th Line"
-		type = cavalry
-		home = 1008
+		type = infantry
+		home = 1025
 	}
 	regiment = {
-		name= "14th Line"
+		name= "7th Line"
 		type = infantry
-		home = 1008
+		home = 1012
+	}
+}
+
+army = {
+	name = "3th generalstvo"
+	location = 947
+	regiment = {
+		name= "8th Line"
+		type = infantry
+		home = 1011
 	}
 	regiment = {
-		name= "15th Line"
+		name= "9th Line"
 		type = infantry
-		home = 1008
+		home = 1041
 	}
- }
+	regiment = {
+		name= "10th Line"
+		type = infantry
+		home = 1041
+	}
+	regiment = {
+		name= "11th Line"
+		type = infantry
+		home = 1041
+	}
+	regiment = {
+		name= "12th Line"
+		type = infantry
+		home = 1036
+	}
+	regiment = {
+		name= "13th Line"
+		type = infantry
+		home = 1036
+	}
+}
+ 
 navy = {
 	name = "Azov Fleet"
 	location = 1047
 	ship = {
-		name= "Апостол Пётр"
+		name= "Apostle Peter"
 		type = frigate
 	}
 
 	ship = {
-		name= "Апостол Павел"
+		name= "Apostle Pavel"
 		type = frigate
 	}
 
 	ship = {
-		name= "Крепость"
+		name= "Krepost"
 		type = manowar
 	}
 	ship = {
-		name= "Галеры"
+		name= "Gallery"
 		type = clipper_transport
 	}
 	ship = {
-		name= "Галеры"
+		name= "Gallery"
 		type = clipper_transport
 	}
 	
