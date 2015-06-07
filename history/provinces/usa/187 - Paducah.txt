@@ -1,7 +1,12 @@
-owner = FRA
-controller = FRA
-colonial = 2 
- 
+#balance
+#owner = FRA
+#controller = FRA
+#colonial = 2 
+1750.1.1 = {
+	owner = FRA
+	controller = FRA
+colony = 2
+}
 trade_goods = cattle
 life_rating = 35
 terrain = forested_farmland

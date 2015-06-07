@@ -407,7 +407,7 @@ Sanction = {
 		RUS_718 = {
 			secede_province = PLC
 		}
-		RUS_937 = {
+		RUS_719 = {
 			secede_province = PLC
 		}
 		relation = {
@@ -694,7 +694,7 @@ value = 120
 			war = no
 			prestige = 65
 			owns = 718
-			owns = 360
+			owns = 958
 			owns = 956
 			enlightenment_philosophy = 1
 		}
@@ -708,22 +708,25 @@ value = 120
 			RUS_336 = {
 				add_core = RUS
 			}
-			RUS_360 = {
+			RUS_946 = {
 				add_core = RUS
 			}
 			RUS_718 = {
 				add_core = RUS
 			}
-			719 = {
+			RUS_980 = {
+				add_core = RUS
+			}
+			RUS_972 = {
+				add_core = RUS
+			}
+			RUS_719 = {
 				add_core = RUS
 			}
 			RUS_936 = {
 				add_core = RUS
 			}
 			RUS_958 = {
-				add_core = RUS
-			}
-			RUS_937 = {
 				add_core = RUS
 			}
 			RUS_954 = {
@@ -738,7 +741,7 @@ value = 120
 			RUS_357 = {
 				add_core = RUS
 			}
-			prestige = 5
+			prestige = 15
 			set_country_flag = collector_of_russian_lands
 		}
 	}

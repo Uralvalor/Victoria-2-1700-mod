@@ -4468,6 +4468,8 @@ country_event = {
 	trigger = {
 		tag = RUS
 		year = 1828
+		OR = { exists = CRC 
+		       exists = NCI }
 		NOT = {
 			year = 1836
 		}
@@ -4698,6 +4700,7 @@ country_event = {
 		tag = RUS
 		war = no
 		is_greater_power = yes
+                year = 1795
 		NOT = {
 			year = 1825
 		}

@@ -15,6 +15,10 @@ party_loyalty = {
 	owner = ENG
 	controller = ENG
 }
+1750.1.1 = {
+
+naval_base = 1
+}
 1816.1.1 = { state_building = {
 	level = 1
 	building = cement_factory

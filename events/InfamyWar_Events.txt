@@ -117,7 +117,7 @@ country_event = {
 		name = "EVTOPTA96150" #Excellent
 		remove_country_modifier = international_pariah
                 clr_country_flag = Infany_war_going
-		prestige = 250
+		prestige = 5
 		badboy = -1000
 	}
 }
@@ -130,7 +130,7 @@ country_event = {
 	picture = "greatpowers"
 
 	trigger = {
-		has_global_flag = ultimatum_refused
+		has_country_modifier = international_pariah
 		is_disarmed = yes
 	}
 
@@ -142,7 +142,7 @@ country_event = {
 		name = "EVTOPTA96147"
 		remove_country_modifier = international_pariah
                 clr_country_flag = Infany_war_going
-		prestige = -250
+		prestige = -10
 		badboy = -1000
 		badboy = 24.99
 	}

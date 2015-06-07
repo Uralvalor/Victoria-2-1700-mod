@@ -244,15 +244,11 @@ country_event = {
 	picture = "AnarchoLiberals"
 	
 	trigger = {
-	 OR  = {	AND = { exists = USA 
-                                USA = { is_vassal = no }
-	                        USA = { war = no }
-                        }
-                        AND = { exists = LOU
-                          LOU = { is_vassal = no }
-	                  LOU = { war = no }
-                        }
-               }
+ capital_scope = {
+					continent = north_america 
+				} 
+is_vassal = no 
+war = no 
 		NOT = {
 			is_ideology_enabled = liberal 
 		}

@@ -5,6 +5,10 @@ add_core = BRZ
 trade_goods = tobacco
 life_rating = 35
 terrain = seasonal_jungle
+1750.1.1 = {
+
+naval_base = 1
+}
 1836.1.1 = {
 	owner = BRZ
 	controller = BRZ
