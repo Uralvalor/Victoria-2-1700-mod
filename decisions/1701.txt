@@ -34,7 +34,7 @@ Sanction = {
 		}
 	}
 		ai_will_do = {
-			factor = 0
+			factor = 0.6
 			modifier = {
 				factor = 0.5			
 				trade_policy = protectionism 
@@ -176,7 +176,7 @@ Sanction = {
 			ai_will_do = { factor = 1 }
 	}
 
-		declare_great_britan = {
+	declare_great_britan = {
 			potential = {
 			tag = ENL
 			is_greater_power= yes

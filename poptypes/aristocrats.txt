@@ -51,7 +51,16 @@ luxury_needs = {
 country_migration_target =
 {
 	factor = 1
+	
 
+	modifier = {
+		factor = 3
+		is_sphere_leader_of = THIS
+	}
+	modifier = {
+		factor = 0.25
+		neighbour = FROM
+	}
 	modifier = {
 		factor = 0.9
 		unemployment = 0.05
@@ -3245,26 +3254,26 @@ issues =
 		}
 	}
 
-	gun_hunter  = {
+	no_state_religion = {
 		factor = 1
 		modifier = {
 			factor = 0 
 			OR = {
-				press_rights = gun_hunter 
-				press_rights = gun_open 
+				religious_rights = no_state_religion 
+				religious_rights = irreligion_religion 
 				NOT = { consciousness = 5 }
 				NOT = { literacy = 0.40 }
 				NOT = { life_needs = 1 }
 			}
 		}
 		modifier = {
-			factor = 0.25
+			factor = 0.1
 			country = {
 				civilized = no
 			}
 		}
 		modifier = {
-			factor = 0.25
+			factor = 0.1
 			NOT = { literacy = 0.20 }
 		}
 		modifier = {
@@ -3308,13 +3317,13 @@ issues =
 			consciousness = 9
 		}
 	}
-	gun_open  = {
+	irreligion_religion = {
 		factor = 1
 		modifier = {
 			factor = 0 
 			OR = {
-				press_rights = gun_open 
-				press_rights = gun_hunter 
+				religious_rights = no_state_religion 
+				religious_rights = irreligion_religion 
 				NOT = { consciousness = 5 }
 				NOT = { literacy = 0.40 }
 				NOT = { life_needs = 1 }

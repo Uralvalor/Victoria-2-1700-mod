@@ -884,7 +884,7 @@ guiTypes = {
 
 			}
 			windowType = {
-			name = "gun_regulation"
+			name = "religious_rights"
 			backGround =""
 			position = { x = 686 y = 535 }
 			size = { x=686 y= 100}
@@ -896,7 +896,7 @@ guiTypes = {
 			
 				iconType = {
 				name = "politics_gun"
-				spriteType = "GFX_tutorial_a_mil3"
+				spriteType = "GFX_politics_irreligion"
 				position = { x= 11 y = 7 } #WAS { x= 7 y = 8 }
 				Orientation = "UPPER_LEFT"
 					}

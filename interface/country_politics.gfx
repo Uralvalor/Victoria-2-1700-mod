@@ -138,6 +138,10 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\politics_upperhouse.dds"
 	}
 	spriteType = {
+		name = "GFX_politics_irreligion"
+		texturefile = "gfx\\interface\\politics_irreligion.dds"
+	}
+	spriteType = {
 		name = "GFX_politics_slavery"
 		texturefile = "gfx\\interface\\politics_slavery.dds"
 	}

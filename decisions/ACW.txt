@@ -953,8 +953,8 @@ political_decisions = {
 	
 	webster_ashburton_treaty = {
 		potential = {
+                        exist = USA
 			tag = ENG
-			owns = 250
 			NOT = {
 				has_country_flag = webster_ashburton_signed
 			}
@@ -962,6 +962,7 @@ political_decisions = {
 		}
 		
 		allow = {
+			owns = 250
 			NOT = {
 				war_with = USA
 			}

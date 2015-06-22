@@ -345,7 +345,12 @@ migration_chance =
 			has_factories = yes
 			}
 	}
-
+	modifier = {
+		# prevent mass migration to minority areas (like chines to autonomous regions ) THIS DOES NOT WORK!?
+		factor = -1
+		is_primary_culture  = yes
+		location = { NOT = { is_primary_culture = yes } }
+	}
 	group = {
 		modifier = {
 			factor = 0.3
@@ -693,6 +698,7 @@ conversion_chance =
 		}
 	}
 
+
 	group = {
 		modifier = {
 			factor = 0.05
@@ -707,6 +713,14 @@ conversion_chance =
 			not = { life_needs = 0.7 }
 		}
 	}
+		modifier = {
+			factor = -0.5
+		country = { religious_rights = no_state_religion }
+		}
+		modifier = {
+			factor = -1
+		country = { religious_rights = irreligion_religion }
+		}
 
 	modifier = {
 		factor = -0.1

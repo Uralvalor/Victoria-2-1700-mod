@@ -74,7 +74,7 @@ non_civil_1700 = {
 	trigger = { 					
 		not = { 
 		year = 1810
-        civilized = yes 
+                civilized = yes 
 		civilization_progress = 0.22	}
 	}
 	research_points_modifier = -0.9

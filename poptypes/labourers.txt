@@ -44,18 +44,12 @@ country_migration_target =
 	factor = 1
 
 	modifier = {
-		factor = 0.1
-		unemployment = 0.1
+		factor = 3
+		is_sphere_leader_of = THIS
 	}
 	modifier = {
-		factor = 0.8
-		religious_policy = moralism
-		not = { religion = THIS }
-	}
-	modifier = {
-		factor = 1.2
-		religious_policy = moralism
-		religion = THIS
+		factor = 0.25
+		neighbour = FROM
 	}
 	modifier = {
 		factor = 1.2
@@ -2346,6 +2340,69 @@ issues =
 
 ################################################################REFORMS#######################################################################	
 	
+
+	state_religion = {
+		factor = 1
+		modifier = {
+			factor = 0 
+			OR = {
+				religious_rights = state_religion
+				consciousness = 6
+				literacy = 0.50 
+			}
+		}
+		modifier = {
+			factor = 1.1
+			country = {
+				civilized = no
+			}
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { literacy = 0.20 }
+		}
+		modifier = {
+			factor = -0.25
+			literacy = 0.30
+		}
+		modifier = {
+			factor = -0.25
+			literacy = 0.50
+		}
+		modifier = {
+			factor = -0.25
+			literacy = 0.60
+		}
+		modifier = {
+			factor = -0.25
+			literacy = 0.70
+		}
+		modifier = {
+			factor = -0.25
+			literacy = 0.80
+		}
+		modifier = {
+			factor = -0.25
+			literacy = 0.90
+		}
+		modifier = {
+			factor = -0.25
+			consciousness = 6
+		}
+		modifier = {
+			factor = -0.25
+			consciousness = 7
+		}
+		modifier = {
+			factor = -0.25
+			consciousness = 8
+		}
+		modifier = {
+			factor = -0.25
+			consciousness = 9
+		}
+	}
+
 	yes_slavery = {
 		factor = 1
 		modifier = {

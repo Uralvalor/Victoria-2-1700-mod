@@ -88,4 +88,9 @@ pagan = {
 		pagan = yes
 		
 	}
+
+	irreligion = {
+		icon = 14
+		color = { 1 0.71 0.75 }
+	}
 }

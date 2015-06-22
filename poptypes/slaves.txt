@@ -63,12 +63,12 @@ issues = {
 }
 country_migration_target =
 {
-modifier = {
-		factor = 1
-		state_scope = {
-			is_slave = yes
+		modifier = {
+			factor = 1 
+			country = {
+				slavery = yes_slavery
+			}
 		}
-	}
 }
 
 migration_target = {

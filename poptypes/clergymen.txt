@@ -67,6 +67,15 @@ country_migration_target =
 {
 	factor = 1
 
+
+	modifier = {
+		factor = 3
+		is_sphere_leader_of = THIS
+	}
+	modifier = {
+		factor = 0.25
+		neighbour = FROM
+	}
 	modifier = {
 		factor = 0.1
 		unemployment = 0.1
