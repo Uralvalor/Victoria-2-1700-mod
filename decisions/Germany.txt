@@ -281,6 +281,7 @@ political_decisions = {
 	the_heligoland_question = {
 		potential = {
 			tag = GER
+                        NOT = { 533 = { owner = THIS } }
 			NOT = {
 				has_country_flag = has_questioned_heligoland
 			}

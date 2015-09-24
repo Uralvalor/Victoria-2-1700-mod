@@ -2174,10 +2174,16 @@
 	}
 }
 3259 = {
+
+	aristocrats = {
+		culture = mordva
+		religion = animist
+		size = 230
+	}
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 3606
+		size = 3406
 	}
 	farmers = {
 		culture = mordva
@@ -2661,10 +2667,15 @@
 		religion = protestant
 		size = 10009
 	}
+	aristocrats = {
+		culture = mordva
+		religion = animist
+		size = 130
+	}
 	artisans = {
 		culture = mordva
 		religion = animist
-		size = 5685
+		size = 5585
 	}
 	aristocrats = {
 		culture = chuvash
@@ -2719,10 +2730,15 @@
 }
 1034 = {
 
+	aristocrats = {
+		culture = mordva
+		religion = animist
+		size = 200
+	}
 	artisans = {
 		culture = mordva
 		religion = animist
-		size = 3085
+		size = 2885
 	}
 	clergymen = {
 		culture = russian

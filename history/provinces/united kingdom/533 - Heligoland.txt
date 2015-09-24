@@ -1,14 +1,9 @@
-owner = ENL
-controller = ENL
-add_core = ENL
+owner = SCH
+controller = SCH
+add_core = SCH
 trade_goods = fish
 life_rating = 35
 terrain = hilly_farmland
-1750.1.1 = {
-	owner = ENG
-	controller = ENG
-add_core = ENG
-}
 1914.1.1 = {
 	owner = GER
 	controller = GER

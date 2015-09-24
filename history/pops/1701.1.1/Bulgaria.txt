@@ -61,7 +61,7 @@
 	}
 
 	bureaucrats = {
-		culture = bulgarian
+		culture = greek
 		religion = orthodox
 		size = 260
 	}
@@ -81,7 +81,7 @@
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 1625
+		size = 28025
 	}
 
 	soldiers = {
@@ -106,12 +106,6 @@
 		culture = bulgarian
 		religion = orthodox
 		size = 1560
-	}
-
-	farmers = {
-		culture = bulgarian
-		religion = orthodox
-		size = 26276
 	}
 
 	clergymen = {
@@ -179,13 +173,13 @@
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 325
+		size = 10325
 	}
 
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 19128
+		size = 9128
 	}
 
 	clergymen = {
@@ -241,13 +235,13 @@
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 488
+		size = 10488
 	}
 
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 25433
+		size = 15433
 	}
 
 	clergymen = {
@@ -303,13 +297,13 @@
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 715
+		size = 10715
 	}
 
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 24473
+		size = 14473
 	}
 }
 #Shumen (144000/36000 POPS)
@@ -353,13 +347,13 @@
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 553
+		size = 4553
 	}
 
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 14950
+		size = 10950
 	}
 }
 #Varna (220000/55000 POPS)
@@ -379,7 +373,7 @@
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 1365
+		size = 4365
 	}
 
 	soldiers = {
@@ -391,7 +385,7 @@
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 8076
+		size = 5076
 	}
 
 	clergymen = {
@@ -467,13 +461,13 @@
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 293
+		size = 4293
 	}
 
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 8759
+		size = 4759
 	}
 
 	clergymen = {
@@ -571,13 +565,13 @@
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 293
+		size = 3293
 	}
 
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 7459
+		size = 4459
 	}
 
 	clergymen = {
@@ -645,13 +639,13 @@
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 358
+		size = 6358
 	}
 
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 16429
+		size = 10429
 	}
 
 	clergymen = {
@@ -752,7 +746,7 @@
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 293
+		size = 2293
 	}
 
 	soldiers = {
@@ -764,6 +758,6 @@
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 4665  
+		size = 2665  
 	}
 }

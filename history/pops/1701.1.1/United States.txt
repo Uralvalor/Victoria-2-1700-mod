@@ -560,44 +560,50 @@
 	}
 }
 139 = {
+
+	aristocrats = {
+		culture = dixie
+		religion = catholic
+		size = 59
+	}
 	clergymen = {
 		culture = french
-		religion = protestant
+		religion = catholic
 		size = 7
 	}
 	artisans = {
 		culture = french
-		religion = protestant
+		religion = catholic
 		size = 46
 	}
 	soldiers = {
 		culture = french
-		religion = protestant
+		religion = catholic
 		size = 16
 	}
 	farmers = {
 		culture = french
-		religion = protestant
+		religion = catholic
 		size = 1155
 	}
 	clergymen = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 3
 	}
 	artisans = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 12
 	}
 	soldiers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 5
 	}
 	farmers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 342
 	}
 	artisans = {
@@ -1377,7 +1383,7 @@
 }
 220 = {
 	aristocrats = {
-		culture = english
+		culture = yankee
 		religion = protestant
 		size = 34
 	}
@@ -1507,7 +1513,7 @@
 		religion = protestant
 		size = 813
 	}
-	soldiers = {
+	craftsmen = {
 		culture = english
 		religion = protestant
 		size = 149

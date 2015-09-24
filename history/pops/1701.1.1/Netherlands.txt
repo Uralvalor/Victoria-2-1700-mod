@@ -32,7 +32,7 @@
 	craftsmen = {
 		culture = dutch
 		religion = protestant
-		size = 20400
+		size = 35400
 	}
 	soldiers = {
 		culture = dutch
@@ -42,7 +42,7 @@
 	artisans = {
 		culture = dutch
 		religion = protestant
-		size = 41445
+		size = 26445
 	}
 	artisans = {
 		culture = flemish
@@ -111,7 +111,12 @@
 	farmers = {
 		culture = dutch
 		religion = protestant
-		size = 14346
+		size = 13946
+	}
+	craftsmen = {
+		culture = dutch
+		religion = protestant
+		size = 846
 	}
 }
 378 = {

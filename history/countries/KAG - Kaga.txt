@@ -6,6 +6,8 @@ plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.40
 
+set_country_flag = fudai_daimyo
+
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
@@ -36,8 +38,6 @@ upper_house = {
 	communist = 0
 }
 
-set_country_flag = existing_country
-set_country_flag = fudai_daimyo
 
 # Inventions
 

@@ -1,6 +1,7 @@
 owner = AUS
 controller = AUS
 add_core = AUS
+add_core = HRE
  
 terrain = city_619
 trade_goods = grain
@@ -11,11 +12,16 @@ fort = 1
 #	building = regular_clothes_factory
 #	upgrade = yes
 #}
-#state_building = {
-#	level = 1
-#	building = small_arms_factory
-#	upgrade = yes
-#}
+state_building = {
+		level = 1
+		building = fabric_factory
+		upgrade = yes
+	}
+state_building = {
+	level = 1
+	building = small_arms_factory
+	upgrade = yes
+}
 1861.1.1 = { railroad = 2 }
 1861.1.1 = {
 	state_building = {

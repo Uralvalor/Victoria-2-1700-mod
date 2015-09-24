@@ -38,65 +38,66 @@ NET = {
 }
 
 
+
 army = {
 	name = "1st Army"
 	location = 378
 	regiment = {
 		name= "1st Cavalry Regiment"
 		type = cavalry
-		home = 300
+		home = 299
 	}
 	regiment = {
 		name= "1st Cavalry Regiment"
-		type = cavalry
-		home = 300
+		type = cuirassier
+		home = 298
 	}
 	regiment = {
 		name= "1st Cavalry Regiment"
-		type = cavalry
-		home = 300
+		type = cuirassier
+		home = 282
 	}
 
 	regiment = {
 		name= "1st Artillery Regiment"
 		type = artillery
-		home = 273
+		home = 294
 	}
 	regiment = {
 		name= "1st Artillery Regiment"
 		type = artillery
-		home = 273
+		home = 295
 	}
 
 	regiment = {
 		name= "3rd Line Infantry Regiment"
-		type = infantry
-		home = 300
+		type = guard
+		home = 281
+	}
+	regiment = {
+		name= "3rd Line Infantry Regiment"
+		type = guard
+		home = 283
+	}
+	regiment = {
+		name= "3rd Line Infantry Regiment"
+		type = guard
+		home = 279
+	}
+	regiment = {
+		name= "3rd Line Infantry Regiment"
+		type = guard
+		home = 284
+	}
+	regiment = {
+		name= "3rd Line Infantry Regiment"
+		type = guard
+		home = 285
 	}
 	regiment = {
 		name= "3rd Line Infantry Regiment"
 		type = infantry
-		home = 300
-	}
-	regiment = {
-		name= "3rd Line Infantry Regiment"
-		type = infantry
-		home = 300
-	}
-	regiment = {
-		name= "3rd Line Infantry Regiment"
-		type = infantry
-		home = 300
-	}
-	regiment = {
-		name= "3rd Line Infantry Regiment"
-		type = infantry
-		home = 300
-	}
-	regiment = {
-		name= "3rd Line Infantry Regiment"
-		type = infantry
-		home = 300
+		home = 286
 	}
 	regiment = {
 		name= "3rd Line Infantry Regiment"
@@ -138,57 +139,57 @@ army = {
 
 	regiment = {
 		name= "2.2nd Cavalry Division"
-		type = cavalry
+		type = cuirassier
 		home = 297
 	}
 
 	regiment = {
 		name= "3.2nd Cavalry Division"
-		type = cavalry
+		type = cuirassier
 		home = 260
 	}
 
 	regiment = {
 		name= "1.11th Division"
-		type = infantry
+		type = guard
 		home = 296
 	}
 
 	regiment = {
 		name= "2.11th Division"
-		type = infantry
+		type = guard
 		home = 280
 	}
 
 	regiment = {
 		name= "2.11th Division"
-		type = infantry
-		home = 300
+		type = guard
+		home = 290
+	}
+	regiment = {
+		name= "2.11th Division"
+		type = guard
+		home = 287
+	}
+	regiment = {
+		name= "2.11th Division"
+		type = guard
+		home = 289
+	}
+	regiment = {
+		name= "2.11th Division"
+		type = guard
+		home = 301
+	}
+	regiment = {
+		name= "2.11th Division"
+		type = guard
+		home = 302
 	}
 	regiment = {
 		name= "2.11th Division"
 		type = infantry
-		home = 300
-	}
-	regiment = {
-		name= "2.11th Division"
-		type = infantry
-		home = 300
-	}
-	regiment = {
-		name= "2.11th Division"
-		type = infantry
-		home = 300
-	}
-	regiment = {
-		name= "2.11th Division"
-		type = infantry
-		home = 300
-	}
-	regiment = {
-		name= "2.11th Division"
-		type = infantry
-		home = 300
+		home = 303
 	}
 	regiment = {
 		name= "2.11th Division"
@@ -202,7 +203,6 @@ army = {
 	}
 
 }
-
 
 navy = {
 	name = "Channel Fleet"

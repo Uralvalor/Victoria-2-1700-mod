@@ -2,646 +2,646 @@
 	aristocrats = {
 		culture = spanish
 		religion = catholic
-		size = 24
+	        size = 64
 	}
 	bureaucrats = {
 		culture = spanish
 		religion = catholic
-		size = 48
+	        size = 128
 	}
 	clergymen = {
 		culture = spanish
 		religion = catholic
-		size = 29
+	        size = 78
 	}
 	artisans = {
 		culture = spanish
 		religion = catholic
-		size = 126
+	        size = 340
 	}
 	soldiers = {
 		culture = spanish
 		religion = catholic
-		size = 11
+	        size = 28
 	}
 	aristocrats = {
 		culture = filipino
 		religion = animist
-		size = 150
+	        size = 404
 	}
 	bureaucrats = {
 		culture = filipino
 		religion = animist
-		size = 54
+	        size = 144
 	}
 	clergymen = {
 		culture = filipino
 		religion = animist
-		size = 90
+	        size = 242
 	}
 	artisans = {
 		culture = filipino
 		religion = animist
-		size = 3487
+	        size = 9414
 	}
 	soldiers = {
 		culture = filipino
 		religion = animist
-		size = 481
+	        size = 1298
 	}
 	farmers = {
 		culture = filipino
 		religion = animist
-		size = 16420
+	        size = 44334
 	}
 	artisans = {
 		culture = nanfaren
 		religion = animist
-		size = 144
+	        size = 388
 	}
 	farmers = {
 		culture = nanfaren
 		religion = animist
-		size = 96
+	        size = 258
 	}
 	clergymen = {
 		culture = malay
 		religion = animist
-		size = 8
+	        size = 20
 	}
 	artisans = {
 		culture = malay
 		religion = animist
-		size = 120
+	        size = 324
 	}
 	soldiers = {
 		culture = malay
 		religion = animist
-		size = 24
+	        size = 64
 	}
 	farmers = {
 		culture = malay
 		religion = animist
-		size = 2131
+	        size = 5752
 	}
 }
 1456 = {
 	aristocrats = {
 		culture = filipino
 		religion = catholic
-		size = 120
+	        size = 324
 	}
 	clergymen = {
 		culture = filipino
 		religion = catholic
-		size = 75
+	        size = 202
 	}
 	artisans = {
 		culture = filipino
 		religion = catholic
-		size = 883
+	        size = 2384
 	}
 	soldiers = {
 		culture = filipino
 		religion = animist
-		size = 180
+	        size = 486
 	}
 	farmers = {
 		culture = filipino
 		religion = animist
-		size = 16176
+	        size = 43674
 	}
 	clergymen = {
 		culture = asian_minor
 		religion = animist
-		size = 5
+	        size = 12
 	}
 	artisans = {
 		culture = asian_minor
 		religion = animist
-		size = 29
+	        size = 78
 	}
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 5
+	        size = 12
 	}
 	farmers = {
 		culture = asian_minor
 		religion = animist
-		size = 799
+	        size = 2156
 	}
 }
 1457 = {
 	aristocrats = {
 		culture = filipino
 		religion = catholic
-		size = 120
+	        size = 324
 	}
 	clergymen = {
 		culture = filipino
 		religion = catholic
-		size = 75
+	        size = 202
 	}
 	artisans = {
 		culture = filipino
 		religion = animist
-		size = 781
+	        size = 2108
 	}
 	soldiers = {
 		culture = filipino
 		religion = animist
-		size = 162
+	        size = 436
 	}
 	farmers = {
 		culture = filipino
 		religion = animist
-		size = 14733
+	        size = 39778
 	}
 	clergymen = {
 		culture = malay
 		religion = animist
-		size = 5
+	        size = 12
 	}
 	artisans = {
 		culture = malay
 		religion = animist
-		size = 59
+	        size = 158
 	}
 	soldiers = {
 		culture = malay
 		religion = animist
-		size = 11
+	        size = 28
 	}
 	farmers = {
 		culture = malay
 		religion = animist
-		size = 1004
+	        size = 2710
 	}
 }
 1458 = {
 	aristocrats = {
 		culture = filipino
 		religion = animist
-		size = 48
+	        size = 128
 	}
 	clergymen = {
 		culture = filipino
 		religion = animist
-		size = 21
+	        size = 56
 	}
 	artisans = {
 		culture = filipino
 		religion = animist
-		size = 252
+	        size = 680
 	}
 	soldiers = {
 		culture = filipino
 		religion = animist
-		size = 54
+	        size = 144
 	}
 	farmers = {
 		culture = filipino
 		religion = animist
-		size = 4674
+	        size = 12618
 	}
 	clergymen = {
 		culture = filipino
 		religion = sunni
-		size = 14
+	        size = 36
 	}
 	artisans = {
 		culture = filipino
 		religion = sunni
-		size = 90
+	        size = 242
 	}
 	soldiers = {
 		culture = filipino
 		religion = sunni
-		size = 11
+	        size = 28
 	}
 	farmers = {
 		culture = filipino
 		religion = sunni
-		size = 1325
+	        size = 3576
 	}
 }
 1459 = {
 	aristocrats = {
 		culture = filipino
 		religion = animist
-		size = 2
+	        size = 4
 	}
 	clergymen = {
 		culture = filipino
 		religion = animist
-		size = 2
+	        size = 4
 	}
 	artisans = {
 		culture = filipino
 		religion = animist
-		size = 24
+	        size = 64
 	}
 	soldiers = {
 		culture = filipino
 		religion = animist
-		size = 5
+	        size = 12
 	}
 	farmers = {
 		culture = filipino
 		religion = animist
-		size = 444
+	        size = 1198
 	}
 	aristocrats = {
 		culture = filipino
 		religion = sunni
-		size = 8
+	        size = 20
 	}
 	clergymen = {
 		culture = filipino
 		religion = sunni
-		size = 5
+	        size = 12
 	}
 	artisans = {
 		culture = filipino
 		religion = sunni
-		size = 35
+	        size = 94
 	}
 	soldiers = {
 		culture = filipino
 		religion = sunni
-		size = 8
+	        size = 20
 	}
 	farmers = {
 		culture = filipino
 		religion = sunni
-		size = 661
+	        size = 1784
 	}
 	clergymen = {
 		culture = asian_minor
 		religion = animist
-		size = 8
+	        size = 20
 	}
 	artisans = {
 		culture = asian_minor
 		religion = animist
-		size = 54
+	        size = 144
 	}
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 11
+	        size = 28
 	}
 	farmers = {
 		culture = asian_minor
 		religion = animist
-		size = 1127
+	        size = 3042
 	}
 }
 1460 = {
 	aristocrats = {
 		culture = filipino
 		religion = animist
-		size = 78
+	        size = 210
 	}
 	clergymen = {
 		culture = filipino
 		religion = animist
-		size = 42
+	        size = 112
 	}
 	artisans = {
 		culture = filipino
 		religion = animist
-		size = 420
+	        size = 1134
 	}
 	soldiers = {
 		culture = filipino
 		religion = animist
-		size = 90
+	        size = 242
 	}
 	farmers = {
 		culture = filipino
 		religion = animist
-		size = 7786
+	        size = 21022
 	}
 	clergymen = {
 		culture = filipino
 		religion = sunni
-		size = 8
+	        size = 20
 	}
 	artisans = {
 		culture = filipino
 		religion = sunni
-		size = 59
+	        size = 158
 	}
 	soldiers = {
 		culture = filipino
 		religion = sunni
-		size = 11
+	        size = 28
 	}
 	farmers = {
 		culture = filipino
 		religion = sunni
-		size = 880
+	        size = 2376
 	}
 }
 1461 = {
 	aristocrats = {
 		culture = filipino
 		religion = animist
-		size = 90
+	        size = 242
 	}
 	clergymen = {
 		culture = filipino
 		religion = animist
-		size = 75
+	        size = 202
 	}
 	artisans = {
 		culture = filipino
 		religion = animist
-		size = 510
+	        size = 1376
 	}
 	soldiers = {
 		culture = filipino
 		religion = animist
-		size = 102
+	        size = 274
 	}
 	farmers = {
 		culture = filipino
 		religion = animist
-		size = 9634
+	        size = 26010
 	}
 }
 2565 = {
 	bureaucrats = {
 		culture = spanish
 		religion = catholic
-		size = 14
+	        size = 36
 	}
 	clergymen = {
 		culture = spanish
 		religion = catholic
-		size = 5
+	        size = 12
 	}
 	soldiers = {
 		culture = spanish
 		religion = catholic
-		size = 2
+	        size = 4
 	}
 	aristocrats = {
 		culture = filipino
 		religion = animist
-		size = 81
+	        size = 218
 	}
 	bureaucrats = {
 		culture = filipino
 		religion = animist
-		size = 45
+	        size = 120
 	}
 	clergymen = {
 		culture = filipino
 		religion = animist
-		size = 54
+	        size = 144
 	}
 	artisans = {
 		culture = filipino
 		religion = animist
-		size = 420
+	        size = 1134
 	}
 	soldiers = {
 		culture = filipino
 		religion = animist
-		size = 90
+	        size = 242
 	}
 	farmers = {
 		culture = filipino
 		religion = animist
-		size = 7701
+	        size = 20792
 	}
 	clergymen = {
 		culture = filipino
 		religion = sunni
-		size = 5
+	        size = 12
 	}
 	artisans = {
 		culture = filipino
 		religion = sunni
-		size = 59
+	        size = 158
 	}
 	soldiers = {
 		culture = filipino
 		religion = sunni
-		size = 8
+	        size = 20
 	}
 	farmers = {
 		culture = filipino
 		religion = sunni
-		size = 646
+	        size = 1744
 	}
 }
 1463 = {
 	bureaucrats = {
 		culture = spanish
 		religion = catholic
-		size = 8
+	        size = 20
 	}
 	clergymen = {
 		culture = spanish
 		religion = catholic
-		size = 5
+	        size = 12
 	}
 	soldiers = {
 		culture = spanish
 		religion = catholic
-		size = 2
+	        size = 4
 	}
 	aristocrats = {
 		culture = filipino
 		religion = animist
-		size = 11
+	        size = 28
 	}
 	clergymen = {
 		culture = filipino
 		religion = animist
-		size = 11
+	        size = 28
 	}
 	artisans = {
 		culture = filipino
 		religion = animist
-		size = 102
+	        size = 274
 	}
 	soldiers = {
 		culture = filipino
 		religion = animist
-		size = 120
+	        size = 324
 	}
 	farmers = {
 		culture = filipino
 		religion = animist
-		size = 1779
+	        size = 4802
 	}
 	aristocrats = {
 		culture = filipino
 		religion = sunni
-		size = 11
+	        size = 28
 	}
 	clergymen = {
 		culture = filipino
 		religion = sunni
-		size = 11
+	        size = 28
 	}
 	artisans = {
 		culture = filipino
 		religion = sunni
-		size = 72
+	        size = 194
 	}
 	soldiers = {
 		culture = filipino
 		religion = sunni
-		size = 11
+	        size = 28
 	}
 	farmers = {
 		culture = filipino
 		religion = sunni
-		size = 1334
+	        size = 3600
 	}
 	farmers = {
 		culture = malay
 		religion = animist
-		size = 120
+	        size = 324
 	}
 	aristocrats = {
 		culture = asian_minor
 		religion = animist
-		size = 11
+	        size = 28
 	}
 	clergymen = {
 		culture = asian_minor
 		religion = animist
-		size = 8
+	        size = 20
 	}
 	artisans = {
 		culture = asian_minor
 		religion = animist
-		size = 42
+	        size = 112
 	}
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 11
+	        size = 28
 	}
 	farmers = {
 		culture = asian_minor
 		religion = animist
-		size = 886
+	        size = 2392
 	}
 }
 1462 = {
 	aristocrats = {
 		culture = filipino
 		religion = sunni
-		size = 72
+	        size = 194
 	}
 	clergymen = {
 		culture = filipino
 		religion = sunni
-		size = 59
+	        size = 158
 	}
 	artisans = {
 		culture = filipino
 		religion = sunni
-		size = 300
+	        size = 810
 	}
 	soldiers = {
 		culture = filipino
 		religion = sunni
-		size = 59
+	        size = 158
 	}
 	farmers = {
 		culture = filipino
 		religion = sunni
-		size = 5399
+	        size = 14576
 	}
 	clergymen = {
 		culture = filipino
 		religion = animist
-		size = 5
+	        size = 12
 	}
 	artisans = {
 		culture = filipino
 		religion = animist
-		size = 90
+	        size = 242
 	}
 	farmers = {
 		culture = filipino
 		religion = animist
-		size = 1467
+	        size = 3960
 	}
 	slaves = {
 		culture = filipino
 		religion = animist
-		size = 481
+	        size = 1298
 	}
 	aristocrats = {
 		culture = asian_minor
 		religion = animist
-		size = 11
+	        size = 28
 	}
 	clergymen = {
 		culture = asian_minor
 		religion = animist
-		size = 8
+	        size = 20
 	}
 	artisans = {
 		culture = asian_minor
 		religion = animist
-		size = 35
+	        size = 94
 	}
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-		size = 11
+	        size = 28
 	}
 	farmers = {
 		culture = asian_minor
 		religion = animist
-		size = 1024
+	        size = 2764
 	}
 }
 1464 = {
 	aristocrats = {
 		culture = malay
 		religion = sunni
-		size = 11
+	        size = 28
 	}
 	bureaucrats = {
 		culture = malay
 		religion = sunni
-		size = 8
+	        size = 20
 	}
 	officers = {
 		culture = malay
 		religion = sunni
-		size = 8
+	        size = 20
 	}
 	clergymen = {
 		culture = malay
 		religion = sunni
-		size = 11
+	        size = 28
 	}
 	artisans = {
 		culture = malay
 		religion = sunni
-		size = 72
+	        size = 194
 	}
 	soldiers = {
 		culture = malay
 		religion = sunni
-		size = 27
+	        size = 72
 	}
 	farmers = {
 		culture = malay
 		religion = sunni
-		size = 1181
+	        size = 3188
 	}
 }

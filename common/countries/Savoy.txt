@@ -2,8 +2,8 @@ color = { 151  200  14 }
 graphical_culture = Generic
 
 party = {
-	name = "LUC_reactionary"
-	start_date = 1830.1.1
+	name = "SAV_reactionary"
+	start_date = 1700.1.1
 	end_date = 3000.1.1
 
 	ideology = reactionary
@@ -16,8 +16,8 @@ party = {
 }
 
 party = {
-	name = "LUC_conservative"
-	start_date = 1830.1.1
+	name = "SAV_conservative"
+	start_date = 1700.1.1
 	end_date = 3000.1.1
 
 	ideology = conservative
@@ -30,8 +30,8 @@ party = {
 }
 
 party = {
-	name = "LUC_liberal"
-	start_date = 1830.1.1
+	name = "SAV_liberal"
+	start_date = 1700.1.1
 	end_date = 1890.1.1
 
 	ideology = liberal
@@ -44,7 +44,7 @@ party = {
 }
 
 party = {
-	name = "LUC_liberal_2"
+	name = "SAV_liberal_2"
 	start_date = 1890.1.1
 	end_date = 3000.1.1
 
@@ -58,7 +58,7 @@ party = {
 }
 
 party = {
-	name = "LUC_socialist"
+	name = "SAV_socialist"
 	start_date = 1848.1.1
 	end_date = 3000.1.1
 
@@ -72,8 +72,8 @@ party = {
 }
 
 party = {
-	name = "LUC_conservative_2"
-	start_date = 3000.1.1
+	name = "SAV_conservative_2"
+	start_date = 1700.1.1
 	end_date = 3000.1.1
 
 	ideology = conservative
@@ -86,8 +86,8 @@ party = {
 }
 
 party = {
-	name = "LUC_anarcho_liberal"
-	start_date = 1830.1.1
+	name = "SAV_anarcho_liberal"
+	start_date = 1730.1.1
 	end_date = 3000.1.1
 
 	ideology = anarcho_liberal
@@ -100,7 +100,7 @@ party = {
 }
 
 party = {
-	name = "LUC_communist"
+	name = "SAV_communist"
 	start_date = 1848.1.1
 	end_date = 3000.1.1
 
@@ -114,7 +114,7 @@ party = {
 }
 
 party = {
-	name = "LUC_fascist"
+	name = "SAV_fascist"
 	start_date = 1905.1.1
 	end_date = 3000.1.1
 

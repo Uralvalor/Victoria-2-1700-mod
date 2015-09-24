@@ -1,5 +1,6 @@
 owner = AUS
 controller = AUS
+add_core = HRE
  
 add_core = BOH
 add_core = CZH
@@ -11,6 +12,17 @@ terrain = good_farmland
 #	building = steel_factory
 #	upgrade = yes
 #}
+
+state_building = {
+		level = 1
+		building = liquor_distillery
+		upgrade = yes
+	}
+state_building = {
+	level = 1
+	building = glass_factory
+	upgrade = yes
+}
 1861.1.1 = { railroad = 3 }
 1861.1.1 = {
 	state_building = {

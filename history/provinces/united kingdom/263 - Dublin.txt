@@ -4,6 +4,12 @@ add_core = IRE
 trade_goods = grain
 life_rating = 35
 terrain = good_farmland
+
+	state_building = {
+		level = 2
+		building = ammunition_factory
+		upgrade = yes
+	}
 1750.1.1 = {
 	owner = ENG
 	controller = ENG

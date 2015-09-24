@@ -704,7 +704,7 @@ industrial_robots = {
 }
 #Metulurgy
 ammunition_production = {
-	limit = { mechanized_mining = 1 }
+	limit = { military_staff_system = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -721,7 +721,7 @@ ammunition_production = {
 	}
 }
 small_arms_production = {
-	limit = { mechanized_mining = 1 }
+	limit = { flintlock_rifles = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -738,7 +738,7 @@ small_arms_production = {
 	}
 }
 explosives_production = {
-	limit = { mechanized_mining = 1 }
+	limit = { bronze_muzzle_loaded_artillery = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -755,7 +755,7 @@ explosives_production = {
 	}
 }
 artillery_production = {
-	limit = { mechanized_mining = 1 }
+	limit = { bronze_muzzle_loaded_artillery = 1 }
 	chance = {
 		base = 2
 		modifier = {

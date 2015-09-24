@@ -2,582 +2,582 @@
 	aristocrats = {
 		culture = baguirmi
 		religion = sunni
-		size = 108
+		size = 233
 	}
 	bureaucrats = {
 		culture = baguirmi
 		religion = sunni
-		size = 9
+		size = 18
 	}
 	officers = {
 		culture = baguirmi
 		religion = sunni
-		size = 13
+		size = 27
 	}
 	clergymen = {
 		culture = baguirmi
 		religion = sunni
-		size = 87
+		size = 189
 	}
 	artisans = {
 		culture = baguirmi
 		religion = sunni
-		size = 392
+		size = 851
 	}
 	soldiers = {
 		culture = baguirmi
 		religion = sunni
-		size = 87
+		size = 189
 	}
 	farmers = {
 		culture = baguirmi
 		religion = sunni
-		size = 5400
+		size = 11736
 	}
 	aristocrats = {
 		culture = sara
 		religion = animist
-		size = 87
+		size = 189
 	}
 	clergymen = {
 		culture = sara
 		religion = animist
-		size = 44
+		size = 94
 	}
 	artisans = {
 		culture = sara
 		religion = animist
-		size = 261
+		size = 567
 	}
 	soldiers = {
 		culture = sara
 		religion = animist
-		size = 44
+		size = 94
 	}
 	farmers = {
 		culture = sara
 		religion = animist
-		size = 4790
+		size = 10409
 	}
 	slaves = {
 		culture = sara
 		religion = animist
-		size = 1742
+		size = 3785
 	}
 	aristocrats = {
 		culture = african_minor
 		religion = animist
-		size = 65
+		size = 140
 	}
 	clergymen = {
 		culture = african_minor
 		religion = animist
-		size = 44
+		size = 94
 	}
 	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 218
+		size = 472
 	}
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 44
+		size = 94
 	}
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 3985
+		size = 8660
 	}
 }
 1819 = {
 	aristocrats = {
 		culture = baguirmi
 		religion = sunni
-		size = 65
+		size = 140
 	}
 	clergymen = {
 		culture = baguirmi
 		religion = sunni
-		size = 44
+		size = 94
 	}
 	artisans = {
 		culture = baguirmi
 		religion = sunni
-		size = 218
+		size = 472
 	}
 	soldiers = {
 		culture = baguirmi
 		religion = sunni
-		size = 44
+		size = 94
 	}
 	farmers = {
 		culture = baguirmi
 		religion = sunni
-		size = 501
+		size = 1088
 	}
 	aristocrats = {
 		culture = sara
 		religion = animist
-		size = 108
+		size = 233
 	}
 	clergymen = {
 		culture = sara
 		religion = animist
-		size = 65
+		size = 140
 	}
 	artisans = {
 		culture = sara
 		religion = animist
-		size = 305
+		size = 662
 	}
 	soldiers = {
 		culture = sara
 		religion = animist
-		size = 65
+		size = 140
 	}
 	farmers = {
 		culture = sara
 		religion = animist
-		size = 5552
+		size = 12066
 	}
 	slaves = {
 		culture = sara
 		religion = animist
-		size = 1742
+		size = 3785
 	}
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 1742
+		size = 3785
 	}
 }
 1820 = {
 	aristocrats = {
 		culture = sara
 		religion = animist
-		size = 21
+		size = 44
 	}
 	clergymen = {
+		culture = sara
+		religion = animist
+		size = 94
+	}
+	artisans = {
+		culture = sara
+		religion = animist
+		size = 189
+	}
+	soldiers = {
 		culture = sara
 		religion = animist
 		size = 44
 	}
-	artisans = {
-		culture = sara
-		religion = animist
-		size = 87
-	}
-	soldiers = {
-		culture = sara
-		religion = animist
-		size = 21
-	}
 	farmers = {
 		culture = sara
 		religion = animist
-		size = 1567
+		size = 3404
 	}
 	aristocrats = {
 		culture = african_minor
 		religion = animist
-		size = 108
+		size = 233
 	}
 	clergymen = {
 		culture = african_minor
 		religion = animist
-		size = 65
+		size = 140
 	}
 	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 305
+		size = 662
 	}
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 65
+		size = 140
 	}
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 5552
+		size = 12066
 	}
 }
 1821 = {
 	aristocrats = {
 		culture = fur
 		religion = sunni
-		size = 152
+		size = 329
 	}
 	bureaucrats = {
 		culture = fur
 		religion = sunni
-		size = 13
+		size = 27
 	}
 	officers = {
 		culture = fur
 		religion = sunni
-		size = 30
+		size = 64
 	}
 	clergymen = {
 		culture = fur
 		religion = sunni
-		size = 87
+		size = 189
 	}
 	artisans = {
 		culture = fur
 		religion = sunni
-		size = 479
+		size = 1040
 	}
 	soldiers = {
 		culture = fur
 		religion = sunni
-		size = 108
+		size = 233
 	}
 	farmers = {
 		culture = fur
 		religion = sunni
-		size = 6110
+		size = 13279
 	}
 	aristocrats = {
 		culture = teda
 		religion = sunni
-		size = 65
+		size = 140
 	}
 	clergymen = {
 		culture = teda
 		religion = sunni
-		size = 44
+		size = 94
 	}
 	artisans = {
 		culture = teda
 		religion = sunni
-		size = 261
+		size = 567
 	}
 	soldiers = {
 		culture = teda
 		religion = sunni
-		size = 44
+		size = 94
 	}
 	farmers = {
 		culture = teda
 		religion = sunni
-		size = 3919
+		size = 8517
 	}
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 3484
+		size = 7572
 	}
 }
 1822 = {
 	aristocrats = {
 		culture = fur
 		religion = sunni
-		size = 239
+		size = 518
 	}
 	clergymen = {
 		culture = fur
 		religion = sunni
-		size = 131
+		size = 283
 	}
 	artisans = {
 		culture = fur
 		religion = sunni
-		size = 522
+		size = 1134
 	}
 	soldiers = {
 		culture = fur
 		religion = sunni
-		size = 131
+		size = 283
 	}
 	farmers = {
 		culture = fur
 		religion = sunni
-		size = 9428
+		size = 20491
 	}
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 4355
+		size = 9464
 	}
 	aristocrats = {
 		culture = bedouin
 		religion = sunni
-		size = 65
+		size = 140
 	}
 	clergymen = {
 		culture = bedouin
 		religion = sunni
-		size = 44
+		size = 94
 	}
 	artisans = {
 		culture = bedouin
 		religion = sunni
-		size = 152
+		size = 329
 	}
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 44
+		size = 94
 	}
 	farmers = {
 		culture = bedouin
 		religion = sunni
-		size = 3179
+		size = 6909
 	}
 }
 1823 = {
 	aristocrats = {
 		culture = fur
 		religion = sunni
-		size = 305
+		size = 662
 	}
 	clergymen = {
 		culture = fur
 		religion = sunni
-		size = 152
+		size = 329
 	}
 	artisans = {
 		culture = fur
 		religion = sunni
-		size = 631
+		size = 1370
 	}
 	soldiers = {
 		culture = fur
 		religion = sunni
-		size = 174
+		size = 378
 	}
 	farmers = {
 		culture = fur
 		religion = sunni
-		size = 11802
+		size = 25651
 	}
 	aristocrats = {
 		culture = bedouin
 		religion = sunni
-		size = 44
+		size = 94
 	}
 	clergymen = {
 		culture = bedouin
 		religion = sunni
-		size = 65
+		size = 140
 	}
 	artisans = {
 		culture = bedouin
 		religion = sunni
-		size = 131
+		size = 283
 	}
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 21
+		size = 44
 	}
 	farmers = {
 		culture = bedouin
 		religion = sunni
-		size = 2351
+		size = 5109
 	}
 	aristocrats = {
 		culture = african_minor
 		religion = animist
-		size = 21
+		size = 44
 	}
 	clergymen = {
 		culture = african_minor
 		religion = animist
-		size = 44
+		size = 94
 	}
 	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 87
+		size = 189
 	}
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 21
+		size = 44
 	}
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 1567
+		size = 3404
 	}
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 2613
+		size = 5678
 	}
 }
 1824 = {
 	aristocrats = {
 		culture = bedouin
 		religion = sunni
-		size = 566
+		size = 1229
 	}
 	clergymen = {
 		culture = bedouin
 		religion = sunni
-		size = 282
+		size = 612
 	}
 	artisans = {
 		culture = bedouin
 		religion = sunni
-		size = 1153
+		size = 2505
 	}
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 305
+		size = 662
 	}
 	farmers = {
 		culture = bedouin
 		religion = sunni
-		size = 20338
+		size = 44204
 	}
 	aristocrats = {
-		culture = teda
-		religion = sunni
-		size = 21
-	}
-	clergymen = {
 		culture = teda
 		religion = sunni
 		size = 44
 	}
+	clergymen = {
+		culture = teda
+		religion = sunni
+		size = 94
+	}
 	artisans = {
 		culture = teda
 		religion = sunni
-		size = 87
+		size = 189
 	}
 	soldiers = {
 		culture = teda
 		religion = sunni
-		size = 21
+		size = 44
 	}
 	farmers = {
 		culture = teda
 		religion = sunni
-		size = 1567
+		size = 3404
 	}
 	aristocrats = {
 		culture = kanuri
 		religion = sunni
-		size = 195
+		size = 422
 	}
 	bureaucrats = {
 		culture = kanuri
 		religion = sunni
-		size = 21
+		size = 44
 	}
 	officers = {
 		culture = kanuri
 		religion = sunni
-		size = 44
+		size = 94
 	}
 	clergymen = {
 		culture = kanuri
 		religion = sunni
-		size = 108
+		size = 233
 	}
 	artisans = {
 		culture = kanuri
 		religion = sunni
-		size = 522
+		size = 1134
 	}
 	soldiers = {
 		culture = kanuri
 		religion = sunni
-		size = 108
+		size = 233
 	}
 	farmers = {
 		culture = kanuri
 		religion = sunni
-		size = 5096
+		size = 11075
 	}
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 10452
+		size = 22716
 	}
 }
 1825 = {
 	aristocrats = {
 		culture = teda
 		religion = sunni
-		size = 261
+		size = 567
 	}
 	clergymen = {
 		culture = teda
 		religion = sunni
-		size = 131
+		size = 283
 	}
 	artisans = {
 		culture = teda
 		religion = sunni
-		size = 696
+		size = 1512
 	}
 	soldiers = {
 		culture = teda
 		religion = sunni
-		size = 152
+		size = 329
 	}
 	farmers = {
 		culture = teda
 		religion = sunni
-		size = 12695
+		size = 27591
 	}
 	aristocrats = {
 		culture = tuareg
 		religion = sunni
-		size = 21
+		size = 44
 	}
 	clergymen = {
 		culture = tuareg
 		religion = sunni
-		size = 44
+		size = 94
 	}
 	artisans = {
 		culture = tuareg
 		religion = sunni
-		size = 87
+		size = 189
 	}
 	soldiers = {
 		culture = tuareg
 		religion = sunni
-		size = 21
+		size = 44
 	}
 	farmers = {
 		culture = tuareg
 		religion = sunni
-		size = 1567
+		size = 3404
 	}
 }
 1826 = {
 	aristocrats = {
 		culture = teda
 		religion = sunni
-		size = 108
+		size = 233
 	}
 	clergymen = {
 		culture = teda
 		religion = sunni
-		size = 65
+		size = 140
 	}
 	artisans = {
 		culture = teda
 		religion = sunni
-		size = 305
+		size = 662
 	}
 	soldiers = {
 		culture = teda
 		religion = sunni
-		size = 65
+		size = 140
 	}
 	farmers = {
 		culture = teda
 		religion = sunni
-		size = 5552
+		size = 12066
 	}
 }

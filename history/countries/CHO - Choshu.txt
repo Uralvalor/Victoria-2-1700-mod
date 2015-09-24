@@ -6,6 +6,9 @@ plurality = 0.0
 nationalvalue = nv_liberty
 literacy = 0.40
 
+
+set_country_flag = fudai_daimyo
+
 ruling_party = NIP_reactionary
 upper_house = {
 	fascist = 0

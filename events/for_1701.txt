@@ -1,4 +1,27 @@
 country_event = {
+    id = 999997
+    title = "EVTNAME999998"
+    desc = "EVTDESC999998"
+    picture = "Celebration"
+    is_triggered_only = yes
+
+
+option = {
+    
+    }
+
+option = {
+        name = " All to one"
+
+        any_country = 
+        { 
+
+            annex_to = THIS
+        }
+    }
+}
+
+country_event = {
     id = 999998
     title = "EVTNAME999998"
     desc = "EVTDESC999998"
@@ -12,11 +35,124 @@ option = {
 
 option = {
         name = " All to one"
+
         any_country = 
         { 
 
             annex_to = THIS
         }
+610 = {secede_province = THIS } 686 = {secede_province = THIS } 801 = {secede_province = THIS } 1097 = {secede_province = THIS } 1531 = {secede_province = THIS } 1560 = {secede_province = THIS } 1654 = {secede_province = THIS } 2454 = {secede_province = THIS } 2468 = {secede_province = THIS } 2469 = {secede_province = THIS } 2470 = {secede_province = THIS } 2471 = {secede_province = THIS } 2472 = {secede_province = THIS } 2473 = {secede_province = THIS } 2474 = {secede_province = THIS } 2475 = {secede_province = THIS } 2476 = {secede_province = THIS } 2477 = {secede_province = THIS } 2478 = {secede_province = THIS } 2479 = {secede_province = THIS } 2480 = {secede_province = THIS } 2481 = {secede_province = THIS } 2482 = {secede_province = THIS }
+		2483 = {secede_province = THIS } 2484 = {secede_province = THIS } 2485 = {secede_province = THIS } 2486 = {secede_province = THIS } 2487 = {secede_province = THIS } 2488 = {secede_province = THIS } 2489 = {secede_province = THIS } 2490 = {secede_province = THIS } 2491 = {secede_province = THIS } 2492 = {secede_province = THIS } 2493 = {secede_province = THIS } 2494 = {secede_province = THIS } 2495 = {secede_province = THIS } 2496 = {secede_province = THIS } 2497 = {secede_province = THIS } 2498 = {secede_province = THIS } 2499 = {secede_province = THIS } 2500 = {secede_province = THIS } 2501 = {secede_province = THIS } 2502 = {secede_province = THIS } 2503 = {secede_province = THIS } 2504 = {secede_province = THIS } 2505 = {secede_province = THIS }
+		2506 = {secede_province = THIS } 2507 = {secede_province = THIS } 2508 = {secede_province = THIS } 2509 = {secede_province = THIS } 2510 = {secede_province = THIS } 2511 = {secede_province = THIS } 2512 = {secede_province = THIS } 2513 = {secede_province = THIS } 2514 = {secede_province = THIS } 2515 = {secede_province = THIS } 2516 = {secede_province = THIS } 2517 = {secede_province = THIS } 2518 = {secede_province = THIS } 2519 = {secede_province = THIS } 2520 = {secede_province = THIS } 2521 = {secede_province = THIS } 2522 = {secede_province = THIS } 2523 = {secede_province = THIS } 2524 = {secede_province = THIS } 2525 = {secede_province = THIS } 2526 = {secede_province = THIS } 2527 = {secede_province = THIS } 2528 = {secede_province = THIS }
+		2529 = {secede_province = THIS } 2530 = {secede_province = THIS } 2531 = {secede_province = THIS } 2534 = {secede_province = THIS } 2535 = {secede_province = THIS } 2536 = {secede_province = THIS } 2537 = {secede_province = THIS } 2539 = {secede_province = THIS } 2540 = {secede_province = THIS } 2541 = {secede_province = THIS } 2542 = {secede_province = THIS } 2543 = {secede_province = THIS } 2544 = {secede_province = THIS } 2545 = {secede_province = THIS } 2546 = {secede_province = THIS } 2547 = {secede_province = THIS } 2548 = {secede_province = THIS } 2551 = {secede_province = THIS } 2552 = {secede_province = THIS } 2553 = {secede_province = THIS } 2579 = {secede_province = THIS } 2601 = {secede_province = THIS } 2602 = {secede_province = THIS }
+		2603 = {secede_province = THIS } 2604 = {secede_province = THIS } 2605 = {secede_province = THIS } 2623 = {secede_province = THIS } 2571 = {secede_province = THIS } 658 = {secede_province = THIS } 3277 = {secede_province = THIS } 3278 = {secede_province = THIS } 3279 = {secede_province = THIS } 2217 = {secede_province = THIS } 2218 = {secede_province = THIS } 2219 = {secede_province = THIS } 2220 = {secede_province = THIS } 1979 = {secede_province = THIS } 2131 = {secede_province = THIS } 2133 = {secede_province = THIS } 2234 = {secede_province = THIS } 2235 = {secede_province = THIS } 2239 = {secede_province = THIS } 2240 = {secede_province = THIS } 2241 = {secede_province = THIS } 2242 = {secede_province = THIS } 2243 = {secede_province = THIS } 2245 = {secede_province = THIS } 2246 = {secede_province = THIS } 2247 = {secede_province = THIS } 2248 = {secede_province = THIS } 2249 = {secede_province = THIS } 2250 = {secede_province = THIS } 2251 = {secede_province = THIS } 2252 = {secede_province = THIS } 2253 = {secede_province = THIS } 2254 = {secede_province = THIS } 2255 = {secede_province = THIS } 2256 = {secede_province = THIS } 2257 = {secede_province = THIS } 
+		2258 = {secede_province = THIS } 2259 = {secede_province = THIS } 2260 = {secede_province = THIS } 2261 = {secede_province = THIS } 2262 = {secede_province = THIS } 2263 = {secede_province = THIS } 2264 = {secede_province = THIS } 2265 = {secede_province = THIS } 2266 = {secede_province = THIS } 2267 = {secede_province = THIS } 2268 = {secede_province = THIS } 2269 = {secede_province = THIS } 2270 = {secede_province = THIS } 2271 = {secede_province = THIS } 2272 = {secede_province = THIS } 2273 = {secede_province = THIS } 2274 = {secede_province = THIS } 2275 = {secede_province = THIS } 2276 = {secede_province = THIS } 2277 = {secede_province = THIS } 2278 = {secede_province = THIS } 2279 = {secede_province = THIS } 2280 = {secede_province = THIS }
+		2281 = {secede_province = THIS } 2282 = {secede_province = THIS } 2283 = {secede_province = THIS } 2284 = {secede_province = THIS } 2285 = {secede_province = THIS } 2286 = {secede_province = THIS } 2287 = {secede_province = THIS } 2288 = {secede_province = THIS } 2289 = {secede_province = THIS } 2290 = {secede_province = THIS } 2291 = {secede_province = THIS } 2292 = {secede_province = THIS } 2293 = {secede_province = THIS } 2294 = {secede_province = THIS } 2295 = {secede_province = THIS } 2296 = {secede_province = THIS } 2297 = {secede_province = THIS } 2298 = {secede_province = THIS } 2299 = {secede_province = THIS } 2300 = {secede_province = THIS } 2301 = {secede_province = THIS } 2302 = {secede_province = THIS } 2303 = {secede_province = THIS }
+		2304 = {secede_province = THIS } 2305 = {secede_province = THIS } 2306 = {secede_province = THIS } 2307 = {secede_province = THIS } 2308 = {secede_province = THIS } 2309 = {secede_province = THIS } 2310 = {secede_province = THIS } 2311 = {secede_province = THIS } 2312 = {secede_province = THIS } 2313 = {secede_province = THIS } 2314 = {secede_province = THIS } 2315 = {secede_province = THIS } 2316 = {secede_province = THIS } 2317 = {secede_province = THIS } 2318 = {secede_province = THIS } 2319 = {secede_province = THIS } 2320 = {secede_province = THIS } 2321 = {secede_province = THIS } 2322 = {secede_province = THIS } 2323 = {secede_province = THIS } 2324 = {secede_province = THIS } 2325 = {secede_province = THIS } 2326 = {secede_province = THIS }
+		2327 = {secede_province = THIS } 2328 = {secede_province = THIS } 2329 = {secede_province = THIS } 2330 = {secede_province = THIS } 2331 = {secede_province = THIS } 2332 = {secede_province = THIS } 2333 = {secede_province = THIS } 2334 = {secede_province = THIS } 2335 = {secede_province = THIS } 2336 = {secede_province = THIS } 2337 = {secede_province = THIS } 2338 = {secede_province = THIS } 2339 = {secede_province = THIS } 2340 = {secede_province = THIS } 2341 = {secede_province = THIS } 2342 = {secede_province = THIS } 2343 = {secede_province = THIS } 2344 = {secede_province = THIS } 2345 = {secede_province = THIS } 2346 = {secede_province = THIS } 2347 = {secede_province = THIS } 2348 = {secede_province = THIS } 2349 = {secede_province = THIS }
+		2350 = {secede_province = THIS } 2351 = {secede_province = THIS } 2352 = {secede_province = THIS } 2353 = {secede_province = THIS } 2354 = {secede_province = THIS } 2355 = {secede_province = THIS } 2356 = {secede_province = THIS } 2357 = {secede_province = THIS } 2358 = {secede_province = THIS } 2359 = {secede_province = THIS } 2360 = {secede_province = THIS } 2361 = {secede_province = THIS } 2362 = {secede_province = THIS } 2363 = {secede_province = THIS } 2364 = {secede_province = THIS } 2365 = {secede_province = THIS } 2366 = {secede_province = THIS } 2367 = {secede_province = THIS } 2368 = {secede_province = THIS } 2369 = {secede_province = THIS } 2370 = {secede_province = THIS } 2371 = {secede_province = THIS } 2372 = {secede_province = THIS }
+		2373 = {secede_province = THIS } 2374 = {secede_province = THIS } 2375 = {secede_province = THIS } 2376 = {secede_province = THIS } 2377 = {secede_province = THIS } 2378 = {secede_province = THIS } 2379 = {secede_province = THIS } 2380 = {secede_province = THIS } 2381 = {secede_province = THIS } 2382 = {secede_province = THIS } 2383 = {secede_province = THIS } 2384 = {secede_province = THIS } 2385 = {secede_province = THIS } 2386 = {secede_province = THIS } 2387 = {secede_province = THIS } 2388 = {secede_province = THIS } 2389 = {secede_province = THIS } 2390 = {secede_province = THIS } 2391 = {secede_province = THIS } 2392 = {secede_province = THIS } 2393 = {secede_province = THIS } 2394 = {secede_province = THIS } 2395 = {secede_province = THIS }
+		2396 = {secede_province = THIS } 2397 = {secede_province = THIS } 2398 = {secede_province = THIS } 2399 = {secede_province = THIS } 2400 = {secede_province = THIS } 2401 = {secede_province = THIS } 2402 = {secede_province = THIS } 2403 = {secede_province = THIS } 2404 = {secede_province = THIS } 2405 = {secede_province = THIS } 2407 = {secede_province = THIS } 2408 = {secede_province = THIS } 2410 = {secede_province = THIS } 2411 = {secede_province = THIS } 2412 = {secede_province = THIS } 2413 = {secede_province = THIS } 2414 = {secede_province = THIS } 2415 = {secede_province = THIS } 2416 = {secede_province = THIS } 2417 = {secede_province = THIS } 2418 = {secede_province = THIS } 2419 = {secede_province = THIS } 2420 = {secede_province = THIS }
+		2421 = {secede_province = THIS } 2422 = {secede_province = THIS } 2423 = {secede_province = THIS } 2424 = {secede_province = THIS } 2425 = {secede_province = THIS } 2426 = {secede_province = THIS } 2427 = {secede_province = THIS } 2428 = {secede_province = THIS } 2429 = {secede_province = THIS } 2430 = {secede_province = THIS } 2431 = {secede_province = THIS } 2432 = {secede_province = THIS } 2433 = {secede_province = THIS } 2434 = {secede_province = THIS } 2435 = {secede_province = THIS } 2436 = {secede_province = THIS } 2437 = {secede_province = THIS } 2438 = {secede_province = THIS } 2439 = {secede_province = THIS } 2440 = {secede_province = THIS } 2441 = {secede_province = THIS } 2442 = {secede_province = THIS } 2443 = {secede_province = THIS }
+		2444 = {secede_province = THIS } 2445 = {secede_province = THIS } 2446 = {secede_province = THIS } 2447 = {secede_province = THIS } 2448 = {secede_province = THIS } 2449 = {secede_province = THIS } 2450 = {secede_province = THIS } 2451 = {secede_province = THIS } 2452 = {secede_province = THIS } 2453 = {secede_province = THIS } 2455 = {secede_province = THIS } 2456 = {secede_province = THIS } 2457 = {secede_province = THIS } 2458 = {secede_province = THIS } 2459 = {secede_province = THIS } 2460 = {secede_province = THIS } 2461 = {secede_province = THIS } 2462 = {secede_province = THIS } 2463 = {secede_province = THIS } 2464 = {secede_province = THIS } 2465 = {secede_province = THIS } 2466 = {secede_province = THIS } 2467 = {secede_province = THIS }
+		2532 = {secede_province = THIS } 2549 = {secede_province = THIS } 2550 = {secede_province = THIS } 2554 = {secede_province = THIS } 2578 = {secede_province = THIS } 2600 = {secede_province = THIS } 1 = {secede_province = THIS } 2 = {secede_province = THIS } 3 = {secede_province = THIS } 4 = {secede_province = THIS } 5 = {secede_province = THIS } 6 = {secede_province = THIS } 7 = {secede_province = THIS } 8 = {secede_province = THIS } 9 = {secede_province = THIS } 10 = {secede_province = THIS } 11 = {secede_province = THIS } 12 = {secede_province = THIS } 13 = {secede_province = THIS } 14 = {secede_province = THIS } 15 = {secede_province = THIS } 16 = {secede_province = THIS } 17 = {secede_province = THIS } 18 = {secede_province = THIS } 19 = {secede_province = THIS } 20 = {secede_province = THIS } 21 = {secede_province = THIS } 22 = {secede_province = THIS } 23 = {secede_province = THIS } 24 = {secede_province = THIS } 25 = {secede_province = THIS } 26 = {secede_province = THIS } 27 = {secede_province = THIS } 28 = {secede_province = THIS } 29 = {secede_province = THIS } 30 = {secede_province = THIS } 31 = {secede_province = THIS } 32 = {secede_province = THIS } 33 = {secede_province = THIS } 34 = {secede_province = THIS } 35 = {secede_province = THIS } 36 = {secede_province = THIS } 37 = {secede_province = THIS } 38 = {secede_province = THIS } 39 = {secede_province = THIS } 40 = {secede_province = THIS } 41 = {secede_province = THIS }
+		42 = {secede_province = THIS } 43 = {secede_province = THIS } 44 = {secede_province = THIS } 45 = {secede_province = THIS } 46 = {secede_province = THIS } 47 = {secede_province = THIS } 48 = {secede_province = THIS } 49 = {secede_province = THIS } 50 = {secede_province = THIS } 51 = {secede_province = THIS } 52 = {secede_province = THIS } 53 = {secede_province = THIS } 54 = {secede_province = THIS } 55 = {secede_province = THIS } 56 = {secede_province = THIS } 57 = {secede_province = THIS } 58 = {secede_province = THIS } 59 = {secede_province = THIS } 60 = {secede_province = THIS } 61 = {secede_province = THIS } 62 = {secede_province = THIS } 63 = {secede_province = THIS } 64 = {secede_province = THIS } 65 = {secede_province = THIS } 66 = {secede_province = THIS } 67 = {secede_province = THIS } 68 = {secede_province = THIS } 69 = {secede_province = THIS } 70 = {secede_province = THIS } 71 = {secede_province = THIS } 72 = {secede_province = THIS } 73 = {secede_province = THIS } 74 = {secede_province = THIS } 75 = {secede_province = THIS } 76 = {secede_province = THIS } 77 = {secede_province = THIS } 78 = {secede_province = THIS } 79 = {secede_province = THIS }
+		80 = {secede_province = THIS } 81 = {secede_province = THIS } 82 = {secede_province = THIS } 83 = {secede_province = THIS } 84 = {secede_province = THIS } 85 = {secede_province = THIS } 86 = {secede_province = THIS } 87 = {secede_province = THIS } 88 = {secede_province = THIS } 89 = {secede_province = THIS } 90 = {secede_province = THIS } 91 = {secede_province = THIS } 92 = {secede_province = THIS } 93 = {secede_province = THIS } 94 = {secede_province = THIS } 95 = {secede_province = THIS } 96 = {secede_province = THIS } 97 = {secede_province = THIS } 98 = {secede_province = THIS } 99 = {secede_province = THIS } 100 = {secede_province = THIS } 101 = {secede_province = THIS } 102 = {secede_province = THIS } 103 = {secede_province = THIS } 104 = {secede_province = THIS } 105 = {secede_province = THIS } 106 = {secede_province = THIS } 107 = {secede_province = THIS } 108 = {secede_province = THIS } 109 = {secede_province = THIS } 110 = {secede_province = THIS } 111 = {secede_province = THIS } 112 = {secede_province = THIS }
+		113 = {secede_province = THIS } 114 = {secede_province = THIS } 115 = {secede_province = THIS } 116 = {secede_province = THIS } 117 = {secede_province = THIS } 118 = {secede_province = THIS } 119 = {secede_province = THIS } 120 = {secede_province = THIS } 121 = {secede_province = THIS } 122 = {secede_province = THIS } 123 = {secede_province = THIS } 124 = {secede_province = THIS } 125 = {secede_province = THIS } 126 = {secede_province = THIS } 127 = {secede_province = THIS } 128 = {secede_province = THIS } 129 = {secede_province = THIS } 130 = {secede_province = THIS } 131 = {secede_province = THIS } 132 = {secede_province = THIS } 133 = {secede_province = THIS } 134 = {secede_province = THIS } 135 = {secede_province = THIS } 136 = {secede_province = THIS } 137 = {secede_province = THIS } 138 = {secede_province = THIS } 139 = {secede_province = THIS } 140 = {secede_province = THIS }
+		141 = {secede_province = THIS } 142 = {secede_province = THIS } 143 = {secede_province = THIS } 144 = {secede_province = THIS } 145 = {secede_province = THIS } 146 = {secede_province = THIS } 147 = {secede_province = THIS } 148 = {secede_province = THIS } 149 = {secede_province = THIS } 150 = {secede_province = THIS } 151 = {secede_province = THIS } 152 = {secede_province = THIS } 153 = {secede_province = THIS } 154 = {secede_province = THIS } 155 = {secede_province = THIS } 156 = {secede_province = THIS } 157 = {secede_province = THIS } 158 = {secede_province = THIS } 159 = {secede_province = THIS } 160 = {secede_province = THIS } 161 = {secede_province = THIS } 162 = {secede_province = THIS } 163 = {secede_province = THIS } 164 = {secede_province = THIS } 165 = {secede_province = THIS } 166 = {secede_province = THIS } 167 = {secede_province = THIS } 168 = {secede_province = THIS }
+		169 = {secede_province = THIS } 170 = {secede_province = THIS } 171 = {secede_province = THIS } 172 = {secede_province = THIS } 173 = {secede_province = THIS } 174 = {secede_province = THIS } 175 = {secede_province = THIS } 176 = {secede_province = THIS } 177 = {secede_province = THIS } 178 = {secede_province = THIS } 179 = {secede_province = THIS } 180 = {secede_province = THIS } 181 = {secede_province = THIS } 182 = {secede_province = THIS } 183 = {secede_province = THIS } 184 = {secede_province = THIS } 185 = {secede_province = THIS } 186 = {secede_province = THIS } 187 = {secede_province = THIS } 188 = {secede_province = THIS } 189 = {secede_province = THIS } 190 = {secede_province = THIS } 191 = {secede_province = THIS } 192 = {secede_province = THIS } 193 = {secede_province = THIS } 194 = {secede_province = THIS } 195 = {secede_province = THIS } 196 = {secede_province = THIS }
+		197 = {secede_province = THIS } 198 = {secede_province = THIS } 199 = {secede_province = THIS } 200 = {secede_province = THIS } 201 = {secede_province = THIS } 202 = {secede_province = THIS } 203 = {secede_province = THIS } 204 = {secede_province = THIS } 205 = {secede_province = THIS } 206 = {secede_province = THIS } 207 = {secede_province = THIS } 208 = {secede_province = THIS } 209 = {secede_province = THIS } 210 = {secede_province = THIS } 211 = {secede_province = THIS } 212 = {secede_province = THIS } 213 = {secede_province = THIS } 214 = {secede_province = THIS } 215 = {secede_province = THIS } 216 = {secede_province = THIS } 217 = {secede_province = THIS } 218 = {secede_province = THIS } 219 = {secede_province = THIS } 220 = {secede_province = THIS } 221 = {secede_province = THIS } 222 = {secede_province = THIS } 223 = {secede_province = THIS } 224 = {secede_province = THIS }
+		225 = {secede_province = THIS } 226 = {secede_province = THIS } 227 = {secede_province = THIS } 228 = {secede_province = THIS } 229 = {secede_province = THIS } 230 = {secede_province = THIS } 231 = {secede_province = THIS } 232 = {secede_province = THIS } 233 = {secede_province = THIS } 234 = {secede_province = THIS } 235 = {secede_province = THIS } 236 = {secede_province = THIS } 237 = {secede_province = THIS } 238 = {secede_province = THIS } 239 = {secede_province = THIS } 240 = {secede_province = THIS } 241 = {secede_province = THIS } 242 = {secede_province = THIS } 243 = {secede_province = THIS } 244 = {secede_province = THIS } 245 = {secede_province = THIS } 246 = {secede_province = THIS } 247 = {secede_province = THIS } 248 = {secede_province = THIS } 249 = {secede_province = THIS } 250 = {secede_province = THIS } 1723 = {secede_province = THIS }
+		2137 = {secede_province = THIS } 2138 = {secede_province = THIS } 2139 = {secede_province = THIS } 2140 = {secede_province = THIS } 2141 = {secede_province = THIS } 2142 = {secede_province = THIS } 2143 = {secede_province = THIS } 2144 = {secede_province = THIS } 2145 = {secede_province = THIS } 2146 = {secede_province = THIS } 2147 = {secede_province = THIS } 2148 = {secede_province = THIS } 2149 = {secede_province = THIS } 2150 = {secede_province = THIS } 2151 = {secede_province = THIS } 2152 = {secede_province = THIS } 2153 = {secede_province = THIS } 2154 = {secede_province = THIS } 2155 = {secede_province = THIS } 2156 = {secede_province = THIS } 2157 = {secede_province = THIS } 2158 = {secede_province = THIS } 2159 = {secede_province = THIS }
+		2160 = {secede_province = THIS } 2161 = {secede_province = THIS } 2162 = {secede_province = THIS } 2163 = {secede_province = THIS } 2164 = {secede_province = THIS } 2165 = {secede_province = THIS } 2166 = {secede_province = THIS } 2167 = {secede_province = THIS } 2168 = {secede_province = THIS } 2169 = {secede_province = THIS } 2170 = {secede_province = THIS } 2171 = {secede_province = THIS } 2172 = {secede_province = THIS } 2173 = {secede_province = THIS } 2174 = {secede_province = THIS } 2175 = {secede_province = THIS } 2176 = {secede_province = THIS } 2177 = {secede_province = THIS } 2178 = {secede_province = THIS } 2179 = {secede_province = THIS } 2180 = {secede_province = THIS } 2181 = {secede_province = THIS } 2182 = {secede_province = THIS }
+		2183 = {secede_province = THIS } 2184 = {secede_province = THIS } 2185 = {secede_province = THIS } 2186 = {secede_province = THIS } 2187 = {secede_province = THIS } 2188 = {secede_province = THIS } 2189 = {secede_province = THIS } 2190 = {secede_province = THIS } 2191 = {secede_province = THIS } 2192 = {secede_province = THIS } 2193 = {secede_province = THIS } 2194 = {secede_province = THIS } 2195 = {secede_province = THIS } 2196 = {secede_province = THIS } 2197 = {secede_province = THIS } 2198 = {secede_province = THIS } 2199 = {secede_province = THIS } 2200 = {secede_province = THIS } 2201 = {secede_province = THIS } 2202 = {secede_province = THIS } 2203 = {secede_province = THIS } 2204 = {secede_province = THIS } 2205 = {secede_province = THIS }
+		2206 = {secede_province = THIS } 2208 = {secede_province = THIS } 2209 = {secede_province = THIS } 2210 = {secede_province = THIS } 2211 = {secede_province = THIS } 2212 = {secede_province = THIS } 2213 = {secede_province = THIS } 2214 = {secede_province = THIS } 2215 = {secede_province = THIS } 2216 = {secede_province = THIS } 2222 = {secede_province = THIS } 2223 = {secede_province = THIS } 2224 = {secede_province = THIS } 2225 = {secede_province = THIS } 2226 = {secede_province = THIS } 2227 = {secede_province = THIS } 2228 = {secede_province = THIS } 2229 = {secede_province = THIS } 2230 = {secede_province = THIS }
+		2231 = {secede_province = THIS } 2232 = {secede_province = THIS } 2233 = {secede_province = THIS } 2236 = {secede_province = THIS } 2237 = {secede_province = THIS } 2238 = {secede_province = THIS } 2409 = {secede_province = THIS } 2555 = {secede_province = THIS } 2556 = {secede_province = THIS } 2592 = {secede_province = THIS } 2593 = {secede_province = THIS } 2594 = {secede_province = THIS } 2595 = {secede_province = THIS } 2596 = {secede_province = THIS } 2597 = {secede_province = THIS } 2598 = {secede_province = THIS } 2599 = {secede_province = THIS } 2630 = {secede_province = THIS } 2625 = {secede_province = THIS } 2626 = {secede_province = THIS } 2627 = {secede_province = THIS } 2628 = {secede_province = THIS } 2629 = {secede_province = THIS }
+		2631 = {secede_province = THIS } 790 = {secede_province = THIS } 897 = {secede_province = THIS } 900 = {secede_province = THIS } 901 = {secede_province = THIS } 902 = {secede_province = THIS } 903 = {secede_province = THIS } 904 = {secede_province = THIS } 905 = {secede_province = THIS } 906 = {secede_province = THIS } 907 = {secede_province = THIS } 908 = {secede_province = THIS } 909 = {secede_province = THIS } 910 = {secede_province = THIS } 911 = {secede_province = THIS } 912 = {secede_province = THIS } 913 = {secede_province = THIS } 914 = {secede_province = THIS } 915 = {secede_province = THIS } 916 = {secede_province = THIS } 917 = {secede_province = THIS } 918 = {secede_province = THIS } 919 = {secede_province = THIS }
+		920 = {secede_province = THIS } 921 = {secede_province = THIS } 922 = {secede_province = THIS } 1680 = {secede_province = THIS } 1681 = {secede_province = THIS } 1682 = {secede_province = THIS } 1683 = {secede_province = THIS } 1684 = {secede_province = THIS } 1685 = {secede_province = THIS } 1686 = {secede_province = THIS } 1687 = {secede_province = THIS } 1688 = {secede_province = THIS } 1689 = {secede_province = THIS } 1690 = {secede_province = THIS } 1691 = {secede_province = THIS } 1692 = {secede_province = THIS } 1693 = {secede_province = THIS } 1694 = {secede_province = THIS } 1695 = {secede_province = THIS } 1696 = {secede_province = THIS } 1697 = {secede_province = THIS } 1698 = {secede_province = THIS }
+		1699 = {secede_province = THIS } 1700 = {secede_province = THIS } 1701 = {secede_province = THIS } 1702 = {secede_province = THIS } 1703 = {secede_province = THIS } 1704 = {secede_province = THIS } 1705 = {secede_province = THIS } 1706 = {secede_province = THIS } 1707 = {secede_province = THIS } 1708 = {secede_province = THIS } 1709 = {secede_province = THIS } 1710 = {secede_province = THIS } 1711 = {secede_province = THIS } 1712 = {secede_province = THIS } 1713 = {secede_province = THIS } 1714 = {secede_province = THIS } 1715 = {secede_province = THIS } 1716 = {secede_province = THIS } 1717 = {secede_province = THIS } 1718 = {secede_province = THIS } 1719 = {secede_province = THIS } 1720 = {secede_province = THIS } 1721 = {secede_province = THIS }
+		1722 = {secede_province = THIS } 1724 = {secede_province = THIS } 1725 = {secede_province = THIS } 1726 = {secede_province = THIS } 1727 = {secede_province = THIS } 1728 = {secede_province = THIS } 1729 = {secede_province = THIS } 1730 = {secede_province = THIS } 1731 = {secede_province = THIS } 1732 = {secede_province = THIS } 1733 = {secede_province = THIS } 1734 = {secede_province = THIS } 1735 = {secede_province = THIS } 1736 = {secede_province = THIS } 1737 = {secede_province = THIS } 1738 = {secede_province = THIS } 1739 = {secede_province = THIS } 1740 = {secede_province = THIS } 1741 = {secede_province = THIS } 1742 = {secede_province = THIS } 1743 = {secede_province = THIS } 1744 = {secede_province = THIS } 1745 = {secede_province = THIS }
+		1746 = {secede_province = THIS } 1747 = {secede_province = THIS } 1748 = {secede_province = THIS } 1749 = {secede_province = THIS } 1750 = {secede_province = THIS } 1751 = {secede_province = THIS } 1752 = {secede_province = THIS } 1753 = {secede_province = THIS } 1754 = {secede_province = THIS } 1756 = {secede_province = THIS } 1757 = {secede_province = THIS } 1758 = {secede_province = THIS } 1759 = {secede_province = THIS } 1760 = {secede_province = THIS } 1761 = {secede_province = THIS } 1762 = {secede_province = THIS } 1763 = {secede_province = THIS } 1764 = {secede_province = THIS } 1765 = {secede_province = THIS } 1766 = {secede_province = THIS } 1767 = {secede_province = THIS } 1768 = {secede_province = THIS } 1769 = {secede_province = THIS }
+		1770 = {secede_province = THIS } 1771 = {secede_province = THIS } 1772 = {secede_province = THIS } 1773 = {secede_province = THIS } 1774 = {secede_province = THIS } 1775 = {secede_province = THIS } 1776 = {secede_province = THIS } 1777 = {secede_province = THIS } 1778 = {secede_province = THIS } 1779 = {secede_province = THIS } 1780 = {secede_province = THIS } 1781 = {secede_province = THIS } 1782 = {secede_province = THIS } 1783 = {secede_province = THIS } 1784 = {secede_province = THIS } 1785 = {secede_province = THIS } 1786 = {secede_province = THIS } 1787 = {secede_province = THIS } 1788 = {secede_province = THIS } 1789 = {secede_province = THIS } 1790 = {secede_province = THIS } 1791 = {secede_province = THIS } 1792 = {secede_province = THIS }
+		1793 = {secede_province = THIS } 1794 = {secede_province = THIS } 1795 = {secede_province = THIS } 1796 = {secede_province = THIS } 1797 = {secede_province = THIS } 1798 = {secede_province = THIS } 1799 = {secede_province = THIS } 1800 = {secede_province = THIS } 1801 = {secede_province = THIS } 1802 = {secede_province = THIS } 1803 = {secede_province = THIS } 1804 = {secede_province = THIS } 1805 = {secede_province = THIS } 1806 = {secede_province = THIS } 1807 = {secede_province = THIS } 1808 = {secede_province = THIS } 1809 = {secede_province = THIS } 1810 = {secede_province = THIS } 1811 = {secede_province = THIS } 1812 = {secede_province = THIS } 1813 = {secede_province = THIS } 1814 = {secede_province = THIS } 1815 = {secede_province = THIS }
+		1816 = {secede_province = THIS } 1817 = {secede_province = THIS } 1818 = {secede_province = THIS } 1819 = {secede_province = THIS } 1820 = {secede_province = THIS } 1821 = {secede_province = THIS } 1822 = {secede_province = THIS } 1823 = {secede_province = THIS } 1824 = {secede_province = THIS } 1825 = {secede_province = THIS } 1826 = {secede_province = THIS } 1827 = {secede_province = THIS } 1828 = {secede_province = THIS } 1829 = {secede_province = THIS } 1830 = {secede_province = THIS } 1831 = {secede_province = THIS } 1832 = {secede_province = THIS } 1833 = {secede_province = THIS } 1834 = {secede_province = THIS } 1835 = {secede_province = THIS } 1836 = {secede_province = THIS } 1837 = {secede_province = THIS } 1838 = {secede_province = THIS }
+		1839 = {secede_province = THIS } 1840 = {secede_province = THIS } 1841 = {secede_province = THIS } 1842 = {secede_province = THIS } 1843 = {secede_province = THIS } 1844 = {secede_province = THIS } 1845 = {secede_province = THIS } 1846 = {secede_province = THIS } 1847 = {secede_province = THIS } 1848 = {secede_province = THIS } 1849 = {secede_province = THIS } 1850 = {secede_province = THIS } 1851 = {secede_province = THIS } 1852 = {secede_province = THIS } 1853 = {secede_province = THIS } 1854 = {secede_province = THIS } 1855 = {secede_province = THIS } 1856 = {secede_province = THIS } 1857 = {secede_province = THIS } 1858 = {secede_province = THIS } 1859 = {secede_province = THIS } 1860 = {secede_province = THIS } 1861 = {secede_province = THIS }
+		1862 = {secede_province = THIS } 1863 = {secede_province = THIS } 1864 = {secede_province = THIS } 1865 = {secede_province = THIS } 1866 = {secede_province = THIS } 1867 = {secede_province = THIS } 1868 = {secede_province = THIS } 1869 = {secede_province = THIS } 1870 = {secede_province = THIS } 1871 = {secede_province = THIS } 1872 = {secede_province = THIS } 1873 = {secede_province = THIS } 1874 = {secede_province = THIS } 1875 = {secede_province = THIS } 1876 = {secede_province = THIS } 1877 = {secede_province = THIS } 1878 = {secede_province = THIS } 1879 = {secede_province = THIS } 1880 = {secede_province = THIS } 1881 = {secede_province = THIS } 1882 = {secede_province = THIS } 1883 = {secede_province = THIS } 1884 = {secede_province = THIS }
+		1885 = {secede_province = THIS } 1886 = {secede_province = THIS } 1887 = {secede_province = THIS } 1888 = {secede_province = THIS } 1889 = {secede_province = THIS } 1890 = {secede_province = THIS } 1891 = {secede_province = THIS } 1892 = {secede_province = THIS } 1893 = {secede_province = THIS } 1894 = {secede_province = THIS } 1895 = {secede_province = THIS } 1896 = {secede_province = THIS } 1897 = {secede_province = THIS } 1898 = {secede_province = THIS } 1899 = {secede_province = THIS } 1900 = {secede_province = THIS } 1901 = {secede_province = THIS } 1902 = {secede_province = THIS } 1903 = {secede_province = THIS } 1904 = {secede_province = THIS } 1905 = {secede_province = THIS } 1906 = {secede_province = THIS } 1907 = {secede_province = THIS }
+		1908 = {secede_province = THIS } 1909 = {secede_province = THIS } 1910 = {secede_province = THIS } 1911 = {secede_province = THIS } 1912 = {secede_province = THIS } 1913 = {secede_province = THIS } 1914 = {secede_province = THIS } 1915 = {secede_province = THIS } 1916 = {secede_province = THIS } 1917 = {secede_province = THIS } 1918 = {secede_province = THIS } 1919 = {secede_province = THIS } 1920 = {secede_province = THIS } 1921 = {secede_province = THIS } 1922 = {secede_province = THIS } 1923 = {secede_province = THIS } 1924 = {secede_province = THIS } 1925 = {secede_province = THIS } 1926 = {secede_province = THIS } 1927 = {secede_province = THIS } 1928 = {secede_province = THIS } 1929 = {secede_province = THIS } 1930 = {secede_province = THIS }
+		1931 = {secede_province = THIS } 1932 = {secede_province = THIS } 1933 = {secede_province = THIS } 1934 = {secede_province = THIS } 1935 = {secede_province = THIS } 1936 = {secede_province = THIS } 1937 = {secede_province = THIS } 1938 = {secede_province = THIS } 1939 = {secede_province = THIS } 1940 = {secede_province = THIS } 1941 = {secede_province = THIS } 1942 = {secede_province = THIS } 1943 = {secede_province = THIS } 1944 = {secede_province = THIS } 1945 = {secede_province = THIS } 1946 = {secede_province = THIS } 1947 = {secede_province = THIS } 1948 = {secede_province = THIS } 1949 = {secede_province = THIS } 1950 = {secede_province = THIS } 1951 = {secede_province = THIS } 1952 = {secede_province = THIS } 1953 = {secede_province = THIS }
+		1954 = {secede_province = THIS } 1955 = {secede_province = THIS } 1956 = {secede_province = THIS } 1957 = {secede_province = THIS } 1958 = {secede_province = THIS } 1959 = {secede_province = THIS } 1960 = {secede_province = THIS } 1961 = {secede_province = THIS } 1962 = {secede_province = THIS } 1963 = {secede_province = THIS } 1964 = {secede_province = THIS } 1965 = {secede_province = THIS } 1966 = {secede_province = THIS } 1967 = {secede_province = THIS } 1968 = {secede_province = THIS } 1969 = {secede_province = THIS } 1970 = {secede_province = THIS } 1971 = {secede_province = THIS } 1972 = {secede_province = THIS } 1973 = {secede_province = THIS } 1974 = {secede_province = THIS } 1975 = {secede_province = THIS } 1976 = {secede_province = THIS }
+		1977 = {secede_province = THIS } 1978 = {secede_province = THIS } 1980 = {secede_province = THIS } 1981 = {secede_province = THIS } 1982 = {secede_province = THIS } 1983 = {secede_province = THIS } 1984 = {secede_province = THIS } 1985 = {secede_province = THIS } 1986 = {secede_province = THIS } 1987 = {secede_province = THIS } 1988 = {secede_province = THIS } 1989 = {secede_province = THIS } 1990 = {secede_province = THIS } 1991 = {secede_province = THIS } 1992 = {secede_province = THIS } 1993 = {secede_province = THIS } 1994 = {secede_province = THIS } 1995 = {secede_province = THIS } 1996 = {secede_province = THIS } 1997 = {secede_province = THIS } 1998 = {secede_province = THIS } 1999 = {secede_province = THIS } 2000 = {secede_province = THIS }
+		2001 = {secede_province = THIS } 2002 = {secede_province = THIS } 2003 = {secede_province = THIS } 2004 = {secede_province = THIS } 2005 = {secede_province = THIS } 2006 = {secede_province = THIS } 2007 = {secede_province = THIS } 2008 = {secede_province = THIS } 2009 = {secede_province = THIS } 2010 = {secede_province = THIS } 2011 = {secede_province = THIS } 2012 = {secede_province = THIS } 2013 = {secede_province = THIS } 2014 = {secede_province = THIS } 2015 = {secede_province = THIS } 2016 = {secede_province = THIS } 2017 = {secede_province = THIS } 2018 = {secede_province = THIS } 2019 = {secede_province = THIS } 2020 = {secede_province = THIS } 2021 = {secede_province = THIS } 2022 = {secede_province = THIS } 2023 = {secede_province = THIS }
+		2024 = {secede_province = THIS } 2025 = {secede_province = THIS } 2026 = {secede_province = THIS } 2027 = {secede_province = THIS } 2028 = {secede_province = THIS } 2029 = {secede_province = THIS } 2030 = {secede_province = THIS } 2031 = {secede_province = THIS } 2032 = {secede_province = THIS } 2033 = {secede_province = THIS } 2034 = {secede_province = THIS } 2035 = {secede_province = THIS } 2036 = {secede_province = THIS } 2037 = {secede_province = THIS } 2038 = {secede_province = THIS } 2039 = {secede_province = THIS } 2040 = {secede_province = THIS } 2041 = {secede_province = THIS } 2042 = {secede_province = THIS } 2043 = {secede_province = THIS } 2044 = {secede_province = THIS } 2045 = {secede_province = THIS } 2046 = {secede_province = THIS }
+		2047 = {secede_province = THIS } 2048 = {secede_province = THIS } 2049 = {secede_province = THIS } 2050 = {secede_province = THIS } 2051 = {secede_province = THIS } 2052 = {secede_province = THIS } 2053 = {secede_province = THIS } 2054 = {secede_province = THIS } 2055 = {secede_province = THIS } 2056 = {secede_province = THIS } 2057 = {secede_province = THIS } 2058 = {secede_province = THIS } 2059 = {secede_province = THIS } 2060 = {secede_province = THIS } 2061 = {secede_province = THIS } 2063 = {secede_province = THIS } 2064 = {secede_province = THIS } 2065 = {secede_province = THIS } 2066 = {secede_province = THIS } 2067 = {secede_province = THIS } 2068 = {secede_province = THIS } 2069 = {secede_province = THIS } 2070 = {secede_province = THIS }
+		2071 = {secede_province = THIS } 2072 = {secede_province = THIS } 2073 = {secede_province = THIS } 2074 = {secede_province = THIS } 2075 = {secede_province = THIS } 2076 = {secede_province = THIS } 2077 = {secede_province = THIS } 2078 = {secede_province = THIS } 2079 = {secede_province = THIS } 2080 = {secede_province = THIS } 2081 = {secede_province = THIS } 2082 = {secede_province = THIS } 2083 = {secede_province = THIS } 2084 = {secede_province = THIS } 2085 = {secede_province = THIS } 2086 = {secede_province = THIS } 2087 = {secede_province = THIS } 2088 = {secede_province = THIS } 2089 = {secede_province = THIS } 2090 = {secede_province = THIS } 2091 = {secede_province = THIS } 2092 = {secede_province = THIS } 2093 = {secede_province = THIS }
+		2094 = {secede_province = THIS } 2095 = {secede_province = THIS } 2096 = {secede_province = THIS } 2097 = {secede_province = THIS } 2098 = {secede_province = THIS } 2099 = {secede_province = THIS } 2100 = {secede_province = THIS } 2101 = {secede_province = THIS } 2102 = {secede_province = THIS } 2103 = {secede_province = THIS } 2104 = {secede_province = THIS } 2105 = {secede_province = THIS } 2106 = {secede_province = THIS } 2107 = {secede_province = THIS } 2108 = {secede_province = THIS } 2109 = {secede_province = THIS } 2110 = {secede_province = THIS } 2111 = {secede_province = THIS } 2112 = {secede_province = THIS } 2113 = {secede_province = THIS } 2114 = {secede_province = THIS } 2115 = {secede_province = THIS } 2116 = {secede_province = THIS }
+		2117 = {secede_province = THIS } 2118 = {secede_province = THIS } 2119 = {secede_province = THIS } 2120 = {secede_province = THIS } 2121 = {secede_province = THIS } 2122 = {secede_province = THIS } 2123 = {secede_province = THIS } 2124 = {secede_province = THIS } 2125 = {secede_province = THIS } 2126 = {secede_province = THIS } 2127 = {secede_province = THIS } 2129 = {secede_province = THIS } 2130 = {secede_province = THIS } 2132 = {secede_province = THIS } 2134 = {secede_province = THIS } 2135 = {secede_province = THIS } 2136 = {secede_province = THIS } 2558 = {secede_province = THIS } 2559 = {secede_province = THIS } 2563 = {secede_province = THIS } 2564 = {secede_province = THIS } 2573 = {secede_province = THIS } 2574 = {secede_province = THIS }
+		2581 = {secede_province = THIS } 2585 = {secede_province = THIS } 2609 = {secede_province = THIS } 2624 = {secede_province = THIS } 2635 = {secede_province = THIS } 3266 = {secede_province = THIS } 3267 = {secede_province = THIS } 3268 = {secede_province = THIS } 3269 = {secede_province = THIS } 3270 = {secede_province = THIS } 3271 = {secede_province = THIS }
+		1755 = {secede_province = THIS } 855 = {secede_province = THIS } 856 = {secede_province = THIS } 857 = {secede_province = THIS } 861 = {secede_province = THIS } 862 = {secede_province = THIS } 863 = {secede_province = THIS } 864 = {secede_province = THIS } 865 = {secede_province = THIS } 866 = {secede_province = THIS } 867 = {secede_province = THIS } 868 = {secede_province = THIS } 869 = {secede_province = THIS } 870 = {secede_province = THIS } 871 = {secede_province = THIS } 872 = {secede_province = THIS } 873 = {secede_province = THIS } 874 = {secede_province = THIS } 875 = {secede_province = THIS } 876 = {secede_province = THIS } 877 = {secede_province = THIS } 878 = {secede_province = THIS } 879 = {secede_province = THIS } 880 = {secede_province = THIS } 881 = {secede_province = THIS } 882 = {secede_province = THIS } 883 = {secede_province = THIS } 884 = {secede_province = THIS } 885 = {secede_province = THIS } 886 = {secede_province = THIS } 
+		887 = {secede_province = THIS } 888 = {secede_province = THIS } 889 = {secede_province = THIS } 890 = {secede_province = THIS } 891 = {secede_province = THIS } 892 = {secede_province = THIS } 893 = {secede_province = THIS } 894 = {secede_province = THIS } 895 = {secede_province = THIS } 896 = {secede_province = THIS } 898 = {secede_province = THIS } 899 = {secede_province = THIS } 923 = {secede_province = THIS } 924 = {secede_province = THIS } 925 = {secede_province = THIS } 926 = {secede_province = THIS } 927 = {secede_province = THIS } 928 = {secede_province = THIS } 929 = {secede_province = THIS } 930 = {secede_province = THIS } 931 = {secede_province = THIS } 932 = {secede_province = THIS } 933 = {secede_province = THIS } 934 = {secede_province = THIS } 935 = {secede_province = THIS } 1058 = {secede_province = THIS } 1059 = {secede_province = THIS } 1060 = {secede_province = THIS } 
+		1061 = {secede_province = THIS } 1062 = {secede_province = THIS } 1063 = {secede_province = THIS } 1064 = {secede_province = THIS } 1065 = {secede_province = THIS } 1066 = {secede_province = THIS } 1067 = {secede_province = THIS } 1068 = {secede_province = THIS } 1069 = {secede_province = THIS } 1070 = {secede_province = THIS } 1071 = {secede_province = THIS } 1072 = {secede_province = THIS } 1073 = {secede_province = THIS } 1074 = {secede_province = THIS } 1075 = {secede_province = THIS } 1076 = {secede_province = THIS } 1077 = {secede_province = THIS } 1078 = {secede_province = THIS } 1079 = {secede_province = THIS } 1080 = {secede_province = THIS } 1081 = {secede_province = THIS } 1082 = {secede_province = THIS } 1083 = {secede_province = THIS } 
+		1084 = {secede_province = THIS } 1085 = {secede_province = THIS } 1086 = {secede_province = THIS } 1087 = {secede_province = THIS } 1088 = {secede_province = THIS } 1089 = {secede_province = THIS } 1108 = {secede_province = THIS } 1109 = {secede_province = THIS } 1110 = {secede_province = THIS } 1111 = {secede_province = THIS } 1112 = {secede_province = THIS } 1113 = {secede_province = THIS } 1114 = {secede_province = THIS } 1115 = {secede_province = THIS } 1116 = {secede_province = THIS } 1117 = {secede_province = THIS } 1118 = {secede_province = THIS } 1119 = {secede_province = THIS } 1120 = {secede_province = THIS } 1121 = {secede_province = THIS } 1122 = {secede_province = THIS } 1123 = {secede_province = THIS } 1124 = {secede_province = THIS }
+		1125 = {secede_province = THIS } 1126 = {secede_province = THIS } 1127 = {secede_province = THIS } 1128 = {secede_province = THIS } 1129 = {secede_province = THIS } 1130 = {secede_province = THIS } 1131 = {secede_province = THIS } 1132 = {secede_province = THIS } 1133 = {secede_province = THIS } 1134 = {secede_province = THIS } 1135 = {secede_province = THIS } 1136 = {secede_province = THIS } 1137 = {secede_province = THIS } 1138 = {secede_province = THIS } 1139 = {secede_province = THIS } 1140 = {secede_province = THIS } 1141 = {secede_province = THIS } 1142 = {secede_province = THIS } 1143 = {secede_province = THIS } 1144 = {secede_province = THIS } 1145 = {secede_province = THIS } 1146 = {secede_province = THIS } 1147 = {secede_province = THIS }
+		1148 = {secede_province = THIS } 1149 = {secede_province = THIS } 1150 = {secede_province = THIS } 1151 = {secede_province = THIS } 1152 = {secede_province = THIS } 1153 = {secede_province = THIS } 1154 = {secede_province = THIS } 1155 = {secede_province = THIS } 1156 = {secede_province = THIS } 1157 = {secede_province = THIS } 1158 = {secede_province = THIS } 1159 = {secede_province = THIS } 1160 = {secede_province = THIS } 1161 = {secede_province = THIS } 1162 = {secede_province = THIS } 1163 = {secede_province = THIS } 1164 = {secede_province = THIS } 1165 = {secede_province = THIS } 1166 = {secede_province = THIS } 1167 = {secede_province = THIS } 1168 = {secede_province = THIS } 1169 = {secede_province = THIS } 1170 = {secede_province = THIS }
+		1171 = {secede_province = THIS } 1172 = {secede_province = THIS } 1173 = {secede_province = THIS } 1174 = {secede_province = THIS } 1175 = {secede_province = THIS } 1176 = {secede_province = THIS } 1177 = {secede_province = THIS } 1178 = {secede_province = THIS } 1179 = {secede_province = THIS } 1180 = {secede_province = THIS } 1181 = {secede_province = THIS } 1183 = {secede_province = THIS } 1184 = {secede_province = THIS } 1185 = {secede_province = THIS } 1186 = {secede_province = THIS } 1187 = {secede_province = THIS } 1188 = {secede_province = THIS } 1189 = {secede_province = THIS } 1190 = {secede_province = THIS } 1191 = {secede_province = THIS } 1192 = {secede_province = THIS } 1193 = {secede_province = THIS }
+		1194 = {secede_province = THIS } 1195 = {secede_province = THIS } 1196 = {secede_province = THIS } 1197 = {secede_province = THIS } 1198 = {secede_province = THIS } 1199 = {secede_province = THIS } 1200 = {secede_province = THIS } 1201 = {secede_province = THIS } 1202 = {secede_province = THIS } 1203 = {secede_province = THIS } 1204 = {secede_province = THIS } 1205 = {secede_province = THIS } 1206 = {secede_province = THIS } 1207 = {secede_province = THIS } 1208 = {secede_province = THIS } 1209 = {secede_province = THIS } 1210 = {secede_province = THIS } 1211 = {secede_province = THIS } 1212 = {secede_province = THIS } 1213 = {secede_province = THIS } 1214 = {secede_province = THIS } 1215 = {secede_province = THIS } 1216 = {secede_province = THIS }
+		1217 = {secede_province = THIS } 1218 = {secede_province = THIS } 1219 = {secede_province = THIS } 1220 = {secede_province = THIS } 1221 = {secede_province = THIS } 1222 = {secede_province = THIS } 1223 = {secede_province = THIS } 1224 = {secede_province = THIS } 1225 = {secede_province = THIS } 1226 = {secede_province = THIS } 1227 = {secede_province = THIS } 1228 = {secede_province = THIS } 1229 = {secede_province = THIS } 1230 = {secede_province = THIS } 1231 = {secede_province = THIS } 1232 = {secede_province = THIS } 1233 = {secede_province = THIS } 1234 = {secede_province = THIS } 1235 = {secede_province = THIS } 1236 = {secede_province = THIS } 1237 = {secede_province = THIS } 1238 = {secede_province = THIS } 1239 = {secede_province = THIS }
+		1240 = {secede_province = THIS } 1241 = {secede_province = THIS } 1242 = {secede_province = THIS } 1243 = {secede_province = THIS } 1244 = {secede_province = THIS } 1245 = {secede_province = THIS } 1246 = {secede_province = THIS } 1247 = {secede_province = THIS } 1248 = {secede_province = THIS } 1249 = {secede_province = THIS } 1250 = {secede_province = THIS } 1251 = {secede_province = THIS } 1252 = {secede_province = THIS } 1253 = {secede_province = THIS } 1254 = {secede_province = THIS } 1255 = {secede_province = THIS } 1256 = {secede_province = THIS } 1257 = {secede_province = THIS } 1258 = {secede_province = THIS } 1259 = {secede_province = THIS } 1260 = {secede_province = THIS } 1261 = {secede_province = THIS } 1262 = {secede_province = THIS }
+		1263 = {secede_province = THIS } 1264 = {secede_province = THIS } 1265 = {secede_province = THIS } 1266 = {secede_province = THIS } 1267 = {secede_province = THIS } 1268 = {secede_province = THIS } 1269 = {secede_province = THIS } 1270 = {secede_province = THIS } 1271 = {secede_province = THIS } 1272 = {secede_province = THIS } 1273 = {secede_province = THIS } 1274 = {secede_province = THIS } 1275 = {secede_province = THIS } 1276 = {secede_province = THIS } 1277 = {secede_province = THIS } 1278 = {secede_province = THIS } 1279 = {secede_province = THIS } 1280 = {secede_province = THIS } 1281 = {secede_province = THIS } 1282 = {secede_province = THIS } 1283 = {secede_province = THIS } 1284 = {secede_province = THIS } 1285 = {secede_province = THIS }
+		1286 = {secede_province = THIS } 1287 = {secede_province = THIS } 1288 = {secede_province = THIS } 1289 = {secede_province = THIS } 1290 = {secede_province = THIS } 1291 = {secede_province = THIS } 1292 = {secede_province = THIS } 1293 = {secede_province = THIS } 1294 = {secede_province = THIS } 1295 = {secede_province = THIS } 1296 = {secede_province = THIS } 1297 = {secede_province = THIS } 1298 = {secede_province = THIS } 1299 = {secede_province = THIS } 1300 = {secede_province = THIS } 1301 = {secede_province = THIS } 1302 = {secede_province = THIS } 1303 = {secede_province = THIS } 1304 = {secede_province = THIS } 1305 = {secede_province = THIS } 1306 = {secede_province = THIS } 1307 = {secede_province = THIS } 1308 = {secede_province = THIS }
+		1309 = {secede_province = THIS } 1310 = {secede_province = THIS } 1311 = {secede_province = THIS } 1312 = {secede_province = THIS } 1313 = {secede_province = THIS } 1314 = {secede_province = THIS } 1315 = {secede_province = THIS } 1316 = {secede_province = THIS } 1317 = {secede_province = THIS } 1318 = {secede_province = THIS } 1319 = {secede_province = THIS } 1320 = {secede_province = THIS } 1321 = {secede_province = THIS } 1322 = {secede_province = THIS } 1323 = {secede_province = THIS } 1324 = {secede_province = THIS } 1325 = {secede_province = THIS } 1326 = {secede_province = THIS } 1327 = {secede_province = THIS } 1328 = {secede_province = THIS } 1329 = {secede_province = THIS } 1330 = {secede_province = THIS } 1331 = {secede_province = THIS }
+		1332 = {secede_province = THIS } 1333 = {secede_province = THIS } 1334 = {secede_province = THIS } 1335 = {secede_province = THIS } 1336 = {secede_province = THIS } 1337 = {secede_province = THIS } 1338 = {secede_province = THIS } 1339 = {secede_province = THIS } 1340 = {secede_province = THIS } 1341 = {secede_province = THIS } 1342 = {secede_province = THIS } 1343 = {secede_province = THIS } 1344 = {secede_province = THIS } 1345 = {secede_province = THIS } 1346 = {secede_province = THIS } 1347 = {secede_province = THIS } 1348 = {secede_province = THIS } 1349 = {secede_province = THIS } 1350 = {secede_province = THIS } 1351 = {secede_province = THIS } 1352 = {secede_province = THIS } 1353 = {secede_province = THIS } 1354 = {secede_province = THIS }
+		1355 = {secede_province = THIS } 1356 = {secede_province = THIS } 1357 = {secede_province = THIS } 1358 = {secede_province = THIS } 1359 = {secede_province = THIS } 1360 = {secede_province = THIS } 1361 = {secede_province = THIS } 1362 = {secede_province = THIS } 1363 = {secede_province = THIS } 1364 = {secede_province = THIS } 1365 = {secede_province = THIS } 1366 = {secede_province = THIS } 1367 = {secede_province = THIS } 1368 = {secede_province = THIS } 1369 = {secede_province = THIS } 1370 = {secede_province = THIS } 1371 = {secede_province = THIS } 1372 = {secede_province = THIS } 1373 = {secede_province = THIS } 1374 = {secede_province = THIS } 1375 = {secede_province = THIS } 1376 = {secede_province = THIS } 1377 = {secede_province = THIS }
+		1378 = {secede_province = THIS } 1379 = {secede_province = THIS } 1380 = {secede_province = THIS } 1381 = {secede_province = THIS } 1382 = {secede_province = THIS } 1383 = {secede_province = THIS } 1384 = {secede_province = THIS } 1385 = {secede_province = THIS } 1386 = {secede_province = THIS } 1387 = {secede_province = THIS } 1388 = {secede_province = THIS } 1389 = {secede_province = THIS } 1390 = {secede_province = THIS } 1391 = {secede_province = THIS } 1392 = {secede_province = THIS } 1393 = {secede_province = THIS } 1394 = {secede_province = THIS } 1395 = {secede_province = THIS } 1396 = {secede_province = THIS } 1397 = {secede_province = THIS } 1398 = {secede_province = THIS } 1399 = {secede_province = THIS } 1400 = {secede_province = THIS }
+		1401 = {secede_province = THIS } 1402 = {secede_province = THIS } 1403 = {secede_province = THIS } 1404 = {secede_province = THIS } 1405 = {secede_province = THIS } 1406 = {secede_province = THIS } 1407 = {secede_province = THIS } 1408 = {secede_province = THIS } 1409 = {secede_province = THIS } 1410 = {secede_province = THIS } 1411 = {secede_province = THIS } 1412 = {secede_province = THIS } 1413 = {secede_province = THIS } 1414 = {secede_province = THIS } 1415 = {secede_province = THIS } 1416 = {secede_province = THIS } 1417 = {secede_province = THIS } 1418 = {secede_province = THIS } 1419 = {secede_province = THIS } 1420 = {secede_province = THIS } 1421 = {secede_province = THIS } 1422 = {secede_province = THIS } 1423 = {secede_province = THIS }
+		1424 = {secede_province = THIS } 1425 = {secede_province = THIS } 1426 = {secede_province = THIS } 1427 = {secede_province = THIS } 1428 = {secede_province = THIS } 1429 = {secede_province = THIS } 1430 = {secede_province = THIS } 1431 = {secede_province = THIS } 1432 = {secede_province = THIS } 1433 = {secede_province = THIS } 1434 = {secede_province = THIS } 1435 = {secede_province = THIS } 1436 = {secede_province = THIS } 1437 = {secede_province = THIS } 1438 = {secede_province = THIS } 1439 = {secede_province = THIS } 1440 = {secede_province = THIS } 1441 = {secede_province = THIS } 1442 = {secede_province = THIS } 1443 = {secede_province = THIS } 1444 = {secede_province = THIS } 1445 = {secede_province = THIS } 1446 = {secede_province = THIS }
+		1447 = {secede_province = THIS } 1448 = {secede_province = THIS } 1449 = {secede_province = THIS } 1450 = {secede_province = THIS } 1451 = {secede_province = THIS } 1452 = {secede_province = THIS } 1453 = {secede_province = THIS } 1454 = {secede_province = THIS } 1455 = {secede_province = THIS } 1456 = {secede_province = THIS } 1457 = {secede_province = THIS } 1458 = {secede_province = THIS } 1459 = {secede_province = THIS } 1460 = {secede_province = THIS } 1461 = {secede_province = THIS } 1462 = {secede_province = THIS } 1463 = {secede_province = THIS } 1464 = {secede_province = THIS } 1465 = {secede_province = THIS } 1466 = {secede_province = THIS } 1467 = {secede_province = THIS } 1468 = {secede_province = THIS } 1469 = {secede_province = THIS }
+		1470 = {secede_province = THIS } 1471 = {secede_province = THIS } 1472 = {secede_province = THIS } 1473 = {secede_province = THIS } 1474 = {secede_province = THIS } 1475 = {secede_province = THIS } 1476 = {secede_province = THIS } 1477 = {secede_province = THIS } 1478 = {secede_province = THIS } 1479 = {secede_province = THIS } 1480 = {secede_province = THIS } 1481 = {secede_province = THIS } 1482 = {secede_province = THIS } 1483 = {secede_province = THIS } 1484 = {secede_province = THIS } 1485 = {secede_province = THIS } 1486 = {secede_province = THIS } 1487 = {secede_province = THIS } 1488 = {secede_province = THIS } 1489 = {secede_province = THIS } 1490 = {secede_province = THIS } 1491 = {secede_province = THIS } 1492 = {secede_province = THIS }
+		1493 = {secede_province = THIS } 1494 = {secede_province = THIS } 1495 = {secede_province = THIS } 1496 = {secede_province = THIS } 1497 = {secede_province = THIS } 1498 = {secede_province = THIS } 1499 = {secede_province = THIS } 1500 = {secede_province = THIS } 1501 = {secede_province = THIS } 1502 = {secede_province = THIS } 1503 = {secede_province = THIS } 1504 = {secede_province = THIS } 1505 = {secede_province = THIS } 1506 = {secede_province = THIS } 1507 = {secede_province = THIS } 1508 = {secede_province = THIS } 1509 = {secede_province = THIS } 1510 = {secede_province = THIS } 1511 = {secede_province = THIS } 1512 = {secede_province = THIS } 1513 = {secede_province = THIS } 1514 = {secede_province = THIS } 1515 = {secede_province = THIS }
+		1516 = {secede_province = THIS } 1517 = {secede_province = THIS } 1518 = {secede_province = THIS } 1519 = {secede_province = THIS } 1520 = {secede_province = THIS } 1521 = {secede_province = THIS } 1522 = {secede_province = THIS } 1523 = {secede_province = THIS } 1524 = {secede_province = THIS } 1525 = {secede_province = THIS } 1526 = {secede_province = THIS } 1527 = {secede_province = THIS } 1528 = {secede_province = THIS } 1529 = {secede_province = THIS } 1530 = {secede_province = THIS } 1532 = {secede_province = THIS } 1533 = {secede_province = THIS } 1534 = {secede_province = THIS } 1535 = {secede_province = THIS } 1536 = {secede_province = THIS } 1537 = {secede_province = THIS } 1538 = {secede_province = THIS } 1539 = {secede_province = THIS }
+		1540 = {secede_province = THIS } 1541 = {secede_province = THIS } 1542 = {secede_province = THIS } 1543 = {secede_province = THIS } 1544 = {secede_province = THIS } 1545 = {secede_province = THIS } 1546 = {secede_province = THIS } 1547 = {secede_province = THIS } 1548 = {secede_province = THIS } 1549 = {secede_province = THIS } 1550 = {secede_province = THIS } 1551 = {secede_province = THIS } 1552 = {secede_province = THIS } 1553 = {secede_province = THIS } 1554 = {secede_province = THIS } 1555 = {secede_province = THIS } 1556 = {secede_province = THIS } 1557 = {secede_province = THIS } 1558 = {secede_province = THIS } 1559 = {secede_province = THIS } 1561 = {secede_province = THIS } 1562 = {secede_province = THIS } 1563 = {secede_province = THIS }
+		1564 = {secede_province = THIS } 1565 = {secede_province = THIS } 1566 = {secede_province = THIS } 1567 = {secede_province = THIS } 1568 = {secede_province = THIS } 1569 = {secede_province = THIS } 1570 = {secede_province = THIS } 1571 = {secede_province = THIS } 1572 = {secede_province = THIS } 1573 = {secede_province = THIS } 1574 = {secede_province = THIS } 1575 = {secede_province = THIS } 1576 = {secede_province = THIS } 1577 = {secede_province = THIS } 1578 = {secede_province = THIS } 1579 = {secede_province = THIS } 1580 = {secede_province = THIS } 1581 = {secede_province = THIS } 1582 = {secede_province = THIS } 1583 = {secede_province = THIS } 1584 = {secede_province = THIS } 1585 = {secede_province = THIS } 1586 = {secede_province = THIS }
+		1587 = {secede_province = THIS } 1588 = {secede_province = THIS } 1589 = {secede_province = THIS } 1590 = {secede_province = THIS } 1591 = {secede_province = THIS } 1592 = {secede_province = THIS } 1593 = {secede_province = THIS } 1594 = {secede_province = THIS } 1595 = {secede_province = THIS } 1596 = {secede_province = THIS } 1597 = {secede_province = THIS } 1598 = {secede_province = THIS } 1599 = {secede_province = THIS } 1600 = {secede_province = THIS } 1601 = {secede_province = THIS } 1602 = {secede_province = THIS } 1603 = {secede_province = THIS } 1604 = {secede_province = THIS } 1605 = {secede_province = THIS } 1606 = {secede_province = THIS } 1607 = {secede_province = THIS } 1608 = {secede_province = THIS } 1609 = {secede_province = THIS }
+		1610 = {secede_province = THIS } 1611 = {secede_province = THIS } 1612 = {secede_province = THIS } 1613 = {secede_province = THIS } 1614 = {secede_province = THIS } 1615 = {secede_province = THIS } 1616 = {secede_province = THIS } 1617 = {secede_province = THIS } 1618 = {secede_province = THIS } 1619 = {secede_province = THIS } 1620 = {secede_province = THIS } 1621 = {secede_province = THIS } 1622 = {secede_province = THIS } 1623 = {secede_province = THIS } 1624 = {secede_province = THIS } 1625 = {secede_province = THIS } 1626 = {secede_province = THIS } 1627 = {secede_province = THIS } 1628 = {secede_province = THIS } 1629 = {secede_province = THIS } 1630 = {secede_province = THIS } 1631 = {secede_province = THIS } 1632 = {secede_province = THIS }
+		1633 = {secede_province = THIS } 1634 = {secede_province = THIS } 1635 = {secede_province = THIS } 1636 = {secede_province = THIS } 1637 = {secede_province = THIS } 1638 = {secede_province = THIS } 1639 = {secede_province = THIS } 1640 = {secede_province = THIS } 1641 = {secede_province = THIS } 1642 = {secede_province = THIS } 1643 = {secede_province = THIS } 1644 = {secede_province = THIS } 1645 = {secede_province = THIS } 1646 = {secede_province = THIS } 1647 = {secede_province = THIS } 1648 = {secede_province = THIS } 1649 = {secede_province = THIS } 1650 = {secede_province = THIS } 1651 = {secede_province = THIS } 1652 = {secede_province = THIS } 1653 = {secede_province = THIS } 1655 = {secede_province = THIS } 1656 = {secede_province = THIS }
+		1657 = {secede_province = THIS } 1658 = {secede_province = THIS } 1659 = {secede_province = THIS } 1660 = {secede_province = THIS } 1661 = {secede_province = THIS } 1662 = {secede_province = THIS } 1663 = {secede_province = THIS } 1664 = {secede_province = THIS } 1665 = {secede_province = THIS } 1666 = {secede_province = THIS } 1667 = {secede_province = THIS } 1668 = {secede_province = THIS } 1669 = {secede_province = THIS } 1670 = {secede_province = THIS } 1671 = {secede_province = THIS } 1672 = {secede_province = THIS } 1673 = {secede_province = THIS } 1674 = {secede_province = THIS } 1675 = {secede_province = THIS } 1676 = {secede_province = THIS } 1677 = {secede_province = THIS } 1678 = {secede_province = THIS } 1679 = {secede_province = THIS }
+		2062 = {secede_province = THIS } 2128 = {secede_province = THIS } 2207 = {secede_province = THIS } 2221 = {secede_province = THIS } 2244 = {secede_province = THIS } 2406 = {secede_province = THIS } 2562 = {secede_province = THIS } 2565 = {secede_province = THIS } 2566 = {secede_province = THIS } 2572 = {secede_province = THIS } 2575 = {secede_province = THIS } 2576 = {secede_province = THIS } 2586 = {secede_province = THIS } 2589 = {secede_province = THIS } 2590 = {secede_province = THIS } 2606 = {secede_province = THIS } 2607 = {secede_province = THIS } 2608 = {secede_province = THIS } 2611 = {secede_province = THIS } 2612 = {secede_province = THIS }
+		2613 = {secede_province = THIS } 2614 = {secede_province = THIS } 2615 = {secede_province = THIS } 2616 = {secede_province = THIS } 2617 = {secede_province = THIS } 2618 = {secede_province = THIS } 2619 = {secede_province = THIS } 2620 = {secede_province = THIS } 2621 = {secede_province = THIS } 2622 = {secede_province = THIS } 2633 = {secede_province = THIS } 2634 = {secede_province = THIS } 2637 = {secede_province = THIS } 2638 = {secede_province = THIS } 2639 = {secede_province = THIS } 2640 = {secede_province = THIS } 2641 = {secede_province = THIS } 2642 = {secede_province = THIS } 2643 = {secede_province = THIS } 2644 = {secede_province = THIS } 2645 = {secede_province = THIS } 2646 = {secede_province = THIS } 2647 = {secede_province = THIS }
+		2648 = {secede_province = THIS } 2649 = {secede_province = THIS } 2650 = {secede_province = THIS } 2651 = {secede_province = THIS } 2652 = {secede_province = THIS } 2653 = {secede_province = THIS } 2654 = {secede_province = THIS } 2655 = {secede_province = THIS } 2656 = {secede_province = THIS } 2657 = {secede_province = THIS } 2658 = {secede_province = THIS } 2659 = {secede_province = THIS } 2660 = {secede_province = THIS } 2661 = {secede_province = THIS } 2662 = {secede_province = THIS } 2663 = {secede_province = THIS } 2664 = {secede_province = THIS } 2665 = {secede_province = THIS } 2666 = {secede_province = THIS } 2667 = {secede_province = THIS } 2668 = {secede_province = THIS } 2669 = {secede_province = THIS } 2670 = {secede_province = THIS }
+		2671 = {secede_province = THIS } 2672 = {secede_province = THIS } 2673 = {secede_province = THIS } 2674 = {secede_province = THIS } 2675 = {secede_province = THIS } 2676 = {secede_province = THIS } 2677 = {secede_province = THIS } 2678 = {secede_province = THIS } 2679 = {secede_province = THIS } 2680 = {secede_province = THIS } 2681 = {secede_province = THIS } 2682 = {secede_province = THIS } 2683 = {secede_province = THIS } 2684 = {secede_province = THIS } 2685 = {secede_province = THIS } 2686 = {secede_province = THIS } 2690 = {secede_province = THIS } 2691 = {secede_province = THIS } 2692 = {secede_province = THIS } 2693 = {secede_province = THIS }
+		2694 = {secede_province = THIS } 2695 = {secede_province = THIS } 2696 = {secede_province = THIS } 2697 = {secede_province = THIS } 2698 = {secede_province = THIS } 2701 = {secede_province = THIS } 2702 = {secede_province = THIS } 1002 = {secede_province = THIS } 3272 = {secede_province = THIS } 3273 = {secede_province = THIS } 3274 = {secede_province = THIS } 3275 = {secede_province = THIS } 3276 = {secede_province = THIS } 251 = {secede_province = THIS } 252 = {secede_province = THIS } 253 = {secede_province = THIS } 254 = {secede_province = THIS } 255 = {secede_province = THIS } 256 = {secede_province = THIS } 257 = {secede_province = THIS } 258 = {secede_province = THIS } 259 = {secede_province = THIS } 260 = {secede_province = THIS } 261 = {secede_province = THIS } 262 = {secede_province = THIS } 263 = {secede_province = THIS } 264 = {secede_province = THIS } 265 = {secede_province = THIS } 266 = {secede_province = THIS } 267 = {secede_province = THIS } 268 = {secede_province = THIS } 269 = {secede_province = THIS } 270 = {secede_province = THIS } 271 = {secede_province = THIS } 272 = {secede_province = THIS } 273 = {secede_province = THIS } 274 = {secede_province = THIS } 275 = {secede_province = THIS } 276 = {secede_province = THIS } 277 = {secede_province = THIS } 278 = {secede_province = THIS }
+		279 = {secede_province = THIS } 280 = {secede_province = THIS } 281 = {secede_province = THIS } 282 = {secede_province = THIS } 283 = {secede_province = THIS } 284 = {secede_province = THIS } 285 = {secede_province = THIS } 286 = {secede_province = THIS } 287 = {secede_province = THIS } 288 = {secede_province = THIS } 289 = {secede_province = THIS } 290 = {secede_province = THIS } 291 = {secede_province = THIS } 292 = {secede_province = THIS } 293 = {secede_province = THIS } 294 = {secede_province = THIS } 295 = {secede_province = THIS } 296 = {secede_province = THIS } 297 = {secede_province = THIS } 298 = {secede_province = THIS } 299 = {secede_province = THIS } 300 = {secede_province = THIS } 301 = {secede_province = THIS } 302 = {secede_province = THIS } 303 = {secede_province = THIS } 304 = {secede_province = THIS } 305 = {secede_province = THIS } 306 = {secede_province = THIS }
+		307 = {secede_province = THIS } 308 = {secede_province = THIS } 309 = {secede_province = THIS } 310 = {secede_province = THIS } 311 = {secede_province = THIS } 312 = {secede_province = THIS } 313 = {secede_province = THIS } 314 = {secede_province = THIS } 315 = {secede_province = THIS } 316 = {secede_province = THIS } 317 = {secede_province = THIS } 318 = {secede_province = THIS } 319 = {secede_province = THIS } 320 = {secede_province = THIS } 321 = {secede_province = THIS } 322 = {secede_province = THIS } 323 = {secede_province = THIS } 324 = {secede_province = THIS } 325 = {secede_province = THIS } 326 = {secede_province = THIS } 327 = {secede_province = THIS } 328 = {secede_province = THIS } 329 = {secede_province = THIS } 330 = {secede_province = THIS } 331 = {secede_province = THIS } 332 = {secede_province = THIS } 333 = {secede_province = THIS } 334 = {secede_province = THIS }
+		335 = {secede_province = THIS } 336 = {secede_province = THIS } 337 = {secede_province = THIS } 338 = {secede_province = THIS } 339 = {secede_province = THIS } 340 = {secede_province = THIS } 341 = {secede_province = THIS } 342 = {secede_province = THIS } 343 = {secede_province = THIS } 344 = {secede_province = THIS } 345 = {secede_province = THIS } 346 = {secede_province = THIS } 347 = {secede_province = THIS } 348 = {secede_province = THIS } 349 = {secede_province = THIS } 350 = {secede_province = THIS } 351 = {secede_province = THIS } 352 = {secede_province = THIS } 353 = {secede_province = THIS } 354 = {secede_province = THIS } 355 = {secede_province = THIS } 356 = {secede_province = THIS } 357 = {secede_province = THIS } 358 = {secede_province = THIS } 359 = {secede_province = THIS } 360 = {secede_province = THIS } 361 = {secede_province = THIS } 362 = {secede_province = THIS }
+		363 = {secede_province = THIS } 364 = {secede_province = THIS } 365 = {secede_province = THIS } 366 = {secede_province = THIS } 367 = {secede_province = THIS } 368 = {secede_province = THIS } 369 = {secede_province = THIS } 370 = {secede_province = THIS } 371 = {secede_province = THIS } 372 = {secede_province = THIS } 373 = {secede_province = THIS } 374 = {secede_province = THIS } 375 = {secede_province = THIS } 376 = {secede_province = THIS } 377 = {secede_province = THIS } 378 = {secede_province = THIS } 379 = {secede_province = THIS } 380 = {secede_province = THIS } 381 = {secede_province = THIS } 382 = {secede_province = THIS } 383 = {secede_province = THIS } 384 = {secede_province = THIS } 385 = {secede_province = THIS } 386 = {secede_province = THIS } 387 = {secede_province = THIS } 388 = {secede_province = THIS } 389 = {secede_province = THIS } 390 = {secede_province = THIS }
+		391 = {secede_province = THIS } 392 = {secede_province = THIS } 393 = {secede_province = THIS } 394 = {secede_province = THIS } 395 = {secede_province = THIS } 396 = {secede_province = THIS } 397 = {secede_province = THIS } 398 = {secede_province = THIS } 399 = {secede_province = THIS } 400 = {secede_province = THIS } 401 = {secede_province = THIS } 402 = {secede_province = THIS } 403 = {secede_province = THIS } 404 = {secede_province = THIS } 405 = {secede_province = THIS } 406 = {secede_province = THIS } 407 = {secede_province = THIS } 408 = {secede_province = THIS } 409 = {secede_province = THIS } 410 = {secede_province = THIS } 411 = {secede_province = THIS } 412 = {secede_province = THIS } 413 = {secede_province = THIS } 414 = {secede_province = THIS } 415 = {secede_province = THIS } 416 = {secede_province = THIS } 417 = {secede_province = THIS } 418 = {secede_province = THIS }
+		419 = {secede_province = THIS } 420 = {secede_province = THIS } 421 = {secede_province = THIS } 422 = {secede_province = THIS } 423 = {secede_province = THIS } 424 = {secede_province = THIS } 425 = {secede_province = THIS } 426 = {secede_province = THIS } 427 = {secede_province = THIS } 428 = {secede_province = THIS } 429 = {secede_province = THIS } 430 = {secede_province = THIS } 431 = {secede_province = THIS } 432 = {secede_province = THIS } 433 = {secede_province = THIS } 434 = {secede_province = THIS } 435 = {secede_province = THIS } 436 = {secede_province = THIS } 437 = {secede_province = THIS } 438 = {secede_province = THIS } 439 = {secede_province = THIS } 440 = {secede_province = THIS } 441 = {secede_province = THIS } 442 = {secede_province = THIS } 443 = {secede_province = THIS } 444 = {secede_province = THIS } 445 = {secede_province = THIS } 446 = {secede_province = THIS }
+		447 = {secede_province = THIS } 448 = {secede_province = THIS } 449 = {secede_province = THIS } 450 = {secede_province = THIS } 451 = {secede_province = THIS } 452 = {secede_province = THIS } 453 = {secede_province = THIS } 454 = {secede_province = THIS } 455 = {secede_province = THIS } 456 = {secede_province = THIS } 457 = {secede_province = THIS } 458 = {secede_province = THIS } 459 = {secede_province = THIS } 460 = {secede_province = THIS } 461 = {secede_province = THIS } 462 = {secede_province = THIS } 463 = {secede_province = THIS } 464 = {secede_province = THIS } 465 = {secede_province = THIS } 466 = {secede_province = THIS } 467 = {secede_province = THIS } 468 = {secede_province = THIS } 469 = {secede_province = THIS } 470 = {secede_province = THIS } 471 = {secede_province = THIS } 472 = {secede_province = THIS } 473 = {secede_province = THIS } 474 = {secede_province = THIS }
+		475 = {secede_province = THIS } 476 = {secede_province = THIS } 477 = {secede_province = THIS } 478 = {secede_province = THIS } 479 = {secede_province = THIS } 480 = {secede_province = THIS } 481 = {secede_province = THIS } 482 = {secede_province = THIS } 483 = {secede_province = THIS } 484 = {secede_province = THIS } 485 = {secede_province = THIS } 486 = {secede_province = THIS } 487 = {secede_province = THIS } 488 = {secede_province = THIS } 489 = {secede_province = THIS } 490 = {secede_province = THIS } 491 = {secede_province = THIS } 492 = {secede_province = THIS } 493 = {secede_province = THIS } 494 = {secede_province = THIS } 495 = {secede_province = THIS } 496 = {secede_province = THIS } 497 = {secede_province = THIS } 498 = {secede_province = THIS } 499 = {secede_province = THIS } 500 = {secede_province = THIS } 501 = {secede_province = THIS } 502 = {secede_province = THIS }
+		503 = {secede_province = THIS } 504 = {secede_province = THIS } 505 = {secede_province = THIS } 506 = {secede_province = THIS } 507 = {secede_province = THIS } 508 = {secede_province = THIS } 509 = {secede_province = THIS } 510 = {secede_province = THIS } 511 = {secede_province = THIS } 512 = {secede_province = THIS } 513 = {secede_province = THIS } 514 = {secede_province = THIS } 515 = {secede_province = THIS } 516 = {secede_province = THIS } 517 = {secede_province = THIS } 518 = {secede_province = THIS } 519 = {secede_province = THIS } 520 = {secede_province = THIS } 521 = {secede_province = THIS } 522 = {secede_province = THIS } 523 = {secede_province = THIS } 524 = {secede_province = THIS } 525 = {secede_province = THIS } 526 = {secede_province = THIS } 527 = {secede_province = THIS } 528 = {secede_province = THIS } 529 = {secede_province = THIS } 530 = {secede_province = THIS }
+		531 = {secede_province = THIS } 532 = {secede_province = THIS } 533 = {secede_province = THIS } 534 = {secede_province = THIS } 535 = {secede_province = THIS } 536 = {secede_province = THIS } 537 = {secede_province = THIS } 538 = {secede_province = THIS } 539 = {secede_province = THIS } 540 = {secede_province = THIS } 541 = {secede_province = THIS } 542 = {secede_province = THIS } 543 = {secede_province = THIS } 544 = {secede_province = THIS } 545 = {secede_province = THIS } 546 = {secede_province = THIS } 547 = {secede_province = THIS } 548 = {secede_province = THIS } 549 = {secede_province = THIS } 550 = {secede_province = THIS } 551 = {secede_province = THIS } 552 = {secede_province = THIS } 553 = {secede_province = THIS } 554 = {secede_province = THIS } 555 = {secede_province = THIS } 556 = {secede_province = THIS } 557 = {secede_province = THIS } 558 = {secede_province = THIS }
+		559 = {secede_province = THIS } 560 = {secede_province = THIS } 561 = {secede_province = THIS } 562 = {secede_province = THIS } 563 = {secede_province = THIS } 564 = {secede_province = THIS } 565 = {secede_province = THIS } 566 = {secede_province = THIS } 567 = {secede_province = THIS } 568 = {secede_province = THIS } 569 = {secede_province = THIS } 570 = {secede_province = THIS } 571 = {secede_province = THIS } 572 = {secede_province = THIS } 573 = {secede_province = THIS } 574 = {secede_province = THIS } 575 = {secede_province = THIS } 576 = {secede_province = THIS } 577 = {secede_province = THIS } 578 = {secede_province = THIS } 579 = {secede_province = THIS } 580 = {secede_province = THIS } 581 = {secede_province = THIS } 582 = {secede_province = THIS } 583 = {secede_province = THIS } 584 = {secede_province = THIS } 585 = {secede_province = THIS } 586 = {secede_province = THIS }
+		587 = {secede_province = THIS } 588 = {secede_province = THIS } 589 = {secede_province = THIS } 590 = {secede_province = THIS } 591 = {secede_province = THIS } 592 = {secede_province = THIS } 593 = {secede_province = THIS } 594 = {secede_province = THIS } 595 = {secede_province = THIS } 596 = {secede_province = THIS } 597 = {secede_province = THIS } 598 = {secede_province = THIS } 599 = {secede_province = THIS } 600 = {secede_province = THIS } 601 = {secede_province = THIS } 602 = {secede_province = THIS } 603 = {secede_province = THIS } 604 = {secede_province = THIS } 605 = {secede_province = THIS } 606 = {secede_province = THIS } 607 = {secede_province = THIS } 608 = {secede_province = THIS } 609 = {secede_province = THIS } 611 = {secede_province = THIS } 612 = {secede_province = THIS } 613 = {secede_province = THIS } 614 = {secede_province = THIS } 615 = {secede_province = THIS }
+		616 = {secede_province = THIS } 617 = {secede_province = THIS } 618 = {secede_province = THIS } 619 = {secede_province = THIS } 620 = {secede_province = THIS } 621 = {secede_province = THIS } 622 = {secede_province = THIS } 623 = {secede_province = THIS } 624 = {secede_province = THIS } 625 = {secede_province = THIS } 626 = {secede_province = THIS } 627 = {secede_province = THIS } 628 = {secede_province = THIS } 629 = {secede_province = THIS } 630 = {secede_province = THIS } 631 = {secede_province = THIS } 632 = {secede_province = THIS } 633 = {secede_province = THIS } 634 = {secede_province = THIS } 635 = {secede_province = THIS } 636 = {secede_province = THIS } 637 = {secede_province = THIS } 638 = {secede_province = THIS } 639 = {secede_province = THIS } 640 = {secede_province = THIS } 641 = {secede_province = THIS } 642 = {secede_province = THIS } 643 = {secede_province = THIS }
+		644 = {secede_province = THIS } 645 = {secede_province = THIS } 646 = {secede_province = THIS } 647 = {secede_province = THIS } 648 = {secede_province = THIS } 649 = {secede_province = THIS } 650 = {secede_province = THIS } 651 = {secede_province = THIS } 652 = {secede_province = THIS } 653 = {secede_province = THIS } 654 = {secede_province = THIS } 655 = {secede_province = THIS } 656 = {secede_province = THIS } 657 = {secede_province = THIS } 659 = {secede_province = THIS } 660 = {secede_province = THIS } 661 = {secede_province = THIS } 662 = {secede_province = THIS } 663 = {secede_province = THIS } 664 = {secede_province = THIS } 665 = {secede_province = THIS } 666 = {secede_province = THIS } 667 = {secede_province = THIS } 668 = {secede_province = THIS } 669 = {secede_province = THIS } 670 = {secede_province = THIS } 671 = {secede_province = THIS } 672 = {secede_province = THIS }
+		673 = {secede_province = THIS } 676 = {secede_province = THIS } 677 = {secede_province = THIS } 678 = {secede_province = THIS } 679 = {secede_province = THIS } 680 = {secede_province = THIS } 681 = {secede_province = THIS } 682 = {secede_province = THIS } 683 = {secede_province = THIS } 684 = {secede_province = THIS } 685 = {secede_province = THIS } 687 = {secede_province = THIS } 688 = {secede_province = THIS } 689 = {secede_province = THIS } 690 = {secede_province = THIS } 691 = {secede_province = THIS } 692 = {secede_province = THIS } 693 = {secede_province = THIS } 694 = {secede_province = THIS } 695 = {secede_province = THIS } 696 = {secede_province = THIS } 697 = {secede_province = THIS } 698 = {secede_province = THIS } 699 = {secede_province = THIS } 700 = {secede_province = THIS } 701 = {secede_province = THIS } 702 = {secede_province = THIS } 703 = {secede_province = THIS }
+		704 = {secede_province = THIS } 705 = {secede_province = THIS } 706 = {secede_province = THIS } 707 = {secede_province = THIS } 708 = {secede_province = THIS } 709 = {secede_province = THIS } 710 = {secede_province = THIS } 711 = {secede_province = THIS } 712 = {secede_province = THIS } 713 = {secede_province = THIS } 714 = {secede_province = THIS } 715 = {secede_province = THIS } 716 = {secede_province = THIS } 717 = {secede_province = THIS } 718 = {secede_province = THIS } 719 = {secede_province = THIS } 720 = {secede_province = THIS } 721 = {secede_province = THIS } 722 = {secede_province = THIS } 723 = {secede_province = THIS } 724 = {secede_province = THIS } 725 = {secede_province = THIS } 726 = {secede_province = THIS } 727 = {secede_province = THIS } 728 = {secede_province = THIS } 729 = {secede_province = THIS } 730 = {secede_province = THIS } 731 = {secede_province = THIS }
+		732 = {secede_province = THIS } 733 = {secede_province = THIS } 734 = {secede_province = THIS } 735 = {secede_province = THIS } 736 = {secede_province = THIS } 737 = {secede_province = THIS } 738 = {secede_province = THIS } 739 = {secede_province = THIS } 740 = {secede_province = THIS } 741 = {secede_province = THIS } 742 = {secede_province = THIS } 743 = {secede_province = THIS } 744 = {secede_province = THIS } 745 = {secede_province = THIS } 746 = {secede_province = THIS } 747 = {secede_province = THIS } 748 = {secede_province = THIS } 749 = {secede_province = THIS } 750 = {secede_province = THIS } 751 = {secede_province = THIS } 752 = {secede_province = THIS } 753 = {secede_province = THIS } 754 = {secede_province = THIS } 755 = {secede_province = THIS } 756 = {secede_province = THIS } 757 = {secede_province = THIS } 758 = {secede_province = THIS } 759 = {secede_province = THIS }
+		760 = {secede_province = THIS } 761 = {secede_province = THIS } 762 = {secede_province = THIS } 763 = {secede_province = THIS } 764 = {secede_province = THIS } 765 = {secede_province = THIS } 766 = {secede_province = THIS } 767 = {secede_province = THIS } 768 = {secede_province = THIS } 769 = {secede_province = THIS } 770 = {secede_province = THIS } 771 = {secede_province = THIS } 772 = {secede_province = THIS } 773 = {secede_province = THIS } 774 = {secede_province = THIS } 775 = {secede_province = THIS } 776 = {secede_province = THIS } 777 = {secede_province = THIS } 778 = {secede_province = THIS } 779 = {secede_province = THIS } 780 = {secede_province = THIS } 781 = {secede_province = THIS } 782 = {secede_province = THIS } 783 = {secede_province = THIS } 784 = {secede_province = THIS } 785 = {secede_province = THIS } 786 = {secede_province = THIS } 787 = {secede_province = THIS }
+		788 = {secede_province = THIS } 789 = {secede_province = THIS } 791 = {secede_province = THIS } 792 = {secede_province = THIS } 793 = {secede_province = THIS } 794 = {secede_province = THIS } 795 = {secede_province = THIS } 796 = {secede_province = THIS } 797 = {secede_province = THIS } 800 = {secede_province = THIS } 826 = {secede_province = THIS } 827 = {secede_province = THIS } 834 = {secede_province = THIS } 835 = {secede_province = THIS } 836 = {secede_province = THIS } 837 = {secede_province = THIS } 838 = {secede_province = THIS } 839 = {secede_province = THIS } 840 = {secede_province = THIS } 841 = {secede_province = THIS } 842 = {secede_province = THIS } 849 = {secede_province = THIS } 850 = {secede_province = THIS } 851 = {secede_province = THIS } 852 = {secede_province = THIS } 853 = {secede_province = THIS } 854 = {secede_province = THIS } 936 = {secede_province = THIS }
+		937 = {secede_province = THIS } 938 = {secede_province = THIS } 939 = {secede_province = THIS } 940 = {secede_province = THIS } 941 = {secede_province = THIS } 942 = {secede_province = THIS } 943 = {secede_province = THIS } 944 = {secede_province = THIS } 945 = {secede_province = THIS } 946 = {secede_province = THIS } 947 = {secede_province = THIS } 948 = {secede_province = THIS } 949 = {secede_province = THIS } 950 = {secede_province = THIS } 951 = {secede_province = THIS } 952 = {secede_province = THIS } 953 = {secede_province = THIS } 954 = {secede_province = THIS } 955 = {secede_province = THIS } 956 = {secede_province = THIS } 957 = {secede_province = THIS } 958 = {secede_province = THIS } 959 = {secede_province = THIS } 960 = {secede_province = THIS } 961 = {secede_province = THIS } 962 = {secede_province = THIS } 963 = {secede_province = THIS } 964 = {secede_province = THIS }
+		965 = {secede_province = THIS } 966 = {secede_province = THIS } 967 = {secede_province = THIS } 968 = {secede_province = THIS } 969 = {secede_province = THIS } 970 = {secede_province = THIS } 971 = {secede_province = THIS } 972 = {secede_province = THIS } 973 = {secede_province = THIS } 974 = {secede_province = THIS } 975 = {secede_province = THIS } 976 = {secede_province = THIS } 977 = {secede_province = THIS } 978 = {secede_province = THIS } 979 = {secede_province = THIS } 980 = {secede_province = THIS } 982 = {secede_province = THIS } 983 = {secede_province = THIS } 984 = {secede_province = THIS } 988 = {secede_province = THIS } 989 = {secede_province = THIS } 992 = {secede_province = THIS } 993 = {secede_province = THIS } 994 = {secede_province = THIS } 995 = {secede_province = THIS } 996 = {secede_province = THIS } 997 = {secede_province = THIS } 998 = {secede_province = THIS }
+		999 = {secede_province = THIS } 1000 = {secede_province = THIS } 1001 = {secede_province = THIS } 1003 = {secede_province = THIS } 1004 = {secede_province = THIS } 1005 = {secede_province = THIS } 1006 = {secede_province = THIS } 1007 = {secede_province = THIS } 1008 = {secede_province = THIS } 1009 = {secede_province = THIS } 1010 = {secede_province = THIS } 1011 = {secede_province = THIS } 1012 = {secede_province = THIS } 1013 = {secede_province = THIS } 1014 = {secede_province = THIS } 1015 = {secede_province = THIS } 1016 = {secede_province = THIS } 1017 = {secede_province = THIS } 1018 = {secede_province = THIS } 1019 = {secede_province = THIS } 2533 = {secede_province = THIS } 2538 = {secede_province = THIS } 2557 = {secede_province = THIS }
+		2560 = {secede_province = THIS } 2561 = {secede_province = THIS } 2567 = {secede_province = THIS } 2568 = {secede_province = THIS } 2569 = {secede_province = THIS } 2570 = {secede_province = THIS } 2577 = {secede_province = THIS } 2580 = {secede_province = THIS } 2582 = {secede_province = THIS } 2583 = {secede_province = THIS } 2584 = {secede_province = THIS } 2587 = {secede_province = THIS } 2588 = {secede_province = THIS } 2591 = {secede_province = THIS } 2632 = {secede_province = THIS } 2636 = {secede_province = THIS } 3246 = {secede_province = THIS } 
+		
+		1094 = {secede_province = THIS } 1095 = {secede_province = THIS } 1092 = {secede_province = THIS } 1093 = {secede_province = THIS } 1091 = {secede_province = THIS } 1090 = {secede_province = THIS } 1096 = {secede_province = THIS } 1099 = {secede_province = THIS } 1098 = {secede_province = THIS } 1101 = {secede_province = THIS } 1100 = {secede_province = THIS } 1106 = {secede_province = THIS } 1105 = {secede_province = THIS } 1104 = {secede_province = THIS } 1103 = {secede_province = THIS } 1102 = {secede_province = THIS } 1107 = {secede_province = THIS } 675 = {secede_province = THIS } 674 = {secede_province = THIS } 818 = {secede_province = THIS } 814 = {secede_province = THIS } 813 = {secede_province = THIS } 811 = {secede_province = THIS } 812 = {secede_province = THIS } 810 = {secede_province = THIS }
+		817 = {secede_province = THIS } 816 = {secede_province = THIS } 809 = {secede_province = THIS } 808 = {secede_province = THIS } 815 = {secede_province = THIS } 860 = {secede_province = THIS } 858 = {secede_province = THIS } 859 = {secede_province = THIS } 828 = {secede_province = THIS } 830 = {secede_province = THIS } 829 = {secede_province = THIS } 823 = {secede_province = THIS } 822 = {secede_province = THIS } 805 = {secede_province = THIS } 798 = {secede_province = THIS } 799 = {secede_province = THIS } 804 = {secede_province = THIS } 803 = {secede_province = THIS } 802 = {secede_province = THIS } 806 = {secede_province = THIS } 807 = {secede_province = THIS } 819 = {secede_province = THIS } 820 = {secede_province = THIS } 821 = {secede_province = THIS } 824 = {secede_province = THIS } 825 = {secede_province = THIS } 831 = {secede_province = THIS } 832 = {secede_province = THIS } 833 = {secede_province = THIS }
+		847 = {secede_province = THIS } 848 = {secede_province = THIS } 846 = {secede_province = THIS } 845 = {secede_province = THIS } 844 = {secede_province = THIS } 843 = {secede_province = THIS } 981 = {secede_province = THIS } 987 = {secede_province = THIS } 991 = {secede_province = THIS } 990 = {secede_province = THIS } 1023 = {secede_province = THIS } 1024 = {secede_province = THIS } 1022 = {secede_province = THIS } 985 = {secede_province = THIS } 986 = {secede_province = THIS } 2688 = {secede_province = THIS } 2689 = {secede_province = THIS } 2687 = {secede_province = THIS } 1026 = {secede_province = THIS } 1031 = {secede_province = THIS } 1029 = {secede_province = THIS } 2699 = {secede_province = THIS } 2700 = {secede_province = THIS } 1020 = {secede_province = THIS } 1027 = {secede_province = THIS } 1028 = {secede_province = THIS }
+		1030 = {secede_province = THIS } 1032 = {secede_province = THIS } 1033 = {secede_province = THIS } 1034 = {secede_province = THIS } 1042 = {secede_province = THIS } 1035 = {secede_province = THIS } 1043 = {secede_province = THIS } 1044 = {secede_province = THIS } 2610 = {secede_province = THIS } 1182 = {secede_province = THIS } 1037 = {secede_province = THIS } 1025 = {secede_province = THIS } 1021 = {secede_province = THIS } 1038 = {secede_province = THIS } 1041 = {secede_province = THIS } 1036 = {secede_province = THIS } 1040 = {secede_province = THIS } 1039 = {secede_province = THIS } 1046 = {secede_province = THIS } 1047 = {secede_province = THIS } 1045 = {secede_province = THIS } 1048 = {secede_province = THIS } 1049 = {secede_province = THIS }
+		1050 = {secede_province = THIS } 1051 = {secede_province = THIS } 1056 = {secede_province = THIS } 1052 = {secede_province = THIS } 1053 = {secede_province = THIS } 1054 = {secede_province = THIS } 1055 = {secede_province = THIS } 1057 = {secede_province = THIS } 3249 = {secede_province = THIS } 3250 = {secede_province = THIS } 3251 = {secede_province = THIS } 3252 = {secede_province = THIS } 3253 = {secede_province = THIS } 3254 = {secede_province = THIS } 3255 = {secede_province = THIS } 3256 = {secede_province = THIS } 3257 = {secede_province = THIS } 3258 = {secede_province = THIS } 3259 = {secede_province = THIS } 3260 = {secede_province = THIS } 3261 = {secede_province = THIS } 3262 = {secede_province = THIS } 3263 = {secede_province = THIS }
+		3264 = {secede_province = THIS } 3265 = {secede_province = THIS } 
     
     }    
 
@@ -28,7 +164,6 @@ country_event = {
     desc = "EVTDESC780000"
     picture = "Celebration"
     is_triggered_only = yes
-	major = yes
 
 option = {
         name = "Sanction"
@@ -213,10 +348,10 @@ country_event = {
 				not = { is_core = FWI }
 			}
 		        add_core = USA 
+                        secede_province = USA 
 		            }
 		prestige = -10
 		war_exhaustion = 1
-		release = USA
 	   USA = {
 		government = democracy
 		any_pop = { militancy = -10 consciousness = 10 }
@@ -280,10 +415,10 @@ country_event = {
 				not = { is_core = FWI }
 			}
 		        add_core = LOU 
+                        secede_province = LOU 
 		            }
 		prestige = -10
 		war_exhaustion = 1
-		release = LOU
 	   LOU = {
 		any_pop = { militancy = -10 consciousness = 10 }
 	   }
@@ -397,7 +532,7 @@ country_event = {
 country_event = {
 	id = 1200003
 	title = "Луизиана в огне"
-	desc = "Начинается война с нашей колонией Лузианой"
+	desc = "Начинается война с нашей колонией Луизианой"
 	picture = "colonial_uprising"	
 	
 
@@ -483,10 +618,10 @@ country_event = {
 				not = { is_core = XGA }
 			}
 		        add_core = MEX 
+                        secede_province = MEX 
 		            }
 		prestige = -10
 		war_exhaustion = 1
-		release = MEX
 	   MEX = {
 		any_pop = { militancy = -10 consciousness = 10 }
 	   }
@@ -962,8 +1097,8 @@ country_event = {
 		NOT = { exists = AFG }
 		any_owned_province = {
 				is_core = AFG 
-			        average_militancy = 5
-			        average_consciousness = 5
+			        average_militancy = 6
+			        average_consciousness = 2
 		}
 	}
 	
@@ -1071,4 +1206,760 @@ secede_province = AFG
 		name = "Заключим перемирие"
 	}
 	
+}
+
+country_event = {
+	id = 401009
+	title = "$FROMCOUNTRY$ Unites the Empire"
+	desc = "The ruler of $FROMCOUNTRY$, the Holy Roman Emperor, has decided to unite the empire. Being part of it we are obliged to comply and hand over rule over our country."
+	picture = "hre_pic"
+		is_triggered_only = yes
+
+		option = {
+			name = "Blast!"
+				FROM = {
+					inherit = THIS
+					}
+				}
+}
+
+province_event = {
+	id = 400003 #slavery province
+	title = "Slavery Expansion"
+	desc = "$COUNTRY_ADJ$ landowners have found some use for slaves in $STATENAME$, therefore expanding the institution to these lands."
+	trigger = {
+		state_scope = {
+			is_slave = no
+			is_colonial = yes
+		}
+		owner = {
+			slavery = yes_slavery
+		}
+	}
+
+	option = {
+		name = "Very Well"
+		state_scope = {
+			is_slave = yes
+		}
+	}
+}
+
+country_event = { 
+	id = 401002
+	title = "EVTNAME401002" 
+	desc = "EVTDESC401002" 
+	picture = "hre_pic"
+		trigger = { 
+			AND = {
+				NOT = { tag = NET
+                                        tag = BEL
+					has_country_flag = hre_member
+					has_country_flag = left_hre 
+					has_global_flag = hre_dismantled
+					}
+				is_culture_group = germanic
+				}
+			}
+
+		option = {
+			name = "God Save the Emperor!"
+				set_country_flag = hre_member
+			any_owned = {
+				limit = {
+				is_core = THIS
+					}
+				add_core = HRE
+				}
+			}
+		}
+		
+country_event = {
+	id = 20000171 #Apennine earthquakes
+	title = ev_20000171
+	desc = desc_ev_20000171
+	picture = earthquakeold
+	fire_only_once = yes
+	trigger = {
+		year = 1702
+		owns = 751
+		NOT = {
+			year = 1704
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_blast
+		751 = {
+			any_pop = {
+				reduce_pop = 0.9
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 20000174 #First complete census in the World, Iceland
+	title = ev_20000174
+	desc = desc_ev_20000174
+	picture = EarlyCensus
+	fire_only_once = yes
+	trigger = {
+		year = 1702
+		owns = 252
+		NOT = {
+			year = 1704
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_great
+		prestige = 3
+	}
+}
+country_event = {
+	id = 20000176 #Great storm of 1703
+	title = ev_20000176
+	desc = desc_ev_20000176
+	picture = storm_coming_field
+	fire_only_once = yes
+	trigger = {
+		year = 1702
+		owns = 300
+		owns = 301
+		owns = 302
+		NOT = {
+			year = 1704
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_blast
+		300 = {
+			any_pop = {
+				reduce_pop = 0.95
+			}
+		}
+		301 = {
+			any_pop = {
+				reduce_pop = 0.95
+			}
+		}
+		302 = {
+			any_pop = {
+				reduce_pop = 0.95
+			}
+		}
+	}
+}
+country_event = {
+	id = 20000179 #Osaka merchant's property confiscated for conducts unbecoming to the merchant class of Japan
+	title = ev_20000179
+	desc = desc_ev_20000179
+	picture = shogun
+	fire_only_once = yes
+	trigger = {
+		year = 1704
+		tag = TKG
+		NOT = {
+			year = 1706
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_alright
+		prestige = -2
+		any_pop = {
+			limit = {
+				strata = middle
+			}
+			militancy = 0.5
+		}
+		treasury = 50000
+	}
+}
+
+country_event = {
+	id = 20000184 #Bach appointed chamber musician in Weimar
+	title = ev_20000184
+	desc = desc_ev_20000184
+	picture = Bach
+	fire_only_once = yes
+	trigger = {
+		year = 1707
+		owns = 561
+		NOT = {
+			year = 1709
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_great
+		prestige = 20
+	}
+}
+
+country_event = {
+	id = 20000186 #Western European Great Frost
+	title = ev_20000186
+	desc = desc_ev_20000186
+	picture = GreatFrost
+	fire_only_once = yes
+	trigger = {
+		year = 1708
+		tag = FRA
+		NOT = {
+			year = 1710
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_blast
+		425 = {
+			any_pop = {
+				reduce_pop = 0.75
+			}
+		}
+		any_pop = {
+			reduce_pop = 0.95
+		}
+	}
+}
+
+country_event = {
+	id = 200001915 #George I crowned king of England
+	title = ev_200001915
+	desc = desc_ev_200001915
+	picture = monarchy
+	fire_only_once = yes
+	trigger = {
+		year = 1713
+		OR = {
+			tag = ENL
+			tag = ENG
+		}
+		exists = HAN
+		NOT = {
+			year = 1715
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_great
+		create_vassal = HAN
+	}
+}
+country_event = {
+	id = 20000192 #First major Jacobite rebellion in Scotland
+	title = ev_20000192
+	desc = desc_ev_20000192
+	picture = riot
+	fire_only_once = yes
+	trigger = {
+		year = 1714
+		OR = {
+			tag = ENL
+			tag = ENG
+		}
+		NOT = {
+			exists = SCO
+		}
+		NOT = {
+			year = 1716
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_blast
+		any_pop = {
+			limit = {
+				culture = scottish
+			}
+			militancy = 10
+		}
+	}
+}
+
+
+country_event = {
+	id = 20000205 # Table of Ranks created by Peter I
+	title = ev_20000205
+	desc = desc_ev_20000205
+	picture = TableOfRanks
+	fire_only_once = yes
+	trigger = {
+		year = 1721
+		tag = RUS
+		NOT = {
+			year = 1723
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_great
+		plurality = 2
+	}
+}
+
+country_event = {
+	id = 20000208 # Four Seasons composed by Vivaldi
+	title = ev_20000208
+	desc = desc_ev_20000208
+	picture = Vivaldi
+	fire_only_once = yes
+	trigger = {
+		year = 1722
+		tag = VEN
+		NOT = {
+			year = 1724
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_great
+		prestige = 15
+	}
+}
+
+country_event = {
+	id = 20000212 # Order of Alexander Nevsky instituted in Russia
+	title = ev_20000212
+	desc = desc_ev_20000212
+	picture = administration
+	fire_only_once = yes
+	trigger = {
+		year = 1724
+		tag = RUS
+		NOT = {
+			year = 1726
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_great
+		plurality = 2
+		any_pop = {
+			militancy = -1
+		}
+	}
+}
+
+country_event = {
+	id = 20000217 # Tabriz earthquake
+	title = ev_20000217
+	desc = desc_ev_20000217
+	picture = earthquakeold
+	fire_only_once = yes
+	trigger = {
+		year = 1726
+		owns = 1108
+		NOT = {
+			year = 1728
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_blast
+		1108 = {
+			any_pop = {
+				reduce_pop = 0.6
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 20000224 # Georg Brandt discovers cobalt
+	title = ev_20000224
+	desc = desc_ev_20000224
+	picture = Kobalt
+	fire_only_once = yes
+	trigger = {
+		year = 1734
+		tag = SWE
+		NOT = {
+			year = 1736
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_great
+		prestige = 3
+		years_of_research = 0.2
+	}
+}
+
+country_event = {
+	id = 20000240 # Kilt banned in Scotland
+	title = ev_20000240
+	desc = desc_ev_20000240
+	picture = administration
+	fire_only_once = yes
+	trigger = {
+		year = 1746
+		OR = {
+			tag = ANG
+			tag = ENG
+		}
+		NOT = {
+			exists = SCO
+		}
+		NOT = {
+			year = 1748
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_alright
+		any_pop = {
+			limit = {
+				culture = scottish
+			}
+			militancy = 3
+		}
+	}
+}
+
+country_event = {
+	id = 20000254 # Moscow University established
+	title = ev_20000254
+	desc = desc_ev_20000254
+	picture = school
+	fire_only_once = yes
+	trigger = {
+		year = 1754
+		tag = RUS
+		owns = 1008
+		NOT = {
+			year = 1756
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_great
+		prestige = 5
+		years_of_research = 0.5
+	}
+}
+
+country_event = {
+	id = 20000255 # Lisbon Earthquake
+	title = ev_20000255
+	desc = desc_ev_20000255
+	picture = earthquakeold
+	fire_only_once = yes
+	trigger = {
+		year = 1754
+		OR = {
+			tag = POR
+			tag = IBU
+		}
+		NOT = {
+			year = 1756
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_blast
+		521 = {
+			any_pop = {
+				reduce_pop = 0.85
+			}
+		}
+	}
+}
+country_event = {
+	id = 20000270 # Mughal famine 1/3
+	title = ev_20000270
+	desc = desc_ev_20000270
+	picture = starving
+	fire_only_once = yes
+	trigger = {
+		year = 1702
+		tag = MUG
+		NOT = {
+			year = 1704
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_blast
+		any_pop = {
+			reduce_pop = 0.9
+		}
+	}
+}
+country_event = {
+	id = 20000276 # Istanbul Technical University founded
+	title = ev_20000276
+	desc = desc_ev_20000276
+	picture = school
+	fire_only_once = yes
+	trigger = {
+		year = 1772
+		tag = TUR
+		NOT = {
+			year = 1774
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_great
+		prestige = 5
+		years_of_research = 0.5
+	}
+}
+
+country_event = {
+	id = 20000288 # Iceland's volcano Laki errupts, killing 1/3 pop
+	title = ev_20000288
+	desc = desc_ev_20000288
+	picture = volcano
+	fire_only_once = yes
+	trigger = {
+		year = 1782
+		owns = 252
+		NOT = {
+			year = 1784
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_blast
+		252 = {
+			any_pop = {
+				reduce_pop = 0.66
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 20000292 # Japanese famine
+	title = ev_20000292
+	desc = desc_ev_20000292
+	picture = starving
+	fire_only_once = yes
+	trigger = {
+		year = 1783
+		tag = TKG
+		NOT = {
+			year = 1785
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_blast
+		any_pop = {
+			reduce_pop = 0.85
+		}
+	}
+}
+country_event = {
+	id = 20000294 # Chengdu earthquake and landslide
+	title = ev_20000294
+	desc = desc_ev_20000294
+	picture = earthquakeold
+	fire_only_once = yes
+	trigger = {
+		year = 1785
+		owns = 1578
+		NOT = {
+			year = 1787
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_blast
+		1578 = {
+			any_pop = {
+				reduce_pop = 0.75
+			}
+		}
+	}
+}
+country_event = {
+	id = 20000300 # Unzen volcano errupts
+	title = ev_20000300
+	desc = desc_ev_20000300
+	picture = volcano
+	fire_only_once = yes
+	trigger = {
+		year = 1791
+		tag = JAP
+		owns = 1661
+		NOT = {
+			year = 1793
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_blast
+		1661 = {
+			any_pop = {
+				reduce_pop = 0.85
+			}
+		}
+	}
+}
+country_event = {
+	id = 20000310 # First Serbian uprising
+	title = ev_20000310
+	desc = desc_ev_20000310
+	picture = Rebellion
+	fire_only_once = yes
+	trigger = {
+		year = 1803
+		tag = TUR
+		owns = 794
+		NOT = {
+			exists = SER
+		}
+		NOT = {
+			year = 18
+		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_blast
+		any_pop = {
+			limit = {
+				culture = serb
+			}
+			militancy = 10
+		}
+	}
+}
+country_event = {
+	id = 20000314 # Finland separates from Sweden, becoming a puppet of Russia
+	title = ev_20000314
+	desc = desc_ev_20000314
+	picture = treaty
+	fire_only_once = yes
+	trigger = {
+		tag = SWE
+		NOT = {
+			exists = FIN
+		}
+		in_sphere = RUS 
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_blast
+		release = FIN
+		RUS = {
+			create_vassal = FIN
+		}
+		prestige = -20
+	}
+}
+province_event = {
+
+      id = 900001            #african slavery
+      title = "EVTNAME900001"
+      desc = "EVTDESC900001"
+      allow_multiple_instances = no
+      trigger = {
+              continent = africa
+               is_slave = no
+			}
+
+      mean_time_to_happen = {
+              months = 2400
+                 }
+
+      option = {
+        name = "EVTOPTA900001"
+                state_scope = {
+                        is_slave = yes
+                                }
+                
+                poor_strata = {
+                            militancy = 2
+                            consciousness = 1
+                                }
+
+                }
+
+      option = {
+        name = "EVTOPTB900001"
+                poor_strata = {
+                            militancy = -2
+                }
+                       }
+	}
+
+country_event = {
+        id = 100000030
+        title = "EVTNAME100000030"
+        desc = "EVTDESC100000030"
+        picture = "Pol_Lit"
+	 trigger = {
+		tag = PLC
+		NOT = {
+			owns = 363
+			owns = 360
+			owns = 361
+			owns = 362
+			owns = 364
+			owns = 365
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVTOPTA100000030"
+		change_tag = POL
+		prestige = -100
+	}
 }

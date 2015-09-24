@@ -1233,6 +1233,13 @@ nationalist_rebels = {
 		}
 		modifier = {
 			factor = 0
+                        is_culture_group = THIS
+			OR = { has_country_flag = holy_roman_emperor 
+                               has_country_flag = hre_member } 
+			location = { is_core = HRE }
+		}
+		modifier = {
+			factor = 0
 			country = { tag = ENG }
 			location = { is_core = ENL }
 		}
@@ -4590,4 +4597,154 @@ apache = {
 	
 	#demands_enforced_effect = {
 	#}
+}
+
+
+###################################
+# Slave Rebels
+###################################
+slave_rebels = {
+	icon = 9
+	
+	area = all 					# Stays within the nation
+	break_alliance_on_win = no
+	
+	# <this is the governement in the country> = <this is what the rebels want>
+	government = {
+		proletarian_dictatorship = proletarian_dictatorship
+		presidential_dictatorship = presidential_dictatorship
+		bourgeois_dictatorship = bourgeois_dictatorship
+		fascist_dictatorship = fascist_dictatorship
+		absolute_monarchy = absolute_monarchy
+	prussian_constitutionalism = prussian_constitutionalism
+		hms_government = hms_government
+		democracy = democracy
+	}
+	
+	
+	defection = none				
+	independence = none					
+	defect_delay = 18
+	
+	ideology = liberal
+	
+	allow_all_cultures = yes
+	allow_all_religions = yes
+	allow_all_ideologies = yes
+	
+	resilient = yes					
+	reinforcing = yes				
+	general = yes					
+	smart = yes
+	unit_transfer = no				# Units do not remain after enforcing demands.
+	
+	occupation_mult = 1.0			# The amount of strength this rebel gains from taking provinces	
+
+	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
+	will_rise = 
+	{
+		factor = 1
+		
+		modifier = {
+			war = yes
+			factor = 0.8
+		}	
+		
+		modifier = {
+			war_exhaustion = 4
+			factor = 0.95
+		}
+		
+		modifier = {
+			war_exhaustion = 6
+			factor = 0.95
+		}
+		
+		modifier = {
+			war_exhaustion = 8
+			factor = 0.95
+		}
+		
+	}
+	
+	# The rebel type with the highest modifier for this pop gets picked
+	spawn_chance = {
+		factor = 1.3
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				type = slaves
+				}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				slavery = no
+				}
+		}
+		modifier = {
+			factor = 4
+			type = slaves
+				}
+		modifier = {
+			factor = 1.2
+			location = {
+				is_colonial = yes
+					}
+				}
+		modifier = {
+			factor = 1.015
+			country = { plurality = 10 }
+		}
+
+	}
+ 
+ 	#This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 1
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 0.001
+			controlled_by = REB
+		}
+		modifier = {
+			factor = 1.5
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 1.5
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 1.5
+			average_militancy = 8
+		}
+		modifier = {
+			factor = 2.0
+			is_capital = yes
+		}
+	}
+	
+ 	# Province Scope
+ 	#siege_won_trigger = {
+ 	#}
+	
+	#siege_won_effect = {
+	#}
+
+	# Country scope
+	demands_enforced_trigger = {
+		capital_scope = {
+			controlled_by = REB
+			province_control_days = 30
+		}
+	}
+	
+	demands_enforced_effect = {
+		political_reform = no_slavery
+	}
 }

@@ -629,6 +629,7 @@ mechanized_mining = {
 	year = 1710
 	cost = 2200
 
+	activate_building = steel_factory 
 	rgo_goods_output = {
 		iron = 0.1
 	}
@@ -692,9 +693,8 @@ mechanized_mining = {
 }
 clean_coal = {
 	area = metallurgy
-	year = 1780
+	year = 1770
 	cost = 4400
-	activate_building = steel_factory 
 
 	rgo_goods_output = {
 		iron = 0.2

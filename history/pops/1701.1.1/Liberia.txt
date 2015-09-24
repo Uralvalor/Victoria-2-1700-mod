@@ -2,334 +2,334 @@
 	bureaucrats = {
 		culture = african_minor
 		religion = protestant
-		size = 4
+		size = 8
 	}
 	officers = {
 		culture = african_minor
 		religion = protestant
-		size = 9
+		size = 18
 	}
 	clergymen = {
+		culture = african_minor
+		religion = protestant
+		size = 94
+	}
+	artisans = {
+		culture = african_minor
+		religion = protestant
+		size = 189
+	}
+	soldiers = {
 		culture = african_minor
 		religion = protestant
 		size = 44
 	}
-	artisans = {
-		culture = african_minor
-		religion = protestant
-		size = 87
-	}
-	soldiers = {
-		culture = african_minor
-		religion = protestant
-		size = 21
-	}
 	farmers = {
 		culture = african_minor
 		religion = protestant
-		size = 706
+		size = 1533
 	}
 	clergymen = {
 		culture = kru
 		religion = protestant
-		size = 21
-	}
-	artisans = {
-		culture = kru
-		religion = protestant
-		size = 174
-	}
-	soldiers = {
-		culture = kru
-		religion = protestant
-		size = 871
-	}
-	farmers = {
-		culture = kru
-		religion = protestant
-		size = 2417
-	}
-	aristocrats = {
-		culture = kru
-		religion = animist
-		size = 762
-	}
-	clergymen = {
-		culture = kru
-		religion = animist
-		size = 392
-	}
-	artisans = {
-		culture = kru
-		religion = animist
-		size = 2047
-	}
-	soldiers = {
-		culture = kru
-		religion = animist
-		size = 392
-	}
-	farmers = {
-		culture = kru
-		religion = animist
-		size = 35602
-	}
-	aristocrats = {
-		culture = mande
-		religion = sunni
-		size = 131
-	}
-	clergymen = {
-		culture = mande
-		religion = sunni
-		size = 65
-	}
-	artisans = {
-		culture = mande
-		religion = sunni
-		size = 392
-	}
-	soldiers = {
-		culture = mande
-		religion = sunni
-		size = 87
-	}
-	farmers = {
-		culture = mande
-		religion = sunni
-		size = 7163
-	}
-	aristocrats = {
-		culture = african_minor
-		religion = animist
-		size = 65
-	}
-	clergymen = {
-		culture = african_minor
-		religion = animist
 		size = 44
 	}
 	artisans = {
+		culture = kru
+		religion = protestant
+		size = 378
+	}
+	soldiers = {
+		culture = kru
+		religion = protestant
+		size = 1892
+	}
+	farmers = {
+		culture = kru
+		religion = protestant
+		size = 5252
+	}
+	aristocrats = {
+		culture = kru
+		religion = animist
+		size = 1655
+	}
+	clergymen = {
+		culture = kru
+		religion = animist
+		size = 851
+	}
+	artisans = {
+		culture = kru
+		religion = animist
+		size = 4448
+	}
+	soldiers = {
+		culture = kru
+		religion = animist
+		size = 851
+	}
+	farmers = {
+		culture = kru
+		religion = animist
+		size = 77380
+	}
+	aristocrats = {
+		culture = mande
+		religion = sunni
+		size = 283
+	}
+	clergymen = {
+		culture = mande
+		religion = sunni
+		size = 140
+	}
+	artisans = {
+		culture = mande
+		religion = sunni
+		size = 851
+	}
+	soldiers = {
+		culture = mande
+		religion = sunni
+		size = 189
+	}
+	farmers = {
+		culture = mande
+		religion = sunni
+		size = 15568
+	}
+	aristocrats = {
 		culture = african_minor
 		religion = animist
-		size = 174
+		size = 140
+	}
+	clergymen = {
+		culture = african_minor
+		religion = animist
+		size = 94
+	}
+	artisans = {
+		culture = african_minor
+		religion = animist
+		size = 378
 	}
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 44
+		size = 94
 	}
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 3157
+		size = 6860
 	}
 }
 1888 = {
 	aristocrats = {
 		culture = kru
 		religion = animist
-		size = 653
+		size = 1418
 	}
 	clergymen = {
 		culture = kru
 		religion = animist
-		size = 326
+		size = 707
 	}
 	artisans = {
 		culture = kru
 		religion = animist
-		size = 1654
+		size = 3593
 	}
 	soldiers = {
 		culture = kru
 		religion = animist
-		size = 326
+		size = 707
 	}
 	farmers = {
 		culture = kru
 		religion = animist
-		size = 30136
+		size = 65499
 	}
 	aristocrats = {
 		culture = african_minor
 		religion = animist
-		size = 218
+		size = 472
 	}
 	clergymen = {
 		culture = african_minor
 		religion = animist
-		size = 108
+		size = 233
 	}
 	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 566
+		size = 1229
 	}
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 108
+		size = 233
 	}
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 10322
+		size = 22434
 	}
 }
 1889 = {
 	aristocrats = {
 		culture = mande
 		religion = sunni
-		size = 414
+		size = 899
 	}
 	clergymen = {
 		culture = mande
 		religion = sunni
-		size = 218
+		size = 472
 	}
 	artisans = {
 		culture = mande
 		religion = sunni
-		size = 1089
+		size = 2366
 	}
 	soldiers = {
 		culture = mande
 		religion = sunni
-		size = 218
+		size = 472
 	}
 	farmers = {
 		culture = mande
 		religion = sunni
-		size = 19837
+		size = 43114
 	}
 	aristocrats = {
 		culture = african_minor
 		religion = animist
-		size = 87
+		size = 189
 	}
 	clergymen = {
 		culture = african_minor
 		religion = animist
-		size = 44
+		size = 94
 	}
 	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 261
+		size = 567
 	}
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 65
+		size = 140
 	}
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 4769
+		size = 10365
 	}
 }
 1890 = {
 	aristocrats = {
 		culture = mande
 		religion = sunni
-		size = 174
+		size = 378
 	}
 	clergymen = {
 		culture = mande
 		religion = sunni
-		size = 87
+		size = 189
 	}
 	artisans = {
 		culture = mande
 		religion = sunni
-		size = 479
+		size = 1040
 	}
 	soldiers = {
 		culture = mande
 		religion = sunni
-		size = 108
+		size = 233
 	}
 	farmers = {
 		culture = mande
 		religion = sunni
-		size = 8731
+		size = 18975
 	}
 	aristocrats = {
 		culture = african_minor
 		religion = animist
-		size = 369
+		size = 801
 	}
 	clergymen = {
 		culture = african_minor
 		religion = animist
-		size = 195
+		size = 422
 	}
 	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 958
+		size = 2081
 	}
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 195
+		size = 422
 	}
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 17441
+		size = 37908
 	}
 }
 1891 = {
 	aristocrats = {
 		culture = kru
 		religion = animist
-		size = 369
+		size = 801
 	}
 	clergymen = {
 		culture = kru
 		religion = animist
-		size = 218
+		size = 472
 	}
 	artisans = {
 		culture = kru
 		religion = animist
-		size = 1002
+		size = 2177
 	}
 	soldiers = {
 		culture = kru
 		religion = animist
-		size = 218
+		size = 472
 	}
 	farmers = {
 		culture = kru
 		religion = animist
-		size = 18269
+		size = 39707
 	}
 	aristocrats = {
 		culture = african_minor
 		religion = animist
-		size = 305
+		size = 662
 	}
 	clergymen = {
 		culture = african_minor
 		religion = animist
-		size = 174
+		size = 378
 	}
 	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 828
+		size = 1799
 	}
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 174
+		size = 378
 	}
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 15068
+		size = 32749
 	}
 }

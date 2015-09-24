@@ -1,858 +1,730 @@
-#Caracas Region (332000)
-#Ruled by Venezuela 1836
-#Caracas (224000/56000 POPS)
 2264 = {
 	aristocrats = {
 		culture = platinean
 		religion = catholic
-	        size = 345
+		size = 517
 	}
-
 	bureaucrats = {
 		culture = platinean
 		religion = catholic
-	        size = 211
+		size = 316
 	}
-
 	clergymen = {
 		culture = platinean
 		religion = catholic
-	        size = 190
+		size = 285
 	}
-
 	artisans = {
 		culture = platinean
 		religion = catholic
-	        size = 3455
+		size = 5182
 	}
-
 	soldiers = {
 		culture = platinean
 		religion = catholic
-	        size = 1356
+		size = 2034
 	}
-
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 11094
+		size = 16641
 	}
-
 	artisans = {
 		culture = spanish
 		religion = catholic
-	        size = 1036
+		size = 1554
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 6784
+		size = 10176
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 4783
+		size = 7174
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 894
+		size = 1341
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 2945
+		size = 4417
 	}
 	farmers = {
 		culture = guajiro
 		religion = catholic
-	        size = 511
+		size = 766
 	}
 	farmers = {
 		culture = amazonian
 		religion = catholic
-	        size = 618
+		size = 927
 	}
-
 }
-#Cumana (24000/6000 POPS)
 2267 = {
 	aristocrats = {
 		culture = platinean
 		religion = catholic
-	        size = 56
+		size = 84
 	}
-
 	bureaucrats = {
 		culture = platinean
 		religion = catholic
-	        size = 47
+		size = 70
 	}
-
 	clergymen = {
 		culture = platinean
 		religion = catholic
-	        size = 79
+		size = 118
 	}
-
 	artisans = {
 		culture = platinean
 		religion = catholic
-	        size = 567
+		size = 850
 	}
-
 	soldiers = {
 		culture = platinean
 		religion = catholic
-	        size = 67
+		size = 100
 	}
-
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 1934
+		size = 2901
 	}
-
 	artisans = {
 		culture = spanish
 		religion = catholic
-	        size = 238
+		size = 357
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 873
+		size = 1309
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 1017
+		size = 1525
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 317
+		size = 475
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 734
+		size = 1101
 	}
 	farmers = {
 		culture = guajiro
 		religion = catholic
-	        size = 304
+		size = 456
 	}
 	farmers = {
 		culture = guajiro
 		religion = animist
-	        size = 122
+		size = 183
 	}
 	farmers = {
 		culture = amazonian
 		religion = catholic
-	        size = 134
+		size = 201
 	}
 	farmers = {
 		culture = amazonian
 		religion = animist
-	        size = 32
+		size = 48
 	}
-
 }
-#San Felipe (44000/11000 POPS)
 2268 = {
 	aristocrats = {
 		culture = platinean
 		religion = catholic
-	        size = 127
+		size = 190
 	}
-
 	bureaucrats = {
 		culture = platinean
 		religion = catholic
-	        size = 184
+		size = 276
 	}
-
 	clergymen = {
 		culture = platinean
 		religion = catholic
-	        size = 126
+		size = 189
 	}
-
 	artisans = {
 		culture = platinean
 		religion = catholic
-	        size = 1015
+		size = 1522
 	}
-
 	soldiers = {
 		culture = platinean
 		religion = catholic
-	        size = 322
+		size = 483
 	}
-
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 4905
+		size = 7357
 	}
-
 	artisans = {
 		culture = spanish
 		religion = catholic
-	        size = 984
+		size = 1476
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 4865
+		size = 7297
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 1012
+		size = 1518
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 267
+		size = 400
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 763
+		size = 1144
 	}
 	farmers = {
 		culture = guajiro
 		religion = catholic
-	        size = 356
+		size = 534
 	}
 	farmers = {
 		culture = guajiro
 		religion = animist
-	        size = 21
+		size = 31
 	}
 	farmers = {
 		culture = amazonian
 		religion = catholic
-	        size = 125
+		size = 187
 	}
 	farmers = {
 		culture = amazonian
 		religion = animist
-	        size = 23
+		size = 34
 	}
-
 }
-#Guiria (40000/10000 POPS)
 2269 = {
 	aristocrats = {
 		culture = platinean
 		religion = catholic
-	        size = 56
+		size = 84
 	}
-
 	bureaucrats = {
 		culture = platinean
 		religion = catholic
-	        size = 47
+		size = 70
 	}
-
 	clergymen = {
 		culture = platinean
 		religion = catholic
-	        size = 79
+		size = 118
 	}
-
 	artisans = {
 		culture = platinean
 		religion = catholic
-	        size = 112
+		size = 168
 	}
-
 	soldiers = {
 		culture = platinean
 		religion = catholic
-	        size = 67
+		size = 100
 	}
-
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 980
+		size = 1470
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 344
+		size = 516
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 2256
+		size = 3384
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 515
+		size = 772
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 1919
+		size = 2878
 	}
 	farmers = {
 		culture = amazonian
 		religion = catholic
-	        size = 344
-
-    }
+		size = 516
+	}
 }
-#Llanos Region (88000)
-#Ruled by Venezuela 1836
-#Guanare (16000/4000 POPS)
 2265 = {
 	farmers = {
 		culture = amazonian
 		religion = animist
-	        size = 3580
+		size = 5370
 	}
-
-
 }
-#Calabozo (40000/10000 POPS)
 2266 = {
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 788
+		size = 1182
 	}
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 98
+		size = 147
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 90
+		size = 135
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 32
+		size = 48
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 67
+		size = 100
 	}
 	farmers = {
 		culture = guajiro
 		religion = catholic
-	        size = 121
+		size = 181
 	}
 	farmers = {
 		culture = guajiro
 		religion = animist
-	        size = 347
+		size = 520
 	}
 	farmers = {
 		culture = amazonian
 		religion = catholic
-	        size = 98
+		size = 147
 	}
 	farmers = {
 		culture = amazonian
 		religion = animist
-	        size = 3455
+		size = 5182
 	}
-
 }
-#Barinas (32000/8000 POPS)
 2274 = {
 	farmers = {
 		culture = amazonian
 		religion = animist
-	        size = 4738
+		size = 7107
 	}
-
-
 }
-#Zulia Region (378000)
-#Ruled by Venezuela 1836
-#Maracaibo (100000/25000 POPS)
 2270 = {
 	aristocrats = {
 		culture = platinean
 		religion = catholic
-	        size = 56
+		size = 84
 	}
-
 	bureaucrats = {
 		culture = platinean
 		religion = catholic
-	        size = 47
+		size = 70
 	}
-
 	clergymen = {
 		culture = platinean
 		religion = catholic
-	        size = 79
+		size = 118
 	}
-
 	artisans = {
 		culture = platinean
 		religion = catholic
-	        size = 895
+		size = 1342
 	}
-
 	soldiers = {
 		culture = platinean
 		religion = catholic
-	        size = 67
+		size = 100
 	}
-
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 2689
+		size = 4033
 	}
-
 	artisans = {
 		culture = spanish
 		religion = catholic
-	        size = 478
+		size = 717
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 1020
+		size = 1530
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 3019
+		size = 4528
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 415
+		size = 622
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 819
+		size = 1228
 	}
 	farmers = {
 		culture = guajiro
 		religion = catholic
-	        size = 904
+		size = 1356
 	}
 	farmers = {
 		culture = guajiro
 		religion = animist
-	        size = 546
+		size = 819
 	}
 	farmers = {
 		culture = amazonian
 		religion = catholic
-	        size = 134
+		size = 201
 	}
 	farmers = {
 		culture = amazonian
 		religion = animist
-	        size = 57
+		size = 85
 	}
-
 }
-#Valera (128000/32000 POPS)
 2271 = {
 	aristocrats = {
 		culture = platinean
 		religion = catholic
-	        size = 56
+		size = 84
 	}
-
 	bureaucrats = {
 		culture = platinean
 		religion = catholic
-	        size = 47
+		size = 70
 	}
-
 	clergymen = {
 		culture = platinean
 		religion = catholic
-	        size = 79
+		size = 118
 	}
-
 	artisans = {
 		culture = platinean
 		religion = catholic
-	        size = 1873
+		size = 2809
 	}
-
 	soldiers = {
 		culture = platinean
 		religion = catholic
-	        size = 67
+		size = 100
 	}
-
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 4783
+		size = 7174
 	}
-
 	artisans = {
 		culture = spanish
 		religion = catholic
-	        size = 375
+		size = 562
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 895
+		size = 1342
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 764
+		size = 1146
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 128
+		size = 192
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 467
+		size = 700
 	}
 	farmers = {
 		culture = guajiro
 		religion = catholic
-	        size = 904
+		size = 1356
 	}
 	farmers = {
 		culture = guajiro
 		religion = animist
-	        size = 3874
+		size = 5811
 	}
 	farmers = {
 		culture = amazonian
 		religion = catholic
-	        size = 387
+		size = 580
 	}
 	farmers = {
 		culture = amazonian
 		religion = animist
-	        size = 105
+		size = 157
 	}
-
 }
-#Coro (56000/14000 POPS)
 2272 = {
 	aristocrats = {
 		culture = platinean
 		religion = catholic
-	        size = 56
+		size = 84
 	}
-
 	bureaucrats = {
 		culture = platinean
 		religion = catholic
-	        size = 47
+		size = 70
 	}
-
 	clergymen = {
 		culture = platinean
 		religion = catholic
-	        size = 79
+		size = 118
 	}
-
 	artisans = {
 		culture = platinean
 		religion = catholic
-	        size = 345
+		size = 517
 	}
-
 	soldiers = {
 		culture = platinean
 		religion = catholic
-	        size = 67
+		size = 100
 	}
-
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 984
+		size = 1476
 	}
-
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 164
+		size = 246
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 1012
+		size = 1518
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 102
+		size = 153
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 312
+		size = 468
 	}
 	farmers = {
 		culture = guajiro
 		religion = catholic
-	        size = 21
+		size = 31
 	}
 	farmers = {
 		culture = guajiro
 		religion = animist
-	        size = 1004
+		size = 1506
 	}
 	farmers = {
 		culture = amazonian
 		religion = catholic
-	        size = 23
+		size = 34
 	}
 	farmers = {
 		culture = amazonian
 		religion = animist
-	        size = 657
+		size = 985
 	}
-
 }
-#Barquisimento (96000/24000 POPS)
 2273 = {
 	aristocrats = {
 		culture = platinean
 		religion = catholic
-	        size = 56
+		size = 84
 	}
-
 	bureaucrats = {
 		culture = platinean
 		religion = catholic
-	        size = 47
+		size = 70
 	}
-
 	clergymen = {
 		culture = platinean
 		religion = catholic
-	        size = 79
+		size = 118
 	}
-
 	artisans = {
 		culture = platinean
 		religion = catholic
-	        size = 563
+		size = 844
 	}
-
 	soldiers = {
 		culture = platinean
 		religion = catholic
-	        size = 67
+		size = 100
 	}
-
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 231
+		size = 346
 	}
-
 	artisans = {
 		culture = spanish
 		religion = catholic
-	        size = 27
+		size = 40
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 89
+		size = 133
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 894
+		size = 1341
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 167
+		size = 250
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 673
+		size = 1009
 	}
 	farmers = {
 		culture = guajiro
 		religion = catholic
-	        size = 49
+		size = 73
 	}
 	farmers = {
 		culture = guajiro
 		religion = animist
-	        size = 1357
+		size = 2035
 	}
 	farmers = {
 		culture = amazonian
 		religion = catholic
-	        size = 32
+		size = 48
 	}
 	farmers = {
 		culture = amazonian
 		religion = animist
-	        size = 467
+		size = 700
 	}
-
 }
-#Orinoco Region (152000)
-#Ruled by Venezuela 1836
-#Angostura (32000/8000 POPS)
 2275 = {
 	farmers = {
 		culture = amazonian
 		religion = animist
-	        size = 1274
+		size = 1911
 	}
-
-
 }
-#Curiapo (104000/26000 POPS)
 2276 = {
 	aristocrats = {
 		culture = platinean
 		religion = catholic
-	        size = 56
+		size = 84
 	}
-
 	bureaucrats = {
 		culture = platinean
 		religion = catholic
-	        size = 47
+		size = 70
 	}
-
 	clergymen = {
 		culture = platinean
 		religion = catholic
-	        size = 79
+		size = 118
 	}
-
 	artisans = {
 		culture = platinean
 		religion = catholic
-	        size = 895
+		size = 1342
 	}
-
 	soldiers = {
 		culture = platinean
 		religion = catholic
-	        size = 67
+		size = 100
 	}
-
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 3745
+		size = 5617
 	}
-
 	artisans = {
 		culture = spanish
 		religion = catholic
-	        size = 96
+		size = 144
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 345
+		size = 517
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 5678
+		size = 8517
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 1029
+		size = 1543
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 3567
+		size = 5350
 	}
-
 	farmers = {
 		culture = amazonian
 		religion = catholic
-	        size = 541
+		size = 811
 	}
 	farmers = {
 		culture = amazonian
 		religion = animist
-	        size = 57
+		size = 85
 	}
-
 }
-#under "rule" of Venezuela 1836
-#El Jobal (12000/4000 POPS)
 2277 = {
 	farmers = {
 		culture = amazonian
 		religion = animist
-	        size = 3754
+		size = 5631
 	}
-
-
 }
-#San Fernando de Atabapo (4000/1000 POPS)
 2278 = {
 	farmers = {
 		culture = amazonian
 		religion = animist
-	        size = 4783
+		size = 7174
 	}
-
-
-
 }

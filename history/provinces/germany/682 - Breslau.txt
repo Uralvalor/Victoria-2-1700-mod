@@ -4,9 +4,15 @@ add_core = PRU
 add_core = GER
 add_core = POL
 add_core = PLC
+add_core = HRE
 trade_goods = grain
 life_rating = 35
 terrain = good_farmland
+	state_building = {
+		level = 1
+		building = fabric_factory
+		upgrade = yes
+	}
 1750.1.1 = {
 	owner = PRU
 	controller = PRU

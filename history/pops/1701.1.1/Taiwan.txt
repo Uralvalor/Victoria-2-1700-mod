@@ -1,132 +1,109 @@
-#Taiwan Region (2980000) 
-#under the rule of China in 1836  
-#Taipei (1452000/363000 POPS) #now part of Taiwan   
 1485 = {
 	aristocrats = {
 		culture = nanfaren
 		religion = mahayana
-	        size = 486
+		size = 680
 	}
-
 	bureaucrats = {
 		culture = nanfaren
 		religion = mahayana
-	        size = 130
+		size = 182
 	}
-
 	officers = {
 		culture = nanfaren
 		religion = mahayana
-	        size = 234
+		size = 327
 	}
-
 	clergymen = {
 		culture = nanfaren
 		religion = mahayana
-	        size = 398
+		size = 557
 	}
-
 	artisans = {
 		culture = nanfaren
 		religion = mahayana
-	        size = 1998
+		size = 2797
 	}
-
 	soldiers = {
 		culture = nanfaren
 		religion = mahayana
-	        size = 406
+		size = 568
 	}
-
 	farmers = {
 		culture = nanfaren
 		religion = mahayana
-	        size = 15952
+		size = 22332
 	}
-
 	aristocrats = {
 		culture = asian_minor
 		religion = mahayana
-	        size = 974
+		size = 1363
 	}
-
 	clergymen = {
 		culture = asian_minor
 		religion = mahayana
-	        size = 780
+		size = 1092
 	}
-
 	artisans = {
 		culture = asian_minor
 		religion = mahayana
-	        size = 3900
+		size = 5460
 	}
-
 	soldiers = {
 		culture = asian_minor
 		religion = mahayana
-	        size = 780
+		size = 1092
 	}
-
 	farmers = {
 		culture = asian_minor
 		religion = mahayana
-	        size = 71564
+		size = 100189
 	}
-
 	bureaucrats = {
 		culture = manchu
 		religion = mahayana
-	        size = 16
+		size = 22
 	}
-
 	officers = {
 		culture = manchu
 		religion = mahayana
-	        size = 8
+		size = 11
 	}
-
 	soldiers = {
 		culture = manchu
 		religion = mahayana
-	        size = 16
+		size = 22
 	}
 }
-#Tainan (1528000/382000 POPS) #now part of Taiwan  
 2562 = {
-
 	aristocrats = {
 		culture = asian_minor
 		religion = mahayana
-	        size = 1136
+		size = 1590
 	}
-
 	clergymen = {
 		culture = asian_minor
 		religion = mahayana
-	        size = 812
+		size = 1136
 	}
-
 	artisans = {
 		culture = asian_minor
 		religion = mahayana
-	        size = 4062
+		size = 5686
 	}
-
 	soldiers = {
 		culture = asian_minor
 		religion = mahayana
-	        size = 812
+		size = 1136
 	}
-
 	farmers = {
 		culture = asian_minor
 		religion = mahayana
-	        size = 54424
+		size = 76193
 	}
 	farmers = {
 		culture = filipino
 		religion = animist
-	        size = 20202
+		size = 28282
 	}
 }

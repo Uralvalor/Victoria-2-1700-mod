@@ -1,0 +1,441 @@
+political_decisions = {
+	leave_hre = {
+	picture = hre_pic 
+		potential = { 
+		ai = no
+		has_country_flag = hre_member 
+		NOT = { 
+			has_country_flag = left_hre
+			has_country_flag = holy_roman_emperor 
+			} 
+				} 
+		allow = { 
+			NOT = { 
+				war = yes 
+				} 
+			} 
+		effect = { 
+			set_country_flag = left_hre
+			clr_country_flag = hre_member 
+				} 
+			}
+
+	dismantle_hre = { 
+	picture = hre_pic 
+		potential = { 
+				ai = no
+			war_with = AUS
+			AUS = {
+				has_country_flag = holy_roman_emperor 
+				}
+			NOT = { 
+			has_country_flag = hre_member 
+			has_country_flag = holy_roman_emperor
+			has_global_flag = hre_dismantled
+			}
+		} 
+				 
+
+		allow = { 
+			AUS = {
+				capital_scope = {
+					controlled_by = THIS
+						}
+					}
+		} 
+
+		effect = {
+			set_global_flag = hre_dismantled 
+			any_country = {
+				limit = {
+				OR = {
+				has_country_flag = hre_member 
+			has_country_flag = holy_roman_emperor 
+					}
+						}	
+			clr_country_flag  = hre_member 
+			clr_country_flag  = holy_roman_emperor
+						}				
+				
+		} 
+	}
+			
+
+form_hre = { 
+
+picture = hre_pic 
+
+potential = {
+has_country_flag = holy_roman_emperor 
+} 
+
+
+
+allow = {
+
+is_greater_power = yes
+prestige = 200
+war = no
+
+369 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+409 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+410 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+412 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+528 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+529 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+530 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+531 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+532 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+534 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+535 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+536 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+537 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+538 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+539 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+540 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+541 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+542 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+543 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+544 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+545 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+546 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+547 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+548 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+549 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+550 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+551 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+552 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+553 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+554 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+555 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+556 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+557 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+558 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+559 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+560 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+561 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+562 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+563 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+564 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+565 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+566 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+567 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+568 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+569 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+570 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+571 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+572 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+573 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+574 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+575 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+576 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+577 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+578 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+579 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+580 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+581 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+582 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+583 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+584 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+585 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+586 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+587 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+588 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+589 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+590 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+591 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+592 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+593 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+594 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+595 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+596 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+597 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+598 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+599 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+600 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+601 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+602 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+613 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+679 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+680 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+681 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+2560 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+2561 = { OR = { owned_by = THIS
+owner = { in_sphere = THIS }}}
+}
+
+effect = {
+inherit = HRE 
+change_tag = HRE 
+set_global_flag = hre_dismantled 
+clr_country_flag = holy_roman_emperor
+clr_country_flag = hre_member
+any_country = {
+limit = {
+has_country_flag = hre_member 
+}
+country_event = 401009
+}
+}
+}
+
+ressurect_the_hre = {
+potential = {
+is_greater_power = yes
+OR = { 
+tag = CZH
+tag = PRU
+tag = BAV
+tag = SAX
+tag = HAN
+}
+NOT = { exists = HRE }
+NOT = { exists = GER }
+NOT = { exists = SGF }
+NOT = { year = 1900 }
+government = absolute_monarchy
+ruling_party_ideology = reactionary
+}	
+allow = {
+prestige = 100
+CZH = {
+all_core = {
+OR = {
+owned_by = THIS
+owner = {
+in_sphere = THIS
+}
+}
+}
+}
+PRU = {
+all_core = {
+OR = {
+owned_by = THIS
+owner = {
+in_sphere = THIS
+}
+}
+}
+}
+GER = {
+all_core = {
+OR = {
+owned_by = THIS
+owner = {
+in_sphere = THIS
+}
+}
+}
+}
+LOM = {
+all_core = {
+OR = {
+owned_by = THIS
+owner = {
+in_sphere = THIS
+}
+}
+}
+}
+MOD = {
+all_core = {
+OR = {
+owned_by = THIS
+owner = {
+in_sphere = THIS
+}
+}
+}
+}
+SAR = {
+all_core = {
+OR = {
+owned_by = THIS
+owner = {
+in_sphere = THIS
+}
+}
+}
+}
+HAN = {
+all_core = {
+OR = {
+owned_by = THIS
+owner = {
+in_sphere = THIS
+}
+}
+}
+}
+SAX = {
+all_core = {
+OR = {
+owned_by = THIS
+owner = {
+in_sphere = THIS
+}
+}
+}
+}
+BAV = {
+all_core = {
+OR = {
+owned_by = THIS
+owner = {
+in_sphere = THIS
+}
+}
+}
+}
+PAR = {
+all_core = {
+OR = {
+owned_by = THIS
+owner = {
+in_sphere = THIS
+}
+}
+}
+}
+}
+
+effect = {
+political_reform = none_voting
+political_reform = party_appointed
+political_reform = no_meeting
+political_reform = state_press
+political_reform = state_controlled
+political_reform = underground_parties
+add_accepted_culture = south_german
+add_accepted_culture = north_german
+add_accepted_culture = czech
+add_accepted_culture = dutch
+add_accepted_culture = burgundian
+add_accepted_culture = flemish
+prestige = 25
+change_tag = HRE
+any_country = {
+limit = {
+OR = { 
+primary_culture = south_german
+primary_culture = north_german
+primary_culture = czech
+primary_culture = dutch
+primary_culture = burgundian
+primary_culture = flemish
+}
+in_sphere = THIS
+NOT = {
+tag = THIS
+}
+}
+annex_to = THIS
+}
+any_owned = {
+limit = {
+OR = { 
+is_core = GER
+is_core = CZH
+is_core = PRU
+is_core = LOM
+is_core = MOD
+is_core = SAR
+is_core = PAR
+is_core = SAX
+is_core = BAV
+is_core = HAN
+}
+}
+add_core = HRE
+}
+capital = 564
+}
+ai_will_do = {
+factor = 1
+}
+}
+}

@@ -51,22 +51,22 @@ army = {
 	}
 	regiment = {
 		name= "6th Line"
-		type = irregular
+		type = infantry
 		home = 521
 	}
 	regiment = {
 		name= "7th Line"
-		type = irregular
+		type = infantry
 		home = 521
 	}
 	regiment = {
 		name= "8th Line"
-		type = irregular
+		type = infantry
 		home = 521
 	}
 	regiment = {
 		name= "9th Line"
-		type = irregular
+		type = infantry
 		home = 521
 	}		            
 }

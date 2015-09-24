@@ -1,1194 +1,1011 @@
-#Atacama Region (164000) #see Peru.txt for balance of Region
-#Ruled by Bolivia 1836
-#Antofagasta (80000/20000 POPS)
 2305 = {
 	aristocrats = {
 		culture = platinean
 		religion = catholic
-	        size = 32
+		size = 48
 	}
-
 	bureaucrats = {
 		culture = platinean
 		religion = catholic
-	        size = 41
+		size = 61
 	}
-
 	clergymen = {
 		culture = platinean
 		religion = catholic
-	        size = 39
+		size = 58
 	}
-
 	artisans = {
 		culture = platinean
 		religion = catholic
-	        size = 321
+		size = 481
 	}
-
 	soldiers = {
 		culture = platinean
 		religion = catholic
-	        size = 34
+		size = 51
 	}
-
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 1029
+		size = 1543
 	}
-
 	artisans = {
 		culture = spanish
 		religion = catholic
-	        size = 63
+		size = 94
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 384
+		size = 576
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 67
+		size = 100
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 13
+		size = 19
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 27
+		size = 40
 	}
 	farmers = {
 		culture = patagonian
 		religion = catholic
-	        size = 64
+		size = 96
 	}
 	farmers = {
 		culture = aimara
 		religion = catholic
-	        size = 890
+		size = 1335
 	}
 	farmers = {
 		culture = aimara
 		religion = animist
-	        size = 1784
+		size = 2676
 	}
-
 }
-#Calama (32000/8000 POPS)
 2309 = {
 	aristocrats = {
 		culture = platinean
 		religion = catholic
-	        size = 38
+		size = 57
 	}
-
 	bureaucrats = {
 		culture = platinean
 		religion = catholic
-	        size = 27
+		size = 40
 	}
-
 	clergymen = {
 		culture = platinean
 		religion = catholic
-	        size = 14
+		size = 21
 	}
-
 	artisans = {
 		culture = platinean
 		religion = catholic
-	        size = 209
+		size = 313
 	}
-
 	soldiers = {
 		culture = platinean
 		religion = catholic
-	        size = 37
+		size = 55
 	}
-
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 894
+		size = 1341
 	}
-
 	artisans = {
 		culture = spanish
 		religion = catholic
-	        size = 96
+		size = 144
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 340
+		size = 510
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 41
+		size = 61
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 75
+		size = 112
 	}
 	farmers = {
 		culture = patagonian
 		religion = catholic
-	        size = 49
+		size = 73
 	}
 	farmers = {
 		culture = aimara
 		religion = catholic
-	        size = 1459
+		size = 2188
 	}
 	farmers = {
 		culture = aimara
 		religion = animist
-	        size = 2456
+		size = 3684
 	}
-
 }
-#Ruled by Peru 1836
-#Iquique (32000/8000 POPS)
 2307 = {
 	aristocrats = {
 		culture = platinean
 		religion = catholic
-	        size = 21
+		size = 31
 	}
-
 	bureaucrats = {
 		culture = platinean
 		religion = catholic
-	        size = 34
+		size = 51
 	}
-
 	clergymen = {
 		culture = platinean
 		religion = catholic
-	        size = 39
+		size = 58
 	}
-
 	artisans = {
 		culture = platinean
 		religion = catholic
-	        size = 341
+		size = 511
 	}
-
 	soldiers = {
 		culture = platinean
 		religion = catholic
-	        size = 21
+		size = 31
 	}
-
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 984
+		size = 1476
 	}
-
 	artisans = {
 		culture = spanish
 		religion = catholic
-	        size = 23
+		size = 34
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 189
+		size = 283
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 23
+		size = 34
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 31
+		size = 46
 	}
 	farmers = {
 		culture = patagonian
 		religion = catholic
-	        size = 37
+		size = 55
 	}
 	farmers = {
 		culture = aimara
 		religion = catholic
-	        size = 1258
+		size = 1887
 	}
 	farmers = {
 		culture = aimara
 		religion = animist
-	        size = 3468
+		size = 5202
 	}
-
 }
-#Arica (20000/5000 POPS)
 2308 = {
 	aristocrats = {
 		culture = platinean
 		religion = catholic
-	        size = 27
+		size = 40
 	}
-
 	bureaucrats = {
 		culture = platinean
 		religion = catholic
-	        size = 23
+		size = 34
 	}
-
 	clergymen = {
 		culture = platinean
 		religion = catholic
-	        size = 12
+		size = 18
 	}
-
 	artisans = {
 		culture = platinean
 		religion = catholic
-	        size = 112
+		size = 168
 	}
-
 	soldiers = {
 		culture = platinean
 		religion = catholic
-	        size = 21
+		size = 31
 	}
-
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 433
+		size = 649
 	}
-
 	artisans = {
 		culture = spanish
 		religion = catholic
-	        size = 12
+		size = 18
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 94
+		size = 141
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 12
+		size = 18
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 24
+		size = 36
 	}
 	farmers = {
 		culture = patagonian
 		religion = catholic
-	        size = 34
+		size = 51
 	}
 	farmers = {
 		culture = aimara
 		religion = catholic
-	        size = 1873
+		size = 2809
 	}
 	farmers = {
 		culture = aimara
 		religion = animist
-	        size = 2904
+		size = 4356
 	}
 	farmers = {
 		culture = quechua
 		religion = catholic
-	        size = 893
+		size = 1339
 	}
 	farmers = {
 		culture = quechua
 		religion = animist
-	        size = 1104
+		size = 1656
 	}
-
 }
-#Chile Norte Region (116000)
-#Ruled by Chile 1836
-#Copiapo (52000/13000 POPS)
 2322 = {
 	aristocrats = {
 		culture = platinean
 		religion = catholic
-	        size = 34
+		size = 51
 	}
-
 	bureaucrats = {
 		culture = platinean
 		religion = catholic
-	        size = 21
+		size = 31
 	}
-
 	clergymen = {
 		culture = platinean
 		religion = catholic
-	        size = 43
+		size = 64
 	}
-
 	artisans = {
 		culture = platinean
 		religion = catholic
-	        size = 677
+		size = 1015
 	}
-
 	soldiers = {
 		culture = platinean
 		religion = catholic
-	        size = 12
+		size = 18
 	}
-
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 2369
+		size = 3553
 	}
-
 	artisans = {
 		culture = spanish
 		religion = catholic
-	        size = 212
+		size = 318
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 560
+		size = 840
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 47
+		size = 70
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 5
+		size = 7
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 19
+		size = 28
 	}
 	farmers = {
 		culture = patagonian
 		religion = catholic
-	        size = 89
+		size = 133
 	}
-
 }
-#La Serena (64000/16000 POPS)
 2323 = {
 	aristocrats = {
 		culture = platinean
 		religion = catholic
-	        size = 23
+		size = 34
 	}
-
 	bureaucrats = {
 		culture = platinean
 		religion = catholic
-	        size = 41
+		size = 61
 	}
-
 	clergymen = {
 		culture = platinean
 		religion = catholic
-	        size = 34
+		size = 51
 	}
-
 	artisans = {
 		culture = platinean
 		religion = catholic
-	        size = 566
+		size = 849
 	}
-
 	soldiers = {
 		culture = platinean
 		religion = catholic
-	        size = 32
+		size = 48
 	}
-
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 2359
+		size = 3538
 	}
-
 	artisans = {
 		culture = spanish
 		religion = catholic
-	        size = 274
+		size = 411
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 1274
+		size = 1911
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 21
+		size = 31
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 35
+		size = 52
 	}
 	farmers = {
 		culture = patagonian
 		religion = catholic
-	        size = 76
+		size = 114
 	}
-
 }
-#Valle Central Region (640000)
-#Ruled by Chile 1836
-#Santiago (420000/105000 POPS)
 2324 = {
 	aristocrats = {
 		culture = platinean
 		religion = catholic
-	        size = 178
+		size = 267
 	}
-
 	bureaucrats = {
 		culture = platinean
 		religion = catholic
-	        size = 103
+		size = 154
 	}
-
 	clergymen = {
 		culture = platinean
 		religion = catholic
-	        size = 89
+		size = 133
 	}
-
 	artisans = {
 		culture = platinean
 		religion = catholic
-	        size = 2034
+		size = 3051
 	}
-
 	soldiers = {
 		culture = platinean
 		religion = catholic
-	        size = 178
+		size = 267
 	}
-
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 3674
+		size = 5511
 	}
-
 	artisans = {
 		culture = spanish
 		religion = catholic
-	        size = 893
+		size = 1339
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 3184
+		size = 4776
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 153
+		size = 229
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 64
+		size = 96
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 89
+		size = 133
 	}
 	farmers = {
 		culture = patagonian
 		religion = catholic
-	        size = 73
+		size = 109
 	}
-
 }
-#Valparaiso (128000/32000 POPS)
 2325 = {
 	aristocrats = {
 		culture = platinean
 		religion = catholic
-	        size = 39
+		size = 58
 	}
-
 	bureaucrats = {
 		culture = platinean
 		religion = catholic
-	        size = 61
+		size = 91
 	}
-
 	clergymen = {
 		culture = platinean
 		religion = catholic
-	        size = 62
+		size = 93
 	}
-
 	artisans = {
 		culture = platinean
 		religion = catholic
-	        size = 1054
+		size = 1581
 	}
-
 	soldiers = {
 		culture = platinean
 		religion = catholic
-	        size = 53
+		size = 79
 	}
-
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 2486
+		size = 3729
 	}
-
 	artisans = {
 		culture = spanish
 		religion = catholic
-	        size = 896
+		size = 1344
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 1652
+		size = 2478
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 103
+		size = 154
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 41
+		size = 61
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 127
+		size = 190
 	}
 	farmers = {
 		culture = patagonian
 		religion = catholic
-	        size = 345
+		size = 517
 	}
 	farmers = {
 		culture = patagonian
 		religion = animist
-	        size = 9
+		size = 13
 	}
-
 }
-#Vina del Mar (72000/18000 POPS)
 2326 = {
 	aristocrats = {
 		culture = platinean
 		religion = catholic
-	        size = 41
+		size = 61
 	}
-
 	bureaucrats = {
 		culture = platinean
 		religion = catholic
-	        size = 21
+		size = 31
 	}
-
 	clergymen = {
 		culture = platinean
 		religion = catholic
-	        size = 50
+		size = 75
 	}
-
 	artisans = {
 		culture = platinean
 		religion = catholic
-	        size = 1012
+		size = 1518
 	}
-
 	soldiers = {
 		culture = platinean
 		religion = catholic
-	        size = 31
+		size = 46
 	}
-
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 2345
+		size = 3517
 	}
-
 	artisans = {
 		culture = spanish
 		religion = catholic
-	        size = 452
+		size = 678
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 1098
+		size = 1647
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 75
+		size = 112
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 12
+		size = 18
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 54
+		size = 81
 	}
 	farmers = {
 		culture = patagonian
 		religion = catholic
-	        size = 62
+		size = 93
 	}
 	farmers = {
 		culture = patagonian
 		religion = animist
-	        size = 6
+		size = 9
 	}
-
 }
-#Talca (20000/5000 POPS)
 2327 = {
 	aristocrats = {
 		culture = platinean
 		religion = catholic
-	        size = 58
+		size = 87
 	}
-
 	bureaucrats = {
 		culture = platinean
 		religion = catholic
-	        size = 27
+		size = 40
 	}
-
 	clergymen = {
 		culture = platinean
 		religion = catholic
-	        size = 47
+		size = 70
 	}
-
 	artisans = {
 		culture = platinean
 		religion = catholic
-	        size = 633
+		size = 949
 	}
-
 	soldiers = {
 		culture = platinean
 		religion = catholic
-	        size = 21
+		size = 31
 	}
-
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 2036
+		size = 3054
 	}
-
 	artisans = {
 		culture = spanish
 		religion = catholic
-	        size = 33
+		size = 49
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 463
+		size = 694
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 49
+		size = 73
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 11
+		size = 16
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 57
+		size = 85
 	}
 	farmers = {
 		culture = patagonian
 		religion = catholic
-	        size = 1873
+		size = 2809
 	}
 	farmers = {
 		culture = patagonian
 		religion = animist
-	        size = 455
+		size = 682
 	}
-
 }
-#Bio-Bio Region (232000)
-#Ruled by Chile 1836
-#Valdivia (92000/23000 POPS)
 2328 = {
 	aristocrats = {
 		culture = platinean
 		religion = catholic
-	        size = 58
+		size = 87
 	}
-
 	bureaucrats = {
 		culture = platinean
 		religion = catholic
-	        size = 134
+		size = 201
 	}
-
 	clergymen = {
 		culture = platinean
 		religion = catholic
-	        size = 71
+		size = 106
 	}
-
 	artisans = {
 		culture = platinean
 		religion = catholic
-	        size = 988
+		size = 1482
 	}
-
 	soldiers = {
 		culture = platinean
 		religion = catholic
-	        size = 344
+		size = 516
 	}
-
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 3455
+		size = 5182
 	}
-
 	artisans = {
 		culture = spanish
 		religion = catholic
-	        size = 112
+		size = 168
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 2987
+		size = 4480
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 121
+		size = 181
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 37
+		size = 55
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 58
+		size = 87
 	}
 	farmers = {
 		culture = patagonian
 		religion = catholic
-	        size = 231
+		size = 346
 	}
 	farmers = {
 		culture = patagonian
 		religion = animist
-	        size = 23
+		size = 34
 	}
-
 }
-#Temuco (36000/9000 POPS)
 2329 = {
 	aristocrats = {
 		culture = platinean
 		religion = catholic
-	        size = 41
+		size = 61
 	}
-
 	bureaucrats = {
 		culture = platinean
 		religion = catholic
-	        size = 21
+		size = 31
 	}
-
 	clergymen = {
 		culture = platinean
 		religion = catholic
-	        size = 45
+		size = 67
 	}
-
 	artisans = {
 		culture = platinean
 		religion = catholic
-	        size = 789
+		size = 1183
 	}
-
 	soldiers = {
 		culture = platinean
 		religion = catholic
-	        size = 31
+		size = 46
 	}
-
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 2699
+		size = 4048
 	}
-
 	artisans = {
 		culture = spanish
 		religion = catholic
-	        size = 332
+		size = 498
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 721
+		size = 1081
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 58
+		size = 87
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 11
+		size = 16
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 31
+		size = 46
 	}
 	farmers = {
 		culture = patagonian
 		religion = catholic
-	        size = 455
+		size = 682
 	}
 	farmers = {
 		culture = patagonian
 		religion = animist
-	        size = 76
+		size = 114
 	}
-
 }
-#Cauquenes (68000/17000 POPS)
 2330 = {
 	aristocrats = {
 		culture = platinean
 		religion = catholic
-	        size = 61
+		size = 91
 	}
-
 	bureaucrats = {
 		culture = platinean
 		religion = catholic
-	        size = 23
+		size = 34
 	}
-
 	clergymen = {
 		culture = platinean
 		religion = catholic
-	        size = 51
+		size = 76
 	}
-
 	artisans = {
 		culture = platinean
 		religion = catholic
-	        size = 1022
+		size = 1533
 	}
-
 	soldiers = {
 		culture = platinean
 		religion = catholic
-	        size = 42
+		size = 63
 	}
-
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 2455
+		size = 3682
 	}
-
 	artisans = {
 		culture = spanish
 		religion = catholic
-	        size = 894
+		size = 1341
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 1040
+		size = 1560
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 79
+		size = 118
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 21
+		size = 31
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 63
+		size = 94
 	}
 	farmers = {
 		culture = patagonian
 		religion = catholic
-	        size = 297
+		size = 445
 	}
 	farmers = {
 		culture = patagonian
 		religion = animist
-	        size = 21
+		size = 31
 	}
-
 }
-#Chillan (36000/9000 POPS)
 2331 = {
 	aristocrats = {
 		culture = platinean
 		religion = catholic
-	        size = 41
+		size = 61
 	}
-
 	bureaucrats = {
 		culture = platinean
 		religion = catholic
-	        size = 33
+		size = 49
 	}
-
 	clergymen = {
 		culture = platinean
 		religion = catholic
-	        size = 32
+		size = 48
 	}
-
 	artisans = {
 		culture = platinean
 		religion = catholic
-	        size = 322
+		size = 483
 	}
-
 	soldiers = {
 		culture = platinean
 		religion = catholic
-	        size = 21
+		size = 31
 	}
-
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 890
+		size = 1335
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 127
+		size = 190
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 31
+		size = 46
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 8
+		size = 12
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 19
+		size = 28
 	}
 	farmers = {
 		culture = patagonian
 		religion = catholic
-	        size = 1429
+		size = 2143
 	}
 	farmers = {
 		culture = patagonian
 		religion = animist
-	        size = 783
+		size = 1174
 	}
-
 }
-#Magellanes Region (92000)
-#Ruled by Chile 1836
-#Osorno (68000/17000 POPS)
 2332 = {
 	aristocrats = {
 		culture = platinean
 		religion = catholic
-	        size = 98
+		size = 147
 	}
-
 	bureaucrats = {
 		culture = platinean
 		religion = catholic
-	        size = 31
+		size = 46
 	}
-
 	clergymen = {
 		culture = platinean
 		religion = catholic
-	        size = 46
+		size = 69
 	}
-
 	artisans = {
 		culture = platinean
 		religion = catholic
-	        size = 1334
+		size = 2001
 	}
-
 	soldiers = {
 		culture = platinean
 		religion = catholic
-	        size = 31
+		size = 46
 	}
-
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 283
+		size = 424
 	}
-
 	artisans = {
 		culture = spanish
 		religion = catholic
-	        size = 112
+		size = 168
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 314
+		size = 471
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 21
+		size = 31
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 11
+		size = 16
 	}
 	farmers = {
 		culture = patagonian
 		religion = catholic
-	        size = 455
+		size = 682
 	}
 	farmers = {
 		culture = patagonian
 		religion = animist
-	        size = 122
+		size = 183
 	}
-
 }
-#uncolonized/claimed by Chile 1836
-#Puerto Aisen (12000/3000 POPS)
 2333 = {
 	farmers = {
 		culture = patagonian
 		religion = animist
-	        size = 2375
+		size = 3562
 	}
-
 }
-#Punta Arenas (8000/2000 POPS)
 2334 = {
 	farmers = {
 		culture = patagonian
 		religion = animist
-	        size = 3754
+		size = 5631
 	}
-
 }
-#Porvenir (4000/1000 POPS)
 2335 = {
 	farmers = {
 		culture = patagonian
 		religion = animist
-	        size = 3478
+		size = 5217
 	}
-
-
 }

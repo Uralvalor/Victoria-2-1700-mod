@@ -275,12 +275,12 @@ army = {
 	location = 625
 	regiment = {
 		name= "12th Line"
-		type = infantry
+		type = guard
 		home = 619
 	}
 	regiment = {
 		name= "13th Line"
-		type = infantry
+		type = guard
 		home = 619
 	}
 	regiment = {

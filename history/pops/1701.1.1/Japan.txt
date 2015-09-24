@@ -1256,7 +1256,48 @@
 	clergymen = {
 		culture = japanese
 		religion = mahayana
-		size = 1772
+		size = 1755
+	}
+	clergymen = {
+		culture = japanese
+		religion = catholic
+		size = 10
+	}
+	artisans = {
+		culture = japanese
+		religion = catholic
+		size = 500
+	}
+	farmers = {
+		culture = japanese
+		religion = catholic
+		size = 3000
+	}
+	aristocrats = {
+		culture = japanese
+		religion = catholic
+		size = 3
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = protestant
+		size = 10
+	}
+	artisans = {
+		culture = japanese
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = japanese
+		religion = protestant
+		size = 3000
+	}
+	aristocrats = {
+		culture = japanese
+		religion = protestant
+		size = 3
 	}
 	artisans = {
 		culture = japanese
@@ -1271,7 +1312,7 @@
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 159637
+		size = 149637
 	}
 	aristocrats = {
 		culture = japanese

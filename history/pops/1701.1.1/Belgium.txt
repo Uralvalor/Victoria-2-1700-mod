@@ -2,213 +2,161 @@
 	clergymen = {
 		culture = ashkenazi
 		religion = jewish
-		size = 11
+		size = 9
 	}
 	artisans = {
 		culture = ashkenazi
 		religion = jewish
-		size = 24
+		size = 20
 	}
 	artisans = {
 		culture = ashkenazi
 		religion = jewish
-		size = 243
+		size = 206
 	}
 	artisans = {
 		culture = ashkenazi
 		religion = jewish
-		size = 693
+		size = 589
 	}
 	aristocrats = {
 		culture = flemish
 		religion = catholic
-		size = 730
+		size = 620
 	}
 	officers = {
 		culture = flemish
 		religion = catholic
-		size = 97
+		size = 82
 	}
 	bureaucrats = {
 		culture = flemish
 		religion = catholic
-		size = 389
+		size = 330
 	}
 	clergymen = {
 		culture = flemish
 		religion = catholic
-		size = 790
+		size = 671
 	}
 	artisans = {
 		culture = flemish
 		religion = catholic
-		size = 24
+		size = 20
 	}
 	artisans = {
 		culture = flemish
 		religion = catholic
-		size = 72
+		size = 61
 	}
 	artisans = {
 		culture = flemish
 		religion = catholic
-		size = 1461
+		size = 1241
 	}
 	artisans = {
 		culture = flemish
 		religion = catholic
-		size = 2923
+		size = 2484
 	}
 	soldiers = {
 		culture = flemish
 		religion = catholic
-		size = 1461
+		size = 1241
 	}
 	farmers = {
 		culture = flemish
 		religion = catholic
-		size = 70996
+		size = 60346
 	}
 	aristocrats = {
 		culture = wallonian
 		religion = catholic
-		size = 146
+		size = 124
 	}
 	officers = {
 		culture = wallonian
 		religion = catholic
-		size = 218
+		size = 185
 	}
 	bureaucrats = {
 		culture = wallonian
 		religion = catholic
-		size = 779
+		size = 662
 	}
 	clergymen = {
 		culture = wallonian
 		religion = catholic
-		size = 121
+		size = 102
 	}
 	artisans = {
 		culture = wallonian
 		religion = catholic
-		size = 72
+		size = 61
 	}
 	artisans = {
 		culture = wallonian
 		religion = catholic
-		size = 146
+		size = 124
 	}
 	artisans = {
 		culture = wallonian
 		religion = catholic
-		size = 2436
+		size = 2070
 	}
 	artisans = {
 		culture = wallonian
 		religion = catholic
-		size = 5992
+		size = 5093
 	}
 	soldiers = {
 		culture = wallonian
 		religion = catholic
-		size = 487
+		size = 413
 	}
 	labourers = {
 		culture = wallonian
 		religion = catholic
-		size = 2752
+		size = 2339
 	}
 }
 388 = {
 	aristocrats = {
 		culture = flemish
 		religion = catholic
-		size = 560
+		size = 476
 	}
 	clergymen = {
 		culture = flemish
 		religion = catholic
-		size = 547
+		size = 464
 	}
 	artisans = {
 		culture = flemish
 		religion = catholic
-		size = 4872
+		size = 4141
 	}
 	soldiers = {
 		culture = flemish
 		religion = catholic
-		size = 584
+		size = 496
 	}
 	farmers = {
 		culture = flemish
 		religion = catholic
-		size = 48974
+		size = 41627
 	}
 }
 389 = {
 	aristocrats = {
 		culture = flemish
 		religion = catholic
-		size = 852
+		size = 724
 	}
 	clergymen = {
 		culture = flemish
 		religion = catholic
-		size = 852
-	}
-	artisans = {
-		culture = flemish
-		religion = catholic
-		size = 7795
-	}
-	soldiers = {
-		culture = flemish
-		religion = catholic
-		size = 852
-	}
-	farmers = {
-		culture = flemish
-		religion = catholic
-		size = 72957
-	}
-	clergymen = {
-		culture = wallonian
-		religion = catholic
-		size = 24
-	}
-	artisans = {
-		culture = wallonian
-		religion = catholic
-		size = 2387
-	}
-	soldiers = {
-		culture = wallonian
-		religion = catholic
-		size = 24
-	}
-}
-390 = {
-	clergymen = {
-		culture = ashkenazi
-		religion = jewish
-		size = 11
-	}
-	artisans = {
-		culture = ashkenazi
-		religion = jewish
-		size = 717
-	}
-	aristocrats = {
-		culture = flemish
-		religion = catholic
-		size = 400
-	}
-	clergymen = {
-		culture = flemish
-		religion = catholic
-		size = 425
+		size = 724
 	}
 	artisans = {
 		culture = flemish
@@ -218,350 +166,402 @@
 	soldiers = {
 		culture = flemish
 		religion = catholic
-		size = 487
+		size = 724
 	}
 	farmers = {
 		culture = flemish
 		religion = catholic
-		size = 32983
+		size = 62013
 	}
 	clergymen = {
 		culture = wallonian
 		religion = catholic
-		size = 24
+		size = 20
 	}
 	artisans = {
 		culture = wallonian
 		religion = catholic
-		size = 1424
+		size = 2028
 	}
 	soldiers = {
 		culture = wallonian
 		religion = catholic
-		size = 11
+		size = 20
+	}
+}
+390 = {
+	clergymen = {
+		culture = ashkenazi
+		religion = jewish
+		size = 9
+	}
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 609
+	}
+	aristocrats = {
+		culture = flemish
+		religion = catholic
+		size = 340
+	}
+	clergymen = {
+		culture = flemish
+		religion = catholic
+		size = 361
+	}
+	artisans = {
+		culture = flemish
+		religion = catholic
+		size = 5631
+	}
+	soldiers = {
+		culture = flemish
+		religion = catholic
+		size = 413
+	}
+	farmers = {
+		culture = flemish
+		religion = catholic
+		size = 28035
+	}
+	clergymen = {
+		culture = wallonian
+		religion = catholic
+		size = 20
+	}
+	artisans = {
+		culture = wallonian
+		religion = catholic
+		size = 1210
+	}
+	soldiers = {
+		culture = wallonian
+		religion = catholic
+		size = 9
 	}
 }
 391 = {
 	aristocrats = {
 		culture = flemish
 		religion = catholic
-		size = 316
+		size = 268
 	}
 	clergymen = {
 		culture = flemish
 		religion = catholic
-		size = 328
+		size = 278
 	}
 	artisans = {
 		culture = flemish
 		religion = catholic
-		size = 1705
+		size = 1449
 	}
 	soldiers = {
 		culture = flemish
 		religion = catholic
-		size = 487
+		size = 413
 	}
 	farmers = {
 		culture = flemish
 		religion = catholic
-		size = 30290
+		size = 25746
 	}
 }
 392 = {
 	aristocrats = {
 		culture = wallonian
 		religion = catholic
-		size = 413
+		size = 351
 	}
 	officers = {
 		culture = wallonian
 		religion = catholic
-		size = 170
+		size = 144
 	}
 	bureaucrats = {
 		culture = wallonian
 		religion = catholic
-		size = 682
+		size = 579
 	}
 	clergymen = {
 		culture = wallonian
 		religion = catholic
-		size = 413
+		size = 351
 	}
 	artisans = {
 		culture = wallonian
 		religion = catholic
-		size = 72
+		size = 61
 	}
 	artisans = {
 		culture = wallonian
 		religion = catholic
-		size = 97
+		size = 82
 	}
 	artisans = {
 		culture = wallonian
 		religion = catholic
-		size = 1948
+		size = 1655
 	}
 	artisans = {
 		culture = wallonian
 		religion = catholic
-		size = 4384
+		size = 3726
 	}
 	soldiers = {
 		culture = wallonian
 		religion = catholic
-		size = 1948
+		size = 1655
 	}
 	labourers = {
 		culture = wallonian
 		religion = catholic
-		size = 29816
+		size = 25343
 	}
 	clergymen = {
 		culture = flemish
 		religion = catholic
-		size = 72
+		size = 61
 	}
 	artisans = {
 		culture = flemish
 		religion = catholic
-		size = 1461
+		size = 1241
 	}
 	soldiers = {
 		culture = flemish
 		religion = catholic
-		size = 59
+		size = 50
 	}
 	labourers = {
 		culture = flemish
 		religion = catholic
-		size = 3811
+		size = 3239
 	}
 	clergymen = {
 		culture = dutch
 		religion = protestant
-		size = 35
+		size = 29
 	}
 	farmers = {
 		culture = dutch
 		religion = protestant
-		size = 1911
+		size = 1624
 	}
 }
 393 = {
 	clergymen = {
 		culture = flemish
 		religion = catholic
-		size = 48
+		size = 40
 	}
 	artisans = {
 		culture = flemish
 		religion = catholic
-		size = 487
+		size = 413
 	}
 	soldiers = {
 		culture = flemish
 		religion = catholic
-		size = 48
+		size = 40
 	}
 	farmers = {
 		culture = flemish
 		religion = catholic
-		size = 4287
+		size = 3643
 	}
 	aristocrats = {
 		culture = wallonian
 		religion = catholic
-		size = 341
+		size = 289
 	}
 	clergymen = {
 		culture = wallonian
 		religion = catholic
-		size = 303
+		size = 257
 	}
 	artisans = {
 		culture = wallonian
 		religion = catholic
-		size = 48
+		size = 40
 	}
 	artisans = {
 		culture = wallonian
 		religion = catholic
-		size = 974
+		size = 827
 	}
 	artisans = {
 		culture = wallonian
 		religion = catholic
-		size = 1218
+		size = 1035
 	}
 	soldiers = {
 		culture = wallonian
 		religion = catholic
-		size = 487
+		size = 413
 	}
 	farmers = {
 		culture = wallonian
 		religion = catholic
-		size = 32191
+		size = 27362
 	}
 }
 394 = {
 	clergymen = {
 		culture = flemish
 		religion = catholic
-		size = 48
+		size = 40
 	}
 	artisans = {
 		culture = flemish
 		religion = catholic
-		size = 730
+		size = 620
 	}
 	soldiers = {
 		culture = flemish
 		religion = catholic
-		size = 59
+		size = 50
 	}
 	farmers = {
 		culture = flemish
 		religion = catholic
-		size = 5005
+		size = 4254
 	}
 	aristocrats = {
 		culture = wallonian
 		religion = catholic
-		size = 438
+		size = 372
 	}
 	clergymen = {
 		culture = wallonian
 		religion = catholic
-		size = 425
+		size = 361
 	}
 	artisans = {
 		culture = wallonian
 		religion = catholic
-		size = 1705
+		size = 1449
 	}
 	soldiers = {
 		culture = wallonian
 		religion = catholic
-		size = 487
+		size = 413
 	}
 	farmers = {
 		culture = wallonian
 		religion = catholic
-		size = 39328
+		size = 33428
 	}
 }
 395 = {
 	aristocrats = {
 		culture = wallonian
 		religion = catholic
-		size = 267
+		size = 226
 	}
 	clergymen = {
 		culture = wallonian
 		religion = catholic
-		size = 267
+		size = 226
 	}
 	artisans = {
 		culture = wallonian
 		religion = catholic
-		size = 48
+		size = 40
 	}
 	artisans = {
 		culture = wallonian
 		religion = catholic
-		size = 974
+		size = 827
 	}
 	artisans = {
 		culture = wallonian
 		religion = catholic
-		size = 1461
+		size = 1241
 	}
 	soldiers = {
 		culture = wallonian
 		religion = catholic
-		size = 487
+		size = 413
 	}
 	farmers = {
 		culture = wallonian
 		religion = catholic
-		size = 22313
+		size = 18966
 	}
 }
 396 = {
 	aristocrats = {
 		culture = wallonian
 		religion = catholic
-		size = 121
+		size = 102
 	}
 	clergymen = {
 		culture = wallonian
 		religion = catholic
-		size = 133
+		size = 113
 	}
 	artisans = {
 		culture = wallonian
 		religion = catholic
-		size = 633
+		size = 538
 	}
 	soldiers = {
 		culture = wallonian
 		religion = catholic
-		size = 487
+		size = 413
 	}
 	farmers = {
 		culture = wallonian
 		religion = catholic
-		size = 11777
+		size = 10010
 	}
 	clergymen = {
 		culture = north_german
 		religion = protestant
-		size = 35
+		size = 29
 	}
 	artisans = {
 		culture = north_german
 		religion = protestant
-		size = 218
+		size = 185
 	}
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 48
+		size = 40
 	}
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 4079
+		size = 3467
 	}
 }
 398 = {
 	aristocrats = {
 		culture = wallonian
 		religion = catholic
-		size = 218
+		size = 185
 	}
 	clergymen = {
 		culture = wallonian
 		religion = catholic
-		size = 206
+		size = 175
 	}
 	artisans = {
 		culture = wallonian
 		religion = catholic
-		size = 974
+		size = 827
 	}
 	soldiers = {
 		culture = wallonian
 		religion = catholic
-		size = 487
+		size = 413
 	}
 	farmers = {
 		culture = wallonian
 		religion = catholic
-		size = 19060
+		size = 16201
 	}
 }

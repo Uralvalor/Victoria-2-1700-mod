@@ -3,12 +3,11 @@ political_decisions = {
 	
 Sanction = {
 	alert = no
-
 	potential = {
 			is_greater_power= yes
 	}
 	allow = {	
-	        NOT = { badboy = 0.8 }
+	        NOT = { badboy = 0.2 }
 		NOT = { war_policy  = pacifism  }
 		NOT = { war_exhaustion = 1 }	
 	}
@@ -30,11 +29,11 @@ Sanction = {
 					value = -50
 			}
                         country_event = 780000
-			prestige = -5
+			prestige = -3
 		}
 	}
 		ai_will_do = {
-			factor = 0.6
+			factor = 0.2
 			modifier = {
 				factor = 0.5			
 				trade_policy = protectionism 
@@ -98,10 +97,13 @@ Sanction = {
 			allow = {
 			prestige = 50
 			UKR = { OR = { 
+			        
+				    vassal_of = RUS
 					in_sphere = THIS
 					NOT = { exists = UKR } }
 					}
 			CSK = { OR = { 
+				    vassal_of = RUS
 					in_sphere = THIS
 					NOT = { exists = CSK } }
 					}
@@ -247,9 +249,6 @@ Sanction = {
 			SPA = {release = LOU}
 			inherit = CAN
 			inherit = LOU
-			inherit = IRO
-			inherit = CHE
-			inherit = INC
 			inherit = USA
 			FRA = {release = LOU}
 			inherit = LOU
@@ -693,9 +692,9 @@ value = 120
 		allow = {
 			war = no
 			prestige = 65
-			owns = 718
+			owns = 945
 			owns = 958
-			owns = 956
+			owns = 994
 			enlightenment_philosophy = 1
 		}
 		effect = {
@@ -723,19 +722,19 @@ value = 120
 			RUS_719 = {
 				add_core = RUS
 			}
-			RUS_936 = {
+			RUS_943 = {
 				add_core = RUS
 			}
-			RUS_958 = {
+			AUS_662 = {
 				add_core = RUS
 			}
 			RUS_954 = {
 				add_core = RUS
 			}
-			RUS_956 = {
+			AUS_953 = {
 				add_core = RUS
 			}
-			RUS_364 = {
+			RUS_360 = {
 				add_core = RUS
 			}
 			RUS_357 = {
@@ -745,5 +744,5 @@ value = 120
 			set_country_flag = collector_of_russian_lands
 		}
 	}
+		
 }
-

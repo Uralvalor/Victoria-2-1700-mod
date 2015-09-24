@@ -605,7 +605,7 @@ modern_naval_doctrine = {
 #ship_construction
 clipper_design = {
 	area = ship_construction
-	year = 1770
+	year = 1705
 	cost = 2200
 	unciv_military = yes
 	activate_building = clipper_shipyard 
@@ -686,7 +686,7 @@ clipper_design = {
 }
 steamers_with_paddle_wheel = {
 	area = ship_construction
-	year = 1816
+	year = 1800
 	cost = 4400
 	unciv_military = yes
 	activate_building = steamer_shipyard

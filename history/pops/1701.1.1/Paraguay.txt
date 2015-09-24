@@ -1,265 +1,219 @@
-#Chaco Region (16000) #see Argentina.txt for balance of region
-#Under loose authority of Paraguay 1836
-#Fortin Falcon (8000/2000 POPS)
 2337 = {
 	aristocrats = {
 		culture = guarani
 		religion = animist
-		size = 16
+	        size = 48
 	}
-
 	clergymen = {
 		culture = guarani
 		religion = animist
-		size = 33
+	        size = 98
 	}
-
 	artisans = {
 		culture = guarani
 		religion = animist
-		size = 65
+	        size = 194
 	}
-
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 16
+	        size = 48
 	}
-
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 1170
+	        size = 3510
 	}
 }
-#Puerto Guarani (8000/2000 POPS)
 2338 = {
 	aristocrats = {
 		culture = guarani
 		religion = animist
-		size = 16
+	        size = 48
 	}
-
 	clergymen = {
 		culture = guarani
 		religion = animist
-		size = 33
+	        size = 98
 	}
-
 	artisans = {
 		culture = guarani
 		religion = animist
-		size = 65
+	        size = 194
 	}
-
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 16
+	        size = 48
 	}
-
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 1170
+	        size = 3510
 	}
 }
-#Paraguay Region (636000) #see Brazil.txt & Argentina.txt for balance of region
-#Under rule of Paraguay 1836
-#Asuncion (368000/92000 POPS)
 2339 = {
 	aristocrats = {
 		culture = guarani
 		religion = animist
-		size = 34
+	        size = 102
 	}
-
 	bureaucrats = {
 		culture = guarani
 		religion = animist
-		size = 45
+	        size = 134
 	}
-
 	officers = {
 		culture = guarani
 		religion = animist
-		size = 3
+	        size = 8
 	}
-
 	clergymen = {
 		culture = guarani
 		religion = animist
-		size = 12
+	        size = 36
 	}
-
 	artisans = {
 		culture = guarani
 		religion = animist
-		size = 122
+	        size = 366
 	}
-
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 56
+	        size = 168
 	}
-
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 2309
+	        size = 6926
 	}
 }
-#Pilar (68000/17000 POPS)
 2340 = {
 	aristocrats = {
 		culture = guarani
 		religion = animist
-		size = 228
+	        size = 684
 	}
-
 	clergymen = {
 		culture = guarani
 		religion = animist
-		size = 65
+	        size = 194
 	}
-
 	artisans = {
 		culture = guarani
 		religion = animist
-		size = 130
+	        size = 390
 	}
-
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 33
+	        size = 98
 	}
-
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 2145
+	        size = 6434
 	}
 }
-#Encarnacion (100000/25000 POPS)
 2341 = {
 	aristocrats = {
 		culture = guarani
 		religion = animist
-		size = 325
+	        size = 974
 	}
-
 	clergymen = {
 		culture = guarani
 		religion = animist
-		size = 81
+	        size = 242
 	}
-
 	artisans = {
 		culture = guarani
 		religion = animist
-		size = 130
+	        size = 390
 	}
-
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 33
+	        size = 98
 	}
-
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 2031
+	        size = 6092
 	}
 }
-#San Pedro (84000/21000 POPS)
 2342 = {
 	aristocrats = {
 		culture = guarani
 		religion = animist
-		size = 276
+	        size = 828
 	}
-
 	clergymen = {
 		culture = guarani
 		religion = animist
-		size = 81
+	        size = 242
 	}
-
 	artisans = {
 		culture = guarani
 		religion = animist
-		size = 130
+	        size = 390
 	}
-
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 33
+	        size = 98
 	}
-
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 2080
+	        size = 6240
 	}
 }
-#Concepcion (16000/4000 POPS)
 2343 = {
 	clergymen = {
 		culture = guarani
 		religion = animist
-		size = 16
+	        size = 48
 	}
-
 	artisans = {
 		culture = guarani
 		religion = animist
-		size = 33
+	        size = 98
 	}
-
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 16
+	        size = 48
 	}
-
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 585
+	        size = 1754
 	}
-
 	aristocrats = {
 		culture = guarani
 		religion = animist
-		size = 33
+	        size = 98
 	}
-
 	clergymen = {
 		culture = guarani
 		religion = animist
-		size = 49
+	        size = 146
 	}
-
 	artisans = {
 		culture = guarani
 		religion = animist
-		size = 98
+	        size = 294
 	}
-
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 16
+	        size = 48
 	}
-
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 1755
+	        size = 5264
 	}
-
 }

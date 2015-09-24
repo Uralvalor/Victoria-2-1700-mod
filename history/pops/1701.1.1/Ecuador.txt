@@ -1,297 +1,264 @@
-#Quito Region (512000)
-#Ruled by Ecuador 1836
-#Quito (304000/76000 POPS)
 2279 = {
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 2098
+	        size = 6294
 	}
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 893
+	        size = 2678
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 784
+	        size = 2352
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 362
+	        size = 1086
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 893
+	        size = 2678
 	}
 	farmers = {
 		culture = quechua
 		religion = catholic
-	        size = 2456
+	        size = 7368
 	}
 	farmers = {
 		culture = quechua
 		religion = animist
-	        size = 346
+	        size = 1038
 	}
 	farmers = {
 		culture = amazonian
 		religion = animist
-	        size = 154
+	        size = 462
 	}
-
 }
-#Zamora (176000/44000 POPS)
 2283 = {
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 893
+	        size = 2678
 	}
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 235
+	        size = 704
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 178
+	        size = 534
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 56
+	        size = 168
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 79
+	        size = 236
 	}
 	farmers = {
 		culture = quechua
 		religion = catholic
-	        size = 2345
+	        size = 7034
 	}
 	farmers = {
 		culture = quechua
 		religion = animist
-	        size = 2567
+	        size = 7700
 	}
 	farmers = {
 		culture = amazonian
 		religion = animist
-	        size = 1254
+	        size = 3762
 	}
-
 }
-#Tena (32000/8000 POPS)
 2284 = {
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 1013
+	        size = 3038
 	}
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 456
+	        size = 1368
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 204
+	        size = 612
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 78
+	        size = 234
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 132
+	        size = 396
 	}
 	farmers = {
 		culture = quechua
 		religion = catholic
-	        size = 2034
+	        size = 6102
 	}
 	farmers = {
 		culture = quechua
 		religion = animist
-	        size = 1345
+	        size = 4034
 	}
 	farmers = {
 		culture = amazonian
 		religion = animist
-	        size = 875
+	        size = 2624
 	}
-
 }
-#Guayaquil Region (328000)
-#Ruled by Ecuador 1836
-#Guayaquil (80000/20000 POPS)
 2280 = {
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 3467
+	        size = 10400
 	}
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 1890
+	        size = 5670
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 1476
+	        size = 4428
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 341
+	        size = 1022
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 984
+	        size = 2952
 	}
 	farmers = {
 		culture = quechua
 		religion = catholic
-	        size = 231
+	        size = 692
 	}
 	farmers = {
 		culture = quechua
 		religion = animist
-	        size = 23
+	        size = 68
 	}
 	farmers = {
 		culture = amazonian
 		religion = animist
-	        size = 45
+	        size = 134
 	}
-
 }
-#Esmereldas (88000/22000 POPS)
 2281 = {
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 1764
+	        size = 5292
 	}
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 567
+	        size = 1700
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 205
+	        size = 614
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 47
+	        size = 140
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 367
+	        size = 1100
 	}
 	farmers = {
 		culture = quechua
 		religion = catholic
-	        size = 253
+	        size = 758
 	}
 	farmers = {
 		culture = quechua
 		religion = animist
-	        size = 63
+	        size = 188
 	}
 	farmers = {
 		culture = amazonian
 		religion = animist
-	        size = 109
+	        size = 326
 	}
-
 }
-#Loja (160000/40000 POPS)
 2282 = {
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 2095
+	        size = 6284
 	}
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 873
+	        size = 2618
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 984
+	        size = 2952
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-	        size = 453
+	        size = 1358
 	}
-	
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-	        size = 874
+	        size = 2622
 	}
 	farmers = {
 		culture = quechua
 		religion = catholic
-	        size = 789
+	        size = 2366
 	}
 	farmers = {
 		culture = quechua
 		religion = animist
-	        size = 112
+	        size = 336
 	}
 	farmers = {
 		culture = amazonian
 		religion = animist
-	        size = 223
+	        size = 668
 	}
-
 }
-#Galapagos Region (300)
-#Ruled by Ecuador 1836
-#Galapagos (300/75 POPS)
 2285 = {
 	farmers = {
 		culture = platinean
 		religion = catholic
-	        size = 253
+	        size = 758
 	}
 	farmers = {
 		culture = spanish
 		religion = catholic
-	        size = 1035
+	        size = 3104
 	}
-
-
 }

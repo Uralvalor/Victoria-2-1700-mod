@@ -47,19 +47,19 @@
 	clergymen = {
 		culture = greek
 		religion = orthodox
-		size = 65
+		size = 165
 	}
 
 	artisans = {
 		culture = greek
 		religion = orthodox
-		size = 488
+		size = 888
 	}
 
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 7248
+		size = 14248
 	}
 }
 #Limassol (44000/11000 POPS)
@@ -103,13 +103,13 @@
 	artisans = {
 		culture = greek
 		religion = orthodox
-		size = 260
+		size = 460
 	}
 
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 5541
+		size = 10541
 	}
 }
 #Famagusta (44000/11000 POPS)
@@ -147,19 +147,19 @@
 	clergymen = {
 		culture = greek
 		religion = orthodox
-		size = 49
+		size = 89
 	}
 
 	artisans = {
 		culture = greek
 		religion = orthodox
-		size = 260
+		size = 460
 	}
 
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 4891
+		size = 8891
 	}
 
 }

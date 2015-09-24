@@ -5,43 +5,43 @@
 	aristocrats = {
 		culture = english
 		religion = protestant
-		size = 65
+	        size = 16
 	}
 
 	bureaucrats = {
 		culture = english
 		religion = protestant
-		size = 55
+	        size = 13
 	}
 
 	clergymen = {
 		culture = english
 		religion = protestant
-		size = 49
+	        size = 12
 	}
 
 	artisans = {
 		culture = english
 		religion = protestant
-		size = 1625
+	        size = 406
 	}
 
 	soldiers = {
 		culture = english
 		religion = protestant
-		size = 33
+	        size = 8
 	}
 
 	farmers = {
 		culture = english
 		religion = protestant
-		size = 1424
+	        size = 356
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 54844
+	        size = 13711
 	}
 }
 #Cayman Islands : (1200/300 POPS) #still a english Colony
@@ -49,19 +49,19 @@
 	soldiers = {
 		culture = english
 		religion = protestant
-		size = 3
+	        size = 0
 	}
 
 	artisans = {
 		culture = english
 		religion = protestant
-		size = 10
+	        size = 2
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 182
+	        size = 45
 	}
 
 }

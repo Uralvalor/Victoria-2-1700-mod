@@ -2,9 +2,16 @@ owner = SWE
 controller = SWE
 add_core = HAN
 add_core = GER
+add_core = HRE
 trade_goods = cattle
 life_rating = 35
 terrain = marginal_farmland
+
+state_building = {
+	level = 1
+	building = ammunition_factory
+	upgrade = yes
+}
 1914.1.1 = {
 	owner = GER
 	controller = GER

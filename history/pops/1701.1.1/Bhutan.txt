@@ -5,73 +5,73 @@
 	aristocrats = {
 		culture = tibetan
 		religion = gelugpa
-		size = 374
+	        size = 93
 	}
 
 	bureaucrats = {
 		culture = tibetan
 		religion = gelugpa
-		size = 16
+	        size = 4
 	}
 
 	officers = {
 		culture = tibetan
 		religion = gelugpa
-		size = 16
+	        size = 4
 	}
 
 	clergymen = {
 		culture = tibetan
 		religion = gelugpa
-		size = 195
+	        size = 48
 	}
 
 	artisans = {
 		culture = tibetan
 		religion = gelugpa
-		size = 975
+	        size = 243
 	}
 
 	soldiers = {
 		culture = tibetan
 		religion = gelugpa
-		size = 650
+	        size = 162
 	}
 
 	farmers = {
 		culture = tibetan
 		religion = gelugpa
-		size = 17274
+	        size = 4318
 	}
 
 	aristocrats = {
 		culture = nepali
 		religion = hindu
-		size = 33
+	        size = 8
 	}
 
 	clergymen = {
 		culture = nepali
 		religion = hindu
-		size = 49
+	        size = 12
 	}
 
 	artisans = {
 		culture = nepali
 		religion = hindu
-		size = 130
+	        size = 32
 	}
 
 	soldiers = {
 		culture = nepali
 		religion = hindu
-		size = 16
+	        size = 4
 	}
 
 	farmers = {
 		culture = nepali
 		religion = hindu
-		size = 2373
+	        size = 593
 	}
 
 }

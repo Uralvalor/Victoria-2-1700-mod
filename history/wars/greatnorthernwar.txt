@@ -19,18 +19,6 @@ name = "Северная война"
 	
 	war_goal = {
 		casus_belli = acquire_state
-		actor = PLC
-		receiver = SWE
-		state_province_id = 354
-	}
-	war_goal = {
-		casus_belli = acquire_state
-		actor = PLC
-		receiver = SWE
-		state_province_id = 349
-	}
-	war_goal = {
-		casus_belli = acquire_state
 		actor = RUS
 		receiver = SWE
 		state_province_id = 994
@@ -70,6 +58,18 @@ name = "Северная война"
 		actor = SWE
 		receiver = RUS
 		state_province_id = 983
+	}
+	war_goal = {
+		casus_belli = liberate_country
+		actor = SWE
+		receiver = PLC
+		country = UKR
+	}
+	war_goal = {
+		casus_belli = release_puppet
+		actor = SWE
+		receiver = RUS
+		country = UKR
 	}
 }
 

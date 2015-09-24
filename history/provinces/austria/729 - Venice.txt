@@ -5,13 +5,19 @@ trade_goods = fish
 life_rating = 35
 naval_base = 1
 terrain = good_farmland
+
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
 state_building = {
 	level = 1
 	building = glass_factory
 	upgrade = yes
 }
 state_building = {
-	level = 1
+	level = 5
 	building = clipper_shipyard
 	upgrade = yes
 }

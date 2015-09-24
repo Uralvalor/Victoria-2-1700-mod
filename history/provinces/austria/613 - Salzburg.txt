@@ -5,11 +5,11 @@ add_core = AUS
 trade_goods = grain
 life_rating = 35
 terrain = conifer_forest_mountains
-#state_building = {
-#	level = 1
-#	building = ammunition_factory
-#	upgrade = yes
-#}
+state_building = {
+	level = 1
+	building = ammunition_factory
+	upgrade = yes
+}
 1914.1.1 = {
 	owner = KUK
 	controller = KUK

@@ -4,7 +4,7 @@ name = "Война за Испанское наследство"
 	add_attacker = AUS
 	add_attacker = ENL
 	add_attacker = NET
-	add_attacker = SAR
+	add_attacker = SAV
 	add_attacker = PRU
 	add_attacker = POR
 	add_attacker = SAX
@@ -39,36 +39,59 @@ name = "Война за Испанское наследство"
 	# country - 3rd party
 	# state_province_id - target state capital
 
-	war_goal = {
-		casus_belli = liberate_country
-		actor = AUS
-		receiver = SPA
-		country = BEL
-	}
-
-	war_goal = {
-		casus_belli = liberate_country
-		actor = AUS
-		receiver = SPA
-		country = SIC
-	}
-
-	war_goal = {
-		casus_belli = liberate_country
-		actor = AUS
-		receiver = SPA
-		country = LOM
-	}
-
 
 	war_goal = {
 		casus_belli = acquire_state
 		actor = AUS
 		receiver = SPA
-		state_province_id = 766
+		state_province_id = 387
+	}
+	war_goal = {
+		casus_belli = acquire_state
+		actor = AUS
+		receiver = SPA
+		state_province_id = 394
 	}
 
+	war_goal = {
+		casus_belli = acquire_state
+		actor = AUS
+		receiver = SPA
+		state_province_id = 726
+	}
+	war_goal = {
+		casus_belli = acquire_state
+		actor = AUS
+		receiver = SPA
+		state_province_id = 722
+	}
 
+	war_goal = {
+		casus_belli = acquire_state
+		actor = SAV
+		receiver = SPA
+		state_province_id = 765
+	}
+	war_goal = {
+		casus_belli = acquire_state
+		actor = AUS
+		receiver = SPA
+		state_province_id = 754
+	}
+
+	war_goal = {
+		casus_belli = acquire_state
+		actor = AUS
+		receiver = SPA
+		state_province_id = 753
+	}
+
+	war_goal = {
+		casus_belli = acquire_state
+		actor = AUS
+		receiver = SPA
+		state_province_id = 763
+	}
 
 	war_goal = {
 		casus_belli = acquire_state
@@ -177,10 +200,22 @@ name = "Война за Испанское наследство"
 	}
 
 	war_goal = {
-		casus_belli = cut_down_to_size
+		casus_belli = acquire_state
 		actor = FRA
-		reciever = AUS
-		country = AUS
+		receiver = BAD
+		state_province_id = 587
+	}
+
+	war_goal = {
+		casus_belli = conquest
+		actor = SPA
+		receiver = AGO
+	}
+	war_goal = {
+		casus_belli = liberate_country
+		actor = FRA
+		receiver = AUS
+		country = HUN
 	}
 
 
@@ -190,7 +225,7 @@ name = "Война за Испанское наследство"
 	rem_attacker = AUS
 	rem_attacker = ENL
 	rem_attacker = NET
-	rem_attacker = SAR
+	rem_attacker = SAV
 	rem_attacker = PRU
 	rem_attacker = POR
 	rem_attacker = SAX

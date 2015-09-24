@@ -16,6 +16,7 @@ country_event = {
 		NOT = {
 			has_country_modifier = western_influences
 			has_country_modifier = uncivilized_isolationism
+                        has_country_flag = sakoku_applied
 		}
 		OR = {
 			any_neighbor_country = { civilized = yes }
@@ -320,7 +321,8 @@ province_event = {
 
 	trigger = {
 		is_coastal = yes
-		NOT = { has_province_modifier = western_presence }
+		NOT = { OR = { has_province_modifier = western_presence                               
+                        has_country_flag = sakoku_applied } }
 		owner = {
 			OR = {
 				has_country_modifier = uncivilized_isolationism
@@ -1067,6 +1069,7 @@ country_event = {
 	picture = "Western_education"
 
 	trigger = {
+                NOT = { has_country_flag = sakoku_applied }
 		has_country_modifier = western_influences
 		OR = {
 			government = hms_government

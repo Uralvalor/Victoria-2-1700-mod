@@ -1,133 +1,109 @@
-#French Guiana (20000)
-#Ruled by France 1836
-#Cayenne (17000/4250 POPS)
 2241 = {
 	aristocrats = {
 		culture = french
 		religion = catholic
-		size = 98
+		size = 147
 	}
-
 	bureaucrats = {
 		culture = french
 		religion = catholic
-		size = 7
+		size = 10
 	}
-
 	clergymen = {
 		culture = french
 		religion = catholic
-		size = 7
+		size = 10
 	}
-
 	artisans = {
 		culture = french
 		religion = catholic
-		size = 65
+		size = 97
 	}
-
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 33
+		size = 49
 	}
-
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 52
+		size = 78
 	}
-
 	artisans = {
 		culture = african_minor
 		religion = catholic
-		size = 98
+		size = 147
 	}
-
 	clergymen = {
 		culture = african_minor
 		religion = catholic
-		size = 16
+		size = 24
 	}
-
 	soldiers = {
 		culture = african_minor
 		religion = catholic
-		size = 33
+		size = 49
 	}
-
 	farmers = {
 		culture = african_minor
 		religion = catholic
-		size = 276
+		size = 414
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 1918
+		size = 2877
 	}
-
 	aristocrats = {
 		culture = amazonian
 		religion = animist
 		size = 1
 	}
-
 	clergymen = {
-		culture = amazonian
-		religion = animist
-		size = 2
-	}
-
-	artisans = {
-		culture = amazonian
-		religion = animist
-		size = 7
-	}
-
-	soldiers = {
 		culture = amazonian
 		religion = animist
 		size = 3
 	}
-
-	farmers = {
-		culture = amazonian
-		religion = animist
-		size = 150
-	}
-}
-#Maripasoula (3000/750 POPS)
-2246 = {
-	aristocrats = {
-		culture = amazonian
-		religion = animist
-		size = 7
-	}
-
-	clergymen = {
+	artisans = {
 		culture = amazonian
 		religion = animist
 		size = 10
 	}
-
-	artisans = {
-		culture = amazonian
-		religion = animist
-		size = 23
-	}
-
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 7
+		size = 4
 	}
-
 	farmers = {
 		culture = amazonian
 		religion = animist
-		size = 442
+		size = 225
 	}
-
+}
+2246 = {
+	aristocrats = {
+		culture = amazonian
+		religion = animist
+		size = 10
+	}
+	clergymen = {
+		culture = amazonian
+		religion = animist
+		size = 15
+	}
+	artisans = {
+		culture = amazonian
+		religion = animist
+		size = 34
+	}
+	soldiers = {
+		culture = amazonian
+		religion = animist
+		size = 10
+	}
+	farmers = {
+		culture = amazonian
+		religion = animist
+		size = 663
+	}
 }

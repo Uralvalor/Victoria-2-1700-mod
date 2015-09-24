@@ -66,11 +66,6 @@ army = {
 		home = 599
 	}
 	regiment = {
-		name= "8th Militia"
-		type = irregular
-		home = 599
-	}
-	regiment = {
 		name= "9th Militia"
 		type = infantry
 		home = 599
@@ -90,29 +85,4 @@ army = {
 		type = infantry
 		home = 599
 	}
-	regiment = {
-		name= "13th Militia"
-		type = infantry
-		home = 599
-	}
-	regiment = {
-		name= "14th Militia"
-		type = infantry
-		home = 599
-	}
-	regiment = {
-		name= "15th Militia"
-		type = infantry
-		home = 599
-	}
-	regiment = {
-		name= "16th Militia"
-		type = infantry
-		home = 599
-	}	
-	regiment = {
-		name= "17th Militia"
-		type = infantry
-		home = 599
-	}	            
 }

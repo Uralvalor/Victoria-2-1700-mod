@@ -256,18 +256,38 @@ political_decisions = {
 		
 		effect = {
 			1085 = {
+			add_province_modifier = {
+					name = influx_of_population
+					duration = 900
+			        }
 				change_province_name = "Благовещенск"
 			}
 			1084 = {
+			add_province_modifier = {
+					name = influx_of_population
+					duration = 900
+			        }
 				change_province_name = "Николаевск-на-Амуре"
 			}
 			1083 = {
+			add_province_modifier = {
+					name = influx_of_population
+					duration = 900
+			        }
 				change_province_name = "Хабаровск"
 			}
 			2617 = {
+			add_province_modifier = {
+					name = influx_of_population
+					duration = 900
+			        }
 				change_province_name = "Пашково"
 			}
 			1082 = {
+			add_province_modifier = {
+					name = influx_of_population
+					duration = 900
+			        }
 				change_province_name = "Владивосток"
 				state_scope = {
 					change_region_name = "Приморье"

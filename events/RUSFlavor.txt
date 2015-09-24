@@ -1459,13 +1459,8 @@ country_event = {
 	id = 95400
 
 	trigger = {
-		ai = yes
-		NOT = {
-			tag = RUS
-		}
-		RUS = {
+	ai = yes
 			has_country_flag = serfdom_not_abolished
-		}
 		
 	}
 	
@@ -1476,104 +1471,25 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA95400"
-		RUS = {
-			RUS_943 = {
+		
+	    all_core = {
 				add_province_modifier = {
 					name = serfdom_province
 					duration = -1
 				}
-			}
-			RUS_1008 = {
-				add_province_modifier = {
-					name = serfdom_province
-					duration = -1
-				}
-			}
-			RUS_947 = {
-				add_province_modifier = {
-					name = serfdom_province
-					duration = -1
-				}
-			}
-			RUS_1009 = {
-				add_province_modifier = {
-					name = serfdom_province
-					duration = -1
-				}
-			}
-			RUS_718 = {
-				add_province_modifier = {
-					name = serfdom_province
-					duration = -1
-				}
-			}
-			RUS_1090 = {
-				add_province_modifier = {
-					name = serfdom_province
-					duration = -1
-				}
-			}
-			RUS_1020 = {
-				add_province_modifier = {
-					name = serfdom_province
-					duration = -1
-				}
-			}
-			RUS_958 = {
-				add_province_modifier = {
-					name = serfdom_province
-					duration = -1
-				}
-			}
-			RUS_990 = {
-				add_province_modifier = {
-					name = serfdom_province
-					duration = -1
-				}
-			}
-			RUS_998 = {
-				add_province_modifier = {
-					name = serfdom_province
-					duration = -1
-				}
-			}
-			RUS_994 = {
-				add_province_modifier = {
-					name = serfdom_province
-					duration = -1
-				}
-			}
-			RUS_977 = {
-				add_province_modifier = {
-					name = serfdom_province
-					duration = -1
-				}
-			}
-			RUS_1037 = {
-				add_province_modifier = {
-					name = serfdom_province
-					duration = -1
-				}
-			}
-			RUS_360 = {
-				add_province_modifier = {
-					name = serfdom_province
-					duration = -1
-				}
-			}
-			RUS_1003 = {
-				add_province_modifier = {
-					name = serfdom_province
-					duration = -1
-				}
-			}
-			RUS_707 = {
-				add_province_modifier = {
-					name = serfdom_province
-					duration = -1
-				}
-			}
 		}
+			any_country = {
+				limit = {
+					has_country_flag = serfdom_not_abolished
+				}
+				   all_core = {
+				add_province_modifier = {
+					name = serfdom_province
+					duration = -1
+				}
+	       	}
+			}
+  
 	}
 }
 country_event = {

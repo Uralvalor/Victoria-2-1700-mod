@@ -2,103 +2,103 @@
 	aristocrats = {
 		culture = bedouin
 		religion = sunni
-		size = 9
+	        size = 0
 	}
 	clergymen = {
 		culture = bedouin
 		religion = sunni
-		size = 13
+	        size = 0
 	}
 	artisans = {
 		culture = bedouin
 		religion = sunni
-		size = 44
+	        size = 2
 	}
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 21
+	        size = 1
 	}
 	farmers = {
 		culture = bedouin
 		religion = sunni
-		size = 783
+	        size = 53
 	}
 	aristocrats = {
 		culture = berber
 		religion = sunni
-		size = 21
+	        size = 1
 	}
 	clergymen = {
 		culture = berber
 		religion = sunni
-		size = 44
+	        size = 2
 	}
 	artisans = {
 		culture = berber
 		religion = sunni
-		size = 87
+	        size = 5
 	}
 	soldiers = {
 		culture = berber
 		religion = sunni
-		size = 21
+	        size = 1
 	}
 	farmers = {
 		culture = berber
 		religion = sunni
-		size = 1567
+	        size = 106
 	}
 }
 1774 = {
 	aristocrats = {
 		culture = bedouin
 		religion = sunni
-		size = 9
+	        size = 0
 	}
 	clergymen = {
 		culture = bedouin
 		religion = sunni
-		size = 13
+	        size = 0
 	}
 	artisans = {
 		culture = bedouin
 		religion = sunni
-		size = 44
+	        size = 2
 	}
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 21
+	        size = 1
 	}
 	farmers = {
 		culture = bedouin
 		religion = sunni
-		size = 783
+	        size = 53
 	}
 	aristocrats = {
 		culture = maures
 		religion = sunni
-		size = 9
+	        size = 0
 	}
 	clergymen = {
 		culture = maures
 		religion = sunni
-		size = 13
+	        size = 0
 	}
 	artisans = {
 		culture = maures
 		religion = sunni
-		size = 44
+	        size = 2
 	}
 	soldiers = {
 		culture = maures
 		religion = sunni
-		size = 21
+	        size = 1
 	}
 	farmers = {
 		culture = maures
 		religion = sunni
-		size = 783
+	        size = 53
 	}
 }

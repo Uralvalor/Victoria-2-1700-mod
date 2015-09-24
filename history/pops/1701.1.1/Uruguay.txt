@@ -1,89 +1,78 @@
-#Uruguay Region (200000)  
-#Under rule of Uruguay 1836
-#Montevideo (112000/28000 POPS)
 2344 = {
 	farmers = {
 		culture = guarani
 		religion = catholic
-		size = 4509
+	        size = 3381
 	}
 }
-#Paysandu (36000/9000 POPS)
 2345 = {
 	aristocrats = {
 		culture = portuguese
 		religion = catholic
-		size = 32
+	        size = 24
 	}
-
 	clergymen = {
 		culture = portuguese
 		religion = catholic
-		size = 78
+	        size = 58
 	}
-
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 567
+	        size = 425
 	}
-
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size = 124
+	        size = 93
 	}
-
 	farmers = {
 		culture = portuguese
 		religion = catholic
-		size = 890
+	        size = 667
 	}
 	farmers = {
 		culture = guarani
 		religion = catholic
-		size = 1010
+	        size = 757
 	}
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 7894
+	        size = 5920
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 1455
+	        size = 1091
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 35
+	        size = 26
 	}
 	farmers = {
 		culture = brazilian
 		religion = catholic
-		size = 311
+	        size = 233
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 108
+	        size = 81
 	}
 }
-#Tacumba (12000/3000 POPS)
 2346 = {
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 3421
+	        size = 2565
 	}
 }
-#Melo (40000/10000 POPS)
 2347 = {
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 3543
+	        size = 2657
 	}
-
 }

@@ -80,7 +80,7 @@ country_event = {
 				continent = europe
 				is_greater_power = yes
 					}
-					country_event = 100009
+					country_event = 1100009
 								}
 				any_neighbor_country = {
 			limit = { 
@@ -120,16 +120,16 @@ country_event = {
 
 country_event = {
 	
-	id = 100009
+	id = 1100009
 
 	is_triggered_only = yes
 
-	title = "EVTNAME100009"
-	desc = "EVTDESC100009"
+	title = "EVTNAME1100009"
+	desc = "EVTDESC1100009"
 	picture = "Revolution_fr"
 
 	option = {
-		name = "EVTOPTA100009"
+		name = "EVTOPTA1100009"
 		war = {
 					target = FROM
 					attacker_goal = {
@@ -164,7 +164,7 @@ country_event = {
 	
 	
 	option = {
-		name = "EVTOPTB100009"
+		name = "EVTOPTB1100009"
 		relation = {
 			with = FROM
 			value = 50

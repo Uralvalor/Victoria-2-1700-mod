@@ -178,7 +178,7 @@
 	bureaucrats = {
 		culture = turkish
 		religion = sunni
-		size = 1635
+		size = 50
 	}
 	officers = {
 		culture = turkish
@@ -208,7 +208,7 @@
 	bureaucrats = {
 		culture = greek
 		religion = orthodox
-		size = 44
+		size = 1644
 	}
 	clergymen = {
 		culture = greek
@@ -372,7 +372,7 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 21711
+		size = 16711
 	}
 	clergymen = {
 		culture = armenian
@@ -397,8 +397,8 @@
 		size = 1047
 	}
 	bureaucrats = {
-		culture = turkish
-		religion = sunni
+		culture = greek
+		religion = orthodox
 		size = 294
 	}
 	officers = {

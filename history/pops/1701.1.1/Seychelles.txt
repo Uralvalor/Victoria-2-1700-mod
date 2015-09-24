@@ -1,28 +1,22 @@
-#Seychelles - 5000
-#ruled by Britain 1836
-#Seychelles (5000/1250 POPS)
 2127 = {
 	aristocrats = {
 		culture = french
 		religion = catholic
-		size = 13
+		size = 17
 	}
-
 	clergymen = {
 		culture = african_minor
 		religion = catholic
-		size = 20
+		size = 27
 	}
-
 	artisans = {
 		culture = african_minor
 		religion = catholic
-		size = 49
+		size = 66
 	}
-
 	farmers = {
 		culture = african_minor
 		religion = catholic
-		size = 764
+		size = 1031
 	}
 }

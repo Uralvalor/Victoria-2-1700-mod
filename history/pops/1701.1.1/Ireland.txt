@@ -28,19 +28,19 @@
 
 	soldiers = {
 		culture = english
-		religion = protestant
+		religion = catholic
 	        size = 406
 	}
 
 	artisans = {
 		culture = english
-		religion = protestant
+		religion = catholic
 	        size = 3900
 	}
 
 	farmers = {
 		culture = english
-		religion = protestant
+		religion = catholic
 	        size = 18559
 	}
 
@@ -102,19 +102,19 @@
 
 	artisans = {
 		culture = irish
-		religion = protestant
+		religion = catholic
 	        size = 1625
 	}
 
 	soldiers = {
 		culture = irish
-		religion = protestant
+		religion = catholic
 	        size = 325
 	}
 
 	farmers = {
 		culture = irish
-		religion = protestant
+		religion = catholic
 	        size = 24456
 	}
 }
@@ -134,19 +134,19 @@
 
 	artisans = {
 		culture = irish
-		religion = protestant
+		religion = catholic
 	        size = 812
 	}
 
 	soldiers = {
 		culture = irish
-		religion = protestant
+		religion = catholic
 	        size = 325
 	}
 
 	labourers = {
 		culture = irish
-		religion = protestant
+		religion = catholic
 	        size = 13975
 	}
 
@@ -226,7 +226,7 @@
 
 	farmers = {
 		culture = irish
-		religion = protestant
+		religion = catholic
 	        size = 5387
 	}
 
@@ -502,11 +502,15 @@
 		religion = catholic
 	        size = 16900
 	}
-
+        craftsmen = {
+		culture = irish
+		religion = catholic
+	        size = 3072
+	}
 	farmers = {
 		culture = irish
 		religion = catholic
-	        size = 50172
+	        size = 47172
 	}
 }
 #Kildare (532000/133000 POPs)

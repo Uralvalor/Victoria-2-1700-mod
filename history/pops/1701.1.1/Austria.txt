@@ -59,7 +59,12 @@
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 21094
+		size = 19094
+	}
+	craftsmen = {
+		culture = south_german
+		religion = catholic
+		size = 2094
 	}
 }
 614 = {
@@ -261,7 +266,7 @@
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 141632
+		size = 138632
 	}
 	clergymen = {
 		culture = czech
@@ -278,10 +283,10 @@
 		religion = catholic
 		size = 14
 	}
-	artisans = {
-		culture = hungarian
+	craftsmen = {
+		culture = south_german
 		religion = catholic
-		size = 713
+		size = 1713
 	}
 }
 620 = {
