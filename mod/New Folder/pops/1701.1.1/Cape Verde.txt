@@ -1,0 +1,71 @@
+#Cape Verde Region (76000) 
+#Ruled by Portugal 1836
+#Cape Verde (76000/19000 POPS)
+1876 = {
+	aristocrats = {
+		culture = portuguese
+		religion = catholic
+		size = 65
+	}
+
+	clergymen = {
+		culture = portuguese
+		religion = catholic
+		size = 33
+	}
+
+	bureaucrats = {
+		culture = portuguese
+		religion = catholic
+		size = 16
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = catholic
+		size = 163
+	}
+
+	soldiers = {
+		culture = portuguese
+		religion = catholic
+		size = 16
+	}
+
+	farmers = {
+		culture = portuguese
+		religion = catholic
+		size = 65
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = catholic
+		size = 98
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = catholic
+		size = 455
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = catholic
+		size = 98
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = catholic
+		size = 8775
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = catholic
+		size = 2600
+	}
+
+}

@@ -1,0 +1,84 @@
+1877 = {
+	aristocrats = {
+		culture = portuguese
+		religion = catholic
+		size = 11
+	}
+	clergymen = {
+		culture = portuguese
+		religion = catholic
+		size = 16
+	}
+	bureaucrats = {
+		culture = portuguese
+		religion = catholic
+		size = 4
+	}
+	artisans = {
+		culture = portuguese
+		religion = catholic
+		size = 25
+	}
+	soldiers = {
+		culture = portuguese
+		religion = catholic
+		size = 20
+	}
+	clergymen = {
+		culture = african_minor
+		religion = catholic
+		size = 53
+	}
+	artisans = {
+		culture = african_minor
+		religion = catholic
+		size = 392
+	}
+	soldiers = {
+		culture = african_minor
+		religion = catholic
+		size = 78
+	}
+	farmers = {
+		culture = african_minor
+		religion = catholic
+		size = 5755
+	}
+	slaves = {
+		culture = african_minor
+		religion = catholic
+		size = 2093
+	}
+}
+1878 = {
+	aristocrats = {
+		culture = mande
+		religion = animist
+		size = 209
+	}
+	clergymen = {
+		culture = mande
+		religion = animist
+		size = 209
+	}
+	artisans = {
+		culture = mande
+		religion = animist
+		size = 1046
+	}
+	soldiers = {
+		culture = mande
+		religion = animist
+		size = 209
+	}
+	farmers = {
+		culture = mande
+		religion = animist
+		size = 15069
+	}
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 3139
+	}
+}

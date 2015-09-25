@@ -1,0 +1,346 @@
+#Basra Region (12000) #see Iraq.txt for balance of region  
+#under the rule of Ottoman Empire in 1836  
+#Kuwait (12000/3000 POPS) #now part of Kuwait 
+935 = {
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+	        size = 66
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+	        size = 66
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = sunni
+	        size = 196
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+	        size = 32
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = sunni
+	        size = 3542
+	}
+}
+#Bahrain Region (28000) #see Saudi Arabia.txt for balance of region  
+#under the rule of Trucial States in 1836  
+#Bahrain (20000/5000 POPS) #now part of Bahrein  
+1162 = {
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+	        size = 32
+	}
+
+	bureaucrats = {
+		culture = bedouin
+		religion = sunni
+	        size = 20
+	}
+
+	officers = {
+		culture = bedouin
+		religion = sunni
+	        size = 14
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+	        size = 66
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = sunni
+	        size = 130
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+	        size = 66
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = sunni
+	        size = 2406
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = shiite
+	        size = 66
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = shiite
+	        size = 196
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = shiite
+	        size = 3640
+	}
+}
+#Doha (8000/2000 POPS) #now part of Qatar 
+1165 = {
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+	        size = 32
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+	        size = 32
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = sunni
+	        size = 130
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+	        size = 32
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = sunni
+	        size = 2372
+	}
+}
+#Uman Region (36000) #see Oman.txt for balance of region 
+#under the rule of Oman in 1836  
+#Abu Dhabi (20000/5000 POPS) #now part of UAE  
+1167 = {
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+	        size = 32
+	}
+
+	bureaucrats = {
+		culture = bedouin
+		religion = sunni
+	        size = 20
+	}
+
+	officers = {
+		culture = bedouin
+		religion = sunni
+	        size = 14
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+	        size = 66
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = sunni
+	        size = 326
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+	        size = 1300
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = sunni
+	        size = 4746
+	}
+}
+#Dubai (16000/4000 POPS)   #now part of UAE 
+1168 = {
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+	        size = 66
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+	        size = 98
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = sunni
+	        size = 196
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+	        size = 66
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = sunni
+	        size = 4712
+	}
+
+}
+
+3272 = {
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+	        size = 8
+	}
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+	        size = 18
+	}
+	artisans = {
+		culture = bedouin
+		religion = sunni
+	        size = 40
+	}
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+	        size = 10
+	}
+	farmers = {
+		culture = bedouin
+		religion = sunni
+	        size = 954
+	}
+}
+3273 = {
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+	        size = 4
+	}
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+	        size = 24
+	}
+	artisans = {
+		culture = bedouin
+		religion = sunni
+	        size = 58
+	}
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+	        size = 14
+	}
+	farmers = {
+		culture = bedouin
+		religion = sunni
+	        size = 846
+	}
+}
+3274 = {
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+	        size = 12
+	}
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+	        size = 26
+	}
+	artisans = {
+		culture = bedouin
+		religion = sunni
+	        size = 56
+	}
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+	        size = 18
+	}
+	farmers = {
+		culture = bedouin
+		religion = sunni
+	        size = 1318
+	}
+}
+3275 = {
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+	        size = 10
+	}
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+	        size = 28
+	}
+	artisans = {
+		culture = bedouin
+		religion = sunni
+	        size = 76
+	}
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+	        size = 16
+	}
+	farmers = {
+		culture = bedouin
+		religion = sunni
+	        size = 828
+	}
+}
+3276 = {
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+	        size = 6
+	}
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+	        size = 38
+	}
+	artisans = {
+		culture = bedouin
+		religion = sunni
+	        size = 78
+	}
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+	        size = 12
+	}
+	farmers = {
+		culture = bedouin
+		religion = sunni
+	        size = 910
+	}
+}
+

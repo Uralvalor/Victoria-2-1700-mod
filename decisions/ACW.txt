@@ -962,10 +962,10 @@ political_decisions = {
 		}
 		
 		allow = {
+		    USA = { 
+			is_vassal = no 
+            war = no }
 			owns = 250
-			NOT = {
-				war_with = USA
-			}
 		}
 		
 		effect = {

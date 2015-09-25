@@ -92,7 +92,7 @@
 	soldiers = {
 		culture = ashkenazi
 		religion = jewish
-		size = 0
+		size = 3
 	}
 	farmers = {
 		culture = ashkenazi
@@ -199,7 +199,7 @@
 	soldiers = {
 		culture = czech
 		religion = catholic
-		size = 0
+		size = 2
 	}
 	farmers = {
 		culture = czech
@@ -266,7 +266,7 @@
 	soldiers = {
 		culture = ashkenazi
 		religion = jewish
-		size = 0
+		size = 3
 	}
 	farmers = {
 		culture = ashkenazi
@@ -306,7 +306,7 @@
 	soldiers = {
 		culture = czech
 		religion = catholic
-		size = 0
+		size = 2
 	}
 	farmers = {
 		culture = czech
@@ -440,7 +440,7 @@
 	soldiers = {
 		culture = polish
 		religion = catholic
-		size = 0
+		size = 3
 	}
 	farmers = {
 		culture = polish
@@ -487,7 +487,7 @@
 	soldiers = {
 		culture = polish
 		religion = catholic
-		size = 0
+		size = 5
 	}
 	farmers = {
 		culture = polish
@@ -554,7 +554,7 @@
 	soldiers = {
 		culture = polish
 		religion = catholic
-		size = 0
+		size = 10
 	}
 	farmers = {
 		culture = polish
@@ -613,12 +613,12 @@
 	soldiers = {
 		culture = polish
 		religion = catholic
-		size = 343
+		size = 1143
 	}
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 38710
+		size = 37710
 	}
 	clergymen = {
 		culture = czech
@@ -692,7 +692,7 @@
 	soldiers = {
 		culture = polish
 		religion = catholic
-		size = 408
+		size = 1208
 	}
 	farmers = {
 		culture = polish
@@ -808,12 +808,12 @@
 	soldiers = {
 		culture = polish
 		religion = catholic
-		size = 330
+		size = 1330
 	}
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 10435
+		size = 9435
 	}
 }
 694 = {
@@ -870,12 +870,12 @@
 	soldiers = {
 		culture = polish
 		religion = catholic
-		size = 279
+		size = 1279
 	}
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 17376
+		size = 16376
 	}
 }
 699 = {
@@ -1071,12 +1071,12 @@
 	soldiers = {
 		culture = polish
 		religion = catholic
-		size = 343
+		size = 3343
 	}
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 77665
+		size = 74665
 	}
 }
 712 = {
@@ -1108,12 +1108,12 @@
 	soldiers = {
 		culture = polish
 		religion = catholic
-		size = 435
+		size = 1435
 	}
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 25478
+		size = 24478
 	}
 	clergymen = {
 		culture = polish

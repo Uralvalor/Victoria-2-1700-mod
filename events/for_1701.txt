@@ -1210,13 +1210,13 @@ secede_province = AFG
 
 country_event = {
 	id = 401009
-	title = "$FROMCOUNTRY$ Unites the Empire"
-	desc = "The ruler of $FROMCOUNTRY$, the Holy Roman Emperor, has decided to unite the empire. Being part of it we are obliged to comply and hand over rule over our country."
+	title = "$FROMCOUNTRY$ объединение Империи"
+	desc = "Правитель $FROMCOUNTRY$, Священной Римской Империи, объявил об объединении в единую страну под единым управлением."
 	picture = "hre_pic"
 		is_triggered_only = yes
 
 		option = {
-			name = "Blast!"
+			name = "Но как же мои земли!"
 				FROM = {
 					inherit = THIS
 					}
@@ -1226,7 +1226,7 @@ country_event = {
 province_event = {
 	id = 400003 #slavery province
 	title = "Slavery Expansion"
-	desc = "$COUNTRY_ADJ$ landowners have found some use for slaves in $STATENAME$, therefore expanding the institution to these lands."
+	desc = "$COUNTRY_ADJ$ землевладельцы используют рабов в $STATENAME$, мы расширим такой институт на эти земли."
 	trigger = {
 		state_scope = {
 			is_slave = no
@@ -1238,7 +1238,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Very Well"
+		name = "Замечательно"
 		state_scope = {
 			is_slave = yes
 		}

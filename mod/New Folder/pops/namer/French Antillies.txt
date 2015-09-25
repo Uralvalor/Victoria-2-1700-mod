@@ -1,0 +1,122 @@
+#French Antilles (319200)
+#Ruled by France 1836
+#Martinique (190800/27450 POPS)
+2228 = {
+	aristocrats = {
+		culture = french
+		religion = catholic
+		size = 488
+	}
+
+	bureaucrats = {
+		culture = french
+		religion = catholic
+		size = 65
+	}
+
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 33
+	}
+
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 585
+	}
+
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 163
+	}
+
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 260
+	}
+
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 81
+	}
+
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 813
+	}
+
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 163
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 42000
+	}
+}
+#Guadeloupe (128400/32100 POPS)
+2230 = {
+	aristocrats = {
+		culture = french
+		religion = catholic
+		size = 553
+	}
+
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 33
+	}
+
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 845
+	}
+
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 195
+	}
+
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 390
+	}
+
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 98
+	}
+
+	artisans = {
+		culture = french
+		religion = protestant
+		size = 975
+	}
+
+	soldiers = {
+		culture = french
+		religion = protestant
+		size = 195
+	}
+
+
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 45600
+	}
+
+}

@@ -1,0 +1,132 @@
+#Taiwan Region (2980000) 
+#under the rule of China in 1836  
+#Taipei (1452000/363000 POPS) #now part of Taiwan   
+1485 = {
+	aristocrats = {
+		culture = nanfaren
+		religion = mahayana
+	        size = 486
+	}
+
+	bureaucrats = {
+		culture = nanfaren
+		religion = mahayana
+	        size = 130
+	}
+
+	officers = {
+		culture = nanfaren
+		religion = mahayana
+	        size = 234
+	}
+
+	clergymen = {
+		culture = nanfaren
+		religion = mahayana
+	        size = 398
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = mahayana
+	        size = 1998
+	}
+
+	soldiers = {
+		culture = nanfaren
+		religion = mahayana
+	        size = 406
+	}
+
+	farmers = {
+		culture = nanfaren
+		religion = mahayana
+	        size = 15952
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = mahayana
+	        size = 974
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = mahayana
+	        size = 780
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mahayana
+	        size = 3900
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = mahayana
+	        size = 780
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = mahayana
+	        size = 71564
+	}
+
+	bureaucrats = {
+		culture = manchu
+		religion = mahayana
+	        size = 16
+	}
+
+	officers = {
+		culture = manchu
+		religion = mahayana
+	        size = 8
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = mahayana
+	        size = 16
+	}
+}
+#Tainan (1528000/382000 POPS) #now part of Taiwan  
+2562 = {
+
+	aristocrats = {
+		culture = asian_minor
+		religion = mahayana
+	        size = 1136
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = mahayana
+	        size = 812
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mahayana
+	        size = 4062
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = mahayana
+	        size = 812
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = mahayana
+	        size = 54424
+	}
+	farmers = {
+		culture = filipino
+		religion = animist
+	        size = 20202
+	}
+}
