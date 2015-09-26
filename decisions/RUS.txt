@@ -256,6 +256,12 @@ political_decisions = {
 		
 		effect = {
 			1085 = {
+			any_pop = {
+				limit = {
+					has_pop_culture = manchu
+				}
+				move_pop = 1554
+			}
 			add_province_modifier = {
 					name = influx_of_population
 					duration = 900
@@ -263,6 +269,12 @@ political_decisions = {
 				change_province_name = "Благовещенск"
 			}
 			1084 = {
+			any_pop = {
+				limit = {
+					has_pop_culture = manchu
+				}
+				move_pop = 1554
+			}
 			add_province_modifier = {
 					name = influx_of_population
 					duration = 900
@@ -270,6 +282,12 @@ political_decisions = {
 				change_province_name = "Николаевск-на-Амуре"
 			}
 			1083 = {
+			any_pop = {
+				limit = {
+					has_pop_culture = manchu
+				}
+				move_pop = 1554
+			}
 			add_province_modifier = {
 					name = influx_of_population
 					duration = 900
@@ -277,6 +295,12 @@ political_decisions = {
 				change_province_name = "Хабаровск"
 			}
 			2617 = {
+			any_pop = {
+				limit = {
+					has_pop_culture = manchu
+				}
+				move_pop = 1554
+			}
 			add_province_modifier = {
 					name = influx_of_population
 					duration = 900
@@ -284,6 +308,12 @@ political_decisions = {
 				change_province_name = "Пашково"
 			}
 			1082 = {
+			any_pop = {
+				limit = {
+					has_pop_culture = manchu
+				}
+				move_pop = 1554
+			}
 			add_province_modifier = {
 					name = influx_of_population
 					duration = 900

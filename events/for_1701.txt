@@ -1225,8 +1225,8 @@ country_event = {
 
 province_event = {
 	id = 400003 #slavery province
-	title = "Slavery Expansion"
-	desc = "$COUNTRY_ADJ$ землевладельцы используют рабов в $STATENAME$, мы расширим такой институт на эти земли."
+	title = "Расширение рабовладения"
+	desc = "$COUNTRY_ADJ$ землевладельцы будут использовать рабов в $STATENAME$, мы расширим институт рабовладения на эти колониальные земли. Надеюсь колоний у нас не так много, ведь придеться принять такой указ для каждой области отдельно. Утомительная бюрократия."
 	trigger = {
 		state_scope = {
 			is_slave = no
@@ -1238,13 +1238,11 @@ province_event = {
 	}
 
 	option = {
-		name = "Замечательно"
+		name = "Доминируй,властвуй,порабащай !"
 		state_scope = {
 			is_slave = yes
-		}
-	}
+		} }
 }
-
 country_event = { 
 	id = 401002
 	title = "EVTNAME401002" 
@@ -1961,5 +1959,6 @@ country_event = {
 		name = "EVTOPTA100000030"
 		change_tag = POL
 		prestige = -100
+		any_pop = { militancy = 3 consciousness = 3 }
 	}
 }
