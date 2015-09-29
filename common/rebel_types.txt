@@ -4604,7 +4604,7 @@ apache = {
 # Slave Rebels
 ###################################
 slave_rebels = {
-	icon = 9
+	icon = 1
 	
 	area = all 					# Stays within the nation
 	break_alliance_on_win = no

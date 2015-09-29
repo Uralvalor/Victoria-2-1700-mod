@@ -29,17 +29,17 @@ Sanction = {
 					value = -50
 			}
                         country_event = 780000
-			prestige = -3
+			prestige = -2
 		}
 	}
 		ai_will_do = {
-			factor = 0.2
+			factor = 0.1
 			modifier = {
-				factor = 0.5			
+				factor = 0.25			
 				trade_policy = protectionism 
 			}
 			modifier = {
-				factor = 0.7			
+				factor = 0.35			
 				war_policy  = jingoism  
 			}
 						}

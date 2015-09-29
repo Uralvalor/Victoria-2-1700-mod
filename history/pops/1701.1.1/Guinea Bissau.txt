@@ -7,7 +7,7 @@
 	clergymen = {
 		culture = portuguese
 		religion = catholic
-		size = 21
+		size = 22
 	}
 	bureaucrats = {
 		culture = portuguese
@@ -17,68 +17,68 @@
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 33
+		size = 6
 	}
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size = 27
+		size = 28
 	}
 	clergymen = {
 		culture = african_minor
 		religion = catholic
-		size = 71
+		size = 74
 	}
 	artisans = {
 		culture = african_minor
 		religion = catholic
-		size = 529
+		size = 105
 	}
 	soldiers = {
 		culture = african_minor
 		religion = catholic
-		size = 105
+		size = 110
 	}
 	farmers = {
 		culture = african_minor
 		religion = catholic
-		size = 7769
+		size = 8157
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 2825
+		size = 2966
 	}
 }
 1878 = {
 	aristocrats = {
 		culture = mande
 		religion = animist
-		size = 282
+		size = 296
 	}
 	clergymen = {
 		culture = mande
 		religion = animist
-		size = 282
+		size = 296
 	}
 	artisans = {
 		culture = mande
 		religion = animist
-		size = 1412
+		size = 282
 	}
 	soldiers = {
 		culture = mande
 		religion = animist
-		size = 282
+		size = 296
 	}
 	farmers = {
 		culture = mande
 		religion = animist
-		size = 20343
+		size = 21360
 	}
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 4237
+		size = 4448
 	}
 }

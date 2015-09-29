@@ -1,199 +1,164 @@
-#Himalaya Region (952000) #see Bhutan.txt and India.txt for balance of region
-#under the rule of Nepal in 1836  
-#Katmandu (540000/135000 POPS)   
 1326 = {
 	aristocrats = {
 		culture = nepali
 		religion = hindu
-	        size = 5200
+		size = 5460
 	}
-
 	bureaucrats = {
 		culture = nepali
 		religion = hindu
-	        size = 456
+		size = 478
 	}
-
 	officers = {
 		culture = nepali
 		religion = hindu
-	        size = 584
+		size = 613
 	}
-
 	clergymen = {
 		culture = nepali
 		religion = hindu
-	        size = 2600
+		size = 2730
 	}
-
 	artisans = {
 		culture = nepali
 		religion = hindu
-	        size = 10528
+		size = 2105
 	}
-
 	soldiers = {
 		culture = nepali
 		religion = hindu
-	        size = 18200
+		size = 19110
 	}
-
 	farmers = {
 		culture = nepali
 		religion = hindu
-	        size = 224248
+		size = 235460
 	}
-
 	aristocrats = {
 		culture = tibetan
 		religion = gelugpa
-	        size = 520
+		size = 546
 	}
-
 	clergymen = {
 		culture = tibetan
 		religion = gelugpa
-	        size = 256
+		size = 268
 	}
-
 	artisans = {
 		culture = tibetan
 		religion = gelugpa
-	        size = 1232
+		size = 246
 	}
-
 	soldiers = {
 		culture = tibetan
 		religion = gelugpa
-	        size = 256
+		size = 268
 	}
-
 	farmers = {
 		culture = tibetan
 		religion = gelugpa
-	        size = 26320
+		size = 27636
 	}
-
 	aristocrats = {
 		culture = asian_minor
 		religion = animist
-	        size = 1040
+		size = 1092
 	}
-
 	clergymen = {
 		culture = asian_minor
 		religion = animist
-	        size = 584
+		size = 613
 	}
-
 	artisans = {
 		culture = asian_minor
 		religion = animist
-	        size = 2728
+		size = 545
 	}
-
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-	        size = 520
+		size = 546
 	}
-
 	farmers = {
 		culture = asian_minor
 		religion = animist
-	        size = 54920
+		size = 57666
 	}
 }
-#Jumla (412000/103000 POPS)   
 1327 = {
 	aristocrats = {
 		culture = nepali
 		religion = hindu
-	        size = 2336
+		size = 2452
 	}
-
 	clergymen = {
 		culture = nepali
 		religion = hindu
-	        size = 1168
+		size = 1226
 	}
-
 	artisans = {
 		culture = nepali
 		religion = hindu
-	        size = 5976
+		size = 1195
 	}
-
 	soldiers = {
 		culture = nepali
 		religion = hindu
-	        size = 2600
+		size = 2730
 	}
-
 	farmers = {
 		culture = nepali
 		religion = hindu
-	        size = 128048
+		size = 134450
 	}
-
 	aristocrats = {
 		culture = tibetan
 		religion = gelugpa
-	        size = 1816
+		size = 1906
 	}
-
 	clergymen = {
 		culture = tibetan
 		religion = gelugpa
-	        size = 976
+		size = 1024
 	}
-
 	artisans = {
 		culture = tibetan
 		religion = gelugpa
-	        size = 4808
+		size = 961
 	}
-
 	soldiers = {
 		culture = tibetan
 		religion = gelugpa
-	        size = 912
+		size = 957
 	}
-
 	farmers = {
 		culture = tibetan
 		religion = gelugpa
-	        size = 87680
+		size = 92064
 	}
-
 	aristocrats = {
 		culture = asian_minor
 		religion = animist
-	        size = 912
+		size = 957
 	}
-
 	clergymen = {
 		culture = asian_minor
 		religion = animist
-	        size = 520
+		size = 546
 	}
-
 	artisans = {
 		culture = asian_minor
 		religion = animist
-	        size = 2472
+		size = 494
 	}
-
 	soldiers = {
 		culture = asian_minor
 		religion = animist
-	        size = 520
+		size = 546
 	}
-
 	farmers = {
 		culture = asian_minor
 		religion = animist
-	        size = 47576
+		size = 49954
 	}
 }
-

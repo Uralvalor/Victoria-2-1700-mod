@@ -1,79 +1,64 @@
-#Hispanola Region (124000) #see Haiti.txt for balance of region
-#Ruled by Haiti 1836
-#Santo Domingo (68000/17000 POPS) #now part of Dominican Republic
 2214 = {
 	aristocrats = {
 		culture = spanish
 		religion = catholic
-		size = 195
+		size = 204
 	}
-
 	clergymen = {
 		culture = spanish
 		religion = catholic
-		size = 81
+		size = 85
 	}
-
 	artisans = {
 		culture = spanish
 		religion = catholic
-		size = 228
+		size = 45
 	}
-
 	soldiers = {
 		culture = spanish
 		religion = catholic
-		size = 49
+		size = 51
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-		size = 3998
+		size = 4197
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 12078
+		size = 12681
 	}
 }
-#La Vega (56000/15000 POPS) #now part of Dominican Republic
 2216 = {
 	aristocrats = {
 		culture = caribeno
 		religion = catholic
-		size = 163
+		size = 171
 	}
-
 	clergymen = {
 		culture = spanish
 		religion = catholic
-		size = 65
+		size = 68
 	}
-
 	artisans = {
 		culture = spanish
 		religion = catholic
-		size = 260
+		size = 52
 	}
-
 	soldiers = {
 		culture = spanish
 		religion = catholic
-		size = 49
+		size = 51
 	}
-
 	farmers = {
 		culture = spanish
 		religion = catholic
-		size = 4664
+		size = 4897
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 3624
+		size = 3805
 	}
-
 }

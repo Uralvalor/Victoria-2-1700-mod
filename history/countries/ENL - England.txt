@@ -8,7 +8,7 @@ literacy = 0.5
 civilized = yes
 
 #GreaterPowers = prestige
-prestige = 60
+prestige = 65
 
 
 oob = "ENL_oob.txt"
@@ -50,7 +50,7 @@ consciousness = 3
 nonstate_consciousness = 5
 
 ruling_party = ENG_reactionary
-last_election = 1700.2.6
+last_election = 1700.1.1
 upper_house = {
 	fascist = 0
 	reactionary = 100

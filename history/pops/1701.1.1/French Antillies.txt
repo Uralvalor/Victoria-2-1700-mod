@@ -1,122 +1,99 @@
-#French Antilles (319200)
-#Ruled by France 1836
-#Martinique (190800/27450 POPS)
 2228 = {
 	aristocrats = {
 		culture = french
 		religion = catholic
-		size = 488
+		size = 512
 	}
-
 	bureaucrats = {
 		culture = french
 		religion = catholic
-		size = 65
+		size = 68
 	}
-
 	clergymen = {
 		culture = french
 		religion = catholic
-		size = 33
+		size = 34
 	}
-
 	artisans = {
 		culture = french
 		religion = catholic
-		size = 585
+		size = 117
 	}
-
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 163
+		size = 171
 	}
-
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 260
+		size = 273
 	}
-
 	clergymen = {
 		culture = french
 		religion = catholic
-		size = 81
+		size = 85
 	}
-
 	artisans = {
 		culture = french
 		religion = catholic
-		size = 813
+		size = 162
 	}
-
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 163
+		size = 171
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 42000
+		size = 44100
 	}
 }
-#Guadeloupe (128400/32100 POPS)
 2230 = {
 	aristocrats = {
 		culture = french
 		religion = catholic
-		size = 553
+		size = 580
 	}
-
 	clergymen = {
 		culture = french
 		religion = catholic
-		size = 33
+		size = 34
 	}
-
 	artisans = {
 		culture = french
 		religion = catholic
-		size = 845
+		size = 169
 	}
-
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 195
+		size = 204
 	}
-
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 390
+		size = 409
 	}
-
 	clergymen = {
 		culture = french
 		religion = catholic
-		size = 98
+		size = 102
 	}
-
 	artisans = {
-		culture = french
-		religion = protestant
-		size = 975
-	}
-
-	soldiers = {
 		culture = french
 		religion = protestant
 		size = 195
 	}
-
-
+	soldiers = {
+		culture = french
+		religion = protestant
+		size = 204
+	}
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 45600
+		size = 47880
 	}
-
 }

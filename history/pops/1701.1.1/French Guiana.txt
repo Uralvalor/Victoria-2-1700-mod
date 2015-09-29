@@ -2,7 +2,7 @@
 	aristocrats = {
 		culture = french
 		religion = catholic
-		size = 147
+		size = 154
 	}
 	bureaucrats = {
 		culture = french
@@ -17,42 +17,42 @@
 	artisans = {
 		culture = french
 		religion = catholic
-		size = 97
+		size = 19
 	}
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 49
+		size = 51
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 78
+		size = 81
 	}
 	artisans = {
 		culture = african_minor
 		religion = catholic
-		size = 147
+		size = 29
 	}
 	clergymen = {
 		culture = african_minor
 		religion = catholic
-		size = 24
+		size = 25
 	}
 	soldiers = {
 		culture = african_minor
 		religion = catholic
-		size = 49
+		size = 51
 	}
 	farmers = {
 		culture = african_minor
 		religion = catholic
-		size = 414
+		size = 434
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 2877
+		size = 3020
 	}
 	aristocrats = {
 		culture = amazonian
@@ -67,7 +67,7 @@
 	artisans = {
 		culture = amazonian
 		religion = animist
-		size = 10
+		size = 2
 	}
 	soldiers = {
 		culture = amazonian
@@ -77,7 +77,7 @@
 	farmers = {
 		culture = amazonian
 		religion = animist
-		size = 225
+		size = 236
 	}
 }
 2246 = {
@@ -94,7 +94,7 @@
 	artisans = {
 		culture = amazonian
 		religion = animist
-		size = 34
+		size = 6
 	}
 	soldiers = {
 		culture = amazonian
@@ -104,6 +104,6 @@
 	farmers = {
 		culture = amazonian
 		religion = animist
-		size = 663
+		size = 696
 	}
 }

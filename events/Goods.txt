@@ -235,6 +235,86 @@ province_event = {
 	}
 }
 
+province_event = {
+	
+	id = 991104
+
+	trigger = {
+		year = 1810
+		or = {
+			province_id = 2441			# Preto
+		}
+		trade_goods = precious_metal 
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+
+	}
+
+	title = "«олото исс€кло"
+	desc = "«олотые рудники больше не принос€т достаточно золота, похоже золота€ жила в этом регионе исс€кла"
+	picture = ""
+
+	option = {
+		name = "ѕрокл€тье"
+		trade_goods = coffee
+	}
+}
+
+province_event = {
+	
+	id = 991105
+
+	trigger = {
+		year = 1800
+		or = {
+			province_id = 1909			# Secondi
+		}
+		trade_goods = precious_metal 
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+
+	}
+
+	title = "«олото исс€кло"
+	desc = "«олотые рудники больше не принос€т достаточно золота, похоже золота€ жила в этом регионе исс€кла"
+	picture = ""
+
+	option = {
+		name = "ѕрокл€тье"
+		trade_goods = cattle
+	}
+}
+
+province_event = {
+	
+	id = 991106
+
+	trigger = {
+		year = 1790
+		or = {
+			province_id = 1060			# Orsk
+		}
+		trade_goods = precious_metal 
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+
+	}
+
+	title = "«олото исс€кло"
+	desc = "«олотые рудники больше не принос€т достаточно золота, похоже золота€ жила в этом регионе исс€кла"
+	picture = ""
+
+	option = {
+		name = "ѕрокл€тье"
+		trade_goods = iron
+	}
+}
 ################################
 #        DIAMOND EVENTS        #
 ################################

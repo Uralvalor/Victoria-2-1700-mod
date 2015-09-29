@@ -231,6 +231,7 @@ country_event = {
 
 	trigger = {
 		tag = NET
+		year = 1815
 		NOT = {
 			year = 1836
 		}

@@ -2,52 +2,52 @@
 	aristocrats = {
 		culture = english
 		religion = protestant
-		size = 44
+		size = 46
 	}
 	bureaucrats = {
 		culture = english
 		religion = protestant
-		size = 27
+		size = 28
 	}
 	clergymen = {
 		culture = english
 		religion = protestant
-		size = 44
+		size = 46
 	}
 	artisans = {
 		culture = english
-		religion = protestant
-		size = 945
-	}
-	soldiers = {
-		culture = english
-		religion = protestant
-		size = 44
-	}
-	farmers = {
-		culture = english
-		religion = protestant
-		size = 774
-	}
-	clergymen = {
-		culture = african_minor
-		religion = protestant
-		size = 140
-	}
-	artisans = {
-		culture = african_minor
-		religion = protestant
-		size = 1418
-	}
-	soldiers = {
-		culture = african_minor
 		religion = protestant
 		size = 189
 	}
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 46
+	}
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 812
+	}
+	clergymen = {
+		culture = african_minor
+		religion = protestant
+		size = 147
+	}
+	artisans = {
+		culture = african_minor
+		religion = protestant
+		size = 283
+	}
+	soldiers = {
+		culture = african_minor
+		religion = protestant
+		size = 198
+	}
 	farmers = {
 		culture = african_minor
 		religion = protestant
-		size = 17178
+		size = 18036
 	}
 }
 2238 = {
@@ -64,31 +64,31 @@
 	artisans = {
 		culture = english
 		religion = protestant
-		size = 44
+		size = 8
 	}
 	farmers = {
 		culture = english
 		religion = protestant
-		size = 112
+		size = 117
 	}
 	clergymen = {
 		culture = african_minor
 		religion = protestant
-		size = 94
+		size = 98
 	}
 	artisans = {
 		culture = african_minor
 		religion = protestant
-		size = 283
+		size = 56
 	}
 	soldiers = {
 		culture = african_minor
 		religion = protestant
-		size = 94
+		size = 98
 	}
 	farmers = {
 		culture = african_minor
 		religion = protestant
-		size = 6435
+		size = 6756
 	}
 }

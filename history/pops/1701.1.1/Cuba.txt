@@ -1,263 +1,218 @@
-#Cuba (936000)
-#Ruled by Spain in 1836
-#Havana (388000/97000 POPS)
 2209 = {
 	aristocrats = {
 		culture = spanish
 		religion = catholic
-	        size = 28
+		size = 29
 	}
-
 	bureaucrats = {
 		culture = spanish
 		religion = catholic
-	        size = 24
+		size = 25
 	}
-
 	clergymen = {
 		culture = spanish
 		religion = catholic
-	        size = 26
+		size = 27
 	}
-
 	artisans = {
 		culture = spanish
 		religion = catholic
-	        size = 351
+		size = 70
 	}
-
 	soldiers = {
 		culture = spanish
 		religion = catholic
-	        size = 16
+		size = 16
 	}
-
 	aristocrats = {
 		culture = caribeno
 		religion = catholic
-	        size = 52
+		size = 54
 	}
-
 	bureaucrats = {
 		culture = caribeno
 		religion = catholic
-	        size = 4
+		size = 4
 	}
-
 	clergymen = {
 		culture = caribeno
 		religion = catholic
-	        size = 14
+		size = 14
 	}
-
 	artisans = {
 		culture = caribeno
 		religion = catholic
-	        size = 2137
+		size = 427
 	}
-
 	soldiers = {
 		culture = caribeno
 		religion = catholic
-	        size = 81
+		size = 85
 	}
-
 	farmers = {
 		culture = caribeno
 		religion = catholic
-	        size = 2325
+		size = 2441
 	}
-
 	artisans = {
 		culture = african_minor
 		religion = catholic
-	        size = 487
+		size = 97
 	}
-
 	soldiers = {
 		culture = african_minor
 		religion = catholic
-	        size = 40
+		size = 42
 	}
-
 	farmers = {
 		culture = african_minor
 		religion = catholic
-	        size = 203
+		size = 213
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 3087
+		size = 3241
 	}
 }
-#Jagua (252000/63000 POPS)
 2210 = {
 	aristocrats = {
 		culture = caribeno
 		religion = catholic
-	        size = 48
+		size = 50
 	}
-
 	clergymen = {
 		culture = caribeno
 		religion = catholic
-	        size = 30
+		size = 31
 	}
-
 	artisans = {
 		culture = caribeno
 		religion = catholic
-	        size = 97
+		size = 19
 	}
-
 	soldiers = {
 		culture = caribeno
 		religion = catholic
-	        size = 20
+		size = 21
 	}
-
 	farmers = {
 		culture = caribeno
 		religion = catholic
-	        size = 2753
+		size = 2890
 	}
-
 	artisans = {
 		culture = african_minor
 		religion = catholic
-	        size = 162
+		size = 32
 	}
-
 	soldiers = {
 		culture = african_minor
 		religion = catholic
-	        size = 12
+		size = 12
 	}
-
 	farmers = {
 		culture = african_minor
 		religion = catholic
-	        size = 962
+		size = 1010
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 2531
+		size = 2657
 	}
 }
-#Camaguey (168000/42000 POPS)
 2211 = {
 	aristocrats = {
 		culture = caribeno
 		religion = catholic
-	        size = 36
+		size = 37
 	}
-
 	clergymen = {
 		culture = caribeno
 		religion = catholic
-	        size = 32
+		size = 33
 	}
-
 	artisans = {
 		culture = caribeno
 		religion = catholic
-	        size = 284
+		size = 56
 	}
-
 	soldiers = {
 		culture = caribeno
 		religion = catholic
-	        size = 12
+		size = 12
 	}
-
 	farmers = {
 		culture = caribeno
 		religion = catholic
-	        size = 1690
+		size = 1774
 	}
-
 	artisans = {
 		culture = african_minor
 		religion = catholic
-	        size = 121
+		size = 24
 	}
-
 	soldiers = {
 		culture = african_minor
 		religion = catholic
-	        size = 24
+		size = 25
 	}
-
 	farmers = {
 		culture = african_minor
 		religion = catholic
-	        size = 178
+		size = 186
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 2531
+		size = 2657
 	}
 }
-#Santiago de Cuba (128000/32000 POPS)
 2212 = {
 	aristocrats = {
 		culture = caribeno
 		religion = catholic
-	        size = 16
+		size = 16
 	}
-
 	clergymen = {
 		culture = caribeno
 		religion = catholic
-	        size = 14
+		size = 14
 	}
-
 	artisans = {
 		culture = caribeno
 		religion = catholic
-	        size = 284
+		size = 56
 	}
-
 	soldiers = {
 		culture = caribeno
 		religion = catholic
-	        size = 12
+		size = 12
 	}
-
 	farmers = {
 		culture = caribeno
 		religion = catholic
-	        size = 1729
+		size = 1815
 	}
-
 	artisans = {
 		culture = african_minor
 		religion = catholic
-	        size = 121
+		size = 24
 	}
-
 	soldiers = {
 		culture = african_minor
 		religion = catholic
-	        size = 16
+		size = 16
 	}
-
 	farmers = {
 		culture = african_minor
 		religion = catholic
-	        size = 268
+		size = 281
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = catholic
-	        size = 1637
+		size = 1718
 	}
-
 }

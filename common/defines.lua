@@ -9,8 +9,8 @@ country = {
 	REBEL_ACCEPTANCE_MONTHS = 60,
 	BASE_COUNTRY_TAX_EFFICIENCY = 0.2, -- Basic efficiency for taxes without 'crats and tech
 	BASE_COUNTRY_ADMIN_EFFICIENCY = 0.2,
-	GOLD_TO_CASH_RATE = 1, -- Amount of money generated per gold unit
-	GOLD_TO_WORKER_PAY_RATE = 4, -- Multiplier for how much money gold pays to pops
+	GOLD_TO_CASH_RATE = 0.3, -- Amount of money generated per gold unit
+	GOLD_TO_WORKER_PAY_RATE = 3, -- Multiplier for how much money gold pays to pops
 	GREAT_NATIONS_COUNT = 8,
 	GREATNESS_DAYS = 365, 	   -- how many days until country risks losing status as great nation
 	BADBOY_LIMIT = 25,
@@ -99,9 +99,9 @@ economy = {
 	LOAN_BASE_INTEREST			= 0.0025,
 	BANKRUPTCY_EXTERNAL_LOAN_YEARS	= 10,
 	BANKRUPTCY_FACTOR = 0.2,
-	SHADOWY_FINANCIERS_MAX_LOAN_AMOUNT = 5000,
-	MAX_LOAN_CAP_FROM_BANKS = 5, -- can loan max % of country tax base from single country
-	GUNBOAT_LOW_TAX_CAP = 0.0,
+	SHADOWY_FINANCIERS_MAX_LOAN_AMOUNT = 10000,
+	MAX_LOAN_CAP_FROM_BANKS = 25, -- can loan max % of country tax base from single country
+	GUNBOAT_LOW_TAX_CAP = 0.05,
 	GUNBOAT_HIGH_TAX_CAP = 1.0,
 	GUNBOAT_FLEET_SIZE_FACTOR = 100,
 	PROVINCE_SIZE_DIVIDER = 50,
@@ -115,7 +115,7 @@ economy = {
 	UNCIV_BASE_SHARE_FACTOR = 1,
 	FACTORY_PAYCHECKS_LEFTOVER_FACTOR = 0.25, -- % of how much we pay to the pops and capitalists, from the leftovers.
 	MAX_FACTORY_MONEY_SAVE = 10000,	-- how much money is stored maximum in a factory.
-	SMALL_DEBT_LIMIT = 500,
+	SMALL_DEBT_LIMIT = 2000,
 	FACTORY_UPGRADE_EMPLOYEE_FACTOR = 0.95, -- determines how close to the employee limit we need to be before "upgrade all" will upgrade/expand a given factory (1 = 100%).
 	RGO_SUPPLY_DEMAND_FACTOR_HIRE_HI = 0.2,	-- how fast pops are Hired when there is a high demand
 	RGO_SUPPLY_DEMAND_FACTOR_HIRE_LO = 0.02,	-- how fast pops are Hired when there is a medium demand
@@ -181,14 +181,14 @@ military = {
 	AI_ESCORT_RATIO = 2.0, -- ratio of escorts to transports in invasion fleets
 	AI_ARMY_TAXBASE_FRACTION = 0.7, -- max of tax base that AI will spend on army supply costs (based on peacetime costs)
 	AI_NAVY_TAXBASE_FRACTION = 0.3, -- max of tax base that AI will spend on navy supply costs (based on peacetime costs)
-	AI_BLOCKADE_RANGE = 200, -- max distance the AI will send out blockade fleets from their home base
+	AI_BLOCKADE_RANGE = 300, -- max distance the AI will send out blockade fleets from their home base
 	RECON_UNIT_RATIO = 0.1, -- the % of units in the army that must have a recon value to get the full bonus
 	ENGINEER_UNIT_RATIO = 0.1, -- the % of units in the army that must have a fort attack value to get the full bonus
-	SIEGE_BRIGADES_MIN = 3, -- the number of brigades needed for a siege to progress at normal speed
-	SIEGE_BRIGADES_MAX = 13, -- the number of brigades above which you get no addition benefit in sieges
-	SIEGE_BRIGADES_BONUS = 0.5, -- the bonus to siege speed from each brigade
+	SIEGE_BRIGADES_MIN = 4, -- the number of brigades needed for a siege to progress at normal speed
+	SIEGE_BRIGADES_MAX = 44, -- the number of brigades above which you get no addition benefit in sieges
+	SIEGE_BRIGADES_BONUS = 0.15, -- the bonus to siege speed from each brigade
 	RECON_SIEGE_EFFECT = 0.5, -- multiplier to effect of recon on speeding up sieges
-	SIEGE_ATTRITION = 2, -- fixed attrition on sieging units
+	SIEGE_ATTRITION = 1.5, -- fixed attrition on sieging units
 	BASE_MILITARY_TACTICS = 1.5, -- base mil tactics before tech
 	NAVAL_LOW_SUPPLY_DAMAGE_SUPPLY_STATUS = 0.25, -- how little supply is acceptable before getting damage to STR
 	NAVAL_LOW_SUPPLY_DAMAGE_DAYS_DELAY = 12, -- delay in days before the STR will get damage due to no supplies. Sometimes supply status may jump bcoz of the market.
@@ -608,7 +608,7 @@ diplomacy = {
 	TWS_CB_LIMIT_DEFAULT = 100,
 	TWS_FULFILLED_IDLE_SPACE = 0.75, -- How much % the CB fulfillment must done, so TWS starts ticking.
 	TWS_BATTLE_MIN_COUNT = 5, -- At least X battles before the aspect of wins will count
-	TWS_BATTLE_MAX_ASPECT = 8.0, -- Max allowed battle wins aspect for TWS
+	TWS_BATTLE_MAX_ASPECT = 20.0, -- Max allowed battle wins aspect for TWS
 	LARGE_POPULATION_INFLUENCE_PENALTY = -0.4
 },  
 
@@ -616,9 +616,9 @@ diplomacy = {
 
 
 pops = {
-	BASE_CLERGY_FOR_LITERACY = 0.005, 
-	MAX_CLERGY_FOR_LITERACY = 0.04, 
-	LITERACY_CHANGE_SPEED = 0.1,
+	BASE_CLERGY_FOR_LITERACY = 0.004, 
+	MAX_CLERGY_FOR_LITERACY = 0.03, 
+	LITERACY_CHANGE_SPEED = 0.07,
 
 
 	ASSIMILATION_SCALE = 0.004,
@@ -694,7 +694,7 @@ ai =
 {
 	COLONY_WEIGHT = 15.0, -- ai weight for colonising
 	ADMINISTRATOR_WEIGHT = 5.0, -- ai weight for new bureaucrat
-	INDUSTRYWORKER_WEIGHT = 10.0, -- ai weight for new industry workers
+	INDUSTRYWORKER_WEIGHT = 7.5, -- ai weight for new industry workers
 	EDUCATOR_WEIGHT = 10.0, -- ai weigth for new clergy
 	SOLDIER_WEIGHT = 25.0, -- ai weight for soldiers
 	SOLDIER_FRACTION = 0.05, -- max amount of population AI wants to be soldiers

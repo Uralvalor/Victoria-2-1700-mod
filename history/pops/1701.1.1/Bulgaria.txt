@@ -1,763 +1,632 @@
-#Macedonia Region (192000) #see Greece.txt and Macedonia.txt for balance of region 
-#under the rule of Ottoman Empire in 1836  
-#Petrich (192000/48000 POPS) #now part of Bulgaria 
 808 = {
 	aristocrats = {
 		culture = serb
 		religion = orthodox
 		size = 715
 	}
-
 	clergymen = {
 		culture = serb
 		religion = orthodox
 		size = 130
 	}
-
 	artisans = {
 		culture = serb
 		religion = orthodox
-		size = 975
+		size = 487
 	}
-
 	soldiers = {
 		culture = serb
 		religion = orthodox
 		size = 325
 	}
-
 	farmers = {
 		culture = serb
 		religion = orthodox
-		size = 10205
+		size = 10613
 	}
-
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
 		size = 276
 	}
-
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 585
+		size = 292
 	}
-
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 20249
+		size = 21058
 	}
 }
-#Bulgaria Region (1132000)
-#under the rule of Ottoman Empire in 1836
-#Sofia (260000/65000 POPS)
 809 = {
 	aristocrats = {
 		culture = bulgarian
 		religion = orthodox
 		size = 943
 	}
-
 	bureaucrats = {
 		culture = greek
 		religion = orthodox
 		size = 260
 	}
-
 	officers = {
 		culture = bulgarian
 		religion = orthodox
 		size = 195
 	}
-
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
 		size = 146
 	}
-
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 28025
+		size = 14012
 	}
-
 	soldiers = {
 		culture = bulgarian
 		religion = orthodox
 		size = 1300
 	}
-
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 11181
+		size = 11628
 	}
-
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
 		size = 114
 	}
-
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 1560
+		size = 780
 	}
-
 	clergymen = {
 		culture = greek
 		religion = orthodox
 		size = 98
 	}
-
 	artisans = {
 		culture = greek
 		religion = orthodox
-		size = 553
+		size = 276
 	}
-
 	clergymen = {
 		culture = sephardic
 		religion = jewish
 		size = 16
 	}
-
 	artisans = {
 		culture = sephardic
 		religion = jewish
-		size = 634
+		size = 317
 	}
 }
-#Vidin (124000/31000 POPS)
 810 = {
 	aristocrats = {
 		culture = bulgarian
 		religion = orthodox
 		size = 423
 	}
-
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
 		size = 49
 	}
-
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 520
+		size = 260
 	}
-
 	soldiers = {
 		culture = bulgarian
 		religion = orthodox
 		size = 650
 	}
-
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 406
+		size = 422
 	}
-
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
 		size = 98
 	}
-
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 10325
+		size = 5162
 	}
-
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 9128
+		size = 9493
 	}
-
 	clergymen = {
 		culture = sephardic
 		religion = jewish
 		size = 3
 	}
-
 	artisans = {
 		culture = sephardic
 		religion = jewish
-		size = 159
+		size = 79
 	}
 }
-#Ruse (188000/47000 POPS)
 811 = {
 	aristocrats = {
 		culture = bulgarian
 		religion = orthodox
 		size = 683
 	}
-
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
 		size = 65
 	}
-
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 553
+		size = 276
 	}
-
 	soldiers = {
 		culture = bulgarian
 		religion = orthodox
 		size = 1300
 	}
-
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 3413
+		size = 3549
 	}
-
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
 		size = 130
 	}
-
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 10488
+		size = 5244
 	}
-
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 15433
+		size = 16050
 	}
-
 	clergymen = {
 		culture = sephardic
 		religion = jewish
 		size = 7
 	}
-
 	artisans = {
 		culture = sephardic
 		religion = jewish
-		size = 481
+		size = 240
 	}
 }
-#Pleven (196000/49000 POPS)
 812 = {
 	aristocrats = {
 		culture = bulgarian
 		religion = orthodox
 		size = 569
 	}
-
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
 		size = 65
 	}
-
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 878
+		size = 439
 	}
-
 	soldiers = {
 		culture = bulgarian
 		religion = orthodox
 		size = 1300
 	}
-
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 3689
+		size = 3836
 	}
-
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
 		size = 163
 	}
-
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 10715
+		size = 5357
 	}
-
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 14473
+		size = 15051
 	}
 }
-#Shumen (144000/36000 POPS)
 813 = {
 	aristocrats = {
 		culture = bulgarian
 		religion = orthodox
 		size = 423
 	}
-
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
 		size = 81
 	}
-
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 618
+		size = 309
 	}
-
 	soldiers = {
 		culture = bulgarian
 		religion = orthodox
 		size = 650
 	}
-
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 6029
+		size = 6270
 	}
-
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
 		size = 98
 	}
-
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 4553
+		size = 2276
 	}
-
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 10950
+		size = 11388
 	}
 }
-#Varna (220000/55000 POPS)
 814 = {
 	aristocrats = {
 		culture = bulgarian
 		religion = orthodox
 		size = 845
 	}
-
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
 		size = 114
 	}
-
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 4365
+		size = 2182
 	}
-
 	soldiers = {
 		culture = bulgarian
 		religion = orthodox
 		size = 1300
 	}
-
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 5076
+		size = 5279
 	}
-
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
 		size = 146
 	}
-
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 1235
+		size = 617
 	}
-
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 24319
+		size = 25291
 	}
 }
-#Rumelia Region (396000)
-#under the rule of Ottoman Empire in 1836
-#Plovdiv (120000/30000 POPS)
 815 = {
 	aristocrats = {
 		culture = bulgarian
 		religion = orthodox
 		size = 520
 	}
-
 	bureaucrats = {
 		culture = bulgarian
 		religion = orthodox
 		size = 358
 	}
-
 	officers = {
 		culture = bulgarian
 		religion = orthodox
 		size = 65
 	}
-
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
 		size = 65
 	}
-
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 650
+		size = 325
 	}
-
 	soldiers = {
 		culture = bulgarian
 		religion = orthodox
 		size = 179
 	}
-
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 4176
+		size = 4343
 	}
-
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
 		size = 49
 	}
-
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 4293
+		size = 2146
 	}
-
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 4759
+		size = 4949
 	}
-
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
 		size = 33
 	}
-
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 130
+		size = 65
 	}
-
 	soldiers = {
 		culture = bulgarian
 		religion = orthodox
 		size = 33
 	}
-
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 2755
+		size = 2865
 	}
-
 	clergymen = {
 		culture = greek
 		religion = orthodox
 		size = 65
 	}
-
 	artisans = {
 		culture = greek
 		religion = orthodox
-		size = 390
+		size = 195
 	}
-
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 1495
+		size = 1554
 	}
-
 	clergymen = {
 		culture = sephardic
 		religion = jewish
 		size = 7
 	}
-
 	artisans = {
 		culture = sephardic
 		religion = jewish
-		size = 481
+		size = 240
 	}
 }
-#Stara Zagora (80000/20000 POPS)
 816 = {
 	aristocrats = {
 		culture = bulgarian
 		religion = orthodox
 		size = 211
 	}
-
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
 		size = 33
 	}
-
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 358
+		size = 179
 	}
-
 	soldiers = {
 		culture = bulgarian
 		religion = orthodox
 		size = 114
 	}
-
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 3185
+		size = 3312
 	}
-
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
 		size = 49
 	}
-
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 3293
+		size = 1646
 	}
-
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 4459
+		size = 4637
 	}
-
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
 		size = 16
 	}
-
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 65
+		size = 32
 	}
-
 	soldiers = {
 		culture = bulgarian
 		religion = orthodox
 		size = 16
 	}
-
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 3203
+		size = 3331
 	}
 }
-#Burgas (196000/49000 POPS)
 817 = {
 	aristocrats = {
 		culture = bulgarian
 		religion = orthodox
 		size = 715
 	}
-
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
 		size = 81
 	}
-
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 585
+		size = 292
 	}
-
 	soldiers = {
 		culture = bulgarian
 		religion = orthodox
 		size = 293
 	}
-
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 6776
+		size = 7047
 	}
-
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
 		size = 114
 	}
-
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 6358
+		size = 3179
 	}
-
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 10429
+		size = 10846
 	}
-
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
 		size = 49
 	}
-
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 65
+		size = 32
 	}
-
 	soldiers = {
 		culture = bulgarian
 		religion = orthodox
 		size = 33
 	}
-
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 4389
+		size = 4564
 	}
-
 	clergymen = {
 		culture = greek
 		religion = orthodox
 		size = 98
 	}
-
 	artisans = {
 		culture = greek
 		religion = orthodox
-		size = 585
+		size = 292
 	}
-
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 3218
+		size = 3346
 	}
-
 }
-#Dobruja Region (84000) #see Romania.txt for balance of Region  
-#under the rule of the Ottoman Empire in 1836 
-#Silistre (84000/21000 POPS) #now part of Bulgaria  
 818 = {
-	clergymen = {
-		culture = bulgarian
-		religion = orthodox
-		size = 33 
-	}
-
-	artisans = {
-		culture = bulgarian
-		religion = orthodox
-		size = 293
-	}
-
-	farmers = {
-		culture = bulgarian
-		religion = orthodox
-		size = 6175
-	}
-
-	clergymen = {
-		culture = romanian
-		religion = orthodox
-		size = 49 
-	}
-
-	artisans = {
-		culture = romanian
-		religion = orthodox
-		size = 130
-	}
-
-	farmers = {
-		culture = romanian
-		religion = orthodox
-		size = 3071 
-	}
-
-	aristocrats = {
-		culture = bulgarian
-		religion = orthodox
-		size = 260 
-	}
-
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
 		size = 33
 	}
-
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 2293
+		size = 146
 	}
-
+	farmers = {
+		culture = bulgarian
+		religion = orthodox
+		size = 6422
+	}
+	clergymen = {
+		culture = romanian
+		religion = orthodox
+		size = 49
+	}
+	artisans = {
+		culture = romanian
+		religion = orthodox
+		size = 65
+	}
+	farmers = {
+		culture = romanian
+		religion = orthodox
+		size = 3193
+	}
+	aristocrats = {
+		culture = bulgarian
+		religion = orthodox
+		size = 260
+	}
+	clergymen = {
+		culture = bulgarian
+		religion = orthodox
+		size = 33
+	}
+	artisans = {
+		culture = bulgarian
+		religion = orthodox
+		size = 1146
+	}
 	soldiers = {
 		culture = bulgarian
 		religion = orthodox
 		size = 650
 	}
-
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 2665  
+		size = 2771
 	}
 }

@@ -1011,7 +1011,7 @@ country_event = {
 					has_pop_culture = tatar
 				}
 				reduce_pop = 0.90
-				move_pop = 1030
+				move_pop = 1032
 			}
 			add_province_modifier = {
 					name = influx_of_population
@@ -1235,6 +1235,7 @@ province_event = {
 		owner = {
 			slavery = yes_slavery
 		}
+                        NOT = { continent = europe }
 	}
 
 	option = {
@@ -1669,19 +1670,40 @@ country_event = {
 		years_of_research = 0.5
 	}
 }
-
 country_event = {
-	id = 20000255 # Lisbon Earthquake
-	title = ev_20000255
-	desc = desc_ev_20000255
+	id = 20000294 # Chengdu earthquake and landslide
+	title = ev_20000294
+	desc = desc_ev_20000294
 	picture = earthquakeold
 	fire_only_once = yes
 	trigger = {
-		year = 1754
-		OR = {
-			tag = POR
-			tag = IBU
+		year = 1785
+		owns = 1578
+		NOT = {
+			year = 1787
 		}
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = event_option_blast
+		1578 = {
+			any_pop = {
+				reduce_pop = 0.75
+			}
+		}
+	}
+}
+country_event = {
+	id = 20000255 # Lisbon Earthquake
+	title = "Ћиссабонское земл€тресение"
+	desc = "—егодн€ произошло земл€тресение, разрушившее великий город полностью. Ћиссабон уничтожен, вместе с дворцами, товарами и накоплени€ми. Ёта трагеди€ сильно повли€ет на нашу страну, и даже на мировую культуру."
+	picture = earthquakeold
+	fire_only_once = yes
+	trigger = {
+		year = 1755
+		owns = 521
 		NOT = {
 			year = 1756
 		}
@@ -1691,6 +1713,7 @@ country_event = {
 	}
 	option = {
 		name = event_option_blast
+		add_tax_relative_income = -1825
 		521 = {
 			any_pop = {
 				reduce_pop = 0.85
@@ -1793,31 +1816,7 @@ country_event = {
 		}
 	}
 }
-country_event = {
-	id = 20000294 # Chengdu earthquake and landslide
-	title = ev_20000294
-	desc = desc_ev_20000294
-	picture = earthquakeold
-	fire_only_once = yes
-	trigger = {
-		year = 1785
-		owns = 1578
-		NOT = {
-			year = 1787
-		}
-	}
-	mean_time_to_happen = {
-		months = 6
-	}
-	option = {
-		name = event_option_blast
-		1578 = {
-			any_pop = {
-				reduce_pop = 0.75
-			}
-		}
-	}
-}
+
 country_event = {
 	id = 20000300 # Unzen volcano errupts
 	title = ev_20000300

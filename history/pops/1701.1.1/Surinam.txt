@@ -2,7 +2,7 @@
 	aristocrats = {
 		culture = dutch
 		religion = protestant
-		size = 31
+		size = 32
 	}
 	bureaucrats = {
 		culture = dutch
@@ -12,63 +12,63 @@
 	artisans = {
 		culture = dutch
 		religion = protestant
-		size = 66
+		size = 13
 	}
 	soldiers = {
 		culture = dutch
 		religion = protestant
-		size = 97
+		size = 101
 	}
 	clergymen = {
 		culture = african_minor
 		religion = protestant
-		size = 31
+		size = 32
 	}
 	artisans = {
 		culture = african_minor
 		religion = protestant
-		size = 2286
+		size = 457
 	}
 	farmers = {
 		culture = african_minor
 		religion = protestant
-		size = 1567
+		size = 1645
 	}
 	soldiers = {
 		culture = african_minor
 		religion = protestant
-		size = 31
+		size = 32
 	}
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 177885
+		size = 186779
 	}
 }
 2245 = {
 	aristocrats = {
 		culture = amazonian
 		religion = animist
-		size = 31
+		size = 32
 	}
 	clergymen = {
 		culture = amazonian
 		religion = animist
-		size = 66
+		size = 69
 	}
 	artisans = {
 		culture = amazonian
 		religion = animist
-		size = 130
+		size = 26
 	}
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 31
+		size = 32
 	}
 	farmers = {
 		culture = amazonian
 		religion = animist
-		size = 2286
+		size = 2400
 	}
 }

@@ -1,221 +1,183 @@
-#Leeward Islands Region - 61600
-#Ruled by Britain 1836
-#Antigua (25000/6250 POPS) #now independent
 2224 = {
 	aristocrats = {
 		culture = english
 		religion = protestant
-		size = 33
+		size = 34
 	}
-
 	bureaucrats = {
 		culture = english
 		religion = protestant
-		size = 20
+		size = 21
 	}
-
 	clergymen = {
 		culture = english
 		religion = protestant
 		size = 7
 	}
-
 	artisans = {
 		culture = english
 		religion = protestant
-		size = 130
+		size = 26
 	}
-
 	soldiers = {
 		culture = english
 		religion = protestant
 		size = 7
 	}
-
 	farmers = {
 		culture = english
 		religion = protestant
-		size = 130
+		size = 136
 	}
-
 	clergymen = {
 		culture = african_minor
 		religion = protestant
-		size = 49
+		size = 51
 	}
-
 	artisans = {
 		culture = african_minor
 		religion = protestant
-		size = 98
+		size = 19
 	}
-
 	soldiers = {
 		culture = african_minor
 		religion = protestant
-		size = 33
+		size = 34
 	}
-
 	farmers = {
 		culture = african_minor
 		religion = protestant
-		size = 3556
+		size = 3733
 	}
 }
-#Montserrat (5300/1325 POPS) #still english Colony
 2225 = {
 	aristocrats = {
 		culture = english
 		religion = protestant
 		size = 7
 	}
-
 	clergymen = {
 		culture = english
 		religion = protestant
 		size = 3
 	}
-
 	artisans = {
 		culture = english
 		religion = protestant
-		size = 20
+		size = 4
 	}
-
 	farmers = {
 		culture = english
 		religion = protestant
-		size = 20
+		size = 21
 	}
-
 	clergymen = {
 		culture = african_minor
 		religion = protestant
 		size = 10
 	}
-
 	artisans = {
 		culture = african_minor
 		religion = protestant
-		size = 29
+		size = 5
 	}
-
 	soldiers = {
 		culture = african_minor
 		religion = protestant
 		size = 7
 	}
-
 	farmers = {
 		culture = african_minor
 		religion = protestant
-		size = 897
+		size = 941
 	}
 }
-#Tortola (4800/1200 POPS) #still english Colony
 2226 = {
 	aristocrats = {
 		culture = english
 		religion = protestant
 		size = 7
 	}
-
 	clergymen = {
 		culture = english
 		religion = protestant
 		size = 7
 	}
-
 	artisans = {
 		culture = english
 		religion = protestant
-		size = 26
+		size = 5
 	}
-
 	farmers = {
 		culture = english
 		religion = protestant
-		size = 26
+		size = 27
 	}
-
 	clergymen = {
 		culture = african_minor
 		religion = protestant
 		size = 10
 	}
-
 	artisans = {
 		culture = african_minor
 		religion = protestant
-		size = 23
+		size = 4
 	}
-
 	soldiers = {
 		culture = african_minor
 		religion = protestant
 		size = 7
 	}
-
 	farmers = {
 		culture = african_minor
 		religion = protestant
-		size = 676
+		size = 709
 	}
 }
-#Saint Kitts (26500/6625 POPS) #now independent
 2227 = {
 	aristocrats = {
 		culture = english
 		religion = protestant
-		size = 49
+		size = 51
 	}
-
 	clergymen = {
 		culture = english
 		religion = protestant
 		size = 10
 	}
-
 	artisans = {
 		culture = english
 		religion = protestant
-		size = 146
+		size = 29
 	}
-
 	soldiers = {
 		culture = english
 		religion = protestant
-		size = 33
+		size = 34
 	}
-
 	farmers = {
 		culture = english
 		religion = protestant
-		size = 169
+		size = 177
 	}
-
 	clergymen = {
 		culture = african_minor
 		religion = protestant
-		size = 49
+		size = 51
 	}
-
 	artisans = {
 		culture = african_minor
 		religion = protestant
-		size = 98
+		size = 19
 	}
-
 	soldiers = {
 		culture = african_minor
 		religion = protestant
-		size = 49
+		size = 51
 	}
-
 	farmers = {
 		culture = african_minor
 		religion = protestant
-		size = 3835
+		size = 4026
 	}
-
 }

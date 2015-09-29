@@ -1,57 +1,46 @@
-#South Atlantic Islands (4240/1060 POPS)
-#Ruled by Britain 1836
-#Saint Helena (4000/1000 POPS)
 2129 = {
 	bureaucrats = {
 		culture = english
 		religion = protestant
 		size = 3
 	}
-
 	clergymen = {
 		culture = english
 		religion = protestant
 		size = 16
 	}
-
 	soldiers = {
 		culture = english
 		religion = protestant
 		size = 13
 	}
-
 	artisans = {
 		culture = english
 		religion = protestant
-		size = 33
+		size = 6
 	}
-
 	farmers = {
 		culture = english
 		religion = protestant
-		size = 585
+		size = 614
 	}
 }
-#Ascension (140/35 POPS)
 2130 = {
 	soldiers = {
 		culture = english
 		religion = protestant
 		size = 7
 	}
-
 	farmers = {
 		culture = english
 		religion = protestant
 		size = 16
 	}
 }
-#Tristan da Cunha (100/25 POPS)
 2132 = {
 	farmers = {
 		culture = english
 		religion = protestant
 		size = 16
 	}
-
 }

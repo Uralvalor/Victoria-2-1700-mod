@@ -2,6 +2,9 @@ name = "Деканские войны"
 
 1700.1.1 = {
 	add_attacker = MUG
+	add_attacker = HYD
+	add_attacker = BAS
+	add_attacker = PAN
 	add_defender = MAR
 	add_defender = BIK
 	add_defender = JAS
@@ -26,10 +29,34 @@ name = "Деканские войны"
 		receiver = MUG
 		state_province_id = 1292
 	}
+
+	war_goal = {
+		casus_belli = release_puppet
+		actor = MAR
+		receiver = MUG
+		country = HYD
+	}
+
+	war_goal = {
+		casus_belli = release_puppet
+		actor = MAR
+		receiver = MUG
+		country = PAN
+	}
+
+	war_goal = {
+		casus_belli = release_puppet
+		actor = MAR
+		receiver = MUG
+		country = BAS
+	}
 }
 
 1733.1.1 = {
 	rem_attacker = MUG
+	rem_attacker = HYD
+	rem_attacker = BAS
+	rem_attacker = PAN
 	rem_defender = MAR
 	rem_defender = BIK
 	rem_defender = JAS

@@ -1,6 +1,3 @@
-#Christmas-Cocos Region (560) 
-#uncolonized in 1836
-#Christmas Island (60/15POPS) 
 2244 = {
 	farmers = {
 		culture = malay
@@ -8,13 +5,10 @@
 		size = 10
 	}
 }
-#Cocos Islands (500/125 POPS) #british trade post 1836 
 2406 = {
-
 	farmers = {
 		culture = malay
 		religion = sunni
-		size = 78
+		size = 81
 	}
-
 }

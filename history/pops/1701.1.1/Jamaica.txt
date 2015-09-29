@@ -1,67 +1,54 @@
-#Jamaica Region - 384000
-#Ruled by Britain 1836
-#Jamaica (372000/93000 POPS)
 2217 = {
 	aristocrats = {
 		culture = english
 		religion = protestant
-	        size = 16
+		size = 16
 	}
-
 	bureaucrats = {
 		culture = english
 		religion = protestant
-	        size = 13
+		size = 13
 	}
-
 	clergymen = {
 		culture = english
 		religion = protestant
-	        size = 12
+		size = 12
 	}
-
 	artisans = {
 		culture = english
 		religion = protestant
-	        size = 406
+		size = 81
 	}
-
 	soldiers = {
 		culture = english
 		religion = protestant
-	        size = 8
+		size = 8
 	}
-
 	farmers = {
 		culture = english
 		religion = protestant
-	        size = 356
+		size = 373
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = animist
-	        size = 13711
+		size = 14396
 	}
 }
-#Cayman Islands : (1200/300 POPS) #still a english Colony
 2218 = {
 	soldiers = {
 		culture = english
 		religion = protestant
-	        size = 0
+		size = 0
 	}
-
 	artisans = {
 		culture = english
 		religion = protestant
-	        size = 2
+		size = 0
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = animist
-	        size = 45
+		size = 47
 	}
-
 }

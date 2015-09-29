@@ -292,7 +292,6 @@ country_event = {
 		civilized = yes
 		OR = {
 			political_reform_want = 0.3
-			unemployment = 0.1
 		}
 	}
 	

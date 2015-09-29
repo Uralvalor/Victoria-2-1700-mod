@@ -1,79 +1,64 @@
-#Hispanola Region (516000) #see Dominican Republic.txt for balance of region
-#Ruled by Haiti 1836
-#Port au Prince (312000/78000 POPS)
 2213 = {
 	slaves = {
 		culture = african_minor
 		religion = animist
-	        size = 67
+		size = 70
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = animist
-	        size = 12
+		size = 12
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = animist
-	        size = 12
+		size = 12
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = animist
-	        size = 63
+		size = 66
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = animist
-	        size = 316
+		size = 331
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = animist
-	        size = 325
+		size = 341
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = animist
-	        size = 5549
+		size = 5826
 	}
 }
-#Cap Haitien (204000/51000 POPS)
 2215 = {
 	slaves = {
 		culture = african_minor
 		religion = animist
-	        size = 44
+		size = 46
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = animist
-	        size = 38
+		size = 39
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = animist
-	        size = 207
+		size = 217
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = animist
-	        size = 81
+		size = 85
 	}
-
 	slaves = {
 		culture = african_minor
 		religion = animist
-	        size = 3772
+		size = 3960
 	}
-
 }

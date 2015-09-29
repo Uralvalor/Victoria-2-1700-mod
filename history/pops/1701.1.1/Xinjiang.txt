@@ -2,17 +2,293 @@
 	aristocrats = {
 		culture = uighur
 		religion = sunni
-		size = 1452
+		size = 1524
 	}
 	bureaucrats = {
 		culture = uighur
 		religion = sunni
-		size = 363
+		size = 381
 	}
 	officers = {
 		culture = uighur
 		religion = sunni
-		size = 371
+		size = 389
+	}
+	clergymen = {
+		culture = uighur
+		religion = sunni
+		size = 800
+	}
+	artisans = {
+		culture = uighur
+		religion = sunni
+		size = 755
+	}
+	soldiers = {
+		culture = uighur
+		religion = sunni
+		size = 3218
+	}
+	farmers = {
+		culture = uighur
+		religion = sunni
+		size = 24488
+	}
+	aristocrats = {
+		culture = kirgiz
+		religion = animist
+		size = 341
+	}
+	clergymen = {
+		culture = kirgiz
+		religion = animist
+		size = 189
+	}
+	artisans = {
+		culture = kirgiz
+		religion = animist
+		size = 167
+	}
+	soldiers = {
+		culture = kirgiz
+		religion = animist
+		size = 614
+	}
+	farmers = {
+		culture = kirgiz
+		religion = animist
+		size = 13076
+	}
+	clergymen = {
+		culture = tajik
+		religion = sunni
+		size = 76
+	}
+	artisans = {
+		culture = tajik
+		religion = sunni
+		size = 145
+	}
+	farmers = {
+		culture = tajik
+		religion = sunni
+		size = 1727
+	}
+	clergymen = {
+		culture = uzbek
+		religion = sunni
+		size = 36
+	}
+	artisans = {
+		culture = uzbek
+		religion = sunni
+		size = 283
+	}
+}
+1595 = {
+	clergymen = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 456
+	}
+	artisans = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 435
+	}
+	soldiers = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 1842
+	}
+	farmers = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 32558
+	}
+	aristocrats = {
+		culture = kazak
+		religion = sunni
+		size = 151
+	}
+	clergymen = {
+		culture = kazak
+		religion = sunni
+		size = 76
+	}
+	artisans = {
+		culture = kazak
+		religion = sunni
+		size = 87
+	}
+	soldiers = {
+		culture = kazak
+		religion = sunni
+		size = 462
+	}
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 6522
+	}
+	aristocrats = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 28
+	}
+	clergymen = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 28
+	}
+	artisans = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 14
+	}
+	soldiers = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 63
+	}
+	farmers = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 1071
+	}
+	aristocrats = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 151
+	}
+	clergymen = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 76
+	}
+	artisans = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 72
+	}
+	soldiers = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 309
+	}
+	farmers = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 5422
+	}
+}
+1596 = {
+	aristocrats = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 189
+	}
+	clergymen = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 114
+	}
+	artisans = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 101
+	}
+	soldiers = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 32487
+	}
+	farmers = {
+		culture = uighur
+		religion = sunni
+		size = 1346
+	}
+	aristocrats = {
+		culture = kazak
+		religion = sunni
+		size = 189
+	}
+	clergymen = {
+		culture = kazak
+		religion = sunni
+		size = 114
+	}
+	artisans = {
+		culture = kazak
+		religion = sunni
+		size = 101
+	}
+	soldiers = {
+		culture = kazak
+		religion = sunni
+		size = 462
+	}
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 7595
+	}
+	aristocrats = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 28
+	}
+	clergymen = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 28
+	}
+	artisans = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 14
+	}
+	soldiers = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 63
+	}
+	farmers = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 1071
+	}
+	aristocrats = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 189
+	}
+	clergymen = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 114
+	}
+	artisans = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 101
+	}
+	soldiers = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 462
+	}
+	farmers = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 7595
+	}
+}
+1597 = {
+	aristocrats = {
+		culture = uighur
+		religion = sunni
+		size = 1449
 	}
 	clergymen = {
 		culture = uighur
@@ -22,570 +298,294 @@
 	artisans = {
 		culture = uighur
 		religion = sunni
-		size = 3776
+		size = 697
 	}
 	soldiers = {
 		culture = uighur
 		religion = sunni
-		size = 3065
+		size = 3071
 	}
 	farmers = {
 		culture = uighur
 		religion = sunni
-		size = 23322
-	}
-	aristocrats = {
-		culture = kirgiz
-		religion = animist
-		size = 325
-	}
-	clergymen = {
-		culture = kirgiz
-		religion = animist
-		size = 180
-	}
-	artisans = {
-		culture = kirgiz
-		religion = animist
-		size = 835
-	}
-	soldiers = {
-		culture = kirgiz
-		religion = animist
-		size = 585
-	}
-	farmers = {
-		culture = kirgiz
-		religion = animist
-		size = 12454
-	}
-	clergymen = {
-		culture = tajik
-		religion = sunni
-		size = 73
-	}
-	artisans = {
-		culture = tajik
-		religion = sunni
-		size = 726
-	}
-	farmers = {
-		culture = tajik
-		religion = sunni
-		size = 1645
-	}
-	clergymen = {
-		culture = uzbek
-		religion = sunni
-		size = 35
-	}
-	artisans = {
-		culture = uzbek
-		religion = sunni
-		size = 1416
-	}
-}
-1595 = {
-	clergymen = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 435
-	}
-	artisans = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 2179
-	}
-	soldiers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 1755
-	}
-	farmers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 31008
-	}
-	aristocrats = {
-		culture = kazak
-		religion = sunni
-		size = 144
-	}
-	clergymen = {
-		culture = kazak
-		religion = sunni
-		size = 73
-	}
-	artisans = {
-		culture = kazak
-		religion = sunni
-		size = 435
-	}
-	soldiers = {
-		culture = kazak
-		religion = sunni
-		size = 440
-	}
-	farmers = {
-		culture = kazak
-		religion = sunni
-		size = 6212
-	}
-	aristocrats = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 27
-	}
-	clergymen = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 27
-	}
-	artisans = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 73
-	}
-	soldiers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 60
-	}
-	farmers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 1020
-	}
-	aristocrats = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 144
-	}
-	clergymen = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 73
-	}
-	artisans = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 363
-	}
-	soldiers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 295
-	}
-	farmers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 5164
-	}
-}
-1596 = {
-	aristocrats = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 180
-	}
-	clergymen = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 109
-	}
-	artisans = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 509
-	}
-	soldiers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 30940
-	}
-	farmers = {
-		culture = uighur
-		religion = sunni
-		size = 1282
-	}
-	aristocrats = {
-		culture = kazak
-		religion = sunni
-		size = 180
-	}
-	clergymen = {
-		culture = kazak
-		religion = sunni
-		size = 109
-	}
-	artisans = {
-		culture = kazak
-		religion = sunni
-		size = 509
-	}
-	soldiers = {
-		culture = kazak
-		religion = sunni
-		size = 440
-	}
-	farmers = {
-		culture = kazak
-		religion = sunni
-		size = 7234
-	}
-	aristocrats = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 27
-	}
-	clergymen = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 27
-	}
-	artisans = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 73
-	}
-	soldiers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 60
-	}
-	farmers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 1020
-	}
-	aristocrats = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 180
-	}
-	clergymen = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 109
-	}
-	artisans = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 509
-	}
-	soldiers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 440
-	}
-	farmers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 7234
-	}
-}
-1597 = {
-	aristocrats = {
-		culture = uighur
-		religion = sunni
-		size = 1380
-	}
-	clergymen = {
-		culture = uighur
-		religion = sunni
-		size = 726
-	}
-	artisans = {
-		culture = uighur
-		religion = sunni
-		size = 3486
-	}
-	soldiers = {
-		culture = uighur
-		religion = sunni
-		size = 2925
-	}
-	farmers = {
-		culture = uighur
-		religion = sunni
-		size = 49536
+		size = 52012
 	}
 }
 1598 = {
 	aristocrats = {
 		culture = uighur
 		religion = sunni
-		size = 615
+		size = 645
 	}
 	clergymen = {
 		culture = uighur
 		religion = sunni
-		size = 325
+		size = 341
 	}
 	artisans = {
 		culture = uighur
 		religion = sunni
-		size = 1597
+		size = 319
 	}
 	soldiers = {
 		culture = uighur
 		religion = sunni
-		size = 1310
+		size = 1375
 	}
 	farmers = {
 		culture = uighur
 		religion = sunni
-		size = 22724
+		size = 23860
 	}
 }
 1599 = {
 	aristocrats = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 1235
+		size = 1296
 	}
 	clergymen = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 615
+		size = 645
 	}
 	artisans = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 3124
+		size = 624
 	}
 	soldiers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 2480
+		size = 2604
 	}
 	farmers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 30596
+		size = 32125
 	}
 	aristocrats = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 73
+		size = 76
 	}
 	clergymen = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 109
+		size = 114
 	}
 	artisans = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 218
+		size = 43
 	}
 	soldiers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 22140
+		size = 23247
 	}
 	farmers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 12983
+		size = 13632
 	}
 	clergymen = {
 		culture = beifaren
 		religion = mahayana
-		size = 35
+		size = 36
 	}
 	artisans = {
 		culture = beifaren
 		religion = mahayana
-		size = 73
+		size = 14
 	}
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 140
+		size = 147
 	}
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1020
+		size = 1071
 	}
 }
 1600 = {
 	aristocrats = {
 		culture = uighur
 		religion = sunni
-		size = 1742
+		size = 1829
 	}
 	clergymen = {
 		culture = uighur
 		religion = sunni
-		size = 871
+		size = 914
 	}
 	artisans = {
 		culture = uighur
 		religion = sunni
-		size = 4794
+		size = 958
 	}
 	soldiers = {
 		culture = uighur
 		religion = sunni
-		size = 3950
+		size = 4147
 	}
 	farmers = {
 		culture = uighur
 		religion = sunni
-		size = 38584
+		size = 40513
 	}
 	aristocrats = {
 		culture = beifaren
 		religion = mahayana
-		size = 180
+		size = 189
 	}
 	clergymen = {
 		culture = beifaren
 		religion = mahayana
-		size = 109
+		size = 114
 	}
 	artisans = {
 		culture = beifaren
 		religion = mahayana
-		size = 1850
+		size = 370
 	}
 	soldiers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 50440
+		size = 52962
 	}
 	farmers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 18231
+		size = 19142
 	}
 	bureaucrats = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 73
+		size = 76
 	}
 	clergymen = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 708
+		size = 743
 	}
 	artisans = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 3393
+		size = 678
 	}
 	soldiers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 30795
+		size = 32334
 	}
 	farmers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 22960
+		size = 24108
 	}
 	aristocrats = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 416
+		size = 436
 	}
 	clergymen = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 73
+		size = 76
 	}
 	artisans = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 144
+		size = 28
 	}
 	soldiers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 140
+		size = 147
 	}
 	farmers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 2042
+		size = 2144
 	}
 	aristocrats = {
 		culture = kazak
 		religion = sunni
-		size = 109
+		size = 114
 	}
 	clergymen = {
 		culture = kazak
 		religion = sunni
-		size = 109
+		size = 114
 	}
 	artisans = {
 		culture = kazak
 		religion = sunni
-		size = 289
+		size = 57
 	}
 	soldiers = {
 		culture = kazak
 		religion = sunni
-		size = 295
+		size = 309
 	}
 	farmers = {
 		culture = kazak
 		religion = sunni
-		size = 4084
+		size = 4288
 	}
 }
 2607 = {
 	aristocrats = {
 		culture = uighur
 		religion = sunni
-		size = 109
+		size = 114
 	}
 	clergymen = {
 		culture = uighur
 		religion = sunni
-		size = 73
+		size = 76
 	}
 	artisans = {
 		culture = uighur
 		religion = sunni
-		size = 363
+		size = 72
 	}
 	soldiers = {
 		culture = uighur
 		religion = sunni
-		size = 295
+		size = 309
 	}
 	farmers = {
 		culture = uighur
 		religion = sunni
-		size = 5192
+		size = 5451
 	}
 	aristocrats = {
 		culture = mongol
 		religion = gelugpa
-		size = 73
+		size = 76
 	}
 	clergymen = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 109
+		size = 114
 	}
 	artisans = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 218
+		size = 43
 	}
 	soldiers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 140
+		size = 147
 	}
 	farmers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 3063
+		size = 3216
 	}
 }
