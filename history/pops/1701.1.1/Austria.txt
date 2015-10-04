@@ -27,12 +27,12 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 1100
+		size = 1430
 	}
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 35527
+		size = 35171
 	}
 }
 613 = {
@@ -54,12 +54,12 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 1100
+		size = 1430
 	}
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 17474
+		size = 17299
 	}
 	craftsmen = {
 		culture = south_german
@@ -86,12 +86,12 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 1100
+		size = 1430
 	}
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 19786
+		size = 19588
 	}
 }
 615 = {
@@ -113,12 +113,12 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 90
+		size = 117
 	}
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 7978
+		size = 7898
 	}
 }
 616 = {
@@ -150,12 +150,12 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 1100
+		size = 1430
 	}
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 53750
+		size = 53212
 	}
 }
 617 = {
@@ -177,12 +177,12 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 1000
+		size = 1300
 	}
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 25417
+		size = 25162
 	}
 }
 618 = {
@@ -204,12 +204,12 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 1100
+		size = 1430
 	}
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 17105
+		size = 16933
 	}
 	clergymen = {
 		culture = slovene
@@ -224,12 +224,12 @@
 	soldiers = {
 		culture = slovene
 		religion = catholic
-		size = 145
+		size = 188
 	}
 	farmers = {
 		culture = slovene
 		religion = catholic
-		size = 11109
+		size = 10997
 	}
 }
 619 = {
@@ -256,17 +256,22 @@
 	artisans = {
 		culture = south_german
 		religion = catholic
-		size = 18418
+		size = 18018
+	}
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 418
 	}
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 2002
+		size = 2602
 	}
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 126875
+		size = 125606
 	}
 	clergymen = {
 		culture = czech
@@ -308,12 +313,12 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 182
+		size = 236
 	}
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 13274
+		size = 13141
 	}
 }
 621 = {
@@ -335,12 +340,12 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 1100
+		size = 1430
 	}
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 36443
+		size = 36078
 	}
 }
 622 = {
@@ -362,12 +367,12 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 1128
+		size = 1466
 	}
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 89212
+		size = 88319
 	}
 }
 624 = {
@@ -389,12 +394,12 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 1200
+		size = 1560
 	}
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 27566
+		size = 27290
 	}
 	clergymen = {
 		culture = hungarian
@@ -409,12 +414,12 @@
 	soldiers = {
 		culture = hungarian
 		religion = catholic
-		size = 17
+		size = 22
 	}
 	farmers = {
 		culture = hungarian
 		religion = catholic
-		size = 1840
+		size = 1821
 	}
 	clergymen = {
 		culture = hungarian
@@ -429,11 +434,11 @@
 	soldiers = {
 		culture = hungarian
 		religion = protestant
-		size = 17
+		size = 22
 	}
 	farmers = {
 		culture = hungarian
 		religion = protestant
-		size = 1192
+		size = 1180
 	}
 }

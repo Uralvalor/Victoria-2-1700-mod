@@ -27,7 +27,7 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 29646
+		size = 23716
 	}
 	labourers = {
 		culture = french
@@ -54,12 +54,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 48409
+		size = 48893
 	}
 	artisans = {
 		culture = flemish
@@ -69,12 +69,12 @@
 	soldiers = {
 		culture = flemish
 		religion = catholic
-		size = 136
+		size = 108
 	}
 	farmers = {
 		culture = flemish
 		religion = catholic
-		size = 9898
+		size = 9996
 	}
 }
 401 = {
@@ -96,12 +96,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 32072
+		size = 25657
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 44452
+		size = 44896
 	}
 }
 402 = {
@@ -123,12 +123,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 697
+		size = 557
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 80568
+		size = 81373
 	}
 	craftsmen = {
 		culture = dutch
@@ -155,12 +155,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 14799
+		size = 11839
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 39255
+		size = 39647
 	}
 }
 403 = {
@@ -192,12 +192,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 697
+		size = 557
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 79543
+		size = 80338
 	}
 }
 404 = {
@@ -219,12 +219,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 42370
+		size = 42793
 	}
 }
 405 = {
@@ -246,12 +246,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 348
+		size = 278
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 46891
+		size = 47359
 	}
 }
 406 = {
@@ -283,12 +283,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 36759
+		size = 37126
 	}
 }
 407 = {
@@ -310,12 +310,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 38641
+		size = 39027
 	}
 }
 408 = {
@@ -337,12 +337,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 51807
+		size = 52325
 	}
 }
 409 = {
@@ -374,12 +374,12 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 160
+		size = 128
 	}
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 50906
+		size = 51415
 	}
 	aristocrats = {
 		culture = french
@@ -409,12 +409,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 125
+		size = 100
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 16164
+		size = 16325
 	}
 }
 410 = {
@@ -436,12 +436,12 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 136
+		size = 108
 	}
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 18214
+		size = 18396
 	}
 	aristocrats = {
 		culture = south_german
@@ -461,17 +461,17 @@
 	soldiers = {
 		culture = south_german
 		religion = protestant
-		size = 184
+		size = 147
 	}
 	farmers = {
 		culture = south_german
 		religion = protestant
-		size = 27306
+		size = 27579
 	}
 	artisans = {
-		culture = south_german
+		culture = ashkenazi
 		religion = jewish
-		size = 443
+		size = 1443
 	}
 	aristocrats = {
 		culture = french
@@ -491,12 +491,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 160
+		size = 128
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 18214
+		size = 18396
 	}
 }
 411 = {
@@ -528,12 +528,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 509
+		size = 407
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 62302
+		size = 62925
 	}
 	bureaucrats = {
 		culture = south_german
@@ -553,22 +553,22 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 8
+		size = 6
 	}
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 327
+		size = 330
 	}
 	clergymen = {
-		culture = south_german
+		culture = ashkenazi
 		religion = jewish
-		size = 29
+		size = 129
 	}
 	artisans = {
-		culture = south_german
+		culture = ashkenazi
 		religion = jewish
-		size = 432
+		size = 1032
 	}
 }
 412 = {
@@ -590,12 +590,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 300
+		size = 240
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 40010
+		size = 40410
 	}
 	aristocrats = {
 		culture = south_german
@@ -615,17 +615,17 @@
 	soldiers = {
 		culture = south_german
 		religion = protestant
-		size = 43
+		size = 34
 	}
 	farmers = {
 		culture = south_german
 		religion = protestant
-		size = 4141
+		size = 4182
 	}
 	artisans = {
-		culture = south_german
+		culture = ashkenazi
 		religion = jewish
-		size = 665
+		size = 1665
 	}
 	aristocrats = {
 		culture = south_german
@@ -645,12 +645,12 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 91
+		size = 72
 	}
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 18330
+		size = 18513
 	}
 }
 413 = {
@@ -672,12 +672,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 348
+		size = 278
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 48194
+		size = 48675
 	}
 	clergymen = {
 		culture = south_german
@@ -692,7 +692,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 8
+		size = 6
 	}
 	labourers = {
 		culture = south_german
@@ -719,7 +719,7 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	labourers = {
 		culture = french
@@ -739,7 +739,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 8
+		size = 6
 	}
 	labourers = {
 		culture = south_german
@@ -776,12 +776,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 930
+		size = 744
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 96588
+		size = 97553
 	}
 }
 416 = {
@@ -803,12 +803,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 509
+		size = 407
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 64381
+		size = 65024
 	}
 }
 417 = {
@@ -830,12 +830,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 556
+		size = 444
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 67054
+		size = 67724
 	}
 }
 418 = {
@@ -857,12 +857,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 1278
+		size = 1022
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 165228
+		size = 166880
 	}
 }
 420 = {
@@ -894,12 +894,12 @@
 	soldiers = {
 		culture = breton
 		religion = catholic
-		size = 649
+		size = 519
 	}
 	farmers = {
 		culture = breton
 		religion = catholic
-		size = 76294
+		size = 77056
 	}
 }
 421 = {
@@ -921,12 +921,12 @@
 	soldiers = {
 		culture = breton
 		religion = catholic
-		size = 697
+		size = 557
 	}
 	farmers = {
 		culture = breton
 		religion = catholic
-		size = 91934
+		size = 92853
 	}
 }
 422 = {
@@ -948,12 +948,12 @@
 	soldiers = {
 		culture = breton
 		religion = catholic
-		size = 509
+		size = 407
 	}
 	farmers = {
 		culture = breton
 		religion = catholic
-		size = 66327
+		size = 66990
 	}
 }
 423 = {
@@ -975,7 +975,7 @@
 	soldiers = {
 		culture = breton
 		religion = catholic
-		size = 580
+		size = 464
 	}
 	labourers = {
 		culture = french
@@ -1002,12 +1002,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 649
+		size = 519
 	}
 	farmers = {
 		culture = breton
 		religion = catholic
-		size = 81738
+		size = 82555
 	}
 }
 425 = {
@@ -1039,7 +1039,7 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 23534
+		size = 18827
 	}
 	craftsmen = {
 		culture = french
@@ -1047,19 +1047,19 @@
 		size = 1100
 	}
 	clergymen = {
-		culture = ashkenazi
+		culture = sephardic
 		religion = jewish
-		size = 62
+		size = 262
 	}
 	aristocrats = {
-		culture = ashkenazi
+		culture = sephardic
 		religion = jewish
-		size = 653
+		size = 2853
 	}
 	artisans = {
-		culture = ashkenazi
+		culture = sephardic
 		religion = jewish
-		size = 2688
+		size = 12688
 	}
 }
 426 = {
@@ -1081,12 +1081,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 42552
+		size = 42977
 	}
 }
 427 = {
@@ -1108,12 +1108,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 49695
+		size = 50191
 	}
 }
 428 = {
@@ -1145,12 +1145,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 55207
+		size = 55759
 	}
 }
 429 = {
@@ -1172,12 +1172,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 54580
+		size = 55125
 	}
 }
 430 = {
@@ -1199,12 +1199,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 697
+		size = 557
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 90665
+		size = 91571
 	}
 }
 431 = {
@@ -1226,12 +1226,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 509
+		size = 407
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 83026
+		size = 83856
 	}
 }
 432 = {
@@ -1263,12 +1263,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 697
+		size = 557
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 90318
+		size = 91221
 	}
 }
 433 = {
@@ -1290,12 +1290,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 47518
+		size = 47993
 	}
 }
 434 = {
@@ -1327,7 +1327,7 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 14549
+		size = 11639
 	}
 	labourers = {
 		culture = french
@@ -1354,12 +1354,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 418
+		size = 334
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 54414
+		size = 54958
 	}
 }
 436 = {
@@ -1381,12 +1381,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 556
+		size = 444
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 70353
+		size = 71056
 	}
 }
 437 = {
@@ -1408,7 +1408,7 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 418
+		size = 334
 	}
 	labourers = {
 		culture = french
@@ -1445,12 +1445,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 41610
+		size = 42026
 	}
 }
 439 = {
@@ -1472,12 +1472,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 38246
+		size = 38628
 	}
 }
 440 = {
@@ -1499,12 +1499,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 35769
+		size = 36126
 	}
 }
 441 = {
@@ -1526,12 +1526,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 42568
+		size = 42993
 	}
 }
 442 = {
@@ -1563,12 +1563,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 534
+		size = 427
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 68390
+		size = 69073
 	}
 }
 443 = {
@@ -1590,12 +1590,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 348
+		size = 278
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 41791
+		size = 42208
 	}
 }
 444 = {
@@ -1617,12 +1617,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 54910
+		size = 55459
 	}
 }
 445 = {
@@ -1654,12 +1654,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 348
+		size = 278
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 38575
+		size = 38960
 	}
 }
 446 = {
@@ -1681,12 +1681,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 627
+		size = 501
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 79594
+		size = 80389
 	}
 }
 447 = {
@@ -1708,12 +1708,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 930
+		size = 744
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 121173
+		size = 122384
 	}
 }
 448 = {
@@ -1745,12 +1745,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 859
+		size = 687
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 109689
+		size = 110785
 	}
 }
 449 = {
@@ -1772,12 +1772,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 60751
+		size = 61358
 	}
 }
 450 = {
@@ -1799,12 +1799,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 348
+		size = 278
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 48062
+		size = 48542
 	}
 }
 451 = {
@@ -1836,22 +1836,22 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 29646
+		size = 23716
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 45216
+		size = 45668
 	}
 	clergymen = {
-		culture = french
+		culture = ashkenazi
 		religion = jewish
-		size = 29
+		size = 49
 	}
 	artisans = {
-		culture = french
+		culture = ashkenazi
 		religion = jewish
-		size = 976
+		size = 1976
 	}
 }
 452 = {
@@ -1873,12 +1873,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 534
+		size = 427
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 55915
+		size = 56474
 	}
 }
 453 = {
@@ -1900,12 +1900,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 766
+		size = 612
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 99723
+		size = 100720
 	}
 }
 454 = {
@@ -1927,12 +1927,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 10849
+		size = 8679
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 86325
+		size = 87188
 	}
 }
 455 = {
@@ -1964,12 +1964,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 22318
+		size = 17854
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 73278
+		size = 74010
 	}
 }
 456 = {
@@ -1991,12 +1991,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 697
+		size = 557
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 88537
+		size = 89422
 	}
 }
 457 = {
@@ -2018,12 +2018,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 53029
+		size = 53559
 	}
 }
 458 = {
@@ -2055,12 +2055,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 742
+		size = 593
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 74914
+		size = 75663
 	}
 }
 459 = {
@@ -2082,12 +2082,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 649
+		size = 519
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 86243
+		size = 87105
 	}
 }
 460 = {
@@ -2109,12 +2109,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 580
+		size = 464
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 75435
+		size = 76189
 	}
 	aristocrats = {
 		culture = basque
@@ -2134,12 +2134,12 @@
 	soldiers = {
 		culture = basque
 		religion = catholic
-		size = 208
+		size = 166
 	}
 	farmers = {
 		culture = basque
 		religion = catholic
-		size = 27190
+		size = 27461
 	}
 }
 461 = {
@@ -2171,12 +2171,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 836
+		size = 668
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 107677
+		size = 108753
 	}
 }
 462 = {
@@ -2198,12 +2198,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 602
+		size = 481
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 76393
+		size = 77156
 	}
 }
 463 = {
@@ -2225,12 +2225,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 40951
+		size = 41360
 	}
 }
 464 = {
@@ -2252,12 +2252,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 67
+		size = 53
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 7506
+		size = 7581
 	}
 	aristocrats = {
 		culture = catalan
@@ -2277,12 +2277,12 @@
 	soldiers = {
 		culture = catalan
 		religion = catholic
-		size = 114
+		size = 91
 	}
 	farmers = {
 		culture = catalan
 		religion = catholic
-		size = 16481
+		size = 16645
 	}
 }
 465 = {
@@ -2314,12 +2314,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 38806
+		size = 39194
 	}
 }
 466 = {
@@ -2341,12 +2341,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 34433
+		size = 34777
 	}
 }
 467 = {
@@ -2378,12 +2378,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 34583
+		size = 34928
 	}
 }
 468 = {
@@ -2405,12 +2405,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 277
+		size = 221
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 30110
+		size = 30411
 	}
 }
 469 = {
@@ -2432,12 +2432,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 160
+		size = 128
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 18874
+		size = 19062
 	}
 }
 470 = {
@@ -2459,12 +2459,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 27026
+		size = 27296
 	}
 }
 471 = {
@@ -2486,12 +2486,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 160
+		size = 128
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 20062
+		size = 20262
 	}
 }
 472 = {
@@ -2513,12 +2513,12 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	farmers = {
 		culture = north_italian
 		religion = catholic
-		size = 22982
+		size = 23211
 	}
 }
 473 = {
@@ -2550,11 +2550,11 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 463
+		size = 370
 	}
 	farmers = {
 		culture = north_italian
 		religion = catholic
-		size = 31547
+		size = 31862
 	}
 }

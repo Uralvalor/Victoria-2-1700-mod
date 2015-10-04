@@ -1,0 +1,171 @@
+
+country_event = {
+    id = 780001
+    title = "EVTNAME780000"
+    desc = "EVTDESC780000"
+    picture = "Celebration"
+    is_triggered_only = yes
+
+option = {
+        name = "Sanction"
+		FROM = { diplomatic_influence = {
+			who = THIS
+			value = -400
+		}
+		}
+    	add_country_modifier = {
+			name = sanction_1
+			duration = 730 
+		}
+    }    
+
+}
+country_event = {
+    id = 780002
+    title = "EVTNAME780000"
+    desc = "EVTDESC780000"
+    picture = "Celebration"
+    is_triggered_only = yes
+
+option = {
+        name = "Sanction"
+		FROM = { diplomatic_influence = {
+			who = THIS
+			value = -400
+		}
+		}
+    	add_country_modifier = {
+			name = sanction_2
+			duration = 730 
+		}
+    }    
+
+}
+country_event = {
+    id = 780003
+    title = "EVTNAME780000"
+    desc = "EVTDESC780000"
+    picture = "Celebration"
+    is_triggered_only = yes
+
+option = {
+        name = "Sanction"
+		FROM = { diplomatic_influence = {
+			who = THIS
+			value = -400
+		}
+		}
+    	add_country_modifier = {
+			name = sanction_3
+			duration = 730 
+		}
+    }    
+
+}
+country_event = {
+    id = 780004
+    title = "EVTNAME780000"
+    desc = "EVTDESC780000"
+    picture = "Celebration"
+    is_triggered_only = yes
+
+option = {
+        name = "Sanction"
+		FROM = { diplomatic_influence = {
+			who = THIS
+			value = -400
+		}
+		}
+    	add_country_modifier = {
+			name = sanction_4
+			duration = 730 
+		}
+    }    
+
+}
+country_event = {
+    id = 780005
+    title = "EVTNAME780000"
+    desc = "EVTDESC780000"
+    picture = "Celebration"
+    is_triggered_only = yes
+
+option = {
+        name = "Sanction"
+		FROM = { diplomatic_influence = {
+			who = THIS
+			value = -400
+		}
+		}
+    	add_country_modifier = {
+			name = sanction_5
+			duration = 730 
+		}
+    }    
+
+}
+country_event = {
+    id = 780006
+    title = "EVTNAME780000"
+    desc = "EVTDESC780000"
+    picture = "Celebration"
+    is_triggered_only = yes
+
+option = {
+        name = "Sanction"
+		FROM = { diplomatic_influence = {
+			who = THIS
+			value = -400
+		}
+		}
+    	add_country_modifier = {
+			name = sanction_6
+			duration = 730 
+		}
+    }    
+
+}
+country_event = {
+    id = 780007
+    title = "EVTNAME780000"
+    desc = "EVTDESC780000"
+    picture = "Celebration"
+    is_triggered_only = yes
+
+option = {
+        name = "Sanction"
+		FROM = { diplomatic_influence = {
+			who = THIS
+			value = -400
+		}
+		}
+    	add_country_modifier = {
+			name = sanction_7
+			duration = 730 
+		}
+    }    
+
+}
+country_event = {
+    id = 780008
+    title = "EVTNAME780000"
+    desc = "EVTDESC780000"
+    picture = "Celebration"
+    is_triggered_only = yes
+
+option = {
+        name = "Sanction"
+		FROM = { diplomatic_influence = {
+			who = THIS
+			value = -400
+		}
+		}
+    	add_country_modifier = {
+			name = sanction_8
+			duration = 730 
+		}
+    }    
+
+}
+
+

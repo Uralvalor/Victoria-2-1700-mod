@@ -383,7 +383,7 @@
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 7946
+		size = 3946
 	}
 	clergymen = {
 		culture = ashkenazi
@@ -425,12 +425,12 @@
 	farmers = {
 		culture = ukrainian
 		religion = orthodox
-		size = 44422
+		size = 34422
 	}
 	aristocrats = {
 		culture = polish
 		religion = catholic
-		size = 1055
+		size = 355
 	}
 	clergymen = {
 		culture = polish
@@ -492,12 +492,12 @@
 	farmers = {
 		culture = ukrainian
 		religion = orthodox
-		size = 50033
+		size = 35033
 	}
 	aristocrats = {
 		culture = polish
 		religion = catholic
-		size = 2280
+		size = 1280
 	}
 	clergymen = {
 		culture = polish
@@ -1687,6 +1687,26 @@
 		religion = orthodox
 		size = 2091
 	}
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 21
+	}
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 1045
+	}
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 14
+	}
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 2985
+	}
 	artisans = {
 		culture = armenian
 		religion = orthodox
@@ -2329,26 +2349,6 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 508
-	}
-	clergymen = {
-		culture = greek
-		religion = orthodox
-		size = 21
-	}
-	artisans = {
-		culture = greek
-		religion = orthodox
-		size = 1045
-	}
-	soldiers = {
-		culture = greek
-		religion = orthodox
-		size = 14
-	}
-	farmers = {
-		culture = greek
-		religion = orthodox
-		size = 2985
 	}
 }
 978 = {

@@ -50,6 +50,8 @@ political_decisions = {
 	}
 	
 	clear_out_the_manchu_elite = {
+
+	alert = no
 		potential = {
 			tag = MCK
 			government = absolute_monarchy

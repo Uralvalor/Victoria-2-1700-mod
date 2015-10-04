@@ -159,28 +159,6 @@ option = {
 }
 
 country_event = {
-    id = 780000
-    title = "EVTNAME780000"
-    desc = "EVTDESC780000"
-    picture = "Celebration"
-    is_triggered_only = yes
-
-option = {
-        name = "Sanction"
-		FROM = { diplomatic_influence = {
-			who = THIS
-			value = -400
-		}
-		}
-    	add_country_modifier = {
-			name = sanction 
-			duration = 730 
-		}
-    }    
-
-}
-
-country_event = {
 	id = 1099994
 	title = "EVTNAME1099994"
 	desc = "EVTDESC1099994"
@@ -547,7 +525,7 @@ country_event = {
 			}
 			
 			defender_goal = {
-				casus_belli = become_independent
+				casus_belli = status_quo
 			}
 		}
 	}
@@ -570,7 +548,7 @@ country_event = {
 			}
 			
 			defender_goal = {
-				casus_belli = become_independent
+				casus_belli = status_quo
 			}
 		}
 	}
@@ -1623,7 +1601,7 @@ country_event = {
 	trigger = {
 		year = 1746
 		OR = {
-			tag = ANG
+			tag = ENL
 			tag = ENG
 		}
 		NOT = {

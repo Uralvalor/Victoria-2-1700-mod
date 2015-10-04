@@ -1069,22 +1069,23 @@ country_event = {
 			limit = {
 				OR = {
 					tag = BHU
-					tag = SIK
-					tag = BUN
+					tag = MYS
+					tag = HYD
 					tag = BAS
-					tag = BHO
-					tag = GWA
+					tag = NAG
+					tag = BUN
 					tag = JAI
 					tag = MEW
-					tag = IND
 					tag = JOD
 					tag = BIK
 					tag = JAS
 					tag = PAN
-					tag = KAL
+					tag = KAS
 					tag = SIN
+					tag = BER
 					tag = KUT
-					tag = MAK
+					tag = SHI 
+					tag = ASM
 				}
 			}
 			add_casus_belli = {
@@ -1097,8 +1098,9 @@ country_event = {
 		any_country = {
 			limit = {
 				OR = {
-					tag = ASM
-					tag = MRT
+					tag = BNG
+					tag = MAR
+					tag = MUG
 				}
 			}
 			add_casus_belli = {
@@ -1120,7 +1122,7 @@ country_event = {
 		tag = ENG
 		ai = yes
 		war = no
-		NOT = {exists = MRT}
+		NOT = {exists = MAR}
 		OR = {
 			BHU = {NOT = {vassal_of = THIS}}
 			SIK = {NOT = {vassal_of = THIS}}

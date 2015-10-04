@@ -1626,7 +1626,35 @@ CRI_integrate = {
 	icon = 2
 }
 
-sanction = {
+sanction_1 = {
+	import_cost = 0.5
+	icon = 2
+}
+sanction_2 = {
+	import_cost = 0.4
+	icon = 2
+}
+sanction_3 = {
+	import_cost = 0.35
+	icon = 2
+}
+sanction_4 = {
+	import_cost = 0.3
+	icon = 2
+}
+sanction_5 = {
+	import_cost = 0.25
+	icon = 2
+}
+sanction_6 = {
 	import_cost = 0.2
+	icon = 2
+}
+sanction_7 = {
+	import_cost = 0.15
+	icon = 2
+}
+sanction_8 = {
+	import_cost = 0.1
 	icon = 2
 }

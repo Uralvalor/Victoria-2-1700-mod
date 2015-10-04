@@ -609,7 +609,7 @@
 	artisans = {
 		culture = sephardic
 		religion = jewish
-		size = 10
+		size = 101
 	}
 	clergymen = {
 		culture = african_minor
@@ -1596,7 +1596,7 @@
 	clergymen = {
 		culture = sephardic
 		religion = jewish
-		size = 2
+		size = 20
 	}
 	artisans = {
 		culture = sephardic
@@ -1834,10 +1834,10 @@
 	clergymen = {
 		culture = sephardic
 		religion = jewish
-		size = 2
+		size = 20
 	}
 	artisans = {
-		culture = english
+		culture = sephardic
 		religion = jewish
 		size = 174
 	}

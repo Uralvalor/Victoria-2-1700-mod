@@ -1,20 +1,20 @@
 political_decisions = {
 
 	
-Sanction = {
+Sanction1 = {
 	alert = no
 	potential = {
-			is_greater_power= yes
+			rank = 1
 	}
 	allow = {	
-	        NOT = { badboy = 0.2 }
+	        NOT = { badboy = 0.04 }
 		NOT = { war_policy  = pacifism  }
 		NOT = { war_exhaustion = 1 }	
 	}
 	
 	effect = 
 	{
-	badboy=1
+	badboy=2.4
 		random_country={
 			limit = {
 					NOT = {	relation = { who = THIS value = -185 }	}
@@ -28,7 +28,7 @@ Sanction = {
 					who = THIS			
 					value = -50
 			}
-                        country_event = 780000
+                        country_event = 780001
 			prestige = -2
 		}
 	}
@@ -44,7 +44,320 @@ Sanction = {
 			}
 						}
 }
+Sanction2 = {
+	alert = no
+	potential = {
+			rank = 2
+	        NOT = { rank = 1 }
+	}
+	allow = {	
+	        NOT = { badboy = 0.04 }
+		NOT = { war_policy  = pacifism  }
+		NOT = { war_exhaustion = 1 }	
+	}
 	
+	effect = 
+	{
+	badboy=2.4
+		random_country={
+			limit = {
+					NOT = {	relation = { who = THIS value = -185 }	}
+					NOT={war_with=THIS}
+					NOT={alliance_with  = THIS}
+					is_vassal = no
+					is_substate = no
+					NOT={in_sphere=THIS}
+			}
+			relation = {
+					who = THIS			
+					value = -50
+			}
+                        country_event = 780002
+			prestige = -2
+		}
+	}
+		ai_will_do = {
+			factor = 0.1
+			modifier = {
+				factor = 0.25			
+				trade_policy = protectionism 
+			}
+			modifier = {
+				factor = 0.35			
+				war_policy  = jingoism  
+			}
+						}
+}
+
+Sanction3 = {
+	alert = no
+	potential = {
+			rank = 3
+	        NOT = { rank = 2 }
+	}
+	allow = {	
+	        NOT = { badboy = 0.04 }
+		NOT = { war_policy  = pacifism  }
+		NOT = { war_exhaustion = 1 }	
+	}
+	
+	effect = 
+	{
+	badboy=2.4
+		random_country={
+			limit = {
+					NOT = {	relation = { who = THIS value = -185 }	}
+					NOT={war_with=THIS}
+					NOT={alliance_with  = THIS}
+					is_vassal = no
+					is_substate = no
+					NOT={in_sphere=THIS}
+			}
+			relation = {
+					who = THIS			
+					value = -50
+			}
+                        country_event = 780003
+			prestige = -2
+		}
+	}
+		ai_will_do = {
+			factor = 0.1
+			modifier = {
+				factor = 0.25			
+				trade_policy = protectionism 
+			}
+			modifier = {
+				factor = 0.35			
+				war_policy  = jingoism  
+			}
+						}
+}
+
+Sanction4 = {
+	alert = no
+	potential = {
+			rank = 4
+	        NOT = { rank = 3 }
+	}
+	allow = {	
+	        NOT = { badboy = 0.04 }
+		NOT = { war_policy  = pacifism  }
+		NOT = { war_exhaustion = 1 }	
+	}
+	
+	effect = 
+	{
+	badboy=2.4
+		random_country={
+			limit = {
+					NOT = {	relation = { who = THIS value = -185 }	}
+					NOT={war_with=THIS}
+					NOT={alliance_with  = THIS}
+					is_vassal = no
+					is_substate = no
+					NOT={in_sphere=THIS}
+			}
+			relation = {
+					who = THIS			
+					value = -50
+			}
+                        country_event = 780004
+			prestige = -2
+		}
+	}
+		ai_will_do = {
+			factor = 0.1
+			modifier = {
+				factor = 0.25			
+				trade_policy = protectionism 
+			}
+			modifier = {
+				factor = 0.35			
+				war_policy  = jingoism  
+			}
+						}
+}
+
+Sanction5 = {
+	alert = no
+	potential = {
+			rank = 5
+	        NOT = { rank = 4 }
+	}
+	allow = {	
+	        NOT = { badboy = 0.04 }
+		NOT = { war_policy  = pacifism  }
+		NOT = { war_exhaustion = 1 }	
+	}
+	
+	effect = 
+	{
+	badboy=2.4
+		random_country={
+			limit = {
+					NOT = {	relation = { who = THIS value = -185 }	}
+					NOT={war_with=THIS}
+					NOT={alliance_with  = THIS}
+					is_vassal = no
+					is_substate = no
+					NOT={in_sphere=THIS}
+			}
+			relation = {
+					who = THIS			
+					value = -50
+			}
+                        country_event = 780005
+			prestige = -2
+		}
+	}
+		ai_will_do = {
+			factor = 0.1
+			modifier = {
+				factor = 0.25			
+				trade_policy = protectionism 
+			}
+			modifier = {
+				factor = 0.35			
+				war_policy  = jingoism  
+			}
+						}
+}
+
+Sanction6 = {
+	alert = no
+	potential = {
+			rank = 6
+	        NOT = { rank = 5 }
+	}
+	allow = {	
+	        NOT = { badboy = 0.04 }
+		NOT = { war_policy  = pacifism  }
+		NOT = { war_exhaustion = 1 }	
+	}
+	
+	effect = 
+	{
+	badboy=2.4
+		random_country={
+			limit = {
+					NOT = {	relation = { who = THIS value = -185 }	}
+					NOT={war_with=THIS}
+					NOT={alliance_with  = THIS}
+					is_vassal = no
+					is_substate = no
+					NOT={in_sphere=THIS}
+			}
+			relation = {
+					who = THIS			
+					value = -50
+			}
+                        country_event = 780006
+			prestige = -2
+		}
+	}
+		ai_will_do = {
+			factor = 0.1
+			modifier = {
+				factor = 0.25			
+				trade_policy = protectionism 
+			}
+			modifier = {
+				factor = 0.35			
+				war_policy  = jingoism  
+			}
+						}
+}
+
+Sanction7 = {
+	alert = no
+	potential = {
+			rank = 7
+	        NOT = { rank = 6 }
+	}
+	allow = {	
+	        NOT = { badboy = 0.04 }
+		NOT = { war_policy  = pacifism  }
+		NOT = { war_exhaustion = 1 }	
+	}
+	
+	effect = 
+	{
+	badboy=2.4
+		random_country={
+			limit = {
+					NOT = {	relation = { who = THIS value = -185 }	}
+					NOT={war_with=THIS}
+					NOT={alliance_with  = THIS}
+					is_vassal = no
+					is_substate = no
+					NOT={in_sphere=THIS}
+			}
+			relation = {
+					who = THIS			
+					value = -50
+			}
+                        country_event = 780007
+			prestige = -2
+		}
+	}
+		ai_will_do = {
+			factor = 0.1
+			modifier = {
+				factor = 0.25			
+				trade_policy = protectionism 
+			}
+			modifier = {
+				factor = 0.35			
+				war_policy  = jingoism  
+			}
+						}
+}
+
+Sanction8 = {
+	alert = no
+	potential = {
+			rank = 8
+	        NOT = { rank = 7 }
+	}
+	allow = {	
+	        NOT = { badboy = 0.04 }
+		NOT = { war_policy  = pacifism  }
+		NOT = { war_exhaustion = 1 }	
+	}
+	
+	effect = 
+	{
+	badboy=2.4
+		random_country={
+			limit = {
+					NOT = {	relation = { who = THIS value = -185 }	}
+					NOT={war_with=THIS}
+					NOT={alliance_with  = THIS}
+					is_vassal = no
+					is_substate = no
+					NOT={in_sphere=THIS}
+			}
+			relation = {
+					who = THIS			
+					value = -50
+			}
+                        country_event = 780008
+			prestige = -2
+		}
+	}
+		ai_will_do = {
+			factor = 0.1
+			modifier = {
+				factor = 0.25			
+				trade_policy = protectionism 
+			}
+			modifier = {
+				factor = 0.35			
+				war_policy  = jingoism  
+			}
+						}
+}
 	move_capital_to_st_petersburg = {
 		potential = {
 			tag = RUS

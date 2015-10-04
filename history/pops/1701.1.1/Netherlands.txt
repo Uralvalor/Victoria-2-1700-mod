@@ -1,13 +1,13 @@
 375 = {
 	clergymen = {
-		culture = ashkenazi
+		culture = sephardic
 		religion = jewish
-		size = 46
+		size = 146
 	}
 	artisans = {
-		culture = ashkenazi
+		culture = sephardic
 		religion = jewish
-		size = 4050
+		size = 12050
 	}
 	aristocrats = {
 		culture = dutch
@@ -77,9 +77,9 @@
 		size = 69687
 	}
 	artisans = {
-		culture = ashkenazi
+		culture = sephardic
 		religion = jewish
-		size = 877
+		size = 2477
 	}
 	artisans = {
 		culture = flemish
@@ -160,7 +160,7 @@
 	artisans = {
 		culture = ashkenazi
 		religion = jewish
-		size = 146
+		size = 346
 	}
 	aristocrats = {
 		culture = dutch
@@ -276,7 +276,7 @@
 	artisans = {
 		culture = ashkenazi
 		religion = jewish
-		size = 292
+		size = 1292
 	}
 	aristocrats = {
 		culture = dutch
@@ -323,7 +323,7 @@
 	artisans = {
 		culture = ashkenazi
 		religion = jewish
-		size = 146
+		size = 346
 	}
 	aristocrats = {
 		culture = dutch

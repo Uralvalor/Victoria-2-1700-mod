@@ -31,10 +31,6 @@ country_event = {
 			}
 		}
 		set_country_flag = iron_guard_active
-		add_country_modifier = {
-			name = iron_guard_terror
-			duration = -1
-		}
 	}
 }
 

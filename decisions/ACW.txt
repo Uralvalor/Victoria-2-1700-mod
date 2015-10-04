@@ -953,7 +953,7 @@ political_decisions = {
 	
 	webster_ashburton_treaty = {
 		potential = {
-                        exist = USA
+                        exists = USA
 			tag = ENG
 			NOT = {
 				has_country_flag = webster_ashburton_signed
