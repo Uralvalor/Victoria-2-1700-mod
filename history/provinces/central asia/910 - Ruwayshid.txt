@@ -3,6 +3,10 @@ add_core = JOR
 trade_goods = grain
 life_rating = 27
 terrain = desert
+1815.1.1 = {
+	owner = JSH
+	controller = JSH
+}
 1836.1.1 = {
 	owner = EGY
 	controller = EGY

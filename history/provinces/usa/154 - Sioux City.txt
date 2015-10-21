@@ -3,7 +3,10 @@
  
 trade_goods = grain
 life_rating = 35
-colony = yes
+1815.1.1 = {
+	owner = USA
+	controller = USA
+}
 terrain = temperate_grassland
 1750.1.1 = {
 	owner = FRA

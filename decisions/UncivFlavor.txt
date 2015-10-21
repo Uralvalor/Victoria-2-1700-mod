@@ -84,6 +84,8 @@ political_decisions = {
 			}
 		    release = CHI
 		    release_vassal = CHI
+		    release = TAI
+		    release_vassal = TAI
                     country_event=999991
 			set_country_flag = manchu_elite_cleared_out
 		}

@@ -9,6 +9,10 @@ terrain = hilly_farmland
 	owner = SAX
 	controller = SAX
 }
+1815.1.1 = {
+	owner = WEI
+	controller = WEI
+}
 1861.1.1 = { railroad = 3 }
 1914.1.1 = {
 	owner = GER

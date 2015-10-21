@@ -4,6 +4,10 @@ trade_goods = wool
 life_rating = 10
 terrain = desert_hills
 
+1815.1.1 = {
+	owner = JSH
+	controller = JSH
+}
 1923.1.1 = {
 	owner = NEJ
 	controller = NEJ

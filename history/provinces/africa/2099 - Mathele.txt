@@ -4,7 +4,12 @@ add_core = XHO
 add_core = SAF
 trade_goods = grain
 life_rating = 35
+
+1815.1.1 = {
+	owner = ENG
+	controller = ENG
 colonial = 2
+}
 terrain = dry_forest_hills
 1914.1.1 = {
 	owner = SAF

@@ -5,6 +5,10 @@ add_core = CHA
 trade_goods = tobacco
 life_rating = 30
 terrain = seasonal_jungle_hills
+1815.1.1 = {
+	owner = CHA
+	controller = CHA
+}
 1836.1.1 = {
 	owner = DAI
 	controller = DAI

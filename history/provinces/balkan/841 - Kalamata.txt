@@ -4,6 +4,10 @@ add_core = GRE
 trade_goods = fruit
 life_rating = 35
 terrain = dry_forest_hills
+1815.1.1 = {
+	owner = TUR
+	controller = TUR
+}
 1836.1.1 = {
 	owner = GRE
 	controller = GRE

@@ -4,6 +4,10 @@ add_core = SIA
 trade_goods = opium
 life_rating = 35
 terrain = dry_forest_mountains
+1815.1.1 = {
+	owner = BUR
+	controller = BUR
+}
 1914.1.1 = {
 	owner = ENG
 	controller = ENG

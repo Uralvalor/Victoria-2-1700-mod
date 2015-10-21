@@ -5,26 +5,31 @@ add_core = ITA
 trade_goods = fruit
 life_rating = 35
 terrain = floodplain_farmland
-#state_building = {
-#	level = 1
-#	building = steel_factory
-#	upgrade = yes
-#}
-#state_building = {
-#	level = 1
-#	building = fabric_factory
-#	upgrade = yes
-#}
-#state_building = {
-#	level = 1
-#	building = ammunition_factory
-#	upgrade = yes
-#}
-#state_building = {
-#	level = 1
-#	building = small_arms_factory
-#	upgrade = yes
-#}
+
+1815.1.1 = {
+	owner = SAR
+	controller = SAR
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = ammunition_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = small_arms_factory
+	upgrade = yes
+}
+}
 1861.1.1 = {
 	controller = ITA
 	owner = ITA

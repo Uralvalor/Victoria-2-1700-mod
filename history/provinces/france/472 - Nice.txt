@@ -5,6 +5,10 @@ add_core = ITA
 trade_goods = grain
 life_rating = 35
 terrain = deciduous_forest_mountains
+1815.1.1 = {
+	owner = SAR
+	controller = SAR
+}
 1861.1.1 = {
 	remove_core = ITA
 	remove_core = SAR

@@ -4,5 +4,9 @@ add_core = SPA
 trade_goods = fruit
 life_rating = 35
 terrain = dry_forest_hills
+1750.1.1 = {
+	owner = SPA
+	controller = SPA
+}
 1861.1.1 = { railroad = 2 }
 1914.1.1 = { railroad = 4 }

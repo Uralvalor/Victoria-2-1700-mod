@@ -3,6 +3,10 @@ add_core = IRQ
 trade_goods = sulphur
 life_rating = 27
 terrain = desert
+1815.1.1 = {
+	owner = JSH
+	controller = JSH
+}
 1923.1.1 = {
 	owner = ENG
 	controller = ENG

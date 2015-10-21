@@ -12,6 +12,10 @@ terrain = marginal_farmland
 add_core = KRN
 }
 
+1815.1.1 = {
+	owner = ENG
+	controller = ENG
+}
 1914.1.1 = {
 	naval_base = 4
 	colonial = 3

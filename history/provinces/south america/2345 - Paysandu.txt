@@ -13,6 +13,11 @@ terrain = marginal_farmland
 	controller = SPA
 colony = 2
 }
+1815.1.1 = {
+	owner = LPL
+	controller = LPL
+        colonial = no
+}
 1836.1.1 = {
 	owner = URU
 	controller = URU

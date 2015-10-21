@@ -7,6 +7,11 @@ add_core = MEX
 trade_goods = coffee
 life_rating = 30
 terrain = seasonal_jungle_hills
+1815.1.1 = {
+	owner = MEX
+	controller = MEX
+colonial = no 
+}
 1836.1.1 = {
 	owner = UCA
 	controller = UCA

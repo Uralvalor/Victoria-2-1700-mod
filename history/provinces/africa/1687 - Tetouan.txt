@@ -5,6 +5,11 @@ trade_goods = grain
 life_rating = 35
 terrain = mountain_grassland
 colonial = 2
+1815.1.1 = {
+	owner = MOR
+	controller = MOR
+colonial = no
+}
 1914.1.1 = {
 	owner = SPA
 	controller = SPA

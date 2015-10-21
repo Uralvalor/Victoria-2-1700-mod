@@ -1,8 +1,8 @@
 
 bookmark =
 {
-	name = "GC_NAME"
-	desc = "GC_DESC"
+	name = "GC_NAME1701"
+	desc = "GC_DESC1701"
 	date = 1701.9.1
 	cameraX = 2950 
 	cameraY = 1550
@@ -16,3 +16,30 @@ bookmark =
 	cameraX = 2950 
 	cameraY = 1550
 }
+
+bookmark =
+{
+	name = "HA_NAME"
+	desc = "HA_DESC"
+	date = 1816.1.1
+	cameraX = 2950 
+	cameraY = 1550
+}
+bookmark =
+{
+	name = "GC_NAME"
+	desc = "GC_DESC"
+	date = 1836.1.1
+	cameraX = 2950 
+	cameraY = 1550
+}
+
+bookmark =
+{
+	name = "ACW_NAME"
+	desc = "ACW_DESC"
+	date = 1861.7.1
+	cameraX = 1270 
+	cameraY = 1450
+}
+

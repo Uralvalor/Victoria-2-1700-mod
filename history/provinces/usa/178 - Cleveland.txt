@@ -9,6 +9,11 @@ terrain = forested_farmland
 	controller = FRA
 colony = 2
 }
+1815.1.1 = {
+	owner = USA
+	controller = USA
+colony = no
+}
 1836.1.1 = {
 	railroad = 1
 }

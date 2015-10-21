@@ -5,6 +5,10 @@ add_core = TCR
 terrain = city_1090
 trade_goods = wool
 life_rating = 30
+1815.1.1 = {
+	owner = RUS
+	controller = RUS
+}
 1923.1.1 = {
 	owner = SOV
 	controller = SOV

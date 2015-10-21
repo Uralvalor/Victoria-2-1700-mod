@@ -5,6 +5,10 @@ add_core = TCR
 terrain = forested_farmland
 trade_goods = grain
 life_rating = 30 
+1815.1.1 = {
+	owner = RUS
+	controller = RUS
+}
 1914.1.1 = {
 	trade_goods = oil
 }

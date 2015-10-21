@@ -7,7 +7,12 @@ add_core = QUE
 trade_goods = cattle
 life_rating = 35
 terrain = good_farmland
-colonial = 1
+
+1815.1.1 = {
+	owner = ENG
+	controller = ENG
+colony = 2
+}
 1861.1.1 = {
 	state_building = {
 		level = 1

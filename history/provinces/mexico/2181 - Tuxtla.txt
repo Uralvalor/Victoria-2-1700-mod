@@ -5,6 +5,11 @@ colonial = 2
 trade_goods = cotton
 life_rating = 30
 terrain = seasonal_jungle_mountains
+1815.1.1 = {
+	owner = MEX
+	controller = MEX
+colonial = no 
+}
 1836.1.1 = {
 	remove_core = SPA
 }

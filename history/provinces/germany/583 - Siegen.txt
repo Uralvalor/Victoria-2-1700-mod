@@ -5,6 +5,10 @@ add_core = GER
 trade_goods = cattle
 life_rating = 35
 terrain = deciduous_forest_hills
+1815.1.1 = {
+	owner = PRU
+	controller = PRU
+}
 1914.1.1 = {
 	owner = GER
 	controller = GER

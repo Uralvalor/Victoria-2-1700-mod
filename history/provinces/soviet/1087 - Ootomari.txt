@@ -6,6 +6,10 @@ add_core = SIB
 trade_goods = coal
 life_rating = 30
 terrain = conifer_forest_hills
+1815.1.1 = {
+	owner = XXX
+	controller = XXX
+}
 1914.1.1 = {
 	owner = JAP
 	controller = JAP

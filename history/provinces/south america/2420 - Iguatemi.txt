@@ -5,6 +5,10 @@ add_core = BRZ
 trade_goods = sulphur
 life_rating = 25
 terrain = dry_forest
+1815.1.1 = {
+	owner = PRG
+	controller = PRG
+}
 1914.1.1 = {
 	owner = BRZ
 	controller = BRZ

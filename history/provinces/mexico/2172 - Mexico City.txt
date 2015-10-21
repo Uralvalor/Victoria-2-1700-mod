@@ -6,6 +6,11 @@ terrain = city_2172
 trade_goods = grain
 life_rating = 35
 fort = 1
+1815.1.1 = {
+	owner = MEX
+	controller = MEX
+colonial = no 
+}
 1836.1.1 = {
 	remove_core = SPA
 }

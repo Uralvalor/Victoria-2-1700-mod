@@ -5,7 +5,12 @@ add_core = BSH
 add_core = SAF
 trade_goods = coal
 life_rating = 35
+
+1815.1.1 = {
+	owner = ENG
+	controller = ENG
 colonial = 2
+}
 terrain = mountain_farmland
 1914.1.1 = {
 	owner = SAF

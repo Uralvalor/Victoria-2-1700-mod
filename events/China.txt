@@ -194,7 +194,7 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTA95372"
-		ai_chance = { factor = 95 }
+		ai_chance = { factor = 65 }
 		remove_country_modifier = opium_addiction
 		set_global_flag = opium_war_possible
 		1493 = {	
@@ -204,6 +204,7 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTB95372"
+		ai_chance = { factor = 35 }
 	}
 }	
 country_event = {
@@ -227,7 +228,7 @@ country_event = {
 		war = {
 			target = MCK
 			attacker_goal = { 
-				casus_belli = demand_concession_casus_belli #acquire_state
+				casus_belli = place_in_the_sun #demand_concession_casus_belli #acquire_state
 				state_province_id = 1496  
 			}
 			attacker_goal = { 

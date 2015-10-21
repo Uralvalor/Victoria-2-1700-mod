@@ -5,7 +5,12 @@ add_core = MTC
 trade_goods = fish
 life_rating = 30
 terrain = boreal_marsh
-colonial = 1
+
+1815.1.1 = {
+	owner = ENG
+	controller = ENG
+colony = 1
+}
 1914.1.1 = {
 	owner = CAN
 	controller = CAN

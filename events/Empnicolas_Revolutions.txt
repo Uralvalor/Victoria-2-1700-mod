@@ -3,7 +3,8 @@ country_event = {
 	id = 100008
 
 	trigger = {
-		tag = FRA
+		rank = 1
+                tag = FRA
 		is_ideology_enabled = liberal 
 		election = no
 		OR = {
@@ -12,8 +13,7 @@ country_event = {
 			government = hms_government
 			}
 		NOT = { has_global_flag = revolution	}
-		year = 1780
-		is_greater_power = yes
+		malthusian_thought = 1
 			middle_tax = 0.5
 			poor_tax = 0.7
 			NOT = {
@@ -60,7 +60,7 @@ country_event = {
 		nationalvalue = liberty
 		government = democracy
 		aristocrats = { 
-				pop_type = soldiers
+				reduce_pop = 0.05
 					} 
 		plurality = 100
 	}
@@ -220,10 +220,12 @@ country_event = {
 	id = 140011
 
 	trigger = {
-		year = 1770
+		late_enlightenment_philosophy = 1
+		is_greater_power = yes
+		prestige = 100
 					OR = {
 						government = democracy
-						government = republique_revolutionaire
+						government = prussian_constitutionalism
 						government = empire_revolutionaire
 						}
 		not = { has_country_flag = revolution_peuple_influence }
@@ -235,12 +237,12 @@ country_event = {
 		days = 10
 	}
 
-	title = "EVTNAME100011"
-	desc = "EVTDESC100011"
+	title = "EVTNAME140011"
+	desc = "EVTDESC140011"
 	picture = "Revolution_fr"
 
 	option = {
-		name = "EVTOPTA100011"
+		name = "EVTOPTA140011"
 		set_country_flag = revolution_peuple_influence
 		any_country = {
 			limit = { 
@@ -254,7 +256,7 @@ country_event = {
 				sphere_owner = { 
 					OR = {
 						government = democracy
-						government = republique_revolutionaire
+						government = prussian_constitutionalism
 						government = empire_revolutionaire
 						}
 						}
@@ -270,12 +272,12 @@ country_event = {
 
 	is_triggered_only = yes
 
-	title = "EVTNAME100012"
-	desc = "EVTDESC100012"
+	title = "EVTNAME140012"
+	desc = "EVTDESC140012"
 	picture = "Revolution_fr"
 
 	option = {
-		name = "EVTOPTA100012"
+		name = "EVTOPTA140012"
 		political_reform = no_slavery
 		political_reform = universal_weighted_voting
 		political_reform = population_equal_weight
@@ -300,7 +302,7 @@ country_event = {
 		}
 	}	
 	option = {
-		name = "EVTOPTB100012"
+		name = "EVTOPTB140012"
 		war = {
 					
 					attacker_goal = {
@@ -308,7 +310,7 @@ country_event = {
 					}
 					target = FROM
 					defender_goal = {
-					casus_belli = propagation_revolution
+					casus_belli = add_to_sphere 
 					}
 			}		
 		ai_chance = {

@@ -9,6 +9,21 @@
 
 
 vassal = {
+	first = RUS
+	second = POL
+	start_date = 1811.1.1 
+	end_date = 1834.1.1
+}
+
+
+vassal = {
+	first = RUS
+	second = FIN
+	start_date = 1811.1.1 
+	end_date = 1834.1.1
+}
+
+vassal = {
 	first = AUS
 	second = BAD
 	start_date = 1601.1.1 

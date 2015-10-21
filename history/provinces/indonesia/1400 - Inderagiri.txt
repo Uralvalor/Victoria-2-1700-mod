@@ -4,5 +4,10 @@ add_core = SUM
 add_core = INO
 trade_goods = grain
 life_rating = 30
+
+1815.1.1 = {
+	owner = NET
+	controller = NET
 colonial = 2
+}
 terrain = jungle

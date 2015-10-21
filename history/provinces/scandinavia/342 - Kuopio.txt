@@ -5,6 +5,10 @@ add_core = SCA
 trade_goods = iron
 life_rating = 30
 terrain = boreal_forest
+1815.1.1 = {
+	owner = FIN
+	controller = FIN
+}
 1914.1.1 = { 
 	railroad = 2 
 	remove_core = SWE

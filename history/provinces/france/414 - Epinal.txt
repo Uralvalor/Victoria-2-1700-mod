@@ -6,5 +6,9 @@ add_core = HRE
 trade_goods = sulphur
 life_rating = 35
 terrain = deciduous_forest_hills
+1815.1.1 = {
+	owner = FRA
+	controller = FRA
+}
 1861.1.1 = { railroad = 3 }
 1914.1.1 = { railroad = 5 fort = 3 }

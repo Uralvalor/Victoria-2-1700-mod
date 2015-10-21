@@ -1,11 +1,13 @@
 owner = FRA
 controller = FRA
 colonial = 2 
-  
- 
- 
 trade_goods = cattle
 life_rating = 35
 terrain = deciduous_forest
+1815.1.1 = {
+	owner = USA
+	controller = USA
+colonial = no 
+}
 1861.1.1 = { railroad = 3 }
 1914.1.1 = { railroad = 5 }

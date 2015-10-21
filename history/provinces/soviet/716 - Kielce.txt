@@ -5,6 +5,10 @@ add_core = PLC
 trade_goods = wool
 life_rating = 35
 terrain = marginal_farmland
+1815.1.1 = {
+	owner = POL
+	controller = POL
+}
 1836.1.1 = { 
 	owner = RUS
 	controller = RUS

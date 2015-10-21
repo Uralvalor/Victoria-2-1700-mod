@@ -3,6 +3,11 @@ add_core = PEU
 trade_goods = tropical_wood
 life_rating = 30
 terrain = jungle
+1815.1.1 = {
+	owner = SPA
+	controller = SPA
+	colonial = 1
+}
 1836.1.1 = {
 	owner = PBC
 	controller = PBC

@@ -6,7 +6,12 @@ add_core = CAN
 trade_goods = grain
 life_rating = 35
 terrain = forested_farmland
-colonial = 1
+
+1815.1.1 = {
+	owner = ENG
+	controller = ENG
+colonial = 2 
+}
 1914.1.1 = {
 	owner = CAN
 	controller = CAN

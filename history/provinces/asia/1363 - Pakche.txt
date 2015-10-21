@@ -4,6 +4,10 @@ add_core = LUA
 trade_goods = grain
 life_rating = 30
 terrain = seasonal_jungle_hills
+1815.1.1 = {
+	owner = SIA
+	controller = SIA
+}
 1914.1.1 = {
 	owner = FRA
 	controller = FRA

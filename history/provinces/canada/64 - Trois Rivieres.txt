@@ -6,7 +6,12 @@ add_core = CAN
 add_core = QUE
 trade_goods = grain
 life_rating = 35
-colonial = 2
+
+1815.1.1 = {
+	owner = ENG
+	controller = ENG
+colony = 2
+}
 1914.1.1 = {
 	owner = CAN
 	controller = CAN

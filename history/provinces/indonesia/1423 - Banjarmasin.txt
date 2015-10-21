@@ -3,4 +3,9 @@ add_core = INO
 trade_goods = sulphur
 life_rating = 32
 terrain = jungle_farmland
+
+1815.1.1 = {
+	owner = NET
+	controller = NET
 colonial = 2
+}

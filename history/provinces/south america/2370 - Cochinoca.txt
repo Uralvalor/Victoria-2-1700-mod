@@ -10,6 +10,10 @@ add_core = LPL
 trade_goods = wool
 life_rating = 30
 terrain = cold_desert_mountains
+1815.1.1 = {
+	owner = LPL
+	controller = LPL
+}
 1836.1.1 = {
 	owner = PBC
 	controller = PBC

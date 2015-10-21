@@ -4,8 +4,12 @@ add_core = SUL
 add_core = PHI
 trade_goods = iron
 life_rating = 30
-colonial = 2
 terrain = jungle_hills
+1815.1.1 = {
+	owner = SPA
+	controller = SPA
+colonial = 2
+}
 1914.1.1 = {
 	owner = PHI
 	controller = PHI

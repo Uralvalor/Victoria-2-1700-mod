@@ -254,9 +254,9 @@ country_event = {
 		}
 		year = 1730
 		civilized = yes
-		literacy = 0.4
 		OR = {
-			pluralism = 10
+		pluralism = 10
+		literacy = 0.4
 		}
 	}
 	
@@ -288,10 +288,10 @@ country_event = {
 		}
 		is_ideology_enabled = liberal 
 		year = 1765 
-		literacy = 0.3
 		civilized = yes
 		OR = {
-			political_reform_want = 0.3
+		literacy = 0.3
+		political_reform_want = 0.3
 		}
 	}
 	

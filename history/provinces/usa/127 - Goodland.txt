@@ -5,6 +5,11 @@ trade_goods = fruit
 life_rating = 35
 colony = 2
 terrain = dry_grassland
+1815.1.1 = {
+	owner = USA
+	controller = USA
+	colonial = 1
+}
 1861.1.1 = {
 	colony = no
 	}

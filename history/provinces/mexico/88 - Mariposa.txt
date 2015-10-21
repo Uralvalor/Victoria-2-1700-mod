@@ -5,7 +5,13 @@ add_core = CAL
 trade_goods = fruit
 life_rating = 30
 terrain = dry_forest_hills
+1815.1.1 = {
+	owner = MEX
+	controller = SPA
+colonial = no 
+}
 1836.1.1 = {
+	controller = MEX
 	remove_core = SPA
 }
 1861.1.1 = {

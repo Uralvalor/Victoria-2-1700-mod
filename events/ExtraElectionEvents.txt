@@ -4459,6 +4459,7 @@ country_event = {
 	trigger = {
 		has_country_flag = election_initialized
 		election = yes
+		is_ideology_enabled = liberal
 		not = { has_country_modifier = election_cooldown }
 		not = { is_ideology_enabled = anarcho_liberal }
 		not = { is_ideology_enabled = socialist }

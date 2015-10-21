@@ -5,6 +5,12 @@ add_core = BRZ
 trade_goods = tobacco
 life_rating = 25
 terrain = swamp_jungle
+1815.1.1 = {
+	owner = SPA
+	controller = SPA
+	colonial = 1
+}
+
 1836.1.1 = {
 	owner = CLM
 	controller = CLM

@@ -6,6 +6,10 @@ add_core = HND
 trade_goods = cotton
 life_rating = 35
 terrain = dry_grassland
+1815.1.1 = {
+	owner = IND
+	controller = IND
+}
 1914.1.1 = {
 	owner = ENG
 	controller = ENG

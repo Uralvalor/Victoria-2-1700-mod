@@ -5,6 +5,10 @@ add_core = GER
 trade_goods = coal
 life_rating = 35
 terrain = marginal_farmland
+1815.1.1 = {
+	owner = OLD
+	controller = OLD
+}
 1914.1.1 = {
 	owner = GER
 	controller = GER

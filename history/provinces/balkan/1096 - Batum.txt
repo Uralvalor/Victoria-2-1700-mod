@@ -4,6 +4,10 @@ add_core = GEO
 trade_goods = tea
 life_rating = 35
 terrain = deciduous_forest_mountains
+1815.1.1 = {
+	owner = TUR
+	controller = TUR
+}
 1914.1.1 = {
 	owner = RUS
 	controller = RUS

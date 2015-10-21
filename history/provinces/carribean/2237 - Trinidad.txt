@@ -6,6 +6,10 @@ add_core = FWI
 trade_goods = cotton
 life_rating = 35
 terrain = jungle_farmland
+1815.1.1 = {
+	owner = ENG
+	controller = ENG
+}
 1914.1.1 = {
 	trade_goods = oil
 }

@@ -9,5 +9,10 @@ terrain = good_farmland
 	controller = FRA
 colony = 2
 }
+1815.1.1 = {
+	owner = USA
+	controller = USA
+colonial = no 
+}
 1861.1.1 = { railroad = 3 }
 1914.1.1 = { railroad = 5 }

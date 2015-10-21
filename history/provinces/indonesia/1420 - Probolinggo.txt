@@ -5,3 +5,9 @@ add_core = INO
 trade_goods = sulphur
 life_rating = 30
 terrain = seasonal_jungle_hills
+
+1815.1.1 = {
+	owner = NET
+	controller = NET
+colonial = 2
+}

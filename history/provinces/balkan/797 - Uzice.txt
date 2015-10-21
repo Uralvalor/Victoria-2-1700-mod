@@ -10,6 +10,10 @@ terrain = hilly_farmland
 	controller = AUS
 	colonial = no
 }
+1815.1.1 = {
+	owner = SER
+	controller = SER
+}
 1914.1.1 = {
 	fort = 3
 }

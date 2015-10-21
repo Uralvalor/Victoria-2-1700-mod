@@ -4,6 +4,10 @@ add_core = MGL
 trade_goods = cotton
 life_rating = 27
 terrain = mountain_grassland
+1815.1.1 = {
+	owner = MCK
+	controller = MCK
+}
 1923.1.1 = {
 	owner = MGL
 	controller = MGL

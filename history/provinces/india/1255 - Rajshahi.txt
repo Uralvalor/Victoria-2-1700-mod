@@ -5,6 +5,10 @@ add_core = HND
 trade_goods = grain
 life_rating = 35
 terrain = floodplain_farmland
+1815.1.1 = {
+	owner = ENG
+	controller = ENG
+}
 1914.1.1 = {
 	add_core = PAK
 	remove_core = HND

@@ -174,7 +174,7 @@ not = { has_country_flag = cri_in }
 	}
 
 	title = "ѕрисоединение  рым"
-	desc = " рым полностью под нашим вли€нием, что позвол€ет нам безболезненно присоедить эти земли."
+	desc = " рым полностью под нашим вли€нием, что позвол€ет нам мирно вз€ть под контроль эти земли."
 	picture = "Monarchy"
 
 	option = {
@@ -204,7 +204,7 @@ not = { has_country_flag = geo_in }
 	}
 
 	title = "ѕрисоединение √рузии"
-	desc = "√рузии православна€ держава, котора€ долгое врем€ находилась под властью мусульман, теперь наше вли€ние и прошение самого народа позвол€ют нам безболезненно присоедить √рузию в виде губернии."
+	desc = "√рузии православна€ держава, котора€ долгое врем€ находилась под властью мусульман, теперь наше вли€ние и просьба самого народа позвол€ют безболезненно присоедить √рузию в виде губернии."
 	picture = "Monarchy"
 
 	option = {
@@ -216,5 +216,87 @@ not = { has_country_flag = geo_in }
         TUR = { release_vassal = GEO }
         PER = { release_vassal = GEO }
 		inherit = GEO
+	}
+}
+
+
+# ќсвобождение православных
+country_event = {
+
+	id = 1100115
+
+
+	trigger = {
+	not = { has_country_flag = orth_free }
+		vassal_of = TUR
+		in_sphere = RUS
+		pop_majority_religion = orthodox
+		RUS = { has_country_flag = eastern_christians_up_in_here_yall 
+		        war = no }
+		TUR = {
+		is_greater_power = no
+        NOT = { alliance_with = RUS } }
+			}
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	title = "—вободное православное государство"
+	desc = "ћы православна€ страна, котора€ долгое врем€ находилась под властью ќсманской империи, теперь мы под полным вли€нием –оссии, что поможет нам освободитьс€ от турецкого господства."
+	picture = "Monarchy"
+
+	option = {
+		name = "¬перед к свободе !"
+		ai_chance = {
+			factor = 90
+		}
+					 TUR = { country_event = 1100116 }
+	}
+
+	option = {
+		name = "Ќестоит."
+		ai_chance = {
+			factor = 10
+		}
+				     set_country_flag = orth_free
+	}
+}
+
+
+country_event = {
+
+	id = 1100116
+
+
+	is_triggered_only = yes
+
+	title = "ќсвобождение православного государства"
+	desc = "ѕравославна€ страна, котора€ долгое врем€ находилась под нашей властью, теперь под полным вли€нием –оссии, так мы больше не сможем их контролировать !"
+	picture = "Monarchy"
+
+	option = {
+		name = "ќтпустим неверных"
+		ai_chance = {
+			factor = 70
+		}
+			release_vassal = FROM
+			FROM = { set_country_flag = orth_free }
+	}
+
+	option = {
+		name = "Ќикогда ! ¬ойна."
+		ai_chance = {
+			factor = 30
+		}
+			FROM = {
+				     set_country_flag = orth_free
+					 }
+		war = {
+	target = RUS
+	attacker_goal = {
+		casus_belli = humiliate 
+		country = RUS
+	}
+              }
 	}
 }

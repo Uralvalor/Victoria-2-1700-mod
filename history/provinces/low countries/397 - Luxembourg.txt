@@ -9,6 +9,10 @@ terrain = forested_farmland
 	owner = AUS
 	controller = AUS
 }
+1815.1.1 = {
+	owner = LUX
+	controller = LUX
+}
 1861.1.1 = { railroad = 3 }
 1914.1.1 = {
 	state_building = {

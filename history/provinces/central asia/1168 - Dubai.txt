@@ -4,6 +4,10 @@ add_core = DUB
 trade_goods = grain
 life_rating = 30
 terrain = semi_desert_hills
+1815.1.1 = {
+	owner = DUB
+	controller = DUB
+}
 1914.1.1 = {
 	owner = ENG
 	controller = ENG

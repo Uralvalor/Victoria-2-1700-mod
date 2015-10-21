@@ -6,6 +6,11 @@ add_core = INC
 trade_goods = grain
 life_rating = 35
 terrain = semi_desert_mountains
+1815.1.1 = {
+	owner = CHL
+	controller = CHL
+        colonial = no
+}
 1836.1.1 = {
 	remove_core = SPA
 }

@@ -323,6 +323,7 @@ country_event = {
 				continent = north_america
 				not = { is_core = CAN }
 				not = { is_core = MEX }
+				not = { is_core = HAI }
 				not = { is_core = FWI }
 			}
 		        add_core = USA 
@@ -400,6 +401,7 @@ country_event = {
 	   LOU = {
 		any_pop = { militancy = -10 consciousness = 10 }
 	   }
+			118 = { add_core = LOU }
 			139 = { add_core = LOU }
 			141 = { add_core = LOU }
 			140 = { add_core = LOU }

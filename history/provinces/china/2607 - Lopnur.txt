@@ -4,6 +4,10 @@ add_core = XIN
 trade_goods = cotton
 life_rating = 27
 terrain = desert
+1815.1.1 = {
+	owner = MCK
+	controller = MCK
+}
 1914.1.1 = {
 	add_core = XIN
 }

@@ -4,6 +4,10 @@ add_core = SEN
 trade_goods = grain
 life_rating = 35
 terrain = hilly_farmland
+1815.1.1 = {
+	owner = TKG
+	controller = TKG
+}
 1914.1.1 = {
 	railroad = 3
 	remove_core = TKG

@@ -6,7 +6,12 @@ add_core = HND
 trade_goods = tobacco
 life_rating = 35
 terrain = good_farmland
-1836 = {
+
+1815.1.1 = {
+	owner = BER
+	controller = BER
+}
+1836.1.1 = {
 	owner = ENG
 	controller = ENG
 	colonial = 2

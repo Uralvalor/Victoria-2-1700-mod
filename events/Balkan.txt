@@ -1052,6 +1052,7 @@ country_event = {
 	picture = "ottoman"
 
 	trigger = {
+                NOT = { alliance_with = TUR }
 		NOT = { has_global_flag = berlin_congress_held }
 		NOT = { has_global_flag = scenario_1914_activated }
 		NOT = { has_global_flag = scenario_1923_activated }

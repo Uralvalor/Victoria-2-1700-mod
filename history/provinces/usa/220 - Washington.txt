@@ -7,11 +7,17 @@ trade_goods = grain
 life_rating = 35
 fort = 1
 terrain = city_220
-#state_building = {
-#	level = 1
-#	building = ammunition_factory
-#	upgrade = yes
-#}
+1815.1.1 = {
+	owner = USA
+	controller = USA
+colonial = no 
+
+state_building = {
+	level = 1
+	building = ammunition_factory
+	upgrade = yes
+}
+}
 1750.1.1 = {
 	owner = ENG
 	controller = ENG

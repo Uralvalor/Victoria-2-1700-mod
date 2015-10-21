@@ -406,7 +406,15 @@ political_decisions = {
 	unite_the_daimyos = {
 		picture = abolish_the_han_system
 		potential = {
-			tag = TKG
+					OR = {
+						tag = TKG
+						tag = SEN
+						tag = YZW
+						tag = CHO
+						tag = SAT
+						tag = TOS
+						tag = KAG
+					}
 			government = absolute_monarchy
 			JAP = { exists = no }
 			OR = {
@@ -459,7 +467,7 @@ political_decisions = {
 			remove_country_modifier = ansei_purge
 			remove_country_modifier = kobu_gattai
 			1649 = {
-				life_rating = 10
+				life_rating = 5
 				add_province_modifier = {
 					name = gateway_to_harbor
 					duration = -1
@@ -474,6 +482,7 @@ political_decisions = {
 			any_country = {
 				limit = {
 					OR = {
+						tag = TKG
 						tag = SEN
 						tag = YZW
 						tag = CHO
@@ -495,7 +504,16 @@ political_decisions = {
 	
 	become_japan = {
 		potential = {
-			tag = TKG
+			
+					OR = {
+						tag = TKG
+						tag = SEN
+						tag = YZW
+						tag = CHO
+						tag = SAT
+						tag = TOS
+						tag = KAG
+					}
 			JAP = { exists = no }
 		}
 		
@@ -518,16 +536,11 @@ political_decisions = {
 				consciousness = -3
 				militancy = -6
 			}
-			TKG = {
-				all_core = {
-					remove_core = TKG
-					add_core = JAP
-				}
-			}
 			change_tag = JAP
 			any_country = {
 				limit = {
 					OR = {
+						tag = TKG
 						tag = SEN
 						tag = YZW
 						tag = CHO

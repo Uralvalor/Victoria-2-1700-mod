@@ -12,6 +12,10 @@ state_building = {
 	building = ammunition_factory
 	upgrade = yes
 }
+1815.1.1 = {
+	owner = HAN
+	controller = HAN
+}
 1914.1.1 = {
 	owner = GER
 	controller = GER

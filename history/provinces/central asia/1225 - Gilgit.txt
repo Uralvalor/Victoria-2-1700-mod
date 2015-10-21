@@ -6,6 +6,10 @@ add_core = HND
 trade_goods = tea
 life_rating = 27
 terrain = tundra_mountains
+1815.1.1 = {
+	owner = KAS
+	controller = KAS
+}
 1836.1.1 = {
 	owner = PAN
 	controller = PAN

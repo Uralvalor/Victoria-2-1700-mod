@@ -4,6 +4,10 @@ add_core = ABU
 trade_goods = grain
 life_rating = 30
 terrain = desert
+1815.1.1 = {
+	owner = ABU
+	controller = ABU
+}
 1914.1.1 = {
 	owner = ENG
 	controller = ENG

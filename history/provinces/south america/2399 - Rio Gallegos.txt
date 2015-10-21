@@ -5,7 +5,12 @@
 trade_goods = wool
 life_rating = 25
 terrain = cold_desert
-colonial = 1
+
+1815.1.1 = {
+	owner = LPL
+	controller = LPL
+        colonial = 1
+}
 1836.1.1 = {
 	owner = ARG
 	controller = ARG

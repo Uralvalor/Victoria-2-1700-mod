@@ -8,6 +8,12 @@ terrain = good_farmland
 1750.1.1 = {
 	controller = PLC
 }
+1815.1.1 = {
+		controller = RUS
+		owner = RUS
+		}
+
+
 1914.1.1 = {
 	remove_core = PLC
 }

@@ -4,6 +4,10 @@ add_core = KOK
 trade_goods = wool
 life_rating = 30
 terrain = mountain_grassland
+1815.1.1 = {
+	owner = KOK
+	controller = KOK
+}
 1914.1.1 = {
 	owner = RUS
 	controller = RUS

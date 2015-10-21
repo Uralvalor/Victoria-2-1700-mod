@@ -7,6 +7,10 @@ add_core = HND
 	controller = BAS
 }
 
+1815.1.1 = {
+	owner = ENG
+	controller = ENG
+}
 trade_goods = grain
 life_rating = 35
 terrain = floodplain_farmland

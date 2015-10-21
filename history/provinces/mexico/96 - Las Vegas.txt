@@ -4,7 +4,13 @@ add_core = DES
 trade_goods = iron
 life_rating = 30
 terrain = semi_desert_mountains
+1815.1.1 = {
+	owner = MEX
+	controller = SPA
+colonial = no 
+}
 1836.1.1 = {
+	controller = MEX
 	remove_core = SPA
 }
 1861.1.1 = {

@@ -5,6 +5,10 @@ trade_goods = grain
 life_rating = 35
 terrain = deciduous_forest_hills
 fort = 1
+1815.1.1 = {
+	owner = TUR
+	controller = TUR
+}
 1836.1.1 = {
 	owner = RUS
 	controller = RUS

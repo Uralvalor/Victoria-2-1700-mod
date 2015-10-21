@@ -46,6 +46,7 @@ political_decisions = {
 
 		effect = {
 			set_global_flag = hre_dismantled 
+			AUS = { prestige = -10 }
 			any_country = {
 				limit = {
 				OR = {

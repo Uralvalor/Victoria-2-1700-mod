@@ -4,6 +4,10 @@ add_core = YZW
 trade_goods = silk
 life_rating = 35
 terrain = deciduous_forest_hills
+1815.1.1 = {
+	owner = YZW
+	controller = YZW
+}
 1914.1.1 = {
 	railroad = 3
 	remove_core = YZW

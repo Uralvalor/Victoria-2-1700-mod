@@ -5,6 +5,10 @@ add_core = GER
 trade_goods = grain
 life_rating = 35
 terrain = deciduous_forest_hills
+1815.1.1 = {
+	owner = BAD
+	controller = BAD
+}
 1861.1.1 = { railroad = 3 }
 1914.1.1 = {
 	owner = GER

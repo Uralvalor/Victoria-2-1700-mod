@@ -5,6 +5,10 @@ trade_goods = tobacco
 life_rating = 30
 colonial = 2
 terrain = jungle_mountains
+1815.1.1 = {
+	owner = ENG
+	controller = ENG
+}
 1836.1.1 = {
 	owner = NET
 	controller = NET

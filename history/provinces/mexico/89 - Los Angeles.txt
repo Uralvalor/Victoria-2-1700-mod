@@ -5,7 +5,13 @@ add_core = CAL
 terrain = city_89
 trade_goods = grain
 life_rating = 35
+1815.1.1 = {
+	owner = MEX
+	controller = SPA
+colonial = no 
+}
 1836.1.1 = {
+	controller = MEX
 	remove_core = SPA
 }
 1861.1.1 = {

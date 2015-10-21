@@ -5,6 +5,10 @@ trade_goods = fruit
 life_rating = 35
 terrain = hilly_farmland
 naval_base = 1
+1815.1.1 = {
+	owner = TUR
+	controller = TUR
+}
 1836.1.1 = {
 	owner = GRE
 	controller = GRE

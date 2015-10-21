@@ -8,6 +8,10 @@ terrain = forested_farmland
 1750.1.1 = {
 	controller = PLC
 }
+1815.1.1 = {
+	owner = RUS
+	controller = RUS
+}
 1914.1.1 = {
 	remove_core = PLC
 }

@@ -12,6 +12,11 @@ terrain = conifer_forest_hills
 	controller = FRA
 colony = 2
 }
+1815.1.1 = {
+	owner = USA
+	controller = USA
+colony = no
+}
 1861.1.1 = {
 	colony = no
 	}

@@ -3,3 +3,7 @@ add_core = NEJ
 trade_goods = grain
 life_rating = 10
 terrain = desert
+1815.1.1 = {
+	owner = NEJ
+	controller = NEJ
+}

@@ -19,6 +19,11 @@ party_loyalty = {
 
 naval_base = 1
 }
+1815.1.1 = {
+	owner = USA
+	controller = USA
+colonial = no 
+}
 1816.1.1 = { state_building = {
 	level = 1
 	building = cement_factory

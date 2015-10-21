@@ -5,16 +5,21 @@ add_core = GER
 trade_goods = grain
 life_rating = 35
 terrain = good_farmland
-#state_building = {
-#	level = 1
-#	building = lumber_mill
-#	upgrade = yes
-#}
-#state_building = {
-#	level = 1
-#	building = paper_mill
-#	upgrade = yes
-#}
+1815.1.1 = {
+	owner = BAV
+	controller = BAV
+
+state_building = {
+	level = 1
+	building = lumber_mill
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = paper_mill
+	upgrade = yes
+}
+}
 1750.1.1 = {
 	owner = WUR
 	controller = WUR

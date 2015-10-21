@@ -4,6 +4,10 @@ add_core = KHI
 trade_goods = grain
 life_rating = 27
 terrain = desert
+1815.1.1 = {
+	owner = XXX
+	controller = XXX
+}
 1861.1.1 = {
 	owner = RUS
 	controller = RUS

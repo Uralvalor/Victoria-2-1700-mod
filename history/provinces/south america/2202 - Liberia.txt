@@ -7,6 +7,11 @@ add_core = MEX
 trade_goods = fruit
 life_rating = 30
 terrain = hilly_farmland
+1815.1.1 = {
+	owner = MEX
+	controller = SPA
+colonial = no 
+}
 1836.1.1 = {
 	owner = UCA
 	controller = UCA

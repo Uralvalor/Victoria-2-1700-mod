@@ -9,6 +9,11 @@ colonial = 2
 trade_goods = grain
 life_rating = 35
 terrain = semi_desert_hills
+1815.1.1 = {
+	owner = LPL
+	controller = LPL
+        colonial = no
+}
 1836.1.1 = {
 	owner = ARG
 	controller = ARG

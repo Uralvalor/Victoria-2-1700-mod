@@ -5,6 +5,10 @@ terrain = conifer_forest_mountains
 add_core = ITA
 trade_goods = wool
 life_rating = 35
+1815.1.1 = {
+	owner = SAR
+	controller = SAR
+}
 1861.1.1 = {
 	controller = ITA
 	owner = ITA

@@ -7,6 +7,10 @@ trade_goods = fish
 life_rating = 35
 naval_base = 1
 terrain = marginal_farmland
+1815.1.1 = {
+	owner = BRE
+	controller = BRE
+}
 1861.1.1 = { railroad = 3 }
 1914.1.1 = {
 	owner = GER

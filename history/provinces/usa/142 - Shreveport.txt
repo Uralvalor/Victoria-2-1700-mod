@@ -5,6 +5,11 @@ terrain = forested_farmland
  
 trade_goods = sulphur
 life_rating = 35
+1815.1.1 = {
+	owner = USA
+	controller = USA
+colonial = no 
+}
 1861.1.1 = {
 	controller = CSA
 	owner = CSA

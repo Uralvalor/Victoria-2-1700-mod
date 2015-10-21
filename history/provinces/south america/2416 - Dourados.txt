@@ -3,6 +3,11 @@ add_core = BRZ
 trade_goods = fruit
 life_rating = 25
 terrain = dry_forest
+1815.1.1 = {
+	owner = POR
+	controller = POR
+colony = 2
+}
 1836.1.1 = {
 	owner = BRZ
 	controller = BRZ

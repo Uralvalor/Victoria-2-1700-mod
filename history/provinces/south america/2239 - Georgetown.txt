@@ -5,6 +5,11 @@ trade_goods = fruit
 life_rating = 30
 colonial = 2
 terrain = swamp_jungle
+1815.1.1 = {
+	owner = ENG
+	controller = ENG
+}
+
 1861.1.1 = { railroad = 1 }
 
 1914.1.1 = {

@@ -4,6 +4,11 @@ add_core = TOO
 trade_goods = fruit
 life_rating = 30
 terrain = semi_desert
+1815.1.1 = {
+	owner = FRA
+	controller = FRA
+colonial = 2
+}
 1914.1.1 = {
 	owner = FRA
 	controller = FRA

@@ -3,6 +3,10 @@ add_core = OMA
 trade_goods = opium
 life_rating = 30
 terrain = desert_hills
+1815.1.1 = {
+	owner = OMA
+	controller = OMA
+}
 1914.1.1 = {
 	owner = ENG
 	controller = ENG

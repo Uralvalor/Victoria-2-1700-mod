@@ -6,6 +6,10 @@ add_core = ROM
 trade_goods = fish
 life_rating = 35
 terrain = dry_grassland
+1815.1.1 = {
+	owner = TUR
+	controller = TUR
+}
 1861.1.1 = {
 	controller = ROM
 	owner = ROM
