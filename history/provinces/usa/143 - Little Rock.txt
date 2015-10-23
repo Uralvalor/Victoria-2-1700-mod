@@ -5,8 +5,7 @@ terrain = floodplain_farmland
 
 trade_goods = grain
 life_rating = 35
-1815.1.1 = {
-	owner = USA
+1815.1.1 = { owner = USA add_core = USA
 	controller = USA
 colonial = no 
 }

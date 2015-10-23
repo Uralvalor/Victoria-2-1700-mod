@@ -532,54 +532,54 @@ Sanction8 = {
 			prestige = 5
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 0
 		}
 	}
 
-	1763treaty = {
-		potential = {
-			tag = ENG
-			year = 1755
-			war_with = FRA
-			NOT = {
-			year = 1770
-			has_country_flag = treatyofparis
-			}
-		}
-		allow = {
-			rank = 1
-			prestige = 100
-			QUE = {
-				all_core = {
-					controlled_by = ENG
-				}
-			}
-		}
-		effect = {
-			FRA = {release = CAN}
-			FRA = {release = USA}
-			MEX = {release = LOU}
-			SPA = {release = LOU}
-			inherit = CAN
-			inherit = LOU
-			inherit = USA
-			FRA = {release = LOU}
-			inherit = LOU
-			139 = {
-				secede_province = MEX
-			}
-			141 = {
-				secede_province = MEX
-			}
-			142 = {
-				secede_province = MEX
-			}
-			USA_144 = {
-				secede_province = MEX
-			}
-			set_country_flag = treatyofparis
-		}
-	}
+#	1763treaty = {
+#		potential = {
+#			tag = ENG
+#			year = 1755
+#			war_with = FRA
+#			NOT = {
+#			year = 1770
+#			has_country_flag = treatyofparis
+#			}
+#		}
+#		allow = {
+#			rank = 1
+#			prestige = 100
+#			QUE = {
+#				all_core = {
+#					controlled_by = ENG
+#				}
+#			}
+#		}
+#		effect = {
+#			FRA = {release = CAN}
+#			FRA = {release = USA}
+#			MEX = {release = LOU}
+#			SPA = {release = LOU}
+#			inherit = CAN
+#			inherit = LOU
+#			inherit = USA
+#			FRA = {release = LOU}
+#			inherit = LOU
+#			139 = {
+#				secede_province = MEX
+#			}
+#			141 = {
+#				secede_province = MEX
+#			}
+#			142 = {
+#				secede_province = MEX
+#			}
+#			USA_144 = {
+#				secede_province = MEX
+#			}
+#			set_country_flag = treatyofparis
+#		}
+#	}
 
 	become_england = {
 		potential = {
@@ -1062,5 +1062,341 @@ value = 120
 			set_country_flag = collector_of_russian_lands
 		}
 	}
+
+	forming_thirteen_colonies = {
+	    alert = no
+		picture = louisianapurchasepic
+		potential = {
+			OR = {
+				tag = ENL
+				tag = ENG
+			}
+		NOT = {	has_global_flag = forming_thirteen_colonies	}
+		any_owned_province  = {
+				continent = north_america
+				not = { is_core = CAN }
+				not = { is_core = MEX }
+				not = { is_core = HAI }
+				not = { is_core = FWI }
+			}
+		}
+		allow = {
+		}
+		effect = {
 		
+		set_global_flag = forming_thirteen_colonies
+		prestige = -10
+		war_exhaustion = -5
+			release = XCT
+			create_vassal = XCT
+			diplomatic_influence = {
+				who = XCT
+				value = 400
+			}
+			create_alliance = XCT
+			XCT = {
+				prestige_factor = -1
+				add_county_modifier = {
+					name = new_world 
+					duration = 5000
+				}
+			}
+			release = NEN
+			create_vassal = NEN
+			diplomatic_influence = {
+				who = NEN
+				value = 400
+			}
+			create_alliance = NEN
+			NEN = {
+				prestige_factor = -1
+				add_county_modifier = {
+					name = new_world 
+					duration = 5000
+				}
+			}
+			release = XDE
+			create_vassal = XDE
+			diplomatic_influence = {
+				who = XDE
+				value = 400
+			}
+			create_alliance = XDE
+			XDE = {
+				prestige_factor = -1
+				add_county_modifier = {
+					name = new_world 
+					duration = 5000
+				}
+			}
+			release = XFL
+			create_vassal = XFL
+			diplomatic_influence = {
+				who = XFL
+				value = 400
+			}
+			create_alliance = XFL
+			XFL = {
+				prestige_factor = -1
+				add_county_modifier = {
+					name = new_world 
+					duration = 5000
+				}
+			}
+			release = XGA
+			create_vassal = XGA
+			diplomatic_influence = {
+				who = XGA
+				value = 400
+			}
+			create_alliance = XGA
+			XGA = {
+				prestige_factor = -1
+				add_county_modifier = {
+					name = new_world 
+					duration = 5000
+				}
+			}
+			release = XKY
+			create_vassal = XKY
+			diplomatic_influence = {
+				who = XKY
+				value = 400
+			}
+			create_alliance = XKY
+			XKY = {
+				prestige_factor = -1
+				add_county_modifier = {
+					name = new_world 
+					duration = 5000
+				}
+			}
+			release = XMA
+			create_vassal = XMA
+			diplomatic_influence = {
+				who = XMA
+				value = 400
+			}
+			create_alliance = XMA
+			XMA = {
+				prestige_factor = -1
+				add_county_modifier = {
+					name = new_world 
+					duration = 5000
+				}
+			}
+			release = XMD
+			create_vassal = XMD
+			diplomatic_influence = {
+				who = XMD
+				value = 400
+			}
+			create_alliance = XMD
+			XMD = {
+				prestige_factor = -1
+				add_county_modifier = {
+					name = new_world 
+					duration = 5000
+				}
+			}
+			release = XNC
+			create_vassal = XNC
+			diplomatic_influence = {
+				who = XNC
+				value = 400
+			}
+			create_alliance = XNC
+			XNC = {
+				prestige_factor = -1
+				add_county_modifier = {
+					name = new_world 
+					duration = 5000
+				}
+			}
+			release = XNH
+			create_vassal = XNH
+			diplomatic_influence = {
+				who = XNH
+				value = 400
+			}
+			create_alliance = XNH
+			XNH = {
+				prestige_factor = -1
+				add_county_modifier = {
+					name = new_world 
+					duration = 5000
+				}
+			}
+			release = XNJ
+			create_vassal = XNJ
+			diplomatic_influence = {
+				who = XNJ
+				value = 400
+			}
+			create_alliance = XNJ
+			XNJ = {
+				prestige_factor = -1
+				add_county_modifier = {
+					name = new_world 
+					duration = 5000
+				}
+			}
+			release = XNY
+			create_vassal = XNY
+			diplomatic_influence = {
+				who = XNY
+				value = 400
+			}
+			create_alliance = XNY
+			XNY = {
+				prestige_factor = -1
+				add_county_modifier = {
+					name = new_world 
+					duration = 5000
+				}
+			}
+			release = XPA
+			create_vassal = XPA
+			diplomatic_influence = {
+				who = XPA
+				value = 400
+			}
+			create_alliance = XPA
+			XPA = {
+				prestige_factor = -1
+				add_county_modifier = {
+					name = new_world 
+					duration = 5000
+				}
+			}
+			release = XSC
+			create_vassal = XSC
+			diplomatic_influence = {
+				who = XSC
+				value = 400
+			}
+			create_alliance = XSC
+			XSC = {
+				prestige_factor = -1
+				add_county_modifier = {
+					name = new_world 
+					duration = 5000
+				}
+			}
+			release = XTN
+			create_vassal = XTN
+			diplomatic_influence = {
+				who = XTN
+				value = 400
+			}
+			create_alliance = XTN
+			XTN = {
+				prestige_factor = -1
+				add_county_modifier = {
+					name = new_world 
+					duration = 5000
+				}
+			}
+			release = XVA
+			create_vassal = XVA
+			diplomatic_influence = {
+				who = XVA
+				value = 400
+			}
+			create_alliance = XVA
+			XVA = {
+				prestige_factor = -1
+				add_county_modifier = {
+					name = new_world 
+					duration = 5000
+				}
+			}
+			release = XVT
+			create_vassal = XVT
+			diplomatic_influence = {
+				who = XVT
+				value = 400
+			}
+			create_alliance = XVT
+			XVT = {
+				prestige_factor = -1
+				add_county_modifier = {
+					name = new_world 
+					duration = 5000
+				}
+			}
+		any_owned = {
+			limit = {
+				continent = north_america
+				not = { is_core = CAN }
+				not = { is_core = MEX }
+				not = { is_core = HAI }
+				not = { is_core = FWI }
+			}
+		        add_core = COA 
+                secede_province = COA 
+		            }
+			release = COA
+			create_vassal = COA
+			diplomatic_influence = {
+				who = COA
+				value = 400
+			}
+			create_alliance = COA
+			COA = {
+				prestige_factor = -1
+				add_county_modifier = {
+					name = new_world 
+					duration = 5000
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.05
+			modifier = {
+				factor = 0.25			
+				trade_policy = protectionism 
+			}
+			modifier = {
+				factor = 0			
+				war_policy  = jingoism  
+			}
+	}
+ }
+ 
+	annex_to_usa = {
+		potential = {
+		tag = USA
+		NOT = { year = 1815 }
+		has_global_flag = forming_thirteen_colonies
+		is_greater_power = yes
+		}
+		allow = {
+		NOT = { badboy = 0.5 }
+		any_neighbor_country ={
+					relation = { who = THIS value = 100 }
+					NOT={war_with=THIS}			
+		            capital_scope = {
+						continent = north_america
+					}
+					in_sphere=THIS
+					NOT = { has_country_flag = cancel_treaty }
+			}
+		}
+		effect = {
+		badboy=2.5
+		random_country={
+			limit = {
+					relation = { who = THIS value = 100 }
+					NOT = { has_country_flag = cancel_treaty }
+					NOT={war_with=THIS}			
+		            capital_scope = {
+						continent = north_america
+					}
+					in_sphere=THIS
+			}
+            country_event = 770001
+		}
+		}
+	}
 }

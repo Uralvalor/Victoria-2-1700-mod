@@ -3,10 +3,7 @@
  
 trade_goods = grain
 life_rating = 35
-1815.1.1 = {
-	owner = USA
-	controller = USA
-}
+1815.1.1 = { owner = USA controller = USA add_core = USA }
 terrain = temperate_grassland
 1750.1.1 = {
 	owner = FRA

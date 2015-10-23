@@ -7,8 +7,7 @@ terrain = conifer_forest_mountains
 	controller = FRA
 colony = 1
 }
-1815.1.1 = {
-	owner = USA
+1815.1.1 = { owner = USA add_core = USA
 	controller = USA
 	colonial = 1
 }

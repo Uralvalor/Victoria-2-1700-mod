@@ -28,4 +28,32 @@ political_decisions = {
 		
 		}
 	}
+	louisiana_purchase = {
+	picture = louisianapurchasepic
+		potential = {
+		USA = { is_greater_power = yes }
+		tag = FRA
+		NOT = {
+		has_global_flag = louisiana_sold
+			}
+				}
+		allow = {
+		any_owned_province = {
+				continent = north_america
+				not = { is_core = HAI }
+				not = { is_core = FWI }
+			}
+			NOT = {
+			war_with = USA
+				}
+			}
+
+
+		effect = {
+		set_global_flag = louisiana_sold
+                USA = {
+                         country_event = 400009 
+                      }
+				}
+			}
 }

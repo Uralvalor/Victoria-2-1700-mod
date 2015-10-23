@@ -62,4 +62,10 @@ nonstate_consciousness = 0
 oob = "WAL_oob.txt"
 
 1750.1.1 = {
-civilized = yes }
+civilized = yes
+decision  = abolish_serfdom  }
+
+1815.1.1 = { 
+decision  = abolish_serfdom 
+civilized = yes
+oob = "/1816/WAL_oob.txt" }

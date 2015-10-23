@@ -59,3 +59,7 @@ oob = "AUS_oob.txt"
 1750.1.1 = {
 oob = "/1756/AUS_oob.txt"
  }
+
+1815.1.1 = { 
+decision  = abolish_serfdom 
+oob = "/1816/AUS_oob.txt" }

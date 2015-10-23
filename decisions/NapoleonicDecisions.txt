@@ -128,13 +128,16 @@ political_decisions = {
 		potential = {
 			tag = FRA
 			exists = POR
+		    has_global_flag = revolution
 			is_greater_power = yes
 			NOT = { has_country_flag = portugal_plan
 				}
 			year = 1790
+            NOT = { year = 1815 }
 		}		
 		allow = {
 			war_with = POR
+			POR = { alliance_with = ENG }
 			518 = { controlled_by = THIS }
 			519 = { controlled_by = THIS }
 			520 = { controlled_by = THIS }
@@ -150,21 +153,16 @@ political_decisions = {
 		effect = {
 			POR = {
 			government = prussian_constitutionalism
-			release = NRL
-			release = ALG
 			}
 			prestige = 50
+			525 = {secede_province = SPA }
+			526 = {secede_province = SPA }
+			527 = {secede_province = SPA }
 			inherit = POR
-			release_vassal = POR
-			inherit = NRL
-			inherit = ALG
-			release_vassal = NRL
-			release_vassal = ALG
+			518 = {secede_province = POR }
 			diplomatic_influence = { who = POR value = 200 }
-			diplomatic_influence = { who = ALG value = 200 }
-			diplomatic_influence = { who = NRL value = 200 }
 			any_pop = {
-				militancy = -5
+				militancy = -2
 			}
 			set_country_flag = portugal_plan
 		}

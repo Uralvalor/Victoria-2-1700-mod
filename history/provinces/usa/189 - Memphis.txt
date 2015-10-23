@@ -1,5 +1,6 @@
 
- 
+
+add_core = XTN
 trade_goods = cotton
 life_rating = 35
 terrain = forested_farmland
@@ -8,8 +9,7 @@ terrain = forested_farmland
 	controller = FRA
 colony = 2
 }
-1815.1.1 = {
-	owner = USA
+1815.1.1 = { owner = USA add_core = USA
 	controller = USA
 colonial = no 
 }

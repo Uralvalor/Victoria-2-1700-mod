@@ -1,6 +1,7 @@
  
  
- 
+
+add_core = XTN
 trade_goods = coal
 life_rating = 35
 terrain = hilly_farmland
@@ -9,8 +10,7 @@ terrain = hilly_farmland
 	controller = ENG
 colony = 2
 }
-1815.1.1 = {
-	owner = USA
+1815.1.1 = { owner = USA add_core = USA
 	controller = USA
 colonial = no 
 }

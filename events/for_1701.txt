@@ -292,6 +292,9 @@ country_event = {
 	trigger = {
 		tag = ENG
 		NOT = { exists = USA }
+			NOT = {
+				has_global_flag = forming_thirteen_colonies
+			}
 		trade_policy = protectionism
 		freedom_of_trade = 1
 		any_owned_province = {
@@ -362,6 +365,7 @@ country_event = {
 	trigger = {
 		tag = FRA
 		NOT = { exists = LOU }
+                NOT = { year = 1816 }
                 enlightenment_thought = 1
 		any_owned_province = {
 				continent = north_america
@@ -1937,7 +1941,106 @@ country_event = {
 	option = {
 		name = "EVTOPTA100000030"
 		change_tag = POL
-		prestige = -100
+		prestige = -50
 		any_pop = { militancy = 3 consciousness = 3 }
 	}
 }
+
+
+
+country_event = {
+	id = 400009
+	title = "Продажа Луизианы"
+	desc = "Франция предлагает купить их Луизиану. Мы можем согласиться либо отказаться от этой сделки."
+	picture = administration
+	is_triggered_only = yes
+
+	option = {
+	name = "Конечно согласны"
+	relation = {
+		who = FRA
+		value = 50
+	}
+	prestige = 10
+	money = -500000
+	FRA = {
+		money = 500000
+	}
+	FRA = { 		any_owned = {
+			limit = {
+				continent = north_america
+				not = { is_core = HAI }
+				not = { is_core = FWI }
+			}
+		        add_core = USA 
+                secede_province = USA 
+		            } }
+    }
+        option = {
+        name = "Отказываемся"
+        relation = {
+                    who = FRA
+                    value = -50
+                  }
+        }
+	}
+	
+
+country_event = {
+	id = 770001
+	title = "eventname770001"
+	desc = "eventdesc770001"
+	picture = administration
+	is_triggered_only = yes
+
+	option = {
+	name = "Конечно согласны"
+	USA = { inherit = THIS }
+	USA = { prestige = 5 }
+	}
+   
+    option = {
+        name = "Отказываемся"
+		set_country_flag = cancel_treaty
+	USA = { prestige = -2 }
+        relation = {
+                    who = USA
+                    value = -50
+                  }
+        }
+	}
+
+country_event = {
+	id = 770002
+	title = "eventname770002"
+	desc = "eventdesc770002"
+	picture = administration
+	
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {		
+	    is_greater_power= yes
+		NOT = { exists = USA }
+	    NOT = { tag = CAN }
+	    NOT = { tag = USA }
+	    NOT = { tag = MEX }
+	    NOT = { tag = HAI }
+	    NOT = { tag = FWI }
+		war = no
+		is_independant = yes
+		capital_scope = {
+						continent = north_america
+					}
+		NOT = { year = 1815 }
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+
+    option = {
+        name = "От моря до моря"
+		prestige = 10
+		change_tag = USA
+        }
+	}

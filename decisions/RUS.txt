@@ -329,6 +329,8 @@ political_decisions = {
 	}
 	
 	move_capital_to_moscow = {
+
+	alert = no
 		potential = {
 			tag = RUS
 			#NOT = { owns = 339 } # Viipuri

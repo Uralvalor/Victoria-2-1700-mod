@@ -5,12 +5,11 @@ trade_goods = iron
 life_rating = 35
 terrain = forested_farmland
 1750.1.1 = {
-	owner = ENG
-	controller = ENG
+	owner = FRA
+	controller = FRA
 colony = 2
 }
-1815.1.1 = {
-	owner = USA
+1815.1.1 = { owner = USA add_core = USA
 	controller = USA
 colonial = no 
 }

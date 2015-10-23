@@ -56,4 +56,10 @@ nonstate_consciousness = 0
 
 oob = "MOL_oob.txt"
 1750.1.1 = {
-civilized = yes }
+civilized = yes
+decision  = abolish_serfdom  }
+1815.1.1 = { 
+civilized = yes
+
+decision  = abolish_serfdom 
+oob = "/1816/MOL_oob.txt" }

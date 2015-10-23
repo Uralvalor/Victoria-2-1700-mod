@@ -40,6 +40,9 @@ upper_house = {
 	communist = 0
 }
 
+1815.1.1 = { 
+decision  = abolish_serfdom 
+oob = "/1816/POL_oob.txt" }
 1861.1.1 = {
 	oob = "/1861/POL_oob.txt"
 }

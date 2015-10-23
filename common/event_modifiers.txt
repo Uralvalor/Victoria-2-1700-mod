@@ -1658,3 +1658,7 @@ sanction_8 = {
 	import_cost = 0.1
 	icon = 2
 }
+new_world = {
+	global_immigrant_attract = 0.1
+	icon = 1
+}

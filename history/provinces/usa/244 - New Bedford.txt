@@ -14,8 +14,7 @@ terrain = marginal_farmland
 
 naval_base = 1
 }
-1815.1.1 = {
-	owner = USA
+1815.1.1 = { owner = USA add_core = USA
 	controller = USA
 colonial = no 
 }

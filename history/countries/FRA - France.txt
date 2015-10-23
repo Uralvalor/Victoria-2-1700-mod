@@ -88,3 +88,10 @@ oob = "FRA_oob.txt"
 1750.1.1 = {
 oob = "/1756/FRA_oob.txt"
  }
+
+
+1815.1.1 = { 
+
+set_country_flag  = louisiana_sold 
+decision  = abolish_serfdom 
+oob = "/1816/FRA_oob.txt" }

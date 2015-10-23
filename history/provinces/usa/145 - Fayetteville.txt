@@ -10,8 +10,7 @@ terrain = deciduous_forest_hills
 	controller = FRA
 colony = 2
 }
-1815.1.1 = {
-	owner = USA
+1815.1.1 = { owner = USA add_core = USA
 	controller = USA
 colonial = no 
 }

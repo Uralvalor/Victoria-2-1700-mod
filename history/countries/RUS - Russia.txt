@@ -88,15 +88,23 @@ schools = culture_tech_school
 oob = "RUS_oob.txt"
 
 
-1750.1.1 = {
-set_country_flag = rus_capital_moved
-set_country_flag = rus_empire_declared
-set_country_flag = window_to_east 
+1735.1.1 = {
+decision  = move_capital_to_st_petersburg 
+decision  = declare_russian_empire
+set_country_flag  = window_to_east 
 government = absolute_monarchy
 vote_franschise = none_voting  
 civilized = yes
 capital = 994 
 oob = "/1756/RUS_oob.txt"
-prestige = 90 }
+prestige = 20 }
 
-1815.1.1 = {  }
+1815.1.1 = { 
+decision  = 1st_polish_partition
+decision  = 2nd_polish_partition
+decision  = 3rd_polish_partition
+decision  = collector_of_russian_lands 
+government = absolute_monarchy
+vote_franschise = none_voting  
+oob = "/1816/RUS_oob.txt"
+prestige = 20 }
