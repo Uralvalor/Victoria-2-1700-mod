@@ -2,7 +2,7 @@ color = { 100  100  100 }
 graphical_culture = EuropeanGC
 
 party = {
-	name = "BRT_liberal"
+	name = "BRY_liberal"
 	start_date = 1700.1.1
 	end_date = 2000.1.1
 
@@ -16,7 +16,7 @@ party = {
 }
 
 party = {
-	name = "BRT_conservative"
+	name = "BRY_conservative"
 	start_date = 1700.1.1
 	end_date = 2000.1.1
 
@@ -31,7 +31,7 @@ party = {
 
 
 party = {
-	name = "BRT_socialist"
+	name = "BRY_socialist"
 	start_date = 1849.1.1
 	end_date = 2000.1.1
 
@@ -45,7 +45,7 @@ party = {
 }
 
 party = {
-	name = "BRT_reactionary"
+	name = "BRY_reactionary"
 	start_date = 1700.1.1
 	end_date = 2000.1.1
 
@@ -59,7 +59,7 @@ party = {
 }
 
 party = {
-	name = "BRT_anarcho_liberal"
+	name = "BRY_anarcho_liberal"
 	start_date = 1700.1.1
 	end_date = 2000.1.1
 
@@ -73,7 +73,7 @@ party = {
 }
 
 party = {
-	name = "BRT_communist"
+	name = "BRY_communist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -87,7 +87,7 @@ party = {
 }
 
 party = {
-	name = "BRT_fascist"
+	name = "BRY_fascist"
 	start_date = 1905.1.1
 	end_date = 2000.1.1
 

@@ -422,6 +422,11 @@
 		religion = protestant
 		size = 723
 	}
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 100000
+	}
 }
 535 = {
 	aristocrats = {
@@ -493,6 +498,11 @@
 		religion = protestant
 		size = 154
 	}
+	farmers = {
+		culture = french
+		religion = protestant
+		size = 10845
+	}
 	clergymen = {
 		culture = north_german
 		religion = protestant
@@ -511,7 +521,7 @@
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 22093
+		size = 52093
 	}
 	aristocrats = {
 		culture = north_german
@@ -536,7 +546,7 @@
 	farmers = {
 		culture = north_german
 		religion = catholic
-		size = 183033
+		size = 43033
 	}
 }
 536 = {

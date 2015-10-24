@@ -10,7 +10,7 @@ name = "Иракская война за независимость"
 	# country - 3rd party
 	# state_province_id - target state capital
 	war_goal = {
-		casus_belli = become_independent
+		casus_belli = status_quo
 		actor = IRQ
 		receiver = TUR
 	}

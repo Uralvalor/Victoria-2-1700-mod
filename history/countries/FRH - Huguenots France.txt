@@ -1,21 +1,18 @@
 capital = 425
 primary_culture = french
-culture = french_canadian
-religion = catholic
+religion = protestant
 government = absolute_monarchy
 plurality = 5
 nationalvalue = nv_order
 literacy = 0.29
-non_state_culture_literacy = 0.15
+non_state_culture_literacy = 0.32
 civilized = yes
 
 #GreaterPowers = prestige
-prestige = 90
+prestige = 2
 
 
 set_country_flag = serfdom_not_abolished
-
-#138 млн.фунтов долг к 1715му
 
 # Political reforms
 slavery = yes_slavery
@@ -68,7 +65,7 @@ nelsonian_thought = 1
 consciousness = 8
 nonstate_consciousness = 0
 
-ruling_party = FRA_reactionary
+ruling_party = FRH_reactionary
 upper_house = {
 	fascist = 0
 	liberal = 0
@@ -79,21 +76,15 @@ upper_house = {
 	communist = 0
 }
 
-govt_flag = {
-	government = hms_government
-	flag = presidential_dictatorship
-}
 
 schools = army_tech_school
 
-oob = "FRA_oob.txt"
+oob = "FRH_oob.txt"
 1750.1.1 = {
-oob = "/1756/FRA_oob.txt"
+oob = "/1756/FRH_oob.txt"
  }
 
 
 1815.1.1 = { 
 
-set_country_flag  = louisiana_sold 
-decision  = abolish_serfdom 
-oob = "/1816/FRA_oob.txt" }
+oob = "/1816/FRH_oob.txt" }

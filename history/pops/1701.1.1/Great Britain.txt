@@ -1435,7 +1435,12 @@
 	labourers = {
 		culture = english
 		religion = protestant
-		size = 65720
+		size = 52320
+	}
+	artisans = {
+		culture = french
+		religion = protestant
+		size = 12445
 	}
 	artisans = {
 		culture = english

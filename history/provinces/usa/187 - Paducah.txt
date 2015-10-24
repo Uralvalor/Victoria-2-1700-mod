@@ -1,3 +1,8 @@
+
+ add_core = XKY
+trade_goods = cattle
+life_rating = 35
+terrain = forested_farmland
 #balance
 #owner = FRA
 #controller = FRA
@@ -7,9 +12,6 @@
 	controller = FRA
 colony = 2
 }
-trade_goods = cattle
-life_rating = 35
-terrain = forested_farmland
 1815.1.1 = { owner = USA add_core = USA
 	controller = USA
 colonial = no 

@@ -1,6 +1,6 @@
 capital = 243
-primary_culture = english
-culture = yankee
+primary_culture = yankee
+culture = english
 culture = dixie
 religion = protestant
 government = democracy
@@ -14,12 +14,15 @@ is_releasable_vassal = no
 # Political reforms
 slavery = yes_slavery
 upper_house_composition = appointed
-vote_franschise = none_voting
-public_meetings = no_meeting
-press_rights = censored_press
-trade_unions = no_trade_unions
+vote_franschise = landed_voting
+public_meetings = yes_meeting
+press_rights = state_press
+trade_unions = non_socialist
 voting_system = first_past_the_post
 political_parties = underground_parties
+immigration_policy = open_immigration
+conscription = mandatory_service
+minorities = oppression
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -28,7 +31,11 @@ safety_regulations = no_safety
 health_care = trinket_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-school_reforms = no_schools
+pollution = no_controls
+child_labor = child_labor_legal
+education = elite
+arts_endowment = no_endowment
+
 
 ruling_party = NEN_reactionary
 upper_house = {

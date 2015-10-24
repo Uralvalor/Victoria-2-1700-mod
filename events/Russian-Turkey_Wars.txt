@@ -160,9 +160,12 @@ country_event = {
 	id = 1100114
 	trigger = {
 		tag = RUS
-		CRI  = {
-						in_sphere = RUS
-					}
+                OR = {
+                diplomatic_influence = {
+				who = CRI
+				value = 299
+			}
+		CRI  = { in_sphere = RUS } }
 		war = no
 not = { has_country_flag = cri_in }
 					}

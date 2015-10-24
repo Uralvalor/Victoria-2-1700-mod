@@ -292,13 +292,15 @@ country_event = {
 	trigger = {
 		tag = ENG
 		NOT = { exists = USA }
-			NOT = {
-				has_global_flag = forming_thirteen_colonies
-			}
 		trade_policy = protectionism
 		freedom_of_trade = 1
 		any_owned_province = {
 				continent = north_america
+				not = { is_core = CAN }
+				not = { is_core = MEX }
+				not = { is_core = HAI }
+				not = { is_core = FWI }
+				not = { is_core = CUB }
 			        average_militancy = 4
 			        average_consciousness = 7
 		}
@@ -328,6 +330,7 @@ country_event = {
 				not = { is_core = MEX }
 				not = { is_core = HAI }
 				not = { is_core = FWI }
+				not = { is_core = CUB }
 			}
 		        add_core = USA 
                         secede_province = USA 
@@ -368,6 +371,9 @@ country_event = {
                 NOT = { year = 1816 }
                 enlightenment_thought = 1
 		any_owned_province = {
+				not = { is_core = CAN }
+				not = { is_core = HAI }
+				not = { is_core = FWI }
 				continent = north_america
 			average_militancy = 6
 			average_consciousness = 4
@@ -394,6 +400,7 @@ country_event = {
 		any_owned = {
 			limit = {
 				continent = north_america
+				not = { is_core = CAN }
 				not = { is_core = HAI }
 				not = { is_core = FWI }
 			}
@@ -1969,6 +1976,7 @@ country_event = {
 	FRA = { 		any_owned = {
 			limit = {
 				continent = north_america
+				not = { is_core = CAN }
 				not = { is_core = HAI }
 				not = { is_core = FWI }
 			}
@@ -2020,7 +2028,7 @@ country_event = {
 	major = yes
 	
 	trigger = {		
-	    is_greater_power= yes
+		rank = 16
 		NOT = { exists = USA }
 	    NOT = { tag = CAN }
 	    NOT = { tag = USA }
@@ -2032,7 +2040,6 @@ country_event = {
 		capital_scope = {
 						continent = north_america
 					}
-		NOT = { year = 1815 }
 	}
 	mean_time_to_happen = {
 		months = 6
@@ -2044,3 +2051,49 @@ country_event = {
 		change_tag = USA
         }
 	}
+	
+
+country_event = {
+
+	id = 170701
+
+	trigger = {
+		tag = FRA
+		war = yes
+	}
+
+	fire_only_once = yes
+	mean_time_to_happen =  {
+		months = 24
+
+		modifier = {
+			factor = 0.6
+			average_militancy = 6
+		}
+	}
+	
+	title = "EVTNAME170701"
+	desc = "EVTDESC170701"
+	picture = "polrebel"
+
+	option = {
+		name = "EVTOPTA170701"
+		release = FRH
+		release_vassal = FRH
+		FRH = { create_alliance = NET }
+		FRH = { create_alliance = ENL }
+		FRH = { create_alliance = SAV }
+		FRH = { war = {
+			target = FRA
+			call_ally = yes
+			attacker_goal = {
+				casus_belli = status_quo
+			}
+			
+			defender_goal = {
+				casus_belli = conquest
+			}
+		}
+	}
+  }
+ }

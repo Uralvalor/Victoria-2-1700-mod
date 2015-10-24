@@ -1724,12 +1724,12 @@
 	}
 	officers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 263
 	}
 	bureaucrats = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 559
 	}
 	clergymen = {
@@ -1739,18 +1739,23 @@
 	}
 	artisans = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 3997
 	}
 	soldiers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 687
 	}
 	farmers = {
 		culture = french
+		religion = protestant
+		size = 20000
+	}
+	farmers = {
+		culture = french
 		religion = catholic
-		size = 110785
+		size = 90785
 	}
 }
 449 = {
@@ -1815,12 +1820,12 @@
 	}
 	officers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 460
 	}
 	bureaucrats = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 1087
 	}
 	clergymen = {
@@ -1836,12 +1841,22 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 23716
+		size = 17016
+	}
+	soldiers = {
+		culture = french
+		religion = protestant
+		size = 9716
 	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 45668
+		size = 25668
+	}
+	farmers = {
+		culture = french
+		religion = protestant
+		size = 20668
 	}
 	clergymen = {
 		culture = ashkenazi
@@ -1894,18 +1909,23 @@
 	}
 	artisans = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 3553
 	}
 	soldiers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 612
 	}
 	farmers = {
 		culture = french
+		religion = protestant
+		size = 20720
+	}
+	farmers = {
+		culture = french
 		religion = catholic
-		size = 100720
+		size = 80720
 	}
 }
 454 = {
@@ -2192,18 +2212,23 @@
 	}
 	artisans = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 2886
 	}
 	soldiers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 481
 	}
 	farmers = {
 		culture = french
+		religion = protestant
+		size = 30156
+	}
+	farmers = {
+		culture = french
 		religion = catholic
-		size = 77156
+		size = 47156
 	}
 }
 463 = {
@@ -2394,50 +2419,55 @@
 	}
 	clergymen = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 821
 	}
 	artisans = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 3553
 	}
 	soldiers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 221
 	}
 	farmers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 30411
 	}
 }
 469 = {
 	aristocrats = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 653
 	}
 	clergymen = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 393
 	}
 	artisans = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 665
 	}
 	soldiers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 128
 	}
 	farmers = {
 		culture = french
+		religion = protestant
+		size = 5062
+	}
+	farmers = {
+		culture = french
 		religion = catholic
-		size = 19062
+		size = 14062
 	}
 }
 470 = {
@@ -2453,12 +2483,12 @@
 	}
 	artisans = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 5774
 	}
 	soldiers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 370
 	}
 	farmers = {

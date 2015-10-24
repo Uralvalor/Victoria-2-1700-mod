@@ -409,8 +409,15 @@ Sanction8 = {
 
 			allow = {
 			prestige = 50
-			UKR = { OR = { 
-			        
+			OR = { AND = { diplomatic_influence = {
+				who = UKR
+				value = 300
+			}
+			diplomatic_influence = {
+				who = CSK
+				value = 300
+			} } 
+			AND = { UKR = { OR = { 
 				    vassal_of = RUS
 					in_sphere = THIS
 					NOT = { exists = UKR } }
@@ -422,7 +429,7 @@ Sanction8 = {
 					}
 			has_country_flag = rus_capital_moved
 
-			}
+			} } }
 
 			effect = {
 				government = absolute_monarchy
@@ -516,25 +523,6 @@ Sanction8 = {
 			ai_will_do = { factor = 1 }
     }
 	
-	move_capital_to_moscow = {
-		potential = {
-			tag = RUS
-			NOT = { owns = 339 } # Viipuri
-			capital = 994
-		}
-		
-		allow = {
-			owns = 1008 # Moscow
-		}
-		
-		effect = {
-			capital = 1008
-			prestige = 5
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 
 #	1763treaty = {
 #		potential = {
@@ -1081,6 +1069,8 @@ value = 120
 			}
 		}
 		allow = {
+                war = no
+                NOT = { jingoism = 6 }
 		}
 		effect = {
 		
@@ -1095,20 +1085,6 @@ value = 120
 			}
 			create_alliance = XCT
 			XCT = {
-				prestige_factor = -1
-				add_county_modifier = {
-					name = new_world 
-					duration = 5000
-				}
-			}
-			release = NEN
-			create_vassal = NEN
-			diplomatic_influence = {
-				who = NEN
-				value = 400
-			}
-			create_alliance = NEN
-			NEN = {
 				prestige_factor = -1
 				add_county_modifier = {
 					name = new_world 
@@ -1325,10 +1301,39 @@ value = 120
 					duration = 5000
 				}
 			}
+			release = NEN
+			create_vassal = NEN
+			diplomatic_influence = {
+				who = NEN
+				value = 400
+			}
+			create_alliance = NEN
+			NEN = {
+				prestige_factor = -1
+				add_county_modifier = {
+					name = new_world 
+					duration = 5000
+				}
+			}
+			release = TEX
+			create_vassal = TEX
+			diplomatic_influence = {
+				who = TEX
+				value = 400
+			}
+			create_alliance = TEX
+			TEX = {
+				prestige_factor = -1
+				add_county_modifier = {
+					name = new_world 
+					duration = 5000
+				}
+			}
 		any_owned = {
 			limit = {
 				continent = north_america
 				not = { is_core = CAN }
+				not = { is_core = CUB }
 				not = { is_core = MEX }
 				not = { is_core = HAI }
 				not = { is_core = FWI }
