@@ -16,61 +16,61 @@
 	}
 	soldiers = {
 		culture = kirgiz
-		religion = sunni
-		size = 6592
+		religion = animist
+		size = 3592
 	}
 	farmers = {
 		culture = kirgiz
-		religion = sunni
-		size = 31810
+		religion = animist
+		size = 10810
 	}
 	aristocrats = {
-		culture = kazak
+		culture = kirgiz
 		religion = sunni
 		size = 93
 	}
 	clergymen = {
-		culture = kazak
-		religion = sunni
+		culture = kirgiz
+		religion = animist
 		size = 70
 	}
 	artisans = {
-		culture = kazak
+		culture = kirgiz
 		religion = sunni
 		size = 53
 	}
 	soldiers = {
-		culture = kazak
-		religion = sunni
+		culture = kirgiz
+		religion = animist
 		size = 70
 	}
 	farmers = {
-		culture = kazak
-		religion = sunni
-		size = 6075
+		culture = kirgiz
+		religion = animist
+		size = 1075
 	}
 	aristocrats = {
-		culture = uighur
+		culture = uzbek
 		religion = sunni
 		size = 116
 	}
 	clergymen = {
-		culture = uighur
+		culture = uzbek
 		religion = sunni
 		size = 70
 	}
 	artisans = {
-		culture = uighur
+		culture = uzbek
 		religion = sunni
 		size = 62
 	}
 	soldiers = {
-		culture = uighur
+		culture = uzbek
 		religion = sunni
 		size = 70
 	}
 	farmers = {
-		culture = uighur
+		culture = uzbek
 		religion = sunni
 		size = 6945
 	}
@@ -78,27 +78,27 @@
 1190 = {
 	aristocrats = {
 		culture = kirgiz
-		religion = sunni
+		religion = animist
 		size = 47
 	}
 	clergymen = {
 		culture = kirgiz
-		religion = sunni
+		religion = animist
 		size = 47
 	}
 	artisans = {
 		culture = kirgiz
-		religion = sunni
+		religion = animist
 		size = 17
 	}
 	soldiers = {
 		culture = kirgiz
-		religion = sunni
+		religion = animist
 		size = 941
 	}
 	farmers = {
 		culture = kirgiz
-		religion = sunni
+		religion = animist
 		size = 2613
 	}
 	aristocrats = {
@@ -127,28 +127,28 @@
 		size = 4309
 	}
 	aristocrats = {
-		culture = kazak
-		religion = sunni
+		culture = kirgiz
+		religion = animist
 		size = 93
 	}
 	clergymen = {
-		culture = kazak
-		religion = sunni
+		culture = kirgiz
+		religion = animist
 		size = 47
 	}
 	artisans = {
-		culture = kazak
-		religion = sunni
+		culture = kirgiz
+		religion = animist
 		size = 35
 	}
 	soldiers = {
-		culture = kazak
-		religion = sunni
+		culture = kirgiz
+		religion = animist
 		size = 47
 	}
 	farmers = {
-		culture = kazak
-		religion = sunni
+		culture = kirgiz
+		religion = animist
 		size = 4332
 	}
 }
@@ -180,27 +180,27 @@
 	}
 	aristocrats = {
 		culture = kirgiz
-		religion = sunni
+		religion = animist
 		size = 352
 	}
 	clergymen = {
 		culture = kirgiz
-		religion = sunni
+		religion = animist
 		size = 164
 	}
 	artisans = {
 		culture = kirgiz
-		religion = sunni
+		religion = animist
 		size = 161
 	}
 	soldiers = {
 		culture = kirgiz
-		religion = sunni
+		religion = animist
 		size = 3767
 	}
 	farmers = {
-		culture = kirgiz
-		religion = sunni
+		culture = uzbek
+		religion = animist
 		size = 12762
 	}
 }

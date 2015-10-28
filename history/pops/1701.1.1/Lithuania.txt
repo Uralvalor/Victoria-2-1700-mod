@@ -17,7 +17,12 @@
 	farmers = {
 		culture = lithuanian
 		religion = catholic
-		size = 12450
+		size = 10450
+	}
+	farmers = {
+		culture = lithuanian
+		religion = orthodox
+		size = 2000
 	}
 	aristocrats = {
 		culture = lithuanian
@@ -228,7 +233,7 @@
 	farmers = {
 		culture = lithuanian
 		religion = catholic
-		size = 26172
+		size = 24172
 	}
 	clergymen = {
 		culture = ashkenazi
@@ -251,24 +256,24 @@
 		size = 2600
 	}
 	clergymen = {
-		culture = russian
+		culture = lithuanian
 		religion = orthodox
 		size = 36
 	}
 	artisans = {
-		culture = russian
+		culture = lithuanian
 		religion = orthodox
 		size = 36
 	}
 	soldiers = {
-		culture = russian
+		culture = lithuanian
 		religion = orthodox
 		size = 18
 	}
 	farmers = {
-		culture = russian
+		culture = lithuanian
 		religion = orthodox
-		size = 777
+		size = 2777
 	}
 }
 364 = {
@@ -321,27 +326,27 @@
 365 = {
 	aristocrats = {
 		culture = lithuanian
-		religion = catholic
+		religion = protestant
 		size = 255
 	}
 	clergymen = {
 		culture = lithuanian
-		religion = catholic
+		religion = protestant
 		size = 109
 	}
 	artisans = {
 		culture = lithuanian
-		religion = catholic
+		religion = protestant
 		size = 182
 	}
 	soldiers = {
 		culture = lithuanian
-		religion = catholic
+		religion = protestant
 		size = 127
 	}
 	farmers = {
 		culture = lithuanian
-		religion = catholic
+		religion = protestant
 		size = 12014
 	}
 	clergymen = {

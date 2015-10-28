@@ -148,7 +148,6 @@ country_event = {
 		remove_country_modifier = pig_headed_isolationist
 		remove_country_modifier = ambitious_union_boss
 		remove_country_modifier = dour_economist
-		capital = 876
 		release = IRQ
 		IRQ = {
 			all_core = {
@@ -229,6 +228,9 @@ country_event = {
 		TUR_810 = {
 				owned_by = TUR
 		}
+		TUR_674 = {
+				owned_by = TUR
+		}
 		809 = {
 				has_province_modifier = separatist
 		}
@@ -279,6 +281,9 @@ country_event = {
 		TUR_810 = {
 				secede_province = BUL
 		}
+		TUR_674 = {
+				secede_province = BUL
+		}
 		BUL = {
 			create_alliance = SER
 			create_alliance = MON
@@ -301,7 +306,7 @@ country_event = {
 				value = 100
 			}
 		}
-		relation = { who = RUS value = -200 }
+		relation = { who = RUS value = -50 }
 		set_global_flag = bulgarian_revolt_ok
 		ai_chance = {
 			factor = 80
@@ -360,7 +365,6 @@ country_event = {
 
 	is_triggered_only = yes
 	fire_only_once = yes
-	major = yes
 
 	option = {
 		name = "EVTOPTA95183"

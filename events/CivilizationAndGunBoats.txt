@@ -190,7 +190,7 @@ province_event = {
 		add_province_modifier = {
 			name = "western_presence"
 			duration = -1
-		}
+		} 
 	}
 	option = {
 		name = "EVTOPTB13010"

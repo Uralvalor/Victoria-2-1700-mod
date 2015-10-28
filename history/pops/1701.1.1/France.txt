@@ -1599,6 +1599,11 @@
 	}
 }
 444 = {
+	farmers = {
+		culture = french
+		religion = protestant
+		size = 15000
+	}
 	aristocrats = {
 		culture = french
 		religion = catholic
@@ -2419,7 +2424,7 @@
 	}
 	clergymen = {
 		culture = french
-		religion = protestant
+		religion = catholic
 		size = 821
 	}
 	artisans = {
@@ -2434,8 +2439,13 @@
 	}
 	farmers = {
 		culture = french
+		religion = catholic
+		size = 15411
+	}
+	farmers = {
+		culture = french
 		religion = protestant
-		size = 30411
+		size = 15411
 	}
 }
 469 = {

@@ -1,7 +1,9 @@
-owner = SPA
 
-colonial = 2 
+1750.1.1 = {
+owner = SPA
 controller = SPA
+colonial = 2 
+ }
 add_core = MEX
 trade_goods = cattle
 life_rating = 30

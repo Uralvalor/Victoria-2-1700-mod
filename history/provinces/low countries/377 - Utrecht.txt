@@ -2,6 +2,7 @@ owner = NET
 controller = NET
 add_core = NET
 trade_goods = grain
+fort = 1
 life_rating = 35
 terrain = marginal_farmland
 1861.1.1 = { railroad = 3 }

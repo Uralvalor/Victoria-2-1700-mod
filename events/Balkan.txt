@@ -95,7 +95,8 @@ country_event = {
 
 	trigger = {
 		tag = MON
-		TUR = {
+		TUR = { 
+		        civilized = yes
 			is_greater_power = no
 			any_owned_province = {
 					is_core = MON

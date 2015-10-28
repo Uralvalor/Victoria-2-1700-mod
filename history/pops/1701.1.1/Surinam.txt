@@ -1,4 +1,9 @@
 2240 = {
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 100
+	}
 	aristocrats = {
 		culture = dutch
 		religion = protestant
@@ -12,7 +17,7 @@
 	artisans = {
 		culture = dutch
 		religion = protestant
-		size = 13
+		size = 130
 	}
 	soldiers = {
 		culture = dutch
@@ -29,11 +34,6 @@
 		religion = protestant
 		size = 457
 	}
-	farmers = {
-		culture = african_minor
-		religion = protestant
-		size = 1645
-	}
 	soldiers = {
 		culture = african_minor
 		religion = protestant
@@ -42,7 +42,7 @@
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 186779
+		size = 3000
 	}
 }
 2245 = {

@@ -4,6 +4,7 @@ add_core = FRA
 add_core = FRH
 trade_goods = tobacco
 life_rating = 35
+fort = 1
 terrain = deciduous_forest_mountains
 1861.1.1 = { railroad = 3 }
 1914.1.1 = { railroad = 5 fort = 3 }

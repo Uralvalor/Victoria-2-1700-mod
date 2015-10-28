@@ -770,16 +770,25 @@ social_reforms = {
 
 economic_reforms = {
 	land_reform = {
+		nomads = {
+	                poor_life_needs = -0.15
+	                middle_life_needs = -0.15
+	                rich_life_needs = -0.15
+			global_pop_consciousness_modifier = -0.005
+	                mobilisation_size = 0.3
+		}
 		no_land_reform = {
+			technology_cost = 2000
 			farm_rgo_size = 0.25
 			mine_rgo_size = 0.25
 			global_pop_militancy_modifier = -0.005
+			civilization_progress_modifier = 0.018
 		}
 		yes_land_reform = {
 			technology_cost = 4500
 			farm_rgo_eff = 0.25
 			mine_rgo_eff = 0.25
-			civilization_progress_modifier = 0.036
+			civilization_progress_modifier = 0.018
 			
 			on_execute = {
 				effect = {

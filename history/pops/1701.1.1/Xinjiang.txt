@@ -32,32 +32,32 @@
 	farmers = {
 		culture = uighur
 		religion = sunni
-		size = 24488
+		size = 14488
 	}
 	aristocrats = {
-		culture = kirgiz
+		culture = uighur
 		religion = animist
 		size = 341
 	}
 	clergymen = {
-		culture = kirgiz
+		culture = uighur
 		religion = animist
 		size = 189
 	}
 	artisans = {
-		culture = kirgiz
+		culture = uighur
 		religion = animist
 		size = 167
 	}
 	soldiers = {
-		culture = kirgiz
+		culture = uighur
 		religion = animist
 		size = 614
 	}
 	farmers = {
-		culture = kirgiz
+		culture = uighur
 		religion = animist
-		size = 13076
+		size = 6076
 	}
 	clergymen = {
 		culture = tajik
@@ -107,27 +107,27 @@
 		size = 32558
 	}
 	aristocrats = {
-		culture = kazak
+		culture = kirgiz
 		religion = sunni
 		size = 151
 	}
 	clergymen = {
-		culture = kazak
+		culture = kirgiz
 		religion = sunni
 		size = 76
 	}
 	artisans = {
-		culture = kazak
+		culture = kirgiz
 		religion = sunni
 		size = 87
 	}
 	soldiers = {
-		culture = kazak
+		culture = kirgiz
 		religion = sunni
 		size = 462
 	}
 	farmers = {
-		culture = kazak
+		culture = kirgiz
 		religion = sunni
 		size = 6522
 	}
@@ -201,7 +201,12 @@
 	soldiers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 32487
+		size = 2487
+	}
+	farmers = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 6487
 	}
 	farmers = {
 		culture = uighur
@@ -209,27 +214,27 @@
 		size = 1346
 	}
 	aristocrats = {
-		culture = kazak
+		culture = kirgiz
 		religion = sunni
 		size = 189
 	}
 	clergymen = {
-		culture = kazak
+		culture = kirgiz
 		religion = sunni
 		size = 114
 	}
 	artisans = {
-		culture = kazak
+		culture = kirgiz
 		religion = sunni
 		size = 101
 	}
 	soldiers = {
-		culture = kazak
+		culture = kirgiz
 		religion = sunni
 		size = 462
 	}
 	farmers = {
-		culture = kazak
+		culture = kirgiz
 		religion = sunni
 		size = 7595
 	}
@@ -288,7 +293,7 @@
 	aristocrats = {
 		culture = uighur
 		religion = sunni
-		size = 1449
+		size = 144
 	}
 	clergymen = {
 		culture = uighur
@@ -303,12 +308,12 @@
 	soldiers = {
 		culture = uighur
 		religion = sunni
-		size = 3071
+		size = 1071
 	}
 	farmers = {
 		culture = uighur
 		religion = sunni
-		size = 52012
+		size = 7012
 	}
 }
 1598 = {
@@ -335,7 +340,7 @@
 	farmers = {
 		culture = uighur
 		religion = sunni
-		size = 23860
+		size = 14860
 	}
 }
 1599 = {
@@ -362,7 +367,7 @@
 	farmers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 32125
+		size = 12125
 	}
 	aristocrats = {
 		culture = kalmyk
@@ -382,12 +387,12 @@
 	soldiers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 23247
+		size = 2247
 	}
 	farmers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 13632
+		size = 4632
 	}
 	clergymen = {
 		culture = beifaren
@@ -414,7 +419,7 @@
 	aristocrats = {
 		culture = uighur
 		religion = sunni
-		size = 1829
+		size = 500
 	}
 	clergymen = {
 		culture = uighur
@@ -429,12 +434,12 @@
 	soldiers = {
 		culture = uighur
 		religion = sunni
-		size = 4147
+		size = 1147
 	}
 	farmers = {
 		culture = uighur
 		religion = sunni
-		size = 40513
+		size = 5513
 	}
 	aristocrats = {
 		culture = beifaren
@@ -454,12 +459,12 @@
 	soldiers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 52962
+		size = 8962
 	}
 	farmers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 19142
+		size = 10142
 	}
 	bureaucrats = {
 		culture = kalmyk
@@ -479,12 +484,12 @@
 	soldiers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 32334
+		size = 6334
 	}
 	farmers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 24108
+		size = 12108
 	}
 	aristocrats = {
 		culture = kalmyk
@@ -512,27 +517,27 @@
 		size = 2144
 	}
 	aristocrats = {
-		culture = kazak
+		culture = kirgiz
 		religion = sunni
 		size = 114
 	}
 	clergymen = {
-		culture = kazak
+		culture = kirgiz
 		religion = sunni
 		size = 114
 	}
 	artisans = {
-		culture = kazak
+		culture = kirgiz
 		religion = sunni
 		size = 57
 	}
 	soldiers = {
-		culture = kazak
+		culture = kirgiz
 		religion = sunni
 		size = 309
 	}
 	farmers = {
-		culture = kazak
+		culture = kirgiz
 		religion = sunni
 		size = 4288
 	}

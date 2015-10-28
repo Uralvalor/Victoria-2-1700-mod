@@ -1,4 +1,4 @@
-﻿capital = 1731
+capital = 1731
 primary_culture = bedouin
 religion = sunni
 government = absolute_monarchy
@@ -22,6 +22,7 @@ upper_house = {
 consciousness = 0
 nonstate_consciousness = 0
 
+land_reform = no_land_reform
 slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting

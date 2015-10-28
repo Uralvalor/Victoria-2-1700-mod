@@ -963,6 +963,9 @@ country_event = {
 		RUS_968 = {
 			owned_by = THIS
 		}
+		RUS_954 = {
+			owned_by = THIS
+		}
 		RUS_964 = {
 			owned_by = THIS
 		}
@@ -995,6 +998,23 @@ country_event = {
 					duration = 1825
 			}
 		}
+		RUS_954 = {
+			poor_strata = {
+				limit = {
+				    pop_type = farmers
+					has_pop_culture = tatar
+				}
+				reduce_pop = 0.90
+				move_pop = 1032
+			}
+			poor_strata = {
+				limit = {
+                    pop_type = farmers
+					has_pop_culture = nogais
+				}
+				reduce_pop = 0.90
+				move_pop = 1057
+			} }
 		RUS_964 = {
 			poor_strata = {
 				limit = {
@@ -1003,6 +1023,14 @@ country_event = {
 				}
 				reduce_pop = 0.90
 				move_pop = 1032
+			}
+			poor_strata = {
+				limit = {
+                    pop_type = farmers
+					has_pop_culture = nogais
+				}
+				reduce_pop = 0.90
+				move_pop = 1057
 			}
 			add_province_modifier = {
 					name = influx_of_population
@@ -1023,21 +1051,21 @@ country_event = {
 
 	trigger = {
 		tag = RUS
-		exists = XIN
 		RUS_1036 = {
 			owned_by = THIS
 		}
+		NOT = { 
 		CHI_1600 = {
-			owned_by = XIN
-		}
-		year = 1770
+			owned_by = OIR
+		} }
+		has_country_flag = nogai_edisan
 
 	}
 	
 	fire_only_once = yes
 
 	mean_time_to_happen =  {
-		days = 100
+		months = 36
 	}
 
 	title = "EVTNAME88161"
@@ -1051,9 +1079,108 @@ country_event = {
                     pop_type = farmers
 					has_pop_culture = kalmyk
 				}
-				reduce_pop = 0.95
-				move_pop = 1600
+				move_pop = 1595
+				reduce_pop = 0.7
 			
+		}
+                        any_pop = {
+				limit = {
+					has_pop_culture = kalmyk
+				}
+				move_pop = 1041
+			
+		}
+	}
+}
+
+country_event = {
+
+	id = 88162
+
+	trigger = {
+		tag = CRI
+		NOT = {
+		has_country_flag = nogai_volga
+		}
+		RUS_3253 = {
+			owned_by = THIS
+		}
+		war_with = RUS
+        1182 = { OR = { 
+			controlled_by = TUR
+			controlled_by = CRI } }
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 10
+	}
+
+	title = "EVTNAME88162"
+	desc = "EVTDESC88162"
+	picture = "cherkes"
+
+	option = {
+		name = "EVTOPTA95161"
+		set_country_flag = nogai_volga
+		RUS_1182 = {
+			poor_strata = {
+				limit = {
+					has_pop_culture = nogais
+				}
+				move_pop = 1048
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 88163
+
+	trigger = {
+		tag = CRI
+		NOT = {
+		has_country_flag = nogai_edisan
+		}
+		RUS_3253 = {
+			owned_by = THIS
+		}
+		969 = {
+			owned_by = THIS
+		}
+		war_with = RUS
+
+        1048 = { OR = { 
+			controlled_by = RUS
+			controlled_by = CSK } }
+        1047 = { OR = { 
+			controlled_by = RUS
+			controlled_by = CSK } }
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 10
+	}
+
+	title = "EVTNAME88162"
+	desc = "EVTDESC88163"
+	picture = "cherkes"
+
+	option = {
+		name = "EVTOPTA95161"
+		set_country_flag = nogai_edisan
+		RUS_3253 = {
+			poor_strata = {
+				limit = {
+                    pop_type = farmers
+					has_pop_culture = nogais
+				}
+				move_pop = 969
+			}
 		}
 	}
 }
@@ -1395,7 +1522,7 @@ country_event = {
 	}
 	option = {
 		name = event_option_great
-		prestige = 20
+		prestige = 10
 	}
 }
 
@@ -1527,7 +1654,7 @@ country_event = {
 	}
 	option = {
 		name = event_option_great
-		prestige = 15
+		prestige = 10
 	}
 }
 
@@ -2005,6 +2132,7 @@ country_event = {
 	name = "Конечно согласны"
 	USA = { inherit = THIS }
 	USA = { prestige = 5 }
+    change_tag_no_core_switch = USA
 	}
    
     option = {
@@ -2097,3 +2225,52 @@ country_event = {
 	}
   }
  }
+ 
+ country_event = {
+	id = 11108
+	title = "eventname11108"
+	desc = "eventdesc11108"
+	picture = administration
+	is_triggered_only = yes
+
+	option = {
+	name = "Конечно согласны"
+	YUG = { inherit = THIS }
+	YUG = { prestige = 5 }
+	change_tag_no_core_switch = YUG
+	}
+   
+    option = {
+        name = "Отказываемся"
+	YUG = { prestige = -2 }
+        relation = {
+                    who = YUG
+                    value = -50
+                  }
+        }
+	}
+	
+	
+
+ province_event = {
+	id = 11109
+	title = "eventname11109"
+	desc = "eventdesc11109"
+	picture = administration
+	is_triggered_only = yes
+
+	option = {
+	name = "Ок"
+
+		random_empty_neighbor_province = {
+		limits = { 
+	any_neighbor_province = {
+		owned_by = THIS
+		country_units_in_province = THIS
+					}
+	}
+			secede_province = THIS
+							}
+	}
+   
+	}

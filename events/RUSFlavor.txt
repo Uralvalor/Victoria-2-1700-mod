@@ -1057,43 +1057,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA95162"
-		1049 = {
-			any_pop = {
-				limit = {
-					has_pop_culture = armenian
-					type = farmers
-				}
-				move_pop = 1051
-			}
-		}
-		3254 = {
-			any_pop = {
-				limit = {
-					has_pop_culture = armenian
-					type = farmers
-				}
-				move_pop = 1051
-			}
-		}
-		3255 = {
-			any_pop = {
-				limit = {
-					has_pop_culture = armenian
-					type = farmers
-				}
-				move_pop = 1051
-			}
-		}
-		3256 = {
-			any_pop = {
-				limit = {
-					has_pop_culture = armenian
-					type = farmers
-				}
-				move_pop = 1051
-			}
-		}
-		3257 = {
+		RUS_3253 = {
 			any_pop = {
 				limit = {
 					has_pop_culture = armenian
@@ -1107,7 +1071,7 @@ country_event = {
 				limit = {
 					has_pop_culture = armenian
 				}
-				reduce_pop = 3
+				reduce_pop = 1.15
 				militancy = -1
 			}
 			change_province_name = "Армавир"
@@ -3279,7 +3243,7 @@ country_event = {
 		any_owned = {
 			remove_core = RSR
 		}
-		prestige = 100
+		prestige = 50
 		clr_global_flag = russian_civil_war_has_happened
 		set_global_flag = russian_civil_war_is_over
 		clr_global_flag = communist_russia_created
@@ -3397,7 +3361,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA95440"
 		inherit = RUS
-		prestige = 100
+		prestige = 50
 		any_owned = {
 			remove_core = RUS
 		}
@@ -4613,6 +4577,7 @@ country_event = {
 
 	id = 95491
 	trigger = {
+                exists = HAW
 		tag = RUS
 		war = no
 		is_greater_power = yes

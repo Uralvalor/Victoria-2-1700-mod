@@ -408,7 +408,7 @@ Sanction8 = {
 			}
 
 			allow = {
-			prestige = 50
+			prestige = 55
 			OR = { AND = { diplomatic_influence = {
 				who = UKR
 				value = 300
@@ -681,7 +681,7 @@ Sanction8 = {
 			}
 		}
 		effect = {
-			prestige = 15
+			prestige = 5
 			set_country_flag = 1st_polish_partition
 		PLC = {
 			release = RUT
@@ -773,7 +773,7 @@ Sanction8 = {
 			}
 		}
 effect = {
-prestige = 10
+prestige = 5
 		PLC = {
 			release = POL
 		}
@@ -988,11 +988,11 @@ value = 120
 	collector_of_russian_lands = {
 		potential = {
 			tag = RUS
-			year = 1770
+			year = 1760
 			NOT = {
 				has_country_flag = collector_of_russian_lands
 				exists = PLC
-				year = 1800
+				year = 1810
 			}
 		}
 		allow = {
@@ -1046,7 +1046,7 @@ value = 120
 			RUS_357 = {
 				add_core = RUS
 			}
-			prestige = 15
+			prestige = 5
 			set_country_flag = collector_of_russian_lands
 		}
 	}
@@ -1075,7 +1075,7 @@ value = 120
 		effect = {
 		
 		set_global_flag = forming_thirteen_colonies
-		prestige = -10
+		prestige = -5
 		war_exhaustion = -5
 			release = XCT
 			create_vassal = XCT

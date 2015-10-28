@@ -3,6 +3,7 @@ controller = NET
 add_core = NET
 trade_goods = grain
 life_rating = 35
+fort = 1
 terrain = good_farmland
 1914.1.1 = {
 	naval_base = 4

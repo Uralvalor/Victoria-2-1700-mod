@@ -1,38 +1,115 @@
-1191 = {
+1195 = {
 	aristocrats = {
 		culture = uzbek
 		religion = sunni
-		size = 661
-	}
-	bureaucrats = {
-		culture = uzbek
-		religion = sunni
-		size = 85
-	}
-	officers = {
-		culture = uzbek
-		religion = sunni
-		size = 85
+		size = 422
 	}
 	clergymen = {
 		culture = uzbek
 		religion = sunni
-		size = 313
+		size = 212
 	}
 	artisans = {
 		culture = uzbek
 		religion = sunni
-		size = 304
+		size = 206
 	}
 	soldiers = {
 		culture = uzbek
 		religion = sunni
-		size = 2787
+		size = 1883
 	}
 	farmers = {
 		culture = uzbek
 		religion = sunni
-		size = 26519
+		size = 18295
+	}
+	aristocrats = {
+		culture = kirgiz
+		religion = sunni
+		size = 23
+	}
+	clergymen = {
+		culture = kirgiz
+		religion = sunni
+		size = 10
+	}
+	artisans = {
+		culture = kirgiz
+		religion = sunni
+		size = 10
+	}
+	soldiers = {
+		culture = kirgiz
+		religion = sunni
+		size = 10
+	}
+	farmers = {
+		culture = kirgiz
+		religion = sunni
+		size = 1306
+	}
+	aristocrats = {
+		culture = tajik
+		religion = sunni
+		size = 56
+	}
+	clergymen = {
+		culture = tajik
+		religion = sunni
+		size = 23
+	}
+	artisans = {
+		culture = tajik
+		religion = sunni
+		size = 28
+	}
+	soldiers = {
+		culture = tajik
+		religion = sunni
+		size = 23
+	}
+	farmers = {
+		culture = tajik
+		religion = sunni
+		size = 7236
+	}
+}
+1191 = {
+	aristocrats = {
+		culture = karakalpak
+		religion = sunni
+		size = 661
+	}
+	bureaucrats = {
+		culture = karakalpak
+		religion = sunni
+		size = 85
+	}
+	officers = {
+		culture = karakalpak
+		religion = sunni
+		size = 85
+	}
+	clergymen = {
+		culture = karakalpak
+		religion = sunni
+		size = 313
+	}
+	artisans = {
+		culture = karakalpak
+		religion = sunni
+		size = 304
+	}
+	soldiers = {
+		culture = karakalpak
+		religion = sunni
+		size = 1787
+	}
+	farmers = {
+		culture = karakalpak
+		religion = sunni
+		size = 2519
 	}
 	slaves = {
 		culture = persian
@@ -46,53 +123,44 @@
 	}
 }
 1192 = {
-	aristocrats = {
-		culture = uzbek
-		religion = sunni
-		size = 277
-	}
-	clergymen = {
-		culture = uzbek
-		religion = sunni
-		size = 156
-	}
+
 	artisans = {
-		culture = uzbek
+		culture = karakalpak
 		religion = sunni
-		size = 152
+		size = 500
 	}
 	soldiers = {
-		culture = uzbek
+		culture = karakalpak
 		religion = sunni
-		size = 2787
+		size = 300
 	}
 	farmers = {
-		culture = uzbek
+		culture = karakalpak
 		religion = sunni
-		size = 12074
+		size = 1519
 	}
 	aristocrats = {
-		culture = kazak
+		culture = turkmen
 		religion = sunni
 		size = 191
 	}
 	clergymen = {
-		culture = kazak
+		culture = turkmen
 		religion = sunni
 		size = 85
 	}
 	artisans = {
-		culture = kazak
+		culture = turkmen
 		religion = sunni
 		size = 92
 	}
 	soldiers = {
-		culture = kazak
+		culture = turkmen
 		religion = sunni
 		size = 85
 	}
 	farmers = {
-		culture = kazak
+		culture = turkmen
 		religion = sunni
 		size = 9687
 	}
@@ -196,27 +264,27 @@
 		size = 32303
 	}
 	aristocrats = {
-		culture = kirgiz
+		culture = uzbek
 		religion = sunni
 		size = 208
 	}
 	clergymen = {
-		culture = kirgiz
+		culture = uzbek
 		religion = sunni
 		size = 104
 	}
 	artisans = {
-		culture = kirgiz
+		culture = uzbek
 		religion = sunni
 		size = 105
 	}
 	soldiers = {
-		culture = kirgiz
+		culture = uzbek
 		religion = sunni
 		size = 104
 	}
 	farmers = {
-		culture = kirgiz
+		culture = uzbek
 		religion = sunni
 		size = 10175
 	}

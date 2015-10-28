@@ -2,8 +2,9 @@
 trade_goods = grain
 life_rating = 27
 terrain = semi_desert_mountains
-owner = XIN
-controller = XIN
+owner = OIR
+controller = OIR
+add_core = OIR
 add_core = XIN
 1815.1.1 = {
 	owner = MCK

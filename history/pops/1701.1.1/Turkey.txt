@@ -1613,7 +1613,7 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 26719
+		size = 6719
 	}
 	clergymen = {
 		culture = armenian
@@ -1628,7 +1628,7 @@
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 46368
+		size = 66368
 	}
 	aristocrats = {
 		culture = kurdish
@@ -1967,37 +1967,37 @@
 890 = {
 	aristocrats = {
 		culture = turkish
-		religion = sunni
+		religion = shiite
 		size = 166
 	}
 	bureaucrats = {
 		culture = turkish
-		religion = sunni
+		religion = shiite
 		size = 117
 	}
 	officers = {
 		culture = turkish
-		religion = sunni
+		religion = shiite
 		size = 117
 	}
 	clergymen = {
 		culture = turkish
-		religion = sunni
+		religion = shiite
 		size = 93
 	}
 	artisans = {
 		culture = turkish
-		religion = sunni
+		religion = shiite
 		size = 131
 	}
 	soldiers = {
 		culture = turkish
-		religion = sunni
+		religion = shiite
 		size = 166
 	}
 	farmers = {
 		culture = turkish
-		religion = sunni
+		religion = shiite
 		size = 5101
 	}
 	clergymen = {
@@ -2288,27 +2288,27 @@
 	}
 	aristocrats = {
 		culture = kurdish
-		religion = sunni
+		religion = shiite
 		size = 619
 	}
 	clergymen = {
 		culture = kurdish
-		religion = sunni
+		religion = shiite
 		size = 334
 	}
 	artisans = {
 		culture = kurdish
-		religion = sunni
+		religion = shiite
 		size = 417
 	}
 	soldiers = {
 		culture = kurdish
-		religion = sunni
+		religion = shiite
 		size = 619
 	}
 	farmers = {
 		culture = kurdish
-		religion = sunni
+		religion = shiite
 		size = 31401
 	}
 }
@@ -2650,27 +2650,27 @@
 	}
 	aristocrats = {
 		culture = mashriqi
-		religion = sunni
+		religion = shiite
 		size = 191
 	}
 	clergymen = {
 		culture = mashriqi
-		religion = sunni
+		religion = shiite
 		size = 93
 	}
 	artisans = {
 		culture = mashriqi
-		religion = sunni
+		religion = shiite
 		size = 131
 	}
 	soldiers = {
 		culture = mashriqi
-		religion = sunni
+		religion = shiite
 		size = 166
 	}
 	farmers = {
 		culture = mashriqi
-		religion = sunni
+		religion = shiite
 		size = 9912
 	}
 	clergymen = {

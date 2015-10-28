@@ -1,9 +1,11 @@
 owner = ENL
 controller = ENL
+add_core = SIC
 trade_goods = fish
 life_rating = 35
 colonial = 2
 naval_base = 1
+fort = 1
 terrain = marginal_farmland
 1750.1.1 = {
 	owner = ENG

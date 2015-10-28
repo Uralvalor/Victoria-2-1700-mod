@@ -7,6 +7,7 @@ add_core = ROM
 trade_goods = grain
 life_rating = 35
 terrain = conifer_forest_mountains
+fort = 1
 1750.1.1 = {
 	owner = SIE
 	controller = SIE

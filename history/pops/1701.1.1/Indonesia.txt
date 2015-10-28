@@ -1166,7 +1166,7 @@
 	farmers = {
 		culture = yue
 		religion = mahayana
-		size = 2994
+		size = 12994
 	}
 	aristocrats = {
 		culture = javan
@@ -1191,7 +1191,7 @@
 	farmers = {
 		culture = javan
 		religion = animist
-		size = 11155
+		size = 21155
 	}
 	aristocrats = {
 		culture = javan
@@ -1216,7 +1216,12 @@
 	farmers = {
 		culture = javan
 		religion = sunni
-		size = 120917
+		size = 50917
+	}
+	farmers = {
+		culture = javan
+		religion = hindu
+		size = 50917
 	}
 }
 1416 = {
@@ -1372,7 +1377,12 @@
 	farmers = {
 		culture = javan
 		religion = sunni
-		size = 144846
+		size = 100846
+	}
+	farmers = {
+		culture = javan
+		religion = hindu
+		size = 20846
 	}
 	aristocrats = {
 		culture = javan
@@ -1397,7 +1407,7 @@
 	farmers = {
 		culture = javan
 		religion = animist
-		size = 11283
+		size = 21283
 	}
 	aristocrats = {
 		culture = yue
@@ -1422,7 +1432,7 @@
 	farmers = {
 		culture = yue
 		religion = mahayana
-		size = 3564
+		size = 13564
 	}
 }
 1419 = {
@@ -1526,7 +1536,12 @@
 	farmers = {
 		culture = javan
 		religion = sunni
-		size = 97065
+		size = 72065
+	}
+	farmers = {
+		culture = javan
+		religion = hindu
+		size = 25065
 	}
 }
 1421 = {

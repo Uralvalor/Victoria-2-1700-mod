@@ -6,6 +6,10 @@ plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.02
 
+#каракалпаки численность 15 тыс.воинов*5=75
+#казахи средний и младший по 30 тыс.воинов старший 20 тыс (всего 400 тыс.чел)
+#приблизительно численность кыргызов составл€ла от 80 до 120 тыс€ч человек, башкир Ц 80-100 тыс€ч, каракалпаков Ц 60-80 тыс€ч, калмыков Ц 120-160 тыс€ч человек, казахов Ц 300-400 тыс€ч, джунгар Ц 400-500 тыс€ч
+
 # Political reforms
 slavery = yes_slavery
 upper_house_composition = appointed
@@ -24,6 +28,7 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
+land_reform = no_land_reform 
 
 ruling_party = KHI_reactionary
 upper_house = {

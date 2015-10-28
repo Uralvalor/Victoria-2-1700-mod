@@ -3,6 +3,7 @@ controller = ENL
 add_core = IRE
 trade_goods = grain
 life_rating = 35
+fort = 1
 terrain = good_farmland
 
 	state_building = {

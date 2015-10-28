@@ -2,7 +2,7 @@
 
 1861.6.30 = {
 	add_attacker = TPG
-	add_defender = CHI
+	add_defender = MCK
 	
 	# actor
 	# receiver
@@ -12,16 +12,16 @@
 	war_goal = {
 		casus_belli = civil_war
 		actor = TPG
-		receiver = CHI
+		receiver = MCK
 	}
 	war_goal = {
 		casus_belli = civil_war
-		actor = CHI
+		actor = MCK
 		receiver = TPG
 	}
 
 }
 1864.8.1 = {
 	rem_attacker = TPG
-	rem_defender = CHI
+	rem_defender = MCK
 }

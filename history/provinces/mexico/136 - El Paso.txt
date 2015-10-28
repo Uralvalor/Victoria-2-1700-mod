@@ -1,8 +1,10 @@
-owner = SPA
-controller = SPA
+
 add_core = MEX
 add_core = TEX
-colonial = 2
+owner = SPA
+controller = SPA
+colonial = 2 
+ 
 trade_goods = cattle
 life_rating = 35
 terrain = desert_hills

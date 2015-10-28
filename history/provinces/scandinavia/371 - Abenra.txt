@@ -7,6 +7,7 @@ add_core = SCA
 trade_goods = cattle
 life_rating = 35
 terrain = good_farmland
+fort = 1
 1914.1.1 = {
 	owner = GER
 	controller = GER

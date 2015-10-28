@@ -4,6 +4,11 @@ add_core = TEX
 trade_goods = cattle
 life_rating = 35
 terrain = dry_grassland
+1750.1.1 = {
+owner = FRA
+controller = FRA
+colonial = 2 
+ }
 1815.1.1 = {
 	owner = MEX
 	controller = MEX

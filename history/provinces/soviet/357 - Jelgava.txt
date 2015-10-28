@@ -6,6 +6,7 @@ add_core = PLC
 trade_goods = cattle
 life_rating = 35
 terrain = marginal_farmland
+fort = 1
 1750.1.1 = {
 	controller = PLC
 }

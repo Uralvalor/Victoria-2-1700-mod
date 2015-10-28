@@ -4,5 +4,6 @@ add_core = FRA
 add_core = CAT
 trade_goods = grain
 life_rating = 35
+fort = 1
 terrain = deciduous_forest_mountains
 1914.1.1 = { railroad = 3 fort = 2 }

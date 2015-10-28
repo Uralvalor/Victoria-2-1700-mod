@@ -1,0 +1,291 @@
+political_decisions = {
+Mission_RUS = {
+	alert = no
+	potential = {
+				is_greater_power = yes
+	    	NOT = { has_country_flag = rus_mission }
+	            is_sphere_leader_of = RUS
+	RUS = { 
+         	civilized = no
+	        controls = 1008
+            any_owned_province = { has_province_modifier = western_presence } 
+	     }
+	}
+	allow = {	
+	        war = no
+		    money = 1000
+	}
+	
+	effect = {
+		money = -1000
+		set_country_flag = rus_mission
+		military_access = RUS
+		capital_scope = {
+			officers = {
+				money = 1000
+				move_pop = 1008
+			}
+			}
+            }
+}
+
+Mission_PLC = {
+	alert = no
+	potential = {
+				is_greater_power = yes
+	    	NOT = { has_country_flag = PLC_mission }
+	            is_sphere_leader_of = PLC
+	PLC = { 
+         	civilized = no
+	        controls = 706
+            any_owned_province = { has_province_modifier = western_presence } 
+	     }
+	}
+	allow = {	
+	        war = no
+		    money = 1000
+	}
+	
+	effect = {
+		money = -1000
+		set_country_flag = PLC_mission
+		military_access = PLC 
+		capital_scope = {
+			officers = {
+				money = 1000
+				move_pop = 706
+			}
+			}
+            }
+}
+
+Mission_MCK = {
+	alert = no
+	potential = {
+				is_greater_power = yes
+	    	NOT = { has_country_flag = MCK_mission }
+	            is_sphere_leader_of = MCK
+	MCK = { 
+         	civilized = no
+	        controls = 1612
+            any_owned_province = { has_province_modifier = western_presence } 
+	     }
+	}
+	allow = {	
+	        war = no
+		    money = 1000
+	}
+	
+	effect = {
+		money = -1000
+		set_country_flag = MCK_mission
+		military_access = MCK 
+		capital_scope = {
+			officers = {
+				money = 1000
+				move_pop = 1612
+			}
+			}
+            }
+}
+
+Mission_TUR = {
+	alert = no
+	potential = {
+				is_greater_power = yes
+	    	NOT = { has_country_flag = TUR_mission }
+	            is_sphere_leader_of = TUR
+	TUR = { 
+         	civilized = no
+	        controls = 860
+            any_owned_province = { has_province_modifier = western_presence } 
+	     }
+	}
+	allow = {	
+	        war = no
+		    money = 1000
+	}
+	
+	effect = {
+		money = -1000
+		set_country_flag = TUR_mission
+		military_access = TUR 
+		capital_scope = {
+			officers = {
+				money = 1000
+				move_pop = 860
+			}
+			}
+            }
+}
+
+Mission_PER = {
+	alert = no
+	potential = {
+				is_greater_power = yes
+	    	NOT = { has_country_flag = PER_mission }
+	            is_sphere_leader_of = PER
+	PER = { 
+         	civilized = no
+	        controls = 1127
+            any_owned_province = { has_province_modifier = western_presence } 
+	     }
+	}
+	allow = {	
+	        war = no
+		    money = 1000
+	}
+	
+	effect = {
+		money = -1000
+		set_country_flag = PER_mission
+		military_access = PER 
+		capital_scope = {
+			officers = {
+				money = 1000
+				move_pop = 1127
+			}
+			}
+            }
+}
+
+Mission_TKG = {
+	alert = no
+	potential = {
+				is_greater_power = yes
+	    	NOT = { has_country_flag = TKG_mission }
+	            is_sphere_leader_of = TKG
+	TKG = { 
+         	civilized = no
+	        controls = 1649
+            any_owned_province = { has_province_modifier = western_presence } 
+	     }
+	}
+	allow = {	
+	        war = no
+		    money = 1000
+	}
+	
+	effect = {
+		money = -1000
+		set_country_flag = TKG_mission
+		military_access = TKG 
+		capital_scope = {
+			officers = {
+				money = 1000
+				move_pop = 1649
+			}
+			}
+            }
+}
+
+Mission_MAR = {
+	alert = no
+	potential = {
+				is_greater_power = yes
+	    	NOT = { has_country_flag = MAR_mission }
+	            is_sphere_leader_of = MAR
+	MAR = { 
+         	civilized = no
+	        controls = 1297
+            any_owned_province = { has_province_modifier = western_presence } 
+	     }
+	}
+	allow = {	
+	        war = no
+		    money = 1000
+	}
+	
+	effect = {
+		money = -1000
+		set_country_flag = MAR_mission
+		military_access = MAR
+		capital_scope = {
+			officers = {
+				money = 1000
+				move_pop = 1297
+			}
+			}
+            }
+}
+
+Mission_KOR = {
+	alert = no
+	potential = {
+				is_greater_power = yes
+	    	NOT = { has_country_flag = KOR_mission }
+	            is_sphere_leader_of = KOR
+	KOR = { 
+         	civilized = no
+	        controls = 1624
+            any_owned_province = { has_province_modifier = western_presence } 
+	     }
+	}
+	allow = {	
+	        war = no
+		    money = 1000
+	}
+	
+	effect = {
+		money = -1000
+		set_country_flag = KOR_mission
+		 military_access = KOR 
+		capital_scope = {
+			officers = {
+				money = 1000
+				move_pop = 1624
+			}
+			}
+            }
+}
+
+Mission_MUG = {
+	alert = no
+	potential = {
+				is_greater_power = yes
+	    	NOT = { has_country_flag = MUG_mission }
+	            is_sphere_leader_of = MUG
+	MUG = { 
+         	civilized = no
+	        controls = 1236
+            any_owned_province = { has_province_modifier = western_presence } 
+	     }
+	}
+	allow = {	
+	        war = no
+		    money = 1000
+	}
+	
+	effect = {
+		money = -1000
+		set_country_flag = MUG_mission
+		military_access = MUG 
+		capital_scope = {
+			officers = {
+				money = 1000
+				move_pop = 1236
+			}
+			}
+            }
+}
+
+#expansion_nomad = {
+#	alert = yes
+#	potential = {	    	
+#            land_reform = nomads }
+#	allow = {	
+#	        war = no
+#		    money = 10
+#			any_owned_province  = { has_empty_adjacent_province = yes 
+#			                        country_units_in_province = THIS }
+#	}
+#	
+#	effect = {
+#		money = -10
+#				THIS = {
+#				country_event = 11109
+#			    }
+#			}
+#}
+
+}

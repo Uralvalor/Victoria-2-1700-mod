@@ -144,7 +144,14 @@ political_decisions = {
 		
 		allow = {
 			rank = 3
-			owns = 1049
+			1049= {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
 		}
 		
 		effect = {

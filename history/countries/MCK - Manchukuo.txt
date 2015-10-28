@@ -11,6 +11,7 @@ non_state_culture_literacy = 0.02
 set_country_flag = serfdom_not_abolished
 
 
+land_reform = no_land_reform 
 # Political reforms
 slavery = no_slavery
 upper_house_composition = state_equal_weight
@@ -20,6 +21,7 @@ press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = jefferson_method
 political_parties = underground_parties
+religious_rights = no_state_religion 
 
 # Social Reforms
 wage_reform = no_minimum_wage

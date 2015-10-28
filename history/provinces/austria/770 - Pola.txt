@@ -1,11 +1,11 @@
 owner = VEN
 controller = VEN
-add_core = VEN
 add_core = CRO
 add_core = YUG
 trade_goods = grain
 life_rating = 35
 naval_base = 1
+fort = 1
 terrain = good_farmland
 1815.1.1 = {
 	owner = AUS

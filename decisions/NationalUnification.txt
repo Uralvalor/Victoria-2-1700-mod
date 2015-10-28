@@ -230,6 +230,7 @@ political_decisions = {
 					is_culture_group = italian
 					is_culture_group = arab
 					is_culture_group = british 
+					is_culture_group = south_slavic
 				}
 			}
 		}
@@ -652,6 +653,7 @@ political_decisions = {
 
 		allow = {
 			war = no
+			rank = 16
 			SER = {
 				OR = {
 					AND = {
@@ -761,7 +763,6 @@ political_decisions = {
 				limit = {
 					war = no
 					is_culture_group = south_slavic
-					NOT = { tag = ALB }
 					OR = {
 						in_sphere = THIS
 						sphere_owner = { is_sphere_leader_of = THIS }

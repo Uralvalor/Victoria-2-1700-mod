@@ -5,6 +5,7 @@ add_core = GEN
 trade_goods = fruit
 life_rating = 35
 naval_base = 1
+fort = 1
 terrain = deciduous_forest_hills
 state_building = {
 	level = 1
