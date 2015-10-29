@@ -366,7 +366,12 @@
 	artisans = {
 		culture = ukrainian
 		religion = orthodox
-		size = 2050
+		size = 1800
+	}
+	artisans = {
+		culture = circassian
+		religion = orthodox
+		size = 250
 	}
 	soldiers = {
 		culture = ukrainian

@@ -269,23 +269,30 @@ Mission_MUG = {
             }
 }
 
-#expansion_nomad = {
-#	alert = yes
-#	potential = {	    	
-#            land_reform = nomads }
-#	allow = {	
-#	        war = no
-#		    money = 10
-#			any_owned_province  = { has_empty_adjacent_province = yes 
-#			                        country_units_in_province = THIS }
-#	}
-#	
-#	effect = {
-#		money = -10
-#				THIS = {
-#				country_event = 11109
-#			    }
-#			}
-#}
+oirats_genocide = {
+	potential = {
+			tag = MCK
+	    	NOT = { has_country_flag = dzhungar_genocide }
+	}
+	allow = {
+		    owns = 1595 
+	        war = no
+		    money = 10000
+	}
+	
+	effect = {
+	    badboy=21
+		money = -10000
+		set_country_flag = dzhungar_genocide
+		any_pop = {
+			limit = {
+				has_pop_culture = kalmyk
+			}
+			reduce_pop = 0.2
+			militancy = 10
+			move_pop = 1041
+		}
+            }
+}
 
 }

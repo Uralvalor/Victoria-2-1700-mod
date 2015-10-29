@@ -1,3 +1,5 @@
+
+
 country_event = {
     id = 999997
     title = "EVTNAME999998"
@@ -1185,7 +1187,6 @@ country_event = {
 	}
 }
 
-
 country_event = {
 	id = 88200
 	fire_only_once = yes
@@ -1606,7 +1607,7 @@ country_event = {
 		name = event_option_blast
 		any_pop = {
 			limit = {
-				culture = scottish
+				has_pop_culture = scottish
 			}
 			militancy = 10
 		}
@@ -1758,7 +1759,7 @@ country_event = {
 		name = event_option_alright
 		any_pop = {
 			limit = {
-				culture = scottish
+				has_pop_culture = scottish
 			}
 			militancy = 3
 		}
@@ -1985,7 +1986,7 @@ country_event = {
 		name = event_option_blast
 		any_pop = {
 			limit = {
-				culture = serb
+				has_pop_culture = serb
 			}
 			militancy = 10
 		}

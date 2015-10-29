@@ -4,6 +4,15 @@ add_core = OIR
 trade_goods = timber
 life_rating = 27
 terrain = hilly_grassland
+1815.1.1 = {
+	owner = XXX
+	controller = XXX
+}
+1861.1.1 = {
+	owner = RUS
+	controller = RUS
+	colonial = 2
+}
 1923.1.1 = {
 	owner = SOV
 	controller = SOV
