@@ -1059,6 +1059,7 @@ value = 120
 				tag = ENL
 				tag = ENG
 			}
+		NOT = { exists = USA }
 		NOT = {	has_global_flag = forming_thirteen_colonies	}
 		any_owned_province  = {
 				continent = north_america

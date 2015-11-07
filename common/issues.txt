@@ -778,7 +778,7 @@ economic_reforms = {
 	                mobilisation_size = 0.3
 		}
 		no_land_reform = {
-			technology_cost = 2000
+			technology_cost = 4000
 			farm_rgo_size = 0.25
 			mine_rgo_size = 0.25
 			global_pop_militancy_modifier = -0.005
@@ -817,7 +817,7 @@ economic_reforms = {
 			war_exhaustion = 0.3
 		}
 		rehabilitation = {
-			technology_cost = 4800
+			technology_cost = 2800
 			civilization_progress_modifier = 0.036
 
 			on_execute = {

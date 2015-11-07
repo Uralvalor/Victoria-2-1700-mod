@@ -58,7 +58,6 @@ Mission_PLC = {
 			}
             }
 }
-
 Mission_MCK = {
 	alert = no
 	potential = {
@@ -269,8 +268,245 @@ Mission_MUG = {
             }
 }
 
+Mission_UKR = {
+	alert = no
+	potential = {
+				is_greater_power = yes
+	    	NOT = { has_country_flag = UKR_mission }
+	            is_sphere_leader_of = UKR
+	UKR = { 
+         	civilized = no
+	        controls = 958
+            any_owned_province = { has_province_modifier = western_presence } 
+	     }
+	}
+	allow = {	
+	        war = no
+		    money = 1000
+	}
+	
+	effect = {
+		money = -1000
+		set_country_flag = UKR_mission
+		military_access = UKR 
+		capital_scope = {
+			officers = {
+				money = 1000
+				move_pop = 958
+			}
+			}
+            }
+}
+
+Mission_CSK = {
+	alert = no
+	potential = {
+				is_greater_power = yes
+	    	NOT = { has_country_flag = CSK_mission }
+	            is_sphere_leader_of = CSK
+	CSK = { 
+         	civilized = no
+	        controls = 972
+            any_owned_province = { has_province_modifier = western_presence } 
+	     }
+	}
+	allow = {	
+	        war = no
+		    money = 1000
+	}
+	
+	effect = {
+		money = -1000
+		set_country_flag = CSK_mission
+		military_access = CSK
+		capital_scope = {
+			officers = {
+				money = 1000
+				move_pop = 972
+			}
+			}
+            }
+}
+Mission_OIR = {
+	alert = no
+	potential = {
+				is_greater_power = yes
+	    	NOT = { has_country_flag = OIR_mission }
+	            is_sphere_leader_of = OIR
+	OIR = { 
+         	civilized = no
+	        controls = 1595
+            any_owned_province = { has_province_modifier = western_presence } 
+	     }
+	}
+	allow = {	
+	        war = no
+		    money = 1000
+	}
+	
+	effect = {
+		money = -1000
+		set_country_flag = OIR_mission
+		military_access = OIR
+		capital_scope = {
+			officers = {
+				money = 1000
+				move_pop = 1595
+			}
+			}
+            }
+}
+Mission_CRI = {
+	alert = no
+	potential = {
+				is_greater_power = yes
+	    	NOT = { has_country_flag = CRI_mission }
+	            is_sphere_leader_of = CRI
+	CRI = { 
+         	civilized = no
+	        controls = 967
+            any_owned_province = { has_province_modifier = western_presence } 
+	     }
+	}
+	allow = {	
+	        war = no
+		    money = 1000
+	}
+	
+	effect = {
+		money = -1000
+		set_country_flag = CRI_mission
+		military_access = CRI
+		capital_scope = {
+			officers = {
+				money = 1000
+				move_pop = 967
+			}
+			}
+            }
+}
+
+Mission_TIB = {
+	alert = no
+	potential = {
+				is_greater_power = yes
+	    	NOT = { has_country_flag = TIB_mission }
+	            is_sphere_leader_of = TIB
+	TIB = { 
+         	civilized = no
+	        controls = 1587
+            any_owned_province = { has_province_modifier = western_presence } 
+	     }
+	}
+	allow = {	
+	        war = no
+		    money = 1000
+	}
+	
+	effect = {
+		money = -1000
+		set_country_flag = TIB_mission
+		military_access = TIB 
+		capital_scope = {
+			officers = {
+				money = 1000
+				move_pop = 1587
+			}
+			}
+            }
+}
+Mission_MYS = {
+	alert = no
+	potential = {
+				is_greater_power = yes
+	    	NOT = { has_country_flag = MYS_mission }
+	            is_sphere_leader_of = MYS
+	MYS = { 
+         	civilized = no
+	        controls = 1313
+            any_owned_province = { has_province_modifier = western_presence } 
+	     }
+	}
+	allow = {	
+	        war = no
+		    money = 1000
+	}
+	
+	effect = {
+		money = -1000
+		set_country_flag = MYS_mission
+		military_access = MYS 
+		capital_scope = {
+			officers = {
+				money = 1000
+				move_pop = 1313
+			}
+			}
+            }
+}
+
+Mission_NEP = {
+	alert = no
+	potential = {
+				is_greater_power = yes
+	    	NOT = { has_country_flag = NEP_mission }
+	            is_sphere_leader_of = NEP
+	NEP = { 
+         	civilized = no
+	        controls = 1326
+            any_owned_province = { has_province_modifier = western_presence } 
+	     }
+	}
+	allow = {	
+	        war = no
+		    money = 1000
+	}
+	
+	effect = {
+		money = -1000
+		set_country_flag = NEP_mission
+		military_access = NEP 
+		capital_scope = {
+			officers = {
+				money = 1000
+				move_pop = 1326
+			}
+			}
+            }
+}
+
+Mission_EGY = {
+	alert = no
+	potential = {
+				is_greater_power = yes
+	    	NOT = { has_country_flag = EGY_mission }
+	            is_sphere_leader_of = EGY
+	EGY = { 
+         	civilized = no
+	        controls = 1745
+            any_owned_province = { has_province_modifier = western_presence } 
+	     }
+	}
+	allow = {	
+	        war = no
+		    money = 1000
+	}
+	
+	effect = {
+		money = -1000
+		set_country_flag = EGY_mission
+		military_access = EGY
+		capital_scope = {
+			officers = {
+				money = 1000
+				move_pop = 1745
+			}
+			}
+            }
+}
 oirats_genocide = {
 	potential = {
+        NOT = { year = 1815 }
 			tag = MCK
 	    	NOT = { has_country_flag = dzhungar_genocide }
 	}
@@ -288,7 +524,7 @@ oirats_genocide = {
 			limit = {
 				has_pop_culture = kalmyk
 			}
-			reduce_pop = 0.2
+			reduce_pop = 0.1
 			militancy = 10
 			move_pop = 1041
 		}
