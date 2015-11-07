@@ -612,7 +612,7 @@
 	farmers = {
 		culture = burmese
 		religion = theravada
-		size = 3097
+		size = 53097
 	}
 	aristocrats = {
 		culture = asian_minor
@@ -633,6 +633,11 @@
 		culture = asian_minor
 		religion = animist
 		size = 423
+	}
+	farmers = {
+		culture = asian_minor
+		religion = animist
+		size = 50000
 	}
 	aristocrats = {
 		culture = kachin
@@ -657,7 +662,7 @@
 	farmers = {
 		culture = kachin
 		religion = animist
-		size = 13212
+		size = 113212
 	}
 }
 1341 = {
@@ -684,7 +689,7 @@
 	farmers = {
 		culture = kachin
 		religion = animist
-		size = 435735
+		size = 235735
 	}
 }
 1342 = {

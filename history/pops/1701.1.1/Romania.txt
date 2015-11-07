@@ -1643,7 +1643,7 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 5665
+		size = 2665
 	}
 	artisans = {
 		culture = bulgarian
@@ -1653,7 +1653,7 @@
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 4214
+		size = 7214
 	}
 	clergymen = {
 		culture = greek
@@ -1720,7 +1720,7 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 6852
+		size = 1852
 	}
 	aristocrats = {
 		culture = turkish
@@ -1748,18 +1748,18 @@
 		size = 203
 	}
 	clergymen = {
-		culture = ukrainian
+		culture = bulgarian
 		religion = orthodox
 		size = 8
 	}
 	artisans = {
-		culture = ukrainian
+		culture = bulgarian
 		religion = orthodox
 		size = 9
 	}
 	farmers = {
-		culture = ukrainian
+		culture = bulgarian
 		religion = orthodox
-		size = 963
+		size = 5963
 	}
 }

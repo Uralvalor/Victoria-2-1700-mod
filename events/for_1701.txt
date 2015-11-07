@@ -962,6 +962,7 @@ country_event = {
 		NOT = {
 				exists = CRI
 		}
+		has_global_flag = nogai_edisan
 		RUS_968 = {
 			owned_by = THIS
 		}
@@ -1060,7 +1061,7 @@ country_event = {
 		CHI_1600 = {
 			owned_by = OIR
 		} }
-		has_country_flag = nogai_edisan
+		has_global_flag = nogai_edisan
 
 	}
 	
@@ -1142,17 +1143,12 @@ country_event = {
 	id = 88163
 
 	trigger = {
-		tag = CRI
 		NOT = {
-		has_country_flag = nogai_edisan
+		has_global_flag = nogai_edisan
 		}
 		RUS_3253 = {
 			owned_by = THIS
 		}
-		969 = {
-			owned_by = THIS
-		}
-		war_with = RUS
 
         1048 = { OR = { 
 			controlled_by = RUS
@@ -1174,12 +1170,12 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA95161"
-		set_country_flag = nogai_edisan
+		set_global_flag = nogai_edisan
 		RUS_3253 = {
 			poor_strata = {
 				limit = {
                     pop_type = farmers
-					has_pop_culture = nogais
+					has_pop_religion = sunni
 				}
 				move_pop = 969
 			}

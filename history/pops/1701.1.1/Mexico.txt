@@ -35,8 +35,8 @@
 		size = 1211
 	}
 	aristocrats = {
-		culture = native_american_minor
-		religion = animist
+		culture = spanish
+		religion = catholic
 		size = 14
 	}
 	clergymen = {
@@ -46,7 +46,7 @@
 	}
 	artisans = {
 		culture = native_american_minor
-		religion = animist
+		religion = catholic
 		size = 42
 	}
 	soldiers = {
@@ -150,7 +150,7 @@
 	}
 	artisans = {
 		culture = native_american_minor
-		religion = animist
+		religion = catholic
 		size = 14
 	}
 	soldiers = {
@@ -291,7 +291,7 @@
 	}
 	artisans = {
 		culture = native_american_minor
-		religion = animist
+		religion = catholic
 		size = 14
 	}
 	soldiers = {
@@ -481,7 +481,7 @@
 	}
 	artisans = {
 		culture = native_american_minor
-		religion = animist
+		religion = catholic
 		size = 14
 	}
 	soldiers = {
@@ -497,18 +497,18 @@
 }
 2152 = {
 	aristocrats = {
-		culture = native_american_minor
-		religion = animist
+		culture = spanish
+		religion = catholic
 		size = 32
 	}
 	clergymen = {
-		culture = native_american_minor
-		religion = animist
+		culture = spanish
+		religion = catholic
 		size = 14
 	}
 	artisans = {
 		culture = native_american_minor
-		religion = animist
+		religion = catholic
 		size = 61
 	}
 	soldiers = {
@@ -555,7 +555,7 @@
 	}
 	artisans = {
 		culture = native_american_minor
-		religion = animist
+		religion = catholic
 		size = 14
 	}
 	soldiers = {
@@ -612,7 +612,7 @@
 	}
 	artisans = {
 		culture = native_american_minor
-		religion = animist
+		religion = catholic
 		size = 33
 	}
 	soldiers = {
@@ -813,8 +813,8 @@
 }
 2156 = {
 	aristocrats = {
-		culture = native_american_minor
-		religion = animist
+		culture = spanish
+		religion = catholic
 		size = 77
 	}
 	bureaucrats = {
@@ -828,8 +828,8 @@
 		size = 5
 	}
 	clergymen = {
-		culture = native_american_minor
-		religion = animist
+		culture = spanish
+		religion = catholic
 		size = 32
 	}
 	artisans = {
@@ -929,8 +929,8 @@
 }
 2160 = {
 	aristocrats = {
-		culture = native_american_minor
-		religion = animist
+		culture = spanish
+		religion = catholic
 		size = 101
 	}
 	clergymen = {
@@ -1148,8 +1148,13 @@
 	}
 	farmers = {
 		culture = zapotec
+		religion = catholic
+		size = 33685
+	}
+	farmers = {
+		culture = zapotec
 		religion = animist
-		size = 63685
+		size = 30000
 	}
 }
 2162 = {
@@ -1206,12 +1211,12 @@
 	soldiers = {
 		culture = nahua
 		religion = catholic
-		size = 26
+		size = 4426
 	}
 	farmers = {
 		culture = nahua
 		religion = animist
-		size = 24459
+		size = 20059
 	}
 	clergymen = {
 		culture = native_american_minor
@@ -1220,7 +1225,7 @@
 	}
 	artisans = {
 		culture = native_american_minor
-		religion = animist
+		religion = catholic
 		size = 52
 	}
 	soldiers = {
@@ -1261,24 +1266,24 @@
 		size = 158
 	}
 	clergymen = {
-		culture = mayan
-		religion = animist
+		culture = spanish
+		religion = catholic
 		size = 5
 	}
 	artisans = {
 		culture = mayan
-		religion = animist
+		religion = catholic
 		size = 95
 	}
 	soldiers = {
 		culture = mayan
-		religion = animist
-		size = 23
+		religion = catholic
+		size = 1023
 	}
 	farmers = {
 		culture = mayan
 		religion = animist
-		size = 20583
+		size = 19583
 	}
 }
 2164 = {
@@ -1308,23 +1313,23 @@
 		size = 72
 	}
 	clergymen = {
-		culture = nahua
-		religion = animist
+		culture = spanish
+		religion = catholic
 		size = 5
 	}
 	artisans = {
 		culture = nahua
-		religion = animist
+		religion = catholic
 		size = 57
 	}
 	soldiers = {
 		culture = nahua
-		religion = animist
+		religion = catholic
 		size = 14
 	}
 	farmers = {
 		culture = nahua
-		religion = animist
+		religion = catholic
 		size = 12546
 	}
 }
@@ -1423,12 +1428,12 @@
 	}
 	artisans = {
 		culture = native_american_minor
-		religion = animist
+		religion = catholic
 		size = 57
 	}
 	soldiers = {
 		culture = native_american_minor
-		religion = animist
+		religion = catholic
 		size = 14
 	}
 	farmers = {
@@ -1486,8 +1491,9 @@
 }
 2169 = {
 	aristocrats = {
-		culture = native_american_minor
-		religion = animist
+		
+		culture = spanish
+		religion = catholic
 		size = 68
 	}
 	clergymen = {
@@ -1497,7 +1503,7 @@
 	}
 	artisans = {
 		culture = native_american_minor
-		religion = animist
+		religion = catholic
 		size = 142
 	}
 	soldiers = {
@@ -1548,13 +1554,13 @@
 		size = 5533
 	}
 	clergymen = {
-		culture = tarascan
-		religion = animist
+		culture = spanish
+		religion = catholic
 		size = 20
 	}
 	artisans = {
 		culture = tarascan
-		religion = animist
+		religion = catholic
 		size = 194
 	}
 	soldiers = {
@@ -1601,12 +1607,12 @@
 	}
 	artisans = {
 		culture = native_american_minor
-		religion = animist
+		religion = catholic
 		size = 42
 	}
 	soldiers = {
 		culture = native_american_minor
-		religion = animist
+		religion = catholic
 		size = 11
 	}
 	farmers = {
@@ -1673,8 +1679,13 @@
 	}
 	farmers = {
 		culture = nahua
+		religion = catholic
+		size = 15424
+	}
+	farmers = {
+		culture = nahua
 		religion = animist
-		size = 35424
+		size = 20000
 	}
 }
 2174 = {
@@ -1710,7 +1721,7 @@
 	}
 	artisans = {
 		culture = nahua
-		religion = animist
+		religion = catholic
 		size = 180
 	}
 	soldiers = {
@@ -1720,8 +1731,13 @@
 	}
 	farmers = {
 		culture = nahua
+		religion = catholic
+		size = 14841
+	}
+	farmers = {
+		culture = nahua
 		religion = animist
-		size = 38841
+		size = 24841
 	}
 }
 2175 = {
@@ -1824,8 +1840,13 @@
 	}
 	farmers = {
 		culture = nahua
+		religion = catholic
+		size = 39866
+	}
+	farmers = {
+		culture = nahua
 		religion = animist
-		size = 79866
+		size = 40000
 	}
 }
 2177 = {
@@ -1866,23 +1887,28 @@
 	}
 	clergymen = {
 		culture = zapotec
-		religion = animist
+		religion = catholic
 		size = 41
 	}
 	artisans = {
 		culture = zapotec
-		religion = animist
+		religion = catholic
 		size = 484
 	}
 	soldiers = {
 		culture = zapotec
-		religion = animist
+		religion = catholic
 		size = 83
 	}
 	farmers = {
 		culture = zapotec
+		religion = catholic
+		size = 29957
+	}
+	farmers = {
+		culture = zapotec
 		religion = animist
-		size = 79957
+		size = 50957
 	}
 }
 2178 = {
@@ -1913,17 +1939,17 @@
 	}
 	clergymen = {
 		culture = zapotec
-		religion = animist
+		religion = catholic
 		size = 11
 	}
 	artisans = {
 		culture = zapotec
-		religion = animist
+		religion = catholic
 		size = 104
 	}
 	soldiers = {
 		culture = zapotec
-		religion = animist
+		religion = catholic
 		size = 23
 	}
 	farmers = {
@@ -1970,12 +1996,12 @@
 	}
 	clergymen = {
 		culture = tarascan
-		religion = animist
+		religion = catholic
 		size = 11
 	}
 	artisans = {
 		culture = tarascan
-		religion = animist
+		religion = catholic
 		size = 109
 	}
 	soldiers = {
@@ -2027,12 +2053,12 @@
 	}
 	clergymen = {
 		culture = nahua
-		religion = animist
+		religion = catholic
 		size = 5
 	}
 	artisans = {
 		culture = nahua
-		religion = animist
+		religion = catholic
 		size = 57
 	}
 	soldiers = {
@@ -2089,7 +2115,7 @@
 	}
 	artisans = {
 		culture = mayan
-		religion = animist
+		religion = catholic
 		size = 90
 	}
 	soldiers = {
@@ -2136,12 +2162,12 @@
 	}
 	clergymen = {
 		culture = mayan
-		religion = animist
+		religion = catholic
 		size = 8
 	}
 	artisans = {
 		culture = mayan
-		religion = animist
+		religion = catholic
 		size = 28
 	}
 	soldiers = {
@@ -2193,12 +2219,12 @@
 	}
 	clergymen = {
 		culture = mayan
-		religion = animist
+		religion = catholic
 		size = 14
 	}
 	artisans = {
 		culture = mayan
-		religion = animist
+		religion = catholic
 		size = 209
 	}
 	soldiers = {
@@ -2240,12 +2266,12 @@
 	}
 	clergymen = {
 		culture = mayan
-		religion = animist
+		religion = catholic
 		size = 11
 	}
 	artisans = {
 		culture = mayan
-		religion = animist
+		religion = catholic
 		size = 95
 	}
 	soldiers = {
