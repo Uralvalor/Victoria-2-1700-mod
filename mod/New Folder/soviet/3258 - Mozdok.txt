@@ -1,0 +1,22 @@
+owner = CRC
+controller = CRC
+add_core = CSK
+add_core = RUS
+add_core = ICH
+add_core = NCI
+trade_goods = grain
+terrain = dry_grassland
+life_rating = 35
+1750.1.1 = {
+	owner = CRC
+	controller = CRC
+}
+1815.1.1 = {
+	owner = RUS
+	controller = RUS
+}
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

@@ -909,7 +909,7 @@
 	aristocrats = {
 		culture = ukrainian
 		religion = orthodox
-		size = 1535
+		size = 535
 	}
 	bureaucrats = {
 		culture = ukrainian
@@ -927,9 +927,14 @@
 		size = 945
 	}
 	artisans = {
+		culture = russian
+		religion = orthodox
+		size = 6838
+	}
+	artisans = {
 		culture = ukrainian
 		religion = orthodox
-		size = 1838
+		size = 10838
 	}
 	soldiers = {
 		culture = ukrainian
@@ -989,27 +994,27 @@
 		size = 20377
 	}
 	aristocrats = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 315
 	}
 	clergymen = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 43
 	}
 	artisans = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 109
 	}
 	soldiers = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 28
 	}
 	farmers = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 2478
 	}
@@ -1138,27 +1143,27 @@
 		size = 10867
 	}
 	aristocrats = {
-		culture = cossacian
+		culture = ukrainian
 		religion = catholic
 		size = 244
 	}
 	clergymen = {
-		culture = cossacian
+		culture = ukrainian
 		religion = catholic
 		size = 43
 	}
 	artisans = {
-		culture = cossacian
+		culture = ukrainian
 		religion = catholic
 		size = 87
 	}
 	soldiers = {
-		culture = cossacian
+		culture = ukrainian
 		religion = catholic
 		size = 28
 	}
 	farmers = {
-		culture = cossacian
+		culture = ukrainian
 		religion = catholic
 		size = 2584
 	}
@@ -1385,7 +1390,7 @@
 	farmers = {
 		culture = ukrainian
 		religion = orthodox
-		size = 40142
+		size = 61142
 	}
 }
 3260 = {
@@ -1417,7 +1422,7 @@
 	farmers = {
 		culture = ukrainian
 		religion = orthodox
-		size = 9500
+		size = 49500
 	}
 }
 964 = {
@@ -1996,27 +2001,27 @@
 		size = 14805
 	}
 	aristocrats = {
-		culture = cossacian
+		culture = ukrainian
 		religion = catholic
 		size = 87
 	}
 	clergymen = {
-		culture = cossacian
+		culture = ukrainian
 		religion = catholic
 		size = 21
 	}
 	artisans = {
-		culture = cossacian
+		culture = ukrainian
 		religion = catholic
 		size = 36
 	}
 	soldiers = {
-		culture = cossacian
+		culture = ukrainian
 		religion = catholic
 		size = 7
 	}
 	farmers = {
-		culture = cossacian
+		culture = ukrainian
 		religion = catholic
 		size = 432
 	}
@@ -2043,27 +2048,27 @@
 }
 972 = {
 	aristocrats = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 297
 	}
 	clergymen = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 232
 	}
 	artisans = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 277
 	}
 	soldiers = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 9971
 	}
 	farmers = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 4158
 	}
@@ -2167,47 +2172,47 @@
 }
 974 = {
 	artisans = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 303
 	}
 	soldiers = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 146
 	}
 	aristocrats = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 49
 	}
 	farmers = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 9684
 	}
 	aristocrats = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 438
 	}
 	clergymen = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 244
 	}
 	artisans = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 328
 	}
 	soldiers = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 168
 	}
 	farmers = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 16083
 	}
@@ -2234,42 +2239,42 @@
 }
 975 = {
 	artisans = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 303
 	}
 	soldiers = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 146
 	}
 	aristocrats = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 49
 	}
 	farmers = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 5184
 	}
 	aristocrats = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 104
 	}
 	clergymen = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 54
 	}
 	artisans = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 72
 	}
 	soldiers = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 44
 	}
@@ -2375,10 +2380,10 @@
 	farmers = {
 		culture = ukrainian
 		religion = orthodox
-		size = 48249
+		size = 38249
 	}
 	soldiers = {
-		culture = cossacian
+		culture = ukrainian
 		religion = orthodox
 		size = 9028
 	}
@@ -2415,27 +2420,32 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 6651
+		size = 3051
 	}
 }
 980 = {
 	aristocrats = {
-		culture = ukrainian
+		culture = russian
 		religion = orthodox
 		size = 297
 	}
 	clergymen = {
-		culture = ukrainian
+		culture = russian
 		religion = orthodox
 		size = 317
 	}
 	farmers = {
-		culture = ukrainian
+		culture = russian
 		religion = orthodox
-		size = 12043
+		size = 4043
+	}
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 8043
 	}
 	artisans = {
-		culture = ukrainian
+		culture = russian
 		religion = orthodox
 		size = 520
 	}

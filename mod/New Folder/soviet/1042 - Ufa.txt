@@ -1,0 +1,18 @@
+owner = TAT
+controller = TAT
+add_core = URA
+add_core = BSK
+colonial = 2
+trade_goods = iron
+life_rating = 32
+terrain = conifer_forest_hills
+1750.1.1 = {
+        add_core = RUS
+colonial = no
+}
+1914.1.1 = { railroad = 3 }
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

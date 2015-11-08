@@ -1,0 +1,10 @@
+owner = ORN
+controller = ORN
+trade_goods = timber
+life_rating = 25
+terrain = tundra
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

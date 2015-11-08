@@ -1,0 +1,17 @@
+owner = MCK
+controller = MCK
+add_core = MCK
+add_core = SIB
+trade_goods = grain
+life_rating = 27
+terrain = boreal_forest
+1815.1.1 = {
+	owner = RUS
+	controller = RUS
+}
+1914.1.1 = { railroad = 3 }
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

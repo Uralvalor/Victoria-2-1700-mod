@@ -1,0 +1,26 @@
+owner = PLC
+controller = PLC
+add_core = POL
+add_core = PLC
+trade_goods = coal
+life_rating = 35
+terrain = forested_farmland
+1815.1.1 = {
+	owner = POL
+	controller = POL
+}
+1836.1.1 = { 
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+}
+1914.1.1 = {
+	remove_core = PLC
+	fort = 2
+}
+1914.1.1 = { railroad = 1 }
+1923.1.1 = {
+	owner = POL
+	controller = POL
+	remove_core = RUS
+}

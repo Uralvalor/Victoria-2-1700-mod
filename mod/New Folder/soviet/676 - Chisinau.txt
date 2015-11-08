@@ -1,0 +1,13 @@
+owner = MOL
+controller = MOL
+add_core = MOL
+add_core = ROM
+trade_goods = fruit
+life_rating = 35
+terrain = dry_grassland
+1914.1.1 = { railroad = 2 fort = 2 }
+1923.1.1 = {
+	owner = ROM
+	controller = ROM
+	remove_core = RUS
+}

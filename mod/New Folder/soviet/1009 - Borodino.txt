@@ -1,0 +1,13 @@
+owner = SOV
+controller = SOV
+add_core = RUS
+trade_goods = wool
+life_rating = 32
+terrain = forested_farmland
+1861.1.1 = { railroad = 2 }
+1914.1.1 = { railroad = 3 }
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

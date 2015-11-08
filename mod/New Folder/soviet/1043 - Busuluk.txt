@@ -1,0 +1,13 @@
+owner = BSK
+controller = BSK
+add_core = RUS
+trade_goods = cattle
+life_rating = 35
+fort = 1
+terrain = temperate_grassland
+
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

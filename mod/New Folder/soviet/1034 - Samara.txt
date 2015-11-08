@@ -1,0 +1,14 @@
+owner = TAT
+controller = TAT
+add_core = RUS
+add_core = TAT
+trade_goods = grain
+life_rating = 32
+terrain = temperate_grassland
+fort = 1
+1914.1.1 = { railroad = 3 }
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

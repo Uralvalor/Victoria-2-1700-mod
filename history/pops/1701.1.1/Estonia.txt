@@ -17,7 +17,7 @@
 	farmers = {
 		culture = estonian
 		religion = protestant
-		size = 13881
+		size = 8881
 	}
 	clergymen = {
 		culture = swedish
@@ -33,6 +33,11 @@
 		culture = swedish
 		religion = protestant
 		size = 9
+	}
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 1106
 	}
 	farmers = {
 		culture = swedish
@@ -138,8 +143,38 @@
 		religion = protestant
 		size = 8267
 	}
+	artisans = {
+		culture = estonian
+		religion = protestant
+		size = 395
+	}
+	farmers = {
+		culture = estonian
+		religion = protestant
+		size = 8198
+	}
 }
 352 = {
+	aristocrats = {
+		culture = estonian
+		religion = protestant
+		size = 373
+	}
+	officers = {
+		culture = estonian
+		religion = protestant
+		size = 1
+	}
+	clergymen = {
+		culture = estonian
+		religion = protestant
+		size = 873
+	}
+	artisans = {
+		culture = estonian
+		religion = protestant
+		size = 1356
+	}
 	clergymen = {
 		culture = estonian
 		religion = protestant
@@ -158,7 +193,7 @@
 	farmers = {
 		culture = estonian
 		religion = protestant
-		size = 13713
+		size = 18713
 	}
 	clergymen = {
 		culture = swedish

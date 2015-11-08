@@ -1,0 +1,19 @@
+owner = BSK
+controller = BSK
+add_core = RUS
+trade_goods = grain
+life_rating = 32
+terrain = temperate_grassland
+1914.1.1 = {
+	railroad = 3
+	state_building = {
+		level = 3
+		building = fabric_factory
+		upgrade = yes
+	}
+}
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

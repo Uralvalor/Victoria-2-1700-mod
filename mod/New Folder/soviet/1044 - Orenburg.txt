@@ -1,0 +1,19 @@
+owner = TAT
+controller = TAT
+add_core = BSK
+add_core = URA
+add_core = ORN
+trade_goods = grain
+life_rating = 32
+
+terrain = dry_grassland
+1750.1.1 = {
+	owner = RUS
+	controller = RUS
+        add_core = RUS
+}
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

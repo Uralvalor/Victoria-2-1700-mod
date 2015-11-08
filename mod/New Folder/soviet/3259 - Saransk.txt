@@ -1,0 +1,12 @@
+owner = URA
+controller = URA
+add_core = RUS
+trade_goods = grain
+life_rating = 32
+fort = 1
+terrain = temperate_grassland
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

@@ -1,0 +1,18 @@
+owner = NCI
+controller = NCI
+
+add_core = NCI
+add_core = ICH
+trade_goods = wool
+terrain = hills
+life_rating = 30
+terrain = deciduous_forest_mountains
+1815.1.1 = {
+	owner = RUS
+	controller = RUS
+}
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

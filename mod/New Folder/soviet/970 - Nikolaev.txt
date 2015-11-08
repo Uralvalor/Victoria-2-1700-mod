@@ -1,0 +1,19 @@
+owner = CRI
+controller = CRI
+add_core = CRI
+trade_goods = fish
+life_rating = 35
+terrain = dry_grassland
+1815.1.1 = {
+		controller = RUS
+		owner = RUS
+		}
+
+
+1914.1.1 = { railroad = 2 }
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+	remove_core = RUS
+}

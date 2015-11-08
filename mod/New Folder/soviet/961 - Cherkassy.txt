@@ -1,0 +1,22 @@
+owner = PLC
+controller = PLC
+add_core = UKR
+add_core = PLC
+add_core = CSK
+trade_goods = cattle
+life_rating = 35
+terrain = good_farmland
+1815.1.1 = {
+		controller = RUS
+		owner = RUS
+		}
+1914.1.1 = {
+	remove_core = PLC
+}
+1914.1.1 = { railroad = 2 }
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+	remove_core = RUS
+}
