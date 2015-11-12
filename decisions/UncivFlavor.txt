@@ -82,11 +82,7 @@ political_decisions = {
 				}
 				move_pop = 1552
 			}
-		    release = CHI
-		    release_vassal = CHI
-		    release = TAI
-		    release_vassal = TAI
-                    country_event=999991
+                    country_event=143333
 			set_country_flag = manchu_elite_cleared_out
 		}
 	}
