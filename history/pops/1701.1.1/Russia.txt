@@ -261,7 +261,7 @@
 	farmers = {
 		culture = ukrainian
 		religion = orthodox
-		size = 12352
+		size = 32352
 	}
 	aristocrats = {
 		culture = russian
@@ -323,7 +323,12 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 92307
+		size = 82307
+	}
+	farmers = {
+		culture = ukrainian
+		religion = orthodox
+		size = 25000
 	}
 }
 1018 = {
@@ -2214,7 +2219,7 @@
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 8006
+		size = 7006
 	}
 	farmers = {
 		culture = mordva
@@ -2236,10 +2241,15 @@
 		religion = animist
 		size = 191
 	}
-	farmers = {
+	aristocrats = {
 		culture = tatar
-		religion = animist
-		size = 4866
+		religion = sunni
+		size = 2830
+	}
+	artisans = {
+		culture = tatar
+		religion = sunni
+		size = 3036
 	}
 }
 1022 = {

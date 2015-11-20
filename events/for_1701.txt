@@ -1366,7 +1366,8 @@ country_event = {
 	picture = "hre_pic"
 		trigger = { 
 			AND = {
-				NOT = { tag = NET
+				NOT = { year = 1812
+                                        tag = NET
                                         tag = BEL
 					has_country_flag = hre_member
 					has_country_flag = left_hre 

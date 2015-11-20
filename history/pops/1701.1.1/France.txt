@@ -1,36 +1,36 @@
 399 = {
 	aristocrats = {
-		culture = french
+		culture = flemish
 		religion = catholic
 		size = 3694
 	}
 	officers = {
-		culture = french
+		culture = flemish
 		religion = catholic
 		size = 495
 	}
 	bureaucrats = {
-		culture = french
+		culture = flemish
 		religion = catholic
 		size = 1154
 	}
 	clergymen = {
-		culture = french
+		culture = flemish
 		religion = catholic
 		size = 2639
 	}
 	artisans = {
-		culture = french
+		culture = flemish
 		religion = catholic
 		size = 7550
 	}
 	soldiers = {
-		culture = french
+		culture = flemish
 		religion = catholic
 		size = 23716
 	}
 	labourers = {
-		culture = french
+		culture = flemish
 		religion = catholic
 		size = 45182
 	}
@@ -59,7 +59,7 @@
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 48893
+		size = 8893
 	}
 	artisans = {
 		culture = flemish
@@ -74,7 +74,7 @@
 	farmers = {
 		culture = flemish
 		religion = catholic
-		size = 9996
+		size = 49996
 	}
 }
 401 = {
@@ -99,7 +99,7 @@
 		size = 25657
 	}
 	farmers = {
-		culture = french
+		culture = flemish
 		religion = catholic
 		size = 44896
 	}
@@ -126,7 +126,7 @@
 		size = 557
 	}
 	farmers = {
-		culture = french
+		culture = flemish
 		religion = catholic
 		size = 81373
 	}
@@ -160,7 +160,12 @@
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 39647
+		size = 10000
+	}
+	farmers = {
+		culture = flemish
+		religion = catholic
+		size = 29647
 	}
 }
 403 = {
@@ -501,37 +506,37 @@
 }
 411 = {
 	aristocrats = {
-		culture = french
+		culture = south_german
 		religion = catholic
 		size = 2637
 	}
 	officers = {
-		culture = french
+		culture = south_german
 		religion = catholic
 		size = 263
 	}
 	bureaucrats = {
-		culture = french
+		culture = south_german
 		religion = catholic
 		size = 395
 	}
 	clergymen = {
-		culture = french
+		culture = south_german
 		religion = catholic
 		size = 1383
 	}
 	artisans = {
-		culture = french
+		culture = south_german
 		religion = catholic
 		size = 3308
 	}
 	soldiers = {
-		culture = french
+		culture = south_german
 		religion = catholic
 		size = 407
 	}
 	farmers = {
-		culture = french
+		culture = south_german
 		religion = catholic
 		size = 62925
 	}
@@ -573,27 +578,27 @@
 }
 412 = {
 	aristocrats = {
-		culture = french
+		culture = south_german
 		religion = catholic
 		size = 1580
 	}
 	clergymen = {
-		culture = french
+		culture = south_german
 		religion = catholic
 		size = 821
 	}
 	artisans = {
-		culture = french
+		culture = south_german
 		religion = catholic
 		size = 2664
 	}
 	soldiers = {
-		culture = french
+		culture = south_german
 		religion = catholic
 		size = 240
 	}
 	farmers = {
-		culture = french
+		culture = south_german
 		religion = catholic
 		size = 40410
 	}
@@ -722,7 +727,7 @@
 		size = 370
 	}
 	labourers = {
-		culture = french
+		culture = south_german
 		religion = catholic
 		size = 62202
 	}
@@ -977,10 +982,15 @@
 		religion = catholic
 		size = 464
 	}
-	labourers = {
+	farmers = {
 		culture = french
 		religion = catholic
-		size = 62994
+		size = 30000
+	}
+	farmers = {
+		culture = breton
+		religion = catholic
+		size = 32994
 	}
 }
 424 = {
@@ -1329,10 +1339,15 @@
 		religion = catholic
 		size = 11639
 	}
-	labourers = {
+	farmers = {
+		culture = breton
+		religion = catholic
+		size = 40000
+	}
+	farmers = {
 		culture = french
 		religion = catholic
-		size = 95469
+		size = 55469
 	}
 }
 435 = {
@@ -1357,9 +1372,14 @@
 		size = 334
 	}
 	farmers = {
+		culture = breton
+		religion = catholic
+		size = 15000
+	}
+	farmers = {
 		culture = french
 		religion = catholic
-		size = 54958
+		size = 39958
 	}
 }
 436 = {
@@ -1384,9 +1404,14 @@
 		size = 444
 	}
 	farmers = {
+		culture = breton
+		religion = catholic
+		size = 21056
+	}
+	farmers = {
 		culture = french
 		religion = catholic
-		size = 71056
+		size = 50000
 	}
 }
 437 = {

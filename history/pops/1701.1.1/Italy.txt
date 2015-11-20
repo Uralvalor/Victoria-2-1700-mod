@@ -851,27 +851,27 @@
 }
 743 = {
 	aristocrats = {
-		culture = north_italian
+		culture = south_italian
 		religion = catholic
 		size = 922
 	}
 	clergymen = {
-		culture = north_italian
+		culture = south_italian
 		religion = catholic
 		size = 450
 	}
 	artisans = {
-		culture = north_italian
+		culture = south_italian
 		religion = catholic
 		size = 1913
 	}
 	soldiers = {
-		culture = north_italian
+		culture = south_italian
 		religion = catholic
 		size = 469
 	}
 	farmers = {
-		culture = north_italian
+		culture = south_italian
 		religion = catholic
 		size = 38648
 	}

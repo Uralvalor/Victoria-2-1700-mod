@@ -251,10 +251,15 @@
 		religion = gelugpa
 		size = 904
 	}
-	farmers = {
+	soldiers = {
 		culture = tibetan
 		religion = gelugpa
-		size = 101640
+		size = 29904
+	}
+	farmers = {
+		culture = assamese
+		religion = hindu
+		size = 71640
 	}
 	aristocrats = {
 		culture = kachin

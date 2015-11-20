@@ -262,7 +262,7 @@
 	farmers = {
 		culture = manchu
 		religion = mahayana
-		size = 8550
+		size = 16550
 	}
 	artisans = {
 		culture = beifaren
@@ -277,7 +277,7 @@
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 11835
+		size = 3835
 	}
 	aristocrats = {
 		culture = mongol
@@ -339,7 +339,7 @@
 	farmers = {
 		culture = manchu
 		religion = mahayana
-		size = 11164
+		size = 41164
 	}
 	aristocrats = {
 		culture = korean
@@ -379,7 +379,7 @@
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 42169
+		size = 12169
 	}
 	aristocrats = {
 		culture = mongol
@@ -8649,24 +8649,29 @@
 		size = 1229
 	}
 	clergymen = {
-		culture = beifaren
+		culture = manchu
 		religion = mahayana
 		size = 4051
 	}
 	artisans = {
-		culture = beifaren
+		culture = manchu
 		religion = mahayana
 		size = 23772
 	}
 	soldiers = {
-		culture = beifaren
+		culture = manchu
 		religion = mahayana
 		size = 1022
 	}
 	farmers = {
+		culture = manchu
+		religion = mahayana
+		size = 300000
+	}
+	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 357006
+		size = 57006
 	}
 	aristocrats = {
 		culture = manchu
