@@ -59,3 +59,209 @@ oob = "PER_oob.txt"
 1750.1.1 = {
 oob = "/1756/PER_oob.txt"
  }
+1815.1.1 = { 
+literacy = 0.05
+
+govt_flag = {
+	government = hms_government
+	flag = democracy
+}
+govt_flag = {
+	government = prussian_constitutionalism
+	flag = democracy
+}
+govt_flag = {
+	government = democracy
+	flag = presidential_dictatorship
+}
+
+ruling_party = PER_conservative
+upper_house = {
+	fascist = 0
+	liberal = 12
+	conservative = 60
+	reactionary = 28
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+# Starting Consciousness
+consciousness = 0
+nonstate_consciousness = 0
+
+land_reform = yes_land_reform
+foreign_weapons = yes_foreign_weapons
+finance_reform = yes_finance_reform
+
+flintlock_rifles = 1
+
+oob = "/1816/PER_oob.txt" }
+
+
+1836.1.1 = {
+literacy = 0.07
+
+education_reform = yes_education_reform
+foreign_officers = yes_foreign_officers
+army_schools = yes_army_schools
+
+oob = "PER_oob.txt"
+
+}
+1851.1.1 = {
+	decision = establish_the_dar_al_funun
+}
+
+1861.1.1 = {
+	oob = "/1861/PER_oob.txt"
+	literacy = 0.12
+	non_state_culture_literacy = 0.12
+
+	academic_institutions = madrasahs
+	medicine_reform = alchemy
+	taxation_reform = tax_farmers
+}
+
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = jefferson_method
+political_parties = underground_parties
+immigration_policy = nobody_gets_out
+conscription = mandatory_service
+minorities = oppression
+
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+pollution = no_controls
+child_labor = child_labor_legal
+education = elite
+arts_endowment = no_endowment
+
+
+1914.1.1 = {
+
+decision = sign_the_geneva_convention
+
+government = hms_government
+literacy = 0.18
+plurality = 30
+civilized = yes
+
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = landed_voting
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = jefferson_method
+political_parties = underground_parties
+
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+
+# Technologies
+	post_napoleonic_thought = 1
+	strategic_mobility = 1
+	point_defense_system = 1
+	flintlock_rifles = 1
+	bronze_muzzle_loaded_artillery = 1
+	iron_muzzle_loaded_artillery = 1
+	military_staff_system = 1
+	army_command_principle = 1
+	army_professionalism = 1
+	private_banks = 1
+	stock_exchange = 1
+	business_banks = 1
+	no_standard = 1
+	ad_hoc_money_bill_printing = 1
+	private_bank_money_bill_printing = 1
+	ideological_thought = 1
+	state_n_government = 1
+	nationalism_n_imperialism = 1
+	early_classical_theory_and_critique = 1
+	late_classical_theory = 1
+	freedom_of_trade = 1
+	market_structure = 1
+	business_regulations = 1
+	guild_based_production = 1
+	classicism_n_early_romanticism = 1
+	late_enlightenment_philosophy = 1
+	idealism = 1
+	malthusian_thought = 1
+	enlightenment_thought = 1
+	introspectionism = 1
+	water_wheel_power = 1
+	practical_steam_engine = 1
+	high_n_low_pressure_steam_engines = 1
+	publishing_industry = 1
+	mechanical_production = 1
+	mechanized_mining = 1
+	clean_coal = 1
+	cheap_iron = 1
+	experimental_railroad = 1
+	basic_chemistry = 1
+	medicine = 1
+	inorganic_chemistry = 1
+	post_nelsonian_thought = 1
+	battleship_column_doctrine = 1
+	clipper_design = 1
+	steamers = 1
+	naval_design_bureaus = 1
+	fire_control_systems = 1
+	weapon_platforms = 1
+	alphabetic_flag_signaling = 1
+	the_command_principle = 1
+	naval_professionalism = 1
+	iron_steamers = 1
+	early_railroad = 1
+	empiricism = 1
+	analytic_philosophy = 1
+	muzzle_loaded_rifles = 1
+
+napoleonic_thought = 1
+nelsonian_thought = 1
+steamers_with_paddle_wheel = 1
+marine_engineering_basics = 1
+marine_chronometers = 1
+joint-stock_companies = 1
+bimetallism = 1
+physiocracy = 1
+state_mercantilism = 1
+division_of_labour = 1
+sentimentalism = 1
+materialism = 1
+nihilism_i_anarchism = 1
+constitutionalism_thought = 1
+fundamentals_of_psychology = 1
+experimental_steam_engine = 1
+manufactories = 1
+ferrous_metallurgy = 1
+animal-powered_railroad = 1
+thermodynamics = 1
+
+oob = "/1914/PER_oob.txt"
+}
+
+1923.1.1 = {
+
+iron_railroad = 1
+breech_loaded_rifles = 1
+military_plans = 1
+caplock_rifles = 1
+improved_communication_systems = 1
+
+oob = "/1923/PER_oob.txt"
+}

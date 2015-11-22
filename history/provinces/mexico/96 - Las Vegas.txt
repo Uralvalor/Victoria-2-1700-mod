@@ -14,8 +14,8 @@ colonial = no
 	remove_core = SPA
 }
 1861.1.1 = {
-	 
-	 
-	add_core = USA
+	owner = USA
+	controller = USA
+	add_core = USA
 	colonial = no
-}
+}

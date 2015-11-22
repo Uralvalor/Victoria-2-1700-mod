@@ -352,22 +352,22 @@
 		size = 1999
 	}
 	clergymen = {
-		culture = czech
+		culture = croat
 		religion = catholic
 		size = 21
 	}
 	artisans = {
-		culture = czech
+		culture = croat
 		religion = catholic
 		size = 52
 	}
 	soldiers = {
-		culture = czech
+		culture = croat
 		religion = catholic
 		size = 21
 	}
 	farmers = {
-		culture = czech
+		culture = croat
 		religion = catholic
 		size = 511
 	}
@@ -485,7 +485,7 @@
 	farmers = {
 		culture = croat
 		religion = catholic
-		size = 10458
+		size = 2458
 	}
 	clergymen = {
 		culture = serb
@@ -505,7 +505,7 @@
 	farmers = {
 		culture = serb
 		religion = orthodox
-		size = 2812
+		size = 14812
 	}
 	aristocrats = {
 		culture = hungarian
@@ -778,7 +778,7 @@
 	farmers = {
 		culture = croat
 		religion = catholic
-		size = 6435
+		size = 3435
 	}
 	clergymen = {
 		culture = serb

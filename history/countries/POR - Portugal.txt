@@ -72,3 +72,377 @@ oob = "POR_oob.txt"
 1750.1.1 = {
 oob = "/1756/POR_oob.txt"
  }
+
+1815.1.1 = { 
+literacy = 0.10
+civilized = yes
+prestige = 10
+
+# Political reforms
+slavery = yes_slavery
+upper_house_composition = state_equal_weight
+vote_franschise = wealth_voting
+public_meetings = yes_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = jefferson_method
+political_parties = non_secret_ballots
+immigration_policy = nobody_gets_out
+conscription = mandatory_service
+minorities = oppression
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+pollution = no_controls
+child_labor = child_labor_legal
+education = elite
+arts_endowment = no_endowment
+
+ruling_party = POR_liberal
+last_election = 1834.1.1
+upper_house = {
+	fascist = 0
+	liberal = 18
+	conservative = 69
+	reactionary = 13
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+# Technologies
+napoleonic_thought = 1
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+military_staff_system = 1
+army_command_principle = 1
+nelsonian_thought = 1
+clipper_design = 1
+marine_engineering_basics = 1
+marine_chronometers = 1
+the_command_principle = 1
+joint-stock_companies = 1
+physiocracy = 1
+state_mercantilism = 1
+division_of_labour = 1
+no_standard = 1
+sentimentalism = 1
+late_enlightenment_philosophy = 1
+malthusian_thought = 1
+enlightenment_thought = 1
+fundamentals_of_psychology = 1
+water_wheel_power = 1
+manufactories = 1
+mechanized_mining = 1
+basic_chemistry = 1
+
+#Inventions
+#corvettes = yes
+
+# Starting Consciousness
+consciousness = 3
+nonstate_consciousness = 1
+
+oob = "/1816/POR_oob.txt" }
+
+
+1836.1.1 = {
+
+literacy = 0.13
+
+# Technologies
+post_napoleonic_thought = 1
+muzzle_loaded_rifles = 1
+iron_muzzle_loaded_artillery = 1
+improved_communication_systems = 1
+army_professionalism = 1
+post_nelsonian_thought = 1
+steamers_with_paddle_wheel = 1
+naval_design_bureaus = 1
+alphabetic_flag_signaling = 1
+naval_professionalism = 1
+private_banks = 1
+bimetallism = 1
+early_classical_theory_and_critique = 1
+freedom_of_trade = 1
+guild_based_production = 1
+classicism_n_early_romanticism = 1
+idealism = 1
+nihilism_i_anarchism = 1
+constitutionalism_thought = 1
+introspectionism = 1
+experimental_steam_engine = 1
+publishing_industry = 1
+clean_coal = 1
+animal-powered_railroad = 1
+experimental_railroad = 1
+thermodynamics = 1
+
+oob = "POR_oob.txt"
+}
+
+1861.1.1 = {
+	oob = "/1861/POR_oob.txt"
+
+# Political reforms
+slavery = yes_slavery
+upper_house_composition = state_equal_weight
+vote_franschise = wealth_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = non_socialist
+voting_system = jefferson_method
+political_parties = gerrymandering
+
+ruling_party = POR_liberal_2
+plurality = 60
+prestige = 20
+literacy = 0.17
+non_state_culture_literacy = 0.10
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+school_reforms = low_schools	
+	
+# Technologies
+	post_napoleonic_thought = 1
+	strategic_mobility = 1
+	flintlock_rifles = 1
+	muzzle_loaded_rifles = 1
+	bronze_muzzle_loaded_artillery = 1
+	iron_muzzle_loaded_artillery = 1
+	military_staff_system = 1
+	military_plans = 1
+	army_command_principle = 1
+	
+	post_nelsonian_thought = 1
+	battleship_column_doctrine = 1
+	clipper_design = 1
+	steamers = 1
+	naval_design_bureaus = 1
+	fire_control_systems = 1
+	alphabetic_flag_signaling = 1
+	the_command_principle = 1
+	
+	private_banks = 1
+	stock_exchange = 1
+	no_standard = 1
+	ad_hoc_money_bill_printing = 1
+	early_classical_theory_and_critique = 1
+	late_classical_theory = 1
+	freedom_of_trade = 1
+	market_structure = 1
+	guild_based_production = 1
+	
+	classicism_n_early_romanticism = 1
+	romanticism = 1
+	late_enlightenment_philosophy = 1
+	idealism = 1
+	malthusian_thought = 1
+	positivism = 1
+	enlightenment_thought = 1
+	ideological_thought = 1
+	state_n_government = 1
+	introspectionism = 1
+	
+	water_wheel_power = 1
+	practical_steam_engine = 1
+	publishing_industry = 1
+	mechanical_production = 1
+	mechanized_mining = 1
+	clean_coal = 1
+	experimental_railroad = 1
+	basic_chemistry = 1
+	medicine = 1
+	
+#Inventions
+
+}
+
+1914.1.1 = {
+
+education = public
+
+decision = institute_central_bank
+decision = sign_the_geneva_convention
+
+literacy = 0.87
+non_state_culture_literacy = 0.20
+prestige = 103
+
+ruling_party = POR_liberal
+government = democracy
+plurality = 100
+upper_house = {
+	fascist = 0
+	liberal = 40
+	conservative = 25
+	reactionary = 20
+	anarcho_liberal = 5
+	socialist = 10
+	communist = 0
+}
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = universal_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = all_trade_unions
+voting_system = jefferson_method
+political_parties = secret_ballots	
+	
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = ten_hours
+safety_regulations = no_safety
+health_care = low_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+
+basic_chemistry = 1
+medicine = 1
+inorganic_chemistry = 1
+organic_chemistry = 1
+electricity = 1
+post_napoleonic_thought = 1
+strategic_mobility = 1
+point_defense_system = 1
+deep_defense_system = 1
+infiltration = 1
+flintlock_rifles = 1
+muzzle_loaded_rifles = 1
+breech_loaded_rifles = 1
+machine_guns = 1
+bolt_action_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+iron_muzzle_loaded_artillery = 1
+iron_breech_loaded_artillery = 1
+steel_breech_loaded_artillery = 1
+military_staff_system = 1
+military_plans = 1
+military_statistics = 1
+military_logistics = 1
+army_command_principle = 1
+army_professionalism  = 1
+army_decision_making = 1
+army_risk_management = 1
+private_banks = 1
+stock_exchange = 1
+business_banks = 1
+no_standard = 1
+ad_hoc_money_bill_printing = 1
+private_bank_money_bill_printing = 1
+central_bank_money_bill_printing = 1
+modern_central_bank_system = 1
+early_classical_theory_and_critique = 1
+late_classical_theory = 1
+collectivist_theory = 1
+the_historical_theory = 1
+freedom_of_trade = 1
+market_structure = 1
+business_regulations = 1
+market_regulations = 1
+economic_responsibility = 1
+government_interventionism = 1
+guild_based_production = 1
+organized_factories = 1
+scientific_management = 1
+time_saving_measures = 1
+management_strategy = 1
+classicism_n_early_romanticism = 1
+romanticism = 1
+realism = 1
+impressionism = 1
+expressionism = 1
+late_enlightenment_philosophy = 1
+idealism = 1
+empiricism = 1
+malthusian_thought = 1
+positivism = 1
+functionalism = 1
+biologism = 1
+social_science = 1
+enlightenment_thought = 1
+ideological_thought = 1
+state_n_government = 1
+nationalism_n_imperialism = 1
+revolution_n_counterrevolution = 1
+mass_politics = 1
+introspectionism = 1
+associationism = 1
+phenomenalism = 1
+experimental_psychology = 1
+water_wheel_power = 1
+practical_steam_engine = 1
+high_n_low_pressure_steam_engines = 1
+steam_turbine = 1
+combustion_engine = 1
+electrical_power_generation = 1
+publishing_industry = 1
+mechanical_production = 1
+interchangeable_parts = 1
+semi_automatization = 1
+mechanized_mining = 1
+clean_coal = 1
+cheap_iron = 1
+cheap_steel = 1
+advanced_metallurgy = 1
+electric_furnace = 1
+experimental_railroad = 1
+early_railroad = 1
+iron_railroad = 1
+steel_railroad = 1
+integral_rail_system = 1
+post_nelsonian_thought = 1
+battleship_column_doctrine = 1
+raider_group_doctrine = 1
+clipper_design = 1
+steamers = 1
+iron_steamers = 1
+steel_steamers = 1
+naval_design_bureaus = 1
+fire_control_systems = 1
+weapon_platforms = 1
+main_armament = 1
+advanced_naval_design = 1
+alphabetic_flag_signaling = 1
+naval_plans = 1
+naval_statistics = 1
+naval_logistics = 1
+the_command_principle = 1
+naval_professionalism = 1
+naval_decision_making = 1
+analytic_philosophy = 1
+phenomenology_n_hermeneutic = 1
+anti__rationalism = 1
+
+caplock_rifles = 1
+military_academies = 1
+naval_academies = 1
+materialism = 1
+ferrous_metallurgy = 1
+
+oob = "/1914/POR_oob.txt"
+}
+
+1923.1.1 = {
+
+bolt_action_rifles = 1
+government_interventionism = 1
+management_strategy = 1
+rapid-firing_field_guns = 1
+
+oob = "/1923/POR_oob.txt"
+}

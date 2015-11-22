@@ -636,6 +636,11 @@
 		religion = catholic
 		size = 4473
 	}
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 300
+	}
 }
 737 = {
 	aristocrats = {

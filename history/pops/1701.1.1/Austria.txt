@@ -379,7 +379,7 @@
 	aristocrats = {
 		culture = south_german
 		religion = catholic
-		size = 447
+		size = 147
 	}
 	clergymen = {
 		culture = south_german
@@ -402,24 +402,34 @@
 		size = 27290
 	}
 	clergymen = {
-		culture = hungarian
+		culture = croat
 		religion = catholic
 		size = 37
 	}
 	artisans = {
-		culture = hungarian
+		culture = ashkenazi
+		religion = jewish
+		size = 750
+	}
+	artisans = {
+		culture = croat
 		religion = catholic
 		size = 47
 	}
 	soldiers = {
-		culture = hungarian
+		culture = croat
 		religion = catholic
 		size = 22
 	}
 	farmers = {
-		culture = hungarian
+		culture = croat
 		religion = catholic
 		size = 1821
+	}
+	aristocrats = {
+		culture = hungarian
+		religion = catholic
+		size = 347
 	}
 	clergymen = {
 		culture = hungarian

@@ -92,10 +92,192 @@ prestige = 100 }
 1750.1.1 = {
 oob = "/1756/ENG_oob.txt"
  }
+1815.1.1 = {
+# Technologies
+napoleonic_thought = 1
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+military_staff_system = 1
+army_command_principle = 1
+nelsonian_thought = 1
+post_nelsonian_thought = 1
+clipper_design = 1
+steamers_with_paddle_wheel = 1
+marine_engineering_basics = 1
+marine_chronometers = 1
+the_command_principle = 1
+naval_professionalism = 1
+joint-stock_companies = 1
+private_banks = 1
+no_standard = 1
+bimetallism = 1
+ad_hoc_money_bill_printing = 1
+physiocracy = 1
+early_classical_theory_and_critique = 1
+state_mercantilism = 1
+freedom_of_trade = 1
+division_of_labour = 1
+sentimentalism = 1
+late_enlightenment_philosophy = 1
+malthusian_thought = 1
+enlightenment_thought = 1
+fundamentals_of_psychology = 1
+water_wheel_power = 1
+experimental_steam_engine = 1
+manufactories = 1
+publishing_industry = 1
+mechanized_mining = 1
+animal-powered_railroad = 1
+basic_chemistry = 1
+
+# Inventions
+
+precision_work = yes
+prophylaxis_against_malaria = yes
+
+# Starting Consciousness
+consciousness = 3
+nonstate_consciousness = 1
+
+ruling_party = ENG_liberal
+upper_house = {
+	fascist = 0
+	liberal = 12
+	conservative = 83
+	reactionary = 5
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+schools = naval_tech_school
+set_global_flag = scenario_1816_activated
+
+oob = "/1816/ENG_oob.txt"
+}
+
+1836.1.1 = {
+plurality = 5
+literacy = 0.55
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = wealth_voting
+public_meetings = yes_meeting
+press_rights = censored_press
+trade_unions = non_socialist
+voting_system = first_past_the_post
+political_parties = non_secret_ballots
+immigration_policy = nobody_gets_out
+conscription = mandatory_service
+minorities = oppression
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = trinket_safety
+health_care = trinket_health_care
+unemployment_subsidies = trinket_subsidies
+pensions = no_pensions
+pollution = no_controls
+child_labor = child_labor_legal
+education = church
+arts_endowment = no_endowment
+
+# Technologies
+post_napoleonic_thought = 1
+muzzle_loaded_rifles = 1
+iron_muzzle_loaded_artillery = 1
+improved_communication_systems = 1
+army_professionalism = 1
+battleship_column_doctrine = 1
+steamers = 1
+naval_design_bureaus = 1
+alphabetic_flag_signaling = 1
+naval_academies = 1
+stock_exchange = 1
+private_bank_money_bill_printing = 1
+late_classical_theory = 1
+market_structure = 1
+mechanical_production = 1
+guild_based_production = 1
+classicism_n_early_romanticism = 1
+idealism = 1
+nihilism_i_anarchism = 1
+constitutionalism_thought = 1
+introspectionism = 1
+practical_steam_engine = 1
+mechanical_production = 1
+clean_coal = 1
+experimental_railroad = 1
+thermodynamics = 1
+
+# Inventions
+#corvettes = yes
+commerce_raiders = yes
+precision_work = yes
+prophylaxis_against_malaria = yes
+
+# Starting Consciousness
+consciousness = 3
+nonstate_consciousness = 1
+
+ruling_party = ENG_liberal
+last_election = 1835.2.6
+upper_house = {
+	fascist = 0
+	liberal = 12
+	conservative = 83
+	reactionary = 5
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+clr_global_flag = scenario_1816_activated
+set_global_flag = scenario_1836_activated
+set_global_flag = gran_colombia_collapsed
+
+foreign_investment = {
+	BEL = 10000
+	DEN = 2000
+}
+
+oob = "ENG_oob.txt"
+}
+1842.8.9 = {
+decision = webster_ashburton_treaty
+decision = the_scotland_yard
+}
+
+1846.6.25 = {
+decision = repeal_the_corn_laws
+}
+
+1857.1.1 = {
+decision = crown_empress_of_india
+}
+
+#1860.10.18 = {
+#decision = torching_of_the_summer_palace
+#}
 
 1861.1.1 = {
 	oob = "/1861/ENG_oob.txt"
+	prestige = 165
+	plurality = 65
+	literacy = 0.70
+	non_state_culture_literacy = 0.15
 
+	foreign_investment = {
+		BEL = 10000
+		POR = 10000
+		ITA = 10000
+		SIA = 5000
+		PER = 5000
+		BRU = 2500
+	}
 
 # Political reforms
 slavery = no_slavery
@@ -106,6 +288,7 @@ press_rights = free_press
 trade_unions = non_socialist
 voting_system = first_past_the_post
 political_parties = non_secret_ballots	
+ruling_party = ENG_liberal_2
 	
 # Social Reforms
 wage_reform = trinket_wage
@@ -116,4 +299,284 @@ unemployment_subsidies = trinket_subsidies
 pensions = no_pensions 
 school_reforms = low_schools	
 	
+# Technologies
+	post_napoleonic_thought = 1
+	strategic_mobility = 1
+	point_defense_system = 1
+	flintlock_rifles = 1
+	muzzle_loaded_rifles = 1
+	bronze_muzzle_loaded_artillery = 1
+	iron_muzzle_loaded_artillery = 1
+	iron_breech_loaded_artillery = 1
+	military_staff_system = 1
+	military_plans = 1
+	army_command_principle = 1
+	army_professionalism = 1
+	
+	post_nelsonian_thought = 1
+	battleship_column_doctrine = 1
+	raider_group_doctrine = 1
+	clipper_design = 1
+	steamers = 1
+	iron_steamers = 1
+	naval_design_bureaus = 1
+	fire_control_systems = 1
+	weapon_platforms = 1
+	alphabetic_flag_signaling = 1
+	naval_plans = 1
+	the_command_principle = 1
+	naval_professionalism = 1
+	
+	private_banks = 1
+	stock_exchange = 1
+	business_banks = 1
+	no_standard = 1
+	ad_hoc_money_bill_printing = 1
+	private_bank_money_bill_printing = 1
+	early_classical_theory_and_critique = 1
+	late_classical_theory = 1
+	freedom_of_trade = 1
+	market_structure = 1
+	business_regulations = 1
+	guild_based_production = 1
+	organized_factories = 1
+	
+	classicism_n_early_romanticism = 1
+	romanticism = 1
+	late_enlightenment_philosophy = 1
+	idealism = 1
+	malthusian_thought = 1
+	positivism = 1
+	functionalism = 1
+	biologism = 1
+	enlightenment_thought = 1
+	ideological_thought = 1
+	state_n_government = 1
+	nationalism_n_imperialism = 1
+	introspectionism = 1
+	associationism = 1
+	
+	water_wheel_power = 1
+	practical_steam_engine = 1
+	high_n_low_pressure_steam_engines = 1
+	publishing_industry = 1
+	mechanical_production = 1
+	interchangeable_parts = 1
+	mechanized_mining = 1
+	clean_coal = 1
+	cheap_iron = 1
+	cheap_steel = 1
+	experimental_railroad = 1
+	early_railroad = 1
+	iron_railroad = 1
+	basic_chemistry = 1
+	medicine = 1
+	inorganic_chemistry = 1
+
+ferrous_metallurgy = 1
+
+clr_global_flag = scenario_1816_activated
+clr_global_flag = scenario_1836_activated
+set_country_flag = had_sand_river_convention
+set_country_flag = had_orange_river_convention
+
+}
+
+1914.1.1 = {
+
+education = public
+
+decision = act_1867
+decision = act_1871
+decision = rhodesia_charter
+decision = institute_central_bank
+decision = sign_the_geneva_convention
+decision = build_suez_canal_1914
+decision = rename_provinces_1914
+decision = great_war_enabler
+decision = forced_egyptological_excavations
+decision = balance_decision_1914
+
+plurality = 100
+literacy = 1
+non_state_culture_literacy = 0.15
+prestige = 1200
+
+set_country_flag = dominion_sa_created
+set_global_flag = scenario_1914_activated
+set_global_flag = NileDiscovered
+set_global_flag = NorthPoleDiscovered
+set_global_flag = SouthPoleDiscovered
+set_global_flag = world_war_one_is_now
+
+basic_chemistry = 1
+medicine = 1
+inorganic_chemistry = 1
+organic_chemistry = 1
+electricity = 1
+post_napoleonic_thought = 1
+strategic_mobility = 1
+point_defense_system = 1
+deep_defense_system = 1
+flintlock_rifles = 1
+muzzle_loaded_rifles = 1
+breech_loaded_rifles = 1
+machine_guns = 1
+bronze_muzzle_loaded_artillery = 1
+iron_muzzle_loaded_artillery = 1
+iron_breech_loaded_artillery = 1
+steel_breech_loaded_artillery = 1
+military_staff_system = 1
+military_plans = 1
+military_statistics = 1
+military_logistics = 1
+army_command_principle = 1
+army_professionalism  = 1
+army_decision_making = 1
+private_banks = 1
+stock_exchange = 1
+business_banks = 1
+no_standard = 1
+ad_hoc_money_bill_printing = 1
+private_bank_money_bill_printing = 1
+central_bank_money_bill_printing = 1
+modern_central_bank_system = 1
+early_classical_theory_and_critique = 1
+late_classical_theory = 1
+collectivist_theory = 1
+the_historical_theory = 1
+freedom_of_trade = 1
+market_structure = 1
+business_regulations = 1
+market_regulations = 1
+economic_responsibility = 1
+guild_based_production = 1
+organized_factories = 1
+scientific_management = 1
+time_saving_measures = 1
+classicism_n_early_romanticism = 1
+romanticism = 1
+realism = 1
+impressionism = 1
+expressionism = 1
+late_enlightenment_philosophy = 1
+idealism = 1
+empiricism = 1
+malthusian_thought = 1
+positivism = 1
+functionalism = 1
+biologism = 1
+social_science = 1
+enlightenment_thought = 1
+ideological_thought = 1
+state_n_government = 1
+nationalism_n_imperialism = 1
+revolution_n_counterrevolution = 1
+mass_politics = 1
+introspectionism = 1
+associationism = 1
+phenomenalism = 1
+experimental_psychology = 1
+water_wheel_power = 1
+practical_steam_engine = 1
+high_n_low_pressure_steam_engines = 1
+steam_turbine = 1
+combustion_engine = 1
+electrical_power_generation = 1
+publishing_industry = 1
+mechanical_production = 1
+interchangeable_parts = 1
+semi_automatization = 1
+mechanized_mining = 1
+clean_coal = 1
+cheap_iron = 1
+cheap_steel = 1
+advanced_metallurgy = 1
+electric_furnace = 1
+experimental_railroad = 1
+early_railroad = 1
+iron_railroad = 1
+steel_railroad = 1
+integral_rail_system = 1
+post_nelsonian_thought = 1
+battleship_column_doctrine = 1
+raider_group_doctrine = 1
+clipper_design = 1
+steamers = 1
+iron_steamers = 1
+steel_steamers = 1
+naval_design_bureaus = 1
+fire_control_systems = 1
+weapon_platforms = 1
+main_armament = 1
+advanced_naval_design = 1
+alphabetic_flag_signaling = 1
+naval_plans = 1
+naval_statistics = 1
+naval_logistics = 1
+the_command_principle = 1
+naval_professionalism = 1
+naval_decision_making = 1
+blue_and_brown_water_schools = 1
+high_sea_battle_fleet = 1
+steam_turbine_ships = 1
+analytic_philosophy = 1
+phenomenology_n_hermeneutic = 1
+anti__rationalism = 1
+
+caplock_rifles = 1
+rapid-firing_field_guns = 1
+military_academies = 1
+naval_academies = 1
+materialism = 1
+
+oob = "/1914/ENG_oob.txt"
+}
+1923.1.1 = {
+
+set_global_flag = scenario_1923_activated
+clr_global_flag = scenario_1914_activated
+clr_global_flag = world_war_one_is_now
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = state_equal_weight
+vote_franschise = universal_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = all_trade_unions
+voting_system = jefferson_method
+political_parties = secret_ballots
+immigration_policy = quota_immigration
+conscription = two_year_draft
+minorities = limited
+
+# Social Reforms
+wage_reform = acceptable_minimum_wage
+work_hours = twelve_hours
+safety_regulations = low_safety
+health_care = good_health_care
+unemployment_subsidies = low_subsidies
+pensions = trinket_pensions
+pollution = trinket_envir
+child_labor = child_labor_restricted
+education = public
+arts_endowment = no_endowment
+
+army_risk_management = 1
+army_nco_training = 1
+military_directionism = 1
+infiltration = 1
+naval_risk_management = 1
+naval_nco_training = 1
+naval_directionism = 1
+oil_driven_ships = 1
+doctrine_of_submarine_warfare = 1
+investment_banks = 1
+management_strategy = 1
+social_alienation = 1
+psychoanalysis = 1
+assembly_line = 1
+
+oob = "/1923/ENG_oob.txt"
 }

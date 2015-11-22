@@ -1117,17 +1117,17 @@
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 478
+		size = 378
 	}
 	farmers = {
 		culture = scottish
 		religion = protestant
-		size = 478
+		size = 378
 	}
 	farmers = {
 		culture = irish
 		religion = catholic
-		size = 478
+		size = 378
 	}
 	artisans = {
 		culture = sephardic
@@ -1137,7 +1137,7 @@
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 2329
+		size = 1029
 	}
 }
 206 = {
@@ -1219,7 +1219,7 @@
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 268
+		size = 1268
 	}
 }
 213 = {
@@ -1251,7 +1251,7 @@
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 1584
+		size = 3584
 	}
 }
 214 = {
@@ -1308,7 +1308,7 @@
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 1242
+		size = 3462
 	}
 }
 215 = {
@@ -1363,7 +1363,7 @@
 	artisans = {
 		culture = english
 		religion = protestant
-		size = 1035
+		size = 135
 	}
 	soldiers = {
 		culture = english
@@ -1373,12 +1373,12 @@
 	farmers = {
 		culture = english
 		religion = protestant
-		size = 891
+		size = 391
 	}
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 543
+		size = 443
 	}
 }
 220 = {
@@ -1464,12 +1464,12 @@
 	farmers = {
 		culture = swedish
 		religion = protestant
-		size = 487
+		size = 287
 	}
 	farmers = {
 		culture = english
 		religion = protestant
-		size = 345
+		size = 145
 	}
 	slaves = {
 		culture = african_minor
@@ -1648,7 +1648,7 @@
 	artisans = {
 		culture = scottish
 		religion = protestant
-		size = 1115
+		size = 615
 	}
 	soldiers = {
 		culture = scottish
@@ -1658,7 +1658,7 @@
 	farmers = {
 		culture = dutch
 		religion = protestant
-		size = 2196
+		size = 796
 	}
 	artisans = {
 		culture = scottish
@@ -1668,7 +1668,7 @@
 	farmers = {
 		culture = english
 		religion = catholic
-		size = 277
+		size = 177
 	}
 	slaves = {
 		culture = african_minor
@@ -1700,7 +1700,7 @@
 	farmers = {
 		culture = dutch
 		religion = protestant
-		size = 1602
+		size = 602
 	}
 	bureaucrats = {
 		culture = english
@@ -1752,7 +1752,7 @@
 	farmers = {
 		culture = english
 		religion = protestant
-		size = 1558
+		size = 758
 	}
 }
 232 = {
@@ -1784,12 +1784,12 @@
 	artisans = {
 		culture = english
 		religion = catholic
-		size = 491
+		size = 291
 	}
 	artisans = {
 		culture = dutch
 		religion = protestant
-		size = 2561
+		size = 561
 	}
 	soldiers = {
 		culture = english
@@ -1799,7 +1799,7 @@
 	farmers = {
 		culture = dutch
 		religion = protestant
-		size = 4887
+		size = 887
 	}
 	clergymen = {
 		culture = english
@@ -1927,7 +1927,7 @@
 	farmers = {
 		culture = dutch
 		religion = protestant
-		size = 230
+		size = 930
 	}
 	clergymen = {
 		culture = dutch
@@ -1985,12 +1985,12 @@
 	farmers = {
 		culture = english
 		religion = protestant
-		size = 1477
+		size = 977
 	}
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 34
+		size = 134
 	}
 }
 243 = {
@@ -2022,7 +2022,7 @@
 	artisans = {
 		culture = english
 		religion = protestant
-		size = 1233
+		size = 2233
 	}
 	artisans = {
 		culture = english
@@ -2067,7 +2067,7 @@
 	farmers = {
 		culture = english
 		religion = catholic
-		size = 214
+		size = 1214
 	}
 	clergymen = {
 		culture = irish
@@ -2082,7 +2082,7 @@
 	farmers = {
 		culture = irish
 		religion = catholic
-		size = 68
+		size = 1068
 	}
 }
 244 = {
@@ -2114,7 +2114,7 @@
 	farmers = {
 		culture = english
 		religion = protestant
-		size = 2052
+		size = 4052
 	}
 	clergymen = {
 		culture = irish
@@ -2129,7 +2129,7 @@
 	farmers = {
 		culture = irish
 		religion = catholic
-		size = 295
+		size = 1295
 	}
 }
 245 = {
@@ -2137,6 +2137,11 @@
 		culture = cree
 		religion = animist
 		size = 1485
+	}
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 3000
 	}
 }
 246 = {
@@ -2185,7 +2190,7 @@
 	farmers = {
 		culture = english
 		religion = protestant
-		size = 469
+		size = 1069
 	}
 }
 248 = {

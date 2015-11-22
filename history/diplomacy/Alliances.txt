@@ -4,7 +4,12 @@ alliance = {
 	start_date = 1700.1.1
 	end_date = 1715.1.1
 }
-
+alliance = {
+	first = RUS
+	second = PLC
+	start_date = 1700.1.1
+	end_date = 1760.1.1
+}
 alliance = {
 	first = FRA
 	second = BAV

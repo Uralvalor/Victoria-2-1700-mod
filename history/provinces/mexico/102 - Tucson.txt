@@ -16,8 +16,9 @@ colonial = no
 1836.1.1 = {
 	remove_core = SPA
 }
-1861.1.1 = {	
-	 
-	 
+1861.1.1 = {
+	owner = USA
+	controller = USA
 	add_core = USA
-}
+	colonial = no
+}

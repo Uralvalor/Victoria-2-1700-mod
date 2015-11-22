@@ -1,0 +1,19 @@
+army = {
+	name = "Cossacian"
+	location = 979
+	regiment = {
+		name= "1. Brigade"
+		type = cavalry
+		home = 972
+	}
+	regiment = {
+		name= "2. Brigade"
+		type = cavalry
+		home = 972
+	}
+	regiment = {
+		name= "3. Brigade"
+		type = cavalry
+		home = 972
+	}
+}

@@ -121,7 +121,7 @@
 	farmers = {
 		culture = kashmiri
 		religion = sunni
-		size = 63651
+		size = 43651
 	}
 	aristocrats = {
 		culture = tibetan
@@ -146,7 +146,7 @@
 	farmers = {
 		culture = tibetan
 		religion = mahayana
-		size = 33923
+		size = 13923
 	}
 }
 1227 = {
@@ -243,7 +243,7 @@
 	farmers = {
 		culture = panjabi
 		religion = sunni
-		size = 729016
+		size = 329016
 	}
 }
 1228 = {
@@ -270,7 +270,7 @@
 	farmers = {
 		culture = panjabi
 		religion = sikh
-		size = 11434
+		size = 111434
 	}
 	aristocrats = {
 		culture = panjabi
@@ -295,7 +295,7 @@
 	farmers = {
 		culture = panjabi
 		religion = sunni
-		size = 215790
+		size = 315790
 	}
 	aristocrats = {
 		culture = panjabi
@@ -320,7 +320,7 @@
 	farmers = {
 		culture = panjabi
 		religion = hindu
-		size = 28594
+		size = 78594
 	}
 }
 1229 = {
@@ -528,7 +528,7 @@
 	farmers = {
 		culture = panjabi
 		religion = sikh
-		size = 8404
+		size = 108404
 	}
 	aristocrats = {
 		culture = panjabi
@@ -578,7 +578,7 @@
 	farmers = {
 		culture = panjabi
 		religion = hindu
-		size = 46272
+		size = 96272
 	}
 }
 1218 = {
@@ -733,7 +733,12 @@
 	artisans = {
 		culture = sindi
 		religion = sunni
-		size = 2886
+		size = 1886
+	}
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 1000
 	}
 	soldiers = {
 		culture = sindi
@@ -815,7 +820,7 @@
 	farmers = {
 		culture = sindi
 		religion = sunni
-		size = 78828
+		size = 88828
 	}
 	aristocrats = {
 		culture = sindi
@@ -835,7 +840,7 @@
 	farmers = {
 		culture = sindi
 		religion = hindu
-		size = 3975
+		size = 33975
 	}
 }
 1290 = {

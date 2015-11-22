@@ -2,9 +2,10 @@ add_core = CAN
 trade_goods = grain
 life_rating = 15
 terrain = tundra_mountains
+
 1861.1.1 = {
-	 
-	 
+	owner = ENG
+	controller = ENG
 	colonial = 2
 }
 1914.1.1 = {
