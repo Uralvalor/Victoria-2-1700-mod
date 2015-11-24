@@ -32,7 +32,7 @@ immigration_focus =
 	middle_income_modifier = 0.1
 	pop_militancy_modifier = -0.05
         population_growth = 0.01
-	tax_efficiency = -0.005 #offshore for other in country
+	tax_efficiency = -0.001 #offshore for other in country
 		icon = 10
 	}
 }
