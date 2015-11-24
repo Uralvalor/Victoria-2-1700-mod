@@ -674,8 +674,9 @@ naval_base = {
 	colonial_range = 50
 	local_ship_build = -0.10
 	population_growth = 0.001
-	farm_rgo_eff = 0.02
-	mine_rgo_eff = 0.02
+        farm_rgo_eff = 0.125 #transportation 
+        mine_rgo_eff = 0.125 #transportation 
+	import_cost = -0.01
 }
        
 railroad = {   

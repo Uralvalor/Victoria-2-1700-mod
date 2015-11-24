@@ -46716,6 +46716,12 @@ fort=
 			y=1553.000000
 		}
 
+naval_base=
+		{
+			x=3568.000000
+			y=1553.000000
+		}
+
 	}
 }
 
@@ -46925,6 +46931,11 @@ fort=
 building_position = 
 	{
 fort=
+		{
+			x=3542.000000
+			y=1530.000000
+		}
+naval_base=
 		{
 			x=3542.000000
 			y=1530.000000
@@ -47402,6 +47413,11 @@ fort=
 			x=3562.000000
 			y=1472.000000
 		}
+naval_base=
+		{
+			x=3562.000000
+			y=1472.000000
+		}
 
 	}
 }
@@ -47582,6 +47598,11 @@ fort=
 building_position = 
 	{
 fort=
+		{
+			x=3547.000000
+			y=1509.000000
+		}
+naval_base=
 		{
 			x=3547.000000
 			y=1509.000000
@@ -49435,6 +49456,11 @@ fort=
 	}
 building_position = 
 	{
+naval_base=
+		{
+			x=3586.000000
+			y=1443.300049
+		}
 fort=
 		{
 			x=3586.000000
@@ -49476,6 +49502,11 @@ fort=
 	}
 building_position = 
 	{
+naval_base=
+		{
+			x=3573.000000
+			y=1452.099976
+		}
 fort=
 		{
 			x=3573.000000
@@ -49629,6 +49660,11 @@ fort=
 	}
 building_position = 
 	{
+naval_base=
+		{
+			x=3566.000000
+			y=1409.000000
+		}
 fort=
 		{
 			x=3566.000000
@@ -49811,6 +49847,21 @@ fort=
 		y=1377.400024
 	}
 	text_scale=3.199999
+building_position = 
+	{
+	
+naval_base=
+		{
+		x=3581.000000
+		y=1383.000000
+		}
+fort=
+		{
+		x=3581.000000
+		y=1383.000000
+		}
+
+	}
 	building_construction=
 	{
 		x=3590.000000
@@ -49832,6 +49883,22 @@ fort=
 	{
 		x=3619.000000
 		y=1366.000000
+	}
+	
+building_position = 
+	{
+	
+naval_base=
+		{
+		x=3619.000000
+		y=1366.000000
+		}
+fort=
+		{
+		x=3619.000000
+		y=1366.000000
+		}
+
 	}
 	factory=
 	{
@@ -49855,10 +49922,27 @@ fort=
 		y=1361.800049
 	}
 	text_scale=3.799999
+	
+building_position = 
+	{
+	
+naval_base=
+		{
+		x=3636.000000
+		y=1367.000000
+		}
+fort=
+		{
+		x=3636.000000
+		y=1367.000000
+		}
+
+	}
 	building_construction=
 	{
 		x=3628.399902
 		y=1369.099976
+
 	}
 	factory=
 	{
@@ -49899,6 +49983,12 @@ fort=
 	}
 building_position = 
 	{
+	
+naval_base=
+		{
+			x=3651.000000
+			y=1382.000000
+		}
 fort=
 		{
 			x=3651.000000
@@ -52718,6 +52808,12 @@ fort=
 			y=1572.000000
 		}
 
+naval_base=
+		{
+			x=3600.000000
+			y=1572.000000
+		}
+
 	}
 	spawn_railway_track=
 	{
@@ -53264,6 +53360,11 @@ fort=
 			y=1495.000000
 		}
 
+naval_base=
+		{
+			x=3621.000000
+			y=1495.000000
+		}
 	}
 	spawn_railway_track=
 	{
@@ -53716,6 +53817,13 @@ fort=
 	}
 building_position = 
 	{
+	
+naval_base=
+		{
+			x=3632.000000
+			y=1439.000000
+		}
+		
 fort=
 		{
 			x=3632.000000
@@ -69331,6 +69439,12 @@ railroad=
 #Jirim Chuulgan
 1533 = 
 {
+
+	text_position=
+	{
+		x=4695.000000
+		y=1540.000000
+	}
 	unit=
 	{
 		x=4718.000000
@@ -73232,11 +73346,6 @@ fort=
 			y=1424.000000
 		}
 
-naval_base=
-		{
-			x=4669.399902
-			y=1429.099976
-		}
 
 	}
 	spawn_railway_track=
@@ -73352,12 +73461,6 @@ fort=
 		{
 			x=4642.000000
 			y=1424.000000
-		}
-
-naval_base=
-		{
-			x=4645.700195
-			y=1419.699951
 		}
 
 	}
@@ -124248,8 +124351,18 @@ naval_base=6.108653
 
 #Caspian Sea
 2779 = 
-{
-	text_scale=5.499997
+{	unit=
+	{
+		x=3582.000000
+		y=1536.000000
+	}
+	text_position=
+	{
+		x=3582.000000
+		y=1536.000000
+	}
+	text_rotation=0.736332
+	text_scale=5
 }
 
 #Aral Sea
@@ -131614,32 +131727,39 @@ naval_base=4.101523
 
 3250 = { 
     text_position = { 
-        x = 3519.899902
-        y = 1504.000000
+        x = 4656.899902
+        y = 1434.000000
     } 
 
     text_scale = 2.299999
     unit = { 
-        x = 3523.900000
-        y = 1498.450000
+        x = 4665
+        y = 1424
     } 
 
     building_construction = { 
-        x = 3519.000000
-        y = 1508.650000
+        
+        x = 4665
+        y = 1424
     } 
 
     military_construction = { 
-        x = 3517.500000
-        y = 1496.650000
+        
+        x = 4665
+        y = 1424
     } 
 
     building_position = { 
         fort = { 
-            x = 3513.899902
-            y = 1501.000000
-        } 
+           
+        x = 4665
+        y = 1424
+        }
 
+naval_base= { 
+        x = 4662
+        y = 1421
+        } 
     } 
 
 } 
@@ -131693,6 +131813,10 @@ naval_base=4.101523
             x = 3548.760000
             y = 1500.400000
         } 
+naval_base= { 
+            x = 3548.760000
+            y = 1500.400000
+        } 
 
     } 
 
@@ -131736,30 +131860,31 @@ naval_base=1.570797
 
 3254 = { 
     text_position = { 
-        x = 3424.515000
-        y = 1526.400000
+        x = 4735
+        y = 1511
     } 
 
-    text_scale = 2.299999
+    text_scale = 4
     unit = { 
-        x = 3426.440000
-        y = 1527.390000
+        x = 4735
+        y = 1511
     } 
 
     building_construction = { 
-        x = 3428.585000
-        y = 1523.045000
+
+        x = 4735
+        y = 1511
     } 
 
     military_construction = { 
-        x = 3423.030000
-        y = 1522.385000
+        x = 4735
+        y = 1511
     } 
 
     building_position = { 
         fort = { 
-            x = 3430.675000
-            y = 1531.955000
+        x = 4735
+        y = 1511
         } 
 
     } 
@@ -131793,32 +131918,17 @@ naval_base=1.570797
 
 } 
 
-3256 = { 
-    text_scale = 2.299999
-    unit = { 
-        x = 3440.150000
-        y = 1510.550000
-    } 
+#South Caspian Sea
 
-    building_construction = { 
-        x = 3432.000000
-        y = 1513.000000
-    } 
+3256 = 
+{	unit=
+	{
+		x=3608.000000
+		y=1408.000000
+	}
+	text_scale=5
+}
 
-    military_construction = { 
-        x = 3443.400000
-        y = 1503.850000
-    } 
-
-    building_position = { 
-        fort = { 
-            x = 3437.950000
-            y = 1514.050000
-        } 
-
-    } 
-
-} 
 
 3257 = { 
     text_scale = 2.299999
@@ -132528,3 +132638,4 @@ building_rotation =
 naval_base=4.454045
 	}
 }
+

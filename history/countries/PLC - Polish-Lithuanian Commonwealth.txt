@@ -8,6 +8,7 @@ prestige = 5
 nationalvalue = nv_equality
 literacy = 0.37
 non_state_culture_literacy = 0.19
+is_releasable_vassal = no
 
 
 set_country_flag = serfdom_not_abolished

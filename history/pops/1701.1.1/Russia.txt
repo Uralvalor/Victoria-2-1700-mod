@@ -3591,35 +3591,6 @@
 	}
 }
 
-3256 = {
-	soldiers = {
-		culture = circassian
-		religion = sunni
-		size = 1040
-	}
-	farmers = {
-		culture = circassian
-		religion = orthodox
-		size = 4000
-	}
-}
-3254 = {
-	soldiers = {
-		culture = circassian
-		religion = sunni
-		size = 3040
-	}
-	farmers = {
-		culture = circassian
-		religion = orthodox
-		size = 4000
-	}
-	farmers = {
-		culture = circassian
-		religion = catholic
-		size = 4000
-	}
-}
 3253 = {
 	soldiers = {
 		culture = circassian
@@ -3692,6 +3663,22 @@
 	}
 }
 3255 = {
+
+	soldiers = {
+		culture = circassian
+		religion = sunni
+		size = 3040
+	}
+	farmers = {
+		culture = circassian
+		religion = orthodox
+		size = 4000
+	}
+	farmers = {
+		culture = circassian
+		religion = catholic
+		size = 4000
+	}
 	aristocrats = {
 		culture = circassian
 		religion = animist
@@ -3831,7 +3818,16 @@
 	}
 }
 3257 = {
-
+	soldiers = {
+		culture = circassian
+		religion = sunni
+		size = 1040
+	}
+	farmers = {
+		culture = circassian
+		religion = orthodox
+		size = 4000
+	}
 	aristocrats = {
 		culture = circassian
 		religion = sunni
@@ -4323,48 +4319,6 @@
 		size = 10450
 	}
 }
-3250 = {
-	artisans = {
-		culture = chechen
-		religion = orthodox
-		size = 216
-	}
-	soldiers = {
-		culture = chechen
-		religion = animist
-		size = 1303
-	}
-	farmers = {
-		culture = chechen
-		religion = animist
-		size = 1264
-	}
-	aristocrats = {
-		culture = avar
-		religion = sunni
-		size = 90
-	}
-	clergymen = {
-		culture = avar
-		religion = sunni
-		size = 72
-	}
-	artisans = {
-		culture = avar
-		religion = sunni
-		size = 63
-	}
-	soldiers = {
-		culture = avar
-		religion = animist
-		size = 153
-	}
-	farmers = {
-		culture = avar
-		religion = animist
-		size = 450
-	}
-}
 1055 = {
 	aristocrats = {
 		culture = chechen
@@ -4450,6 +4404,46 @@
 		culture = ingush
 		religion = animist
 		size = 2925
+	}
+	artisans = {
+		culture = chechen
+		religion = orthodox
+		size = 216
+	}
+	soldiers = {
+		culture = chechen
+		religion = animist
+		size = 1303
+	}
+	farmers = {
+		culture = chechen
+		religion = animist
+		size = 1264
+	}
+	aristocrats = {
+		culture = avar
+		religion = sunni
+		size = 90
+	}
+	clergymen = {
+		culture = avar
+		religion = sunni
+		size = 72
+	}
+	artisans = {
+		culture = avar
+		religion = sunni
+		size = 63
+	}
+	soldiers = {
+		culture = avar
+		religion = animist
+		size = 153
+	}
+	farmers = {
+		culture = avar
+		religion = animist
+		size = 450
 	}
 }
 1056 = {

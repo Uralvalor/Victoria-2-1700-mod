@@ -1,5 +1,8 @@
 owner = MCK
-controller = MCK  add_core = CHI  colonial = 2
+controller = MCK
+add_core = CHI
+add_core = MCK
+colonial = 2
 trade_goods = silk
 life_rating = 30
 fort = 1

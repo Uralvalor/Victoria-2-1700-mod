@@ -6,9 +6,13 @@ trade_goods = wool
 terrain = hills
 life_rating = 35
 terrain = deciduous_forest_hills
-1750.1.1 = {
-	owner = RUS
+1836.1.1 = {
+	add_core = RUS
+}
+1861.1.1 = {
 	controller = RUS
+	owner = RUS
+	remove_core = NCI
 }
 1914.1.1 = {
 	trade_goods = oil

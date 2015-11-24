@@ -2513,27 +2513,27 @@
 		size = 30202
 	}
 	aristocrats = {
-		culture = mordvin
+		culture = mordva
 		religion = orthodox
 		size = 261
 	}
 	clergymen = {
-		culture = mordvin
+		culture = mordva
 		religion = orthodox
 		size = 320
 	}
 	artisans = {
-		culture = mordvin
+		culture = mordva
 		religion = orthodox
 		size = 961
 	}
 	soldiers = {
-		culture = mordvin
+		culture = mordva
 		religion = orthodox
 		size = 384
 	}
 	farmers = {
-		culture = mordvin
+		culture = mordva
 		religion = orthodox
 		size = 47900
 	}
@@ -3011,22 +3011,22 @@
 		size = 13081
 	}
 	clergymen = {
-		culture = mordvin
+		culture = mordva
 		religion = orthodox
 		size = 256
 	}
 	artisans = {
-		culture = mordvin
+		culture = mordva
 		religion = orthodox
 		size = 2052
 	}
 	soldiers = {
-		culture = mordvin
+		culture = mordva
 		religion = orthodox
 		size = 256
 	}
 	farmers = {
-		culture = mordvin
+		culture = mordva
 		religion = orthodox
 		size = 21674
 	}
@@ -3175,22 +3175,22 @@
 		size = 191852
 	}
 	clergymen = {
-		culture = mordvin
+		culture = mordva
 		religion = orthodox
 		size = 191
 	}
 	artisans = {
-		culture = mordvin
+		culture = mordva
 		religion = orthodox
 		size = 513
 	}
 	soldiers = {
-		culture = mordvin
+		culture = mordva
 		religion = orthodox
 		size = 128
 	}
 	farmers = {
-		culture = mordvin
+		culture = mordva
 		religion = orthodox
 		size = 11990
 	}
@@ -8847,38 +8847,6 @@
 		size = 88647
 	}
 }
-3250 = {
-	aristocrats = {
-		culture = chechen
-		religion = sunni
-		size = 1306
-	}
-	clergymen = {
-		culture = chechen
-		religion = sunni
-		size = 2115
-	}
-	officers = {
-		culture = chechen
-		religion = sunni
-		size = 282
-	}
-	artisans = {
-		culture = chechen
-		religion = sunni
-		size = 4514
-	}
-	soldiers = {
-		culture = chechen
-		religion = sunni
-		size = 8152
-	}
-	farmers = {
-		culture = chechen
-		religion = sunni
-		size = 67390
-	}
-}
 3251 = {
 	aristocrats = {
 		culture = chechen
@@ -9080,53 +9048,6 @@
 		size = 1282
 	}
 }
-3254 = {
-	aristocrats = {
-		culture = circassian
-		religion = sunni
-		size = 285
-	}
-	clergymen = {
-		culture = circassian
-		religion = sunni
-		size = 191
-	}
-	artisans = {
-		culture = circassian
-		religion = sunni
-		size = 89
-	}
-	bureaucrats = {
-		culture = circassian
-		religion = sunni
-		size = 923
-	}
-	soldiers = {
-		culture = circassian
-		religion = sunni
-		size = 1424
-	}
-	farmers = {
-		culture = circassian
-		religion = sunni
-		size = 37510
-	}
-	clergymen = {
-		culture = ukrainian
-		religion = orthodox
-		size = 76
-	}
-	farmers = {
-		culture = ukrainian
-		religion = orthodox
-		size = 5078
-	}
-	farmers = {
-		culture = armenian
-		religion = orthodox
-		size = 2115
-	}
-}
 3255 = {
 	aristocrats = {
 		culture = circassian
@@ -9197,73 +9118,6 @@
 		culture = russian
 		religion = orthodox
 		size = 2052
-	}
-}
-3256 = {
-	aristocrats = {
-		culture = circassian
-		religion = sunni
-		size = 19
-	}
-	bureaucrats = {
-		culture = circassian
-		religion = sunni
-		size = 974
-	}
-	soldiers = {
-		culture = circassian
-		religion = sunni
-		size = 847
-	}
-	farmers = {
-		culture = circassian
-		religion = sunni
-		size = 15158
-	}
-	soldiers = {
-		culture = circassian
-		religion = sunni
-		size = 1282
-	}
-	farmers = {
-		culture = circassian
-		religion = sunni
-		size = 5706
-	}
-	farmers = {
-		culture = ukrainian
-		religion = orthodox
-		size = 4463
-	}
-	farmers = {
-		culture = russian
-		religion = orthodox
-		size = 1795
-	}
-	aristocrats = {
-		culture = armenian
-		religion = orthodox
-		size = 28
-	}
-	clergymen = {
-		culture = armenian
-		religion = orthodox
-		size = 256
-	}
-	artisans = {
-		culture = armenian
-		religion = orthodox
-		size = 205
-	}
-	soldiers = {
-		culture = armenian
-		religion = orthodox
-		size = 1410
-	}
-	farmers = {
-		culture = armenian
-		religion = orthodox
-		size = 7079
 	}
 }
 3257 = {
@@ -9512,27 +9366,27 @@
 		size = 145435
 	}
 	aristocrats = {
-		culture = mordvin
+		culture = mordva
 		religion = orthodox
 		size = 812
 	}
 	clergymen = {
-		culture = mordvin
+		culture = mordva
 		religion = orthodox
 		size = 3782
 	}
 	artisans = {
-		culture = mordvin
+		culture = mordva
 		religion = orthodox
 		size = 23085
 	}
 	soldiers = {
-		culture = mordvin
+		culture = mordva
 		religion = orthodox
 		size = 5899
 	}
 	farmers = {
-		culture = mordvin
+		culture = mordva
 		religion = orthodox
 		size = 183461
 	}
