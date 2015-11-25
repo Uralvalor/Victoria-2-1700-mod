@@ -185,6 +185,17 @@ not = { has_country_flag = cri_in }
                 set_country_flag = cri_in
         TUR = { release_vassal = CRI }
 		inherit = CRI
+		968 = { change_province_name = "Одесса" }
+		969 = { change_province_name = "Оливополь" }
+		970 = { change_province_name = "Николаев" }
+		965 = { change_province_name = "Херсон" }
+		973 = { change_province_name = "Мелитополь" }
+		976 = { change_province_name = "Мариуполь" }
+		1048 = { change_province_name = "Кубань" }
+		3253 = { change_province_name = "Тамань" }
+		966 = { change_province_name = "Керчь" }
+		967 = { change_province_name = "Севастополь" }
+		964 = { change_province_name = "Симфорополь" }
 	}
 }
 

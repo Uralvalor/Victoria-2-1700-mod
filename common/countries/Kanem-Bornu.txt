@@ -2,7 +2,7 @@ color = { 129 44 84 }
 graphical_culture = AfricanGC
 
 party = {
-	name = "KNM_conservative"
+	name = "KBO_conservative"
 	start_date = 1765.1.1
 	end_date = 3000.1.1
 
@@ -16,7 +16,7 @@ party = {
 }
 
 party = {
-	name = "KNM_liberal"
+	name = "KBO_liberal"
 	start_date = 1750.1.1
 	end_date = 1936.1.1
 
@@ -30,8 +30,8 @@ party = {
 }
 
 party = {
-	name = "KNM_reactionary"
-	start_date = 1750.1.1
+	name = "KBO_reactionary"
+	start_date = 1700.1.1
 	end_date = 3000.1.1
 
 	ideology = reactionary
@@ -44,7 +44,7 @@ party = {
 }
 
 party = {
-	name = "KNM_anarcho_liberal"
+	name = "KBO_anarcho_liberal"
 	start_date = 1789.1.1
 	end_date = 3000.1.1
 
@@ -58,7 +58,7 @@ party = {
 }
 
 party = {
-	name = "KNM_socialist"
+	name = "KBO_socialist"
 	start_date = 1848.1.1
 	end_date = 3000.1.1
 
@@ -72,7 +72,7 @@ party = {
 }
 
 party = {
-	name = "KNM_communist"
+	name = "KBO_communist"
 	start_date = 1848.1.1
 	end_date = 3000.1.1
 

@@ -34,12 +34,10 @@ child_labor = child_labor_legal
 education = church
 arts_endowment = no_endowment
 
-ruling_party = SMR_conservative
+ruling_party = SMR_reactionary
 upper_house = {
 	fascist = 0
-	liberal = 20
-	conservative = 65
-	reactionary = 15
+	conservative = 100
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0

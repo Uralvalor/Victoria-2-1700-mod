@@ -2,7 +2,7 @@ color = { 14 190 192 }
 graphical_culture = MiddleEasternGC
 
 party = {
-	name = "TRK_conservative"
+	name = "KYR_conservative"
 	start_date = 1765.1.1
 	end_date = 3000.1.1
 
@@ -16,7 +16,7 @@ party = {
 }
 
 party = {
-	name = "TRK_liberal"
+	name = "KYR_liberal"
 	start_date = 1750.1.1
 	end_date = 1936.1.1
 
@@ -30,8 +30,8 @@ party = {
 }
 
 party = {
-	name = "TRK_reactionary"
-	start_date = 1750.1.1
+	name = "KYR_reactionary"
+	start_date = 1700.1.1
 	end_date = 3000.1.1
 
 	ideology = reactionary
@@ -44,7 +44,7 @@ party = {
 }
 
 party = {
-	name = "TRK_anarcho_liberal"
+	name = "KYR_anarcho_liberal"
 	start_date = 1789.1.1
 	end_date = 3000.1.1
 
@@ -58,7 +58,7 @@ party = {
 }
 
 party = {
-	name = "TRK_socialist"
+	name = "KYR_socialist"
 	start_date = 1848.1.1
 	end_date = 3000.1.1
 
@@ -72,7 +72,7 @@ party = {
 }
 
 party = {
-	name = "TRK_communist"
+	name = "KYR_communist"
 	start_date = 1848.1.1
 	end_date = 3000.1.1
 
@@ -86,7 +86,7 @@ party = {
 }
 
 party = {
-	name = "TRK_fascist"
+	name = "KYR_fascist"
 	start_date = 1905.1.1
 	end_date = 3000.1.1
 
