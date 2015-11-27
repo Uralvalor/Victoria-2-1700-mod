@@ -4,9 +4,11 @@ add_core = HRE
  
 add_core = BOH
 add_core = CZH
-trade_goods = coal
+trade_goods = timber
 life_rating = 35
 terrain = deciduous_forest_mountains
+1816.1.1 = { 
+trade_goods = coal }
 1861.1.1 = { railroad = 2 }
 1914.1.1 = {
 	owner = KUK

@@ -1,7 +1,9 @@
 owner = FRA
 controller = FRA
 add_core = FRA
-trade_goods = coal
+trade_goods = timber
 life_rating = 35
 terrain = good_farmland
+1816.1.1 = { 
+trade_goods = coal }
 1914.1.1 = { railroad = 3 fort = 2 }

@@ -315,6 +315,54 @@ province_event = {
 		trade_goods = iron
 	}
 }
+
+province_event = {
+	
+	id = 991107
+
+	trigger = {
+		year = 1770
+		or = {
+			province_id = 631			# Brno
+			province_id = 628			# Austig
+			province_id = 626			
+			province_id = 632			
+			province_id = 688			#
+			province_id = 689			# 
+			province_id = 637			# 
+			province_id = 950			# 
+			province_id = 447			# 
+			province_id = 448			# 
+			province_id = 430			# 
+			province_id = 449			# 
+			province_id = 462			# 
+			province_id = 431			# 
+			province_id = 401			# 
+			province_id = 405			# 
+			province_id = 432			# 
+			province_id = 423			#
+			province_id = 2584			#
+			province_id = 705			#
+			province_id = 951			# 
+			province_id = 702			# 
+		}
+		NOT = { trade_goods = coal }
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+
+	}
+
+	title = "event991107"
+	desc = "eventdesc991107"
+	picture = ""
+
+	option = {
+		name = "Лады"
+		trade_goods = coal
+	}
+}
 ################################
 #        DIAMOND EVENTS        #
 ################################

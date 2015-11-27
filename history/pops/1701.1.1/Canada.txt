@@ -1530,7 +1530,7 @@
 	farmers = {
 		culture = english
 		religion = protestant
-		size = 481
+		size = 5000
 	}
 	clergymen = {
 		culture = irish
@@ -1545,29 +1545,39 @@
 	farmers = {
 		culture = irish
 		religion = catholic
-		size = 1177
+		size = 2000
+	}
+	farmers = {
+		culture = scottish
+		religion = catholic
+		size = 3000
 	}
 }
 75 = {
 	clergymen = {
-		culture = english
-		religion = protestant
+		culture = basque
+		religion = catholic
 		size = 12
 	}
 	artisans = {
-		culture = english
-		religion = protestant
+		culture = basque
+		religion = catholic
 		size = 8
 	}
 	soldiers = {
-		culture = english
-		religion = protestant
+		culture = basque
+		religion = catholic
 		size = 8
 	}
 	farmers = {
-		culture = english
-		religion = protestant
-		size = 788
+		culture = basque
+		religion = catholic
+		size = 3000
+	}
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 500
 	}
 	clergymen = {
 		culture = irish
@@ -1640,6 +1650,11 @@
 	}
 }
 77 = {
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 1500
+	}
 	bureaucrats = {
 		culture = french
 		religion = catholic
@@ -1654,10 +1669,5 @@
 		culture = french
 		religion = catholic
 		size = 1
-	}
-	labourers = {
-		culture = french
-		religion = catholic
-		size = 76
 	}
 }

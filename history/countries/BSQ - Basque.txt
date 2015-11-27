@@ -1,39 +1,38 @@
 capital = 492
 primary_culture = basque
 religion = catholic
-government = democracy
-plurality = 0.1
+government = absolute_monarchy
+plurality = 0.05
 nationalvalue = nv_order
-literacy = 0.48
+literacy = 0.13
 civilized = yes
 
-
 # Political reforms
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
-vote_franschise = wealth_voting
+vote_franschise = none_voting
 public_meetings = yes_meeting
 press_rights = censored_press
-trade_unions = non_socialist
+trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = non_secret_ballots
+political_parties = underground_parties
 
 # Social Reforms
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
-health_care = trinket_health_care
-unemployment_subsidies = trinket_subsidies
-pensions = no_pensions
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
 school_reforms = no_schools
 
-ruling_party = BSQ_liberal
+ruling_party = BSQ_reactionary 
 upper_house = {
-	fascist = 1
-	liberal = 49
-	conservative = 39
-	reactionary = 12
-	anarcho_liberal = 0
+	fascist = 0
+	reactionary = 100
 	socialist = 0
 	communist = 0
 }
+
+
+

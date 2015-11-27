@@ -2077,7 +2077,92 @@ country_event = {
 		any_pop = { militancy = 3 consciousness = 3 }
 	}
 }
+country_event = {
+        id = 10031
+        title = "EVTNAME10031"
+        desc = "EVTDESC10031"
+        picture = "Pol_Lit"
+	 trigger = {
+		tag = PLC
+		NOT = {
+			owns = 706
+			owns = 360
+		}
+	}
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = "EVTOPTA10031"
+		prestige = -50
+		release = BYE
+		release = UKR
+		release = LIT
+		release = LAT
+		release = RUS
+		name = "Ok"
+		# потеря сателитов
+		any_country= {
+			limit={	
+				OR={
+					vassal_of=THIS
+					substate_of=THIS
+				}			
+				
+			}
+			country_event = 999993
+		}	
+		
+		any_country={	
+			limit ={				
+				OR = {				
+					exists = yes						
+					NOT = {
+						OR = {
+							tag = GER
+							tag = SCA
+							tag = ITA
+							tag = YUG
+							tag = ROM
+							tag = CZH
+							tag = KUK
+							tag = AUS
+							tag = HND
+						}
+					}
+					AND = {
+						tag = AUS
+						KUK = {NOT = {exists = yes}}					
+				      	}
+					AND = {
+						tag = KUK
+						AUS = {NOT = {exists = yes}}					
+				      	}
+				}
+			}	
+			
+			country_event=999991
+			
 
+		}
+		# no core found
+		any_owned ={
+			limit = {
+				NOT={
+					any_core={					
+						OR={
+							exists = no
+							exists = yes	
+						}
+					}
+				}
+			}
+		secede_province = FROM
+		}
+		
+	}
+}
 
 
 country_event = {
@@ -2161,6 +2246,7 @@ country_event = {
 	    NOT = { tag = MEX }
 	    NOT = { tag = HAI }
 	    NOT = { tag = FWI }
+	    NOT = { tag = LOU }
 		war = no
 		is_independant = yes
 		capital_scope = {
