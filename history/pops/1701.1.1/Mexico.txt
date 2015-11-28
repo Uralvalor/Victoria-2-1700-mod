@@ -1082,7 +1082,7 @@
 	farmers = {
 		culture = spanish
 		religion = catholic
-		size = 3695
+		size = 28695
 	}
 	clergymen = {
 		culture = zapotec
@@ -1102,7 +1102,7 @@
 	farmers = {
 		culture = zapotec
 		religion = catholic
-		size = 79294
+		size = 54294
 	}
 }
 2173 = {
@@ -1129,7 +1129,7 @@
 	farmers = {
 		culture = spanish
 		religion = catholic
-		size = 1037
+		size = 21037
 	}
 	clergymen = {
 		culture = zapotec
@@ -1149,12 +1149,12 @@
 	farmers = {
 		culture = zapotec
 		religion = catholic
-		size = 33685
+		size = 23685
 	}
 	farmers = {
 		culture = zapotec
 		religion = animist
-		size = 30000
+		size = 20000
 	}
 }
 2162 = {
@@ -1196,7 +1196,7 @@
 	farmers = {
 		culture = spanish
 		religion = catholic
-		size = 194
+		size = 17194
 	}
 	clergymen = {
 		culture = nahua
@@ -1216,7 +1216,7 @@
 	farmers = {
 		culture = nahua
 		religion = animist
-		size = 20059
+		size = 8059
 	}
 	clergymen = {
 		culture = native_american_minor
@@ -1236,7 +1236,7 @@
 	farmers = {
 		culture = native_american_minor
 		religion = animist
-		size = 11413
+		size = 6413
 	}
 }
 2163 = {
@@ -1660,7 +1660,7 @@
 	farmers = {
 		culture = spanish
 		religion = catholic
-		size = 5772
+		size = 25772
 	}
 	clergymen = {
 		culture = nahua
@@ -1680,12 +1680,17 @@
 	farmers = {
 		culture = nahua
 		religion = catholic
-		size = 15424
+		size = 5424
 	}
 	farmers = {
 		culture = nahua
 		religion = animist
-		size = 20000
+		size = 7000
+	}
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 3000
 	}
 }
 2174 = {
@@ -1712,7 +1717,7 @@
 	farmers = {
 		culture = spanish
 		religion = catholic
-		size = 1196
+		size = 16196
 	}
 	clergymen = {
 		culture = nahua
@@ -1732,12 +1737,12 @@
 	farmers = {
 		culture = nahua
 		religion = catholic
-		size = 14841
+		size = 9841
 	}
 	farmers = {
 		culture = nahua
 		religion = animist
-		size = 24841
+		size = 14841
 	}
 }
 2175 = {
@@ -1821,7 +1826,7 @@
 	farmers = {
 		culture = spanish
 		religion = catholic
-		size = 4098
+		size = 34098
 	}
 	clergymen = {
 		culture = nahua
@@ -1846,7 +1851,7 @@
 	farmers = {
 		culture = nahua
 		religion = animist
-		size = 40000
+		size = 10000
 	}
 }
 2177 = {
@@ -1883,7 +1888,7 @@
 	farmers = {
 		culture = spanish
 		religion = catholic
-		size = 1939
+		size = 31939
 	}
 	clergymen = {
 		culture = zapotec
@@ -1908,7 +1913,7 @@
 	farmers = {
 		culture = zapotec
 		religion = animist
-		size = 50957
+		size = 20957
 	}
 }
 2178 = {
