@@ -1,0 +1,47 @@
+3264 = {
+	aristocrats = {
+		culture = catalan
+		religion = catholic
+		size = 35
+	}
+	clergymen = {
+		culture = catalan
+		religion = catholic
+		size = 24
+	}
+	artisans = {
+		culture = catalan
+		religion = catholic
+		size = 4
+	}
+	soldiers = {
+		culture = catalan
+		religion = catholic
+		size = 78
+	}
+	farmers = {
+		culture = catalan
+		religion = catholic
+		size = 241
+	}
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 63
+	}
+	aristocrats = {
+		culture = french
+		religion = catholic
+		size = 10
+	}
+	bureaucrats = {
+		culture = french
+		religion = catholic
+		size = 10
+	}
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 47
+	}
+}

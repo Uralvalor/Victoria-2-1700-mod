@@ -2295,15 +2295,15 @@ country_event = {
 		FRH = { create_alliance = NET }
 		FRH = { create_alliance = ENL }
 		FRH = { create_alliance = SAV }
-		FRH = { war = {
-			target = FRA
+		FRA= { war = {
+			target = FRH
 			call_ally = yes
 			attacker_goal = {
-				casus_belli = status_quo
+				casus_belli = conquest
 			}
 			
 			defender_goal = {
-				casus_belli = conquest
+				casus_belli = status_quo
 			}
 		}
 	}

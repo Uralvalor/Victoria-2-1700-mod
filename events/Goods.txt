@@ -324,6 +324,7 @@ province_event = {
 		year = 1770
 		or = {
 			province_id = 631			# Brno
+			province_id = 685			# Katovitz
 			province_id = 628			# Austig
 			province_id = 626			
 			province_id = 632			

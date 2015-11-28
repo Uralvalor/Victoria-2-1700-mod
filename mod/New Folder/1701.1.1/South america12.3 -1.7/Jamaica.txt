@@ -1,0 +1,54 @@
+2217 = {
+	aristocrats = {
+		culture = english
+		religion = protestant
+		size = 16
+	}
+	bureaucrats = {
+		culture = english
+		religion = protestant
+		size = 13
+	}
+	clergymen = {
+		culture = english
+		religion = protestant
+		size = 12
+	}
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 81
+	}
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 8
+	}
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 373
+	}
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 14396
+	}
+}
+2218 = {
+	soldiers = {
+		culture = english
+		religion = protestant
+		size = 0
+	}
+	artisans = {
+		culture = english
+		religion = protestant
+		size = 0
+	}
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 47
+	}
+}
