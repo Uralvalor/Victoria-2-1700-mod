@@ -1777,7 +1777,7 @@
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 16363
+		size = 23363
 	}
 	aristocrats = {
 		culture = kurdish
@@ -1812,7 +1812,7 @@
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 17241
+		size = 10241
 	}
 }
 888 = {
@@ -1921,7 +1921,7 @@
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 11226
+		size = 19226
 	}
 	clergymen = {
 		culture = mashriqi
@@ -2063,7 +2063,7 @@
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 22394
+		size = 14394
 	}
 }
 891 = {
@@ -2314,13 +2314,13 @@
 }
 894 = {
 	aristocrats = {
-		culture = turkish
-		religion = sunni
+		culture = assirian
+		religion = catholic
 		size = 619
 	}
 	bureaucrats = {
-		culture = turkish
-		religion = sunni
+		culture = assirian
+		religion = catholic
 		size = 143
 	}
 	officers = {
@@ -2329,23 +2329,23 @@
 		size = 143
 	}
 	clergymen = {
-		culture = turkish
-		religion = sunni
+		culture = assirian
+		religion = catholic
 		size = 475
 	}
 	artisans = {
-		culture = turkish
-		religion = sunni
+		culture = assirian
+		religion = catholic
 		size = 609
 	}
 	soldiers = {
-		culture = turkish
-		religion = sunni
+		culture = assirian
+		religion = catholic
 		size = 596
 	}
 	farmers = {
-		culture = turkish
-		religion = sunni
+		culture = assirian
+		religion = catholic
 		size = 46083
 	}
 	clergymen = {
@@ -2423,28 +2423,29 @@
 }
 896 = {
 	aristocrats = {
-		culture = turkish
-		religion = sunni
+		
+		culture = assirian
+		religion = catholic
 		size = 499
 	}
 	clergymen = {
-		culture = turkish
-		religion = sunni
+		culture = assirian
+		religion = catholic
 		size = 405
 	}
 	artisans = {
-		culture = turkish
-		religion = sunni
+		culture = assirian
+		religion = catholic
 		size = 500
 	}
 	soldiers = {
-		culture = turkish
-		religion = sunni
+		culture = assirian
+		religion = catholic
 		size = 405
 	}
 	farmers = {
-		culture = turkish
-		religion = sunni
+		culture = assirian
+		religion = catholic
 		size = 38280
 	}
 	clergymen = {
@@ -2465,28 +2466,28 @@
 }
 898 = {
 	aristocrats = {
-		culture = turkish
-		religion = sunni
+		culture = assirian
+		religion = catholic
 		size = 428
 	}
 	clergymen = {
-		culture = turkish
-		religion = sunni
+		culture = assirian
+		religion = catholic
 		size = 334
 	}
 	artisans = {
-		culture = turkish
-		religion = sunni
+		culture = assirian
+		religion = catholic
 		size = 417
 	}
 	soldiers = {
-		culture = turkish
-		religion = sunni
+		culture = assirian
+		religion = catholic
 		size = 405
 	}
 	farmers = {
-		culture = turkish
-		religion = sunni
+		culture = assirian
+		religion = catholic
 		size = 31822
 	}
 	aristocrats = {
@@ -2624,28 +2625,29 @@
 }
 900 = {
 	aristocrats = {
-		culture = turkish
-		religion = sunni
+
+		culture = assirian
+		religion = catholic
 		size = 284
 	}
 	clergymen = {
-		culture = turkish
-		religion = sunni
+		culture = assirian
+		religion = catholic
 		size = 143
 	}
 	artisans = {
-		culture = turkish
-		religion = sunni
+		culture = assirian
+		religion = catholic
 		size = 191
 	}
 	soldiers = {
-		culture = turkish
-		religion = sunni
+		culture = assirian
+		religion = catholic
 		size = 214
 	}
 	farmers = {
-		culture = turkish
-		religion = sunni
+		culture = assirian
+		religion = catholic
 		size = 14431
 	}
 	aristocrats = {

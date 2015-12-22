@@ -1,6 +1,8 @@
 add_core = XNC
 terrain = marginal_farmland
- 
+ owner = ENL
+controller = ENL
+colonial = 2  
 trade_goods = tobacco
 life_rating = 35
 1750.1.1 = {

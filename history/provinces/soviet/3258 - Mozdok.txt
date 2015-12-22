@@ -1,6 +1,5 @@
-owner = CRC
-controller = CRC
-add_core = ICH
+owner = NCI
+controller = NCI
 add_core = NCI
 trade_goods = grain
 terrain = dry_grassland

@@ -1,10 +1,13 @@
-owner = SPA
-controller = SPA
+
 add_core = MEX
-colonial = 2
 trade_goods = fruit
 life_rating = 35
 terrain = semi_desert_hills
+1750.1.1 = {
+owner = SPA
+controller = SPA
+colonial = 2 
+ }
 1815.1.1 = {
 	owner = MEX
 	controller = MEX

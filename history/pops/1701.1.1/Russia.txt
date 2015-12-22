@@ -1837,7 +1837,12 @@
 	aristocrats = {
 		culture = russian
 		religion = orthodox
-		size = 5076
+		size = 3576
+	}
+	aristocrats = {
+		culture = tatar
+		religion = sunni
+		size = 1500
 	}
 	bureaucrats = {
 		culture = russian
@@ -3728,7 +3733,71 @@
 	}
 }
 3255 = {
-
+	soldiers = {
+		culture = circassian
+		religion = sunni
+		size = 1040
+	}
+	farmers = {
+		culture = circassian
+		religion = orthodox
+		size = 4000
+	}
+	aristocrats = {
+		culture = circassian
+		religion = sunni
+		size = 135
+	}
+	clergymen = {
+		culture = circassian
+		religion = sunni
+		size = 180
+	}
+	artisans = {
+		culture = circassian
+		religion = sunni
+		size = 360
+	}
+	bureaucrats = {
+		culture = circassian
+		religion = sunni
+		size = 396
+	}
+	soldiers = {
+		culture = circassian
+		religion = sunni
+		size = 1620
+	}
+	aristocrats = {
+		culture = circassian
+		religion = orthodox
+		size = 225
+	}
+	clergymen = {
+		culture = circassian
+		religion = orthodox
+		size = 360
+	}
+	artisans = {
+		culture = circassian
+		religion = orthodox
+		size = 900
+	}
+	bureaucrats = {
+		culture = circassian
+		religion = orthodox
+		size = 378
+	}
+	soldiers = {
+		culture = circassian
+		religion = orthodox
+		size = 1350
+	}
+	farmers = {
+		culture = circassian
+		religion = orthodox
+		size = 10170
+	}
 	soldiers = {
 		culture = circassian
 		religion = sunni
@@ -3883,70 +3952,30 @@
 	}
 }
 3257 = {
-	soldiers = {
-		culture = circassian
-		religion = sunni
-		size = 1040
-	}
-	farmers = {
-		culture = circassian
-		religion = orthodox
-		size = 4000
-	}
 	aristocrats = {
-		culture = circassian
-		religion = sunni
-		size = 135
+		culture = abkhazian
+		religion = orthodox
+		size = 69
 	}
 	clergymen = {
-		culture = circassian
-		religion = sunni
-		size = 180
+		culture = abkhazian
+		religion = orthodox
+		size = 69
 	}
 	artisans = {
-		culture = circassian
-		religion = sunni
-		size = 360
-	}
-	bureaucrats = {
-		culture = circassian
-		religion = sunni
-		size = 396
+		culture = abkhazian
+		religion = orthodox
+		size = 39
 	}
 	soldiers = {
-		culture = circassian
-		religion = sunni
-		size = 1620
-	}
-	aristocrats = {
-		culture = circassian
+		culture = abkhazian
 		religion = orthodox
-		size = 225
-	}
-	clergymen = {
-		culture = circassian
-		religion = orthodox
-		size = 360
-	}
-	artisans = {
-		culture = circassian
-		religion = orthodox
-		size = 900
-	}
-	bureaucrats = {
-		culture = circassian
-		religion = orthodox
-		size = 378
-	}
-	soldiers = {
-		culture = circassian
-		religion = orthodox
-		size = 1350
+		size = 33
 	}
 	farmers = {
-		culture = circassian
+		culture = abkhazian
 		religion = orthodox
-		size = 10170
+		size = 4719
 	}
 }
 3258 = {
@@ -4581,28 +4610,28 @@
 }
 1057 = {
 	aristocrats = {
-		culture = russian
-		religion = protestant
+		culture = chechen
+		religion = animist
 		size = 148
 	}
 	clergymen = {
-		culture = russian
-		religion = protestant
+		culture = chechen
+		religion = animist
 		size = 58
 	}
 	artisans = {
-		culture = russian
-		religion = protestant
+		culture = chechen
+		religion = animist
 		size = 198
 	}
 	soldiers = {
-		culture = russian
-		religion = protestant
+		culture = chechen
+		religion = animist
 		size = 58
 	}
 	farmers = {
-		culture = russian
-		religion = protestant
+		culture = chechen
+		religion = animist
 		size = 737
 	}
 }

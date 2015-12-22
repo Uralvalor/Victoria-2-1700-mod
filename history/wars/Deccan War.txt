@@ -4,18 +4,17 @@ name = "Деканские войны"
 	add_attacker = MUG
 	add_attacker = HYD
 	add_attacker = BAS
-	add_attacker = PAN
 	add_defender = MAR
+	add_defender = PAN
 	add_defender = BIK
 	add_defender = JAS
-	add_defender = JOD
 	add_defender = JAI
 	add_defender = MEW
 	
 	war_goal = {
 		casus_belli = conquest
 		actor = MUG
-		receiver = MAR
+		receiver = PAN
 	}	
 	war_goal = {
 		casus_belli = acquire_state
@@ -38,10 +37,10 @@ name = "Деканские войны"
 	}
 
 	war_goal = {
-		casus_belli = release_puppet
-		actor = MAR
+		casus_belli = acquire_state
+		actor = PAN
 		receiver = MUG
-		country = PAN
+		state_province_id = 1227
 	}
 
 	war_goal = {
@@ -56,11 +55,10 @@ name = "Деканские войны"
 	rem_attacker = MUG
 	rem_attacker = HYD
 	rem_attacker = BAS
-	rem_attacker = PAN
+	rem_defender = PAN
 	rem_defender = MAR
 	rem_defender = BIK
 	rem_defender = JAS
-	rem_defender = JOD
 	rem_defender = JAI
 	rem_defender = MEW
 }

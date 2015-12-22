@@ -1,8 +1,7 @@
-capital = 3249
-primary_culture = chechen
-culture = avar
+capital = 3252
+primary_culture = kabard
 religion = sunni
-government = theocracy_government
+government = democracy
 plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.02
@@ -46,10 +45,3 @@ upper_house = {
 
 # Technologies
  
-flintlock_rifles = 1
-bronze_muzzle_loaded_artillery = 1
-military_staff_system = 1
-army_command_principle = 1
- 
-
-oob = "NCI_oob.txt"

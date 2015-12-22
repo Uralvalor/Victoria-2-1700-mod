@@ -1782,10 +1782,25 @@
 		religion = protestant
 		size = 20000
 	}
+	artisans = {
+		culture = french
+		religion = protestant
+		size = 3553
+	}
+	soldiers = {
+		culture = french
+		religion = protestant
+		size = 221
+	}
+	farmers = {
+		culture = french
+		religion = protestant
+		size = 15411
+	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 90785
+		size = 75785
 	}
 }
 449 = {
@@ -2452,25 +2467,10 @@
 		religion = catholic
 		size = 821
 	}
-	artisans = {
-		culture = french
-		religion = protestant
-		size = 3553
-	}
-	soldiers = {
-		culture = french
-		religion = protestant
-		size = 221
-	}
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 15411
-	}
-	farmers = {
-		culture = french
-		religion = protestant
-		size = 15411
+		size = 30411
 	}
 }
 469 = {

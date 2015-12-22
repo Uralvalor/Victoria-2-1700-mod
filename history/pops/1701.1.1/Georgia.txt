@@ -171,11 +171,6 @@
 		religion = orthodox
 		size = 11707
 	}
-	farmers = {
-		culture = abkhazian
-		religion = orthodox
-		size = 1050
-	}
 	aristocrats = {
 		culture = armenian
 		religion = orthodox
@@ -421,31 +416,7 @@
 	}
 }
 1096 = {
-	aristocrats = {
-		culture = abkhazian
-		religion = orthodox
-		size = 69
-	}
-	clergymen = {
-		culture = abkhazian
-		religion = orthodox
-		size = 69
-	}
-	artisans = {
-		culture = abkhazian
-		religion = orthodox
-		size = 39
-	}
-	soldiers = {
-		culture = abkhazian
-		religion = orthodox
-		size = 33
-	}
-	farmers = {
-		culture = abkhazian
-		religion = orthodox
-		size = 3719
-	}
+
 	clergymen = {
 		culture = georgian
 		religion = orthodox

@@ -1,12 +1,15 @@
-owner = MAR
-controller = MAR
+owner = MUG
+controller = MUG
 add_core = MAR
-add_core = MAH
 add_core = HND
 naval_base = 1
 trade_goods = grain
 life_rating = 35
 terrain = hilly_farmland
+1750.1.1 = {
+	owner = MAR
+	controller = MAR
+}
 1836.1.1 = {
 	owner = ENG
 	controller = ENG

@@ -26,17 +26,17 @@
 	}
 	aristocrats = {
 		culture = panjabi
-		religion = sunni
+		religion = sikh
 		size = 3270
 	}
 	clergymen = {
 		culture = panjabi
-		religion = sunni
+		religion = sikh
 		size = 2725
 	}
 	artisans = {
 		culture = panjabi
-		religion = sunni
+		religion = sikh
 		size = 49922
 	}
 	soldiers = {
@@ -46,7 +46,7 @@
 	}
 	farmers = {
 		culture = panjabi
-		religion = sunni
+		religion = sikh
 		size = 80016
 	}
 	aristocrats = {
@@ -2043,7 +2043,7 @@
 	soldiers = {
 		culture = kanauji
 		religion = hindu
-		size = 11594
+		size = 1594
 	}
 	farmers = {
 		culture = kanauji
@@ -3253,7 +3253,7 @@
 	soldiers = {
 		culture = gujarati
 		religion = hindu
-		size = 32426
+		size = 1426
 	}
 	farmers = {
 		culture = gujarati
@@ -3561,7 +3561,7 @@
 	soldiers = {
 		culture = marathi
 		religion = hindu
-		size = 9512
+		size = 20512
 	}
 	farmers = {
 		culture = marathi
@@ -3613,7 +3613,7 @@
 	soldiers = {
 		culture = marathi
 		religion = hindu
-		size = 642
+		size = 10642
 	}
 	farmers = {
 		culture = marathi
@@ -3722,7 +3722,7 @@
 	soldiers = {
 		culture = marathi
 		religion = hindu
-		size = 482
+		size = 20482
 	}
 	farmers = {
 		culture = marathi
@@ -5185,22 +5185,22 @@
 	}
 	aristocrats = {
 		culture = kashmiri
-		religion = hindu
+		religion = shiite
 		size = 614
 	}
 	bureaucrats = {
 		culture = kashmiri
-		religion = hindu
+		religion = shiite
 		size = 128
 	}
 	clergymen = {
 		culture = kashmiri
-		religion = hindu
+		religion = shiite
 		size = 567
 	}
 	artisans = {
 		culture = kashmiri
-		religion = hindu
+		religion = shiite
 		size = 82711
 	}
 	soldiers = {
@@ -5215,22 +5215,22 @@
 	}
 	aristocrats = {
 		culture = kashmiri
-		religion = sunni
+		religion = shiite
 		size = 2808
 	}
 	bureaucrats = {
 		culture = kashmiri
-		religion = sunni
+		religion = shiite
 		size = 128
 	}
 	clergymen = {
 		culture = kashmiri
-		religion = sunni
+		religion = shiite
 		size = 2633
 	}
 	artisans = {
 		culture = kashmiri
-		religion = sunni
+		religion = shiite
 		size = 42007
 	}
 	soldiers = {

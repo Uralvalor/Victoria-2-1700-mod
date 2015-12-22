@@ -1,12 +1,14 @@
-owner = FRA
-controller = FRA
-colonial = 2
+
 add_core = STV
 add_core = FWI
 trade_goods = cotton
 life_rating = 35
 colonial = 2
 terrain = hilly_farmland
+1750.1.1 = {owner = FRA
+controller = FRA
+colonial = 2 
+ }
 1815.1.1 = {
 	owner = ENG
 	controller = ENG

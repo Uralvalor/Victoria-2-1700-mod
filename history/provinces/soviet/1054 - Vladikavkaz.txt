@@ -1,7 +1,6 @@
-owner = NCI
-controller = NCI
+owner = ICH
+controller = ICH
 
-add_core = NCI
 add_core = ICH
 trade_goods = wool
 terrain = hills

@@ -5,11 +5,6 @@ add_core = HND
 trade_goods = tea
 life_rating = 35
 terrain = dry_forest_hills
-1750.1.1 = {
-	owner = MAH
-	controller = MAH
-add_core = MAH
-}
 1815.1.1 = {
 	owner = MYS
 	controller = MYS

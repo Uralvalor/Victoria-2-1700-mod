@@ -333,7 +333,12 @@
 	farmers = {
 		culture = mashriqi
 		religion = sunni
-		size = 17348
+		size = 7348
+	}
+	farmers = {
+		culture = mashriqi
+		religion = shiite
+		size = 10348
 	}
 	aristocrats = {
 		culture = turkish
@@ -480,7 +485,12 @@
 	farmers = {
 		culture = mashriqi
 		religion = sunni
-		size = 12514
+		size = 5514
+	}
+	farmers = {
+		culture = mashriqi
+		religion = shiite
+		size = 7348
 	}
 	aristocrats = {
 		culture = bedouin

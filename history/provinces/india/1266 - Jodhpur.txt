@@ -1,10 +1,14 @@
-owner = JOD
-controller = JOD
+owner = MUG
+controller = MUG
 add_core = JOD
 add_core = HND
 trade_goods = tea
 life_rating = 35
 terrain = semi_desert
+1750.1.1 = {
+	owner = JOD
+	controller = JOD
+}
 1914.1.1 = {
 	owner = ENG
 	controller = ENG

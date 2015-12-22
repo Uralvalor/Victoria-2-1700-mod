@@ -1,5 +1,5 @@
-owner = MAR
-controller = MAR
+owner = MUG
+controller = MUG
 add_core = MAR
 add_core = BER
 add_core = HND
@@ -7,6 +7,10 @@ trade_goods = tobacco
 life_rating = 35
 terrain = good_farmland
 
+1750.1.1 = {
+	owner = MAR
+	controller = MAR
+}
 1815.1.1 = {
 	owner = BER
 	controller = BER

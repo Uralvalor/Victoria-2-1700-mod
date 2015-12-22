@@ -1,10 +1,14 @@
-owner = PAN
-controller = PAN
+owner = MUG
+controller = MUG
 add_core = PAN
 add_core = HND
 trade_goods = cotton
 life_rating = 35
 terrain = floodplain_farmland
+1750.1.1 = {
+	owner = PAN
+	controller = PAN
+}
 1861.1.1 = {
 	owner = ENG
 	controller = ENG

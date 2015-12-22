@@ -171,12 +171,6 @@ name = "Война за Испанское наследство"
 		state_province_id = 2190
 	}
 
-	war_goal = {
-		casus_belli = place_in_the_sun
-		actor = SPA
-		receiver = ENL
-		state_province_id = 2200
-	}
 
 	war_goal = {
 		casus_belli = place_in_the_sun

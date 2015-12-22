@@ -345,7 +345,7 @@
 	}
 	labourers = {
 		culture = welsh
-		religion = protestant
+		religion = catholic
 		size = 35644
 	}
 }
@@ -357,7 +357,7 @@
 	}
 	clergymen = {
 		culture = welsh
-		religion = protestant
+		religion = catholic
 		size = 47
 	}
 	soldiers = {
@@ -367,12 +367,12 @@
 	}
 	artisans = {
 		culture = welsh
-		religion = protestant
+		religion = catholic
 		size = 388
 	}
 	farmers = {
 		culture = welsh
-		religion = protestant
+		religion = catholic
 		size = 15643
 	}
 }
@@ -384,7 +384,7 @@
 	}
 	clergymen = {
 		culture = welsh
-		religion = protestant
+		religion = catholic
 		size = 95
 	}
 	soldiers = {
@@ -399,7 +399,7 @@
 	}
 	farmers = {
 		culture = welsh
-		religion = protestant
+		religion = catholic
 		size = 16302
 	}
 	farmers = {
@@ -411,7 +411,7 @@
 276 = {
 	aristocrats = {
 		culture = welsh
-		religion = protestant
+		religion = catholic
 		size = 95
 	}
 	clergymen = {
@@ -441,7 +441,7 @@
 	}
 	farmers = {
 		culture = welsh
-		religion = protestant
+		religion = catholic
 		size = 21264
 	}
 }
