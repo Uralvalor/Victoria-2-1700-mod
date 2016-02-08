@@ -1,6 +1,10 @@
-owner = MAK
-controller = MAK
+owner = KAL
+controller = KAL
 add_core = PER
 trade_goods = grain
 life_rating = 27
 terrain = desert_hills
+1750.1.1 = {
+	owner = PER
+	controller = PER
+}

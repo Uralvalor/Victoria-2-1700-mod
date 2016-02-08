@@ -37,7 +37,7 @@ name = "Деканские войны"
 	}
 
 	war_goal = {
-		casus_belli = acquire_state
+		casus_belli = acquire_core_state
 		actor = PAN
 		receiver = MUG
 		state_province_id = 1227

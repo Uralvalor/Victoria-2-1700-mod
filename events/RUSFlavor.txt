@@ -1436,7 +1436,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA95400"
 		
-	    all_core = {
+	    any_owned = {
 				add_province_modifier = {
 					name = serfdom_province
 					duration = -1
@@ -1446,7 +1446,7 @@ country_event = {
 				limit = {
 					has_country_flag = serfdom_not_abolished
 				}
-				   all_core = {
+				   any_owned = {
 				add_province_modifier = {
 					name = serfdom_province
 					duration = -1

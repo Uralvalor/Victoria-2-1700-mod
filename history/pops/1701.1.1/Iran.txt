@@ -447,10 +447,40 @@
 	farmers = {
 		culture = persian
 		religion = shiite
-		size = 54295
+		size = 30295
+	}
+	clergymen = {
+		culture = georgian
+		religion = orthodox
+		size = 137
+	}
+	artisans = {
+		culture = georgian
+		religion = orthodox
+		size = 1500
+	}
+	farmers = {
+		culture = georgian
+		religion = orthodox
+		size = 13000
 	}
 }
 1114 = {
+	clergymen = {
+		culture = georgian
+		religion = orthodox
+		size = 137
+	}
+	artisans = {
+		culture = georgian
+		religion = orthodox
+		size = 1500
+	}
+	farmers = {
+		culture = georgian
+		religion = orthodox
+		size = 13000
+	}
 	aristocrats = {
 		culture = persian
 		religion = shiite
@@ -474,7 +504,7 @@
 	farmers = {
 		culture = persian
 		religion = shiite
-		size = 69251
+		size = 39251
 	}
 }
 1115 = {
@@ -1053,6 +1083,26 @@
 		culture = persian
 		religion = shiite
 		size = 12528
+	}
+	aristocrats = {
+		culture = georgian
+		religion = orthodox
+		size = 350
+	}
+	clergymen = {
+		culture = georgian
+		religion = orthodox
+		size = 137
+	}
+	artisans = {
+		culture = georgian
+		religion = orthodox
+		size = 1500
+	}
+	farmers = {
+		culture = georgian
+		religion = orthodox
+		size = 8000
 	}
 }
 1129 = {

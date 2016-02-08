@@ -1,10 +1,13 @@
 owner = PAP
 controller = PAP
-add_core = PAP
 add_core = FRA
 add_core = FRH
 trade_goods = sulphur
 life_rating = 35
 terrain = hilly_farmland
+1815.1.1 = {
+	controller = FRA
+	owner = FRA
+}
 1861.1.1 = { railroad = 3 }
 1914.1.1 = { railroad = 5 fort = 3 }
