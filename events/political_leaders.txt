@@ -3203,6 +3203,58 @@ country_event = {
 		name = "EVTOPTA100040001"
 	}	
 }
+
+country_event = {
+	id = 100071106
+	title = "EVTNAME100060001"
+	desc = "EVTDESC100060006"
+	picture = "danishgovernment"
+	trigger = {
+			tag = SWE
+			year = 1700
+			NOT = { year = 1718 }
+		NOT = {
+			has_country_modifier = expert_diplomat
+			has_country_modifier = successful_industrialist
+			has_country_modifier = ivory_tower_intellectual
+			has_country_modifier = man_of_the_people
+			has_country_modifier = landed_gentleman
+			has_country_modifier = military_man
+			has_country_modifier = lord_admiral
+			has_country_modifier = raving_loon
+			has_country_modifier = luddite
+			has_country_modifier = great_statesman
+			has_country_modifier = backroom_boy
+			has_country_modifier = great_reformer
+			has_country_modifier = gauche_buffoon
+			has_country_modifier = administrative_genius
+			has_country_modifier = visionary_thinker
+			has_country_modifier = competent_placeholder
+			has_country_modifier = imperious_autocrat
+			has_country_modifier = prince_of_terror
+			has_country_modifier = efficient_sociopath
+			has_country_modifier = pig_headed_isolationist
+			has_country_modifier = ambitious_union_boss
+			has_country_modifier = dour_economist
+
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		add_country_modifier = {
+			name = military_man
+			duration = 5000
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA100040001"
+	}	
+}
 country_event = {
 	id = 100070007
 	title = "EVTNAME100060001"
@@ -4075,7 +4127,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		days = 1
 	}
 	
 	immediate = {
@@ -4503,6 +4555,7 @@ country_event = {
 		name = "EVTOPTA100040001"
 	}	
 }
+
 country_event = {
 	id = 100080015
 	title = "EVTNAME100060001"

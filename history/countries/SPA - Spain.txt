@@ -7,11 +7,10 @@ government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_equality
 literacy = 0.2
-civilized = yes
 colonial_points = 200
 
 
-prestige = 55
+prestige = 5
 
 # Political reforms
 slavery = yes_slavery
@@ -46,30 +45,41 @@ upper_house = {
 
 
 #Inventions
-	land_reform = yes_land_reform
-	admin_reform = yes_admin_reform
-	finance_reform = finance_reform_two 
-	education_reform = yes_education_reform 
-	transport_improv = yes_transport_improv 
-	foreign_training = yes_foreign_training 
-	foreign_weapons = yes_foreign_weapons 
-	military_constructions = yes_military_constructions 
-	foreign_officers = yes_foreign_officers 
-	army_schools = 	yes_army_schools
-	foreign_naval_officers = yes_foreign_naval_officers 
-	naval_schools = yes_naval_schools 
-	foreign_navies = yes_foreign_navies 
+
+foreign_naval_officers = yes_foreign_naval_officers 
+military_constructions = yes_military_constructions
+education_reform = yes_education_reform 
+finance_reform = finance_reform_two 
+admin_reform = yes_admin_reform 
+land_reform = yes_land_reform 
+foreign_navies = advanced_foreign_navies 
+foreign_officers = yes_foreign_officers 
+foreign_training = yes_foreign_training 
+diplomatic_reform = interactive
+taxation_reform = tax_inspectors
+foreign_navies = advanced_foreign_navies
+naval_facilities = yes_naval_bases
+foreign_weapons = modern_weapons
+academic_institutions = universities
+naval_architecture = scientific
+disciplinary_reform = rehabilitation
+medicine_reform = foreign_surgeons
+transport_improv = yes_transport_improv
+pre_indust = yes_pre_indust
+industrial_construction = yes_industrial_construction
+foreign_training = yes_foreign_training
+army_schools = yes_army_schools
+foreign_naval_officers = yes_foreign_naval_officers
+naval_schools = yes_naval_schools
+
 
 
 
 water_wheel_power = 1	
-
 nelsonian_thought = 1
 flintlock_rifles = 1
 bronze_muzzle_loaded_artillery = 1
- 
 military_staff_system = 1
- 
 clipper_design = 1
 	
 	
@@ -81,6 +91,7 @@ schools = culture_tech_school
 
 oob = "SPA_oob.txt"
 1750.1.1 = {
+civilized = yes
 oob = "/1756/SPA_oob.txt"
  }
 

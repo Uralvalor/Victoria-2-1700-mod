@@ -278,6 +278,7 @@ political_decisions = {
 				exists = GER
 				tag = ISR
 			}
+                        NOT = { exists = HRE }
 		}
 		
 		allow = {

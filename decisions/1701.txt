@@ -1406,4 +1406,40 @@ value = 120
 		}
 	}
 
+	form_bourbone_spain = {
+		potential = {
+			tag = FRA
+                        NOT = { exists = FSE }
+		        NOT = { year = 1730 }
+		}
+		
+		allow = {
+			is_greater_power = yes
+			prestige = 100
+			war = no
+			SPA = { in_sphere = THIS
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			add_accepted_culture = spanish
+			any_country = {
+				limit = {
+					tag = SPA
+				}
+				annex_to = THIS
+			}
+			change_tag = FSE
+		any_owned = {
+			limit = { is_core = SPA }
+		        add_core = FSE
+		            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
 }

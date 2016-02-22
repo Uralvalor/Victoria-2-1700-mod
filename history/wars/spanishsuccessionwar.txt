@@ -29,8 +29,8 @@ name = "Война за Испанское наследство"
 	add_attacker = BRA
 	add_attacker = MEC
 	add_attacker = AGO
-	add_defender = SPA
 	add_defender = FRA
+	add_defender = SPA
 	add_defender = BAV
 	
 	# actor
@@ -39,7 +39,12 @@ name = "Война за Испанское наследство"
 	# country - 3rd party
 	# state_province_id - target state capital
 
-
+	war_goal = {
+		casus_belli = take_from_sphere 
+		actor = AUS
+		receiver = FRA
+		country = SPA
+	}
 	war_goal = {
 		casus_belli = acquire_state
 		actor = AUS
@@ -201,7 +206,7 @@ name = "Война за Испанское наследство"
 	}
 
 	war_goal = {
-		casus_belli = conquest
+		casus_belli = annex_core_country
 		actor = SPA
 		receiver = AGO
 	}
@@ -244,7 +249,7 @@ name = "Война за Испанское наследство"
 	rem_attacker = BRA
 	rem_attacker = MEC
 	rem_attacker = AGO
-	rem_defender = SPA
 	rem_defender = FRA
+	rem_defender = SPA
 	rem_defender = BAV
 }

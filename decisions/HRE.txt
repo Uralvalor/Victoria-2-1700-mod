@@ -68,6 +68,8 @@ picture = hre_pic
 
 potential = {
 has_country_flag = holy_roman_emperor 
+NOT = { exists = HRE }
+NOT = { exists = GER }
 } 
 
 

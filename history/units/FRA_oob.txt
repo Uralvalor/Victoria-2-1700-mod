@@ -38,6 +38,14 @@ leader = {
 	background = aristocrat
 }
 
+
+SPA = {
+	value = 50
+	level = 5
+	influence_value = 100
+}
+
+
 army = {
 	name = "Paris Guard"
 	location = 425
