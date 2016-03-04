@@ -1411,9 +1411,11 @@ value = 120
 			tag = FRA
                         NOT = { exists = FSE }
 		        NOT = { year = 1730 }
+				government = absolute_monarchy
 		}
 		
 		allow = {
+		    SPA = { government = absolute_monarchy }
 			is_greater_power = yes
 			prestige = 100
 			war = no

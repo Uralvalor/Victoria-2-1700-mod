@@ -8,6 +8,11 @@ trade_goods = timber
 life_rating = 35
 terrain = good_farmland
 fort = 1
+1750.1.1 = {
+	owner = AUS
+	controller = AUS
+	colonial = no
+}
 1861.1.1 = { railroad = 3 }
 1914.1.1 = {
 	owner = KUK

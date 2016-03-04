@@ -101,9 +101,9 @@ oob = "/1756/RUS_oob.txt"
 prestige = 20 }
 
 1815.1.1 = { 
-decision  = 1st_polish_partition
-decision  = 2nd_polish_partition
-decision  = 3rd_polish_partition
+#decision  = 1st_polish_partition
+#decision  = 2nd_polish_partition
+#decision  = 3rd_polish_partition
 decision  = collector_of_russian_lands 
 government = absolute_monarchy
 vote_franschise = none_voting  

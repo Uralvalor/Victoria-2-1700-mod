@@ -39,6 +39,7 @@ name = "Война за Испанское наследство"
 	# country - 3rd party
 	# state_province_id - target state capital
 
+
 	war_goal = {
 		casus_belli = take_from_sphere 
 		actor = AUS
@@ -97,7 +98,6 @@ name = "Война за Испанское наследство"
 		receiver = SPA
 		state_province_id = 763
 	}
-
 	war_goal = {
 		casus_belli = acquire_state
 		actor = ENL

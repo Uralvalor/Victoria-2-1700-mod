@@ -295,7 +295,7 @@ country_event = {
 		tag = ENG
 		NOT = { exists = USA }
 		trade_policy = protectionism
-		freedom_of_trade = 1
+		late_enlightenment_philosophy = 1
 		any_owned_province = {
 				continent = north_america
 				not = { is_core = CAN }
@@ -303,8 +303,7 @@ country_event = {
 				not = { is_core = HAI }
 				not = { is_core = FWI }
 				not = { is_core = CUB }
-			        average_militancy = 4
-			        average_consciousness = 7
+			        average_consciousness = 6
 		}
 	}
 	
