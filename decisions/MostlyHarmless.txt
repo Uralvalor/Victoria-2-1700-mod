@@ -28,7 +28,6 @@ political_decisions = {
 		}		
 	}
 	the_greenland_purchase = {
-		picture = switch_to_navy_tech
 		potential = {
 			tag = JAN
 			NOT = {

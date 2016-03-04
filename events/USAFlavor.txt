@@ -992,7 +992,7 @@ country_event = {
 
 
 # Moral Crusaders
-province_event = {
+country_event = {
 
 	id = 44120
 	news = yes
@@ -1001,7 +1001,7 @@ province_event = {
 	news_desc_short = "EVTDESC44120_NEWS_SHORT"
 
 	trigger = {
-		owned_by = USA  #can fire in any US-owned province
+		tag = USA 
 		moralism = 5
 		year = 1838
 		NOT = {
@@ -1012,7 +1012,7 @@ province_event = {
 	fire_only_once = no
  
 	mean_time_to_happen =  {
-		months = 360
+		months = 60
 
 		modifier = {
 			factor = 0.9 #increase likelihood to happen
@@ -1036,7 +1036,7 @@ province_event = {
 			limit = {
 				has_pop_religion = protestant
 			}
-			consciousness = 0.2
+			consciousness = 1
 			dominant_issue = {
 				factor = 0.02
 				value = moralism

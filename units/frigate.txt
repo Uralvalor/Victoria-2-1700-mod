@@ -2,6 +2,8 @@ frigate = {
 	icon = 5
 	naval_icon = 2
 	
+	sail = yes
+	
 	type = naval
 	sprite = Frigate
 	unit_type = light_ship

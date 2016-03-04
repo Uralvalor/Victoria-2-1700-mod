@@ -122,6 +122,16 @@
 		religion = protestant
 		size = 15
 	}
+	aristocrats = {
+		culture = polar_bears
+		religion = protestant
+		size = 5
+	}
+	farmers = {
+		culture = polar_bears
+		religion = protestant
+		size = 30
+	}
 }
 309 = {
 	bureaucrats = {

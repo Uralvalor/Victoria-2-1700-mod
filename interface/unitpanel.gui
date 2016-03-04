@@ -121,22 +121,29 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			rotation = 1.5708
 		}
+		
+		guiButtonType = {
+			name = "disbandtoosmallbutton"
+			position = { x = 214 y = 6 }
+			quadTextureSprite ="GFX_unit_disband_red"
+		}		
 			
 		guiButtonType = {
 			name = "disbandbutton"
-			position = { x = 256 y = 6 }
+			position = { x = 235 y = 6 }
 			quadTextureSprite ="GFX_unit_disband"
 		}	
 
 		guiButtonType = {
-			name = "disbandtoosmallbutton"
-			position = { x = 235 y = 6 }
-			quadTextureSprite ="GFX_unit_disband_red"
-		}			
+			name = "splitinhalf"
+			position = { x = 254 y = 6 }
+			quadTextureSprite ="GFX_unit_splitinhalf"
+			shortcut = "s"
+		}		
 
 		guiButtonType = {
 			name = "newunitbutton"
-			position = { x = 277 y = 6 }
+			position = { x = 279 y = 6 }
 			quadTextureSprite ="GFX_unit_reorg"
 			shortcut = "r"
 		}
@@ -160,7 +167,7 @@ guiTypes = {
 			name = "unitname"
 			font = "Arial14"
 			borderSize = {x = 8 y = 4}	
-			size = { x=190 y=24}
+			size = { x=180 y=24}
 			text = ""	
 			orientation = "UPPER_LEFT"
 		}

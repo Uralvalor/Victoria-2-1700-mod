@@ -1067,7 +1067,7 @@ country_event = {
 	id = 36230
 	title = "EVTNAME36230"
 	desc = "EVTDESC36230"
-	picture = "Danishgovernment"
+	picture = "selling_bears_to_jan_meyen"
 	
 	is_triggered_only = yes
 	
@@ -1101,13 +1101,19 @@ country_event = {
 	id = 36231
 	title = "EVTNAME36231"
 	desc = "EVTDESC36231"
-	picture = "Danishgovernment"
+	picture = "selling_bears_to_jan_meyen"
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = "EVTOPTA36231"
 		money = -4000
+		SWE_308 = {
+			assimilate = yes
+		}
+		DEN_251 = {
+			assimilate = yes
+		}		
 	}
 }
 
@@ -1116,7 +1122,7 @@ country_event = {
 	id = 36232
 	title = "EVTNAME36232"
 	desc = "EVTDESC36232"
-	picture = "Danishgovernment"
+	picture = "selling_bears_to_jan_meyen"
 	
 	is_triggered_only = yes
 	

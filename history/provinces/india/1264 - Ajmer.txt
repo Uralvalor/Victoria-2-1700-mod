@@ -5,3 +5,10 @@ add_core = HND
 trade_goods = cotton
 life_rating = 35
 terrain = semi_desert_hills
+
+
+1914.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 3
+}

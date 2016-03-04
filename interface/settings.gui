@@ -485,7 +485,7 @@ guiTypes = {
 
 
 				instantTextBoxType={
-					position = {x = 30 y = 30 }
+					position = {x = 30 y = 15 }
 					name = "resolution_label"
 					font = "Arial12"
 					borderSize = {x = 0 y = 0}	
@@ -497,7 +497,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType={
-					position = {x = 30 y = 44 }
+					position = {x = 30 y = 29 }
 					name = "resolution_value"
 					font = "Arial12_bold"
 					borderSize = {x = 0 y = 0}	
@@ -510,7 +510,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "decrease_resolution_button"
-					position = { x = 30 y = 35 }
+					position = { x = 30 y = 20 }
 					quadTextureSprite ="option_prev"	
 					tooltip = ""
 					tooltipText =""
@@ -520,7 +520,51 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "increase_resolution_button"
-					position = { x = 165 y = 35 }
+					position = { x = 165 y = 20 }
+					quadTextureSprite ="option_next"	
+					tooltip = ""
+					tooltipText =""
+					delayedTooltipText = ""
+				}
+        
+
+        		instantTextBoxType={
+					position = {x = 30 y = 50 }
+					name = "window_label"
+					font = "Arial12"
+					borderSize = {x = 0 y = 0}	
+					maxWidth = 172
+					maxHeight = 18
+					text = "SM_WINDOW"	
+					orientation = "UPPER_LEFT"
+					format = centre
+				}
+
+				instantTextBoxType={
+					position = {x = 30 y = 64 }
+					name = "window_value"
+					font = "Arial12_bold"
+					borderSize = {x = 0 y = 0}	
+					maxWidth = 172
+					maxHeight = 18
+					text = ""	
+					orientation = "UPPER_LEFT"
+					format = centre
+				}
+
+				guiButtonType = {
+					name = "decrease_window_button"
+					position = { x = 30 y = 55 }
+					quadTextureSprite ="option_prev"	
+					tooltip = ""
+					tooltipText =""
+					delayedTooltipText = ""
+				}
+
+
+				guiButtonType = {
+					name = "increase_window_button"
+					position = { x = 165 y = 55 }
 					quadTextureSprite ="option_next"	
 					tooltip = ""
 					tooltipText =""
@@ -529,7 +573,7 @@ guiTypes = {
 
 
 				instantTextBoxType={
-					position = {x = 30 y = 70 }
+					position = {x = 30 y = 85 }
 					name = "refreshrate_label"
 					font = "Arial12"
 					borderSize = {x = 0 y = 0}	
@@ -541,7 +585,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType={
-					position = {x = 30 y = 84 }
+					position = {x = 30 y = 99 }
 					name = "refreshrate_value"
 					font = "Arial12_bold"
 					borderSize = {x = 0 y = 0}	
@@ -555,7 +599,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "decrease_refreshrate_button"
-					position = { x = 30 y = 75 }
+					position = { x = 30 y = 90 }
 					quadTextureSprite ="option_prev"	
 					tooltip = ""
 					tooltipText =""
@@ -565,7 +609,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "increase_refreshrate_button"
-					position = { x = 165 y = 75 }
+					position = { x = 165 y = 90 }
 					quadTextureSprite ="option_next"	
 					tooltip = ""
 					tooltipText =""
@@ -574,7 +618,7 @@ guiTypes = {
 				
 				
 				instantTextBoxType={
-					position = {x = 30 y = 110 }
+					position = {x = 30 y = 125 }
 					name = "multisample_label"
 					font = "Arial12"
 					borderSize = {x = 0 y = 0}	
@@ -586,7 +630,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType={
-					position = {x = 30 y = 124 }
+					position = {x = 30 y = 139 }
 					name = "multisample_value"
 					font = "Arial12_bold"
 					borderSize = {x = 0 y = 0}	
@@ -600,7 +644,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "decrease_multisample_button"
-					position = { x = 30 y = 115 }
+					position = { x = 30 y = 130 }
 					quadTextureSprite ="option_prev"	
 					tooltip = ""
 					tooltipText =""
@@ -610,7 +654,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "increase_multisample_button"
-					position = { x = 165 y = 115 }
+					position = { x = 165 y = 130 }
 					quadTextureSprite ="option_next"	
 					tooltip = ""
 					tooltipText =""
@@ -619,7 +663,7 @@ guiTypes = {
 				
 
 				instantTextBoxType={
-					position = {x = 26 y = 146 }
+					position = {x = 26 y = 161 }
 					name = "gamma_label"
 					font = "Arial12"
 					borderSize = {x = 0 y = 0}	
@@ -638,7 +682,7 @@ guiTypes = {
 					leftbutton = "landslider_upButton"
 					rightbutton = "landslider_downButton"
 					size = {x =220 y =20 }
-					position = {x= 4 y =160}
+					position = {x= 4 y =175}
 					priority = 100			
 					borderSize = {x =16 y = 16}	
 					maxValue = 100
@@ -679,7 +723,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType={
-					position = {x = 26 y = 181 }
+					position = {x = 26 y = 196 }
 					name = "details_label"
 					font = "Arial12"
 					borderSize = {x = 0 y = 0}	
@@ -697,7 +741,7 @@ guiTypes = {
 					leftbutton = "landslider_upButton"
 					rightbutton = "landslider_downButton"
 					size = {x =220 y =20 }
-					position = {x= 4 y =195}
+					position = {x= 4 y =210}
 					priority = 100			
 					borderSize = {x =16 y = 16}	
 					maxValue = 100
@@ -741,7 +785,7 @@ guiTypes = {
 
 				checkboxType = {
 					name = "water_checkbox"
-					position = { x = 40 y = 221 }
+					position = { x = 40 y = 231 }
 					quadTextureSprite ="GFX_checkbox_default"	
 					tooltip = ""
 					tooltipText =""
@@ -752,7 +796,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType={
-					position = {x = 70 y = 221 }
+					position = {x = 70 y = 231 }
 					name = "water_label"
 					font = "Arial12"
 					borderSize = {x = 0 y = 0}	
@@ -1475,7 +1519,7 @@ guiTypes = {
 
 
 				instantTextBoxType={
-					position = {x = 30 y = 30 }
+					position = {x = 30 y = 15 }
 					name = "resolution_label"
 					font = "Arial12"
 					borderSize = {x = 0 y = 0}	
@@ -1487,7 +1531,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType={
-					position = {x = 30 y = 44 }
+					position = {x = 30 y = 29 }
 					name = "resolution_value"
 					font = "Arial12_bold"
 					borderSize = {x = 0 y = 0}	
@@ -1500,7 +1544,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "decrease_resolution_button"
-					position = { x = 30 y = 35 }
+					position = { x = 30 y = 20 }
 					quadTextureSprite ="option_prev"	
 					tooltip = ""
 					tooltipText =""
@@ -1510,7 +1554,51 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "increase_resolution_button"
-					position = { x = 165 y = 35 }
+					position = { x = 165 y = 20 }
+					quadTextureSprite ="option_next"	
+					tooltip = ""
+					tooltipText =""
+					delayedTooltipText = ""
+				}
+        
+
+        		instantTextBoxType={
+					position = {x = 30 y = 50 }
+					name = "window_label"
+					font = "Arial12"
+					borderSize = {x = 0 y = 0}	
+					maxWidth = 172
+					maxHeight = 18
+					text = "SM_WINDOW"	
+					orientation = "UPPER_LEFT"
+					format = centre
+				}
+
+				instantTextBoxType={
+					position = {x = 30 y = 64 }
+					name = "window_value"
+					font = "Arial12_bold"
+					borderSize = {x = 0 y = 0}	
+					maxWidth = 172
+					maxHeight = 18
+					text = ""	
+					orientation = "UPPER_LEFT"
+					format = centre
+				}
+
+				guiButtonType = {
+					name = "decrease_window_button"
+					position = { x = 30 y = 55 }
+					quadTextureSprite ="option_prev"	
+					tooltip = ""
+					tooltipText =""
+					delayedTooltipText = ""
+				}
+
+
+				guiButtonType = {
+					name = "increase_window_button"
+					position = { x = 165 y = 55 }
 					quadTextureSprite ="option_next"	
 					tooltip = ""
 					tooltipText =""
@@ -1519,7 +1607,7 @@ guiTypes = {
 
 
 				instantTextBoxType={
-					position = {x = 30 y = 70 }
+					position = {x = 30 y = 85 }
 					name = "refreshrate_label"
 					font = "Arial12"
 					borderSize = {x = 0 y = 0}	
@@ -1531,7 +1619,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType={
-					position = {x = 30 y = 84 }
+					position = {x = 30 y = 99 }
 					name = "refreshrate_value"
 					font = "Arial12_bold"
 					borderSize = {x = 0 y = 0}	
@@ -1545,7 +1633,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "decrease_refreshrate_button"
-					position = { x = 30 y = 75 }
+					position = { x = 30 y = 90 }
 					quadTextureSprite ="option_prev"	
 					tooltip = ""
 					tooltipText =""
@@ -1555,7 +1643,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "increase_refreshrate_button"
-					position = { x = 165 y = 75 }
+					position = { x = 165 y = 90 }
 					quadTextureSprite ="option_next"	
 					tooltip = ""
 					tooltipText =""
@@ -1564,7 +1652,7 @@ guiTypes = {
 				
 				
 				instantTextBoxType={
-					position = {x = 30 y = 110 }
+					position = {x = 30 y = 125 }
 					name = "multisample_label"
 					font = "Arial12"
 					borderSize = {x = 0 y = 0}	
@@ -1576,7 +1664,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType={
-					position = {x = 30 y = 124 }
+					position = {x = 30 y = 139 }
 					name = "multisample_value"
 					font = "Arial12_bold"
 					borderSize = {x = 0 y = 0}	
@@ -1590,7 +1678,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "decrease_multisample_button"
-					position = { x = 30 y = 115 }
+					position = { x = 30 y = 130 }
 					quadTextureSprite ="option_prev"	
 					tooltip = ""
 					tooltipText =""
@@ -1600,7 +1688,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "increase_multisample_button"
-					position = { x = 165 y = 115 }
+					position = { x = 165 y = 130 }
 					quadTextureSprite ="option_next"	
 					tooltip = ""
 					tooltipText =""
@@ -1609,7 +1697,7 @@ guiTypes = {
 				
 
 				instantTextBoxType={
-					position = {x = 26 y = 146 }
+					position = {x = 26 y = 161 }
 					name = "gamma_label"
 					font = "Arial12"
 					borderSize = {x = 0 y = 0}	
@@ -1628,7 +1716,7 @@ guiTypes = {
 					leftbutton = "landslider_upButton"
 					rightbutton = "landslider_downButton"
 					size = {x =220 y =20 }
-					position = {x= 4 y =160}
+					position = {x= 4 y =175}
 					priority = 100			
 					borderSize = {x =16 y = 16}	
 					maxValue = 100
@@ -1668,9 +1756,8 @@ guiTypes = {
 			
 				}
 
-
 				instantTextBoxType={
-					position = {x = 26 y = 181 }
+					position = {x = 26 y = 196 }
 					name = "details_label"
 					font = "Arial12"
 					borderSize = {x = 0 y = 0}	
@@ -1688,7 +1775,7 @@ guiTypes = {
 					leftbutton = "landslider_upButton"
 					rightbutton = "landslider_downButton"
 					size = {x =220 y =20 }
-					position = {x= 4 y =195}
+					position = {x= 4 y =210}
 					priority = 100			
 					borderSize = {x =16 y = 16}	
 					maxValue = 100
@@ -1732,7 +1819,7 @@ guiTypes = {
 
 				checkboxType = {
 					name = "water_checkbox"
-					position = { x = 40 y = 217 }
+					position = { x = 40 y = 231 }
 					quadTextureSprite ="GFX_checkbox_default"	
 					tooltip = ""
 					tooltipText =""
@@ -1743,7 +1830,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType={
-					position = {x = 70 y = 221 }
+					position = {x = 70 y = 231 }
 					name = "water_label"
 					font = "Arial12"
 					borderSize = {x = 0 y = 0}	

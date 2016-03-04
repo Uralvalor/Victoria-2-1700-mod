@@ -1,0 +1,35 @@
+Patch 3.04:
+- Right-clicking a country on the map when no units are selected now opens diplomacy with that country.
+- AI Great Powers in Europe now care about crises on other continents.
+- Fixed a bug where forming nations could completely mess up diplomatic relations and satellites.
+- AI Great Powers in America now care about crises in the other American continent.
+- Effects of Machine Tools, Tractors, Nitroglycerin, Distribution Channels & Electricity inventions are now country wide instead of  being spread through province event spam.
+- Election events are now country-wide, and occur less often (about twice per election).
+- Added Borderless Windowed mode.
+- Fixed map crash when you start Victoria 2 for the first time.
+- Will now show proper unit information if you hover over the unit icon.
+- Fixed the units getting stuck if you embark them on ships.
+- Increased the cooldown between crises to 5 years.
+- AI no longer believes the Age of Sail ended in 1936.
+- AI will no longer delete closed factories while at war.
+- It is now possible for non-host players in multiplayer to see how the AI would respond to diplomatic offers.
+- Call Ally will now get a clear yes/no answer from allies, instead of random chance.
+- Right-clicking 'go to diplomacy' will no longer be interpeted by the game as a desperate desire to crash to desktop.
+- No longer possible to load an infinite amount of troops onto a single ship if they happen to board at the same time.
+- You now only get the bankruptcy notification/CB if the amount owed to you is a significant sum.
+- Can now set decisions to be ignored, ignored decisions will not light up the 'decision can be taken' icon in main interface.
+- 'Sign the Geneva Convention' decision now has larger benefits and slower badboy decay as a downside instead of reducing max military spending.
+- 'National Banking Act' decision is now actually worth taking.
+- has_national_minority and political_movement triggers now have the correct localisations.
+- Added split in half (shortcut 's') in unit view. This will split the selected unit into two as balanced units as it can, then select only the more powerful of the two.
+- Added World Wars, the next level after Great Wars. a GW can become a WW after mass politics (1905) is researched and the winning side gains 50% warscore. After this all wargoals have their cost cut to 30% allowing you to really dismantle stuff at the end of the game.
+- Fascist Siam now called Thailand
+- Removed factory output changes depending on difficulty level. Non standard difficulty levels should now be safe to play without risking economic issues.
+- A lot less wickedness will now be stamped out in the USA (moral crusader event now fires on country level and not every week).
+- Jacobins now make democracies of prussian constitutionalism.
+- Airplane-only armies no longer completely murder the strongest offensive armies when attacked. Discipline (org dmg reduction) is reduced a lot making them better mixed where they can support from the back line as they wont be able to hold provinces well. Also reduced defense a bit.
+- Crisis with attacker backer and no defender backer now resolves automatically in favor of attacker rather than fizzling.
+- Lone defender backer now gets some prestige for being gutsy and stepping up even if no attackers.
+- Added historical military leaders to many nations.
+- The Polar Bear Purchase will now turn all pops in iceland, greenland & jan mayen into polar bears.
+- Added some jaw-dropping polar bear artwork.
