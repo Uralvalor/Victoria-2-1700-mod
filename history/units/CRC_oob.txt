@@ -31,34 +31,31 @@ army = {
 
 	regiment = {
 		name= "Fannin's Command"
-		type = infantry
-
+		type = cavalry
 		home = 3257
 	}
 
 	regiment = {
 		name= "Travis' Command"
-		type = infantry
-
+		type = cavalry
 		home = 3257
 	}
 
 	regiment = {
 		name= "Fannin's Command"
-		type = infantry
-
+		type = cavalry
 		home = 3255
 	}
 	
 	regiment = {
 		name = "Burleson's Command"
-		type = artillery
+		type = cavalry
 		home = 3255
 	}
 
 	regiment = {
 		name = "Burleson's Command"
-		type = artillery
+		type = cavalry
 		home = 3255
 	}
 	

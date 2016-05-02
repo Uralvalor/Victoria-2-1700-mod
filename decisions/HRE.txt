@@ -251,6 +251,8 @@ owner = { in_sphere = THIS }}}
 }
 
 effect = {
+add_accepted_culture = south_german
+add_accepted_culture = north_german
 inherit = HRE 
 change_tag = HRE 
 set_global_flag = hre_dismantled 

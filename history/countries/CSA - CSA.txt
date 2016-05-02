@@ -162,7 +162,7 @@ literacy = 0.55
 non_state_culture_literacy = 0.10
 
 # Technologies
-	 
+	post_napoleonic_thought = 1
 	strategic_mobility = 1
 	point_defense_system = 1
 	flintlock_rifles = 1
@@ -177,7 +177,7 @@ non_state_culture_literacy = 0.10
 	army_professionalism = 1
 	army_decision_making = 1
 	
-	 
+	post_nelsonian_thought = 1
 	battleship_column_doctrine = 1
 	clipper_design = 1
 	steamers = 1
@@ -229,6 +229,10 @@ non_state_culture_literacy = 0.10
 	basic_chemistry = 1
 	medicine = 1
 	inorganic_chemistry = 1
+
+ferrous_metallurgy = 1
+
+}
 	
 #Inventions
 

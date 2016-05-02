@@ -1377,7 +1377,7 @@ country_event = {
 			}
 
 		option = {
-			name = "God Save the Emperor!"
+			name = "Благослови Господь Императора!"
 				set_country_flag = hre_member
 			any_owned = {
 				limit = {
@@ -2308,6 +2308,53 @@ country_event = {
 	}
   }
  }
+ 
+country_event = {
+	id = 15011
+	title = "EVTNAME15011"
+	desc = "EVTDESC15011"
+	
+	trigger = {
+tag = SPA
+NOT = { year = 1800 }
+	}
+	
+	mean_time_to_happen = {
+		months = 3600
+	}
+	
+	option = {
+		name = "EVTOPTA14610"
+		any_pop = {
+				limit = { culture = zapotec }
+				reduce_pop = 0.92
+				militancy = 2.0		
+					}
+		any_pop = {
+				limit = { culture = nahua }
+				reduce_pop = 0.92
+				militancy = 2.0		
+					}
+		any_pop = {
+				limit = { culture = tarascan }
+				reduce_pop = 0.92
+				militancy = 2.0		
+					}
+		any_pop = {
+				limit = { culture = mayan }
+				reduce_pop = 0.92
+				militancy = 2.0		
+					}
+		any_pop = {
+				limit = { culture = central_american }
+				reduce_pop = 0.92
+				militancy = 2.0		
+					}
+	}
+}
+
+ 
+ 
  
  country_event = {
 	id = 11108

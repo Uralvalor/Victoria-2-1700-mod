@@ -192,6 +192,11 @@ migration_target =
 		is_core = ISR 
 	}
 	modifier = {
+		factor = 2
+		country = { land_reform = nomads  }
+		country_units_in_province = THIS
+	}
+	modifier = {
 		factor = 0
 		AND = {
 			state_scope = {

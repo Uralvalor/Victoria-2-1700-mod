@@ -609,6 +609,7 @@ clipper_design = {
 	cost = 2200
 	unciv_military = yes
 	activate_building = clipper_shipyard 
+	colonial_points = 50
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1922,6 +1923,7 @@ marine_chronometers = {
 	cost = 2200
 	unciv_military = yes
 	supply_range = 0.10
+	colonial_points = 100
 	
 	ai_chance = {
 		factor = 1.01
