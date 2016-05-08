@@ -639,7 +639,7 @@ country_event = {
 
 	trigger = {
 		tag = CSK
-		substate_of = RUS
+		vassal_of = RUS
 		in_sphere = SWE 
 		SWE = {
 					war_with = RUS
@@ -648,7 +648,7 @@ country_event = {
 
 	fire_only_once = yes
 	mean_time_to_happen =  {
-		months = 12
+		months = 6
 
 		modifier = {
 			factor = 0.6
@@ -678,7 +678,7 @@ country_event = {
 
 	trigger = {
 		tag = UKR
-		substate_of = RUS
+		vassal_of = RUS
 		in_sphere = SWE 
 		SWE = {
 					war_with = RUS
@@ -686,7 +686,7 @@ country_event = {
 	}
 
 	mean_time_to_happen =  {
-		months = 12
+		months = 6
 		}
 		
 	fire_only_once = yes
