@@ -243,3 +243,40 @@ country_event = {
 		}
 }
 
+
+country_event = {
+	
+	id = 780102
+	title = "Aristocrats money injection"
+	desc = "It's a sinister aristocrat conspiracy to provide start-up capital!"
+	
+	fire_only_once = yes
+	
+	
+	trigger = {
+		ai = yes
+	}
+	
+	mean_time_to_happen = {
+		day = 1
+	}
+
+	option = {
+		name = "Great!"
+		
+		any_pop = {
+			limit = {
+				type = aristocrats
+			}
+				money = 400
+			}
+		any_country = {
+		any_pop = {
+			limit = {
+				type = aristocrats
+			}
+				money = 400
+			}
+			}
+	}
+}

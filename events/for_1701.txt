@@ -728,6 +728,7 @@ country_event = {
 	trigger = {
 		tag = AUS
 		year = 1701
+		NOT = { has_country_flag = rakoczi_rebellion }
 	}
 	
 	fire_only_once = yes
@@ -758,12 +759,50 @@ country_event = {
 			}
 		}
 
-		SIE = {
+		AUS = {
 		set_country_flag = rakoczi_rebellion
 		}
 	}
 }
 
+country_event = {
+
+	id = 170712
+
+	trigger = {
+		tag = RUS
+		year = 1704
+		NOT = { has_country_flag = bashkir_rebellion }
+	}
+	
+	fire_only_once = yes
+	mean_time_to_happen =  {
+		months = 12
+	}
+	
+	title = "EVTNAME170712"
+	desc = "EVTDESC170712"
+	picture = "polrebel"
+
+	option = {
+		name = "EVTOPTA170712"
+		release = BSK
+		release_vassal = BSK
+		war = {
+			target = BSK
+			attacker_goal = {
+				casus_belli = establish_protectorate_casus_belli
+			}
+			
+			defender_goal = {
+				casus_belli = become_independent
+			}
+		}
+		RUS = {
+		set_country_flag = bashkir_rebellion
+		}
+	}
+}
 country_event = {
 	id = 18049
 	trigger = {
