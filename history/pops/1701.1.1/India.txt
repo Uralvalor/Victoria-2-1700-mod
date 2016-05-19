@@ -385,7 +385,7 @@
 	farmers = {
 		culture = kanauji
 		religion = hindu
-		size = 253540
+		size = 503540
 	}
 	aristocrats = {
 		culture = panjabi
@@ -410,7 +410,7 @@
 	farmers = {
 		culture = panjabi
 		religion = sikh
-		size = 58494
+		size = 108494
 	}
 	aristocrats = {
 		culture = panjabi
@@ -435,7 +435,7 @@
 	farmers = {
 		culture = panjabi
 		religion = hindu
-		size = 446306
+		size = 146306
 	}
 }
 1238 = {
@@ -2460,27 +2460,27 @@
 }
 1280 = {
 	aristocrats = {
-		culture = avadhi
+		culture = oriya
 		religion = hindu
 		size = 925
 	}
 	clergymen = {
-		culture = avadhi
+		culture = oriya
 		religion = hindu
 		size = 870
 	}
 	artisans = {
-		culture = avadhi
+		culture = oriya
 		religion = hindu
 		size = 17456
 	}
 	soldiers = {
-		culture = avadhi
+		culture = oriya
 		religion = hindu
 		size = 170
 	}
 	farmers = {
-		culture = avadhi
+		culture = oriya
 		religion = hindu
 		size = 68001
 	}
@@ -3906,7 +3906,7 @@
 		size = 3270
 	}
 	bureaucrats = {
-		culture = telegu
+		culture = oriya
 		religion = hindu
 		size = 5454
 	}
@@ -3916,7 +3916,7 @@
 		size = 4089
 	}
 	artisans = {
-		culture = telegu
+		culture = oriya
 		religion = hindu
 		size = 32453
 	}
@@ -3928,7 +3928,12 @@
 	farmers = {
 		culture = telegu
 		religion = hindu
-		size = 273512
+		size = 100000
+	}
+	farmers = {
+		culture = oriya
+		religion = hindu
+		size = 173512
 	}
 	artisans = {
 		culture = telegu
@@ -4079,7 +4084,7 @@
 	farmers = {
 		culture = telegu
 		religion = hindu
-		size = 157278
+		size = 107278
 	}
 	aristocrats = {
 		culture = kannada
@@ -4104,7 +4109,7 @@
 	farmers = {
 		culture = kannada
 		religion = sunni
-		size = 21418
+		size = 71418
 	}
 }
 1304 = {
