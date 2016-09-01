@@ -7,7 +7,13 @@ plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.06
 
-land_reform = no_land_reform 
+
+army_schools = yes_army_schools  
+finance_reform = yes_finance_reform
+land_reform = yes_land_reform  
+taxation_reform = tax_farmers
+academic_institutions = madrasahs
+
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed

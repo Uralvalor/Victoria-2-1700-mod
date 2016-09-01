@@ -1141,6 +1141,7 @@ country_event = {
 			SIN = {NOT = {vassal_of = THIS}}
 			KUT = {NOT = {vassal_of = THIS}}
 			MAK = {NOT = {vassal_of = THIS}}
+			MUG = {NOT = {vassal_of = THIS}}
 		}
 		has_country_flag = british_indian_cb_added
 	}
@@ -1171,6 +1172,7 @@ country_event = {
 					tag = SIN
 					tag = KUT
 					tag = MAK
+					tag = MUG
 				}
 				NOT = {
 					vassal_of = THIS

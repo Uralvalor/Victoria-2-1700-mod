@@ -401,7 +401,6 @@ country_event = {
 		any_owned = {
 			limit = {
 				continent = north_america
-				not = { is_core = CAN }
 				not = { is_core = HAI }
 				not = { is_core = FWI }
 			}
@@ -2277,7 +2276,7 @@ country_event = {
 	major = yes
 	
 	trigger = {		
-		rank = 16
+		rank = 12
 		NOT = { exists = USA }
 	    NOT = { tag = CAN }
 	    NOT = { tag = USA }
