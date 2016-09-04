@@ -838,10 +838,10 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
-				owner = { is_possible_vassal = MUG }
+				owner = { is_possible_vassal = MGE }
 			}
 			owner = {
-				release = MUG
+				release = MGE
 				prestige = -10
 			}
 		}
@@ -1100,7 +1100,7 @@ country_event = {
 				OR = {
 					tag = BNG
 					tag = MAR
-					tag = MUG
+					tag = MGE
 				}
 			}
 			add_casus_belli = {
@@ -1141,7 +1141,7 @@ country_event = {
 			SIN = {NOT = {vassal_of = THIS}}
 			KUT = {NOT = {vassal_of = THIS}}
 			MAK = {NOT = {vassal_of = THIS}}
-			MUG = {NOT = {vassal_of = THIS}}
+			MGE = {NOT = {vassal_of = THIS}}
 		}
 		has_country_flag = british_indian_cb_added
 	}
@@ -1172,7 +1172,7 @@ country_event = {
 					tag = SIN
 					tag = KUT
 					tag = MAK
-					tag = MUG
+					tag = MGE
 				}
 				NOT = {
 					vassal_of = THIS

@@ -1,0 +1,17 @@
+owner = BUK
+controller = BUK
+add_core = BUK
+add_core = MUG
+trade_goods = wool
+life_rating = 30
+terrain = hilly_grassland
+1914.1.1 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+}
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

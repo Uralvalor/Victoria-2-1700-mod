@@ -792,7 +792,7 @@ country_event = {
 				THIS = { NOT = { has_country_flag = crown_from_the_gutter } }
 				OR = {
 					tag = PNJ
-					tag = MUG
+					tag = MGE
 					tag = HYD
 					tag = BNG
 					primary_culture = THIS
@@ -830,7 +830,7 @@ country_event = {
 				THIS = { NOT = { has_country_flag = crown_from_the_gutter } }
 				OR = {
 					tag = MAH
-					tag = MUG
+					tag = MGE
 					tag = RAJ
 				}
 				THIS = { primary_culture = marathi }

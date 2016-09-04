@@ -1,7 +1,12 @@
-
+owner = OIR
+controller = OIR
 trade_goods = coal
 life_rating = 27
 terrain = dry_grassland
+1815.1.1 = {
+	owner = XXX
+	controller = XXX
+}
 1861.1.1 = {
 	owner = RUS
 	controller = RUS

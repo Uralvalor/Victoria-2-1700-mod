@@ -1,0 +1,22 @@
+owner = KYR
+controller = KYR
+add_core = KYR
+add_core = KOK
+add_core = MUG
+trade_goods = grain
+life_rating = 30
+terrain = hilly_grassland
+1815.1.1 = {
+	owner = BUK
+	controller = BUK
+}
+1914.1.1 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+}
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

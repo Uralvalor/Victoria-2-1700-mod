@@ -1,7 +1,7 @@
 name = "Деканские войны"
 
 1700.1.1 = {
-	add_attacker = MUG
+	add_attacker = MGE
 	add_attacker = HYD
 	add_attacker = BAS
 	add_defender = MAR
@@ -13,46 +13,46 @@ name = "Деканские войны"
 	
 	war_goal = {
 		casus_belli = conquest
-		actor = MUG
+		actor = MGE
 		receiver = PAN
 	}	
 	war_goal = {
 		casus_belli = acquire_state
 		actor = MAR
-		receiver = MUG
+		receiver = MGE
 		state_province_id = 1272
 	}
 	war_goal = {
 		casus_belli = acquire_state
 		actor = MAR
-		receiver = MUG
+		receiver = MGE
 		state_province_id = 1292
 	}
 
 	war_goal = {
 		casus_belli = release_puppet
 		actor = MAR
-		receiver = MUG
+		receiver = MGE
 		country = HYD
 	}
 
 	war_goal = {
 		casus_belli = acquire_core_state
 		actor = PAN
-		receiver = MUG
+		receiver = MGE
 		state_province_id = 1227
 	}
 
 	war_goal = {
 		casus_belli = release_puppet
 		actor = MAR
-		receiver = MUG
+		receiver = MGE
 		country = BAS
 	}
 }
 
 1733.1.1 = {
-	rem_attacker = MUG
+	rem_attacker = MGE
 	rem_attacker = HYD
 	rem_attacker = BAS
 	rem_defender = PAN

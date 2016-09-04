@@ -1265,7 +1265,7 @@ country_event = {
 1215 = {
 secede_province = AFG
 }
-MUG = { 
+MGE = { 
 		release = AFG }
 1209 = {
 secede_province = AFG
@@ -1882,7 +1882,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		year = 1702
-		tag = MUG
+		tag = MGE
 		NOT = {
 			year = 1704
 		}

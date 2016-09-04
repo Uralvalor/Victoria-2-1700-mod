@@ -244,7 +244,7 @@ Mission_MUG = {
 				is_greater_power = yes
 	    	NOT = { has_country_flag = MUG_mission }
 	            is_sphere_leader_of = MUG
-	MUG = { 
+	MGE = { 
          	civilized = no
 	        controls = 1236
             any_owned_province = { has_province_modifier = western_presence } 
@@ -258,7 +258,7 @@ Mission_MUG = {
 	effect = {
 		money = -1000
 		set_country_flag = MUG_mission
-		military_access = MUG 
+		military_access = MGE 
 		capital_scope = {
 			officers = {
 				money = 1000

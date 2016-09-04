@@ -1,5 +1,5 @@
 1638 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 2394
@@ -34,7 +34,7 @@
 		religion = mahayana
 		size = 110608
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 765
@@ -61,7 +61,7 @@
 	}
 }
 1639 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 1770
@@ -86,7 +86,7 @@
 		religion = mahayana
 		size = 85403
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 525
@@ -113,7 +113,7 @@
 	}
 }
 1640 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 1915
@@ -138,7 +138,7 @@
 		religion = mahayana
 		size = 90704
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 478
@@ -165,7 +165,7 @@
 	}
 }
 1641 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 1986
@@ -190,7 +190,7 @@
 		religion = mahayana
 		size = 95172
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 525
@@ -217,7 +217,7 @@
 	}
 }
 1642 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 94
@@ -267,7 +267,7 @@
 		religion = shinto
 		size = 2204
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = ainu
 		religion = animist
 		size = 717
@@ -334,7 +334,7 @@
 		religion = shinto
 		size = 1788
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = ainu
 		religion = animist
 		size = 765
@@ -401,7 +401,7 @@
 		religion = shinto
 		size = 1747
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = ainu
 		religion = animist
 		size = 1196
@@ -428,7 +428,7 @@
 	}
 }
 1645 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 3566
@@ -463,7 +463,7 @@
 		religion = mahayana
 		size = 165364
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 1171
@@ -490,7 +490,7 @@
 	}
 }
 1646 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 1245
@@ -515,7 +515,7 @@
 		religion = mahayana
 		size = 58686
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 525
@@ -542,7 +542,7 @@
 	}
 }
 1647 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 452
@@ -567,7 +567,7 @@
 		religion = mahayana
 		size = 22247
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 262
@@ -594,7 +594,7 @@
 	}
 }
 1648 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 1149
@@ -619,7 +619,7 @@
 		religion = mahayana
 		size = 54240
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 500
@@ -649,11 +649,11 @@
 	aristocrats = {
 		culture = japanese
 		religion = mahayana
-		size = 6227
+		size = 2227
 	}
-	bureaucrats = {
+	aristocrats = {
 		culture = japanese
-		religion = mahayana
+		religion = shinto
 		size = 2126
 	}
 	officers = {
@@ -681,7 +681,7 @@
 		religion = mahayana
 		size = 143319
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 1388
@@ -708,7 +708,7 @@
 	}
 }
 1650 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 3016
@@ -733,7 +733,7 @@
 		religion = mahayana
 		size = 141356
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 692
@@ -760,7 +760,7 @@
 	}
 }
 1651 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 2033
@@ -785,7 +785,7 @@
 		religion = mahayana
 		size = 96394
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 478
@@ -812,7 +812,7 @@
 	}
 }
 1652 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 4453
@@ -837,7 +837,7 @@
 		religion = mahayana
 		size = 208323
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 1076
@@ -864,7 +864,7 @@
 	}
 }
 1653 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 2202
@@ -889,7 +889,7 @@
 		religion = mahayana
 		size = 103941
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 549
@@ -916,7 +916,7 @@
 	}
 }
 1655 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 5747
@@ -941,7 +941,7 @@
 		religion = mahayana
 		size = 353638
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 478
@@ -968,7 +968,7 @@
 	}
 }
 1656 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 3544
@@ -993,7 +993,7 @@
 		religion = mahayana
 		size = 165364
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 1484
@@ -1020,7 +1020,7 @@
 	}
 }
 1657 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 7472
@@ -1055,7 +1055,7 @@
 		religion = mahayana
 		size = 324573
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 1388
@@ -1082,7 +1082,7 @@
 	}
 }
 1658 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 3949
@@ -1107,7 +1107,7 @@
 		religion = mahayana
 		size = 184927
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 1674
@@ -1134,7 +1134,7 @@
 	}
 }
 1659 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 3736
@@ -1159,7 +1159,7 @@
 		religion = mahayana
 		size = 174254
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 1578
@@ -1186,7 +1186,7 @@
 	}
 }
 1660 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 3040
@@ -1221,7 +1221,7 @@
 		religion = mahayana
 		size = 138645
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 860
@@ -1248,7 +1248,7 @@
 	}
 }
 1661 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 3448
@@ -1273,7 +1273,7 @@
 		religion = catholic
 		size = 3057
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = catholic
 		size = 2
@@ -1293,7 +1293,7 @@
 		religion = protestant
 		size = 3057
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = protestant
 		size = 2
@@ -1313,7 +1313,7 @@
 		religion = mahayana
 		size = 152509
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 1245
@@ -1340,7 +1340,7 @@
 	}
 }
 1662 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 2394
@@ -1365,7 +1365,7 @@
 		religion = mahayana
 		size = 112928
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 717
@@ -1392,7 +1392,7 @@
 	}
 }
 1663 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 1196
@@ -1417,7 +1417,7 @@
 		religion = mahayana
 		size = 57806
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 525
@@ -1444,7 +1444,7 @@
 	}
 }
 1664 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 2777
@@ -1469,7 +1469,7 @@
 		religion = mahayana
 		size = 130293
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 860
@@ -1496,7 +1496,7 @@
 	}
 }
 1665 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 788
@@ -1521,7 +1521,7 @@
 		religion = mahayana
 		size = 36778
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 333
@@ -1548,7 +1548,7 @@
 	}
 }
 1666 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 1436
@@ -1573,7 +1573,7 @@
 		religion = mahayana
 		size = 67307
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 597
@@ -1600,7 +1600,7 @@
 	}
 }
 1667 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 2321
@@ -1635,7 +1635,7 @@
 		religion = mahayana
 		size = 107970
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 980
@@ -1662,7 +1662,7 @@
 	}
 }
 1668 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 2225
@@ -1697,7 +1697,7 @@
 		religion = mahayana
 		size = 102646
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 717
@@ -1724,7 +1724,7 @@
 	}
 }
 1669 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 1938
@@ -1749,7 +1749,7 @@
 		religion = mahayana
 		size = 91582
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 812
@@ -1776,7 +1776,7 @@
 	}
 }
 1670 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 1052
@@ -1801,7 +1801,7 @@
 		religion = mahayana
 		size = 49796
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 429
@@ -1828,7 +1828,7 @@
 	}
 }
 1671 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 1292
@@ -1853,7 +1853,7 @@
 		religion = mahayana
 		size = 62325
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 525
@@ -1880,7 +1880,7 @@
 	}
 }
 1672 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 1196
@@ -1905,7 +1905,7 @@
 		religion = mahayana
 		size = 56072
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 525
@@ -1932,7 +1932,7 @@
 	}
 }
 1673 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 1866
@@ -1957,7 +1957,7 @@
 		religion = mahayana
 		size = 87089
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 525
@@ -1984,7 +1984,7 @@
 	}
 }
 1674 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 1219
@@ -2009,7 +2009,7 @@
 		religion = mahayana
 		size = 57806
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 717
@@ -2036,7 +2036,7 @@
 	}
 }
 1675 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 4956
@@ -2071,7 +2071,7 @@
 		religion = mahayana
 		size = 224807
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 2058
@@ -2098,7 +2098,7 @@
 	}
 }
 1676 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 1292
@@ -2123,7 +2123,7 @@
 		religion = mahayana
 		size = 61348
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 741
@@ -2150,7 +2150,7 @@
 	}
 }
 1677 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 4453
@@ -2175,7 +2175,7 @@
 		religion = mahayana
 		size = 208933
 	}
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = shinto
 		size = 1674
@@ -2202,7 +2202,7 @@
 	}
 }
 1678 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 812
@@ -2264,7 +2264,7 @@
 	}
 }
 1679 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = japanese
 		religion = mahayana
 		size = 358
