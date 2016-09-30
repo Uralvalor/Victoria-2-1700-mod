@@ -482,8 +482,8 @@ country_event = {
 
 country_event = {
 	id = 99000
-	title = "EVTNAME99000"
-	desc = "EVTDESC99000"
+	title = "EVTNAME60040"
+	desc = "EVTDESC60040"
 	picture = "Unite"
 	
 	trigger = {
@@ -499,7 +499,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA99000"
+		name = "EVTOPTA60040"
 		government = absolute_monarchy
 	}
 }

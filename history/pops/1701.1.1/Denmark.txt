@@ -1,4 +1,9 @@
 253 = {
+	clergymen = {
+		culture = danish
+		religion = secularism
+		size = 5
+	}
 	bureaucrats = {
 		culture = danish
 		religion = protestant

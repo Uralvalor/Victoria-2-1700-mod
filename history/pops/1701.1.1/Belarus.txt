@@ -1,6 +1,11 @@
 936 = {
 	clergymen = {
 		culture = byelorussian
+		religion = secularism
+		size = 5
+	}
+	clergymen = {
+		culture = byelorussian
 		religion = orthodox
 		size = 139
 	}

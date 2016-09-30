@@ -1,4 +1,9 @@
 1999 = {
+	clergymen = {
+		culture = bakongo
+		religion = secularism
+		size = 5
+	}
 	bureaucrats = {
 		culture = portuguese
 		religion = catholic

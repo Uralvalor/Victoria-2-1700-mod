@@ -1,5 +1,10 @@
 375 = {
 	clergymen = {
+		culture = dutch
+		religion = secularism
+		size = 575
+	}
+	clergymen = {
 		culture = sephardic
 		religion = jewish
 		size = 146
@@ -11,7 +16,7 @@
 	}
 	aristocrats = {
 		culture = dutch
-		religion = protestant
+		religion = secularism
 		size = 306
 	}
 	officers = {
@@ -37,12 +42,17 @@
 	soldiers = {
 		culture = dutch
 		religion = protestant
-		size = 13020
+		size = 12020
+	}
+	artisans = {
+		culture = dutch
+		religion = secularism
+		size = 2445
 	}
 	artisans = {
 		culture = dutch
 		religion = protestant
-		size = 4445
+		size = 2945
 	}
 	artisans = {
 		culture = french

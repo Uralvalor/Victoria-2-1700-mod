@@ -1,4 +1,9 @@
 369 = {
+	clergymen = {
+		culture = north_german
+		religion = secularism
+		size = 5
+	}
 	aristocrats = {
 		culture = north_german
 		religion = protestant
@@ -136,7 +141,7 @@
 	artisans = {
 		culture = dutch
 		religion = protestant
-		size = 4127
+		size = 2127
 	}
 	soldiers = {
 		culture = north_german
@@ -146,7 +151,7 @@
 	artisans = {
 		culture = north_german
 		religion = protestant
-		size = 859
+		size = 2859
 	}
 	clergymen = {
 		culture = ashkenazi
@@ -3940,7 +3945,7 @@
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 38757
+		size = 18757
 	}
 	clergymen = {
 		culture = polish
@@ -3980,6 +3985,6 @@
 	farmers = {
 		culture = lithuanian
 		religion = protestant
-		size = 3113
+		size = 23113
 	}
 }

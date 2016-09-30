@@ -1,10 +1,13 @@
-owner = CRC
-controller = CRC
-add_core = NCI
+owner = NCI
+controller = NCI
 add_core = CRC
 trade_goods = cattle
 life_rating = 35
 terrain = deciduous_forest_hills
+1750.1.1 = {
+	owner = CRC
+	controller = CRC
+}
 1836.1.1 = {
 	add_core = RUS
 }

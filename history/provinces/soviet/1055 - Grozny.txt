@@ -1,10 +1,15 @@
-owner = ICH
-controller = ICH
+owner = CSK
+controller = CSK
+add_core = CSK
 add_core = ICH
 trade_goods = wool
 terrain = hills
 life_rating = 35
 terrain = deciduous_forest_hills
+1750.1.1 = {
+owner = DAG
+controller = DAG
+}
 1836.1.1 = {
 	add_core = RUS
 }

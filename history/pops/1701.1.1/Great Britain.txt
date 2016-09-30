@@ -446,6 +446,11 @@
 	}
 }
 277 = {
+	clergymen = {
+		culture = english
+		religion = secularism
+		size = 5
+	}
 	aristocrats = {
 		culture = english
 		religion = protestant

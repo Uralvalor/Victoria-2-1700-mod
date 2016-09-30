@@ -1,4 +1,9 @@
 805 = {
+	clergymen = {
+		culture = greek
+		religion = secularism
+		size = 5
+	}
 	aristocrats = {
 		culture = greek
 		religion = sunni
@@ -78,7 +83,7 @@
 822 = {
 	aristocrats = {
 		culture = greek
-		religion = sunni
+		religion = orthodox
 		size = 167
 	}
 	clergymen = {
@@ -386,11 +391,6 @@
 		religion = sunni
 		size = 63
 	}
-	aristocrats = {
-		culture = albanian
-		religion = sunni
-		size = 1090
-	}
 	clergymen = {
 		culture = albanian
 		religion = sunni
@@ -424,7 +424,7 @@
 	farmers = {
 		culture = albanian
 		religion = orthodox
-		size = 25721
+		size = 11721
 	}
 	clergymen = {
 		culture = greek
@@ -439,7 +439,7 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 11425
+		size = 26425
 	}
 	clergymen = {
 		culture = sephardic
@@ -923,12 +923,12 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 6192
+		size = 8192
 	}
 	farmers = {
 		culture = albanian
 		religion = orthodox
-		size = 8041
+		size = 6041
 	}
 }
 838 = {

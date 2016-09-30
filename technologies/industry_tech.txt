@@ -6,7 +6,7 @@ water_wheel_power = {
 
 	mine_rgo_eff = 0.05
 	farm_rgo_eff = 0.15
-	farm_rgo_size = 0.4
+	farm_rgo_size = 0.8
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -639,14 +639,14 @@ mechanized_mining = {
 	rgo_goods_output = {
 		sulphur = 0.1
 	}
-		rgo_size = { coal = 0.4 }
-		rgo_size = { sulphur = 0.4 }
-		rgo_size = { iron = 0.4 }
-		rgo_size = { precious_metal = 0.4 }
-		rgo_size = { timber = 0.4 }
-		rgo_size = { tropical_wood = 0.4 }	
-		rgo_size = { rubber = 0.4 }	
-		rgo_size = { oil = 0.4 }	
+		rgo_size = { coal = 0.8 }
+		rgo_size = { sulphur = 0.8 }
+		rgo_size = { iron = 0.8 }
+		rgo_size = { precious_metal = 0.8 }
+		rgo_size = { timber = 0.8 }
+		rgo_size = { tropical_wood = 0.8 }	
+		rgo_size = { rubber = 0.8 }	
+		rgo_size = { oil = 0.8 }	
 	ai_chance = {
 		factor = 1.1
 		modifier = {

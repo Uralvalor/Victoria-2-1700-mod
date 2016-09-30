@@ -1,10 +1,17 @@
-owner = TIB
-controller = TIB
+owner = OIR
+controller = OIR
+colonial = 2
 add_core = TIB
 add_core = HND
 trade_goods = cattle
 life_rating = 30
 terrain = conifer_forest_mountains
+
+1714.1.1 = {
+owner = TIB
+controller = TIB
+colonial = no
+}
 1914.1.1 = {
 	owner = ENG
 	controller = ENG

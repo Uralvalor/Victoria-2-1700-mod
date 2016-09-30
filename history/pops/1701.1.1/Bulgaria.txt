@@ -1,4 +1,9 @@
 808 = {
+	clergymen = {
+		culture = bulgarian
+		religion = secularism
+		size = 5
+	}
 	bureaucrats = {
 		culture = serb
 		religion = orthodox

@@ -17,6 +17,12 @@ political_decisions = {
 		effect = { 
 			set_country_flag = left_hre
 			clr_country_flag = hre_member 
+			any_owned = {
+				limit = {
+				is_core = THIS
+					}
+				remove_core = HRE
+				}
 				} 
 			}
 

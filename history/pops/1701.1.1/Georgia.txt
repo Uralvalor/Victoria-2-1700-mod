@@ -147,31 +147,6 @@
 		size = 42421
 	}
 	bureaucrats = {
-		culture = ossetians
-		religion = orthodox
-		size = 136
-	}
-	clergymen = {
-		culture = ossetians
-		religion = orthodox
-		size = 69
-	}
-	artisans = {
-		culture = ossetians
-		religion = orthodox
-		size = 78
-	}
-	soldiers = {
-		culture = ossetians
-		religion = orthodox
-		size = 69
-	}
-	farmers = {
-		culture = ossetians
-		religion = orthodox
-		size = 11707
-	}
-	bureaucrats = {
 		culture = armenian
 		religion = orthodox
 		size = 69
@@ -198,6 +173,31 @@
 	}
 }
 1092 = {
+	bureaucrats = {
+		culture = georgian
+		religion = orthodox
+		size = 102
+	}
+	clergymen = {
+		culture = georgian
+		religion = orthodox
+		size = 102
+	}
+	artisans = {
+		culture = georgian
+		religion = orthodox
+		size = 52
+	}
+	soldiers = {
+		culture = georgian
+		religion = orthodox
+		size = 69
+	}
+	farmers = {
+		culture = georgian
+		religion = orthodox
+		size = 4914
+	}
 	bureaucrats = {
 		culture = georgian
 		religion = orthodox
@@ -340,31 +340,6 @@
 }
 1095 = {
 	bureaucrats = {
-		culture = georgian
-		religion = orthodox
-		size = 102
-	}
-	clergymen = {
-		culture = georgian
-		religion = orthodox
-		size = 102
-	}
-	artisans = {
-		culture = georgian
-		religion = orthodox
-		size = 52
-	}
-	soldiers = {
-		culture = georgian
-		religion = orthodox
-		size = 69
-	}
-	farmers = {
-		culture = georgian
-		religion = orthodox
-		size = 4914
-	}
-	bureaucrats = {
 		culture = abkhazian
 		religion = orthodox
 		size = 205
@@ -388,31 +363,6 @@
 		culture = abkhazian
 		religion = orthodox
 		size = 11226
-	}
-	bureaucrats = {
-		culture = circassian
-		religion = sunni
-		size = 136
-	}
-	clergymen = {
-		culture = circassian
-		religion = sunni
-		size = 69
-	}
-	artisans = {
-		culture = circassian
-		religion = sunni
-		size = 65
-	}
-	soldiers = {
-		culture = circassian
-		religion = sunni
-		size = 69
-	}
-	farmers = {
-		culture = circassian
-		religion = sunni
-		size = 6211
 	}
 }
 1096 = {

@@ -146,6 +146,11 @@
 		religion = catholic
 		size = 38817
 	}
+	clergymen = {
+		culture = hungarian
+		religion = secularism
+		size = 5
+	}
 	aristocrats = {
 		culture = hungarian
 		religion = protestant

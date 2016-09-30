@@ -1,5 +1,10 @@
 387 = {
 	clergymen = {
+		culture = flemish
+		religion = secularism
+		size = 5
+	}
+	clergymen = {
 		culture = ashkenazi
 		religion = jewish
 		size = 27

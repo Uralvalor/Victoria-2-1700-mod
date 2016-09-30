@@ -1,4 +1,9 @@
 1552 = {
+	clergymen = {
+		culture = manchu
+		religion = secularism
+		size = 5
+	}
 	bureaucrats = {
 		culture = manchu
 		religion = animist

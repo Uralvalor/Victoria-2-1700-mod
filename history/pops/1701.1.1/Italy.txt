@@ -1234,12 +1234,17 @@
 754 = {
 	aristocrats = {
 		culture = south_italian
+		religion = secularism
+		size = 858
+	}
+	aristocrats = {
+		culture = south_italian
 		religion = catholic
-		size = 5858
+		size = 5000
 	}
 	bureaucrats = {
 		culture = south_italian
-		religion = catholic
+		religion = secularism
 		size = 590
 	}
 	officers = {
@@ -1255,7 +1260,12 @@
 	farmers = {
 		culture = south_italian
 		religion = catholic
-		size = 74562
+		size = 70000
+	}
+	farmers = {
+		culture = south_italian
+		religion = secularism
+		size = 4562
 	}
 	soldiers = {
 		culture = south_italian
@@ -1292,7 +1302,12 @@
 	farmers = {
 		culture = south_italian
 		religion = catholic
-		size = 96701
+		size = 96601
+	}
+	farmers = {
+		culture = south_italian
+		religion = secularism
+		size = 100
 	}
 }
 2567 = {
@@ -1319,7 +1334,12 @@
 	farmers = {
 		culture = south_italian
 		religion = catholic
-		size = 69840
+		size = 69740
+	}
+	farmers = {
+		culture = south_italian
+		religion = secularism
+		size = 100
 	}
 }
 756 = {
@@ -1356,7 +1376,12 @@
 	farmers = {
 		culture = south_italian
 		religion = catholic
-		size = 90753
+		size = 90653
+	}
+	farmers = {
+		culture = south_italian
+		religion = secularism
+		size = 100
 	}
 }
 757 = {
@@ -1383,7 +1408,12 @@
 	farmers = {
 		culture = south_italian
 		religion = catholic
-		size = 91464
+		size = 91364
+	}
+	farmers = {
+		culture = south_italian
+		religion = secularism
+		size = 100
 	}
 }
 758 = {
@@ -1410,7 +1440,12 @@
 	farmers = {
 		culture = south_italian
 		religion = catholic
-		size = 44737
+		size = 44637
+	}
+	farmers = {
+		culture = south_italian
+		religion = secularism
+		size = 100
 	}
 }
 759 = {

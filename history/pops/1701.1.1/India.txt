@@ -1,4 +1,9 @@
 1233 = {
+	clergymen = {
+		culture = panjabi
+		religion = secularism
+		size = 5
+	}
 	bureaucrats = {
 		culture = panjabi
 		religion = sikh

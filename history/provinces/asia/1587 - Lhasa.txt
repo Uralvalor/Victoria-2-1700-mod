@@ -1,6 +1,13 @@
-owner = TIB
-controller = TIB
+owner = OIR
+controller = OIR
+colonial = 2
 add_core = TIB
 trade_goods = cattle
 life_rating = 27
 terrain = semi_desert_mountains
+
+1714.1.1 = {
+owner = TIB
+controller = TIB
+colonial = no
+}

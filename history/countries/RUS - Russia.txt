@@ -3,7 +3,7 @@ primary_culture = russian
 culture = ukrainian
 culture = byelorussian
 culture = cossacian
-religion = orthodox
+religion = secularism 
 government = hms_government
 plurality = 0.0
 nationalvalue = nv_order
@@ -73,7 +73,7 @@ bronze_muzzle_loaded_artillery = 1
 consciousness = 6
 nonstate_consciousness = 3
 
-ruling_party = RUS_reactionary
+ruling_party = RUS_liberal
 upper_house = {
 	fascist = 0
 	liberal = 0

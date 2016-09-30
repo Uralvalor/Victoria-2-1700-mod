@@ -1,4 +1,9 @@
 3264 = {
+	clergymen = {
+		culture = catalan
+		religion = secularism
+		size = 5
+	}
 	bureaucrats = {
 		culture = catalan
 		religion = catholic

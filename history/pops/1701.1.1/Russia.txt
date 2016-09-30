@@ -1837,12 +1837,22 @@
 	aristocrats = {
 		culture = russian
 		religion = orthodox
-		size = 3576
+		size = 3076
+	}
+	aristocrats = {
+		culture = russian
+		religion = secularism
+		size = 500
 	}
 	aristocrats = {
 		culture = tatar
 		religion = sunni
 		size = 1500
+	}
+	bureaucrats = {
+		culture = russian
+		religion = secularism
+		size = 9
 	}
 	bureaucrats = {
 		culture = russian
@@ -1862,7 +1872,12 @@
 	artisans = {
 		culture = russian
 		religion = orthodox
-		size = 10500
+		size = 10000
+	}
+	artisans = {
+		culture = russian
+		religion = secularism
+		size = 500
 	}
 	soldiers = {
 		culture = russian
@@ -1872,12 +1887,22 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 68401
+		size = 68301
+	}
+	farmers = {
+		culture = russian
+		religion = secularism
+		size = 101
+	}
+	clergymen = {
+		culture = russian
+		religion = secularism
+		size = 26
 	}
 	clergymen = {
 		culture = russian
 		religion = protestant
-		size = 326
+		size = 300
 	}
 	farmers = {
 		culture = russian
@@ -3052,12 +3077,12 @@
 	soldiers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 3231
+		size = 3031
 	}
 	farmers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 3524
+		size = 2524
 	}
 }
 1037 = {
@@ -3262,12 +3287,12 @@
 	soldiers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 6431
+		size = 6131
 	}
 	farmers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 13260
+		size = 11260
 	}
 }
 1042 = {
@@ -3591,6 +3616,31 @@
 1049 = {
 	bureaucrats = {
 		culture = circassian
+		religion = sunni
+		size = 136
+	}
+	clergymen = {
+		culture = circassian
+		religion = sunni
+		size = 69
+	}
+	artisans = {
+		culture = circassian
+		religion = sunni
+		size = 65
+	}
+	soldiers = {
+		culture = circassian
+		religion = sunni
+		size = 69
+	}
+	farmers = {
+		culture = circassian
+		religion = sunni
+		size = 6211
+	}
+	bureaucrats = {
+		culture = circassian
 		religion = orthodox
 		size = 486
 	}
@@ -3733,6 +3783,31 @@
 	}
 }
 3255 = {
+	bureaucrats = {
+		culture = circassian
+		religion = animist
+		size = 382
+	}
+	clergymen = {
+		culture = circassian
+		religion = animist
+		size = 180
+	}
+	artisans = {
+		culture = circassian
+		religion = sunni
+		size = 900
+	}
+	soldiers = {
+		culture = circassian
+		religion = sunni
+		size = 180
+	}
+	farmers = {
+		culture = circassian
+		religion = animist
+		size = 10957
+	}
 	soldiers = {
 		culture = circassian
 		religion = sunni
@@ -3875,80 +3950,20 @@
 	}
 }
 1051 = {
-	bureaucrats = {
-		culture = circassian
-		religion = animist
-		size = 382
-	}
-	clergymen = {
-		culture = circassian
-		religion = animist
-		size = 180
-	}
 	artisans = {
-		culture = circassian
+		culture = nogais
 		religion = sunni
-		size = 900
-	}
-	soldiers = {
-		culture = circassian
-		religion = sunni
-		size = 180
+		size = 254
 	}
 	farmers = {
-		culture = circassian
-		religion = animist
-		size = 10957
+		culture = nogais
+		religion = sunni
+		size = 2348
 	}
 	bureaucrats = {
-		culture = kabard
+		culture = nogais
 		religion = sunni
-		size = 13
-	}
-	clergymen = {
-		culture = kabard
-		religion = sunni
-		size = 22
-	}
-	artisans = {
-		culture = kabard
-		religion = sunni
-		size = 270
-	}
-	soldiers = {
-		culture = kabard
-		religion = sunni
-		size = 720
-	}
-	farmers = {
-		culture = kabard
-		religion = sunni
-		size = 6210
-	}
-	bureaucrats = {
-		culture = kabard
-		religion = sunni
-		size = 13
-	}
-	clergymen = {
-		culture = kabard
-		religion = sunni
-		size = 22
-	}
-	artisans = {
-		culture = kabard
-		religion = sunni
-		size = 360
-	}
-	soldiers = {
-		culture = kabard
-		religion = sunni
-		size = 585
-	}
-	farmers = {
-		culture = kabard
-		religion = sunni
-		size = 8550
+		size = 287
 	}
 }
 3257 = {
@@ -3979,58 +3994,38 @@
 	}
 }
 3258 = {
-	artisans = {
-		culture = nogais
-		religion = sunni
-		size = 254
-	}
-	soldiers = {
-		culture = nogais
-		religion = sunni
-		size = 3348
-	}
-	bureaucrats = {
-		culture = nogais
-		religion = sunni
-		size = 287
-	}
-	bureaucrats = {
-		culture = kabard
-		religion = sunni
-		size = 9
-	}
-	clergymen = {
-		culture = kabard
-		religion = sunni
-		size = 27
-	}
-	artisans = {
-		culture = kabard
-		religion = sunni
-		size = 270
-	}
-	soldiers = {
-		culture = kabard
-		religion = sunni
-		size = 630
-	}
 	farmers = {
-		culture = kabard
-		religion = sunni
-		size = 11088
-	}
-	soldiers = {
-		culture = chechen
-		religion = sunni
-		size = 1390
-	}
-	farmers = {
-		culture = chechen
-		religion = sunni
-		size = 1490
+		culture = kalmyk
+		religion = gelugpa
+		size = 3500
 	}
 }
 1052 = {
+	bureaucrats = {
+		culture = lezgian
+		religion = sunni
+		size = 152
+	}
+	clergymen = {
+		culture = lezgian
+		religion = sunni
+		size = 152
+	}
+	artisans = {
+		culture = lezgian
+		religion = sunni
+		size = 76
+	}
+	soldiers = {
+		culture = lezgian
+		religion = sunni
+		size = 101
+	}
+	farmers = {
+		culture = lezgian
+		religion = sunni
+		size = 9272
+	}
 	bureaucrats = {
 		culture = avar
 		religion = sunni
@@ -4203,6 +4198,71 @@
 	}
 }
 1053 = {
+	bureaucrats = {
+		culture = avar
+		religion = sunni
+		size = 90
+	}
+	clergymen = {
+		culture = avar
+		religion = sunni
+		size = 72
+	}
+	artisans = {
+		culture = avar
+		religion = sunni
+		size = 63
+	}
+	soldiers = {
+		culture = avar
+		religion = animist
+		size = 153
+	}
+	farmers = {
+		culture = avar
+		religion = animist
+		size = 450
+	}
+	farmers = {
+		culture = lak
+		religion = sunni
+		size = 540
+	}
+	farmers = {
+		culture = dargin
+		religion = sunni
+		size = 733
+	}
+	farmers = {
+		culture = lezgian
+		religion = sunni
+		size = 378
+	}	
+	bureaucrats = {
+		culture = avar
+		religion = sunni
+		size = 360
+	}
+	clergymen = {
+		culture = avar
+		religion = sunni
+		size = 36
+	}
+	artisans = {
+		culture = avar
+		religion = sunni
+		size = 1620
+	}
+	soldiers = {
+		culture = avar
+		religion = sunni
+		size = 198
+	}
+	farmers = {
+		culture = avar
+		religion = sunni
+		size = 10450
+	}
 	farmers = {
 		culture = avar
 		religion = sunni
@@ -4286,6 +4346,26 @@
 	clergymen = {
 		culture = ingush
 		religion = animist
+		size = 63
+	}
+	artisans = {
+		culture = ingush
+		religion = animist
+		size = 360
+	}
+	soldiers = {
+		culture = ingush
+		religion = animist
+		size = 630
+	}
+	farmers = {
+		culture = ingush
+		religion = animist
+		size = 2925
+	}
+	clergymen = {
+		culture = ingush
+		religion = animist
 		size = 22
 	}
 	artisans = {
@@ -4317,6 +4397,71 @@
 
 1054 = {
 
+	bureaucrats = {
+		culture = ossetians
+		religion = orthodox
+		size = 136
+	}
+	clergymen = {
+		culture = ossetians
+		religion = orthodox
+		size = 69
+	}
+	artisans = {
+		culture = ossetians
+		religion = orthodox
+		size = 78
+	}
+	soldiers = {
+		culture = ossetians
+		religion = orthodox
+		size = 69
+	}
+	farmers = {
+		culture = ossetians
+		religion = orthodox
+		size = 11707
+	}
+	bureaucrats = {
+		culture = ingush
+		religion = animist
+		size = 31
+	}
+	clergymen = {
+		culture = ingush
+		religion = animist
+		size = 9
+	}
+	artisans = {
+		culture = ingush
+		religion = animist
+		size = 45
+	}
+	farmers = {
+		culture = ingush
+		religion = animist
+		size = 787
+	}
+	bureaucrats = {
+		culture = ossetians
+		religion = orthodox
+		size = 67
+	}
+	clergymen = {
+		culture = ossetians
+		religion = orthodox
+		size = 13
+	}
+	artisans = {
+		culture = ossetians
+		religion = orthodox
+		size = 63
+	}
+	farmers = {
+		culture = ossetians
+		religion = orthodox
+		size = 1687
+	}
 	bureaucrats = {
 		culture = ossetians
 		religion = orthodox
@@ -4372,48 +4517,21 @@
 
 }
 3249 = {
-	farmers = {
-		culture = lak
-		religion = sunni
-		size = 540
-	}
-	farmers = {
-		culture = dargin
-		religion = sunni
-		size = 733
-	}
-	farmers = {
-		culture = lezgian
-		religion = sunni
-		size = 378
-	}	
-	bureaucrats = {
-		culture = avar
-		religion = sunni
-		size = 360
-	}
-	clergymen = {
-		culture = avar
-		religion = sunni
-		size = 36
-	}
 	artisans = {
-		culture = avar
-		religion = sunni
-		size = 1620
+		culture = chechen
+		religion = orthodox
+		size = 216
 	}
 	soldiers = {
-		culture = avar
-		religion = sunni
-		size = 198
+		culture = chechen
+		religion = animist
+		size = 1303
 	}
 	farmers = {
-		culture = avar
-		religion = sunni
-		size = 10450
+		culture = chechen
+		religion = animist
+		size = 1264
 	}
-}
-1055 = {
 	bureaucrats = {
 		culture = chechen
 		religion = sunni
@@ -4444,6 +4562,43 @@
 		religion = sunni
 		size = 4074
 	}
+	bureaucrats = {
+		culture = chechen
+		religion = animist
+		size = 148
+	}
+	clergymen = {
+		culture = chechen
+		religion = animist
+		size = 58
+	}
+	artisans = {
+		culture = chechen
+		religion = animist
+		size = 198
+	}
+	soldiers = {
+		culture = chechen
+		religion = animist
+		size = 58
+	}
+	farmers = {
+		culture = chechen
+		religion = animist
+		size = 737
+	}
+	soldiers = {
+		culture = chechen
+		religion = sunni
+		size = 1390
+	}
+	farmers = {
+		culture = chechen
+		religion = sunni
+		size = 1490
+	}
+}
+1055 = {
 	bureaucrats = {
 		culture = nogais
 		religion = sunni
@@ -4479,69 +4634,84 @@
 		religion = orthodox
 		size = 108
 	}
-	clergymen = {
-		culture = ingush
-		religion = animist
-		size = 63
-	}
-	artisans = {
-		culture = ingush
-		religion = animist
-		size = 360
-	}
-	soldiers = {
-		culture = ingush
-		religion = animist
-		size = 630
-	}
-	farmers = {
-		culture = ingush
-		religion = animist
-		size = 2925
-	}
-	artisans = {
-		culture = chechen
-		religion = orthodox
-		size = 216
-	}
-	soldiers = {
-		culture = chechen
-		religion = animist
-		size = 1303
-	}
-	farmers = {
-		culture = chechen
-		religion = animist
-		size = 1264
-	}
-	bureaucrats = {
-		culture = avar
-		religion = sunni
-		size = 90
-	}
-	clergymen = {
-		culture = avar
-		religion = sunni
-		size = 72
-	}
-	artisans = {
-		culture = avar
-		religion = sunni
-		size = 63
-	}
-	soldiers = {
-		culture = avar
-		religion = animist
-		size = 153
-	}
-	farmers = {
-		culture = avar
-		religion = animist
-		size = 450
-	}
 }
 1056 = {
 
+	bureaucrats = {
+		culture = kabard
+		religion = sunni
+		size = 13
+	}
+	clergymen = {
+		culture = kabard
+		religion = sunni
+		size = 22
+	}
+	artisans = {
+		culture = kabard
+		religion = sunni
+		size = 270
+	}
+	soldiers = {
+		culture = kabard
+		religion = sunni
+		size = 720
+	}
+	farmers = {
+		culture = kabard
+		religion = sunni
+		size = 6210
+	}
+	bureaucrats = {
+		culture = kabard
+		religion = sunni
+		size = 13
+	}
+	clergymen = {
+		culture = kabard
+		religion = sunni
+		size = 22
+	}
+	artisans = {
+		culture = kabard
+		religion = sunni
+		size = 360
+	}
+	soldiers = {
+		culture = kabard
+		religion = sunni
+		size = 585
+	}
+	farmers = {
+		culture = kabard
+		religion = sunni
+		size = 8550
+	}
+	bureaucrats = {
+		culture = kabard
+		religion = sunni
+		size = 9
+	}
+	clergymen = {
+		culture = kabard
+		religion = sunni
+		size = 27
+	}
+	artisans = {
+		culture = kabard
+		religion = sunni
+		size = 270
+	}
+	soldiers = {
+		culture = kabard
+		religion = sunni
+		size = 630
+	}
+	farmers = {
+		culture = kabard
+		religion = sunni
+		size = 11088
+	}
 	bureaucrats = {
 		culture = kabard
 		religion = sunni
@@ -4567,72 +4737,12 @@
 		religion = sunni
 		size = 15660
 	}
-	bureaucrats = {
-		culture = ingush
-		religion = animist
-		size = 31
-	}
-	clergymen = {
-		culture = ingush
-		religion = animist
-		size = 9
-	}
-	artisans = {
-		culture = ingush
-		religion = animist
-		size = 45
-	}
-	farmers = {
-		culture = ingush
-		religion = animist
-		size = 787
-	}
-	bureaucrats = {
-		culture = ossetians
-		religion = orthodox
-		size = 67
-	}
-	clergymen = {
-		culture = ossetians
-		religion = orthodox
-		size = 13
-	}
-	artisans = {
-		culture = ossetians
-		religion = orthodox
-		size = 63
-	}
-	farmers = {
-		culture = ossetians
-		religion = orthodox
-		size = 1687
-	}
 }
 1057 = {
-	bureaucrats = {
-		culture = chechen
-		religion = animist
-		size = 148
-	}
-	clergymen = {
-		culture = chechen
-		religion = animist
-		size = 58
-	}
-	artisans = {
-		culture = chechen
-		religion = animist
-		size = 198
-	}
-	soldiers = {
-		culture = chechen
-		religion = animist
-		size = 58
-	}
 	farmers = {
-		culture = chechen
-		religion = animist
-		size = 737
+		culture = nogais
+		religion = sunni
+		size = 1000
 	}
 }
 1058 = {

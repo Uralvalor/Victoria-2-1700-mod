@@ -1,4 +1,9 @@
 612 = {
+	clergymen = {
+		culture = south_german
+		religion = secularism
+		size = 5
+	}
 	aristocrats = {
 		culture = south_german
 		religion = catholic

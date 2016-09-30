@@ -1,4 +1,9 @@
 1700 = {
+	clergymen = {
+		culture = french
+		religion = secularism
+		size = 5
+	}
 	bureaucrats = {
 		culture = french
 		religion = catholic
