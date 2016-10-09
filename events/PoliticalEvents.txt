@@ -2293,6 +2293,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA4403"
 		treasury = -100
+		random_pop = { limit = { type = capitalists } money = -100 }
 		random_state = {
 			limit = {
 				NOT = {

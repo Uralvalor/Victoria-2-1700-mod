@@ -6,7 +6,7 @@ water_wheel_power = {
 
 	mine_rgo_eff = 0.05
 	farm_rgo_eff = 0.15
-	farm_rgo_size = 0.8
+	farm_rgo_size = 0.5
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -639,14 +639,14 @@ mechanized_mining = {
 	rgo_goods_output = {
 		sulphur = 0.1
 	}
-		rgo_size = { coal = 0.8 }
-		rgo_size = { sulphur = 0.8 }
-		rgo_size = { iron = 0.8 }
-		rgo_size = { precious_metal = 0.8 }
-		rgo_size = { timber = 0.8 }
-		rgo_size = { tropical_wood = 0.8 }	
-		rgo_size = { rubber = 0.8 }	
-		rgo_size = { oil = 0.8 }	
+		rgo_size = { coal = 0.5 }
+		rgo_size = { sulphur = 0.5 }
+		rgo_size = { iron = 0.5 }
+		rgo_size = { precious_metal = 0.5 }
+		rgo_size = { timber = 0.5 }
+		rgo_size = { tropical_wood = 0.5 }	
+		rgo_size = { rubber = 0.5 }	
+		rgo_size = { oil = 0.5 }	
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -1353,7 +1353,8 @@ medicine = {
 	cost = 7200
 
 	supply_limit = 0.25
-	
+	set_country_flag = medicine_invented
+
 	ai_chance = {
 		factor = 1.5
 		modifier = {
@@ -1380,6 +1381,7 @@ inorganic_chemistry = {
 	cost = 10800
 
 	supply_limit = 0.25
+	set_country_flag = organic_chemistry_invented
 	
 	ai_chance = {
 		factor = 1.1
@@ -1415,6 +1417,7 @@ organic_chemistry = {
 	cost = 14400
 
 	supply_limit = 0.25
+	set_country_flag = organic_chemistry_invented
 	
 	ai_chance = {
 		factor = 1.1
@@ -1450,6 +1453,7 @@ electricity = {
 	cost = 18000
 	
 	supply_limit = 0.50
+	set_country_flag = electricity_invented
 	ai_chance = {
 		factor = 2
 		modifier = {
@@ -1485,6 +1489,7 @@ synthetic_polymers = {
 	cost = 21600
 
 	supply_limit = 0.50
+	set_country_flag = synthetic_polymers_invented
 	ai_chance = {
 		factor = 1.1
 		modifier = {

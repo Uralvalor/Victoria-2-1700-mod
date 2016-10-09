@@ -7,6 +7,11 @@ trade_goods = grain
 life_rating = 35
 fort = 1
 state_building = {
+	level = 1
+	building = metal_money_building 
+	upgrade = yes
+}
+state_building = {
 	level = 3
 	building = clipper_shipyard
 	upgrade = yes

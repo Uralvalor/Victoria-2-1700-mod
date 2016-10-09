@@ -1,4 +1,23 @@
 
+country_event = {
+    id = 999996
+    title = "EVTNAME999998"
+    desc = "EVTDESC999998"
+    picture = "Celebration"
+    is_triggered_only = yes
+
+
+option = {
+    
+    }
+
+option = {
+        name = " All to one"
+
+         religion = orthodox
+    }
+}
+
 
 country_event = {
     id = 999997
@@ -1403,14 +1422,14 @@ country_event = {
 	picture = "hre_pic"
 		trigger = { 
 			AND = {
+					has_country_modifier = hre_member
 				NOT = { year = 1812
                                         tag = NET
                                         tag = BEL
-					has_country_flag = hre_member
 					has_country_flag = left_hre 
+					has_country_flag = hre_member 
 					has_global_flag = hre_dismantled
 					}
-				is_culture_group = germanic
 				}
 			}
 
@@ -1536,6 +1555,7 @@ country_event = {
 			militancy = 0.5
 		}
 		treasury = 50000
+		random_pop = { limit = { type = artisans } money = -50000 }
 	}
 }
 
@@ -2284,6 +2304,7 @@ country_event = {
 	    NOT = { tag = HAI }
 	    NOT = { tag = FWI }
 	    NOT = { tag = LOU }
+	    NOT = { tag = CUB }
 		war = no
 		is_independant = yes
 		capital_scope = {
@@ -2418,8 +2439,182 @@ NOT = { year = 1800 }
         }
 	}
 	
-	
 
+#French Colonial Government I
+country_event = {
+	id = 24723
+	title = "Колониальное правительство"
+	desc = "Для лучшего управления эти земли нужно передать колониальному правительству."
+	picture = "Revolution"
+
+	trigger = {
+		tag = FRA
+		LOU = {
+			vassal_of = FRA
+		}
+		any_owned_province = { continent = north_america }
+	}
+	
+	option = {
+		name = "OK"
+		any_owned = {
+			limit = {
+				continent = north_america
+			}
+			secede_province = LOU
+		}
+	}
+	
+}
+country_event = {
+	id = 24720
+	title = "Колониальное правительство"
+	desc = "Для лучшего управления эти земли нужно передать колониальному правительству."
+	picture = "Revolution"
+
+	trigger = {
+		tag = ENG
+		has_global_flag = forming_thirteen_colonies
+		OR = {
+		COA = {
+			vassal_of = ENG
+		}
+		USA = {
+			vassal_of = ENG
+		} 
+		NOT = { exists = COA }
+		 }
+		any_owned_province = { 
+				continent = north_america
+				not = { is_core = CAN }
+				not = { is_core = HAI }
+				not = { is_core = FWI }
+				not = { is_core = CUB } }
+	}
+	
+	option = {
+		name = "OK"
+		any_owned = {
+			limit = {
+				
+				continent = north_america
+				not = { is_core = CAN }
+				not = { is_core = HAI }
+				not = { is_core = FWI }
+				not = { is_core = CUB }
+			}
+			secede_province = COA
+		}
+	}
+	
+}
+
+# Джунгары сдулись
+country_event = {
+
+	id = 88320
+
+
+	trigger =	{
+	tag = OIR
+	NOT = {
+			land_reform = nomads
+		}
+	not = { has_country_flag = OIR_fail }
+	NOT = {	pop_majority_culture = kalmyk }
+	is_greater_power = no
+	}
+	mean_time_to_happen = {
+		days = 180
+	}
+
+	title = "EVENT88320T"
+	desc = "EVENT88320D"
+	picture = "Monarchy"
+
+	option = {
+		name = "EVENT88320O"
+					 OIR = { country_event = 143333 }
+					 set_country_flag = OIR_fail
+	}
+}
+country_event = {
+	id = 96101
+	title = EVTNAME96101
+	desc = EVTDESC96101
+
+	trigger = {
+		ai = yes
+		war = yes
+		NOT = { has_country_flag = calling_all_allies }
+		OR = {
+			AND = {
+				is_greater_power = yes
+					has_country_modifier = hre_member
+			}
+			AND = { 
+				has_country_modifier = hre_member
+				any_greater_power = { 
+					NOT = { war_with = THIS }
+					has_country_modifier = hre_member
+				}
+			}			
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
+
+	option = {
+		name = EVTOPTA96101
+		set_country_flag = calling_all_allies # remove flag on peace 96002
+		any_country = {
+			limit = { 
+				AND = { THIS = { has_country_modifier = hre_member } has_country_modifier = hre_member }
+			}
+			create_alliance = THIS
+		}
+		random_country = {
+			limit = {
+				is_greater_power = yes
+				AND = { THIS = { has_country_modifier = hre_member } has_country_modifier = hre_member }
+				war = no
+			}
+			THIS = {
+				war = {
+					# TODO target required by the validator but defaults to REB
+					target = REB
+					attacker_goal = {
+						casus_belli = call_allies_cb
+					}
+					call_ally = yes
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 196002
+	title = EVTNAME196002
+	desc = EVTDESC196002
+
+	trigger = {
+		ai = yes
+		war = no
+		has_country_flag = calling_all_allies
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = EVTOPTA196002
+		clr_country_flag = calling_all_allies
+	}
+}
  province_event = {
 	id = 11109
 	title = "eventname11109"

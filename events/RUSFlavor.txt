@@ -4610,6 +4610,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA95491"
 		money = -30000
+		random_pop = { limit = { type = capitalists } money = 30000 }
 		relation = { who = USA value = -50 }
 		diplomatic_influence = { who = HAW value = 50 }
 		set_country_flag = russian_fort_in_hawaii

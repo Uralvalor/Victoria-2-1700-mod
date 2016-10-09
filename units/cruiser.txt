@@ -23,10 +23,10 @@ cruiser = {
 	#Building Costs
 	build_time = 240
 	build_cost = {
-		steamer_convoy = 30
-		artillery = 6
-		canned_food = 4
-		fuel = 10
+		steamer_convoy = 3
+		artillery = .6
+		canned_food = .4
+		fuel = 1
 	}
 	min_port_level = 4
 	limit_per_port = -1
@@ -34,10 +34,10 @@ cruiser = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 0.16
-		artillery = 0.1
-		canned_food = 0.2
-		fuel = 1.0
+		steamer_convoy = 0.016
+		artillery = 0.01
+		canned_food = 0.02
+		fuel = .1
 	}
 	
 	#Naval Abilties

@@ -373,6 +373,7 @@ country_event = {
 		name = "EVTOPTA36611" 
 		fort = 1
 		treasury = -500
+		random_pop = { limit = { type = capitalists } money = 500 }
 	}
 }
 

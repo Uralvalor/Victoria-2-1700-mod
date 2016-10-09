@@ -1,4 +1,4 @@
-capital = 3252
+capital = 1056
 primary_culture = kabard
 religion = secularism
 government = democracy
@@ -24,7 +24,7 @@ minorities = oppression
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
-health_care = good_health_care 
+health_care = low_health_care 
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
 pollution = no_controls
@@ -43,5 +43,6 @@ upper_house = {
 	communist = 0
 }
 
+oob = "NCI_oob.txt"
 # Technologies
  

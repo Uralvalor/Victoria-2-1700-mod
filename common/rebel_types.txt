@@ -24,12 +24,12 @@ reactionary_rebels = {
 		presidential_dictatorship = absolute_monarchy
 		bourgeois_dictatorship = presidential_dictatorship
 		fascist_dictatorship = presidential_dictatorship
-		absolute_monarchy = presidential_dictatorship
+		absolute_monarchy = absolute_monarchy
 		prussian_constitutionalism = absolute_monarchy
 		hms_government = absolute_monarchy
 		democracy = presidential_dictatorship
 		military_clique = military_clique
-		theocracy_government = theocracy_government
+		theocracy_government = absolute_monarchy
 		occupation_zone = occupation_zone
 	}
 	

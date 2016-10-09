@@ -44,6 +44,7 @@ political_decisions = {
 
 		effect = {
 			treasury = 25000
+		random_pop = { limit = { type = clergymen } money = -25000 }
 			prestige = 10
 			relation = {
 				who = PAP

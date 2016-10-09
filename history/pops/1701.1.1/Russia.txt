@@ -1297,6 +1297,31 @@
 }
 994 = {
 	bureaucrats = {
+		culture = finnish
+		religion = protestant
+		size = 2
+	}
+	clergymen = {
+		culture = finnish
+		religion = protestant
+		size = 198
+	}
+	artisans = {
+		culture = finnish
+		religion = protestant
+		size = 335
+	}
+	soldiers = {
+		culture = finnish
+		religion = protestant
+		size = 479
+	}
+	farmers = {
+		culture = finnish
+		religion = protestant
+		size = 7300
+	}
+	bureaucrats = {
 		culture = north_german
 		religion = protestant
 		size = 86
@@ -1392,30 +1417,15 @@
 	}
 }
 997 = {
-	bureaucrats = {
-		culture = finnish
-		religion = protestant
-		size = 2
-	}
-	clergymen = {
-		culture = finnish
-		religion = protestant
-		size = 198
-	}
-	artisans = {
-		culture = finnish
-		religion = protestant
-		size = 335
-	}
-	soldiers = {
-		culture = finnish
-		religion = protestant
-		size = 479
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 10000
 	}
 	farmers = {
 		culture = finnish
 		religion = protestant
-		size = 8396
+		size = 1000
 	}
 }
 2580 = {
@@ -1753,7 +1763,7 @@
 	bureaucrats = {
 		culture = russian
 		religion = orthodox
-		size = 1151
+		size = 151
 	}
 	clergymen = {
 		culture = russian
@@ -1768,12 +1778,12 @@
 	soldiers = {
 		culture = russian
 		religion = orthodox
-		size = 1091
+		size = 3091
 	}
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 38833
+		size = 27833
 	}
 	farmers = {
 		culture = latvian
@@ -3438,6 +3448,11 @@
 	}
 }
 1043 = {
+	farmers = {
+		culture = nogais
+		religion = sunni
+		size = 3000
+	}
 	clergymen = {
 		culture = russian
 		religion = protestant
@@ -4420,7 +4435,7 @@
 	farmers = {
 		culture = ossetians
 		religion = orthodox
-		size = 11707
+		size = 9707
 	}
 	bureaucrats = {
 		culture = ingush

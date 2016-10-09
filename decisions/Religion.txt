@@ -1,0 +1,632 @@
+political_decisions = {
+
+	cr_orth = {
+	  picture = chernogor_zakonnik
+	  alert = yes 
+	 potential = { 
+            	OR = { 
+				gov_religion = orthodox
+				 AND = {
+		government = absolute_monarchy
+		NOT = { has_country_modifier = ch_rel }
+		pop_majority_religion = orthodox	}
+		}
+			   }
+	    allow = { 
+ 		NOT = { has_country_flag = orthodox }
+        		}
+		
+		effect = {
+		add_country_modifier = {
+			name = "ch_rel"
+			duration = 18250
+		        }
+		        set_country_flag = orthodox
+			clr_country_flag = secularism
+			clr_country_flag = catholic 
+			clr_country_flag = protestant
+			clr_country_flag = coptic 
+			clr_country_flag = sunni
+			clr_country_flag = shiite 
+			clr_country_flag = jewish
+			clr_country_flag = mahayana 
+			clr_country_flag = gelugpa
+			clr_country_flag = theravada 
+			clr_country_flag = hindu
+			clr_country_flag = shinto 
+			clr_country_flag = sikh
+			clr_country_flag = animist 
+		           prestige = -2 
+		           religion = orthodox
+				   }
+				   ai_will_do = { factor = 1 }
+   }
+	cr_sec = {
+	  picture = chernogor_zakonnik
+	  alert = yes 
+	 potential = { 
+            	OR = { 
+				gov_religion = secularism
+				 AND = {
+		NOT = { has_country_modifier = ch_rel }
+		government = absolute_monarchy
+		pop_majority_religion = secularism	} 
+		}
+			   }
+	    allow = {
+ 		NOT = { has_country_flag = secularism }
+        		}
+		
+		effect = {
+		add_country_modifier = {
+			name = "ch_rel"
+			duration = 18250
+		        }
+		        clr_country_flag = orthodox
+			set_country_flag = secularism
+			clr_country_flag = catholic 
+			clr_country_flag = protestant
+			clr_country_flag = coptic 
+			clr_country_flag = sunni
+			clr_country_flag = shiite 
+			clr_country_flag = jewish
+			clr_country_flag = mahayana 
+			clr_country_flag = gelugpa
+			clr_country_flag = theravada 
+			clr_country_flag = hindu
+			clr_country_flag = shinto 
+			clr_country_flag = sikh
+			clr_country_flag = animist 
+		           prestige = -2 
+		           religion = secularism
+				   }
+				   ai_will_do = { factor = 1 }
+   }
+	
+	cr_cat = {
+	  picture = chernogor_zakonnik
+	  alert = yes 
+	 potential = { 
+            	OR = { 
+				gov_religion = catholic
+				 AND = {
+		NOT = { has_country_modifier = ch_rel }
+		government = absolute_monarchy
+		pop_majority_religion = catholic	} 
+		}
+			   }
+	    allow = { 
+ 		NOT = { has_country_flag = catholic }
+        		}
+		
+		effect = {
+		add_country_modifier = {
+			name = "ch_rel"
+			duration = 18250
+		        }
+		        clr_country_flag = orthodox
+			clr_country_flag = secularism
+			set_country_flag = catholic 
+			clr_country_flag = protestant
+			clr_country_flag = coptic 
+			clr_country_flag = sunni
+			clr_country_flag = shiite 
+			clr_country_flag = jewish
+			clr_country_flag = mahayana 
+			clr_country_flag = gelugpa
+			clr_country_flag = theravada 
+			clr_country_flag = hindu
+			clr_country_flag = shinto 
+			clr_country_flag = sikh
+			clr_country_flag = animist 
+		           prestige = -2 
+		           religion = catholic
+				   }
+				   ai_will_do = { factor = 1 }
+   }
+	
+	cr_pro = {
+	  picture = chernogor_zakonnik
+	  alert = yes 
+	 potential = { 
+            	OR = { 
+				gov_religion = protestant
+				 AND = {
+		NOT = { has_country_modifier = ch_rel }
+		government = absolute_monarchy
+		pop_majority_religion = protestant	} 
+		}
+			   }
+	    allow = { 
+ 		NOT = { has_country_flag = protestant }
+        		}
+		
+		effect = {
+		add_country_modifier = {
+			name = "ch_rel"
+			duration = 18250
+		        }
+		        clr_country_flag = orthodox
+			clr_country_flag = secularism
+			clr_country_flag = catholic 
+			set_country_flag = protestant
+			clr_country_flag = coptic 
+			clr_country_flag = sunni
+			clr_country_flag = shiite 
+			clr_country_flag = jewish
+			clr_country_flag = mahayana 
+			clr_country_flag = gelugpa
+			clr_country_flag = theravada 
+			clr_country_flag = hindu
+			clr_country_flag = shinto 
+			clr_country_flag = sikh
+			clr_country_flag = animist 
+		           prestige = -2 
+		           religion = protestant
+				   }
+				   ai_will_do = { factor = 1 }
+   }
+	
+	cr_cop = {
+	  picture = chernogor_zakonnik
+	  alert = yes 
+	 potential = { 
+            	OR = { 
+				gov_religion = coptic
+				 AND = {
+		NOT = { has_country_modifier = ch_rel }
+		government = absolute_monarchy
+		pop_majority_religion = coptic	} 
+		}
+			   }
+	    allow = { 
+ 		NOT = { has_country_flag = coptic }
+        		}
+		
+		effect = {
+		add_country_modifier = {
+			name = "ch_rel"
+			duration = 18250
+		        }
+		        clr_country_flag = orthodox
+			clr_country_flag = secularism
+			clr_country_flag = catholic 
+			clr_country_flag = protestant
+			set_country_flag = coptic 
+			clr_country_flag = sunni
+			clr_country_flag = shiite 
+			clr_country_flag = jewish
+			clr_country_flag = mahayana 
+			clr_country_flag = gelugpa
+			clr_country_flag = theravada 
+			clr_country_flag = hindu
+			clr_country_flag = shinto 
+			clr_country_flag = sikh
+			clr_country_flag = animist 
+		           prestige = -2 
+		           religion = coptic
+				   }
+				   ai_will_do = { factor = 1 }
+   }
+	
+	cr_sun = {
+	  picture = chernogor_zakonnik
+	  alert = yes 
+	 potential = { 
+            	OR = { 
+				gov_religion = sunni
+				 AND = {
+		NOT = { has_country_modifier = ch_rel }
+		government = absolute_monarchy
+		pop_majority_religion = sunni	} 
+		}
+			   }
+	    allow = { 
+ 		NOT = { has_country_flag = sunni }
+        		}
+		
+		effect = {
+		add_country_modifier = {
+			name = "ch_rel"
+			duration = 18250
+		        }
+		        clr_country_flag = orthodox
+			clr_country_flag = secularism
+			clr_country_flag = catholic 
+			clr_country_flag = protestant
+			clr_country_flag = coptic 
+			set_country_flag = sunni
+			clr_country_flag = shiite 
+			clr_country_flag = jewish
+			clr_country_flag = mahayana 
+			clr_country_flag = gelugpa
+			clr_country_flag = theravada 
+			clr_country_flag = hindu
+			clr_country_flag = shinto 
+			clr_country_flag = sikh
+			clr_country_flag = animist 
+		           prestige = -2 
+		           religion = sunni
+				   }
+				   ai_will_do = { factor = 1 }
+   }
+	
+	cr_shi = {
+	  picture = chernogor_zakonnik
+	  alert = yes 
+	 potential = { 
+            	OR = { 
+				gov_religion = shiite
+				 AND = {
+		NOT = { has_country_modifier = ch_rel }
+		government = absolute_monarchy
+		pop_majority_religion = shiite	} 
+		}
+			   }
+	    allow = { 
+ 		NOT = { has_country_flag = shiite }
+        		}
+		
+		effect = {
+		add_country_modifier = {
+			name = "ch_rel"
+			duration = 18250
+		        }
+		        clr_country_flag = orthodox
+			clr_country_flag = secularism
+			clr_country_flag = catholic 
+			clr_country_flag = protestant
+			clr_country_flag = coptic 
+			clr_country_flag = sunni
+			set_country_flag = shiite 
+			clr_country_flag = jewish
+			clr_country_flag = mahayana 
+			clr_country_flag = gelugpa
+			clr_country_flag = theravada 
+			clr_country_flag = hindu
+			clr_country_flag = shinto 
+			clr_country_flag = sikh
+			clr_country_flag = animist 
+		           prestige = -2 
+		           religion = shiite
+				   }
+				   ai_will_do = { factor = 1 }
+   }
+	
+	cr_jew = {
+	  picture = chernogor_zakonnik
+	  alert = yes 
+	 potential = { 
+            	OR = { 
+				gov_religion = jewish
+				 AND = {
+		NOT = { has_country_modifier = ch_rel }
+		government = absolute_monarchy
+		pop_majority_religion = jewish	} 
+		}
+			   }
+	    allow = { 
+ 		NOT = { has_country_flag = jewish }
+        		}
+		
+		effect = {
+		add_country_modifier = {
+			name = "ch_rel"
+			duration = 18250
+		        }
+		        clr_country_flag = orthodox
+			clr_country_flag = secularism
+			clr_country_flag = catholic 
+			clr_country_flag = protestant
+			clr_country_flag = coptic 
+			clr_country_flag = sunni
+			clr_country_flag = shiite 
+			set_country_flag = jewish
+			clr_country_flag = mahayana 
+			clr_country_flag = gelugpa
+			clr_country_flag = theravada 
+			clr_country_flag = hindu
+			clr_country_flag = shinto 
+			clr_country_flag = sikh
+			clr_country_flag = animist 
+		           prestige = -2 
+		           religion = jewish
+				   }
+				   ai_will_do = { factor = 1 }
+   }
+	
+	cr_mah = {
+	  picture = chernogor_zakonnik
+	  alert = yes 
+	 potential = { 
+            	OR = { 
+				gov_religion = mahayana
+				 AND = {
+		NOT = { has_country_modifier = ch_rel }
+		government = absolute_monarchy
+		pop_majority_religion = mahayana	} 
+		}
+			   }
+	    allow = { 
+ 		NOT = { has_country_flag = mahayana }
+        		}
+		
+		effect = {
+		add_country_modifier = {
+			name = "ch_rel"
+			duration = 18250
+		        }
+		        clr_country_flag = orthodox
+			clr_country_flag = secularism
+			clr_country_flag = catholic 
+			clr_country_flag = protestant
+			clr_country_flag = coptic 
+			clr_country_flag = sunni
+			clr_country_flag = shiite 
+			clr_country_flag = jewish
+			set_country_flag = mahayana 
+			clr_country_flag = gelugpa
+			clr_country_flag = theravada 
+			clr_country_flag = hindu
+			clr_country_flag = shinto 
+			clr_country_flag = sikh
+			clr_country_flag = animist 
+		           prestige = -2 
+		           religion = mahayana
+				   }
+				   ai_will_do = { factor = 1 }
+   }
+	
+	cr_gel = {
+	  picture = chernogor_zakonnik
+	  alert = yes 
+	 potential = { 
+            	OR = { 
+				gov_religion = gelugpa
+				 AND = {
+		NOT = { has_country_modifier = ch_rel }
+		government = absolute_monarchy
+		pop_majority_religion = gelugpa	} 
+		}
+			   }
+	    allow = { 
+ 		NOT = { has_country_flag = gelugpa }
+        		}
+		
+		effect = {
+		add_country_modifier = {
+			name = "ch_rel"
+			duration = 18250
+		        }
+		        clr_country_flag = orthodox
+			clr_country_flag = secularism
+			clr_country_flag = catholic 
+			clr_country_flag = protestant
+			clr_country_flag = coptic 
+			clr_country_flag = sunni
+			clr_country_flag = shiite 
+			clr_country_flag = jewish
+			clr_country_flag = mahayana 
+			set_country_flag = gelugpa
+			clr_country_flag = theravada 
+			clr_country_flag = hindu
+			clr_country_flag = shinto 
+			clr_country_flag = sikh
+			clr_country_flag = animist 
+		           prestige = -2 
+		           religion = gelugpa
+				   }
+				   ai_will_do = { factor = 1 }
+   }
+	
+	cr_the = {
+	  picture = chernogor_zakonnik
+	  alert = yes 
+	 potential = { 
+            	OR = { 
+				gov_religion = theravada
+				 AND = {
+		NOT = { has_country_modifier = ch_rel }
+		government = absolute_monarchy
+		pop_majority_religion = theravada	} 
+		}
+			   }
+	    allow = { 
+ 		NOT = { has_country_flag = theravada }
+        		}
+		
+		effect = {
+		add_country_modifier = {
+			name = "ch_rel"
+			duration = 18250
+		        }
+		        clr_country_flag = orthodox
+			clr_country_flag = secularism
+			clr_country_flag = catholic 
+			clr_country_flag = protestant
+			clr_country_flag = coptic 
+			clr_country_flag = sunni
+			clr_country_flag = shiite 
+			clr_country_flag = jewish
+			clr_country_flag = mahayana 
+			clr_country_flag = gelugpa
+			set_country_flag = theravada 
+			clr_country_flag = hindu
+			clr_country_flag = shinto 
+			clr_country_flag = sikh
+			clr_country_flag = animist 
+		           prestige = -2 
+		           religion = theravada
+				   }
+				   ai_will_do = { factor = 1 }
+   }
+	
+	cr_hin = {
+	  picture = chernogor_zakonnik
+	  alert = yes 
+	 potential = { 
+            	OR = { 
+				gov_religion = hindu
+				 AND = {
+		NOT = { has_country_modifier = ch_rel }
+		government = absolute_monarchy
+		pop_majority_religion = hindu	} 
+		}
+			   }
+	    allow = { 
+ 		NOT = { has_country_flag = hindu }
+        		}
+		
+		effect = {
+		add_country_modifier = {
+			name = "ch_rel"
+			duration = 18250
+		        }
+		    clr_country_flag = orthodox
+			clr_country_flag = secularism
+			clr_country_flag = catholic 
+			clr_country_flag = protestant
+			clr_country_flag = coptic 
+			clr_country_flag = sunni
+			clr_country_flag = shiite 
+			clr_country_flag = jewish
+			clr_country_flag = mahayana 
+			clr_country_flag = gelugpa
+			clr_country_flag = theravada 
+			set_country_flag = hindu
+			clr_country_flag = shinto 
+			clr_country_flag = sikh
+			clr_country_flag = animist 
+		           prestige = -2 
+		           religion = hindu
+				   }
+				   ai_will_do = { factor = 1 }
+   }
+	
+	cr_shin = {
+	  picture = chernogor_zakonnik
+	  alert = yes 
+	 potential = { 
+            	OR = { 
+				gov_religion = shinto
+				 AND = {
+		NOT = { has_country_modifier = ch_rel }
+		government = absolute_monarchy
+		pop_majority_religion = shinto	} 
+		}
+			   }
+	    allow = { 
+ 		NOT = { has_country_flag = shinto }
+        		}
+		
+		effect = {
+		
+		add_country_modifier = {
+			name = "ch_rel"
+			duration = 18250
+		        }
+		    clr_country_flag = orthodox
+			clr_country_flag = secularism
+			clr_country_flag = catholic 
+			clr_country_flag = protestant
+			clr_country_flag = coptic 
+			clr_country_flag = sunni
+			clr_country_flag = shiite 
+			clr_country_flag = jewish
+			clr_country_flag = mahayana 
+			clr_country_flag = gelugpa
+			clr_country_flag = theravada 
+			clr_country_flag = hindu
+			set_country_flag = shinto 
+			clr_country_flag = sikh
+			clr_country_flag = animist 
+		           prestige = -2 
+		           religion = shinto
+				   }
+				   ai_will_do = { factor = 1 }
+   }
+	
+	cr_sik = {
+	  picture = chernogor_zakonnik
+	  alert = yes 
+	 potential = { 
+            	OR = { 
+				gov_religion = sikh
+				 AND = {
+		NOT = { has_country_modifier = ch_rel }
+		government = absolute_monarchy
+		pop_majority_religion = sikh	} 
+		}
+			   }
+	    allow = { 
+ 		NOT = { has_country_flag = sikh }
+        		}
+		
+		effect = {
+		add_country_modifier = {
+			name = "ch_rel"
+			duration = 18250
+		        }
+		    clr_country_flag = orthodox
+			clr_country_flag = secularism
+			clr_country_flag = catholic 
+			clr_country_flag = protestant
+			clr_country_flag = coptic 
+			clr_country_flag = sunni
+			clr_country_flag = shiite 
+			clr_country_flag = jewish
+			clr_country_flag = mahayana 
+			clr_country_flag = gelugpa
+			clr_country_flag = theravada 
+			clr_country_flag = hindu
+			clr_country_flag = shinto 
+			set_country_flag = sikh
+			clr_country_flag = animist 
+		           prestige = -2 
+		           religion = sikh
+				   }
+				   ai_will_do = { factor = 1 }
+   }
+	cr_ani = {
+	  picture = chernogor_zakonnik
+	  alert = yes 
+	 potential = { 
+            	OR = { 
+				gov_religion = animist
+				 AND = {
+		NOT = { has_country_modifier = ch_rel }
+		government = absolute_monarchy
+		pop_majority_religion = animist	} 
+		}
+			   }
+	    allow = { 
+ 		NOT = { has_country_flag = animist }
+        		}
+		
+		effect = {
+		add_country_modifier = {
+			name = "ch_rel"
+			duration = 18250
+		        }
+		    clr_country_flag = orthodox
+			clr_country_flag = secularism
+			clr_country_flag = catholic 
+			clr_country_flag = protestant
+			clr_country_flag = coptic 
+			clr_country_flag = sunni
+			clr_country_flag = shiite 
+			clr_country_flag = jewish
+			clr_country_flag = mahayana 
+			clr_country_flag = gelugpa
+			clr_country_flag = theravada 
+			clr_country_flag = hindu
+			clr_country_flag = shinto 
+			clr_country_flag = sikh
+			set_country_flag = animist 
+		           prestige = -2 
+		           religion = animist
+				   }
+				   ai_will_do = { factor = 1 }
+   }
+   
+}

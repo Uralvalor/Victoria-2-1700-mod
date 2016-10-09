@@ -18,19 +18,19 @@ guliaigorod = {
 	#Building Costs
 	build_time = 400
 	build_cost = {
-		lumber = 50
-		explosives = 10
-		small_arms = 15
-		artillery = 20
-		canned_food = 10
+		lumber = 5
+		explosives = 1
+		small_arms = 1.5
+		artillery = 2
+		canned_food = 1
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		artillery = 0.1
-		ammunition = 0.075 #0
-		canned_food = 0.1 #0.04
-		lumber = 0.2
+		artillery = 0.01
+		ammunition = 0.0075 #0
+		canned_food = 0.01 #0.04
+		lumber = 0.02
 	}
 	
 

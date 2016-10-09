@@ -1,0 +1,62 @@
+army = {
+	name = "Кабардинская армия"
+	location = 1051
+	regiment = {
+		name= "Travis' Command"
+		type = infantry
+
+		home = 1051
+	}
+
+	regiment = {
+		name= "Fannin's Command"
+		type = infantry
+
+		home = 1051
+	}
+
+	regiment = {
+		name= "Travis' Command"
+		type = infantry
+
+		home = 1051
+	}
+
+	regiment = {
+		name= "Fannin's Command"
+		type = infantry
+
+		home = 1051
+	}
+
+	regiment = {
+		name= "Fannin's Command"
+		type = cavalry
+		home = 1051
+	}
+
+	regiment = {
+		name= "Travis' Command"
+		type = cavalry
+		home = 1051
+	}
+
+	regiment = {
+		name= "Fannin's Command"
+		type = cavalry
+		home = 1051
+	}
+	
+	regiment = {
+		name = "Burleson's Command"
+		type = cavalry
+		home = 1051
+	}
+
+	regiment = {
+		name = "Burleson's Command"
+		type = cavalry
+		home = 1051
+	}
+	
+}

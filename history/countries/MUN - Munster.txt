@@ -1,7 +1,7 @@
 capital = 581
 primary_culture = north_german
 culture = south_german
-religion = secularism
+religion = protestant 
 government = theocracy_government
 plurality = 0.0
 nationalvalue = nv_order
@@ -36,7 +36,7 @@ school_reforms = no_schools
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
-health_care = acceptable_health_care 
+health_care = low_health_care 
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
 

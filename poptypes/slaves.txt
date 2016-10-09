@@ -19,17 +19,17 @@ rebel =
 
 
 everyday_needs = {
-	cattle = 0.15
-	grain =  0.5
-	coal = 1
-	tea = 1
+	cattle = .015
+	grain =  .05
+	coal = .1
+	tea = .1
 }
 
 luxury_needs = {
-	regular_clothes = 2
-	opium = 1
-	tobacco = 0.95
-	liquor = 0.5
+	regular_clothes = .2
+	opium = .1
+	tobacco = .095
+	liquor = .05
 }
 
 ideologies = {

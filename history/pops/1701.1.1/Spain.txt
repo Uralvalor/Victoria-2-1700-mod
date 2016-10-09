@@ -435,6 +435,11 @@
 	}
 }
 487 = {
+	clerks = {
+		culture = spanish
+		religion = secularism 
+		size = 100
+	}
 	aristocrats = {
 		culture = spanish
 		religion = catholic

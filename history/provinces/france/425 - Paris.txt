@@ -5,6 +5,11 @@ terrain = city_425
 trade_goods = grain
 fort = 1
 life_rating = 35
+state_building = {
+	level = 1
+	building = metal_money_building 
+	upgrade = yes
+}
 	state_building = {
 		level = 1
 		building = glass_factory

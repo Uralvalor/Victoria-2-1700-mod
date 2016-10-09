@@ -79,8 +79,6 @@ raw_material_goods = {
 	}
 	precious_metal = { 
 		cost = 2
-		tradeable = no
-		money = yes	
 		color = { 253 199 110 }
 	}
 }
@@ -220,5 +218,14 @@ consumer_goods = {
 		cost = 16.00 
 		available_from_start = no
 		color = { 129 63 6 }
+	}
+	jewellery = {
+		cost = 1.6
+		color = { 253 199 110 }
+	}
+	credit = {
+		cost = 1.0
+		color = { 61 167 64 }
+		money = yes
 	}
 }

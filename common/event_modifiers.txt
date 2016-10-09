@@ -1655,3 +1655,26 @@ new_world = {
 	global_immigrant_attract = 0.1
 	icon = 1
 }
+### Neutrality ###
+neutrality = {
+	max_military_spending = -0.20
+	leadership_modifier = -0.7
+	diplomatic_points_modifier = -0.3
+	prestige = -0.025
+	icon = 7
+}
+
+hre_member = {
+	icon = 17
+    local_ruling_party_support = 0.1
+}
+
+leave_HRE = {
+	icon = 18
+    local_ruling_party_support = -0.1
+}
+
+ch_rel = {
+	icon = 17
+    local_ruling_party_support = 0.1
+}

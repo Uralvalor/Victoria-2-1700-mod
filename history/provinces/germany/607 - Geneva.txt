@@ -4,5 +4,10 @@ add_core = SWI
 trade_goods = grain
 life_rating = 35
 terrain = hilly_farmland
+state_building = {
+	level = 1
+	building = jewellery_factory 
+	upgrade = yes
+}
 1861.1.1 = { railroad = 1 }
 1914.1.1 = { railroad = 3 }

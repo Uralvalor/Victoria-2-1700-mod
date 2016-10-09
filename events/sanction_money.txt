@@ -8,11 +8,6 @@ country_event = {
 
 option = {
         name = "Sanction"
-		FROM = { diplomatic_influence = {
-			who = THIS
-			value = -400
-		}
-		}
     	add_country_modifier = {
 			name = sanction_1
 			duration = 730 
@@ -29,11 +24,6 @@ country_event = {
 
 option = {
         name = "Sanction"
-		FROM = { diplomatic_influence = {
-			who = THIS
-			value = -400
-		}
-		}
     	add_country_modifier = {
 			name = sanction_2
 			duration = 730 
@@ -50,11 +40,6 @@ country_event = {
 
 option = {
         name = "Sanction"
-		FROM = { diplomatic_influence = {
-			who = THIS
-			value = -400
-		}
-		}
     	add_country_modifier = {
 			name = sanction_3
 			duration = 730 
@@ -71,11 +56,6 @@ country_event = {
 
 option = {
         name = "Sanction"
-		FROM = { diplomatic_influence = {
-			who = THIS
-			value = -400
-		}
-		}
     	add_country_modifier = {
 			name = sanction_4
 			duration = 730 
@@ -92,11 +72,6 @@ country_event = {
 
 option = {
         name = "Sanction"
-		FROM = { diplomatic_influence = {
-			who = THIS
-			value = -400
-		}
-		}
     	add_country_modifier = {
 			name = sanction_5
 			duration = 730 
@@ -113,11 +88,6 @@ country_event = {
 
 option = {
         name = "Sanction"
-		FROM = { diplomatic_influence = {
-			who = THIS
-			value = -400
-		}
-		}
     	add_country_modifier = {
 			name = sanction_6
 			duration = 730 
@@ -134,11 +104,6 @@ country_event = {
 
 option = {
         name = "Sanction"
-		FROM = { diplomatic_influence = {
-			who = THIS
-			value = -400
-		}
-		}
     	add_country_modifier = {
 			name = sanction_7
 			duration = 730 
@@ -155,11 +120,6 @@ country_event = {
 
 option = {
         name = "Sanction"
-		FROM = { diplomatic_influence = {
-			who = THIS
-			value = -400
-		}
-		}
     	add_country_modifier = {
 			name = sanction_8
 			duration = 730 

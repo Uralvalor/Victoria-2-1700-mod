@@ -12,6 +12,7 @@ political_decisions = {
 		}
 		effect = {
 		treasury = -5000	
+		random_pop = { limit = { type = capitalists } money = 5000 }
 		set_global_flag = kiel_canal_global
 		set_global_flag = building_kiel_canal_phase0
 		add_country_modifier = {
@@ -36,6 +37,7 @@ political_decisions = {
 		}
 		effect = {
 		treasury = -25000	
+		random_pop = { limit = { type = capitalists } money = 25000 }
 		set_global_flag = suez_canal_global
 		set_global_flag = building_suez_canal_phase0
 		add_country_modifier = {
@@ -62,6 +64,7 @@ political_decisions = {
 		}
 		effect = {
 		treasury = -100000	
+		random_pop = { limit = { type = capitalists } money = 100000 }
 		set_global_flag = panama_canal_global
 		add_country_modifier = {
 		name = building_panama_canal

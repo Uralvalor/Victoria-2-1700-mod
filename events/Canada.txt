@@ -29,6 +29,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA99800" 
 		money = -5000
+		random_pop = { limit = { type = capitalists } money = 50000 }
 		set_country_flag = canada_yukon_expedition
 	}
 	option = {

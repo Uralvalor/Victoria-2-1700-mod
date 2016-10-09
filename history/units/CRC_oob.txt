@@ -1,44 +1,44 @@
 army = {
 	name = "Черкесская армия"
-	location = 1051
+	location = 3255
 	regiment = {
 		name= "Travis' Command"
 		type = infantry
 
-		home = 1051
+		home = 3255
 	}
 
 	regiment = {
 		name= "Fannin's Command"
 		type = infantry
 
-		home = 1051
+		home = 3255
 	}
 
 	regiment = {
 		name= "Travis' Command"
 		type = infantry
 
-		home = 1051
+		home = 3255
 	}
 
 	regiment = {
 		name= "Fannin's Command"
 		type = infantry
 
-		home = 3257
+		home = 3255
 	}
 
 	regiment = {
 		name= "Fannin's Command"
 		type = cavalry
-		home = 3257
+		home = 3255
 	}
 
 	regiment = {
 		name= "Travis' Command"
 		type = cavalry
-		home = 3257
+		home = 3255
 	}
 
 	regiment = {

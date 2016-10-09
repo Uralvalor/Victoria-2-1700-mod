@@ -78,6 +78,7 @@ political_decisions = {
 		
 		effect = {
 			treasury = -1000
+		random_pop = { limit = { type = capitalists } money = 1000 }
 			add_country_modifier = {
 				name = central_bank_established
 				duration = -1

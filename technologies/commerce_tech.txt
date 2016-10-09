@@ -237,6 +237,10 @@ no_standard = {
 	cost = 4200
 
 	administrative_efficiency = 0.05
+	activate_building = jewellery_factory
+	factory_goods_output = {
+			credit = 0.01 
+		}
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -251,10 +255,11 @@ no_standard = {
 }
 bimetallism = {
 	area = monetary_system
-	year = 1816
+	year = 1710
 	cost = 4400
 
 	administrative_efficiency = 0.05
+	activate_building = metal_money_building
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -269,10 +274,14 @@ bimetallism = {
 }
 ad_hoc_money_bill_printing = {
 	area = monetary_system
-	year = 1836
+	year = 1810
 	cost = 7200
 	
 	administrative_efficiency = 0.05
+	set_country_flag = ad_hoc_money_bill_printing_invented
+	factory_goods_output = {
+			credit = 0.01 
+		}
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -303,6 +312,8 @@ private_bank_money_bill_printing = {
 	cost = 10800
 
 	administrative_efficiency = 0.05
+	activate_building = paper_money_building
+	set_country_flag = private_bank_money_bill_printing_invented
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -325,6 +336,10 @@ central_bank_money_bill_printing = {
 	cost = 14400
 
 	administrative_efficiency = 0.05
+	set_country_flag = central_bank_money_bill_printing_invented
+	factory_goods_output = {
+			credit = 0.01 
+		}
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -347,6 +362,9 @@ modern_central_bank_system = {
 	cost = 18000
 
 	administrative_efficiency = 0.05
+	factory_goods_output = {
+			credit = 0.01 
+		}
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -378,6 +396,9 @@ market_determined_exchange_rates = {
 
 
 	administrative_efficiency = 0.05
+	factory_goods_output = {
+			credit = 0.01 
+		}
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -401,6 +422,8 @@ bretton_woods_system = {
 
 
 	administrative_efficiency = 0.05
+	activate_building = credit_money_building
+	set_country_flag = bretton_woods_system_invented
 	ai_chance = {
 		factor = 1.1
 		modifier = {

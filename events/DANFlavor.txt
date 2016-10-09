@@ -271,6 +271,7 @@ country_event = {
 		name = "EVTOPTA36204" 
 		set_country_flag = WestIndiesRevolt
 		money = -500
+		random_pop = { limit = { type = capitalists } money = 500 }
 		political_reform = no_slavery
 	}
 
@@ -336,6 +337,7 @@ country_event = {
 		name = "EVTOPTA36205" 
 		set_country_flag = CopenhagenFort
 		money = -1000
+		random_pop = { limit = { type = capitalists } money = 1000 }
 		372 = {
 			fort = 1
 		}

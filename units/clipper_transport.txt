@@ -22,7 +22,7 @@ clipper_transport = {
 	#Building Costs
 	build_time = 90
 	build_cost = {
-		clipper_convoy = 4
+		clipper_convoy = .4
 	}
 	min_port_level = 0
 	limit_per_port = -1
@@ -30,7 +30,7 @@ clipper_transport = {
 
 	supply_consumption = 1.0
 	supply_cost = {
-		clipper_convoy = 0.064
+		clipper_convoy = 0.0064
 	}
 	
 	#Naval Abilties

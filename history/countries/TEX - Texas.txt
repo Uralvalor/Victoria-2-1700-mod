@@ -10,6 +10,8 @@ civilized = yes
 prestige = 5
 
 
+is_releasable_vassal = no
+
 # Political reforms
 slavery = yes_slavery
 upper_house_composition = state_equal_weight

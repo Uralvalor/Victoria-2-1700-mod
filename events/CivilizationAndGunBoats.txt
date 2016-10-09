@@ -515,6 +515,7 @@ province_event = {
 		any_pop = {
 			militancy = 4
 		}
+		random_pop = { limit = { type = artisans } money = -5000 }
 		treasury = 5000
 	}
 }

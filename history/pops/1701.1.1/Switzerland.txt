@@ -1,4 +1,9 @@
 603 = {
+	clerks = {
+		culture = south_german
+		religion = secularism 
+		size = 100
+	}
 	aristocrats = {
 		culture = south_german
 		religion = protestant

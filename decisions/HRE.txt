@@ -1,20 +1,77 @@
 political_decisions = {
-	leave_hre = {
-	picture = hre_pic 
-		potential = { 
-		ai = no
-		has_country_flag = hre_member 
+
+	# hre
+	hre_member = {
+			picture = "hre_member"
+			potential = {
+				is_culture_group = germanic
+			NOT = { 
+			has_global_flag = hre_dismantled
+			}
+				NOT =  { has_country_modifier = neutrality }
+				NOT =  { in_sphere = FRA }					
+				NOT = { has_country_modifier = hre_member }
+				NOT = { has_country_modifier = leave_HRE }
+			}
+
+			allow = {
+					continent = europe
+				OR = { tag = AUS  relation = { who = AUS value = 80 } }
+			}
+
+			effect = {
+				any_country = { 
+					limit = {
+						has_country_modifier = hre_member
+					}
+					relation = { who = THIS value = 100 }
+				}
+				add_country_modifier = {
+					name = hre_member
+					duration = 3650
+				}
+			}
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+
+	left_hre = {
+			picture = "hre_pic"
+			potential = {
+		has_country_modifier = hre_member
 		NOT = { 
 			has_country_flag = left_hre
 			has_country_flag = holy_roman_emperor 
 			} 
-				} 
-		allow = { 
-			NOT = { 
-				war = yes 
-				} 
-			} 
-		effect = { 
+				NOT = { 
+					OR = { tag = AUS
+					alliance_with = AUS
+					in_sphere = AUS }
+				}
+				NOT = { relation = { who = AUS value = 0 } }
+			}
+
+			allow = {
+				has_country_modifier = hre_member
+				NOT = { 
+					OR = { tag = AUS
+					alliance_with = AUS
+					in_sphere = AUS }
+				}
+					NOT = { relation = { who = AUS value = -100 } }
+				}
+
+			effect = {
+				remove_country_modifier = hre_member
+				add_country_modifier = {
+					name = left_hre
+					duration = 3650
+				}
+				any_country = { 
+					limit = { has_country_modifier = hre_member }
+					relation = { who = THIS value = -50 }
+				}
 			set_country_flag = left_hre
 			clr_country_flag = hre_member 
 			any_owned = {
@@ -23,13 +80,15 @@ political_decisions = {
 					}
 				remove_core = HRE
 				}
-				} 
 			}
+		ai_will_do = {
+			factor = 1
+		}		
+	}
 
 	dismantle_hre = { 
 	picture = hre_pic 
 		potential = { 
-				ai = no
 			war_with = AUS
 			AUS = {
 				has_country_flag = holy_roman_emperor 
@@ -40,8 +99,6 @@ political_decisions = {
 			has_global_flag = hre_dismantled
 			}
 		} 
-				 
-
 		allow = { 
 			AUS = {
 				capital_scope = {
@@ -68,7 +125,7 @@ political_decisions = {
 	}
 			
 
-form_hre = { 
+form_hre = {
 
 picture = hre_pic 
 
@@ -266,7 +323,7 @@ clr_country_flag = holy_roman_emperor
 clr_country_flag = hre_member
 any_country = {
 limit = {
-has_country_flag = hre_member 
+has_country_modifier = hre_member 
 }
 country_event = 401009
 }
@@ -322,36 +379,6 @@ in_sphere = THIS
 }
 }
 }
-LOM = {
-all_core = {
-OR = {
-owned_by = THIS
-owner = {
-in_sphere = THIS
-}
-}
-}
-}
-MOD = {
-all_core = {
-OR = {
-owned_by = THIS
-owner = {
-in_sphere = THIS
-}
-}
-}
-}
-SAR = {
-all_core = {
-OR = {
-owned_by = THIS
-owner = {
-in_sphere = THIS
-}
-}
-}
-}
 HAN = {
 all_core = {
 OR = {
@@ -382,16 +409,6 @@ in_sphere = THIS
 }
 }
 }
-PAR = {
-all_core = {
-OR = {
-owned_by = THIS
-owner = {
-in_sphere = THIS
-}
-}
-}
-}
 }
 
 effect = {
@@ -405,7 +422,6 @@ add_accepted_culture = south_german
 add_accepted_culture = north_german
 add_accepted_culture = czech
 add_accepted_culture = dutch
-add_accepted_culture = burgundian
 add_accepted_culture = flemish
 prestige = 25
 change_tag = HRE

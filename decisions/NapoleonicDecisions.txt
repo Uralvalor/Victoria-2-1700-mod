@@ -84,46 +84,6 @@ political_decisions = {
 			set_country_flag = tilsiter_peace_ok
 		}
 	}
-	dismantle_british_empire = {
-		potential = {
-			tag = FRA
-			exists = ENG
-			is_greater_power = yes
-			NOT = {
-				government = absolute_monarchy
-				has_country_flag = eng_dissolution 
-				has_global_flag = eng_dissolution
-				}
-			year = 1800
-		}
-		
-		allow = {
-			war_with = ENG
-			300 = { controlled_by = THIS }
-			is_greater_power = yes
-		}		
-		effect = {
-			prestige = 50
-			ENG = {
-			prestige = -30
-			government = bourgeous_dictatorship
-			change_tag = ENL
-			release = IRE
-			release = SCO
-			release = WHA
-			release = QUE
-			release = MAO
-		  	diplomatic_influence = { who = IRE value = 200 }
-		  	diplomatic_influence = { who = SCO value = 200 }
-		  	diplomatic_influence = { who = WHA value = 200 }
-			}
-			any_pop = {
-				militancy = -5
-			}
-			set_country_flag = eng_dissolution
-			set_global_flag = eng_dissolution
-		}
-	}
 	portugal_plan = {
 		potential = {
 			tag = FRA

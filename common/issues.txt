@@ -448,25 +448,39 @@ political_reforms = {
 		
 	}
 
-	religious_rights = { # voting_system TODO
-		state_religion = { # first_past_the_post
-#			rules = { largest_share = yes }
-#			allow = {
-#				NOT = { vote_franschise = none_voting }
-#			}
+	gov_religion = {	
+     	no_state_religion = { 
 		}
-		no_state_religion = { # jefferson_method
-#			rules = { dhont = yes }
-#			allow = {
-#				NOT = { vote_franschise = none_voting }
-#			}
+		orthodox = { 
+          
 		}
-		irreligion_religion = { # proportional_representation
-            rules = {  religion = irreligion }
-#			rules = { sainte_laque = yes }
-#			allow = {
-#				NOT = { vote_franschise = none_voting }
-#			}
+		catholic = { 
+          
+		}
+		protestant = {  
+		}
+		coptic = {  
+		}
+		sunni = {  
+		}
+		shiite = {  
+		}
+		jewish = {  
+		}
+		mahayana = {   }
+		gelugpa = {  
+		}
+		theravada = {  
+		}
+		hindu = {  
+		}
+		shinto = {  
+		}
+		sikh = {  
+		}
+		animist = {  
+		}
+		secularism = {
 		}
 	}
 }
@@ -634,11 +648,13 @@ social_reforms = {
 			global_population_growth = 0.006
 			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
+			allow = { has_country_flag = medicine_invented }
 		}
 		good_health_care = {
 			global_population_growth = 0.008
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
+			allow = { has_country_flag = organic_chemistry_invented }
 		}
 	}
 
@@ -657,18 +673,21 @@ social_reforms = {
 			administrative_multiplier = 2
 			global_immigrant_attract = 0.02
 			global_population_growth = 0.0005
+			allow = { has_country_flag = electricity_invented }
 		}
 		acceptable_envir = {
 			factory_maintenance = 0.3
 			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
 			global_population_growth = 0.001
+			allow = { has_country_flag = synthetic_polymers_invented }
 		}
 		good_envir = {
 			factory_maintenance = 0.4
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
 			global_population_growth = 0.0015
+			allow = { has_country_flag = consumerism_invented }
 		}
 	}
 	
@@ -700,6 +719,7 @@ social_reforms = {
 		public = {
 			education_efficiency_modifier = 0.2
 			global_immigrant_attract = 0.02
+			allow = { has_country_flag = social_science_invented }
 	
 		}
 	}
@@ -717,16 +737,19 @@ social_reforms = {
 			administrative_multiplier = 2
 			global_assimilation_rate = 0.01
 			prestige = 0.02
+			allow = { has_country_flag = sentimentalism_invented }
 		}
 		large_endowment = {
 			administrative_multiplier = 3
 			global_assimilation_rate = 0.03
 			prestige = 0.03
+			allow = { has_country_flag = romanticism_invented }
 		}
 		massive_endowment = {
 			administrative_multiplier = 4
 			global_assimilation_rate = 0.05
 			prestige = 0.05
+			allow = { has_country_flag = mass_culture_invented }
 		}
 	}	
 	finance_regulation = {
@@ -744,6 +767,7 @@ social_reforms = {
 		 factory_input = 0.05
 		 factory_owner_cost = 0.05
 		 factory_throughput = -0.05
+			allow = { has_country_flag = ad_hoc_money_bill_printing_invented }
 		}
 		medium_interest = {
 		 loan_interest = 0.0017
@@ -751,12 +775,14 @@ social_reforms = {
 		 factory_input = 0.03
 		 factory_owner_cost = 0.03
 		 factory_throughput = -0.03
+			allow = { has_country_flag = private_bank_money_bill_printing_invented }
 		}
 		low_interest = {
 		 tax_efficiency = 0.02
 		 factory_input = 0.01
 		 factory_owner_cost = 0.01
 		 factory_throughput = -0.01
+			allow = { has_country_flag = central_bank_money_bill_printing_invented }
 		}
 		no_interest = {
 		 loan_interest = -0.002
@@ -764,6 +790,7 @@ social_reforms = {
 		 factory_input = -0.02
 		 factory_owner_cost = -0.02
 		 factory_throughput = 0.02
+			allow = { has_country_flag = bretton_woods_system_invented }
 		}
 	}
 }
@@ -971,6 +998,7 @@ economic_reforms = {
 			max_loan_modifier = -1.0 # no loan 4 u
 			
 			on_execute = {
+				activate_technology = no_standard 
 				effect = {
 					any_pop = {
 						scaled_militancy = {
@@ -996,6 +1024,7 @@ economic_reforms = {
 			max_loan_modifier = -0.2 # 80% loans
 			
 			on_execute = {
+				activate_technology = bimetallism 
 				effect = {
 					any_pop = {
 						scaled_militancy = {

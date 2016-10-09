@@ -2070,6 +2070,12 @@ country_event = {
 
 	trigger = {
 		tag = USA
+	is_greater_power = yes
+	118= {
+				owner = {
+						tag = ENG 
+				}
+			}
 		NOT = { owns = 118 }
 		money = 1000
 	}

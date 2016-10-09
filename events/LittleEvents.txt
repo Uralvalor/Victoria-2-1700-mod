@@ -232,6 +232,8 @@ country_event = {
 			militancy = -2
 		}
 		money = -100000
+		random_pop = { limit = { type = aristocrats } money = 50000 }
+		random_pop = { limit = { type = capitalists } money = 50000 }
 		ai_chance = {
 			factor = 70
 		}
@@ -615,6 +617,8 @@ country_event = {
 			militancy = -1
 		}
 		money = -5000
+		random_pop = { limit = { type = craftsmen } money = 2500}
+		random_pop = { limit = { type = clerks} money = 2500}
 		ai_chance = {
 			factor = 70
 		}
@@ -1108,6 +1112,7 @@ country_event = {
 		name = "Соглашение с англичанами нам выгодно" 
 		relation = { who = ENG value = 50 }
 		FROM = { diplomatic_influence = { who = THIS value = 50 } }
+		random_pop = { limit = { type = artisans } money = 1000}
 		ai_chance = {
 			factor = 75
 		}
@@ -1171,6 +1176,7 @@ country_event = {
 		name = "Принять законопроект"
 		prestige = 5
 		money = 10000
+		random_pop = { limit = { type = capitalists } money = -10000}
 		any_pop = {
 			limit = {
 				type = capitalists
@@ -1363,6 +1369,7 @@ country_event = {
 		name = "Сделать книгу общедоступной"
 		prestige = 2
 		money = -500
+		random_pop = { limit = { type = capitalists } money = 500 }
 		any_pop = {
 			limit = {
 				OR = {
@@ -1472,6 +1479,7 @@ country_event = {
 		name = "Принять указ"
 		prestige = 5
 		money = 1000
+		random_pop = { limit = { type = aristocrats } money = -1000 }
 		any_pop = {
 			limit = {
 				type = aristocrats
@@ -1544,6 +1552,7 @@ country_event = {
 	option = {
 		name = "Дать им парламент!"
 		prestige = -5
+		random_pop = { limit = { type = aristocrats } money = -1000 }
 		money = 1000
 		political_reform = landed_voting
 		any_pop = {

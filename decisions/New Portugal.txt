@@ -2,7 +2,6 @@
                 Portugal_indi = {
 		potential = {
 			tag = POR
-                government = enlightened_absolutism
 			war = no
                         1303 = {
 				owned_by = POR
@@ -50,7 +49,7 @@ Portugal_absolut = {
 ideology = reactionary
 value = 300
 } 
-                government = enlightened_absolutism
+                government = absolute_monarchy 
 			set_country_flag = Portugal_absolut
 		}
 	}

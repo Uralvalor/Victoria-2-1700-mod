@@ -504,3 +504,264 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 99001
+	title = "EVTNAME99001"
+	desc = "EVTDESC99001"
+	picture = "Unite"
+	
+	trigger = {
+	medicine = 1
+		NOT = { has_country_flag = medicine_invented }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA99001"
+		set_country_flag = medicine_invented
+	}
+}
+
+country_event = {
+	id = 99002
+	title = "EVTNAME99001"
+	desc = "EVTDESC99001"
+	picture = "Unite"
+	
+	trigger = {
+	organic_chemistry = 1
+		NOT = { has_country_flag = organic_chemistry_invented }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA99001"
+		set_country_flag = organic_chemistry_invented
+	}
+}
+country_event = {
+	id = 99003
+	title = "EVTNAME99001"
+	desc = "EVTDESC99001"
+	picture = "Unite"
+	
+	trigger = {
+	electricity = 1
+		NOT = { has_country_flag = electricity_invented }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA99001"
+		set_country_flag = electricity_invented
+	}
+}
+country_event = {
+	id = 99004
+	title = "EVTNAME99001"
+	desc = "EVTDESC99001"
+	picture = "Unite"
+	
+	trigger = {
+	synthetic_polymers = 1
+		NOT = { has_country_flag = synthetic_polymers_invented }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA99001"
+		set_country_flag = synthetic_polymers_invented
+	}
+}
+country_event = {
+	id = 99005
+	title = "EVTNAME99001"
+	desc = "EVTDESC99001"
+	picture = "Unite"
+	
+	trigger = {
+	consumerism = 1
+		NOT = { has_country_flag = consumerism_invented }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA99001"
+		set_country_flag = consumerism_invented
+	}
+}
+country_event = {
+	id = 99006
+	title = "EVTNAME99001"
+	desc = "EVTDESC99001"
+	picture = "Unite"
+	
+	trigger = {
+	social_science = 1
+		NOT = { has_country_flag = social_science_invented }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA99001"
+		set_country_flag = social_science_invented
+	}
+}
+country_event = {
+	id = 99007
+	title = "EVTNAME99001"
+	desc = "EVTDESC99001"
+	picture = "Unite"
+	
+	trigger = {
+	sentimentalism = 1
+		NOT = { has_country_flag = sentimentalism_invented }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA99001"
+		set_country_flag = sentimentalism_invented
+	}
+}
+country_event = {
+	id = 99008
+	title = "EVTNAME99001"
+	desc = "EVTDESC99001"
+	picture = "Unite"
+	
+	trigger = {
+	romanticism = 1
+		NOT = { has_country_flag = romanticism_invented }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA99001"
+		set_country_flag = romanticism_invented
+	}
+}
+country_event = {
+	id = 99009
+	title = "EVTNAME99001"
+	desc = "EVTDESC99001"
+	picture = "Unite"
+	
+	trigger = {
+	mass_culture = 1
+		NOT = { has_country_flag = mass_culture_invented }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA99001"
+		set_country_flag = mass_culture_invented
+	}
+}
+country_event = {
+	id = 99010
+	title = "EVTNAME99001"
+	desc = "EVTDESC99001"
+	picture = "Unite"
+	
+	trigger = {
+	ad_hoc_money_bill_printing = 1
+		NOT = { has_country_flag = ad_hoc_money_bill_printing_invented }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA99001"
+		set_country_flag = ad_hoc_money_bill_printing_invented
+	}
+}
+country_event = {
+	id = 99011
+	title = "EVTNAME99001"
+	desc = "EVTDESC99001"
+	picture = "Unite"
+	
+	trigger = {
+	private_bank_money_bill_printing = 1
+		NOT = { has_country_flag = private_bank_money_bill_printing_invented }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA99001"
+		set_country_flag = private_bank_money_bill_printing_invented
+	}
+}
+country_event = {
+	id = 99012
+	title = "EVTNAME99001"
+	desc = "EVTDESC99001"
+	picture = "Unite"
+	
+	trigger = {
+	central_bank_money_bill_printing = 1
+		NOT = { has_country_flag = central_bank_money_bill_printing_invented }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA99001"
+		set_country_flag = central_bank_money_bill_printing_invented
+	}
+}
+country_event = {
+	id = 99013
+	title = "EVTNAME99001"
+	desc = "EVTDESC99001"
+	picture = "Unite"
+	
+	trigger = {
+	bretton_woods_system = 1
+		NOT = { has_country_flag = bretton_woods_system_invented }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA99001"
+		set_country_flag = bretton_woods_system_invented
+	}
+}

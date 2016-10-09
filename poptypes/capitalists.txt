@@ -20,37 +20,38 @@ rebel =
 can_build = yes
 
 everyday_needs = {
-	coal = 20
-	paper = 20
-	luxury_clothes = 20
-	luxury_furniture = 20
-	wine = 20
-	tobacco = 20 
-	coffee = 20
+	coal = 2
+	paper = 2
+	luxury_clothes = 2
+	luxury_furniture = 2
+	wine = 2
+	tobacco = 2
+	coffee = 2
 }
 
 life_needs = {
-	cattle = 0.75
-	wool =  1
-	fish =  1
-	fruit =  1
-	grain =  2.5
+	cattle = .075
+	wool =  .1
+	fish =  .1
+	fruit =  .1
+	grain =  .25
 }
 
 
 luxury_needs = {
-	opium = 20
-	oil = 10
-	rubber = 10
-	telephones = 20
-	automobiles = 20
-	aeroplanes = 5
-	radio = 20
-	fuel = 30
-	ammunition = 1 
-	small_arms = 1 
-	clipper_convoy = 2
-	steamer_convoy = 2
+	opium = 2
+	oil = 1
+	rubber = 1
+	telephones = 2
+	automobiles = 2
+	aeroplanes = .5
+	radio = 2
+	fuel = 3
+	ammunition = .1 
+	small_arms = .1 
+	clipper_convoy = .2
+	steamer_convoy = .2
+	jewellery = .12
 }
 
 
@@ -1959,6 +1960,7 @@ issues =
 	}
 	moralism = {
 		factor = 1
+        modifier = { factor = 0.0 religion = secularism }
 		modifier = {
 			factor = 1.2
 			NOT = { consciousness = 4 }
@@ -5427,5 +5429,109 @@ issues =
 			factor = 1.25
 			luxury_needs = 1
 		}
+	}
+	# state_religion
+	no_state_religion = {
+		factor = 1.2
+		modifier = { factor = 0 this = { religion = secularism } }
+		modifier = { factor = 0.1 is_state_religion = yes NOT = { religion = secularism } }
+		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.90 } }
+		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.80 } }
+	}
+	orthodox = {
+		factor = 0.5
+		modifier = { factor = 2 AND = { this = { religion = orthodox } invention = political_religion } }
+		modifier = { factor = 15 AND = { this = { religion = orthodox } country = { religious_policy = moralism } } }
+		modifier = { factor = 1.25 AND = { this = { religion = catholic } NOT = { religion = catholic } country = { religious_policy = moralism } } }
+		modifier = { factor = 1.25 AND = { this = { religion = protestant } NOT = { religion = protestant } country = { religious_policy = moralism } } }
+		modifier = { factor = 1.25 AND = { this = { religion = coptic } NOT = { religion = coptic } country = { religious_policy = moralism } } }
+	
+	}
+	catholic = {
+		factor = 0.5
+		modifier = { factor = 2 AND = { this = { religion = catholic } invention = political_religion } }
+		modifier = { factor = 15 AND = { this = { religion = catholic } country = { religious_policy = moralism } } }
+		modifier = { factor = 1.25 AND = { this = { religion = orthodox } NOT = { religion = orthodox } country = { religious_policy = moralism } } }
+		modifier = { factor = 1.25 AND = { this = { religion = protestant } NOT = { religion = protestant } country = { religious_policy = moralism } } }
+		modifier = { factor = 1.25 AND = { this = { religion = coptic } NOT = { religion = coptic } country = { religious_policy = moralism } } }
+	
+	}
+	protestant = {
+		factor = 0.5
+		modifier = { factor = 2 AND = { this = { religion = protestant } invention = political_religion } }
+		modifier = { factor = 15 AND = { this = { religion = protestant } country = { religious_policy = moralism } } }
+		modifier = { factor = 1.25 AND = { this = { religion = orthodox } NOT = { religion = orthodox } country = { religious_policy = moralism } } }
+		modifier = { factor = 1.25 AND = { this = { religion = catholic } NOT = { religion = catholic } country = { religious_policy = moralism } } }
+		modifier = { factor = 1.25 AND = { this = { religion = coptic } NOT = { religion = coptic } country = { religious_policy = moralism } } }
+	
+	}
+	coptic = {
+		factor = 0.5
+		modifier = { factor = 2 AND = { this = { religion = coptic } invention = political_religion } }
+		modifier = { factor = 15 AND = { this = { religion = coptic } country = { religious_policy = moralism } } }
+		modifier = { factor = 1.25 AND = { this = { religion = orthodox } NOT = { religion = orthodox } country = { religious_policy = moralism } } }
+		modifier = { factor = 1.25 AND = { this = { religion = catholic } NOT = { religion = catholic } country = { religious_policy = moralism } } }
+		modifier = { factor = 1.25 AND = { this = { religion = protestant } NOT = { religion = protestant } country = { religious_policy = moralism } } }
+	}
+	sunni = {
+		factor = 0.5
+		modifier = { factor = 2 AND = { this = { religion = sunni } invention = political_religion } }
+		modifier = { factor = 15 AND = { this = { religion = sunni } country = { religious_policy = moralism } } }
+		modifier = { factor = 1.1 AND = { this = { religion = shiite } NOT = { religion = shiite } country = { religious_policy = moralism } } }
+	}
+	shiite = {
+		factor = 0.5
+		modifier = { factor = 2 AND = { this = { religion = shiite } invention = political_religion } }
+		modifier = { factor = 15 AND = { this = { religion = shiite } country = { religious_policy = moralism } } }
+		modifier = { factor = 1.1 AND = { this = { religion = sunni } NOT = { religion = sunni } country = { religious_policy = moralism } } }
+	}
+	jewish = {
+		factor = 0.5
+		modifier = { factor = 2 AND = { this = { religion = jewish } invention = political_religion } }
+		modifier = { factor = 15 AND = { this = { religion = jewish } country = { religious_policy = moralism } } }
+	}
+	mahayana = {
+		factor = 0.5
+		modifier = { factor = 2 AND = { this = { religion = mahayana } invention = political_religion } }
+		modifier = { factor = 15 AND = { this = { religion = mahayana } country = { religious_policy = moralism } } }
+	}
+	gelugpa = {
+		factor = 0.5
+		modifier = { factor = 2 AND = { this = { religion = gelugpa } invention = political_religion } }
+		modifier = { factor = 15 AND = { this = { religion = gelugpa } country = { religious_policy = moralism } } }
+	}
+	theravada = {
+		factor = 0.5
+		modifier = { factor = 2 AND = { this = { religion = theravada } invention = political_religion } }
+		modifier = { factor = 15 AND = { this = { religion = theravada } country = { religious_policy = moralism } } }
+	}
+	hindu = {
+		factor = 0.5
+		modifier = { factor = 2 AND = { this = { religion = hindu } invention = political_religion } }
+		modifier = { factor = 15 AND = { this = { religion = hindu } country = { religious_policy = moralism } } }
+	}
+	shinto = {
+		factor = 0.5
+		modifier = { factor = 2 AND = { this = { religion = shinto } invention = political_religion } }
+		modifier = { factor = 15 AND = { this = { religion = shinto } country = { religious_policy = moralism } } }
+	}
+	sikh = {
+		factor = 0.5
+		modifier = { factor = 2 AND = { this = { religion = sikh } invention = political_religion } }
+		modifier = { factor = 15 AND = { this = { religion = sikh } country = { religious_policy = moralism } } }
+	}
+	animist = {
+		factor = 0.5
+		modifier = { factor = 2 AND = { this = { religion = animist } invention = political_religion } }
+		modifier = { factor = 15 AND = { this = { religion = animist } country = { religious_policy = moralism } } }
+	}
+	secularism = {
+		factor = 0.5
+		modifier = { factor = 5 country = { religious_policy = moralism } }
+		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.90 } }
+		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.80 } }
+		modifier = { factor = 5 this = { religion = secularism } }
+		modifier = { factor = 2 this = { religion = secularism } invention = political_religion }
+		modifier = { factor = 2 religion = secularism }
 	}
 }

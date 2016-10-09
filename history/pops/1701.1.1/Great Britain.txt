@@ -1452,6 +1452,11 @@
 		religion = catholic
 		size = 1556
 	}
+	clerks = {
+		culture = english
+		religion = secularism 
+		size = 100
+	}
 	labourers = {
 		culture = english
 		religion = catholic

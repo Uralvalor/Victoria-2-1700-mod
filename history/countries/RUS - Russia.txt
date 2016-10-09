@@ -36,6 +36,7 @@ naval_architecture = scientific
 
 
 # Political reforms
+gov_religion = orthodox
 slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = wealth_weighted_voting 
@@ -73,7 +74,7 @@ bronze_muzzle_loaded_artillery = 1
 consciousness = 6
 nonstate_consciousness = 3
 
-ruling_party = RUS_liberal
+ruling_party = RUS_reactionary 
 upper_house = {
 	fascist = 0
 	liberal = 0
