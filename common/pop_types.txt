@@ -687,22 +687,23 @@ conversion_chance = { # 1.0
 	}	
 
 	group = {
-		modifier = { factor = 1 NOT = { has_pop_religion = secularism } country = { religious_policy = pro_atheism }  NOT = { country = { government = theocracy_government } } }
-		modifier = { factor = 0.8 NOT = { has_pop_religion = secularism } country = { government = proletarian_dictatorship } }
+		modifier = { factor = 1 NOT = { has_pop_religion = secularism } country = { religious_policy = pro_atheism }   country = { gov_religion = secularism  } }
+		modifier = { factor = 0.8 NOT = { has_pop_religion = secularism } country = { government = proletarian_dictatorship } country = { gov_religion = secularism  } }
 	}
 
-	modifier = { factor = 0.2 NOT = { has_pop_religion = secularism } culture = THIS }
+	modifier = { factor = 0.1 NOT = { has_pop_religion = secularism } culture = THIS }
 	
 	modifier = {
-			factor = 0.4
+			factor = -0.1
 		country = { gov_religion = no_state_religion }
                 NOT = { has_pop_religion = secularism }
                 NOT = { country = { government = theocracy_government } }
 		}
 		
-	modifier = { factor = 1 country = { religious_policy = moralism } }
-	modifier = { factor = -0.5 country = { religious_policy = pluralism } }
-	modifier = { factor = -1 country = { religious_policy = secularized } }
+	modifier = { factor = 0.1 country = { religious_policy = moralism } }
+	modifier = { factor = -0.05 country = { religious_policy = pluralism } }
+	modifier = { factor = -0.1 country = { religious_policy = secularized } }
 	modifier = { factor = -2 OR = { has_pop_religion = jewish has_pop_religion = secularism } }
-	modifier = { factor = 2 OR = { country = { government = absolute_monarchy } country = { government = theocracy_government } }
+	modifier = { factor = 0.5 OR = { country = { government = absolute_monarchy } country = { government = theocracy_government } }
+}
 }
