@@ -2488,6 +2488,51 @@ country_event = {
 				continent = north_america
 				not = { is_core = CAN }
 				not = { is_core = HAI }
+				not = { is_core = MEX }
+				not = { is_core = FWI }
+				not = { is_core = CUB } }
+	}
+	
+	option = {
+		name = "OK"
+		any_owned = {
+			limit = {
+				
+				continent = north_america
+				not = { is_core = CAN }
+				not = { is_core = HAI }
+				not = { is_core = MEX }
+				not = { is_core = FWI }
+				not = { is_core = CUB }
+			}
+			secede_province = COA
+		}
+	}
+	
+}
+
+country_event = {
+	id = 24722
+	title = "Колониальное правительство"
+	desc = "Для лучшего управления эти земли нужно передать колониальному правительству."
+	picture = "Revolution"
+
+	trigger = {
+		tag = ENG
+		has_global_flag = forming_thirteen_colonies
+		OR = {
+		TEX = {
+			vassal_of = ENG
+		}
+		USA = {
+			vassal_of = ENG
+		} 
+		NOT = { exists = TEX }
+		 }
+		any_owned_province = { 
+				continent = north_america
+				not = { is_core = CAN }
+				not = { is_core = HAI }
 				not = { is_core = FWI }
 				not = { is_core = CUB } }
 	}
@@ -2503,12 +2548,11 @@ country_event = {
 				not = { is_core = FWI }
 				not = { is_core = CUB }
 			}
-			secede_province = COA
+			secede_province = TEX
 		}
 	}
 	
 }
-
 # Джунгары сдулись
 country_event = {
 

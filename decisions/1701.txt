@@ -700,7 +700,7 @@ value = 120
 		picture = louisianapurchasepic
 		potential = {
 			OR = {
-				tag = ENL
+				#tag = ENL
 				tag = ENG
 			}
 		NOT = { exists = USA }
@@ -722,258 +722,244 @@ value = 120
 		set_global_flag = forming_thirteen_colonies
 		prestige = -5
 		war_exhaustion = -5
-			release = XCT
-			create_vassal = XCT
-			diplomatic_influence = {
-				who = XCT
-				value = 400
-			}
-			create_alliance = XCT
-			XCT = {
-				prestige_factor = -1
-				add_county_modifier = {
-					name = new_world 
-					duration = 5000
-				}
-			}
-			release = XDE
-			create_vassal = XDE
-			diplomatic_influence = {
-				who = XDE
-				value = 400
-			}
-			create_alliance = XDE
-			XDE = {
-				prestige_factor = -1
-				add_county_modifier = {
-					name = new_world 
-					duration = 5000
-				}
-			}
-			release = XFL
-			create_vassal = XFL
-			diplomatic_influence = {
-				who = XFL
-				value = 400
-			}
-			create_alliance = XFL
-			XFL = {
-				prestige_factor = -1
-				add_county_modifier = {
-					name = new_world 
-					duration = 5000
-				}
-			}
-			release = XGA
-			create_vassal = XGA
-			diplomatic_influence = {
-				who = XGA
-				value = 400
-			}
-			create_alliance = XGA
-			XGA = {
-				prestige_factor = -1
-				add_county_modifier = {
-					name = new_world 
-					duration = 5000
-				}
-			}
-			release = XKY
-			create_vassal = XKY
-			diplomatic_influence = {
-				who = XKY
-				value = 400
-			}
-			create_alliance = XKY
-			XKY = {
-				prestige_factor = -1
-				add_county_modifier = {
-					name = new_world 
-					duration = 5000
-				}
-			}
-			release = XMA
-			create_vassal = XMA
-			diplomatic_influence = {
-				who = XMA
-				value = 400
-			}
-			create_alliance = XMA
-			XMA = {
-				prestige_factor = -1
-				add_county_modifier = {
-					name = new_world 
-					duration = 5000
-				}
-			}
-			release = XMD
-			create_vassal = XMD
-			diplomatic_influence = {
-				who = XMD
-				value = 400
-			}
-			create_alliance = XMD
-			XMD = {
-				prestige_factor = -1
-				add_county_modifier = {
-					name = new_world 
-					duration = 5000
-				}
-			}
-			release = XNC
-			create_vassal = XNC
-			diplomatic_influence = {
-				who = XNC
-				value = 400
-			}
-			create_alliance = XNC
-			XNC = {
-				prestige_factor = -1
-				add_county_modifier = {
-					name = new_world 
-					duration = 5000
-				}
-			}
-			release = XNH
-			create_vassal = XNH
-			diplomatic_influence = {
-				who = XNH
-				value = 400
-			}
-			create_alliance = XNH
-			XNH = {
-				prestige_factor = -1
-				add_county_modifier = {
-					name = new_world 
-					duration = 5000
-				}
-			}
-			release = XNJ
-			create_vassal = XNJ
-			diplomatic_influence = {
-				who = XNJ
-				value = 400
-			}
-			create_alliance = XNJ
-			XNJ = {
-				prestige_factor = -1
-				add_county_modifier = {
-					name = new_world 
-					duration = 5000
-				}
-			}
-			release = XNY
-			create_vassal = XNY
-			diplomatic_influence = {
-				who = XNY
-				value = 400
-			}
-			create_alliance = XNY
-			XNY = {
-				prestige_factor = -1
-				add_county_modifier = {
-					name = new_world 
-					duration = 5000
-				}
-			}
-			release = XPA
-			create_vassal = XPA
-			diplomatic_influence = {
-				who = XPA
-				value = 400
-			}
-			create_alliance = XPA
-			XPA = {
-				prestige_factor = -1
-				add_county_modifier = {
-					name = new_world 
-					duration = 5000
-				}
-			}
-			release = XSC
-			create_vassal = XSC
-			diplomatic_influence = {
-				who = XSC
-				value = 400
-			}
-			create_alliance = XSC
-			XSC = {
-				prestige_factor = -1
-				add_county_modifier = {
-					name = new_world 
-					duration = 5000
-				}
-			}
-			release = XTN
-			create_vassal = XTN
-			diplomatic_influence = {
-				who = XTN
-				value = 400
-			}
-			create_alliance = XTN
-			XTN = {
-				prestige_factor = -1
-				add_county_modifier = {
-					name = new_world 
-					duration = 5000
-				}
-			}
-			release = XVA
-			create_vassal = XVA
-			diplomatic_influence = {
-				who = XVA
-				value = 400
-			}
-			create_alliance = XVA
-			XVA = {
-				prestige_factor = -1
-				add_county_modifier = {
-					name = new_world 
-					duration = 5000
-				}
-			}
-			release = XVT
-			create_vassal = XVT
-			diplomatic_influence = {
-				who = XVT
-				value = 400
-			}
-			create_alliance = XVT
-			XVT = {
-				prestige_factor = -1
-				add_county_modifier = {
-					name = new_world 
-					duration = 5000
-				}
-			}
-			release = NEN
-			create_vassal = NEN
-			diplomatic_influence = {
-				who = NEN
-				value = 400
-			}
-			create_alliance = NEN
-			NEN = {
-				prestige_factor = -1
-				add_county_modifier = {
-					name = new_world 
-					duration = 5000
-				}
-			}
-			release = TEX
-			create_vassal = TEX
-			diplomatic_influence = {
-				who = TEX
-				value = 400
-			}
-			create_alliance = TEX
-			TEX = {
-				prestige_factor = -1
-				add_county_modifier = {
-					name = new_world 
-					duration = 5000
-				}
-			}
+#			release = XCT
+#			create_vassal = XCT
+#			diplomatic_influence = {
+#				who = XCT
+#				value = 400
+#			}
+#			create_alliance = XCT
+#			XCT = {
+#				prestige_factor = -1
+#				add_county_modifier = {
+#					name = new_world 
+#					duration = 5000
+#				}
+#			}
+#			release = XDE
+#			create_vassal = XDE
+#			diplomatic_influence = {
+#				who = XDE
+#				value = 400
+#			}
+#			create_alliance = XDE
+#			XDE = {
+#				prestige_factor = -1
+#				add_county_modifier = {
+#					name = new_world 
+#					duration = 5000
+#				}
+#			}
+#			release = XFL
+#			create_vassal = XFL
+#			diplomatic_influence = {
+#				who = XFL
+#				value = 400
+#			}
+#			create_alliance = XFL
+#			XFL = {
+#				prestige_factor = -1
+#				add_county_modifier = {
+#					name = new_world 
+#					duration = 5000
+#				}
+#			}
+#			release = XGA
+#			create_vassal = XGA
+#			diplomatic_influence = {
+#				who = XGA
+#				value = 400
+#			}
+#			create_alliance = XGA
+#			XGA = {
+#				prestige_factor = -1
+#				add_county_modifier = {
+#					name = new_world 
+#					duration = 5000
+#				}
+#			}
+#			release = XKY
+#			create_vassal = XKY
+#			diplomatic_influence = {
+#				who = XKY
+#				value = 400
+#			}
+#			create_alliance = XKY
+#			XKY = {
+#				prestige_factor = -1
+#				add_county_modifier = {
+#					name = new_world 
+#					duration = 5000
+#				}
+#			}
+#			release = XMA
+#			create_vassal = XMA
+#			diplomatic_influence = {
+#				who = XMA
+#				value = 400
+#			}
+#			create_alliance = XMA
+#			XMA = {
+#				prestige_factor = -1
+#				add_county_modifier = {
+#					name = new_world 
+#					duration = 5000
+#				}
+#			}
+#			release = XMD
+#			create_vassal = XMD
+#			diplomatic_influence = {
+#				who = XMD
+#				value = 400
+#			}
+#			create_alliance = XMD
+#			XMD = {
+#				prestige_factor = -1
+#				add_county_modifier = {
+#					name = new_world 
+#					duration = 5000
+#				}
+#			}
+#			release = XNC
+#			create_vassal = XNC
+#			diplomatic_influence = {
+#				who = XNC
+#				value = 400
+#			}
+#			create_alliance = XNC
+#			XNC = {
+#				prestige_factor = -1
+#				add_county_modifier = {
+#					name = new_world 
+#					duration = 5000
+#				}
+#			}
+#			release = XNH
+#			create_vassal = XNH
+#			diplomatic_influence = {
+#				who = XNH
+#				value = 400
+#			}
+#			create_alliance = XNH
+#			XNH = {
+#				prestige_factor = -1
+#				add_county_modifier = {
+#					name = new_world 
+#					duration = 5000
+#				}
+#			}
+#			release = XNJ
+#			create_vassal = XNJ
+#			diplomatic_influence = {
+#				who = XNJ
+#				value = 400
+#			}
+#			create_alliance = XNJ
+#			XNJ = {
+#				prestige_factor = -1
+#				add_county_modifier = {
+#					name = new_world 
+#					duration = 5000
+#				}
+#			}
+#			release = XNY
+#			create_vassal = XNY
+#			diplomatic_influence = {
+#				who = XNY
+#				value = 400
+#			}
+#			create_alliance = XNY
+#			XNY = {
+#				prestige_factor = -1
+#				add_county_modifier = {
+#					name = new_world 
+#					duration = 5000
+#				}
+#			}
+#			release = XPA
+#			create_vassal = XPA
+#			diplomatic_influence = {
+#				who = XPA
+#				value = 400
+#			}
+#			create_alliance = XPA
+#			XPA = {
+#				prestige_factor = -1
+#				add_county_modifier = {
+#					name = new_world 
+#					duration = 5000
+#				}
+#			}
+#			release = XSC
+#			create_vassal = XSC
+#			diplomatic_influence = {
+#				who = XSC
+#				value = 400
+#			}
+#			create_alliance = XSC
+#			XSC = {
+#				prestige_factor = -1
+#				add_county_modifier = {
+#					name = new_world 
+#					duration = 5000
+#				}
+#			}
+#			release = XTN
+#			create_vassal = XTN
+#			diplomatic_influence = {
+#				who = XTN
+#				value = 400
+#			}
+#			create_alliance = XTN
+#			XTN = {
+#				prestige_factor = -1
+#				add_county_modifier = {
+#					name = new_world 
+#					duration = 5000
+#				}
+#			}
+#			release = XVA
+#			create_vassal = XVA
+#			diplomatic_influence = {
+#				who = XVA
+#				value = 400
+#			}
+#			create_alliance = XVA
+#			XVA = {
+#				prestige_factor = -1
+#				add_county_modifier = {
+#					name = new_world 
+#					duration = 5000
+#				}
+#			}
+#			release = XVT
+#			create_vassal = XVT
+#			diplomatic_influence = {
+#				who = XVT
+#				value = 400
+#			}
+#			create_alliance = XVT
+#			XVT = {
+#				prestige_factor = -1
+#				add_county_modifier = {
+#					name = new_world 
+#					duration = 5000
+#				}
+#			}
+#			release = NEN
+#			create_vassal = NEN
+#			diplomatic_influence = {
+#				who = NEN
+#				value = 400
+#			}
+#			create_alliance = NEN
+#			NEN = {
+#				prestige_factor = -1
+#				add_county_modifier = {
+#					name = new_world 
+#					duration = 5000
+#				}
+#			}
 		any_owned = {
 			limit = {
 				continent = north_america
@@ -994,6 +980,31 @@ value = 120
 			}
 			create_alliance = COA
 			COA = {
+				prestige_factor = -1
+				add_county_modifier = {
+					name = new_world 
+					duration = 5000
+				}
+			}
+		any_owned = {
+			limit = {
+				continent = north_america
+				not = { is_core = CAN }
+				not = { is_core = CUB }
+				not = { is_core = HAI }
+				not = { is_core = FWI }
+			}
+		        add_core = TEX 
+                secede_province = TEX 
+		            }
+			release = TEX
+			create_vassal = TEX
+			diplomatic_influence = {
+				who = TEX
+				value = 400
+			}
+			create_alliance = TEX
+			TEX = {
 				prestige_factor = -1
 				add_county_modifier = {
 					name = new_world 

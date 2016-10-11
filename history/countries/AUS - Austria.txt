@@ -63,6 +63,7 @@ oob = "/1756/AUS_oob.txt"
  }
 
 1815.1.1 = { 
+set_global_flag = hre_dismantled
 clr_country_flag  = holy_roman_emperor
 decision  = abolish_serfdom 
 

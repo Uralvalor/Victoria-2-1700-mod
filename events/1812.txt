@@ -1,6 +1,9 @@
 country_event = {
 	id = 18299
 	trigger = {
+		 
+		
+               has_global_flag = revolution
 		tag = PRU
 		year = 1813
 		NOT = {
@@ -62,6 +65,7 @@ country_event = {
 	trigger = {
 		tag = AUS
 		year = 1813
+               has_global_flag = revolution
 		NOT = {	
 			has_global_flag = reichenbach_convention_ok
 			has_global_flag = napoleonica_ended

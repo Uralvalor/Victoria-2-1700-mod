@@ -2863,6 +2863,7 @@ country_event = {
 		name = "EVTOPTB97622"
 		relation = { who = TUR value = 100 }
 		relation = { who = GRE value = -200 }
+		set_country_flag = not_support_greece
 		ai_chance = {
 			factor = 10
 		}

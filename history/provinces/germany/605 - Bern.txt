@@ -5,5 +5,10 @@ trade_goods = iron
 life_rating = 35
 fort = 1
 terrain = forested_farmland
+state_building = {
+	level = 1
+	building = metal_money_building 
+	upgrade = yes
+}
 1861.1.1 = { railroad = 1 }
 1914.1.1 = { railroad = 3 }
