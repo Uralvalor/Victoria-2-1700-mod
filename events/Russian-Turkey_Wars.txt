@@ -158,6 +158,7 @@ country_event = {
 country_event = {
 
 	id = 1100114
+
 	trigger = {
 		tag = RUS
                 OR = {
@@ -176,9 +177,9 @@ not = { has_country_flag = cri_in }
 		months = 3
 	}
 
-	title = "Присоединение Крым"
+	title = "Присоединение Крыма"
 	desc = "Крым полностью под нашим влиянием, что позволяет нам мирно взять под контроль эти земли."
-	picture = "Monarchy"
+	picture = "Crymea"
 
 	option = {
 		name = "Крым наш!"

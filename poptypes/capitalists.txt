@@ -21,12 +21,15 @@ can_build = yes
 
 everyday_needs = {
 	coal = 2
+	cement = 1
+	steel = 1
 	paper = 2
 	luxury_clothes = 2
 	luxury_furniture = 2
 	wine = 2
 	tobacco = 2
 	coffee = 2
+	transportation = 10
 }
 
 life_needs = {

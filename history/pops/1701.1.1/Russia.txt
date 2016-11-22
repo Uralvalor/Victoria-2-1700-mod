@@ -181,7 +181,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 5000
+		size = 45000
 	}
 	farmers = {
 		culture = byelorussian
@@ -2096,7 +2096,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 69244
+		size = 29244
 	}
 }
 1011 = {
@@ -5466,27 +5466,27 @@
 }
 2691 = {
 	bureaucrats = {
-		culture = siberian
+		culture = khanty
 		religion = animist
 		size = 5
 	}
 	clergymen = {
-		culture = siberian
+		culture = khanty
 		religion = animist
 		size = 17
 	}
 	artisans = {
-		culture = siberian
+		culture = khanty
 		religion = animist
 		size = 11
 	}
 	soldiers = {
-		culture = siberian
+		culture = khanty
 		religion = animist
 		size = 7
 	}
 	farmers = {
-		culture = siberian
+		culture = khanty
 		religion = animist
 		size = 398
 	}
@@ -5589,27 +5589,27 @@
 }
 2682 = {
 	bureaucrats = {
-		culture = ugrian
+		culture = khanty
 		religion = animist
 		size = 5
 	}
 	clergymen = {
-		culture = ugrian
+		culture = khanty
 		religion = animist
 		size = 2
 	}
 	artisans = {
-		culture = ugrian
+		culture = khanty
 		religion = animist
 		size = 100
 	}
 	soldiers = {
-		culture = ugrian
+		culture = khanty
 		religion = animist
 		size = 10
 	}
 	farmers = {
-		culture = ugrian
+		culture = khanty
 		religion = animist
 		size = 1100
 	}
@@ -6318,54 +6318,54 @@
 }
 2654 = {
 	bureaucrats = {
-		culture = siberian
+		culture = ugrian
 		religion = animist
 		size = 1
 	}
 	clergymen = {
-		culture = siberian
+		culture = ugrian
 		religion = animist
 		size = 2
 	}
 	artisans = {
-		culture = siberian
+		culture = ugrian
 		religion = animist
 		size = 1
 	}
 	soldiers = {
-		culture = siberian
+		culture = ugrian
 		religion = animist
 		size = 1
 	}
 	farmers = {
-		culture = siberian
+		culture = ugrian
 		religion = animist
 		size = 110
 	}
 }
 2674 = {
 	bureaucrats = {
-		culture = siberian
+		culture = ugrian
 		religion = animist
 		size = 1
 	}
 	clergymen = {
-		culture = siberian
+		culture = ugrian
 		religion = animist
 		size = 2
 	}
 	artisans = {
-		culture = siberian
+		culture = ugrian
 		religion = animist
 		size = 1
 	}
 	soldiers = {
-		culture = siberian
+		culture = ugrian
 		religion = animist
 		size = 1
 	}
 	farmers = {
-		culture = siberian
+		culture = ugrian
 		religion = animist
 		size = 110
 	}
@@ -6551,28 +6551,23 @@
 	}
 }
 2647 = {
-	bureaucrats = {
-		culture = siberian
-		religion = animist
-		size = 0
-	}
 	clergymen = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 2
 	}
 	artisans = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 1
 	}
 	soldiers = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 1
 	}
 	farmers = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 114
 	}
@@ -6701,55 +6696,45 @@
 	}
 }
 2619 = {
-	bureaucrats = {
-		culture = siberian
-		religion = animist
-		size = 5
-	}
 	clergymen = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 6
 	}
 	artisans = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 5
 	}
 	soldiers = {
-		culture = siberian
+		culture = inuit
 		religion = animist
-		size = 1
+		size = 10
 	}
 	farmers = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 224
 	}
 }
 2665 = {
-	bureaucrats = {
-		culture = siberian
-		religion = animist
-		size = 0
-	}
 	clergymen = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 2
 	}
 	artisans = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 1
 	}
 	soldiers = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 1
 	}
 	farmers = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 114
 	}
@@ -6797,28 +6782,23 @@
 	}
 }
 2667 = {
-	bureaucrats = {
-		culture = siberian
-		religion = animist
-		size = 0
-	}
 	clergymen = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 2
 	}
 	artisans = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 1
 	}
 	soldiers = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 1
 	}
 	farmers = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 114
 	}
@@ -6905,70 +6885,45 @@
 	}
 }
 2621 = {
-	bureaucrats = {
-		culture = siberian
-		religion = animist
-		size = 0
-	}
 	clergymen = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 2
 	}
 	artisans = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 1
 	}
 	soldiers = {
-		culture = siberian
+		culture = inuit
 		religion = animist
-		size = 0
+		size = 10
 	}
 	farmers = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 101
 	}
-	bureaucrats = {
-		culture = russian
-		religion = orthodox
-		size = 0
-	}
-	clergymen = {
-		culture = russian
-		religion = orthodox
-		size = 0
-	}
-	farmers = {
-		culture = russian
-		religion = orthodox
-		size = 9
-	}
 }
 2664 = {
-	bureaucrats = {
-		culture = siberian
-		religion = animist
-		size = 0
-	}
 	clergymen = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 2
 	}
 	artisans = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 1
 	}
 	soldiers = {
-		culture = siberian
+		culture = inuit
 		religion = animist
-		size = 0
+		size = 5
 	}
 	farmers = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 114
 	}
@@ -7026,82 +6981,67 @@
 	}
 }
 2620 = {
-	bureaucrats = {
-		culture = siberian
-		religion = animist
-		size = 0
-	}
 	clergymen = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 2
 	}
 	artisans = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 1
 	}
 	soldiers = {
-		culture = siberian
+		culture = inuit
 		religion = animist
-		size = 0
+		size = 5
 	}
 	farmers = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 114
 	}
 }
 2660 = {
-	bureaucrats = {
-		culture = siberian
-		religion = animist
-		size = 0
-	}
 	clergymen = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 2
 	}
 	artisans = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 1
 	}
 	soldiers = {
-		culture = siberian
+		culture = inuit
 		religion = animist
-		size = 0
+		size = 5
 	}
 	farmers = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 114
 	}
 }
 2662 = {
-	bureaucrats = {
-		culture = siberian
-		religion = animist
-		size = 0
-	}
 	clergymen = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 2
 	}
 	artisans = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 1
 	}
 	soldiers = {
-		culture = siberian
+		culture = inuit
 		religion = animist
-		size = 0
+		size = 5
 	}
 	farmers = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 114
 	}
@@ -7161,25 +7101,20 @@
 	}
 }
 2669 = {
-	bureaucrats = {
-		culture = siberian
-		religion = animist
-		size = 0
-	}
 	clergymen = {
-		culture = siberian
+		culture = yakut
 		religion = animist
 		size = 2
 	}
 	artisans = {
-		culture = siberian
+		culture = yakut
 		religion = animist
 		size = 1
 	}
 	soldiers = {
-		culture = siberian
+		culture = yakut
 		religion = animist
-		size = 0
+		size = 10
 	}
 	farmers = {
 		culture = siberian
@@ -7207,7 +7142,7 @@
 		size = 7
 	}
 	farmers = {
-		culture = siberian
+		culture = yakut
 		religion = animist
 		size = 510
 	}
@@ -7476,184 +7411,169 @@
 }
 1074 = {
 	clergymen = {
-		culture = siberian
+		culture = koryak
 		religion = animist
-		size = 0
+		size = 1
 	}
 	artisans = {
-		culture = siberian
-		religion = animist
-		size = 0
-	}
-	soldiers = {
-		culture = siberian
-		religion = animist
-		size = 0
-	}
-	farmers = {
-		culture = siberian
-		religion = animist
-		size = 68
-	}
-}
-2638 = {
-	bureaucrats = {
-		culture = siberian
-		religion = animist
-		size = 0
-	}
-	clergymen = {
-		culture = siberian
-		religion = animist
-		size = 2
-	}
-	artisans = {
-		culture = siberian
+		culture = koryak
 		religion = animist
 		size = 1
 	}
 	soldiers = {
-		culture = siberian
+		culture = koryak
 		religion = animist
-		size = 0
+		size = 1
 	}
 	farmers = {
-		culture = siberian
+		culture = koryak
+		religion = animist
+		size = 68
+	}
+	farmers = {
+		culture = ainu
+		religion = animist
+		size = 20
+	}
+}
+2638 = {
+	clergymen = {
+		culture = koryak
+		religion = animist
+		size = 2
+	}
+	artisans = {
+		culture = koryak
+		religion = animist
+		size = 1
+	}
+	soldiers = {
+		culture = koryak
+		religion = animist
+		size = 10
+	}
+	farmers = {
+		culture = koryak
 		religion = animist
 		size = 114
 	}
 }
 2663 = {
-	bureaucrats = {
-		culture = siberian
-		religion = animist
-		size = 0
-	}
 	clergymen = {
-		culture = siberian
+		culture = koryak
 		religion = animist
 		size = 2
 	}
 	artisans = {
-		culture = siberian
+		culture = koryak
 		religion = animist
 		size = 1
 	}
 	soldiers = {
-		culture = siberian
+		culture = koryak
 		religion = animist
-		size = 0
+		size = 10
 	}
 	farmers = {
-		culture = siberian
+		culture = koryak
 		religion = animist
 		size = 114
 	}
 }
 2616 = {
-	bureaucrats = {
-		culture = siberian
-		religion = animist
-		size = 0
-	}
 	clergymen = {
-		culture = siberian
+		culture = koryak
 		religion = animist
 		size = 2
 	}
 	artisans = {
-		culture = siberian
+		culture = koryak
 		religion = animist
 		size = 1
 	}
 	soldiers = {
-		culture = siberian
+		culture = koryak
 		religion = animist
-		size = 0
+		size = 3
 	}
 	farmers = {
-		culture = siberian
+		culture = koryak
 		religion = animist
 		size = 114
 	}
 }
 2633 = {
 	bureaucrats = {
-		culture = siberian
+		culture = koryak
 		religion = animist
 		size = 0
 	}
 	clergymen = {
-		culture = siberian
+		culture = koryak
 		religion = animist
 		size = 2
 	}
 	artisans = {
-		culture = siberian
+		culture = koryak
 		religion = animist
 		size = 1
 	}
 	soldiers = {
-		culture = siberian
+		culture = koryak
 		religion = animist
-		size = 0
+		size = 2
 	}
 	farmers = {
-		culture = siberian
+		culture = koryak
 		religion = animist
 		size = 114
 	}
 }
 1073 = {
 	bureaucrats = {
-		culture = siberian
+		culture = koryak
 		religion = animist
 		size = 5
 	}
 	clergymen = {
-		culture = siberian
+		culture = koryak
 		religion = animist
 		size = 6
 	}
 	artisans = {
-		culture = siberian
+		culture = koryak
 		religion = animist
 		size = 5
 	}
 	soldiers = {
-		culture = siberian
+		culture = koryak
 		religion = animist
-		size = 1
+		size = 5
 	}
 	farmers = {
-		culture = siberian
+		culture = koryak
 		religion = animist
 		size = 224
 	}
 }
 2634 = {
-	bureaucrats = {
-		culture = siberian
-		religion = animist
-		size = 0
-	}
 	clergymen = {
-		culture = siberian
+		culture = koryak
 		religion = animist
 		size = 2
 	}
 	artisans = {
-		culture = siberian
+		culture = koryak
 		religion = animist
 		size = 1
 	}
 	soldiers = {
-		culture = siberian
+		culture = koryak
 		religion = animist
-		size = 0
+		size = 5
 	}
 	farmers = {
-		culture = siberian
+		culture = koryak
 		religion = animist
 		size = 114
 	}
@@ -7740,55 +7660,35 @@
 	}
 }
 2661 = {
-	bureaucrats = {
-		culture = siberian
-		religion = animist
-		size = 0
-	}
-	clergymen = {
-		culture = siberian
-		religion = animist
-		size = 0
-	}
 	artisans = {
-		culture = siberian
+		culture = inuit
 		religion = animist
-		size = 0
+		size = 1
 	}
 	soldiers = {
-		culture = siberian
+		culture = inuit
 		religion = animist
-		size = 0
+		size = 10
 	}
 	farmers = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 66
 	}
 }
 2622 = {
-	bureaucrats = {
-		culture = siberian
-		religion = animist
-		size = 0
-	}
-	clergymen = {
-		culture = siberian
-		religion = animist
-		size = 0
-	}
 	artisans = {
-		culture = siberian
+		culture = inuit
 		religion = animist
-		size = 0
+		size = 1
 	}
 	soldiers = {
-		culture = siberian
+		culture = inuit
 		religion = animist
-		size = 0
+		size = 10
 	}
 	farmers = {
-		culture = siberian
+		culture = inuit
 		religion = animist
 		size = 66
 	}
@@ -8152,28 +8052,23 @@
 		religion = orthodox
 		size = 2241
 	}
-	bureaucrats = {
-		culture = siberian
-		religion = animist
-		size = 186
-	}
 	clergymen = {
-		culture = siberian
+		culture = mongol
 		religion = animist
-		size = 126
+		size = 300
 	}
 	artisans = {
-		culture = siberian
+		culture = mongol
 		religion = animist
 		size = 203
 	}
 	soldiers = {
-		culture = siberian
+		culture = mongol
 		religion = animist
 		size = 83
 	}
 	farmers = {
-		culture = siberian
+		culture = mongol
 		religion = animist
 		size = 7719
 	}
@@ -8500,27 +8395,27 @@
 }
 1084 = {
 	bureaucrats = {
-		culture = siberian
+		culture = ainu
 		religion = animist
 		size = 13
 	}
 	clergymen = {
-		culture = siberian
+		culture = ainu
 		religion = animist
 		size = 36
 	}
 	artisans = {
-		culture = siberian
+		culture = ainu
 		religion = animist
 		size = 23
 	}
 	soldiers = {
-		culture = siberian
+		culture = ainu
 		religion = animist
 		size = 11
 	}
 	farmers = {
-		culture = siberian
+		culture = ainu
 		religion = animist
 		size = 1797
 	}
@@ -8549,54 +8444,49 @@
 }
 2617 = {
 	bureaucrats = {
-		culture = siberian
+		culture = manchu
 		religion = animist
 		size = 10
 	}
 	clergymen = {
-		culture = siberian
+		culture = manchu
 		religion = animist
 		size = 13
 	}
 	artisans = {
-		culture = siberian
+		culture = manchu
 		religion = animist
 		size = 11
 	}
 	soldiers = {
-		culture = siberian
+		culture = manchu
 		religion = animist
 		size = 4
 	}
 	farmers = {
-		culture = siberian
+		culture = manchu
 		religion = animist
 		size = 4489
 	}
 }
 1086 = {
-	bureaucrats = {
-		culture = siberian
-		religion = animist
-		size = 8
-	}
 	clergymen = {
-		culture = siberian
+		culture = ainu
 		religion = animist
 		size = 17
 	}
 	artisans = {
-		culture = siberian
+		culture = ainu
 		religion = animist
 		size = 11
 	}
 	soldiers = {
-		culture = siberian
+		culture = ainu
 		religion = animist
-		size = 4
+		size = 14
 	}
 	farmers = {
-		culture = siberian
+		culture = ainu
 		religion = animist
 		size = 448
 	}

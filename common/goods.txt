@@ -137,6 +137,10 @@ industrial_goods = {
 		cost = 1.8
 		color = { 186 50 40 }
 	}
+	transportation = { 
+		cost = 0.10 
+		color = { 111 60 10 }
+	}
 	lumber = { 
 		cost = 1.0
 		color = { 180 94 26 }

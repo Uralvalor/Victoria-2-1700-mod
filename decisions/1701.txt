@@ -8,14 +8,14 @@ political_decisions = {
 		}	
 		allow = {
 			owns = 994
-			money = 75000
+			money = 15000
 		}
 		
 		effect = {
 			prestige = 15
 			capital = 994
-			money = -75000
-			random_pop = { limit = { type = artisans } money = 75000 }
+			money = -15000
+			random_pop = { limit = { type = artisans } money = 15000 }
 		        add_country_modifier = {
 			name = "western_influences"
 			duration = -1
@@ -36,6 +36,91 @@ political_decisions = {
 			add_core = RUS
 			}
 			set_country_flag = rus_capital_moved
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	dikoe_pole_populated = {
+	
+		picture = dikoe_pole
+		potential = {
+			tag = RUS
+			NOT = { year = 1750 }
+			NOT = { has_country_flag = dikoe_pole_populated }
+		}	
+		allow = {
+            CSK = {
+				vassal_of = RUS
+			}
+			controls = 1008
+			money = 1000
+		}
+		
+		effect = {
+			money = -1000
+			random_pop = { limit = { type = artisans } money = 1000 }
+			1037 =  { 
+						add_province_modifier = {
+					name = influx_of_population
+					duration = 7000
+			        }
+			}
+			1038 =  { 
+			remove_core = CRI
+						add_province_modifier = {
+					name = influx_of_population
+					duration = 7000
+			        }
+			}
+			1039 =  { 
+			remove_core = CRI
+						add_province_modifier = {
+					name = influx_of_population
+					duration = 7000
+			        }
+			}
+			1040 =  { 
+			remove_core = CRI
+						add_province_modifier = {
+					name = influx_of_population
+					duration = 7000
+			        }
+			}
+			1036 =  { 
+			remove_core = CRI
+						add_province_modifier = {
+					name = influx_of_population
+					duration = 7000
+			        }
+			}
+			1045 =  { 
+			remove_core = CRI
+						add_province_modifier = {
+					name = influx_of_population
+					duration = 7000
+			        }
+			}
+			1046 =  { 
+			remove_core = CRI
+						add_province_modifier = {
+					name = influx_of_population
+					duration = 7000
+			        }
+			}
+			1035 =  { 
+						add_province_modifier = {
+					name = influx_of_population
+					duration = 7000
+			        }
+			}
+			1043 =  { 
+						add_province_modifier = {
+					name = influx_of_population
+					duration = 7000
+			        }
+			}
+			set_country_flag = dikoe_pole_populated
 		}
 		ai_will_do = {
 			factor = 1
@@ -86,6 +171,7 @@ political_decisions = {
 	}
 	
 	window_to_east = {
+		picture = window_to_east1
 			potential = {
 			tag = RUS
 			1058 = {
@@ -107,7 +193,7 @@ political_decisions = {
 			}
 
 			allow = {
-			money = 55000
+			money = 10000
 			prestige = 65
 			has_country_flag = rus_capital_moved
                         OR = { 
@@ -134,8 +220,8 @@ political_decisions = {
 			    }
 			}
 		         }
-			money = -55000
-			random_pop = { limit = { type = artisans } money = 55000 }
+			money = -10000
+			random_pop = { limit = { type = artisans } money = 10000 }
 			set_country_flag = window_to_east
 			}
 			

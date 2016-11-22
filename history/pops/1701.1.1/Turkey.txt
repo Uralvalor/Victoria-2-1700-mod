@@ -2532,31 +2532,7 @@
 	}
 }
 899 = {
-	bureaucrats = {
-		culture = turkish
-		religion = sunni
-		size = 237
-	}
-	clergymen = {
-		culture = turkish
-		religion = sunni
-		size = 166
-	}
-	artisans = {
-		culture = turkish
-		religion = sunni
-		size = 214
-	}
-	soldiers = {
-		culture = turkish
-		religion = sunni
-		size = 166
-	}
-	farmers = {
-		culture = turkish
-		religion = sunni
-		size = 16393
-	}
+
 	bureaucrats = {
 		culture = kurdish
 		religion = sunni
@@ -2580,7 +2556,7 @@
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 15486
+		size = 32486
 	}
 	bureaucrats = {
 		culture = mashriqi

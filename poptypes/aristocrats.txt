@@ -17,12 +17,15 @@ rebel =
 
 everyday_needs = {
 	coal = .1
+	cement = 0.1
+	steel = 0.1
 	paper = 1
 	luxury_clothes = .3
 	luxury_furniture = .3
 	wine = 1
 	tobacco = 1
 	coffee = .5
+	transportation = 10
 }
 
 life_needs = {

@@ -2659,6 +2659,40 @@ country_event = {
 		clr_country_flag = calling_all_allies
 	}
 }
+
+country_event = {
+
+	id = 170001
+
+	title = "Карл Великий"
+	desc = "После победы в Северной войне наступил Золотой Век Шведской Империи"
+	picture = "polrebel"
+	
+	trigger = {
+		tag = SWE
+		is_greater_power = yes
+		NOT = { year = 1750 }
+		war = no
+		AND = {
+		984 = { owned_by  = SWE }
+		358 = { owned_by  = SWE } }
+	}
+	
+	fire_only_once = yes
+	mean_time_to_happen =  {
+		days = 1
+	}
+	
+
+	option = {
+		name = "Carolus Rex"
+		add_country_modifier = {
+					name = carl_rex
+					duration = 5000
+				}
+	}
+}
+
  province_event = {
 	id = 11109
 	title = "eventname11109"

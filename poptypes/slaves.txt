@@ -23,6 +23,7 @@ everyday_needs = {
 	grain =  .05
 	coal = .1
 	tea = .1
+	transportation = 0.5
 }
 
 luxury_needs = {

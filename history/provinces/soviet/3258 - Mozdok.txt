@@ -6,10 +6,6 @@ trade_goods = grain
 terrain = dry_grassland
 life_rating = 35
 1750.1.1 = {
-	owner = CRC
-	controller = CRC
-}
-1815.1.1 = {
 	owner = RUS
 	controller = RUS
 }

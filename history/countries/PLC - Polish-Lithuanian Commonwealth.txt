@@ -31,6 +31,7 @@ academic_institutions = universities
 	
 
 # Political reforms
+gov_religion = catholic
 slavery = no_slavery
 upper_house_composition = state_equal_weight
 vote_franschise = landed_voting
@@ -68,5 +69,6 @@ upper_house = {
 oob = "PLC_oob.txt"
 
 
+1700.1.1 = { decision  = cr_cat  }
 1750.1.1 = {
 civilized = yes }

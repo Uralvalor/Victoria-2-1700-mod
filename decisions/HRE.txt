@@ -44,17 +44,12 @@ political_decisions = {
 			has_country_flag = left_hre
 			has_country_flag = holy_roman_emperor 
 			} 
-				NOT = { 
-					OR = { tag = AUS
-					alliance_with = AUS
-					in_sphere = AUS }
-				}
 				NOT = { relation = { who = AUS value = 0 } }
 			}
 
 			allow = {
 				has_country_modifier = hre_member
-				NOT = { 
+				NOT = {
 					OR = { tag = AUS
 					alliance_with = AUS
 					in_sphere = AUS }
@@ -64,10 +59,6 @@ political_decisions = {
 
 			effect = {
 				remove_country_modifier = hre_member
-				add_country_modifier = {
-					name = left_hre
-					duration = 3650
-				}
 				any_country = { 
 					limit = { has_country_modifier = hre_member }
 					relation = { who = THIS value = -50 }
@@ -82,13 +73,13 @@ political_decisions = {
 				}
 			}
 		ai_will_do = {
-			factor = 1
+			factor = 0
 		}		
 	}
 
-	dismantle_hre = { 
+	dismantle_hre = {
 	picture = hre_pic 
-		potential = { 
+		potential = {
 			war_with = AUS
 			AUS = {
 				has_country_flag = holy_roman_emperor 
@@ -105,7 +96,7 @@ political_decisions = {
 					controlled_by = THIS
 						}
 					}
-		} 
+		}
 
 		effect = {
 			set_global_flag = hre_dismantled 
@@ -121,7 +112,7 @@ political_decisions = {
 			clr_country_flag  = holy_roman_emperor
 						}				
 				
-		} 
+		}
 	}
 			
 
@@ -330,139 +321,4 @@ country_event = 401009
 }
 }
 
-ressurect_the_hre = {
-potential = {
-is_greater_power = yes
-OR = { 
-tag = CZH
-tag = PRU
-tag = BAV
-tag = SAX
-tag = HAN
-}
-NOT = { exists = HRE }
-NOT = { exists = GER }
-NOT = { exists = SGF }
-NOT = { year = 1900 }
-government = absolute_monarchy
-ruling_party_ideology = reactionary
-}	
-allow = {
-prestige = 100
-CZH = {
-all_core = {
-OR = {
-owned_by = THIS
-owner = {
-in_sphere = THIS
-}
-}
-}
-}
-PRU = {
-all_core = {
-OR = {
-owned_by = THIS
-owner = {
-in_sphere = THIS
-}
-}
-}
-}
-GER = {
-all_core = {
-OR = {
-owned_by = THIS
-owner = {
-in_sphere = THIS
-}
-}
-}
-}
-HAN = {
-all_core = {
-OR = {
-owned_by = THIS
-owner = {
-in_sphere = THIS
-}
-}
-}
-}
-SAX = {
-all_core = {
-OR = {
-owned_by = THIS
-owner = {
-in_sphere = THIS
-}
-}
-}
-}
-BAV = {
-all_core = {
-OR = {
-owned_by = THIS
-owner = {
-in_sphere = THIS
-}
-}
-}
-}
-}
-
-effect = {
-political_reform = none_voting
-political_reform = party_appointed
-political_reform = no_meeting
-political_reform = state_press
-political_reform = state_controlled
-political_reform = underground_parties
-add_accepted_culture = south_german
-add_accepted_culture = north_german
-add_accepted_culture = czech
-add_accepted_culture = dutch
-add_accepted_culture = flemish
-prestige = 25
-change_tag = HRE
-any_country = {
-limit = {
-OR = { 
-primary_culture = south_german
-primary_culture = north_german
-primary_culture = czech
-primary_culture = dutch
-primary_culture = burgundian
-primary_culture = flemish
-}
-in_sphere = THIS
-NOT = {
-tag = THIS
-}
-}
-annex_to = THIS
-}
-any_owned = {
-limit = {
-OR = { 
-is_core = GER
-is_core = CZH
-is_core = PRU
-is_core = LOM
-is_core = MOD
-is_core = SAR
-is_core = PAR
-is_core = SAX
-is_core = BAV
-is_core = HAN
-}
-}
-add_core = HRE
-}
-capital = 564
-}
-ai_will_do = {
-factor = 1
-}
-}
 }

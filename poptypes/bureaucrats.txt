@@ -49,6 +49,8 @@ luxury_needs = {
 
 everyday_needs = {
 	coal = .1
+	cement = 0.1
+	steel = 0.1
 	liquor = .5
 	regular_clothes = .5
 	furniture = .4
@@ -56,6 +58,7 @@ everyday_needs = {
 	glass = .1
 	tobacco = .3
 	tea = .5
+	transportation = 5.75
 }
 life_needs = {
 	cattle = .075

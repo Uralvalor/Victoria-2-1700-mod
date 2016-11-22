@@ -13,6 +13,7 @@ everyday_needs = {
 	regular_clothes = .12
 	furniture = .11
 	explosives = .025
+	transportation = 5.75
 }
 
 life_needs = {
@@ -25,6 +26,8 @@ life_needs = {
 
 
 luxury_needs = {	
+	cement = 0.1
+	steel = 0.1
 	regular_clothes = .3
 	furniture = .3
 	liquor = .15

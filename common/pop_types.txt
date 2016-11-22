@@ -323,6 +323,12 @@ migration_chance =
 		is_accepted_culture  = yes
 	}
 
+	modifier = {
+		factor = -0.7
+		country = {
+			has_country_flag = serfdom_not_abolished
+		}
+	}
 	group = {
 		modifier = {
 			factor = 0.1

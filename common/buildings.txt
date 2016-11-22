@@ -23,6 +23,7 @@ aeroplane_factory = {
 		electric_gear = 60
 		steel = 60
 		cement = 60
+	    transportation = 200
 	}
 	time = 730
 	visibility = yes
@@ -44,6 +45,7 @@ barrel_factory = {
 		electric_gear = 50
 		steel = 50
 		cement = 50
+	    transportation = 170
 	}
 
 	time = 730
@@ -66,6 +68,7 @@ automobile_factory = {
 		electric_gear = 20
 		steel = 40
 		cement = 40
+	    transportation = 120
 	}
 	time = 730
 	visibility = yes
@@ -88,6 +91,7 @@ radio_factory = {
 		electric_gear = 20
 		steel = 20
 		cement = 20
+	    transportation = 80
 	}
 	time = 365
 	visibility = yes
@@ -110,6 +114,7 @@ telephone_factory = {
 		electric_gear = 20
 		steel = 20
 		cement = 20
+	    transportation = 80
 	}
 	time = 365
 	visibility = yes
@@ -133,6 +138,7 @@ electric_gear_factory = {
 		machine_parts = 30
 		steel = 20
 		cement = 20
+	    transportation = 60
 	}
 	time = 365
 	visibility = yes
@@ -154,6 +160,7 @@ machine_parts_factory = {
 		machine_parts = 20
 		iron = 20
 		cement = 20
+	    transportation = 60
 	}
 	time = 730
 	visibility = yes
@@ -175,6 +182,7 @@ synthetic_oil_factory = {
 		machine_parts = 30
 		steel = 20
 		cement = 20
+	    transportation = 60
 	}
 	time = 730
 	visibility = yes
@@ -196,6 +204,7 @@ fuel_refinery = {
 		machine_parts = 20
 		steel = 20
 		cement = 20
+	    transportation = 60
 	}
 	time = 365
 	visibility = yes
@@ -219,6 +228,7 @@ steamer_shipyard = {
 		machine_parts = 40
 		steel = 20
 		cement = 20
+	    transportation = 60
 	}
 	time = 730
 	visibility = yes
@@ -239,6 +249,7 @@ clipper_shipyard = {
 		machine_parts = 20
 		iron = 20
 		cement = 20
+	    transportation = 60
 	}
 	time = 730
 	visibility = yes
@@ -261,6 +272,7 @@ luxury_clothes_factory = {
 		machine_parts = 20
 		iron = 20
 		cement = 20
+	    transportation = 60
 	}
 	time = 730
 	visibility = yes
@@ -281,6 +293,7 @@ luxury_furniture_factory = {
 		machine_parts = 20
 		iron = 20
 		cement = 20
+	    transportation = 60
 	}
 	time = 730
 	visibility = yes
@@ -303,6 +316,7 @@ steel_factory = {
 		machine_parts = 20
 		iron = 20
 		coal = 20
+	    transportation = 60
 	}
 	time = 365
 	visibility = yes
@@ -323,6 +337,7 @@ artillery_factory = {
 		machine_parts = 20
 		iron = 20
 		cement = 20
+	    transportation = 54
 	}
 	time = 730
 	visibility = yes
@@ -342,6 +357,7 @@ small_arms_factory = {
 		machine_parts = 14
 		iron = 20
 		cement = 20
+	    transportation = 54
 	}
 	time = 730
 	visibility = yes
@@ -363,6 +379,7 @@ furniture_factory = {
 		machine_parts = 14
 		iron = 20
 		cement = 20
+	    transportation = 54
 	}
 	time = 730
 	visibility = yes
@@ -382,6 +399,7 @@ paper_mill = {
 		machine_parts = 14
 		iron = 20
 		cement = 20
+	    transportation = 54
 	}
 	time = 730
 	visibility = yes
@@ -403,6 +421,7 @@ metal_money_building = {
 		coal = 40
 		iron = 20
 		cement = 20
+	    transportation = 152
 	}
 	time = 730
 	visibility = yes
@@ -422,6 +441,7 @@ paper_money_building  = {
 		machine_parts = 14
 		iron = 20
 		cement = 20
+	    transportation = 54
 	}
 	time = 730
 	visibility = yes
@@ -441,6 +461,7 @@ credit_money_building = {
 		machine_parts = 14
 		iron = 20
 		cement = 20
+	    transportation = 54
 	}
 	time = 730
 	visibility = yes
@@ -460,6 +481,7 @@ jewellery_factory = {
 		cement = 6
 		machine_parts = 8
 		iron = 20
+	    transportation = 34
 	}
 	time = 730
 	visibility = yes
@@ -478,6 +500,7 @@ regular_clothes_factory = {
 		machine_parts = 14
 		iron = 20
 		cement = 20
+	    transportation = 54
 	}
 	time = 730
 	visibility = yes
@@ -496,6 +519,7 @@ explosives_factory = {
 		machine_parts = 14
 		iron = 20
 		cement = 20
+	    transportation = 54
 	}
 	time = 730
 	visibility = yes
@@ -518,6 +542,7 @@ ammunition_factory = {
 		machine_parts = 10
 		iron = 20
 		cement = 20
+	    transportation = 48
 	}
 	time = 730
 	visibility = yes
@@ -538,6 +563,7 @@ canned_food_factory = {
 		machine_parts = 8
 		iron = 20
 		cement = 20
+	    transportation = 48
 	}
 	time = 730
 	visibility = yes
@@ -558,6 +584,7 @@ dye_factory = {
 		machine_parts = 8
 		iron = 20
 		cement = 20
+	    transportation = 48
 	}
 	time = 365
 	visibility = yes
@@ -579,6 +606,7 @@ liquor_distillery = {
 		coal = 40
 		iron = 20
 		cement = 20
+	    transportation = 152
 	}
 	time = 730
 	visibility = yes
@@ -600,6 +628,7 @@ winery = {
 		coal = 40
 		iron = 20
 		cement = 20
+	    transportation = 152
 	}
 	time = 730
 	visibility = yes
@@ -622,6 +651,7 @@ lumber_mill = {
 		machine_parts = 2
 		iron = 20
 		cement = 20
+	    transportation = 42
 	}
 	time = 365
 	visibility = yes
@@ -641,6 +671,7 @@ fabric_factory = {
 		machine_parts = 2
 		iron = 20
 		cement = 20
+	    transportation = 42
 	}
 	time = 365
 	visibility = yes
@@ -660,6 +691,7 @@ cement_factory = {
 		machine_parts = 2
 		iron = 20
 		timber = 20
+	    transportation = 42
 	}
 	time = 365
 	visibility = yes
@@ -680,6 +712,7 @@ glass_factory = {
 		coal = 20
 		iron = 20
 		cement = 20
+	    transportation = 96
 	}
 	time = 365
 	visibility = yes
@@ -700,6 +733,7 @@ fertilizer_factory = {
 		machine_parts = 20
 		iron = 20
 		cement = 20
+	    transportation = 80
 	}
 	time = 365
 	visibility = yes
@@ -718,6 +752,7 @@ fort = {
 		explosives = 5
 		small_arms = 5
 		artillery = 4
+	    transportation = 34
 	}
 	time = 1080 
 	visibility = yes
@@ -729,13 +764,14 @@ fort = {
 
 naval_base = {    
 	type = naval_base
-	cost = 15000
+	cost = 5000
 	goods_cost =
 	{
-		timber = 5
-		lumber = 5
-		cement = 10
-		steel = 10
+		timber = 15
+		lumber = 15
+		cement = 5
+		steel = 50
+	    transportation = 85
 	}
 	time = 1080
 	naval_capacity = 1
@@ -750,8 +786,8 @@ naval_base = {
 	colonial_range = 50
 	local_ship_build = -0.10
 	population_growth = 0.001
-        farm_rgo_eff = 0.02 #transportation 
-        mine_rgo_eff = 0.02 #transportation 
+        farm_rgo_eff = 0.02 #transportationation 
+        mine_rgo_eff = 0.02 #transportationation 
 	import_cost = -0.01
 }
        
@@ -759,9 +795,10 @@ railroad = {
 	type = infrastructure
 	goods_cost =
 	{
-		timber = 10
-		cement = 10
-		steel = 10
+		timber = 15
+		cement = 120
+		steel = 75
+	    transportation = 210
 	}
 	time = 720
 	visibility = yes

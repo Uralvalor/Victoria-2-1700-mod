@@ -4,13 +4,11 @@ name = "Война за Испанское наследство"
 	add_attacker = AUS
 	add_attacker = ENL
 	add_attacker = NET
-	#add_attacker = SAV - вначале был союзником франции потом вступил на стороне СРИ (поддержал востание гугенотов)
-	add_attacker = PRU
-	add_attacker = POR
+        add_attacker = PRU
+	#add_attacker = POR - c 1703 года
 	add_attacker = SAX
 	add_attacker = WUR
 	add_attacker = BAD
-	add_attacker = CLN
 	add_attacker = LUB
 	add_attacker = TRR
 	add_attacker = NAS
@@ -31,7 +29,11 @@ name = "Война за Испанское наследство"
 	add_attacker = AGO
 	add_defender = FRA
 	add_defender = SPA
+	add_defender = CLN
+	add_defender = MNT
 	add_defender = BAV
+	add_defender = SAV #- вначале был союзником франции потом вступил на стороне СРИ (поддержал востание гугенотов)
+	
 	
 	# actor
 	# receiver
@@ -72,12 +74,12 @@ name = "Война за Испанское наследство"
 		state_province_id = 722
 	}
 
-	war_goal = {
-		casus_belli = acquire_state
-		actor = SAV
-		receiver = SPA
-		state_province_id = 765
-	}
+#	war_goal = {
+#		casus_belli = acquire_state
+#		actor = SAV
+#		receiver = SPA
+#		state_province_id = 765
+#	}
 	war_goal = {
 		casus_belli = acquire_state
 		actor = AUS
@@ -230,7 +232,6 @@ name = "Война за Испанское наследство"
 	rem_attacker = SAX
 	rem_attacker = WUR
 	rem_attacker = BAD
-	rem_attacker = CLN
 	rem_attacker = LUB
 	rem_attacker = TRR
 	rem_attacker = NAS
@@ -252,4 +253,6 @@ name = "Война за Испанское наследство"
 	rem_defender = FRA
 	rem_defender = SPA
 	rem_defender = BAV
+	rem_defender = CLN
+	rem_defender = SAV
 }

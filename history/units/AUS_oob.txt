@@ -26,12 +26,17 @@ leader = {
 #Sphere of Influence
 
 
-BAV = {
+#BAV = {
+#	value = 125
+#	level = 5
+#	influence_value = 200
+#}
+
+HEK = {
 	value = 125
 	level = 5
 	influence_value = 200
 }
-
 SAL = {
 	value = 125
 	level = 5
@@ -73,11 +78,6 @@ COB = {
 	level = 5
 	influence_value = 200
 }
-HEK = {
-	value = 125
-	level = 5
-	influence_value = 200
-}
 MEI = {
 	value = 125
 	level = 5
@@ -108,11 +108,11 @@ HAN = {
 	level = 5
 	influence_value = 200
 }
-CLN = {
-	value = 125
-	level = 5
-	influence_value = 200
-}
+#CLN = {
+#	value = 125
+#	level = 5
+#	influence_value = 200
+#}
 MUN = {
 	value = 125
 	level = 5
