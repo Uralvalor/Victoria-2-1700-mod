@@ -93,6 +93,7 @@ oob = "RUS_oob.txt"
 1735.1.1 = {
 decision  = move_capital_to_st_petersburg 
 decision  = declare_russian_empire
+decision  = dikoe_pole_populated 
 set_country_flag  = window_to_east
 set_country_flag  = bashkir_rebellion 
 government = absolute_monarchy

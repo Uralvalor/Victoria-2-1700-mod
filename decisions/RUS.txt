@@ -238,6 +238,8 @@ political_decisions = {
 	}
 
 	russian_vladivostok = {
+                
+		picture = vladivostok
 		potential = {
 			tag = RUS
 			owns = 1085

@@ -1,10 +1,12 @@
 owner = RUS
 controller = RUS
-add_core = RUS
 trade_goods = grain
 life_rating = 35
 terrain = temperate_grassland
 fort = 1
+1750.1.1 = {
+add_core = RUS
+}
 1923.1.1 = {
 	owner = SOV
 	controller = SOV

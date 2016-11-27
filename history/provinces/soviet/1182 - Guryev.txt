@@ -3,11 +3,11 @@ controller = CSK
 trade_goods = wool
 life_rating = 27
 add_core = URA
-add_core = RUS
 add_core = CSK
 colonial = 2
 terrain = semi_desert
 1750.1.1 = {
+add_core = RUS
 	owner = RUS
 	controller = RUS
 

@@ -21,6 +21,7 @@ political_decisions = {
 			name = "ch_rel"
 			duration = 18250
 		        }
+				political_reform = orthodox
 		        set_country_flag = orthodox
 			clr_country_flag = secularism
 			clr_country_flag = catholic 
@@ -62,6 +63,7 @@ political_decisions = {
 			name = "ch_rel"
 			duration = 18250
 		        }
+				political_reform = secularism
 		        clr_country_flag = orthodox
 			set_country_flag = secularism
 			clr_country_flag = catholic 
@@ -104,6 +106,7 @@ political_decisions = {
 			name = "ch_rel"
 			duration = 18250
 		        }
+				political_reform = catholic
 		        clr_country_flag = orthodox
 			clr_country_flag = secularism
 			set_country_flag = catholic 
@@ -146,6 +149,7 @@ political_decisions = {
 			name = "ch_rel"
 			duration = 18250
 		        }
+				political_reform = protestant
 		        clr_country_flag = orthodox
 			clr_country_flag = secularism
 			clr_country_flag = catholic 
@@ -188,6 +192,7 @@ political_decisions = {
 			name = "ch_rel"
 			duration = 18250
 		        }
+				political_reform = coptic
 		        clr_country_flag = orthodox
 			clr_country_flag = secularism
 			clr_country_flag = catholic 
@@ -230,6 +235,7 @@ political_decisions = {
 			name = "ch_rel"
 			duration = 18250
 		        }
+				political_reform = sunni
 		        clr_country_flag = orthodox
 			clr_country_flag = secularism
 			clr_country_flag = catholic 
@@ -272,6 +278,7 @@ political_decisions = {
 			name = "ch_rel"
 			duration = 18250
 		        }
+				political_reform = shiite
 		        clr_country_flag = orthodox
 			clr_country_flag = secularism
 			clr_country_flag = catholic 
@@ -314,6 +321,7 @@ political_decisions = {
 			name = "ch_rel"
 			duration = 18250
 		        }
+				political_reform = jewish
 		        clr_country_flag = orthodox
 			clr_country_flag = secularism
 			clr_country_flag = catholic 
@@ -356,6 +364,7 @@ political_decisions = {
 			name = "ch_rel"
 			duration = 18250
 		        }
+				political_reform = mahayana
 		        clr_country_flag = orthodox
 			clr_country_flag = secularism
 			clr_country_flag = catholic 
@@ -398,6 +407,7 @@ political_decisions = {
 			name = "ch_rel"
 			duration = 18250
 		        }
+				political_reform = gelugpa
 		        clr_country_flag = orthodox
 			clr_country_flag = secularism
 			clr_country_flag = catholic 
@@ -440,6 +450,7 @@ political_decisions = {
 			name = "ch_rel"
 			duration = 18250
 		        }
+				political_reform = theravada
 		        clr_country_flag = orthodox
 			clr_country_flag = secularism
 			clr_country_flag = catholic 
@@ -482,6 +493,7 @@ political_decisions = {
 			name = "ch_rel"
 			duration = 18250
 		        }
+				political_reform = hindu
 		    clr_country_flag = orthodox
 			clr_country_flag = secularism
 			clr_country_flag = catholic 
@@ -525,6 +537,7 @@ political_decisions = {
 			name = "ch_rel"
 			duration = 18250
 		        }
+				political_reform = shinto
 		    clr_country_flag = orthodox
 			clr_country_flag = secularism
 			clr_country_flag = catholic 
@@ -567,6 +580,7 @@ political_decisions = {
 			name = "ch_rel"
 			duration = 18250
 		        }
+				political_reform = sikh
 		    clr_country_flag = orthodox
 			clr_country_flag = secularism
 			clr_country_flag = catholic 
@@ -608,6 +622,7 @@ political_decisions = {
 			name = "ch_rel"
 			duration = 18250
 		        }
+				political_reform = animist
 		    clr_country_flag = orthodox
 			clr_country_flag = secularism
 			clr_country_flag = catholic 

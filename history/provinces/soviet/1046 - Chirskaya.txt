@@ -1,11 +1,13 @@
 owner = CSK
 controller = CSK
 add_core = CSK
-add_core = RUS
 add_core = CRI
 trade_goods = coal
 life_rating = 32
 terrain = dry_grassland
+1750.1.1 = {
+add_core = RUS
+}
 1750.1.1 = {
 	owner = RUS
 	controller = RUS

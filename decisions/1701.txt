@@ -1,5 +1,6 @@
 political_decisions = {
 
+
 	move_capital_to_st_petersburg = {
 		potential = {
 			tag = RUS
@@ -53,20 +54,25 @@ political_decisions = {
             CSK = {
 				vassal_of = RUS
 			}
+            UKR = {
+				vassal_of = RUS
+			}
 			controls = 1008
-			money = 1000
+			money = 5000
 		}
 		
 		effect = {
-			money = -1000
+			money = -5000
 			random_pop = { limit = { type = artisans } money = 1000 }
 			1037 =  { 
+			add_core = RUS
 						add_province_modifier = {
 					name = influx_of_population
 					duration = 7000
 			        }
 			}
 			1038 =  { 
+			add_core = RUS
 			remove_core = CRI
 						add_province_modifier = {
 					name = influx_of_population
@@ -75,6 +81,7 @@ political_decisions = {
 			}
 			1039 =  { 
 			remove_core = CRI
+			add_core = RUS
 						add_province_modifier = {
 					name = influx_of_population
 					duration = 7000
@@ -82,6 +89,7 @@ political_decisions = {
 			}
 			1040 =  { 
 			remove_core = CRI
+			add_core = RUS
 						add_province_modifier = {
 					name = influx_of_population
 					duration = 7000
@@ -89,6 +97,7 @@ political_decisions = {
 			}
 			1036 =  { 
 			remove_core = CRI
+			add_core = RUS
 						add_province_modifier = {
 					name = influx_of_population
 					duration = 7000
@@ -96,6 +105,7 @@ political_decisions = {
 			}
 			1045 =  { 
 			remove_core = CRI
+			add_core = RUS
 						add_province_modifier = {
 					name = influx_of_population
 					duration = 7000
@@ -103,22 +113,54 @@ political_decisions = {
 			}
 			1046 =  { 
 			remove_core = CRI
+			add_core = RUS
 						add_province_modifier = {
 					name = influx_of_population
 					duration = 7000
 			        }
 			}
 			1035 =  { 
+			add_core = RUS
 						add_province_modifier = {
 					name = influx_of_population
 					duration = 7000
 			        }
 			}
 			1043 =  { 
+			add_core = RUS
 						add_province_modifier = {
 					name = influx_of_population
 					duration = 7000
 			        }
+			}
+			1016 = {
+			any_pop = {
+				limit = {
+				    has_pop_religion = protestant
+				    type = farmers
+					has_pop_culture = russian
+				}
+				move_pop = 1039
+			}
+			}
+			1033 = {
+			any_pop = {
+				limit = {
+				    has_pop_religion = protestant
+				    type = farmers
+					has_pop_culture = russian
+				}
+				move_pop = 1043
+			}
+			}
+			3259 = {
+			any_pop = {
+				limit = {
+				    type = bureaucrats
+					has_pop_culture = russian
+				}
+				move_pop = 1036
+			}
 			}
 			set_country_flag = dikoe_pole_populated
 		}

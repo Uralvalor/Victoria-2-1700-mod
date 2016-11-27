@@ -1,11 +1,13 @@
 owner = RUS
 controller = RUS
-add_core = RUS
 add_core = CSK
 add_core = CRI
 trade_goods = wool
 life_rating = 30
 terrain = semi_desert
+1750.1.1 = {
+add_core = RUS
+}
 1923.1.1 = {
 	owner = SOV
 	controller = SOV

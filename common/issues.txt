@@ -14,6 +14,7 @@ party_issues = {
 	}
 	economic_policy = {
 		laissez_faire = {
+		     
 			max_tax = 0.35
 			factory_owner_cost = 0.3
 			factory_output = 0.05
@@ -40,6 +41,7 @@ party_issues = {
 		}
 		interventionism = {
 			factory_owner_cost = 0.5
+		     
 			
 			rules = {
 				build_factory = no
@@ -66,6 +68,7 @@ party_issues = {
 		state_capitalism = {
 			min_tax = 0.25
 			factory_owner_cost = 0.6
+		     
 			rules = {
 				build_factory = yes
 				expand_factory = yes

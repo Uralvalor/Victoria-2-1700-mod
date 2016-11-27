@@ -223,7 +223,12 @@
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 41827
+		size = 11827
+	}
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 30000
 	}
 	clergymen = {
 		culture = ukrainian
@@ -2994,7 +2999,7 @@
 	}
 }
 1036 = {
-	bureaucrats = {
+	aristocrats = {
 		culture = georgian
 		religion = orthodox
 		size = 100

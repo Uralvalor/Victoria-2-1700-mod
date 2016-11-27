@@ -1,12 +1,14 @@
 owner = CSK
 controller = CSK
 add_core = CSK
-add_core = RUS
 add_core = CRI
 trade_goods = cattle
 life_rating = 35
 terrain = good_farmland
 naval_base = 1
+1750.1.1 = {
+add_core = RUS
+}
 1750.1.1 = {
 	owner = RUS
 	controller = RUS
