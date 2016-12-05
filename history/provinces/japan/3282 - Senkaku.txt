@@ -1,0 +1,9 @@
+
+trade_goods = iron
+life_rating = 10
+terrain = tundra_mountains
+1923.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+}

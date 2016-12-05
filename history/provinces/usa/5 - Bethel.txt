@@ -7,8 +7,10 @@ terrain = boreal_forest_hills
 	controller = RUS
 }
 1914.1.1 = {
-	 
-	 
-	 
+
+	owner = USA
+	controller = USA
+	add_core = USA
+	colonial = no
 	remove_core = RUS
 }

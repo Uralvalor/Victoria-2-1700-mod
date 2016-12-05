@@ -8,8 +8,10 @@ terrain = tundra_mountains
 	colonial = 2
 }
 1914.1.1 = {
-	 
-	 
-	 
+
+	owner = USA
+	controller = USA
+	add_core = USA
+	colonial = no
 	trade_goods = precious_metal
 }

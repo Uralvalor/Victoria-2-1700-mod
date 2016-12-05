@@ -8,7 +8,9 @@ terrain = boreal_forest_hills
 	colonial = 2
 }
 1914.1.1 = {
-	 
-	 
-	 
+
+	owner = USA
+	controller = USA
+	add_core = USA
+	colonial = no 
 }

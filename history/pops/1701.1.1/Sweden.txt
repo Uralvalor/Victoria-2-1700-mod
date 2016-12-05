@@ -116,16 +116,43 @@
 		size = 418
 	}
 }
-321 = {
+3281 = {
 	clergymen = {
 		culture = swedish
 		religion = protestant
-		size = 19
+		size = 9
 	}
 	artisans = {
 		culture = swedish
 		religion = protestant
-		size = 80
+		size = 10
+	}
+	labourers = {
+		culture = swedish
+		religion = protestant
+		size = 477
+	}
+	artisans = {
+		culture = finnish
+		religion = protestant
+		size = 9
+	}
+	farmers = {
+		culture = sami
+		religion = protestant
+		size = 1982
+	}
+}
+321 = {
+	clergymen = {
+		culture = swedish
+		religion = protestant
+		size = 9
+	}
+	artisans = {
+		culture = swedish
+		religion = protestant
+		size = 70
 	}
 	soldiers = {
 		culture = swedish
@@ -135,17 +162,12 @@
 	labourers = {
 		culture = swedish
 		religion = protestant
-		size = 1477
+		size = 1000
 	}
 	artisans = {
 		culture = finnish
 		religion = protestant
-		size = 19
-	}
-	farmers = {
-		culture = sami
-		religion = protestant
-		size = 1982
+		size = 10
 	}
 	farmers = {
 		culture = finnish

@@ -2,10 +2,17 @@
 trade_goods = fish
 life_rating = 20
 terrain = tundra_mountains
+1861.1.1 = {
+	owner = RUS
+	controller = RUS
+	colonial = 2
+}
 1914.1.1 = {
-	 
-	 
-	 
+
+	owner = USA
+	controller = USA
+	add_core = USA
+	colonial = no
 	remove_core = RUS
 	trade_goods = precious_metal
 }

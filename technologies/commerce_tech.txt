@@ -439,6 +439,28 @@ bretton_woods_system = {
 
 
 #economic_thought_and_critique
+#salamanca_school = {
+#	area = economic_thought_and_critique
+#	year = 1600
+#	cost = 1200
+#	
+#	factory_input = -0.01
+#	ai_chance = {
+#		factor = 2
+#		modifier = {
+#			factor = 1.02
+#			tech_school = commerce_tech_school
+#		}
+#		modifier = {
+#			factor = 1.05
+#			literacy = 0.3 
+#		}
+#		modifier = {
+#			factor = 1.05
+#			literacy = 0.6
+#		}
+#	}
+#}
 physiocracy = {
 	area = economic_thought_and_critique
 	year = 1750
@@ -516,7 +538,7 @@ late_classical_theory = {
 }
 collectivist_theory = {
 	area = economic_thought_and_critique
-	year = 1836
+	year = 1846
 	cost = 10800
 
 	factory_input = -0.01
@@ -546,8 +568,8 @@ collectivist_theory = {
 }
 the_historical_theory = {
 	area = economic_thought_and_critique
-	year = 1850
-	cost = 14400
+	year = 1860
+	cost = 12400
 
 	factory_input = -0.01
 	ai_chance = {
@@ -577,7 +599,7 @@ the_historical_theory = {
 neoclassical_theory = {
 	area = economic_thought_and_critique
 	year = 1870
-	cost = 18000
+	cost = 15000
 
 	factory_input = -0.01
 	ai_chance = {
@@ -607,7 +629,7 @@ neoclassical_theory = {
 keynesian_economics = {
 	area = economic_thought_and_critique
 	year = 1900
-	cost = 21600
+	cost = 17600
 
 	factory_input = -0.01
 	ai_chance = {
@@ -634,10 +656,40 @@ keynesian_economics = {
 		}		
 	}
 }
+#austrian_school = {
+#	area = economic_thought_and_critique
+#	year = 1920
+#	cost = 20600
+#
+#	factory_input = -0.01
+#	ai_chance = {
+#		factor = 1.01
+#		modifier = {
+#			factor = 1.2
+#			industrial_score = 1500 #1000
+#		}
+#		modifier = {
+#			factor = 1.2
+#			industrial_score = 2000 #1500
+#		}
+#		modifier = {
+#			factor = 1.02
+#			tech_school = commerce_tech_school
+#		}
+#		modifier = {
+#			factor = 1.05
+#			literacy = 0.3 
+#		}
+#		modifier = {
+#			factor = 1.05
+#			literacy = 0.6
+#		}		
+#	}
+#}
 monetarism = {
 	area = economic_thought_and_critique
 	year = 1930
-	cost = 25000
+	cost = 21000
 
 	factory_input = -0.01
 	ai_chance = {

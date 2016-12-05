@@ -148,30 +148,10 @@
 	}
 }
 1181 = {
-	bureaucrats = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 211
-	}
-	clergymen = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 116
-	}
-	artisans = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 116
-	}
-	soldiers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 116
-	}
 	farmers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 5024
+		culture = kazak
+		religion = sunni
+		size = 2000
 	}
 }
 1184 = {
@@ -295,11 +275,6 @@
 		size = 187
 	}
 	farmers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 8494
-	}
-	farmers = {
 		culture = kazak
 		religion = sunni
 		size = 3943
@@ -307,6 +282,31 @@
 }
 1188 = {
 
+	bureaucrats = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 211
+	}
+	clergymen = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 116
+	}
+	artisans = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 116
+	}
+	soldiers = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 116
+	}
+	farmers = {
+		culture = kalmyk
+		religion = gelugpa
+		size = 5024
+	}
 	bureaucrats = {
 		culture = kalmyk
 		religion = gelugpa
@@ -355,7 +355,7 @@
 	farmers = {
 		culture = kazak
 		religion = sunni
-		size = 7727
+		size = 5727
 	}
 	bureaucrats = {
 		culture = kalmyk

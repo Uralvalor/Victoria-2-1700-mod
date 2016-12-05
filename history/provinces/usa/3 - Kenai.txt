@@ -1,14 +1,16 @@
 
 trade_goods = fish
-life_rating = 30
+life_rating = 20
 terrain = boreal_forest_mountains
 1815.1.1 = {
 	owner = RUS
 	controller = RUS
 }
 1914.1.1 = {
-	 
-	 
-	 
+
+	owner = USA
+	controller = USA
+	add_core = USA
+	colonial = no
 	remove_core = RUS
 }

@@ -4,11 +4,13 @@
 	controller = RUS
 }
 trade_goods = fish
-life_rating = 20
+life_rating = 30
 terrain = tundra_mountains
 1914.1.1 = {
-	 
-	 
-	 
+
+	owner = USA
+	controller = USA
+	add_core = USA
+	colonial = no
 	remove_core = RUS
 }
