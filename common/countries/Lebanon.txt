@@ -2,7 +2,7 @@
 graphical_culture = OttomanGC
 
 party = {
-	name = "LEB_liberal"
+	name = "LBN_liberal"
 	start_date = 1789.1.1
 	end_date = 3000.1.1
 
@@ -16,8 +16,8 @@ party = {
 }
 
 party = {
-	name = "LEB_conservative"
-	start_date = 1789.1.1
+	name = "LBN_conservative"
+	start_date = 1729.1.1
 	end_date = 3000.1.1
 
 	ideology = conservative
@@ -31,7 +31,7 @@ party = {
 
 
 party = {
-	name = "LEB_socialist"
+	name = "LBN_socialist"
 	start_date = 1849.1.1
 	end_date = 3000.1.1
 
@@ -45,8 +45,8 @@ party = {
 }
 
 party = {
-	name = "LEB_reactionary"
-	start_date = 1750.1.1
+	name = "LBN_reactionary"
+	start_date = 1700.1.1
 	end_date = 3000.1.1
 
 	ideology = reactionary
@@ -59,7 +59,7 @@ party = {
 }
 
 party = {
-	name = "LEB_anarcho_liberal"
+	name = "LBN_anarcho_liberal"
 	start_date = 1789.1.1
 	end_date = 3000.1.1
 
@@ -73,7 +73,7 @@ party = {
 }
 
 party = {
-	name = "LEB_communist"
+	name = "LBN_communist"
 	start_date = 1848.1.1
 	end_date = 3000.1.1
 
@@ -87,7 +87,7 @@ party = {
 }
 
 party = {
-	name = "LEB_fascist"
+	name = "LBN_fascist"
 	start_date = 1905.1.1
 	end_date = 3000.1.1
 

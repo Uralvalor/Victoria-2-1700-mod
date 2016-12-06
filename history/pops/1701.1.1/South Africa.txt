@@ -1,121 +1,41 @@
 2087 = {
-	clergymen = {
+	farmers = {
+		culture = khoisan
+		religion = animist
+		size = 1600
+	}
+	bureaucrats = {
 		culture = dutch
+		religion = protestant
+		size = 6
+	}
+	artisans = {
+		culture = dutch
+		religion = protestant
+		size = 55
+	}
+	farmers = {
+		culture = dutch
+		religion = protestant
+		size = 95
+	}
+	artisans = {
+		culture = french
+		religion = protestant
+		size = 40
+	}
+	artisans = {
+		culture = swedish
+		religion = protestant
+		size = 5
+	}
+	artisans = {
+		culture = north_german
 		religion = protestant
 		size = 34
-	}
-	artisans = {
-		culture = dutch
-		religion = protestant
-		size = 105
-	}
-	soldiers = {
-		culture = dutch
-		religion = protestant
-		size = 110
-	}
-	farmers = {
-		culture = dutch
-		religion = protestant
-		size = 6711
-	}
-	bureaucrats = {
-		culture = dutch
-		religion = protestant
-		size = 12
-	}
-	clergymen = {
-		culture = dutch
-		religion = protestant
-		size = 51
-	}
-	bureaucrats = {
-		culture = dutch
-		religion = protestant
-		size = 42
-	}
-	artisans = {
-		culture = dutch
-		religion = protestant
-		size = 352
-	}
-	soldiers = {
-		culture = dutch
-		religion = protestant
-		size = 71
-	}
-	farmers = {
-		culture = dutch
-		religion = protestant
-		size = 3151
-	}
-	clergymen = {
-		culture = dutch
-		religion = protestant
-		size = 53
-	}
-	bureaucrats = {
-		culture = dutch
-		religion = protestant
-		size = 22
-	}
-	artisans = {
-		culture = dutch
-		religion = protestant
-		size = 141
-	}
-	soldiers = {
-		culture = dutch
-		religion = protestant
-		size = 741
-	}
-	farmers = {
-		culture = dutch
-		religion = protestant
-		size = 8264
 	}
 }
 2089 = {
-	clergymen = {
-		culture = dutch
-		religion = protestant
-		size = 34
-	}
-	artisans = {
-		culture = dutch
-		religion = protestant
-		size = 35
-	}
-	soldiers = {
-		culture = dutch
-		religion = protestant
-		size = 71
-	}
-	farmers = {
-		culture = dutch
-		religion = protestant
-		size = 5635
-	}
-	clergymen = {
-		culture = dutch
-		religion = protestant
-		size = 57
-	}
-	artisans = {
-		culture = dutch
-		religion = protestant
-		size = 98
-	}
-	soldiers = {
-		culture = dutch
-		religion = protestant
-		size = 12
-	}
-	farmers = {
-		culture = dutch
-		religion = protestant
-		size = 2537
-	}
 	bureaucrats = {
 		culture = sotho
 		religion = animist
@@ -139,191 +59,21 @@
 	farmers = {
 		culture = sotho
 		religion = animist
-		size = 7154
-	}
-	clergymen = {
-		culture = dutch
-		religion = protestant
-		size = 10
-	}
-	artisans = {
-		culture = dutch
-		religion = protestant
-		size = 42
-	}
-	soldiers = {
-		culture = dutch
-		religion = protestant
-		size = 16
-	}
-	farmers = {
-		culture = dutch
-		religion = protestant
-		size = 487
+		size = 715
 	}
 }
 2090 = {
-	clergymen = {
-		culture = khoisan
-		religion = animist
-		size = 53
-	}
-	artisans = {
-		culture = khoisan
-		religion = animist
-		size = 28
-	}
-	soldiers = {
-		culture = khoisan
-		religion = animist
-		size = 71
-	}
 	farmers = {
 		culture = khoisan
 		religion = animist
-		size = 4912
-	}
-	clergymen = {
-		culture = khoisan
-		religion = animist
-		size = 34
-	}
-	artisans = {
-		culture = khoisan
-		religion = animist
-		size = 42
-	}
-	soldiers = {
-		culture = khoisan
-		religion = animist
-		size = 34
-	}
-	farmers = {
-		culture = khoisan
-		religion = animist
-		size = 2983
-	}
-	clergymen = {
-		culture = khoisan
-		religion = animist
-		size = 53
-	}
-	artisans = {
-		culture = khoisan
-		religion = animist
-		size = 13
-	}
-	soldiers = {
-		culture = khoisan
-		religion = animist
-		size = 110
-	}
-	farmers = {
-		culture = khoisan
-		religion = animist
-		size = 10883
-	}
-	clergymen = {
-		culture = khoisan
-		religion = animist
-		size = 10
-	}
-	artisans = {
-		culture = khoisan
-		religion = animist
-		size = 42
-	}
-	soldiers = {
-		culture = khoisan
-		religion = animist
-		size = 16
-	}
-	farmers = {
-		culture = khoisan
-		religion = animist
-		size = 487
+		size = 1487
 	}
 }
 2091 = {
-	clergymen = {
-		culture = khoisan
-		religion = animist
-		size = 16
-	}
-	artisans = {
-		culture = khoisan
-		religion = animist
-		size = 21
-	}
-	soldiers = {
-		culture = khoisan
-		religion = animist
-		size = 16
-	}
 	farmers = {
 		culture = khoisan
 		religion = animist
-		size = 1167
-	}
-	clergymen = {
-		culture = khoisan
-		religion = animist
-		size = 34
-	}
-	artisans = {
-		culture = khoisan
-		religion = animist
-		size = 21
-	}
-	soldiers = {
-		culture = khoisan
-		religion = animist
-		size = 16
-	}
-	farmers = {
-		culture = khoisan
-		religion = animist
-		size = 1333
-	}
-	clergymen = {
-		culture = khoisan
-		religion = animist
-		size = 23
-	}
-	artisans = {
-		culture = khoisan
-		religion = animist
-		size = 6
-	}
-	soldiers = {
-		culture = khoisan
-		religion = animist
-		size = 16
-	}
-	farmers = {
-		culture = khoisan
-		religion = animist
-		size = 2140
-	}
-	clergymen = {
-		culture = khoisan
-		religion = animist
-		size = 16
-	}
-	artisans = {
-		culture = khoisan
-		religion = animist
-		size = 13
-	}
-	soldiers = {
-		culture = khoisan
-		religion = animist
-		size = 16
-	}
-	farmers = {
-		culture = khoisan
-		religion = animist
-		size = 1370
+		size = 570
 	}
 }
 2088 = {
@@ -372,7 +122,82 @@
 	farmers = {
 		culture = khoisan
 		religion = animist
-		size = 1815
+		size = 1167
+	}
+	clergymen = {
+		culture = khoisan
+		religion = animist
+		size = 34
+	}
+	artisans = {
+		culture = khoisan
+		religion = animist
+		size = 21
+	}
+	soldiers = {
+		culture = khoisan
+		religion = animist
+		size = 16
+	}
+	farmers = {
+		culture = khoisan
+		religion = animist
+		size = 1000
+	}
+	clergymen = {
+		culture = khoisan
+		religion = animist
+		size = 23
+	}
+	artisans = {
+		culture = khoisan
+		religion = animist
+		size = 6
+	}
+	soldiers = {
+		culture = khoisan
+		religion = animist
+		size = 16
+	}
+	farmers = {
+		culture = khoisan
+		religion = animist
+		size = 2000
+	}
+	clergymen = {
+		culture = khoisan
+		religion = animist
+		size = 16
+	}
+	artisans = {
+		culture = khoisan
+		religion = animist
+		size = 13
+	}
+	soldiers = {
+		culture = khoisan
+		religion = animist
+		size = 16
+	}
+	clergymen = {
+		culture = khoisan
+		religion = animist
+		size = 16
+	}
+	artisans = {
+		culture = khoisan
+		religion = animist
+		size = 21
+	}
+	soldiers = {
+		culture = khoisan
+		religion = animist
+		size = 16
+	}
+	farmers = {
+		culture = khoisan
+		religion = animist
+		size = 1715
 	}
 	clergymen = {
 		culture = khoisan
@@ -585,6 +410,76 @@
 }
 2096 = {
 	clergymen = {
+		culture = khoisan
+		religion = animist
+		size = 53
+	}
+	artisans = {
+		culture = khoisan
+		religion = animist
+		size = 28
+	}
+	soldiers = {
+		culture = khoisan
+		religion = animist
+		size = 71
+	}
+	farmers = {
+		culture = khoisan
+		religion = animist
+		size = 2912
+	}
+	clergymen = {
+		culture = khoisan
+		religion = animist
+		size = 34
+	}
+	artisans = {
+		culture = khoisan
+		religion = animist
+		size = 42
+	}
+	soldiers = {
+		culture = khoisan
+		religion = animist
+		size = 34
+	}
+	farmers = {
+		culture = khoisan
+		religion = animist
+		size = 2983
+	}
+	clergymen = {
+		culture = khoisan
+		religion = animist
+		size = 53
+	}
+	artisans = {
+		culture = khoisan
+		religion = animist
+		size = 13
+	}
+	soldiers = {
+		culture = khoisan
+		religion = animist
+		size = 110
+	}
+	farmers = {
+		culture = khoisan
+		religion = animist
+		size = 10883
+	}
+	clergymen = {
+		culture = khoisan
+		religion = animist
+		size = 10
+	}
+	artisans = {
+		culture = khoisan
+		religion = animist
+		size = 42
+	}
+	soldiers = {
 		culture = khoisan
 		religion = animist
 		size = 16

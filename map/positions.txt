@@ -989,8 +989,13 @@
 }
 
 31 = {
-    text_scale = 4
     text_position = {
+        x = 1157
+        y = 1903
+    }
+
+    text_scale = 4
+    unit = {
         x = 1157
         y = 1903
     }
@@ -1000,9 +1005,9 @@
         y = 1950
     }
 
-    unit = {
-        x = 1157
-        y = 1903
+    factory = {
+        x = 1165
+        y = 1874
     }
 
     building_construction = {
@@ -1010,17 +1015,7 @@
         y = 1945
     }
 
-    factory = {
-        x = 1165
-        y = 1874
-    }
-
     building_position = {
-        naval_base = {
-            x = 1166
-            y = 1874
-        }
-
         fort = {
             x = 1218
             y = 1869
@@ -1286,8 +1281,13 @@
 }
 
 40 = {
-    text_scale = 4
     text_position = {
+        x = 1249
+        y = 1832
+    }
+
+    text_scale = 4
+    unit = {
         x = 1249
         y = 1832
     }
@@ -1297,9 +1297,9 @@
         y = 1853
     }
 
-    unit = {
-        x = 1249
-        y = 1832
+    factory = {
+        x = 1294
+        y = 1799
     }
 
     building_construction = {
@@ -1307,17 +1307,7 @@
         y = 1808
     }
 
-    factory = {
-        x = 1294
-        y = 1799
-    }
-
     building_position = {
-        naval_base = {
-            x = 1295
-            y = 1799
-        }
-
         fort = {
             x = 1294
             y = 1828
@@ -1648,8 +1638,13 @@
 }
 
 50 = {
-    text_scale = 3
     text_position = {
+        x = 1497
+        y = 1753
+    }
+
+    text_scale = 3
+    unit = {
         x = 1497
         y = 1753
     }
@@ -1659,17 +1654,7 @@
         y = 1755
     }
 
-    unit = {
-        x = 1497
-        y = 1753
-    }
-
     building_position = {
-        naval_base = {
-            x = 1503
-            y = 1725
-        }
-
         fort = {
             x = 1504
             y = 1725
@@ -1680,8 +1665,13 @@
 }
 
 51 = {
-    text_scale = 3
     text_position = {
+        x = 1531
+        y = 1744
+    }
+
+    text_scale = 3
+    unit = {
         x = 1531
         y = 1744
     }
@@ -1691,14 +1681,9 @@
         y = 1752
     }
 
-    unit = {
-        x = 1531
+    factory = {
+        x = 1564
         y = 1744
-    }
-
-    military_construction = {
-        x = 1529
-        y = 1720
     }
 
     building_construction = {
@@ -1706,17 +1691,12 @@
         y = 1729
     }
 
-    factory = {
-        x = 1564
-        y = 1744
+    military_construction = {
+        x = 1529
+        y = 1720
     }
 
     building_position = {
-        naval_base = {
-            x = 1530
-            y = 1720
-        }
-
         fort = {
             x = 1547
             y = 1731
@@ -1860,8 +1840,13 @@
 }
 
 56 = {
-    text_scale = 4
     text_position = {
+        x = 1610
+        y = 1704
+    }
+
+    text_scale = 4
+    unit = {
         x = 1610
         y = 1704
     }
@@ -1871,17 +1856,7 @@
         y = 1690
     }
 
-    unit = {
-        x = 1610
-        y = 1704
-    }
-
     building_position = {
-        naval_base = {
-            x = 1601
-            y = 1690
-        }
-
         fort = {
             x = 1642
             y = 1704
@@ -2130,8 +2105,13 @@
 }
 
 65 = {
-    text_scale = 2
     text_position = {
+        x = 1694
+        y = 1744
+    }
+
+    text_scale = 2
+    unit = {
         x = 1694
         y = 1744
     }
@@ -2141,17 +2121,7 @@
         y = 1735
     }
 
-    unit = {
-        x = 1694
-        y = 1744
-    }
-
     building_position = {
-        naval_base = {
-            x = 1697
-            y = 1735
-        }
-
         fort = {
             x = 1694
             y = 1734
@@ -2162,8 +2132,13 @@
 }
 
 66 = {
-    text_scale = 4
     text_position = {
+        x = 1682
+        y = 1715
+    }
+
+    text_scale = 4
+    unit = {
         x = 1682
         y = 1715
     }
@@ -2173,14 +2148,9 @@
         y = 1712
     }
 
-    unit = {
-        x = 1682
-        y = 1715
-    }
-
-    military_construction = {
-        x = 1677
-        y = 1719
+    factory = {
+        x = 1686
+        y = 1711
     }
 
     building_construction = {
@@ -2188,17 +2158,12 @@
         y = 1722
     }
 
-    factory = {
-        x = 1686
-        y = 1711
+    military_construction = {
+        x = 1677
+        y = 1719
     }
 
     building_position = {
-        naval_base = {
-            x = 1677
-            y = 1727
-        }
-
         fort = {
             x = 1705
             y = 1723
@@ -3321,8 +3286,13 @@
 }
 
 97 = {
-    text_scale = 3
     text_position = {
+        x = 1064
+        y = 1616
+    }
+
+    text_scale = 3
+    unit = {
         x = 1064
         y = 1616
     }
@@ -3332,14 +3302,9 @@
         y = 1640
     }
 
-    unit = {
-        x = 1064
-        y = 1616
-    }
-
-    military_construction = {
-        x = 1079
-        y = 1613
+    factory = {
+        x = 1099
+        y = 1627
     }
 
     building_construction = {
@@ -3347,17 +3312,12 @@
         y = 1595
     }
 
-    factory = {
-        x = 1099
-        y = 1627
+    military_construction = {
+        x = 1079
+        y = 1613
     }
 
     building_position = {
-        naval_base = {
-            x = 1064
-            y = 1624
-        }
-
         fort = {
             x = 1061
             y = 1633
@@ -5545,8 +5505,13 @@
 }
 
 158 = {
-    text_scale = 4
     text_position = {
+        x = 1355
+        y = 1741
+    }
+
+    text_scale = 4
+    unit = {
         x = 1355
         y = 1741
     }
@@ -5556,14 +5521,9 @@
         y = 1727
     }
 
-    unit = {
-        x = 1355
-        y = 1741
-    }
-
-    military_construction = {
-        x = 1364
-        y = 1746
+    factory = {
+        x = 1375
+        y = 1753
     }
 
     building_construction = {
@@ -5571,17 +5531,12 @@
         y = 1733
     }
 
-    factory = {
-        x = 1375
-        y = 1753
+    military_construction = {
+        x = 1364
+        y = 1746
     }
 
     building_position = {
-        naval_base = {
-            x = 1351
-            y = 1765
-        }
-
         fort = {
             x = 1350
             y = 1764
@@ -5592,8 +5547,13 @@
 }
 
 159 = {
-    text_scale = 2
     text_position = {
+        x = 1427
+        y = 1674
+    }
+
+    text_scale = 2
+    unit = {
         x = 1427
         y = 1674
     }
@@ -5603,14 +5563,9 @@
         y = 1687
     }
 
-    unit = {
-        x = 1427
-        y = 1674
-    }
-
-    military_construction = {
-        x = 1432
-        y = 1677
+    factory = {
+        x = 1439
+        y = 1683
     }
 
     building_construction = {
@@ -5618,17 +5573,12 @@
         y = 1671
     }
 
-    factory = {
-        x = 1439
-        y = 1683
+    military_construction = {
+        x = 1432
+        y = 1677
     }
 
     building_position = {
-        naval_base = {
-            x = 1439
-            y = 1666
-        }
-
         fort = {
             x = 1436
             y = 1669
@@ -5666,8 +5616,13 @@
 }
 
 161 = {
-    text_scale = 3
     text_position = {
+        x = 1424
+        y = 1705
+    }
+
+    text_scale = 3
+    unit = {
         x = 1424
         y = 1705
     }
@@ -5677,22 +5632,12 @@
         y = 1703
     }
 
-    unit = {
-        x = 1424
-        y = 1705
-    }
-
     factory = {
         x = 1413
         y = 1715
     }
 
     building_position = {
-        naval_base = {
-            x = 1435
-            y = 1697
-        }
-
         fort = {
             x = 1428
             y = 1692
@@ -5745,8 +5690,13 @@
 }
 
 163 = {
-    text_scale = 2
     text_position = {
+        x = 1431
+        y = 1650
+    }
+
+    text_scale = 2
+    unit = {
         x = 1431
         y = 1650
     }
@@ -5756,14 +5706,9 @@
         y = 1649
     }
 
-    unit = {
-        x = 1431
-        y = 1650
-    }
-
-    military_construction = {
-        x = 1433
-        y = 1645
+    factory = {
+        x = 1439
+        y = 1654
     }
 
     building_construction = {
@@ -5771,17 +5716,12 @@
         y = 1659
     }
 
-    factory = {
-        x = 1439
-        y = 1654
+    military_construction = {
+        x = 1433
+        y = 1645
     }
 
     building_position = {
-        naval_base = {
-            x = 1438
-            y = 1659
-        }
-
         fort = {
             x = 1439
             y = 1650
@@ -6013,8 +5953,13 @@
 }
 
 171 = {
-    text_scale = 2
     text_position = {
+        x = 1454
+        y = 1634
+    }
+
+    text_scale = 2
+    unit = {
         x = 1454
         y = 1634
     }
@@ -6024,13 +5969,8 @@
         y = 1610
     }
 
-    unit = {
-        x = 1454
-        y = 1634
-    }
-
-    military_construction = {
-        x = 1462
+    factory = {
+        x = 1466
         y = 1648
     }
 
@@ -6039,17 +5979,12 @@
         y = 1628
     }
 
-    factory = {
-        x = 1466
+    military_construction = {
+        x = 1462
         y = 1648
     }
 
     building_position = {
-        naval_base = {
-            x = 1446
-            y = 1647
-        }
-
         fort = {
             x = 1444
             y = 1647
@@ -6119,8 +6054,13 @@
 }
 
 174 = {
-    text_scale = 2
     text_position = {
+        x = 1474
+        y = 1663
+    }
+
+    text_scale = 2
+    unit = {
         x = 1474
         y = 1663
     }
@@ -6130,14 +6070,9 @@
         y = 1655
     }
 
-    unit = {
-        x = 1474
-        y = 1663
-    }
-
-    military_construction = {
-        x = 1472
-        y = 1658
+    factory = {
+        x = 1489
+        y = 1666
     }
 
     building_construction = {
@@ -6145,17 +6080,12 @@
         y = 1659
     }
 
-    factory = {
-        x = 1489
-        y = 1666
+    military_construction = {
+        x = 1472
+        y = 1658
     }
 
     building_position = {
-        naval_base = {
-            x = 1461
-            y = 1674
-        }
-
         fort = {
             x = 1473
             y = 1668
@@ -6193,8 +6123,13 @@
 }
 
 176 = {
-    text_scale = 2
     text_position = {
+        x = 1481
+        y = 1695
+    }
+
+    text_scale = 2
+    unit = {
         x = 1481
         y = 1695
     }
@@ -6204,22 +6139,12 @@
         y = 1700
     }
 
-    unit = {
-        x = 1481
-        y = 1695
-    }
-
     factory = {
         x = 1475
         y = 1691
     }
 
     building_position = {
-        naval_base = {
-            x = 1490
-            y = 1716
-        }
-
         fort = {
             x = 1482
             y = 1710
@@ -6230,8 +6155,13 @@
 }
 
 177 = {
-    text_scale = 4
     text_position = {
+        x = 1443
+        y = 1726
+    }
+
+    text_scale = 4
+    unit = {
         x = 1443
         y = 1726
     }
@@ -6241,14 +6171,9 @@
         y = 1728
     }
 
-    unit = {
-        x = 1443
-        y = 1726
-    }
-
-    military_construction = {
-        x = 1426
-        y = 1740
+    factory = {
+        x = 1440
+        y = 1706
     }
 
     building_construction = {
@@ -6256,17 +6181,12 @@
         y = 1718
     }
 
-    factory = {
-        x = 1440
-        y = 1706
+    military_construction = {
+        x = 1426
+        y = 1740
     }
 
     building_position = {
-        naval_base = {
-            x = 1427
-            y = 1739
-        }
-
         fort = {
             x = 1444
             y = 1730
@@ -6277,8 +6197,13 @@
 }
 
 178 = {
-    text_scale = 2
     text_position = {
+        x = 1536
+        y = 1632
+    }
+
+    text_scale = 2
+    unit = {
         x = 1536
         y = 1632
     }
@@ -6288,13 +6213,8 @@
         y = 1618
     }
 
-    unit = {
-        x = 1536
-        y = 1632
-    }
-
-    military_construction = {
-        x = 1536
+    factory = {
+        x = 1549
         y = 1638
     }
 
@@ -6303,17 +6223,12 @@
         y = 1633
     }
 
-    factory = {
-        x = 1549
+    military_construction = {
+        x = 1536
         y = 1638
     }
 
     building_position = {
-        naval_base = {
-            x = 1532
-            y = 1645
-        }
-
         fort = {
             x = 1531
             y = 1643
@@ -8012,8 +7927,13 @@
 }
 
 228 = {
-    text_scale = 4
     text_position = {
+        x = 1563
+        y = 1647
+    }
+
+    text_scale = 4
+    unit = {
         x = 1563
         y = 1647
     }
@@ -8021,19 +7941,6 @@
     city = {
         x = 1558
         y = 1655
-    }
-
-    unit = {
-        x = 1563
-        y = 1647
-    }
-
-    building_position = {
-        naval_base = {
-            x = 1557
-            y = 1656
-        }
-
     }
 
 }
@@ -8248,8 +8155,13 @@
 }
 
 236 = {
-    text_scale = 3
     text_position = {
+        x = 1579
+        y = 1664
+    }
+
+    text_scale = 3
+    unit = {
         x = 1579
         y = 1664
     }
@@ -8259,22 +8171,12 @@
         y = 1655
     }
 
-    unit = {
-        x = 1579
-        y = 1664
-    }
-
     factory = {
         x = 1575
         y = 1672
     }
 
     building_position = {
-        naval_base = {
-            x = 1576
-            y = 1668
-        }
-
         fort = {
             x = 1579
             y = 1669
@@ -8285,8 +8187,13 @@
 }
 
 237 = {
-    text_scale = 2
     text_position = {
+        x = 1602
+        y = 1669
+    }
+
+    text_scale = 2
+    unit = {
         x = 1602
         y = 1669
     }
@@ -8296,17 +8203,7 @@
         y = 1673
     }
 
-    unit = {
-        x = 1602
-        y = 1669
-    }
-
     building_position = {
-        naval_base = {
-            x = 1597
-            y = 1675
-        }
-
         fort = {
             x = 1596
             y = 1672
@@ -8317,8 +8214,13 @@
 }
 
 238 = {
-    text_scale = 3
     text_position = {
+        x = 1626
+        y = 1673
+    }
+
+    text_scale = 3
+    unit = {
         x = 1626
         y = 1673
     }
@@ -8328,22 +8230,12 @@
         y = 1671
     }
 
-    unit = {
-        x = 1626
-        y = 1673
-    }
-
     factory = {
         x = 1634
         y = 1672
     }
 
     building_position = {
-        naval_base = {
-            x = 1625
-            y = 1674
-        }
-
         fort = {
             x = 1620
             y = 1672
@@ -12097,8 +11989,13 @@
 }
 
 377 = {
-    text_scale = 1
     text_position = {
+        x = 2888
+        y = 1824
+    }
+
+    text_scale = 1
+    unit = {
         x = 2888
         y = 1824
     }
@@ -12108,15 +12005,15 @@
         y = 1824
     }
 
-    unit = {
-        x = 2888
-        y = 1824
-    }
-
     building_position = {
         fort = {
-            x = 2882
-            y = 1827
+            x = 2882.450000
+            y = 1827.300000
+        }
+
+        naval_base = {
+            x = 2889.800000
+            y = 1828.100000
         }
 
     }
@@ -12178,23 +12075,15 @@
 }
 
 380 = {
-    text_scale = 2
     text_position = {
-        x = 2894
-        y = 1831
+        x = 2882.100000
+        y = 1816.200000
     }
 
+    text_scale = 2
     unit = {
-        x = 2894
-        y = 1831
-    }
-
-    building_position = {
-        naval_base = {
-            x = 2894
-            y = 1832
-        }
-
+        x = 2882.650000
+        y = 1816.950000
     }
 
 }
@@ -12219,8 +12108,13 @@
 }
 
 382 = {
-    text_scale = 3
     text_position = {
+        x = 2899
+        y = 1823
+    }
+
+    text_scale = 3
+    unit = {
         x = 2899
         y = 1823
     }
@@ -12230,9 +12124,12 @@
         y = 1822
     }
 
-    unit = {
-        x = 2899
-        y = 1823
+    building_position = {
+        naval_base = {
+            x = 2895.500000
+            y = 1828.250000
+        }
+
     }
 
 }
@@ -12260,8 +12157,13 @@
 }
 
 384 = {
-    text_scale = 2
     text_position = {
+        x = 2907
+        y = 1830
+    }
+
+    text_scale = 2
+    unit = {
         x = 2907
         y = 1830
     }
@@ -12271,9 +12173,12 @@
         y = 1831
     }
 
-    unit = {
-        x = 2907
-        y = 1830
+    building_position = {
+        naval_base = {
+            x = 2898.750000
+            y = 1833.450000
+        }
+
     }
 
 }
@@ -17853,8 +17758,13 @@
 }
 
 643 = {
-    text_scale = 2
     text_position = {
+        x = 3090
+        y = 1739
+    }
+
+    text_scale = 2
+    unit = {
         x = 3090
         y = 1739
     }
@@ -17864,17 +17774,7 @@
         y = 1739
     }
 
-    unit = {
-        x = 3090
-        y = 1739
-    }
-
     building_position = {
-        naval_base = {
-            x = 3087
-            y = 1737
-        }
-
         fort = {
             x = 3095
             y = 1741
@@ -18684,39 +18584,39 @@
 }
 
 676 = {
-    text_scale = 4
     text_position = {
-        x = 3247
-        y = 1742
+        x = 3257.786667
+        y = 1733.300000
+    }
+
+    text_scale = 4
+    unit = {
+        x = 3253.166667
+        y = 1737.186667
     }
 
     city = {
-        x = 3243
-        y = 1750
-    }
-
-    unit = {
-        x = 3247
-        y = 1742
+        x = 3248.620000
+        y = 1744.080000
     }
 
 }
 
 677 = {
-    text_scale = 4
     text_position = {
-        x = 3253
-        y = 1748
+        x = 3246.563333
+        y = 1750.910000
+    }
+
+    text_scale = 4
+    unit = {
+        x = 3244.171667
+        y = 1752.891667
     }
 
     city = {
-        x = 3258
-        y = 1738
-    }
-
-    unit = {
-        x = 3253
-        y = 1748
+        x = 3260.093333
+        y = 1740.181667
     }
 
     factory = {
@@ -23752,8 +23652,13 @@
 }
 
 889 = {
-    text_scale = 4
     text_position = {
+        x = 3410
+        y = 1595
+    }
+
+    text_scale = 4
+    unit = {
         x = 3410
         y = 1595
     }
@@ -23763,17 +23668,7 @@
         y = 1592
     }
 
-    unit = {
-        x = 3410
-        y = 1595
-    }
-
     building_position = {
-        naval_base = {
-            x = 3412
-            y = 1593
-        }
-
         fort = {
             x = 3419
             y = 1597
@@ -23784,8 +23679,13 @@
 }
 
 890 = {
-    text_scale = 4
     text_position = {
+        x = 3486
+        y = 1600
+    }
+
+    text_scale = 4
+    unit = {
         x = 3486
         y = 1600
     }
@@ -23795,17 +23695,7 @@
         y = 1615
     }
 
-    unit = {
-        x = 3486
-        y = 1600
-    }
-
     building_position = {
-        naval_base = {
-            x = 3483
-            y = 1594
-        }
-
         fort = {
             x = 3485
             y = 1594
@@ -23816,8 +23706,13 @@
 }
 
 891 = {
-    text_scale = 4
     text_position = {
+        x = 3456
+        y = 1599
+    }
+
+    text_scale = 4
+    unit = {
         x = 3456
         y = 1599
     }
@@ -23827,9 +23722,9 @@
         y = 1601
     }
 
-    unit = {
-        x = 3456
-        y = 1599
+    factory = {
+        x = 3465
+        y = 1592
     }
 
     building_construction = {
@@ -23837,17 +23732,7 @@
         y = 1598
     }
 
-    factory = {
-        x = 3465
-        y = 1592
-    }
-
     building_position = {
-        naval_base = {
-            x = 3469
-            y = 1594
-        }
-
         fort = {
             x = 3467
             y = 1594
@@ -26736,8 +26621,13 @@
 }
 
 997 = {
-    text_scale = 4
     text_position = {
+        x = 3255
+        y = 1931
+    }
+
+    text_scale = 4
+    unit = {
         x = 3255
         y = 1931
     }
@@ -26745,19 +26635,6 @@
     city = {
         x = 3245
         y = 1942
-    }
-
-    unit = {
-        x = 3255
-        y = 1931
-    }
-
-    building_position = {
-        naval_base = {
-            x = 3246
-            y = 1943
-        }
-
     }
 
 }
@@ -29166,8 +29043,13 @@
 }
 
 1075 = {
-    text_scale = 4
     text_position = {
+        x = 4420
+        y = 1846
+    }
+
+    text_scale = 4
+    unit = {
         x = 4420
         y = 1846
     }
@@ -29177,14 +29059,9 @@
         y = 1855
     }
 
-    unit = {
-        x = 4420
-        y = 1846
-    }
-
-    military_construction = {
-        x = 4429
-        y = 1831
+    factory = {
+        x = 4441
+        y = 1836
     }
 
     building_construction = {
@@ -29192,17 +29069,12 @@
         y = 1827
     }
 
-    factory = {
-        x = 4441
-        y = 1836
+    military_construction = {
+        x = 4429
+        y = 1831
     }
 
     building_position = {
-        naval_base = {
-            x = 4420
-            y = 1850
-        }
-
         fort = {
             x = 4435
             y = 1827
@@ -32351,8 +32223,13 @@
 }
 
 1186 = {
-    text_scale = 4
     text_position = {
+        x = 4023
+        y = 1699
+    }
+
+    text_scale = 4
+    unit = {
         x = 4023
         y = 1699
     }
@@ -32362,14 +32239,9 @@
         y = 1679
     }
 
-    unit = {
-        x = 4023
-        y = 1699
-    }
-
-    military_construction = {
-        x = 4047
-        y = 1679
+    factory = {
+        x = 4055
+        y = 1690
     }
 
     building_construction = {
@@ -32377,17 +32249,12 @@
         y = 1711
     }
 
-    factory = {
-        x = 4055
-        y = 1690
+    military_construction = {
+        x = 4047
+        y = 1679
     }
 
     building_position = {
-        naval_base = {
-            x = 4011
-            y = 1685
-        }
-
         fort = {
             x = 4009
             y = 1676
@@ -32524,8 +32391,13 @@
 }
 
 1190 = {
-    text_scale = 4
     text_position = {
+        x = 4001
+        y = 1645
+    }
+
+    text_scale = 4
+    unit = {
         x = 4001
         y = 1645
     }
@@ -32535,9 +32407,9 @@
         y = 1639
     }
 
-    unit = {
-        x = 4001
-        y = 1645
+    factory = {
+        x = 3996
+        y = 1661
     }
 
     building_construction = {
@@ -32545,17 +32417,7 @@
         y = 1644
     }
 
-    factory = {
-        x = 3996
-        y = 1661
-    }
-
     building_position = {
-        naval_base = {
-            x = 3997
-            y = 1661
-        }
-
         fort = {
             x = 4030
             y = 1662
@@ -32640,8 +32502,13 @@
 }
 
 1193 = {
-    text_scale = 4
     text_position = {
+        x = 3809
+        y = 1702
+    }
+
+    text_scale = 4
+    unit = {
         x = 3809
         y = 1702
     }
@@ -32651,14 +32518,9 @@
         y = 1734
     }
 
-    unit = {
-        x = 3809
-        y = 1702
-    }
-
-    military_construction = {
-        x = 3807
-        y = 1712
+    factory = {
+        x = 3849
+        y = 1690
     }
 
     building_construction = {
@@ -32666,17 +32528,12 @@
         y = 1701
     }
 
-    factory = {
-        x = 3849
-        y = 1690
+    military_construction = {
+        x = 3807
+        y = 1712
     }
 
     building_position = {
-        naval_base = {
-            x = 3769
-            y = 1732
-        }
-
         fort = {
             x = 3795
             y = 1720
@@ -41405,8 +41262,13 @@
 }
 
 1471 = {
-    text_scale = 3
     text_position = {
+        x = 4642
+        y = 1459
+    }
+
+    text_scale = 3
+    unit = {
         x = 4642
         y = 1459
     }
@@ -41416,17 +41278,7 @@
         y = 1459
     }
 
-    unit = {
-        x = 4642
-        y = 1459
-    }
-
     building_position = {
-        naval_base = {
-            x = 4633
-            y = 1457
-        }
-
         fort = {
             x = 4654
             y = 1474
@@ -43087,8 +42939,13 @@
 }
 
 1528 = {
-    text_scale = 3
     text_position = {
+        x = 4574
+        y = 1434
+    }
+
+    text_scale = 3
+    unit = {
         x = 4574
         y = 1434
     }
@@ -43096,19 +42953,6 @@
     city = {
         x = 4572
         y = 1440
-    }
-
-    unit = {
-        x = 4574
-        y = 1434
-    }
-
-    building_position = {
-        naval_base = {
-            x = 4571
-            y = 1440
-        }
-
     }
 
 }
@@ -43636,8 +43480,13 @@
 }
 
 1549 = {
-    text_scale = 3
     text_position = {
+        x = 4607
+        y = 1439
+    }
+
+    text_scale = 3
+    unit = {
         x = 4607
         y = 1439
     }
@@ -43645,19 +43494,6 @@
     city = {
         x = 4617
         y = 1446
-    }
-
-    unit = {
-        x = 4607
-        y = 1439
-    }
-
-    building_position = {
-        naval_base = {
-            x = 4619
-            y = 1446
-        }
-
     }
 
 }
@@ -51214,8 +51050,13 @@
 }
 
 1816 = {
-    text_scale = 4
     text_position = {
+        x = 2997
+        y = 1177
+    }
+
+    text_scale = 4
+    unit = {
         x = 2997
         y = 1177
     }
@@ -51225,17 +51066,7 @@
         y = 1169
     }
 
-    unit = {
-        x = 2997
-        y = 1177
-    }
-
     building_position = {
-        naval_base = {
-            x = 3012
-            y = 1183
-        }
-
         fort = {
             x = 3012
             y = 1185
@@ -51429,8 +51260,13 @@
 }
 
 1824 = {
-    text_scale = 4
     text_position = {
+        x = 3046
+        y = 1193
+    }
+
+    text_scale = 4
+    unit = {
         x = 3046
         y = 1193
     }
@@ -51440,17 +51276,7 @@
         y = 1172
     }
 
-    unit = {
-        x = 3046
-        y = 1193
-    }
-
     building_position = {
-        naval_base = {
-            x = 3037
-            y = 1171
-        }
-
         fort = {
             x = 3046
             y = 1183
@@ -52187,8 +52013,13 @@
 }
 
 1852 = {
-    text_scale = 4
     text_position = {
+        x = 3392
+        y = 1151
+    }
+
+    text_scale = 4
+    unit = {
         x = 3392
         y = 1151
     }
@@ -52196,19 +52027,6 @@
     city = {
         x = 3392
         y = 1157
-    }
-
-    unit = {
-        x = 3392
-        y = 1151
-    }
-
-    building_position = {
-        naval_base = {
-            x = 3388
-            y = 1149
-        }
-
     }
 
 }
@@ -56485,8 +56303,13 @@
 }
 
 1987 = {
-    text_scale = 4
     text_position = {
+        x = 3232
+        y = 771
+    }
+
+    text_scale = 4
+    unit = {
         x = 3232
         y = 771
     }
@@ -56496,14 +56319,9 @@
         y = 764
     }
 
-    unit = {
-        x = 3232
-        y = 771
-    }
-
-    military_construction = {
-        x = 3225
-        y = 759
+    factory = {
+        x = 3255
+        y = 798
     }
 
     building_construction = {
@@ -56511,17 +56329,12 @@
         y = 747
     }
 
-    factory = {
-        x = 3255
-        y = 798
+    military_construction = {
+        x = 3225
+        y = 759
     }
 
     building_position = {
-        naval_base = {
-            x = 3256
-            y = 798
-        }
-
         fort = {
             x = 3237
             y = 749
@@ -56663,8 +56476,13 @@
 }
 
 1991 = {
-    text_scale = 4
     text_position = {
+        x = 3255
+        y = 930
+    }
+
+    text_scale = 4
+    unit = {
         x = 3255
         y = 930
     }
@@ -56674,14 +56492,9 @@
         y = 932
     }
 
-    unit = {
-        x = 3255
-        y = 930
-    }
-
-    military_construction = {
-        x = 3270
-        y = 919
+    factory = {
+        x = 3275
+        y = 948
     }
 
     building_construction = {
@@ -56689,17 +56502,12 @@
         y = 922
     }
 
-    factory = {
-        x = 3275
-        y = 948
+    military_construction = {
+        x = 3270
+        y = 919
     }
 
     building_position = {
-        naval_base = {
-            x = 3263
-            y = 916
-        }
-
         fort = {
             x = 3264
             y = 917
@@ -57550,8 +57358,13 @@
 }
 
 2016 = {
-    text_scale = 4
     text_position = {
+        x = 3278
+        y = 776
+    }
+
+    text_scale = 4
+    unit = {
         x = 3278
         y = 776
     }
@@ -57561,14 +57374,9 @@
         y = 787
     }
 
-    unit = {
-        x = 3278
-        y = 776
-    }
-
-    military_construction = {
-        x = 3258
-        y = 755
+    factory = {
+        x = 3294
+        y = 772
     }
 
     building_construction = {
@@ -57576,17 +57384,12 @@
         y = 779
     }
 
-    factory = {
-        x = 3294
-        y = 772
+    military_construction = {
+        x = 3258
+        y = 755
     }
 
     building_position = {
-        naval_base = {
-            x = 3255
-            y = 787
-        }
-
         fort = {
             x = 3297
             y = 795
@@ -57671,8 +57474,13 @@
 }
 
 2019 = {
-    text_scale = 3
     text_position = {
+        x = 3308
+        y = 950
+    }
+
+    text_scale = 3
+    unit = {
         x = 3308
         y = 950
     }
@@ -57682,8 +57490,13 @@
         y = 954
     }
 
-    unit = {
-        x = 3308
+    factory = {
+        x = 3321
+        y = 956
+    }
+
+    building_construction = {
+        x = 3316
         y = 950
     }
 
@@ -57692,22 +57505,7 @@
         y = 954
     }
 
-    building_construction = {
-        x = 3316
-        y = 950
-    }
-
-    factory = {
-        x = 3321
-        y = 956
-    }
-
     building_position = {
-        naval_base = {
-            x = 3311
-            y = 939
-        }
-
         fort = {
             x = 3325
             y = 952
@@ -57918,8 +57716,13 @@
 }
 
 2025 = {
-    text_scale = 4
     text_position = {
+        x = 3382
+        y = 992
+    }
+
+    text_scale = 4
+    unit = {
         x = 3382
         y = 992
     }
@@ -57929,22 +57732,12 @@
         y = 997
     }
 
-    unit = {
-        x = 3382
-        y = 992
-    }
-
     factory = {
         x = 3380
         y = 963
     }
 
     building_position = {
-        naval_base = {
-            x = 3379
-            y = 990
-        }
-
         fort = {
             x = 3400
             y = 984
@@ -58019,8 +57812,13 @@
 }
 
 2028 = {
-    text_scale = 3
     text_position = {
+        x = 3349
+        y = 937
+    }
+
+    text_scale = 3
+    unit = {
         x = 3349
         y = 937
     }
@@ -58030,13 +57828,8 @@
         y = 938
     }
 
-    unit = {
-        x = 3349
-        y = 937
-    }
-
-    military_construction = {
-        x = 3350
+    factory = {
+        x = 3355
         y = 933
     }
 
@@ -58045,17 +57838,12 @@
         y = 943
     }
 
-    factory = {
-        x = 3355
+    military_construction = {
+        x = 3350
         y = 933
     }
 
     building_position = {
-        naval_base = {
-            x = 3348
-            y = 939
-        }
-
         fort = {
             x = 3357
             y = 951
@@ -58437,8 +58225,13 @@
 }
 
 2040 = {
-    text_scale = 4
     text_position = {
+        x = 3366
+        y = 772
+    }
+
+    text_scale = 4
+    unit = {
         x = 3366
         y = 772
     }
@@ -58448,9 +58241,9 @@
         y = 754
     }
 
-    unit = {
-        x = 3366
-        y = 772
+    factory = {
+        x = 3364
+        y = 764
     }
 
     building_construction = {
@@ -58458,17 +58251,7 @@
         y = 787
     }
 
-    factory = {
-        x = 3364
-        y = 764
-    }
-
     building_position = {
-        naval_base = {
-            x = 3349
-            y = 754
-        }
-
         fort = {
             x = 3390
             y = 757
@@ -58516,8 +58299,13 @@
 }
 
 2042 = {
-    text_scale = 4
     text_position = {
+        x = 3315
+        y = 827
+    }
+
+    text_scale = 4
+    unit = {
         x = 3315
         y = 827
     }
@@ -58527,14 +58315,9 @@
         y = 867
     }
 
-    unit = {
-        x = 3315
-        y = 827
-    }
-
-    military_construction = {
-        x = 3301
-        y = 810
+    factory = {
+        x = 3332
+        y = 788
     }
 
     building_construction = {
@@ -58542,17 +58325,12 @@
         y = 794
     }
 
-    factory = {
-        x = 3332
-        y = 788
+    military_construction = {
+        x = 3301
+        y = 810
     }
 
     building_position = {
-        naval_base = {
-            x = 3284
-            y = 819
-        }
-
         fort = {
             x = 3364
             y = 813
@@ -58595,8 +58373,13 @@
 }
 
 2044 = {
-    text_scale = 4
     text_position = {
+        x = 3329
+        y = 895
+    }
+
+    text_scale = 4
+    unit = {
         x = 3329
         y = 895
     }
@@ -58606,14 +58389,9 @@
         y = 896
     }
 
-    unit = {
-        x = 3329
-        y = 895
-    }
-
-    military_construction = {
-        x = 3321
-        y = 902
+    factory = {
+        x = 3331
+        y = 904
     }
 
     building_construction = {
@@ -58621,17 +58399,12 @@
         y = 883
     }
 
-    factory = {
-        x = 3331
-        y = 904
+    military_construction = {
+        x = 3321
+        y = 902
     }
 
     building_position = {
-        naval_base = {
-            x = 3320
-            y = 902
-        }
-
         fort = {
             x = 3335
             y = 919
@@ -58684,8 +58457,13 @@
 }
 
 2046 = {
-    text_scale = 3
     text_position = {
+        x = 3294
+        y = 910
+    }
+
+    text_scale = 3
+    unit = {
         x = 3294
         y = 910
     }
@@ -58695,22 +58473,12 @@
         y = 903
     }
 
-    unit = {
-        x = 3294
-        y = 910
-    }
-
     factory = {
         x = 3296
         y = 900
     }
 
     building_position = {
-        naval_base = {
-            x = 3305
-            y = 922
-        }
-
         fort = {
             x = 3304
             y = 922
@@ -59368,8 +59136,13 @@
 }
 
 2066 = {
-    text_scale = 3
     text_position = {
+        x = 3356
+        y = 686
+    }
+
+    text_scale = 3
+    unit = {
         x = 3356
         y = 686
     }
@@ -59379,14 +59152,9 @@
         y = 681
     }
 
-    unit = {
-        x = 3356
-        y = 686
-    }
-
-    military_construction = {
-        x = 3358
-        y = 685
+    factory = {
+        x = 3362
+        y = 692
     }
 
     building_construction = {
@@ -59394,17 +59162,12 @@
         y = 700
     }
 
-    factory = {
-        x = 3362
-        y = 692
+    military_construction = {
+        x = 3358
+        y = 685
     }
 
     building_position = {
-        naval_base = {
-            x = 3358
-            y = 699
-        }
-
         fort = {
             x = 3353
             y = 680
@@ -59415,8 +59178,13 @@
 }
 
 2067 = {
-    text_scale = 3
     text_position = {
+        x = 3334
+        y = 735
+    }
+
+    text_scale = 3
+    unit = {
         x = 3334
         y = 735
     }
@@ -59426,14 +59194,9 @@
         y = 744
     }
 
-    unit = {
-        x = 3334
-        y = 735
-    }
-
-    military_construction = {
-        x = 3337
-        y = 777
+    factory = {
+        x = 3345
+        y = 712
     }
 
     building_construction = {
@@ -59441,17 +59204,12 @@
         y = 751
     }
 
-    factory = {
-        x = 3345
-        y = 712
+    military_construction = {
+        x = 3337
+        y = 777
     }
 
     building_position = {
-        naval_base = {
-            x = 3338
-            y = 777
-        }
-
         fort = {
             x = 3335
             y = 712
@@ -67442,8 +67200,13 @@
 }
 
 2303 = {
-    text_scale = 4
     text_position = {
+        x = 1715
+        y = 692
+    }
+
+    text_scale = 4
+    unit = {
         x = 1715
         y = 692
     }
@@ -67453,9 +67216,9 @@
         y = 693
     }
 
-    unit = {
+    factory = {
         x = 1715
-        y = 692
+        y = 677
     }
 
     building_construction = {
@@ -67463,17 +67226,7 @@
         y = 683
     }
 
-    factory = {
-        x = 1715
-        y = 677
-    }
-
     building_position = {
-        naval_base = {
-            x = 1716
-            y = 677
-        }
-
         fort = {
             x = 1721
             y = 673
@@ -67558,8 +67311,13 @@
 }
 
 2306 = {
-    text_scale = 3
     text_position = {
+        x = 2042
+        y = 550
+    }
+
+    text_scale = 3
+    unit = {
         x = 2042
         y = 550
     }
@@ -67569,9 +67327,9 @@
         y = 557
     }
 
-    unit = {
-        x = 2042
-        y = 550
+    factory = {
+        x = 2044
+        y = 555
     }
 
     building_construction = {
@@ -67579,17 +67337,7 @@
         y = 570
     }
 
-    factory = {
-        x = 2044
-        y = 555
-    }
-
     building_position = {
-        naval_base = {
-            x = 2044
-            y = 553
-        }
-
         fort = {
             x = 2045
             y = 540
@@ -67701,8 +67449,13 @@
 }
 
 2310 = {
-    text_scale = 4
     text_position = {
+        x = 1744
+        y = 689
+    }
+
+    text_scale = 4
+    unit = {
         x = 1744
         y = 689
     }
@@ -67712,14 +67465,9 @@
         y = 648
     }
 
-    unit = {
-        x = 1744
-        y = 689
-    }
-
-    military_construction = {
-        x = 1751
-        y = 671
+    factory = {
+        x = 1759
+        y = 658
     }
 
     building_construction = {
@@ -67727,17 +67475,12 @@
         y = 700
     }
 
-    factory = {
-        x = 1759
-        y = 658
+    military_construction = {
+        x = 1751
+        y = 671
     }
 
     building_position = {
-        naval_base = {
-            x = 1730
-            y = 666
-        }
-
         fort = {
             x = 1744
             y = 666
@@ -67790,8 +67533,13 @@
 }
 
 2312 = {
-    text_scale = 4
     text_position = {
+        x = 1750
+        y = 629
+    }
+
+    text_scale = 4
+    unit = {
         x = 1750
         y = 629
     }
@@ -67801,9 +67549,9 @@
         y = 624
     }
 
-    unit = {
-        x = 1750
-        y = 629
+    factory = {
+        x = 1760
+        y = 641
     }
 
     building_construction = {
@@ -67811,17 +67559,7 @@
         y = 610
     }
 
-    factory = {
-        x = 1760
-        y = 641
-    }
-
     building_position = {
-        naval_base = {
-            x = 1760
-            y = 640
-        }
-
         fort = {
             x = 1766
             y = 626
@@ -69081,8 +68819,13 @@
 }
 
 2345 = {
-    text_scale = 4
     text_position = {
+        x = 1919
+        y = 394
+    }
+
+    text_scale = 4
+    unit = {
         x = 1919
         y = 394
     }
@@ -69092,14 +68835,9 @@
         y = 371
     }
 
-    unit = {
-        x = 1919
-        y = 394
-    }
-
-    military_construction = {
-        x = 1926
-        y = 381
+    factory = {
+        x = 1934
+        y = 409
     }
 
     building_construction = {
@@ -69107,17 +68845,12 @@
         y = 391
     }
 
-    factory = {
-        x = 1934
-        y = 409
+    military_construction = {
+        x = 1926
+        y = 381
     }
 
     building_position = {
-        naval_base = {
-            x = 1897
-            y = 371
-        }
-
         fort = {
             x = 1926
             y = 382
@@ -71564,8 +71297,13 @@
 }
 
 2422 = {
-    text_scale = 4
     text_position = {
+        x = 2033
+        y = 672
+    }
+
+    text_scale = 4
+    unit = {
         x = 2033
         y = 672
     }
@@ -71575,14 +71313,9 @@
         y = 648
     }
 
-    unit = {
-        x = 2033
-        y = 672
-    }
-
-    military_construction = {
-        x = 2059
-        y = 638
+    factory = {
+        x = 2069
+        y = 682
     }
 
     building_construction = {
@@ -71590,17 +71323,12 @@
         y = 662
     }
 
-    factory = {
-        x = 2069
-        y = 682
+    military_construction = {
+        x = 2059
+        y = 638
     }
 
     building_position = {
-        naval_base = {
-            x = 2042
-            y = 634
-        }
-
         fort = {
             x = 2040
             y = 664
@@ -72958,8 +72686,13 @@
 }
 
 2456 = {
-    text_scale = 3
     text_position = {
+        x = 2028
+        y = 589
+    }
+
+    text_scale = 3
+    unit = {
         x = 2028
         y = 589
     }
@@ -72969,14 +72702,9 @@
         y = 592
     }
 
-    unit = {
-        x = 2028
-        y = 589
-    }
-
-    military_construction = {
-        x = 2037
-        y = 594
+    factory = {
+        x = 2042
+        y = 568
     }
 
     building_construction = {
@@ -72984,17 +72712,12 @@
         y = 582
     }
 
-    factory = {
-        x = 2042
-        y = 568
+    military_construction = {
+        x = 2037
+        y = 594
     }
 
     building_position = {
-        naval_base = {
-            x = 2026
-            y = 587
-        }
-
         fort = {
             x = 2043
             y = 588
@@ -73047,8 +72770,13 @@
 }
 
 2458 = {
-    text_scale = 4
     text_position = {
+        x = 1982
+        y = 522
+    }
+
+    text_scale = 4
+    unit = {
         x = 1982
         y = 522
     }
@@ -73058,14 +72786,9 @@
         y = 514
     }
 
-    unit = {
-        x = 1982
-        y = 522
-    }
-
-    military_construction = {
-        x = 1974
-        y = 523
+    factory = {
+        x = 1996
+        y = 498
     }
 
     building_construction = {
@@ -73073,17 +72796,12 @@
         y = 539
     }
 
-    factory = {
-        x = 1996
-        y = 498
+    military_construction = {
+        x = 1974
+        y = 523
     }
 
     building_position = {
-        naval_base = {
-            x = 1957
-            y = 516
-        }
-
         fort = {
             x = 2004
             y = 516
@@ -77433,8 +77151,13 @@
 }
 
 2594 = {
-    text_scale = 4
     text_position = {
+        x = 1566
+        y = 1711
+    }
+
+    text_scale = 4
+    unit = {
         x = 1566
         y = 1711
     }
@@ -77442,19 +77165,6 @@
     city = {
         x = 1559
         y = 1710
-    }
-
-    unit = {
-        x = 1566
-        y = 1711
-    }
-
-    building_position = {
-        naval_base = {
-            x = 1558
-            y = 1710
-        }
-
     }
 
 }
@@ -77782,8 +77492,13 @@
 }
 
 2606 = {
-    text_scale = 4
     text_position = {
+        x = 3946
+        y = 1759
+    }
+
+    text_scale = 4
+    unit = {
         x = 3946
         y = 1759
     }
@@ -77793,14 +77508,9 @@
         y = 1755
     }
 
-    unit = {
-        x = 3946
-        y = 1759
-    }
-
-    military_construction = {
-        x = 3948
-        y = 1786
+    factory = {
+        x = 3977
+        y = 1735
     }
 
     building_construction = {
@@ -77808,17 +77518,12 @@
         y = 1723
     }
 
-    factory = {
-        x = 3977
-        y = 1735
+    military_construction = {
+        x = 3948
+        y = 1786
     }
 
     building_position = {
-        naval_base = {
-            x = 3957
-            y = 1723
-        }
-
         fort = {
             x = 3985
             y = 1779
@@ -78451,8 +78156,13 @@
 }
 
 2628 = {
-    text_scale = 4
     text_position = {
+        x = 1427
+        y = 1783
+    }
+
+    text_scale = 4
+    unit = {
         x = 1427
         y = 1783
     }
@@ -78462,8 +78172,13 @@
         y = 1762
     }
 
-    unit = {
-        x = 1427
+    factory = {
+        x = 1460
+        y = 1767
+    }
+
+    building_construction = {
+        x = 1451
         y = 1783
     }
 
@@ -78472,22 +78187,7 @@
         y = 1772
     }
 
-    building_construction = {
-        x = 1451
-        y = 1783
-    }
-
-    factory = {
-        x = 1460
-        y = 1767
-    }
-
     building_position = {
-        naval_base = {
-            x = 1416
-            y = 1762
-        }
-
         fort = {
             x = 1414
             y = 1761
@@ -79820,8 +79520,13 @@
 }
 
 2677 = {
-    text_scale = 4
     text_position = {
+        x = 4373
+        y = 1882
+    }
+
+    text_scale = 4
+    unit = {
         x = 4373
         y = 1882
     }
@@ -79831,14 +79536,9 @@
         y = 1888
     }
 
-    unit = {
-        x = 4373
-        y = 1882
-    }
-
-    military_construction = {
-        x = 4387
-        y = 1891
+    factory = {
+        x = 4409
+        y = 1923
     }
 
     building_construction = {
@@ -79846,17 +79546,12 @@
         y = 1892
     }
 
-    factory = {
-        x = 4409
-        y = 1923
+    military_construction = {
+        x = 4387
+        y = 1891
     }
 
     building_position = {
-        naval_base = {
-            x = 4394
-            y = 1892
-        }
-
         fort = {
             x = 4432
             y = 1899
@@ -80661,10 +80356,36 @@
 2773 = {} # 71;220;250;Sea of Marmara
 2774 = {} # 72;250;250;Gulf of Varna
 2775 = {} # 73;200;200;Gulf of Odessa
-2776 = {} # 74;200;250;Sea of Azov
+2776 = {
+    text_position = {
+        x = 3376.440000
+        y = 1724.416667
+    }
+
+    text_scale = 3
+    unit = {
+        x = 3379.306667
+        y = 1722.553333
+    }
+
+} # 74;200;250;Sea of Azov
+
 2777 = {} # 75;220;250;Eastern Black Sea
 2778 = {} # 76;250;250;Lake Balaton
-2779 = {} # 77;200;200;Caspian Sea
+2779 = {
+    text_position = {
+        x = 3571.993333
+        y = 1697.300000
+    }
+
+    text_scale = 5
+    unit = {
+        x = 3565.293333
+        y = 1708.020000
+    }
+
+} # 77;200;200;Caspian Sea
+
 2780 = {} # 78;200;250;Aral Sea
 2781 = {} # 79;220;250;Gulf of Suez
 2782 = {} # 80;250;250;Red Sea
