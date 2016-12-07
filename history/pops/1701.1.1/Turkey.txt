@@ -270,10 +270,20 @@
 		religion = catholic
 		size = 23
 	}
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 15000
+	}
 	artisans = {
 		culture = north_italian
 		religion = catholic
 		size = 471
+	}
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 60
 	}
 }
 861 = {
@@ -300,7 +310,7 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 24095
+		size = 14095
 	}
 	clergymen = {
 		culture = greek
@@ -315,7 +325,7 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 8321
+		size = 3321
 	}
 	clergymen = {
 		culture = armenian
