@@ -1,219 +1,268 @@
-2337 = {
-	bureaucrats = {
+2341 = {
+	farmers = {
 		culture = guarani
 		religion = animist
-		size = 50
-	}
-	clergymen = {
-		culture = guarani
-		religion = animist
-		size = 102
-	}
-	artisans = {
-		culture = guarani
-		religion = animist
-		size = 38
-	}
-	soldiers = {
-		culture = guarani
-		religion = animist
-		size = 50
+		size = 4160
 	}
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 3685
+		size = 8320
+	}
+}
+2340 = {
+	farmers = {
+		culture = guarani
+		religion = animist
+		size = 4160
+	}
+	farmers = {
+		culture = guarani
+		religion = animist
+		size = 8320
+	}
+}
+2342 = {
+	farmers = {
+		culture = guarani
+		religion = animist
+		size = 4160
+	}
+	farmers = {
+		culture = guarani
+		religion = animist
+		size = 8320
+	}
+}
+2339 = {
+	farmers = {
+		culture = guarani
+		religion = animist
+		size = 4160
+	}
+	farmers = {
+		culture = guarani
+		religion = animist
+		size = 8320
+	}
+}
+
+2337 = {
+	bureaucrats = {
+		culture = guarani
+		religion = animist
+	    size = 10
+	}
+	clergymen = {
+		culture = guarani
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = guarani
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = guarani
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = guarani
+		religion = animist
+	    size = 10
 	}
 }
 2338 = {
 	bureaucrats = {
 		culture = guarani
 		religion = animist
-		size = 50
+	    size = 10
 	}
 	clergymen = {
 		culture = guarani
 		religion = animist
-		size = 102
+	    size = 10
 	}
 	artisans = {
 		culture = guarani
 		religion = animist
-		size = 38
+	    size = 10
 	}
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 50
+	    size = 10
 	}
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 3685
+	    size = 10
 	}
 }
 2339 = {
 	bureaucrats = {
 		culture = guarani
 		religion = animist
-		size = 107
+	    size = 10
 	}
 	bureaucrats = {
 		culture = guarani
 		religion = animist
-		size = 140
+	    size = 10
 	}
 	officers = {
 		culture = guarani
 		religion = animist
-		size = 8
+	    size = 10
 	}
 	clergymen = {
 		culture = guarani
 		religion = animist
-		size = 37
+	    size = 10
 	}
 	artisans = {
 		culture = guarani
 		religion = animist
-		size = 73
+	    size = 10
 	}
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 176
+	    size = 10
 	}
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 7272
+	    size = 10
 	}
 }
 2340 = {
 	bureaucrats = {
 		culture = guarani
 		religion = animist
-		size = 718
+	    size = 10
 	}
 	clergymen = {
 		culture = guarani
 		religion = animist
-		size = 203
+	    size = 10
 	}
 	artisans = {
 		culture = guarani
 		religion = animist
-		size = 78
+	    size = 10
 	}
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 102
+	    size = 10
 	}
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 6755
+	    size = 10
 	}
 }
 2341 = {
 	bureaucrats = {
 		culture = guarani
 		religion = animist
-		size = 1022
+	    size = 10
 	}
 	clergymen = {
 		culture = guarani
 		religion = animist
-		size = 254
+	    size = 10
 	}
 	artisans = {
 		culture = guarani
 		religion = animist
-		size = 78
+	    size = 10
 	}
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 102
+	    size = 10
 	}
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 6396
+	    size = 10
 	}
 }
 2342 = {
 	bureaucrats = {
 		culture = guarani
 		religion = animist
-		size = 869
+	    size = 10
 	}
 	clergymen = {
 		culture = guarani
 		religion = animist
-		size = 254
+	    size = 10
 	}
 	artisans = {
 		culture = guarani
 		religion = animist
-		size = 78
+	    size = 10
 	}
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 102
+	    size = 10
 	}
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 6552
+	    size = 10
 	}
 }
 2343 = {
 	clergymen = {
 		culture = guarani
 		religion = animist
-		size = 50
+	    size = 10
 	}
 	artisans = {
 		culture = guarani
 		religion = animist
-		size = 19
+	    size = 10
 	}
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 50
+	    size = 10
 	}
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 1841
+	    size = 10
 	}
 	bureaucrats = {
 		culture = guarani
 		religion = animist
-		size = 102
+	    size = 10
 	}
 	clergymen = {
 		culture = guarani
 		religion = animist
-		size = 153
+	    size = 10
 	}
 	artisans = {
 		culture = guarani
 		religion = animist
-		size = 58
+	    size = 10
 	}
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 50
+	    size = 10
 	}
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 5527
+	    size = 10
 	}
 }

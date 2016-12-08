@@ -1,924 +1,1093 @@
+2253 = {
+	farmers = {
+		culture = central_american
+		religion = catholic
+		size = 9400
+	}
+	farmers = {
+		culture = central_american
+		religion = animist
+		size = 4700
+	}
+}
+2254 = {
+	farmers = {
+		culture = central_american
+		religion = catholic
+		size = 9400
+	}
+	farmers = {
+		culture = central_american
+		religion = animist
+		size = 4700
+	}
+}
+2255 = {
+	farmers = {
+		culture = central_american
+		religion = catholic
+		size = 9400
+	}
+	farmers = {
+		culture = central_american
+		religion = animist
+		size = 4700
+	}
+}
+2252 = {
+	farmers = {
+		culture = central_american
+		religion = catholic
+		size = 9400
+	}
+	farmers = {
+		culture = central_american
+		religion = animist
+		size = 4700
+	}
+}
+2250 = {
+	farmers = {
+		culture = central_american
+		religion = catholic
+		size = 9400
+	}
+	farmers = {
+		culture = central_american
+		religion = animist
+		size = 4700
+	}
+}
+2256 = {
+	farmers = {
+		culture = north_andean
+		religion = catholic
+		size = 9400
+	}
+	farmers = {
+		culture = north_andean
+		religion = animist
+		size = 4700
+	}
+}
+2257 = {
+	farmers = {
+		culture = north_andean
+		religion = catholic
+		size = 9400
+	}
+	farmers = {
+		culture = north_andean
+		religion = animist
+		size = 4700
+	}
+}
+2258 = {
+	farmers = {
+		culture = north_andean
+		religion = catholic
+		size = 9400
+	}
+	farmers = {
+		culture = north_andean
+		religion = animist
+		size = 4700
+	}
+}
+2259 = {
+	farmers = {
+		culture = north_andean
+		religion = catholic
+		size = 9400
+	}
+	farmers = {
+		culture = north_andean
+		religion = animist
+		size = 4700
+	}
+}
+2247 = {
+	farmers = {
+		culture = north_andean
+		religion = catholic
+		size = 9400
+	}
+	farmers = {
+		culture = north_andean
+		religion = animist
+		size = 4700
+	}
+}
+2248 = {
+	farmers = {
+		culture = central_american
+		religion = catholic
+		size = 9400
+	}
+	farmers = {
+		culture = central_american
+		religion = animist
+		size = 4700
+	}
+}
+2249 = {
+	farmers = {
+		culture = north_andean
+		religion = catholic
+		size = 9400
+	}
+	farmers = {
+		culture = north_andean
+		religion = animist
+		size = 4700
+	}
+}
+2251 = {
+	farmers = {
+		culture = north_andean
+		religion = catholic
+		size = 9400
+	}
+	farmers = {
+		culture = north_andean
+		religion = animist
+		size = 4700
+	}
+}
+2262 = {
+	farmers = {
+		culture = north_andean
+		religion = animist
+		size = 9400
+	}
+	farmers = {
+		culture = north_andean
+		religion = animist
+		size = 4700
+	}
+}
+
 2247 = {
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 403
+	    size = 10
 	}
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 577
+	    size = 10
 	}
 	clergymen = {
 		culture = north_andean
 		religion = catholic
-		size = 363
+	    size = 10
 	}
 	artisans = {
 		culture = north_andean
 		religion = catholic
-		size = 2022
+	    size = 10
 	}
 	soldiers = {
 		culture = north_andean
 		religion = catholic
-		size = 1423
+	    size = 10
 	}
 	farmers = {
 		culture = north_andean
 		religion = catholic
-		size = 21224
+	    size = 10
 	}
 	artisans = {
 		culture = spanish
 		religion = catholic
-		size = 476
+	    size = 10
 	}
 	farmers = {
 		culture = spanish
 		religion = catholic
-		size = 7371
+	    size = 10
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 4384
+	    size = 10
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 1330
+	    size = 10
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 5959
+	    size = 10
 	}
 	farmers = {
 		culture = quechua
 		religion = catholic
-		size = 718
+	    size = 10
 	}
 	farmers = {
 		culture = quechua
 		religion = animist
-		size = 35
+	    size = 10
 	}
 	farmers = {
 		culture = amazonian
 		religion = catholic
-		size = 7186
+	    size = 10
 	}
 	farmers = {
 		culture = amazonian
 		religion = animist
-		size = 372
+	    size = 10
 	}
 }
 2248 = {
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 64
+	    size = 10
 	}
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 81
+	    size = 10
 	}
 	clergymen = {
 		culture = north_andean
 		religion = catholic
-		size = 105
+	    size = 10
 	}
 	artisans = {
 		culture = north_andean
 		religion = catholic
-		size = 203
+	    size = 10
 	}
 	soldiers = {
 		culture = north_andean
 		religion = catholic
-		size = 105
+	    size = 10
 	}
 	farmers = {
 		culture = north_andean
 		religion = catholic
-		size = 3003
+	    size = 10
 	}
 	artisans = {
 		culture = spanish
 		religion = catholic
-		size = 46
+	    size = 10
 	}
 	farmers = {
 		culture = spanish
 		religion = catholic
-		size = 1059
+	    size = 10
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 1062
+	    size = 10
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 542
+	    size = 10
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 892
+	    size = 10
 	}
 	farmers = {
 		culture = quechua
 		religion = catholic
-		size = 542
+	    size = 10
 	}
 	farmers = {
 		culture = quechua
 		religion = animist
-		size = 193
+	    size = 10
 	}
 	farmers = {
 		culture = amazonian
 		religion = catholic
-		size = 712
+	    size = 10
 	}
 	farmers = {
 		culture = amazonian
 		religion = animist
-		size = 388
+	    size = 10
 	}
 }
 2249 = {
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 64
+	    size = 10
 	}
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 81
+	    size = 10
 	}
 	clergymen = {
 		culture = north_andean
 		religion = catholic
-		size = 105
+	    size = 10
 	}
 	artisans = {
 		culture = north_andean
 		religion = catholic
-		size = 136
+	    size = 10
 	}
 	soldiers = {
 		culture = north_andean
 		religion = catholic
-		size = 105
+	    size = 10
 	}
 	farmers = {
 		culture = north_andean
 		religion = catholic
-		size = 3165
+	    size = 10
 	}
 	artisans = {
 		culture = spanish
 		religion = catholic
-		size = 72
+	    size = 10
 	}
 	farmers = {
 		culture = spanish
 		religion = catholic
-		size = 1379
+	    size = 10
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 886
+	    size = 10
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 374
+	    size = 10
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 711
+	    size = 10
 	}
 	farmers = {
 		culture = quechua
 		religion = catholic
-		size = 54
+	    size = 10
 	}
 	farmers = {
 		culture = amazonian
 		religion = catholic
-		size = 10684
+	    size = 10
 	}
 	farmers = {
 		culture = amazonian
 		religion = animist
-		size = 6860
+	    size = 10
 	}
 }
 2250 = {
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 100
+	    size = 10
 	}
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 81
+	    size = 10
 	}
 	clergymen = {
 		culture = north_andean
 		religion = catholic
-		size = 105
+	    size = 10
 	}
 	artisans = {
 		culture = north_andean
 		religion = catholic
-		size = 170
+	    size = 10
 	}
 	soldiers = {
 		culture = north_andean
 		religion = catholic
-		size = 105
+	    size = 10
 	}
 	farmers = {
 		culture = north_andean
 		religion = catholic
-		size = 2778
+	    size = 10
 	}
 	artisans = {
 		culture = spanish
 		religion = catholic
-		size = 50
+	    size = 10
 	}
 	farmers = {
 		culture = spanish
 		religion = catholic
-		size = 1234
+	    size = 10
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 886
+	    size = 10
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 229
+	    size = 10
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 680
+	    size = 10
 	}
 	farmers = {
 		culture = quechua
 		religion = catholic
-		size = 752
+	    size = 10
 	}
 	farmers = {
 		culture = quechua
 		religion = animist
-		size = 415
+	    size = 10
 	}
 	farmers = {
 		culture = amazonian
 		religion = catholic
-		size = 149
+	    size = 10
 	}
 	farmers = {
 		culture = amazonian
 		religion = animist
-		size = 32
+	    size = 10
 	}
 }
 2251 = {
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 64
+	    size = 10
 	}
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 81
+	    size = 10
 	}
 	clergymen = {
 		culture = north_andean
 		religion = catholic
-		size = 105
+	    size = 10
 	}
 	artisans = {
 		culture = north_andean
 		religion = catholic
-		size = 106
+	    size = 10
 	}
 	soldiers = {
 		culture = north_andean
 		religion = catholic
-		size = 105
+	    size = 10
 	}
 	farmers = {
 		culture = north_andean
 		religion = catholic
-		size = 2809
+	    size = 10
 	}
 	artisans = {
 		culture = spanish
 		religion = catholic
-		size = 26
+	    size = 10
 	}
 	farmers = {
 		culture = spanish
 		religion = catholic
-		size = 431
+	    size = 10
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 1201
+	    size = 10
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 274
+	    size = 10
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 886
+	    size = 10
 	}
 	farmers = {
 		culture = guajiro
 		religion = catholic
-		size = 1401
+	    size = 10
 	}
 	farmers = {
 		culture = guajiro
 		religion = animist
-		size = 1059
+	    size = 10
 	}
 }
 2252 = {
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 64
+	    size = 10
 	}
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 81
+	    size = 10
 	}
 	clergymen = {
 		culture = north_andean
 		religion = catholic
-		size = 105
+	    size = 10
 	}
 	artisans = {
 		culture = north_andean
 		religion = catholic
-		size = 149
+	    size = 10
 	}
 	soldiers = {
 		culture = north_andean
 		religion = catholic
-		size = 105
+	    size = 10
 	}
 	farmers = {
 		culture = north_andean
 		religion = catholic
-		size = 3178
+	    size = 10
 	}
 	artisans = {
 		culture = spanish
 		religion = catholic
-		size = 76
+	    size = 10
 	}
 	farmers = {
 		culture = spanish
 		religion = catholic
-		size = 1590
+	    size = 10
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 1729
+	    size = 10
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 609
+	    size = 10
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 1257
+	    size = 10
 	}
 	farmers = {
 		culture = amazonian
 		religion = catholic
-		size = 152
+	    size = 10
 	}
 	farmers = {
 		culture = amazonian
 		religion = animist
-		size = 32
+	    size = 10
 	}
 }
 2253 = {
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 64
+	    size = 10
 	}
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 81
+	    size = 10
 	}
 	clergymen = {
 		culture = north_andean
 		religion = catholic
-		size = 105
+	    size = 10
 	}
 	artisans = {
 		culture = north_andean
 		religion = catholic
-		size = 203
+	    size = 10
 	}
 	soldiers = {
 		culture = north_andean
 		religion = catholic
-		size = 105
+	    size = 10
 	}
 	farmers = {
 		culture = north_andean
 		religion = catholic
-		size = 3003
+	    size = 10
 	}
 	artisans = {
 		culture = spanish
 		religion = catholic
-		size = 46
+	    size = 10
 	}
 	farmers = {
 		culture = spanish
 		religion = catholic
-		size = 1059
+	    size = 10
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 2117
+	    size = 10
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 719
+	    size = 10
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 1401
+	    size = 10
 	}
 	farmers = {
 		culture = amazonian
 		religion = catholic
-		size = 176
+	    size = 10
 	}
 	farmers = {
 		culture = amazonian
 		religion = animist
-		size = 53
+	    size = 10
 	}
 }
 2254 = {
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 108
+	    size = 10
 	}
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 139
+	    size = 10
 	}
 	clergymen = {
 		culture = north_andean
 		religion = catholic
-		size = 119
+	    size = 10
 	}
 	artisans = {
 		culture = north_andean
 		religion = catholic
-		size = 307
+	    size = 10
 	}
 	soldiers = {
 		culture = north_andean
 		religion = catholic
-		size = 105
+	    size = 10
 	}
 	farmers = {
 		culture = north_andean
 		religion = catholic
-		size = 7192
+	    size = 10
 	}
 	artisans = {
 		culture = spanish
 		religion = catholic
-		size = 103
+	    size = 10
 	}
 	farmers = {
 		culture = spanish
 		religion = catholic
-		size = 1723
+	    size = 10
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 2642
+	    size = 10
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 712
+	    size = 10
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 1408
+	    size = 10
 	}
 }
 2255 = {
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 64
+	    size = 10
 	}
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 81
+	    size = 10
 	}
 	clergymen = {
 		culture = north_andean
 		religion = catholic
-		size = 105
+	    size = 10
 	}
 	artisans = {
 		culture = north_andean
 		religion = catholic
-		size = 106
+	    size = 10
 	}
 	soldiers = {
 		culture = north_andean
 		religion = catholic
-		size = 105
+	    size = 10
 	}
 	farmers = {
 		culture = north_andean
 		religion = catholic
-		size = 2606
+	    size = 10
 	}
 	artisans = {
 		culture = spanish
 		religion = catholic
-		size = 26
+	    size = 10
 	}
 	farmers = {
 		culture = spanish
 		religion = catholic
-		size = 590
+	    size = 10
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 1556
+	    size = 10
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 341
+	    size = 10
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 1027
+	    size = 10
 	}
 	farmers = {
 		culture = guajiro
 		religion = catholic
-		size = 1059
+	    size = 10
 	}
 	farmers = {
 		culture = guajiro
 		religion = animist
-		size = 749
+	    size = 10
 	}
 }
 2256 = {
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 50
+	    size = 10
 	}
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 64
+	    size = 10
 	}
 	clergymen = {
 		culture = north_andean
 		religion = catholic
-		size = 60
+	    size = 10
 	}
 	artisans = {
 		culture = north_andean
 		religion = catholic
-		size = 436
+	    size = 10
 	}
 	soldiers = {
 		culture = north_andean
 		religion = catholic
-		size = 718
+	    size = 10
 	}
 	farmers = {
 		culture = north_andean
 		religion = catholic
-		size = 5787
+	    size = 10
 	}
 	artisans = {
 		culture = spanish
 		religion = catholic
-		size = 53
+	    size = 10
 	}
 	farmers = {
 		culture = spanish
 		religion = catholic
-		size = 1581
+	    size = 10
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 1409
+	    size = 10
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 423
+	    size = 10
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 886
+	    size = 10
 	}
 	farmers = {
 		culture = quechua
 		religion = catholic
-		size = 712
+	    size = 10
 	}
 	farmers = {
 		culture = quechua
 		religion = animist
-		size = 67
+	    size = 10
 	}
 }
 2257 = {
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 67
+	    size = 10
 	}
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 85
+	    size = 10
 	}
 	clergymen = {
 		culture = north_andean
 		religion = catholic
-		size = 95
+	    size = 10
 	}
 	artisans = {
 		culture = north_andean
 		religion = catholic
-		size = 223
+	    size = 10
 	}
 	soldiers = {
 		culture = north_andean
 		religion = catholic
-		size = 92
+	    size = 10
 	}
 	farmers = {
 		culture = north_andean
 		religion = catholic
-		size = 2951
+	    size = 10
 	}
 	artisans = {
 		culture = spanish
 		religion = catholic
-		size = 60
+	    size = 10
 	}
 	farmers = {
 		culture = spanish
 		religion = catholic
-		size = 1061
+	    size = 10
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 274
+	    size = 10
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 139
+	    size = 10
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 413
+	    size = 10
 	}
 	farmers = {
 		culture = quechua
 		religion = catholic
-		size = 1401
+	    size = 10
 	}
 	farmers = {
 		culture = quechua
 		religion = animist
-		size = 226
+	    size = 10
 	}
 }
 2258 = {
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 50
+	    size = 10
 	}
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 64
+	    size = 10
 	}
 	clergymen = {
 		culture = north_andean
 		religion = catholic
-		size = 60
+	    size = 10
 	}
 	artisans = {
 		culture = north_andean
 		religion = catholic
-		size = 163
+	    size = 10
 	}
 	soldiers = {
 		culture = north_andean
 		religion = catholic
-		size = 53
+	    size = 10
 	}
 	farmers = {
 		culture = north_andean
 		religion = catholic
-		size = 2293
+	    size = 10
 	}
 	artisans = {
 		culture = spanish
 		religion = catholic
-		size = 18
+	    size = 10
 	}
 	farmers = {
 		culture = spanish
 		religion = catholic
-		size = 604
+	    size = 10
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 385
+	    size = 10
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 73
+	    size = 10
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 297
+	    size = 10
 	}
 	farmers = {
 		culture = quechua
 		religion = catholic
-		size = 368
+	    size = 10
 	}
 	farmers = {
 		culture = quechua
 		religion = animist
-		size = 88
+	    size = 10
 	}
 }
 2259 = {
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 70
+	    size = 10
 	}
 	bureaucrats = {
 		culture = north_andean
 		religion = catholic
-		size = 79
+	    size = 10
 	}
 	clergymen = {
 		culture = north_andean
 		religion = catholic
-		size = 75
+	    size = 10
 	}
 	artisans = {
 		culture = north_andean
 		religion = catholic
-		size = 203
+	    size = 10
 	}
 	soldiers = {
 		culture = north_andean
 		religion = catholic
-		size = 76
+	    size = 10
 	}
 	farmers = {
 		culture = north_andean
 		religion = catholic
-		size = 3238
+	    size = 10
 	}
 	artisans = {
 		culture = spanish
 		religion = catholic
-		size = 37
+	    size = 10
 	}
 	farmers = {
 		culture = spanish
 		religion = catholic
-		size = 1376
+	    size = 10
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 538
+	    size = 10
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 199
+	    size = 10
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 378
+	    size = 10
 	}
 	farmers = {
 		culture = quechua
 		religion = catholic
-		size = 3127
+	    size = 10
 	}
 	farmers = {
 		culture = quechua
 		religion = animist
-		size = 368
+	    size = 10
 	}
 }
 2260 = {
 	farmers = {
 		culture = amazonian
 		religion = animist
-		size = 3307
+	    size = 10
 	}
 }
 2261 = {
 	farmers = {
 		culture = amazonian
 		religion = animist
-		size = 7359
+	    size = 10
 	}
 }
 2262 = {
 	farmers = {
 		culture = amazonian
 		religion = animist
-		size = 6133
+	    size = 10
 	}
 }
 2263 = {
 	farmers = {
 		culture = amazonian
 		religion = animist
-		size = 9031
+	    size = 10
 	}
 }

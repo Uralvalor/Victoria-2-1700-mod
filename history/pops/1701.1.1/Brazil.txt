@@ -1,2783 +1,3269 @@
-2401 = {
-	bureaucrats = {
-		culture = amazonian
-		religion = animist
-		size = 6
-	}
-	clergymen = {
-		culture = amazonian
-		religion = animist
-		size = 9
-	}
-	artisans = {
-		culture = amazonian
-		religion = animist
-		size = 3
-	}
-	soldiers = {
-		culture = amazonian
-		religion = animist
-		size = 3
-	}
-	farmers = {
-		culture = amazonian
-		religion = animist
-		size = 1245
-	}
-}
-2402 = {
-	clergymen = {
-		culture = amazonian
-		religion = animist
-		size = 6
-	}
-	artisans = {
-		culture = amazonian
-		religion = animist
-		size = 7
-	}
-	soldiers = {
-		culture = amazonian
-		religion = animist
-		size = 9
-	}
-	farmers = {
-		culture = amazonian
-		religion = animist
-		size = 1642
-	}
-}
-2403 = {
-	bureaucrats = {
-		culture = amazonian
-		religion = animist
-		size = 3
-	}
-	clergymen = {
-		culture = amazonian
-		religion = animist
-		size = 6
-	}
-	artisans = {
-		culture = amazonian
-		religion = animist
-		size = 2
-	}
-	soldiers = {
-		culture = amazonian
-		religion = animist
-		size = 3
-	}
-	farmers = {
-		culture = amazonian
-		religion = animist
-		size = 1118
-	}
-}
-2404 = {
-	bureaucrats = {
-		culture = amazonian
-		religion = animist
-		size = 0
-	}
-	clergymen = {
-		culture = amazonian
-		religion = animist
-		size = 3
-	}
-	artisans = {
-		culture = amazonian
-		religion = animist
-		size = 1
-	}
-	soldiers = {
-		culture = amazonian
-		religion = animist
-		size = 1
-	}
-	farmers = {
-		culture = amazonian
-		religion = animist
-		size = 992
-	}
-}
-2405 = {
-	bureaucrats = {
-		culture = zhe
-		religion = animist
-		size = 6
-	}
-	clergymen = {
-		culture = zhe
-		religion = animist
-		size = 9
-	}
-	artisans = {
-		culture = zhe
-		religion = animist
-		size = 3
-	}
-	soldiers = {
-		culture = zhe
-		religion = animist
-		size = 3
-	}
-	farmers = {
-		culture = zhe
-		religion = animist
-		size = 1245
-	}
-}
-2407 = {
-	bureaucrats = {
-		culture = amazonian
-		religion = animist
-		size = 0
-	}
-	clergymen = {
-		culture = amazonian
-		religion = animist
-		size = 3
-	}
-	artisans = {
-		culture = amazonian
-		religion = animist
-		size = 1
-	}
-	soldiers = {
-		culture = amazonian
-		religion = animist
-		size = 1
-	}
-	farmers = {
-		culture = amazonian
-		religion = animist
-		size = 992
-	}
-}
-2408 = {
-	clergymen = {
-		culture = amazonian
-		religion = animist
-		size = 35
-	}
-	artisans = {
-		culture = amazonian
-		religion = animist
-		size = 27
-	}
-	soldiers = {
-		culture = amazonian
-		religion = animist
-		size = 35
-	}
-	farmers = {
-		culture = amazonian
-		religion = animist
-		size = 3021
-	}
-	farmers = {
-		culture = portuguese
-		religion = catholic
-		size = 43
-	}
-	farmers = {
-		culture = brazilian
-		religion = catholic
-		size = 104
-	}
-}
-2532 = {
-	bureaucrats = {
-		culture = amazonian
-		religion = animist
-		size = 0
-	}
-	clergymen = {
-		culture = amazonian
-		religion = animist
-		size = 3
-	}
-	artisans = {
-		culture = amazonian
-		religion = animist
-		size = 1
-	}
-	soldiers = {
-		culture = amazonian
-		religion = animist
-		size = 1
-	}
-	farmers = {
-		culture = amazonian
-		religion = animist
-		size = 992
-	}
-}
-2410 = {
-	farmers = {
-		culture = portuguese
-		religion = catholic
-		size = 81
-	}
-	farmers = {
-		culture = african_minor
-		religion = catholic
-		size = 88
-	}
-	slaves = {
-		culture = african_minor
-		religion = catholic
-		size = 3494
-	}
-	clergymen = {
-		culture = amazonian
-		religion = animist
-		size = 43
-	}
-	artisans = {
-		culture = amazonian
-		religion = animist
-		size = 33
-	}
-	soldiers = {
-		culture = amazonian
-		religion = animist
-		size = 26
-	}
-	farmers = {
-		culture = amazonian
-		religion = animist
-		size = 3906
-	}
-	farmers = {
-		culture = tupinamba
-		religion = animist
-		size = 947
-	}
-	farmers = {
-		culture = amazonian
-		religion = catholic
-		size = 809
-	}
-	farmers = {
-		culture = tupinamba
-		religion = catholic
-		size = 88
-	}
-	farmers = {
-		culture = brazilian
-		religion = catholic
-		size = 107
-	}
-}
-2411 = {
-	farmers = {
-		culture = portuguese
-		religion = catholic
-		size = 110
-	}
-	farmers = {
-		culture = brazilian
-		religion = catholic
-		size = 173
-	}
-	clergymen = {
-		culture = zhe
-		religion = animist
-		size = 17
-	}
-	artisans = {
-		culture = zhe
-		religion = animist
-		size = 27
-	}
-	soldiers = {
-		culture = zhe
-		religion = animist
-		size = 17
-	}
-	farmers = {
-		culture = zhe
-		religion = animist
-		size = 2945
-	}
-}
-2412 = {
-	farmers = {
-		culture = portuguese
-		religion = catholic
-		size = 81
-	}
-	farmers = {
-		culture = brazilian
-		religion = catholic
-		size = 128
-	}
-	clergymen = {
-		culture = amazonian
-		religion = animist
-		size = 27
-	}
-	artisans = {
-		culture = amazonian
-		religion = animist
-		size = 20
-	}
-	soldiers = {
-		culture = amazonian
-		religion = animist
-		size = 44
-	}
-	farmers = {
-		culture = amazonian
-		religion = animist
-		size = 3960
-	}
-}
-2413 = {
-	clergymen = {
-		culture = zhe
-		religion = animist
-		size = 6
-	}
-	artisans = {
-		culture = zhe
-		religion = animist
-		size = 2
-	}
-	soldiers = {
-		culture = zhe
-		religion = animist
-		size = 3
-	}
-	farmers = {
-		culture = zhe
-		religion = animist
-		size = 1984
-	}
-}
 2414 = {
 	farmers = {
-		culture = african_minor
+		culture = tupinamba
 		religion = catholic
-		size = 106
-	}
-	slaves = {
-		culture = african_minor
-		religion = catholic
-		size = 2860
-	}
-	clergymen = {
-		culture = amazonian
-		religion = animist
-		size = 43
-	}
-	artisans = {
-		culture = amazonian
-		religion = animist
-		size = 25
-	}
-	soldiers = {
-		culture = amazonian
-		religion = animist
-		size = 36
+		size = 2400
 	}
 	farmers = {
-		culture = amazonian
+		culture = tupinamba
 		religion = animist
-		size = 3955
+		size = 4800
 	}
 }
 2415 = {
 	farmers = {
-		culture = portuguese
+		culture = tupinamba
 		religion = catholic
-		size = 53
+		size = 2400
 	}
 	farmers = {
-		culture = brazilian
-		religion = catholic
-		size = 175
-	}
-	artisans = {
-		culture = amazonian
+		culture = tupinamba
 		religion = animist
-		size = 52
-	}
-	soldiers = {
-		culture = amazonian
-		religion = animist
-		size = 88
-	}
-	farmers = {
-		culture = amazonian
-		religion = animist
-		size = 2680
-	}
-	farmers = {
-		culture = amazonian
-		religion = catholic
-		size = 149
-	}
-	slaves = {
-		culture = african_minor
-		religion = catholic
-		size = 1729
+		size = 4800
 	}
 }
-2600 = {
-	bureaucrats = {
-		culture = zhe
-		religion = animist
-		size = 3
-	}
-	clergymen = {
-		culture = zhe
-		religion = animist
-		size = 6
-	}
-	artisans = {
-		culture = zhe
-		religion = animist
-		size = 2
-	}
-	soldiers = {
-		culture = zhe
-		religion = animist
-		size = 3
+2412 = {
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+		size = 2400
 	}
 	farmers = {
-		culture = zhe
+		culture = tupinamba
 		religion = animist
-		size = 1984
+		size = 4800
 	}
 }
-2416 = {
-	clergymen = {
-		culture = guarani
-		religion = animist
-		size = 6
-	}
-	artisans = {
-		culture = guarani
-		religion = animist
-		size = 6
-	}
-	soldiers = {
-		culture = guarani
-		religion = animist
-		size = 6
+2408 = {
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+		size = 2400
 	}
 	farmers = {
-		culture = guarani
+		culture = tupinamba
 		religion = animist
-		size = 2385
+		size = 4800
 	}
 }
-2417 = {
-	bureaucrats = {
-		culture = zhe
-		religion = animist
-		size = 9
-	}
-	clergymen = {
-		culture = zhe
-		religion = animist
-		size = 6
-	}
-	artisans = {
-		culture = zhe
-		religion = animist
-		size = 6
-	}
-	soldiers = {
-		culture = zhe
-		religion = animist
-		size = 6
+2410 = {
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+		size = 2400
 	}
 	farmers = {
-		culture = zhe
+		culture = tupinamba
 		religion = animist
-		size = 2375
+		size = 4800
 	}
 }
-2418 = {
-	bureaucrats = {
-		culture = zhe
-		religion = animist
-		size = 0
-	}
-	clergymen = {
-		culture = zhe
-		religion = animist
-		size = 3
-	}
-	artisans = {
-		culture = zhe
-		religion = animist
-		size = 1
-	}
-	soldiers = {
-		culture = zhe
-		religion = animist
-		size = 1
-	}
+2431 = {
 	farmers = {
-		culture = zhe
-		religion = animist
-		size = 1817
-	}
-}
-2419 = {
-	bureaucrats = {
-		culture = zhe
-		religion = animist
-		size = 0
-	}
-	clergymen = {
-		culture = zhe
-		religion = animist
-		size = 3
-	}
-	artisans = {
-		culture = zhe
-		religion = animist
-		size = 1
-	}
-	soldiers = {
-		culture = zhe
-		religion = animist
-		size = 1
-	}
-	farmers = {
-		culture = zhe
-		religion = animist
-		size = 1992
-	}
-}
-2420 = {
-	clergymen = {
-		culture = guarani
-		religion = animist
-		size = 9
-	}
-	artisans = {
-		culture = guarani
-		religion = animist
-		size = 3
-	}
-	soldiers = {
-		culture = guarani
-		religion = animist
-		size = 3
-	}
-	farmers = {
-		culture = guarani
-		religion = animist
-		size = 2198
-	}
-}
-2421 = {
-	farmers = {
-		culture = zhe
-		religion = animist
-		size = 386
-	}
-}
-2422 = {
-	bureaucrats = {
-		culture = zhe
-		religion = animist
-		size = 0
-	}
-	clergymen = {
-		culture = zhe
-		religion = animist
-		size = 3
-	}
-	artisans = {
-		culture = zhe
-		religion = animist
-		size = 1
-	}
-	soldiers = {
-		culture = zhe
-		religion = animist
-		size = 1
-	}
-	farmers = {
-		culture = zhe
-		religion = animist
-		size = 1858
-	}
-}
-2423 = {
-	bureaucrats = {
 		culture = tupinamba
-		religion = animist
-		size = 3
-	}
-	clergymen = {
-		culture = tupinamba
-		religion = animist
-		size = 6
-	}
-	artisans = {
-		culture = tupinamba
-		religion = animist
-		size = 2
-	}
-	soldiers = {
-		culture = tupinamba
-		religion = animist
-		size = 3
+		religion = catholic
+		size = 2400
 	}
 	farmers = {
 		culture = tupinamba
 		religion = animist
-		size = 1984
-	}
-}
-2424 = {
-	farmers = {
-		culture = portuguese
-		religion = catholic
-		size = 89
-	}
-	farmers = {
-		culture = african_minor
-		religion = catholic
-		size = 17
-	}
-	slaves = {
-		culture = african_minor
-		religion = catholic
-		size = 374
-	}
-	farmers = {
-		culture = afro_brazilian
-		religion = catholic
-		size = 741
-	}
-	farmers = {
-		culture = brazilian
-		religion = catholic
-		size = 322
-	}
-	farmers = {
-		culture = samboo
-		religion = catholic
-		size = 35
-	}
-	farmers = {
-		culture = tupinamba
-		religion = animist
-		size = 1892
-	}
-	farmers = {
-		culture = tupinamba
-		religion = catholic
-		size = 250
-	}
-}
-2425 = {
-	clergymen = {
-		culture = tupinamba
-		religion = animist
-		size = 3
-	}
-	artisans = {
-		culture = tupinamba
-		religion = animist
-		size = 3
-	}
-	soldiers = {
-		culture = tupinamba
-		religion = animist
-		size = 3
-	}
-	farmers = {
-		culture = tupinamba
-		religion = animist
-		size = 2119
-	}
-}
-2426 = {
-	bureaucrats = {
-		culture = portuguese
-		religion = catholic
-		size = 18
-	}
-	clergymen = {
-		culture = portuguese
-		religion = catholic
-		size = 22
-	}
-	artisans = {
-		culture = portuguese
-		religion = catholic
-		size = 6
-	}
-	soldiers = {
-		culture = portuguese
-		religion = catholic
-		size = 17
-	}
-	farmers = {
-		culture = portuguese
-		religion = catholic
-		size = 567
-	}
-	clergymen = {
-		culture = african_minor
-		religion = catholic
-		size = 9
-	}
-	artisans = {
-		culture = african_minor
-		religion = catholic
-		size = 3
-	}
-	soldiers = {
-		culture = african_minor
-		religion = catholic
-		size = 2
-	}
-	farmers = {
-		culture = african_minor
-		religion = catholic
-		size = 94
-	}
-	slaves = {
-		culture = african_minor
-		religion = catholic
-		size = 1452
-	}
-	farmers = {
-		culture = afro_brazilian
-		religion = catholic
-		size = 187
-	}
-	farmers = {
-		culture = brazilian
-		religion = catholic
-		size = 755
-	}
-	farmers = {
-		culture = samboo
-		religion = catholic
-		size = 173
-	}
-	farmers = {
-		culture = tupinamba
-		religion = animist
-		size = 2992
-	}
-	farmers = {
-		culture = tupinamba
-		religion = catholic
-		size = 1207
-	}
-}
-2427 = {
-	clergymen = {
-		culture = tupinamba
-		religion = animist
-		size = 0
-	}
-	artisans = {
-		culture = tupinamba
-		religion = animist
-		size = 1
-	}
-	soldiers = {
-		culture = tupinamba
-		religion = animist
-		size = 0
-	}
-	farmers = {
-		culture = tupinamba
-		religion = animist
-		size = 1862
-	}
-}
-2428 = {
-	bureaucrats = {
-		culture = portuguese
-		religion = catholic
-		size = 29
-	}
-	clergymen = {
-		culture = portuguese
-		religion = catholic
-		size = 30
-	}
-	artisans = {
-		culture = portuguese
-		religion = catholic
-		size = 8
-	}
-	soldiers = {
-		culture = portuguese
-		religion = catholic
-		size = 24
-	}
-	farmers = {
-		culture = portuguese
-		religion = catholic
-		size = 739
-	}
-	clergymen = {
-		culture = african_minor
-		religion = catholic
-		size = 26
-	}
-	artisans = {
-		culture = african_minor
-		religion = catholic
-		size = 17
-	}
-	soldiers = {
-		culture = african_minor
-		religion = catholic
-		size = 17
-	}
-	farmers = {
-		culture = african_minor
-		religion = catholic
-		size = 59
-	}
-	slaves = {
-		culture = african_minor
-		religion = catholic
-		size = 867
-	}
-	farmers = {
-		culture = afro_brazilian
-		religion = catholic
-		size = 289
-	}
-	farmers = {
-		culture = brazilian
-		religion = catholic
-		size = 947
-	}
-	farmers = {
-		culture = samboo
-		religion = catholic
-		size = 294
-	}
-	farmers = {
-		culture = tupinamba
-		religion = animist
-		size = 1737
-	}
-	farmers = {
-		culture = tupinamba
-		religion = catholic
-		size = 1510
-	}
-}
-2429 = {
-	bureaucrats = {
-		culture = portuguese
-		religion = catholic
-		size = 58
-	}
-	clergymen = {
-		culture = portuguese
-		religion = catholic
-		size = 48
-	}
-	artisans = {
-		culture = portuguese
-		religion = catholic
-		size = 40
-	}
-	soldiers = {
-		culture = portuguese
-		religion = catholic
-		size = 77
-	}
-	farmers = {
-		culture = portuguese
-		religion = catholic
-		size = 2299
-	}
-	clergymen = {
-		culture = african_minor
-		religion = catholic
-		size = 26
-	}
-	artisans = {
-		culture = african_minor
-		religion = catholic
-		size = 15
-	}
-	soldiers = {
-		culture = african_minor
-		religion = catholic
-		size = 12
-	}
-	farmers = {
-		culture = african_minor
-		religion = catholic
-		size = 105
-	}
-	slaves = {
-		culture = african_minor
-		religion = catholic
-		size = 1261
-	}
-	farmers = {
-		culture = afro_brazilian
-		religion = catholic
-		size = 374
-	}
-	farmers = {
-		culture = brazilian
-		religion = catholic
-		size = 1722
-	}
-	farmers = {
-		culture = samboo
-		religion = catholic
-		size = 199
-	}
-	farmers = {
-		culture = tupinamba
-		religion = animist
-		size = 201
-	}
-	farmers = {
-		culture = tupinamba
-		religion = catholic
-		size = 783
+		size = 4800
 	}
 }
 2430 = {
 	farmers = {
-		culture = portuguese
+		culture = tupinamba
 		religion = catholic
-		size = 84
-	}
-	farmers = {
-		culture = brazilian
-		religion = catholic
-		size = 140
-	}
-	clergymen = {
-		culture = tupinamba
-		religion = animist
-		size = 19
-	}
-	artisans = {
-		culture = tupinamba
-		religion = animist
-		size = 19
-	}
-	soldiers = {
-		culture = tupinamba
-		religion = animist
-		size = 30
+		size = 2400
 	}
 	farmers = {
 		culture = tupinamba
 		religion = animist
-		size = 5875
+		size = 4800
 	}
 }
-2431 = {
-	bureaucrats = {
-		culture = portuguese
-		religion = catholic
-		size = 17
-	}
-	clergymen = {
-		culture = portuguese
-		religion = catholic
-		size = 15
-	}
-	artisans = {
-		culture = portuguese
-		religion = catholic
-		size = 4
-	}
-	soldiers = {
-		culture = portuguese
-		religion = catholic
-		size = 3
-	}
+2428 = {
 	farmers = {
-		culture = portuguese
+		culture = tupinamba
 		religion = catholic
-		size = 257
-	}
-	clergymen = {
-		culture = african_minor
-		religion = catholic
-		size = 9
-	}
-	artisans = {
-		culture = african_minor
-		religion = catholic
-		size = 10
-	}
-	soldiers = {
-		culture = african_minor
-		religion = catholic
-		size = 1
-	}
-	farmers = {
-		culture = african_minor
-		religion = catholic
-		size = 116
-	}
-	slaves = {
-		culture = african_minor
-		religion = catholic
-		size = 1552
-	}
-	farmers = {
-		culture = afro_brazilian
-		religion = catholic
-		size = 490
-	}
-	farmers = {
-		culture = brazilian
-		religion = catholic
-		size = 663
-	}
-	farmers = {
-		culture = samboo
-		religion = catholic
-		size = 108
+		size = 2400
 	}
 	farmers = {
 		culture = tupinamba
 		religion = animist
-		size = 3109
-	}
-	farmers = {
-		culture = tupinamba
-		religion = catholic
-		size = 807
-	}
-}
-2432 = {
-	bureaucrats = {
-		culture = portuguese
-		religion = catholic
-		size = 96
-	}
-	clergymen = {
-		culture = portuguese
-		religion = catholic
-		size = 84
-	}
-	artisans = {
-		culture = portuguese
-		religion = catholic
-		size = 42
-	}
-	soldiers = {
-		culture = portuguese
-		religion = catholic
-		size = 460
-	}
-	farmers = {
-		culture = portuguese
-		religion = catholic
-		size = 2222
-	}
-	clergymen = {
-		culture = african_minor
-		religion = catholic
-		size = 6
-	}
-	artisans = {
-		culture = african_minor
-		religion = catholic
-		size = 17
-	}
-	soldiers = {
-		culture = african_minor
-		religion = catholic
-		size = 17
-	}
-	farmers = {
-		culture = african_minor
-		religion = catholic
-		size = 105
-	}
-	slaves = {
-		culture = african_minor
-		religion = catholic
-		size = 876
-	}
-	farmers = {
-		culture = afro_brazilian
-		religion = catholic
-		size = 682
-	}
-	farmers = {
-		culture = brazilian
-		religion = catholic
-		size = 3088
-	}
-	farmers = {
-		culture = samboo
-		religion = catholic
-		size = 405
-	}
-	farmers = {
-		culture = tupinamba
-		religion = animist
-		size = 176
-	}
-	farmers = {
-		culture = tupinamba
-		religion = catholic
-		size = 2052
+		size = 4800
 	}
 }
 2433 = {
 	farmers = {
-		culture = portuguese
+		culture = tupinamba
 		religion = catholic
-		size = 113
-	}
-	farmers = {
-		culture = brazilian
-		religion = catholic
-		size = 240
-	}
-	clergymen = {
-		culture = tupinamba
-		religion = animist
-		size = 20
-	}
-	artisans = {
-		culture = tupinamba
-		religion = animist
-		size = 34
-	}
-	soldiers = {
-		culture = tupinamba
-		religion = animist
-		size = 29
+		size = 2400
 	}
 	farmers = {
 		culture = tupinamba
 		religion = animist
-		size = 4148
+		size = 4800
+	}
+}
+2432 = {
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+		size = 2400
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+		size = 4800
 	}
 }
 2434 = {
-	bureaucrats = {
-		culture = portuguese
-		religion = catholic
-		size = 67
-	}
-	clergymen = {
-		culture = portuguese
-		religion = catholic
-		size = 38
-	}
-	artisans = {
-		culture = portuguese
-		religion = catholic
-		size = 15
-	}
-	soldiers = {
-		culture = portuguese
-		religion = catholic
-		size = 67
-	}
 	farmers = {
-		culture = portuguese
+		culture = tupinamba
 		religion = catholic
-		size = 817
-	}
-	clergymen = {
-		culture = african_minor
-		religion = catholic
-		size = 13
-	}
-	artisans = {
-		culture = african_minor
-		religion = catholic
-		size = 33
-	}
-	soldiers = {
-		culture = african_minor
-		religion = catholic
-		size = 17
-	}
-	farmers = {
-		culture = african_minor
-		religion = catholic
-		size = 297
-	}
-	slaves = {
-		culture = african_minor
-		religion = catholic
-		size = 284
-	}
-	farmers = {
-		culture = afro_brazilian
-		religion = catholic
-		size = 327
-	}
-	farmers = {
-		culture = brazilian
-		religion = catholic
-		size = 1080
-	}
-	farmers = {
-		culture = samboo
-		religion = catholic
-		size = 249
+		size = 2400
 	}
 	farmers = {
 		culture = tupinamba
 		religion = animist
-		size = 1723
-	}
-	farmers = {
-		culture = tupinamba
-		religion = catholic
-		size = 3457
-	}
-}
-2435 = {
-	bureaucrats = {
-		culture = portuguese
-		religion = catholic
-		size = 19
-	}
-	clergymen = {
-		culture = portuguese
-		religion = catholic
-		size = 15
-	}
-	artisans = {
-		culture = portuguese
-		religion = catholic
-		size = 6
-	}
-	soldiers = {
-		culture = portuguese
-		religion = catholic
-		size = 9
-	}
-	farmers = {
-		culture = portuguese
-		religion = catholic
-		size = 344
-	}
-	clergymen = {
-		culture = african_minor
-		religion = catholic
-		size = 6
-	}
-	artisans = {
-		culture = african_minor
-		religion = catholic
-		size = 11
-	}
-	soldiers = {
-		culture = african_minor
-		religion = catholic
-		size = 7
-	}
-	farmers = {
-		culture = african_minor
-		religion = catholic
-		size = 84
-	}
-	slaves = {
-		culture = african_minor
-		religion = catholic
-		size = 96
-	}
-	farmers = {
-		culture = afro_brazilian
-		religion = catholic
-		size = 45
-	}
-	farmers = {
-		culture = brazilian
-		religion = catholic
-		size = 781
-	}
-	farmers = {
-		culture = samboo
-		religion = catholic
-		size = 38
-	}
-	farmers = {
-		culture = tupinamba
-		religion = animist
-		size = 3955
-	}
-	farmers = {
-		culture = tupinamba
-		religion = catholic
-		size = 721
-	}
-}
-2436 = {
-	bureaucrats = {
-		culture = portuguese
-		religion = catholic
-		size = 9
-	}
-	clergymen = {
-		culture = portuguese
-		religion = catholic
-		size = 18
-	}
-	artisans = {
-		culture = portuguese
-		religion = catholic
-		size = 3
-	}
-	soldiers = {
-		culture = portuguese
-		religion = catholic
-		size = 10
-	}
-	farmers = {
-		culture = portuguese
-		religion = catholic
-		size = 277
-	}
-	clergymen = {
-		culture = african_minor
-		religion = catholic
-		size = 6
-	}
-	slaves = {
-		culture = african_minor
-		religion = catholic
-		size = 88
-	}
-	farmers = {
-		culture = afro_brazilian
-		religion = catholic
-		size = 29
-	}
-	farmers = {
-		culture = brazilian
-		religion = catholic
-		size = 807
-	}
-	farmers = {
-		culture = samboo
-		religion = catholic
-		size = 27
-	}
-	farmers = {
-		culture = tupinamba
-		religion = animist
-		size = 2416
-	}
-	farmers = {
-		culture = tupinamba
-		religion = catholic
-		size = 781
+		size = 4800
 	}
 }
 2437 = {
 	farmers = {
-		culture = portuguese
+		culture = tupinamba
 		religion = catholic
-		size = 202
-	}
-	farmers = {
-		culture = brazilian
-		religion = catholic
-		size = 351
-	}
-	clergymen = {
-		culture = tupinamba
-		religion = animist
-		size = 29
-	}
-	artisans = {
-		culture = tupinamba
-		religion = animist
-		size = 34
-	}
-	soldiers = {
-		culture = tupinamba
-		religion = animist
-		size = 37
+		size = 2400
 	}
 	farmers = {
 		culture = tupinamba
 		religion = animist
-		size = 3991
-	}
-	farmers = {
-		culture = zhe
-		religion = animist
-		size = 168
+		size = 4800
 	}
 }
-2438 = {
+2435 = {
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+		size = 2400
+	}
 	farmers = {
 		culture = tupinamba
 		religion = animist
-		size = 3851
+		size = 4800
 	}
 }
-2439 = {
-	bureaucrats = {
-		culture = portuguese
-		religion = catholic
-		size = 29
-	}
-	clergymen = {
-		culture = portuguese
-		religion = catholic
-		size = 30
-	}
-	artisans = {
-		culture = portuguese
-		religion = catholic
-		size = 8
-	}
-	soldiers = {
-		culture = portuguese
-		religion = catholic
-		size = 24
-	}
+2436 = {
 	farmers = {
-		culture = portuguese
+		culture = tupinamba
 		religion = catholic
-		size = 393
-	}
-	clergymen = {
-		culture = african_minor
-		religion = catholic
-		size = 6
-	}
-	artisans = {
-		culture = african_minor
-		religion = catholic
-		size = 17
-	}
-	soldiers = {
-		culture = african_minor
-		religion = catholic
-		size = 17
-	}
-	farmers = {
-		culture = african_minor
-		religion = catholic
-		size = 105
-	}
-	slaves = {
-		culture = african_minor
-		religion = catholic
-		size = 116
-	}
-	farmers = {
-		culture = afro_brazilian
-		religion = catholic
-		size = 114
-	}
-	farmers = {
-		culture = brazilian
-		religion = catholic
-		size = 1163
-	}
-	farmers = {
-		culture = samboo
-		religion = catholic
-		size = 199
+		size = 2400
 	}
 	farmers = {
 		culture = tupinamba
 		religion = animist
-		size = 2989
-	}
-	farmers = {
-		culture = tupinamba
-		religion = catholic
-		size = 1067
+		size = 4800
 	}
 }
 2440 = {
 	farmers = {
-		culture = portuguese
+		culture = tupinamba
 		religion = catholic
-		size = 109
-	}
-	farmers = {
-		culture = brazilian
-		religion = catholic
-		size = 273
-	}
-	clergymen = {
-		culture = tupinamba
-		religion = animist
-		size = 9
-	}
-	artisans = {
-		culture = tupinamba
-		religion = animist
-		size = 18
-	}
-	soldiers = {
-		culture = tupinamba
-		religion = animist
-		size = 20
+		size = 2400
 	}
 	farmers = {
 		culture = tupinamba
 		religion = animist
-		size = 3549
-	}
-	farmers = {
-		culture = zhe
-		religion = animist
-		size = 300
-	}
-}
-2441 = {
-	bureaucrats = {
-		culture = portuguese
-		religion = catholic
-		size = 165
-	}
-	bureaucrats = {
-		culture = portuguese
-		religion = catholic
-		size = 41
-	}
-	officers = {
-		culture = portuguese
-		religion = catholic
-		size = 30
-	}
-	clergymen = {
-		culture = portuguese
-		religion = catholic
-		size = 66
-	}
-	artisans = {
-		culture = portuguese
-		religion = catholic
-		size = 38
-	}
-	soldiers = {
-		culture = portuguese
-		religion = catholic
-		size = 140
-	}
-	farmers = {
-		culture = portuguese
-		religion = catholic
-		size = 956
-	}
-	farmers = {
-		culture = african_minor
-		religion = catholic
-		size = 182
-	}
-	slaves = {
-		culture = african_minor
-		religion = catholic
-		size = 393
-	}
-	farmers = {
-		culture = brazilian
-		religion = catholic
-		size = 956
-	}
-	farmers = {
-		culture = afro_brazilian
-		religion = catholic
-		size = 202
-	}
-	farmers = {
-		culture = samboo
-		religion = catholic
-		size = 374
-	}
-	farmers = {
-		culture = tupinamba
-		religion = catholic
-		size = 1452
-	}
-	farmers = {
-		culture = zhe
-		religion = catholic
-		size = 460
-	}
-}
-2442 = {
-	farmers = {
-		culture = tupinamba
-		religion = catholic
-		size = 383
-	}
-	farmers = {
-		culture = tupinamba
-		religion = animist
-		size = 2248
-	}
-	farmers = {
-		culture = portuguese
-		religion = catholic
-		size = 97
-	}
-	farmers = {
-		culture = brazilian
-		religion = catholic
-		size = 898
-	}
-	farmers = {
-		culture = zhe
-		religion = catholic
-		size = 490
-	}
-	farmers = {
-		culture = zhe
-		religion = animist
-		size = 2917
+		size = 4800
 	}
 }
 2443 = {
 	farmers = {
 		culture = tupinamba
 		religion = catholic
-		size = 1423
+		size = 2400
 	}
 	farmers = {
 		culture = tupinamba
 		religion = animist
-		size = 4411
+		size = 4800
+	}
+}
+2306 = {
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+		size = 2400
 	}
 	farmers = {
-		culture = portuguese
+		culture = tupinamba
+		religion = animist
+		size = 4800
+	}
+}
+2456 = {
+	farmers = {
+		culture = tupinamba
 		religion = catholic
-		size = 311
+		size = 2400
 	}
 	farmers = {
-		culture = brazilian
-		religion = catholic
-		size = 1040
+		culture = tupinamba
+		religion = animist
+		size = 4800
 	}
+}
+2453 = {
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+		size = 2400
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+		size = 4800
+	}
+}
+2460 = {
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+		size = 2400
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+		size = 4800
+	}
+}
+2458 = {
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+		size = 2400
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+		size = 4800
+	}
+}
+2459 = {
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+		size = 2400
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+		size = 4800
+	}
+}
+2462 = {
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+		size = 2400
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+		size = 4800
+	}
+}
+2465 = {
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+		size = 2400
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+		size = 4800
+	}
+}
+2466 = {
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+		size = 2400
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+		size = 4800
+	}
+}
+2464 = {
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+		size = 2400
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+		size = 4800
+	}
+}
+2457 = {
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+		size = 2400
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+		size = 4800
+	}
+}
+2463 = {
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+		size = 2400
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+		size = 4800
+	}
+}
+2461 = {
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+		size = 2400
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+		size = 4800
+	}
+}
+2455 = {
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+		size = 2400
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+		size = 4800
+	}
+}
+2402 = {
 	farmers = {
 		culture = zhe
-		religion = catholic
-		size = 88
+		religion = animist
+		size = 2400
 	}
 	farmers = {
 		culture = zhe
 		religion = animist
-		size = 770
+		size = 4800
+	}
+}
+2411 = {
+	farmers = {
+		culture = zhe
+		religion = animist
+		size = 2400
+	}
+	farmers = {
+		culture = zhe
+		religion = animist
+		size = 4800
+	}
+}
+2600 = {
+	farmers = {
+		culture = zhe
+		religion = animist
+		size = 2400
+	}
+	farmers = {
+		culture = zhe
+		religion = animist
+		size = 4800
+	}
+}
+2413 = {
+	farmers = {
+		culture = zhe
+		religion = animist
+		size = 2400
+	}
+	farmers = {
+		culture = zhe
+		religion = animist
+		size = 4800
+	}
+}
+2423 = {
+	farmers = {
+		culture = zhe
+		religion = animist
+		size = 2400
+	}
+	farmers = {
+		culture = zhe
+		religion = animist
+		size = 4800
+	}
+}
+2438 = {
+	farmers = {
+		culture = zhe
+		religion = animist
+		size = 2400
+	}
+	farmers = {
+		culture = zhe
+		religion = animist
+		size = 4800
+	}
+}
+2427 = {
+	farmers = {
+		culture = zhe
+		religion = animist
+		size = 2400
+	}
+	farmers = {
+		culture = zhe
+		religion = animist
+		size = 4800
+	}
+}
+2422 = {
+	farmers = {
+		culture = zhe
+		religion = animist
+		size = 2400
+	}
+	farmers = {
+		culture = zhe
+		religion = animist
+		size = 4800
+	}
+}
+2421 = {
+	farmers = {
+		culture = zhe
+		religion = animist
+		size = 2400
+	}
+	farmers = {
+		culture = zhe
+		religion = animist
+		size = 4800
+	}
+}
+2419 = {
+	farmers = {
+		culture = zhe
+		religion = animist
+		size = 2400
+	}
+	farmers = {
+		culture = zhe
+		religion = animist
+		size = 4800
+	}
+}
+2416 = {
+	farmers = {
+		culture = zhe
+		religion = animist
+		size = 2400
+	}
+	farmers = {
+		culture = zhe
+		religion = animist
+		size = 4800
+	}
+}
+2467 = {
+	farmers = {
+		culture = guarani
+		religion = animist
+		size = 2400
+	}
+	farmers = {
+		culture = guarani
+		religion = animist
+		size = 4800
+	}
+}
+
+2401 = {
+	bureaucrats = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	clergymen = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+}
+2402 = {
+	clergymen = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+}
+2403 = {
+	bureaucrats = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	clergymen = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+}
+2404 = {
+	bureaucrats = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	clergymen = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+}
+2405 = {
+	bureaucrats = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	clergymen = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+}
+2407 = {
+	bureaucrats = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	clergymen = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+}
+2408 = {
+	clergymen = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = brazilian
+		religion = catholic
+	    size = 10
+	}
+}
+2532 = {
+	bureaucrats = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	clergymen = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+}
+2410 = {
+	farmers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	slaves = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = amazonian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = brazilian
+		religion = catholic
+	    size = 10
+	}
+}
+2411 = {
+	farmers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = brazilian
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+}
+2412 = {
+	farmers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = brazilian
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+}
+2413 = {
+	clergymen = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+}
+2414 = {
+	farmers = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	slaves = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+}
+2415 = {
+	farmers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = brazilian
+		religion = catholic
+	    size = 10
+	}
+	artisans = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = amazonian
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = amazonian
+		religion = catholic
+	    size = 10
+	}
+	slaves = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+}
+2600 = {
+	bureaucrats = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	clergymen = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+}
+2416 = {
+	clergymen = {
+		culture = guarani
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = guarani
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = guarani
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = guarani
+		religion = animist
+	    size = 10
+	}
+}
+2417 = {
+	bureaucrats = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	clergymen = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+}
+2418 = {
+	bureaucrats = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	clergymen = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+}
+2419 = {
+	bureaucrats = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	clergymen = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+}
+2420 = {
+	clergymen = {
+		culture = guarani
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = guarani
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = guarani
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = guarani
+		religion = animist
+	    size = 10
+	}
+}
+2421 = {
+	farmers = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+}
+2422 = {
+	bureaucrats = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	clergymen = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+}
+2423 = {
+	bureaucrats = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	clergymen = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+}
+2424 = {
+	farmers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	slaves = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = afro_brazilian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = brazilian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = samboo
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+	    size = 10
+	}
+}
+2425 = {
+	clergymen = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+}
+2426 = {
+	bureaucrats = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	artisans = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	soldiers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	artisans = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	soldiers = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	slaves = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = afro_brazilian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = brazilian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = samboo
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+	    size = 10
+	}
+}
+2427 = {
+	clergymen = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+}
+2428 = {
+	bureaucrats = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	artisans = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	soldiers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	artisans = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	soldiers = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	slaves = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = afro_brazilian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = brazilian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = samboo
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+	    size = 10
+	}
+}
+2429 = {
+	bureaucrats = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	artisans = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	soldiers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	artisans = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	soldiers = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	slaves = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = afro_brazilian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = brazilian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = samboo
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+	    size = 10
+	}
+}
+2430 = {
+	farmers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = brazilian
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+}
+2431 = {
+	bureaucrats = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	artisans = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	soldiers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	artisans = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	soldiers = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	slaves = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = afro_brazilian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = brazilian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = samboo
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+	    size = 10
+	}
+}
+2432 = {
+	bureaucrats = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	artisans = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	soldiers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	artisans = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	soldiers = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	slaves = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = afro_brazilian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = brazilian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = samboo
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+	    size = 10
+	}
+}
+2433 = {
+	farmers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = brazilian
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+}
+2434 = {
+	bureaucrats = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	artisans = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	soldiers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	artisans = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	soldiers = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	slaves = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = afro_brazilian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = brazilian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = samboo
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+	    size = 10
+	}
+}
+2435 = {
+	bureaucrats = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	artisans = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	soldiers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	artisans = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	soldiers = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	slaves = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = afro_brazilian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = brazilian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = samboo
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+	    size = 10
+	}
+}
+2436 = {
+	bureaucrats = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	artisans = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	soldiers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	slaves = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = afro_brazilian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = brazilian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = samboo
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+	    size = 10
+	}
+}
+2437 = {
+	farmers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = brazilian
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+}
+2438 = {
+	farmers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+}
+2439 = {
+	bureaucrats = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	artisans = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	soldiers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	artisans = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	soldiers = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	slaves = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = afro_brazilian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = brazilian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = samboo
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+	    size = 10
+	}
+}
+2440 = {
+	farmers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = brazilian
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	artisans = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	soldiers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+}
+2441 = {
+	bureaucrats = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	bureaucrats = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	officers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	clergymen = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	artisans = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	soldiers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	slaves = {
+		culture = african_minor
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = brazilian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = afro_brazilian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = samboo
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = zhe
+		religion = catholic
+	    size = 10
+	}
+}
+2442 = {
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = brazilian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = zhe
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = zhe
+		religion = animist
+	    size = 10
+	}
+}
+2443 = {
+	farmers = {
+		culture = tupinamba
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = tupinamba
+		religion = animist
+	    size = 10
+	}
+	farmers = {
+		culture = portuguese
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = brazilian
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = zhe
+		religion = catholic
+	    size = 10
+	}
+	farmers = {
+		culture = zhe
+		religion = animist
+	    size = 10
 	}
 }
 2444 = {
 	farmers = {
 		culture = zhe
 		religion = animist
-		size = 4841
+	    size = 10
 	}
 }
 2445 = {
 	farmers = {
 		culture = zhe
 		religion = animist
-		size = 4841
+	    size = 10
 	}
 }
 2446 = {
 	farmers = {
 		culture = tupinamba
 		religion = catholic
-		size = 72
+	    size = 10
 	}
 	farmers = {
 		culture = tupinamba
 		religion = animist
-		size = 2264
+	    size = 10
 	}
 	farmers = {
 		culture = portuguese
 		religion = catholic
-		size = 24
+	    size = 10
 	}
 	farmers = {
 		culture = brazilian
 		religion = catholic
-		size = 202
+	    size = 10
 	}
 	farmers = {
 		culture = zhe
 		religion = catholic
-		size = 79
+	    size = 10
 	}
 	farmers = {
 		culture = zhe
 		religion = animist
-		size = 2188
+	    size = 10
 	}
 }
 2447 = {
 	bureaucrats = {
 		culture = portuguese
 		religion = catholic
-		size = 372
+	    size = 10
 	}
 	bureaucrats = {
 		culture = portuguese
 		religion = catholic
-		size = 62
+	    size = 10
 	}
 	officers = {
 		culture = portuguese
 		religion = catholic
-		size = 34
+	    size = 10
 	}
 	clergymen = {
 		culture = portuguese
 		religion = catholic
-		size = 224
+	    size = 10
 	}
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 477
+	    size = 10
 	}
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size = 1406
+	    size = 10
 	}
 	farmers = {
 		culture = portuguese
 		religion = catholic
-		size = 6015
+	    size = 10
 	}
 	clergymen = {
 		culture = african_minor
 		religion = catholic
-		size = 20
+	    size = 10
 	}
 	artisans = {
 		culture = african_minor
 		religion = catholic
-		size = 62
+	    size = 10
 	}
 	soldiers = {
 		culture = african_minor
 		religion = catholic
-		size = 41
+	    size = 10
 	}
 	farmers = {
 		culture = african_minor
 		religion = catholic
-		size = 960
+	    size = 10
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 3399
+	    size = 10
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 405
+	    size = 10
 	}
 	farmers = {
 		culture = brazilian
 		religion = catholic
-		size = 3829
+	    size = 10
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 2051
+	    size = 10
 	}
 	farmers = {
 		culture = tupinamba
 		religion = catholic
-		size = 5875
+	    size = 10
 	}
 	farmers = {
 		culture = zhe
 		religion = catholic
-		size = 782
+	    size = 10
 	}
 }
 2448 = {
 	bureaucrats = {
 		culture = portuguese
 		religion = catholic
-		size = 62
+	    size = 10
 	}
 	bureaucrats = {
 		culture = portuguese
 		religion = catholic
-		size = 10
+	    size = 10
 	}
 	officers = {
 		culture = portuguese
 		religion = catholic
-		size = 8
+	    size = 10
 	}
 	clergymen = {
 		culture = portuguese
 		religion = catholic
-		size = 33
+	    size = 10
 	}
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 160
+	    size = 10
 	}
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size = 57
+	    size = 10
 	}
 	farmers = {
 		culture = portuguese
 		religion = catholic
-		size = 5425
+	    size = 10
 	}
 	clergymen = {
 		culture = african_minor
 		religion = catholic
-		size = 8
+	    size = 10
 	}
 	artisans = {
 		culture = african_minor
 		religion = catholic
-		size = 6
+	    size = 10
 	}
 	soldiers = {
 		culture = african_minor
 		religion = catholic
-		size = 41
+	    size = 10
 	}
 	farmers = {
 		culture = african_minor
 		religion = catholic
-		size = 294
+	    size = 10
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 784
+	    size = 10
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 88
+	    size = 10
 	}
 	farmers = {
 		culture = brazilian
 		religion = catholic
-		size = 109
+	    size = 10
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 364
+	    size = 10
 	}
 	farmers = {
 		culture = tupinamba
 		religion = catholic
-		size = 755
+	    size = 10
 	}
 }
 2449 = {
 	bureaucrats = {
 		culture = portuguese
 		religion = catholic
-		size = 86
+	    size = 10
 	}
 	clergymen = {
 		culture = portuguese
 		religion = catholic
-		size = 30
+	    size = 10
 	}
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 19
+	    size = 10
 	}
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size = 24
+	    size = 10
 	}
 	farmers = {
 		culture = portuguese
 		religion = catholic
-		size = 1070
+	    size = 10
 	}
 	clergymen = {
 		culture = african_minor
 		religion = catholic
-		size = 6
+	    size = 10
 	}
 	artisans = {
 		culture = african_minor
 		religion = catholic
-		size = 15
+	    size = 10
 	}
 	soldiers = {
 		culture = african_minor
 		religion = catholic
-		size = 17
+	    size = 10
 	}
 	farmers = {
 		culture = african_minor
 		religion = catholic
-		size = 594
+	    size = 10
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 984
+	    size = 10
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 199
+	    size = 10
 	}
 	farmers = {
 		culture = brazilian
 		religion = catholic
-		size = 173
+	    size = 10
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 486
+	    size = 10
 	}
 	farmers = {
 		culture = tupinamba
 		religion = catholic
-		size = 867
+	    size = 10
 	}
 }
 2306 = {
 	clergymen = {
 		culture = portuguese
 		religion = catholic
-		size = 9
+	    size = 10
 	}
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 13
+	    size = 10
 	}
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size = 13
+	    size = 10
 	}
 	farmers = {
 		culture = portuguese
 		religion = catholic
-		size = 393
+	    size = 10
 	}
 	farmers = {
 		culture = tupinamba
 		religion = animist
-		size = 2411
+	    size = 10
 	}
 	farmers = {
 		culture = brazilian
 		religion = catholic
-		size = 868
+	    size = 10
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 77
+	    size = 10
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 19
+	    size = 10
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 5
+	    size = 10
 	}
 }
 2450 = {
 	bureaucrats = {
 		culture = portuguese
 		religion = catholic
-		size = 178
+	    size = 10
 	}
 	bureaucrats = {
 		culture = portuguese
 		religion = catholic
-		size = 17
+	    size = 10
 	}
 	officers = {
 		culture = portuguese
 		religion = catholic
-		size = 20
+	    size = 10
 	}
 	clergymen = {
 		culture = portuguese
 		religion = catholic
-		size = 76
+	    size = 10
 	}
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 51
+	    size = 10
 	}
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size = 313
+	    size = 10
 	}
 	farmers = {
 		culture = portuguese
 		religion = catholic
-		size = 4132
+	    size = 10
 	}
 	clergymen = {
 		culture = african_minor
 		religion = catholic
-		size = 9
+	    size = 10
 	}
 	artisans = {
 		culture = african_minor
 		religion = catholic
-		size = 19
+	    size = 10
 	}
 	soldiers = {
 		culture = african_minor
 		religion = catholic
-		size = 20
+	    size = 10
 	}
 	farmers = {
 		culture = african_minor
 		religion = catholic
-		size = 706
+	    size = 10
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 1612
+	    size = 10
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 72
+	    size = 10
 	}
 	farmers = {
 		culture = brazilian
 		religion = catholic
-		size = 779
+	    size = 10
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 348
+	    size = 10
 	}
 	farmers = {
 		culture = tupinamba
 		religion = catholic
-		size = 2030
+	    size = 10
 	}
 	farmers = {
 		culture = tupinamba
 		religion = animist
-		size = 89
+	    size = 10
 	}
 	farmers = {
 		culture = guarani
 		religion = catholic
-		size = 201
+	    size = 10
 	}
 }
 2451 = {
 	bureaucrats = {
 		culture = portuguese
 		religion = catholic
-		size = 94
+	    size = 10
 	}
 	clergymen = {
 		culture = portuguese
 		religion = catholic
-		size = 37
+	    size = 10
 	}
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 24
+	    size = 10
 	}
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size = 76
+	    size = 10
 	}
 	farmers = {
 		culture = portuguese
 		religion = catholic
-		size = 6547
+	    size = 10
 	}
 	clergymen = {
 		culture = african_minor
 		religion = catholic
-		size = 6
+	    size = 10
 	}
 	artisans = {
 		culture = african_minor
 		religion = catholic
-		size = 13
+	    size = 10
 	}
 	soldiers = {
 		culture = african_minor
 		religion = catholic
-		size = 13
+	    size = 10
 	}
 	farmers = {
 		culture = african_minor
 		religion = catholic
-		size = 176
+	    size = 10
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 3710
+	    size = 10
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 50
+	    size = 10
 	}
 	farmers = {
 		culture = brazilian
 		religion = catholic
-		size = 265
+	    size = 10
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 171
+	    size = 10
 	}
 	farmers = {
 		culture = tupinamba
 		religion = catholic
-		size = 868
+	    size = 10
 	}
 	farmers = {
 		culture = tupinamba
 		religion = animist
-		size = 79
+	    size = 10
 	}
 }
 2452 = {
 	bureaucrats = {
 		culture = portuguese
 		religion = catholic
-		size = 44
+	    size = 10
 	}
 	clergymen = {
 		culture = portuguese
 		religion = catholic
-		size = 17
+	    size = 10
 	}
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 10
+	    size = 10
 	}
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size = 13
+	    size = 10
 	}
 	farmers = {
 		culture = portuguese
 		religion = catholic
-		size = 407
+	    size = 10
 	}
 	clergymen = {
 		culture = african_minor
 		religion = catholic
-		size = 6
+	    size = 10
 	}
 	artisans = {
 		culture = african_minor
 		religion = catholic
-		size = 7
+	    size = 10
 	}
 	soldiers = {
 		culture = african_minor
 		religion = catholic
-		size = 9
+	    size = 10
 	}
 	farmers = {
 		culture = african_minor
 		religion = catholic
-		size = 291
+	    size = 10
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 586
+	    size = 10
 	}
 	farmers = {
 		culture = tupinamba
 		religion = animist
-		size = 4142
+	    size = 10
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 105
+	    size = 10
 	}
 	farmers = {
 		culture = brazilian
 		religion = catholic
-		size = 581
+	    size = 10
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 39
+	    size = 10
 	}
 }
 2453 = {
 	farmers = {
 		culture = tupinamba
 		religion = animist
-		size = 2118
+	    size = 10
 	}
 }
 2455 = {
 	farmers = {
 		culture = tupinamba
 		religion = animist
-		size = 1254
+	    size = 10
 	}
 	farmers = {
 		culture = portuguese
 		religion = catholic
-		size = 740
+	    size = 10
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 2118
+	    size = 10
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 211
+	    size = 10
 	}
 	farmers = {
 		culture = brazilian
 		religion = catholic
-		size = 782
+	    size = 10
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 88
+	    size = 10
 	}
 }
 2456 = {
 	bureaucrats = {
 		culture = tupinamba
 		religion = animist
-		size = 0
+	    size = 10
 	}
 	clergymen = {
 		culture = tupinamba
 		religion = animist
-		size = 3
+	    size = 10
 	}
 	artisans = {
 		culture = tupinamba
 		religion = animist
-		size = 1
+	    size = 10
 	}
 	soldiers = {
 		culture = tupinamba
 		religion = animist
-		size = 1
+	    size = 10
 	}
 	farmers = {
 		culture = tupinamba
 		religion = animist
-		size = 2118
+	    size = 10
 	}
 }
 2457 = {
 	bureaucrats = {
 		culture = portuguese
 		religion = catholic
-		size = 62
+	    size = 10
 	}
 	bureaucrats = {
 		culture = portuguese
 		religion = catholic
-		size = 10
+	    size = 10
 	}
 	officers = {
 		culture = portuguese
 		religion = catholic
-		size = 8
+	    size = 10
 	}
 	clergymen = {
 		culture = portuguese
 		religion = catholic
-		size = 33
+	    size = 10
 	}
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 160
+	    size = 10
 	}
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size = 1406
+	    size = 10
 	}
 	farmers = {
 		culture = portuguese
 		religion = catholic
-		size = 1975
+	    size = 10
 	}
 	clergymen = {
 		culture = african_minor
 		religion = catholic
-		size = 8
+	    size = 10
 	}
 	artisans = {
 		culture = african_minor
 		religion = catholic
-		size = 6
+	    size = 10
 	}
 	soldiers = {
 		culture = african_minor
 		religion = catholic
-		size = 41
+	    size = 10
 	}
 	farmers = {
 		culture = african_minor
 		religion = catholic
-		size = 294
+	    size = 10
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 4140
+	    size = 10
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 113
+	    size = 10
 	}
 	farmers = {
 		culture = brazilian
 		religion = catholic
-		size = 173
+	    size = 10
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 2030
+	    size = 10
 	}
 	farmers = {
 		culture = tupinamba
 		religion = catholic
-		size = 105
+	    size = 10
 	}
 	farmers = {
 		culture = tupinamba
 		religion = animist
-		size = 74
+	    size = 10
 	}
 	farmers = {
 		culture = guarani
 		religion = catholic
-		size = 660
+	    size = 10
 	}
 }
 2458 = {
 	clergymen = {
 		culture = tupinamba
 		religion = animist
-		size = 3
+	    size = 10
 	}
 	artisans = {
 		culture = tupinamba
 		religion = animist
-		size = 1
+	    size = 10
 	}
 	soldiers = {
 		culture = tupinamba
 		religion = animist
-		size = 1
+	    size = 10
 	}
 	farmers = {
 		culture = tupinamba
 		religion = animist
-		size = 1860
+	    size = 10
 	}
 }
 2459 = {
 	bureaucrats = {
 		culture = portuguese
 		religion = catholic
-		size = 30
+	    size = 10
 	}
 	clergymen = {
 		culture = portuguese
 		religion = catholic
-		size = 9
+	    size = 10
 	}
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 6
+	    size = 10
 	}
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size = 9
+	    size = 10
 	}
 	farmers = {
 		culture = portuguese
 		religion = catholic
-		size = 755
+	    size = 10
 	}
 	clergymen = {
 		culture = african_minor
 		religion = catholic
-		size = 6
+	    size = 10
 	}
 	artisans = {
 		culture = african_minor
 		religion = catholic
-		size = 4
+	    size = 10
 	}
 	soldiers = {
 		culture = african_minor
 		religion = catholic
-		size = 6
+	    size = 10
 	}
 	farmers = {
 		culture = african_minor
 		religion = catholic
-		size = 168
+	    size = 10
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 351
+	    size = 10
 	}
 	bureaucrats = {
 		culture = guarani
 		religion = animist
-		size = 9
+	    size = 10
 	}
 	clergymen = {
 		culture = guarani
 		religion = animist
-		size = 6
+	    size = 10
 	}
 	artisans = {
 		culture = guarani
 		religion = animist
-		size = 6
+	    size = 10
 	}
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 6
+	    size = 10
 	}
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 1544
+	    size = 10
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 262
+	    size = 10
 	}
 	farmers = {
 		culture = brazilian
 		religion = catholic
-		size = 1042
+	    size = 10
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 282
+	    size = 10
 	}
 	farmers = {
 		culture = tupinamba
 		religion = animist
-		size = 295
+	    size = 10
 	}
 }
 2460 = {
 	clergymen = {
 		culture = tupinamba
 		religion = animist
-		size = 3
+	    size = 10
 	}
 	artisans = {
 		culture = tupinamba
 		religion = animist
-		size = 1
+	    size = 10
 	}
 	soldiers = {
 		culture = tupinamba
 		religion = animist
-		size = 1
+	    size = 10
 	}
 	farmers = {
 		culture = tupinamba
 		religion = animist
-		size = 2120
+	    size = 10
 	}
 }
 2461 = {
 	bureaucrats = {
 		culture = portuguese
 		religion = catholic
-		size = 62
+	    size = 10
 	}
 	clergymen = {
 		culture = portuguese
 		religion = catholic
-		size = 27
+	    size = 10
 	}
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 17
+	    size = 10
 	}
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size = 24
+	    size = 10
 	}
 	farmers = {
 		culture = portuguese
 		religion = catholic
-		size = 980
+	    size = 10
 	}
 	clergymen = {
 		culture = african_minor
 		religion = catholic
-		size = 6
+	    size = 10
 	}
 	artisans = {
 		culture = african_minor
 		religion = catholic
-		size = 7
+	    size = 10
 	}
 	soldiers = {
 		culture = african_minor
 		religion = catholic
-		size = 9
+	    size = 10
 	}
 	farmers = {
 		culture = african_minor
 		religion = catholic
-		size = 291
+	    size = 10
 	}
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 491
+	    size = 10
 	}
 	farmers = {
 		culture = samboo
 		religion = catholic
-		size = 67
+	    size = 10
 	}
 	farmers = {
 		culture = brazilian
 		religion = catholic
-		size = 88
+	    size = 10
 	}
 	farmers = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 678
+	    size = 10
 	}
 	farmers = {
 		culture = guarani
 		religion = catholic
-		size = 774
+	    size = 10
 	}
 }
 2462 = {
 	farmers = {
 		culture = tupinamba
 		religion = animist
-		size = 2385
+	    size = 10
 	}
 }
 2463 = {
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 2375
+	    size = 10
 	}
 }
 2464 = {
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 2375
+	    size = 10
 	}
 }
 2465 = {
 	clergymen = {
 		culture = guarani
 		religion = animist
-		size = 6
+	    size = 10
 	}
 	artisans = {
 		culture = guarani
 		religion = animist
-		size = 6
+	    size = 10
 	}
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 6
+	    size = 10
 	}
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 2472
+	    size = 10
 	}
 }
 2466 = {
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 2385
+	    size = 10
 	}
 }
 2467 = {
 	bureaucrats = {
 		culture = guarani
 		religion = animist
-		size = 9
+	    size = 10
 	}
 	clergymen = {
 		culture = guarani
 		religion = animist
-		size = 6
+	    size = 10
 	}
 	artisans = {
 		culture = guarani
 		religion = animist
-		size = 6
+	    size = 10
 	}
 	soldiers = {
 		culture = guarani
 		religion = animist
-		size = 6
+	    size = 10
 	}
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 2375
+	    size = 10
 	}
 }
 2549 = {
 	bureaucrats = {
 		culture = amazonian
 		religion = animist
-		size = 9
+	    size = 10
 	}
 	clergymen = {
 		culture = amazonian
 		religion = animist
-		size = 6
+	    size = 10
 	}
 	artisans = {
 		culture = amazonian
 		religion = animist
-		size = 4
+	    size = 10
 	}
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 6
+	    size = 10
 	}
 	farmers = {
 		culture = amazonian
 		religion = animist
-		size = 2242
+	    size = 10
 	}
 }
 2550 = {
-	clergymen = {
-		culture = portuguese
-		religion = catholic
-		size = 3
-	}
-	artisans = {
-		culture = portuguese
-		religion = catholic
-		size = 1
-	}
-	soldiers = {
-		culture = portuguese
-		religion = catholic
-		size = 3
-	}
-	farmers = {
-		culture = portuguese
-		religion = catholic
-		size = 125
-	}
+
 	bureaucrats = {
 		culture = amazonian
 		religion = animist
-		size = 6
+	    size = 10
 	}
 	clergymen = {
 		culture = amazonian
 		religion = animist
-		size = 9
+	    size = 10
 	}
 	artisans = {
 		culture = amazonian
 		religion = animist
-		size = 3
+	    size = 10
 	}
 	soldiers = {
 		culture = amazonian
 		religion = animist
-		size = 3
+	    size = 10
 	}
 	farmers = {
 		culture = amazonian
 		religion = animist
-		size = 2111
+	    size = 100
 	}
 }
