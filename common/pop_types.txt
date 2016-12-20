@@ -322,7 +322,6 @@ migration_chance =
 		country = { land_reform = nomads  }
 		is_accepted_culture  = yes
 	}
-
 	modifier = {
 		factor = -0.7
 		country = {
@@ -676,6 +675,26 @@ assimilation_chance =
 	modifier = {
 		factor = -4
 		THIS = { religion = jewish }
+	}
+	modifier = {
+			factor = -1.5
+			OR = {
+			culture = boer
+		}
+	}
+	modifier = {
+			factor = 2.5
+			continent = africa
+			country = { primary_culture = boer }
+			OR = {
+			culture = dutch
+			culture = flemish
+			culture = french
+			culture = north_german
+			culture = south_german
+			culture = north_italian
+			culture = south_italian
+			}
 	}
 }
 
