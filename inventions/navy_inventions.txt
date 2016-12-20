@@ -737,29 +737,6 @@ advanced_cruisers = {
 		} 
 	}
 }
-modern_cruisers = {
-	limit = { oil_driven_ships = 1 }
-	chance = {
-		base = 1
-		modifier = {
-			factor = 2
-			invention = advanced_cruisers
-		}
-		modifier = {
-			factor = 2
-			combustion_engine = 1
-		}
-		modifier = {
-			factor = 2
-			advanced_metallurgy = 1
-		}
-	}
-	effect = {
-		cruiser = {
-			maximum_speed = 1
-		}  
-	}
-}
 #advanced_battlecruisers = {
 #	limit = { oil_driven_ships = 1 }
 #	chance = {
@@ -797,32 +774,6 @@ advanced_battleships = {
 		dreadnought = {
 			hull = 1
 			gun_power = 1
-		} 
-	}
-}
-modern_battleships = {
-	limit = { oil_driven_ships = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			invention = advanced_battleships
-		}
-		modifier = {
-			factor = 1
-			assembly_line = 1
-		}
-		modifier = {
-			factor = 2
-			modern_naval_training = 1
-		}
-	}
-	effect = {
-		battleship = {
-			maximum_speed = 1
-		} 
-		dreadnought = {
-			maximum_speed = 1
 		} 
 	}
 }

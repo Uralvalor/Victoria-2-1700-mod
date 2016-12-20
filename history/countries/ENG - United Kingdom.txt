@@ -1,6 +1,5 @@
 capital = 300
 primary_culture = english
-culture = english
 culture = scottish
 culture = cornish
 culture = welsh
@@ -35,7 +34,8 @@ wage_reform = trinket_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = trinket_health_care
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = no_state_religion
+unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
@@ -75,9 +75,7 @@ ruling_party = ENG_reactionary
 last_election = 1700.2.6
 upper_house = {
 	fascist = 0
-	liberal = 12
-	reactionary = 88
-	 
+	reactionary = 100
 	socialist = 0
 	communist = 0
 }
@@ -87,9 +85,7 @@ schools = naval_tech_school
 oob = "ENG_oob.txt"
 1750.1.1 = { 
 
-prestige = 100 }
-
-1750.1.1 = {
+prestige = 100 
 oob = "/1756/ENG_oob.txt"
  }
 1815.1.1 = {

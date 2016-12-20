@@ -1,31 +1,31 @@
 1887 = {
 	bureaucrats = {
-		culture = afro_american
+		culture = african_minor
 		religion = protestant
 		size = 7
 	}
 	officers = {
-		culture = afro_american
+		culture = african_minor
 		religion = protestant
 		size = 15
 	}
 	clergymen = {
-		culture = afro_american
+		culture = african_minor
 		religion = protestant
 		size = 75
 	}
 	artisans = {
-		culture = afro_american
+		culture = african_minor
 		religion = protestant
 		size = 150
 	}
 	soldiers = {
-		culture = afro_american
+		culture = african_minor
 		religion = protestant
 		size = 37
 	}
 	farmers = {
-		culture = afro_american
+		culture = african_minor
 		religion = protestant
 		size = 1215
 	}
@@ -125,7 +125,7 @@
 		size = 5437
 	}
         craftsmen = {
-		culture = afro_american
+		culture = african_minor
 		religion = catholic
 		size = 20000
 	}

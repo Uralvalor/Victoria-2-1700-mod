@@ -145,7 +145,7 @@ any_country = {
 		not = { is_ideology_enabled = socialist }
 		not = { is_ideology_enabled = communist }
 		not = { is_ideology_enabled = fascist }
-               }
+               } }
     mean_time_to_happen =  {
         months = 72
                            }
@@ -304,7 +304,7 @@ any_country = {
 		is_ideology_enabled = socialist
 		not = { is_ideology_enabled = communist }
 		not = { is_ideology_enabled = fascist }
-               }
+               } }
     mean_time_to_happen =  {
         months = 72
                            }
@@ -427,7 +427,7 @@ any_country = {
 		is_ideology_enabled = socialist
 		not = { is_ideology_enabled = communist }
 		not = { is_ideology_enabled = fascist }
-               }
+               } }
     mean_time_to_happen =  {
         months = 72
                            }
@@ -574,7 +574,7 @@ any_country = {
 		is_ideology_enabled = socialist
 		is_ideology_enabled = communist
 		not = { is_ideology_enabled = fascist }
-               }
+               } }
     mean_time_to_happen =  {
         months = 72
                            }
@@ -757,7 +757,7 @@ any_country = {
 		is_ideology_enabled = socialist
 		is_ideology_enabled = communist
 		is_ideology_enabled = fascist
-               }
+               } }
     mean_time_to_happen =  {
         months = 72
                            }
@@ -984,7 +984,7 @@ any_country = {
 		is_ideology_enabled = socialist
 		is_ideology_enabled = communist
 				not = { is_ideology_enabled = fascist }
-               }
+               } }
     mean_time_to_happen =  {
         months = 72
                            }

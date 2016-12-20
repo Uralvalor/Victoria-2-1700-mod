@@ -64,28 +64,3 @@ upper_house = {
 
 schools = naval_tech_school
 
-
-1861.1.1 = {
-	oob = "/1861/ENG_oob.txt"
-
-
-# Political reforms
-slavery = no_slavery
-upper_house_composition = appointed
-vote_franschise = wealth_voting
-public_meetings = yes_meeting
-press_rights = free_press
-trade_unions = non_socialist
-voting_system = first_past_the_post
-political_parties = non_secret_ballots	
-	
-# Social Reforms
-wage_reform = trinket_wage
-work_hours = fourteen_hours
-safety_regulations = trinket_safety
-health_care = low_health_care
-gov_religion = no_state_religion unemployment_subsidies = trinket_subsidies
-pensions = no_pensions 
-school_reforms = low_schools	
-	
-}

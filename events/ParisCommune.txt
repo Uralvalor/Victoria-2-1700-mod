@@ -127,7 +127,7 @@ country_event = {
 				casus_belli = status_quo
 			}
 		}
-		remove_country_flag = paris_commune_created
+		clr_country_flag = paris_commune_created
 		set_country_flag = third_republic_created
 		ai_chance = {
 			factor = 60
@@ -175,7 +175,7 @@ country_event = {
 				casus_belli = status_quo
 			}
 		}
-		remove_country_flag = paris_commune_created
+		clr_country_flag = paris_commune_created
 		set_country_flag = french_state_created
 		ai_chance = {
 			factor = 20
@@ -216,7 +216,7 @@ country_event = {
 		inherit = IDF
 		prestige = -25
 		capital = 425
-		remove_country_flag = paris_commune_created
+		clr_country_flag = paris_commune_created
 		set_country_flag = french_commune_created
 		ai_chance = {
 			factor = 20
@@ -256,7 +256,7 @@ country_event = {
 		any_pop = {			
 			militancy = -2
 		}
-		remove_country_flag = third_republic_created
+		clr_country_flag = third_republic_created
 		set_country_flag = democratic_constitution_created
 	}
 }
@@ -319,7 +319,7 @@ country_event = {
 		any_pop = {
 			militancy = -3
 		}
-		remove_country_flag = french_state_created
+		clr_country_flag = french_state_created
 		set_country_flag = french_state_republic
 	}
 	
@@ -358,7 +358,7 @@ country_event = {
 		any_pop = {
 			militancy = 2
 		}
-		remove_country_flag = french_state_created
+		clr_country_flag = french_state_created
 		set_country_flag = french_state_empire
 	}
 	
@@ -394,7 +394,7 @@ country_event = {
 		any_pop = {
 			militancy = 4
 		}
-		remove_country_flag = french_state_created
+		clr_country_flag = french_state_created
 		set_country_flag = french_state_kingdom
 	}
 	
@@ -404,7 +404,7 @@ country_event = {
 		any_pop = {
 			militancy = 6
 		}
-		remove_country_flag = french_state_created
+		clr_country_flag = french_state_created
 		set_country_flag = french_state_dictatorship
 	}
 }
@@ -445,7 +445,7 @@ country_event = {
 		any_pop = {			
 			militancy = -3
 		}
-		remove_country_flag = french_commune_created
+		clr_country_flag = french_commune_created
 		set_country_flag = french_commune_social
 	}
 }

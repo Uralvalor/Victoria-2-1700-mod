@@ -647,7 +647,7 @@ automated_electric_drive = {
 		base = 2
 		modifier = {
 			factor = 2
-			invention = transport automation
+			invention = transport_automation
 		}
 		modifier = {
 			factor = 2
@@ -673,7 +673,7 @@ industrial_robots = {
 		}
 		modifier = {
 			factor = 2
-			invention = transport automation
+			invention = transport_automation
 		}
 		modifier = {
 			factor = 2

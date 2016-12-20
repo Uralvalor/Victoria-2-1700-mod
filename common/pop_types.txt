@@ -323,7 +323,7 @@ migration_chance =
 		is_accepted_culture  = yes
 	}
 	modifier = {
-		factor = -0.7
+		factor = -1
 		country = {
 			has_country_flag = serfdom_not_abolished
 		}
@@ -355,11 +355,6 @@ migration_chance =
 		state_scope = {
 			has_factories = yes
 			}
-	}
-	modifier = { 
-		factor = -1.0 
-		OR = { is_primary_culture = no is_accepted_culture = no } 
-		location = { is_primary_culture = no is_accepted_culture = no } 
 	}
 	group = {
 		modifier = {

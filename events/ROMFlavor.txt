@@ -228,7 +228,7 @@ country_event = {
 		any_pop = {
 			militancy = 5
 		}
-		remove_country_flag = second_vienna_award
+		clr_country_flag = second_vienna_award
 		set_country_flag = september_revolt_ok
 		ai_chance = {
 			factor = 20

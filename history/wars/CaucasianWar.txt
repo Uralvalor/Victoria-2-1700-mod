@@ -2,7 +2,7 @@ name = "Кавказская война"
 
 1835.10.2 = {
 	add_attacker = RUS
-	add_defender = NCI
+	add_defender = DAG
 	add_defender = CRC
 	
 	# actor
@@ -13,16 +13,16 @@ name = "Кавказская война"
 	war_goal = {
 		casus_belli = conquest
 		actor = RUS
-		receiver = NCI
+		receiver = DAG
 	}
 }
 
 1859.1.1 = {
-	rem_defender = NCI
+	rem_defender = DAG
 }
 
 1864.5.20 = {
 	rem_attacker = RUS
-	rem_defender = NCI
+	rem_defender = DAG
 	rem_defender = CRC
 }

@@ -1584,48 +1584,6 @@
 		size = 49569
 	}
 }
-304 = {
-	aristocrats = {
-		culture = english
-		religion = protestant
-		size = 38
-	}
-	bureaucrats = {
-		culture = english
-		religion = protestant
-		size = 7
-	}
-	clergymen = {
-		culture = english
-		religion = protestant
-		size = 47
-	}
-	artisans = {
-		culture = english
-		religion = protestant
-		size = 241
-	}
-	artisans = {
-		culture = scottish
-		religion = protestant
-		size = 388
-	}
-	soldiers = {
-		culture = scottish
-		religion = protestant
-		size = 42
-	}
-	labourers = {
-		culture = scottish
-		religion = protestant
-		size = 3075
-	}
-	labourers = {
-		culture = irish
-		religion = catholic
-		size = 119
-	}
-}
 419 = {
 	aristocrats = {
 		culture = english

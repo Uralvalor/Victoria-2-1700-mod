@@ -886,9 +886,9 @@ country_event = {
 				months = 1000
 			}
 		}
+		set_country_flag = centralasia_cb_received 
+		
 		}
-		set_country_flag = centralasia_cb_received
-	}
 }
 country_event = {
 

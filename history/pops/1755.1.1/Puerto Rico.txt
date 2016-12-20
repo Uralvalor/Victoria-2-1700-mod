@@ -69,25 +69,25 @@
 	}
 
 	artisans = {
-		culture = afro_caribeno
+		culture = african_minor
 		religion = catholic
 		size = 1000
 	}
 
 	soldiers = {
-		culture = afro_caribeno
+		culture = african_minor
 		religion = catholic
 		size = 400
 	}
 
 	farmers = {
-		culture = afro_caribeno
+		culture = african_minor
 		religion = catholic
 		size = 30600
 	}
 
 	slaves = {
-		culture = afro_caribeno
+		culture = african_minor
 		religion = catholic
 		size = 10000
 	}
