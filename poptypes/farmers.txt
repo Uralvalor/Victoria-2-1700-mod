@@ -79,22 +79,6 @@ country_migration_target =
 		slavery = yes_slavery
 	}
 	modifier = {
-		factor = 1.75
-		NOT = { poor_tax = 0.1 }
-	}
-	modifier = {
-		factor = 1.15
-		NOT = { poor_tax = 0.2 }
-	}
-	modifier = {
-		factor = 0.66
-		poor_tax = 0.66
-	}
-	modifier = {
-		factor = 0.5
-		poor_tax = 0.9
-	}
-	modifier = {
 		factor = 1.05
 		num_of_ports = 1
 	}
