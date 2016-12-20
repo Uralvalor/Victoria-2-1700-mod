@@ -1,6 +1,6 @@
 capital = 425
 primary_culture = french
-culture = french_canadian
+culture = french
 religion = secularism
 government = absolute_monarchy
 plurality = 5
@@ -33,7 +33,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = trinket_health_care
-unemployment_subsidies = no_subsidies
+gov_religion = no_state_religion unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 arts_endowment = small_endowment
@@ -94,7 +94,7 @@ oob = "/1756/FRA_oob.txt"
 
 1815.1.1 = { 
 
-set_country_flag  = louisiana_sold 
+set_country_flag  = frencha_sold 
 decision  = abolish_serfdom 
 
 literacy = 0.61
@@ -122,7 +122,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
-unemployment_subsidies = no_subsidies
+gov_religion = no_state_religion unemployment_subsidies = no_subsidies
 pensions = no_pensions
 pollution = no_controls
 child_labor = child_labor_legal
@@ -198,7 +198,7 @@ oob = "/1816/FRA_oob.txt"
 }
 
 1836.1.1 = {
-culture = french_canadian
+culture = french
 government = hms_government
 plurality = 5
 literacy = 0.70
@@ -224,7 +224,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
-unemployment_subsidies = no_subsidies
+gov_religion = no_state_religion unemployment_subsidies = no_subsidies
 pensions = no_pensions
 pollution = no_controls
 child_labor = child_labor_legal
@@ -294,7 +294,7 @@ wage_reform = no_minimum_wage
 work_hours = twelve_hours
 safety_regulations = no_safety
 health_care = no_health_care
-unemployment_subsidies = no_subsidies
+gov_religion = no_state_religion unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools	
 
@@ -433,7 +433,7 @@ wage_reform = no_minimum_wage
 work_hours = ten_hours
 safety_regulations = no_safety
 health_care = low_health_care
-unemployment_subsidies = no_subsidies
+gov_religion = no_state_religion unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 
 basic_chemistry = 1

@@ -443,7 +443,7 @@ political_decisions = {
 				government = hms_government
 			}
 			NOT = {
-				has_country_flag = greek_empire_created
+				has_global_flag = greek_empire_created
 				exists = BYZ
 			}
 		}
@@ -1003,7 +1003,7 @@ political_decisions = {
 			860 = {
 				change_province_name = "Константинополь"
 			}
-			set_country_flag = greek_empire_created
+			set_global_flag = greek_empire_created
 		}
 	}
 	create_ussr = {

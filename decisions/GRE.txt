@@ -73,6 +73,10 @@ political_decisions = {
 	form_byzantine_empire = {
 		potential = {
 			tag = GRE
+			NOT = {
+				has_global_flag = greek_empire_created
+				exists = BYZ
+			}
 			OR = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
@@ -126,6 +130,7 @@ political_decisions = {
 		}
 		
 		effect = {
+                        set_global_flag = greek_empire_created
 			change_tag = BYZ
 			capital = 860
 			860 = {
@@ -135,8 +140,8 @@ political_decisions = {
 				limit = {
 					is_colonial = no
 					OR = {
-						culture = greek
-						culture = turkish
+						pop_majority_culture = greek
+						pop_majority_culture = turkish
 					}
 				}
 				add_core = BYZ

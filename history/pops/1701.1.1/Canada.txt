@@ -954,26 +954,6 @@
 }
 56 = {
 	clergymen = {
-		culture = english
-		religion = protestant
-		size = 25
-	}
-	artisans = {
-		culture = english
-		religion = protestant
-		size = 36
-	}
-	soldiers = {
-		culture = english
-		religion = protestant
-		size = 29
-	}
-	farmers = {
-		culture = english
-		religion = protestant
-		size = 1325
-	}
-	clergymen = {
 		culture = french
 		religion = protestant
 		size = 4
@@ -1139,31 +1119,6 @@
 	}
 }
 58 = {
-	bureaucrats = {
-		culture = english
-		religion = protestant
-		size = 33
-	}
-	clergymen = {
-		culture = english
-		religion = protestant
-		size = 21
-	}
-	artisans = {
-		culture = english
-		religion = protestant
-		size = 162
-	}
-	soldiers = {
-		culture = english
-		religion = protestant
-		size = 42
-	}
-	farmers = {
-		culture = english
-		religion = protestant
-		size = 590
-	}
 	bureaucrats = {
 		culture = french
 		religion = catholic
@@ -1345,31 +1300,6 @@
 	}
 }
 68 = {
-	bureaucrats = {
-		culture = english
-		religion = protestant
-		size = 12
-	}
-	clergymen = {
-		culture = english
-		religion = protestant
-		size = 46
-	}
-	artisans = {
-		culture = english
-		religion = protestant
-		size = 24
-	}
-	soldiers = {
-		culture = english
-		religion = protestant
-		size = 25
-	}
-	farmers = {
-		culture = english
-		religion = protestant
-		size = 2175
-	}
 	clergymen = {
 		culture = french
 		religion = catholic
@@ -1545,12 +1475,12 @@
 	farmers = {
 		culture = irish
 		religion = catholic
-		size = 2000
+		size = 1000
 	}
 	farmers = {
 		culture = scottish
 		religion = catholic
-		size = 3000
+		size = 2500
 	}
 }
 75 = {

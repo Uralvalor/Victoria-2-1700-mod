@@ -1686,3 +1686,10 @@ carl_rex = {
 	factory_throughput = 0.1
 	rgo_throughput = 0.1
 }
+
+slave_market_country = {
+	prestige = -0.001
+}
+slave_market = {
+	rich_income_modifier = 0.3
+}

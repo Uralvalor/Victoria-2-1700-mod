@@ -1,7 +1,7 @@
 capital = 220
-primary_culture = yankee
-culture = dixie
-culture = texan 
+primary_culture = english
+culture = english
+culture = spanish 
 culture = english
 religion = secularism
 government = democracy
@@ -29,7 +29,7 @@ wage_reform = trinket_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
-unemployment_subsidies = no_subsidies
+gov_religion = no_state_religion unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
@@ -77,7 +77,7 @@ wage_reform = no_minimum_wage
 work_hours = ten_hours
 safety_regulations = no_safety
 health_care = no_health_care
-unemployment_subsidies = no_subsidies
+gov_religion = no_state_religion unemployment_subsidies = no_subsidies
 pensions = no_pensions
 pollution = no_controls
 child_labor = child_labor_legal
@@ -136,7 +136,7 @@ schools = commerce_tech_school
 oob = "/1816/USA_oob.txt" }
 
 1836.1.1 = {
-culture = texan
+culture = spanish
 literacy = 0.50
 
 set_country_flag = missouri_compromise_acting
@@ -233,7 +233,7 @@ wage_reform = no_minimum_wage
 work_hours = ten_hours
 safety_regulations = no_safety
 health_care = no_health_care
-unemployment_subsidies = no_subsidies
+gov_religion = no_state_religion unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = low_schools
 
@@ -494,7 +494,7 @@ wage_reform = acceptable_minimum_wage
 work_hours = twelve_hours
 safety_regulations = low_safety
 health_care = good_health_care
-unemployment_subsidies = low_subsidies
+gov_religion = no_state_religion unemployment_subsidies = low_subsidies
 pensions = trinket_pensions
 pollution = trinket_envir
 child_labor = child_labor_restricted

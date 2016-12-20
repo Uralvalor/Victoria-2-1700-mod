@@ -1,7 +1,7 @@
 capital = 81
-primary_culture = anglo_canadian
-culture = french_canadian
-culture = yankee
+primary_culture = english
+culture = french
+culture = english
 religion = secularism
 government = democracy
 plurality = 5
@@ -24,7 +24,7 @@ wage_reform = trinket_wage
 work_hours = twelve_hours
 safety_regulations = trinket_safety
 health_care = trinket_health_care
-unemployment_subsidies = trinket_subsidies
+gov_religion = no_state_religion unemployment_subsidies = trinket_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 

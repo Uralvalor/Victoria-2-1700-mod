@@ -1,5 +1,5 @@
 capital = 188
-primary_culture = yankee
+primary_culture = english
 culture =  english
 culture =  french
 religion = secularism
@@ -30,7 +30,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = trinket_health_care
-unemployment_subsidies = no_subsidies
+gov_religion = no_state_religion unemployment_subsidies = no_subsidies
 pensions = no_pensions
 pollution = no_controls
 child_labor = child_labor_legal
@@ -110,7 +110,7 @@ wage_reform = trinket_wage
 work_hours = ten_hours
 safety_regulations = no_safety
 health_care = no_health_care
-unemployment_subsidies = no_subsidies
+gov_religion = no_state_religion unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = low_schools
 

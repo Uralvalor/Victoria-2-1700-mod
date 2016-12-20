@@ -1,6 +1,6 @@
 capital = 74
-primary_culture = anglo_canadian
-culture = french_canadian
+primary_culture = english
+culture = french
 culture = english
 culture = french
 religion = secularism
@@ -25,7 +25,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = trinket_health_care
-unemployment_subsidies = no_subsidies
+gov_religion = no_state_religion unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 

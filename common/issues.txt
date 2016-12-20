@@ -452,8 +452,6 @@ political_reforms = {
 	}
 
 	gov_religion = {	
-     	no_state_religion = { 
-		}
 		orthodox = { 
           
 		}
@@ -482,6 +480,8 @@ political_reforms = {
 		sikh = {  
 		}
 		animist = {  
+		}
+     	no_state_religion = { 
 		}
 		secularism = {
 		}

@@ -83,8 +83,88 @@ country_migration_target =
 		neighbour = FROM
 	}
 	modifier = {
+		factor = 1.5
+		war_policy = jingoism
+	}
+	modifier = {
+		factor = 1.2
+		war_policy = pro_military
+	}
+	modifier = {
+		factor = 0.75
+		war_policy = anti_military
+	}
+	modifier = {
+		factor = 0.5
+		war_policy = pacifism
+	}
+	modifier = {
+		factor = 0.66
+		NOT = { poor_strata_life_needs = 0.95 }
+	}
+	modifier = {
 		factor = 0.1
-		unemployment = 0.1
+		NOT = { poor_strata_life_needs = 0.5 }
+	}
+	modifier = {
+		factor = 1.5
+		poor_strata_luxury_needs = 0.5
+	}
+	modifier = {
+		factor = 2.0
+		poor_strata_luxury_needs = 0.9
+	}
+	modifier = {
+		factor = 1.05
+		slavery = yes_slavery
+	}
+	modifier = {
+		factor = 1.5
+		NOT = { poor_tax = 0.1 }
+	}
+	modifier = {
+		factor = 1.15
+		NOT = { poor_tax = 0.2 }
+	}
+	modifier = {
+		factor = 0.66
+		poor_tax = 0.66
+	}
+	modifier = {
+		factor = 0.66
+		poor_tax = 0.9
+	}
+	modifier = {
+		factor = 1.05
+		num_of_ports = 1
+	}
+	modifier = {
+		factor = 2.25
+		military_spending = 0.925
+	}
+	modifier = {
+		factor = 2.00
+		military_spending = 0.66
+	}
+	modifier = {
+		factor = 0.33
+		NOT = { military_spending = 0.1 }
+	}
+	modifier = {
+		factor = 0.75
+		NOT = { military_spending = 0.25 }
+	}
+	modifier = {
+		factor = 1.25
+		is_secondary_power = yes 
+	}
+	modifier = {
+		factor = 1.5
+		is_greater_power = yes
+	}	
+	modifier = {
+		factor = 0.1
+		unemployment = 0.5
 	}
 	modifier = {
 		factor = 0.8
@@ -191,7 +271,7 @@ migration_target =
 		total_pops = 750000
 	}
 	modifier = {
-		factor = 5
+		factor = 2
 		this = { religion = jewish }
 		is_core = ISR 
 	}
@@ -458,8 +538,17 @@ ideologies = {
 	fascist = {
 		factor = 1
 		modifier = {
-			factor = 2
+			factor = 2.5
 			government = fascist_dictatorship
+		}
+		modifier = {
+			factor = 1.2
+			ruling_party_ideology = fascist
+		}
+		modifier = {
+			factor = 0.25
+			not = { life_needs = 0.25 }
+			ruling_party_ideology = fascist
 		}
 		modifier = {
 			factor = 0.5

@@ -562,7 +562,7 @@
 139 = {
 
 	bureaucrats = {
-		culture = dixie
+		culture = english
 		religion = catholic
 		size = 59
 	}
@@ -1251,7 +1251,7 @@
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 3584
+		size = 1884
 	}
 }
 214 = {
@@ -1308,7 +1308,7 @@
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 3462
+		size = 1700
 	}
 }
 215 = {
@@ -1383,7 +1383,7 @@
 }
 220 = {
 	bureaucrats = {
-		culture = yankee
+		culture = english
 		religion = protestant
 		size = 34
 	}
@@ -1478,6 +1478,11 @@
 	}
 }
 223 = {
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 3200
+	}
 	bureaucrats = {
 		culture = swedish
 		religion = protestant
@@ -1640,6 +1645,11 @@
 	}
 }
 229 = {
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 3200
+	}
 	clergymen = {
 		culture = scottish
 		religion = protestant
@@ -1648,7 +1658,7 @@
 	artisans = {
 		culture = scottish
 		religion = protestant
-		size = 615
+		size = 115
 	}
 	soldiers = {
 		culture = scottish
@@ -1658,7 +1668,7 @@
 	farmers = {
 		culture = dutch
 		religion = protestant
-		size = 796
+		size = 296
 	}
 	artisans = {
 		culture = scottish
@@ -1677,6 +1687,11 @@
 	}
 }
 230 = {
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 3200
+	}
 	bureaucrats = {
 		culture = dutch
 		religion = protestant
@@ -1700,7 +1715,7 @@
 	farmers = {
 		culture = dutch
 		religion = protestant
-		size = 602
+		size = 102
 	}
 	bureaucrats = {
 		culture = english
@@ -1734,6 +1749,11 @@
 	}
 }
 231 = {
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 3200
+	}
 	clergymen = {
 		culture = english
 		religion = protestant
@@ -1799,7 +1819,7 @@
 	farmers = {
 		culture = dutch
 		religion = protestant
-		size = 887
+		size = 387
 	}
 	clergymen = {
 		culture = english
@@ -1843,6 +1863,11 @@
 	}
 }
 233 = {
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 3200
+	}
 	clergymen = {
 		culture = dutch
 		religion = protestant
@@ -1914,6 +1939,11 @@
 	}
 }
 241 = {
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 3200
+	}
 	bureaucrats = {
 		culture = dutch
 		religion = protestant
@@ -1927,7 +1957,7 @@
 	farmers = {
 		culture = dutch
 		religion = protestant
-		size = 930
+		size = 430
 	}
 	clergymen = {
 		culture = dutch
@@ -1957,6 +1987,11 @@
 }
 242 = {
 
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 3200
+	}
 	clergymen = {
 		culture = english
 		religion = protestant
@@ -2077,15 +2112,20 @@
 	artisans = {
 		culture = irish
 		religion = catholic
-		size = 525
+		size = 125
 	}
 	farmers = {
 		culture = irish
 		religion = catholic
-		size = 1068
+		size = 468
 	}
 }
 244 = {
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 3200
+	}
 	clergymen = {
 		culture = english
 		religion = protestant
@@ -2152,6 +2192,11 @@
 	}
 }
 247 = {
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 3200
+	}
 	bureaucrats = {
 		culture = english
 		religion = protestant
@@ -2218,6 +2263,11 @@
 		culture = english
 		religion = protestant
 		size = 41
+	}
+	farmers = {
+		culture = english
+		religion = protestant
+		size = 3200
 	}
 	farmers = {
 		culture = english

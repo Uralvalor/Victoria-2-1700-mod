@@ -1,6 +1,6 @@
 capital = 81
-primary_culture = yankee
-culture = dixie
+primary_culture = english
+culture = english
 religion = secularism
 government = democracy
 plurality = 0.5
@@ -25,7 +25,7 @@ wage_reform = no_minimum_wage
 work_hours = ten_hours
 safety_regulations = no_safety
 health_care = no_health_care
-unemployment_subsidies = no_subsidies
+gov_religion = no_state_religion unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = low_schools
 

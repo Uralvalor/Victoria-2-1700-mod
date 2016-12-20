@@ -44,8 +44,22 @@ party = {
 }
 
 party = {
+	name = "SAF_reactionary"
+	start_date = 1700.1.1
+	end_date = 1877.1.1
+
+	ideology = reactionary
+
+	economic_policy = state_capitalism
+	trade_policy = free_trade
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = pro_military
+}
+
+party = {
 	name = "ORA_reactionary"
-	start_date = 1750.1.1
+	start_date = 1700.1.1
 	end_date = 3000.1.1
 
 	ideology = reactionary

@@ -42,6 +42,46 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
+#	slave_market_dec = {
+#	
+#		picture = bolivar_abolish_slavery
+#		potential = {
+#			slavery = yes_slavery
+#			NOT = { has_country_flag = slave_market_est }
+#		}
+#		allow = {
+#         	any_owned_province   = {
+#            AND = { is_slave = yes
+#			        has_building = naval_base }
+#			}
+#			money = 1000
+#		}
+#		
+#		effect = {
+#			money = -1000
+#			random_pop = { limit = { type = aristocrats } money = 1000 }
+#			add_country_modifier = {
+#					name = slave_market_country
+#					duration = 9100
+#			        }
+#         	any_owned  = {
+#                limit = {
+#                          is_slave = yes
+#						  naval_base = 1
+#                      }
+#						add_province_modifier = {
+#					name = slave_market
+#					duration = 9100
+#			        }
+#			}
+#			set_country_flag = slave_market_est
+#		}
+#		ai_will_do = {
+#			factor = 1
+#		}
+#	}
+	
 	dikoe_pole_populated = {
 	
 		picture = dikoe_pole
@@ -63,7 +103,7 @@ political_decisions = {
 		
 		effect = {
 			money = -5000
-			random_pop = { limit = { type = artisans } money = 1000 }
+			random_pop = { limit = { type = artisans } money = 5000 }
 			1037 =  { 
 			add_core = RUS
 						add_province_modifier = {

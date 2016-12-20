@@ -56,7 +56,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = low_safety
 health_care = no_health_care
-unemployment_subsidies = acceptable_subsidies
+gov_religion = protestant unemployment_subsidies = acceptable_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
@@ -127,7 +127,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
-unemployment_subsidies = no_subsidies
+gov_religion = no_state_religion unemployment_subsidies = no_subsidies
 pensions = no_pensions
 pollution = no_controls
 child_labor = child_labor_legal
@@ -245,7 +245,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
-unemployment_subsidies = no_subsidies
+gov_religion = no_state_religion unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = acceptable_schools 
 
@@ -346,7 +346,7 @@ wage_reform = no_minimum_wage
 work_hours = ten_hours
 safety_regulations = no_safety
 health_care = low_health_care
-unemployment_subsidies = trinket_subsidies
+gov_religion = no_state_religion unemployment_subsidies = trinket_subsidies
 pensions = no_pensions 
 
 basic_chemistry = 1

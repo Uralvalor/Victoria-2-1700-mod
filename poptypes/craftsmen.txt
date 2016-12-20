@@ -61,6 +61,82 @@ country_migration_target =
 		unemployment = 0.1
 	}
 	modifier = {
+		factor = 1.1
+		economic_policy = interventionism
+	}
+	modifier = {
+		factor = 0.5
+		NOT = { poor_strata_life_needs = 0.95 }
+	}
+	modifier = {
+		factor = 0.2
+		NOT = { poor_strata_life_needs = 0.5 }
+	}
+	modifier = {
+		factor = 1.5
+		poor_strata_luxury_needs = 0.5
+	}
+	modifier = {
+		factor = 2.0
+		poor_strata_luxury_needs = 0.9
+	}
+	modifier = {
+		factor = 0.5
+		slavery = yes_slavery
+	}
+	modifier = {
+		factor = 2.0
+		NOT = { poor_tax = 0.1 }
+	}
+	modifier = {
+		factor = 1.2
+		NOT = { poor_tax = 0.18 }
+	}
+	modifier = {
+		factor = 0.66
+		poor_tax = 0.66
+	}
+	modifier = {
+		factor = 0.33
+		poor_tax = 0.9
+	}
+	modifier = {
+		factor = 1.05
+		num_of_ports = 1
+	}
+	modifier = {
+		factor = 0.33
+		NOT = { industrial_score = 3 }
+	} 
+	modifier = {
+		factor = 0.77
+		NOT = { industrial_score = 15 }
+	} 
+	modifier = {
+		factor = 0.77
+		NOT = { industrial_score = 30 }
+	} 
+	modifier = {
+		factor = 0.77
+		NOT = { industrial_score = 60 }
+	} 
+	modifier = {
+		factor = 0.77
+		NOT = { industrial_score = 90 }
+	} 
+	modifier = {
+		factor = 0.77
+		NOT = { industrial_score = 120 }
+	} 
+	modifier = {
+		factor = 1.25
+		is_secondary_power = yes 
+	}
+	modifier = {
+		factor = 1.5
+		is_greater_power = yes
+	}
+	modifier = {
 		factor = 0.8
 		religious_policy = moralism
 		not = { religion = THIS }
@@ -165,7 +241,7 @@ migration_target =
 		total_pops = 750000
 	}
 	modifier = {
-		factor = 4
+		factor = 2
 		this = { religion = jewish }
 		is_core = ISR 
 	}
@@ -1122,6 +1198,15 @@ ideologies = {
 			not = { militancy = 6 }
 		}
 		modifier = {
+			factor = 1.2
+			ruling_party_ideology = fascist
+		}
+		modifier = {
+			factor = 0.25
+			not = { life_needs = 0.25 }
+			ruling_party_ideology = fascist
+		}
+		modifier = {
 			factor = 1.1
 		 	revanchism = 0.01
 		}
@@ -1202,6 +1287,16 @@ ideologies = {
 			ruling_party_ideology = reactionary
 		}
 		modifier = {
+			factor = 0.25
+			not = { life_needs = 0.25 }
+			ruling_party_ideology = reactionary
+		}
+		modifier = {
+			factor = 2.0
+			luxury_needs = 0.7
+			ruling_party_ideology = reactionary
+		}
+		modifier = {
 			factor = 1.2
 			NOT = { literacy = 0.30 }
 		}
@@ -1270,6 +1365,16 @@ ideologies = {
 		modifier = {
 			factor = 0.5
 			militancy = 6
+		}
+		modifier = {
+			factor = 0.25
+			not = { life_needs = 0.25 }
+			ruling_party_ideology = conservative
+		}
+		modifier = {
+			factor = 2.0
+			luxury_needs = 0.7
+			ruling_party_ideology = conservative
 		}
 		modifier = {
 			factor = 1.1
@@ -1355,6 +1460,16 @@ ideologies = {
 			factor = 1.1
 			nationalvalue = nv_equality
 			NOT = { ruling_party_ideology = communist }
+		}
+		modifier = {
+			factor = 0.25
+			not = { life_needs = 0.25 }
+			ruling_party_ideology = socialist
+		}
+		modifier = {
+			factor = 2.0
+			luxury_needs = 0.7
+			ruling_party_ideology = socialist
 		}
 		modifier = {
 			factor = 0.5
@@ -1461,6 +1576,16 @@ ideologies = {
 			government = proletarian_dictatorship
 		}
 		modifier = {
+			factor = 0.25
+			not = { life_needs = 0.25 }
+			ruling_party_ideology = communist
+		}
+		modifier = {
+			factor = 2.0
+			luxury_needs = 0.7
+			ruling_party_ideology = communist
+		}
+		modifier = {
 			factor = 0.1
 			NOT = { militancy = 6 }
 		}
@@ -1514,6 +1639,16 @@ ideologies = {
 		modifier = {
 			factor = 1.2
 			consciousness = 9 
+		}
+		modifier = {
+			factor = 0.25
+			not = { life_needs = 0.25 }
+			ruling_party_ideology = liberal
+		}
+		modifier = {
+			factor = 2.0
+			luxury_needs = 0.7
+			ruling_party_ideology = liberal
 		}
 		modifier = {
 			factor = 0.5
@@ -1624,6 +1759,16 @@ ideologies = {
 		factor = 1
 		modifier = {
 			factor = 2
+			ruling_party_ideology = anarcho_liberal
+		}
+		modifier = {
+			factor = 0.25
+			not = { life_needs = 0.25 }
+			ruling_party_ideology = anarcho_liberal
+		}
+		modifier = {
+			factor = 2.0
+			luxury_needs = 0.7
 			ruling_party_ideology = anarcho_liberal
 		}
 		modifier = {

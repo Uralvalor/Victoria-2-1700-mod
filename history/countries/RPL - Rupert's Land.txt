@@ -1,5 +1,5 @@
 capital = 36
-primary_culture = anglo_canadian
+primary_culture = english
 culture = metis
 religion = secularism
 government = hms_government
@@ -23,7 +23,7 @@ wage_reform = trinket_wage
 work_hours = twelve_hours
 safety_regulations = trinket_safety
 health_care = trinket_health_care
-unemployment_subsidies = trinket_subsidies
+gov_religion = no_state_religion unemployment_subsidies = trinket_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 

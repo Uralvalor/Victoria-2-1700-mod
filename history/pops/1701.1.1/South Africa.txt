@@ -4,15 +4,10 @@
 		religion = animist
 	        size = 1600
 	}
-	bureaucrats = {
-		culture = dutch
-		religion = protestant
-	        size = 5
-	}
 	farmers = {
-		culture = dutch
+		culture = boer
 		religion = protestant
-	        size = 150
+	        size = 20
 	}
 	artisans = {
 		culture = french
@@ -28,6 +23,16 @@
 		culture = north_german
 		religion = protestant
 	        size = 35
+	}
+	bureaucrats = {
+		culture = dutch
+		religion = protestant
+	        size = 5
+	}
+	farmers = {
+		culture = dutch
+		religion = protestant
+	        size = 130
 	}
 }
 2089 = {
