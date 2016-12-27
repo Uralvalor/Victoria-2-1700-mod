@@ -220,11 +220,10 @@ country_migration_target =
 	
 	modifier = {
 		factor = 2
-		AND = { 
-			country = {
+		country = {
 				slavery = yes_slavery
 			}
-		is_sphere_leader_of = THIS }
+		is_sphere_leader_of = THIS 
 	}
 	
 		modifier = {
@@ -239,16 +238,15 @@ migration_target = {
 	factor = 2
 	
 	modifier = {
-		factor = 4
-		AND = {
+		factor = 5
 		OR = {
 		continent = north_america
 		continent = south_america
 			}
 		state_scope = {
+			is_colonial = yes
 			is_slave = yes
-		}	
-			}
-	}	
+		}
+	}
 	
 }

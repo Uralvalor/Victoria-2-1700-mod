@@ -283,7 +283,7 @@ political_decisions = {
 			        }
 				change_province_name = "Николаевск-на-Амуре"
 			}
-			1083 = {
+			2617 = {
 			any_pop = {
 				limit = {
 					has_pop_culture = manchu
@@ -296,7 +296,7 @@ political_decisions = {
 			        }
 				change_province_name = "Хабаровск"
 			}
-			2617 = {
+			1083 = {
 			any_pop = {
 				limit = {
 					has_pop_culture = manchu
@@ -980,7 +980,7 @@ political_decisions = {
 		effect = {
 			prestige = 10
 			TUR_805 = { add_core = BYZ }
-			TUR_819 = { add_core = BYZ }
+			TUR_823 = { add_core = BYZ }
 			TUR_832 = { add_core = BYZ }
 			GRE_837 = { add_core = BYZ }
 			GRE_826 = { add_core = BYZ }

@@ -951,7 +951,7 @@ country_event = {
 		owns = 3249
 		NOT = {
 			OR = {
-				exists = NCI
+				exists = DAG
 				year = 1914
 			}
 		}
@@ -971,9 +971,9 @@ country_event = {
 		name = "EVTOPTA95160"
 		any_owned = {
 			limit = {
-				is_core = NCI
+				is_core = DAG
 			}
-			remove_core = NCI
+			remove_core = DAG
 		}
 	}
 }

@@ -11673,15 +11673,23 @@
 }
 
 365 = {
-    text_scale = 3
     text_position = {
         x = 3150
         y = 1889
     }
 
+    text_scale = 3
     unit = {
         x = 3150
         y = 1889
+    }
+
+    building_position = {
+        naval_base = {
+            x = 3135.700000
+            y = 1891.450000
+        }
+
     }
 
 }
@@ -28983,6 +28991,14 @@
     city = {
         x = 5312.413333
         y = 2019.003333
+    }
+
+    building_position = {
+        naval_base = {
+            x = 5306.760000
+            y = 1973.953333
+        }
+
     }
 
 }
@@ -80422,7 +80438,20 @@
 2828 = {} # 126;200;250;Korea Bay
 2829 = {} # 127;220;250;South Korean Sea
 2830 = {} # 0;251;251;North Korean Sea
-2831 = {} # 1;201;201;Coast of Olga
+2831 = {
+    text_position = {
+        x = 4962.846667
+        y = 1689.633333
+    }
+
+    text_scale = 10
+    unit = {
+        x = 4971.973333
+        y = 1689.386667
+    }
+
+} # 1;201;201;Coast of Olga
+
 2832 = {} # 2;201;251;Tatar Straits
 2833 = {} # 3;221;251;Amur Delta
 2834 = {} # 4;251;251;Baj of Ayan
@@ -80430,7 +80459,20 @@
 2836 = {} # 6;201;251;Coast of Kamchatska
 2837 = {} # 7;221;251;Oktothsk Sea
 2838 = {} # 8;251;251;Coast Sahkalin
-2839 = {} # 9;201;201;Soya Strait
+2839 = {
+    text_position = {
+        x = 5088.458333
+        y = 1724.675000
+    }
+
+    text_scale = 10
+    unit = {
+        x = 5080.858333
+        y = 1718.816667
+    }
+
+} # 9;201;201;Soya Strait
+
 2840 = {} # 10;201;251;Tsugaru Strait
 2841 = {} # 11;221;251;Sea of Japan
 2842 = {} # 12;251;251;Amakusa Sea
@@ -80606,7 +80648,20 @@
 3012 = {} # 54;202;252;Hecate Strait
 3013 = {} # 55;222;252;Gulf of Alaska
 3014 = {} # 56;252;252;Coast of Alaska
-3015 = {} # 57;202;202;Kuskowim Bay
+3015 = {
+    text_position = {
+        x = 164.891667
+        y = 2148.250000
+    }
+
+    text_scale = 30
+    unit = {
+        x = 178.208333
+        y = 2082.058333
+    }
+
+} # 57;202;202;Kuskowim Bay
+
 3016 = {} # 58;202;252;Hatton Bank
 3017 = {} # 59;222;252;Eastern Gibbs Fracture
 3018 = {} # 60;252;252;Western Gibbs Fracture
@@ -80726,7 +80781,20 @@
 3132 = {} # 46;203;253;Northern Pacific #3
 3133 = {} # 47;223;253;Northern Pacific #4
 3134 = {} # 48;253;253;Northern Pacific #5
-3135 = {} # 49;203;203;Northern Pacific #6
+3135 = {
+    text_position = {
+        x = 337.783333
+        y = 1841.866667
+    }
+
+    text_scale = 10
+    unit = {
+        x = 351.866667
+        y = 1847.283333
+    }
+
+} # 49;203;203;Northern Pacific #6
+
 3136 = {} # 50;203;253;Northern Pacific #7
 3137 = {} # 51;223;253;Northern Pacific #8
 3138 = {} # 52;253;253;Northern Pacific #9
