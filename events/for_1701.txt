@@ -173,7 +173,7 @@ option = {
 		847 = {secede_province = THIS } 848 = {secede_province = THIS } 846 = {secede_province = THIS } 845 = {secede_province = THIS } 844 = {secede_province = THIS } 843 = {secede_province = THIS } 981 = {secede_province = THIS } 987 = {secede_province = THIS } 991 = {secede_province = THIS } 990 = {secede_province = THIS } 1023 = {secede_province = THIS } 1024 = {secede_province = THIS } 1022 = {secede_province = THIS } 985 = {secede_province = THIS } 986 = {secede_province = THIS } 2688 = {secede_province = THIS } 2689 = {secede_province = THIS } 2687 = {secede_province = THIS } 1026 = {secede_province = THIS } 1031 = {secede_province = THIS } 1029 = {secede_province = THIS } 2699 = {secede_province = THIS } 2700 = {secede_province = THIS } 1020 = {secede_province = THIS } 1027 = {secede_province = THIS } 1028 = {secede_province = THIS }
 		1030 = {secede_province = THIS } 1032 = {secede_province = THIS } 1033 = {secede_province = THIS } 1034 = {secede_province = THIS } 1042 = {secede_province = THIS } 1035 = {secede_province = THIS } 1043 = {secede_province = THIS } 1044 = {secede_province = THIS } 2610 = {secede_province = THIS } 1182 = {secede_province = THIS } 1037 = {secede_province = THIS } 1025 = {secede_province = THIS } 1021 = {secede_province = THIS } 1038 = {secede_province = THIS } 1041 = {secede_province = THIS } 1036 = {secede_province = THIS } 1040 = {secede_province = THIS } 1039 = {secede_province = THIS } 1046 = {secede_province = THIS } 1047 = {secede_province = THIS } 1045 = {secede_province = THIS } 1048 = {secede_province = THIS } 1049 = {secede_province = THIS }
 		1050 = {secede_province = THIS } 1051 = {secede_province = THIS } 1056 = {secede_province = THIS } 1052 = {secede_province = THIS } 1053 = {secede_province = THIS } 1054 = {secede_province = THIS } 1055 = {secede_province = THIS } 1057 = {secede_province = THIS } 3249 = {secede_province = THIS } 3250 = {secede_province = THIS } 3251 = {secede_province = THIS } 3252 = {secede_province = THIS } 3253 = {secede_province = THIS } 3254 = {secede_province = THIS } 3255 = {secede_province = THIS } 3256 = {secede_province = THIS } 3257 = {secede_province = THIS } 3258 = {secede_province = THIS } 3259 = {secede_province = THIS } 3260 = {secede_province = THIS } 3261 = {secede_province = THIS } 3262 = {secede_province = THIS } 3263 = {secede_province = THIS }
-		3264 = {secede_province = THIS } 3265 = {secede_province = THIS } 3266 = {secede_province = THIS } 3267 = {secede_province = THIS } 3268 = {secede_province = THIS } 3269 = {secede_province = THIS } 3270 = {secede_province = THIS } 3271 = {secede_province = THIS } 3272 = {secede_province = THIS } 3273 = {secede_province = THIS } 3274 = {secede_province = THIS } 3275 = {secede_province = THIS } 3276 = {secede_province = THIS } 
+		3264 = {secede_province = THIS } 3265 = {secede_province = THIS } 3266 = {secede_province = THIS } 3267 = {secede_province = THIS } 3268 = {secede_province = THIS } 3269 = {secede_province = THIS } 3270 = {secede_province = THIS } 3271 = {secede_province = THIS } 3272 = {secede_province = THIS } 3273 = {secede_province = THIS } 3274 = {secede_province = THIS } 3275 = {secede_province = THIS } 3276 = {secede_province = THIS } 3277 = {secede_province = THIS } 3278 = {secede_province = THIS } 3279 = {secede_province = THIS } 3280 = {secede_province = THIS } 3281 = {secede_province = THIS } 3282 = {secede_province = THIS } 3283 = {secede_province = THIS } 3284 = {secede_province = THIS } 3285 = {secede_province = THIS } 3286 = {secede_province = THIS }  3287 = {secede_province = THIS } 
     
     }    
 
@@ -1046,11 +1046,10 @@ country_event = {
 		RUS_968 = {
 			poor_strata = {
 				limit = {
-                                        pop_type = farmers
 					has_pop_culture = tatar
 				}
 				reduce_pop = 0.90
-				move_pop = 1042
+				move_pop = 1032
 			}
 			add_province_modifier = {
 					name = influx_of_population
@@ -1060,15 +1059,13 @@ country_event = {
 		RUS_954 = {
 			poor_strata = {
 				limit = {
-				    pop_type = farmers
 					has_pop_culture = tatar
 				}
 				reduce_pop = 0.90
-				move_pop = 1032
+				move_pop = 1061
 			}
 			poor_strata = {
 				limit = {
-                    pop_type = farmers
 					has_pop_culture = nogais
 				}
 				reduce_pop = 0.90
@@ -1077,7 +1074,6 @@ country_event = {
 		RUS_964 = {
 			poor_strata = {
 				limit = {
-                                        pop_type = farmers
 					has_pop_culture = tatar
 				}
 				reduce_pop = 0.90
@@ -1085,7 +1081,6 @@ country_event = {
 			}
 			poor_strata = {
 				limit = {
-                    pop_type = farmers
 					has_pop_culture = nogais
 				}
 				reduce_pop = 0.90

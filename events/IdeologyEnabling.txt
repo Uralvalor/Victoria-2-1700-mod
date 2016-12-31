@@ -246,6 +246,7 @@ country_event = {
 	trigger = {
             capital_scope = {
 					continent = north_america 
+				not = { is_core = FWI }
 				} 
         is_vassal = no 
         war = no 

@@ -1125,6 +1125,9 @@ animal-powered_railroad = {
 	cost = 2200
 
 	activate_building = railroad
+	factory_goods_output = {
+			transportation = 0.05 
+		}
 	
 	ai_chance = {
 		factor = 1.5 #1.1
@@ -1149,6 +1152,9 @@ experimental_railroad = {
 	cost = 4400
 
 	max_railroad = 1
+	factory_goods_output = {
+			transportation = 0.05 
+		}
 	
 	ai_chance = {
 		factor = 1.5 #1.1
@@ -1173,6 +1179,9 @@ early_railroad = {
 	cost = 7200
 
 	max_railroad = 1
+	factory_goods_output = {
+			transportation = 0.05 
+		}
 	
 	ai_chance = {
 		factor = 2
@@ -1197,6 +1206,9 @@ iron_railroad = {
 	cost = 10800
 
 	max_railroad = 1 
+	factory_goods_output = {
+			transportation = 0.05 
+		}
 	ai_chance = {
 		factor = 2
 		modifier = {
@@ -1220,6 +1232,9 @@ steel_railroad = {
 	cost = 14400
 
 	max_railroad = 1 
+	factory_goods_output = {
+			transportation = 0.05 
+		}
 	ai_chance = {
 		factor = 2
 		modifier = {
@@ -1243,6 +1258,9 @@ integral_rail_system = {
 	cost = 18000
 
 	max_railroad = 1
+	factory_goods_output = {
+			transportation = 0.05 
+		}
 	ai_chance = {
 		factor = 2
 		modifier = {
@@ -1266,6 +1284,9 @@ limited_access_roads = {
 	cost = 21600
 
 	max_railroad = 1
+	factory_goods_output = {
+			transportation = 0.05 
+		}
 	ai_chance = {
 		factor = 2
 		modifier = {
@@ -1288,6 +1309,9 @@ modern_infrastructure = {
 	cost = 25000
 
 	max_railroad = 1
+	factory_goods_output = {
+			transportation = 0.05 
+		}
 	ai_chance = {
 		factor = 2
 		modifier = {

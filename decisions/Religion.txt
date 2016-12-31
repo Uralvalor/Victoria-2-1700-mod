@@ -8,12 +8,11 @@ political_decisions = {
 				gov_religion = orthodox
 				 AND = {
 		government = absolute_monarchy
-		NOT = { has_country_modifier = ch_rel }
 		pop_majority_religion = orthodox	}
 		}
 			   }
 	    allow = { 
- 		NOT = { has_country_flag = orthodox }
+		NOT = { has_country_modifier = ch_rel }
         		}
 		
 		effect = {
@@ -49,13 +48,12 @@ political_decisions = {
             	OR = { 
 				gov_religion = secularism
 				 AND = {
-		NOT = { has_country_modifier = ch_rel }
 		government = absolute_monarchy
 		pop_majority_religion = secularism	} 
 		}
 			   }
 	    allow = {
- 		NOT = { has_country_flag = secularism }
+		NOT = { has_country_modifier = ch_rel }
         		}
 		
 		effect = {
@@ -92,13 +90,12 @@ political_decisions = {
             	OR = { 
 				gov_religion = catholic
 				 AND = {
-		NOT = { has_country_modifier = ch_rel }
 		government = absolute_monarchy
 		pop_majority_religion = catholic	} 
 		}
 			   }
 	    allow = { 
- 		NOT = { has_country_flag = catholic }
+		NOT = { has_country_modifier = ch_rel }
         		}
 		
 		effect = {
@@ -135,13 +132,12 @@ political_decisions = {
             	OR = { 
 				gov_religion = protestant
 				 AND = {
-		NOT = { has_country_modifier = ch_rel }
 		government = absolute_monarchy
 		pop_majority_religion = protestant	} 
 		}
 			   }
 	    allow = { 
- 		NOT = { has_country_flag = protestant }
+		NOT = { has_country_modifier = ch_rel }
         		}
 		
 		effect = {
@@ -178,13 +174,12 @@ political_decisions = {
             	OR = { 
 				gov_religion = coptic
 				 AND = {
-		NOT = { has_country_modifier = ch_rel }
 		government = absolute_monarchy
 		pop_majority_religion = coptic	} 
 		}
 			   }
 	    allow = { 
- 		NOT = { has_country_flag = coptic }
+		NOT = { has_country_modifier = ch_rel }
         		}
 		
 		effect = {
@@ -221,13 +216,12 @@ political_decisions = {
             	OR = { 
 				gov_religion = sunni
 				 AND = {
-		NOT = { has_country_modifier = ch_rel }
 		government = absolute_monarchy
 		pop_majority_religion = sunni	} 
 		}
 			   }
 	    allow = { 
- 		NOT = { has_country_flag = sunni }
+		NOT = { has_country_modifier = ch_rel }
         		}
 		
 		effect = {
@@ -264,13 +258,12 @@ political_decisions = {
             	OR = { 
 				gov_religion = shiite
 				 AND = {
-		NOT = { has_country_modifier = ch_rel }
 		government = absolute_monarchy
 		pop_majority_religion = shiite	} 
 		}
 			   }
 	    allow = { 
- 		NOT = { has_country_flag = shiite }
+		NOT = { has_country_modifier = ch_rel }
         		}
 		
 		effect = {
@@ -307,13 +300,12 @@ political_decisions = {
             	OR = { 
 				gov_religion = jewish
 				 AND = {
-		NOT = { has_country_modifier = ch_rel }
 		government = absolute_monarchy
 		pop_majority_religion = jewish	} 
 		}
 			   }
 	    allow = { 
- 		NOT = { has_country_flag = jewish }
+		NOT = { has_country_modifier = ch_rel }
         		}
 		
 		effect = {
@@ -350,13 +342,12 @@ political_decisions = {
             	OR = { 
 				gov_religion = mahayana
 				 AND = {
-		NOT = { has_country_modifier = ch_rel }
 		government = absolute_monarchy
 		pop_majority_religion = mahayana	} 
 		}
 			   }
 	    allow = { 
- 		NOT = { has_country_flag = mahayana }
+		NOT = { has_country_modifier = ch_rel }
         		}
 		
 		effect = {
@@ -393,13 +384,12 @@ political_decisions = {
             	OR = { 
 				gov_religion = gelugpa
 				 AND = {
-		NOT = { has_country_modifier = ch_rel }
 		government = absolute_monarchy
 		pop_majority_religion = gelugpa	} 
 		}
 			   }
 	    allow = { 
- 		NOT = { has_country_flag = gelugpa }
+		NOT = { has_country_modifier = ch_rel }
         		}
 		
 		effect = {
@@ -436,13 +426,12 @@ political_decisions = {
             	OR = { 
 				gov_religion = theravada
 				 AND = {
-		NOT = { has_country_modifier = ch_rel }
 		government = absolute_monarchy
 		pop_majority_religion = theravada	} 
 		}
 			   }
 	    allow = { 
- 		NOT = { has_country_flag = theravada }
+		NOT = { has_country_modifier = ch_rel }
         		}
 		
 		effect = {
@@ -479,13 +468,12 @@ political_decisions = {
             	OR = { 
 				gov_religion = hindu
 				 AND = {
-		NOT = { has_country_modifier = ch_rel }
 		government = absolute_monarchy
 		pop_majority_religion = hindu	} 
 		}
 			   }
 	    allow = { 
- 		NOT = { has_country_flag = hindu }
+		NOT = { has_country_modifier = ch_rel }
         		}
 		
 		effect = {
@@ -522,13 +510,12 @@ political_decisions = {
             	OR = { 
 				gov_religion = shinto
 				 AND = {
-		NOT = { has_country_modifier = ch_rel }
 		government = absolute_monarchy
 		pop_majority_religion = shinto	} 
 		}
 			   }
 	    allow = { 
- 		NOT = { has_country_flag = shinto }
+		NOT = { has_country_modifier = ch_rel }
         		}
 		
 		effect = {
@@ -566,13 +553,12 @@ political_decisions = {
             	OR = { 
 				gov_religion = sikh
 				 AND = {
-		NOT = { has_country_modifier = ch_rel }
 		government = absolute_monarchy
 		pop_majority_religion = sikh	} 
 		}
 			   }
 	    allow = { 
- 		NOT = { has_country_flag = sikh }
+		NOT = { has_country_modifier = ch_rel }
         		}
 		
 		effect = {
@@ -608,13 +594,12 @@ political_decisions = {
             	OR = { 
 				gov_religion = animist
 				 AND = {
-		NOT = { has_country_modifier = ch_rel }
 		government = absolute_monarchy
 		pop_majority_religion = animist	} 
 		}
 			   }
 	    allow = { 
- 		NOT = { has_country_flag = animist }
+		NOT = { has_country_modifier = ch_rel }
         		}
 		
 		effect = {

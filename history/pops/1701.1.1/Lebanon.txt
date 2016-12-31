@@ -22,7 +22,7 @@
 	farmers = {
 		culture = mashriqi
 		religion = sunni
-		size = 9759
+		size = 3759
 	}
 	clergymen = {
 		culture = mashriqi
@@ -52,7 +52,12 @@
 	farmers = {
 		culture = mashriqi
 		religion = orthodox
-		size = 996
+		size = 2996
+	}
+	farmers = {
+		culture = mashriqi
+		religion = catholic
+		size = 4000
 	}
 }
 913 = {
@@ -89,7 +94,7 @@
 	farmers = {
 		culture = mashriqi
 		religion = sunni
-		size = 12994
+		size = 2994
 	}
 	clergymen = {
 		culture = mashriqi
@@ -104,7 +109,7 @@
 	farmers = {
 		culture = mashriqi
 		religion = orthodox
-		size = 5041
+		size = 10041
 	}
 	bureaucrats = {
 		culture = mashriqi
@@ -124,7 +129,7 @@
 	farmers = {
 		culture = mashriqi
 		religion = catholic
-		size = 9004
+		size = 14004
 	}
 	clergymen = {
 		culture = mashriqi
@@ -191,7 +196,7 @@
 	farmers = {
 		culture = mashriqi
 		religion = sunni
-		size = 9894
+		size = 4894
 	}
 	clergymen = {
 		culture = mashriqi
@@ -206,7 +211,12 @@
 	farmers = {
 		culture = mashriqi
 		religion = orthodox
-		size = 2022
+		size = 5022
+	}
+	farmers = {
+		culture = mashriqi
+		religion = catholic
+		size = 2000
 	}
 }
 915 = {
@@ -248,7 +258,7 @@
 	farmers = {
 		culture = mashriqi
 		religion = orthodox
-		size = 996
+		size = 3996
 	}
 	bureaucrats = {
 		culture = mashriqi
@@ -303,6 +313,6 @@
 	farmers = {
 		culture = mashriqi
 		religion = shiite
-		size = 9004
+		size = 6004
 	}
 }

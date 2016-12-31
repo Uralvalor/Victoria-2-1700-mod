@@ -668,6 +668,7 @@ province_event = {
 	desc = "EVTDESC10130"
 	id = 10130
 	trigger = {
+                is_ideology_enabled = liberal
 		owner = {
 			has_country_flag = liberal_revolution_in_progress
 		}
@@ -769,6 +770,7 @@ province_event = {
 	id = 10140
 	
 	trigger = {
+                is_ideology_enabled = liberal
 		owner = {
 			has_country_flag = liberal_revolution_in_progress
 		}
@@ -925,6 +927,7 @@ province_event = {
 	id = 10160
 	
 	trigger = {
+			is_ideology_enabled = liberal
 		owner = {
 			has_country_flag = liberal_revolution_in_progress
 			public_meetings = no_meeting

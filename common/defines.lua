@@ -113,7 +113,7 @@ economy = {
 	CIV_BASE_SHARE_FACTOR = 0.75,
 	UNCIV_BASE_SHARE_FACTOR = 1,
 	FACTORY_PAYCHECKS_LEFTOVER_FACTOR = 0.25, -- % of how much we pay to the pops and capitalists, from the leftovers.
-	MAX_FACTORY_MONEY_SAVE = 50000,	-- how much money is stored maximum in a factory.
+	MAX_FACTORY_MONEY_SAVE = 10000,	-- how much money is stored maximum in a factory.
 	SMALL_DEBT_LIMIT = 10000,
 	FACTORY_UPGRADE_EMPLOYEE_FACTOR = 0.8, -- determines how close to the employee limit we need to be before "upgrade all" will upgrade/expand a given factory (1 = 100%).
 	RGO_SUPPLY_DEMAND_FACTOR_HIRE_HI = 0.2,	-- how fast pops are Hired when there is a high demand
@@ -660,7 +660,7 @@ pops = {
 	
 	NATIONAL_FOCUS_DIVIDER = 400000.0,
 	
-	POP_SAVINGS = 0.1,
+	POP_SAVINGS = 0.25,
 	
 	STATE_CREATION_ADMIN_LIMIT = 0.01,
 	MIL_TO_JOIN_REBEL = 7, -- Rebels over this will join a faction
@@ -694,11 +694,11 @@ pops = {
 
 ai =
 {
-	COLONY_WEIGHT = 15.0, -- ai weight for colonising
+	COLONY_WEIGHT = 25.0, -- ai weight for colonising
 	ADMINISTRATOR_WEIGHT = 5.0, -- ai weight for new bureaucrat
 	INDUSTRYWORKER_WEIGHT = 7.0, -- ai weight for new industry workers
 	EDUCATOR_WEIGHT = 10.0, -- ai weigth for new clergy
-	SOLDIER_WEIGHT = 25.0, -- ai weight for soldiers
+	SOLDIER_WEIGHT = 15.0, -- ai weight for soldiers
 	SOLDIER_FRACTION = 0.05, -- max amount of population AI wants to be soldiers
 	CAPITALIST_FRACTION = 0.001, -- max amount of population AI wants to be capis
 	PRODUCTION_WEIGHT = 0.05, -- ai weight for new production
@@ -709,7 +709,7 @@ ai =
 	NAVAL_SUPPLY_PENALTY_LIMIT = 0.2, -- AI will allow to have max X% of supply penalty (when too little naval bases)
 	CHANCE_BUILD_RAILROAD = 0.2, -- chances in % of AI decisions (max value 1.0)
 	CHANCE_BUILD_NAVAL_BASE = 0.75,
-	CHANCE_BUILD_FORT = 0.3,
+	CHANCE_BUILD_FORT = 0.1,
 	CHANCE_INVEST_POP_PROJ = 0.16,
 	CHANCE_FOREIGN_INVEST = 0.16,
 	TWS_AWARENESS_SCORE_LOW_CAP = 0.2, -- AI will always add CBs if current warscore is less then that number (including TWS)

@@ -4,8 +4,8 @@ bookmark =
 	name = "GC_NAME1701"
 	desc = "GC_DESC1701"
 	date = 1701.9.1
-	cameraX = 2950 
-	cameraY = 1550
+	cameraX = 2900 
+	cameraY = 1600
 }
 
 bookmark =
@@ -17,14 +17,14 @@ bookmark =
 	cameraY = 1550
 }
 
-bookmark =
-{
-	name = "HA_NAME"
-	desc = "HA_DESC"
-	date = 1816.1.1
-	cameraX = 2950 
-	cameraY = 1550
-}
+#bookmark =
+#{
+#	name = "HA_NAME"
+#	desc = "HA_DESC"
+#	date = 1816.1.1
+#	cameraX = 2950 
+#	cameraY = 1550
+#}
 bookmark =
 {
 	name = "GC_NAME"

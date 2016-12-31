@@ -1575,10 +1575,10 @@ artisan_jewellery = {
 artisan_transhorses = {
 
 	input_goods = {    
-		wool = 0.8	
+		wool = 2.4	
 	}
 	output_goods = transportation 
-	value = 10
+	value = 30
 
 	owner = {
 		poptype = artisan 
@@ -1593,10 +1593,10 @@ artisan_transhorses = {
 artisan_transclipper = {
 
 	input_goods = {    
-		clipper_convoy = 0.01	
+		clipper_convoy = 0.06	
 	}
 	output_goods = transportation 
-	value = 10
+	value = 60
 
 	owner = {
 		poptype = artisan 
@@ -1611,12 +1611,12 @@ artisan_transclipper = {
 artisan_transrailroad = {
 
 	input_goods = { 
-		steel = .22		#
-		coal = .3		#
+		steel = .66		#
+		coal = .9		#
 	
 	}
 	output_goods = transportation 
-	value = 35
+	value = 105
 
 	owner = {
 		poptype = artisan 
@@ -1631,10 +1631,10 @@ artisan_transrailroad = {
 artisan_transsteamer = {
 
 	input_goods = {    
-		steamer_convoy = 0.02	
+		steamer_convoy = 0.06	
 	}
 	output_goods = transportation 
-	value = 44
+	value = 132
 
 	owner = {
 		poptype = artisan 
@@ -1649,11 +1649,11 @@ artisan_transsteamer = {
 artisan_transauto = {
 
 	input_goods = {    
-		automobiles = 0.1	
-		fuel = 0.3	
+		automobiles = 0.3	
+		fuel = 0.9	
 	}
 	output_goods = transportation 
-	value = 300
+	value = 900
 
 	owner = {
 		poptype = artisan 
