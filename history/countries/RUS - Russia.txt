@@ -101,11 +101,13 @@ set_country_flag  = bashkir_rebellion
 government = absolute_monarchy
 vote_franschise = none_voting  
 civilized = yes
+			remove_country_modifier = western_influences
 capital = 994 
 oob = "/1756/RUS_oob.txt"
 prestige = 20 }
 
 1815.1.1 = { 
+		set_global_flag = nogai_edisan
 #decision  = 1st_polish_partition
 #decision  = 2nd_polish_partition
 #decision  = 3rd_polish_partition
@@ -148,6 +150,7 @@ commerce_raiders = yes
 
 1836.1.1 = {
 
+		set_global_flag = nogai_edisan
 literacy = 0.1
 
 post_napoleonic_thought = 1
