@@ -59,6 +59,11 @@
 		religion = animist
 		size = 6076
 	}
+	farmers = {
+		culture = kirgiz
+		religion = animist
+		size = 2210
+	}
 	clergymen = {
 		culture = tajik
 		religion = sunni
@@ -96,40 +101,10 @@
 		religion = gelugpa
 		size = 435
 	}
-	soldiers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 1842
-	}
 	farmers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 32558
-	}
-	aristocrats = {
-		culture = kazak
-		religion = sunni
-		size = 151
-	}
-	clergymen = {
-		culture = kazak
-		religion = sunni
-		size = 76
-	}
-	artisans = {
-		culture = kazak
-		religion = sunni
-		size = 87
-	}
-	soldiers = {
-		culture = kazak
-		religion = sunni
-		size = 462
-	}
-	farmers = {
-		culture = kazak
-		religion = sunni
-		size = 6522
+		size = 12558
 	}
 	aristocrats = {
 		culture = kalmyk
@@ -151,11 +126,6 @@
 		religion = gelugpa
 		size = 63
 	}
-	farmers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 1071
-	}
 	aristocrats = {
 		culture = kalmyk
 		religion = gelugpa
@@ -174,12 +144,7 @@
 	soldiers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 309
-	}
-	farmers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 5422
+		size = 3309
 	}
 }
 1596 = {
@@ -212,31 +177,6 @@
 		culture = uighur
 		religion = sunni
 		size = 1346
-	}
-	aristocrats = {
-		culture = kazak
-		religion = sunni
-		size = 189
-	}
-	clergymen = {
-		culture = kazak
-		religion = sunni
-		size = 114
-	}
-	artisans = {
-		culture = kazak
-		religion = sunni
-		size = 101
-	}
-	soldiers = {
-		culture = kazak
-		religion = sunni
-		size = 462
-	}
-	farmers = {
-		culture = kazak
-		religion = sunni
-		size = 7595
 	}
 	aristocrats = {
 		culture = kalmyk
@@ -315,11 +255,6 @@
 		religion = sunni
 		size = 17012
 	}
-	farmers = {
-		culture = kirgiz
-		religion = animist
-		size = 5210
-	}
 }
 1598 = {
 	aristocrats = {
@@ -372,7 +307,7 @@
 	farmers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 12125
+		size = 7125
 	}
 	aristocrats = {
 		culture = kalmyk
@@ -393,11 +328,6 @@
 		culture = kalmyk
 		religion = gelugpa
 		size = 2247
-	}
-	farmers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 4632
 	}
 	clergymen = {
 		culture = beifaren
@@ -461,15 +391,10 @@
 		religion = mahayana
 		size = 370
 	}
-	soldiers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 8962
-	}
 	farmers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 10142
+		size = 5142
 	}
 	bureaucrats = {
 		culture = kalmyk
@@ -489,12 +414,7 @@
 	soldiers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 6334
-	}
-	farmers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 12108
+		size = 3334
 	}
 	aristocrats = {
 		culture = kalmyk
@@ -515,36 +435,6 @@
 		culture = kalmyk
 		religion = gelugpa
 		size = 147
-	}
-	farmers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 2144
-	}
-	aristocrats = {
-		culture = kazak
-		religion = sunni
-		size = 114
-	}
-	clergymen = {
-		culture = kazak
-		religion = sunni
-		size = 114
-	}
-	artisans = {
-		culture = kazak
-		religion = sunni
-		size = 57
-	}
-	soldiers = {
-		culture = kazak
-		religion = sunni
-		size = 309
-	}
-	farmers = {
-		culture = kazak
-		religion = sunni
-		size = 4288
 	}
 }
 2607 = {

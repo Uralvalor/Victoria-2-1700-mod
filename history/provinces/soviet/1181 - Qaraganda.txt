@@ -1,5 +1,6 @@
-
-add_core = KAZ
+	owner = MJU
+	controller = MJU
+        add_core = MJU
 trade_goods = coal
 life_rating = 27
 terrain = dry_grassland

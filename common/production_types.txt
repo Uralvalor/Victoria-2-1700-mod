@@ -834,6 +834,33 @@ fabric_factory = {
 	}
 }
 
+wool_factory = {       
+	template = factory_template
+	input_goods = {     
+		wool = 4.2		
+		dye = 0.2			
+	    #transportation = 4.2
+	}
+	output_goods = fabric 
+	value = 4			#
+	bonus = {
+		trigger = { trade_goods_in_state = wool }
+		value = 0.125
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = dye_factory 
+				trade_goods_in_state = dye
+				}
+			}
+		value = 0.125
+	}
+	bonus = {
+		trigger = { is_coastal = yes }
+		value = 0.05
+	}
+}
 cement_factory = {       
 	template = cement_template
 	input_goods = {           
@@ -1143,7 +1170,7 @@ rubber_lodge = {
 sheep_ranch = {
 	template = RGO_template_farmers
 	output_goods = wool 
-	value = .5
+	value = .6
 	farm = yes
 }
 
@@ -1823,6 +1850,23 @@ artisan_fabric = {
 	workforce = 10000
 }
 
+artisan_wool_fabric = {       
+	input_goods = {     
+		wool = 4		
+		dye = .2			
+	    #transportation = 2
+	}
+	output_goods = fabric 
+	value = 4			#81
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
 artisan_cement = {       
 	input_goods = {           
 		coal = 1.2		#27.6		total input+maint = 37

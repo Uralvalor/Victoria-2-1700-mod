@@ -1,6 +1,21 @@
+
+owner = KRK
+controller = KRK
+add_core = KRK
+        add_core = LJU
+
 trade_goods = wool
 life_rating = 27
 terrain = semi_desert
+1815.1.1 = {
+	owner = XXX
+	controller = XXX
+}
+1861.1.1 = {
+	owner = RUS
+	controller = RUS
+	colonial = 2
+}
 1923.1.1 = {
 	owner = SOV
 	controller = SOV

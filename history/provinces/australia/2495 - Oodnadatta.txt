@@ -1,4 +1,4 @@
-add_core = AST
+ 
 trade_goods = fruit
 life_rating = 20
 terrain = desert
@@ -6,4 +6,5 @@ terrain = desert
 	owner = AST
 	controller = AST
 	colonial = no
+add_core = AST
 }

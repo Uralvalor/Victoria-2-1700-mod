@@ -3563,12 +3563,12 @@
 	farmers = {
 		culture = bashkir
 		religion = sunni
-		size = 3399
+		size = 8399
 	}
 	farmers = {
 		culture = nogais
 		religion = sunni
-		size = 759
+		size = 3759
 	}
 	farmers = {
 		culture = mordva
@@ -3589,11 +3589,6 @@
 		culture = tajik
 		religion = sunni
 		size = 18
-	}
-	farmers = {
-		culture = nogais
-		religion = sunni
-		size = 12
 	}
 }
 1048 = {
@@ -4871,12 +4866,12 @@
 	farmers = {
 		culture = bashkir
 		religion = sunni
-		size = 11056
+		size = 6056
 	}
 	farmers = {
-		culture = nogais
+		culture = tatar
 		religion = sunni
-		size = 515
+		size = 2000
 	}
 	farmers = {
 		culture = ugrian
@@ -4885,10 +4880,16 @@
 	}
 }
 1060 = {
+
 	bureaucrats = {
-		culture = tatar
+		culture = kazak
 		religion = sunni
-		size = 27
+		size = 70
+	}
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 70
 	}
 	farmers = {
 		culture = bashkir
@@ -4903,7 +4904,7 @@
 	farmers = {
 		culture = nogais
 		religion = sunni
-		size = 1712
+		size = 4712
 	}
 	farmers = {
 		culture = chuvash

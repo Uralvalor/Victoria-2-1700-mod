@@ -528,6 +528,8 @@ oirats_genocide = {
 			militancy = 10
 			move_pop = 1041
 		}
+
+					 OIR = { country_event = 143333 }
             }
 }
 

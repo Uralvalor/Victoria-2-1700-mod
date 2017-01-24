@@ -173,7 +173,7 @@ option = {
 		847 = {secede_province = THIS } 848 = {secede_province = THIS } 846 = {secede_province = THIS } 845 = {secede_province = THIS } 844 = {secede_province = THIS } 843 = {secede_province = THIS } 981 = {secede_province = THIS } 987 = {secede_province = THIS } 991 = {secede_province = THIS } 990 = {secede_province = THIS } 1023 = {secede_province = THIS } 1024 = {secede_province = THIS } 1022 = {secede_province = THIS } 985 = {secede_province = THIS } 986 = {secede_province = THIS } 2688 = {secede_province = THIS } 2689 = {secede_province = THIS } 2687 = {secede_province = THIS } 1026 = {secede_province = THIS } 1031 = {secede_province = THIS } 1029 = {secede_province = THIS } 2699 = {secede_province = THIS } 2700 = {secede_province = THIS } 1020 = {secede_province = THIS } 1027 = {secede_province = THIS } 1028 = {secede_province = THIS }
 		1030 = {secede_province = THIS } 1032 = {secede_province = THIS } 1033 = {secede_province = THIS } 1034 = {secede_province = THIS } 1042 = {secede_province = THIS } 1035 = {secede_province = THIS } 1043 = {secede_province = THIS } 1044 = {secede_province = THIS } 2610 = {secede_province = THIS } 1182 = {secede_province = THIS } 1037 = {secede_province = THIS } 1025 = {secede_province = THIS } 1021 = {secede_province = THIS } 1038 = {secede_province = THIS } 1041 = {secede_province = THIS } 1036 = {secede_province = THIS } 1040 = {secede_province = THIS } 1039 = {secede_province = THIS } 1046 = {secede_province = THIS } 1047 = {secede_province = THIS } 1045 = {secede_province = THIS } 1048 = {secede_province = THIS } 1049 = {secede_province = THIS }
 		1050 = {secede_province = THIS } 1051 = {secede_province = THIS } 1056 = {secede_province = THIS } 1052 = {secede_province = THIS } 1053 = {secede_province = THIS } 1054 = {secede_province = THIS } 1055 = {secede_province = THIS } 1057 = {secede_province = THIS } 3249 = {secede_province = THIS } 3250 = {secede_province = THIS } 3251 = {secede_province = THIS } 3252 = {secede_province = THIS } 3253 = {secede_province = THIS } 3254 = {secede_province = THIS } 3255 = {secede_province = THIS } 3256 = {secede_province = THIS } 3257 = {secede_province = THIS } 3258 = {secede_province = THIS } 3259 = {secede_province = THIS } 3260 = {secede_province = THIS } 3261 = {secede_province = THIS } 3262 = {secede_province = THIS } 3263 = {secede_province = THIS }
-		3264 = {secede_province = THIS } 3265 = {secede_province = THIS } 3266 = {secede_province = THIS } 3267 = {secede_province = THIS } 3268 = {secede_province = THIS } 3269 = {secede_province = THIS } 3270 = {secede_province = THIS } 3271 = {secede_province = THIS } 3272 = {secede_province = THIS } 3273 = {secede_province = THIS } 3274 = {secede_province = THIS } 3275 = {secede_province = THIS } 3276 = {secede_province = THIS } 3277 = {secede_province = THIS } 3278 = {secede_province = THIS } 3279 = {secede_province = THIS } 3280 = {secede_province = THIS } 3281 = {secede_province = THIS } 3282 = {secede_province = THIS } 3283 = {secede_province = THIS } 3284 = {secede_province = THIS } 3285 = {secede_province = THIS } 3286 = {secede_province = THIS }  3287 = {secede_province = THIS } 
+		3264 = {secede_province = THIS } 3265 = {secede_province = THIS } 3266 = {secede_province = THIS } 3267 = {secede_province = THIS } 3268 = {secede_province = THIS } 3269 = {secede_province = THIS } 3270 = {secede_province = THIS } 3271 = {secede_province = THIS } 3272 = {secede_province = THIS } 3273 = {secede_province = THIS } 3274 = {secede_province = THIS } 3275 = {secede_province = THIS } 3276 = {secede_province = THIS } 3277 = {secede_province = THIS } 3278 = {secede_province = THIS } 3279 = {secede_province = THIS } 3280 = {secede_province = THIS } 3281 = {secede_province = THIS } 3282 = {secede_province = THIS } 3283 = {secede_province = THIS } 3284 = {secede_province = THIS } 3285 = {secede_province = THIS } 3286 = {secede_province = THIS }  3287 = {secede_province = THIS } 3288 = {secede_province = THIS } 3289 = {secede_province = THIS }  
     
     }    
 
@@ -224,6 +224,8 @@ country_event = {
 				move_pop = 1060
 			}
 		}		
+	RUS = { inherit = LJU }
+		
 		prestige = 10
 	}
 	
@@ -260,6 +262,7 @@ country_event = {
 				}
 			}
 		BSK = { is_mobilised = yes }
+	RUS = { inherit = LJU }
 	}
 	
 }
@@ -299,6 +302,7 @@ country_event = {
 				}
 				militancy = 8
 			}
+	RUS = { inherit = LJU }
 	}
 	
 }
@@ -2257,7 +2261,7 @@ country_event = {
 	
 
 country_event = {
-	id = 770001
+	id = 770002
 	title = "eventname770001"
 	desc = "eventdesc770001"
 	picture = administration
@@ -2318,6 +2322,62 @@ country_event = {
 	}
 	
 
+country_event = {
+	id = 770010
+	title = "eventname770010"
+	desc = "eventdesc770010"
+	picture = administration
+	is_triggered_only = yes
+
+	option = {
+	name = "Конечно согласны"
+	KAZ = { inherit = THIS }
+	KAZ = { prestige = 5 }
+    change_tag_no_core_switch = KAZ
+	any_core = {
+	        add_core = KAZ
+		}
+	}
+   
+    option = {
+        name = "Отказываемся"
+		set_country_flag = cancel_kurultai
+	KAZ = { prestige = -2 }
+        relation = {
+                    who = KAZ
+                    value = -50
+                  }
+        }
+	}
+country_event = {
+	id = 770011
+	title = "eventname770011"
+	desc = "eventdesc770011"
+	picture = administration
+	is_triggered_only = yes
+
+	option = {
+	name = "Единый многонациональный народ"
+	RUS_1042 = {
+			assimilate = yes
+		}
+	RUS_1182 = {
+			assimilate = yes
+		}
+	RUS_1185 = {
+			assimilate = yes
+		}
+	RUS_1184 = {
+			assimilate = yes
+		}
+	RUS_1187 = {
+			assimilate = yes
+		}
+	CHI_1600 = {
+			assimilate = yes
+		}
+	}
+}
 country_event = {
 
 	id = 170701

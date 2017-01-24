@@ -1,9 +1,14 @@
-owner = KHI
-controller = KHI
-add_core = KHI
+
+owner = KRK
+controller = KRK
+add_core = KRK
 trade_goods = opium
 life_rating = 27
 terrain = desert
+1815.1.1 = {
+	owner = KHI
+	controller = KHI
+}
 1914.1.1 = {
 	owner = RUS
 	controller = RUS

@@ -1,10 +1,11 @@
-add_core = AST
+ 
 trade_goods = cattle
 life_rating = 20
 terrain = semi_desert
 1914.1.1 = {
 	owner = AST
 	controller = AST
+add_core = AST
 	colonial = no
 	trade_goods = precious_metal
 }

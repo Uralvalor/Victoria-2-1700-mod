@@ -199,7 +199,6 @@ not = { has_country_flag = cri_in }
 		964 = { change_province_name = "Симферополь" }
 	}
 }
-
 # Грузия Присоединение
 country_event = {
 
@@ -313,5 +312,103 @@ country_event = {
 		country = RUS
 	}
               }
+	}
+}
+country_event = {
+
+	id = 1100117
+
+	trigger = {
+		tag = RUS
+                OR = {
+                diplomatic_influence = {
+				who = LJU
+				value = 299
+			}
+		LJU  = { in_sphere = RUS } }
+		LJU  = {  land_reform = nomads }
+		war = no
+not = { has_country_flag = LJU_in }
+					}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	title = "Присоединение Младшего жуза"
+	desc = "Младший жуз полностью под нашим влиянием, их ханы готовы принять российское подданство."
+
+	option = {
+		name = "Добро пожаловать!"
+                set_country_flag = LJU_in
+		inherit = LJU
+	}
+}
+country_event = {
+
+	id = 1100118
+
+	trigger = {
+		tag = RUS
+                OR = {
+                diplomatic_influence = {
+				who = MJU
+				value = 299
+			}
+		MJU  = { in_sphere = RUS } }
+		MJU  = {  land_reform = nomads }
+		war = no
+not = { has_country_flag = MJU_in }
+					}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	title = "Присоединение Среднего жуза"
+	desc = "Средний жуз полностью под нашим влиянием, их ханы готовы принять российское подданство."
+	picture = "Crymea"
+
+	option = {
+		name = "Добро пожаловать!"
+                set_country_flag = MJU_in
+		inherit = MJU
+	}
+}
+country_event = {
+
+	id = 1100119
+
+	trigger = {
+		tag = RUS
+                OR = {
+                diplomatic_influence = {
+				who = GJU
+				value = 299
+			}
+		GJU  = { in_sphere = RUS } }
+		GJU  = {  land_reform = nomads }
+		war = no
+not = { has_country_flag = GJU_in }
+					}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	title = "Присоединение Старшего жуза"
+	desc = "Старший жуз полностью под нашим влиянием, их ханы готовы принять российское подданство."
+	picture = "Crymea"
+
+	option = {
+		name = "Добро пожаловать!"
+                set_country_flag = GJU_in
+		inherit = GJU
 	}
 }

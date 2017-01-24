@@ -23,7 +23,12 @@
 }
 1183 = {
 	bureaucrats = {
-		culture = nogais
+		culture = kazak
+		religion = sunni
+		size = 70
+	}
+	farmers = {
+		culture = kazak
 		religion = sunni
 		size = 70
 	}
@@ -45,7 +50,7 @@
 	farmers = {
 		culture = nogais
 		religion = sunni
-		size = 13463
+		size = 7863
 	}
 	farmers = {
 		culture = uzbek
@@ -84,11 +89,6 @@
 		religion = gelugpa
 		size = 4298
 	}
-	farmers = {
-		culture = nogais
-		religion = sunni
-		size = 1427
-	}
 	artisans = {
 		culture = ukrainian
 		religion = orthodox
@@ -114,15 +114,16 @@
 		religion = sunni
 		size = 25
 	}
-	farmers = {
-		culture = nogais
-		religion = sunni
-		size = 4485
-	}
 }
 2611 = {
+
 	bureaucrats = {
-		culture = nogais
+		culture = kazak
+		religion = sunni
+		size = 70
+	}
+	farmers = {
+		culture = kazak
 		religion = sunni
 		size = 70
 	}
@@ -144,17 +145,45 @@
 	farmers = {
 		culture = nogais
 		religion = sunni
-		size = 15207
+		size = 9607
+	}
+	farmers = {
+		culture = tatar
+		religion = sunni
+		size = 1500
 	}
 }
 1181 = {
+	bureaucrats = {
+		culture = kazak
+		religion = sunni
+		size = 329
+	}
+	clergymen = {
+		culture = kazak
+		religion = sunni
+		size = 187
+	}
+	artisans = {
+		culture = kazak
+		religion = sunni
+		size = 179
+	}
+	soldiers = {
+		culture = kazak
+		religion = sunni
+		size = 187
+	}
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 3943
+	}
 	farmers = {
 		culture = kazak
 		religion = sunni
 		size = 2000
 	}
-}
-1184 = {
 	bureaucrats = {
 		culture = kazak
 		religion = sunni
@@ -165,85 +194,88 @@
 		religion = sunni
 		size = 6490
 	}
-	clergymen = {
-		culture = nogais
-		religion = sunni
-		size = 187
-	}
-	artisans = {
-		culture = nogais
-		religion = sunni
-		size = 179
-	}
-	soldiers = {
-		culture = nogais
-		religion = sunni
-		size = 3109
-	}
+}
+1184 = {
 	farmers = {
-		culture = nogais
+		culture = tatar
 		religion = sunni
-		size = 2262
+		size = 2000
 	}
 }
 1185 = {
+
 	bureaucrats = {
 		culture = kazak
 		religion = sunni
-		size = 32
-	}
-	clergymen = {
-		culture = kazak
-		religion = sunni
-		size = 187
-	}
-	artisans = {
-		culture = kazak
-		religion = sunni
-		size = 179
-	}
-	soldiers = {
-		culture = kazak
-		religion = sunni
-		size = 187
+		size = 70
 	}
 	farmers = {
 		culture = kazak
 		religion = sunni
-		size = 10188
+		size = 70
+	}
+	clergymen = {
+		culture = kirgiz
+		religion = sunni
+		size = 100
+	}
+	artisans = {
+		culture = kirgiz
+		religion = sunni
+		size = 100
+	}
+	soldiers = {
+		culture = kirgiz
+		religion = sunni
+		size = 2100
+	}
+	farmers = {
+		culture = kirgiz
+		religion = sunni
+		size = 6500
 	}
 }
 2606 = {
 
-	farmers = {
-		culture = kazak
-		religion = sunni
-		size = 3943
-	}
 	bureaucrats = {
 		culture = kazak
 		religion = sunni
-		size = 329
+		size = 93
 	}
 	clergymen = {
 		culture = kazak
 		religion = sunni
-		size = 164
+		size = 47
 	}
 	artisans = {
 		culture = kazak
 		religion = sunni
-		size = 170
+		size = 53
 	}
 	soldiers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 187
+		culture = kazak
+		religion = sunni
+		size = 1050
 	}
 	farmers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 6317
+		culture = kazak
+		religion = sunni
+		size = 6056
+	}
+	bureaucrats = {
+		culture = kazak
+		religion = sunni
+		size = 282
+	}
+	clergymen = {
+		culture = kazak
+		religion = sunni
+		size = 141
+	}
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 8727
 	}
 }
 2612 = {
@@ -254,30 +286,10 @@
 		}
 }
 1187 = {
-	bureaucrats = {
-		culture = kazak
-		religion = sunni
-		size = 329
-	}
-	clergymen = {
-		culture = kazak
-		religion = sunni
-		size = 187
-	}
-	artisans = {
-		culture = kazak
-		religion = sunni
-		size = 179
-	}
-	soldiers = {
-		culture = kazak
-		religion = sunni
-		size = 187
-	}
 	farmers = {
-		culture = kazak
-		religion = sunni
-		size = 3943
+		culture = kalmyk
+		religion = gelugpa
+		size = 3000
 	}
 }
 1188 = {
@@ -301,11 +313,6 @@
 		culture = kalmyk
 		religion = gelugpa
 		size = 116
-	}
-	farmers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 5024
 	}
 	bureaucrats = {
 		culture = kalmyk
@@ -331,31 +338,6 @@
 		culture = kalmyk
 		religion = gelugpa
 		size = 14575
-	}
-	bureaucrats = {
-		culture = kazak
-		religion = sunni
-		size = 282
-	}
-	clergymen = {
-		culture = kazak
-		religion = sunni
-		size = 141
-	}
-	artisans = {
-		culture = kazak
-		religion = sunni
-		size = 143
-	}
-	soldiers = {
-		culture = kazak
-		religion = sunni
-		size = 164
-	}
-	farmers = {
-		culture = kazak
-		religion = sunni
-		size = 5727
 	}
 	bureaucrats = {
 		culture = kalmyk
@@ -384,58 +366,49 @@
 	}
 }
 1186 = {
-	bureaucrats = {
-		culture = kazak
-		religion = sunni
-		size = 93
-	}
-	clergymen = {
-		culture = kazak
-		religion = sunni
-		size = 47
-	}
-	artisans = {
-		culture = kazak
-		religion = sunni
-		size = 53
-	}
+
 	soldiers = {
-		culture = kazak
-		religion = sunni
-		size = 70
+		culture = kalmyk
+		religion = gelugpa
+		size = 4187
 	}
 	farmers = {
-		culture = kazak
-		religion = sunni
-		size = 2156
-	}
-	bureaucrats = {
-		culture = kazak
-		religion = sunni
-		size = 282
-	}
-	clergymen = {
-		culture = kazak
-		religion = sunni
-		size = 141
-	}
-	artisans = {
-		culture = kazak
-		religion = sunni
-		size = 143
-	}
-	soldiers = {
-		culture = kazak
-		religion = sunni
-		size = 164
-	}
-	farmers = {
-		culture = kazak
-		religion = sunni
-		size = 7727
+		culture = kalmyk
+		religion = gelugpa
+		size = 11317
 	}
 }
 1193 = {
+	bureaucrats = {
+		culture = karakalpak
+		religion = sunni
+		size = 661
+	}
+	bureaucrats = {
+		culture = karakalpak
+		religion = sunni
+		size = 85
+	}
+	officers = {
+		culture = karakalpak
+		religion = sunni
+		size = 85
+	}
+	clergymen = {
+		culture = karakalpak
+		religion = sunni
+		size = 313
+	}
+	soldiers = {
+		culture = karakalpak
+		religion = sunni
+		size = 1787
+	}
+	farmers = {
+		culture = karakalpak
+		religion = sunni
+		size = 2519
+	}
 	bureaucrats = {
 		culture = karakalpak
 		religion = sunni
@@ -449,7 +422,7 @@
 	artisans = {
 		culture = karakalpak
 		religion = sunni
-		size = 125
+		size = 325
 	}
 	soldiers = {
 		culture = karakalpak
@@ -515,56 +488,47 @@
 		religion = sunni
 		size = 3050
 	}
+	farmers = {
+		culture = nogais
+		religion = sunni
+		size = 262
+	}
 }
 1197 = {
+
 	bureaucrats = {
-		culture = uzbek
+		culture = kazak
 		religion = sunni
-		size = 235
+		size = 70
+	}
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 70
 	}
 	clergymen = {
-		culture = uzbek
+		culture = kirgiz
 		religion = sunni
 		size = 116
 	}
 	artisans = {
-		culture = uzbek
+		culture = kirgiz
 		religion = sunni
 		size = 134
 	}
 	soldiers = {
-		culture = uzbek
+		culture = kirgiz
 		religion = sunni
 		size = 141
 	}
 	farmers = {
-		culture = uzbek
+		culture = kirgiz
 		religion = sunni
-		size = 12925
-	}
-	bureaucrats = {
-		culture = kazak
-		religion = sunni
-		size = 518
-	}
-	clergymen = {
-		culture = kazak
-		religion = sunni
-		size = 235
-	}
-	artisans = {
-		culture = kazak
-		religion = sunni
-		size = 269
-	}
-	soldiers = {
-		culture = kazak
-		religion = sunni
-		size = 235
+		size = 9500
 	}
 	farmers = {
-		culture = kazak
+		culture = uzbek
 		religion = sunni
-		size = 15854
+		size = 5000
 	}
 }

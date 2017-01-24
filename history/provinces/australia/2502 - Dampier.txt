@@ -1,4 +1,4 @@
-add_core = AST
+
 trade_goods = grain
 life_rating = 30
 terrain = semi_desert
@@ -6,6 +6,8 @@ terrain = semi_desert
 	owner = ENG
 	controller = ENG
 	colonial = 2
+add_core = AST
+ 
 }
 1914.1.1 = {
 	owner = AST

@@ -356,6 +356,8 @@ manufactories = {
 	cost = 2200
 
 	factory_throughput = 0.05 
+
+	activate_building =  wool_factory
 	ai_chance = {
 		factor = 1.5
 		modifier = {

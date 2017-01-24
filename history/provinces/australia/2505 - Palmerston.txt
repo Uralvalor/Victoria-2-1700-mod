@@ -1,4 +1,4 @@
-add_core = AST
+ 
 trade_goods = grain
 life_rating = 30
 terrain = seasonal_jungle
@@ -6,6 +6,7 @@ terrain = seasonal_jungle
 	owner = ENG
 	controller = ENG
 	colonial = 2
+add_core = AST
 }
 1914.1.1 = {
 	owner = AST

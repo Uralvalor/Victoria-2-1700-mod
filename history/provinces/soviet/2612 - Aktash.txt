@@ -1,7 +1,13 @@
-
+	owner = MJU
+	controller = MJU
+        add_core = MJU
 trade_goods = coal
 life_rating = 27
 terrain = semi_desert
+1815.1.1 = {
+	owner = XXX
+	controller = XXX
+}
 1861.1.1 = {
 	owner = RUS
 	controller = RUS

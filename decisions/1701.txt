@@ -4,7 +4,7 @@ political_decisions = {
 	move_capital_to_st_petersburg = {
 		potential = {
 			tag = RUS
-			NOT = { year = 1750 }
+			NOT = { year = 1800 }
 			NOT = { has_country_flag = rus_capital_moved }
 		}	
 		allow = {
@@ -222,15 +222,8 @@ political_decisions = {
 						tag = THIS
 				}
 			}			
-			1042 = {
-				owner = {
-						tag = THIS
-				}
-			}
 			1060 = {
-				owner = {
-						tag = XXX
-				}
+				NOT = { owned_by = RUS }
 			}
 			NOT = { has_country_flag = window_to_east }
 			}
@@ -243,6 +236,12 @@ political_decisions = {
                                 academic_institutions = universities
 			        is_greater_power= yes
                              }
+			
+			LJU = { OR = { 
+				    vassal_of = RUS
+					in_sphere = THIS
+					NOT = { exists = LJU } }
+					}
 			}
 
 			effect = {
@@ -894,5 +893,38 @@ political_decisions = {
 		}
 	}
 
+	kazah_kurultai = {
+		potential = {		
+        OR = { tag = MJU
+		       tag = KAZ }
+		land_reform = nomads
+		NOT = { year = 1815 }
+		NOT = { has_global_flag = kurultai }
+		}
+		allow = {
+		prestige = 25
+		NOT = { badboy = 0.5 }
+		any_neighbor_country ={
+					gov_religion = sunni
+			        land_reform = nomads
+					NOT={war_with=THIS}			
+			}
+		}
+		effect = {
+		badboy=2.5
+		change_tag = KAZ
+		set_global_flag = kurultai
+		any_neighbor_country ={
+			limit = {
+					gov_religion = sunni
+			        land_reform = nomads
+					NOT={war_with=THIS}			
+			}
+            country_event = 770010
+		}
+		
+        country_event = 770011
+		}
+	}
 	
 }

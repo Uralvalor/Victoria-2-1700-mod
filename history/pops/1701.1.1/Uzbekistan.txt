@@ -22,32 +22,32 @@
 	farmers = {
 		culture = uzbek
 		religion = sunni
-		size = 38295
+		size = 36295
 	}
 	bureaucrats = {
 		culture = kirgiz
 		religion = sunni
-		size = 23
+		size = 200
 	}
 	clergymen = {
 		culture = kirgiz
 		religion = sunni
-		size = 10
+		size = 100
 	}
 	artisans = {
 		culture = kirgiz
 		religion = sunni
-		size = 10
+		size = 100
 	}
 	soldiers = {
 		culture = kirgiz
 		religion = sunni
-		size = 10
+		size = 2100
 	}
 	farmers = {
 		culture = kirgiz
 		religion = sunni
-		size = 11306
+		size = 5500
 	}
 	bureaucrats = {
 		culture = tajik
@@ -76,40 +76,41 @@
 	}
 }
 1191 = {
+
 	bureaucrats = {
-		culture = karakalpak
+		culture = uzbek
 		religion = sunni
-		size = 661
-	}
-	bureaucrats = {
-		culture = karakalpak
-		religion = sunni
-		size = 85
+		size = 1313
 	}
 	officers = {
-		culture = karakalpak
+		culture = uzbek
 		religion = sunni
-		size = 85
+		size = 130
 	}
 	clergymen = {
-		culture = karakalpak
+		culture = uzbek
 		religion = sunni
-		size = 313
+		size = 793
 	}
 	artisans = {
-		culture = karakalpak
+		culture = tajik
 		religion = sunni
-		size = 304
+		size = 2270
 	}
 	soldiers = {
-		culture = karakalpak
+		culture = uzbek
 		religion = sunni
-		size = 1787
+		size = 10551
 	}
 	farmers = {
-		culture = karakalpak
+		culture = uzbek
 		religion = sunni
-		size = 2519
+		size = 13000
+	}
+	farmers = {
+		culture = tajik
+		religion = sunni
+		size = 60000
 	}
 	slaves = {
 		culture = persian
@@ -200,33 +201,6 @@
 		size = 2543
 	}
 }
-1196 = {
-	bureaucrats = {
-		culture = turkmen
-		religion = sunni
-		size = 121
-	}
-	clergymen = {
-		culture = turkmen
-		religion = sunni
-		size = 51
-	}
-	artisans = {
-		culture = turkmen
-		religion = sunni
-		size = 59
-	}
-	soldiers = {
-		culture = turkmen
-		religion = sunni
-		size = 68
-	}
-	farmers = {
-		culture = turkmen
-		religion = sunni
-		size = 6411
-	}
-}
 1202 = {
 	bureaucrats = {
 		culture = uzbek
@@ -261,7 +235,7 @@
 	farmers = {
 		culture = uzbek
 		religion = sunni
-		size = 32303
+		size = 12303
 	}
 	bureaucrats = {
 		culture = uzbek
@@ -318,37 +292,32 @@
 	bureaucrats = {
 		culture = uzbek
 		religion = sunni
-		size = 2613
-	}
-	bureaucrats = {
-		culture = uzbek
-		religion = sunni
-		size = 364
+		size = 1313
 	}
 	officers = {
 		culture = uzbek
 		religion = sunni
-		size = 330
+		size = 130
 	}
 	clergymen = {
 		culture = uzbek
 		religion = sunni
-		size = 1393
+		size = 793
 	}
 	artisans = {
 		culture = uzbek
 		religion = sunni
-		size = 570
+		size = 270
 	}
 	soldiers = {
 		culture = uzbek
 		religion = sunni
-		size = 5151
+		size = 2551
 	}
 	farmers = {
 		culture = uzbek
 		religion = sunni
-		size = 57752
+		size = 37752
 	}
 	bureaucrats = {
 		culture = tajik
@@ -363,7 +332,7 @@
 	artisans = {
 		culture = tajik
 		religion = sunni
-		size = 92
+		size = 3092
 	}
 	soldiers = {
 		culture = tajik
@@ -435,7 +404,7 @@
 	farmers = {
 		culture = uzbek
 		religion = sunni
-		size = 77223
+		size = 37223
 	}
 	bureaucrats = {
 		culture = tajik
@@ -460,7 +429,7 @@
 	farmers = {
 		culture = tajik
 		religion = sunni
-		size = 3902
+		size = 53902
 	}
 	bureaucrats = {
 		culture = mashriqi
@@ -512,7 +481,7 @@
 	farmers = {
 		culture = uzbek
 		religion = sunni
-		size = 32355
+		size = 12355
 	}
 	bureaucrats = {
 		culture = tajik
@@ -537,7 +506,7 @@
 	farmers = {
 		culture = tajik
 		religion = sunni
-		size = 7718
+		size = 17718
 	}
 	bureaucrats = {
 		culture = turkmen
@@ -562,6 +531,6 @@
 	farmers = {
 		culture = turkmen
 		religion = sunni
-		size = 4477
+		size = 7477
 	}
 }

@@ -15,6 +15,12 @@ vassal = {
 }
 
 vassal = {
+	first = RUS
+	second = BSK
+	start_date = 1557.1.1 
+	end_date = 1899.1.1
+}
+vassal = {
 	first = FRA
 	second = SPA
 	start_date = 1700.1.1 

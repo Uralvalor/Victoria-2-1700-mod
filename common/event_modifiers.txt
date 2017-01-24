@@ -1693,3 +1693,8 @@ slave_market_country = {
 slave_market = {
 	rich_income_modifier = 0.3
 }
+
+juz_1700 = {
+	global_assimilation_rate = 5
+	icon = 5
+}
