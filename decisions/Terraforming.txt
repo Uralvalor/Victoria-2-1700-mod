@@ -1,0 +1,136 @@
+political_decisions = {	
+
+	build_amsterdam = {
+		picture = polder
+		potential = {
+			is_greater_power = yes
+			NOT = { has_global_flag = amsterdam }
+			owns = 375
+			NOT = { owns = 3291 }
+		}
+		allow = {
+		   money = 30000
+			water_wheel_power = 1
+		}
+		effect = {
+		treasury = -30000	
+		random_pop = { limit = { type = capitalists } money = 30000 }
+		timber = -25
+		cement = -40
+		steel = -4
+		explosives = -1
+	    transportation = -70
+		3291 = {
+				life_rating = 35
+				secede_province = THIS
+			}
+		set_global_flag = amsterdam
+		}
+	}
+
+	build_groningem = {
+		picture = polder
+		potential = {
+			is_greater_power = yes
+			NOT = { has_global_flag = groningem }
+			owns = 383
+			NOT = { owns = 3290 }
+		}
+		allow = { money = 60000
+			experimental_steam_engine   = 1
+		}
+		effect = {
+		treasury = -60000	
+		random_pop = { limit = { type = capitalists } money = 60000 }
+		timber = -35
+		cement = -60
+		steel = -4
+		explosives = -1
+	    transportation = -100
+		3290 = {
+				life_rating = 35
+				secede_province = THIS
+			}
+		set_global_flag = groningem
+		}
+	}
+	build_rotterdam = {
+		picture = polder
+		potential = {
+			is_greater_power = yes
+			NOT = { has_global_flag = rotterdam }
+			owns = 376
+			NOT = { owns = 3292 }
+		}
+		allow = {money = 80000
+			practical_steam_engine   = 1
+		}
+		effect = { 
+		treasury = -80000	
+		random_pop = { limit = { type = capitalists } money = 80000 }
+		timber = -43
+		cement = -80
+		steel = -6
+		explosives = -1
+	    transportation = -130
+		3292 = {
+				life_rating = 35
+				secede_province = THIS
+			}
+		set_global_flag = rotterdam
+		}
+	}
+	build_milderburg = {
+		picture = polder
+		potential = {
+			is_greater_power = yes
+			NOT = { has_global_flag = milderburg }
+			owns = 378
+			NOT = { owns = 3293 }
+		}
+		allow = { money = 175000
+			electrical_power_generation  = 1
+		}
+		effect = { 
+		treasury = -175000	
+		random_pop = { limit = { type = capitalists } money = 175000 }
+		timber = -30
+		cement = -130
+		steel = -14
+		explosives = -1
+	    transportation = -175
+		3293 = {
+				life_rating = 35
+				secede_province = THIS
+			}
+		set_global_flag = milderburg
+		}
+	}
+	build_flevoland = {
+		picture = polder
+		potential = {
+			is_greater_power = yes
+			NOT = { has_global_flag = flevoland }
+			owns = 384
+			owns = 377
+			NOT = { owns = 3294 }
+		}
+		allow = { money = 500000
+			atom_energy  = 1
+		}
+		effect = { 
+		treasury = -500000	
+		random_pop = { limit = { type = capitalists } money = 500000 }
+		timber = -30
+		cement = -500
+		steel = -80
+		explosives = -5
+	    transportation = -615
+		3294 = {
+				life_rating = 35
+				secede_province = THIS
+			}
+		set_global_flag = flevoland
+		}
+	}
+}

@@ -85,6 +85,7 @@ no_standard = 1
 physiocracy = 1
 state_mercantilism = 1
 freedom_of_trade = 1
+post_nelsonian_thought = 1
 precision_work = yes
  
 #Inventions
@@ -98,7 +99,8 @@ nonstate_consciousness = 0
 oob = "NET_oob.txt"
 
 
-1750.1.1 = {
+1720.1.1 = {
+	decision = build_amsterdam
 civilized = yes
 oob = "/1756/NET_oob.txt"
  }

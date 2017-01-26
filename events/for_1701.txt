@@ -2076,7 +2076,12 @@ province_event = {
       title = "EVTNAME900001"
       desc = "EVTDESC900001"
       allow_multiple_instances = no
+	 
       trigger = {
+	        
+		owner = {
+			slavery = yes_slavery
+		}
               continent = africa
                is_slave = no
 			}
@@ -2589,6 +2594,7 @@ country_event = {
 				not = { is_core = CAN }
 				not = { is_core = HAI }
 				not = { is_core = FWI }
+				not = { is_core = UCA }
 				not = { is_core = CUB } }
 	}
 	
@@ -2602,6 +2608,7 @@ country_event = {
 				not = { is_core = HAI }
 				not = { is_core = FWI }
 				not = { is_core = CUB }
+				not = { is_core = UCA }
 			}
 			secede_province = TEX
 		}

@@ -36,7 +36,18 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
-
+	
+military_constructions = yes_military_constructions
+education_reform = yes_education_reform 
+finance_reform = finance_reform_two 
+admin_reform = yes_admin_reform 
+land_reform = yes_land_reform 
+foreign_officers = yes_foreign_officers 
+foreign_training = yes_foreign_training 
+diplomatic_reform = interactive
+taxation_reform = tax_farmers
+foreign_weapons = modern_weapons
+academic_institutions = madrasahs
 1861.1.1 = {
 # Technologies
 

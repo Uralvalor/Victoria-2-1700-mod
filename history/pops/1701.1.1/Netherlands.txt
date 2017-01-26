@@ -1,4 +1,9 @@
 375 = {
+	farmers = {
+		culture = dutch
+		religion = protestant
+		size = 43
+	}
 	clerks = {
 		culture = dutch
 		religion = secularism
@@ -131,7 +136,7 @@
 	farmers = {
 		culture = dutch
 		religion = protestant
-		size = 14643
+		size = 14600
 	}
 	craftsmen = {
 		culture = dutch
