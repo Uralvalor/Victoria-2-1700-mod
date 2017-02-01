@@ -1108,6 +1108,7 @@ military_staff_system = {
 	unciv_military = yes
 	activate_unit = cavalry
 	
+	
 	army_base = {
 		default_organisation = 5
 		supply_consumption = 0.05

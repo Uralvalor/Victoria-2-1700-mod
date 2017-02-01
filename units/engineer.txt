@@ -9,8 +9,9 @@ engineer = {
 	priority = 15
 	max_strength = 3
 	default_organisation = 30
-	maximum_speed = 5.00
+	maximum_speed = 2
 	weighted_value = 3.0
+	colonial_points = 1
 	floating_flag = no
 
 
@@ -22,7 +23,7 @@ engineer = {
 		liquor = 1
 		explosives = .5
 	}
-	
+	supply_limit = 1
 	supply_consumption = 1.0
 	supply_cost = {
 		small_arms = 0.0012 #0.01

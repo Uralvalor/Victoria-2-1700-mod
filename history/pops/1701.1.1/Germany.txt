@@ -3833,12 +3833,22 @@
 	clergymen = {
 		culture = north_german
 		religion = protestant
-		size = 513
+		size = 413
+	}
+	clergymen = {
+		culture = french
+		religion = protestant
+		size = 113
 	}
 	artisans = {
 		culture = north_german
 		religion = protestant
-		size = 2063
+		size = 1663
+	}
+	artisans = {
+		culture = french
+		religion = protestant
+		size = 400
 	}
 	soldiers = {
 		culture = north_german
@@ -3918,7 +3928,12 @@
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 38089
+		size = 30089
+	}
+	farmers = {
+		culture = french
+		religion = protestant
+		size = 8000
 	}
 }
 697 = {

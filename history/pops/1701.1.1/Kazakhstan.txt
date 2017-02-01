@@ -91,13 +91,18 @@
 	}
 	artisans = {
 		culture = ukrainian
-		religion = orthodox
+		religion = protestant
+		size = 601
+	}
+	farmers = {
+		culture = ukrainian
+		religion = protestant
 		size = 601
 	}
 	soldiers = {
 		culture = ukrainian
-		religion = orthodox
-		size = 3774
+		religion = protestant
+		size = 3174
 	}
 	farmers = {
 		culture = uzbek

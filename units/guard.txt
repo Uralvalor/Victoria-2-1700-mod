@@ -12,7 +12,7 @@ guard = {
 	priority = 18
 	max_strength = 3
 	default_organisation = 30
-	maximum_speed = 4.00
+	maximum_speed = 2
 	weighted_value = 9.0
 
 
@@ -37,7 +37,7 @@ guard = {
 	reconnaissance = 0
 	attack = 8
 	defence = 2
-	discipline = 1.0
+	discipline = 1.1
 	support = 0.0
 	maneuver = 2
 }

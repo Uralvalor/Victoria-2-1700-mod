@@ -72,6 +72,7 @@ very_hard_ai = {
 ##########################################################################
 
 overseas = {
+	supply_limit = -2
 }
 
 coastal = {
@@ -96,7 +97,6 @@ sea_zone = {
 
 land_province = {
 	max_attrition = 5			#Maximum Attrition is 5
-	supply_limit = 5				
 }
 
 
@@ -109,10 +109,11 @@ blockaded =
 }
 
 no_adjacent_controlled = {
+	supply_limit = -1
 }
 
 
-core = {
+core = {			
 }
 
 has_siege = {
@@ -146,12 +147,11 @@ infrastructure = {
 ##########################################################################
 
 base_values = {
-	supply_limit = 5
+	supply_limit = 1
 }
 
 war = {
 	max_war_exhaustion = 100			#base max at war.
-	supply_consumption = -0.5
 	#war_exhaustion = 0.1
 	badboy = -0.033
 }

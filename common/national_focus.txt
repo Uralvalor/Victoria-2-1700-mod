@@ -5,6 +5,14 @@ rail_focus =
 		railroads = 0.5 #Capitalists 50% more likeley to choose railroads
 		icon = 2
 	}
+	encourage_supply = 
+	{
+		supply_limit = 5 #
+		limit = { 
+			civilized = yes
+		}
+		icon = 32
+	}
 }
 
 immigration_focus = 

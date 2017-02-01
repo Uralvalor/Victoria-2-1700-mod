@@ -1660,6 +1660,11 @@
             y = 1725
         }
 
+        naval_base = {
+            x = 1482.783333
+            y = 1752.433333
+        }
+
     }
 
 }
@@ -1702,6 +1707,11 @@
             y = 1731
         }
 
+        naval_base = {
+            x = 1530.378333
+            y = 1720.403333
+        }
+
     }
 
 }
@@ -1734,8 +1744,13 @@
 }
 
 53 = {
-    text_scale = 3
     text_position = {
+        x = 1548
+        y = 1692
+    }
+
+    text_scale = 3
+    unit = {
         x = 1548
         y = 1692
     }
@@ -1745,25 +1760,20 @@
         y = 1699
     }
 
-    unit = {
-        x = 1548
-        y = 1692
-    }
-
     factory = {
         x = 1546
         y = 1697
     }
 
     building_position = {
-        naval_base = {
-            x = 1562
-            y = 1700
-        }
-
         fort = {
             x = 1564
             y = 1693
+        }
+
+        naval_base = {
+            x = 1539.576667
+            y = 1699.003333
         }
 
     }
@@ -1813,8 +1823,13 @@
 }
 
 55 = {
-    text_scale = 2
     text_position = {
+        x = 1554
+        y = 1671
+    }
+
+    text_scale = 2
+    unit = {
         x = 1554
         y = 1671
     }
@@ -1824,15 +1839,15 @@
         y = 1678
     }
 
-    unit = {
-        x = 1554
-        y = 1671
-    }
-
     building_position = {
         fort = {
             x = 1561
             y = 1673
+        }
+
+        naval_base = {
+            x = 1560.400000
+            y = 1667.700000
         }
 
     }
@@ -1860,6 +1875,11 @@
         fort = {
             x = 1642
             y = 1704
+        }
+
+        naval_base = {
+            x = 1609.665000
+            y = 1689.493333
         }
 
     }
@@ -2125,6 +2145,11 @@
         fort = {
             x = 1694
             y = 1734
+        }
+
+        naval_base = {
+            x = 1701.550000
+            y = 1738.390000
         }
 
     }
@@ -5527,8 +5552,8 @@
     }
 
     building_construction = {
-        x = 1371
-        y = 1733
+        x = 1369.026667
+        y = 1733.810000
     }
 
     military_construction = {
@@ -5540,6 +5565,11 @@
         fort = {
             x = 1350
             y = 1764
+        }
+
+        naval_base = {
+            x = 1371.371667
+            y = 1734.703333
         }
 
     }
@@ -5589,8 +5619,13 @@
 }
 
 160 = {
-    text_scale = 3
     text_position = {
+        x = 1381
+        y = 1712
+    }
+
+    text_scale = 3
+    unit = {
         x = 1381
         y = 1712
     }
@@ -5600,15 +5635,15 @@
         y = 1688
     }
 
-    unit = {
-        x = 1381
-        y = 1712
-    }
-
     building_position = {
         fort = {
             x = 1380
             y = 1701
+        }
+
+        naval_base = {
+            x = 1394.226667
+            y = 1732.626667
         }
 
     }
@@ -5641,6 +5676,11 @@
         fort = {
             x = 1428
             y = 1692
+        }
+
+        naval_base = {
+            x = 1440.550000
+            y = 1703.690000
         }
 
     }
@@ -5725,6 +5765,11 @@
         fort = {
             x = 1439
             y = 1650
+        }
+
+        naval_base = {
+            x = 1439.283333
+            y = 1655.305000
         }
 
     }
@@ -5990,6 +6035,11 @@
             y = 1647
         }
 
+        naval_base = {
+            x = 1448.520000
+            y = 1648.640000
+        }
+
     }
 
 }
@@ -6022,8 +6072,13 @@
 }
 
 173 = {
-    text_scale = 3
     text_position = {
+        x = 1501
+        y = 1660
+    }
+
+    text_scale = 3
+    unit = {
         x = 1501
         y = 1660
     }
@@ -6033,11 +6088,6 @@
         y = 1658
     }
 
-    unit = {
-        x = 1501
-        y = 1660
-    }
-
     factory = {
         x = 1508
         y = 1664
@@ -6045,8 +6095,13 @@
 
     building_position = {
         fort = {
-            x = 1513
-            y = 1660
+            x = 1512.180000
+            y = 1660.560000
+        }
+
+        naval_base = {
+            x = 1510.380000
+            y = 1655.700000
         }
 
     }
@@ -6091,13 +6146,23 @@
             y = 1668
         }
 
+        naval_base = {
+            x = 1459.206667
+            y = 1657.436667
+        }
+
     }
 
 }
 
 175 = {
-    text_scale = 3
     text_position = {
+        x = 1502
+        y = 1680
+    }
+
+    text_scale = 3
+    unit = {
         x = 1502
         y = 1680
     }
@@ -6107,15 +6172,10 @@
         y = 1670
     }
 
-    unit = {
-        x = 1502
-        y = 1680
-    }
-
     building_position = {
         naval_base = {
-            x = 1499
-            y = 1682
+            x = 1499.830000
+            y = 1682.500000
         }
 
     }
@@ -6150,6 +6210,11 @@
             y = 1710
         }
 
+        naval_base = {
+            x = 1474.320000
+            y = 1703.500000
+        }
+
     }
 
 }
@@ -6172,8 +6237,8 @@
     }
 
     factory = {
-        x = 1440
-        y = 1706
+        x = 1441.958333
+        y = 1709.921667
     }
 
     building_construction = {
@@ -6190,6 +6255,11 @@
         fort = {
             x = 1444
             y = 1730
+        }
+
+        naval_base = {
+            x = 1461.966667
+            y = 1719.640000
         }
 
     }
@@ -6234,6 +6304,11 @@
             y = 1643
         }
 
+        naval_base = {
+            x = 1531.681667
+            y = 1645.423333
+        }
+
     }
 
 }
@@ -6271,8 +6346,13 @@
 }
 
 180 = {
-    text_scale = 3
     text_position = {
+        x = 1502
+        y = 1641
+    }
+
+    text_scale = 3
+    unit = {
         x = 1502
         y = 1641
     }
@@ -6282,15 +6362,15 @@
         y = 1643
     }
 
-    unit = {
-        x = 1502
-        y = 1641
-    }
-
     building_position = {
         fort = {
             x = 1504
             y = 1648
+        }
+
+        naval_base = {
+            x = 1512.550000
+            y = 1647.300000
         }
 
     }
@@ -7943,6 +8023,14 @@
         y = 1655
     }
 
+    building_position = {
+        naval_base = {
+            x = 1554.650000
+            y = 1654.250000
+        }
+
+    }
+
 }
 
 229 = {
@@ -8182,6 +8270,11 @@
             y = 1669
         }
 
+        naval_base = {
+            x = 1578.493333
+            y = 1676.240000
+        }
+
     }
 
 }
@@ -8207,6 +8300,11 @@
         fort = {
             x = 1596
             y = 1672
+        }
+
+        naval_base = {
+            x = 1601.150000
+            y = 1676.200000
         }
 
     }
@@ -8241,13 +8339,23 @@
             y = 1672
         }
 
+        naval_base = {
+            x = 1615.600000
+            y = 1679.300000
+        }
+
     }
 
 }
 
 239 = {
-    text_scale = 2
     text_position = {
+        x = 1632
+        y = 1693
+    }
+
+    text_scale = 2
+    unit = {
         x = 1632
         y = 1693
     }
@@ -8257,15 +8365,15 @@
         y = 1687
     }
 
-    unit = {
-        x = 1632
-        y = 1693
-    }
-
     building_position = {
         fort = {
-            x = 1627
-            y = 1697
+            x = 1626.600000
+            y = 1696.360000
+        }
+
+        naval_base = {
+            x = 1616.946667
+            y = 1684.573333
         }
 
     }
@@ -77184,6 +77292,14 @@
         y = 1710
     }
 
+    building_position = {
+        naval_base = {
+            x = 1555.303333
+            y = 1710.450000
+        }
+
+    }
+
 }
 
 2595 = {
@@ -78208,6 +78324,11 @@
         fort = {
             x = 1414
             y = 1761
+        }
+
+        naval_base = {
+            x = 1416.780000
+            y = 1761.046667
         }
 
     }
@@ -80366,13 +80487,37 @@
 2766 = {} # 64;250;250;Gulf of Sirte
 2767 = {} # 65;200;200;Gulf of Tobruk
 2768 = {} # 66;200;250;Bay of Alexandrian
-2769 = {} # 67;220;250;Palestinian Coast
+2769 = {
+    text_position = {
+        x = 3303.566667
+        y = 1499.400000
+    }
+
+    unit = {
+        x = 3296.741667
+        y = 1500.916667
+    }
+
+} # 67;220;250;Palestinian Coast
+
 2770 = {} # 68;250;250;Gulf of Cyprus
 2771 = {} # 69;200;200;Sea of Crete
 2772 = {} # 70;200;250;Aegean Sea
 2773 = {} # 71;220;250;Sea of Marmara
 2774 = {} # 72;250;250;Gulf of Varna
-2775 = {} # 73;200;200;Gulf of Odessa
+2775 = {
+    text_position = {
+        x = 3300.986667
+        y = 1704.560000
+    }
+
+    unit = {
+        x = 3296.933333
+        y = 1710.386667
+    }
+
+} # 73;200;200;Gulf of Odessa
+
 2776 = {
     text_position = {
         x = 3376.440000
@@ -80411,17 +80556,89 @@
 2785 = {} # 83;220;250;Coast of Mascate
 2786 = {} # 84;250;250;Mascate Coast
 2787 = {} # 85;200;200;Straits of Hormuz
-2788 = {} # 86;200;250;Persian Gulf
-2789 = {} # 87;220;250;Gulf of Indus
+2788 = {
+    text_position = {
+        x = 3585.253333
+        y = 1427.720000
+    }
+
+    unit = {
+        x = 3589.013333
+        y = 1423.960000
+    }
+
+} # 86;200;250;Persian Gulf
+
+2789 = {
+    text_position = {
+        x = 3826.610000
+        y = 1340.320000
+    }
+
+    unit = {
+        x = 3825.395000
+        y = 1344.775000
+    }
+
+} # 87;220;250;Gulf of Indus
+
 2790 = {} # 88;250;250;Gulf of Gujarat
 2791 = {} # 89;200;200;Laquedive Islands
 2792 = {} # 90;200;250;Coast of Malabar
 2793 = {} # 91;220;250;Comorin Cape
 2794 = {} # 92;250;250;Coast of Caramandel
-2795 = {} # 93;200;200;Coast of Orissa
-2796 = {} # 94;200;250;Ganges Delta
-2797 = {} # 95;220;250;Akyab Bay
-2798 = {} # 96;250;250;Irrawady Delta
+2795 = {
+    text_position = {
+        x = 4110.500000
+        y = 1231.000000
+    }
+
+    unit = {
+        x = 4109.166667
+        y = 1222.333333
+    }
+
+} # 93;200;200;Coast of Orissa
+
+2796 = {
+    text_position = {
+        x = 4208.360000
+        y = 1291.345000
+    }
+
+    unit = {
+        x = 4204.100000
+        y = 1296.670000
+    }
+
+} # 94;200;250;Ganges Delta
+
+2797 = {
+    text_position = {
+        x = 4257.920000
+        y = 1235.840000
+    }
+
+    unit = {
+        x = 4257.640000
+        y = 1230.520000
+    }
+
+} # 95;220;250;Akyab Bay
+
+2798 = {
+    text_position = {
+        x = 4313.400000
+        y = 1181.866667
+    }
+
+    unit = {
+        x = 4316.360000
+        y = 1187.293333
+    }
+
+} # 96;250;250;Irrawady Delta
+
 2799 = {} # 97;200;200;Andaman Sea
 2800 = {} # 98;200;250;Mergui Archipelago
 2801 = {} # 99;220;250;Straits of Malacca
@@ -80440,18 +80657,66 @@
 2814 = {} # 112;250;250;Straits of Johore
 2815 = {} # 113;200;200;Malayan Sea
 2816 = {} # 114;200;250;Coast of Sarawk
-2817 = {} # 115;220;250;Mekong Delta
+2817 = {
+    text_position = {
+        x = 4420.120000
+        y = 1087.870000
+    }
+
+    unit = {
+        x = 4460.440000
+        y = 1083.460000
+    }
+
+} # 115;220;250;Mekong Delta
+
 2818 = {} # 116;250;250;Gulf of Siam
 2819 = {} # 117;200;200;Cam Rah Bay
 2820 = {} # 118;200;250;South China Sea
 2821 = {} # 119;220;250;Coast of Brunei
 2822 = {} # 120;250;250;Coast of Annam
 2823 = {} # 121;200;200;Gulf of Tonkin
-2824 = {} # 122;200;250;Guanghou Bay
+2824 = {
+    text_position = {
+        x = 4609.483333
+        y = 1299.150000
+    }
+
+    unit = {
+        x = 4603.616667
+        y = 1304.283333
+    }
+
+} # 122;200;250;Guanghou Bay
+
 2825 = {} # 123;220;250;Taiwan Strait
-2826 = {} # 124;250;250;Yang Tse Delta
+2826 = {
+    text_position = {
+        x = 4733.300000
+        y = 1478.900000
+    }
+
+    unit = {
+        x = 4728.350000
+        y = 1470.800000
+    }
+
+} # 124;250;250;Yang Tse Delta
+
 2827 = {} # 125;200;200;Yellow Sea
-2828 = {} # 126;200;250;Korea Bay
+2828 = {
+    text_position = {
+        x = 4677.810000
+        y = 1596.160000
+    }
+
+    unit = {
+        x = 4678.630000
+        y = 1591.445000
+    }
+
+} # 126;200;250;Korea Bay
+
 2829 = {} # 127;220;250;South Korean Sea
 2830 = {} # 0;251;251;North Korean Sea
 2831 = {
@@ -80468,7 +80733,19 @@
 
 } # 1;201;201;Coast of Olga
 
-2832 = {} # 2;201;251;Tatar Straits
+2832 = {
+    text_position = {
+        x = 5013.308333
+        y = 1793.908333
+    }
+
+    unit = {
+        x = 5014.033333
+        y = 1811.066667
+    }
+
+} # 2;201;251;Tatar Straits
+
 2833 = {} # 3;221;251;Amur Delta
 2834 = {} # 4;251;251;Baj of Ayan
 2835 = {} # 5;201;201;Bay of Komenskoie
@@ -80559,15 +80836,51 @@
 2907 = {} # 77;201;201;Coast of Tamatave
 2908 = {} # 78;201;251;The Mascareignes
 2909 = {} # 79;221;251;Gulf of Zambeze
-2910 = {} # 80;251;251;Coast of Natal
+2910 = {
+    text_position = {
+        x = 3397.770000
+        y = 517.390000
+    }
+
+    unit = {
+        x = 3385.300000
+        y = 576.300000
+    }
+
+} # 80;251;251;Coast of Natal
+
 2911 = {} # 81;201;201;Coast of Transkei
 2912 = {} # 82;201;251;Coast of Ciskei
 2913 = {} # 83;221;251;Cape of Good Hope
 2914 = {} # 84;251;251;Coast of Namibia
 2915 = {} # 85;201;201;Coast of Angola
 2916 = {} # 86;201;251;Gulf of Kongo
-2917 = {} # 87;221;251;Coast of Cameroon
-2918 = {} # 88;251;251;Gulf of Nigeria
+2917 = {
+    text_position = {
+        x = 2905.666667
+        y = 872.366667
+    }
+
+    unit = {
+        x = 2953.333333
+        y = 859.533333
+    }
+
+} # 87;221;251;Coast of Cameroon
+
+2918 = {
+    text_position = {
+        x = 2892.600000
+        y = 994.900000
+    }
+
+    unit = {
+        x = 2901.233333
+        y = 999.216667
+    }
+
+} # 88;251;251;Gulf of Nigeria
+
 2919 = {} # 89;201;201;Ivory Coast
 2920 = {} # 90;201;251;Gold Coast
 2921 = {} # 91;221;251;Coast of Gamvia
@@ -80592,7 +80905,19 @@
 2940 = {} # 110;201;251;Western Hudson Bay
 2941 = {} # 111;221;251;Eastern Hudson Bay
 2942 = {} # 112;251;251;Foxe Bassin
-2943 = {} # 113;201;201;Gulf of St. Lawrence
+2943 = {
+    text_position = {
+        x = 1786.601667
+        y = 1784.376667
+    }
+
+    unit = {
+        x = 1746.120000
+        y = 1770.823333
+    }
+
+} # 113;201;201;Gulf of St. Lawrence
+
 2944 = {} # 114;201;251;Cabot Strait
 2945 = {} # 115;221;251;Bay of Fundy
 2946 = {} # 116;251;251;Strait of Belle Isle
@@ -80602,15 +80927,51 @@
 2950 = {} # 120;251;251;Greenland Sea
 2951 = {} # 121;201;201;Northern Atlantic
 2952 = {} # 122;201;251;Masschusetts Bay
-2953 = {} # 123;221;251;Chesapaeake Bay
+2953 = {
+    text_position = {
+        x = 1675.640000
+        y = 1625.041667
+    }
+
+    unit = {
+        x = 1670.468333
+        y = 1627.003333
+    }
+
+} # 123;221;251;Chesapaeake Bay
+
 2954 = {} # 124;251;251;Cape Hatteras
 2955 = {} # 125;201;201;Coast of Carolina
 2956 = {} # 126;201;251;Coast of Florida
 2957 = {} # 127;221;251;Sea of Sargassos
 2958 = {} # 0;252;252;Florida Straits
 2959 = {} # 1;202;202;Apalachee Bay
-2960 = {} # 2;202;252;Mobile Bay
-2961 = {} # 3;222;252;Galveston Bay
+2960 = {
+    text_position = {
+        x = 1408.475000
+        y = 1425.030000
+    }
+
+    unit = {
+        x = 1405.500000
+        y = 1420.270000
+    }
+
+} # 2;202;252;Mobile Bay
+
+2961 = {
+    text_position = {
+        x = 1333.710000
+        y = 1404.520000
+    }
+
+    unit = {
+        x = 1318.860000
+        y = 1397.755000
+    }
+
+} # 3;222;252;Galveston Bay
+
 2962 = {} # 4;252;252;Tampico Bay
 2963 = {} # 5;202;202;Yucatan Sea
 2964 = {} # 6;202;252;Gulf of Mexico
@@ -80621,29 +80982,113 @@
 2969 = {} # 11;222;252;Jamica Channel
 2970 = {} # 12;252;252;Central Carribean
 2971 = {} # 13;202;202;Northwestern Carribean
-2972 = {} # 14;202;252;Venezualan Gulf
+2972 = {
+    text_position = {
+        x = 1687.770000
+        y = 1169.966667
+    }
+
+    unit = {
+        x = 1679.290000
+        y = 1167.493333
+    }
+
+} # 14;202;252;Venezualan Gulf
+
 2973 = {} # 15;222;252;Venezuelan Sea
 2974 = {} # 16;252;252;Eastern Carribean
-2975 = {} # 17;202;202;Windward Islands
+2975 = {
+    text_position = {
+        x = 1878.013333
+        y = 1123.265000
+    }
+
+    unit = {
+        x = 1875.100000
+        y = 1142.201667
+    }
+
+} # 17;202;202;Windward Islands
+
 2976 = {} # 18;202;252;Lesser Antilles
 2977 = {} # 19;222;252;Turks & Caicos Sea
 2978 = {} # 20;252;252;Coast of Cuba
 2979 = {} # 21;202;202;Coast of Hispaniola
 2980 = {} # 22;202;252;Guyana Coast
 2981 = {} # 23;222;252;Bay of Belem
-2982 = {} # 24;252;252;Amazonas Gulf
+2982 = {
+    text_position = {
+        x = 2086.416667
+        y = 978.750000
+    }
+
+    unit = {
+        x = 2063.916667
+        y = 962.083333
+    }
+
+} # 24;252;252;Amazonas Gulf
+
 2983 = {} # 25;202;202;Coast of Brazil
 2984 = {} # 26;202;252;Coast of Recife
-2985 = {} # 27;222;252;Coast of Pernambuc
+2985 = {
+    text_position = {
+        x = 2285.298333
+        y = 750.191667
+    }
+
+    unit = {
+        x = 2270.773333
+        y = 729.856667
+    }
+
+} # 27;222;252;Coast of Pernambuc
+
 2986 = {} # 28;252;252;Todos Santos Bay
 2987 = {} # 29;202;202;Rio De Janeiro
 2988 = {} # 30;202;252;Baia Parangua
-2989 = {} # 31;222;252;Rio De La Plata
+2989 = {
+    text_position = {
+        x = 1949.226667
+        y = 326.920000
+    }
+
+    unit = {
+        x = 1946.266667
+        y = 339.746667
+    }
+
+} # 31;222;252;Rio De La Plata
+
 2990 = {} # 32;252;252;Bahia Blanca
 2991 = {} # 33;202;202;Coast of Patagonia
 2992 = {} # 34;202;252;Magellan Strait
-2993 = {} # 35;222;252;South Chilean Coast
-2994 = {} # 36;252;252;Coast of Chile
+2993 = {
+    text_position = {
+        x = 1610.145000
+        y = 124.005000
+    }
+
+    unit = {
+        x = 1610.145000
+        y = 115.360000
+    }
+
+} # 35;222;252;South Chilean Coast
+
+2994 = {
+    text_position = {
+        x = 1600.240000
+        y = 229.770000
+    }
+
+    unit = {
+        x = 1600.240000
+        y = 214.130000
+    }
+
+} # 36;252;252;Coast of Chile
+
 2995 = {} # 37;202;202;Atacama Coast
 2996 = {} # 38;202;252;Arica Gulf
 2997 = {} # 39;222;252;Arequipa Bay
@@ -80655,15 +81100,51 @@
 3003 = {} # 45;202;202;Acapulco Bay
 3004 = {} # 46;202;252;Manzazilla Bay
 3005 = {} # 47;222;252;Mazatlan Bay
-3006 = {} # 48;252;252;Gulf of California
+3006 = {
+    text_position = {
+        x = 1078.168333
+        y = 1396.961667
+    }
+
+    unit = {
+        x = 1086.866667
+        y = 1382.635000
+    }
+
+} # 48;252;252;Gulf of California
+
 3007 = {} # 49;202;202;Coast of Baja
 3008 = {} # 50;202;252;Coast of California
 3009 = {} # 51;222;252;Santa Catalina Islands
-3010 = {} # 52;252;252;Coast of Oregon
+3010 = {
+    text_position = {
+        x = 834.866667
+        y = 1695.666667
+    }
+
+    unit = {
+        x = 836.640000
+        y = 1699.466667
+    }
+
+} # 52;252;252;Coast of Oregon
+
 3011 = {} # 53;202;202;Coast of Columbia
 3012 = {} # 54;202;252;Hecate Strait
 3013 = {} # 55;222;252;Gulf of Alaska
-3014 = {} # 56;252;252;Coast of Alaska
+3014 = {
+    text_position = {
+        x = 253.893333
+        y = 1923.506667
+    }
+
+    unit = {
+        x = 269.146667
+        y = 1923.160000
+    }
+
+} # 56;252;252;Coast of Alaska
+
 3015 = {
     text_position = {
         x = 164.891667
@@ -80774,11 +81255,71 @@
 3109 = {} # 23;223;253;Lake Titicaca
 3110 = {} # 24;253;253;Lake Nicaragua
 3111 = {} # 25;203;203;Northern Pacific #10
-3112 = {} # 26;203;253;Lake Ontario
-3113 = {} # 27;223;253;Lake Erie
-3114 = {} # 28;253;253;Lake Huron
-3115 = {} # 29;203;203;Lake Michigan
-3116 = {} # 30;203;253;Lake Superior
+3112 = {
+    text_position = {
+        x = 1598.950000
+        y = 1681.735000
+    }
+
+    unit = {
+        x = 1595.890000
+        y = 1682.330000
+    }
+
+} # 26;203;253;Lake Ontario
+
+3113 = {
+    text_position = {
+        x = 1538.820000
+        y = 1656.680000
+    }
+
+    unit = {
+        x = 1541.520000
+        y = 1656.920000
+    }
+
+} # 27;223;253;Lake Erie
+
+3114 = {
+    text_position = {
+        x = 1522.783333
+        y = 1706.050000
+    }
+
+    unit = {
+        x = 1524.200000
+        y = 1703.075000
+    }
+
+} # 28;253;253;Lake Huron
+
+3115 = {
+    text_position = {
+        x = 1449.991667
+        y = 1681.533333
+    }
+
+    unit = {
+        x = 1449.141667
+        y = 1670.200000
+    }
+
+} # 29;203;203;Lake Michigan
+
+3116 = {
+    text_position = {
+        x = 1445.230000
+        y = 1754.500000
+    }
+
+    unit = {
+        x = 1448.740000
+        y = 1752.070000
+    }
+
+} # 30;203;253;Lake Superior
+
 3117 = {} # 31;223;253;Lake Nipigon
 3118 = {} # 32;253;253;Lake Winnipeg
 3119 = {} # 33;203;203;Western Pacific #1
@@ -80905,7 +81446,19 @@
 3227 = {} # 16;204;224;Great Slave Lake
 3228 = {} # 17;254;224;Lake Athabasca
 3229 = {} # 18;254;204;Reindeer Lake
-3230 = {} # 19;204;254;Gulf of Ob
+3230 = {
+    text_position = {
+        x = 3950.266667
+        y = 2115.733333
+    }
+
+    unit = {
+        x = 3954.533333
+        y = 2137.066667
+    }
+
+} # 19;204;254;Gulf of Ob
+
 3231 = {} # 20;224;204;Lake Van
 3232 = {} # 21;254;204;Lake Urmia
 3233 = {} # 22;204;224;Issyk Kul
@@ -80916,7 +81469,19 @@
 3238 = {} # 30;204;254;Lake Mweru
 3239 = {} # 31;254;204;Lake Champlain
 3240 = {} # 32;224;204;Lake Poopo
-3241 = {} # 32;204;224;Arctic Ocean
+3241 = {
+    text_position = {
+        x = 5410.740000
+        y = 2149.640000
+    }
+
+    unit = {
+        x = 5373.740000
+        y = 2147.420000
+    }
+
+} # 32;204;224;Arctic Ocean
+
 3242 = {} # 126;233;253;Northern Atlantic #3
 3243 = {} # 111;223;253;Southern Pacific #38
 3244 = {} # 5;204;254;Western Pacific #13
@@ -82450,6 +83015,22 @@
             y = 1832.600000
         }
 
+    }
+
+}
+
+# Rivers
+3295 = {
+    text_position = {
+        x = 3522.350000
+        y = 1792.996667
+    }
+
+    text_rotation = 1.013255
+    text_scale = 10
+    unit = {
+        x = 3502.780000
+        y = 1763.813333
     }
 
 }

@@ -1545,6 +1545,23 @@ flyingrocket_development = {
 	}
 }
 #military_staff_system
+forager = {
+	limit = { military_staff_system = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 1
+			flintlock_rifles = 1
+		}
+		modifier = {
+			factor = 2
+			animal-powered_railroad = 1
+		}
+	}
+	effect = {
+		supply_limit = 0.6
+	}
+}
 cuirassier_activation = {
 	limit = { military_staff_system = 1 }
 	chance = {
