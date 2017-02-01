@@ -71,12 +71,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_province_natfocus_strip"
 		textureFile = "gfx\\interface\\province_natfocus_strip.dds"
-		noOfFrames = 31
+		noOfFrames = 32
 	}
 	spriteType = {
 		name = "GFX_province_natfocus_strip_small"
 		textureFile = "gfx\\interface\\province_natfocus_strip_small.dds"
-		noOfFrames = 31
+		noOfFrames = 32
 	}
 	spriteType = {
 		name = "GFX_province_fort_strip"
@@ -86,12 +86,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_province_navalbase_strip"
 		textureFile = "gfx\\interface\\province_navalbase_strip.dds"
-		noOfFrames = 8
+		noOfFrames = 7
 	}
 	spriteType = {
 		name = "GFX_province_infra_strip"
 		textureFile = "gfx\\interface\\province_infra_strip.dds"
-		noOfFrames = 9
+		noOfFrames = 8
 	}
 	spriteType = {
 		name = "GFX_province_expanding"
