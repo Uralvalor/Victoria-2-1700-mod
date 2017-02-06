@@ -6,6 +6,11 @@ trade_goods = fruit
 life_rating = 35
 fort = 1
 terrain = hilly_farmland
+state_building = {
+	level = 1
+	building = metal_money_building 
+	upgrade = yes
+}
 1861.1.1 = { railroad = 3 }
 1914.1.1 = {
 	owner = GER

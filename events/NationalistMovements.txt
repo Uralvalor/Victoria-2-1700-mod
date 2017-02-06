@@ -742,7 +742,7 @@ province_event = {
 		name = "EVTOPTA15060"
 		state_scope = {
 			farmers = {
-				money = -10
+				money = -300
 				militancy = 8
 			}
 		}
