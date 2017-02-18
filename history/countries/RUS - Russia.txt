@@ -5,7 +5,7 @@ culture = byelorussian
 culture = cossacian
 religion = secularism 
 government = hms_government
-plurality = 0.0
+plurality = 2
 nationalvalue = nv_order
 literacy = 0.25
 non_state_culture_literacy = 0.05
@@ -71,7 +71,7 @@ bronze_muzzle_loaded_artillery = 1
 
 
 # Starting Consciousness
-consciousness = 6
+consciousness = 1
 nonstate_consciousness = 3
 
 ruling_party = RUS_reactionary 
@@ -273,7 +273,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care =trinket_health_care
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = secularism unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 }
@@ -311,7 +311,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = secularism unemployment_subsidies = no_subsidies
 pensions = no_pensions
 
 ruling_party = RUS_liberal_2

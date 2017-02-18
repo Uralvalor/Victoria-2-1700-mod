@@ -2,10 +2,15 @@ capital = 3255
 primary_culture = circassian
 religion = secularism
 government = democracy
-plurality = 0.0
+plurality = 5
 nationalvalue = nv_order
 literacy = 0.11
 civilized = no
+
+# Starting Consciousness
+consciousness = 7
+nonstate_consciousness = 3
+
 
 # Political reforms
 slavery = no_slavery
@@ -19,14 +24,14 @@ political_parties = underground_parties
 immigration_policy = nobody_gets_out
 conscription = mandatory_service
 minorities = oppression
-religious_rights = no_state_religion 
+religious_rights = secularism 
 
 # Social Reforms
 wage_reform = no_minimum_wage
 work_hours = fourteen_hours
 safety_regulations = trinket_safety
 health_care = trinket_health_care
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = secularism unemployment_subsidies = no_subsidies
 pensions = no_pensions
 pollution = no_controls
 child_labor = child_labor_legal

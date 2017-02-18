@@ -9,7 +9,7 @@ country = {
 	REBEL_ACCEPTANCE_MONTHS = 60,
 	BASE_COUNTRY_TAX_EFFICIENCY = 0.2, -- Basic efficiency for taxes without 'crats and tech
 	BASE_COUNTRY_ADMIN_EFFICIENCY = 0.2,
-	GOLD_TO_CASH_RATE = 0.5, -- Amount of money generated per gold unit
+	GOLD_TO_CASH_RATE = 1, -- Amount of money generated per gold unit
 	GOLD_TO_WORKER_PAY_RATE = 1, -- Multiplier for how much money gold pays to pops
 	GREAT_NATIONS_COUNT = 8,
 	GREATNESS_DAYS = 365, 	   -- how many days until country risks losing status as great nation
@@ -88,7 +88,7 @@ country = {
 	COLONIZATION_COLONY_STATE_DISTANCE = 400,
 	COLONIZATION_INFLUENCE_TEMPERATURE_PER_DAY = 0.08,
 	COLONIZATION_INFLUENCE_TEMPERATURE_PER_LEVEL = 0.005,
-	PARTY_LOYALTY_HIT_ON_WAR_LOSS = 0.95, -- Drops the ruling party loyalty if war is lost.
+	PARTY_LOYALTY_HIT_ON_WAR_LOSS = 0.7, -- Drops the ruling party loyalty if war is lost.
 	RESEARCH_POINTS_ON_CONQUER_MULT = 360, -- multiplier to RP got by conquering as unciv when got enacted military reforms
 	MAX_RESEARCH_POINTS = 55000, -- max RP you can store for uncivs
 },
@@ -112,9 +112,9 @@ economy = {
 	SECOND_RANK_BASE_SHARE_FACTOR = 0.5,
 	CIV_BASE_SHARE_FACTOR = 0.75,
 	UNCIV_BASE_SHARE_FACTOR = 1,
-	FACTORY_PAYCHECKS_LEFTOVER_FACTOR = 0.3, -- % of how much we pay to the pops and capitalists, from the leftovers.
-	MAX_FACTORY_MONEY_SAVE = 10000,	-- how much money is stored maximum in a factory.
-	SMALL_DEBT_LIMIT = 10000,
+	FACTORY_PAYCHECKS_LEFTOVER_FACTOR = 1.1, -- % of how much we pay to the pops and capitalists, from the leftovers.
+	MAX_FACTORY_MONEY_SAVE = 1000,	-- how much money is stored maximum in a factory.
+	SMALL_DEBT_LIMIT = 2000,
 	FACTORY_UPGRADE_EMPLOYEE_FACTOR = 0.8, -- determines how close to the employee limit we need to be before "upgrade all" will upgrade/expand a given factory (1 = 100%).
 	RGO_SUPPLY_DEMAND_FACTOR_HIRE_HI = 0.2,	-- how fast pops are Hired when there is a high demand
 	RGO_SUPPLY_DEMAND_FACTOR_HIRE_LO = 0.02,	-- how fast pops are Hired when there is a medium demand
@@ -694,10 +694,10 @@ pops = {
 
 ai =
 {
-	COLONY_WEIGHT = 25.0, -- ai weight for colonising
+	COLONY_WEIGHT = 30.0, -- ai weight for colonising
 	ADMINISTRATOR_WEIGHT = 5.0, -- ai weight for new bureaucrat
 	INDUSTRYWORKER_WEIGHT = 7.0, -- ai weight for new industry workers
-	EDUCATOR_WEIGHT = 10.0, -- ai weigth for new clergy
+	EDUCATOR_WEIGHT = 5.0, -- ai weigth for new clergy
 	SOLDIER_WEIGHT = 15.0, -- ai weight for soldiers
 	SOLDIER_FRACTION = 0.05, -- max amount of population AI wants to be soldiers
 	CAPITALIST_FRACTION = 0.001, -- max amount of population AI wants to be capis

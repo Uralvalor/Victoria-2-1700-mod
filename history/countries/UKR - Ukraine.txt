@@ -10,6 +10,10 @@ literacy = 0.15
 
 set_country_flag = serfdom_not_abolished
 
+# Starting Consciousness
+consciousness = 6
+nonstate_consciousness = 1
+
 
 foreign_naval_officers = yes_foreign_naval_officers 
 military_constructions = yes_military_constructions
@@ -50,7 +54,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = low_health_care   
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = secularism unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 minorities = oppression  

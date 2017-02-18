@@ -2,7 +2,7 @@ capital = 1612
 primary_culture = manchu
 religion = secularism 
 government = absolute_monarchy
-plurality = 0.0
+plurality = 0
 nationalvalue = nv_order
 literacy = 0.05
 non_state_culture_literacy = 0.02
@@ -21,14 +21,14 @@ press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = jefferson_method
 political_parties = underground_parties
-religious_rights = no_state_religion 
+religious_rights = secularism 
 
 # Social Reforms
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = trinket_health_care 
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = secularism unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
@@ -47,8 +47,8 @@ upper_house = {
 #Inventions
 
 # Starting Consciousness
-consciousness = 8
-nonstate_consciousness = 1
+consciousness = 2
+nonstate_consciousness = 0
 
 	oob = "CHI_oob.txt"
 
@@ -64,7 +64,7 @@ oob = "/1756/CHI_oob.txt"
 1815.1.1 = { 
 literacy = 0.04
 
-ruling_party = CHI_conservative
+ruling_party = MCK_reactionary
 upper_house = {
 	fascist = 0
 	liberal = 10
@@ -102,7 +102,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = secularism unemployment_subsidies = no_subsidies
 pensions = no_pensions
 pollution = no_controls
 child_labor = child_labor_legal

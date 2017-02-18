@@ -16,6 +16,11 @@ state_building = {
 	building = clipper_shipyard
 	upgrade = yes
 }
+state_building = {
+	level = 1
+	building = paper_mill
+	upgrade = yes
+}
 1750.1.1 = {
 	owner = ENG
 	controller = ENG

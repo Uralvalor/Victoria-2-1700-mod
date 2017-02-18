@@ -1,7 +1,7 @@
 #Khwarazm Region (40000) #see Uzbekistan.txt and Kazakhstan.txt for balance of region 
 #under the rule of Khiva in 1836  
 #Dashhowuz (40000/10000 POPS) #now part of Turkmenistan  
-1195 = {
+1196 = {
 	aristocrats = {
 		culture = turkmen
 		religion = sunni
@@ -206,7 +206,7 @@
 	farmers = {
 		culture = turkmen
 		religion = sunni
-		size = 21025
+		size = 27025
 	}
 
 	aristocrats = {

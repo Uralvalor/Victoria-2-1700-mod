@@ -7,6 +7,11 @@ life_rating = 35
 naval_base = 1
 terrain = marginal_farmland
 fort = 1
+state_building = {
+	level = 1
+	building = paper_mill
+	upgrade = yes
+}
 1861.1.1 = { railroad = 3 }
 1914.1.1 = {
 	owner = GER

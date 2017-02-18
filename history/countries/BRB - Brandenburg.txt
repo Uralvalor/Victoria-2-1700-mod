@@ -28,7 +28,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = secularism unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = low_schools
 
@@ -83,7 +83,7 @@ wage_reform = low_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = low_safety
 health_care = low_health_care
-gov_religion = no_state_religion unemployment_subsidies = low_subsidies
+gov_religion = secularism unemployment_subsidies = low_subsidies
 pensions = low_pensions 
 school_reforms = acceptable_schools
 	

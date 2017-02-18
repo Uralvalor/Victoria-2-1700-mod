@@ -117,7 +117,7 @@ industrial_goods = {
 		available_from_start = no
 	}
 	clipper_convoy = { 
-		cost = 42.00 
+		cost = 42.5
 		overseas_penalty = yes
 		available_from_start = no
 		color = { 21 65 30 }
@@ -173,7 +173,7 @@ consumer_goods = {
 		color = { 100 69 30 }
 	}
 	tea = {	
-		cost = 2.6
+		cost = 2.2
 		color = { 201 135 15 }
 	}
 	coffee = { 
@@ -224,7 +224,7 @@ consumer_goods = {
 		color = { 129 63 6 }
 	}
 	jewellery = {
-		cost = 1.6
+		cost = 2
 		color = { 253 199 110 }
 	}
 	credit = {

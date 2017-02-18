@@ -4,7 +4,7 @@ name = "Война за Испанское наследство"
 	add_attacker = AUS
 	add_attacker = ENL
 	add_attacker = NET
-        add_attacker = PRU
+    add_attacker = PRU
 	#add_attacker = POR - c 1703 года
 	add_attacker = SAX
 	add_attacker = WUR
@@ -82,21 +82,21 @@ name = "Война за Испанское наследство"
 #	}
 	war_goal = {
 		casus_belli = acquire_state
-		actor = AUS
+		actor = AGO
 		receiver = SPA
 		state_province_id = 754
 	}
 
 	war_goal = {
 		casus_belli = acquire_state
-		actor = AUS
+		actor = AGO
 		receiver = SPA
 		state_province_id = 753
 	}
 
 	war_goal = {
 		casus_belli = acquire_state
-		actor = AUS
+		actor = AGO
 		receiver = SPA
 		state_province_id = 763
 	}
@@ -109,7 +109,7 @@ name = "Война за Испанское наследство"
 
 
 	war_goal = {
-		casus_belli = acquire_state
+		casus_belli = place_in_the_sun
 		actor = ENL
 		receiver = FRA
 		state_province_id = 75

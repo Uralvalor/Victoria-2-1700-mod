@@ -2,7 +2,7 @@ capital = 1465
 primary_culture = mongol
 religion = secularism
 government = absolute_monarchy
-plurality = 0.0
+plurality = 1
 nationalvalue = nv_order
 literacy = 0.1
 civilized = no
@@ -22,7 +22,7 @@ wage_reform = no_minimum_wage
 work_hours = fourteen_hours
 safety_regulations = trinket_safety
 health_care = trinket_health_care
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = secularism unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
@@ -41,5 +41,5 @@ upper_house = {
 
 
 # Starting Consciousness
-consciousness = 2
+consciousness = 4
 nonstate_consciousness = 1

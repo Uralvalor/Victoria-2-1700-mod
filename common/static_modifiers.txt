@@ -82,7 +82,6 @@ coastal = {
 non_coastal = {
         farm_rgo_eff = -0.125 #transportation 
         mine_rgo_eff = -0.125 #transportation 
-	import_cost = 0.01 #transportation 
         local_factory_throughput = -0.125 #transportation
 }
 
@@ -134,7 +133,6 @@ nationalism = {
 infrastructure = {
 	local_factory_throughput = 1.125		#each % of infra boost throughput 1%
 	local_rgo_output = 1			#each % of infra boost throughput 1%
-	import_cost = -0.01 #transportation 
         farm_rgo_eff = 0.125 #transportation 
         mine_rgo_eff = 0.125 #transportation 
 	supply_limit = 4

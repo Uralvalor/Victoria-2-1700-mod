@@ -10,6 +10,9 @@ literacy = 0.37
 non_state_culture_literacy = 0.19
 is_releasable_vassal = no
 
+# Starting Consciousness
+consciousness = 2
+nonstate_consciousness = 1
 
 set_country_flag = serfdom_not_abolished
 
@@ -47,7 +50,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = secularism unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 

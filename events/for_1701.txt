@@ -2207,6 +2207,9 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA100000030"
+			any_core = {
+				remove_core = PLC
+			}
 		change_tag = POL
 		prestige = -50
 		any_pop = { militancy = 3 consciousness = 3 }

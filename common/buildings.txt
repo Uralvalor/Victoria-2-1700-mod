@@ -807,7 +807,6 @@ naval_base = {
 	population_growth = 0.001
         farm_rgo_eff = 0.02 #transportationation 
         mine_rgo_eff = 0.02 #transportationation 
-	import_cost = -0.01
 }
        
 railroad = {   

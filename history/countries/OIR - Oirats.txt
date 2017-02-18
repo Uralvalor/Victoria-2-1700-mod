@@ -2,7 +2,7 @@ capital = 1595
 primary_culture = kalmyk
 religion = secularism 
 government = absolute_monarchy
-plurality = 0.0
+plurality = 5
 nationalvalue = nv_order
 literacy = 0.04
 non_state_culture_literacy = 0.02
@@ -21,7 +21,7 @@ upper_house = {
 
 
 # Starting Consciousness
-consciousness = 0
+consciousness = 7
 nonstate_consciousness = 0
 
 slavery = no_slavery
@@ -37,7 +37,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = low_health_care 
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = secularism unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 

@@ -987,6 +987,11 @@
 		religion = catholic
 		size = 464
 	}
+	craftsmen = {
+		culture = french
+		religion = catholic
+		size = 200
+	}
 	farmers = {
 		culture = french
 		religion = catholic
@@ -995,7 +1000,7 @@
 	farmers = {
 		culture = breton
 		religion = catholic
-		size = 32994
+		size = 32594
 	}
 }
 424 = {
@@ -1931,7 +1936,12 @@
 	farmers = {
 		culture = french
 		religion = protestant
-		size = 20668
+		size = 20000
+	}
+	craftsmen = {
+		culture = french
+		religion = protestant
+		size = 668
 	}
 	clergymen = {
 		culture = ashkenazi
@@ -2059,7 +2069,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 17854
+		size = 17654
+	}
+	craftsmen = {
+		culture = french
+		religion = catholic
+		size = 200
 	}
 	farmers = {
 		culture = french
@@ -2473,7 +2488,7 @@
 	artisans = {
 		culture = french
 		religion = catholic
-		size = 17768
+		size = 17568
 	}
 	soldiers = {
 		culture = french
@@ -2484,6 +2499,11 @@
 		culture = french
 		religion = catholic
 		size = 34928
+	}
+	craftsmen = {
+		culture = french
+		religion = catholic
+		size = 200
 	}
 }
 468 = {

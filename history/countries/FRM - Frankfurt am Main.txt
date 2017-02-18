@@ -3,7 +3,7 @@ primary_culture = north_german
 culture = south_german
 religion = secularism
 government = absolute_monarchy
-plurality = 0.0
+plurality = 40
 nationalvalue = nv_order
 literacy = 0.8
 prestige = 1
@@ -42,7 +42,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = low_health_care
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = secularism unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
@@ -69,7 +69,7 @@ military_staff_system = 1
 #Inventions
 
 # Starting Consciousness
-consciousness = 0
-nonstate_consciousness = 0
+consciousness = 5
+nonstate_consciousness = 10
 
 oob = "FRM_oob.txt"

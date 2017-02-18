@@ -4,7 +4,7 @@ religion = secularism
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.02
+literacy = 0.05
 non_state_culture_literacy = 0.01
 
 # Political reforms
@@ -22,7 +22,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = coptic unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 

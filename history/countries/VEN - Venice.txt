@@ -2,11 +2,16 @@ capital = 729
 primary_culture = north_italian
 religion = secularism
 government = democracy
-plurality = 0.1
+plurality = 30
 nationalvalue = nv_liberty
 literacy = 0.6
 civilized = yes
 prestige = 40
+
+#Starting Consciousness
+consciousness = 10
+nonstate_consciousness = 1
+
 
 	land_reform = yes_land_reform
 	admin_reform = yes_admin_reform
@@ -51,7 +56,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = low_safety
 health_care = low_health_care
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = secularism unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 arts_endowment = small_endowment

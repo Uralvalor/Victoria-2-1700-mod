@@ -20,7 +20,7 @@ press_rights = state_press
 trade_unions = non_socialist
 voting_system = first_past_the_post
 political_parties = underground_parties
-religious_rights = no_state_religion 
+religious_rights = secularism 
 
 # Social Reforms
 school_reforms = no_schools
@@ -28,7 +28,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = secularism unemployment_subsidies = no_subsidies
 pensions = no_pensions
 minorities = tolerance 
 

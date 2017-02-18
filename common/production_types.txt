@@ -5,7 +5,7 @@ factory_template = {
 	efficiency = {
 		cement = 0.05 #if no cement, work at 75% efficiency #cost = 16.0
 		machine_parts = 0.005 # was 0.01 cost = 36.5		# 9.825/day/level for both
-	    transportation = 10
+	    transportation = 2
 	}
 	
 	owner =
@@ -36,7 +36,7 @@ factory_template = {
 cheap_factory_template = {
 	efficiency = {
 		cement = 0.025 #if no cement, work at 75% efficiency #cost = £4/level
-	    transportation = 10
+	    transportation = 2
 		
 	}
 	
@@ -68,7 +68,7 @@ cheap_factory_template = {
 machine_part_user_template = {
 	efficiency = {
 		cement = 0.05 #if no cement, work at 75% efficiency #cost = 16.0
-	    transportation = 10
+	    transportation = 2
 	}
 	
 	owner =
@@ -100,7 +100,7 @@ cement_template = {
 	efficiency = {
 		iron = .23 #if no cement, work at 75% efficiency #cost = 16.0
 		machine_parts = 0.005 # was 0.01 cost = 36.5 		#9.825/day/level for both
-	    transportation = 10
+	    transportation = 2
 	}
 	
 	owner =
@@ -1470,7 +1470,7 @@ artisan_artillery = {
 	    #transportation = 1.8
 	}
 	output_goods = artillery 
-	value = .13			#78
+	value = .4			#78
 
 	owner = {
 		poptype = artisan 

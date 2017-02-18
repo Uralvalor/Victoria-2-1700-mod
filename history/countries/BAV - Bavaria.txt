@@ -2,7 +2,7 @@ capital = 599
 primary_culture = south_german
 religion = secularism
 government = absolute_monarchy
-plurality = 0.0
+plurality = 20
 nationalvalue = nv_order
 literacy = 0.31
 prestige = 3
@@ -40,7 +40,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = low_health_care 
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = secularism unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
@@ -70,7 +70,7 @@ military_staff_system = 1
 schools = industrial_tech_school
 
 # Starting Consciousness
-consciousness = 0
+consciousness = 7
 nonstate_consciousness = 0
 
 oob = "BAV_oob.txt"
@@ -105,7 +105,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = secularism unemployment_subsidies = no_subsidies
 pensions = no_pensions
 pollution = no_controls
 child_labor = child_labor_legal

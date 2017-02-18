@@ -346,7 +346,12 @@
 	labourers = {
 		culture = welsh
 		religion = catholic
-		size = 35644
+		size = 35444
+	}
+	craftsmen = {
+		culture = welsh
+		religion = catholic
+		size = 200
 	}
 }
 274 = {

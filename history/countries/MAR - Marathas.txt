@@ -2,7 +2,7 @@ capital = 1299
 primary_culture = marathi
 religion = secularism
 government = absolute_monarchy
-plurality = 0.0
+plurality = 10
 nationalvalue = nv_order
 literacy = 0.03
 
@@ -22,7 +22,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = secularism unemployment_subsidies = no_subsidies
 pensions = no_pensions
 
 ruling_party = MAR_reactionary
@@ -37,7 +37,7 @@ upper_house = {
 }
 
 # Starting Consciousness
-consciousness = 0
+consciousness = 10
 nonstate_consciousness = 0
 
 oob = "MAR_oob.txt"

@@ -8,7 +8,7 @@ tank = {
 	floating_flag = yes
 	
 	#Core Abilities
-	priority = 50
+	priority = 20
 	max_strength = 3
 	default_organisation = 40
 	maximum_speed = 4.00

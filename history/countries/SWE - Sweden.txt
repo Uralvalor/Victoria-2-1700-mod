@@ -2,13 +2,13 @@ capital = 322
 primary_culture = swedish
 religion = secularism
 government = absolute_monarchy
-plurality = 0.0
+plurality = 10
 nationalvalue = nv_order
 literacy = 0.5 #в середине века 50%
 non_state_culture_literacy = 0.25
 prestige = 60
-consciousness = 4
-nonstate_consciousness = 8
+consciousness = 10
+nonstate_consciousness = 1
 civilized = yes
 
 
@@ -31,7 +31,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = secularism unemployment_subsidies = no_subsidies
 pensions = no_pensions
 education = church 
 
@@ -110,7 +110,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = secularism unemployment_subsidies = no_subsidies
 pensions = no_pensions
 pollution = no_controls
 child_labor = child_labor_legal
@@ -226,7 +226,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = secularism unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = low_schools	
 	
@@ -334,7 +334,7 @@ wage_reform = no_minimum_wage
 work_hours = ten_hours
 safety_regulations = no_safety
 health_care = low_health_care
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = secularism unemployment_subsidies = no_subsidies
 pensions = acceptable_pensions
 
 basic_chemistry = 1
@@ -481,7 +481,7 @@ wage_reform = trinket_wage
 work_hours = ten_hours
 safety_regulations = trinket_safety
 health_care = good_health_care
-gov_religion = no_state_religion unemployment_subsidies = trinket_subsidies
+gov_religion = secularism unemployment_subsidies = trinket_subsidies
 pensions = acceptable_pensions
 education = public
 arts_endowment = small_endowment

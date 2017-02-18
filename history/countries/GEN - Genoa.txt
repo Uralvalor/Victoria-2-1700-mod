@@ -2,7 +2,7 @@ capital = 724
 primary_culture = north_italian
 religion = secularism
 government = democracy
-plurality = 0.0
+plurality = 10
 nationalvalue = nv_order
 literacy = 0.45
 prestige = 15
@@ -36,7 +36,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = low_health_care
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = secularism unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
@@ -63,7 +63,7 @@ military_staff_system = 1
 #Inventions
 
 # Starting Consciousness
-consciousness = 3
+consciousness = 7
 nonstate_consciousness = 1
 
 oob = "GNO_oob.txt"

@@ -3,13 +3,13 @@ primary_culture = south_italian
 culture = north_italian
 religion = catholic
 government = theocracy_government
-plurality = 0.0
+plurality = 40
 nationalvalue = nv_order
 literacy = 0.35
 prestige = 40
 civilized = yes
 
-consciousness = 7
+consciousness = 10
 
 set_country_flag = serfdom_not_abolished
 
@@ -66,8 +66,5 @@ military_staff_system = 1
  
 #Inventions
 
-# Starting Consciousness
-consciousness = 3
-nonstate_consciousness = 1
 
 oob = "PAP_oob.txt"

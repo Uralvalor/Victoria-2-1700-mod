@@ -4,5 +4,10 @@ add_core = FRA
 trade_goods = grain
 life_rating = 35
 terrain = good_farmland
+state_building = {
+	level = 1
+	building = paper_mill
+	upgrade = yes
+}
 1861.1.1 = { railroad = 2 }
 1914.1.1 = { railroad = 4 fort = 2 }

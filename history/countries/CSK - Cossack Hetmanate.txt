@@ -8,6 +8,11 @@ nationalvalue = nv_order
 literacy = 0.15
 non_state_culture_literacy = 0.05
 
+# Starting Consciousness
+consciousness = 8
+nonstate_consciousness = 1
+
+
 
 foreign_naval_officers = yes_foreign_naval_officers 
 military_constructions = yes_military_constructions

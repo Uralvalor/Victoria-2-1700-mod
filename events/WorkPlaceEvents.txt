@@ -164,7 +164,7 @@ province_event = {
 	trigger = {
 		produces = ammunition
 		owner = {
-			ammunition = 50
+			ammunition = 5
 		}
 		NOT = {
 			owner = {
@@ -202,7 +202,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA12030"
 		owner = {
-			ammunition = -50
+			ammunition = -5
 		}
 	}
 	
@@ -249,7 +249,7 @@ province_event = {
 			consciousness = 0.5
 		}
 		owner = {
-			fertilizer = 10
+			fertilizer = 1
 		}
 	}
 	
@@ -272,7 +272,7 @@ province_event = {
 		produces = tea
 		has_pop_type = bureaucrats
 		owner = {
-			tea = 40
+			tea = 4
 		}
 	}
 		
@@ -311,7 +311,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA12050"
 		owner = {
-			tea = -40
+			tea = -4
 		}
 	}
 	
@@ -366,7 +366,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA12060"
 		owner = {
-			canned_food = 15
+			canned_food = 2
 		}	
 	}
 
@@ -387,7 +387,7 @@ province_event = {
 	trigger = {
 		produces = canned_food
 		owner = {
-			canned_food = 15
+			canned_food = 2
 		}
 	}
 	
@@ -410,7 +410,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA12070"
 		owner = {
-			canned_food = 15
+			canned_food = 2
 		}
 	}
 	option = {
@@ -430,7 +430,7 @@ province_event = {
 	trigger = {
 		produces = cattle
 		owner = {
-			cattle = 15
+			cattle = 2
 		}
 	}
 	mean_time_to_happen = {
@@ -438,7 +438,7 @@ province_event = {
 		modifier = {
 			factor = 0.7
 			owner = {
-				cattle = 500
+				cattle = 50
 			}
 		}
 		modifier = {
@@ -456,7 +456,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA12080"
 		owner = {
-			cattle = -15
+			cattle = -2
 		}
 	}
 	
@@ -477,8 +477,8 @@ province_event = {
 	trigger = {
 		produces = silk
 		owner = {
-			silk = 10
-			canned_food = 20
+			silk = 1
+			canned_food = 2
 		}
 	}
 	
@@ -515,8 +515,8 @@ province_event = {
 	
 	option = {
 		name = "EVTOPTB12090"
-		silk = -10
-		canned_food = -20
+		silk = -1
+		canned_food = -2
 		treasury = -150
 	}
 }
@@ -629,7 +629,7 @@ province_event = {
 		name = "EVTOPTB12110"
 		owner = {
 			prestige = 2
-			cotton = -10
+			cotton = -1
 			random_country = {
 				limit = {
 					civilized = yes
@@ -637,7 +637,7 @@ province_event = {
 						tag = THIS
 					}
 				}
-				cotton = 10
+				cotton = 1
 				relation = {
 					who = THIS
 					value = 15
@@ -778,7 +778,7 @@ province_event = {
 			militancy = -0.5
 		}
 		owner = {
-			clipper_convoy = 5
+			clipper_convoy = 1
 		}
 	}
 	
@@ -800,7 +800,7 @@ province_event = {
 	trigger = {
 		produces = steamer_convoy
 		owner = {
-			steamer_convoy = 2
+			steamer_convoy = 1
 		}
 	}
 	
@@ -827,7 +827,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA12150"
 		owner = {
-			steamer_convoy = -2
+			steamer_convoy = -1
 		}
 	}
 	option = {
@@ -875,7 +875,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA12160"
 		owner = {
-			cement = 30
+			cement = 3
 		}
 		labourers = {
 			militancy = -1
@@ -885,7 +885,7 @@ province_event = {
 	option = {
 		name = "EVTOPTB12160"
 		owner = {
-			cement = 30
+			cement = 3
 		}
 		capitalists = {
 			money = 400
@@ -902,7 +902,7 @@ province_event = {
 	trigger = {
 		produces = dye
 		owner = {
-			dye = 15
+			dye = 2
 		}
 	}
 	
@@ -932,7 +932,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA12170"
 		owner = {
-			dye = -15
+			dye = -2
 		}
 		poor_strata = {
 			militancy = -0.5
@@ -942,7 +942,7 @@ province_event = {
 	option = {
 		name = "EVTOPTB12170"
 		owner = {
-			dye = 15
+			dye = 2
 		}
 		rich_strata = {
 			militancy = -0.5
@@ -959,7 +959,7 @@ province_event = {
 	trigger = {
 		produces = fuel
 		owner = {
-			fuel = 50
+			fuel = 5
 		}
 	}
 	mean_time_to_happen = {
@@ -987,7 +987,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA12180"
 		owner = {
-			fuel = -15
+			fuel = -2
 		}
 		any_pop = {
 			militancy = 1
@@ -997,7 +997,7 @@ province_event = {
 	option = {
 		name = "EVTOPTB12180"
 		owner = {
-			fuel = -50
+			fuel = -5
 		}
 	}
 }
@@ -1039,7 +1039,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA12190"
 		owner = {
-			fuel = 20
+			fuel = 2
 		}
 	}
 	
@@ -1061,7 +1061,7 @@ province_event = {
 		produces = iron
 		has_pop_type = capitalists
 		owner = {
-			iron = 15
+			iron = 2
 		}
 	}
 	
@@ -1090,7 +1090,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA12200"
 		owner = {
-			iron = 15
+			iron = 2
 		}
 		labourers = {
 			militancy = 2
@@ -1100,7 +1100,7 @@ province_event = {
 	option = {
 		name = "EVTOPTB12200"
 		owner = {
-			iron = -15
+			iron = -2
 		}
 		capitalists = {
 			militancy = 4
@@ -1140,7 +1140,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA12210"
 		owner = {
-			fish = 50
+			fish = 5
 		}
 	}
 	option = {
@@ -1168,7 +1168,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA12220"
 		owner = {
-			tea = 20
+			tea = 2
 		}
 	}
 		
@@ -1196,7 +1196,7 @@ province_event = {
 	
 	trigger = {
 		owner = {
-			radio = 5
+			radio = 1
 			war = yes
 		}
 		state_scope = {
@@ -1247,7 +1247,7 @@ province_event = {
 			}
 		}
 		owner = {
-			radio = -5
+			radio = -1
 		}
 	}
 }
@@ -1290,8 +1290,8 @@ province_event = {
 	option = {
 		name = "EVTOPTA12240"
 		owner = {
-			wine = 15
-			liquor = 5
+			wine = 2
+			liquor = 1
 		}
 		middle_strata = {
 			militancy = 3
@@ -1375,7 +1375,7 @@ province_event = {
 		produces = luxury_furniture
 		has_pop_type = bureaucrats
 		owner = {
-			luxury_furniture = 10
+			luxury_furniture = 1
 		}
 	}
 	mean_time_to_happen = {
@@ -1398,8 +1398,8 @@ province_event = {
 	option = {
 		name = "EVTOPTA12260"
 		owner = {
-			luxury_furniture = -10
-			furniture = 10
+			luxury_furniture = -1
+			furniture = 1
 			prestige = 2
 		}
 		bureaucrats = {
@@ -1434,7 +1434,7 @@ province_event = {
 		produces = luxury_clothes
 		has_pop_type = capitalists
 		owner = {
-			luxury_clothes = 30
+			luxury_clothes = 3
 		}
 	}
 	
@@ -1445,8 +1445,8 @@ province_event = {
 	option = {
 		name = "EVTOPTA12270"
 		owner = {
-			luxury_clothes = -30
-			regular_clothes = 30
+			luxury_clothes = -3
+			regular_clothes = 3
 		}
 	}
 	
@@ -1477,7 +1477,7 @@ province_event = {
 	trigger = {
 		produces = regular_clothes
 		owner = {
-			regular_clothes = 30
+			regular_clothes = 3
 		}
 	}
 	
@@ -1502,7 +1502,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA12280"
 		owner = {
-			regular_clothes = -30
+			regular_clothes = -3
 		}
 	}
 	

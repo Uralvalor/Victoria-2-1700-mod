@@ -2,11 +2,15 @@ capital = 619
 primary_culture = south_german
 religion = secularism
 government = absolute_monarchy
-plurality = 0.0
+plurality = 15
 nationalvalue = nv_order
 literacy = 0.40
 non_state_culture_literacy = 0.30
 civilized = yes
+
+#Starting Consciousness
+consciousness = 5
+nonstate_consciousness = 1
 
 
 set_country_flag = holy_roman_emperor
@@ -31,7 +35,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = secularism unemployment_subsidies = no_subsidies
 school_reforms = no_schools
 pensions = no_pensions
 
@@ -87,7 +91,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
-gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+gov_religion = secularism unemployment_subsidies = no_subsidies
 pensions = no_pensions
 pollution = no_controls
 child_labor = child_labor_legal
@@ -286,7 +290,7 @@ materialism = 1
 	work_hours = fourteen_hours
 	safety_regulations = low_safety
 	health_care = low_health_care
-	gov_religion = no_state_religion unemployment_subsidies = no_subsidies
+	gov_religion = secularism unemployment_subsidies = no_subsidies
 	pensions = no_pensions
 	pollution = no_controls
 	child_labor = child_labor_legal

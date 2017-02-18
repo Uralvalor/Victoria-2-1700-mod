@@ -481,8 +481,6 @@ political_reforms = {
 		}
 		animist = {  
 		}
-     	no_state_religion = { 
-		}
 		secularism = {
 		}
 	}
@@ -998,7 +996,7 @@ economic_reforms = {
 			technology_cost = 6280
 			tax_efficiency = 0.1
 			civilization_progress_modifier = 0.036
-			max_loan_modifier = -1.0 # no loan 4 u
+			max_loan_modifier = -0.9 # -90%
 			
 			on_execute = {
 				activate_technology = no_standard 
@@ -1024,7 +1022,7 @@ economic_reforms = {
 			technology_cost = 9000
 			civilization_progress_modifier = 0.072
 			
-			max_loan_modifier = -0.2 # 80% loans
+			max_loan_modifier = -0.5 # 50% loans
 			
 			on_execute = {
 				activate_technology = bimetallism 

@@ -1069,7 +1069,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "A tragedy!"
+		name = "Трагедия!"
 			remove_country_modifier = expert_diplomat
 			remove_country_modifier = successful_industrialist
 			remove_country_modifier = ivory_tower_intellectual
@@ -2114,7 +2114,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "A tragedy!"
+		name = "Трагедия!"
 			remove_country_modifier = expert_diplomat
 			remove_country_modifier = successful_industrialist
 			remove_country_modifier = ivory_tower_intellectual
