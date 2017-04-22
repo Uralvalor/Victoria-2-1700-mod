@@ -139,7 +139,7 @@
 	farmers = {
 		culture = sara
 		religion = animist
-		size = 12669
+		size = 6669
 	}
 	slaves = {
 		culture = sara
@@ -150,6 +150,13 @@
 		culture = african_minor
 		religion = animist
 		size = 3974
+	}
+}
+3271= {
+	farmers = {
+		culture = sara
+		religion = animist
+		size = 6000
 	}
 }
 1820 = {

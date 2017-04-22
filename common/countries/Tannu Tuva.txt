@@ -3,7 +3,7 @@ graphical_culture = Generic
 
 party = {
 	name = "MGL_reactionary"
-	start_date = 1789.1.1
+	start_date = 1689.1.1
 	end_date = 3000.1.1
 	
 	economic_policy = state_capitalism
@@ -15,7 +15,7 @@ party = {
 
 party = {
 	name = "MGL_liberal"
-	start_date = 1789.1.1
+	start_date = 1689.1.1
 	end_date = 3000.1.1
 
 	ideology = liberal
@@ -29,7 +29,7 @@ party = {
 
 party = {
 	name = "MGL_conservative"
-	start_date = 1789.1.1
+	start_date = 1689.1.1
 	end_date = 3000.1.1
 
 	ideology = conservative
@@ -43,7 +43,7 @@ party = {
 
 party = {
 	name = "MGL_anarcho_liberal"
-	start_date = 1789.1.1
+	start_date = 1689.1.1
 	end_date = 3000.1.1
 
 	ideology = anarcho_liberal

@@ -5,7 +5,7 @@ sentimentalism = {
 	cost = 2200
 
 	prestige = 0.05
-	set_country_flag = sentimentalism_invented
+	set_country_flag = sentimentalism 
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -50,7 +50,7 @@ romanticism = {
 	cost = 7200
 	
 	prestige = 0.05
-	set_country_flag = romanticism_invented
+	set_country_flag = romanticism 
 
 
 	ai_chance = {
@@ -194,7 +194,7 @@ mass_culture = {
 	cost = 25000
 
 	prestige = 0.05
-	set_country_flag = mass_culture_invented
+	set_country_flag = mass_culture 
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -557,7 +557,7 @@ social_science = {
 
 	colonial_migration = 0.05
 	education_efficiency = 0.1
-	set_country_flag = social_science_invented
+	set_country_flag = social_science 
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -601,7 +601,7 @@ consumerism = {
 	cost = 25000
 	
 	education_efficiency = 0.1
-	set_country_flag = consumerism_invented
+	set_country_flag = consumerism 
 	ai_chance = {
 		factor = 1.01
 		modifier = {

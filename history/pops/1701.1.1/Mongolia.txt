@@ -32,7 +32,12 @@
 	farmers = {
 		culture = mongol
 		religion = gelugpa
-		size = 57569
+		size = 46569
+	}
+	farmers = {
+		culture = buryat
+		religion = mahayana
+		size = 11000
 	}
 	bureaucrats = {
 		culture = tatar
@@ -111,7 +116,7 @@
 	farmers = {
 		culture = mongol
 		religion = gelugpa
-		size = 25440
+		size = 24440
 	}
 	aristocrats = {
 		culture = yakut

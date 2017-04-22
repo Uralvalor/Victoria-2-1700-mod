@@ -2,7 +2,7 @@ color = { 98  184  204 }
 graphical_culture = MiddleEasternGC
 
 party = {
-	name = "MJU_conservative"
+	name = "GJU_conservative"
 	start_date = 1700.1.1
 	end_date = 2000.1.1
 
@@ -16,7 +16,7 @@ party = {
 }
 
 party = {
-	name = "MJU_liberal"
+	name = "GJU_liberal"
 	start_date = 1700.1.1
 	end_date = 2000.1.1
 
@@ -30,7 +30,7 @@ party = {
 }
 
 party = {
-	name = "MJU_reactionary"
+	name = "GJU_reactionary"
 	start_date = 1700.1.1
 	end_date = 2000.1.1
 
@@ -44,7 +44,7 @@ party = {
 }
 
 party = {
-	name = "MJU_anarcho_liberal"
+	name = "GJU_anarcho_liberal"
 	start_date = 1700.1.1
 	end_date = 2000.1.1
 
@@ -58,7 +58,7 @@ party = {
 }
 
 party = {
-	name = "MJU_socialist"
+	name = "GJU_socialist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -72,7 +72,7 @@ party = {
 }
 
 party = {
-	name = "MJU_communist"
+	name = "GJU_communist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -86,7 +86,7 @@ party = {
 }
 
 party = {
-	name = "MJU_fascist"
+	name = "GJU_fascist"
 	start_date = 1905.1.1
 	end_date = 2000.1.1
 

@@ -1,7 +1,8 @@
 owner = MCK
 controller = MCK
 add_core = MCK
-add_core = SIB
+
+add_core = PRI
 trade_goods = coal
 life_rating = 30
 terrain = conifer_forest_mountains

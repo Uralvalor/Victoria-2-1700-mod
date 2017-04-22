@@ -158,28 +158,33 @@
 	}
 	bureaucrats = {
 		culture = latvian
-		religion = orthodox
+		religion = catholic
 		size = 556
 	}
 	clergymen = {
 		culture = latvian
-		religion = orthodox
+		religion = catholic
 		size = 106
 	}
 	artisans = {
 		culture = latvian
-		religion = orthodox
+		religion = catholic
 		size = 265
 	}
 	soldiers = {
 		culture = latvian
-		religion = orthodox
+		religion = catholic
 		size = 106
 	}
 	farmers = {
 		culture = latvian
+		religion = catholic
+		size = 3000
+	}
+	farmers = {
+		culture = latvian
 		religion = orthodox
-		size = 6709
+		size = 3709
 	}
 	bureaucrats = {
 		culture = polish
@@ -270,27 +275,27 @@
 	}
 	bureaucrats = {
 		culture = latvian
-		religion = orthodox
+		religion = catholic
 		size = 10
 	}
 	clergymen = {
 		culture = latvian
-		religion = orthodox
+		religion = catholic
 		size = 5
 	}
 	artisans = {
 		culture = latvian
-		religion = orthodox
+		religion = catholic
 		size = 2
 	}
 	soldiers = {
 		culture = latvian
-		religion = orthodox
+		religion = catholic
 		size = 10
 	}
 	farmers = {
 		culture = latvian
-		religion = orthodox
+		religion = catholic
 		size = 765
 	}
 }

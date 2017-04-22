@@ -2,9 +2,15 @@ owner = RUS
 controller = RUS
 add_core = RUS
 add_core = URA
-trade_goods = coal
+add_core = SIB
+trade_goods = iron
 life_rating = 30
 terrain = conifer_forest_hills
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
 1923.1.1 = {
 	owner = SOV
 	controller = SOV

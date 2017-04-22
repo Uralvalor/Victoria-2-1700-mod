@@ -278,7 +278,7 @@ ad_hoc_money_bill_printing = {
 	cost = 7200
 	
 	administrative_efficiency = 0.05
-	set_country_flag = ad_hoc_money_bill_printing_invented
+	set_country_flag = ad_hoc_money_bill_printing 
 	factory_goods_output = {
 			credit = 0.01 
 		}
@@ -313,7 +313,7 @@ private_bank_money_bill_printing = {
 
 	administrative_efficiency = 0.05
 	activate_building = paper_money_building
-	set_country_flag = private_bank_money_bill_printing_invented
+	set_country_flag = private_bank_money_bill_printing 
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -336,7 +336,7 @@ central_bank_money_bill_printing = {
 	cost = 14400
 
 	administrative_efficiency = 0.05
-	set_country_flag = central_bank_money_bill_printing_invented
+	set_country_flag = central_bank_money_bill_printing 
 	factory_goods_output = {
 			credit = 0.01 
 		}
@@ -423,7 +423,7 @@ bretton_woods_system = {
 
 	administrative_efficiency = 0.05
 	activate_building = credit_money_building
-	set_country_flag = bretton_woods_system_invented
+	set_country_flag = bretton_woods_system 
 	ai_chance = {
 		factor = 1.1
 		modifier = {

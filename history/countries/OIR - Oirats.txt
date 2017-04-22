@@ -8,6 +8,7 @@ literacy = 0.04
 non_state_culture_literacy = 0.02
 prestige = 10
 
+disciplinary_reform = rehabilitation
 ruling_party = OIR_reactionary
 upper_house = {
 	fascist = 0
@@ -37,7 +38,7 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = low_health_care 
-gov_religion = secularism unemployment_subsidies = no_subsidies
+gov_religion = gelugpa unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 

@@ -453,35 +453,48 @@ political_reforms = {
 
 	gov_religion = {	
 		orthodox = { 
-          
+			allow = { religious_policy = moralism }
 		}
 		catholic = { 
-          
+			allow = { religious_policy = moralism }
 		}
 		protestant = {  
+			allow = { religious_policy = moralism }
 		}
 		coptic = {  
+			allow = { religious_policy = moralism }
 		}
 		sunni = {  
+			allow = { religious_policy = moralism }
 		}
 		shiite = {  
+			allow = { religious_policy = moralism }
 		}
 		jewish = {  
+			allow = { religious_policy = moralism }
 		}
-		mahayana = {   }
+		mahayana = { 
+			allow = { religious_policy = moralism }  }
 		gelugpa = {  
+			allow = { religious_policy = moralism }
 		}
 		theravada = {  
+			allow = { religious_policy = moralism }
 		}
 		hindu = {  
+			allow = { religious_policy = moralism }
 		}
 		shinto = {  
+			allow = { religious_policy = moralism }
 		}
 		sikh = {  
+			allow = { religious_policy = moralism }
 		}
 		animist = {  
+			allow = { religious_policy = moralism }
 		}
-		secularism = {
+		secularism = { 
+			allow = { religious_policy = secularized }
 		}
 	}
 }
@@ -649,13 +662,13 @@ social_reforms = {
 			global_population_growth = 0.006
 			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
-			allow = { has_country_flag = medicine_invented }
+			allow = { has_country_flag = medicine  }
 		}
 		good_health_care = {
 			global_population_growth = 0.008
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
-			allow = { has_country_flag = organic_chemistry_invented }
+			allow = { has_country_flag = organic_chemistry  }
 		}
 	}
 
@@ -674,21 +687,21 @@ social_reforms = {
 			administrative_multiplier = 2
 			global_immigrant_attract = 0.02
 			global_population_growth = 0.0005
-			allow = { has_country_flag = electricity_invented }
+			allow = { has_country_flag = electricity  }
 		}
 		acceptable_envir = {
 			factory_maintenance = 0.3
 			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
 			global_population_growth = 0.001
-			allow = { has_country_flag = synthetic_polymers_invented }
+			allow = { has_country_flag = synthetic_polymers  }
 		}
 		good_envir = {
 			factory_maintenance = 0.4
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
 			global_population_growth = 0.0015
-			allow = { has_country_flag = consumerism_invented }
+			allow = { has_country_flag = consumerism  }
 		}
 	}
 	
@@ -720,7 +733,7 @@ social_reforms = {
 		public = {
 			education_efficiency_modifier = 0.2
 			global_immigrant_attract = 0.02
-			allow = { has_country_flag = social_science_invented }
+			allow = { has_country_flag = social_science  }
 	
 		}
 	}
@@ -738,19 +751,19 @@ social_reforms = {
 			administrative_multiplier = 2
 			global_assimilation_rate = 0.01
 			prestige = 0.02
-			allow = { has_country_flag = sentimentalism_invented }
+			allow = { has_country_flag = sentimentalism  }
 		}
 		large_endowment = {
 			administrative_multiplier = 3
 			global_assimilation_rate = 0.03
 			prestige = 0.03
-			allow = { has_country_flag = romanticism_invented }
+			allow = { has_country_flag = romanticism  }
 		}
 		massive_endowment = {
 			administrative_multiplier = 4
 			global_assimilation_rate = 0.05
 			prestige = 0.05
-			allow = { has_country_flag = mass_culture_invented }
+			allow = { has_country_flag = mass_culture  }
 		}
 	}	
 	finance_regulation = {
@@ -768,7 +781,7 @@ social_reforms = {
 		 factory_input = 0.05
 		 factory_owner_cost = 0.05
 		 factory_throughput = -0.05
-			allow = { has_country_flag = ad_hoc_money_bill_printing_invented }
+			allow = { has_country_flag = ad_hoc_money_bill_printing  }
 		}
 		medium_interest = {
 		 loan_interest = 0.0017
@@ -776,14 +789,14 @@ social_reforms = {
 		 factory_input = 0.03
 		 factory_owner_cost = 0.03
 		 factory_throughput = -0.03
-			allow = { has_country_flag = private_bank_money_bill_printing_invented }
+			allow = { has_country_flag = private_bank_money_bill_printing  }
 		}
 		low_interest = {
 		 tax_efficiency = 0.02
 		 factory_input = 0.01
 		 factory_owner_cost = 0.01
 		 factory_throughput = -0.01
-			allow = { has_country_flag = central_bank_money_bill_printing_invented }
+			allow = { has_country_flag = central_bank_money_bill_printing  }
 		}
 		no_interest = {
 		 loan_interest = -0.002
@@ -791,7 +804,7 @@ social_reforms = {
 		 factory_input = -0.02
 		 factory_owner_cost = -0.02
 		 factory_throughput = 0.02
-			allow = { has_country_flag = bretton_woods_system_invented }
+			allow = { has_country_flag = bretton_woods_system  }
 		}
 	}
 }

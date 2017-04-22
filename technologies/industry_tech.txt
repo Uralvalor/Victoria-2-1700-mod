@@ -1379,7 +1379,7 @@ medicine = {
 	cost = 7200
 
 	supply_limit = 0.25
-	set_country_flag = medicine_invented
+	set_country_flag = medicine 
 
 	ai_chance = {
 		factor = 1.5
@@ -1407,7 +1407,6 @@ inorganic_chemistry = {
 	cost = 10800
 
 	supply_limit = 0.25
-	set_country_flag = organic_chemistry_invented
 	
 	ai_chance = {
 		factor = 1.1
@@ -1443,7 +1442,7 @@ organic_chemistry = {
 	cost = 14400
 
 	supply_limit = 0.25
-	set_country_flag = organic_chemistry_invented
+	set_country_flag = organic_chemistry 
 	
 	ai_chance = {
 		factor = 1.1
@@ -1479,7 +1478,7 @@ electricity = {
 	cost = 18000
 	
 	supply_limit = 0.50
-	set_country_flag = electricity_invented
+	set_country_flag = electricity 
 	ai_chance = {
 		factor = 2
 		modifier = {
@@ -1515,7 +1514,7 @@ synthetic_polymers = {
 	cost = 21600
 
 	supply_limit = 0.50
-	set_country_flag = synthetic_polymers_invented
+	set_country_flag = synthetic_polymers 
 	ai_chance = {
 		factor = 1.1
 		modifier = {

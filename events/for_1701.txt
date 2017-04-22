@@ -612,7 +612,7 @@ country_event = {
 	option = {
 		name = "Война !"
 		war = {
-			target = LOU
+			target = QUE
 			attacker_goal = {
 				casus_belli = establish_protectorate_casus_belli
 			}
