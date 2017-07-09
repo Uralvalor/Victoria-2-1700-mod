@@ -618,8 +618,8 @@
 
     text_scale = 4
     unit = {
-        x = 889
-        y = 1888
+        x = 895.433333
+        y = 1844.800000
     }
 
     city = {
@@ -11663,15 +11663,23 @@
 }
 
 359 = {
-    text_scale = 2
     text_position = {
         x = 3142
         y = 1900
     }
 
+    text_scale = 2
     unit = {
         x = 3142
         y = 1900
+    }
+
+    building_position = {
+        naval_base = {
+            x = 3138.850000
+            y = 1905.200000
+        }
+
     }
 
 }
@@ -80513,7 +80521,19 @@
 2720 = {} # 18;200;250;Skagerrack
 2721 = {} # 19;220;250;Helgoland Bight
 2722 = {} # 20;250;250;Coast of Holland
-2723 = {} # 21;200;200;Dogger Bank
+2723 = {
+    text_position = {
+        x = 2847.150000
+        y = 1822.641667
+    }
+
+    unit = {
+        x = 2849.366667
+        y = 1818.841667
+    }
+
+} # 21;200;200;Dogger Bank
+
 2724 = {} # 22;200;250;Straits of Dover
 2725 = {} # 23;220;250;The Channel
 2726 = {} # 24;250;250;Lands End
@@ -80866,7 +80886,19 @@
 2865 = {} # 35;221;251;Capricorn Bay
 2866 = {} # 36;251;251;Cape Howe
 2867 = {} # 37;201;201;Bass Strait
-2868 = {} # 38;201;251;Kangaroo Island
+2868 = {
+    text_position = {
+        x = 4972.690000
+        y = 311.060000
+    }
+
+    unit = {
+        x = 4965.905000
+        y = 320.500000
+    }
+
+} # 38;201;251;Kangaroo Island
+
 2869 = {} # 39;221;251;Great Australian Bight
 2870 = {} # 40;251;251;Cape Leuwiin
 2871 = {} # 41;201;201;Shark Bay
@@ -81095,8 +81127,8 @@
     }
 
     unit = {
-        x = 2063.916667
-        y = 962.083333
+        x = 2058.083333
+        y = 959.583333
     }
 
 } # 24;252;252;Amazonas Gulf
@@ -83094,8 +83126,8 @@
 # Rivers
 3295 = {
     text_position = {
-        x = 3522.350000
-        y = 1792.996667
+        x = 3564.236667
+        y = 1841.063333
     }
 
     text_rotation = 1.013255

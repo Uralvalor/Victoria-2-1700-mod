@@ -115,6 +115,7 @@ party_issues = {
 	religious_policy = {
 		pro_atheism = {
 		    research_points_modifier = 0.1
+			global_population_growth = -0.001
 		}
 		secularized = {
 			administrative_efficiency_modifier = 0.1
@@ -123,10 +124,11 @@ party_issues = {
 			middle_luxury_needs = -0.05
 		}
 		pluralism = {
-			global_immigrant_attract = 0.02
+			global_immigrant_attract = 0.05
 		}
 		moralism = {
 			global_assimilation_rate = 0.05
+			global_population_growth = 0.001
 		}
 	}
 	citizenship_policy = {
@@ -629,18 +631,22 @@ social_reforms = {
 		trinket_pensions = {
 			pension_level	= 0.05
 			global_immigrant_attract = 0.01
+			global_population_growth = -0.001
 		}
 		low_pensions = {
 			pension_level	= 0.10
 			global_immigrant_attract = 0.02
+			global_population_growth = -0.002
 		}
 		acceptable_pensions = {
 			pension_level	= 0.15
 			global_immigrant_attract = 0.03
+			global_population_growth = -0.004
 		}
 		good_pensions = {
 			pension_level	= 0.20
 			global_immigrant_attract = 0.04
+			global_population_growth = -0.006
 		}
 	}	
 	health_care = {
@@ -649,23 +655,23 @@ social_reforms = {
 		no_health_care = {
 		}
 		trinket_health_care = {
-			global_population_growth = 0.002
+			global_population_growth = 0.001
 			administrative_multiplier = 1
 			global_immigrant_attract = 0.01
 		}
 		low_health_care = {
-			global_population_growth = 0.004
+			global_population_growth = 0.002
 			administrative_multiplier = 2
 			global_immigrant_attract = 0.02
 		}
 		acceptable_health_care = {
-			global_population_growth = 0.006
+			global_population_growth = 0.003
 			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
 			allow = { has_country_flag = medicine  }
 		}
 		good_health_care = {
-			global_population_growth = 0.008
+			global_population_growth = 0.004
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
 			allow = { has_country_flag = organic_chemistry  }

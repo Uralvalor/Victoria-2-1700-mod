@@ -84,6 +84,7 @@ family_values = {
 	population_growth = 0.001
 	icon = 8
 	trigger = {
+	NOT = { literacy = 0.65 }
 	}
 }
 
@@ -95,6 +96,7 @@ self_values = {
 	population_growth = -0.001
 	icon = 8
 	trigger = {
+	literacy = 0.65
 	}
 }
 

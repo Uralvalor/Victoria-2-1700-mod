@@ -550,7 +550,7 @@ country_event = {
 		any_pop = { militancy = -10 consciousness = 10 }
 	   }
 		
-		country_event = 1200003
+		country_event = 1200005
 	}
 	
 }
@@ -612,7 +612,7 @@ country_event = {
 	option = {
 		name = "Война !"
 		war = {
-			target = QUE
+			target = LOU
 			attacker_goal = {
 				casus_belli = establish_protectorate_casus_belli
 			}
@@ -689,7 +689,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 12
+		months = 60
 		modifier = {
 			factor = 0.5
             war = yes

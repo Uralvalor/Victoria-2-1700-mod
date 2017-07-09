@@ -162,7 +162,7 @@
 	bureaucrats = {
 		culture = kazak
 		religion = sunni
-		size = 329
+		size = 29
 	}
 	clergymen = {
 		culture = kazak
@@ -182,7 +182,7 @@
 	farmers = {
 		culture = kazak
 		religion = sunni
-		size = 3943
+		size = 3343
 	}
 	farmers = {
 		culture = kazak
@@ -201,6 +201,11 @@
 	}
 }
 1184 = {
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 900
+	}
 	farmers = {
 		culture = tatar
 		religion = sunni
