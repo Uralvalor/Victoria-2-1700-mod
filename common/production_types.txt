@@ -918,18 +918,26 @@ fertilizer_factory = {
 metal_money = {
 	template = money_user_template
 	input_goods = { 
-		precious_metal = 1.5		#3
+		precious_metal = 0.015		#3
 	    #transportation = 1.5
 	}
 	output_goods = credit 
-	value = 4		#3
-	bonus = {
-		trigger = { is_capital = no }
-		value = -100
-	}
+	value = 0.004		#3
 	bonus = {
 		trigger = { trade_goods_in_state = precious_metal }
 		value = 0.25
+	}
+	bonus = {
+		trigger = { economic_policy = interventionism }
+		value = -0.2
+	}
+	bonus = {
+		trigger = { economic_policy = state_capitalism }
+		value = -0.4
+	}
+	bonus = {
+		trigger = { economic_policy = planned_economy }
+		value = -0.6
 	}
 	bonus = {
 		trigger = { finance_regulation = massive_interest }
@@ -951,63 +959,79 @@ metal_money = {
 paper_money = {
 	template = money_user_template
 	input_goods = { 
-		paper = 10		#34
-		dye = 0.1		#1.2	
+		paper = 0.001		#34
+		dye = 0.0001		#1.2	
 	    #transportation = 10.1
 	}
 	output_goods = credit 
-	value = 39			#39
-	bonus = {
-		trigger = { is_capital = no }
-		value = -100
-	}
+	value = 0.005			#39
 	bonus = {
 		trigger = { trade_goods_in_state = paper }
 		value = 0.25
 	}
 	bonus = {
-		trigger = { finance_regulation = massive_interest }
+		trigger = { economic_policy = interventionism }
 		value = -0.2
 	}
 	bonus = {
+		trigger = { economic_policy = state_capitalism }
+		value = -0.4
+	}
+	bonus = {
+		trigger = { economic_policy = planned_economy }
+		value = -0.6
+	}
+	bonus = {
+		trigger = { finance_regulation = massive_interest }
+		value = -0.4
+	}
+	bonus = {
 		trigger = { finance_regulation = large_interest }
-		value = -0.1
+		value = -0.2
 	}
 	bonus = {
 		trigger = { finance_regulation = medium_interest }
-		value = -0.06
+		value = -0.12
 	}
 	bonus = {
 		trigger = { finance_regulation = low_interest }
-		value = -0.03
+		value = -0.06
 	}
 }
 credit_money = {
 	template = money_user_template
 	input_goods = { 
-		paper = 6		#20.4
+		paper = 0.006		#20.4
 	}
 	output_goods = credit 
-	value = 22			#22
-	bonus = {
-		trigger = { is_capital = no }
-		value = -100
-	}
+	value = 0.016			#22
 	bonus = {
 		trigger = { finance_regulation = massive_interest }
+		value = -0.8
+	}
+	bonus = {
+		trigger = { economic_policy = interventionism }
 		value = -0.2
 	}
 	bonus = {
+		trigger = { economic_policy = state_capitalism }
+		value = -0.4
+	}
+	bonus = {
+		trigger = { economic_policy = planned_economy }
+		value = -0.6
+	}
+	bonus = {
 		trigger = { finance_regulation = large_interest }
-		value = -0.1
+		value = -0.4
 	}
 	bonus = {
 		trigger = { finance_regulation = medium_interest }
-		value = -0.06
+		value = -0.24
 	}
 	bonus = {
 		trigger = { finance_regulation = low_interest }
-		value = -0.03
+		value = -0.12
 	}
 }
 
@@ -1564,10 +1588,10 @@ artisan_paper = {
 
 artisan_metall_money = {       
 	input_goods = { 
-		precious_metal = 1.5		#3
+		precious_metal = 0.015		#3
 	}
 	output_goods = credit 
-	value = 3.1			#3
+	value = 0.0004			#3
 	
 	owner = {
 		poptype = artisan 

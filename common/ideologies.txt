@@ -18,7 +18,7 @@ conservative_group = {
 	}
 	conservative = { # pragmatic social reformist
 		color = { 10 10 250 }
-		date = 1730.1.1
+		date = 1780.1.1
 		
 		can_reduce_militancy = yes
 		
@@ -90,7 +90,7 @@ conservative_group = {
 liberal_group = {
 	liberal = { # political reformist
 		color = { 255 255 0 }
-		date = 1725.1.1
+		date = 1775.1.1
 
 		add_political_reform = { base = 1 }
 		remove_political_reform = { base = 0 }

@@ -41,7 +41,6 @@ party_issues = {
 		}
 		interventionism = {
 			factory_owner_cost = 0.5
-		     
 			
 			rules = {
 				build_factory = no
@@ -89,7 +88,6 @@ party_issues = {
 		}
 		planned_economy = {
 			min_tax = 0.5
-			
 			factory_output = 0.05
 			factory_owner_cost = -1	#negative costs, can't build.
 			rules = {
@@ -128,7 +126,7 @@ party_issues = {
 		}
 		moralism = {
 			global_assimilation_rate = 0.05
-			global_population_growth = 0.001
+			global_population_growth = 0.0005
 		}
 	}
 	citizenship_policy = {
@@ -476,7 +474,8 @@ political_reforms = {
 			allow = { religious_policy = moralism }
 		}
 		mahayana = { 
-			allow = { religious_policy = moralism }  }
+			allow = { religious_policy = moralism }
+			}
 		gelugpa = {  
 			allow = { religious_policy = moralism }
 		}
@@ -510,22 +509,22 @@ social_reforms = {
 		no_minimum_wage = {
 		}
 		trinket_wage = {
-			minimum_wage = 0.20
+			minimum_wage = 0.50
 			administrative_multiplier = 1
 			global_immigrant_attract = 0.01
 		}
 		low_minimum_wage = {
-			minimum_wage = 0.40
+			minimum_wage = 0.70
 			administrative_multiplier = 2
 			global_immigrant_attract = 0.02
 		}
 		acceptable_minimum_wage = {
-			minimum_wage = 0.60
+			minimum_wage = 0.90
 			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
 		}
 		good_minimum_wage = {
-			minimum_wage = 0.80
+			minimum_wage = 1.10
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
 		}

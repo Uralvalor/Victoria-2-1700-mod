@@ -228,9 +228,9 @@ consumer_goods = {
 		color = { 253 199 110 }
 	}
 	credit = {
-		cost = 1.0
+		cost = 90.0
 		color = { 61 167 64 }
-		tradeable = no
+		tradeable = yes
 		money = yes
 	}
 }

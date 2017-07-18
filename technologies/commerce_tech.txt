@@ -239,7 +239,7 @@ no_standard = {
 	administrative_efficiency = 0.05
 	activate_building = jewellery_factory
 	factory_goods_output = {
-			credit = 0.01 
+			credit = 0.05 
 		}
 	ai_chance = {
 		factor = 1.1
@@ -280,7 +280,7 @@ ad_hoc_money_bill_printing = {
 	administrative_efficiency = 0.05
 	set_country_flag = ad_hoc_money_bill_printing 
 	factory_goods_output = {
-			credit = 0.01 
+			credit = 0.05 
 		}
 	ai_chance = {
 		factor = 1.1
@@ -338,7 +338,7 @@ central_bank_money_bill_printing = {
 	administrative_efficiency = 0.05
 	set_country_flag = central_bank_money_bill_printing 
 	factory_goods_output = {
-			credit = 0.01 
+			credit = 0.05 
 		}
 	ai_chance = {
 		factor = 1.1
@@ -363,7 +363,7 @@ modern_central_bank_system = {
 
 	administrative_efficiency = 0.05
 	factory_goods_output = {
-			credit = 0.01 
+			credit = 0.05 
 		}
 	ai_chance = {
 		factor = 1.1
@@ -397,7 +397,7 @@ market_determined_exchange_rates = {
 
 	administrative_efficiency = 0.05
 	factory_goods_output = {
-			credit = 0.01 
+			credit = 0.05 
 		}
 	ai_chance = {
 		factor = 1.1

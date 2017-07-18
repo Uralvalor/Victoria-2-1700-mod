@@ -80,3 +80,12 @@ non_civil_1700 = {
 	research_points_modifier = -0.9
 	icon = 5
 }
+no_customs = {
+	trigger = { 					
+		not = { civilized = yes
+                land_reform = yes_land_reform }
+	}
+	
+	tariff_efficiency_modifier = -0.6
+	icon = 5
+}
