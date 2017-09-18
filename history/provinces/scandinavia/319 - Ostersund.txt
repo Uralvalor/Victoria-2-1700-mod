@@ -2,7 +2,10 @@ owner = SWE
 controller = SWE
 add_core = SWE
 add_core = SCA
-trade_goods = timber
+trade_goods = luxury_clothes
 life_rating = 30
 terrain = conifer_forest_hills
+1750.1.1 = {
+trade_goods = timber
+}
 1914.1.1 = { railroad = 3 }

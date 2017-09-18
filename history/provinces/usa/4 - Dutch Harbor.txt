@@ -1,11 +1,15 @@
+life_rating = 30
+terrain = tundra_mountains
+trade_goods = luxury_clothes
+
 add_core = CAN
+1750.1.1 = {
+        trade_goods = fish
+}
 1815.1.1 = {
 	owner = RUS
 	controller = RUS
 }
-trade_goods = fish
-life_rating = 30
-terrain = tundra_mountains
 1914.1.1 = {
 
 	owner = USA

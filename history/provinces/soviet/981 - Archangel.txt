@@ -1,10 +1,13 @@
 owner = RUS
 controller = RUS
 add_core = RUS
-trade_goods = timber
+trade_goods = luxury_clothes
 life_rating = 27
 naval_base = 1
 terrain = boreal_forest
+1750.1.1 = {
+trade_goods = timber
+}
 1861.1.1 = {
 	naval_base = 1
 }

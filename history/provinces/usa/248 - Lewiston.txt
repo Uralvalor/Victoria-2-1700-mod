@@ -1,17 +1,16 @@
 owner = ENL
 controller = ENL
 colonial = 2 
- 
-
+trade_goods = luxury_clothes
 add_core = QUE
 add_core = NEN
-trade_goods = timber
 life_rating = 35
 terrain = conifer_forest_hills
 1750.1.1 = {
 	owner = FRA
 	controller = FRA
 colony = 2
+trade_goods = timber
 }
 1815.1.1 = { owner = USA add_core = USA
 	controller = USA

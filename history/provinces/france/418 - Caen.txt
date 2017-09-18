@@ -5,11 +5,11 @@ trade_goods = wool
 life_rating = 35
 naval_base = 1
 terrain = marginal_farmland
-#state_building = {
-#	level = 1
-#	building = regular_clothes_factory
-#	upgrade = yes
-#}
+state_building = {
+	level = 1
+	building = wool_factory
+	upgrade = yes
+}
 1836.1.1 = {
 naval_base = 2
 }

@@ -5,6 +5,10 @@ add_core = QUE
 trade_goods = fish
 life_rating = 30
 
+1750.1.1 = {owner = FRA
+controller = FRA
+colonial = 2 
+ }
 1815.1.1 = {
 	owner = ENG
 	controller = ENG

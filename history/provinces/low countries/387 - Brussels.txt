@@ -8,6 +8,16 @@ terrain = city_387
 trade_goods = sulphur
 life_rating = 35
 
+state_building = {
+	level = 1
+	building = wool_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}
 1750.1.1 = {
 	owner = AUS
 	controller = AUS
@@ -21,7 +31,7 @@ life_rating = 35
 	controller = BEL
 	railroad = 1
 	state_building = {
-		level = 1
+		level = 2
 		building = fabric_factory
 		upgrade = yes
 	}

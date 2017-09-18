@@ -7,6 +7,11 @@ add_core = WLL
 trade_goods = iron
 life_rating = 35
 terrain = good_farmland
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
 1815.1.1 = {
 	owner = NET
 	controller = NET

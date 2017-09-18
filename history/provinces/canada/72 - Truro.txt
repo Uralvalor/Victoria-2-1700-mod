@@ -1,15 +1,15 @@
 owner = FRA
 controller = FRA
 colonial = 2 
-
 add_core = QUE
 add_core = CAN
-trade_goods = timber
+trade_goods = luxury_clothes
 life_rating = 35
 colonial = 2
 1750.1.1 = {
 	owner = ENG
 	controller = ENG
+trade_goods = timber
 }
 1914.1.1 = {
 	owner = CAN

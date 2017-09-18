@@ -1,7 +1,9 @@
 
 add_core = MEX
 add_core = TEX
- 
+owner = SPA
+controller = SPA
+colonial = 1 
 trade_goods = cattle
 life_rating = 35
 terrain = desert_hills

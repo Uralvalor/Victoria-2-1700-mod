@@ -1061,6 +1061,21 @@
 		religion = protestant
 		size = 2374
 	}
+	farmers = {
+		culture = french
+		religion = protestant
+		size = 4000
+	}
+	artisans = {
+		culture = french
+		religion = protestant
+		size = 200
+	}
+	clergymen = {
+		culture = french
+		religion = protestant
+		size = 60
+	}
 }
 550 = {
 	aristocrats = {
@@ -3840,20 +3855,10 @@
 		religion = protestant
 		size = 413
 	}
-	clergymen = {
-		culture = french
-		religion = protestant
-		size = 113
-	}
 	artisans = {
 		culture = north_german
 		religion = protestant
 		size = 1663
-	}
-	artisans = {
-		culture = french
-		religion = protestant
-		size = 400
 	}
 	soldiers = {
 		culture = north_german
@@ -3938,7 +3943,17 @@
 	farmers = {
 		culture = french
 		religion = protestant
-		size = 8000
+		size = 4000
+	}
+	artisans = {
+		culture = french
+		religion = protestant
+		size = 200
+	}
+	clergymen = {
+		culture = french
+		religion = protestant
+		size = 60
 	}
 }
 697 = {

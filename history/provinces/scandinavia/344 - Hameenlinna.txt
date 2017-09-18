@@ -2,10 +2,11 @@ owner = SWE
 controller = SWE
 add_core = FIN
 add_core = SCA
-trade_goods = timber
 life_rating = 30
 terrain = forested_farmland
 fort = 1
+trade_goods = luxury_clothes
+1750.1.1 = { trade_goods = timber }
 1815.1.1 = {
 	owner = FIN
 	controller = FIN

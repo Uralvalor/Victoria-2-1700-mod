@@ -2,11 +2,11 @@ owner = RUS
 controller = RUS
 colonial = 2
 add_core = YAK
- 
-trade_goods = timber
+trade_goods = luxury_clothes
 life_rating = 27
 terrain = boreal_forest
 1750.1.1 = {
+trade_goods = timber
         add_core = RUS
 colonial = no
 }

@@ -21,6 +21,16 @@ state_building = {
 	building = paper_mill
 	upgrade = yes
 }
+state_building = {
+	level = 1
+	building = wool_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}
 1750.1.1 = {
 	owner = ENG
 	controller = ENG
@@ -62,11 +72,6 @@ state_building = {
 	}
 	state_building = {
 		level = 2
-		building = luxury_furniture_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
 		building = furniture_factory
 		upgrade = yes
 	}
@@ -94,11 +99,6 @@ state_building = {
 1861.1.1 = { railroad = 3 }
 1914.1.1 = {
 	railroad = 5
-	state_building = {
-		level = 3
-		building = luxury_clothes_factory
-		upgrade = yes
-	}
 	state_building = {
 		level = 3
 		building = luxury_furniture_factory

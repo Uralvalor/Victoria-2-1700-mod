@@ -1,7 +1,10 @@
 add_core = CAN
-trade_goods = timber
+trade_goods = luxury_clothes
 life_rating = 27
 
+1750.1.1 = {
+        trade_goods = timber
+}
 1861.1.1 = {
 	owner = ENG
 	controller = ENG

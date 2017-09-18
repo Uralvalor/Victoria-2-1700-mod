@@ -2,11 +2,16 @@ add_core = XNC
 trade_goods = cotton
 life_rating = 35
 terrain = marginal_farmland
+owner = ENL
+controller = ENL
+colony = 1
+
+
 1750.1.1 = {
 	owner = ENG
 	controller = ENG
-colony = 2
-}
+colony = 2 }
+
 1815.1.1 = { owner = USA add_core = USA
 	controller = USA
 colonial = no 

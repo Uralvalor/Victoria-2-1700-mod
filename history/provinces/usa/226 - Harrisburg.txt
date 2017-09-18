@@ -1,8 +1,11 @@
-
 add_core = XPA
 trade_goods = tobacco
 life_rating = 35
 terrain = hilly_farmland
+colonial = 1
+owner = ENL
+controller = ENL
+
 1750.1.1 = {
 	owner = ENG
 	controller = ENG

@@ -4,7 +4,7 @@ colonial = 2
 add_core = XNY
 add_core = MAN
 terrain = city_232
-trade_goods = grain
+trade_goods = luxury_clothes
 life_rating = 35
 
 party_loyalty = {
@@ -14,6 +14,7 @@ party_loyalty = {
 1750.1.1 = {
 	owner = ENG
 	controller = ENG
+trade_goods = grain
 }
 1750.1.1 = {
 

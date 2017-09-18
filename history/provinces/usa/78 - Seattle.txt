@@ -1,8 +1,10 @@
- 
-trade_goods = timber
 life_rating = 30
 terrain = conifer_forest_mountains
+trade_goods = luxury_clothes
 
+1750.1.1 = {
+        trade_goods = timber
+}
 
 1861.1.1 = {
 	owner = USA

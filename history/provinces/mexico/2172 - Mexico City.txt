@@ -6,6 +6,9 @@ terrain = city_2172
 trade_goods = grain
 life_rating = 35
 fort = 1
+1800.1.1 = {
+trade_goods = grain
+}
 1815.1.1 = {
 	owner = MEX
 	controller = MEX

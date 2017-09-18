@@ -364,6 +364,343 @@ province_event = {
 		trade_goods = coal
 	}
 }
+province_event = {
+	
+	id = 991114
+
+	trigger = {
+		year = 1790
+		or = {
+			province_id = 2172			# Mexico
+		}
+		trade_goods = precious_metal 
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+
+	}
+
+	title = "Золото иссякло"
+	desc = "Золотые рудники больше не приносят достаточно золота, похоже золотая жила в этом регионе иссякла"
+	picture = ""
+
+	option = {
+		name = "Проклятье"
+		trade_goods = grain
+	}
+}
+province_event = {
+	
+	id = 991115
+
+	trigger = {
+		year = 1790
+		or = {
+			province_id = 2158			# Sakatekas
+		}
+		trade_goods = precious_metal 
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+
+	}
+
+	title = "Золото иссякло"
+	desc = "Золотые рудники больше не приносят достаточно золота, похоже золотая жила в этом регионе иссякла"
+	picture = ""
+
+	option = {
+		name = "Проклятье"
+		trade_goods = grain
+	}
+}
+province_event = {
+	
+	id = 991116
+
+	trigger = {
+		year = 1790
+		or = {
+			province_id = 2314			# Potasi
+		}
+		trade_goods = precious_metal 
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+
+	}
+
+	title = "Золото иссякло"
+	desc = "Золотые рудники больше не приносят достаточно золота, похоже золотая жила в этом регионе иссякла"
+	picture = ""
+
+	option = {
+		name = "Проклятье"
+		trade_goods = grain
+	}
+}
+province_event = {
+	
+	id = 991117
+
+	trigger = {
+		year = 1790
+		or = {
+			province_id = 2301			# Puerto
+		}
+		trade_goods = precious_metal 
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+
+	}
+
+	title = "Золото иссякло"
+	desc = "Золотые рудники больше не приносят достаточно золота, похоже золотая жила в этом регионе иссякла"
+	picture = ""
+
+	option = {
+		name = "Проклятье"
+		trade_goods = timber
+	}
+}
+province_event = {
+	
+	id = 991118
+
+	trigger = {
+		year = 1790
+		or = {
+			province_id = 2167			# 
+		}
+		trade_goods = precious_metal 
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+
+	}
+
+	title = "Золото иссякло"
+	desc = "Золотые рудники больше не приносят достаточно золота, похоже золотая жила в этом регионе иссякла"
+	picture = ""
+
+	option = {
+		name = "Проклятье"
+		trade_goods = grain
+	}
+}
+################################
+#        FUR EVENTS        #
+################################
+
+province_event = {
+	
+	id = 991108
+
+	trigger = {
+		year = 1760
+		trade_goods = luxury_clothes 
+		or = {
+                		province_id = 315
+                		province_id = 305
+                		province_id = 319
+                		province_id = 318
+                		province_id = 328
+                		province_id = 307
+                		province_id = 347
+                		province_id = 344
+                		province_id = 991
+                		province_id = 981
+                		province_id = 1004
+                		province_id = 2683
+                		province_id = 1066
+                		province_id = 1065
+                		province_id = 2681
+                		province_id = 1061
+                		province_id = 2682
+                		province_id = 2689
+                		province_id = 1078
+                		province_id = 2644
+                		province_id = 2672
+                		province_id = 2642
+                		province_id = 17
+                		province_id = 1
+                		province_id = 78
+                		province_id = 3284
+                		province_id = 2597
+                		province_id = 39
+                		province_id = 157
+                		province_id = 176
+                		province_id = 173
+                		province_id = 2594
+                		province_id = 228
+                		province_id = 2593
+                		province_id = 248
+                		province_id = 249
+                		province_id = 250
+                		province_id = 68
+                		province_id = 72
+                		province_id = 73
+
+						}
+	}
+
+	mean_time_to_happen =  {
+		months = 24
+
+	}
+
+	title = "Меха иссякли"
+	desc = "К сожалению нещадное истребление пушных животных ради меха и изготовления из них дорогой одежды привело к тому, что провинция больше не дает достаточного количества меха !"
+	picture = ""
+
+	option = {
+		name = "Хорошо что леса остались"
+		trade_goods = timber
+	}
+}
+
+province_event = {
+	
+	id = 991109
+
+	trigger = {
+		year = 1760
+		trade_goods = luxury_clothes
+ 		or = {
+			province_id = 1042			# Ufa
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 24
+
+	}
+
+	title = "Меха иссякли"
+	desc = "К сожалению нещадное истребление пушных животных ради меха и изготовления из них дорогой одежды привело к тому, что провинция больше не дает достаточного количества меха !"
+	picture = ""
+
+	option = {
+		name = "Там есть металлы"
+		trade_goods = iron
+	}
+}
+
+province_event = {
+	
+	id = 991110
+
+	trigger = {
+		year = 1760
+		trade_goods = luxury_clothes
+ 		or = {
+			province_id = 47			# FSevern
+			province_id = 4			    # Dutch-harbor
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 24
+
+	}
+
+	title = "Меха иссякли"
+	desc = "К сожалению нещадное истребление пушных животных ради меха и изготовления из них дорогой одежды привело к тому, что провинция больше не дает достаточного количества меха !"
+	picture = ""
+
+	option = {
+		name = "Там есть рыба"
+		trade_goods = fish
+	}
+}
+
+province_event = {
+	
+	id = 991111
+
+	trigger = {
+		year = 1760
+		trade_goods = luxury_clothes
+ 		or = {
+			province_id = 163			# Chikago
+			province_id = 1063			# Tomsk
+			province_id = 1075			# Irkutsk
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 24
+
+	}
+
+	title = "Меха иссякли"
+	desc = "К сожалению нещадное истребление пушных животных ради меха и изготовления из них дорогой одежды привело к тому, что провинция больше не дает достаточного количества меха !"
+	picture = ""
+
+	option = {
+		name = "Там есть уголь"
+		trade_goods = coal
+	}
+}
+province_event = {
+	
+	id = 991112
+
+	trigger = {
+		year = 1760
+		trade_goods = luxury_clothes
+ 		or = {
+			province_id = 232			# N-York
+			province_id = 65			# Qubeck
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 24
+
+	}
+
+	title = "Меха иссякли"
+	desc = "К сожалению нещадное истребление пушных животных ради меха и изготовления из них дорогой одежды привело к тому, что провинция больше не дает достаточного количества меха !"
+	picture = ""
+
+	option = {
+		name = "Там есть поля"
+		trade_goods = grain
+	}
+}
+province_event = {
+	
+	id = 991113
+
+	trigger = {
+		year = 1760
+		trade_goods = luxury_clothes
+ 		or = {
+			province_id = 58			# Monreal
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 24
+
+	}
+
+	title = "Меха иссякли"
+	desc = "К сожалению нещадное истребление пушных животных ради меха и изготовления из них дорогой одежды привело к тому, что провинция больше не дает достаточного количества меха !"
+	picture = ""
+
+	option = {
+		name = "Там есть фермы"
+		trade_goods = cattle
+	}
+}
 ################################
 #        DIAMOND EVENTS        #
 ################################

@@ -791,7 +791,12 @@
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 157553
+		size = 117553
+	}
+	farmers = {
+		culture = french
+		religion = protestant
+		size = 40000
 	}
 }
 416 = {
@@ -845,7 +850,12 @@
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 67724
+		size = 57724
+	}
+	farmers = {
+		culture = french
+		religion = protestant
+		size = 10000
 	}
 }
 418 = {
@@ -862,7 +872,7 @@
 	artisans = {
 		culture = french
 		religion = catholic
-		size = 5996
+		size = 5000
 	}
 	soldiers = {
 		culture = french
@@ -872,7 +882,17 @@
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 106880
+		size = 86880
+	}
+	farmers = {
+		culture = french
+		religion = protestant
+		size = 20000
+	}
+	artisans = {
+		culture = french
+		religion = protestant
+		size = 996
 	}
 }
 420 = {

@@ -1,11 +1,11 @@
-1750.1.1 = {owner = FRA
-controller = FRA
-colonial = 2 
- }
- 
 trade_goods = grain
 life_rating = 35
 terrain = deciduous_forest_hills
+owner = FRA
+controller = FRA
+colonial = 1 
+
+ 
 1815.1.1 = { owner = USA add_core = USA
 	controller = USA
 colonial = no 

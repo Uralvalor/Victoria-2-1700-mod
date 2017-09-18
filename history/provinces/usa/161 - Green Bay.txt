@@ -1,14 +1,10 @@
- 
- 
- 
 trade_goods = timber
 life_rating = 35
 terrain = conifer_forest
-1750.1.1 = {
-	owner = FRA
-	controller = FRA
-colony = 2
-}
+owner = FRA
+controller = FRA
+colony = 1
+
 1815.1.1 = { owner = USA controller = USA add_core = USA }
 1861.1.1 = {
 	colony = no

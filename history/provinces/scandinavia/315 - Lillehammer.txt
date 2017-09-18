@@ -2,9 +2,12 @@ owner = DEN
 controller = DEN
 add_core = SCA
 add_core = NOR
-trade_goods = timber
+trade_goods = luxury_clothes
 life_rating = 35
 terrain = conifer_forest_mountains
+1750.1.1 = {
+trade_goods = timber
+}
 1815.1.1 = {
 	owner = SWE
 	controller = SWE

@@ -2,9 +2,12 @@ owner = SPA
 controller = SPA
 add_core = MEX
 colonial = 2
-trade_goods = grain
 life_rating = 35
 terrain = hilly_grassland
+trade_goods = precious_metal
+1800.1.1 = {
+trade_goods = grain
+}
 1815.1.1 = {
 	owner = MEX
 	controller = MEX

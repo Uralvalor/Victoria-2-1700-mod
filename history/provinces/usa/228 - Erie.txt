@@ -1,13 +1,14 @@
  
 
 add_core = XPA
-trade_goods = timber
+trade_goods = luxury_clothes
 life_rating = 35
 terrain = deciduous_forest_hills
 1750.1.1 = {
 	owner = ENG
 	controller = ENG
 colony = 2
+trade_goods = timber
 }
 1815.1.1 = { owner = USA add_core = USA
 	controller = USA

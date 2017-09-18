@@ -1,11 +1,13 @@
-1750.1.1 = {owner = FRA
-controller = FRA
-colonial = 2 
- }
- 
-trade_goods = timber
+trade_goods = luxury_clothes
 life_rating = 35
 terrain = forested_farmland
+owner = FRA
+controller = FRA
+colonial = 1
+
+1750.1.1 = {
+trade_goods = timber
+ }
 1815.1.1 = { owner = USA add_core = USA
 	controller = USA
 colony = no

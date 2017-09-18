@@ -1,11 +1,14 @@
 owner = RUS
 controller = RUS
 add_core = RUS
-
 add_core = SIB
-trade_goods = timber
+trade_goods = luxury_clothes
 life_rating = 27
 terrain = boreal_marsh
+
+1750.1.1 = {
+trade_goods = timber
+}
 1923.1.1 = {
 	owner = SOV
 	controller = SOV

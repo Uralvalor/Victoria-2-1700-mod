@@ -5,6 +5,12 @@ add_core = ENL
 trade_goods = fish
 life_rating = 35
 terrain = hilly_farmland
+
+state_building = {
+	level = 1
+	building = wool_factory
+	upgrade = yes
+}
 1750.1.1 = {
 	owner = ENG
 	controller = ENG

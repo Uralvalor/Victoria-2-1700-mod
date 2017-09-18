@@ -1148,7 +1148,12 @@ grain_farm = {
 	value = .18
 	farm = yes
 }
-
+fur_clothes = {       
+	template = RGO_template_farmers
+	output_goods = luxury_clothes 
+	value = .1
+	farm = yes
+}
 iron_mine = {
 	template = RGO_template_labourers
 	output_goods = iron

@@ -5,7 +5,8 @@ religion = secularism
 government = hms_government
 plurality = 25
 nationalvalue = nv_order
-literacy = 0.53
+literacy = 0.85
+non_state_culture_literacy = 0.05
 prestige = 60
 
 set_country_flag = serfdom_not_abolished

@@ -1,15 +1,10 @@
- 
- 
- 
 trade_goods = coal
 life_rating = 35
-colony = 2
+colony = 1
 terrain = deciduous_forest
-1750.1.1 = {
-	owner = FRA
-	controller = FRA
-colony = 2
-}
+owner = FRA
+controller = FRA
+
 1815.1.1 = { owner = USA add_core = USA
 	controller = USA
 colonial = no 
