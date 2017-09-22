@@ -3,9 +3,16 @@ add_core = QUE
 add_core = NEW
 trade_goods = fish
 life_rating = 30
-owner = ENG
-controller = ENG
+owner = ENL
+controller = ENL
+colony = 1
 
+
+1750.1.1 = {
+	owner = ENG
+	controller = ENG
+colony = 2
+}
 1815.1.1 = {
 	owner = ENG
 	controller = ENG
