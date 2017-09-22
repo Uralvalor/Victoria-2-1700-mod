@@ -265,6 +265,10 @@ migration_target =
 		country_units_in_province = THIS
 	}
 	modifier = {
+		factor = 1.4
+		country_units_in_province = THIS
+	}
+	modifier = {
 		factor = 0
 		AND = {
 			state_scope = {

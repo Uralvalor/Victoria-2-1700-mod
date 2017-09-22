@@ -253,6 +253,10 @@ migration_target =
 		total_pops = 750000
 	}
 	modifier = {
+		factor = 1.4
+		country_units_in_province = THIS
+	}
+	modifier = {
 		factor = 2
 		this = { religion = jewish }
 		is_core = ISR 

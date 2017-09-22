@@ -1,10 +1,14 @@
-
 add_core = CAN
 trade_goods = fish
 life_rating = 30
+owner = ENL
+controller = FRA
+colony = 1
+
 1750.1.1 = {
-	owner = ENG
-	controller = ENG
+owner = ENG
+controller = ENG
+colony = 2
 }
 1914.1.1 = {
 	owner = CAN

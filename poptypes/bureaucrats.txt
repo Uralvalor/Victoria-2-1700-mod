@@ -289,6 +289,10 @@ migration_target =
 		has_pop_culture = THIS
 	}
 	modifier = {
+		factor = 1.1
+		country_units_in_province = THIS
+	}
+	modifier = {
 		factor = 2
 		state_scope = {
 					has_factories = yes

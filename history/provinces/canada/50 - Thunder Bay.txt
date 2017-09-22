@@ -1,15 +1,11 @@
- 
- 
 add_core = CAN
 trade_goods = cattle
 life_rating = 35
 terrain = conifer_forest
+owner = FRA
+controller = FRA
+colony = 1
 
-1750.1.1 = {
-	owner = FRA
-	controller = FRA
-colony = 2
-}
 1815.1.1 = {
 	owner = ENG
 	controller = ENG
