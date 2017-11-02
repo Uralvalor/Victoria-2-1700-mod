@@ -17,12 +17,12 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 28604
+		size = 38604
 	}
 	bureaucrats = {
 		culture = hungarian
 		religion = catholic
-		size = 852
+		size = 52
 	}
 	bureaucrats = {
 		culture = hungarian
@@ -52,7 +52,7 @@
 	farmers = {
 		culture = hungarian
 		religion = catholic
-		size = 7591
+		size = 591
 	}
 	bureaucrats = {
 		culture = hungarian
@@ -82,7 +82,7 @@
 	farmers = {
 		culture = hungarian
 		religion = protestant
-		size = 11524
+		size = 1524
 	}
 	clergymen = {
 		culture = hungarian
@@ -502,7 +502,7 @@
 	farmers = {
 		culture = hungarian
 		religion = protestant
-		size = 2891
+		size = 12891
 	}
 	artisans = {
 		culture = croat
@@ -778,7 +778,7 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 3742
+		size = 13742
 	}
 	bureaucrats = {
 		culture = romanian
@@ -1069,7 +1069,12 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 42865
+		size = 12865
+	}
+	farmers = {
+		culture = hungarian
+		religion = catholic
+		size = 7000
 	}
 	clergymen = {
 		culture = hungarian

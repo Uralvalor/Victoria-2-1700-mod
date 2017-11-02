@@ -104,7 +104,7 @@
 	farmers = {
 		culture = portuguese
 		religion = catholic
-		size = 84825
+		size = 80825
 	}
 
 }
@@ -138,19 +138,13 @@
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 38025
+		size = 68025
 	}
 
 	soldiers = {
 		culture = portuguese
 		religion = catholic
 		size = 1950
-	}
-
-	artisans = {
-		culture = portuguese
-		religion = catholic
-		size = 14625
 	}
 }
 #Coimbra (460000/115000 POPS)
@@ -182,7 +176,7 @@
 	farmers = {
 		culture = portuguese
 		religion = catholic
-		size = 68120
+		size = 58120
 	}
 }
 #Abrantes (140000/35000 POPS)

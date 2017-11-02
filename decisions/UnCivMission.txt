@@ -534,7 +534,7 @@ oirats_genocide = {
 }
 
 papacy_RUS = {
-	alert = no
+	alert = yes
 	potential = {
 				tag = PAP
 	    	NOT = { has_country_flag = rus_papacy }
@@ -554,6 +554,7 @@ papacy_RUS = {
 		money = -10000
 		set_country_flag = rus_papacy
 		RUS = { political_reform = catholic }
+		RUS = { remove_country_modifier = ch_rel  } 
 		capital_scope = {
 			clergymen = {
 				money = 10000
@@ -564,7 +565,7 @@ papacy_RUS = {
 }
 
 papacy_PLC = {
-	alert = no
+	alert = yes
 	potential = {
 				tag = PAP
 	    	NOT = { has_country_flag = PLC_papacy }
@@ -583,7 +584,8 @@ papacy_PLC = {
 	effect = {
 		money = -10000
 		set_country_flag = PLC_papacy
-		RUS = { political_reform = catholic }
+		RLC = { political_reform = catholic }
+		PLC = { remove_country_modifier = ch_rel  } 
 		capital_scope = {
 			clergymen = {
 				money = 1000
@@ -594,7 +596,7 @@ papacy_PLC = {
 }
 
 papacy_MCK = {
-	alert = no
+	alert = yes
 	potential = {
 				tag = PAP
 	    	NOT = { has_country_flag = MCK_papacy }
@@ -614,6 +616,7 @@ papacy_MCK = {
 		money = -10000
 		set_country_flag = MCK_papacy
 		MCK = { political_reform = catholic }
+		MCK = { remove_country_modifier = ch_rel  } 
 		capital_scope = {
 			clergymen = {
 				money = 10000
@@ -624,7 +627,7 @@ papacy_MCK = {
 }
 
 papacy_TUR = {
-	alert = no
+	alert = yes
 	potential = {
 				tag = PAP
 	    	NOT = { has_country_flag = TUR_papacy }
@@ -644,6 +647,7 @@ papacy_TUR = {
 		money = -10000
 		set_country_flag = TUR_papacy
 		TUR = { political_reform = catholic }
+		TUR = { remove_country_modifier = ch_rel  } 
 		capital_scope = {
 			clergymen = {
 				money = 10000
@@ -654,7 +658,7 @@ papacy_TUR = {
 }
 
 papacy_PER = {
-	alert = no
+	alert = yes
 	potential = {
 				tag = PAP
 	    	NOT = { has_country_flag = PER_papacy }
@@ -674,6 +678,7 @@ papacy_PER = {
 		money = -10000
 		set_country_flag = PER_papacy
 		PER = { political_reform = catholic }
+		PER = { remove_country_modifier = ch_rel  } 
 		capital_scope = {
 			clergymen = {
 				money = 10000
@@ -684,7 +689,7 @@ papacy_PER = {
 }
 
 papacy_TKG = {
-	alert = no
+	alert = yes
 	potential = {
 				tag = PAP
 	    	NOT = { has_country_flag = TKG_papacy }
@@ -704,6 +709,7 @@ papacy_TKG = {
 		money = -10000
 		set_country_flag = TKG_papacy
 		TKG = { political_reform = catholic }
+		TKG = { remove_country_modifier = ch_rel  } 
 		capital_scope = {
 			clergymen = {
 				money = 10000
@@ -715,7 +721,7 @@ papacy_TKG = {
 
 
 papacy_MAR = {
-	alert = no
+	alert = yes
 	potential = {
 				tag = PAP
 	    	NOT = { has_country_flag = MAR_papacy }
@@ -735,6 +741,7 @@ papacy_MAR = {
 		money = -10000
 		set_country_flag = MAR_papacy
 		MAR = { political_reform = catholic }
+		MAR = { remove_country_modifier = ch_rel  } 
 		capital_scope = {
 			clergymen = {
 				money = 10000
@@ -745,7 +752,7 @@ papacy_MAR = {
 }
 
 papacy_KOR = {
-	alert = no
+	alert = yes
 	potential = {
 				tag = PAP
 	    	NOT = { has_country_flag = KOR_papacy }
@@ -765,6 +772,7 @@ papacy_KOR = {
 		money = -10000
 		set_country_flag = KOR_papacy
 		KOR = { political_reform = catholic }
+		KOR = { remove_country_modifier = ch_rel  } 
 		capital_scope = {
 			clergymen = {
 				money = 10000
@@ -775,7 +783,7 @@ papacy_KOR = {
 }
 
 papacy_MGE = {
-	alert = no
+	alert = yes
 	potential = {
 				tag = PAP
 	    	NOT = { has_country_flag = MGE_papacy }
@@ -795,6 +803,7 @@ papacy_MGE = {
 		money = -10000
 		set_country_flag = MGE_papacy
 		MGE = { political_reform = catholic }
+		MGE = { remove_country_modifier = ch_rel  } 
 		capital_scope = {
 			clergymen = {
 				money = 10000
@@ -805,7 +814,7 @@ papacy_MGE = {
 }
 
 papacy_UKR = {
-	alert = no
+	alert = yes
 	potential = {
 				tag = PAP
 	    	NOT = { has_country_flag = UKR_papacy }
@@ -825,6 +834,7 @@ papacy_UKR = {
 		money = -10000
 		set_country_flag = UKR_papacy
 		UKR = { political_reform = catholic }
+		UKR = { remove_country_modifier = ch_rel  } 
 		capital_scope = {
 			clergymen = {
 				money = 10000
@@ -835,7 +845,7 @@ papacy_UKR = {
 }
 
 papacy_CSK = {
-	alert = no
+	alert = yes
 	potential = {
 				tag = PAP
 	    	NOT = { has_country_flag = CSK_papacy }
@@ -855,6 +865,7 @@ papacy_CSK = {
 		money = -10000
 		set_country_flag = CSK_papacy
 		CSK = { political_reform = catholic }
+		CSK = { remove_country_modifier = ch_rel  } 
 		capital_scope = {
 			clergymen = {
 				money = 10000
@@ -865,7 +876,7 @@ papacy_CSK = {
 }
 
 papacy_OIR = {
-	alert = no
+	alert = yes
 	potential = {
 				tag = PAP
 	    	NOT = { has_country_flag = OIR_papacy }
@@ -885,6 +896,7 @@ papacy_OIR = {
 		money = -10000
 		set_country_flag = OIR_papacy
 		OIR = { political_reform = catholic }
+		OIR = { remove_country_modifier = ch_rel  } 
 		capital_scope = {
 			clergymen = {
 				money = 10000
@@ -895,7 +907,7 @@ papacy_OIR = {
 }
 
 papacy_CRI = {
-	alert = no
+	alert = yes
 	potential = {
 				tag = PAP
 	    	NOT = { has_country_flag = CRI_papacy }
@@ -915,6 +927,7 @@ papacy_CRI = {
 		money = -10000
 		set_country_flag = CRI_papacy
 		CRI = { political_reform = catholic }
+		CRI = { remove_country_modifier = ch_rel  } 
 		capital_scope = {
 			clergymen = {
 				money = 10000
@@ -925,7 +938,7 @@ papacy_CRI = {
 }
 
 papacy_TIB = {
-	alert = no
+	alert = yes
 	potential = {
 				tag = PAP
 	    	NOT = { has_country_flag = TIB_papacy }
@@ -945,6 +958,7 @@ papacy_TIB = {
 		money = -10000
 		set_country_flag = TIB_papacy
 		TIB = { political_reform = catholic }
+		TIB = { remove_country_modifier = ch_rel  } 
 		capital_scope = {
 			clergymen = {
 				money = 10000
@@ -955,7 +969,7 @@ papacy_TIB = {
 }
 
 papacy_MYS = {
-	alert = no
+	alert = yes
 	potential = {
 				tag = PAP
 	    	NOT = { has_country_flag = MYS_papacy }
@@ -975,6 +989,7 @@ papacy_MYS = {
 		money = -10000
 		set_country_flag = MYS_papacy
 		MYS = { political_reform = catholic }
+		MYS = { remove_country_modifier = ch_rel  } 
 		capital_scope = {
 			clergymen = {
 				money = 10000
@@ -985,7 +1000,7 @@ papacy_MYS = {
 }
 
 papacy_NEP = {
-	alert = no
+	alert = yes
 	potential = {
 				tag = PAP
 	    	NOT = { has_country_flag = NEP_papacy }
@@ -1005,6 +1020,7 @@ papacy_NEP = {
 		money = -10000
 		set_country_flag = NEP_papacy
 		NEP = { political_reform = catholic }
+		NEP = { remove_country_modifier = ch_rel  } 
 		capital_scope = {
 			clergymen = {
 				money = 10000
@@ -1014,7 +1030,7 @@ papacy_NEP = {
             }
 }
 papacy_EGY = {
-	alert = no
+	alert = yes
 	potential = {
 				tag = PAP
 	    	NOT = { has_country_flag = EGY_papacy }
@@ -1034,6 +1050,7 @@ papacy_EGY = {
 		money = -10000
 		set_country_flag = EGY_papacy
 		EGY = { political_reform = catholic }
+		EGY = { remove_country_modifier = ch_rel }
 		capital_scope = {
 			clergymen = {
 				money = 10000

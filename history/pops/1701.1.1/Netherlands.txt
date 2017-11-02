@@ -57,12 +57,12 @@
 	artisans = {
 		culture = dutch
 		religion = secularism
-		size = 2445
+		size = 7445
 	}
 	artisans = {
 		culture = dutch
 		religion = protestant
-		size = 2945
+		size = 12945
 	}
 	artisans = {
 		culture = french
@@ -99,12 +99,17 @@
 	artisans = {
 		culture = dutch
 		religion = protestant
-		size = 69687
+		size = 39687
 	}
 	artisans = {
 		culture = sephardic
 		religion = jewish
 		size = 2477
+	}
+	farmers = {
+		culture = dutch
+		religion = protestant
+		size = 15000
 	}
 	artisans = {
 		culture = flemish

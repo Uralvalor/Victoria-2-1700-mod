@@ -2007,18 +2007,18 @@
 61 = {
     text_scale = 4
     text_position = {
-            x = 1772
-            y = 1794
+        x = 1772
+        y = 1794
     }
 
     city = {
-            x = 1772
-            y = 1794
+        x = 1772
+        y = 1794
     }
 
     unit = {
-            x = 1772
-            y = 1794
+        x = 1772
+        y = 1794
     }
 
     building_position = {
@@ -20204,12 +20204,12 @@
 }
 
 746 = {
-    text_scale = 1
     text_position = {
         x = 2971
         y = 1685
     }
 
+    text_scale = 1
     unit = {
         x = 2971
         y = 1685
@@ -20219,6 +20219,11 @@
         fort = {
             x = 2970
             y = 1682
+        }
+
+        naval_base = {
+            x = 2967.450000
+            y = 1683.850000
         }
 
     }
@@ -20312,15 +20317,23 @@
 }
 
 750 = {
-    text_scale = 2
     text_position = {
         x = 2993
         y = 1660
     }
 
+    text_scale = 2
     unit = {
         x = 2993
         y = 1660
+    }
+
+    building_position = {
+        naval_base = {
+            x = 2987.150000
+            y = 1658.900000
+        }
+
     }
 
 }
@@ -20505,8 +20518,13 @@
 }
 
 757 = {
-    text_scale = 3
     text_position = {
+        x = 3046
+        y = 1644
+    }
+
+    text_scale = 3
+    unit = {
         x = 3046
         y = 1644
     }
@@ -20516,9 +20534,12 @@
         y = 1644
     }
 
-    unit = {
-        x = 3046
-        y = 1644
+    building_position = {
+        naval_base = {
+            x = 3059.000000
+            y = 1653.300000
+        }
+
     }
 
 }
@@ -20583,8 +20604,13 @@
 }
 
 760 = {
-    text_scale = 2
     text_position = {
+        x = 3063
+        y = 1608
+    }
+
+    text_scale = 2
+    unit = {
         x = 3063
         y = 1608
     }
@@ -20594,9 +20620,12 @@
         y = 1601
     }
 
-    unit = {
-        x = 3063
-        y = 1608
+    building_position = {
+        naval_base = {
+            x = 3057.126667
+            y = 1605.971667
+        }
+
     }
 
 }
@@ -20800,15 +20829,23 @@
 }
 
 769 = {
-    text_scale = 1
     text_position = {
         x = 3024
         y = 1719
     }
 
+    text_scale = 1
     unit = {
         x = 3024
         y = 1719
+    }
+
+    building_position = {
+        naval_base = {
+            x = 3020.700000
+            y = 1713.500000
+        }
+
     }
 
 }
@@ -80556,7 +80593,19 @@
 2743 = {} # 41;200;200;Finisterre Bay
 2744 = {} # 42;200;250;Lusitanian Sea
 2745 = {} # 43;220;250;Gulf of Cadiz
-2746 = {} # 44;250;250;Straits of Gibraltar
+2746 = {
+    text_position = {
+        x = 2718.270000
+        y = 1551.826667
+    }
+
+    unit = {
+        x = 2715.176667
+        y = 1552.406667
+    }
+
+} # 44;250;250;Straits of Gibraltar
+
 2747 = {} # 45;200;200;Gulf of Almeira
 2748 = {} # 46;200;250;Gulf of Valencia
 2749 = {} # 47;220;250;Gulf of Lion
@@ -82038,21 +82087,21 @@
         y = 1685.508333
     }
 
-    text_scale = 4
+    text_scale = 1
     unit = {
-        x = 2998.466667
-        y = 1686.316667
+        x = 2999.200000
+        y = 1685.850000
     }
 
     city = {
-        x = 2998.466667
-        y = 1686.316667
+        x = 2999.650000
+        y = 1685.450000
     }
 
     building_position = {
         fort = {
-            x = 2997.658333
-            y = 1686.316667
+            x = 2999.900000
+            y = 1685.850000
         }
 
     }
@@ -82065,7 +82114,7 @@
         y = 1661.320000
     }
 
-    text_scale = 4
+    text_scale = 1
     unit = {
         x = 2834.933333
         y = 1660.626667

@@ -34,11 +34,6 @@
 		religion = catholic
 		size = 752
 	}
-	farmers = {
-		culture = croat
-		religion = catholic
-		size = 752
-	}
 	aristocrats = {
 		culture = hungarian
 		religion = catholic
@@ -72,7 +67,7 @@
 	farmers = {
 		culture = hungarian
 		religion = catholic
-		size = 4454
+		size = 8054
 	}
 	clergymen = {
 		culture = hungarian
@@ -92,7 +87,7 @@
 	farmers = {
 		culture = hungarian
 		religion = protestant
-		size = 934
+		size = 3934
 	}
 }
 639 = {
@@ -119,7 +114,7 @@
 	farmers = {
 		culture = slovak
 		religion = catholic
-		size = 9367
+		size = 5367
 	}
 	aristocrats = {
 		culture = hungarian
@@ -144,7 +139,7 @@
 	farmers = {
 		culture = hungarian
 		religion = catholic
-		size = 38817
+		size = 25817
 	}
 	clergymen = {
 		culture = hungarian
@@ -174,7 +169,7 @@
 	farmers = {
 		culture = hungarian
 		religion = protestant
-		size = 9921
+		size = 10921
 	}
 	clergymen = {
 		culture = ashkenazi
@@ -271,7 +266,12 @@
 	farmers = {
 		culture = hungarian
 		religion = catholic
-		size = 12695
+		size = 9095
+	}
+	farmers = {
+		culture = hungarian
+		religion = protestant
+		size = 3630
 	}
 	clergymen = {
 		culture = hungarian
@@ -358,7 +358,7 @@
 	farmers = {
 		culture = hungarian
 		religion = catholic
-		size = 15986
+		size = 24986
 	}
 	aristocrats = {
 		culture = hungarian
@@ -383,7 +383,7 @@
 	farmers = {
 		culture = hungarian
 		religion = protestant
-		size = 15026
+		size = 17026
 	}
 	clergymen = {
 		culture = ashkenazi
@@ -426,6 +426,11 @@
 		size = 85
 	}
 	artisans = {
+		culture = serb
+		religion = catholic
+		size = 2487
+	}
+	artisans = {
 		culture = slovak
 		religion = catholic
 		size = 487
@@ -438,7 +443,7 @@
 	farmers = {
 		culture = slovak
 		religion = catholic
-		size = 5630
+		size = 3630
 	}
 }
 642 = {

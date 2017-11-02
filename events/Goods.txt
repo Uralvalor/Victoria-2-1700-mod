@@ -364,14 +364,15 @@ province_event = {
 		trade_goods = coal
 	}
 }
+
 province_event = {
 	
-	id = 991114
+	id = 991200
 
 	trigger = {
-		year = 1790
+		year = 1850
 		or = {
-			province_id = 2172			# Mexico
+			province_id = 638			# Rudogorie
 		}
 		trade_goods = precious_metal 
 	}
@@ -387,6 +388,33 @@ province_event = {
 
 	option = {
 		name = "Проклятье"
+		trade_goods = coal
+	}
+}
+
+province_event = {
+	
+	id = 991201
+
+	trigger = {
+		year = 1820
+		or = {
+			province_id = 637			# koshice
+		}
+		trade_goods = coal 
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+
+	}
+
+	title = "Уголь иссяк"
+	desc = "Угольные рудники больше не приносят достаточно угля, похоже угольная жила в этом регионе иссякла"
+	picture = ""
+
+	option = {
+		name = "Можно выращивать пшеницу"
 		trade_goods = grain
 	}
 }

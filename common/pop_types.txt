@@ -713,12 +713,6 @@ conversion_chance = { # 1.0
 
 	modifier = { factor = 0.1 NOT = { has_pop_religion = secularism } culture = THIS }
 	
-	modifier = {
-			factor = -0.1
-		country = { gov_religion = no_state_religion }
-                NOT = { has_pop_religion = secularism }
-                NOT = { country = { government = theocracy_government } }
-		}
 		
 	modifier = { factor = 0.1 country = { religious_policy = moralism } }
 	modifier = { factor = -0.05 country = { religious_policy = pluralism } }

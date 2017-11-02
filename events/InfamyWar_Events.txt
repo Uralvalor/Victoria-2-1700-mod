@@ -9,7 +9,7 @@ country_event = {
 
 	trigger = {
 		ai = no
-		badboy = 0.8
+		badboy = 1
 		is_disarmed = no
 		NOT = {
 			has_country_modifier = international_pariah

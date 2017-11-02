@@ -259,7 +259,7 @@
 	artisans = {
 		culture = north_italian
 		religion = catholic
-		size = 105637
+		size = 31637
 	}
 	clergymen = {
 		culture = sephardic
@@ -270,6 +270,11 @@
 		culture = sephardic
 		religion = jewish
 		size = 135
+	}
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 70000
 	}
 }
 727 = {
