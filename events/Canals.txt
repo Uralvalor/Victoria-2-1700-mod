@@ -210,8 +210,645 @@ country_event = {
 		name = "Отлично!"	
 	}
 }
+#### Erie Canal ####
+
+country_event = {
+
+	id = 3887189
+	
+	trigger = {
+		238 = { has_province_modifier = erie_canal }
+		NOT = { has_country_modifier = erie_canal_dividend }
+		NOT = { month = 1 }
+		NOT = { is_canal_enabled = 4 }
+		owns = 238
+		}
+		
+	mean_time_to_happen = {
+		months = 0.1
+	}
+	
+	title = "Необходимость строительства канала"
+	desc = ""
+	picture = "Kiel"
+
+	option = {
+		name = "До следующего года"	
+		random_list = {
+		25 = { treasury = 500 }
+		25 = { treasury = 250}
+		25 = { treasury = 0 }
+		25 = { treasury = -250 }
+		}
+		add_country_modifier = {
+		name = erie_canal_dividend
+		duration = 31
+		}
+	}
+}
+
+country_event = {
+
+	id = 38871891
+	
+	trigger = {
+		has_global_flag = building_erie_canal_phase0
+		has_country_modifier = building_erie_canal
+		}
+		
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	title = "Проект канала завершен"
+	desc = "Карта канала Эри"
+	picture = "Kiel0"
+
+	option = {
+		name = "Начинайте строительство"
+		treasury = -35000	
+		random_pop = { limit = { type = capitalists } money = 35000 }
+		clr_global_flag = building_erie_canal_phase0
+		set_global_flag = building_erie_canal_phase1
+	}
+}
+
+country_event = {
+
+	id = 38871892
+	
+	trigger = {
+		has_global_flag = building_erie_canal_phase1
+		has_country_modifier = building_erie_canal
+		}
+		
+	mean_time_to_happen = {
+		months = 32
+		
+		modifier = {
+		factor = 1
+		prestige = 10
+		}
+	}
+	
+	title = "Канал Эри: первая фаза завершена!"
+	desc = "Первая фаза строительства завершена. Канал прорыт до Сиракуз"
+	picture = "Kiel1"
+
+	option = {
+		name = "Переходим во вторую фазу"
+		treasury = -35000	
+		random_pop = { limit = { type = capitalists } money = 35000 }
+		clr_global_flag = building_erie_canal_phase1
+		set_global_flag = building_erie_canal_phase2
+	}
+}
+
+country_event = {
+	id = 38871893
+	
+	trigger = {
+		has_global_flag = building_erie_canal_phase2
+		has_country_modifier = building_erie_canal
+		}
+		
+	mean_time_to_happen = {
+		months = 32
+		
+		modifier = {
+		factor = 1
+		prestige = 10
+		}
+	}
+	
+	title = "Канал Эри: вторая фаза завершена!"
+	desc = "Строительные работы на шлюзах в Олбани."
+	picture = "Kiel2"
+
+	option = {
+		name = "Переходим в третью фазу"
+		treasury = -35000	
+		random_pop = { limit = { type = capitalists } money = 35000 }
+		clr_global_flag = building_erie_canal_phase2
+		set_global_flag = building_erie_canal_phase3
+	}
+}
+
+country_event = {
+	id = 38871894
+	
+	trigger = {
+		has_global_flag = building_erie_canal_phase3
+		has_country_modifier = building_erie_canal
+		}
+		
+	mean_time_to_happen = {
+		months = 32
+		
+		modifier = {
+		factor = 1
+		prestige = 10
+		}
+	}
+	
+	title = "Канал Эри: строительство завершено!"
+	desc = "Наконец строительство канала Эри завершено, у нас есть выход из Великих Озер в Анлантический океан через Нью-Йорк."
+	picture = "Kiel3"
+
+	option = {
+		name = "Ура!"
+		prestige = 40
+		research_points = 120
+		enable_canal = 4
+		238 = { set_province_flag = erie_canal }
+		238= { add_province_modifier = {
+				name = erie_canal
+				duration = -1
+				}
+		}
+		clr_global_flag = building_erie_canal_phase3
+		remove_country_modifier = building_erie_canal
+		}
+}
+
+country_event = {
+	id = 38871895
+	
+	trigger = {
+		has_country_modifier = building_erie_canal
+		NOT = { owns = 238 }
+		}
+		
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	title = "Мы потеряли Сиракузы"
+	desc = "Работы по строительству канала остановились. Чтобы возобновить строительство нам надо вернуть Сиракузы под свой контроль"
+	picture = ""
+
+	option = {
+		name = "Плохо"
+		prestige = -10
+		clr_global_flag = building_erie_canal_phase1
+		clr_global_flag = building_erie_canal_phase2
+		clr_global_flag = building_erie_canal_phase3
+		remove_country_modifier = building_erie_canal
+		}
+}
+
+country_event = {
+
+	id = 38871896
+	
+	trigger = {
+		NOT = { ai = yes }
+		NOT = { has_global_flag = scenario_1914_activated }
+		NOT = { has_global_flag = scenario_1923_activated }
+		is_canal_enabled = 4
+		}
+		
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	title = "Канал Эри канал"
+	desc = "канал Эри уже был построен"
+	picture = "Kiel5"
+
+	option = {
+		name = "Отлично!"	
+	}
+}
+
+#### Illinois Canal ####
+
+country_event = {
+
+	id = 4887189
+	
+	trigger = {
+		163 = { has_province_modifier = Illinois_canal }
+		NOT = { has_country_modifier = Illinois_canal_dividend }
+		NOT = { month = 1 }
+		NOT = { is_canal_enabled = 5 }
+		owns = 163
+		}
+		
+	mean_time_to_happen = {
+		months = 0.1
+	}
+	
+	title = "Необходимость строительства канала"
+	desc = ""
+	picture = "Kiel"
+
+	option = {
+		name = "До следующего года"	
+		random_list = {
+		25 = { treasury = 500 }
+		25 = { treasury = 250}
+		25 = { treasury = 0 }
+		25 = { treasury = -250 }
+		}
+		add_country_modifier = {
+		name = Illinois_canal_dividend
+		duration = 31
+		}
+	}
+}
+
+country_event = {
+
+	id = 48871891
+	
+	trigger = {
+		has_global_flag = building_illinois_canal_phase0
+		has_country_modifier = building_illinois_canal
+		}
+		
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	title = "Проект канала завершен"
+	desc = "Карта водных путей Иллинойса "
+	picture = "Kiel0"
+
+	option = {
+		name = "Начинайте строительство"
+		treasury = -70000	
+		random_pop = { limit = { type = capitalists } money = 70000 }
+		clr_global_flag = building_illinois_canal_phase0
+		set_global_flag = building_illinois_canal_phase1
+	}
+}
+
+country_event = {
+
+	id = 48871892
+	
+	trigger = {
+		has_global_flag = building_illinois_canal_phase1
+		has_country_modifier = building_illinois_canal
+		}
+		
+	mean_time_to_happen = {
+		months = 32
+		
+		modifier = {
+		factor = 1
+		prestige = 10
+		}
+	}
+	
+	title = "Канал Иллинойса: первая фаза завершена!"
+	desc = "Первая фаза строительства завершена. "
+	picture = "Kiel1"
+
+	option = {
+		name = "Переходим во вторую фазу"
+		treasury = -70000	
+		random_pop = { limit = { type = capitalists } money = 70000 }
+		clr_global_flag = building_illinois_canal_phase1
+		set_global_flag = building_illinois_canal_phase2
+	}
+}
+
+country_event = {
+	id = 48871893
+	
+	trigger = {
+		has_global_flag = building_illinois_canal_phase2
+		has_country_modifier = building_illinois_canal
+		}
+		
+	mean_time_to_happen = {
+		months = 32
+		
+		modifier = {
+		factor = 1
+		prestige = 10
+		}
+	}
+	
+	title = "Канал Иллинойса: вторая фаза завершена!"
+	desc = "Строительные работы на шлюзах в Чикаго."
+	picture = "Kiel2"
+
+	option = {
+		name = "Переходим в третью фазу"
+		treasury = -70000	
+		random_pop = { limit = { type = capitalists } money = 70000 }
+		clr_global_flag = building_illinois_canal_phase2
+		set_global_flag = building_illinois_canal_phase3
+	}
+}
+
+country_event = {
+	id = 48871894
+	
+	trigger = {
+		has_global_flag = building_illinois_canal_phase3
+		has_country_modifier = building_illinois_canal
+		}
+		
+	mean_time_to_happen = {
+		months = 32
+		
+		modifier = {
+		factor = 1
+		prestige = 10
+		}
+	}
+	
+	title = "Канал Иллинойса: строительство завершено!"
+	desc = "Наконец строительство канала к реке Иллинойс завершено, у нас есть выход из Великих Озер в Мексиканский залив через Чикаго."
+	picture = "Kiel3"
+
+	option = {
+		name = "Ура!"
+		prestige = 40
+		research_points = 120
+		enable_canal = 5
+		163 = { set_province_flag = illinois_canal }
+		163= { add_province_modifier = {
+				name = illinois_canal
+				duration = -1
+				}
+		}
+		clr_global_flag = building_illinois_canal_phase3
+		remove_country_modifier = building_illinois_canal
+		}
+}
+
+country_event = {
+	id = 48871895
+	
+	trigger = {
+		has_country_modifier = building_illinois_canal
+		NOT = { owns = 163 }
+		}
+		
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	title = "Мы потеряли Чикаго"
+	desc = "Работы по строительству канала остановились. Чтобы возобновить строительство нам надо вернуть Чикаго под свой контроль"
+	picture = ""
+
+	option = {
+		name = "Плохо"
+		prestige = -10
+		clr_global_flag = building_illinois_canal_phase1
+		clr_global_flag = building_illinois_canal_phase2
+		clr_global_flag = building_illinois_canal_phase3
+		remove_country_modifier = building_illinois_canal
+		}
+}
+
+country_event = {
+
+	id = 48871896
+	
+	trigger = {
+		NOT = { ai = yes }
+		NOT = { has_global_flag = scenario_1914_activated }
+		NOT = { has_global_flag = scenario_1923_activated }
+		is_canal_enabled = 5
+		}
+		
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	title = "Канал Иллинойс"
+	desc = "Канал Иллинойс уже был построен"
+	picture = "Kiel5"
+
+	option = {
+		name = "Отлично!"	
+	}
+}
+
+#### Cleveland Canal ####
+
+country_event = {
+
+	id = 5887189
+	
+	trigger = {
+		178 = { has_province_modifier = cleveland_canal }
+		NOT = { has_country_modifier = cleveland_canal_dividend }
+		NOT = { month = 1 }
+		NOT = { is_canal_enabled = 6 }
+		owns = 178
+		}
+		
+	mean_time_to_happen = {
+		months = 0.1
+	}
+	
+	title = "Необходимость строительства канала"
+	desc = ""
+	picture = "Kiel"
+
+	option = {
+		name = "До следующего года"	
+		random_list = {
+		25 = { treasury = 2000 }
+		25 = { treasury = 1000}
+		25 = { treasury = 0 }
+		25 = { treasury = -1000 }
+		}
+		add_country_modifier = {
+		name = cleveland_canal_dividend
+		duration = 31
+		}
+	}
+}
+
+country_event = {
+
+	id = 58871891
+	
+	trigger = {
+		has_global_flag = building_cleveland_canal_phase0
+		has_country_modifier = building_cleveland_canal
+		}
+		
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	title = "Проект канала завершен"
+	desc = "Карта водных путей до Огайо"
+	picture = "Kiel0"
+
+	option = {
+		name = "Начинайте строительство"
+		treasury = -70000	
+		random_pop = { limit = { type = capitalists } money = 70000 }
+		clr_global_flag = building_cleveland_canal_phase0
+		set_global_flag = building_cleveland_canal_phase1
+	}
+}
+
+country_event = {
+
+	id = 58871892
+	
+	trigger = {
+		has_global_flag = building_cleveland_canal_phase1
+		has_country_modifier = building_cleveland_canal
+		}
+		
+	mean_time_to_happen = {
+		months = 32
+		
+		modifier = {
+		factor = 1
+		prestige = 10
+		}
+	}
+	
+	title = "Канал Кливленд: первая фаза завершена!"
+	desc = "Первая фаза строительства завершена. Канал прорыт до города Акрон."
+	picture = "Kiel1"
+
+	option = {
+		name = "Переходим во вторую фазу"
+		treasury = -70000	
+		random_pop = { limit = { type = capitalists } money = 70000 }
+		clr_global_flag = building_cleveland_canal_phase1
+		set_global_flag = building_cleveland_canal_phase2
+	}
+}
+
+country_event = {
+	id = 58871893
+	
+	trigger = {
+		has_global_flag = building_cleveland_canal_phase2
+		has_country_modifier = building_cleveland_canal
+		}
+		
+	mean_time_to_happen = {
+		months = 32
+		
+		modifier = {
+		factor = 1
+		prestige = 10
+		}
+	}
+	
+	title = "Канал Кливленд: вторая фаза завершена!"
+	desc = "Строительные работы на шлюзах в Портсмуде."
+	picture = "Kiel2"
+
+	option = {
+		name = "Переходим в третью фазу"
+		treasury = -70000	
+		random_pop = { limit = { type = capitalists } money = 70000 }
+		clr_global_flag = building_cleveland_canal_phase2
+		set_global_flag = building_cleveland_canal_phase3
+	}
+}
+
+country_event = {
+	id = 58871894
+	
+	trigger = {
+		has_global_flag = building_cleveland_canal_phase3
+		has_country_modifier = building_cleveland_canal
+		}
+		
+	mean_time_to_happen = {
+		months = 32
+		
+		modifier = {
+		factor = 1
+		prestige = 10
+		}
+	}
+	
+	title = "Канал Кливленд: строительство завершено!"
+	desc = "Наконец строительство канала к реке Огайо завершено, у нас есть выход из Великих Озер в Мексиканский залив через реку Огайо."
+	picture = "Kiel3"
+
+	option = {
+		name = "Ура!"
+		prestige = 40
+		research_points = 120
+		enable_canal = 6
+		178 = { set_province_flag = cleveland_canal }
+		178 = { add_province_modifier = {
+				name = cleveland_canal
+				duration = -1
+				}
+		}
+		clr_global_flag = building_cleveland_canal_phase3
+		remove_country_modifier = building_cleveland_canal
+		}
+}
 
 
+country_event = {
+	id = 58871895
+	
+	trigger = {
+		has_country_modifier = building_cleveland_canal
+		NOT = { owns = 178 }
+		}
+		
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	title = "Мы потеряли Кливленд"
+	desc = "Работы по строительству канала остановились. Чтобы возобновить строительство нам надо вернуть Кливленд под свой контроль"
+	picture = ""
+
+	option = {
+		name = "Плохо"
+		prestige = -10
+		clr_global_flag = building_cleveland_canal_phase1
+		clr_global_flag = building_cleveland_canal_phase2
+		clr_global_flag = building_cleveland_canal_phase3
+		remove_country_modifier = building_cleveland_canal
+		}
+}
+
+country_event = {
+
+	id = 58871896
+	
+	trigger = {
+		NOT = { ai = yes }
+		NOT = { has_global_flag = scenario_1914_activated }
+		NOT = { has_global_flag = scenario_1923_activated }
+		is_canal_enabled = 6
+		}
+		
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	title = "Канал Кливленд-Огайо"
+	desc = "Канал Кливленд-Огайо уже был построен"
+	picture = "Kiel5"
+
+	option = {
+		name = "Отлично!"	
+	}
+}
 #### Suez Canal ####
 
 country_event = {
@@ -649,8 +1286,8 @@ country_event = {
 
 	option = {
 		name = "Начинайте строительство"
-		treasury = -500000
-		random_pop = { limit = { type = capitalists } money = 500000 }
+		treasury = -300000
+		random_pop = { limit = { type = capitalists } money = 300000 }
 		set_global_flag = building_panama_canal_phase1
 	}
 }
@@ -714,8 +1351,8 @@ country_event = {
 
 	option = {
 		name = "Переходим во вторую фазу"
-		treasury = -500000
-		random_pop = { limit = { type = capitalists } money = 500000 }
+		treasury = -300000
+		random_pop = { limit = { type = capitalists } money = 300000 }
 		clr_global_flag = building_panama_canal_phase1
 		set_global_flag = building_panama_canal_phase2
 	}
@@ -779,8 +1416,8 @@ country_event = {
 
 	option = {
 		name = "Переходим во третью фазу"
-		treasury = -500000
-		random_pop = { limit = { type = capitalists } money = 500000 }
+		treasury = -300000
+		random_pop = { limit = { type = capitalists } money = 300000 }
 		clr_global_flag = building_panama_canal_phase2
 		set_global_flag = building_panama_canal_phase3
 	}
@@ -1186,7 +1823,7 @@ country_event = {
 		name = "Начало официального расследования (понижает шансы банкротства)"
 		ai_chance = { factor = 35 }
 		prestige = -25
-		treasury = -300000	
+		treasury = -200000	
 		any_pop = {
 			limit = {
 			is_primary_culture = yes
@@ -1201,7 +1838,7 @@ country_event = {
 	option = {
 		name = "Не поднимать шумиху!"
 		ai_chance = { factor = 60 }
-		treasury = -300000
+		treasury = -200000
 		any_pop = {
 			limit = {
 			is_primary_culture = yes
@@ -1287,8 +1924,8 @@ country_event = {
 
 	option = {
 		name = "Лучше, чем ничего"	
-		treasury = 120000 # French got 40 million for their equipment
-		random_pop = { limit = { type = capitalists } money = -120000 }
+		treasury = 400000 # French got 40 million for their equipment
+		random_pop = { limit = { type = capitalists } money = -400000 }
 	}
 }
 	

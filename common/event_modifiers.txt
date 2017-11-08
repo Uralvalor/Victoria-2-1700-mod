@@ -1043,6 +1043,42 @@ kiel_canal = {
 kiel_canal_dividend = {
 	icon = 9
 }
+#### erie Canal ####
+building_erie_canal = {
+	icon = 11
+}
+
+erie_canal = {
+	icon = 11
+}
+
+erie_canal_dividend = {
+	icon = 9
+}
+#### illinois Canal ####
+building_illinois_canal = {
+	icon = 11
+}
+
+illinois_canal = {
+	icon = 11
+}
+
+illinois_canal_dividend = {
+	icon = 9
+}
+#### Cleveland Canal ####
+building_сleveland_canal = {
+	icon = 11
+}
+
+сleveland_canal = {
+	icon = 11
+}
+
+сleveland_canal_dividend = {
+	icon = 9
+}
 ### Great War ###
 great_war = {
 	war_exhaustion = -3.0

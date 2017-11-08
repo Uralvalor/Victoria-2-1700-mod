@@ -72,4 +72,87 @@ political_decisions = {
 		}
 		}
 	}
+	build_erie_canal_mod = {
+		potential = {
+			NOT = { is_canal_enabled = 4 }
+			is_greater_power = yes
+			NOT = { has_global_flag = erie_canal_global }
+			owns = 238
+		}
+		allow = {
+			experimental_steam_engine  = 1
+		}
+		effect = {
+		treasury = -10000	
+		random_pop = { limit = { type = capitalists } money = 10000 }
+		232 =  { 
+				life_rating = 1
+				add_province_modifier = {
+					name = influx_of_population
+					duration = 5575
+			        }
+			}
+		set_global_flag = erie_canal_global
+		set_global_flag = building_erie_canal_phase0
+		add_country_modifier = {
+		name = building_erie_canal
+		duration = -1
+		}
+		}
+	}
+	build_illinois_canal_mod = {
+		potential = {
+			NOT = { is_canal_enabled = 5 }
+			is_greater_power = yes
+			NOT = { has_global_flag = illinois_canal_global }
+			owns = 163
+		}
+		allow = {
+			inorganic_chemistry  = 1
+		}
+		effect = {
+		treasury = -50000	
+		random_pop = { limit = { type = capitalists } money = 50000 }
+		163 =  { 
+				life_rating = 1
+				add_province_modifier = {
+					name = influx_of_population
+					duration = 5575
+			        }
+			}
+		set_global_flag = illinois_canal_global
+		set_global_flag = building_illinois_canal_phase0
+		add_country_modifier = {
+		name = building_illinois_canal
+		duration = -1
+		}
+		}
+	}
+#	build_cleveland_canal_mod = {
+#		potential = {
+#			NOT = { is_canal_enabled = 6 }
+#			is_greater_power = yes
+#			NOT = { has_global_flag = cleveland_canal_global }
+#			owns = 178
+#		}
+#		allow = {
+#			mechanical_production  = 1
+#		}
+#		effect = {
+#		treasury = -50000	
+#		random_pop = { limit = { type = capitalists } money = 50000 }
+#		178 =  { 
+#				add_province_modifier = {
+#					name = influx_of_population
+#					duration = 3650
+#			        }
+#			}
+#		set_global_flag = cleveland_canal_global
+#		set_global_flag = building_cleveland_canal_phase0
+#		add_country_modifier = {
+#		name = building_cleveland_canal
+#		duration = -1
+#		}
+#		}
+#	}
 }

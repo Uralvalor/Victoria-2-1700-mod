@@ -1,36 +1,17 @@
 623 = {
-	aristocrats = {
-		culture = slovak
-		religion = catholic
-		size = 42
-	}
-	bureaucrats = {
-		culture = slovak
-		religion = catholic
-		size = 136
-	}
-	officers = {
-		culture = slovak
-		religion = catholic
-		size = 68
-	}
-	clergymen = {
-		culture = slovak
-		religion = catholic
-		size = 25
-	}
+
 	artisans = {
-		culture = slovak
+		culture = slovene
 		religion = catholic
 		size = 97
 	}
 	soldiers = {
-		culture = slovak
+		culture = slovene
 		religion = catholic
 		size = 33
 	}
 	farmers = {
-		culture = slovak
+		culture = slovene
 		religion = catholic
 		size = 752
 	}
@@ -513,24 +494,24 @@
 		size = 681
 	}
 	clergymen = {
-		culture = slovak
+		culture = south_german
 		religion = catholic
-		size = 8
+		size = 80
 	}
 	artisans = {
-		culture = slovak
+		culture = south_german
 		religion = catholic
-		size = 9
+		size = 309
 	}
 	soldiers = {
-		culture = slovak
+		culture = south_german
 		religion = catholic
 		size = 8
 	}
 	farmers = {
-		culture = slovak
+		culture = south_german
 		religion = catholic
-		size = 614
+		size = 3214
 	}
 	clergymen = {
 		culture = slovak
@@ -550,7 +531,7 @@
 	farmers = {
 		culture = slovak
 		religion = catholic
-		size = 10211
+		size = 7111
 	}
 }
 643 = {

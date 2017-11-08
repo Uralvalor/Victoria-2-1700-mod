@@ -17,7 +17,7 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 2866
+		size = 5866
 	}
 	clergymen = {
 		culture = ukrainian
@@ -37,42 +37,7 @@
 	farmers = {
 		culture = ukrainian
 		religion = orthodox
-		size = 5961
-	}
-	bureaucrats = {
-		culture = polish
-		religion = catholic
-		size = 244
-	}
-	bureaucrats = {
-		culture = polish
-		religion = catholic
-		size = 9
-	}
-	officers = {
-		culture = polish
-		religion = catholic
-		size = 17
-	}
-	clergymen = {
-		culture = polish
-		religion = catholic
-		size = 21
-	}
-	artisans = {
-		culture = polish
-		religion = catholic
-		size = 43
-	}
-	soldiers = {
-		culture = polish
-		religion = catholic
-		size = 14
-	}
-	farmers = {
-		culture = polish
-		religion = catholic
-		size = 1158
+		size = 3961
 	}
 	clergymen = {
 		culture = ashkenazi
@@ -246,7 +211,7 @@
 	bureaucrats = {
 		culture = hungarian
 		religion = catholic
-		size = 1491
+		size = 91
 	}
 	clergymen = {
 		culture = hungarian
@@ -266,7 +231,7 @@
 	farmers = {
 		culture = hungarian
 		religion = catholic
-		size = 8866
+		size = 2866
 	}
 	clergymen = {
 		culture = hungarian
@@ -286,7 +251,7 @@
 	farmers = {
 		culture = hungarian
 		religion = protestant
-		size = 10228
+		size = 2228
 	}
 	clergymen = {
 		culture = ashkenazi

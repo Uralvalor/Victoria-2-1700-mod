@@ -6,22 +6,22 @@
 	}
 	aristocrats = {
 		culture = south_german
-		religion = protestant
+		religion = secularism
 		size = 276
 	}
 	clergymen = {
 		culture = south_german
-		religion = protestant
+		religion = secularism
 		size = 797
 	}
 	artisans = {
 		culture = south_german
-		religion = protestant
+		religion = secularism
 		size = 30
 	}
 	craftsmen = {
 		culture = south_german
-		religion = protestant
+		religion = secularism
 		size = 780
 	}
 	artisans = {
@@ -31,13 +31,13 @@
 	}
 	soldiers = {
 		culture = south_german
-		religion = protestant
+		religion = secularism
 		size = 613
 	}
 	farmers = {
 		culture = south_german
 		religion = protestant
-		size = 52704
+		size = 12704
 	}
 	aristocrats = {
 		culture = south_german
@@ -67,7 +67,7 @@
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 29175
+		size = 69175
 	}
 }
 604 = {
@@ -192,27 +192,27 @@
 606 = {
 	aristocrats = {
 		culture = south_german
-		religion = catholic
+		religion = protestant
 		size = 107
 	}
 	clergymen = {
 		culture = south_german
-		religion = catholic
+		religion = protestant
 		size = 215
 	}
 	artisans = {
 		culture = south_german
-		religion = catholic
+		religion = protestant
 		size = 1073
 	}
 	soldiers = {
 		culture = south_german
-		religion = catholic
+		religion = protestant
 		size = 613
 	}
 	farmers = {
 		culture = south_german
-		religion = catholic
+		religion = protestant
 		size = 19766
 	}
 }
@@ -318,27 +318,27 @@
 609 = {
 	aristocrats = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 92
 	}
 	clergymen = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 107
 	}
 	artisans = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 306
 	}
 	soldiers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 613
 	}
 	farmers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 10002
 	}
 }

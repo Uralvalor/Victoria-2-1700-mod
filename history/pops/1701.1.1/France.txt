@@ -1204,7 +1204,7 @@
 	}
 	artisans = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 3553
 	}
 	soldiers = {
@@ -1215,7 +1215,12 @@
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 55759
+		size = 20000
+	}
+	farmers = {
+		culture = french
+		religion = protestant
+		size = 35759
 	}
 }
 429 = {
@@ -1285,18 +1290,23 @@
 	}
 	artisans = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 2220
 	}
 	soldiers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 407
 	}
 	farmers = {
 		culture = french
+		religion = protestant
+		size = 20000
+	}
+	farmers = {
+		culture = french
 		religion = catholic
-		size = 83856
+		size = 63856
 	}
 }
 432 = {
@@ -1317,22 +1327,22 @@
 	}
 	clergymen = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 1911
 	}
 	artisans = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 3553
 	}
 	soldiers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 557
 	}
 	farmers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 91221
 	}
 }
@@ -1344,22 +1354,22 @@
 	}
 	clergymen = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 1052
 	}
 	artisans = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 1776
 	}
 	soldiers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 370
 	}
 	farmers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 47993
 	}
 }
