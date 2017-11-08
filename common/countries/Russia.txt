@@ -143,7 +143,7 @@ party = {
 
 party = {
 	name = "RUS_anarcho_liberal"
-	start_date = 1710.1.1
+	start_date = 1789.1.1
 	end_date = 3000.1.1
 
 	ideology = anarcho_liberal
@@ -155,6 +155,19 @@ party = {
 	war_policy = pro_military
 }
 
+party = {
+	name = "RUS_anarcho_liberal1"
+	start_date = 1700.1.1
+	end_date = 3000.1.1
+
+	ideology = anarcho_liberal
+
+	economic_policy = state_capitalism
+	trade_policy = free_trade
+	religious_policy = pluralism
+	citizenship_policy = limited_citizenship
+	war_policy = jingoism
+}
 party = {
 	name = "RUS_anarcho_liberal_2"
 	start_date = 1850.1.1

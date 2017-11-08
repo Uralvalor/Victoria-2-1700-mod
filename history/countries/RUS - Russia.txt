@@ -75,13 +75,13 @@ bronze_muzzle_loaded_artillery = 1
 consciousness = 1
 nonstate_consciousness = 3
 
-ruling_party = RUS_reactionary 
+ruling_party = RUS_anarcho_liberal1 
 upper_house = {
 	fascist = 0
 	liberal = 0
-	reactionary = 100
+	reactionary = 70
 	socialist = 0
-	communist = 0
+	anarcho_liberal = 30
 }
 
 
@@ -90,7 +90,6 @@ schools = culture_tech_school
 
 
 oob = "RUS_oob.txt"
-
 
 1725.1.1 = {
 decision  = move_capital_to_st_petersburg 
@@ -101,7 +100,7 @@ set_country_flag  = bashkir_rebellion
 government = absolute_monarchy
 vote_franschise = none_voting  
 civilized = yes
-			remove_country_modifier = western_influences
+remove_country_modifier = western_influences
 capital = 994 
 oob = "/1756/RUS_oob.txt"
 prestige = 20 }

@@ -107,6 +107,7 @@ military_clique = {
 
 theocracy_government = {
 	reactionary = yes
+	conservative = yes
 	flagType = fascist
 	
 	election = no

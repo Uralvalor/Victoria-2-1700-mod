@@ -2,7 +2,7 @@ color = { 23  114  143 }
 graphical_culture = IndianGC
 party = {
 	name = "BUN_conservative"
-	start_date = 1765.1.1
+	start_date =1700.1.1
 	end_date = 3000.1.1
 
 	ideology = conservative
@@ -16,7 +16,7 @@ party = {
 
 party = {
 	name = "BUN_liberal"
-	start_date = 1750.1.1
+	start_date =1700.1.1
 	end_date = 1936.1.1
 
 	ideology = liberal
@@ -30,7 +30,7 @@ party = {
 
 party = {
 	name = "BUN_reactionary"
-	start_date = 1750.1.1
+	start_date =1700.1.1
 	end_date = 3000.1.1
 
 	ideology = reactionary
@@ -44,7 +44,7 @@ party = {
 
 party = {
 	name = "BUN_anarcho_liberal"
-	start_date = 1789.1.1
+	start_date =1700.1.1
 	end_date = 3000.1.1
 
 	ideology = anarcho_liberal

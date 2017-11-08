@@ -63,12 +63,13 @@ school_reforms = no_schools
 finance_regulation = medium_interest 
 
 
-ruling_party = HOL_reactionary
+ruling_party = HOL_anarcho_liberal 
 upper_house = {
 	fascist = 0
-	reactionary = 90
+	reactionary = 30
 	socialist = 0
 	communist = 0
+	anarcho_liberal = 70
 }
 
 # Technologies
@@ -88,6 +89,8 @@ physiocracy = 1
 state_mercantilism = 1
 freedom_of_trade = 1
 post_nelsonian_thought = 1
+joint-stock_companies = 1
+no_standard = 1
 precision_work = yes
  
 #Inventions

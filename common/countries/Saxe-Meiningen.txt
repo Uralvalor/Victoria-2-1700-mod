@@ -3,7 +3,7 @@ graphical_culture = EuropeanGC
 
 party = {
 	name = "MEI_liberal"
-	start_date = 1789.1.1
+	start_date =1700.1.1
 	end_date = 3000.1.1
 
 	ideology = liberal
@@ -101,7 +101,7 @@ party = {
 
 party = {
 	name = "MEI_reactionary"
-	start_date = 1789.1.1
+	start_date =1700.1.1
 	end_date = 3000.1.1
 
 	ideology = reactionary
@@ -115,7 +115,7 @@ party = {
 
 party = {
 	name = "MEI_conservative_2"
-	start_date = 1789.1.1
+	start_date =1700.1.1
 	end_date = 3000.1.1
 
 	ideology = conservative
@@ -143,7 +143,7 @@ party = {
 
 party = {
 	name = "MEI_anarcho_liberal"
-	start_date = 1789.1.1
+	start_date =1700.1.1
 	end_date = 3000.1.1
 
 	ideology = anarcho_liberal

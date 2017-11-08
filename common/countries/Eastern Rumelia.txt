@@ -3,7 +3,7 @@ graphical_culture = EuropeanGC
 
 party = {
 	name = "ERM_liberal"
-	start_date = 1789.1.1
+	start_date =1700.1.1
 	end_date = 3000.1.1
 
 	ideology = liberal
@@ -17,7 +17,7 @@ party = {
 
 party = {
 	name = "ERM_conservative"
-	start_date = 1789.1.1
+	start_date =1700.1.1
 	end_date = 3000.1.1
 
 	ideology = conservative
@@ -45,7 +45,7 @@ party = {
 
 party = {
 	name = "ERM_reactionary"
-	start_date = 1750.1.1
+	start_date =1700.1.1
 	end_date = 3000.1.1
 
 	ideology = reactionary
@@ -59,7 +59,7 @@ party = {
 
 party = {
 	name = "ERM_anarcho_liberal"
-	start_date = 1789.1.1
+	start_date =1700.1.1
 	end_date = 3000.1.1
 
 	ideology = anarcho_liberal

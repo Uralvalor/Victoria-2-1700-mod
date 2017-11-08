@@ -44,7 +44,8 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
-gov_religion = protestant unemployment_subsidies = no_subsidies
+gov_religion = protestant
+unemployment_subsidies = no_subsidies
 pensions = no_pensions
 
 
@@ -58,14 +59,13 @@ military_staff_system = 1
  
 
 
-ruling_party = SWI_reactionary
+ruling_party = SWI_anarcho_liberal
 last_election = 1700.1.1
 upper_house = {
 	fascist = 0
 	liberal = 0
-	conservative = 100
-	reactionary = 0
-	anarcho_liberal = 0
+	reactionary = 30
+	anarcho_liberal = 60
 	socialist = 0
 	communist = 0
 }

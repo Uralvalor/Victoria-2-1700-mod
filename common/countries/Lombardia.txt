@@ -2,7 +2,7 @@ color = { 146  108  146 }
 graphical_culture = Generic
 party = {
 	name = "LOM_reactionary"
-	start_date = 1789.1.1
+	start_date =1700.1.1
 	end_date = 3000.1.1
 
 	ideology = reactionary
@@ -16,7 +16,7 @@ party = {
 
 party = {
 	name = "LOM_liberal"
-	start_date = 1789.1.1
+	start_date =1700.1.1
 	end_date = 3000.1.1
 
 	ideology = liberal
@@ -30,7 +30,7 @@ party = {
 
 party = {
 	name = "LOM_conservative"
-	start_date = 1789.1.1
+	start_date =1700.1.1
 	end_date = 3000.1.1
 
 	ideology = conservative
@@ -86,7 +86,7 @@ party = {
 
 party = {
 	name = "LOM_anarcho_liberal"
-	start_date = 1789.1.1
+	start_date =1700.1.1
 	end_date = 3000.1.1
 
 	ideology = anarcho_liberal

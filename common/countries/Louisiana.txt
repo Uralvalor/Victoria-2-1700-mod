@@ -3,7 +3,7 @@ color = { 90  90  90 }
 
 party = {
 	name = "LOU_anarcho_liberal"
-	start_date = 1789.1.1
+	start_date =1700.1.1
 	end_date = 3000.1.1
 
 	ideology = anarcho_liberal
@@ -17,7 +17,7 @@ party = {
 
 party = {
 	name = "LOU_conservative"
-	start_date = 1750.1.1
+	start_date =1700.1.1
 	end_date = 3000.1.1
 
 	ideology = conservative
@@ -31,7 +31,7 @@ party = {
 
 party = {
 	name = "LOU_liberal"
-	start_date = 1750.1.1
+	start_date =1700.1.1
 	end_date = 3000.1.1
 
 	ideology = liberal
@@ -59,7 +59,7 @@ party = {
 
 party = {
 	name = "LOU_liberal_3"
-	start_date = 1789.1.1
+	start_date =1700.1.1
 	end_date = 3000.1.1
 
 	ideology = liberal
@@ -87,7 +87,7 @@ party = {
 
 party = {
 	name = "LOU_reactionary"
-	start_date = 1789.1.1
+	start_date =1700.1.1
 	end_date = 3000.1.1
 
 	ideology = reactionary

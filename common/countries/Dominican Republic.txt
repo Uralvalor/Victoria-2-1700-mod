@@ -2,7 +2,7 @@ color = { 93  194  122 }
 graphical_culture = Generic
 party = {
 	name = "DOM_liberal"
-	start_date = 1789.1.1
+	start_date =1700.1.1
 	end_date = 3000.1.1
 
 	ideology = liberal
@@ -16,7 +16,7 @@ party = {
 
 party = {
 	name = "DOM_conservative"
-	start_date = 1789.1.1
+	start_date =1700.1.1
 	end_date = 1848.1.1
 
 	ideology = conservative
@@ -30,7 +30,7 @@ party = {
 
 party = {
 	name = "DOM_conservative_2"
-	start_date = 1789.1.1
+	start_date =1700.1.1
 	end_date = 1858.1.1
 
 	ideology = conservative
@@ -142,7 +142,7 @@ party = {
 
 party = {
 	name = "DOM_anarcho_liberal"
-	start_date = 1789.1.1
+	start_date =1700.1.1
 	end_date = 3000.1.1
 
 	ideology = anarcho_liberal
