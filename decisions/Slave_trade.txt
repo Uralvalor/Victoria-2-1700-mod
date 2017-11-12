@@ -1,0 +1,1119 @@
+political_decisions = {
+
+Slave_trade_on = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+				NOT = { has_country_flag = Slave_trade }
+	}
+	allow = {	
+	    	    NOT = { has_country_modifier = slave_trade_run }
+                any_owned_province = { continent = africa } 
+	}
+	
+	effect = { set_country_flag = Slave_trade
+        }
+	}
+
+Slave_trade_off = {
+	alert = no
+	potential = { ai = no
+				
+	}
+	allow = {	
+	has_country_flag = Slave_trade 
+	}
+	
+	effect = { clr_country_flag = Slave_trade
+        }
+}
+	
+	
+Slave_trade_washington = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 220
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 5000
+	}
+	
+	effect = {
+	clr_country_flag = Slave_trade
+		money = -5000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 220
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+        }
+	}
+Slave_trade_charlston = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 205
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 5000
+	}
+	
+	effect = {
+	    clr_country_flag = Slave_trade
+		money = -5000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 205
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+        }
+	}
+	
+Slave_trade_newyork = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 232
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 5000
+	}
+	
+	effect = {
+	    clr_country_flag = Slave_trade
+		money = -5000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 232
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+        }
+	}
+	
+Slave_trade_neworlean = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 139
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 5000
+	}
+	
+	effect = {
+	    clr_country_flag = Slave_trade
+		money = -5000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 139
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+        }
+	}
+	
+Slave_trade_mexico = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 2172
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 5000
+	}
+	
+	effect = {
+	    clr_country_flag = Slave_trade
+		money = -5000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 2172
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+        }
+	}
+	
+Slave_trade_cuba = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 2212
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 5000
+	}
+	
+	effect = {
+	    clr_country_flag = Slave_trade
+		money = -5000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 2212
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+        }
+	}
+	
+Slave_trade_gaity = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 2213
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 5000
+	}
+	
+	effect = {
+	    clr_country_flag = Slave_trade
+		money = -5000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 2213
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+        }
+	}
+	
+Slave_trade_puerto = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 2222
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 5000
+	}
+	
+	effect = {
+	    clr_country_flag = Slave_trade
+		money = -5000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 2222
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+        }
+	}
+Slave_trade_cartagena = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 2254
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 5000
+	}
+	
+	effect = {
+	    clr_country_flag = Slave_trade
+		money = -5000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 2254
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+        }
+	}
+Slave_trade_lima = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 2295
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 5000
+	}
+	
+	effect = {
+	    clr_country_flag = Slave_trade
+		money = -5000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 2295
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+        }
+	}
+Slave_trade_valparaiso = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 2325
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 5000
+	}
+	
+	effect = {
+	    clr_country_flag = Slave_trade
+		money = -5000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 2325
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+        }
+	}
+Slave_trade_buenos = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 2348
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 5000
+	}
+	
+	effect = {
+	    clr_country_flag = Slave_trade
+		money = -5000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 2348
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+        }
+	}
+Slave_trade_rio = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 2447
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 5000
+	}
+	
+	effect = {
+	    clr_country_flag = Slave_trade
+		money = -5000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 2447
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+        }
+	}
+Slave_trade_salvador = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 2436
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 5000
+	}
+	
+	effect = {
+	    clr_country_flag = Slave_trade
+		money = -5000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 2436
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+        }
+	}
+Slave_trade_recife = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 2432
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 5000
+	}
+	
+	effect = {
+	    clr_country_flag = Slave_trade
+		money = -5000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 2432
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+        }
+	}
+Slave_trade_paramaribo = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 2240
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 5000
+	}
+	
+	effect = {
+	    clr_country_flag = Slave_trade
+		money = -5000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 2240
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+        }
+	}
+Slave_trade_cayena = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 2241
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 5000
+	}
+	
+	effect = {
+	    clr_country_flag = Slave_trade
+		money = -5000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 2241
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+        }
+	}
+Slave_trade_liverpool = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 277
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 5000
+	}
+	
+	effect = {
+	    clr_country_flag = Slave_trade
+		money = -5000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 277
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+        }
+	}
+Slave_trade_bristol = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 296
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 5000
+	}
+	
+	effect = {
+	    clr_country_flag = Slave_trade
+		money = -5000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 296
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+        }
+	}
+Slave_trade_gvadelupa = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 2230
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 5000
+	}
+	
+	effect = {
+	    clr_country_flag = Slave_trade
+		money = -5000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 2230
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+        }
+	}
+Slave_trade_gvatemala = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 2186
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 5000
+	}
+	
+	effect = {
+	    clr_country_flag = Slave_trade
+		money = -5000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 2186
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+        }
+	}
+Slave_trade_yamaika = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 2217
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 5000
+	}
+	
+	effect = {
+	    clr_country_flag = Slave_trade
+		money = -5000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 2217
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+        }
+	}
+Slave_trade_london = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 300
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 5000
+	}
+	
+	effect = {
+	    clr_country_flag = Slave_trade
+		money = -5000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 300
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+        }
+	}
+Slave_trade_amsterdamm = {
+	alert = yes
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 375
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 5000
+	}
+	
+	effect = {
+	    clr_country_flag = Slave_trade
+		money = -5000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 375
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+        }
+	}
+}

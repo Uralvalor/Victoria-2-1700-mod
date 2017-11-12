@@ -1,4 +1,4 @@
-##################################################################################################
+﻿##################################################################################################
 # scriptable and usable for event-system below.
 ##################################################################################################
 
@@ -1656,35 +1656,67 @@ CRI_integrate = {
 }
 
 sanction_1 = {
+	loan_interest = 0.25
 	import_cost = 0.5
+	#factory_goods_output = {
+	#		credit = -0.25 
+	#	}
 	icon = 2
 }
 sanction_2 = {
+	loan_interest = 0.2
 	import_cost = 0.4
+	#factory_goods_output = {
+	#		credit = -0.2 
+	#	}
 	icon = 2
 }
 sanction_3 = {
+	loan_interest = 0.17
 	import_cost = 0.35
+	#factory_goods_output = {
+	#		credit = -0.17 
+	#	}
 	icon = 2
 }
 sanction_4 = {
+	loan_interest = 0.15
 	import_cost = 0.3
+	#factory_goods_output = {
+	#		credit = -0.15 
+	#	}
 	icon = 2
 }
 sanction_5 = {
+	loan_interest = 0.13
 	import_cost = 0.25
+	#factory_goods_output = {
+	#		credit = -0.13 
+	#	}
 	icon = 2
 }
 sanction_6 = {
+	loan_interest = 0.1
 	import_cost = 0.2
+	#factory_goods_output = {
+	#		credit = -0.1 
+	#	}
 	icon = 2
 }
 sanction_7 = {
+	loan_interest = 0.07
 	import_cost = 0.15
+	#factory_goods_output = {
+	#		credit = -0.07 
+	#	}
 	icon = 2
 }
 sanction_8 = {
+	loan_interest = 0.05
 	import_cost = 0.1
+	#factory_goods_output = {
+	#		credit = -0.05 
+	#	}
 	icon = 2
 }
 new_world = {
@@ -1729,7 +1761,9 @@ slave_market_country = {
 slave_market = {
 	rich_income_modifier = 0.3
 }
-
+slave_trade_run = {
+	icon = 17
+}
 juz_1700 = {
 	global_assimilation_rate = 5
 	icon = 5
