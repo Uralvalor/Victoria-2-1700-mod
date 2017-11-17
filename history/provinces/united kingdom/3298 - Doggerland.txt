@@ -1,0 +1,33 @@
+owner = NET
+controller = NET
+add_core = DOG
+trade_goods = precious_metal
+life_rating = 35
+fort = 1
+naval_base = 1
+terrain = hilly_farmland
+
+
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = clipper_shipyard
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}
+
+
+1755.1.1 = {
+        life_rating = 0
+	owner = XXX
+	controller = XXX
+}
+

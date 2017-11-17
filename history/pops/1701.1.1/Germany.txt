@@ -37,26 +37,31 @@
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 39884
-	}
-	clergymen = {
-		culture = north_german
-		religion = catholic
-		size = 30
-	}
-	artisans = {
-		culture = north_german
-		religion = catholic
-		size = 13
-	}
-	soldiers = {
-		culture = north_german
-		religion = catholic
-		size = 13
+		size = 30300
 	}
 	farmers = {
 		culture = north_german
 		religion = catholic
+		size = 9500
+	}
+	clergymen = {
+		culture = frisian
+		religion = secularism
+		size = 30
+	}
+	artisans = {
+		culture = frisian
+		religion = secularism
+		size = 13
+	}
+	soldiers = {
+		culture = frisian
+		religion = secularism
+		size = 13
+	}
+	farmers = {
+		culture = frisian
+		religion = secularism
 		size = 1493
 	}
 	clergymen = {
@@ -176,37 +181,37 @@
 		size = 510
 	}
 	aristocrats = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 206
 	}
 	officers = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 61
 	}
 	clergymen = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 310
 	}
 	artisans = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 377
 	}
 	soldiers = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 1311
 	}
 	craftsmen = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 938
 	}
 	farmers = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 7447
 	}
@@ -252,7 +257,7 @@
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 324
+		size = 435
 	}
 }
 530 = {
@@ -633,27 +638,27 @@
 		size = 46
 	}
 	aristocrats = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 40
 	}
 	clergymen = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 75
 	}
 	artisans = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 1168
 	}
 	soldiers = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 655
 	}
 	farmers = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 4281
 	}
@@ -670,39 +675,39 @@
 }
 540 = {
 	aristocrats = {
-		culture = dutch
+		culture = north_german
 		religion = protestant
 		size = 247
 	}
 	bureaucrats = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 75
 	}
 	officers = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 45
 	}
 	clergymen = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 263
 	}
 	artisans = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 301
 	}
 	soldiers = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 1311
 	}
 	farmers = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
-		size = 31808
+		size = 11808
 	}
 	clergymen = {
 		culture = north_german
@@ -717,7 +722,7 @@
 	farmers = {
 		culture = north_german
 		religion = catholic
-		size = 1522
+		size = 21522
 	}
 }
 541 = {
@@ -824,12 +829,12 @@
 		size = 2260
 	}
 	clergymen = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 8
 	}
 	farmers = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 805
 	}
@@ -841,12 +846,12 @@
 		size = 18
 	}
 	clergymen = {
-		culture = dutch
+		culture = frisian
 		religion = catholic
 		size = 42
 	}
 	artisans = {
-		culture = dutch
+		culture = frisian
 		religion = catholic
 		size = 54
 	}
@@ -861,27 +866,27 @@
 		size = 2827
 	}
 	aristocrats = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 92
 	}
 	clergymen = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 107
 	}
 	artisans = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 219
 	}
 	soldiers = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 95
 	}
 	farmers = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 12234
 	}

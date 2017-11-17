@@ -1006,13 +1006,13 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA95161"
-		RUS_1048 = {
+		RUS_3253 = {
 			poor_strata = {
 				limit = {
 					has_pop_culture = circassian
 				}
 				reduce_pop = 0.80
-				move_pop = 860
+				move_pop = 913
 			}
 			add_province_modifier = {
 					name = influx_of_population

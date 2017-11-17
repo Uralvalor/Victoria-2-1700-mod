@@ -1768,3 +1768,13 @@ juz_1700 = {
 	global_assimilation_rate = 5
 	icon = 5
 }
+potop = {
+    life_rating = -25
+	farm_rgo_size = -2
+    mine_rgo_size = -2
+	local_ruling_party_support = -0.6
+	local_factory_output = -0.1
+	local_artisan_output = -0.1
+	immigrant_attract = -2
+	immigrant_push = 1
+}

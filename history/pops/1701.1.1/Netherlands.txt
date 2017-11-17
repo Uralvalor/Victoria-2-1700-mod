@@ -356,39 +356,44 @@
 		size = 346
 	}
 	aristocrats = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 183
 	}
 	officers = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 92
 	}
 	bureaucrats = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 491
 	}
 	clergymen = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 122
 	}
 	artisans = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 4095
 	}
 	soldiers = {
-		culture = dutch
+		culture = frisian
 		religion = protestant
 		size = 2457
 	}
 	farmers = {
+		culture = frisian
+		religion = protestant
+		size = 10000
+	}
+	farmers = {
 		culture = dutch
 		religion = protestant
-		size = 21774
+		size = 11774
 	}
 	labourers = {
 		culture = north_german
@@ -447,17 +452,32 @@
 	artisans = {
 		culture = dutch
 		religion = protestant
-		size = 3510
+		size = 1000
 	}
 	soldiers = {
 		culture = dutch
 		religion = protestant
-		size = 614
+		size = 500
 	}
 	farmers = {
 		culture = dutch
 		religion = protestant
-		size = 27471
+		size = 17000
+	}
+	artisans = {
+		culture = frisian
+		religion = protestant
+		size = 2510
+	}
+	soldiers = {
+		culture = frisian
+		religion = protestant
+		size = 100
+	}
+	farmers = {
+		culture = frisian
+		religion = protestant
+		size = 10471
 	}
 }
 386 = {

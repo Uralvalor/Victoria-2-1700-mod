@@ -83407,3 +83407,139 @@
     }
 
 }
+
+3298 = {
+    text_position = {
+        x = 2844.250000
+        y = 1871.050000
+    }
+
+    text_rotation = 0.005025
+    text_scale = 2
+    unit = {
+        x = 2848.400000
+        y = 1870.100000
+    }
+
+    city = {
+        x = 2852.700000
+        y = 1867.450000
+    }
+
+    building_construction = {
+        x = 2843.750000
+        y = 1870.450000
+    }
+
+    building_position = {
+        naval_base = {
+            x = 2857.550000
+            y = 1866.850000
+        }
+
+    }
+
+}
+
+3299 = {
+    text_position = {
+        x = 2859.800000
+        y = 1873.250000
+    }
+
+    text_rotation = 0.010050
+    text_scale = 2
+    unit = {
+        x = 2859.100000
+        y = 1874.800000
+    }
+
+    city = {
+        x = 2857.750000
+        y = 1874.000000
+    }
+
+    factory = {
+        x = 2857.950000
+        y = 1873.100000
+    }
+
+    building_position = {
+        naval_base = {
+            x = 2864.600000
+            y = 1877.250000
+        }
+
+    }
+
+}
+
+3300 = {
+    text_position = {
+        x = 2879.300000
+        y = 1881.000000
+    }
+
+    text_rotation = 0.015074
+    text_scale = 2
+    unit = {
+        x = 2877.000000
+        y = 1879.500000
+    }
+
+    city = {
+        x = 2873.200000
+        y = 1879.950000
+    }
+
+    building_position = {
+        naval_base = {
+            x = 2885.350000
+            y = 1881.500000
+        }
+
+    }
+
+}
+
+3301 = {
+    text_position = {
+        x = 2843.200000
+        y = 1864.300000
+    }
+
+    text_scale = 3
+    unit = {
+        x = 2845.150000
+        y = 1863.850000
+    }
+
+    city = {
+        x = 2842.150000
+        y = 1863.700000
+    }
+
+    building_position = {
+        naval_base = {
+            x = 2835.700000
+            y = 1865.650000
+        }
+
+    }
+
+}
+
+3302 = {
+    text_position = {
+        x = 2861.793333
+        y = 1871.900000
+    }
+
+    text_rotation = 0.472596
+    text_scale = 9
+    unit = {
+        x = 2867.366667
+        y = 1872.853333
+    }
+
+}
