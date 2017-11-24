@@ -1,7 +1,7 @@
 capital = 375
 primary_culture = frisian
 religion = secularism
-government = hms_government
+government = democracy
 plurality = 50
 nationalvalue = nv_order
 literacy = 0.85
@@ -11,9 +11,9 @@ civilized = yes
 # Political reforms
 slavery = yes_slavery
 upper_house_composition = appointed
-vote_franschise = none_voting
+vote_franschise = universal_voting
 public_meetings = no_meeting
-press_rights = state_press
+press_rights = free_press
 trade_unions = all_trade_unions
 voting_system = jefferson_method
 political_parties = underground_parties
@@ -29,7 +29,6 @@ gov_religion = secularism
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools 
-arts_endowment = small_endowment 
 finance_regulation = low_interest 
 
 ruling_party = DOG_anarcho_liberal 
@@ -66,8 +65,8 @@ precision_work = yes
 
 
 # Starting Consciousness
-militancy = 8
-consciousness = 9
+militancy = 1
+consciousness = 7
 nonstate_consciousness = 10
 
 

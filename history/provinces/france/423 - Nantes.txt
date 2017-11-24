@@ -10,6 +10,11 @@ state_building = {
 	building = paper_mill
 	upgrade = yes
 }
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}
 1816.1.1 = { 
 trade_goods = coal }
 1861.1.1 = { railroad = 3 }

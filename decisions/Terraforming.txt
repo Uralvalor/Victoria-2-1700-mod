@@ -1,5 +1,21 @@
 political_decisions = {	
-
+#	sub_unit = {
+#		picture = polder
+#		potential = {
+#			ai = no
+#		}
+#		allow = {
+#		   money = 10
+#		}
+#		effect = {
+#			capital_scope = {
+#				sub_unit = {
+#					type = cavalry
+#					value = current
+#				}
+#			}
+#		}
+#	}
 	build_amsterdam = {
 		picture = polder
 		potential = {
@@ -131,6 +147,29 @@ political_decisions = {
 				secede_province = THIS
 			}
 		set_global_flag = flevoland
+		}
+	}
+
+	build_damm_doggerland = {
+		potential = {
+			NOT = { has_global_flag = build_damm_doggerland }
+            owns = 3298 owns = 3299 owns = 3300 owns = 3301 
+			water_wheel_power = 1
+		}
+		allow = {
+		    NOT = { gov_religion = secularism }
+	       	money = 100000	
+            NOT = {	year = 1790 }
+		}
+		effect = {
+		treasury = -100000	
+		random_pop = { limit = { type = capitalists } money = 100000 }
+		set_global_flag = build_damm_doggerland
+		set_global_flag = build_damm_doggerland_phase0
+		add_country_modifier = {
+		name = build_damm_doggerland_on
+		duration = -1
+		}
 		}
 	}
 }

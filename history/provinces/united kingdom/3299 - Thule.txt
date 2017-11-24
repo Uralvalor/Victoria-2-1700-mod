@@ -1,29 +1,12 @@
-owner = DEN
-controller = DEN
+owner = DOG
+controller = DOG
 add_core = DOG
 trade_goods = fish
 life_rating = 35
 fort = 1
-naval_base = 1
 terrain = floodplain_farmland
 
 
-
-state_building = {
-	level = 1
-	building = steel_factory
-	upgrade = yes
-}
-state_building = {
-	level = 1
-	building = fabric_factory
-	upgrade = yes
-}
-state_building = {
-	level = 1
-	building = clipper_shipyard
-	upgrade = yes
-}
 1755.1.1 = {
         life_rating = 0
 	owner = XXX

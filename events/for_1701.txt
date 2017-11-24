@@ -314,10 +314,11 @@ country_event = {
 	desc = "EVTDESC1099998"
 	picture = "doggerland"	
 	
-	trigger = {
+	trigger = {     year = 1707
 		            NOT = { DOG_3298 = { has_province_modifier = potop } }
             		OR = { owns = 3298 owns = 3299 owns = 3300 owns = 3301 }
                     NOT = {	year = 1810 }
+					NOT = { has_global_flag = damm_doggerland }
 					}
 					
 	mean_time_to_happen =  {
@@ -350,6 +351,7 @@ country_event = {
 	                year = 1790
             		OR = { owns = 3298 owns = 3299 owns = 3300 owns = 3301 }
                     NOT = {	year = 1810 }
+					NOT = { has_global_flag = damm_doggerland }
 					}
 	
 	option = {
@@ -373,13 +375,171 @@ country_event = {
 				duration = -1
 			}
 		}
-	   #385 = { secede_province = DOG }
+	    385 = { secede_province = DOG }
 	    3298 = { secede_province = XXX }
 	    3299 = { secede_province = XXX }
 	    3300 = { secede_province = XXX }
 	    3301 = { secede_province = XXX }
 	}
 }
+
+#### Doggerland damm ####
+
+country_event = {
+
+	id = 88871891
+	
+	trigger = {
+		has_global_flag = build_damm_doggerland_phase0
+		has_country_modifier = build_damm_doggerland_on
+		}
+		
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	title = "Проект защитных дамб Доггерленда завершен"
+	desc = "Мы подготовили проект по защите от надвигающегося моря, теперь пришло время по работе по данному проекту - для начала надо защитить наши города от затопления."
+	picture = "Kiel0"
+
+	option = {
+		name = "Начинайте строительство"
+		treasury = -70000	
+		random_pop = { limit = { type = capitalists } money = 70000 }
+		clr_global_flag = build_damm_doggerland_phase0
+		set_global_flag = build_damm_doggerland_phase1
+	}
+}
+
+country_event = {
+
+	id = 88871892
+	
+	trigger = {
+		has_global_flag = build_damm_doggerland_phase1
+		has_country_modifier = build_damm_doggerland_on
+		}
+		
+	mean_time_to_happen = {
+		months = 32
+		
+		modifier = {
+		factor = 1
+		prestige = 10
+		}
+	}
+	
+	title = "Дамбы Доггерленда: первая фаза завершена!"
+	desc = "Первая фаза строительства завершена, у нас есть проект и мы оградили наши города от затопления. Теперь нужно оградить берега наших островов от надвигающегося моря."
+	picture = "Kiel1"
+
+	option = {
+		name = "Переходим во вторую фазу"
+		treasury = -120000	
+		random_pop = { limit = { type = capitalists } money = 120000 }
+		clr_global_flag = build_damm_doggerland_phase1
+		set_global_flag = build_damm_doggerland_phase2
+	}
+}
+
+country_event = {
+	id = 88871893
+	
+	trigger = {
+		has_global_flag = build_damm_doggerland_phase2
+		has_country_modifier = build_damm_doggerland_on
+		}
+		
+	mean_time_to_happen = {
+		months = 32
+		
+		modifier = {
+		factor = 1
+		prestige = 10
+		}
+	}
+	
+	title = "Дамбы Доггерленда: вторая фаза завершена!"
+	desc = "Строительные работы по насыпям по берегам наших островов завершены. Теперь необходимо создать систему осущения затопленных земель, которая поможет бороться с наводнениями в дальнейшем"
+	picture = "Kiel2"
+
+	option = {
+		name = "Переходим в третью фазу"
+		treasury = -120000	
+		random_pop = { limit = { type = capitalists } money = 120000 }
+		clr_global_flag = build_damm_doggerland_phase2
+		set_global_flag = build_damm_doggerland_phase3
+	}
+}
+
+country_event = {
+	id = 88871894
+	
+	trigger = {
+		has_global_flag = build_damm_doggerland_phase3
+		has_country_modifier = build_damm_doggerland_on
+		}
+		
+	mean_time_to_happen = {
+		months = 32
+		
+		modifier = {
+		factor = 1
+		prestige = 10
+		}
+	}
+	
+	title = "Дамбы Доггерленда: строительство завершено!"
+	desc = "Наконец строительство дамб в Доггерленде завершено, это поистине величайщий день для нашей страны ! Это значит что мы призваны ко спасению, и наша страна не будет поглощена морскими водами !"
+	picture = "Kiel3"
+
+	option = {
+		name = "Ура!"
+		prestige = 40
+		research_points = 120
+		DOG_3298 = { set_province_flag = illinois_canal }
+		DOG_3298 = { 
+		    add_province_modifier = {
+				name = damm_doggerland
+				duration = -1
+				}
+			remove_province_modifier = 	potop
+			}
+		}
+		set_global_flag = damm_doggerland
+		clr_global_flag = build_damm_doggerland_phase3
+		remove_country_modifier = build_damm_doggerland
+		}
+}
+
+country_event = {
+	id = 88871895
+	
+	trigger = {
+		has_country_modifier = build_damm_doggerland_on
+		NOT = { OR = { owns = 3298 owns = 3299 owns = 3300 owns = 3301  } }
+		}
+		
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	title = "Мы потеряли часть Доггерленда"
+	desc = "Работы по строительству системы плотин остановились. Чтобы возобновить строительство нам надо вернуть все провинции Доггерленда под свой контроль"
+	picture = ""
+
+	option = {
+		name = "Плохо"
+		prestige = -10
+		clr_global_flag = build_damm_doggerland_phase1
+		clr_global_flag = build_damm_doggerland_phase2
+		clr_global_flag = build_damm_doggerland_phase3
+		remove_country_modifier = build_damm_doggerland
+		}
+}
+
+
+
 country_event = {
 	id = 1100001
 	title = "Американская революция"
@@ -1650,8 +1810,6 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		year = 1702
-		owns = 300
-		owns = 301
 		owns = 302
 		NOT = {
 			year = 1704
@@ -1664,17 +1822,29 @@ country_event = {
 		name = event_option_blast
 		300 = {
 			any_pop = {
-				reduce_pop = 0.95
+				reduce_pop = 0.98
+			}
+		add_province_modifier = {
+				name = potop
+				duration = 175
 			}
 		}
 		301 = {
 			any_pop = {
-				reduce_pop = 0.95
+				reduce_pop = 0.98
+			}
+		add_province_modifier = {
+				name = potop
+				duration = 175
 			}
 		}
 		302 = {
 			any_pop = {
-				reduce_pop = 0.95
+				reduce_pop = 0.98
+			}
+		add_province_modifier = {
+				name = potop
+				duration = 175
 			}
 		}
 	}
@@ -2626,9 +2796,6 @@ NOT = { year = 1800 }
 					}
 	}
 }
-
- 
- 
  
  country_event = {
 	id = 11108

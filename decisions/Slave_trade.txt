@@ -2,6 +2,7 @@ political_decisions = {
 
 Slave_trade_on = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -31,6 +32,7 @@ Slave_trade_off = {
 
 Slave_trade_charlston = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -79,6 +81,7 @@ Slave_trade_charlston = {
 	
 Slave_trade_washington = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -127,6 +130,7 @@ Slave_trade_washington = {
 	
 Slave_trade_newyork = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -175,6 +179,7 @@ Slave_trade_newyork = {
 	
 Slave_trade_neworlean = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -223,6 +228,7 @@ Slave_trade_neworlean = {
 	
 Slave_trade_mexico = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -271,6 +277,7 @@ Slave_trade_mexico = {
 	
 Slave_trade_cuba = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -319,6 +326,7 @@ Slave_trade_cuba = {
 	
 Slave_trade_gaity = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -367,6 +375,7 @@ Slave_trade_gaity = {
 	
 Slave_trade_puerto = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -414,6 +423,7 @@ Slave_trade_puerto = {
 	}
 Slave_trade_cartagena = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -461,6 +471,7 @@ Slave_trade_cartagena = {
 	}
 Slave_trade_lima = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -508,6 +519,7 @@ Slave_trade_lima = {
 	}
 Slave_trade_valparaiso = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -555,6 +567,7 @@ Slave_trade_valparaiso = {
 	}
 Slave_trade_buenos = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -602,6 +615,7 @@ Slave_trade_buenos = {
 	}
 Slave_trade_rio = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -649,6 +663,7 @@ Slave_trade_rio = {
 	}
 Slave_trade_salvador = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -696,6 +711,7 @@ Slave_trade_salvador = {
 	}
 Slave_trade_recife = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -743,6 +759,7 @@ Slave_trade_recife = {
 	}
 Slave_trade_paramaribo = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -790,6 +807,7 @@ Slave_trade_paramaribo = {
 	}
 Slave_trade_cayena = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -837,6 +855,7 @@ Slave_trade_cayena = {
 	}
 Slave_trade_liverpool = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -884,6 +903,7 @@ Slave_trade_liverpool = {
 	}
 Slave_trade_bristol = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -931,6 +951,7 @@ Slave_trade_bristol = {
 	}
 Slave_trade_gvadelupa = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -978,6 +999,7 @@ Slave_trade_gvadelupa = {
 	}
 Slave_trade_gvatemala = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -1025,6 +1047,7 @@ Slave_trade_gvatemala = {
 	}
 Slave_trade_yamaika = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -1072,6 +1095,7 @@ Slave_trade_yamaika = {
 	}
 Slave_trade_london = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -1119,6 +1143,7 @@ Slave_trade_london = {
 	}
 Slave_trade_amsterdamm = {
 	alert = yes
+    picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
 	            political_reform = yes_slavery
@@ -1155,6 +1180,54 @@ Slave_trade_amsterdamm = {
 				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 375
+			}
+			add_province_modifier = {
+              name = slave_market
+              duration = 3650
+              }
+			}
+		random_pop = { limit = { type = capitalists } money = -50000 }
+        }
+	}
+Slave_trade_nant = {
+	alert = yes
+    picture = bolivar_abolish_slavery
+	potential = {
+				is_greater_power = yes
+	            political_reform = yes_slavery
+                any_owned_province = { continent = africa } 
+				has_country_flag = Slave_trade
+	            controls = 423
+	}
+	allow = {	
+	    	NOT = { has_country_modifier = slave_trade_run }
+	        war = no
+		    money = 50000
+	}
+	
+	effect = {
+	    clr_country_flag = Slave_trade
+		money = -50000
+		clipper_convoy = -10
+		add_country_modifier = {
+		name = slave_trade_run
+		duration = 3650
+		}
+		any_owned = {
+				limit = { continent = africa }
+				poor_strata = {
+				limit = { continent = africa 
+				    unemployment = 0.05
+				    NOT = {
+					   OR = { has_pop_religion = protestant
+         					  has_pop_religion = catholic
+							  has_pop_religion = orthodox
+							  has_pop_religion = coptic }
+						}
+				}
+				reduce_pop = 0.85
+				pop_type = slaves
+				move_pop = 423
 			}
 			add_province_modifier = {
               name = slave_market

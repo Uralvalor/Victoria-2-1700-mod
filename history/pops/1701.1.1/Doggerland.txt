@@ -25,9 +25,9 @@
 	        size = 12050
 	}
 	aristocrats = {
-		culture = dutch
+		culture = frisian
 		religion = secularism
-	        size = 100
+	        size = 330
 	}
 	officers = {
 		culture = frisian
@@ -42,7 +42,7 @@
 	clergymen = {
 		culture = frisian
 		religion = secularism
-	        size = 250
+	        size = 1250
 	}
 	craftsmen = {
 		culture = frisian
@@ -52,17 +52,17 @@
 	soldiers = {
 		culture = frisian
 		religion = secularism
-	        size = 3000
+	        size = 8000
 	}
 	artisans = {
 		culture = frisian
 		religion = secularism
-	        size = 12500
+	        size = 17500
 	}
 	farmers = {
 		culture = frisian
 		religion = secularism
-	        size = 27500
+	        size = 57500
 	}
 	artisans = {
 		culture = frisian
@@ -72,7 +72,7 @@
 	farmers = {
 		culture = frisian
 		religion = protestant
-	        size = 2500
+	        size = 7500
 	}
 }
 3301 = {
@@ -80,6 +80,11 @@
 		culture = english
 		religion = protestant
 	        size = 5500
+	}
+	artisans = {
+		culture = english
+		religion = protestant
+	        size = 1050
 	}
 	farmers = {
 		culture = dutch
@@ -99,7 +104,7 @@
 	artisans = {
 		culture = sephardic
 		religion = jewish
-	        size = 5050
+	        size = 4050
 	}
 	aristocrats = {
 		culture = frisian
@@ -139,7 +144,7 @@
 	farmers = {
 		culture = frisian
 		religion = secularism
-	        size = 37500
+	        size = 32500
 	}
 	artisans = {
 		culture = frisian
@@ -221,7 +226,7 @@
 	farmers = {
 		culture = frisian
 		religion = protestant
-	        size = 5000
+	        size = 5600
 	}
 }
 3300 = {
@@ -243,7 +248,7 @@
 	artisans = {
 		culture = sephardic
 		religion = jewish
-	        size = 5000
+	        size = 3000
 	}
 	aristocrats = {
 		culture = frisian
@@ -283,7 +288,12 @@
 	farmers = {
 		culture = frisian
 		religion = secularism
-	        size = 5000
+	        size = 7400
+	}
+	farmers = {
+		culture = frisian
+		religion = protestant
+	        size = 1500
 	}
 	artisans = {
 		culture = frisian
@@ -319,10 +329,5 @@
 		culture = danish
 		religion = protestant
 	        size = 500
-	}
-	farmers = {
-		culture = danish
-		religion = protestant
-	        size = 1500
 	}
 }

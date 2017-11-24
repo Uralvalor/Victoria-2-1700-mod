@@ -37,12 +37,12 @@
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 30300
+		size = 10300
 	}
 	farmers = {
 		culture = north_german
 		religion = catholic
-		size = 9500
+		size = 4500
 	}
 	clergymen = {
 		culture = frisian
@@ -92,7 +92,7 @@
 	farmers = {
 		culture = danish
 		religion = protestant
-		size = 3851
+		size = 28851
 	}
 }
 529 = {
@@ -648,7 +648,7 @@
 		size = 75
 	}
 	artisans = {
-		culture = frisian
+		culture = north_german
 		religion = protestant
 		size = 1168
 	}
@@ -660,17 +660,17 @@
 	farmers = {
 		culture = frisian
 		religion = protestant
-		size = 4281
+		size = 1281
 	}
 	clergymen = {
 		culture = north_german
-		religion = catholic
+		religion = protestant
 		size = 13
 	}
 	farmers = {
 		culture = north_german
-		religion = catholic
-		size = 796
+		religion = protestant
+		size = 3796
 	}
 }
 540 = {
