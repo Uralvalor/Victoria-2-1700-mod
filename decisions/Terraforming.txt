@@ -1,21 +1,5 @@
 political_decisions = {	
-#	sub_unit = {
-#		picture = polder
-#		potential = {
-#			ai = no
-#		}
-#		allow = {
-#		   money = 10
-#		}
-#		effect = {
-#			capital_scope = {
-#				sub_unit = {
-#					type = cavalry
-#					value = current
-#				}
-#			}
-#		}
-#	}
+
 	build_amsterdam = {
 		picture = polder
 		potential = {

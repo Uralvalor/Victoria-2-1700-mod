@@ -1,0 +1,94 @@
+#political_decisions = {	
+#mercenary_on = {
+#	alert = yes
+#	potential = {
+#				NOT = { has_country_flag = mercenary }
+#	}
+#	allow = {	
+#				rank = 16
+#	    	    NOT = { has_country_modifier = mercenary_run }
+#	}
+#	effect = { set_country_flag = mercenary
+#        }
+#	}
+
+#mercenary_off = {
+#	alert = no
+#	potential = {
+#    	ai = no
+#		has_country_flag = mercenary 	
+#	}
+#	allow = {	
+#	    	    NOT = { has_country_modifier = mercenary_run }
+#	}
+#	
+#	effect = { clr_country_flag = mercenary
+#        }
+#}
+
+#mercenary_infantry = {
+#		potential = {
+#		has_country_flag = mercenary 
+#		flintlock_rifles = 1	
+#		}
+#		allow = {
+#		   money = 2000
+#		}
+#		effect = {
+#		money = -2000
+#		add_tax_relative_income = -24
+#		small_arms = -2
+#		canned_food = -2
+#		fabric = -1
+#		add_country_modifier = {
+#		name = mercenary_run
+#		duration = 365
+#		}
+#			capital_scope = {
+#				sub_unit = {
+#					type = infantry
+#			        strength=3
+#					value = current
+#				}
+#				sub_unit = {
+#					type = infantry
+#			        strength=3
+#					value = current
+#				}
+#			}
+#		}
+#	}
+
+#mercenary_cavalry = {
+#		potential = {
+#		has_country_flag = mercenary 	
+#		}
+
+#		allow = {
+#		   money = 2000
+#		}
+
+#		effect = {
+#		money = -2000
+#		add_tax_relative_income = -24
+#		wool = -4
+#		wine = -2
+#		add_country_modifier = {
+#		name = mercenary_run
+#		duration = 365
+#		}
+#			capital_scope = {
+#				sub_unit = {
+#					type = cavalry
+#			        strength=3
+#					value = current
+#				}
+#				sub_unit = {
+#					type = cavalry
+#			        strength=3
+#					value = current
+#				}
+#			}
+#		}
+#	}
+#}
