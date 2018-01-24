@@ -721,8 +721,13 @@
 	}
 	farmers = {
 		culture = north_german
+		religion = protestant
+		size = 13808
+	}
+	farmers = {
+		culture = north_german
 		religion = catholic
-		size = 21522
+		size = 8522
 	}
 }
 541 = {
