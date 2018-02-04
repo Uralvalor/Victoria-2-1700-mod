@@ -80,7 +80,20 @@ promotion_chance =
 			strata = poor
 		}
 	}
-
+	
+# сильно регламентированное общество где рулят племеное устройство/касты (что определяет вид деятельности)
+	modifier = {
+		factor = -0.2
+		NOT = { civilization_progress = 0.178
+                civilized = yes 
+                religion = orthodox		
+                religion = protestant		
+                religion = catholic		
+                religion = coptic		
+                religion = sunni		
+                religion = shiite		
+                religion = jewish				}
+	}
 
 	modifier = {
 		factor = -0.1
@@ -122,6 +135,20 @@ demotion_chance =
 		factor = -0.1
 		not = { religion = this }
 		strata = poor
+	}
+	
+# сильно регламентированное общество где рулят племеное устройство/касты (что определяет вид деятельности)
+	modifier = {
+		factor = -0.2
+		NOT = { civilization_progress = 0.178
+                civilized = yes 
+                religion = orthodox		
+                religion = protestant		
+                religion = catholic		
+                religion = coptic		
+                religion = sunni		
+                religion = shiite		
+                religion = jewish				}
 	}
 
 	modifier = {

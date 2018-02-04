@@ -1,5 +1,5 @@
-owner = DOG
-controller = DOG
+owner = NET
+controller = NET
 add_core = DOG
 trade_goods = precious_metal
 life_rating = 35
@@ -9,17 +9,12 @@ terrain = hilly_farmland
 
 
 state_building = {
-	level = 2
-	building = steel_factory
-	upgrade = yes
-}
-state_building = {
-	level = 2
+	level = 1
 	building = clipper_shipyard
 	upgrade = yes
 }
 state_building = {
-	level = 2
+	level = 1
 	building = fabric_factory
 	upgrade = yes
 }

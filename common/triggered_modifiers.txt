@@ -70,13 +70,28 @@ vassal_nation = {
 	global_pop_consciousness_modifier = 0.05
         global_pop_militancy_modifier = 0.05
 }
-non_civil_1700 = {
+non_civil_caste_nowar = {
 	trigger = { 					
 		not = { 
+		war = yes
 		year = 1810
-                civilized = yes 
-		civilization_progress = 0.22	}
+        civilized = yes 
+		civilization_progress = 0.178	}
 	}
+	max_tax = 0.1
 	research_points_modifier = -0.9
+	icon = 5
+}
+
+non_civil_caste_war = {
+	trigger = { 					
+		not = { 
+		war = no
+		year = 1810
+        civilized = yes 
+		civilization_progress = 0.178	}
+	}
+	max_tax = 0.9
+	research_points_modifier = -0.15
 	icon = 5
 }
