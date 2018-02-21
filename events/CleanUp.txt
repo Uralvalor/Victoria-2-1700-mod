@@ -512,7 +512,7 @@ country_event = {
 	
 	trigger = {
 	medicine = 1
-		NOT = { has_country_flag = medicine_invented }
+		NOT = { has_country_flag = medicine }
 	}
 	
 	mean_time_to_happen = {
@@ -521,7 +521,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA99001"
-		set_country_flag = medicine_invented
+		set_country_flag = medicine
 	}
 }
 
@@ -533,7 +533,7 @@ country_event = {
 	
 	trigger = {
 	organic_chemistry = 1
-		NOT = { has_country_flag = organic_chemistry_invented }
+		NOT = { has_country_flag = organic_chemistry }
 	}
 	
 	mean_time_to_happen = {
@@ -542,7 +542,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA99001"
-		set_country_flag = organic_chemistry_invented
+		set_country_flag = organic_chemistry
 	}
 }
 country_event = {
@@ -553,7 +553,7 @@ country_event = {
 	
 	trigger = {
 	electricity = 1
-		NOT = { has_country_flag = electricity_invented }
+		NOT = { has_country_flag = electricity }
 	}
 	
 	mean_time_to_happen = {
@@ -562,7 +562,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA99001"
-		set_country_flag = electricity_invented
+		set_country_flag = electricity 
 	}
 }
 country_event = {
@@ -573,7 +573,7 @@ country_event = {
 	
 	trigger = {
 	synthetic_polymers = 1
-		NOT = { has_country_flag = synthetic_polymers_invented }
+		NOT = { has_country_flag = synthetic_polymers  }
 	}
 	
 	mean_time_to_happen = {
@@ -582,7 +582,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA99001"
-		set_country_flag = synthetic_polymers_invented
+		set_country_flag = synthetic_polymers 
 	}
 }
 country_event = {
@@ -593,7 +593,7 @@ country_event = {
 	
 	trigger = {
 	consumerism = 1
-		NOT = { has_country_flag = consumerism_invented }
+		NOT = { has_country_flag = consumerism  }
 	}
 	
 	mean_time_to_happen = {
@@ -602,7 +602,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA99001"
-		set_country_flag = consumerism_invented
+		set_country_flag = consumerism 
 	}
 }
 country_event = {
@@ -613,7 +613,7 @@ country_event = {
 	
 	trigger = {
 	social_science = 1
-		NOT = { has_country_flag = social_science_invented }
+		NOT = { has_country_flag = social_science  }
 	}
 	
 	mean_time_to_happen = {
@@ -622,7 +622,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA99001"
-		set_country_flag = social_science_invented
+		set_country_flag = social_science 
 	}
 }
 country_event = {
@@ -633,7 +633,7 @@ country_event = {
 	
 	trigger = {
 	sentimentalism = 1
-		NOT = { has_country_flag = sentimentalism_invented }
+		NOT = { has_country_flag = sentimentalism  }
 	}
 	
 	mean_time_to_happen = {
@@ -642,7 +642,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA99001"
-		set_country_flag = sentimentalism_invented
+		set_country_flag = sentimentalism 
 	}
 }
 country_event = {
@@ -653,7 +653,7 @@ country_event = {
 	
 	trigger = {
 	romanticism = 1
-		NOT = { has_country_flag = romanticism_invented }
+		NOT = { has_country_flag = romanticism  }
 	}
 	
 	mean_time_to_happen = {
@@ -662,7 +662,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA99001"
-		set_country_flag = romanticism_invented
+		set_country_flag = romanticism 
 	}
 }
 country_event = {
@@ -673,7 +673,7 @@ country_event = {
 	
 	trigger = {
 	mass_culture = 1
-		NOT = { has_country_flag = mass_culture_invented }
+		NOT = { has_country_flag = mass_culture  }
 	}
 	
 	mean_time_to_happen = {
@@ -682,7 +682,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA99001"
-		set_country_flag = mass_culture_invented
+		set_country_flag = mass_culture 
 	}
 }
 country_event = {
@@ -693,7 +693,7 @@ country_event = {
 	
 	trigger = {
 	ad_hoc_money_bill_printing = 1
-		NOT = { has_country_flag = ad_hoc_money_bill_printing_invented }
+		NOT = { has_country_flag = ad_hoc_money_bill_printing  }
 	}
 	
 	mean_time_to_happen = {
@@ -702,7 +702,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA99001"
-		set_country_flag = ad_hoc_money_bill_printing_invented
+		set_country_flag = ad_hoc_money_bill_printing 
 	}
 }
 country_event = {
@@ -713,7 +713,7 @@ country_event = {
 	
 	trigger = {
 	private_bank_money_bill_printing = 1
-		NOT = { has_country_flag = private_bank_money_bill_printing_invented }
+		NOT = { has_country_flag = private_bank_money_bill_printing  }
 	}
 	
 	mean_time_to_happen = {
@@ -722,7 +722,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA99001"
-		set_country_flag = private_bank_money_bill_printing_invented
+		set_country_flag = private_bank_money_bill_printing 
 	}
 }
 country_event = {
@@ -733,7 +733,7 @@ country_event = {
 	
 	trigger = {
 	central_bank_money_bill_printing = 1
-		NOT = { has_country_flag = central_bank_money_bill_printing_invented }
+		NOT = { has_country_flag = central_bank_money_bill_printing  }
 	}
 	
 	mean_time_to_happen = {
@@ -742,7 +742,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA99001"
-		set_country_flag = central_bank_money_bill_printing_invented
+		set_country_flag = central_bank_money_bill_printing 
 	}
 }
 country_event = {
@@ -753,7 +753,7 @@ country_event = {
 	
 	trigger = {
 	bretton_woods_system = 1
-		NOT = { has_country_flag = bretton_woods_system_invented }
+		NOT = { has_country_flag = bretton_woods_system  }
 	}
 	
 	mean_time_to_happen = {
@@ -762,6 +762,6 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA99001"
-		set_country_flag = bretton_woods_system_invented
+		set_country_flag = bretton_woods_system 
 	}
 }

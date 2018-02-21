@@ -5,7 +5,7 @@ Slave_trade_on = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
 				NOT = { has_country_flag = Slave_trade }
 	}
 	allow = {	
@@ -13,8 +13,7 @@ Slave_trade_on = {
                 any_owned_province = { continent = africa } 
 	}
 	
-	effect = { set_country_flag = Slave_trade
-        }
+	effect = { set_country_flag = Slave_trade       }
 	}
 
 Slave_trade_off = {
@@ -35,7 +34,7 @@ Slave_trade_charlston = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 205
@@ -49,7 +48,7 @@ Slave_trade_charlston = {
 	effect = {
 	    clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
@@ -84,7 +83,7 @@ Slave_trade_washington = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 220
@@ -98,7 +97,7 @@ Slave_trade_washington = {
 	effect = {
 	clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
@@ -133,7 +132,7 @@ Slave_trade_newyork = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 232
@@ -147,7 +146,7 @@ Slave_trade_newyork = {
 	effect = {
 	    clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
@@ -182,7 +181,7 @@ Slave_trade_neworlean = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 139
@@ -196,7 +195,7 @@ Slave_trade_neworlean = {
 	effect = {
 	    clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
@@ -231,7 +230,7 @@ Slave_trade_mexico = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 2172
@@ -245,7 +244,7 @@ Slave_trade_mexico = {
 	effect = {
 	    clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
@@ -280,7 +279,7 @@ Slave_trade_cuba = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 2212
@@ -294,7 +293,7 @@ Slave_trade_cuba = {
 	effect = {
 	    clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
@@ -329,7 +328,7 @@ Slave_trade_gaity = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 2213
@@ -343,7 +342,7 @@ Slave_trade_gaity = {
 	effect = {
 	    clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
@@ -378,7 +377,7 @@ Slave_trade_puerto = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 2222
@@ -392,7 +391,7 @@ Slave_trade_puerto = {
 	effect = {
 	    clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
@@ -426,7 +425,7 @@ Slave_trade_cartagena = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 2254
@@ -440,7 +439,7 @@ Slave_trade_cartagena = {
 	effect = {
 	    clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
@@ -474,7 +473,7 @@ Slave_trade_lima = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 2295
@@ -488,7 +487,7 @@ Slave_trade_lima = {
 	effect = {
 	    clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
@@ -522,7 +521,7 @@ Slave_trade_valparaiso = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 2325
@@ -536,7 +535,7 @@ Slave_trade_valparaiso = {
 	effect = {
 	    clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
@@ -570,7 +569,7 @@ Slave_trade_buenos = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 2348
@@ -584,7 +583,7 @@ Slave_trade_buenos = {
 	effect = {
 	    clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
@@ -618,7 +617,7 @@ Slave_trade_rio = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 2447
@@ -632,7 +631,7 @@ Slave_trade_rio = {
 	effect = {
 	    clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
@@ -666,7 +665,7 @@ Slave_trade_salvador = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 2436
@@ -680,7 +679,7 @@ Slave_trade_salvador = {
 	effect = {
 	    clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
@@ -714,7 +713,7 @@ Slave_trade_recife = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 2432
@@ -728,7 +727,7 @@ Slave_trade_recife = {
 	effect = {
 	    clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
@@ -762,7 +761,7 @@ Slave_trade_paramaribo = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 2240
@@ -776,7 +775,7 @@ Slave_trade_paramaribo = {
 	effect = {
 	    clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
@@ -810,7 +809,7 @@ Slave_trade_cayena = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 2241
@@ -824,7 +823,7 @@ Slave_trade_cayena = {
 	effect = {
 	    clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
@@ -858,7 +857,7 @@ Slave_trade_liverpool = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 277
@@ -872,7 +871,7 @@ Slave_trade_liverpool = {
 	effect = {
 	    clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
@@ -906,7 +905,7 @@ Slave_trade_bristol = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 296
@@ -920,7 +919,7 @@ Slave_trade_bristol = {
 	effect = {
 	    clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
@@ -954,7 +953,7 @@ Slave_trade_gvadelupa = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 2230
@@ -968,7 +967,7 @@ Slave_trade_gvadelupa = {
 	effect = {
 	    clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
@@ -1002,7 +1001,7 @@ Slave_trade_gvatemala = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 2186
@@ -1016,7 +1015,7 @@ Slave_trade_gvatemala = {
 	effect = {
 	    clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
@@ -1050,7 +1049,7 @@ Slave_trade_yamaika = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 2217
@@ -1064,7 +1063,7 @@ Slave_trade_yamaika = {
 	effect = {
 	    clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
@@ -1098,7 +1097,7 @@ Slave_trade_london = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 300
@@ -1112,7 +1111,7 @@ Slave_trade_london = {
 	effect = {
 	    clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
@@ -1146,7 +1145,7 @@ Slave_trade_amsterdamm = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 375
@@ -1160,7 +1159,7 @@ Slave_trade_amsterdamm = {
 	effect = {
 	    clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
@@ -1194,7 +1193,7 @@ Slave_trade_nant = {
     picture = bolivar_abolish_slavery
 	potential = {
 				is_greater_power = yes
-	            political_reform = yes_slavery
+	            slavery = yes_slavery
                 any_owned_province = { continent = africa } 
 				has_country_flag = Slave_trade
 	            controls = 423
@@ -1208,7 +1207,7 @@ Slave_trade_nant = {
 	effect = {
 	    clr_country_flag = Slave_trade
 		money = -50000
-		clipper_convoy = -10
+		clipper_convoy = transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
 		duration = 3650
