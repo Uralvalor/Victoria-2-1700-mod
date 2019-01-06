@@ -580,12 +580,11 @@ province_event = {
 	}
 
 	mean_time_to_happen =  {
-		months = 24
-
+		months = 48
 	}
 
 	title = "Меха иссякли"
-	desc = "К сожалению нещадное истребление пушных животных ради меха и изготовления из них дорогой одежды привело к тому, что провинция больше не дает достаточного количества меха !"
+	desc = "К сожалению нещадное истребление пушных животных ради меха для изготовления из них дорогой одежды привело к тому, что провинция больше не дает достаточного количества мехов !"
 	picture = ""
 
 	option = {
@@ -607,7 +606,7 @@ province_event = {
 	}
 
 	mean_time_to_happen =  {
-		months = 24
+		months = 48
 
 	}
 
@@ -635,7 +634,7 @@ province_event = {
 	}
 
 	mean_time_to_happen =  {
-		months = 24
+		months = 48
 
 	}
 
@@ -664,7 +663,7 @@ province_event = {
 	}
 
 	mean_time_to_happen =  {
-		months = 24
+		months = 48
 
 	}
 
@@ -691,7 +690,7 @@ province_event = {
 	}
 
 	mean_time_to_happen =  {
-		months = 24
+		months = 48
 
 	}
 

@@ -315,7 +315,7 @@ country_event = {
 	picture = "doggerland"	
 	
 	trigger = {     year = 1707
-		            NOT = { DOG_3298 = { has_province_modifier = potop } }
+		            OR = { NOT = { 3298 = { has_province_modifier = potop } } NOT = { 3299 = { has_province_modifier = potop } } NOT = { 3300 = { has_province_modifier = potop } } NOT = { 3301 = { has_province_modifier = potop } } }
             		OR = { owns = 3298 owns = 3299 owns = 3300 owns = 3301 }
                     NOT = {	year = 1810 }
 					NOT = { has_global_flag = damm_doggerland }
@@ -344,7 +344,6 @@ country_event = {
 	desc = "EVTDESC1099999"
 	picture = "doggerland"	
 	
-	fire_only_once = yes
 	major = yes
 	
 	trigger = {  
@@ -358,15 +357,15 @@ country_event = {
 		name = " ¿“¿—“–Œ‘¿!"
 	DOG_3298 = {
 		poor_strata = {
-				reduce_pop = 0.1
-				move_pop = 385
-			}
-		middle_strata = {
 				reduce_pop = 0.2
 				move_pop = 385
 			}
+		middle_strata = {
+				reduce_pop = 0.4
+				move_pop = 385
+			}
 		rich_strata = {
-				reduce_pop = 0.5
+				reduce_pop = 0.7
 				move_pop = 385
 			}
 		life_rating = -35

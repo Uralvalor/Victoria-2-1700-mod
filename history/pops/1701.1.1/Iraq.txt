@@ -32,42 +32,7 @@
 	farmers = {
 		culture = mashriqi
 		religion = sunni
-		size = 7792
-	}
-	bureaucrats = {
-		culture = turkish
-		religion = sunni
-		size = 121
-	}
-	bureaucrats = {
-		culture = turkish
-		religion = sunni
-		size = 59
-	}
-	officers = {
-		culture = turkish
-		religion = sunni
-		size = 59
-	}
-	clergymen = {
-		culture = turkish
-		religion = sunni
-		size = 99
-	}
-	artisans = {
-		culture = turkish
-		religion = sunni
-		size = 46
-	}
-	soldiers = {
-		culture = turkish
-		religion = sunni
-		size = 808
-	}
-	farmers = {
-		culture = turkish
-		religion = sunni
-		size = 3067
+		size = 10792
 	}
 	bureaucrats = {
 		culture = kurdish
@@ -97,7 +62,7 @@
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 8208
+		size = 9208
 	}
 	clergymen = {
 		culture = mashriqi
@@ -142,31 +107,6 @@
 		size = 8700
 	}
 	bureaucrats = {
-		culture = turkish
-		religion = shiite
-		size = 79
-	}
-	clergymen = {
-		culture = turkish
-		religion = shiite
-		size = 39
-	}
-	artisans = {
-		culture = turkish
-		religion = shiite
-		size = 23
-	}
-	soldiers = {
-		culture = turkish
-		religion = shiite
-		size = 59
-	}
-	farmers = {
-		culture = turkish
-		religion = shiite
-		size = 4427
-	}
-	bureaucrats = {
 		culture = kurdish
 		religion = shiite
 		size = 201
@@ -184,12 +124,12 @@
 	soldiers = {
 		culture = kurdish
 		religion = shiite
-		size = 121
+		size = 1121
 	}
 	farmers = {
 		culture = kurdish
 		religion = shiite
-		size = 14158
+		size = 18158
 	}
 	clergymen = {
 		culture = mashriqi
@@ -234,31 +174,6 @@
 		size = 4912
 	}
 	bureaucrats = {
-		culture = turkish
-		religion = sunni
-		size = 121
-	}
-	clergymen = {
-		culture = turkish
-		religion = sunni
-		size = 79
-	}
-	artisans = {
-		culture = turkish
-		religion = sunni
-		size = 38
-	}
-	soldiers = {
-		culture = turkish
-		religion = sunni
-		size = 808
-	}
-	farmers = {
-		culture = turkish
-		religion = sunni
-		size = 6671
-	}
-	bureaucrats = {
 		culture = kurdish
 		religion = sunni
 		size = 261
@@ -276,12 +191,12 @@
 	soldiers = {
 		culture = kurdish
 		religion = sunni
-		size = 808
+		size = 2808
 	}
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 15669
+		size = 20669
 	}
 	clergymen = {
 		culture = mashriqi

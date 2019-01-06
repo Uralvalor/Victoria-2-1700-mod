@@ -72,9 +72,9 @@
 		size = 284
 	}
 	farmers = {
-		culture = turkish
-		religion = sunni
-		size = 3558
+		culture = armenian
+		religion = orthodox
+		size = 7558
 	}
 	clergymen = {
 		culture = greek
@@ -104,7 +104,7 @@
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 5787
+		size = 1787
 	}
 	clergymen = {
 		culture = sephardic
@@ -193,17 +193,12 @@
 	artisans = {
 		culture = turkish
 		religion = sunni
-		size = 23879
+		size = 30879
 	}
 	soldiers = {
 		culture = turkish
 		religion = sunni
 		size = 3916
-	}
-	artisans = {
-		culture = turkish
-		religion = sunni
-		size = 31904
 	}
 	bureaucrats = {
 		culture = greek
@@ -218,7 +213,12 @@
 	artisans = {
 		culture = greek
 		religion = orthodox
-		size = 20651
+		size = 10651
+	}
+	artisans = {
+		culture = greek
+		religion = secularism
+		size = 30651
 	}
 	artisans = {
 		culture = greek
@@ -238,7 +238,7 @@
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 112
+		size = 5112
 	}
 	clergymen = {
 		culture = armenian
@@ -273,7 +273,12 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 15000
+		size = 5000
+	}
+	farmers = {
+		culture = greek
+		religion = secularism
+		size = 10000
 	}
 	artisans = {
 		culture = north_italian
@@ -310,7 +315,7 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 14095
+		size = 7095
 	}
 	clergymen = {
 		culture = greek
@@ -325,7 +330,7 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 3321
+		size = 10321
 	}
 	clergymen = {
 		culture = armenian
@@ -347,12 +352,12 @@
 	bureaucrats = {
 		culture = turkish
 		religion = sunni
-		size = 955
+		size = 55
 	}
 	clergymen = {
 		culture = turkish
 		religion = sunni
-		size = 549
+		size = 449
 	}
 	artisans = {
 		culture = turkish
@@ -367,7 +372,7 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 12804
+		size = 2804
 	}
 	clergymen = {
 		culture = greek
@@ -382,7 +387,12 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 18247
+		size = 5247
+	}
+	farmers = {
+		culture = greek
+		religion = secularism
+		size = 5000
 	}
 	clergymen = {
 		culture = armenian
@@ -397,7 +407,12 @@
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 13289
+		size = 1289
+	}
+	farmers = {
+		culture = armenian
+		religion = secularism
+		size = 20000
 	}
 }
 863 = {
@@ -449,7 +464,7 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 25074
+		size = 5074
 	}
 	clergymen = {
 		culture = armenian
@@ -501,7 +516,7 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 38081
+		size = 18081
 	}
 	clergymen = {
 		culture = greek
@@ -517,6 +532,11 @@
 		culture = greek
 		religion = orthodox
 		size = 8419
+	}
+	farmers = {
+		culture = greek
+		religion = secularism
+		size = 20000
 	}
 }
 865 = {
@@ -543,12 +563,12 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 12138
+		size = 1138
 	}
 	clergymen = {
 		culture = greek
 		religion = orthodox
-		size = 340
+		size = 1340
 	}
 	artisans = {
 		culture = greek
@@ -558,7 +578,12 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 13789
+		size = 3789
+	}
+	farmers = {
+		culture = greek
+		religion = secularism
+		size = 20000
 	}
 }
 866 = {
@@ -731,12 +756,7 @@
 	bureaucrats = {
 		culture = turkish
 		religion = sunni
-		size = 549
-	}
-	bureaucrats = {
-		culture = turkish
-		religion = sunni
-		size = 405
+		size = 49
 	}
 	officers = {
 		culture = turkish
@@ -751,17 +771,17 @@
 	artisans = {
 		culture = turkish
 		religion = sunni
-		size = 3104
+		size = 104
 	}
 	soldiers = {
 		culture = turkish
 		religion = sunni
-		size = 1911
+		size = 911
 	}
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 22820
+		size = 720
 	}
 	clergymen = {
 		culture = greek
@@ -776,7 +796,12 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 20007
+		size = 6007
+	}
+	farmers = {
+		culture = greek
+		religion = secularism
+		size = 30000
 	}
 	clergymen = {
 		culture = armenian
@@ -786,7 +811,12 @@
 	artisans = {
 		culture = armenian
 		religion = orthodox
-		size = 233
+		size = 1233
+	}
+	farmers = {
+		culture = armenian
+		religion = orthodox
+		size = 5000
 	}
 	clergymen = {
 		culture = sephardic
@@ -796,7 +826,7 @@
 	artisans = {
 		culture = sephardic
 		religion = jewish
-		size = 7040
+		size = 12040
 	}
 }
 870 = {
@@ -823,7 +853,7 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 65512
+		size = 35512
 	}
 	clergymen = {
 		culture = greek
@@ -838,7 +868,12 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 22432
+		size = 2432
+	}
+	farmers = {
+		culture = greek
+		religion = secularism
+		size = 20000
 	}
 }
 871 = {
@@ -865,7 +900,7 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 66578
+		size = 36578
 	}
 	clergymen = {
 		culture = greek
@@ -907,7 +942,7 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 7817
+		size = 11817
 	}
 	clergymen = {
 		culture = greek
@@ -922,7 +957,7 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 12563
+		size = 563
 	}
 }
 873 = {
@@ -1182,7 +1217,7 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 50029
+		size = 30029
 	}
 	clergymen = {
 		culture = greek
@@ -1239,7 +1274,7 @@
 	farmers = {
 		culture = turkish
 		religion = shiite
-		size = 51949
+		size = 43449
 	}
 	clergymen = {
 		culture = greek
@@ -1269,7 +1304,7 @@
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 6533
+		size = 15033
 	}
 }
 879 = {
@@ -1296,7 +1331,7 @@
 	farmers = {
 		culture = turkish
 		religion = shiite
-		size = 40441
+		size = 10441
 	}
 	clergymen = {
 		culture = greek
@@ -1326,7 +1361,12 @@
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 8419
+		size = 18419
+	}
+	farmers = {
+		culture = armenian
+		religion = secularism
+		size = 20000
 	}
 }
 880 = {
@@ -1363,7 +1403,7 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 36620
+		size = 16620
 	}
 	clergymen = {
 		culture = greek
@@ -1378,7 +1418,12 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 5089
+		size = 3089
+	}
+	farmers = {
+		culture = greek
+		religion = secularism
+		size = 30000
 	}
 }
 881 = {
@@ -1405,7 +1450,12 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 16403
+		size = 9403
+	}
+	farmers = {
+		culture = armenian
+		religion = orthodox
+		size = 5000
 	}
 	clergymen = {
 		culture = greek
@@ -1420,14 +1470,14 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 5503
+		size = 7503
 	}
 }
 882 = {
 	bureaucrats = {
 		culture = turkish
 		religion = sunni
-		size = 526
+		size = 26
 	}
 	bureaucrats = {
 		culture = turkish
@@ -1452,12 +1502,12 @@
 	soldiers = {
 		culture = turkish
 		religion = sunni
-		size = 1911
+		size = 1011
 	}
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 8431
+		size = 5431
 	}
 	clergymen = {
 		culture = georgian
@@ -1465,14 +1515,19 @@
 		size = 117
 	}
 	artisans = {
-		culture = georgian
+		culture = greek
 		religion = orthodox
-		size = 154
+		size = 1154
+	}
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 15376
 	}
 	farmers = {
 		culture = georgian
 		religion = orthodox
-		size = 24376
+		size = 3376
 	}
 	clergymen = {
 		culture = armenian
@@ -1487,7 +1542,7 @@
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 4668
+		size = 14068
 	}
 }
 883 = {
@@ -1514,7 +1569,7 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 37659
+		size = 17659
 	}
 	clergymen = {
 		culture = greek
@@ -1529,7 +1584,12 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 4668
+		size = 14668
+	}
+	farmers = {
+		culture = greek
+		religion = secularism
+		size = 30000
 	}
 }
 884 = {
@@ -1556,7 +1616,7 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 21861
+		size = 861
 	}
 	clergymen = {
 		culture = greek
@@ -1571,7 +1631,7 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 4417
+		size = 8417
 	}
 	clergymen = {
 		culture = georgian
@@ -1588,12 +1648,22 @@
 		religion = orthodox
 		size = 3390
 	}
+	farmers = {
+		culture = armenian
+		religion = orthodox
+		size = 1000
+	}
+	farmers = {
+		culture = armenian
+		religion = secularism
+		size = 20000
+	}
 }
 885 = {
 	bureaucrats = {
 		culture = turkish
 		religion = sunni
-		size = 573
+		size = 73
 	}
 	bureaucrats = {
 		culture = turkish
@@ -1618,12 +1688,12 @@
 	soldiers = {
 		culture = turkish
 		religion = sunni
-		size = 666
+		size = 665
 	}
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 6719
+		size = 719
 	}
 	clergymen = {
 		culture = armenian
@@ -1638,7 +1708,12 @@
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 36368
+		size = 2868
+	}
+	farmers = {
+		culture = armenian
+		religion = secularism
+		size = 40000
 	}
 	bureaucrats = {
 		culture = kurdish
@@ -1715,7 +1790,12 @@
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 28598
+		size = 8598
+	}
+	farmers = {
+		culture = armenian
+		religion = secularism
+		size = 30000
 	}
 	clergymen = {
 		culture = georgian
@@ -1735,7 +1815,7 @@
 	farmers = {
 		culture = georgian
 		religion = orthodox
-		size = 15327
+		size = 5327
 	}
 }
 887 = {
@@ -1787,7 +1867,12 @@
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 23363
+		size = 13363
+	}
+	farmers = {
+		culture = armenian
+		religion = secularism
+		size = 30000
 	}
 	bureaucrats = {
 		culture = kurdish
@@ -1849,7 +1934,7 @@
 	farmers = {
 		culture = turkish
 		religion = shiite
-		size = 10047
+		size = 1047
 	}
 	clergymen = {
 		culture = armenian
@@ -1864,7 +1949,12 @@
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 23635
+		size = 2635
+	}
+	farmers = {
+		culture = armenian
+		religion = secularism
+		size = 30000
 	}
 	bureaucrats = {
 		culture = kurdish
@@ -1916,7 +2006,7 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 10033
+		size = 2033
 	}
 	clergymen = {
 		culture = armenian
@@ -1931,7 +2021,12 @@
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 19226
+		size = 7226
+	}
+	farmers = {
+		culture = armenian
+		religion = secularism
+		size = 20000
 	}
 	clergymen = {
 		culture = mashriqi
@@ -2008,7 +2103,7 @@
 	farmers = {
 		culture = turkish
 		religion = shiite
-		size = 5101
+		size = 1101
 	}
 	clergymen = {
 		culture = armenian
@@ -2025,6 +2120,11 @@
 		religion = orthodox
 		size = 12347
 	}
+	farmers = {
+		culture = armenian
+		religion = sunni
+		size = 5000
+	}
 	clergymen = {
 		culture = mashriqi
 		religion = catholic
@@ -2038,7 +2138,7 @@
 	farmers = {
 		culture = mashriqi
 		religion = catholic
-		size = 5612
+		size = 1612
 	}
 	bureaucrats = {
 		culture = kurdish
@@ -2073,7 +2173,7 @@
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 14394
+		size = 17394
 	}
 }
 891 = {
@@ -2100,7 +2200,7 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 23528
+		size = 3528
 	}
 	clergymen = {
 		culture = armenian
@@ -2115,7 +2215,12 @@
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 26558
+		size = 16558
+	}
+	farmers = {
+		culture = armenian
+		religion = secularism
+		size = 40000
 	}
 	clergymen = {
 		culture = mashriqi
@@ -2130,7 +2235,7 @@
 	farmers = {
 		culture = mashriqi
 		religion = catholic
-		size = 11861
+		size = 1861
 	}
 	bureaucrats = {
 		culture = kurdish
@@ -2155,7 +2260,12 @@
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 35365
+		size = 25365
+	}
+	farmers = {
+		culture = kurdish
+		religion = shiite
+		size = 10000
 	}
 }
 892 = {
@@ -2182,7 +2292,7 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 2631
+		size = 631
 	}
 	clergymen = {
 		culture = armenian
@@ -2197,7 +2307,7 @@
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 6558
+		size = 5558
 	}
 	clergymen = {
 		culture = mashriqi
@@ -2222,22 +2332,22 @@
 	clergymen = {
 		culture = kurdish
 		religion = sunni
-		size = 93
+		size = 1093
 	}
 	artisans = {
 		culture = kurdish
 		religion = sunni
-		size = 131
+		size = 1131
 	}
 	soldiers = {
 		culture = kurdish
 		religion = sunni
-		size = 166
+		size = 1166
 	}
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 9960
+		size = 50960
 	}
 }
 893 = {
@@ -2279,7 +2389,12 @@
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 20619
+		size = 5619
+	}
+	farmers = {
+		culture = armenian
+		religion = secularism
+		size = 15000
 	}
 	clergymen = {
 		culture = mashriqi
@@ -2321,6 +2436,11 @@
 		religion = shiite
 		size = 31401
 	}
+	farmers = {
+		culture = kurdish
+		religion = sunni
+		size = 30000
+	}
 }
 894 = {
 	bureaucrats = {
@@ -2356,7 +2476,7 @@
 	farmers = {
 		culture = assirian
 		religion = catholic
-		size = 46083
+		size = 38083
 	}
 	clergymen = {
 		culture = greek
@@ -2386,7 +2506,7 @@
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 8419
+		size = 16419
 	}
 }
 895 = {
@@ -2566,7 +2686,7 @@
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 32486
+		size = 49486
 	}
 	bureaucrats = {
 		culture = mashriqi
@@ -2591,7 +2711,7 @@
 	farmers = {
 		culture = mashriqi
 		religion = sunni
-		size = 22941
+		size = 5941
 	}
 	clergymen = {
 		culture = armenian
@@ -2659,7 +2779,7 @@
 	farmers = {
 		culture = mashriqi
 		religion = shiite
-		size = 9912
+		size = 3912
 	}
 	clergymen = {
 		culture = mashriqi
@@ -2674,7 +2794,7 @@
 	farmers = {
 		culture = mashriqi
 		religion = orthodox
-		size = 8419
+		size = 5419
 	}
 	clergymen = {
 		culture = armenian
@@ -2689,6 +2809,6 @@
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 3699
+		size = 13699
 	}
 }

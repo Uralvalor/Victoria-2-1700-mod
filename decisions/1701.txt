@@ -175,7 +175,7 @@ political_decisions = {
 			tag = RUS
 			is_greater_power= yes
 			NOT = { has_country_flag = rus_empire_declared }
-
+			NOT = { has_country_flag = rus_unite_declared }
 			}
 
 			allow = {
@@ -212,7 +212,70 @@ political_decisions = {
 			
 			ai_will_do = { factor = 1 }
 	}
-	
+	declare_russian_unite = {
+			potential = {
+			tag = RUS
+			is_greater_power= yes
+			NOT = { has_country_flag = rus_empire_declared }
+			NOT = { has_country_flag = rus_unite_declared }
+
+			}
+
+			allow = {
+			prestige = 55
+			OR = { AND = { diplomatic_influence = {
+				who = UKR
+				value = 300
+			}
+			diplomatic_influence = {
+				who = CSK
+				value = 300
+			} }
+			AND = { UKR = { OR = { 
+				    vassal_of = RUS
+					in_sphere = THIS
+					NOT = { exists = UKR } }
+					}
+			CSK = { OR = { 
+				    vassal_of = RUS
+					in_sphere = THIS
+					NOT = { exists = CSK } }
+					}
+			} } }
+
+			effect = {
+				government = absolute_monarchy
+				vote_franschise = none_voting
+				inherit = UKR
+				inherit = CSK
+				set_country_flag = rus_unite_declared
+			}
+			
+			ai_will_do = { factor = 1 }
+	}
+	declare_cossack_unite = {
+		picture = dikoe_pole
+			potential = {
+			tag = CSK
+			exists = UKR
+			NOT = { has_country_flag = cossack_unite_declared }
+			RUS = { NOT = { has_country_flag = rus_empire_declared }
+			        NOT = { has_country_flag = rus_unite_declared }
+                  }
+			}
+			allow = {
+			is_vassal= no
+			prestige = 30
+			UKR = { is_vassal= no }  
+			}
+			effect = {
+				government = democracy
+				inherit = UKR
+				set_country_flag = cossack_unite_declared
+			}
+			
+			ai_will_do = { factor = 1 }
+	}
 	window_to_east = {
 		picture = window_to_east1
 			potential = {

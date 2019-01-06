@@ -22,7 +22,7 @@
 	farmers = {
 		culture = uzbek
 		religion = sunni
-		size = 19305
+		size = 9305
 	}
 	bureaucrats = {
 		culture = tajik
@@ -101,7 +101,12 @@
 	farmers = {
 		culture = tajik
 		religion = sunni
-		size = 16435
+		size = 1643
+	}
+	farmers = {
+		culture = kirgiz
+		religion = sunni
+		size = 5000
 	}
 	bureaucrats = {
 		culture = uighur

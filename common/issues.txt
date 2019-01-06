@@ -16,8 +16,14 @@ party_issues = {
 		laissez_faire = {
 		     
 			max_tax = 0.35
-			factory_owner_cost = 0.3
-			factory_output = 0.05
+			factory_owner_cost = -0.2
+			factory_input = -0.2
+			factory_output = 0.2
+			goods_demand = 0.2
+			supply_consumption = -0.25
+			research_points_modifier = -0.25
+			
+			
 			
 			rules = {
 				build_factory = no
@@ -40,7 +46,12 @@ party_issues = {
 			}
 		}
 		interventionism = {
-			factory_owner_cost = 0.5
+			goods_demand = 0.08
+			supply_consumption = -0.1
+			research_points_modifier = -0.1
+			factory_input = -0.05
+			factory_owner_cost = -0.05
+			factory_output = 0.05
 			
 			rules = {
 				build_factory = no
@@ -66,7 +77,10 @@ party_issues = {
 		}
 		state_capitalism = {
 			min_tax = 0.25
-			factory_owner_cost = 0.6
+			goods_demand = -0.08
+			supply_consumption = 0.1
+			research_points_modifier = 0.1
+			factory_throughput = 0.1
 		     
 			rules = {
 				build_factory = yes
@@ -88,8 +102,13 @@ party_issues = {
 		}
 		planned_economy = {
 			min_tax = 0.5
-			factory_output = 0.05
-			factory_owner_cost = -1	#negative costs, can't build.
+			
+			goods_demand = -0.2
+			supply_consumption = 0.25
+			research_points_modifier = 0.25
+			factory_throughput = 0.25
+			tax_efficiency = 0.05
+			
 			rules = {
 				build_factory = yes
 				expand_factory = yes
@@ -132,6 +151,8 @@ party_issues = {
 	citizenship_policy = {
 		residency = {
 			rules = { primary_culture_voting = yes }
+			global_pop_consciousness_modifier = -0.02
+			core_pop_militancy_modifier = -0.01
 			non_accepted_pop_militancy_modifier = 0.01
 		}
 		limited_citizenship = {
@@ -140,8 +161,10 @@ party_issues = {
 		}
 		full_citizenship = {
 			rules = { all_voting = yes }
-			non_accepted_pop_militancy_modifier = -0.01
 			global_assimilation_rate = 0.25
+			global_pop_consciousness_modifier = 0.02
+			core_pop_militancy_modifier = 0.01
+			non_accepted_pop_militancy_modifier = -0.01
 		}
 	}
 	war_policy = {
@@ -154,6 +177,7 @@ party_issues = {
 			mobilization_impact = 4
 			org_regain = 0.5
 			reinforce_speed = 0.5
+		
 		}
 		pro_military = {
 			max_military_spending = 1.0
@@ -180,6 +204,7 @@ party_issues = {
 			mobilization_impact = 1
 			org_regain = -0.5
 			reinforce_speed = -0.5
+			
 		}
 	}
 }
@@ -495,7 +520,7 @@ political_reforms = {
 			allow = { religious_policy = moralism }
 		}
 		secularism = { 
-			allow = { religious_policy = secularized }
+			allow = { religious_policy = pro_atheism }
 		}
 	}
 }
@@ -820,7 +845,7 @@ economic_reforms = {
 	                poor_life_needs = -0.15
 	                middle_life_needs = -0.15
 	                rich_life_needs = -0.15
-			global_pop_consciousness_modifier = -0.005
+			        global_pop_consciousness_modifier = -0.005
 	                mobilisation_size = 0.3
 		}
 		no_land_reform = {
