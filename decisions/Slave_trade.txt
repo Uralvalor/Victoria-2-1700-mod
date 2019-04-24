@@ -42,22 +42,22 @@ Slave_trade_charlston = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	    clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -65,16 +65,19 @@ Slave_trade_charlston = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 205
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 205
+			}
+			 
+			}
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
 	}
 	
@@ -91,22 +94,22 @@ Slave_trade_washington = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -114,16 +117,19 @@ Slave_trade_washington = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 220
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 220
+			}
+			 
+			}
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
 	}
 	
@@ -140,22 +146,22 @@ Slave_trade_newyork = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	    clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -163,16 +169,19 @@ Slave_trade_newyork = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 232
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 232
+			}
+			 
+			}
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
 	}
 	
@@ -189,22 +198,22 @@ Slave_trade_neworlean = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	    clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -212,16 +221,19 @@ Slave_trade_neworlean = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 139
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 139
+			}
+			 
+			}
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
 	}
 	
@@ -238,22 +250,22 @@ Slave_trade_mexico = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	    clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -261,16 +273,19 @@ Slave_trade_mexico = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 2172
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 2172
+			}
+			 
+			}
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
 	}
 	
@@ -287,22 +302,22 @@ Slave_trade_cuba = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	    clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -310,16 +325,19 @@ Slave_trade_cuba = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 2212
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 2212
+			}
+			 
+			}
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
 	}
 	
@@ -336,22 +354,22 @@ Slave_trade_gaity = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	    clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -359,16 +377,19 @@ Slave_trade_gaity = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 2213
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 2213
+			}
+			 
+			}
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
 	}
 	
@@ -385,22 +406,22 @@ Slave_trade_puerto = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	    clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -408,16 +429,19 @@ Slave_trade_puerto = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 2222
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 2222
+			}
+			 
+			}
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
 	}
 Slave_trade_cartagena = {
@@ -433,22 +457,22 @@ Slave_trade_cartagena = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	    clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -456,16 +480,19 @@ Slave_trade_cartagena = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 2254
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 2254
+			}
+			 
+			}
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
 	}
 Slave_trade_lima = {
@@ -481,22 +508,22 @@ Slave_trade_lima = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	    clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -504,16 +531,19 @@ Slave_trade_lima = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 2295
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 2295
+			}
+			 
+			}
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
 	}
 Slave_trade_valparaiso = {
@@ -529,22 +559,22 @@ Slave_trade_valparaiso = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	    clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -552,16 +582,19 @@ Slave_trade_valparaiso = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 2325
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 2325
+			}
+			 
+			}
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
 	}
 Slave_trade_buenos = {
@@ -577,22 +610,22 @@ Slave_trade_buenos = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	    clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -600,16 +633,19 @@ Slave_trade_buenos = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 2348
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 2348
+			}
+			 
+			}
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
 	}
 Slave_trade_rio = {
@@ -625,22 +661,22 @@ Slave_trade_rio = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	    clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -648,16 +684,19 @@ Slave_trade_rio = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 2447
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 2447
+			}
+			 
+			}
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
 	}
 Slave_trade_salvador = {
@@ -673,22 +712,22 @@ Slave_trade_salvador = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	    clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -696,16 +735,19 @@ Slave_trade_salvador = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 2436
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 2436
+			}
+			 
+			}
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
 	}
 Slave_trade_recife = {
@@ -721,22 +763,22 @@ Slave_trade_recife = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	    clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -744,16 +786,19 @@ Slave_trade_recife = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 2432
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 2432
+			}
+			 
+			}
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
 	}
 Slave_trade_paramaribo = {
@@ -769,22 +814,22 @@ Slave_trade_paramaribo = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	    clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -792,16 +837,19 @@ Slave_trade_paramaribo = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 2240
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 2240
+			}
+			 
+			}
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
 	}
 Slave_trade_cayena = {
@@ -817,22 +865,22 @@ Slave_trade_cayena = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	    clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -840,16 +888,19 @@ Slave_trade_cayena = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 2241
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 2241
+			}
+			 
+			}
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
 	}
 Slave_trade_liverpool = {
@@ -865,22 +916,22 @@ Slave_trade_liverpool = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	    clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -888,16 +939,19 @@ Slave_trade_liverpool = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 277
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 277
+			}
+			 
+			}
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
 	}
 Slave_trade_bristol = {
@@ -913,22 +967,22 @@ Slave_trade_bristol = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	    clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -936,16 +990,19 @@ Slave_trade_bristol = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 296
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 296
+			}
+			 
+			}
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
 	}
 Slave_trade_gvadelupa = {
@@ -961,22 +1018,22 @@ Slave_trade_gvadelupa = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	    clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -984,16 +1041,19 @@ Slave_trade_gvadelupa = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 2230
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 2230
+			}
+			 
+			}
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
 	}
 Slave_trade_gvatemala = {
@@ -1009,22 +1069,22 @@ Slave_trade_gvatemala = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	    clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -1032,16 +1092,19 @@ Slave_trade_gvatemala = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 2186
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 2186
+			}
+			 
+			}
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
 	}
 Slave_trade_yamaika = {
@@ -1057,22 +1120,22 @@ Slave_trade_yamaika = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	    clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -1080,16 +1143,19 @@ Slave_trade_yamaika = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 2217
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 2217
+			}
+			 
+			}
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
 	}
 Slave_trade_london = {
@@ -1105,22 +1171,22 @@ Slave_trade_london = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	    clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -1128,16 +1194,19 @@ Slave_trade_london = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 300
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 300
+			}
+			 
+			}
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
 	}
 Slave_trade_amsterdamm = {
@@ -1153,22 +1222,22 @@ Slave_trade_amsterdamm = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	    clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = -10  transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -1176,18 +1245,21 @@ Slave_trade_amsterdamm = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 375
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 375
+			}
+			 
+			}  
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
-	}
+}
 Slave_trade_nant = {
 	alert = yes
     picture = bolivar_abolish_slavery
@@ -1201,22 +1273,22 @@ Slave_trade_nant = {
 	allow = {	
 	    	NOT = { has_country_modifier = slave_trade_run }
 	        war = no
-		    money = 50000
+		    money = 12500
 	}
 	
 	effect = {
 	    clr_country_flag = Slave_trade
-		money = -50000
+		money = -12500
 		clipper_convoy = transportation = -100
 		add_country_modifier = {
 		name = slave_trade_run
-		duration = 3650
+		duration = 1825
 		}
-		any_owned = {
+		random_state = {
 				limit = { continent = africa }
 				poor_strata = {
 				limit = { continent = africa 
-				    unemployment = 0.05
+				    unemployment = 0.15
 				    NOT = {
 					   OR = { has_pop_religion = protestant
          					  has_pop_religion = catholic
@@ -1224,16 +1296,19 @@ Slave_trade_nant = {
 							  has_pop_religion = coptic }
 						}
 				}
-				reduce_pop = 0.85
 				pop_type = slaves
 				move_pop = 423
 			}
-			add_province_modifier = {
-              name = slave_market
-              duration = 3650
-              }
+			aristocrats = {	
+			money = 125
 			}
-		random_pop = { limit = { type = capitalists } money = -50000 }
+			slaves = {	
+			reduce_pop = 0.85
+			move_pop = 423
+			}
+			 
+			}
+		random_pop = { limit = { type = capitalists } money = -12500 }
         }
 	}
 }

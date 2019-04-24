@@ -546,6 +546,12 @@
 		religion = catholic
 		size = 3186
 	}
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 30
+	}
+	
 }
 278 = {
 	aristocrats = {
@@ -1294,6 +1300,11 @@
 		religion = catholic
 		size = 807
 	}
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 30
+	}
 }
 297 = {
 	aristocrats = {
@@ -1491,6 +1502,16 @@
 		culture = irish
 		religion = catholic
 		size = 2335
+	}
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 30
+	}
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 30
 	}
 }
 301 = {

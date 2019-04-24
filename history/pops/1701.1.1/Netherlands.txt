@@ -74,6 +74,11 @@
 		religion = catholic
 		size = 1755
 	}
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 30
+	}
 }
 376 = {
 	aristocrats = {
