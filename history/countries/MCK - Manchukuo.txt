@@ -142,32 +142,32 @@ set_global_flag = the_new_army
 set_global_flag = spread_warlord_influence
 
 # Technologies
-post_napoleonic_thought = 1
-flintlock_rifles = 1
-bronze_muzzle_loaded_artillery = 1
-military_staff_system = 1
-army_command_principle = 1
-post_nelsonian_thought = 1
-clipper_design = 1
+post_1700_army = 1 napoleonic_thought = 1
+1700_armament = 1 flintlock_rifles = 1
+1700_h_armament = 1 bronze_muzzle_loaded_artillery = 1
+1700_milit_science = 1 1700_leadership = 1 army_command_principle = 1
+1700_leadership = 1 1700_leadership = 1 army_command_principle = 1
+post_1700_naval_doctrine = 1 nelsonian_thought = 1
+1700_ship = 1 clipper_design = 1
 steamers = 1
 naval_design_bureaus = 1
 alphabetic_flag_signaling = 1
-the_command_principle = 1
+1700_naval_leader = 1 the_command_principle = 1
 private_banks = 1
-no_standard = 1
+1700_money = 1 no_standard = 1
 early_classical_theory_and_critique = 1
 freedom_of_trade = 1
 guild_based_production = 1
 classicism_n_early_romanticism = 1
-late_enlightenment_philosophy = 1
-malthusian_thought = 1
-enlightenment_thought = 1
+1700_philosophy = 1 late_enlightenment_philosophy = 1
+1700_social = 1 malthusian_thought = 1
+1700_political_thought = 1 enlightenment_thought = 1
 introspectionism = 1
-water_wheel_power = 1
+1700_power = 1 1700_power = 1 water_wheel_power = 1
 publishing_industry = 1
-mechanized_mining = 1
+1700_metall = 1 mechanized_mining = 1
 experimental_railroad = 1
-basic_chemistry = 1
+1700_chemistry = 1 basic_chemistry = 1
 practical_steam_engine = 1
 mechanical_production = 1
 battleship_column_doctrine = 1
@@ -181,25 +181,25 @@ empiricism = 1
 muzzle_loaded_rifles = 1
 idealism = 1
 clean_coal = 1
-napoleonic_thought = 1
+1700_army = 1 napoleonic_thought = 1
 
-nelsonian_thought = 1
+1700_naval_doctrine = 1 nelsonian_thought = 1
 steamers_with_paddle_wheel = 1
-marine_engineering_basics = 1
-marine_chronometers = 1
-joint-stock_companies = 1
+1700_naval_engineering = 1 marine_engineering_basics = 1
+1700_naval_science = 1 marine_chronometers = 1
+1700_fin_inst= 1 joint-stock_companies = 1
 bimetallism = 1
-physiocracy = 1
-state_mercantilism = 1
-division_of_labour = 1
-sentimentalism = 1
+salamanca_school = 1 physiocracy = 1
+1700_market = 1 state_mercantilism = 1
+1700_tech_organ = 1 division_of_labour = 1
+1700_aesthetics = 1 sentimentalism = 1
 materialism = 1
 nihilism_i_anarchism = 1
-fundamentals_of_psychology = 1
+1700_psychology = 1 fundamentals_of_psychology = 1
 experimental_steam_engine = 1
-manufactories = 1
+1700_mech = 1 manufactories = 1
 ferrous_metallurgy = 1
-animal-powered_railroad = 1
+1700_road = 1 animal-powered_railroad = 1
 
 # Inventions
 #corvettes = yes

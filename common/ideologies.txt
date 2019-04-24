@@ -159,7 +159,6 @@ liberal_group = {
 		color = { 170 100 255 } 
 		date = 1700.1.1
 		
-		uncivilized = no
 		add_political_reform = { base = 1 }
 		remove_political_reform = { base = 0 }
 

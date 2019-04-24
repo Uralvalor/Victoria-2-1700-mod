@@ -1,10 +1,21 @@
 #naval_doctrine
+1700_naval_doctrine = {
+	area = naval_doctrine
+	year = 1650
+	cost = 2000
+	#unciv_military = yes
+	
+	activate_building = naval_base
+
+	ai_chance = {
+	}
+}
 nelsonian_thought = {
 	area = naval_doctrine
 	year = 1700
 	cost = 2200
-	unciv_military = yes
-	activate_building = naval_base
+	colonial_points = 100
+	#unciv_military = yes
 
 
 	ai_chance = {
@@ -79,8 +90,8 @@ post_nelsonian_thought = {
 	area = naval_doctrine
 	year = 1816
 	cost = 4400
-	unciv_military = yes
 	colonial_points = 100
+	#unciv_military = yes
 
 
 	ai_chance = {
@@ -155,7 +166,7 @@ battleship_column_doctrine = {
 	area = naval_doctrine
 	year = 1836
 	cost = 7200
-	unciv_military = yes
+	#unciv_military = yes
 	max_naval_base = 1
 	#colonial_points = 200 #no free lunch!
 
@@ -232,7 +243,7 @@ raider_group_doctrine = {
 	area = naval_doctrine
 	year = 1855
 	cost = 10800
-	unciv_military = yes
+	#unciv_military = yes
 	max_naval_base = 1
 	ai_chance = {
 		factor = 1
@@ -306,7 +317,7 @@ blue_and_brown_water_schools = {
 	area = naval_doctrine
 	year = 1875
 	cost = 14400
-	unciv_military = yes
+	#unciv_military = yes
 	max_naval_base = 1
 	ai_chance = {
 		factor = 1
@@ -381,7 +392,7 @@ high_sea_battle_fleet = {
 	area = naval_doctrine
 	year = 1895
 	cost = 18000
-	unciv_military = yes
+	#unciv_military = yes
 	max_naval_base = 1
 
 	ai_chance = {
@@ -456,7 +467,7 @@ doctrine_of_submarine_warfare = {
 	area = naval_doctrine
 	year = 1914
 	cost = 21600
-	unciv_military = yes
+	#unciv_military = yes
 	max_naval_base = 1
 	ai_chance = {
 		factor = 1
@@ -530,7 +541,7 @@ modern_naval_doctrine = {
 	area = naval_doctrine
 	year = 1939
 	cost = 25000
-	unciv_military = yes
+	#unciv_military = yes
 	navy_base = { build_time = -10 }
 	ai_chance = {
 		factor = 1
@@ -603,13 +614,23 @@ modern_naval_doctrine = {
 
 
 #ship_construction
+1700_ship = {
+	area = ship_construction
+	year = 1650
+	cost = 2000
+	#unciv_military = yes
+
+	colonial_points = 50
+	
+	ai_chance = {
+	}
+}
 clipper_design = {
 	area = ship_construction
 	year = 1705
 	cost = 2200
-	unciv_military = yes
+	#unciv_military = yes
 	activate_building = clipper_shipyard 
-	colonial_points = 50
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -689,7 +710,7 @@ steamers_with_paddle_wheel = {
 	area = ship_construction
 	year = 1800
 	cost = 4400
-	unciv_military = yes
+	#unciv_military = yes
 	activate_building = steamer_shipyard
 	ai_chance = {
 		factor = 1
@@ -770,7 +791,7 @@ steamers = {
 	area = ship_construction
 	year = 1836
 	cost = 7200
-	unciv_military = yes
+	#unciv_military = yes
 	navy_base = { maximum_speed = 1 }
 	ai_chance = {
 		factor = 1
@@ -851,7 +872,7 @@ iron_steamers = {
 	area = ship_construction
 	year = 1860
 	cost = 10800
-	unciv_military = yes
+	#unciv_military = yes
 	navy_base = { maximum_speed = 1 }
 	ai_chance = {
 		factor = 1
@@ -927,7 +948,7 @@ steel_steamers = {
 	area = ship_construction
 	year = 1880
 	cost = 14400
-	unciv_military = yes
+	#unciv_military = yes
 	navy_base = { maximum_speed = 2 } 
 	ai_chance = {
 		factor = 1
@@ -1003,7 +1024,7 @@ steam_turbine_ships = {
 	area = ship_construction
 	year = 1900
 	cost = 18000
-	unciv_military = yes
+	#unciv_military = yes
 	navy_base = { maximum_speed = 2 } 
 	ai_chance = {
 		factor = 1
@@ -1079,7 +1100,7 @@ oil_driven_ships = {
 	area = ship_construction
 	year = 1919
 	cost = 21600
-	unciv_military = yes
+	#unciv_military = yes
 	navy_base = { maximum_speed = 2 } 
 	ai_chance = {
 		factor = 1
@@ -1155,7 +1176,7 @@ turboshaft_sheeps = {
 	area = ship_construction
 	year = 1939
 	cost = 25000
-	unciv_military = yes
+	#unciv_military = yes
 	navy_base = { maximum_speed = 2 } 
 	
 	ai_chance = {
@@ -1230,12 +1251,22 @@ turboshaft_sheeps = {
 }
 
 #naval_engineering
+1700_naval_engineering = {
+	area = naval_engineering
+	year = 1650
+	cost = 2000
+	#unciv_military = yes
+
+	navy_base = { build_time = -10 }
+	ai_chance = {
+	}
+}
 marine_engineering_basics = {
 	area = naval_engineering
 	year = 1810
 	cost = 2200
+	#unciv_military = yes
 	navy_base = { build_time = -10 }
-	unciv_military = yes
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1320,8 +1351,10 @@ naval_design_bureaus = {
 	area = naval_engineering
 	year = 1816
 	cost = 4400
+	#unciv_military = yes
+	
 	navy_base = { build_time = -10 }
-	unciv_military = yes
+	
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1406,7 +1439,7 @@ fire_control_systems = {
 	area = naval_engineering
 	year = 1836
 	cost = 7200
-	unciv_military = yes
+	#unciv_military = yes
 	navy_base = { build_time = -10 }
 	ai_chance = {
 		factor = 1
@@ -1493,7 +1526,7 @@ weapon_platforms = {
 	area = naval_engineering
 	year = 1850
 	cost = 10800
-	unciv_military = yes
+	#unciv_military = yes
 	navy_base = { build_time = -10 }
 	ai_chance = {
 		factor = 1
@@ -1579,7 +1612,7 @@ main_armament = {
 	area = naval_engineering
 	year = 1870
 	cost = 14400
-	unciv_military = yes
+	#unciv_military = yes
 	navy_base = { build_time = -10 }
 	ai_chance = {
 		factor = 1
@@ -1670,7 +1703,7 @@ advanced_naval_design = {
 	area = naval_engineering
 	year = 1900
 	cost = 18000
-	unciv_military = yes
+	#unciv_military = yes
 	navy_base = { build_time = -10 }
 	ai_chance = {
 		factor = 1
@@ -1756,7 +1789,7 @@ anti-aircraft_complex = {
 	area = naval_engineering
 	year = 1919
 	cost = 21600
-	unciv_military = yes
+	#unciv_military = yes
 	navy_base = { build_time = -10 }
 	ai_chance = {
 		factor = 1
@@ -1837,7 +1870,7 @@ modern_naval_design = {
 	area = naval_engineering
 	year = 1939
 	cost = 25000
-	unciv_military = yes
+	#unciv_military = yes
 	navy_base = { build_time = -20 }
 	
 	ai_chance = {
@@ -1917,11 +1950,22 @@ modern_naval_design = {
 }
 
 #naval_science
+1700_naval_science = {
+	area = naval_science
+	year = 1650
+	cost = 2000
+	#unciv_military = yes
+
+	colonial_points = 50
+	
+	ai_chance = {
+	}
+}
 marine_chronometers = {
 	area = naval_science
 	year = 1730
 	cost = 2200
-	unciv_military = yes
+	#unciv_military = yes
 	supply_range = 0.10
 	colonial_points = 100
 	
@@ -1965,7 +2009,7 @@ alphabetic_flag_signaling = {
 	area = naval_science
 	year = 1816
 	cost = 4400
-	unciv_military = yes
+	#unciv_military = yes
 	supply_range = 0.10
 	
 	ai_chance = {
@@ -2008,7 +2052,7 @@ naval_plans = {
 	area = naval_science
 	year = 1836
 	cost = 7200
-	unciv_military = yes
+	#unciv_military = yes
 	supply_range = 0.10
 	
 	ai_chance = {
@@ -2051,7 +2095,7 @@ naval_statistics = {
 	area = naval_science
 	year = 1850
 	cost = 10800
-	unciv_military = yes
+	#unciv_military = yes
 	supply_range = 0.10
 		ai_chance = {
 		factor = 1.01
@@ -2093,7 +2137,7 @@ naval_logistics = {
 	area = naval_science
 	year = 1870
 	cost = 14400
-	unciv_military = yes
+	#unciv_military = yes
 	supply_range = 0.10
 		ai_chance = {
 		factor = 1.01
@@ -2135,7 +2179,7 @@ naval_directionism = {
 	area = naval_science
 	year = 1900
 	cost = 18000
-	unciv_military = yes
+	#unciv_military = yes
 	supply_range = 0.10
 		ai_chance = {
 		factor = 1.01
@@ -2177,7 +2221,7 @@ naval_integration = {
 	area = naval_science
 	year = 1919
 	cost = 21600
-	unciv_military = yes
+	#unciv_military = yes
 	supply_range = 0.10
 		ai_chance = {
 		factor = 1.01
@@ -2227,7 +2271,7 @@ navy_system_based = {
 	area = naval_science
 	year = 1939
 	cost = 25000
-	unciv_military = yes
+	#unciv_military = yes
 	supply_range = 0.10
 		ai_chance = {
 		factor = 1.01
@@ -2276,11 +2320,23 @@ navy_system_based = {
 
 
 #naval_leadership
+1700_naval_leader = {
+	area = naval_leadership
+	year = 1650
+	cost = 2000
+	#unciv_military = yes
+	navy_base = {
+		default_organisation = 5
+	}
+
+	ai_chance = {
+	}
+}
 the_command_principle = {
 	area = naval_leadership
 	year = 1785
 	cost = 2200
-	unciv_military = yes
+	#unciv_military = yes
 	navy_base = {
 		default_organisation = 10
 	}
@@ -2363,7 +2419,7 @@ naval_professionalism = {
 	area = naval_leadership
 	year = 1816
 	cost = 4400
-	unciv_military = yes
+	#unciv_military = yes
 	navy_base = {
 		default_organisation = 10
 	}
@@ -2446,7 +2502,7 @@ naval_academies = {
 	area = naval_leadership
 	year = 1836
 	cost = 7200
-	unciv_military = yes
+	#unciv_military = yes
 	navy_base = {
 		default_organisation = 5
 	}
@@ -2529,7 +2585,7 @@ naval_decision_making = {
 	area = naval_leadership
 	year = 1850
 	cost = 10800
-	unciv_military = yes
+	#unciv_military = yes
 	navy_base = {
 		default_organisation = 5
 	}
@@ -2612,7 +2668,7 @@ naval_risk_management = {
 	area = naval_leadership
 	year = 1870
 	cost = 14400
-	unciv_military = yes
+	#unciv_military = yes
 	navy_base = {
 		default_organisation = 5
 	}
@@ -2695,7 +2751,7 @@ naval_nco_training = {
 	area = naval_leadership
 	year = 1900
 	cost = 18000
-	unciv_military = yes
+	#unciv_military = yes
 	navy_base = {
 		default_organisation = 5
 	}
@@ -2778,7 +2834,7 @@ modern_naval_training = {
 	area = naval_leadership
 	year = 1919
 	cost = 21600
-	unciv_military = yes
+	#unciv_military = yes
 	navy_base = {
 		default_organisation = 5
 	}
@@ -2861,7 +2917,7 @@ modern_communication_system = {
 	area = naval_leadership
 	year = 1939
 	cost = 25000
-	unciv_military = yes
+	#unciv_military = yes
 	navy_base = {
 		default_organisation = 5
 	}

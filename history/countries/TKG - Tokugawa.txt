@@ -62,8 +62,8 @@ foreign_weapons = yes_foreign_weapons
 
 # Technologies
 freedom_of_trade = 1
-malthusian_thought = 1
-late_enlightenment_philosophy = 1
+1700_social = 1 malthusian_thought = 1
+1700_philosophy = 1 late_enlightenment_philosophy = 1
 private_banks = 1
 
 oob = "TKG_oob.txt"
@@ -89,14 +89,14 @@ taxation_reform = tax_farmers
 diplomatic_reform = interactive
 
 # Technologies
-flintlock_rifles = 1
-bronze_muzzle_loaded_artillery = 1
-clipper_design = 1
+1700_armament = 1 flintlock_rifles = 1
+1700_h_armament = 1 bronze_muzzle_loaded_artillery = 1
+1700_ship = 1 clipper_design = 1
 alphabetic_flag_signaling = 1
 freedom_of_trade = 1
-no_standard = 1
-late_enlightenment_philosophy = 1
-basic_chemistry = 1
+1700_money = 1 no_standard = 1
+1700_philosophy = 1 late_enlightenment_philosophy = 1
+1700_chemistry = 1 basic_chemistry = 1
 private_banks = 1
 early_classical_theory_and_critique = 1
 

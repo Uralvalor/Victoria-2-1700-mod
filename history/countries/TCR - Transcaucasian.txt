@@ -46,13 +46,13 @@ upper_house = {
 }
 
 # Technologies
-flintlock_rifles = 1
-bronze_muzzle_loaded_artillery = 1
-no_standard = 1
+1700_armament = 1 flintlock_rifles = 1
+1700_h_armament = 1 bronze_muzzle_loaded_artillery = 1
+1700_money = 1 no_standard = 1
 guild_based_production = 1
 classicism_n_early_romanticism = 1
-late_enlightenment_philosophy = 1
-water_wheel_power = 1
+1700_philosophy = 1 late_enlightenment_philosophy = 1
+1700_power = 1 1700_power = 1 water_wheel_power = 1
 
 # Inventions
 
@@ -65,13 +65,13 @@ nonstate_consciousness = 0
 }
 1861.1.1 = {
 # Technologies
-	flintlock_rifles = 1
-	bronze_muzzle_loaded_artillery = 1
-	no_standard = 1
+	1700_armament = 1 flintlock_rifles = 1
+	1700_h_armament = 1 bronze_muzzle_loaded_artillery = 1
+	1700_money = 1 no_standard = 1
 	guild_based_production = 1
 	classicism_n_early_romanticism = 1
-	late_enlightenment_philosophy = 1
-	water_wheel_power = 1
+	1700_philosophy = 1 late_enlightenment_philosophy = 1
+	1700_power = 1 1700_power = 1 water_wheel_power = 1
 
 #Inventions
 }

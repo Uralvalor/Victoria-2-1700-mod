@@ -52,7 +52,7 @@ upper_house = {
 	early_command_principle = 1
 			
 	early_business_banks = 1
-	no_standard = 1
+	1700_money = 1 no_standard = 1
 	mercantilist_thought = 1
 	protectionist_policies = 1
 	guild_based_production = 1
@@ -67,7 +67,7 @@ upper_house = {
 	calculus = 1
 	cast_iron = 1
 	wooden_mine_railways = 1
-	basic_chemistry = 1
+	1700_chemistry = 1 basic_chemistry = 1
 
 
 # Starting Consciousness

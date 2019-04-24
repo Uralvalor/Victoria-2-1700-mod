@@ -1,12 +1,23 @@
 #tech_power
+1700_power = {
+	area = tech_power
+	year = 1650
+	cost = 2000
+
+	mine_rgo_eff = 0.03
+	farm_rgo_eff = 0.07
+	farm_rgo_size = 0.25
+	ai_chance = {
+	}
+}
 water_wheel_power = {
 	area = tech_power
-	year = 1725
+	year = 1735
 	cost = 2200
 
-	mine_rgo_eff = 0.05
-	farm_rgo_eff = 0.15
-	farm_rgo_size = 0.5
+	mine_rgo_eff = 0.03
+	farm_rgo_eff = 0.07
+	farm_rgo_size = 0.25
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -350,14 +361,25 @@ atom_energy = {
 
 
 #mechanization
-manufactories = {
+1700_mech = {
 	area = mechanization
-	year = 1750
+	year = 1650
+	cost = 2000
+
+	factory_throughput = 0.02 
+	activate_building =  wool_factory
+	
+	ai_chance = {
+	}
+}
+publishing_industry = {
+	area = mechanization
+	year = 1740
 	cost = 2200
 
-	factory_throughput = 0.05 
-
-	activate_building =  wool_factory
+	factory_throughput = 0.03 
+	activate_building = paper_mill 
+	
 	ai_chance = {
 		factor = 1.5
 		modifier = {
@@ -387,12 +409,14 @@ manufactories = {
 	}	
 
 }
-publishing_industry = {
+manufactories = {
 	area = mechanization
-	year = 1790
+	year = 1760
 	cost = 4400
 
+	factory_throughput = 0.03 
 	activate_building = regular_clothes_factory 
+
 	ai_chance = {
 		factor = 1.5
 		modifier = {
@@ -626,12 +650,21 @@ modern_automation = {
 
 
 #metallurgy
+1700_metall = {
+	area = metallurgy
+	year = 1650
+	cost = 2000
+
+	activate_building = steel_factory 
+
+	ai_chance = {
+	}
+}
 mechanized_mining = {
 	area = metallurgy
 	year = 1710
 	cost = 2200
 
-	activate_building = steel_factory 
 	rgo_goods_output = {
 		iron = 0.1
 	}
@@ -1121,6 +1154,20 @@ electrometallurgy = {
 
 
 #tech_infrastructure
+1700_road = {
+	area = tech_infrastructure
+	year = 1650
+	cost = 2000
+
+	supply_limit = 0.15
+	administrative_efficiency = 0.03
+	factory_goods_output = {
+			transportation = 0.05 
+		}
+		
+	ai_chance = {
+	}
+}
 animal-powered_railroad = {
 	area = tech_infrastructure
 	year = 1755
@@ -1333,6 +1380,15 @@ modern_infrastructure = {
 
 
 #chemistry_and_electricity
+1700_chemistry = {
+	area = chemistry_and_electricity
+	year = 1650
+	cost = 2000
+
+	supply_limit = 0.15
+	ai_chance = {
+	}
+}
 basic_chemistry = {
 	area = chemistry_and_electricity
 	year = 1740

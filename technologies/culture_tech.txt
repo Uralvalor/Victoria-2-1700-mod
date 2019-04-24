@@ -1,4 +1,14 @@
 #aesthetics
+1700_aesthetics = {
+	area = aesthetics
+	year = 1650
+	cost = 2000
+
+	prestige = 0.05
+	
+	ai_chance = {
+	}
+}
 sentimentalism = {
 	area = aesthetics
 	year = 1720
@@ -219,6 +229,16 @@ mass_culture = {
 
 
 #philosophy
+1700_philosophy = {
+	area = philosophy
+	year = 1650
+	cost = 2000
+
+	increase_research = 0.15
+	
+	ai_chance = {
+	}
+}
 late_enlightenment_philosophy = {
 	area = philosophy
 	year = 1775
@@ -443,6 +463,17 @@ postmodernism = {
 
 
 #social_thought
+1700_social = {
+	area = social_thought
+	year = 1650
+	cost = 2000
+
+    social_reform_desire = 0.1
+	colonial_migration = 0.05
+	
+	ai_chance = {
+	}
+}
 malthusian_thought = {
 	area = social_thought
 	year = 1785
@@ -622,6 +653,18 @@ consumerism = {
 
 
 #political_thought
+
+1700_political_thought = {
+	area = political_thought
+	year = 1650
+	cost = 1600
+	
+	cb_creation_speed = 0.05
+	issue_change_speed = 0.05
+	
+	ai_chance = {
+	}
+}
 enlightenment_thought = {
 	area = political_thought
 	year = 1750
@@ -839,6 +882,17 @@ global_policy = {
 
 
 #psychology
+1700_psychology = {
+	area = psychology
+	year = 1650
+	cost = 2000
+
+
+	reinforce_rate = 0.05
+
+	ai_chance = {
+	}
+}
 fundamentals_of_psychology = {
 	area = psychology
 	year = 1770

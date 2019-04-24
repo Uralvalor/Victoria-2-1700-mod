@@ -52,6 +52,6 @@ school_reforms = no_schools
 	foreign_weapons = yes_foreign_weapons
 
 	#Technologies
-	water_wheel_power = 1
-	flintlock_rifles = 1
+	1700_power = 1 1700_power = 1 water_wheel_power = 1
+	1700_armament = 1 flintlock_rifles = 1
 }

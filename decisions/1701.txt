@@ -169,11 +169,10 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	
 	declare_russian_empire = {
 			potential = {
 			tag = RUS
-			is_greater_power= yes
+			is_greater_power = yes
 			NOT = { has_country_flag = rus_empire_declared }
 			NOT = { has_country_flag = rus_unite_declared }
 			}
@@ -215,7 +214,7 @@ political_decisions = {
 	declare_russian_unite = {
 			potential = {
 			tag = RUS
-			is_greater_power= yes
+			is_greater_power = yes
 			NOT = { has_country_flag = rus_empire_declared }
 			NOT = { has_country_flag = rus_unite_declared }
 
@@ -253,6 +252,7 @@ political_decisions = {
 			
 			ai_will_do = { factor = 1 }
 	}
+	
 	declare_cossack_unite = {
 		picture = dikoe_pole
 			potential = {

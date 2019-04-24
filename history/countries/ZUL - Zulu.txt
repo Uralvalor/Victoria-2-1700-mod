@@ -49,7 +49,7 @@ school_reforms = no_schools
 }
 1861.1.1 = {
 	#Technologies
-	army_command_principle = 1
+	1700_leadership = 1 1700_leadership = 1 army_command_principle = 1
 	
 	#Economic Reforms
 	admin_reform = yes_admin_reform

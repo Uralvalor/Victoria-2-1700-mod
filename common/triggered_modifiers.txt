@@ -95,3 +95,20 @@ non_civil_caste_war = {
 	research_points_modifier = -0.15
 	icon = 5
 }
+#эффект не работает, реализовать возможно через изобретение/технологии
+#free_economy_time = {
+#	trigger = { 					
+#		economic_policy = laissez_faire
+#	}
+#	        navy_base = { build_time = -20 }
+#	        army_base = { build_time = -20 }
+#	icon = 5
+#}
+#open_economy_time = {
+#	trigger = { 					
+#		economic_policy = interventionism 
+#	}
+#	        navy_base = { build_time = -8 }
+#	        army_base = { build_time = -8 }
+#	icon = 5
+#}

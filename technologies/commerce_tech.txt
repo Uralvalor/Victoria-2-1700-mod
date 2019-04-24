@@ -1,4 +1,14 @@
 #financial_institutions
+1700_fin_inst = {
+	area = financial_institutions
+	year = 1650
+	cost = 2000
+
+	tax_eff = 2
+	
+	ai_chance = {
+	}
+}
 joint-stock_companies = {
 	area = financial_institutions
 	year = 1700
@@ -231,15 +241,27 @@ trust_company = {
 
 
 #monetary_system
+1700_money = {
+	area = monetary_system
+	year = 1650
+	cost = 2000
+
+		rgo_goods_output = {
+			precious_metal = 0.15
+		}
+		
+	ai_chance = {
+	}
+}
 no_standard = {
 	area = monetary_system
 	year = 1700
 	cost = 4200
 
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.03
 	activate_building = jewellery_factory
 	factory_goods_output = {
-			credit = 0.05 
+			credit = 0.1 
 		}
 	ai_chance = {
 		factor = 1.1
@@ -278,6 +300,7 @@ ad_hoc_money_bill_printing = {
 	cost = 7200
 	
 	administrative_efficiency = 0.05
+	activate_building = paper_money_building
 	set_country_flag = ad_hoc_money_bill_printing 
 	factory_goods_output = {
 			credit = 0.05 
@@ -312,7 +335,6 @@ private_bank_money_bill_printing = {
 	cost = 10800
 
 	administrative_efficiency = 0.05
-	activate_building = paper_money_building
 	set_country_flag = private_bank_money_bill_printing 
 	ai_chance = {
 		factor = 1.1
@@ -439,28 +461,28 @@ bretton_woods_system = {
 
 
 #economic_thought_and_critique
-#salamanca_school = {
-#	area = economic_thought_and_critique
-#	year = 1600
-#	cost = 1200
-#	
-#	factory_input = -0.01
-#	ai_chance = {
-#		factor = 2
-#		modifier = {
-#			factor = 1.02
-#			tech_school = commerce_tech_school
-#		}
-#		modifier = {
-#			factor = 1.05
-#			literacy = 0.3 
-#		}
-#		modifier = {
-#			factor = 1.05
-#			literacy = 0.6
-#		}
-#	}
-#}
+salamanca_school = {
+	area = economic_thought_and_critique
+	year = 1650
+	cost = 2000
+	
+	factory_input = -0.01
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}
+	}
+}
 physiocracy = {
 	area = economic_thought_and_critique
 	year = 1750
@@ -719,14 +741,28 @@ monetarism = {
 
 
 #market_functionality
+1700_market = {
+	area = market_functionality
+	year = 1650
+	cost = 2000
+
+	factory_goods_output = {
+			transportation = 0.05 
+		}
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.05
+	
+	ai_chance = {
+	}
+}
 state_mercantilism = {
 	area = market_functionality
 	year = 1740
 	cost = 2200
 
 	influence = 0.1
-	farm_rgo_eff = 0.1
-	mine_rgo_eff = 0.1
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.05
 	
 	ai_chance = {
 		factor = 11
@@ -955,11 +991,23 @@ the_world_market = {
 
 
 #tech_organization
+1700_tech_organ = {
+	area = tech_organization
+	year = 1650
+	cost = 2000
+	
+	increase_research = -0.15
+	factory_output = 0.01
+	
+	ai_chance = {
+	}
+}
 division_of_labour = {
 	area = tech_organization
 	year = 1765
 	cost = 2200
 
+	increase_research = 0.15
 	factory_output = 0.01
 	ai_chance = {
 		factor = 1.05

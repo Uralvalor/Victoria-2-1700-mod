@@ -25,11 +25,11 @@ set_country_flag = serfdom_not_abolished
 	foreign_navies = yes_foreign_navies 
 
 	
-water_wheel_power = 1	
-flintlock_rifles = 1	
-bronze_muzzle_loaded_artillery = 1
+1700_power = 1 1700_power = 1 water_wheel_power = 1	
+1700_armament = 1 flintlock_rifles = 1	
+1700_h_armament = 1 bronze_muzzle_loaded_artillery = 1
  
-military_staff_system = 1
+1700_milit_science = 1 1700_leadership = 1 army_command_principle = 1
  
 
 

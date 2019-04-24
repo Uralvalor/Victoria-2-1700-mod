@@ -838,14 +838,13 @@ social_reforms = {
 		}
 	}
 }
-
 economic_reforms = {
 	land_reform = {
 		nomads = {
 	                poor_life_needs = -0.15
 	                middle_life_needs = -0.15
 	                rich_life_needs = -0.15
-			        global_pop_consciousness_modifier = -0.005
+			global_pop_consciousness_modifier = -0.005
 	                mobilisation_size = 0.3
 		}
 		no_land_reform = {
@@ -893,7 +892,7 @@ economic_reforms = {
 
 			on_execute = {
 				effect = {
-				activate_technology = fundamentals_of_psychology
+				activate_technology = 1700_psychology
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -954,7 +953,7 @@ economic_reforms = {
 			civilization_progress_modifier = 0.036
 			on_execute = {
 				effect = {
-					activate_technology = physiocracy
+					activate_technology = salamanca_school
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1009,7 +1008,7 @@ economic_reforms = {
 			
 				on_execute = {
 					effect = {
-						activate_technology = joint-stock_companies
+						activate_technology = 1700_fin_inst
 						any_pop = {
 							scaled_militancy = {
 								ideology = liberal
@@ -1042,7 +1041,7 @@ economic_reforms = {
 			max_loan_modifier = -0.9 # -90%
 			
 			on_execute = {
-				activate_technology = no_standard 
+				activate_technology = 1700_money 
 				effect = {
 					any_pop = {
 						scaled_militancy = {
@@ -1068,7 +1067,7 @@ economic_reforms = {
 			max_loan_modifier = -0.5 # 50% loans
 			
 			on_execute = {
-				activate_technology = bimetallism 
+				activate_technology = no_standard 
 				effect = {
 					any_pop = {
 						scaled_militancy = {
@@ -1133,7 +1132,7 @@ economic_reforms = {
 			
 			on_execute = {
 				effect = {
-					activate_technology = basic_chemistry 
+					activate_technology = 1700_chemistry 
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1211,7 +1210,7 @@ economic_reforms = {
 			research_points_modifier = 0.5			
 			on_execute = {
 				effect = {
-					activate_technology = late_enlightenment_philosophy 
+					activate_technology = 1700_philosophy 
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1283,7 +1282,7 @@ economic_reforms = {
 					can_build_factory_in_capital_state = liquor_distillery # example, no trigger needed here
 				}
 				effect = {
-					activate_technology = water_wheel_power
+					activate_technology = 1700_power
 					build_factory_in_capital_state = fabric_factory
 					any_pop = {
 						scaled_militancy = {
@@ -1380,7 +1379,7 @@ military_reforms = {
 						
 			on_execute = {
 				effect = {
-					activate_technology = flintlock_rifles
+					activate_technology = 1700_armament
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1439,7 +1438,7 @@ military_reforms = {
 					}
 				}
 				effect = {
-					activate_technology = napoleonic_thought
+					activate_technology = 1700_army 
 					build_fort_in_capital = {
 						in_whole_capital_state = no # no = just in main capital province.
 						limit_to_world_greatest_level = yes
@@ -1475,7 +1474,7 @@ military_reforms = {
 			
 			on_execute = {
 				effect = {
-					activate_technology = military_staff_system
+					activate_technology = 1700_milit_science
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1593,7 +1592,7 @@ military_reforms = {
 			
 			on_execute = {
 				effect = {
-					activate_technology = nelsonian_thought
+					activate_technology = 1700_naval_doctrine
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1624,7 +1623,7 @@ military_reforms = {
 			
 			on_execute = {
 				effect = {
-					activate_technology = marine_engineering_basics
+					activate_technology = 1700_naval_engineering
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal

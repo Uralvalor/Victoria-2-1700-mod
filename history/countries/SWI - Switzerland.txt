@@ -50,12 +50,16 @@ pensions = no_pensions
 
 
 
-water_wheel_power = 1	
-flintlock_rifles = 1	
-bronze_muzzle_loaded_artillery = 1
-
+1700_power = 1 1700_power = 1 water_wheel_power = 1	
+1700_armament = 1 flintlock_rifles = 1	
+1700_h_armament = 1 bronze_muzzle_loaded_artillery = 1
+1700_fin_inst = 1
+1700_money = 1
+salamanca_school = 1
+1700_market = 1
+1700_tech_organ = 1
 precision_work = yes
-military_staff_system = 1
+1700_milit_science = 1 1700_leadership = 1 army_command_principle = 1
  
 
 
@@ -130,30 +134,30 @@ upper_house = {
 }
 
 # Technologies
-napoleonic_thought = 1
-flintlock_rifles = 1
-bronze_muzzle_loaded_artillery = 1
-military_staff_system = 1
-army_command_principle = 1
-nelsonian_thought = 1
-clipper_design = 1
-marine_engineering_basics = 1
-marine_chronometers = 1
-the_command_principle = 1
-joint-stock_companies = 1
-physiocracy = 1
-state_mercantilism = 1
-division_of_labour = 1
-no_standard = 1
-sentimentalism = 1
-late_enlightenment_philosophy = 1
-malthusian_thought = 1
-enlightenment_thought = 1
-fundamentals_of_psychology = 1
-water_wheel_power = 1
-manufactories = 1
-mechanized_mining = 1
-basic_chemistry = 1
+1700_army = 1 napoleonic_thought = 1
+1700_armament = 1 flintlock_rifles = 1
+1700_h_armament = 1 bronze_muzzle_loaded_artillery = 1
+1700_milit_science = 1 1700_leadership = 1 army_command_principle = 1
+1700_leadership = 1 1700_leadership = 1 army_command_principle = 1
+1700_naval_doctrine = 1 nelsonian_thought = 1
+1700_ship = 1 clipper_design = 1
+1700_naval_engineering = 1 marine_engineering_basics = 1
+1700_naval_science = 1 marine_chronometers = 1
+1700_naval_leader = 1 the_command_principle = 1
+1700_fin_inst= 1 joint-stock_companies = 1
+salamanca_school = 1 physiocracy = 1
+1700_market = 1 state_mercantilism = 1
+1700_tech_organ = 1 division_of_labour = 1
+1700_money = 1 no_standard = 1
+1700_aesthetics = 1 sentimentalism = 1
+1700_philosophy = 1 late_enlightenment_philosophy = 1
+1700_social = 1 malthusian_thought = 1
+1700_political_thought = 1 enlightenment_thought = 1
+1700_psychology = 1 fundamentals_of_psychology = 1
+1700_power = 1 1700_power = 1 water_wheel_power = 1
+1700_mech = 1 manufactories = 1
+1700_metall = 1 mechanized_mining = 1
+1700_chemistry = 1 basic_chemistry = 1
 
 #Inventions
 authoritarianism = yes
@@ -177,12 +181,12 @@ oob = "/1816/SWI_oob.txt" }
 literacy = 0.7
 
 # Technologies
-post_napoleonic_thought = 1
+post_1700_army = 1 napoleonic_thought = 1
 muzzle_loaded_rifles = 1
 iron_muzzle_loaded_artillery = 1
 improved_communication_systems = 1
 army_professionalism = 1
-post_nelsonian_thought = 1
+post_1700_naval_doctrine = 1 nelsonian_thought = 1
 steamers_with_paddle_wheel = 1
 naval_design_bureaus = 1
 alphabetic_flag_signaling = 1
@@ -200,7 +204,7 @@ introspectionism = 1
 experimental_steam_engine = 1
 publishing_industry = 1
 clean_coal = 1
-animal-powered_railroad = 1
+1700_road = 1 animal-powered_railroad = 1
 experimental_railroad = 1
 thermodynamics = 1
 
@@ -222,31 +226,31 @@ oob = "SWI_oob.txt"
 	ruling_party = SWI_liberal
 
 # Technologies
-	post_napoleonic_thought = 1
+	post_1700_army = 1 napoleonic_thought = 1
 	strategic_mobility = 1
-	flintlock_rifles = 1
+	1700_armament = 1 flintlock_rifles = 1
 	muzzle_loaded_rifles = 1
-	bronze_muzzle_loaded_artillery = 1
+	1700_h_armament = 1 bronze_muzzle_loaded_artillery = 1
 	iron_muzzle_loaded_artillery = 1
-	military_staff_system = 1
+	1700_milit_science = 1 1700_leadership = 1 army_command_principle = 1
 	military_plans = 1
-	army_command_principle = 1
+	1700_leadership = 1 1700_leadership = 1 army_command_principle = 1
 	army_professionalism = 1
 	
-	post_nelsonian_thought = 1
+	post_1700_naval_doctrine = 1 nelsonian_thought = 1
 	battleship_column_doctrine = 1
-	clipper_design = 1
+	1700_ship = 1 clipper_design = 1
 	steamers = 1
 	naval_design_bureaus = 1
 	fire_control_systems = 1
 	alphabetic_flag_signaling = 1
 	naval_plans = 1
-	the_command_principle = 1
+	1700_naval_leader = 1 the_command_principle = 1
 	
 	private_banks = 1
 	stock_exchange = 1
 	business_banks = 1
-	no_standard = 1
+	1700_money = 1 no_standard = 1
 	ad_hoc_money_bill_printing = 1
 	private_bank_money_bill_printing = 1
 	early_classical_theory_and_critique = 1
@@ -259,12 +263,12 @@ oob = "SWI_oob.txt"
 	
 	classicism_n_early_romanticism = 1
 	romanticism = 1
-	late_enlightenment_philosophy = 1
+	1700_philosophy = 1 late_enlightenment_philosophy = 1
 	idealism = 1
 	empiricism = 1
-	malthusian_thought = 1
+	1700_social = 1 malthusian_thought = 1
 	positivism = 1
-	enlightenment_thought = 1
+	1700_political_thought = 1 enlightenment_thought = 1
 	ideological_thought = 1
 	state_n_government = 1
 	nationalism_n_imperialism = 1
@@ -272,19 +276,19 @@ oob = "SWI_oob.txt"
 	associationism = 1
 	phenomenalism = 1
 	
-	water_wheel_power = 1
+	1700_power = 1 1700_power = 1 water_wheel_power = 1
 	practical_steam_engine = 1
 	high_n_low_pressure_steam_engines = 1
 	publishing_industry = 1
 	mechanical_production = 1
 	interchangeable_parts = 1
-	mechanized_mining = 1
+	1700_metall = 1 mechanized_mining = 1
 	clean_coal = 1
 	cheap_iron = 1
 	experimental_railroad = 1
 	early_railroad = 1
 	iron_railroad = 1
-	basic_chemistry = 1
+	1700_chemistry = 1 basic_chemistry = 1
 	medicine = 1
 	inorganic_chemistry = 1
 
@@ -367,37 +371,37 @@ prestige = 143
 
 plurality = 100
 
-basic_chemistry = 1
+1700_chemistry = 1 basic_chemistry = 1
 medicine = 1
 inorganic_chemistry = 1
 organic_chemistry = 1
 electricity = 1
-post_napoleonic_thought = 1
+post_1700_army = 1 napoleonic_thought = 1
 strategic_mobility = 1
 point_defense_system = 1
 deep_defense_system = 1
 infiltration = 1
-flintlock_rifles = 1
+1700_armament = 1 flintlock_rifles = 1
 muzzle_loaded_rifles = 1
 breech_loaded_rifles = 1
 machine_guns = 1
 bolt_action_rifles = 1
-bronze_muzzle_loaded_artillery = 1
+1700_h_armament = 1 bronze_muzzle_loaded_artillery = 1
 iron_muzzle_loaded_artillery = 1
 iron_breech_loaded_artillery = 1
 steel_breech_loaded_artillery = 1
-military_staff_system = 1
+1700_milit_science = 1 1700_leadership = 1 army_command_principle = 1
 military_plans = 1
 military_statistics = 1
 military_logistics = 1
-army_command_principle = 1
+1700_leadership = 1 1700_leadership = 1 army_command_principle = 1
 army_professionalism  = 1
 army_decision_making = 1
 army_risk_management = 1
 private_banks = 1
 stock_exchange = 1
 business_banks = 1
-no_standard = 1
+1700_money = 1 no_standard = 1
 ad_hoc_money_bill_printing = 1
 private_bank_money_bill_printing = 1
 central_bank_money_bill_printing = 1
@@ -422,15 +426,15 @@ romanticism = 1
 realism = 1
 impressionism = 1
 expressionism = 1
-late_enlightenment_philosophy = 1
+1700_philosophy = 1 late_enlightenment_philosophy = 1
 idealism = 1
 empiricism = 1
-malthusian_thought = 1
+1700_social = 1 malthusian_thought = 1
 positivism = 1
 functionalism = 1
 biologism = 1
 social_science = 1
-enlightenment_thought = 1
+1700_political_thought = 1 enlightenment_thought = 1
 ideological_thought = 1
 state_n_government = 1
 nationalism_n_imperialism = 1
@@ -440,7 +444,7 @@ introspectionism = 1
 associationism = 1
 phenomenalism = 1
 experimental_psychology = 1
-water_wheel_power = 1
+1700_power = 1 1700_power = 1 water_wheel_power = 1
 practical_steam_engine = 1
 high_n_low_pressure_steam_engines = 1
 steam_turbine = 1
@@ -450,7 +454,7 @@ publishing_industry = 1
 mechanical_production = 1
 interchangeable_parts = 1
 semi_automatization = 1
-mechanized_mining = 1
+1700_metall = 1 mechanized_mining = 1
 clean_coal = 1
 cheap_iron = 1
 cheap_steel = 1
@@ -461,10 +465,10 @@ early_railroad = 1
 iron_railroad = 1
 steel_railroad = 1
 integral_rail_system = 1
-post_nelsonian_thought = 1
+post_1700_naval_doctrine = 1 nelsonian_thought = 1
 battleship_column_doctrine = 1
 raider_group_doctrine = 1
-clipper_design = 1
+1700_ship = 1 clipper_design = 1
 steamers = 1
 iron_steamers = 1
 steel_steamers = 1
@@ -477,7 +481,7 @@ alphabetic_flag_signaling = 1
 naval_plans = 1
 naval_statistics = 1
 naval_logistics = 1
-the_command_principle = 1
+1700_naval_leader = 1 the_command_principle = 1
 naval_professionalism = 1
 naval_decision_making = 1
 analytic_philosophy = 1

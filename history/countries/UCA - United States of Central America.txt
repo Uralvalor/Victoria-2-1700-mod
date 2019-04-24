@@ -42,18 +42,18 @@ upper_house = {
 
 # Technologies
  
-flintlock_rifles = 1
-bronze_muzzle_loaded_artillery = 1
-army_command_principle = 1
+1700_armament = 1 flintlock_rifles = 1
+1700_h_armament = 1 bronze_muzzle_loaded_artillery = 1
+1700_leadership = 1 1700_leadership = 1 army_command_principle = 1
  
-the_command_principle = 1
+1700_naval_leader = 1 the_command_principle = 1
 private_banks = 1
-no_standard = 1
+1700_money = 1 no_standard = 1
 guild_based_production = 1
 classicism_n_early_romanticism = 1
-late_enlightenment_philosophy = 1
-enlightenment_thought = 1
-water_wheel_power = 1
+1700_philosophy = 1 late_enlightenment_philosophy = 1
+1700_political_thought = 1 enlightenment_thought = 1
+1700_power = 1 1700_power = 1 water_wheel_power = 1
 publishing_industry = 1
 
 # Inventions
@@ -69,19 +69,19 @@ oob = "UCA_oob.txt"
 1861.1.1 = {
 # Technologies
 	 
-	flintlock_rifles = 1
-	bronze_muzzle_loaded_artillery = 1
+	1700_armament = 1 flintlock_rifles = 1
+	1700_h_armament = 1 bronze_muzzle_loaded_artillery = 1
 	iron_muzzle_loaded_artillery = 1
-	army_command_principle = 1
+	1700_leadership = 1 1700_leadership = 1 army_command_principle = 1
 	private_banks = 1
-	no_standard = 1
+	1700_money = 1 no_standard = 1
 	freedom_of_trade = 1
 	guild_based_production = 1
 	classicism_n_early_romanticism = 1
-	late_enlightenment_philosophy = 1
+	1700_philosophy = 1 late_enlightenment_philosophy = 1
 	idealism = 1
-	enlightenment_thought = 1
-	water_wheel_power = 1
+	1700_political_thought = 1 enlightenment_thought = 1
+	1700_power = 1 1700_power = 1 water_wheel_power = 1
 	publishing_industry = 1
 	mechanical_production = 1
 	interchangeable_parts = 1
@@ -89,7 +89,7 @@ oob = "UCA_oob.txt"
 	early_railroad = 1
 	iron_railroad = 1
 	 
-	the_command_principle = 1
+	1700_naval_leader = 1 the_command_principle = 1
 
 #Inventions
 	jacquard_power_loom = yes

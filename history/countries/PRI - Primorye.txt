@@ -42,10 +42,10 @@ foreign_training = yes_foreign_training
 
 
  
-bronze_muzzle_loaded_artillery = 1
+1700_h_armament = 1 bronze_muzzle_loaded_artillery = 1
  
-military_staff_system = 1
-flintlock_rifles = 1	
+1700_milit_science = 1 1700_leadership = 1 army_command_principle = 1
+1700_armament = 1 flintlock_rifles = 1	
 
 ruling_party = PRI_reactionary
 upper_house = {

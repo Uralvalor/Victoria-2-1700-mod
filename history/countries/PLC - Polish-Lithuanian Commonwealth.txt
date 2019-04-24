@@ -15,6 +15,7 @@ consciousness = 2
 nonstate_consciousness = 1
 
 set_country_flag = serfdom_not_abolished
+set_country_flag = princes_recieve_foreign_education
 
 foreign_naval_officers = yes_foreign_naval_officers 
 military_constructions = yes_military_constructions
@@ -56,9 +57,9 @@ pensions = no_pensions
 school_reforms = no_schools
 
 
-nelsonian_thought = 1
-flintlock_rifles = 1
-bronze_muzzle_loaded_artillery = 1
+1700_naval_doctrine = 1 nelsonian_thought = 1
+1700_armament = 1 flintlock_rifles = 1
+1700_h_armament = 1 bronze_muzzle_loaded_artillery = 1
 
 ruling_party = PLC_anarcho_liberal
 upper_house = {
