@@ -22,7 +22,7 @@ party_issues = {
 			goods_demand = 0.2
 			supply_consumption = -0.25
 			research_points_modifier = -0.25
-			
+			import_cost = -0.4
 			
 			
 			rules = {
@@ -52,6 +52,7 @@ party_issues = {
 			factory_input = -0.05
 			factory_owner_cost = -0.05
 			factory_output = 0.05
+			import_cost = -0.1
 			
 			rules = {
 				build_factory = no
@@ -76,11 +77,12 @@ party_issues = {
 			}
 		}
 		state_capitalism = {
-			min_tax = 0.25
+			min_tax = 0.3
 			goods_demand = -0.08
 			supply_consumption = 0.1
 			research_points_modifier = 0.1
 			factory_throughput = 0.1
+			import_cost = 0.2
 		     
 			rules = {
 				build_factory = yes
@@ -108,6 +110,7 @@ party_issues = {
 			research_points_modifier = 0.25
 			factory_throughput = 0.25
 			tax_efficiency = 0.05
+			import_cost = 0.5
 			
 			rules = {
 				build_factory = yes

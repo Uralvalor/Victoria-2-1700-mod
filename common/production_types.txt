@@ -937,7 +937,7 @@ metal_money = {
 	}
 	bonus = {
 		trigger = { economic_policy = planned_economy }
-		value = -0.6
+		value = -0.65
 	}
 	bonus = {
 		trigger = { finance_regulation = massive_interest }
@@ -979,7 +979,7 @@ paper_money = {
 	}
 	bonus = {
 		trigger = { economic_policy = planned_economy }
-		value = -0.6
+		value = -0.65
 	}
 	bonus = {
 		trigger = { finance_regulation = massive_interest }

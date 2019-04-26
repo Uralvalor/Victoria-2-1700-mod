@@ -4,7 +4,7 @@ Slave_trade_on = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
 				NOT = { has_country_flag = Slave_trade }
 	}
@@ -33,9 +33,9 @@ Slave_trade_charlston = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 205
 	}
@@ -54,7 +54,7 @@ Slave_trade_charlston = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15
@@ -85,9 +85,9 @@ Slave_trade_washington = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 220
 	}
@@ -106,7 +106,7 @@ Slave_trade_washington = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15
@@ -137,9 +137,9 @@ Slave_trade_newyork = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 232
 	}
@@ -158,7 +158,7 @@ Slave_trade_newyork = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15
@@ -189,9 +189,9 @@ Slave_trade_neworlean = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 139
 	}
@@ -210,7 +210,7 @@ Slave_trade_neworlean = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15
@@ -241,9 +241,9 @@ Slave_trade_mexico = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 2172
 	}
@@ -262,7 +262,7 @@ Slave_trade_mexico = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15
@@ -293,9 +293,9 @@ Slave_trade_cuba = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 2212
 	}
@@ -314,7 +314,7 @@ Slave_trade_cuba = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15
@@ -345,9 +345,9 @@ Slave_trade_gaity = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 2213
 	}
@@ -366,7 +366,7 @@ Slave_trade_gaity = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15
@@ -397,9 +397,9 @@ Slave_trade_puerto = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 2222
 	}
@@ -418,7 +418,7 @@ Slave_trade_puerto = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15
@@ -448,9 +448,9 @@ Slave_trade_cartagena = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 2254
 	}
@@ -469,7 +469,7 @@ Slave_trade_cartagena = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15
@@ -499,9 +499,9 @@ Slave_trade_lima = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 2295
 	}
@@ -520,7 +520,7 @@ Slave_trade_lima = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15
@@ -550,9 +550,9 @@ Slave_trade_valparaiso = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 2325
 	}
@@ -571,7 +571,7 @@ Slave_trade_valparaiso = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15
@@ -601,9 +601,9 @@ Slave_trade_buenos = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 2348
 	}
@@ -622,7 +622,7 @@ Slave_trade_buenos = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15
@@ -652,9 +652,9 @@ Slave_trade_rio = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 2447
 	}
@@ -673,7 +673,7 @@ Slave_trade_rio = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15
@@ -703,9 +703,9 @@ Slave_trade_salvador = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 2436
 	}
@@ -724,7 +724,7 @@ Slave_trade_salvador = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15
@@ -754,9 +754,9 @@ Slave_trade_recife = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 2432
 	}
@@ -775,7 +775,7 @@ Slave_trade_recife = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15
@@ -805,9 +805,9 @@ Slave_trade_paramaribo = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 2240
 	}
@@ -826,7 +826,7 @@ Slave_trade_paramaribo = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15
@@ -856,9 +856,9 @@ Slave_trade_cayena = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 2241
 	}
@@ -877,7 +877,7 @@ Slave_trade_cayena = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15
@@ -907,9 +907,9 @@ Slave_trade_liverpool = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 277
 	}
@@ -928,7 +928,7 @@ Slave_trade_liverpool = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15
@@ -958,9 +958,9 @@ Slave_trade_bristol = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 296
 	}
@@ -979,7 +979,7 @@ Slave_trade_bristol = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15
@@ -1009,9 +1009,9 @@ Slave_trade_gvadelupa = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 2230
 	}
@@ -1030,7 +1030,7 @@ Slave_trade_gvadelupa = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15
@@ -1060,9 +1060,9 @@ Slave_trade_gvatemala = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 2186
 	}
@@ -1081,7 +1081,7 @@ Slave_trade_gvatemala = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15
@@ -1111,9 +1111,9 @@ Slave_trade_yamaika = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 2217
 	}
@@ -1132,7 +1132,7 @@ Slave_trade_yamaika = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15
@@ -1162,9 +1162,9 @@ Slave_trade_london = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 300
 	}
@@ -1183,7 +1183,7 @@ Slave_trade_london = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15
@@ -1213,9 +1213,9 @@ Slave_trade_amsterdamm = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 375
 	}
@@ -1234,7 +1234,7 @@ Slave_trade_amsterdamm = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15
@@ -1264,9 +1264,9 @@ Slave_trade_nant = {
 	alert = yes
     picture = bolivar_abolish_slavery
 	potential = {
-				is_greater_power = yes
+				rank = 15
 	            slavery = yes_slavery
-                any_owned_province = { continent = africa } 
+                any_owned_province = { continent = africa has_pop_type = slaves } 
 				has_country_flag = Slave_trade
 	            controls = 423
 	}
@@ -1285,7 +1285,7 @@ Slave_trade_nant = {
 		duration = 1825
 		}
 		random_state = {
-				limit = { continent = africa }
+				limit = { continent = africa has_pop_type = slaves }
 				poor_strata = {
 				limit = { continent = africa 
 				    unemployment = 0.15

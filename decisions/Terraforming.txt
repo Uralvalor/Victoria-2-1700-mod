@@ -37,7 +37,8 @@ political_decisions = {
 			NOT = { owns = 3290 }
 		}
 		allow = { money = 60000
-			experimental_steam_engine   = 1
+			water_wheel_power = 1
+			1700_chemistry = 1
 		}
 		effect = {
 		treasury = -60000	

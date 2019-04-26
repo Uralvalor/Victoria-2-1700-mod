@@ -77,7 +77,7 @@ upper_house = {
 
 
 
-1700_power = 1 1700_power = 1 water_wheel_power = 1	
+1700_power = 1 water_wheel_power = 1	
 1700_naval_doctrine = 1 nelsonian_thought = 1
 1700_armament = 1 flintlock_rifles = 1
 1700_h_armament = 1 bronze_muzzle_loaded_artillery = 1
@@ -113,7 +113,7 @@ oob = "NET_oob.txt"
 
 
 1720.1.1 = {
-	decision = build_amsterdam
+#decision = build_amsterdam
 civilized = yes
 oob = "/1756/NET_oob.txt"
  }
