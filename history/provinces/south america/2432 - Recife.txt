@@ -5,6 +5,8 @@ add_core = BRZ
 trade_goods = coffee
 life_rating = 35
 terrain = forested_farmland
+
+	naval_base = 1
 1836.1.1 = {
 	owner = BRZ
 	controller = BRZ

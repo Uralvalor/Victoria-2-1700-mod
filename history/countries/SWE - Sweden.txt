@@ -4,7 +4,7 @@ religion = secularism
 government = absolute_monarchy
 plurality = 10
 nationalvalue = nv_order
-literacy = 0.5 #в середине века 50%
+literacy = 0.45 #в середине века 50%
 non_state_culture_literacy = 0.25
 prestige = 60
 consciousness = 10
@@ -35,35 +35,18 @@ gov_religion = protestant unemployment_subsidies = no_subsidies
 pensions = no_pensions
 education = church 
 
-	land_reform = yes_land_reform
-	admin_reform = yes_admin_reform
-	finance_reform = finance_reform_two 
-	education_reform = yes_education_reform 
-	transport_improv = yes_transport_improv 
-	pre_indust = yes_pre_indust
-	industrial_construction = yes_industrial_construction
-	foreign_training = yes_foreign_training 
-	foreign_weapons = yes_foreign_weapons 
-	military_constructions = yes_military_constructions 
-	foreign_officers = yes_foreign_officers 
-	army_schools = 	yes_army_schools
-	foreign_naval_officers = yes_foreign_naval_officers 
-	naval_schools = yes_naval_schools 
-	foreign_navies = yes_foreign_navies 
-
 ruling_party = SWE_reactionary
 last_election = 1700.1.1
 upper_house = {
 	fascist = 0
-	reactionary = 65
-	 
+	reactionary = 100
 	socialist = 0
 	communist = 0
 }
 
 #Technologies
 
-1700_power = 1 1700_power = 1 water_wheel_power = 1
+1700_power = 1 water_wheel_power = 1
 1700_metall = 1 mechanized_mining = 1
 1700_naval_doctrine = 1 nelsonian_thought = 1
 1700_armament = 1 flintlock_rifles = 1

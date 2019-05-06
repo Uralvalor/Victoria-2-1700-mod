@@ -26,7 +26,30 @@ vassal = {
 	start_date = 1700.1.1 
 	end_date = 1725.1.1
 }
-
+vassal = {
+	first = SPA
+	second = SIC
+	start_date = 1699.1.1 
+	end_date = 1725.1.1
+}
+vassal = {
+	first = SPA
+	second = SAR
+	start_date = 1699.1.1 
+	end_date = 1725.1.1
+}
+vassal = {
+	first = SPA
+	second = NEA
+	start_date = 1699.1.1 
+	end_date = 1725.1.1
+}
+vassal = {
+	first = SPA
+	second = LOM
+	start_date = 1700.1.1 
+	end_date = 1725.1.1
+}
 vassal = {
 	first = RUS
 	second = FIN
@@ -103,7 +126,7 @@ vassal= {
 #vassal = {
 #	first = SAX
 #	second = PLC
-#	start_date = 1699.3.2
+#	start_date = 1697.1.1
 #	end_date = 1763.11.15
 #}
 

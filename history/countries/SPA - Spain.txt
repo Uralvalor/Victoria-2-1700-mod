@@ -7,8 +7,8 @@ government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_equality
 literacy = 0.08
-non_state_culture_literacy = 0.25
-colonial_points = 300
+#non_state_culture_literacy = 0.25
+colonial_points = 250
 
 
 prestige = 5
@@ -75,26 +75,26 @@ foreign_naval_officers = yes_foreign_naval_officers
 naval_schools = yes_naval_schools
 
 
+salamanca_school = 1
 
 
-salamanca_school = 1	
-1700_social = 1
-1700_power = 1 water_wheel_power = 1	
-1700_naval_doctrine = 1 nelsonian_thought = 1
-1700_armament = 1 flintlock_rifles = 1
-1700_h_armament = 1 bronze_muzzle_loaded_artillery = 1
-1700_milit_science = 1 1700_leadership = 1 army_command_principle = 1
-1700_ship = 1 clipper_design = 1
-1700_money = 1
+#1700_social = 1
+#1700_power = 1 water_wheel_power = 1	
+#1700_naval_doctrine = 1 nelsonian_thought = 1
+#1700_armament = 1 #flintlock_rifles = 1
+#1700_h_armament = 1 #bronze_muzzle_loaded_artillery = 1
+#1700_milit_science = 1 #1700_leadership = 1 
+#1700_ship = 1 #clipper_design = 1
+#1700_money = 1
 	
 # Starting Consciousness
-consciousness = 2
-nonstate_consciousness = 3
+consciousness = 0
+nonstate_consciousness = 0
 
 schools = culture_tech_school
 
 oob = "SPA_oob.txt"
-1710.1.1 = {
+1730.1.1 = {
 civilized = yes
 oob = "/1756/SPA_oob.txt"
  }

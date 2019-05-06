@@ -9,6 +9,7 @@ nationalvalue = nv_order
 literacy = 0.85
 non_state_culture_literacy = 0.05
 prestige = 60
+civilized = yes
 
 set_country_flag = serfdom_not_abolished
 
@@ -52,6 +53,8 @@ trade_unions = state_controlled
 voting_system = first_past_the_post
 political_parties = secret_ballots
 minorities = limited 
+immigration_policy = open_immigration
+
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -75,7 +78,19 @@ upper_house = {
 
 # Technologies
 
-
+1700_psychology
+salamanca_school = 1
+1700_fin_inst
+1700_money
+no_standard
+1700_chemistry
+1700_philosophy
+1700_power
+1700_armament
+1700_army
+1700_milit_science
+1700_naval_doctrine
+1700_naval_engineering
 
 1700_power = 1 water_wheel_power = 1	
 1700_naval_doctrine = 1 nelsonian_thought = 1

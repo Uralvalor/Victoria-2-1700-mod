@@ -11,9 +11,8 @@ non_state_culture_literacy = 0.10
 
 army_schools = yes_army_schools  
 finance_reform = yes_finance_reform
-land_reform = yes_land_reform  
 taxation_reform = tax_farmers
-academic_institutions = madrasahs
+land_reform = yes_land_reform  
 
 
 # Political reforms
@@ -32,9 +31,11 @@ wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
-gov_religion = secularism unemployment_subsidies = no_subsidies
+gov_religion = secularism
+unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
+child_labor = child_labor_restricted
 
 ruling_party = NIP_reactionary
 upper_house = {
@@ -57,3 +58,55 @@ consciousness = 2
 nonstate_consciousness = 0
 
 oob = "TKG_oob.txt"
+
+1836.1.1 = {
+literacy = 0.40
+
+taxation_reform = tax_farmers
+finance_reform = yes_finance_reform
+transport_improv = yes_transport_improv
+foreign_weapons = yes_foreign_weapons
+
+# Technologies
+freedom_of_trade = 1
+1700_social = 1 malthusian_thought = 1
+1700_philosophy = 1 late_enlightenment_philosophy = 1
+private_banks = 1
+
+oob = "TKG_oob.txt"
+
+}
+1861.1.1 = {
+	oob = "/1861/TKG_oob.txt"
+	set_country_flag = caved_to_commodore_perry
+	set_country_flag = consulted_fudai
+	set_global_flag = iemochi_shogun
+	set_country_flag = sakuradamon_incident
+	set_country_flag = ansei_purge
+
+foreign_weapons = yes_foreign_weapons
+army_schools = yes_army_schools
+foreign_navies = advanced_foreign_navies
+naval_schools = yes_naval_schools
+land_reform = yes_land_reform
+finance_reform = yes_finance_reform
+academic_institutions = madrasahs
+medicine_reform = alchemy
+taxation_reform = tax_farmers
+diplomatic_reform = interactive
+
+# Technologies
+1700_armament = 1 flintlock_rifles = 1
+1700_h_armament = 1 bronze_muzzle_loaded_artillery = 1
+1700_ship = 1 clipper_design = 1
+alphabetic_flag_signaling = 1
+freedom_of_trade = 1
+1700_money = 1 no_standard = 1
+1700_philosophy = 1 late_enlightenment_philosophy = 1
+1700_chemistry = 1 basic_chemistry = 1
+private_banks = 1
+early_classical_theory_and_critique = 1
+
+# Inventions
+
+}

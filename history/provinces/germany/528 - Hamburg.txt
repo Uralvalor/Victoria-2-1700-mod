@@ -1,5 +1,5 @@
-owner = HAM
-controller = HAM
+owner = DEN
+controller = DEN
 add_core = HAM
 add_core = GER
 trade_goods = fruit
@@ -12,6 +12,8 @@ state_building = {
 	building = paper_mill
 	upgrade = yes
 }
+1800.1.1 = { owner = HAM
+controller = HAM }
 1861.1.1 = { railroad = 3 }
 1914.1.1 = {
 	owner = GER

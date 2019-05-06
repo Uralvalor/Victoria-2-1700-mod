@@ -26,11 +26,11 @@ leader = {
 #Sphere of Influence
 
 
-#BAV = {
-#	value = 125
-#	level = 5
-#	influence_value = 200
-#}
+BAV = {
+	value = 125
+	level = 4
+	influence_value = 100
+}
 
 HEK = {
 	value = 125
@@ -84,12 +84,12 @@ WEI = {
 }
 SAX = {
 	value = 125
-	level = 5
+	level = 4
 	influence_value = 200
 }
 PRU = {
 	value = 125
-	level = 5
+	level = 4
 	influence_value = 200
 }
 ANH = {

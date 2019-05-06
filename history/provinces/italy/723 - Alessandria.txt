@@ -1,7 +1,6 @@
-owner = MNT
-controller = MNT
-add_core = LOM
-add_core = MNT
+owner = LOM
+controller = LOM
+add_core = SAR
 add_core = ITA
 fort = 1
 trade_goods = fruit

@@ -617,11 +617,11 @@ country_event = {
 country_event = {
 	id = 1100002
 	title = "Луизианская революция"
-	desc = "Жители колоний в америке недовольны и востали против Франции, правительство должно сокрушить их !"
+	desc = "Жители колоний в америке недовольны и востали против Парижа, правительство должно сокрушить их !"
 	picture = "Celebration"	
 	
 	trigger = {
-		tag = FRA
+		OR = { tag = FRA tag = FSE }
 		NOT = { exists = LOU }
                 NOT = { year = 1816 }
                 enlightenment_thought = 1
@@ -717,6 +717,9 @@ country_event = {
 					NOT = {
 						tag = FRA
 					}
+					NOT = {
+						tag = FSE
+					}
 					capital_scope = {
 						continent = europe
 					}
@@ -736,7 +739,7 @@ country_event = {
 	picture = "Celebration"	
 	
 	trigger = {
-		tag = FRA
+		OR = { tag = FRA tag = FSE }
 		NOT = { exists = QUE }
                 NOT = { year = 1816 }
                 enlightenment_thought = 1
@@ -818,6 +821,7 @@ country_event = {
 		name = "Поддержим американцев"
 		create_alliance = LOU
 		relation = { who = FRA value = -155 }
+		relation = { who = FSE value = -155 }
 		diplomatic_influence = {	who = LOU	value = 300 }
 	}
 
@@ -906,7 +910,7 @@ country_event = {
 	picture = "Celebration"	
 	
 	trigger = {
-		tag = SPA
+		OR = { tag = SPA tag = FSE }
 		NOT = { exists = MEX }
 		is_ideology_enabled = liberal 
 		any_owned_province = {
@@ -2827,10 +2831,14 @@ country_event = {
 	picture = "Revolution"
 
 	trigger = {
-		tag = FRA
+		OR = { tag = FRA tag = FSE }
+		OR = {
 		LOU = {
 			vassal_of = FRA
 		}
+		LOU = {
+			vassal_of = FSE
+		} }
 		any_owned_province = { continent = north_america }
 	}
 	

@@ -29,10 +29,14 @@ name = "Война за Испанское наследство"
 	add_attacker = AGO
 	add_defender = FRA
 	add_defender = SPA
+	add_defender = SIC # под контролем испании
+	add_defender = LOM # под контролем испании
+	add_defender = SAR # под контролем испании
+	add_defender = NEA # под контролем испании
 	add_defender = CLN
 	add_defender = MNT
 	add_defender = BAV
-	add_defender = SAV #- вначале был союзником франции потом вступил на стороне СРИ (поддержал востание гугенотов)
+	#add_defender = SAV #- вначале был союзником франции потом вступил на стороне СРИ (поддержал востание гугенотов)
 	
 	
 	# actor
@@ -60,46 +64,44 @@ name = "Война за Испанское наследство"
 		receiver = SPA
 		state_province_id = 394
 	}
-
 	war_goal = {
 		casus_belli = acquire_state
 		actor = AUS
-		receiver = SPA
+		receiver = LOM
 		state_province_id = 726
 	}
 	war_goal = {
 		casus_belli = acquire_state
 		actor = AUS
-		receiver = SPA
-		state_province_id = 722
+		receiver = LOM
+		state_province_id = 723
+	}
+		war_goal = {
+		casus_belli = acquire_state
+		actor = AUS
+		receiver = NEA
+		state_province_id = 754
 	}
 
+	war_goal = {
+		casus_belli = acquire_state
+		actor = AUS
+		receiver = NEA
+		state_province_id = 753
+	}
+
+	war_goal = {
+		casus_belli = acquire_state
+		actor = AUS
+		receiver = SIC
+		state_province_id = 763
+	}
 #	war_goal = {
 #		casus_belli = acquire_state
 #		actor = SAV
 #		receiver = SPA
 #		state_province_id = 765
 #	}
-	war_goal = {
-		casus_belli = acquire_state
-		actor = AGO
-		receiver = SPA
-		state_province_id = 754
-	}
-
-	war_goal = {
-		casus_belli = acquire_state
-		actor = AGO
-		receiver = SPA
-		state_province_id = 753
-	}
-
-	war_goal = {
-		casus_belli = acquire_state
-		actor = AGO
-		receiver = SPA
-		state_province_id = 763
-	}
 	war_goal = {
 		casus_belli = acquire_state
 		actor = ENL

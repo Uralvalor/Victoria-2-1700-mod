@@ -7,7 +7,7 @@ nationalvalue = nv_order
 literacy = 0.13
 prestige = 35
 civilized = yes
-colonial_points = 300
+colonial_points = 250
 
 #Starting Consciousness
 consciousness = 7
@@ -53,13 +53,19 @@ school_reforms = no_schools
 
 	
 
-1700_power = 1 water_wheel_power = 1	
-1700_armament = 1 flintlock_rifles = 1	
-1700_h_armament = 1 bronze_muzzle_loaded_artillery = 1
+1700_power = 1
+water_wheel_power = 1	
+1700_armament = 1
+flintlock_rifles = 1	
+1700_h_armament = 1
+bronze_muzzle_loaded_artillery = 1
 1700_social = 1
-1700_milit_science = 1 1700_leadership = 1 army_command_principle = 1
+1700_milit_science = 1
+1700_leadership = 1
+army_command_principle = 1
 1700_money = 1
-1700_ship = 1 clipper_design = 1
+1700_ship = 1
+clipper_design = 1
 	
 ruling_party = POR_reactionary
 last_election = 1700.1.1

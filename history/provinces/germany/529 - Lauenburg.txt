@@ -1,10 +1,12 @@
-owner = HOL
-controller = HOL
+owner = DEN
+controller = DEN
 add_core = HOL
 add_core = GER
 trade_goods = grain
 life_rating = 35
 terrain = marginal_farmland
+1800.1.1 = { owner = HOL
+controller = HOL }
 1861.1.1 = { railroad = 3 }
 1914.1.1 = {
 	owner = GER

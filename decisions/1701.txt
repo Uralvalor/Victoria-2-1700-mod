@@ -736,7 +736,7 @@ political_decisions = {
 	form_bourbone_spain = {
 		potential = {
 			tag = FRA
-                        NOT = { exists = FSE }
+                NOT = { exists = FSE }
 		        NOT = { year = 1730 }
 				government = absolute_monarchy
 		}

@@ -69156,10 +69156,6 @@
     }
 
     building_position = {
-        naval_base = {
-            x = 1960
-            y = 538
-        }
 
         fort = {
             x = 1961
@@ -69287,6 +69283,11 @@
     }
 
     building_position = {
+	
+        naval_base = {
+            x = 1897
+            y = 370
+        }
         fort = {
             x = 1926
             y = 382
@@ -72374,10 +72375,6 @@
     }
 
     building_position = {
-        naval_base = {
-            x = 2152
-            y = 783
-        }
 
         fort = {
             x = 2211
@@ -72729,10 +72726,6 @@
     }
 
     building_position = {
-        naval_base = {
-            x = 2097
-            y = 582
-        }
 
         fort = {
             x = 2105
