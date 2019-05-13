@@ -14,134 +14,178 @@ leader = {
 }
 
 
+leader = {
+	name = "Abai"
+	type = land
+	date = 1700.1.1
+	personality = efficient
+	background = aristocrat
+}
 
+leader = {
+	name = "Tara"
+	type = land
+	date = 1700.1.1
+	personality = clever
+	background = aristocrat
+}
+
+leader = {
+	name = "Ara"
+	type = land
+	date = 1700.1.1
+	personality = competent
+	background = aristocrat
+}
+
+leader = {
+	name = "Baroda"
+	type = land
+	date = 1700.1.1
+	personality = resourceful
+	background = diplomat
+}
+leader = {
+	name = "Marathai"
+	type = land
+	date = 1700.1.1
+	personality = openminded
+	background = drillmaster 
+}
+leader = {
+	name = "Marat"
+	type = land
+	date = 1700.1.1
+	personality = competent
+	background = cavalry_school 
+}
 army = {
 	name = "1st Army"
-	location = 1295
+	location = 1241
 	regiment = {
 		name= "1st Baroda Cavalry"
 		type = cavalry
-		home = 1295
+		home = 1299
 	}
 
 	regiment = {
 		name= "2nd Baroda Cavalry"
 		type = cavalry
-		home = 1295
+		home = 1299
 	}
 	regiment = {
 		name= "1st Baroda Cavalry"
 		type = cavalry
-		home = 1295
+		home = 1299
 	}
 
 	regiment = {
 		name= "2nd Baroda Cavalry"
 		type = cavalry
-		home = 1295
+		home = 1299
 	}
 		regiment = {
 		name= "1st Baroda Cavalry"
 		type = cavalry
-		home = 1295
+		home = 1299
 	}
 
 	regiment = {
 		name= "2nd Baroda Cavalry"
 		type = cavalry
-		home = 1295
+		home = 1299
 	}
 		regiment = {
 		name= "1st Baroda Cavalry"
 		type = cavalry
-		home = 1295
+		home = 1299
 	}
 
 	regiment = {
 		name= "2nd Baroda Cavalry"
 		type = cavalry
-		home = 1295
+		home = 1299
 	}
 	regiment = {
 		name= "3rd Baroda Irregular"
 		type = irregular
-		home = 1295
+		home = 1299
 	}
 
 	regiment = {
 		name= "4th Baroda Irregular"
 		type = irregular
-		home = 1295
+		home = 1299
 	}
 
 	regiment = {
 		name= "5th Baroda Irregular"
 		type = irregular
-		home = 1295
+		home = 1299
 	}
 
 	regiment = {
 		name= "6th Baroda Irregular"
 		type = irregular
-		home = 1295
+		home = 1299
 	}
 
 }
 
 army = {
 	name = "2nd Army"
-	location = 1297
+	location = 1301
 	regiment = {
 		name= "1st Bombay Cavalry"
 		type = cavalry
-		home = 1297
+		home = 1298
 	}
 
 	regiment = {
 		name= "2nd Bombay Cavalry"
 		type = cavalry
-		home = 1297
+		home = 1298
 	}
 
 	regiment = {
 		name= "3rd Bombay Irregular"
 		type = irregular
-		home = 1297
+		home = 1298
 	}
 
 	regiment = {
 		name= "4th Bombay Irregular"
 		type = irregular
-		home = 1297
+		home = 1298
 	}
 
 	regiment = {
 		name= "1st Surat Irregular"
 		type = irregular
-		home = 1296
+		home = 1298
 	}
 
 	regiment = {
 		name= "2nd Surat Irregular"
 		type = irregular
-		home = 1296
+		home = 1298
 	}
 
 }
 
 army = {
 	name = "3rd Army"
-	location = 1291
+	location = 1292
 	regiment = {
 		name= "1st Ahmedabad Irregular"
 		type = irregular
-		home = 1291
+		home = 1301
 	}
 
 	regiment = {
 		name= "2nd Ahmedabad Irregular"
 		type = irregular
-		home = 1291
+		home = 1301
 	}
 
 	regiment = {

@@ -50,12 +50,12 @@
 	farmers = {
 		culture = central_american
 		religion = catholic
-		size = 9400
+		size = 400
 	}
 	farmers = {
 		culture = central_american
 		religion = animist
-		size = 4700
+		size = 1700
 	}
 }
 2256 = {
@@ -106,26 +106,14 @@
 		size = 4700
 	}
 }
-2247 = {
-	farmers = {
-		culture = north_andean
-		religion = catholic
-		size = 9400
-	}
-	farmers = {
-		culture = north_andean
-		religion = animist
-		size = 4700
-	}
-}
 2248 = {
 	farmers = {
-		culture = central_american
+		culture = north_andean
 		religion = catholic
 		size = 9400
 	}
 	farmers = {
-		culture = central_american
+		culture = north_andean
 		religion = animist
 		size = 4700
 	}
@@ -134,12 +122,12 @@
 	farmers = {
 		culture = north_andean
 		religion = catholic
-		size = 9400
+		size = 400
 	}
 	farmers = {
 		culture = north_andean
 		religion = animist
-		size = 4700
+		size = 1700
 	}
 }
 2251 = {
@@ -1067,27 +1055,20 @@
 	farmers = {
 		culture = amazonian
 		religion = animist
-	    size = 10
+	    size = 12330
 	}
 }
 2261 = {
 	farmers = {
 		culture = amazonian
 		religion = animist
-	    size = 10
-	}
-}
-2262 = {
-	farmers = {
-		culture = amazonian
-		religion = animist
-	    size = 10
+	    size = 12330
 	}
 }
 2263 = {
 	farmers = {
 		culture = amazonian
 		religion = animist
-	    size = 10
+	    size = 12330
 	}
 }

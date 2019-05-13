@@ -13,6 +13,13 @@ consciousness = 10
 nonstate_consciousness = 1
 
 
+foreign_investment = {
+	SWI = 15000
+	SWE = 10000
+	SPA = 5000
+	FRA = 5000
+	}
+
 	land_reform = yes_land_reform
 	admin_reform = yes_admin_reform
 	finance_reform = finance_reform_two 
@@ -41,6 +48,10 @@ nonstate_consciousness = 1
 salamanca_school = 1
 1700_market = 1
 1700_tech_organ = 1
+1700_aesthetics = 1
+1700_philosophy = 1
+1700_social = 1
+1700_political_thought = 1
 
 clean_coal = 1
 precision_work = yes
@@ -76,6 +87,9 @@ upper_house = {
 	communist = 0
 }
 
+1701.1.1 = {
+	oob = "/1756/VEN_oob.txt"
+}
 1861.1.1 = {
 	oob = "/1861/VEN_oob.txt"
 }

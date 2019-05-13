@@ -49,8 +49,26 @@ SPA = {
 	level = 5
 	influence_value = 200
 }
-
-
+SIC = {
+	value = 50
+	level = 5
+	influence_value = 200
+}
+SAR = {
+	value = 50
+	level = 5
+	influence_value = 200
+}
+NEA = {
+	value = 50
+	level = 5
+	influence_value = 200
+}
+LOM = {
+	value = 50
+	level = 5
+	influence_value = 200
+}
 army = {
 	name = "Paris Guard"
 	location = 425

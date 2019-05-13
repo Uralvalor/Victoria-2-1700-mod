@@ -37,12 +37,12 @@
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 10300
+		size = 7300
 	}
 	farmers = {
 		culture = north_german
 		religion = catholic
-		size = 4500
+		size = 3500
 	}
 	clergymen = {
 		culture = frisian
@@ -266,6 +266,11 @@
 		religion = protestant
 		size = 30
 	}
+	capitalists = {
+		culture = north_german
+		religion = protestant
+		size = 230
+	}
 	bureaucrats = {
 		culture = north_german
 		religion = protestant
@@ -304,7 +309,12 @@
 	artisans = {
 		culture = north_german
 		religion = catholic
-		size = 26
+		size = 35
+	}
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 3900
 	}
 }
 544 = {

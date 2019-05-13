@@ -41,6 +41,11 @@ foreign_naval_officers = yes_foreign_naval_officers
 naval_schools = yes_naval_schools
 
 
+foreign_investment = {
+	ENL = 80000
+	SPA = 48000
+	FRA = 8000
+}
 
 
 # Political reforms
@@ -60,8 +65,9 @@ immigration_policy = open_immigration
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = low_safety
-health_care = no_health_care
-gov_religion = protestant unemployment_subsidies = acceptable_subsidies
+health_care = trinket_health_care
+gov_religion = protestant
+unemployment_subsidies = acceptable_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 finance_regulation = medium_interest 
@@ -78,20 +84,20 @@ upper_house = {
 
 # Technologies
 
-1700_psychology
+1700_psychology = 1
 salamanca_school = 1
-1700_fin_inst
-1700_money
-no_standard
-1700_chemistry
-1700_philosophy
-1700_power
-1700_armament
-1700_army
-1700_milit_science
-1700_naval_doctrine
-1700_naval_engineering
-
+1700_fin_inst = 1
+1700_money = 1
+no_standard = 1
+1700_chemistry = 1
+1700_philosophy = 1
+1700_power = 1
+1700_armament = 1
+1700_army = 1
+1700_milit_science = 1
+1700_naval_doctrine = 1
+1700_naval_engineering = 1
+1700_naval_science = 1
 1700_power = 1 water_wheel_power = 1	
 1700_naval_doctrine = 1 nelsonian_thought = 1
 1700_armament = 1 flintlock_rifles = 1
@@ -101,7 +107,7 @@ no_standard
 1700_metall = 1 mechanized_mining = 1
 1700_fin_inst= 1 joint-stock_companies = 1
 1700_money = 1 no_standard = 1
-salamanca_school = 1 physiocracy = 1
+physiocracy = 1
 1700_market = 1 state_mercantilism = 1
 freedom_of_trade = 1
 post_1700_naval_doctrine = 1 nelsonian_thought = 1
@@ -110,7 +116,6 @@ post_1700_naval_doctrine = 1 nelsonian_thought = 1
 precision_work = yes
 1700_fin_inst = 1
 1700_money = 1
-salamanca_school = 1
 1700_market = 1
 1700_tech_organ = 1
 1700_road = 1
@@ -127,6 +132,10 @@ nonstate_consciousness = 5
 oob = "NET_oob.txt"
 
 
+1701.1.1 = {
+oob = "NET_oob.txt"
+ }
+ 
 1720.1.1 = {
 #decision = build_amsterdam
 civilized = yes

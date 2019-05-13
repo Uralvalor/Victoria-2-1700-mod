@@ -3030,14 +3030,24 @@
 		size = 300
 	}
 	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 50
+	}
+	clergymen = {
 		culture = armenian
-		religion = orthodox
+		religion = catholic
 		size = 100
 	}
 	artisans = {
 		culture = armenian
 		religion = orthodox
-		size = 600
+		size = 500
+	}
+	artisans = {
+		culture = armenian
+		religion = orthodox
+		size = 100
 	}
 	bureaucrats = {
 		culture = russian

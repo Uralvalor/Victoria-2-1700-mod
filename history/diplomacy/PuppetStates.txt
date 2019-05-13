@@ -131,6 +131,12 @@ vassal= {
 #}
 
 
+vassal = {
+	first = OIR
+	second = TIB
+	start_date = 1700.1.1
+	end_date = 1750.1.1
+}
 
 vassal = {
 	first = MGE

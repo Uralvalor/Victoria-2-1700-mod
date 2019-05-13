@@ -3566,12 +3566,12 @@
 	soldiers = {
 		culture = marathi
 		religion = hindu
-		size = 20512
+		size = 40512
 	}
 	farmers = {
 		culture = marathi
 		religion = hindu
-		size = 403387
+		size = 383387
 	}
 	bureaucrats = {
 		culture = sindi
@@ -3600,6 +3600,11 @@
 	}
 }
 1299 = {
+	aristocrats = {
+		culture = marathi
+		religion = hindu
+		size = 10000
+	}
 	bureaucrats = {
 		culture = marathi
 		religion = hindu
@@ -3618,12 +3623,12 @@
 	soldiers = {
 		culture = marathi
 		religion = hindu
-		size = 10642
+		size = 50642
 	}
 	farmers = {
 		culture = marathi
 		religion = hindu
-		size = 246280
+		size = 196280
 	}
 	bureaucrats = {
 		culture = kannada
@@ -3727,12 +3732,12 @@
 	soldiers = {
 		culture = marathi
 		religion = hindu
-		size = 20482
+		size = 30482
 	}
 	farmers = {
 		culture = marathi
 		religion = hindu
-		size = 688872
+		size = 678872
 	}
 	bureaucrats = {
 		culture = kannada
@@ -4801,12 +4806,12 @@
 	soldiers = {
 		culture = malayalam
 		religion = hindu
-		size = 857
+		size = 10857
 	}
 	farmers = {
 		culture = malayalam
 		religion = hindu
-		size = 123377
+		size = 113377
 	}
 	bureaucrats = {
 		culture = malayalam
@@ -4928,12 +4933,12 @@
 	soldiers = {
 		culture = malayalam
 		religion = hindu
-		size = 1500
+		size = 5500
 	}
 	farmers = {
 		culture = malayalam
 		religion = hindu
-		size = 64267
+		size = 60267
 	}
 	bureaucrats = {
 		culture = malayalam
@@ -4953,12 +4958,12 @@
 	soldiers = {
 		culture = malayalam
 		religion = sunni
-		size = 30
+		size = 4030
 	}
 	farmers = {
 		culture = malayalam
 		religion = sunni
-		size = 14021
+		size = 10021
 	}
 	clergymen = {
 		culture = malayalam
@@ -4993,12 +4998,12 @@
 	soldiers = {
 		culture = malayalam
 		religion = orthodox
-		size = 19
+		size = 2019
 	}
 	farmers = {
 		culture = malayalam
 		religion = orthodox
-		size = 12358
+		size = 10358
 	}
 	bureaucrats = {
 		culture = malayalam

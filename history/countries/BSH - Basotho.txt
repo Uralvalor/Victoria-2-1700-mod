@@ -37,15 +37,12 @@ upper_house = {
 	communist = 0
 }
 
-set_country_flag = existing_country
 
 #Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
 
 oob = "BSH_oob.txt"
-
-set_country_flag = existing_country
 
 1861.1.1 = {
 	oob = "/1861/BSH_oob.txt"

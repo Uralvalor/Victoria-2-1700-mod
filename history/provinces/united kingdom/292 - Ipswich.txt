@@ -7,6 +7,17 @@ life_rating = 35
 fort = 1
 naval_base = 1
 terrain = marginal_farmland
+
+state_building = {
+	level = 1
+	building = clipper_shipyard
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}
 1750.1.1 = {
 	owner = ENG
 	controller = ENG

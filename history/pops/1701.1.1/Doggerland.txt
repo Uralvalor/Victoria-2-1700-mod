@@ -24,6 +24,11 @@
 		religion = jewish
 	        size = 12050
 	}
+	capitalists = {
+		culture = frisian
+		religion = secularism
+		size = 330
+	}
 	aristocrats = {
 		culture = frisian
 		religion = secularism
@@ -106,6 +111,11 @@
 		religion = jewish
 	        size = 4050
 	}
+	capitalists = {
+		culture = frisian
+		religion = secularism
+		size = 100
+	}
 	aristocrats = {
 		culture = frisian
 		religion = secularism
@@ -178,6 +188,11 @@
 		religion = jewish
 	        size = 10050
 	}
+	capitalists = {
+		culture = frisian
+		religion = secularism
+		size = 100
+	}
 	aristocrats = {
 		culture = frisian
 		religion = secularism
@@ -249,6 +264,11 @@
 		culture = ashkenazi
 		religion = jewish
 	        size = 3000
+	}
+	capitalists = {
+		culture = frisian
+		religion = secularism
+		size = 50
 	}
 	aristocrats = {
 		culture = frisian

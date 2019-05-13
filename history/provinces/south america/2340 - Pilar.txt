@@ -1,9 +1,15 @@
- 
- 
+owner = PAP
+controller = PAP
 add_core = PRG
 trade_goods = timber
 life_rating = 30
 terrain = jungle
+colonial = 1 
+
+1760.1.1 = {
+	owner = XXX
+	controller = XXX
+}
 1815.1.1 = {
 	owner = PRG
 	controller = PRG

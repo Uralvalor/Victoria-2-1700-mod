@@ -1,49 +1,59 @@
 2341 = {
 	farmers = {
 		culture = guarani
-		religion = animist
-		size = 4160
+		religion = catholic
+		size = 2160
 	}
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 8320
+		size = 3148
 	}
 }
 2340 = {
 	farmers = {
 		culture = guarani
-		religion = animist
-		size = 4160
+		religion = catholic
+		size = 2160
 	}
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 8320
+		size = 3148
 	}
 }
 2342 = {
 	farmers = {
 		culture = guarani
-		religion = animist
-		size = 4160
+		religion = catholic
+		size = 2160
 	}
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 8320
+		size = 3148
 	}
 }
 2339 = {
+	clergymen = {
+		culture = spanish
+		religion = catholic
+		size = 300
+	}
 	farmers = {
 		culture = guarani
-		religion = animist
-		size = 4160
+		religion = catholic
+		size = 1160
 	}
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 8320
+		size = 1148
+	}
+	soldiers = {
+		culture = guarani
+		religion = catholic
+	    size = 3010
 	}
 }
 

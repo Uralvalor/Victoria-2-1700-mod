@@ -1,15 +1,24 @@
 capital = 528
 primary_culture = north_german
 religion = secularism
-government = absolute_monarchy
+government = democracy
 plurality = 40
 nationalvalue = nv_order
 literacy = 0.8
-prestige = 1
- 
- civilized = yes
+prestige = 10
+civilized = yes
 
 
+foreign_investment = {
+	DEN = 20000
+	PRU = 15000
+	SWE = 10000
+	MEC = 5000
+	HOL = 5000
+	PLC = 5000
+	}
+	
+	
 	land_reform = yes_land_reform
 	admin_reform = yes_admin_reform
 	finance_reform = yes_finance_reform  
@@ -22,44 +31,79 @@ prestige = 1
 	army_schools = 	yes_army_schools
 	foreign_navies = yes_foreign_navies 
 
+
 # Political reforms
 slavery = yes_slavery
-upper_house_composition = appointed
-vote_franschise = none_voting
-public_meetings = no_meeting
-press_rights = state_press
-trade_unions = no_trade_unions
+upper_house_composition = party_appointed
+vote_franschise = wealth_weighted_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = state_controlled
 voting_system = first_past_the_post
-political_parties = underground_parties
+political_parties = secret_ballots
+minorities = limited 
+immigration_policy = open_immigration
+
 
 # Social Reforms
-school_reforms = no_schools
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
-safety_regulations = no_safety
+safety_regulations = low_safety
 health_care = low_health_care
-gov_religion = secularism unemployment_subsidies = no_subsidies
+gov_religion = protestant
+unemployment_subsidies = acceptable_subsidies
 pensions = no_pensions
+school_reforms = no_schools
+finance_regulation = medium_interest 
 
-ruling_party = LUB_reactionary
+ruling_party = LUB_anarcho_liberal
 upper_house = {
 	fascist = 0
 	liberal = 0
 	reactionary = 100
-	reactionary = 0
-	 
-	socialist = 0
 	communist = 0
 }
 
 # Technologies
 
 
-1700_power = 1 1700_power = 1 water_wheel_power = 1	
-1700_armament = 1 flintlock_rifles = 1	
+1700_psychology = 1
+salamanca_school = 1
+1700_fin_inst = 1
+1700_money = 1
+no_standard = 1
+1700_chemistry = 1
+1700_philosophy = 1
+1700_power = 1
+1700_armament = 1
+1700_army = 1
+1700_milit_science = 1
+1700_naval_doctrine = 1
+1700_naval_engineering = 1
+1700_power = 1 water_wheel_power = 1	
+1700_naval_doctrine = 1 nelsonian_thought = 1
+1700_armament = 1 flintlock_rifles = 1
 1700_h_armament = 1 bronze_muzzle_loaded_artillery = 1
- 
 1700_milit_science = 1 1700_leadership = 1 army_command_principle = 1
+1700_ship = 1 clipper_design = 1
+1700_metall = 1 mechanized_mining = 1
+1700_fin_inst= 1 joint-stock_companies = 1
+1700_money = 1 no_standard = 1
+salamanca_school = 1 physiocracy = 1
+1700_market = 1 state_mercantilism = 1
+freedom_of_trade = 1
+post_1700_naval_doctrine = 1 nelsonian_thought = 1
+1700_fin_inst= 1 joint-stock_companies = 1
+1700_money = 1 no_standard = 1
+precision_work = yes
+1700_fin_inst = 1
+1700_money = 1
+salamanca_school = 1
+1700_market = 1
+1700_tech_organ = 1
+1700_road = 1
+1700_mech = 1
+
  
 #Inventions
 

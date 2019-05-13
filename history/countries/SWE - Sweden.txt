@@ -46,14 +46,20 @@ upper_house = {
 
 #Technologies
 
-1700_power = 1 water_wheel_power = 1
-1700_metall = 1 mechanized_mining = 1
+water_wheel_power = 1 
+1700_power = 1 
+mechanized_mining = 1 
 1700_naval_doctrine = 1 nelsonian_thought = 1
 1700_armament = 1 flintlock_rifles = 1
 1700_h_armament = 1 bronze_muzzle_loaded_artillery = 1
 1700_milit_science = 1 1700_leadership = 1 army_command_principle = 1
 1700_ship = 1 clipper_design = 1
-clean_coal = 1
+clean_coal = 1 1700_power = 1 
+1700_road = 1 
+1700_market = 1 1700_metall = 1 
+1700_mech = 1 
+salamanca_school = 1 
+1700_tech_organ = 1 
 precision_work = yes
 
 #Inventions
@@ -65,6 +71,11 @@ nonstate_consciousness = 0
 schools = industrial_tech_school
 
 oob = "SWE_oob.txt"
+1701.1.1 = {
+prestige = 60 
+oob = "SWE_oob.txt"
+ }
+
 1750.1.1 = {
 prestige = 30 
 oob = "/1756/SWE_oob.txt"

@@ -5,15 +5,16 @@ add_core = WHA
 trade_goods = coal
 life_rating = 35
 terrain = hilly_farmland
+
+1750.1.1 = {
+	owner = ENG
+	controller = ENG
+add_core = ENG
 state_building = {
 	level = 1
 	building = paper_mill
 	upgrade = yes
 }
-1750.1.1 = {
-	owner = ENG
-	controller = ENG
-add_core = ENG
 }
 1816.1.1 = { state_building = {
 	level = 1

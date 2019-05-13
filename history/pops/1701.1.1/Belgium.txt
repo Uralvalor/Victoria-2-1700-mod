@@ -62,7 +62,17 @@
 	artisans = {
 		culture = flemish
 		religion = catholic
-		size = 6855
+		size = 4855
+	}
+	craftsmen = {
+		culture = flemish
+		religion = catholic
+		size = 2000
+	}
+	craftsmen = {
+		culture = wallonian
+		religion = catholic
+		size = 4000
 	}
 	soldiers = {
 		culture = flemish
@@ -112,7 +122,7 @@
 	artisans = {
 		culture = wallonian
 		religion = catholic
-		size = 14056
+		size = 10056
 	}
 	soldiers = {
 		culture = wallonian
@@ -218,7 +228,12 @@
 	artisans = {
 		culture = flemish
 		religion = catholic
-		size = 15541
+		size = 10541
+	}
+	craftsmen = {
+		culture = flemish
+		religion = catholic
+		size = 5000
 	}
 	soldiers = {
 		culture = flemish

@@ -8,9 +8,11 @@ literacy = 0.18
 non_state_culture_literacy = 0.1
 civilized = yes
 
+
+oob = "FRA_oob.txt"
+
 #GreaterPowers = prestige
 prestige = 90
-
 
 set_country_flag = serfdom_not_abolished
 
@@ -40,29 +42,21 @@ education = church
 arts_endowment = small_endowment
 
 # Technologies
-	land_reform = yes_land_reform
-	admin_reform = yes_admin_reform
-	finance_reform = finance_reform_two 
-	education_reform = yes_education_reform 
-	transport_improv = yes_transport_improv 
-	foreign_training = yes_foreign_training 
-	foreign_weapons = yes_foreign_weapons 
-	military_constructions = yes_military_constructions 
-	foreign_officers = yes_foreign_officers 
-	army_schools = 	yes_army_schools
-	foreign_naval_officers = yes_foreign_naval_officers 
-	naval_schools = yes_naval_schools 
-	foreign_navies = yes_foreign_navies 
 
-
-
-1700_power = 1
-water_wheel_power = 1	
-1700_armament = 1 flintlock_rifles = 1	
-1700_h_armament = 1 bronze_muzzle_loaded_artillery = 1
-1700_milit_science = 1 1700_leadership = 1 army_command_principle = 1
-1700_naval_doctrine = 1 nelsonian_thought = 1
-1700_money = 1
+1700_armament = 1 1700_h_armament = 1 
+bronze_muzzle_loaded_artillery = 1
+1700_milit_science = 1 flintlock_rifles = 1
+1700_leadership = 1
+army_command_principle = 1
+1700_naval_doctrine = 1
+nelsonian_thought = 1 1700_power = 1
+1700_money = 1 
+1700_power = 1 
+1700_naval_science = 1
+1700_aesthetics = 1
+1700_philosophy = 1
+1700_social = 1
+1700_political_thought = 1 1700_armament = 1 
 
 # Inventions
 
@@ -74,9 +68,7 @@ ruling_party = FRA_reactionary
 upper_house = {
 	fascist = 0
 	liberal = 0
-	reactionary = 0
 	reactionary = 100
-	 
 	socialist = 0
 	communist = 0
 }
@@ -88,8 +80,10 @@ govt_flag = {
 
 schools = army_tech_school
 
+1701.1.1 = {
 oob = "FRA_oob.txt"
-1750.1.1 = {
+ }
+1751.1.1 = {
 oob = "/1756/FRA_oob.txt"
  }
 

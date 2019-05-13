@@ -53,10 +53,9 @@ school_reforms = no_schools
 
 	
 
-1700_power = 1
-water_wheel_power = 1	
-1700_armament = 1
 flintlock_rifles = 1	
+1700_power = 1
+1700_armament = 1
 1700_h_armament = 1
 bronze_muzzle_loaded_artillery = 1
 1700_social = 1
@@ -66,6 +65,9 @@ army_command_principle = 1
 1700_money = 1
 1700_ship = 1
 clipper_design = 1
+1700_naval_science = 1
+1700_naval_doctrine = 1 
+malthusian_thought = 1
 	
 ruling_party = POR_reactionary
 last_election = 1700.1.1
@@ -81,6 +83,9 @@ upper_house = {
 oob = "POR_oob.txt"
 
 
+1701.1.1 = {
+oob = "POR_oob.txt"
+ }
 1750.1.1 = {
 oob = "/1756/POR_oob.txt"
  }

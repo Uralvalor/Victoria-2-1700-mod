@@ -29,10 +29,15 @@
 		religion = protestant
 		size = 220
 	}
+	soldiers = {
+		culture = african_minor
+		religion = animist
+		size = 8876
+	}
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 28876
+		size = 20000
 	}
 }
 2242 = {
@@ -91,7 +96,22 @@
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 18882
+		size = 10000
+	}
+	soldiers = {
+		culture = african_minor
+		religion = animist
+		size = 8882
+	}
+	soldiers = {
+		culture = caribeno
+		religion = animist
+		size = 3000
+	}
+	farmers = {
+		culture = caribeno
+		religion = animist
+		size = 10600
 	}
 }
 1979 = {

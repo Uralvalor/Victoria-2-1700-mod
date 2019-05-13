@@ -336,7 +336,7 @@
 	artisans = {
 		culture = welsh
 		religion = protestant
-		size = 680
+		size = 830
 	}
 	soldiers = {
 		culture = welsh
@@ -351,7 +351,7 @@
 	craftsmen = {
 		culture = welsh
 		religion = catholic
-		size = 200
+		size = 50
 	}
 }
 274 = {
@@ -1137,6 +1137,11 @@
 		religion = protestant
 		size = 1654
 	}
+	craftsmen = {
+		culture = english
+		religion = protestant
+		size = 3000
+	}
 	soldiers = {
 		culture = english
 		religion = protestant
@@ -1441,7 +1446,7 @@
 	craftsmen = {
 		culture = english
 		religion = protestant
-		size = 12776
+		size = 9776
 	}
 	artisans = {
 		culture = english

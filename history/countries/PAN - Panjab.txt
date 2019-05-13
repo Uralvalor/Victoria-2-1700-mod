@@ -17,7 +17,6 @@ upper_house = {
 	communist = 0
 }
 
-land_reform = no_land_reform
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
@@ -29,7 +28,7 @@ oob = "PAN_oob.txt"
 
 foreign_training = yes_foreign_training
 foreign_weapons = yes_foreign_weapons
-1700_armament = 1 flintlock_rifles = 1
+1700_armament = 1
 
 slavery = no_slavery
 upper_house_composition = appointed

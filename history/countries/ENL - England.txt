@@ -39,16 +39,26 @@ school_reforms = no_schools
 arts_endowment = small_endowment
 finance_regulation = large_interest  
 
-1700_power = 1 1700_power = 1 water_wheel_power = 1	
+water_wheel_power = 1 1700_power = 1 	
 1700_naval_doctrine = 1 nelsonian_thought = 1
 1700_armament = 1 flintlock_rifles = 1
 1700_h_armament = 1 bronze_muzzle_loaded_artillery = 1
-1700_milit_science = 1 1700_leadership = 1 army_command_principle = 1
+1700_milit_science = 1
+1700_leadership = 1 army_command_principle = 1
 1700_ship = 1 clipper_design = 1
-1700_metall = 1 mechanized_mining = 1
+1700_metall = 1 mechanized_mining = 1 1700_power = 1  
 precision_work = yes
 1700_road = 1
+1700_mech = 1
+1700_aesthetics = 1
+1700_philosophy = 1
 1700_social = 1
+1700_fin_inst = 1
+1700_money = 1
+no_standard = 1
+1700_naval_science = 1
+1700_naval_doctrine = 1
+1700_naval_leader = 1
 	
 # Starting Consciousness
 consciousness = 3

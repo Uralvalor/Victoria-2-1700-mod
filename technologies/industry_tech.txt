@@ -12,7 +12,7 @@
 }
 water_wheel_power = {
 	area = tech_power
-	year = 1710
+	year = 1720
 	cost = 2200
 
 	mine_rgo_eff = 0.03
@@ -662,7 +662,7 @@ modern_automation = {
 }
 mechanized_mining = {
 	area = metallurgy
-	year = 1710
+	year = 1730
 	cost = 2200
 
 	rgo_goods_output = {

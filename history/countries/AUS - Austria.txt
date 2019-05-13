@@ -39,11 +39,19 @@ gov_religion = catholic unemployment_subsidies = no_subsidies
 school_reforms = no_schools
 pensions = no_pensions
 
-
-1700_power = 1 1700_power = 1 water_wheel_power = 1	
-1700_armament = 1 flintlock_rifles = 1	
-1700_h_armament = 1 bronze_muzzle_loaded_artillery = 1
-1700_milit_science = 1 1700_leadership = 1 army_command_principle = 1
+1700_power = 1 
+1700_armament = 1
+flintlock_rifles = 1	
+1700_h_armament = 1
+bronze_muzzle_loaded_artillery = 1
+1700_milit_science = 1
+1700_leadership = 1
+army_command_principle = 1
+1700_aesthetics = 1
+1700_philosophy = 1
+1700_social = 1
+1700_political_thought = 1
+1700_mech = 1
 
 ruling_party = AUS_reactionary
 upper_house = {

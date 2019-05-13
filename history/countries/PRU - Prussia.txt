@@ -39,9 +39,7 @@ ruling_party = PRU_reactionary
 upper_house = {
 	fascist = 0
 	liberal = 0
-	reactionary = 30
-	reactionary = 70
-	 
+	reactionary = 100
 	socialist = 0
 	communist = 0
 }
@@ -50,9 +48,12 @@ upper_house = {
 
 
 
-1700_power = 1  water_wheel_power = 1	
-1700_armament = 1 flintlock_rifles = 1	
-1700_h_armament = 1 bronze_muzzle_loaded_artillery = 1
+1700_power = 1 
+water_wheel_power = 1	
+1700_armament = 1
+ flintlock_rifles = 1	
+1700_h_armament = 1
+ bronze_muzzle_loaded_artillery = 1
 precision_work = yes
  
 1700_milit_science = 1 1700_leadership = 1 army_command_principle = 1
@@ -69,6 +70,9 @@ schools = army_tech_school
 oob = "PRU_oob.txt"
 
 
+1701.1.1 = {
+oob = "PRU_oob.txt"
+ }
 1750.1.1 = {
 oob = "/1756/PRU_oob.txt"
  }

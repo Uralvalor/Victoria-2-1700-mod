@@ -235,15 +235,48 @@ province_event = {
 	}
 }
 
+
+province_event = {
+	id = 1991104
+	title = "Золотая лихорадка в Бразилии"
+	desc = "В первой половине XVIII века в Бразилии началась золотая и алмазная лихорадка, люди из других частей колонии и Португалии наводнили регион. Большая часть бразильской глубинки, где добывалось золото, стала известна как Минас-Жерайс."
+	picture = "goldrush"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		or = { province_id = 2441 province_id = 2443 }		
+	}
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+	
+	option  ={
+		name = "Золотая лихорадка"
+		2441 = {
+			trade_goods = precious_metal
+			add_province_modifier = {
+				name = gold_rush
+				duration = 18250
+			}
+		}
+		2443 = {
+			trade_goods = precious_metal
+			add_province_modifier = {
+				name = gold_rush
+				duration = 18250
+			}
+		}
+	}
+}
 province_event = {
 	
-	id = 991104
+	id = 991103
 
 	trigger = {
-		year = 1810
-		or = {
-			province_id = 2441			# Preto
-		}
+		year = 1790
+		province_id = 2443		
 		trade_goods = precious_metal 
 	}
 
@@ -258,7 +291,31 @@ province_event = {
 
 	option = {
 		name = "Проклятье"
-		trade_goods = coffee
+		2443 = { trade_goods = coffee }
+	}
+}
+province_event = {
+	
+	id = 991104
+
+	trigger = {
+		year = 1790
+		province_id = 2441				# Preto
+		trade_goods = precious_metal 
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+
+	}
+
+	title = "Золото иссякло"
+	desc = "Золотые рудники больше не приносят достаточно золота, похоже золотая жила в этом регионе иссякла"
+	picture = ""
+
+	option = {
+		name = "Проклятье"
+		2441 = { trade_goods = coffee }
 	}
 }
 
@@ -267,10 +324,8 @@ province_event = {
 	id = 991105
 
 	trigger = {
-		year = 1800
-		or = {
-			province_id = 1909			# Secondi
-		}
+		#year = 1800
+		province_id = 1909			# Secondi
 		trade_goods = precious_metal 
 	}
 
