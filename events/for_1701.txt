@@ -264,6 +264,7 @@ country_event = {
 			}
 		BSK = { is_mobilised = yes }
 	RUS = { inherit = LJU }
+		prestige = -10
 	}
 	
 }
@@ -304,6 +305,7 @@ country_event = {
 				militancy = 8
 			}
 	RUS = { inherit = LJU }
+		prestige = -5
 	}
 	
 }

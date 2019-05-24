@@ -10,7 +10,7 @@ civilized = yes
 colonial_points = 250
 
 #Starting Consciousness
-consciousness = 7
+consciousness = 10
 nonstate_consciousness = 1
 
 
@@ -37,21 +37,6 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
-	land_reform = yes_land_reform
-	admin_reform = yes_admin_reform
-	finance_reform = finance_reform_two 
-	education_reform = yes_education_reform 
-	transport_improv = yes_transport_improv 
-	foreign_training = yes_foreign_training 
-	foreign_weapons = yes_foreign_weapons 
-	military_constructions = yes_military_constructions 
-	foreign_officers = yes_foreign_officers 
-	army_schools = 	yes_army_schools
-	foreign_naval_officers = yes_foreign_naval_officers 
-	naval_schools = yes_naval_schools 
-	foreign_navies = yes_foreign_navies 
-
-	
 
 flintlock_rifles = 1	
 1700_power = 1
@@ -68,6 +53,8 @@ clipper_design = 1
 1700_naval_science = 1
 1700_naval_doctrine = 1 
 malthusian_thought = 1
+nihilism_i_anarchism = 1
+positivism = 1
 	
 ruling_party = POR_reactionary
 last_election = 1700.1.1

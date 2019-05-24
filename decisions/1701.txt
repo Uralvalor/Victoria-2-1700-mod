@@ -178,7 +178,7 @@ political_decisions = {
 			}
 
 			allow = {
-			prestige = 55
+			prestige = 25
 			OR = { AND = { diplomatic_influence = {
 				who = UKR
 				value = 300
@@ -221,7 +221,7 @@ political_decisions = {
 			}
 
 			allow = {
-			prestige = 55
+			prestige = 15
 			OR = { AND = { diplomatic_influence = {
 				who = UKR
 				value = 300
@@ -265,7 +265,7 @@ political_decisions = {
 			}
 			allow = {
 			is_vassal= no
-			prestige = 30
+			prestige = 20
 			UKR = { is_vassal= no }  
 			}
 			effect = {

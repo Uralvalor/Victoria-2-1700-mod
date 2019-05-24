@@ -5,6 +5,7 @@
 	cost = 2000
 	#unciv_military = yes
 
+	farm_rgo_size = -0.07
 	activate_building = fort	
 	ai_chance = {
 	}
@@ -15,6 +16,7 @@ napoleonic_thought = {
 	cost = 2200
 	#unciv_military = yes
 
+	farm_rgo_size = 0.07
 	army_base = {
 		default_organisation = 5
 		supply_consumption = 0.05

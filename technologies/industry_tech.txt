@@ -6,7 +6,7 @@
 
 	mine_rgo_eff = 0.03
 	farm_rgo_eff = 0.07
-	farm_rgo_size = 0.25
+	farm_rgo_size = 0.07
 	ai_chance = {
 	}
 }
@@ -17,7 +17,7 @@ water_wheel_power = {
 
 	mine_rgo_eff = 0.03
 	farm_rgo_eff = 0.07
-	farm_rgo_size = 0.25
+	farm_rgo_size = 0.07
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -63,6 +63,7 @@ experimental_steam_engine = {
 	activate_building =  fabric_factory
 	mine_rgo_eff = 0.05
 	farm_rgo_eff = 0.15
+	farm_rgo_size = 0.07
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -379,6 +380,7 @@ publishing_industry = {
 
 	factory_throughput = 0.03 
 	activate_building = paper_mill 
+	colonial_life_rating = -4
 	
 	ai_chance = {
 		factor = 1.5
@@ -662,7 +664,7 @@ modern_automation = {
 }
 mechanized_mining = {
 	area = metallurgy
-	year = 1730
+	year = 1750
 	cost = 2200
 
 	rgo_goods_output = {
@@ -1159,6 +1161,7 @@ electrometallurgy = {
 	year = 1650
 	cost = 2000
 
+	farm_rgo_size = 0.07
 	supply_limit = 0.15
 	administrative_efficiency = 0.03
 	factory_goods_output = {
@@ -1386,6 +1389,7 @@ modern_infrastructure = {
 	cost = 2000
 
 	supply_limit = 0.15
+	farm_rgo_size = 0.07
 	ai_chance = {
 	}
 }

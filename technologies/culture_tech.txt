@@ -660,17 +660,17 @@ consumerism = {
 	cost = 1600
 	
 	cb_creation_speed = 0.05
-	issue_change_speed = 0.05
+	max_national_focus = 1
 	
 	ai_chance = {
 	}
 }
 enlightenment_thought = {
 	area = political_thought
-	year = 1750
+	year = 1755
 	cost = 2200
 
-	max_national_focus = 1
+	farm_rgo_size = 0.07
 	
 	ai_chance = {
 		factor = 11

@@ -5,6 +5,7 @@
 	cost = 2000
 	#unciv_military = yes
 	
+	colonial_migration = 0.05
 	activate_building = naval_base
 
 	ai_chance = {
@@ -12,8 +13,11 @@
 }
 nelsonian_thought = {
 	area = naval_doctrine
-	year = 1720
+	year = 1740
 	cost = 2200
+	
+	
+	colonial_migration = -0.05
 	colonial_points = 100
 	#unciv_military = yes
 
@@ -621,6 +625,7 @@ modern_naval_doctrine = {
 	#unciv_military = yes
 
 	colonial_points = 50
+	colonial_migration = 0.05
 	
 	ai_chance = {
 	}

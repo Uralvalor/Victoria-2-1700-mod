@@ -357,7 +357,6 @@ political_decisions = {
 		
 		effect = {
 			capital = 1008
-			prestige = 5
 		}
 		ai_will_do = {
 			factor = 0.1

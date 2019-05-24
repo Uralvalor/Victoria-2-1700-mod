@@ -860,8 +860,8 @@ economic_reforms = {
 		}
 		yes_land_reform = {
 			technology_cost = 4500
-			farm_rgo_eff = 0.25
-			mine_rgo_eff = 0.25
+			farm_rgo_eff = 0.15
+			mine_rgo_eff = 0.15
 			civilization_progress_modifier = 0.036
 			
 			on_execute = {

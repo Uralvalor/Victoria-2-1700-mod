@@ -998,6 +998,7 @@ the_world_market = {
 	
 	increase_research = -0.15
 	factory_output = 0.01
+	farm_rgo_size = -0.07
 	
 	ai_chance = {
 	}
@@ -1009,6 +1010,7 @@ division_of_labour = {
 
 	increase_research = 0.15
 	factory_output = 0.01
+	farm_rgo_size = 0.07
 	ai_chance = {
 		factor = 1.05
 		modifier = {

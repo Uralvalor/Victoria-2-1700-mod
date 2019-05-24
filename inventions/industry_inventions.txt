@@ -1727,3 +1727,403 @@ telephone_switchboard = {
 		} 
 	}
 }
+
+##########################
+# 	Agriculture 8 levels
+##########################
+
+agriculture_1 = {
+	limit = { 1700_power = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			war = no
+		}
+		modifier = {
+			factor = 1
+			tech_school = industrial_tech_school
+		}
+	}
+	effect = {
+		farm_rgo_eff = 0.02		
+	}
+}
+
+agriculture_2 = {
+	limit = { 1700_power = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			war = no
+		}
+		modifier = {
+			factor = 1
+			tech_school = industrial_tech_school
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = agriculture_1 }
+		}
+	}
+	effect = {
+		farm_rgo_eff = 0.02
+	}
+}
+
+agriculture_3 = {
+	limit = { 1700_power = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			war = no
+		}
+		modifier = {
+			factor = 1
+			tech_school = industrial_tech_school
+		}
+		modifier = {
+			factor = 2
+			1700_market = 1
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = agriculture_2 }
+		}
+	}
+	effect = {
+		farm_rgo_eff = 0.02
+	}
+}
+
+agriculture_4 = {
+	limit = { 1700_power = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			war = no
+		}
+		modifier = {
+			factor = 1
+			tech_school = industrial_tech_school
+		}
+		modifier = {
+			factor = 2
+			1700_road = 1
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = agriculture_3 }
+		}
+	}
+	effect = {
+		farm_rgo_eff = 0.02
+	}
+}
+
+agriculture_5 = {
+	limit = { 1700_power = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			war = no
+		}
+		modifier = {
+			factor = 1
+			tech_school = industrial_tech_school
+		}
+		modifier = {
+			factor = 2
+			salamanca_school = 1
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = agriculture_4 }
+		}
+	}
+	effect = {
+		farm_rgo_eff = 0.02
+	}
+}
+
+agriculture_6 = {
+	limit = { 1700_power = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			war = no
+		}
+		modifier = {
+			factor = 1
+			tech_school = industrial_tech_school
+		}
+		modifier = {
+			factor = 2
+			no_standard = 1
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = agriculture_5 }
+		}
+	}
+	effect = {
+		farm_rgo_eff = 0.02
+	}
+}
+
+agriculture_7 = {
+	limit = { 1700_power = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			war = no
+		}
+		modifier = {
+			factor = 1
+			tech_school = industrial_tech_school
+		}
+		modifier = {
+			factor = 2
+			1700_chemistry = 1
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = agriculture_6 }
+		}
+	}
+	effect = {
+		farm_rgo_eff = 0.02
+	}
+}
+
+agriculture_8 = {
+	limit = { 1700_power = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			war = no
+		}
+		modifier = {
+			factor = 1
+			tech_school = industrial_tech_school
+		}
+		modifier = {
+			factor = 2
+			joint-stock_companies = 1
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = agriculture_7 }
+		}
+	}
+	effect = {
+		farm_rgo_eff = 0.02
+	}
+}
+
+##########################
+# 	Mine 8 levels
+##########################
+
+mine_1 = {
+	limit = { 1700_power = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			war = no
+		}
+		modifier = {
+			factor = 1
+			tech_school = industrial_tech_school
+		}
+	}
+	effect = {
+		mine_rgo_eff = 0.02		
+	}
+}
+
+mine_2 = {
+	limit = { 1700_power = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			war = no
+		}
+		modifier = {
+			factor = 1
+			tech_school = industrial_tech_school
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = agriculture_1 }
+		}
+	}
+	effect = {
+		mine_rgo_eff = 0.02
+	}
+}
+
+mine_3 = {
+	limit = { 1700_power = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			war = no
+		}
+		modifier = {
+			factor = 1
+			tech_school = industrial_tech_school
+		}
+		modifier = {
+			factor = 2
+			1700_market = 1
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = agriculture_2 }
+		}
+	}
+	effect = {
+		mine_rgo_eff = 0.02
+	}
+}
+
+mine_4 = {
+	limit = { 1700_power = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			war = no
+		}
+		modifier = {
+			factor = 1
+			tech_school = industrial_tech_school
+		}
+		modifier = {
+			factor = 2
+			1700_road = 1
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = agriculture_3 }
+		}
+	}
+	effect = {
+		mine_rgo_eff = 0.02
+	}
+}
+
+mine_5 = {
+	limit = { 1700_power = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			war = no
+		}
+		modifier = {
+			factor = 1
+			tech_school = industrial_tech_school
+		}
+		modifier = {
+			factor = 2
+			salamanca_school = 1
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = agriculture_4 }
+		}
+	}
+	effect = {
+		mine_rgo_eff = 0.02
+	}
+}
+
+mine_6 = {
+	limit = { 1700_power = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			war = no
+		}
+		modifier = {
+			factor = 1
+			tech_school = industrial_tech_school
+		}
+		modifier = {
+			factor = 2
+			1700_money = 1
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = agriculture_5 }
+		}
+	}
+	effect = {
+		mine_rgo_eff = 0.02
+	}
+}
+
+mine_7 = {
+	limit = { 1700_power = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			war = no
+		}
+		modifier = {
+			factor = 1
+			tech_school = industrial_tech_school
+		}
+		modifier = {
+			factor = 2
+			1700_chemistry = 1
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = agriculture_6 }
+		}
+	}
+	effect = {
+		mine_rgo_eff = 0.02
+	}
+}
+
+mine_8 = {
+	limit = { 1700_power = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			war = no
+		}
+		modifier = {
+			factor = 1
+			tech_school = industrial_tech_school
+		}
+		modifier = {
+			factor = 2
+			joint-stock_companies = 1
+		}
+		modifier = {
+			factor = -5
+			NOT = { invention = agriculture_7 }
+		}
+	}
+	effect = {
+		mine_rgo_eff = 0.02
+	}
+}
