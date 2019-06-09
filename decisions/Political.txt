@@ -294,6 +294,7 @@ political_decisions = {
 		}
 		effect = {
 			nationalize = yes
+			machine_parts = 5
 		}
 		
 		ai_will_do = {

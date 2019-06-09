@@ -7,6 +7,8 @@ life_rating = 35
 naval_base = 1
 fort = 1
 terrain = good_farmland
+railroad = 1
+
 state_building = {
 	level = 1
 	building = paper_mill

@@ -29,6 +29,7 @@ name = "¬ойна за »спанское наследство"
 	add_attacker = AGO
 	add_defender = FRA
 	add_defender = SPA
+	add_defender = NEW
 	add_defender = SIC # под контролем испании
 	add_defender = LOM # под контролем испании
 	add_defender = SAR # под контролем испании
@@ -113,7 +114,7 @@ name = "¬ойна за »спанское наследство"
 	war_goal = {
 		casus_belli = place_in_the_sun
 		actor = ENL
-		receiver = FRA
+		receiver = NEW
 		state_province_id = 75
 	}
 
@@ -253,8 +254,13 @@ name = "¬ойна за »спанское наследство"
 	rem_attacker = MEC
 	rem_attacker = AGO
 	rem_defender = FRA
+	rem_defender = NEW
 	rem_defender = SPA
 	rem_defender = BAV
 	rem_defender = CLN
 	rem_defender = SAV
+	rem_defender = SIC # под контролем испании
+	rem_defender = LOM # под контролем испании
+	rem_defender = SAR # под контролем испании
+	rem_defender = NEA # под контролем испании
 }

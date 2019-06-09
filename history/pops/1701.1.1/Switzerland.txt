@@ -403,7 +403,12 @@
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 7194
+		size = 2000
+	}
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 6194
 	}
 	aristocrats = {
 		culture = south_german
@@ -428,7 +433,7 @@
 	farmers = {
 		culture = south_german
 		religion = protestant
-		size = 4130
+		size = 3130
 	}
 }
 3265 = {

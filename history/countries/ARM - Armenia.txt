@@ -26,6 +26,22 @@ gov_religion = secularism unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
+
+# Technologies
+
+land_reform = yes_land_reform
+finance_reform = finance_reform_two
+foreign_training =  yes_foreign_training 
+foreign_weapons = modern_weapons
+military_constructions = yes_military_constructions
+academic_institutions = madrasahs
+diplomatic_reform = interactive
+foreign_officers = yes_foreign_officers 
+taxation_reform = tax_farmers
+foreign_navies = yes_foreign_navies 
+naval_facilities = yes_naval_bases
+medicine_reform = foreign_surgeons 
+
 ruling_party = ARM_reactionary
 upper_house = {
 	fascist = 0

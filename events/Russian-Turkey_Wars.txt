@@ -227,7 +227,9 @@ not = { has_country_flag = geo_in }
 			factor = 100
 		}
                 set_country_flag = geo_in
+		inherit = GEO
         TUR = { release_vassal = GEO }
+		inherit = GEO
         PER = { release_vassal = GEO }
 		inherit = GEO
 	}

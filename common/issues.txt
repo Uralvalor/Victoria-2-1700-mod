@@ -17,8 +17,10 @@ party_issues = {
 		     
 			max_tax = 0.35
 			factory_owner_cost = -0.2
-			factory_input = -0.2
+			factory_input = -0.1
 			factory_output = 0.2
+			RGO_output = 0.2
+			artisan_output = 0.2 #не работает
 			goods_demand = 0.2
 			supply_consumption = -0.25
 			research_points_modifier = -0.25
@@ -49,9 +51,11 @@ party_issues = {
 			goods_demand = 0.08
 			supply_consumption = -0.1
 			research_points_modifier = -0.1
-			factory_input = -0.05
+			factory_input = -0.025
 			factory_owner_cost = -0.05
 			factory_output = 0.05
+			RGO_output = 0.05
+			artisan_output = 0.05 #не работает
 			import_cost = -0.1
 			
 			rules = {
@@ -82,6 +86,8 @@ party_issues = {
 			supply_consumption = 0.1
 			research_points_modifier = 0.1
 			factory_throughput = 0.1
+	        RGO_throughput = 0.1
+			artisan_throughput = 0.1 #не работает
 			import_cost = 0.2
 		     
 			rules = {
@@ -109,6 +115,8 @@ party_issues = {
 			supply_consumption = 0.25
 			research_points_modifier = 0.25
 			factory_throughput = 0.25
+	        RGO_throughput = 0.25
+			artisan_throughput = 0.25 #не работает
 			tax_efficiency = 0.05
 			import_cost = 0.5
 			
@@ -848,7 +856,7 @@ economic_reforms = {
 	                poor_life_needs = -0.15
 	                middle_life_needs = -0.15
 	                rich_life_needs = -0.15
-			global_pop_consciousness_modifier = -0.005
+			        global_pop_consciousness_modifier = -0.005
 	                mobilisation_size = 0.3
 		}
 		no_land_reform = {

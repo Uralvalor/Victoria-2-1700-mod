@@ -1103,145 +1103,145 @@ RGO_template_labourers = {
 cattle_ranch = {
 	template = RGO_template_farmers
 	output_goods = cattle 
-	value = .18
+	value = .16
 	farm = yes
 }
 
 coal_mine = {
 	template = RGO_template_labourers
 	output_goods = coal 
-	value = .24
+	value = .216
 	mine = yes
 }
 
 coffee_plantation = {
 	template = RGO_template_farmers
 	output_goods = coffee 
-	value = .15
+	value = .135
 	farm = yes
 }
 
 cotton_plantation = {
 	template = RGO_template_farmers
 	output_goods = cotton 
-	value = .22
+	value = .20
 	farm = yes
 }
 
 dye_plantation = {
 	template = RGO_template_farmers
 	output_goods = dye 
-	value = 0.05
+	value = 0.045
 	farm = yes
 }
 
 fishing_wharf = {
 	template = RGO_template_farmers
 	output_goods = fish 
-	value = .22
+	value = .20
 	farm = yes
 }
 
 grain_farm = {
 	template = RGO_template_farmers
 	output_goods = grain 
-	value = .18
+	value = .16
 	farm = yes
 }
 fur_clothes = {       
 	template = RGO_template_farmers
 	output_goods = luxury_clothes 
-	value = .1
+	value = .09
 	farm = yes
 }
 iron_mine = {
 	template = RGO_template_labourers
 	output_goods = iron
-	value = .18
+	value = .16
 	mine = yes
 }
 
 oil_rig = {
 	template = RGO_template_labourers
 	output_goods = oil 
-	value = .1
+	value = .09
 	mine = yes
 }
 
 opium_plantation = {
 	template = RGO_template_farmers
 	output_goods = opium 
-	value = 0.07
+	value = 0.06
 	farm = yes
 }
 
 orchard = {
 	template = RGO_template_farmers
 	output_goods = fruit 
-	value = .28
+	value = .25
 	farm = yes
 }
 
 precious_metal_mine = {
 	template = RGO_template_labourers
 	output_goods = precious_metal 
-	value = 0.2
+	value = 0.18
 	mine = yes
 }
 
 rubber_lodge = {
 	template = RGO_template_labourers
 	output_goods = rubber 
-	value = 0.075
+	value = 0.068
 	farm = yes
 }
 
 sheep_ranch = {
 	template = RGO_template_farmers
 	output_goods = wool 
-	value = .6
+	value = .54
 	farm = yes
 }
 
 silkworm_ranch = {
 	template = RGO_template_farmers
 	output_goods = silk 
-	value = 0.025
+	value = 0.023
 	farm = yes
 }
 
 sulphur_mine = {
 	template = RGO_template_labourers
 	output_goods = sulphur 
-	value = .2
+	value = .18
 	mine = yes
 }
 
 tea_plantation = {
 	template = RGO_template_farmers
 	output_goods = tea 
-	value = .175
+	value = .158
 	farm = yes
 }
 
 timber_lodge = {
 	template = RGO_template_labourers
 	output_goods = timber 
-	value = .8
+	value = .72
 	farm = yes
 }
 
 tobacco_plantation = {
 	template = RGO_template_farmers
 	output_goods = tobacco 
-	value = .25
+	value = .23
 	farm = yes
 }
 
 tropical_wood_lodge = {
 	template = RGO_template_labourers
 	output_goods = tropical_wood 
-	value = .4
+	value = .36
 	farm = yes
 }
 

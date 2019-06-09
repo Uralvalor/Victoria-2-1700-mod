@@ -1,10 +1,10 @@
 
 add_core = PRI
- 
-#add_core = MCK
+add_core = MCK
 trade_goods = coal
 life_rating = 27
 terrain = conifer_forest_hills
+
 1861.1.1 = {
 	owner = RUS
 	controller = RUS

@@ -1,12 +1,12 @@
 owner = AUS
 controller = AUS
 add_core = AUS
- 
- 
 terrain = city_619
 trade_goods = grain
 life_rating = 35
 fort = 1
+railroad = 1
+
 state_building = {
 	level = 1
 	building = paper_mill

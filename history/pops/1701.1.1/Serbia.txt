@@ -122,7 +122,12 @@
 	farmers = {
 		culture = serb
 		religion = orthodox
-		size = 35588
+		size = 25000
+	}
+	farmers = {
+		culture = hungarian
+		religion = protestant
+		size = 10588
 	}
 }
 794 = {

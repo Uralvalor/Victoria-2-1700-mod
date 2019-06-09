@@ -1,12 +1,13 @@
 owner = SWE
 controller = SWE
 add_core = SWE
-
 add_core = SCA
 terrain = city_322
 trade_goods = coal
 life_rating = 35
 naval_base = 1
+railroad = 1
+
 #state_building = {
 #	level = 1
 #	building = steel_factory

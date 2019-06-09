@@ -6,6 +6,8 @@ trade_goods = iron
 life_rating = 35
 fort = 1
 terrain = floodplain_farmland
+railroad = 1
+
 1750.1.1 = {
 	owner = LOM
 	controller = LOM

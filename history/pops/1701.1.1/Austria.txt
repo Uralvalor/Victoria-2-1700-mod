@@ -37,7 +37,12 @@
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 35171
+		size = 25171
+	}
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 10000
 	}
 }
 613 = {
@@ -96,7 +101,12 @@
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 19588
+		size = 10000
+	}
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 9588
 	}
 }
 615 = {
@@ -350,7 +360,12 @@
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 36078
+		size = 16078
+	}
+	farmers = {
+		culture = czech
+		religion = catholic
+		size = 20000
 	}
 }
 622 = {
@@ -377,7 +392,12 @@
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 88319
+		size = 70000
+	}
+	farmers = {
+		culture = czech
+		religion = catholic
+		size = 18319
 	}
 }
 624 = {

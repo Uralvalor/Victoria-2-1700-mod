@@ -1,10 +1,14 @@
+
+owner = FRA
+controller = FRA
+trade_goods = cattle
+life_rating = 35
+terrain = deciduous_forest
+colonial = 1 
 1750.1.1 = {owner = FRA
 controller = FRA
 colonial = 2 
  } 
-trade_goods = cattle
-life_rating = 35
-terrain = deciduous_forest
 1815.1.1 = { owner = USA add_core = USA
 	controller = USA
 colonial = no 

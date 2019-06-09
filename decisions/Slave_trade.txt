@@ -40,7 +40,7 @@ Slave_trade_charlston = {
 	            controls = 205
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run 205 = { has_province_modifier = slave_market }}
 	        war = no
 		    money = 12500
 	}
@@ -78,9 +78,15 @@ Slave_trade_charlston = {
 			 
 			}
 		random_pop = { limit = { type = capitalists } money = -12500 }
+		
+			205 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
         }
 	}
-	
+}	
 Slave_trade_washington = {
 	alert = yes
     picture = bolivar_abolish_slavery
@@ -92,7 +98,7 @@ Slave_trade_washington = {
 	            controls = 220
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run  220 = { has_province_modifier = slave_market  } }
 	        war = no
 		    money = 12500
 	}
@@ -129,7 +135,13 @@ Slave_trade_washington = {
 			}
 			 
 			}
-		random_pop = { limit = { type = capitalists } money = -12500 }
+		random_pop = { limit = { type = capitalists } money = -12500 }		
+			220 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
+        }
         }
 	}
 	
@@ -144,7 +156,7 @@ Slave_trade_newyork = {
 	            controls = 232
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run 232 = { has_province_modifier = slave_market  } }
 	        war = no
 		    money = 12500
 	}
@@ -181,7 +193,13 @@ Slave_trade_newyork = {
 			}
 			 
 			}
-		random_pop = { limit = { type = capitalists } money = -12500 }
+		random_pop = { limit = { type = capitalists } money = -12500 }		
+			232 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
+        }
         }
 	}
 	
@@ -196,7 +214,7 @@ Slave_trade_neworlean = {
 	            controls = 139
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run 139 = { has_province_modifier = slave_market  } }
 	        war = no
 		    money = 12500
 	}
@@ -233,7 +251,13 @@ Slave_trade_neworlean = {
 			}
 			 
 			}
-		random_pop = { limit = { type = capitalists } money = -12500 }
+		random_pop = { limit = { type = capitalists } money = -12500 }		
+			139 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
+        }
         }
 	}
 	
@@ -248,7 +272,7 @@ Slave_trade_mexico = {
 	            controls = 2172
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run 2172 = { has_province_modifier = slave_market  } }
 	        war = no
 		    money = 12500
 	}
@@ -285,7 +309,13 @@ Slave_trade_mexico = {
 			}
 			 
 			}
-		random_pop = { limit = { type = capitalists } money = -12500 }
+		random_pop = { limit = { type = capitalists } money = -12500 }		
+			2172 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
+        }
         }
 	}
 	
@@ -300,7 +330,7 @@ Slave_trade_cuba = {
 	            controls = 2212
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run 2212 = { has_province_modifier = slave_market  } }
 	        war = no
 		    money = 12500
 	}
@@ -337,7 +367,13 @@ Slave_trade_cuba = {
 			}
 			 
 			}
-		random_pop = { limit = { type = capitalists } money = -12500 }
+		random_pop = { limit = { type = capitalists } money = -12500 }		
+			2212 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
+        }
         }
 	}
 	
@@ -352,7 +388,7 @@ Slave_trade_gaity = {
 	            controls = 2213
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run 2213 = { has_province_modifier = slave_market  } }
 	        war = no
 		    money = 12500
 	}
@@ -389,7 +425,13 @@ Slave_trade_gaity = {
 			}
 			 
 			}
-		random_pop = { limit = { type = capitalists } money = -12500 }
+		random_pop = { limit = { type = capitalists } money = -12500 }		
+			2213 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
+        }
         }
 	}
 	
@@ -404,7 +446,7 @@ Slave_trade_puerto = {
 	            controls = 2222
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run 2222 = { has_province_modifier = slave_market  } }
 	        war = no
 		    money = 12500
 	}
@@ -441,7 +483,13 @@ Slave_trade_puerto = {
 			}
 			 
 			}
-		random_pop = { limit = { type = capitalists } money = -12500 }
+		random_pop = { limit = { type = capitalists } money = -12500 }		
+			2222 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
+        }
         }
 	}
 Slave_trade_cartagena = {
@@ -455,7 +503,7 @@ Slave_trade_cartagena = {
 	            controls = 2254
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run 2254 = { has_province_modifier = slave_market  } }
 	        war = no
 		    money = 12500
 	}
@@ -492,7 +540,13 @@ Slave_trade_cartagena = {
 			}
 			 
 			}
-		random_pop = { limit = { type = capitalists } money = -12500 }
+		random_pop = { limit = { type = capitalists } money = -12500 }		
+			2254 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
+        }
         }
 	}
 Slave_trade_lima = {
@@ -506,7 +560,7 @@ Slave_trade_lima = {
 	            controls = 2295
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run 2295 = { has_province_modifier = slave_market  } }
 	        war = no
 		    money = 12500
 	}
@@ -543,7 +597,13 @@ Slave_trade_lima = {
 			}
 			 
 			}
-		random_pop = { limit = { type = capitalists } money = -12500 }
+		random_pop = { limit = { type = capitalists } money = -12500 }		
+			2295 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
+        }
         }
 	}
 Slave_trade_valparaiso = {
@@ -557,7 +617,7 @@ Slave_trade_valparaiso = {
 	            controls = 2325
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run 2325 = { has_province_modifier = slave_market  } }
 	        war = no
 		    money = 12500
 	}
@@ -594,7 +654,13 @@ Slave_trade_valparaiso = {
 			}
 			 
 			}
-		random_pop = { limit = { type = capitalists } money = -12500 }
+		random_pop = { limit = { type = capitalists } money = -12500 }		
+			2325 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
+        }
         }
 	}
 Slave_trade_buenos = {
@@ -608,7 +674,7 @@ Slave_trade_buenos = {
 	            controls = 2348
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run 2348 = { has_province_modifier = slave_market  } }
 	        war = no
 		    money = 12500
 	}
@@ -645,7 +711,13 @@ Slave_trade_buenos = {
 			}
 			 
 			}
-		random_pop = { limit = { type = capitalists } money = -12500 }
+		random_pop = { limit = { type = capitalists } money = -12500 }		
+			2348 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
+        }
         }
 	}
 Slave_trade_rio = {
@@ -659,7 +731,7 @@ Slave_trade_rio = {
 	            controls = 2447
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run 2447 = { has_province_modifier = slave_market  } }
 	        war = no
 		    money = 12500
 	}
@@ -696,7 +768,13 @@ Slave_trade_rio = {
 			}
 			 
 			}
-		random_pop = { limit = { type = capitalists } money = -12500 }
+		random_pop = { limit = { type = capitalists } money = -12500 }		
+			2447 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
+        }
         }
 	}
 Slave_trade_salvador = {
@@ -710,7 +788,7 @@ Slave_trade_salvador = {
 	            controls = 2436
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run 2436 = { has_province_modifier = slave_market  } }
 	        war = no
 		    money = 12500
 	}
@@ -747,7 +825,13 @@ Slave_trade_salvador = {
 			}
 			 
 			}
-		random_pop = { limit = { type = capitalists } money = -12500 }
+		random_pop = { limit = { type = capitalists } money = -12500 }		
+			2436 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
+        }
         }
 	}
 Slave_trade_recife = {
@@ -761,7 +845,7 @@ Slave_trade_recife = {
 	            controls = 2432
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run 2432 = { has_province_modifier = slave_market  } }
 	        war = no
 		    money = 12500
 	}
@@ -798,7 +882,13 @@ Slave_trade_recife = {
 			}
 			 
 			}
-		random_pop = { limit = { type = capitalists } money = -12500 }
+		random_pop = { limit = { type = capitalists } money = -12500 }		
+			2432 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
+        }
         }
 	}
 Slave_trade_paramaribo = {
@@ -812,7 +902,7 @@ Slave_trade_paramaribo = {
 	            controls = 2240
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run 2240 = { has_province_modifier = slave_market  } }
 	        war = no
 		    money = 12500
 	}
@@ -849,7 +939,13 @@ Slave_trade_paramaribo = {
 			}
 			 
 			}
-		random_pop = { limit = { type = capitalists } money = -12500 }
+		random_pop = { limit = { type = capitalists } money = -12500 }		
+			2240 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
+        }
         }
 	}
 Slave_trade_cayena = {
@@ -863,7 +959,7 @@ Slave_trade_cayena = {
 	            controls = 2241
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run 2241 = { has_province_modifier = slave_market  } }
 	        war = no
 		    money = 12500
 	}
@@ -900,7 +996,13 @@ Slave_trade_cayena = {
 			}
 			 
 			}
-		random_pop = { limit = { type = capitalists } money = -12500 }
+		random_pop = { limit = { type = capitalists } money = -12500 }		
+			2241 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
+        }
         }
 	}
 Slave_trade_liverpool = {
@@ -914,7 +1016,7 @@ Slave_trade_liverpool = {
 	            controls = 277
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run 277 = { has_province_modifier = slave_market  } }
 	        war = no
 		    money = 12500
 	}
@@ -951,7 +1053,13 @@ Slave_trade_liverpool = {
 			}
 			 
 			}
-		random_pop = { limit = { type = capitalists } money = -12500 }
+		random_pop = { limit = { type = capitalists } money = -12500 }		
+			277 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
+        }
         }
 	}
 Slave_trade_bristol = {
@@ -965,7 +1073,7 @@ Slave_trade_bristol = {
 	            controls = 296
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run 296 = { has_province_modifier = slave_market  } }
 	        war = no
 		    money = 12500
 	}
@@ -1002,7 +1110,13 @@ Slave_trade_bristol = {
 			}
 			 
 			}
-		random_pop = { limit = { type = capitalists } money = -12500 }
+		random_pop = { limit = { type = capitalists } money = -12500 }		
+			296 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
+        }
         }
 	}
 Slave_trade_gvadelupa = {
@@ -1016,7 +1130,7 @@ Slave_trade_gvadelupa = {
 	            controls = 2230
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run 2230 = { has_province_modifier = slave_market  } }
 	        war = no
 		    money = 12500
 	}
@@ -1053,7 +1167,13 @@ Slave_trade_gvadelupa = {
 			}
 			 
 			}
-		random_pop = { limit = { type = capitalists } money = -12500 }
+		random_pop = { limit = { type = capitalists } money = -12500 }		
+			2230 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
+        }
         }
 	}
 Slave_trade_gvatemala = {
@@ -1067,7 +1187,7 @@ Slave_trade_gvatemala = {
 	            controls = 2186
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run 2186 = { has_province_modifier = slave_market  } }
 	        war = no
 		    money = 12500
 	}
@@ -1104,7 +1224,13 @@ Slave_trade_gvatemala = {
 			}
 			 
 			}
-		random_pop = { limit = { type = capitalists } money = -12500 }
+		random_pop = { limit = { type = capitalists } money = -12500 }		
+			2186 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
+        }
         }
 	}
 Slave_trade_yamaika = {
@@ -1118,7 +1244,7 @@ Slave_trade_yamaika = {
 	            controls = 2217
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run 2217 = { has_province_modifier = slave_market  } }
 	        war = no
 		    money = 12500
 	}
@@ -1155,7 +1281,13 @@ Slave_trade_yamaika = {
 			}
 			 
 			}
-		random_pop = { limit = { type = capitalists } money = -12500 }
+		random_pop = { limit = { type = capitalists } money = -12500 }		
+			2217 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
+        }
         }
 	}
 Slave_trade_london = {
@@ -1169,7 +1301,7 @@ Slave_trade_london = {
 	            controls = 300
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run 300 = { has_province_modifier = slave_market  } }
 	        war = no
 		    money = 12500
 	}
@@ -1206,7 +1338,13 @@ Slave_trade_london = {
 			}
 			 
 			}
-		random_pop = { limit = { type = capitalists } money = -12500 }
+		random_pop = { limit = { type = capitalists } money = -12500 }		
+			300 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
+        }
         }
 	}
 Slave_trade_amsterdamm = {
@@ -1220,7 +1358,7 @@ Slave_trade_amsterdamm = {
 	            controls = 375
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run 375 = { has_province_modifier = slave_market  } }
 	        war = no
 		    money = 12500
 	}
@@ -1257,7 +1395,13 @@ Slave_trade_amsterdamm = {
 			}
 			 
 			}  
-		random_pop = { limit = { type = capitalists } money = -12500 }
+		random_pop = { limit = { type = capitalists } money = -12500 }		
+			375 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
+        }
         }
 }
 Slave_trade_nant = {
@@ -1271,7 +1415,7 @@ Slave_trade_nant = {
 	            controls = 423
 	}
 	allow = {	
-	    	NOT = { has_country_modifier = slave_trade_run }
+	    	NOT = { has_country_modifier = slave_trade_run 423 = { has_province_modifier = slave_market  } }
 	        war = no
 		    money = 12500
 	}
@@ -1308,7 +1452,13 @@ Slave_trade_nant = {
 			}
 			 
 			}
-		random_pop = { limit = { type = capitalists } money = -12500 }
+		random_pop = { limit = { type = capitalists } money = -12500 }		
+			423 =  { 
+					add_province_modifier = {
+					name = slave_market
+					duration = 5840
+			        }
+        }
         }
 	}
 }

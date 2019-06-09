@@ -2100,3 +2100,29 @@ eisenhower_matrix = {
 		factory_output = 0.01
 	}
 }
+new_world_agroculture = {
+	limit = { state_mercantilism = 1 }
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			trade_policy = free_trade
+		}
+		modifier = {
+			factor = 1
+			any_neighbor_country = {
+			new_world_agroculture = yes
+		    }
+		}
+		modifier = {
+		factor = 3
+		any_owned_province = {
+				continent = north_america
+				continent = south_america
+		} }
+	}
+	effect = {
+		farm_rgo_eff = 0.15
+	}
+}

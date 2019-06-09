@@ -1,14 +1,14 @@
 owner = DEN
 controller = DEN
 add_core = DEN
-
 add_core = SCA
 terrain = city_372
 trade_goods = grain
 life_rating = 35
 naval_base = 1
 fort = 1
-fort = 1
+railroad = 1
+
 #state_building = {
 #	level = 1
 #	building = ammunition_factory

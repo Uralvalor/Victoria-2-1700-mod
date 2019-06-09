@@ -5,6 +5,8 @@ terrain = city_425
 trade_goods = grain
 fort = 1
 life_rating = 35
+railroad = 1
+
 state_building = {
 	level = 1
 	building = paper_mill

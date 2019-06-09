@@ -319,6 +319,7 @@ province_event = {
 			NOT = {
 				inorganic_chemistry = 1
 			}
+			new_world_agroculture = yes
 		}
 		NOT = {
 			has_province_modifier = potato_blight

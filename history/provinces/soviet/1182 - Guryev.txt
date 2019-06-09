@@ -1,11 +1,10 @@
-owner = CSK
-controller = CSK
-        add_core = LJU
+owner = LJU
+controller = LJU
+add_core = LJU
 trade_goods = wool
 life_rating = 27
 add_core = URA
 add_core = CSK
-colonial = 2
 terrain = semi_desert
 1750.1.1 = {
 add_core = RUS

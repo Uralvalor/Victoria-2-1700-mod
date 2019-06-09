@@ -1381,7 +1381,7 @@
 		religion = catholic
 		size = 170
 	}
-	labourers = {
+	slaves = {
 		culture = african_minor
 		religion = protestant
 		size = 128
@@ -1482,6 +1482,16 @@
 		religion = catholic
 		size = 2500
 	}
+	clergymen = {
+		culture = cree
+		religion = animist
+		size = 15
+	}
+	farmers = {
+		culture = cree
+		religion = animist
+		size = 150
+	}
 }
 75 = {
 	clergymen = {
@@ -1524,27 +1534,32 @@
 		religion = catholic
 		size = 136
 	}
-}
-76 = {
-	bureaucrats = {
+	clergymen = {
+		culture = cree
+		religion = animist
+		size = 15
+	}
+	farmers = {
+		culture = cree
+		religion = animist
+		size = 350
+	}
+	farmers = {
 		culture = inuit
 		religion = animist
-		size = 0
+		size = 350
 	}
+	slaves = {
+		culture = african_minor
+		religion = catholic
+		size = 25
+	}
+}
+76 = {
 	clergymen = {
 		culture = inuit
 		religion = animist
 		size = 1
-	}
-	artisans = {
-		culture = inuit
-		religion = animist
-		size = 0
-	}
-	soldiers = {
-		culture = inuit
-		religion = animist
-		size = 0
 	}
 	farmers = {
 		culture = inuit

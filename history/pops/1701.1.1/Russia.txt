@@ -67,7 +67,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 5000
+		size = 29940
 	}
 	farmers = {
 		culture = byelorussian
@@ -109,7 +109,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 40742
+		size = 46365
 	}
 	clergymen = {
 		culture = ashkenazi
@@ -181,7 +181,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 45000
+		size = 35644
 	}
 	farmers = {
 		culture = byelorussian
@@ -248,9 +248,13 @@
 	farmers = {
 		culture = ukrainian
 		religion = orthodox
-		size = 14659
+		size = 4659
 	}
-	
+	farmers = {
+		culture = byelorussian
+		religion = orthodox
+		size = 10000
+	}
 	bureaucrats = {
 		culture = ukrainian
 		religion = protestant
@@ -341,7 +345,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 40888
+		size = 30454
 	}
 }
 1017 = {
@@ -368,7 +372,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 69307
+		size = 60280
 	}
 	farmers = {
 		culture = ukrainian
@@ -803,7 +807,7 @@
 	farmers = {
 		culture = karelian
 		religion = animist
-		size = 2416
+		size = 5209
 	}
 }
 988 = {
@@ -825,7 +829,7 @@
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 1371
+		size = 171
 	}
 	clergymen = {
 		culture = karelian
@@ -845,7 +849,7 @@
 	farmers = {
 		culture = karelian
 		religion = animist
-		size = 2374
+		size = 581
 	}
 	farmers = {
 		culture = vepsian
@@ -889,7 +893,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 2344
+		size = 4424
 	}
 	clergymen = {
 		culture = karelian
@@ -1179,7 +1183,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 43287
+		size = 37704
 	}
 	farmers = {
 		culture = karelian
@@ -1206,7 +1210,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 178
+		size = 18889
 	}
 	clergymen = {
 		culture = komi
@@ -1253,7 +1257,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 24649
+		size = 16080
 	}
 }
 992 = {
@@ -1275,7 +1279,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 16627
+		size = 38245
 	}
 	farmers = {
 		culture = vepsian
@@ -1302,7 +1306,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 3254
+		size = 6801
 	}
 	farmers = {
 		culture = karelian
@@ -1396,7 +1400,7 @@
 	farmers = {
 		culture = karelian
 		religion = protestant
-		size = 2541
+		size = 1541
 	}
 	clergymen = {
 		culture = russian
@@ -1416,7 +1420,7 @@
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 3254
+		size = 254
 	}
 }
 996 = {
@@ -1467,7 +1471,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 5179
+		size = 4405
 	}
 	farmers = {
 		culture = russian
@@ -1529,7 +1533,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 59866
+		size = 91855
 	}
 	clergymen = {
 		culture = karelian
@@ -1576,7 +1580,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 51370
+		size = 14050
 	}
 }
 1000 = {
@@ -1603,7 +1607,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 23184
+		size = 35244
 	}
 	clergymen = {
 		culture = karelian
@@ -1645,7 +1649,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 60382
+		size = 137571
 	}
 }
 1003 = {
@@ -1682,12 +1686,12 @@
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 24000
+		size = 8860
 	}
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 49012
+		size = 10012
 	}
 	clergymen = {
 		culture = ashkenazi
@@ -1724,7 +1728,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 21061
+		size = 12997
 	}
 	clergymen = {
 		culture = karelian
@@ -1771,7 +1775,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 32402
+		size = 8634
 	}
 }
 1006 = {
@@ -1850,7 +1854,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 19435
+		size = 9915
 	}
 	farmers = {
 		culture = byelorussian
@@ -1912,7 +1916,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 68301
+		size = 46133
 	}
 	farmers = {
 		culture = russian
@@ -2049,7 +2053,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 69358
+		size = 58928
 	}
 }
 1010 = {
@@ -2086,7 +2090,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 33504
+		size = 23050
 	}
 	bureaucrats = {
 		culture = russian
@@ -2111,7 +2115,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 29244
+		size = 19244
 	}
 }
 1011 = {
@@ -2143,7 +2147,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 143400
+		size = 94234
 	}
 }
 1012 = {
@@ -2170,7 +2174,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 65285
+		size = 136235
 	}
 	farmers = {
 		culture = mordva
@@ -2197,12 +2201,12 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 70816
+		size = 93362
 	}
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 43809
+		size = 63809
 	}
 }
 1020 = {
@@ -2239,7 +2243,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 75652
+		size = 114736
 	}
 	farmers = {
 		culture = russian
@@ -2334,7 +2338,7 @@
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 7006
+		size = 6465
 	}
 	farmers = {
 		culture = mordva
@@ -2391,7 +2395,12 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 62149
+		size = 68826
+	}
+	farmers = {
+		culture = russian
+		religion = protestant
+		size = 20000
 	}
 }
 1023 = {
@@ -2418,7 +2427,7 @@
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 35419
+		size = 14434
 	}
 }
 1024 = {
@@ -2440,7 +2449,7 @@
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 34821
+		size = 13887
 	}
 }
 1025 = {
@@ -2529,9 +2538,14 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 19000
+		size = 18600
 	}
-		bureaucrats = {
+	craftsmen = {
+		culture = russian
+		religion = orthodox
+		size = 400
+	}
+	bureaucrats = {
 		culture = russian
 		religion = orthodox
 		size = 90
@@ -2581,7 +2595,7 @@
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 35248
+		size = 26334
 	}
 }
 1028 = {
@@ -2706,11 +2720,6 @@
 		religion = orthodox
 		size = 149
 	}
-	bureaucrats = {
-		culture = russian
-		religion = orthodox
-		size = 35
-	}
 	officers = {
 		culture = russian
 		religion = orthodox
@@ -2749,7 +2758,7 @@
 	bureaucrats = {
 		culture = tatar
 		religion = sunni
-		size = 72
+		size = 280
 	}
 	officers = {
 		culture = tatar
@@ -2764,7 +2773,7 @@
 	artisans = {
 		culture = tatar
 		religion = sunni
-		size = 164
+		size = 664
 	}
 	soldiers = {
 		culture = tatar
@@ -2774,22 +2783,12 @@
 	farmers = {
 		culture = tatar
 		religion = sunni
-		size = 29202
-	}
-	bureaucrats = {
-		culture = tatar
-		religion = sunni
-		size = 179
+		size = 12802
 	}
 	clergymen = {
 		culture = tatar
 		religion = sunni
 		size = 103
-	}
-	artisans = {
-		culture = tatar
-		religion = sunni
-		size = 123
 	}
 	soldiers = {
 		culture = tatar
@@ -2803,26 +2802,7 @@
 	}
 }
 1033 = {
-	bureaucrats = {
-		culture = russian
-		religion = orthodox
-		size = 531
-	}
-	clergymen = {
-		culture = russian
-		religion = orthodox
-		size = 509
-	}
-	farmers = {
-		culture = russian
-		religion = orthodox
-		size = 42000
-	}
-	farmers = {
-		culture = russian
-		religion = protestant
-		size = 10009
-	}
+
 	bureaucrats = {
 		culture = mordva
 		religion = animist
@@ -2891,7 +2871,7 @@
 	farmers = {
 		culture = chuvash
 		religion = animist
-		size = 13500
+		size = 3250
 	}
 }
 1034 = {
@@ -2985,7 +2965,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 124
+		size = 12241
 	}
 	clergymen = {
 		culture = tatar
@@ -3006,6 +2986,11 @@
 		culture = tatar
 		religion = sunni
 		size = 1090
+	}
+	farmers = {
+		culture = chuvash
+		religion = animist
+		size = 10250
 	}
 }
 1036 = {
@@ -3407,16 +3392,6 @@
 		size = 20589
 	}
 	farmers = {
-		culture = kirgiz
-		religion = sunni
-		size = 63
-	}
-	farmers = {
-		culture = uzbek
-		religion = sunni
-		size = 115
-	}
-	farmers = {
 		culture = ukrainian
 		religion = orthodox
 		size = 582
@@ -3437,11 +3412,6 @@
 		size = 6
 	}
 	farmers = {
-		culture = turkish
-		religion = sunni
-		size = 3
-	}
-	farmers = {
 		culture = chuvash
 		religion = animist
 		size = 181
@@ -3449,7 +3419,7 @@
 	bureaucrats = {
 		culture = tatar
 		religion = sunni
-		size = 143
+		size = 43
 	}
 	clergymen = {
 		culture = tatar
@@ -3459,7 +3429,7 @@
 	artisans = {
 		culture = tatar
 		religion = sunni
-		size = 180
+		size = 280
 	}
 	soldiers = {
 		culture = tatar
@@ -3469,7 +3439,7 @@
 	farmers = {
 		culture = tatar
 		religion = sunni
-		size = 11011
+		size = 5011
 	}
 }
 1043 = {
@@ -4919,37 +4889,12 @@
 	farmers = {
 		culture = nogais
 		religion = sunni
-		size = 4712
+		size = 2712
 	}
 	farmers = {
 		culture = chuvash
 		religion = animist
 		size = 135
-	}
-	farmers = {
-		culture = azerbaijani
-		religion = sunni
-		size = 35
-	}
-	farmers = {
-		culture = ashkenazi
-		religion = jewish
-		size = 6
-	}
-	farmers = {
-		culture = uzbek
-		religion = sunni
-		size = 23
-	}
-	farmers = {
-		culture = tajik
-		religion = sunni
-		size = 18
-	}
-	farmers = {
-		culture = nogais
-		religion = sunni
-		size = 1000
 	}
 	soldiers = {
 		culture = nogais

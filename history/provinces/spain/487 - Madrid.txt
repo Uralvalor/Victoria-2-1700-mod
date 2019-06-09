@@ -4,6 +4,8 @@ add_core = SPA
 trade_goods = cattle
 life_rating = 35
 terrain = hilly_farmland
+railroad = 1
+
 state_building = {
 	level = 1
 	building = metal_money_building 

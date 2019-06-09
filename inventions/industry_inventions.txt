@@ -1933,7 +1933,7 @@ agriculture_8 = {
 ##########################
 
 mine_1 = {
-	limit = { 1700_power = 1 }
+	limit = { 1700_metall = 1 }
 	chance = {
 		base = 0
 		modifier = {
@@ -1951,7 +1951,7 @@ mine_1 = {
 }
 
 mine_2 = {
-	limit = { 1700_power = 1 }
+	limit = { 1700_metall = 1 }
 	chance = {
 		base = 0
 		modifier = {
@@ -1964,7 +1964,7 @@ mine_2 = {
 		}
 		modifier = {
 			factor = -5
-			NOT = { invention = agriculture_1 }
+			NOT = { invention = mine_1 }
 		}
 	}
 	effect = {
@@ -1973,7 +1973,7 @@ mine_2 = {
 }
 
 mine_3 = {
-	limit = { 1700_power = 1 }
+	limit = { 1700_metall = 1 }
 	chance = {
 		base = 0
 		modifier = {
@@ -1990,7 +1990,7 @@ mine_3 = {
 		}
 		modifier = {
 			factor = -5
-			NOT = { invention = agriculture_2 }
+			NOT = { invention = mine_2 }
 		}
 	}
 	effect = {
@@ -1999,7 +1999,7 @@ mine_3 = {
 }
 
 mine_4 = {
-	limit = { 1700_power = 1 }
+	limit = { 1700_metall = 1 }
 	chance = {
 		base = 0
 		modifier = {
@@ -2016,7 +2016,7 @@ mine_4 = {
 		}
 		modifier = {
 			factor = -5
-			NOT = { invention = agriculture_3 }
+			NOT = { invention = mine_3 }
 		}
 	}
 	effect = {
@@ -2025,7 +2025,7 @@ mine_4 = {
 }
 
 mine_5 = {
-	limit = { 1700_power = 1 }
+	limit = { 1700_metall = 1 }
 	chance = {
 		base = 0
 		modifier = {
@@ -2042,7 +2042,7 @@ mine_5 = {
 		}
 		modifier = {
 			factor = -5
-			NOT = { invention = agriculture_4 }
+			NOT = { invention = mine_4 }
 		}
 	}
 	effect = {
@@ -2051,7 +2051,7 @@ mine_5 = {
 }
 
 mine_6 = {
-	limit = { 1700_power = 1 }
+	limit = { 1700_metall = 1 }
 	chance = {
 		base = 0
 		modifier = {
@@ -2068,7 +2068,7 @@ mine_6 = {
 		}
 		modifier = {
 			factor = -5
-			NOT = { invention = agriculture_5 }
+			NOT = { invention = mine_5 }
 		}
 	}
 	effect = {
@@ -2077,7 +2077,7 @@ mine_6 = {
 }
 
 mine_7 = {
-	limit = { 1700_power = 1 }
+	limit = { 1700_metall = 1 }
 	chance = {
 		base = 0
 		modifier = {
@@ -2094,7 +2094,7 @@ mine_7 = {
 		}
 		modifier = {
 			factor = -5
-			NOT = { invention = agriculture_6 }
+			NOT = { invention = mine_6 }
 		}
 	}
 	effect = {
@@ -2103,7 +2103,7 @@ mine_7 = {
 }
 
 mine_8 = {
-	limit = { 1700_power = 1 }
+	limit = { 1700_metall = 1 }
 	chance = {
 		base = 0
 		modifier = {
@@ -2120,7 +2120,7 @@ mine_8 = {
 		}
 		modifier = {
 			factor = -5
-			NOT = { invention = agriculture_7 }
+			NOT = { invention = mine_7 }
 		}
 	}
 	effect = {

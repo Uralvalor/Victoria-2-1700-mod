@@ -38,7 +38,12 @@ leader = {
 	background = aristocrat
 }
 
+NEW = {
 
+	value = 100
+	level = 5
+	influence_value = 100
+}
 TUR = {
 	value = 50
 	level = 3

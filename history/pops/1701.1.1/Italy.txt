@@ -493,7 +493,12 @@
 	farmers = {
 		culture = north_italian
 		religion = catholic
-		size = 48429
+		size = 40000
+	}
+	farmers = {
+		culture = slovene
+		religion = catholic
+		size = 8429
 	}
 }
 734 = {
@@ -567,7 +572,7 @@
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 10616
+		size = 5616
 	}
 	clergymen = {
 		culture = north_italian
@@ -587,7 +592,7 @@
 	farmers = {
 		culture = north_italian
 		religion = catholic
-		size = 3834
+		size = 8834
 	}
 }
 736 = {

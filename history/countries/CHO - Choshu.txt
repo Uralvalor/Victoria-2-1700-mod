@@ -9,10 +9,11 @@ literacy = 0.40
 
 set_country_flag = fudai_daimyo
 
+
 army_schools = yes_army_schools  
-finance_reform = yes_finance_reform
 taxation_reform = tax_farmers
-land_reform = yes_land_reform  
+land_reform = no_land_reform
+ 
 
 ruling_party = NIP_reactionary
 upper_house = {
@@ -37,13 +38,12 @@ press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = jefferson_method
 political_parties = underground_parties
-
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
-gov_religion = shinto  unemployment_subsidies = no_subsidies
-
-pensions = acceptable_pensions
+gov_religion = shinto 
+pensions = trinket_pensions
+unemployment_subsidies = no_subsidies
 school_reforms = no_schools
 child_labor = child_labor_restricted

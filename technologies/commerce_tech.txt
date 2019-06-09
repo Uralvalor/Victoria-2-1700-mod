@@ -749,8 +749,8 @@ monetarism = {
 	factory_goods_output = {
 			transportation = 0.05 
 		}
-	farm_rgo_eff = 0.05
-	mine_rgo_eff = 0.05
+	farm_rgo_eff = 0.02
+	mine_rgo_eff = 0.03
 	
 	ai_chance = {
 	}
@@ -761,7 +761,7 @@ state_mercantilism = {
 	cost = 2200
 
 	influence = 0.1
-	farm_rgo_eff = 0.05
+	farm_rgo_eff = 0.03
 	mine_rgo_eff = 0.05
 	
 	ai_chance = {
@@ -822,8 +822,7 @@ market_structure = {
 	cost = 7200
 
 	influence = 0.1
-	farm_rgo_eff = 0.1
-	mine_rgo_eff = 0.1
+	mine_rgo_eff = 0.05
 	
 	ai_chance = {
 		factor = 3.5

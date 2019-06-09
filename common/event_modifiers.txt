@@ -1661,7 +1661,7 @@ sanction_1 = {
 	#factory_goods_output = {
 	#		credit = -0.25 
 	#	}
-	icon = 2
+	icon = 10
 }
 sanction_2 = {
 	loan_interest = 0.2
@@ -1669,7 +1669,7 @@ sanction_2 = {
 	#factory_goods_output = {
 	#		credit = -0.2 
 	#	}
-	icon = 2
+	icon = 10
 }
 sanction_3 = {
 	loan_interest = 0.17
@@ -1677,7 +1677,7 @@ sanction_3 = {
 	#factory_goods_output = {
 	#		credit = -0.17 
 	#	}
-	icon = 2
+	icon = 10
 }
 sanction_4 = {
 	loan_interest = 0.15
@@ -1685,7 +1685,7 @@ sanction_4 = {
 	#factory_goods_output = {
 	#		credit = -0.15 
 	#	}
-	icon = 2
+	icon = 10
 }
 sanction_5 = {
 	loan_interest = 0.13
@@ -1693,7 +1693,7 @@ sanction_5 = {
 	#factory_goods_output = {
 	#		credit = -0.13 
 	#	}
-	icon = 2
+	icon = 10
 }
 sanction_6 = {
 	loan_interest = 0.1
@@ -1701,7 +1701,7 @@ sanction_6 = {
 	#factory_goods_output = {
 	#		credit = -0.1 
 	#	}
-	icon = 2
+	icon = 10
 }
 sanction_7 = {
 	loan_interest = 0.07
@@ -1709,7 +1709,7 @@ sanction_7 = {
 	#factory_goods_output = {
 	#		credit = -0.07 
 	#	}
-	icon = 2
+	icon = 10
 }
 sanction_8 = {
 	loan_interest = 0.05
@@ -1717,7 +1717,7 @@ sanction_8 = {
 	#factory_goods_output = {
 	#		credit = -0.05 
 	#	}
-	icon = 2
+	icon = 10
 }
 new_world = {
 	global_immigrant_attract = 0.1
@@ -1759,7 +1759,7 @@ slave_market_country = {
 	prestige = -0.001
 }
 slave_market = {
-	rich_income_modifier = 0.3
+	rich_income_modifier = 1.0
 }
 slave_trade_run = {
 	icon = 17
@@ -1770,11 +1770,11 @@ juz_1700 = {
 }
 build_damm_doggerland_on = {
 	rich_income_modifier = -0.3
-	icon = 5
+	icon = 11
 }
 damm_doggerland = {
 	rich_income_modifier = -0.15
-	icon = 5
+	icon = 11
 }
 mercenary_run = {
 	rich_income_modifier = -0.1
@@ -1789,4 +1789,5 @@ potop = {
 	local_artisan_output = -0.1
 	immigrant_attract = -1
 	immigrant_push = 0.5
+	icon = 8
 }

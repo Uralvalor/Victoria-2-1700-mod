@@ -11,14 +11,9 @@
 		size = 2424
 	}
 	farmers = {
-		culture = kalmyk
-		religion = gelugpa
-		size = 2978
-	}
-	farmers = {
 		culture = nogais
 		religion = sunni
-		size = 5500
+		size = 1500
 	}
 }
 1183 = {
@@ -87,12 +82,12 @@
 	soldiers = {
 		culture = nogais
 		religion = sunni
-		size = 1523
+		size = 523
 	}
 	farmers = {
 		culture = kalmyk
 		religion = gelugpa
-		size = 4298
+		size = 1298
 	}
 	artisans = {
 		culture = ukrainian
@@ -110,23 +105,12 @@
 		size = 3174
 	}
 	farmers = {
-		culture = uzbek
-		religion = sunni
-		size = 5
-	}
-	farmers = {
 		culture = tatar
 		religion = sunni
 		size = 202
 	}
-	farmers = {
-		culture = azerbaijani
-		religion = sunni
-		size = 25
-	}
 }
 2611 = {
-
 	bureaucrats = {
 		culture = kazak
 		religion = sunni
@@ -155,7 +139,7 @@
 	farmers = {
 		culture = nogais
 		religion = sunni
-		size = 9607
+		size = 9107
 	}
 	farmers = {
 		culture = tatar
@@ -247,7 +231,7 @@
 	farmers = {
 		culture = kirgiz
 		religion = sunni
-		size = 6500
+		size = 11750
 	}
 }
 2606 = {

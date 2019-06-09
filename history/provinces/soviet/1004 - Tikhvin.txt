@@ -1,12 +1,9 @@
 owner = RUS
 controller = RUS
 add_core = RUS
-trade_goods = luxury_clothes
+trade_goods = timber
 life_rating = 32
 terrain = conifer_forest
-1750.1.1 = {
-trade_goods = timber
-}
 1914.1.1 = { railroad = 3 }
 1923.1.1 = {
 	owner = SOV

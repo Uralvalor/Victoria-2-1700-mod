@@ -37,6 +37,43 @@ political_decisions = {
 			add_core = RUS
 			}
 			set_country_flag = rus_capital_moved
+			994 = {
+			any_pop = {
+				limit = {
+				    type = farmers
+					has_pop_culture = finnish
+				}
+				move_pop = 1031
+			}
+			}
+			1008 = {
+			any_pop = {
+				limit = {
+				    type = officers
+					has_pop_culture = russian
+				}
+				move_pop = 994
+			}
+			}
+			1008 = {
+			any_pop = {
+				limit = {
+				    has_pop_religion = secularism
+				    type = aristocrats
+					has_pop_culture = russian
+				}
+				move_pop = 994
+			}
+			}
+			1013 = {
+			any_pop = {
+				limit = {
+				    has_pop_religion = protestant
+					has_pop_culture = russian
+				}
+				move_pop = 994
+			}
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -65,6 +102,43 @@ political_decisions = {
 		effect = {
 			money = -5000
 			random_pop = { limit = { type = artisans } money = 5000 }
+			1016 = {
+			any_pop = {
+				limit = {
+				    has_pop_religion = protestant
+				    type = farmers
+					has_pop_culture = russian
+				}
+				move_pop = 1039
+			}
+			}
+			1025 = {
+			any_pop = {
+				limit = {
+				    has_pop_religion = protestant
+					has_pop_culture = russian
+				}
+				move_pop = 1037
+			}
+			}
+			1020 = {
+			any_pop = {
+				limit = {
+				    has_pop_religion = protestant
+					has_pop_culture = russian
+				}
+				move_pop = 1043
+			}
+			}
+			1032 = {
+			any_pop = {
+				limit = {
+				    has_pop_religion = sunni
+					has_pop_culture = russian
+				}
+				move_pop = 1036
+			}
+			}
 			1037 =  { 
 			add_core = RUS
 						add_province_modifier = {
@@ -133,35 +207,6 @@ political_decisions = {
 					name = influx_of_population
 					duration = 7000
 			        }
-			}
-			1016 = {
-			any_pop = {
-				limit = {
-				    has_pop_religion = protestant
-				    type = farmers
-					has_pop_culture = russian
-				}
-				move_pop = 1039
-			}
-			}
-			1033 = {
-			any_pop = {
-				limit = {
-				    has_pop_religion = protestant
-				    type = farmers
-					has_pop_culture = russian
-				}
-				move_pop = 1043
-			}
-			}
-			3259 = {
-			any_pop = {
-				limit = {
-				    type = bureaucrats
-					has_pop_culture = russian
-				}
-				move_pop = 1036
-			}
 			}
 			set_country_flag = dikoe_pole_populated
 		}
@@ -280,15 +325,12 @@ political_decisions = {
 		picture = window_to_east1
 			potential = {
 			tag = RUS
+			NOT = { has_country_flag = window_to_east }
 			1058 = {
 				owner = {
 						tag = THIS
 				}
-			}			
-			1060 = {
-				NOT = { owned_by = RUS }
 			}
-			NOT = { has_country_flag = window_to_east }
 			}
 
 			allow = {
@@ -296,17 +338,21 @@ political_decisions = {
 			prestige = 65
 			has_country_flag = rus_capital_moved
                         OR = { 
-                                academic_institutions = universities
+                    academic_institutions = universities
 			        is_greater_power= yes
                              }
-			
-			LJU = { OR = { 
+			OR = {
+      			NOT = { exists = LJU }
+				1060 = { owned_by = RUS }
+			LJU = {
+					owns = 1060
+					OR = {
 				    vassal_of = RUS
-					in_sphere = THIS
-					NOT = { exists = LJU } }
+					in_sphere = RUS
+					 }
 					}
 			}
-
+                   }
 			effect = {
 		         random_list = {
 			10 = {
@@ -489,7 +535,7 @@ political_decisions = {
 	collector_of_russian_lands = {
 		potential = {
 			tag = RUS
-			year = 1760
+			year = 1740
 			NOT = {
 				has_country_flag = collector_of_russian_lands
 				exists = PLC
@@ -502,7 +548,7 @@ political_decisions = {
 			owns = 945
 			owns = 958
 			owns = 994
-			enlightenment_philosophy = 1
+			state_mercantilism = 1
 		}
 		effect = {
 			RUS_676 = {
@@ -779,7 +825,7 @@ political_decisions = {
 		NOT = { has_global_flag = kurultai }
 		}
 		allow = {
-		prestige = 25
+		prestige = 10
 		NOT = { badboy = 0.5 }
 		any_neighbor_country ={
 					gov_religion = sunni
@@ -799,8 +845,6 @@ political_decisions = {
 			}
             country_event = 770010
 		}
-		
-        country_event = 770011
 		}
 	}
 

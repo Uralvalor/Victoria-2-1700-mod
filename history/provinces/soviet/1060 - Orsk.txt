@@ -1,13 +1,13 @@
-
-	owner = LJU
-	controller = LJU
-        add_core = LJU
+owner = LJU
+controller = LJU
+add_core = LJU
 add_core = URA
 add_core = BSK
 add_core = ORN
 trade_goods = precious_metal
 life_rating = 30
 terrain = hilly_grassland
+
 1750.1.1 = {
 	owner = RUS
 	controller = RUS
