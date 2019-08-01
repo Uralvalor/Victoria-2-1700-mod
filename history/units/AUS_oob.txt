@@ -26,6 +26,11 @@ leader = {
 #Sphere of Influence
 
 
+TKG = {
+	level = 1
+	value = -100
+}
+
 BAV = {
 	value = 125
 	level = 4

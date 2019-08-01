@@ -1,9 +1,12 @@
 PLC = {
-
 	value = 200
 	level = 5
 	influence_value = 400
+}
 
+TKG = {
+	level = 1
+	value = -100
 }
 
 
