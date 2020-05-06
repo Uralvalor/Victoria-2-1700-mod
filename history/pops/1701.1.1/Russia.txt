@@ -2878,7 +2878,7 @@
 	farmers = {
 		culture = bashkir
 		religion = sunni
-		size = 469
+		size = 1469
 	}
 	bureaucrats = {
 		culture = mordva
@@ -2933,17 +2933,17 @@
 	farmers = {
 		culture = tatar
 		religion = sunni
-		size = 23617
+		size = 27617
 	}
 	bureaucrats = {
 		culture = tatar
 		religion = orthodox
-		size = 1
+		size = 2
 	}
 	clergymen = {
 		culture = tatar
 		religion = orthodox
-		size = 2
+		size = 6
 	}
 }
 1035 = {
@@ -3173,6 +3173,16 @@
 		religion = gelugpa
 		size = 2524
 	}
+	farmers = {
+		culture = nogais
+		religion = sunni
+		size = 2300
+	}
+	farmers = {
+		culture = bashkir
+		religion = sunni
+		size = 900
+	}
 }
 1039 = {
 	bureaucrats = {
@@ -3389,7 +3399,7 @@
 		religion = sunni
 		con=6
 		mil=5
-		size = 20589
+		size = 19589
 	}
 	farmers = {
 		culture = ukrainian
@@ -3439,15 +3449,10 @@
 	farmers = {
 		culture = tatar
 		religion = sunni
-		size = 5011
+		size = 1011
 	}
 }
 1043 = {
-	farmers = {
-		culture = nogais
-		religion = sunni
-		size = 3000
-	}
 	clergymen = {
 		culture = russian
 		religion = protestant
@@ -3486,7 +3491,12 @@
 	farmers = {
 		culture = bashkir
 		religion = sunni
-		size = 1000
+		size = 100
+	}
+	farmers = {
+		culture = nogais
+		religion = sunni
+		size = 700
 	}
 }
 1044 = {

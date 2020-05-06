@@ -69,7 +69,6 @@ spoil_system = {
 
 terrorist_cells = {
 	
-
 	local_factory_throughput = -0.15
 	icon = 8	
 
@@ -77,8 +76,8 @@ terrorist_cells = {
 	}	
 }
 
+# 0.001 gives 2.5% pop growth per year
 family_values = {
-
 
 	active = yes
 	population_growth = 0.001
@@ -88,9 +87,7 @@ family_values = {
 	}
 }
 
-
 self_values = {
-
 
 	active = yes
 	population_growth = -0.001
@@ -98,5 +95,6 @@ self_values = {
 	trigger = {
 	literacy = 0.65
 	}
+ }
 }
 

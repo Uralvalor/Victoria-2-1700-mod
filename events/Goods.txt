@@ -403,6 +403,7 @@ province_event = {
 			province_id = 702			# 
 		}
 		NOT = { trade_goods = coal }
+		NOT = { year = 1820 }
 	}
 
 	mean_time_to_happen =  {

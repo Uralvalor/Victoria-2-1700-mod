@@ -200,7 +200,7 @@ country_event = {
 			remove_core = BSK
 			add_province_modifier = {
 					name = influx_of_population
-					duration = 1825
+					duration = 3650
 			        }
 		    change_province_name = "Оренбург" 			
 		}
@@ -208,12 +208,20 @@ country_event = {
 			secede_province = RUS
 			add_core = RUS
 			remove_core = BSK
+			add_province_modifier = {
+					name = influx_of_population
+					duration = 3650
+			        }
 		}
 		1044 = {
 			secede_province = RUS
 			add_core = RUS
 			remove_core = BSK
 		    change_province_name = "Илецк" 
+			add_province_modifier = {
+					name = influx_of_population
+					duration = 3650
+			        }
 		}
 		1042 = {
 			add_core = RUS
@@ -284,16 +292,28 @@ country_event = {
 			secede_province = RUS
 			add_core = RUS
 			remove_core = BSK
+			add_province_modifier = {
+					name = influx_of_population
+					duration = 1825
+			        }
 		}
 		1044 = {
 			secede_province = RUS
 			add_core = RUS
 			remove_core = BSK
+			add_province_modifier = {
+					name = influx_of_population
+					duration = 1825
+			        }
 		}
 		1059 = {
 			secede_province = RUS
 			add_core = RUS
 			remove_core = BSK
+			add_province_modifier = {
+					name = influx_of_population
+					duration = 1825
+			        }
 		}
 		1042 = {
 			add_core = RUS
@@ -1550,7 +1570,6 @@ country_event = {
 		RUS_3253 = {
 			poor_strata = {
 				limit = {
-                    pop_type = farmers
 					has_pop_religion = sunni
 				}
 				move_pop = 969

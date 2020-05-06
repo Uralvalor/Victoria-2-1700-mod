@@ -1,10 +1,9 @@
 owner = MON
 controller = MON
- 
 add_core = MON
 add_core = YUG
 trade_goods = grain
-life_rating = 35
+life_rating = 33
 terrain = deciduous_forest_mountains
 1914.1.1 = {
 	owner = MON

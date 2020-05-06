@@ -343,6 +343,16 @@ migration_chance =
 		factor = -2.0
 		state_scope = { is_colonial = yes }
 	}
+
+	modifier = {
+		factor = 0.25
+		state_scope = { has_building = railroad }
+	}
+
+	modifier = {
+		factor = 0.25
+		state_scope = { has_building = naval_base }
+	}
 	
 	modifier = {
 		factor = 1
@@ -378,7 +388,7 @@ migration_chance =
 
 
 	modifier = {
-		factor = -0.3
+		factor = -0.5
 		state_scope = {
 			has_factories = yes
 			}

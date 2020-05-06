@@ -333,6 +333,14 @@ migration_target =
 		factor = 2.5
 		life_rating = 50
 	}
+	modifier = {
+		factor = 1.3
+		state_scope = { has_building = railroad }
+	}
+	modifier = {
+		factor = 1.3
+		state_scope = { has_building = naval_base }
+	}
 }
 
 promote_to =

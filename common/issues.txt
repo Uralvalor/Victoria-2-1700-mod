@@ -148,7 +148,7 @@ party_issues = {
 		}
 		moralism = {
 			global_assimilation_rate = 0.05
-			global_population_growth = 0.0005
+			global_population_growth = 0.001
 		}
 	}
 	citizenship_policy = {
@@ -743,13 +743,14 @@ social_reforms = {
 		administrative = yes
 		child_labor_legal = {
 			factory_throughput = 0.05
+			global_population_growth = 0.001
 		}
 		child_labor_restricted = {
 			global_population_growth = -0.001 #сложно обеспечивать многодетные семьи
 			global_immigrant_attract = 0.01
 		}
 		child_labor_illegal = {
-			global_population_growth = -0.002 #сложно обеспечивать многодетные семьи
+			global_population_growth = -0.0015 #сложно обеспечивать многодетные семьи
 			factory_throughput = -0.05
 			global_immigrant_attract = 0.02
 		}
