@@ -64,29 +64,29 @@
 }
 2232 = {
 	bureaucrats = {
-		culture = english
+		culture = caribeno
 		religion = protestant
 		size = 7
 	}
 	clergymen = {
-		culture = english
+		culture = caribeno
 		religion = protestant
 		size = 7
 	}
 	artisans = {
-		culture = english
+		culture = caribeno
 		religion = protestant
 		size = 17
 	}
 	farmers = {
-		culture = english
+		culture = caribeno
 		religion = protestant
-		size = 68
+		size = 20000
 	}
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 21801
+		size = 1800
 	}
 }
 2233 = {

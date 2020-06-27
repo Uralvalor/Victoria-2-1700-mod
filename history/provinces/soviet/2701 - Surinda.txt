@@ -1,16 +1,7 @@
-
-add_core = BKL 
- 
-trade_goods = grain
-life_rating = 20
-terrain = boreal_forest
-1750.1.1 = {owner = RUS
+owner = RUS
 controller = RUS
-        add_core = RUS
-colonial = no
-}
-1923.1.1 = {
-	owner = SOV
-	controller = SOV
-	add_core = SOV
-}
+add_core = RUS
+add_core = URA
+trade_goods = iron
+life_rating = 27
+terrain = conifer_forest_hills

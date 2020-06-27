@@ -280,3 +280,34 @@ country_event = {
 			}
 	}
 }
+
+country_event = {
+	
+	id = 780103
+	title = "Population S-Peterburg"
+	desc = "Move technical population for size prov to motherland"
+	
+	fire_only_once = yes
+	
+	
+	trigger = {
+		ai = yes
+	}
+	
+	mean_time_to_happen = {
+		day = 1
+	}
+
+	option = {
+		name = "Great!"
+		
+		994 = {
+			any_pop = {
+				limit = {
+					has_pop_culture = ukrainian
+				}
+				move_pop = 962
+			}
+		}	
+	}
+}

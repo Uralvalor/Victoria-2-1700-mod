@@ -1,11 +1,13 @@
 add_core = CHI
-colonial = 2
 trade_goods = timber
 life_rating = 35
 owner = MCK
 controller = MCK
 add_core = GNG
 terrain = hilly_farmland
+#Canton system
+naval_base = 1
+
 1923.1.1 = {
 	owner = GNG
 	controller = GNG

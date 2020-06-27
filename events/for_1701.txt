@@ -222,6 +222,17 @@ country_event = {
 					name = influx_of_population
 					duration = 3650
 			        }
+			any_pop = {
+				limit = {
+				    pop_type = farmers
+					has_pop_culture = bashkir
+				}
+				move_pop = 2658
+			}
+		}
+		2658 = {
+			add_core = RUS
+			remove_core = BSK
 		}
 		1042 = {
 			add_core = RUS
@@ -305,6 +316,13 @@ country_event = {
 					name = influx_of_population
 					duration = 1825
 			        }
+			any_pop = {
+				limit = {
+				    pop_type = farmers
+					has_pop_culture = bashkir
+				}
+				move_pop = 2658
+			}
 		}
 		1059 = {
 			secede_province = RUS
@@ -314,6 +332,9 @@ country_event = {
 					name = influx_of_population
 					duration = 1825
 			        }
+		}
+		2658 = {
+			add_core = RUS
 		}
 		1042 = {
 			add_core = RUS
@@ -1416,7 +1437,7 @@ country_event = {
 				move_pop = 1057
 			} }
 		RUS_964 = {
-			middle_strata = {
+			poor_strata = {
 				limit = {
 					has_pop_culture = tatar
 				}

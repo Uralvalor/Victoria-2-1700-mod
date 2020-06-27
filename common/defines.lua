@@ -633,7 +633,7 @@ pops = {
 	BASE_GOODS_DEMAND = 0.8,
 	BASE_POPGROWTH = 0.0001,
 	MIN_LIFE_RATING_FOR_GROWTH = 22,
-	LIFE_RATING_GROWTH_BONUS = 0.0001, -- % per month * life_rating (TFR / 10) - Liferating calc based on 0.00007
+	LIFE_RATING_GROWTH_BONUS = 0.000075, -- % per month * life_rating (TFR / 10) - Liferating calc based on 0.00007
 	LIFE_NEED_STARVATION_LIMIT = 0.5,
 
 	MIL_LACK_EVERYDAY_NEED = 0.05,

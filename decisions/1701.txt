@@ -848,4 +848,20 @@ political_decisions = {
 		}
 	}
 
+	plc_language_on = {
+		potential = {	
+		NOT = { has_global_flag = plc_language }	
+        tag = PLC
+		}
+		allow = {
+		prestige = 10
+        NOT = { jingoism = 6 }
+		war = no
+		}
+		effect = {
+		add_accepted_culture = byelorussian
+		set_global_flag = plc_language
+		}
+	}
+   }
 }

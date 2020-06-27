@@ -1375,6 +1375,11 @@
 		religion = jewish
 		size = 177
 	}
+	farmers = {
+		culture = ukrainian
+		religion = orthodox
+		size = 46000
+	}
 }
 995 = {
 	bureaucrats = {
@@ -2533,12 +2538,12 @@
 	artisans = {
 		culture = russian
 		religion = protestant
-		size = 3078
+		size = 2078
 	}
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 18600
+		size = 12600
 	}
 	craftsmen = {
 		culture = russian
@@ -2568,7 +2573,7 @@
 	farmers = {
 		culture = russian
 		religion = protestant
-		size = 24600
+		size = 22600
 	}
 	farmers = {
 		culture = udmurt
@@ -2878,7 +2883,7 @@
 	farmers = {
 		culture = bashkir
 		religion = sunni
-		size = 1469
+		size = 569
 	}
 	bureaucrats = {
 		culture = mordva
@@ -2933,7 +2938,7 @@
 	farmers = {
 		culture = tatar
 		religion = sunni
-		size = 27617
+		size = 18617
 	}
 	bureaucrats = {
 		culture = tatar
@@ -3325,12 +3330,7 @@
 		size = 11260
 	}
 }
-1042 = {
-	bureaucrats = {
-		culture = russian
-		religion = protestant
-		size = 110
-	}
+2658 = {
 	bureaucrats = {
 		culture = polish
 		religion = catholic
@@ -3341,6 +3341,68 @@
 		religion = orthodox
 		size = 65
 	}
+	clergymen = {
+		culture = russian
+		religion = protestant
+		size = 50
+	}
+	artisans = {
+		culture = russian
+		religion = protestant
+		size = 100
+	}
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 238
+	}
+	aristocrats = {
+		culture = bashkir
+		religion = sunni
+		con=6
+		mil=5
+		size = 27
+	}
+	farmers = {
+		culture = byelorussian
+		religion = orthodox
+		size = 170
+	}
+	clergymen = {
+		culture = bashkir
+		religion = sunni
+		con=6
+		mil=5
+		size = 47
+	}
+	artisans = {
+		culture = bashkir
+		religion = sunni
+		con=6
+		mil=5
+		size = 9
+	}
+	soldiers = {
+		culture = bashkir
+		religion = sunni
+		con=6
+		mil=5
+		size = 1000
+	}
+	farmers = {
+		culture = bashkir
+		religion = sunni
+		con=6
+		mil=5
+		size = 5500
+	}
+}
+1042 = {
+	bureaucrats = {
+		culture = russian
+		religion = protestant
+		size = 60
+	}
 	officers = {
 		culture = russian
 		religion = orthodox
@@ -3349,67 +3411,62 @@
 	clergymen = {
 		culture = russian
 		religion = protestant
-		size = 100
+		size = 50
 	}
 	artisans = {
 		culture = russian
 		religion = protestant
-		size = 600
+		size = 500
 	}
 	soldiers = {
 		culture = russian
 		religion = orthodox
-		size = 1007
+		size = 207
 	}
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 4638
+		size = 5250
 	}
 	aristocrats = {
 		culture = bashkir
 		religion = sunni
 		con=6
 		mil=5
-		size = 1007
+		size = 900
 	}
 	clergymen = {
 		culture = bashkir
 		religion = sunni
 		con=6
 		mil=5
-		size = 547
+		size = 200
 	}
 	artisans = {
 		culture = bashkir
 		religion = sunni
 		con=6
 		mil=5
-		size = 59
+		size = 50
 	}
 	soldiers = {
 		culture = bashkir
 		religion = sunni
 		con=6
 		mil=5
-		size = 2383
+		size = 1083
 	}
 	farmers = {
 		culture = bashkir
 		religion = sunni
 		con=6
 		mil=5
-		size = 19589
+		size = 23474
 	}
 	farmers = {
 		culture = ukrainian
 		religion = orthodox
 		size = 582
-	}
-	farmers = {
-		culture = byelorussian
-		religion = orthodox
-		size = 170
 	}
 	farmers = {
 		culture = nogais
@@ -3429,17 +3486,17 @@
 	bureaucrats = {
 		culture = tatar
 		religion = sunni
-		size = 43
+		size = 13
 	}
 	clergymen = {
 		culture = tatar
 		religion = sunni
-		size = 90
+		size = 50
 	}
 	artisans = {
 		culture = tatar
 		religion = sunni
-		size = 280
+		size = 180
 	}
 	soldiers = {
 		culture = tatar
@@ -3449,7 +3506,7 @@
 	farmers = {
 		culture = tatar
 		religion = sunni
-		size = 1011
+		size = 10581
 	}
 }
 1043 = {
@@ -3503,7 +3560,7 @@
 	farmers = {
 		culture = tatar
 		religion = sunni
-		size = 3855
+		size = 3455
 	}
 	farmers = {
 		culture = kalmyk
@@ -3558,7 +3615,7 @@
 	farmers = {
 		culture = bashkir
 		religion = sunni
-		size = 11399
+		size = 9099
 	}
 	farmers = {
 		culture = nogais
@@ -4769,12 +4826,7 @@
 	bureaucrats = {
 		culture = russian
 		religion = orthodox
-		size = 459
-	}
-	bureaucrats = {
-		culture = russian
-		religion = orthodox
-		size = 131
+		size = 90
 	}
 	officers = {
 		culture = russian
@@ -4784,22 +4836,22 @@
 	clergymen = {
 		culture = russian
 		religion = orthodox
-		size = 801
+		size = 201
 	}
 	artisans = {
 		culture = russian
 		religion = orthodox
-		size = 1322
+		size = 822
 	}
 	soldiers = {
 		culture = russian
 		religion = orthodox
-		size = 524
+		size = 124
 	}
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 38376
+		size = 39026
 	}
 	farmers = {
 		culture = ukrainian
@@ -4821,26 +4873,6 @@
 		religion = orthodox
 		size = 174
 	}
-	clergymen = {
-		culture = mansi
-		religion = animist
-		size = 14
-	}
-	artisans = {
-		culture = mansi
-		religion = animist
-		size = 180
-	}
-	soldiers = {
-		culture = mansi
-		religion = animist
-		size = 54
-	}
-	farmers = {
-		culture = mansi
-		religion = animist
-		size = 540
-	}
 }
 1059 = {
 	bureaucrats = {
@@ -4861,7 +4893,7 @@
 	farmers = {
 		culture = bashkir
 		religion = sunni
-		size = 6056
+		size = 556
 	}
 	farmers = {
 		culture = tatar
@@ -6076,72 +6108,20 @@
 	}
 }
 2657 = {
-	bureaucrats = {
-		culture = evenk
-		religion = animist
-		size = 1
-	}
-	clergymen = {
-		culture = evenk
-		religion = animist
-		size = 6
-	}
 	artisans = {
-		culture = evenk
-		religion = animist
-		size = 4
-	}
-	soldiers = {
-		culture = evenk
-		religion = animist
-		size = 1
-	}
-	farmers = {
-		culture = evenk
-		religion = animist
-		size = 203
-	}
-	bureaucrats = {
 		culture = russian
-		religion = orthodox
-		size = 0
-	}
-	clergymen = {
-		culture = russian
-		religion = orthodox
-		size = 0
+		religion = protestant
+		size = 1000
 	}
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 20
-	}
-}
-2658 = {
-	bureaucrats = {
-		culture = nenets 
-		religion = animist
-		size = 1
-	}
-	clergymen = {
-		culture = nenets 
-		religion = animist
-		size = 2
-	}
-	artisans = {
-		culture = nenets 
-		religion = animist
-		size = 1
-	}
-	soldiers = {
-		culture = nenets 
-		religion = animist
-		size = 1
+		size = 3000
 	}
 	farmers = {
-		culture = nenets 
-		religion = animist
-		size = 110
+		culture = russian
+		religion = protestant
+		size = 2000
 	}
 }
 2654 = {
@@ -6168,7 +6148,7 @@
 	farmers = {
 		culture = nenets
 		religion = animist
-		size = 110
+		size = 520
 	}
 }
 2674 = {
@@ -6375,7 +6355,7 @@
 	farmers = {
 		culture = evenk
 		religion = animist
-		size = 224
+		size = 338
 	}
 }
 2647 = {
@@ -7583,30 +7563,35 @@
 	}
 }
 2701 = {
-	bureaucrats = {
-		culture = evenk
-		religion = animist
-		size = 0
-	}
-	clergymen = {
-		culture = evenk
-		religion = animist
-		size = 2
-	}
 	artisans = {
-		culture = evenk
-		religion = animist
-		size = 1
-	}
-	soldiers = {
-		culture = evenk
-		religion = animist
-		size = 0
+		culture = russian
+		religion = orthodox
+		size = 500
 	}
 	farmers = {
-		culture = evenk
+		culture = russian
+		religion = orthodox
+		size = 3850
+	}
+	clergymen = {
+		culture = mansi
 		religion = animist
-		size = 114
+		size = 14
+	}
+	artisans = {
+		culture = mansi
+		religion = animist
+		size = 180
+	}
+	soldiers = {
+		culture = mansi
+		religion = animist
+		size = 54
+	}
+	farmers = {
+		culture = mansi
+		religion = animist
+		size = 540
 	}
 }
 2656 = {

@@ -332,6 +332,12 @@ country_event = {
 		name = "EVTOPTA95353"
 		any_owned = {
 			limit = {
+				continent = south_america
+			}
+			add_core = BRZ
+		}
+		any_owned = {
+			limit = {
 				is_core = BRZ
 			}
 			remove_core = POR

@@ -5656,7 +5656,7 @@
 		size = 378
 	}
 	farmers = {
-		culture = beifaren
+		culture = gan
 		religion = mahayana
 		size = 133594
 	}
@@ -5666,7 +5666,7 @@
 		size = 117
 	}
 	clergymen = {
-		culture = beifaren
+		culture = gan
 		religion = mahayana
 		size = 385
 	}
@@ -6306,27 +6306,27 @@
 }
 1561 = {
 	bureaucrats = {
-		culture = beifaren
+		culture = jin
 		religion = mahayana
 		size = 197
 	}
 	clergymen = {
-		culture = beifaren
+		culture = jin
 		religion = mahayana
 		size = 655
 	}
 	artisans = {
-		culture = beifaren
+		culture = jin
 		religion = mahayana
 		size = 3787
 	}
 	soldiers = {
-		culture = beifaren
+		culture = jin
 		religion = mahayana
 		size = 166
 	}
 	farmers = {
-		culture = beifaren
+		culture = jin
 		religion = mahayana
 		size = 58705
 	}

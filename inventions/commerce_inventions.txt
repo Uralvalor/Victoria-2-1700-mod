@@ -2112,14 +2112,14 @@ new_world_agroculture = {
 		modifier = {
 			factor = 1
 			any_neighbor_country = {
-			new_world_agroculture = yes
+			invention = new_world_agroculture
 		    }
 		}
 		modifier = {
 		factor = 3
 		any_owned_province = {
-				continent = north_america
-				continent = south_america
+				 OR = { continent = north_america
+				  continent = south_america }
 		} }
 	}
 	effect = {

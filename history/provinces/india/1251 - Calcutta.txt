@@ -1,18 +1,14 @@
 owner = ENL
-
 controller = ENL
 add_core = BNG
-
 add_core = HND
-
 trade_goods = dye
-
 life_rating = 35
+terrain = floodplain_farmland
 
 colonial = 2
 fort = 1
 
-terrain = floodplain_farmland
 1750.1.1 = {
 	owner = ENG
 	controller = ENG

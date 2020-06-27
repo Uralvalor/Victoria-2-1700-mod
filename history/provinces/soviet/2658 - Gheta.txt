@@ -1,8 +1,17 @@
+owner = BSK
+controller = BSK
+add_core = URA
+add_core = BSK
+trade_goods = iron
+life_rating = 30
+terrain = conifer_forest_hills
 
-add_core = BKL 
-trade_goods = timber
-life_rating = 15
-terrain = tundra_hills
+1750.1.1 = {
+	owner = RUS
+	controller = RUS
+        add_core = RUS
+}
+1914.1.1 = { railroad = 3 }
 1923.1.1 = {
 	owner = SOV
 	controller = SOV

@@ -158,9 +158,12 @@ vassal = {
 	start_date = 1700.1.1
 	end_date = 1750.1.1
 }
+
+# Империя Цинь
 vassal = {
 	first = MCK
 	second = MGL
 	start_date = 1696.1.1
-	end_date = 1936.1.1
+	end_date = 1816.1.1
 }
+

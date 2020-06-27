@@ -1,3 +1,10 @@
+
+MCK = {
+	value = -100
+	last_war="1697.1.1"
+	truce_until="1702.1.1"
+}
+
 army = {
 	name = "Джунгарские войска"
 	location = 1600
