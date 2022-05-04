@@ -568,27 +568,27 @@
 }
 1471 = {
 	bureaucrats = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 937
 	}
 	clergymen = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 3097
 	}
 	artisans = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 17747
 	}
 	soldiers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 778
 	}
 	farmers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 274542
 	}
@@ -672,52 +672,52 @@
 }
 1473 = {
 	bureaucrats = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 829
 	}
 	clergymen = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 2780
 	}
 	artisans = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 16095
 	}
 	soldiers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 706
 	}
 	farmers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 104849
 	}
 	bureaucrats = {
-		culture = beifaren
+		culture = nanfaren
 		religion = sunni
 		size = 30
 	}
 	clergymen = {
-		culture = beifaren
+		culture = nanfaren
 		religion = sunni
 		size = 108
 	}
 	artisans = {
-		culture = beifaren
+		culture = nanfaren
 		religion = sunni
 		size = 741
 	}
 	soldiers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = sunni
 		size = 26
 	}
 	farmers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = sunni
 		size = 9598
 	}
@@ -776,27 +776,27 @@
 }
 1475 = {
 	bureaucrats = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 847
 	}
 	clergymen = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 2787
 	}
 	artisans = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 16135
 	}
 	soldiers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 706
 	}
 	farmers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 249130
 	}
@@ -4629,87 +4629,87 @@
 }
 2221 = {
 	clergymen = {
-		culture = beifaren
+		culture = nanfaren
 		religion = catholic
 		size = 20
 	}
 	artisans = {
-		culture = beifaren
+		culture = nanfaren
 		religion = catholic
 		size = 1024
 	}
 	farmers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = catholic
 		size = 9377
 	}
 	bureaucrats = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 451
 	}
 	bureaucrats = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 2295
 	}
 	officers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 119
 	}
 	clergymen = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 1354
 	}
 	artisans = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 12746
 	}
 	soldiers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 342
 	}
 	farmers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 103224
 	}
 	bureaucrats = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 265
 	}
 	bureaucrats = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 794
 	}
 	officers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 60
 	}
 	clergymen = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 855
 	}
 	artisans = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 8660
 	}
 	soldiers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 218
 	}
 	farmers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = mahayana
 		size = 72261
 	}
@@ -8881,7 +8881,7 @@
 	artisans = {
 		culture = tibetan
 		religion = gelugpa
-		size = 13285
+		size = 3285
 	}
 	soldiers = {
 		culture = tibetan
@@ -8891,7 +8891,17 @@
 	farmers = {
 		culture = tibetan
 		religion = gelugpa
-		size = 52931
+		size = 12931
+	}
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 10000
+	}
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 42931
 	}
 }
 1617 = {

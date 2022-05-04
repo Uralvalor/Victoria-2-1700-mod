@@ -13,6 +13,7 @@ civilized = yes
 
 set_country_flag = serfdom_not_abolished
 
+#200 million guilders (=100% gdp) between 1688 and 1713
 
 foreign_naval_officers = yes_foreign_naval_officers 
 military_constructions = yes_military_constructions
@@ -62,7 +63,7 @@ immigration_policy = open_immigration
 
 
 # Social Reforms
-wage_reform = no_minimum_wage
+wage_reform = acceptable_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = low_safety
 health_care = trinket_health_care

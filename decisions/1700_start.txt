@@ -1,0 +1,82 @@
+political_decisions = {
+
+
+1700_start_decision = {
+	potential = {
+		ai = yes
+		year = 1700
+		NOT = { year = 1750 }
+	}
+
+	alert = no
+
+	allow = {
+				NOT = {	has_global_flag = 1700_start_date_flag }
+	}
+
+	effect = {
+#1700 start marker
+set_global_flag = 1700_start_date_flag
+
+#orange and transvaal error
+        MAT = { inherit = TRN }
+        BSH = { inherit = ORA }
+ }
+}
+
+1700_reserve = {
+	potential = {
+		ai = yes
+		year = 1700
+		NOT = { year = 1750 }
+		NOT = { has_global_flag = 1700_reserve }
+	}
+
+	alert = yes
+
+	allow = {
+			has_global_flag = 1700_start_date_flag 
+			has_global_flag = 1700_debt
+	}
+
+	effect = {
+	            set_global_flag = 1700_reserve
+                NET = { treasury = 13600 precious_metal = 1360 }
+                VEN = { treasury = 3500 precious_metal = 350 }
+                LUB = { treasury = 6000 precious_metal = 600 }
+                POR = { treasury = 26000 precious_metal = 2600 }
+                SWI = { treasury = 5000 precious_metal = 500 }
+
+	         }
+  }
+
+
+1700_debt = {
+	potential = {
+		ai = yes
+		year = 1700
+		NOT = { year = 1750 }
+		NOT = { has_global_flag = 1700_debt }
+		has_global_flag = 1700_start_date_flag 
+	}
+
+	alert = yes
+
+	allow = {
+		    has_country_modifier = 1700_loan
+	        NOT = { has_global_flag = 1700_debt }
+	}
+
+	effect = {
+	            set_global_flag = 1700_debt
+				
+                ENL = { add_tax_relative_income = -146 }
+                FRA = { add_tax_relative_income = -223 }
+                NET = { add_tax_relative_income = -183 }
+
+				any_country = { add_tax_relative_income = -80 }
+				
+		}
+  }
+  
+ }

@@ -828,7 +828,7 @@ political_decisions = {
 		prestige = 10
 		NOT = { badboy = 0.5 }
 		any_neighbor_country ={
-					gov_religion = sunni
+					religion = sunni
 			        land_reform = nomads
 					NOT={war_with=THIS}			
 			}
@@ -839,7 +839,7 @@ political_decisions = {
 		set_global_flag = kurultai
 		any_neighbor_country ={
 			limit = {
-					gov_religion = sunni
+					religion = sunni
 			        land_reform = nomads
 					NOT={war_with=THIS}			
 			}

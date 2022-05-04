@@ -188,6 +188,8 @@ country_event = {
 	option = {
 		name = "Great!"
 		
+		
+		add_country_modifier = { name = 1700_loan duration = 15 }
 		any_pop = {
 			limit = {
 				type = capitalists

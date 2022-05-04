@@ -785,6 +785,33 @@ province_event = {
 		trade_goods = cattle
 	}
 }
+province_event = {
+	
+	id = 991114
+
+	trigger = {
+		year = 1760
+		trade_goods = wool
+ 		or = {
+			province_id = 1613			
+            province_id = 893
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 24
+
+	}
+
+	title = "ѕастбища исс€кли"
+	desc = "  сожалению нещадное истребление растительности ради шерсти привело к тому, что провинци€ больше не дает достаточного количества шерсти !"
+	picture = ""
+
+	option = {
+		name = "“ам есть металлы"
+		trade_goods = iron
+	}
+}
 ################################
 #        DIAMOND EVENTS        #
 ################################

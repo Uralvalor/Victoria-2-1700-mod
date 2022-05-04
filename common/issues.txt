@@ -478,54 +478,6 @@ political_reforms = {
 		}
 		
 	}
-
-	gov_religion = {	
-		orthodox = { 
-			allow = { religious_policy = moralism }
-		}
-		catholic = { 
-			allow = { religious_policy = moralism }
-		}
-		protestant = {  
-			allow = { religious_policy = moralism }
-		}
-		coptic = {  
-			allow = { religious_policy = moralism }
-		}
-		sunni = {  
-			allow = { religious_policy = moralism }
-		}
-		shiite = {  
-			allow = { religious_policy = moralism }
-		}
-		jewish = {  
-			allow = { religious_policy = moralism }
-		}
-		mahayana = { 
-			allow = { religious_policy = moralism }
-			}
-		gelugpa = {  
-			allow = { religious_policy = moralism }
-		}
-		theravada = {  
-			allow = { religious_policy = moralism }
-		}
-		hindu = {  
-			allow = { religious_policy = moralism }
-		}
-		shinto = {  
-			allow = { religious_policy = moralism }
-		}
-		sikh = {  
-			allow = { religious_policy = moralism }
-		}
-		animist = {  
-			allow = { religious_policy = moralism }
-		}
-		secularism = { 
-			allow = { religious_policy = pro_atheism }
-		}
-	}
 }
 ##########################################
 # Social reforms.
@@ -804,18 +756,24 @@ social_reforms = {
 	finance_regulation = {
 		next_step_only = yes
 		massive_interest = {
+         RGO_output = 0.10
+         import_cost = 0.1
 		 loan_interest = 0.025
 		 tax_efficiency = 0.19
 		 factory_input = 0.1
 		 factory_owner_cost = 0.1
 		 factory_throughput = -0.1
+	     rich_income_modifier = 0.25
 		}
 		large_interest = {
+         RGO_output = 0.05
+         import_cost = 0.05
 		 loan_interest = 0.006
 		 tax_efficiency = 0.09
 		 factory_input = 0.05
 		 factory_owner_cost = 0.05
 		 factory_throughput = -0.05
+         rich_income_modifier = 0.1
 			allow = { has_country_flag = ad_hoc_money_bill_printing  }
 		}
 		medium_interest = {
@@ -827,18 +785,26 @@ social_reforms = {
 			allow = { has_country_flag = private_bank_money_bill_printing  }
 		}
 		low_interest = {
+		 diplomatic_points_modifier = 0.05
+		 influence_modifier = 0.05
+		 import_cost = -0.05
 		 tax_efficiency = 0.02
 		 factory_input = 0.01
 		 factory_owner_cost = 0.01
 		 factory_throughput = -0.01
+         rich_income_modifier = -0.1
 			allow = { has_country_flag = central_bank_money_bill_printing  }
 		}
 		no_interest = {
+		 diplomatic_points_modifier = 0.1
+		 influence_modifier = 0.1
+		 import_cost = -0.1
 		 loan_interest = -0.002
 		 tax_efficiency = -0.02
 		 factory_input = -0.02
 		 factory_owner_cost = -0.02
 		 factory_throughput = 0.02
+	     rich_income_modifier = -0.25
 			allow = { has_country_flag = bretton_woods_system  }
 		}
 	}

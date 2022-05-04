@@ -95,6 +95,151 @@ non_civil_caste_war = {
 	research_points_modifier = -0.15
 	icon = 5
 }
+
+#Blockade
+
+blockade_1 = {
+	trigger = {
+		war = yes
+		blockade = 0.25
+	}	
+	factory_input = 0.1
+	import_cost = 0.2
+	icon = 5
+}
+
+blockade_2 = {
+	trigger = {
+		war = yes
+		blockade = 0.5
+	}	
+	factory_input = 0.2
+	import_cost = 0.4
+	icon = 5
+}
+
+blockade_3 = {
+	trigger = {
+		war = yes
+		blockade = 0.75
+	}	
+	factory_input = 0.3
+	import_cost = 0.8
+	icon = 5
+}
+
+blockade_4 = {
+	trigger = {
+		war = yes
+		blockade = 1
+	}	
+	factory_input = 0.4
+	import_cost = 1.0
+	icon = 5
+}
+
+#Global Reserve Currency
+
+global_reserve_currency = {
+	trigger = {
+		rank = 2
+		big_producer = credit
+		OR = { government = democracy government = hms_government government = absolute_monarchy }
+	}
+	prestige = 0.01
+	import_cost = -0.40
+	diplomatic_points_modifier = 0.50
+	rich_income_modifier = 0.2
+	middle_income_modifier = 0.1
+	icon = 5
+}
+
+major_reserve_currency = {
+	trigger = {
+		NOT = { rank = 2 }
+		rank = 8
+		big_producer = credit
+		OR = { government = democracy government = hms_government government = absolute_monarchy }
+	}
+	prestige = 0.005
+	import_cost = -0.20
+	diplomatic_points_modifier = 0.25
+	rich_income_modifier = 0.1
+	middle_income_modifier = 0.05
+	icon = 5
+}
+
+
+### Pop Majority Ideology Effects ###
+
+liberal_discourse = {
+	trigger = {
+	year = 1816
+		OR = { 
+			pop_majority_ideology = liberal 
+			pop_majority_ideology = anarcho_liberal 
+		}
+	}
+	global_assimilation_rate = -0.10
+	non_accepted_pop_militancy_modifier = -0.02
+	global_pop_consciousness_modifier = 0.02
+	global_population_growth = -0.001
+	icon = 5
+}
+
+socialist_discourse = {
+	trigger = {
+	year = 1816
+		OR = { 
+			pop_majority_ideology = socialist
+			pop_majority_ideology = communist
+		}
+	}
+	global_assimilation_rate = 0.10
+	non_accepted_pop_militancy_modifier = 0.01
+	global_pop_consciousness_modifier = -0.01
+	global_population_growth = -0.0005
+	icon = 5
+}
+
+nationalist_discourse = {
+	trigger = {
+	year = 1816
+			pop_majority_ideology = fascist
+	}
+	global_assimilation_rate = 0.15
+	non_accepted_pop_militancy_modifier = 0.02
+	global_pop_consciousness_modifier = -0.02
+	
+	tax_efficiency = 0.05
+	icon = 5
+}
+
+conservative_discourse = {
+	trigger = {
+	year = 1816
+		pop_majority_ideology = conservative
+	}
+	global_assimilation_rate = 0.05
+	non_accepted_pop_militancy_modifier = 0.01
+	global_pop_consciousness_modifier = -0.01
+	global_population_growth = 0.0005
+	icon = 5
+}
+
+traditionalist_discourse = {
+	trigger = {
+	year = 1816
+		pop_majority_ideology = reactionary
+	}
+	global_assimilation_rate = 0.10
+	non_accepted_pop_militancy_modifier = 0.02
+	global_pop_consciousness_modifier = -0.02
+	global_population_growth = 0.001
+	icon = 5
+}
+
+
 #эффект не работает, реализовать возможно через изобретение/технологии
 #free_economy_time = {
 #	trigger = { 					

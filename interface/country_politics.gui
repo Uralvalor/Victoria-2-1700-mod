@@ -801,33 +801,7 @@ guiTypes = {
 
 		}
 		
-		windowType = {
-			name = "voting_system"
-			backGround =""
-			position = { x = 686 y = 555 }
-			size = { x=686 y= 100}
-			moveable = 0
-			dontRender = ""
-			horizontalBorder = "0"
-			verticalBorder = ""
-			fullScreen = no
-			
-				iconType = {
-				name = "politics_polparties"
-			    spriteType = "GFX_politics_votingsys"
-				position = { x= 11 y = 6 } #WAS { x= 7 y = 8 }
-				Orientation = "UPPER_LEFT"
-					}
-				instantTextBoxType = { 
-				name = "reform_name"
-				position = { x = 40 y = 14 } #WAS { x = 40 y = 15 }
-				font = "vic_18_black" #WAS "vic_18"
-				text = "REFORM_NAME"	
-				maxWidth = 100
-				maxHeight = 20	
-					}
 
-			}
 			
 			windowType = {
 			name = "conscription"
@@ -883,8 +857,9 @@ guiTypes = {
 					}
 
 			}
+			
 			windowType = {
-			name = "gov_religion"
+			name = "voting_system"
 			backGround =""
 			position = { x = 834 y = 358 }
 			size = { x=310 y=100 }
@@ -895,20 +870,22 @@ guiTypes = {
 			fullScreen = no
 			
 				iconType = {
-				name = "politics_gun"
-				spriteType = "GFX_politics_irreligion"
-				position = { x= 11 y = 7 } #WAS { x= 7 y = 8 }
+				name = "politics_polparties"
+			    spriteType = "GFX_politics_votingsys"
+				position = { x= 11 y = 7 } 
 				Orientation = "UPPER_LEFT"
 					}
 				instantTextBoxType = { 
 				name = "reform_name"
-				position = { x = 40 y = 14 } #WAS { x = 40 y = 15 }
+				position = { x = 40 y = 14 }
 				font = "vic_18_black" #WAS "vic_18"
 				text = "REFORM_NAME"	
 				maxWidth = 100
 				maxHeight = 20	
 					}
+
 			}
+
 
 
 			########################

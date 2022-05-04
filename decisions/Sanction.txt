@@ -6,7 +6,7 @@ Sanction1 = {
 			rank = 1
 	}
 	allow = {	
-	        NOT = { badboy = 0.04 }
+	    NOT = { badboy = 0.04 }
 		NOT = { war_policy  = pacifism  }
 		NOT = { war_exhaustion = 1 }	
 	}
@@ -16,7 +16,7 @@ Sanction1 = {
 	badboy=2.4
 		random_country={
 			limit = {
-					NOT = {	relation = { who = THIS value = -185 }	}
+					NOT = {	relation = { who = THIS value = -150 }	}
 					NOT={war_with=THIS}
 					NOT={alliance_with  = THIS}
 					is_vassal = no
@@ -60,7 +60,7 @@ Sanction2 = {
 	badboy=2.4
 		random_country={
 			limit = {
-					NOT = {	relation = { who = THIS value = -185 }	}
+					NOT = {	relation = { who = THIS value = -150 }	}
 					NOT={war_with=THIS}
 					NOT={alliance_with  = THIS}
 					is_vassal = no
@@ -105,7 +105,7 @@ Sanction3 = {
 	badboy=2.4
 		random_country={
 			limit = {
-					NOT = {	relation = { who = THIS value = -185 }	}
+					NOT = {	relation = { who = THIS value = -150 }	}
 					NOT={war_with=THIS}
 					NOT={alliance_with  = THIS}
 					is_vassal = no
@@ -150,7 +150,7 @@ Sanction4 = {
 	badboy=2.4
 		random_country={
 			limit = {
-					NOT = {	relation = { who = THIS value = -185 }	}
+					NOT = {	relation = { who = THIS value = -150 }	}
 					NOT={war_with=THIS}
 					NOT={alliance_with  = THIS}
 					is_vassal = no
@@ -195,7 +195,7 @@ Sanction5 = {
 	badboy=2.4
 		random_country={
 			limit = {
-					NOT = {	relation = { who = THIS value = -185 }	}
+					NOT = {	relation = { who = THIS value = -150 }	}
 					NOT={war_with=THIS}
 					NOT={alliance_with  = THIS}
 					is_vassal = no
@@ -240,7 +240,7 @@ Sanction6 = {
 	badboy=2.4
 		random_country={
 			limit = {
-					NOT = {	relation = { who = THIS value = -185 }	}
+					NOT = {	relation = { who = THIS value = -150 }	}
 					NOT={war_with=THIS}
 					NOT={alliance_with  = THIS}
 					is_vassal = no
@@ -285,7 +285,7 @@ Sanction7 = {
 	badboy=2.4
 		random_country={
 			limit = {
-					NOT = {	relation = { who = THIS value = -185 }	}
+					NOT = {	relation = { who = THIS value = -150 }	}
 					NOT={war_with=THIS}
 					NOT={alliance_with  = THIS}
 					is_vassal = no
@@ -330,7 +330,7 @@ Sanction8 = {
 	badboy=2.4
 		random_country={
 			limit = {
-					NOT = {	relation = { who = THIS value = -185 }	}
+					NOT = {	relation = { who = THIS value = -150 }	}
 					NOT={war_with=THIS}
 					NOT={alliance_with  = THIS}
 					is_vassal = no

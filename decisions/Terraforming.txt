@@ -142,7 +142,7 @@ political_decisions = {
 			water_wheel_power = 1
 		}
 		allow = {
-		    NOT = { gov_religion = secularism }
+		    NOT = { religion = secularism }
 	       	money = 100000	
             NOT = {	year = 1790 }
 		}

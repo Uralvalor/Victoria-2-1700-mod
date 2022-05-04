@@ -918,7 +918,7 @@ fertilizer_factory = {
 metal_money = {
 	template = money_user_template
 	input_goods = { 
-		precious_metal = 0.015		#3
+		precious_metal = 0.03		#3
 	    #transportation = 1.5
 	}
 	output_goods = credit 
@@ -1038,7 +1038,7 @@ credit_money = {
 jewellery_factory = {       
 	template = factory_template
 	input_goods = {    
-		precious_metal = 0.6
+		precious_metal = 1.2
 		iron = 0.1
 	    #transportation = 0.7
 	}
@@ -1593,7 +1593,7 @@ artisan_paper = {
 
 artisan_metall_money = {       
 	input_goods = { 
-		precious_metal = 0.015		#3
+		precious_metal = 0.03		#3
 	}
 	output_goods = credit 
 	value = 0.0004			#3
@@ -1611,7 +1611,7 @@ artisan_metall_money = {
 
 artisan_jewellery = {       
 	input_goods = {    
-		precious_metal = .6
+		precious_metal = 1.2
 	    #transportation = 0.6
 	}
 	output_goods = jewellery 

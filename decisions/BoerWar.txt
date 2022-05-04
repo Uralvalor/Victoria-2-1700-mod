@@ -47,6 +47,7 @@ political_decisions = {
 	}
 	sand_river_convention = {
 		potential = {
+		    year = 1810
 			OR = { tag = ENG tag = NET }
 			has_global_flag = the_great_trek
 			NOT = {
@@ -76,6 +77,7 @@ political_decisions = {
 	
 	orange_river_convention = {
 		potential = {
+		    year = 1810
 			OR = { tag = ENG tag = NET }
 			has_global_flag = the_great_trek
 			NOT = {

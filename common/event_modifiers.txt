@@ -1656,7 +1656,7 @@ CRI_integrate = {
 }
 
 sanction_1 = {
-	loan_interest = 0.25
+	loan_interest = 0.12
 	import_cost = 0.5
 	#factory_goods_output = {
 	#		credit = -0.25 
@@ -1664,7 +1664,7 @@ sanction_1 = {
 	icon = 10
 }
 sanction_2 = {
-	loan_interest = 0.2
+	loan_interest = 0.1
 	import_cost = 0.4
 	#factory_goods_output = {
 	#		credit = -0.2 
@@ -1672,7 +1672,7 @@ sanction_2 = {
 	icon = 10
 }
 sanction_3 = {
-	loan_interest = 0.17
+	loan_interest = 0.09
 	import_cost = 0.35
 	#factory_goods_output = {
 	#		credit = -0.17 
@@ -1680,7 +1680,7 @@ sanction_3 = {
 	icon = 10
 }
 sanction_4 = {
-	loan_interest = 0.15
+	loan_interest = 0.08
 	import_cost = 0.3
 	#factory_goods_output = {
 	#		credit = -0.15 
@@ -1688,7 +1688,7 @@ sanction_4 = {
 	icon = 10
 }
 sanction_5 = {
-	loan_interest = 0.13
+	loan_interest = 0.07
 	import_cost = 0.25
 	#factory_goods_output = {
 	#		credit = -0.13 
@@ -1696,7 +1696,7 @@ sanction_5 = {
 	icon = 10
 }
 sanction_6 = {
-	loan_interest = 0.1
+	loan_interest = 0.05
 	import_cost = 0.2
 	#factory_goods_output = {
 	#		credit = -0.1 
@@ -1704,7 +1704,7 @@ sanction_6 = {
 	icon = 10
 }
 sanction_7 = {
-	loan_interest = 0.07
+	loan_interest = 0.035
 	import_cost = 0.15
 	#factory_goods_output = {
 	#		credit = -0.07 
@@ -1712,7 +1712,7 @@ sanction_7 = {
 	icon = 10
 }
 sanction_8 = {
-	loan_interest = 0.05
+	loan_interest = 0.025
 	import_cost = 0.1
 	#factory_goods_output = {
 	#		credit = -0.05 
@@ -1790,4 +1790,10 @@ potop = {
 	immigrant_attract = -1
 	immigrant_push = 0.5
 	icon = 8
+}
+religion_flag = {
+	icon = 5
+}
+1700_loan = {
+	icon = 5
 }
