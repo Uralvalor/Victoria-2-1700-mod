@@ -1,7 +1,7 @@
 capital = 2560
 primary_culture = north_german
 culture = south_german
-religion = secularism
+religion = protestant
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
@@ -20,6 +20,7 @@ civilized = yes
 	foreign_officers = yes_foreign_officers 
 	army_schools = 	yes_army_schools
 	foreign_navies = yes_foreign_navies 
+set_country_flag = desecularized
 
 # Political reforms
 slavery = no_slavery

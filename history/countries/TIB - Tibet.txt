@@ -7,6 +7,8 @@ nationalvalue = nv_order
 literacy = 0.01
 non_state_culture_literacy = 0.04 #Chinese
 
+set_country_flag = desecularized
+
 ruling_party = TIB_reactionary
 upper_house = {
 	fascist = 0

@@ -1,7 +1,7 @@
 capital = 369
 primary_culture = north_german
 culture = danish
-religion = secularism
+religion = protestant
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
@@ -10,6 +10,7 @@ prestige = 5
 civilized = yes
 
 set_country_flag = serfdom_not_abolished
+set_country_flag = desecularized
 
 	land_reform = yes_land_reform
 	admin_reform = yes_admin_reform

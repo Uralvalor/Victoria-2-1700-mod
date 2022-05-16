@@ -1,7 +1,7 @@
 capital = 706
 primary_culture = polish
 culture = lithuanian
-religion = secularism
+religion = catholic
 government = democracy
 plurality = 7
 prestige = 5
@@ -16,6 +16,7 @@ nonstate_consciousness = 1
 
 set_country_flag = serfdom_not_abolished
 set_country_flag = princes_recieve_foreign_education
+set_country_flag = desecularized
 
 foreign_naval_officers = yes_foreign_naval_officers 
 military_constructions = yes_military_constructions

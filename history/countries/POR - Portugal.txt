@@ -1,6 +1,6 @@
 capital = 521
 primary_culture = portuguese
-religion = secularism
+religion = catholic
 government = absolute_monarchy
 plurality = 5
 nationalvalue = nv_order
@@ -13,7 +13,7 @@ colonial_points = 250
 consciousness = 10
 nonstate_consciousness = 1
 
-
+set_country_flag = desecularized
 set_country_flag = serfdom_not_abolished
 
 # Political reforms

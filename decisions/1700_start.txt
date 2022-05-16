@@ -41,11 +41,12 @@ set_global_flag = 1700_start_date_flag
 
 	effect = {
 	            set_global_flag = 1700_reserve
-                NET = { treasury = 13600 precious_metal = 1360 }
-                VEN = { treasury = 3500 precious_metal = 350 }
-                LUB = { treasury = 6000 precious_metal = 600 }
-                POR = { treasury = 26000 precious_metal = 2600 }
-                SWI = { treasury = 5000 precious_metal = 500 }
+                NET = { treasury = 6800 precious_metal = 1360 }
+                VEN = { treasury = 1750 precious_metal = 350 }
+                LUB = { treasury = 3000 precious_metal = 600 }
+                POR = { treasury = 10000 precious_metal = 2000 }
+                SWI = { treasury = 2500 precious_metal = 500 }
+                LOR = { treasury = 2500 precious_metal = 500 }
 
 	         }
   }
@@ -73,8 +74,28 @@ set_global_flag = 1700_start_date_flag
                 ENL = { add_tax_relative_income = -146 }
                 FRA = { add_tax_relative_income = -223 }
                 NET = { add_tax_relative_income = -183 }
+                AUS = { add_tax_relative_income = -80 }
+                SPA = { add_tax_relative_income = -80 }
+                SWE = { add_tax_relative_income = -80 }
+                TUR = { add_tax_relative_income = -80 }
+                PLC = { add_tax_relative_income = -80 }
+                DEN = { add_tax_relative_income = -80 }
+                PRU = { add_tax_relative_income = -80 }
+                VEN = { add_tax_relative_income = -80 }
+                POR = { add_tax_relative_income = -80 }
+                BAV = { add_tax_relative_income = -80 }
+                SAX = { add_tax_relative_income = -80 }
+                PAP = { add_tax_relative_income = -80 }
+                SWI = { add_tax_relative_income = -80 }
+                GEN = { add_tax_relative_income = -80 }
+                SAV = { add_tax_relative_income = -80 }
+                TUS = { add_tax_relative_income = -80 }
+                MUN = { add_tax_relative_income = -80 }
+                WUR = { add_tax_relative_income = -80 }
+                LOR = { add_tax_relative_income = -80 }
+                TRR = { add_tax_relative_income = -80 }
 
-				any_country = { add_tax_relative_income = -80 }
+				any_country = { add_tax_relative_income = -50 }
 				
 		}
   }

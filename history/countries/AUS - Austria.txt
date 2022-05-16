@@ -1,6 +1,6 @@
 capital = 619
 primary_culture = south_german
-religion = secularism
+religion = catholic
 government = absolute_monarchy
 plurality = 15
 nationalvalue = nv_order
@@ -15,6 +15,7 @@ nonstate_consciousness = 1
 
 set_country_flag = holy_roman_emperor
 set_country_flag = serfdom_not_abolished
+set_country_flag = desecularized
 
 #GreaterPowers = prestige
 prestige = 50

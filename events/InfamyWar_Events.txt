@@ -118,7 +118,7 @@ country_event = {
 		remove_country_modifier = international_pariah
                 clr_country_flag = Infany_war_going
 		prestige = 5
-		badboy = -1000
+		badboy = -3
 	}
 }
 #If the coalition win

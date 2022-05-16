@@ -2,7 +2,7 @@ capital = 487
 primary_culture = spanish
 culture = catalan
 culture = basque
-religion = secularism
+religion = catholic
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_equality
@@ -10,6 +10,8 @@ literacy = 0.08
 #non_state_culture_literacy = 0.25
 colonial_points = 250
 
+
+set_country_flag = desecularized
 
 prestige = 5
 

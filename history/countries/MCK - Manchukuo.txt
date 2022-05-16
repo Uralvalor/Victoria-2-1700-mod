@@ -1,6 +1,6 @@
 capital = 1612
 primary_culture = manchu
-religion = secularism 
+religion = mahayana 
 government = absolute_monarchy
 plurality = 0
 nationalvalue = nv_order
@@ -9,6 +9,8 @@ non_state_culture_literacy = 0.02
 
 
 set_country_flag = serfdom_not_abolished
+set_country_flag = desecularized
+
 land_reform = no_land_reform  
 
 # Political reforms

@@ -1,6 +1,6 @@
 capital = 300
 primary_culture = english
-religion = secularism
+religion = protestant
 government = hms_government
 plurality = 25
 nationalvalue = nv_order
@@ -11,6 +11,7 @@ non_state_culture_literacy = 0.2
 #GreaterPowers = prestige
 prestige = 65
 
+set_country_flag = desecularized
 
 oob = "ENL_oob.txt"
 

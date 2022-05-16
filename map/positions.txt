@@ -80871,7 +80871,17 @@
 2771 = {} # 69;200;200;Sea of Crete
 2772 = {} # 70;200;250;Aegean Sea
 2773 = {} # 71;220;250;Sea of Marmara
-2774 = {} # 72;250;250;Gulf of Varna
+2774 = {
+     text_position = {
+        x = 3269
+        y = 1663
+    }
+
+    unit = {
+        x = 3269
+        y = 1663
+    }
+	} # 72;250;250;Gulf of Varna
 2775 = {
     text_position = {
         x = 3300.986667
